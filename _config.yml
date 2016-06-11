@@ -25,6 +25,7 @@ twitter_username: arctosdb
 github_username:  Arctosdb
 
 # Build settings
+#exclude: ["bower_components/"]
 markdown: kramdown
 markdown_ext: "markdown, mkdown, mkdn, mkd, md"
 highlighter: rouge
