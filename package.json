@@ -1,21 +1,21 @@
 {
-  "name": "wp-arctos-theme",
-  "version": "1.2.5",
-  "description": "Wordpress theme for ArctosDB.org",
-  "main": "arctosdb.org/style.css",
+  "name": "arctosdb.org",
+  "version": "2.0.0",
+  "description": "Jekyll site and theme for ArctosDB.org",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/museum-of-vertebrate-zoology/wp-arctos-theme.git"
+    "url": "https://github.com/ArctosDB/documentation-wiki/documentation-wiki.git"
   },
   "author": "Philip Kahn <tigerhawkvok@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/museum-of-vertebrate-zoology/wp-arctos-theme/issues"
+    "url": "https://github.com/ArctosDB/documentation-wiki/issues"
   },
-  "homepage": "https://github.com/museum-of-vertebrate-zoology/wp-arctos-theme",
+  "homepage": "https://arctosdb.github.io/documentation-wiki",
   "devDependencies": {
     "autoprefixer-core": "^6.0.1",
     "bootlint": "^0.12.0",

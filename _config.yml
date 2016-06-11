@@ -22,7 +22,7 @@ logo: ""
 #url: "http://docs.arctosdb.org" # the base hostname & protocol for your site
 url: "https://arctos.github.io"
 twitter_username: arctosdb
-github_username:  Arctos
+github_username:  Arctosdb
 
 # Build settings
 markdown: kramdown
