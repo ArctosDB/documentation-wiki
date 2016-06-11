@@ -41,3 +41,6 @@ Icon
 *~
 bower_components/bootstrap/node_modules/
 node_modules/
+_site
+.sass-cache
+.jekyll-metadata
