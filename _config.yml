@@ -20,7 +20,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 cover: ""
 logo: ""
 
-url: "http://docs.arctosdb.org" # the base hostname & protocol for your site
+#url: "http://docs.arctosdb.org" # the base hostname & protocol for your site
+url: "http://arctos.github.io/documentation-wiki"
 twitter_username: arctosdb
 github_username:  Arctos
 
