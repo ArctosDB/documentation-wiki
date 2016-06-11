@@ -1,0 +1,37 @@
+{
+    "name": "arctos",
+    "version": "1.2.5",
+    "homepage": "https://github.com/museum-of-vertebrate-zoology/wp-arctos-theme",
+    "authors": [
+        "Philip Kahn <tigerhawkvok@gmail.com>"
+    ],
+    "description": "Wordpress theme for ArctosDB.org",
+    "main": "style.css",
+    "keywords": [
+        "wordpress"
+    ],
+    "license": "GPLv3",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+        "paper-elements": "PolymerElements/paper-elements#^1.0.1",
+        "gold-elements": "PolymerElements/gold-elements#^1.0.0",
+        "polymer": "Polymer/polymer#^1.0.0",
+        "bootstrap": "^3.3.4",
+        "imagelightbox": "git://github.com/rejas/imagelightbox.git#~0.3.2",
+        "jquery": "~2.1.4",
+        "js-base64": "~2.1.5",
+        "octicons": "~2.1.2",
+        "purl": "~2.3.1",
+        "picturefill": "~2.1.0",
+        "sticky": "*",
+        "touch-imagelightbox": "~0.1.5"
+    }
+}
