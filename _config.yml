@@ -27,7 +27,7 @@ github_username:  Arctos
 # Build settings
 markdown: kramdown
 markdown_ext: "markdown, mkdown, mkdn, mkd, md"
-highlighter: rogue
+highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 paginate: 5
