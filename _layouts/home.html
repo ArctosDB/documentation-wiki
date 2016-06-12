@@ -7,12 +7,15 @@
 
     {% include header.html %}
 
-    <main class="page-content">
-      <article class="home-wrapper">
+    <main class="page-content row">
+      <article class="home-wrapper col-xs-12 col-md-9">
         {{ content }}
       </article>
-      <aside>
-        
+      <aside class="col-md-3 hidden-xs hidden-sm">
+        <div id="twitter">
+          <a id='twitter_embed' class="twitter-timeline" href="https://twitter.com/arctosdb" data-widget-id="344887340390551552" data-screen-name="arctosdb">Tweets by @arctosdb</a>
+          <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
       </aside>
     </main>
 

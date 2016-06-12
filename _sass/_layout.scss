@@ -167,16 +167,21 @@ nav {
 ***/
 
 .home-wrapper {
-  max-width: 800px;
-  float: left;
+  //max-width: 800px;
+  //width: 100%;
+  //float: left;
+  padding: 1rem;
+  &+aside {
+    padding: 1rem;
+  }
     @media(min-width: 1024px) {
       & + aside {
-        float: left;
+        //float: left;
       }
   }
   @media(max-width: 1023px) {
     & + aside {
-      display: none;
+      //display: none;
     }
   }
 }
@@ -188,6 +193,7 @@ nav {
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    clear: both;
 }
 
 .footer-heading {
@@ -256,7 +262,7 @@ nav {
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 15px;
 }
 
 .page-heading {
