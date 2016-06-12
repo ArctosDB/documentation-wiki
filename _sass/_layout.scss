@@ -62,6 +62,9 @@ nav {
       text-align:center;
       height: auto !important;
     }
+    .collection {
+      text-transform: capitalize;
+    }
     }
   }
   paper-tabs[noink][nobar] paper-tab.core-selected{

@@ -1,0 +1,13 @@
+---
+layout: collection_index
+---
+<h1 class="page-heading">Documents<h1>
+<ul class="collection-list">
+  {% for collection in site.collections %}
+    {% for doc in collection.docs %}
+    <li>
+      <a class="collection-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title}}</a>
+    </li>
+    {% endfor %}
+  {% endfor %}
+</ul>

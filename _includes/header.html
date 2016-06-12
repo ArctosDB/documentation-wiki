@@ -21,10 +21,10 @@
       <paper-tab link>
         <a class="page-link link" tabindex="-1" href="{{site.baseurl}}/">Home</a>
       </paper-tab>
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
+      {% for my_page in site.collections %}
+        {% if my_page.label %}
       <paper-tab link>
-        <a class="page-link link" tabindex="-1" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        <a class="page-link link collection" tabindex="-1" href="{{ my_page.path | prepend: site.baseurl }}/">{{ my_page.label }}</a>
       </paper-tab link>
         {% endif %}
       {% endfor %}

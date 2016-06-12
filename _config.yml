@@ -9,6 +9,16 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
 
+collections:
+  - documentation
+    output: true
+  - tutorials
+    output: true
+  - how_to
+    output: true
+  - for_developers
+    output: true
+
 # Site settings
 title: ArctosDB Documentation
 email: arctos.database@gmail.com
