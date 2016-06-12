@@ -1,5 +1,5 @@
 ---
-title: "Sample File"
+title: Sample File
 layout: default
 ---
 
