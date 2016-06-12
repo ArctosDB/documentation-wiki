@@ -4,14 +4,10 @@ layout: collection_index
 <h1 class="page-heading">Documents<h1>
 <ul class="collection-list">
   {% for collection in site.collections %}
-    {% if page.path contains collection.label %}
     {% for doc in collection.docs %}
-    {% unless {{doc.title | downcase }} == "index" %}
     <li>
       <a class="collection-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title}}</a>
     </li>
-    {% endunless %}
     {% endfor %}
-    {% endif %}
   {% endfor %}
 </ul>
