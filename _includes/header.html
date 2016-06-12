@@ -15,12 +15,16 @@
       </a>
 
       <div class="trigger">
+      <paper-tabs>
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        <paper-tab link>
+          <a class="page-link link" tabindex="-1" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        </paper-tab link>
           {% endif %}
         {% endfor %}
-      </div>
+      </paper-tabs>
+    </div>
     </nav>
 
   </div>

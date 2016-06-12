@@ -16,7 +16,10 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    //float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
 
     &,
     &:visited {
@@ -25,7 +28,7 @@
 }
 
 .site-nav {
-    float: right;
+    //float: right;
     line-height: 56px;
 
     .menu-icon {
