@@ -1,6 +1,36 @@
 /**
  * Site header
  */
+
+ // Via http://brand.berkeley.edu/colors/
+$founders-rock: #2D637F;
+$berkeley-blue: #003262;
+$cal-gold: #fdb515;
+
+
+$arctos-main-blue: $berkeley-blue;
+$arctos-primary-accent: $founders-rock;
+$arctos-accent: #FF6600;
+$arctos-highlight: #e09319;
+$arctos-light-highlight: rgba(224,158,25,.2);
+$material-blue: #5677fc;
+$material-green: #4CAF50;
+$material-indigo: #3f51b5;
+$material-cyan: #00bcd4;
+$material-teal: #009688;
+$material-blue-grey: #607d8b;
+$material-red: #F44336;
+
+$bs-info: #5bc0de;
+$bs-danger: #d9534f;
+$bs-warning: #f0ad4e;
+
+$seafoam: #7cb490;
+$seafoam-light: rgba(124, 180, 144, 0.05);
+
+$muted: #777;
+$extra-muted: #666;
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -8,6 +38,26 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+}
+
+
+
+
+nav {
+paper-tabs {
+    color:#fff;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+    z-index:1000;
+paper-tab {
+    cursor:pointer;
+}
+}
+paper-tabs[noink][nobar] paper-tab.core-selected{
+    color: @arctos-accent;
+}
+paper-tabs #selectionBar {
+    background-color: @arctos-accent !important;
+}
 }
 
 .site-title {
