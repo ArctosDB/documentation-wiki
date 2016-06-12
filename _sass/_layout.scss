@@ -162,6 +162,24 @@ nav {
     }
 }
 
+/***
+* Generic
+***/
+
+.home-wrapper {
+  max-width: 800px;
+  float: left;
+    @media(min-width: 1024px) {
+      & + aside {
+        float: left;
+      }
+  }
+  @media(max-width: 1023px) {
+    & + aside {
+      display: none;
+    }
+  }
+}
 
 
 /**
