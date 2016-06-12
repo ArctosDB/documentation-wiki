@@ -10,13 +10,13 @@ gems:
   - jekyll-sitemap
 
 collections:
-  - documentation
+  documentation:
     output: true
-  - tutorials
+  tutorials:
     output: true
-  - how_to
+  how_to:
     output: true
-  - for_developers
+  for_developers:
     output: true
 
 # Site settings
