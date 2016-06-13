@@ -412,15 +412,17 @@
     ref = $("nav paper-tabs paper-tab");
     for (i = 0, len = ref.length; i < len; i++) {
       tab = ref[i];
-      thisCollection = $(tab).attr("data-label");
-      console.log("Search " + currentPath + " for " + thisCollection, currentPath.search(thisCollection));
-      if (currentPath.search(thisCollection) !== -1) {
-        console.info("We're in collection " + {
-          thisCollection: thisCollection
-        });
-        p$("nav paper-tabs").selected = index;
-        break;
-      }
+      try {
+        thisCollection = $(tab).attr("data-label");
+        console.log("Search " + currentPath + " for " + thisCollection, currentPath.search(thisCollection));
+        if (currentPath.search(thisCollection) !== -1) {
+          console.info("We're in collection " + {
+            thisCollection: thisCollection
+          });
+          p$("nav paper-tabs").selected = index;
+          break;
+        }
+      } catch (undefined) {}
       ++index;
     }
     return false;
