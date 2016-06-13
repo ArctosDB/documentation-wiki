@@ -414,6 +414,9 @@
       tab = ref[i];
       thisCollection = $(tab).attr("data-label");
       if (currentPath.search(thisCollection !== -1)) {
+        console.info("We're in collection " + {
+          thisCollection: thisCollection
+        });
         p$("nav paper-tabs").selected = index;
         break;
       }

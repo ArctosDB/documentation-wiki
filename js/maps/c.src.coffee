@@ -258,6 +258,7 @@ tabSelect = (currentPath = window.currentPagePath) ->
   for tab in $("nav paper-tabs paper-tab")
     thisCollection = $(tab).attr "data-label"
     if currentPath.search thisCollection isnt -1
+      console.info "We're in collection #{{thisCollection}}"
       p$("nav paper-tabs").selected = index
       break
     ++index
