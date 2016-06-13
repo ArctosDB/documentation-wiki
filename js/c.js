@@ -404,7 +404,7 @@
   });
 
   tabSelect = function(currentPath) {
-    var i, index, len, ref, tab, thisCollection;
+    var e, error, i, index, len, ref, ref1, tab, thisCollection;
     if (currentPath == null) {
       currentPath = window.currentPagePath;
     }
@@ -412,17 +412,19 @@
     ref = $("nav paper-tabs paper-tab");
     for (i = 0, len = ref.length; i < len; i++) {
       tab = ref[i];
+      console.log("Tab iteration");
       try {
-        thisCollection = $(tab).attr("data-label");
+        thisCollection = (ref1 = $(tab).attr("data-label")) != null ? ref1 : "NO_LABEL";
         console.log("Search " + currentPath + " for " + thisCollection, currentPath.search(thisCollection));
         if (currentPath.search(thisCollection) !== -1) {
-          console.info("We're in collection " + {
-            thisCollection: thisCollection
-          });
+          console.info("We're in collection " + thisCollection);
           p$("nav paper-tabs").selected = index;
           break;
         }
-      } catch (undefined) {}
+      } catch (error) {
+        e = error;
+        console.warn("Couldn't check - " + e.message);
+      }
       ++index;
     }
     return false;

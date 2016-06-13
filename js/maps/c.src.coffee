@@ -256,13 +256,16 @@ $ ->
 tabSelect = (currentPath = window.currentPagePath) ->
   index = 0
   for tab in $("nav paper-tabs paper-tab")
+    console.log "Tab iteration"
     try
-      thisCollection = $(tab).attr "data-label"
+      thisCollection = $(tab).attr("data-label") ? "NO_LABEL"
       console.log "Search #{currentPath} for #{thisCollection}", currentPath.search(thisCollection)
       if currentPath.search(thisCollection) isnt -1
-        console.info "We're in collection #{{thisCollection}}"
+        console.info "We're in collection #{thisCollection}"
         p$("nav paper-tabs").selected = index
         break
+    catch e
+      console.warn "Couldn't check - #{e.message}"
     ++index
   false
 
