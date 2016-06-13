@@ -413,7 +413,7 @@
     for (i = 0, len = ref.length; i < len; i++) {
       tab = ref[i];
       thisCollection = $(tab).attr("data-label");
-      if (currentPath.find(thisCollection !== false)) {
+      if (currentPath.search(thisCollection !== -1)) {
         p$("nav paper-tabs").selected = index;
         break;
       }
@@ -421,6 +421,8 @@
     }
     return false;
   };
+
+  window.tabSelect = tabSelect;
 
   linkSubmenu = function() {
     return false;
@@ -492,6 +494,7 @@
   };
 
   $(function() {
+    tabSelect();
     $("#searchsubmit").click(function() {
       return $("#sidebar-search-form").submit();
     });

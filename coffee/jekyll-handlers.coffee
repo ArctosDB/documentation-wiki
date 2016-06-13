@@ -4,11 +4,13 @@ tabSelect = (currentPath = window.currentPagePath) ->
   index = 0
   for tab in $("nav paper-tabs paper-tab")
     thisCollection = $(tab).attr "data-label"
-    if currentPath.find thisCollection isnt false
+    if currentPath.search thisCollection isnt -1
       p$("nav paper-tabs").selected = index
       break
     ++index
   false
+
+window.tabSelect = tabSelect
 
 linkSubmenu = ->
   # Placeholder, as yet unused, function.
@@ -59,6 +61,7 @@ linkoutLabels = ->
 
 $ ->
   # Local searching
+  tabSelect()
   $("#searchsubmit").click ->
     $("#sidebar-search-form").submit()
   $("#s").keyup (e) ->
