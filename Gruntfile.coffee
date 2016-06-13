@@ -26,27 +26,19 @@ module.exports = (grunt) ->
           maxBuffer: 1048576
       test:
         command: "echo test"
-      bam:
-        command: "cake bam"
-      min:
-        command: "cake min"
-      bower:
-        command: ["cd arctosdb.org", "bower update"].join("&&")
-      compress:
-        command: ["rm arctosdb.org.zip", "7za a -ssw -y -mx9 -tzip arctosdb.org.zip arctosdb.org -mmt"].join("&&")
       movesrc:
-        command: ["mv arctosdb.org/js/c.src.coffee arctosdb.org/js/maps/c.src.coffee"].join("&&")
+        command: ["mv js/c.src.coffee js/maps/c.src.coffee"].join("&&")
     min:
       dist:
-        src:['arctosdb.org/js/c.js']
-        dest:'arctosdb.org/js/c.min.js'
+        src:['js/c.js']
+        dest:'js/c.min.js'
     cssmin:
       options:
         sourceMap: true
         advanced: false
       target:
         files:
-          "arctosdb.org/style.min.css":["arctosdb.org/style.css"]
+          "style.min.css":["style.css"]
     uglify:
       options:
         mangle:
@@ -54,7 +46,7 @@ module.exports = (grunt) ->
       dist:
         options:
           sourceMap:true
-          sourceMapName:"arctosdb.org/js/maps/c.map"
+          sourceMapName:"js/maps/c.map"
           sourceMapIncludeSources:true
           sourceMapIn:"coffee/maps/c.js.map"
           compress:
@@ -71,7 +63,7 @@ module.exports = (grunt) ->
             sequences: true
             cascade: true
         files:
-          "arctosdb.org/js/c.min.js":["arctosdb.org/js/c.js"]
+          "js/c.min.js":["js/c.js"]
     coffee:
       compile:
         options:
@@ -80,14 +72,14 @@ module.exports = (grunt) ->
           sourceMapDir: "coffee/maps"
           sourceMap: true
         files:
-          "arctosdb.org/js/c.js":"coffee/*.coffee"
+          "js/c.js":"coffee/*.coffee"
     less:
       # https://github.com/gruntjs/grunt-contrib-less
       options:
         sourceMap: true
         outputSourceFiles: true
       files:
-        dest: "arctosdb.org/style.css"
+        dest: "style.css"
         src: ["less/style.less"]
     postcss:
       options:
@@ -95,22 +87,12 @@ module.exports = (grunt) ->
           require('autoprefixer-core')({browsers: 'last 1 version'})
           ]
       dist:
-        src: "arctosdb.org/style.css"
+        src: "style.css"
     watch:
       scripts:
         files: ["coffee/*.coffee"]
         tasks: ["coffee:compile","uglify:dist"]
-      styles:
-        files: ["less/*.less"]
-        tasks: ["less","postcss","cssmin"]
   # Now the tasks
   grunt.registerTask("default",["watch"])
   grunt.registerTask("compile","Compile coffeescript",["coffee:compile", "shell:movesrc","uglify:dist"])
   grunt.registerTask("compileNoUglify","Compile coffeescript",["coffee:compile","shell:movesrc"])
-  grunt.registerTask("minify","Minify all the things",["uglify:dist","less","postcss","cssmin"])
-  grunt.registerTask("update","Update bower dependencies",["shell:bower"])
-  grunt.registerTask("compress","Compress for deployment",["shell:compress"])
-  grunt.registerTask "qbuild","Compile, update, and compress", ->
-    grunt.task.run("compileNoUglify","minify", "compress")
-  grunt.registerTask "build","Compile, update, and compress", ->
-    grunt.task.run("update","compileNoUglify","minify","compress")

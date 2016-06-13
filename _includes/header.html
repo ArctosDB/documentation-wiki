@@ -23,7 +23,7 @@
       </paper-tab>
       {% for my_page in site.collections %}
         {% if my_page.label %}
-      <paper-tab link>
+      <paper-tab link data-label="{{my_page.label}}">
         <a class="page-link link collection" tabindex="-1" href="{{site.baseurl}}/{{my_page.label}}/">{{ my_page.label | replace: "_", " " }}</a>
       </paper-tab link>
         {% endif %}
