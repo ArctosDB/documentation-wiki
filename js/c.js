@@ -413,7 +413,7 @@
     for (i = 0, len = ref.length; i < len; i++) {
       tab = ref[i];
       thisCollection = $(tab).attr("data-label");
-      if (currentPath.search(thisCollection !== -1)) {
+      if (currentPath.search(thisCollection) !== -1) {
         console.info("We're in collection " + {
           thisCollection: thisCollection
         });
