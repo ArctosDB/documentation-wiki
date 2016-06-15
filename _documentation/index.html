@@ -13,6 +13,7 @@ layout: collection_index
         {% unless doc.url contains "index" %}
           <li>
             <a class="collection-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title}}</a>
+            <span class="doc-snippet"></span>
           </li>
         {% endunless %}
       {% endfor %}
