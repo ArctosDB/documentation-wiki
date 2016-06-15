@@ -23,9 +23,11 @@
       </paper-tab>
       {% for my_page in site.collections %}
         {% if my_page.label %}
+          {% unless my_page.label contains "posts" %}
       <paper-tab link data-label="{{my_page.label}}">
         <a class="page-link link collection" tabindex="-1" href="{{site.baseurl}}/{{my_page.label}}/">{{ my_page.label | replace: "_", " " }}</a>
       </paper-tab link>
+          {% endunless %}
         {% endif %}
       {% endfor %}
     </paper-tabs>
