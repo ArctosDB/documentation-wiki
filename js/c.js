@@ -503,16 +503,15 @@
 
   handleSearch = function() {
     var searchConfig;
-    return searchConfig = {
+    searchConfig = {
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
-      json: "/search.json"
+      json: "/search.json",
+      fuzzy: true
     };
+    simpleJekyllSearch(searchConfig);
+    return false;
   };
-
-  simpleJekyllSearch(searchConfig);
-
-  false;
 
   $(function() {
     tabSelect();
