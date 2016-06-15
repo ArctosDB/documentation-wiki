@@ -12,11 +12,7 @@ gems:
 collections:
   documentation:
     output: true
-  tutorials:
-    output: true
   how_to:
-    output: true
-  for_developers:
     output: true
 
 # Site settings
