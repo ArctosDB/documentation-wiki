@@ -1,5 +1,5 @@
 (function() {
-  var activityIndicatorOff, activityIndicatorOn, deepJQuery, formatScientificNames, lightboxImages, linkSubmenu, linkoutLabels, overlayOff, overlayOn, p$, tabSelect,
+  var activityIndicatorOff, activityIndicatorOn, deepJQuery, formatScientificNames, handleSearch, lightboxImages, linkSubmenu, linkoutLabels, overlayOff, overlayOn, p$, tabSelect,
     slice = [].slice;
 
   window.isBool = function(str) {
@@ -501,6 +501,19 @@
     return false;
   };
 
+  handleSearch = function() {
+    var searchConfig;
+    return searchConfig = {
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: "/search.json"
+    };
+  };
+
+  simpleJekyllSearch(searchConfig);
+
+  false;
+
   $(function() {
     tabSelect();
     $("#searchsubmit").click(function() {
@@ -524,11 +537,11 @@
     $("#searchsubmit-arctos").click(function() {
       return $("#arctos-search-form").submit();
     });
-    $("#arctos-search").keyup(function(e) {
+    $("#search-input").keyup(function(e) {
       var code;
       code = e.keyCode || e.which;
       if (code === 13) {
-        return $("#arctos-search-form").submit();
+        return handleSearch();
       }
     });
     $("#arctos-search-form").submit(function(e) {

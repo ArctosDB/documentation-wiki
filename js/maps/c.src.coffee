@@ -318,6 +318,15 @@ linkoutLabels = ->
   false
 
 
+handleSearch = ->
+  # https://github.com/christian-fei/Simple-Jekyll-Search#configuration
+  searchConfig =
+    searchInput: document.getElementById('search-input')
+    resultsContainer: document.getElementById('results-container')
+    json: "/search.json"
+simpleJekyllSearch searchConfig
+false
+
 $ ->
   # Local searching
   tabSelect()
@@ -335,9 +344,9 @@ $ ->
   # Arctos Searching
   $("#searchsubmit-arctos").click ->
     $("#arctos-search-form").submit()
-  $("#arctos-search").keyup (e) ->
+  $("#search-input").keyup (e) ->
     code = e.keyCode || e.which
-    if code is 13 then $("#arctos-search-form").submit()
+    if code is 13 then handleSearch()
   $("#arctos-search-form").submit (e) ->
     e.preventDefault()
     url = $("#arctos-search-form").attr("action")
