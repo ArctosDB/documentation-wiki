@@ -1,0 +1,32 @@
+{
+  "name": "touch-imagelightbox",
+  "version": "0.1.5",
+  "authors": [
+    "Victor Häggqvist <victor@snilius.com>"
+  ],
+  "description": "A touch-friendly image lightbox",
+  "main": "dist/touch-imagelightbox.min.js",
+  "keywords": [
+    "lightbox",
+    "touch",
+    "image"
+  ],
+  "license": "MIT",
+  "homepage": "https://victorhaggqvist.github.io/touch-imagelightbox",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.1.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.5",
+    "commit": "1baa1056bbc63b21431b6607632fe45a8e6428c2"
+  },
+  "_source": "https://github.com/victorhaggqvist/touch-imagelightbox.git",
+  "_target": "~0.1.5",
+  "_originalSource": "touch-imagelightbox"
+}
