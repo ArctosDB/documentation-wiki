@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-06-11 13:18:33 -0700
-categories: jekyll update
+title:  "Welcome to Arctos!"
+date:   2016-07-29
+categories: arctos update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Welcome to the new home of the Arctos Tips and Tutorials that we have amassed in the wiki. We've outgrown the wiki organization so things are hectic for now as we migrate to the new home.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+We're using the Jekyll Documentation Theme so a learning curve for that as well.
+_Stay tuned!_
 
 Jekyll also offers powerful support for code snippets:
 
