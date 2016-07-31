@@ -33,6 +33,7 @@ github_username:  Arctosdb
 # Build settings
 #exclude: ["bower_components/"]
 markdown: kramdown
+auto_ids: true
 markdown_ext: "markdown, mkdown, mkdn, mkd, md"
 highlighter: rouge
 lsi: false
