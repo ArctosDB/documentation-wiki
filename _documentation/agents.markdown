@@ -1,3 +1,8 @@
+---
+title: Agents
+layout: default_toc
+---
+
 #Agents#
 
 <ul>
