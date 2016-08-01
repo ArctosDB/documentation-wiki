@@ -98,6 +98,10 @@ To style it:
 <dom-module id="paper-dropdown-menu-light">
   <template>
     <style include="paper-dropdown-menu-shared-styles">
+      :host(:focus) {
+        outline: none;
+      }
+
       /**
        * All of these styles below are for styling the fake-input display
        */
@@ -202,7 +206,7 @@ To style it:
        */
       label:after {
         background-color: var(--paper-dropdown-menu-focus-color, --primary-color);
-        bottom: 8px;    /* The container has an 8px bottom padding */
+        bottom: 7px;    /* The container has an 8px bottom padding */
         content: '';
         height: 2px;
         left: 45%;
@@ -219,7 +223,7 @@ To style it:
       }
 
       :host([no-label-float]) label:after {
-        bottom: 8px;    /* The container has a 8px bottom padding */
+        bottom: 7px;    /* The container has a 8px bottom padding */
       }
 
       :host([focused]:not([disabled])) label:after {
@@ -264,7 +268,7 @@ To style it:
     </style>
 
     <!-- this div fulfills an a11y requirement for combobox, do not remove -->
-    <div role="button"></div>
+    <span role="button"></span>
     <paper-menu-button
       id="menuButton"
       vertical-align="[[verticalAlign]]"
@@ -274,7 +278,9 @@ To style it:
       no-animations="[[noAnimations]]"
       on-iron-select="_onIronSelect"
       on-iron-deselect="_onIronDeselect"
-      opened="{{opened}}">
+      opened="{{opened}}"
+      close-on-activate
+      allow-outside-scroll="[[allowOutsideScroll]]">
       <div class="dropdown-trigger">
         <label hidden$="[[!label]]"
             class$="[[_computeLabelClass(noLabelFloat,alwaysFloatLabel,hasContent)]]">[[label]]</label>
@@ -363,6 +369,17 @@ To style it:
           },
 
           /**
+           * By default, the dropdown will constrain scrolling on the page
+           * to itself when opened.
+           * Set to true in order to prevent scroll from being constrained
+           * to the dropdown when it opens.
+           */
+          allowOutsideScroll: {
+            type: Boolean,
+            value: false
+          },
+          
+          /**
            * Set to true to disable the floating label. Bind this to the
            * `<paper-input-container>`'s `noLabelFloat` property.
            */
@@ -424,6 +441,7 @@ To style it:
         },
 
         hostAttributes: {
+          tabindex: 0,
           role: 'combobox',
           'aria-autocomplete': 'none',
           'aria-haspopup': 'true'
