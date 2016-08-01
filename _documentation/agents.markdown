@@ -3,7 +3,7 @@ title: Agents
 layout: default_toc
 ---
 
-#Agents#
+# Agents
 
 <ul>
 <a name="top"></a>
@@ -40,30 +40,30 @@ Agent "unknown" should be used where appropriate. Do not create new agents for "
 <div class="fldDef">Agent . Agent_Type
 VARCHAR2(15) not null</div>
 <h2>Agent Type</h2>
-Agent Type is controlled by a <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type" target="_blank">code table</a>.
-<a class="infoLink" href="#top" name="person"></a>
-<strong>Persons:</strong>
+Agent Type is controlled by a <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type" class="click" data-newtab="true">code table</a>.
+
+## Persons
 Data about a person-agent can first, middle, and last names (and must include at least one "person name"). Prefix and Suffix (formerly singular attributes of persons) are now embedded in agent names and should not be viewed as static. (Prefix and suffix should seldom be included in preferred name.) For example, the following might all apply to one agent:
-<ul>
-	<li>Some Guy</li>
-	<li>Lieutenant Some Guy</li>
-	<li>Major Some Guy</li>
-	<li>Some Guy Sr.</li>
-	<li>Reverend Some Guy Senior, Ph.D</li>
-</ul>
+
+* Some Guy
+* Lieutenant Some Guy
+* Major Some Guy
+* Some Guy Sr.
+* Reverend Some Guy Senior, Ph. D
+
 See <a href="http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles">http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles</a> for more information on generational titles.
 
 Former concepts <strong>Birth Date</strong> and<strong> Death Date</strong> have now been generalized to <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS">Agent Status</a>. In addition to recording singular events about an agent (such as birth date), this structure allows "snapshots" - "AgentX was seen at a conference on {DATE} and seemed to be living, so things collected before that date may still be attributable to AgentX."
 
-<a class="infoLink" href="#top" name="organization"></a>
-<h2>Organizations</h2>
+# Organizations
+
 Examples of organizations include:
-<ul>
-	<li>University of Alaska Museum</li>
-	<li>Alaska Department of Fish and Game</li>
-	<li>U.S. National Park Service</li>
-</ul>
-Agencies can have hierarchical relationships, <em>e.g.</em>:
+
+- University of Alasksa Museum
+- Alaska Department of Fish and Game
+- U.S. National Park Service
+
+Agencies can have hierarchical relationships, _e.g._:
 <ul>
 	<li>Kanuti National Wildlife Refuge</li>
 	<li>U. S. Fish and Wildlife Service</li>
@@ -71,70 +71,86 @@ Agencies can have hierarchical relationships, <em>e.g.</em>:
 </ul>
 For most purposes, person agents are more explicit and preferable to organizations; designations such "U.S. Department of the Interior" are next to useless. Nevertheless within a hierarchy of agencies, the more explicit the designation, the more ephemeral the designation is likely to be.
 
-<a class="infoLink" href="#top" name="verbatim_collector"></a>
-<h2>Verbatim Collectors</h2>
-Verbatim Collectors as Agents is a failed experiment and should not be used for any purpose. Please change verbatim collectors to another type of agent or flag them as duplicates when you  encounter them. <a href="/documentation/attributes/">Attribute</a> "verbatim collector" allows uncontrolled strings to be associated with individual specimens. When "bad duplicate of" agents are merged, "verbatim collector" Attributes are automatically created for all affected specimens.
 
-<a class="infoLink" href="#top" name="group"></a>
-<h2>Groups</h2>
+## Verbatim Collectors
+
+Verbatim Collectors as Agents is a failed experiment and should not be used for any purpose. Please change verbatim collectors to another type of agent or flag them as duplicates when you  encounter them. [Attribute](/documentation/attributes/) "verbatim collector" allows uncontrolled strings to be associated with individual specimens. When "bad duplicate of" agents are merged, "verbatim collector" Attributes are automatically created for all affected specimens.
+
+
+## Groups
 A group is two or more agents functioning in some named capacity.  So, instead of listing several collectors on an expedition, one might make all the collectors members of something like the "1994 Swedish-Russian Tundra Ecology Expedition."
 Agent Groups consists of:
-<ol>
-	<li>An agent of type=group, and optionally</li>
-	<li>agents as group members</li>
-</ol>
+
+1. An agent of type=group, and optionally
+2. agents as group members
+
 Groups may be useful for things like collecting expeditions.
-<div class="fldDef">Agent_Name . Agent_Name
-VARCHAR2(184) not null</div>
-<a class="infoLink" href="#top" name="names"></a>
-<h2>Names</h2>
+
+
+
+## Names
 All agents must have one and only one "preferred name".  An agent can have any number of other names.
-<div class="fldDef">Agent_Name . Agent_Name_Type
+
+```
+Agent_Name . Agent_Name
+VARCHAR2(184) not null
+```
+
+### Name Type
+Agent Name Type is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
+```
+Agent_Name . Agent_Name_Type
 VARCHAR2(18) not null
-ctagent_name_type</div>
-<a class="infoLink" href="#top" name="name_type"></a>
-<h2>Name Type</h2>
-Agent Name Type is controlled by a <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type" target="_blank">code table</a>.
-<div class="fldDef">Agent . Agent_Remark
-VARCHAR2(255) null</div>
-<a class="infoLink" href="#top" name="agent_remark"></a>
-<h2>Remarks</h2>
+```
+
+## Remarks
 Remarks is a good place to include a one sentence description of the agent.  Anything that might helpful to other users in understanding who or what the agent is should be included.
 
-<a class="infoLink" href="#top" name="create"></a>
-<h2>General Agent Creation and Maintenance Guidelines</h2>
-These are general guidelines to prevent the creation of <a href="#duplicate">duplicate</a> agents. Nothing here should be considered a hard rule.
+```
+Agent . Agent_Remark
+VARCHAR2(255) null
+```
 
-Before creating an agent, <strong>thoroughly</strong> search for existence. Use the "clear form" button to ensure that you aren't accidentally limiting your search. Using <strong>only</strong> the "any part of any name" option, search for last name, and especially in the case of "foreign" names, search for the substring that might have been transcribed or transliterated in varying ways. If you have a "McDonald,"  search for "donald" to include the possibility of "Macdonald." Given Чернявских, search for "nyavsk" to include Chernyavski, Tchernyavski, and Chernyavsky. (Please flag any "bad duplicate" agents you find as such during this exploration.) Consider common variations - a "Robert" might exist as "Bob," for example.
-<ul>
-	<li>When possible, do not abbreviate. "Co." might mean anything; "Company" is unambiguous. "John J. Smith" is much more ambiguous than "John Johnsson Smith."</li>
-	<li>Consider pushing prefix and suffix to a nonpreferred name; limit preferred name to things that do not change. John Smith has a son and becomes John Smith Senior; John Smith Junior has a son and becomes John Smith II; Captain John Smith gets promoted to Major John Smith: avoid potential confusion when possible. If you must create a preferred name with a prefix or suffix, ensure there also exist a "bare" alternate name.</li>
-	<li>Include common ASCII-128 (A-Z, no accents or foreign characters) variants. "Николай Е. Докучаев" is an acceptable Preferred Name, but include as a nonpreferred name "Nikolai Dokuchaev." Agent "Raúl Gutiérrez" should include the nonpreferred name "Raul Gutierrez."</li>
-	<li>Include symbols and their alternatives where users might search by either. For preferred name "Smith &amp; Wesson," also include name "Smith and Wesson." (It doesn't much matter which goes where, as long as both are included with the agent.)</li>
-	<li>Use relationships. "John Smith Jr. {is child of} John Smith" helps clarify the situation even in the face of suddenly-ambiguous names, promotions, marriages, and other name changes or alternatives.</li>
-	<li>Use Status; associating dates with agent records is extremely useful when considering agent ambiguity.</li>
-	<li>Use remarks as a last resort, only when more formal data are not possible. Relationship "student of" will stop an agent merger; remark "student of ..." will be ignored by automation.</li>
-	<li>Person agent preferred name should be formatted as "First Middle Last" as a matter of standardization. Address concerns or objections to the Advisory Committee.</li>
-	<li>Abbreviations in preferred names must be followed by periods. "J. J. Smith,", never "JJ Smith" or "J J Smith." If nonstandard data are important search terms, include them as non-preferred names.</li>
-	<li>Periods should be followed by spaces. See above.</li>
-	<li>Do not orphan unused names; flag them as "bad duplicate of" the good name so that they will be reviewed and deleted. (Use "unknown" as the good name if there is no acceptable alternative.)</li>
-	<li>Do not include anything other than agent entity information in agent names. "John Smith?" is a remark; use agent "unknown" or "John Smith" and clarify in an appropriate remarks field</li>
-	<li>Include name components (first, middle, last) as agent names when appropriate.</li>
-	<li>If possible (especially for non-person Agents), follow Wikipedia for preferred agent name. See for example https://en.wikipedia.org/wiki/United_States_Fish_and_Wildlife_Service, which should be entered in Arctos as "United States Fish and Wildlife Service." Include common variations, stock symbols, etc., as nonpreferred names.</li>
-	<li>Do NOT include parenthetical information in names; create a new name instead.</li>
-	<li>Include <strong>possible</strong> variations ("Pat" for Patrick) as nonpreferred names.</li>
-</ul>
-<a name="relationship"></a>
-<h2>Relationships</h2>
+## Agent Guidelines
+
+These are general guidelines to prevent the creation of [duplicate](#duplicate) agents. Nothing here should be considered a hard rule.
+
+### Creation Guidelines
+
+Before creating an agent, **thoroughly** search for existence. Use the "clear form" button to ensure that you aren't accidentally limiting your search. Using **only** the "any part of any name" option, search for last name, and especially in the case of "foreign" names, search for the substring that might have been transcribed or transliterated in varying ways. If you have a "McDonald,"  search for `donald` to include the possibility of "Macdonald." Given Чернявских, search for `nyavsk` to include Chernyavski, Tchernyavski, and Chernyavsky. (Please flag any "bad duplicate" agents you find as such during this exploration.) Consider common variations - a "Robert" might exist as "Bob," for example.
+### Maintenance Guidelines
+
+- When possible, do not abbreviate. "Co." might mean anything; "Company" is unambiguous. "John J. Smith" is much more ambiguous than "John Johnsson Smith."
+- Consider pushing prefix and suffix to a nonpreferred name; limit preferred name to things that do not change. John Smith has a son and becomes John Smith Senior; John Smith Junior has a son and becomes John Smith II; Captain John Smith gets promoted to Major John Smith: avoid potential confusion when possible. If you must create a preferred name with a prefix or suffix, ensure there also exist a "bare" alternate name.
+- Include common ASCII-128 (A-Z, no accents or foreign characters) variants. "Николай Е. Докучаев" is an acceptable Preferred Name, but include as a nonpreferred name "Nikolai Dokuchaev." Agent "Raúl Gutiérrez" should include the nonpreferred name "Raul Gutierrez."
+- Include symbols and their alternatives where users might search by either. For preferred name "Smith &amp; Wesson," also include name "Smith and Wesson." (It doesn't much matter which goes where, as long as both are included with the agent.)
+- Use relationships. "John Smith Jr. {is child of} John Smith" helps clarify the situation even in the face of suddenly-ambiguous names, promotions, marriages, and other name changes or alternatives.
+- Use Status; associating dates with agent records is extremely useful when considering agent ambiguity.
+- Use remarks as a last resort, only when more formal data are not possible. Relationship "student of" will stop an agent merger; remark "student of ..." will be ignored by automation.
+- Person agent preferred name should be formatted as "First Middle Last" as a matter of standardization. Address concerns or objections to the Advisory Committee.
+- Abbreviations in preferred names must be followed by periods. "J. J. Smith,", never "JJ Smith" or "J J Smith." If nonstandard data are important search terms, include them as non-preferred names.
+- Periods should be followed by spaces. See above.
+- Do not orphan unused names; flag them as "bad duplicate of" the good name so that they will be reviewed and deleted. (Use "unknown" as the good name if there is no acceptable alternative.)
+- Do not include anything other than agent entity information in agent names. "John Smith?" is a remark; use agent "unknown" or "John Smith" and clarify in an appropriate remarks field
+- Include name components (first, middle, last) as agent names when appropriate.
+- If possible (especially for non-person Agents), follow Wikipedia for preferred agent name. See for example https://en.wikipedia.org/wiki/United_States_Fish_and_Wildlife_Service, which should be entered in Arctos as "United States Fish and Wildlife Service." Include common variations, stock symbols, etc., as nonpreferred names.
+- Do NOT include parenthetical information in names; create a new name instead.
+- Include **possible** variations ("Pat" for Patrick) as nonpreferred names.
+
+
+## Relationships
+
 Relationships between agents can be recorded.  Like date of birth and date of death, relationships can be critical to understanding duplication and similarities in names, and in understanding relationships within the literature, taxonomic opinions, etc.  The pull-downs are self-evident.  If you know of a relationship between agents, please record it.  The relationship "not the same as" can be useful in understanding that suspiciously similar names are not duplicates, but do in fact refer to separate agents.
 
-<a name="samename"></a>
-<h2>Different Agent, Same Name</h2>
+
+## Different Agent, Same Name
+
 Occasionally, two distinct agents will share a name, but there exists a unique key on preferred_name so duplicate preferred names are not possible. With some research, it is usually possible to disambiguate the agents by adding initials, middle names, or nicknames. If that is not possible, it may be necessary to add parenthetical information to the preferred name, for example "John Doe (southwest mammals)." When this is necessary, it's usually preferable to similarly annotate all agents that share the name to avoid later data entry efforts inadvertently picking the wrong agent. Add a "not the same as" relationship and verbose agent remarks.
 
 Without the unique key, applications which use strings to identify agents, such as the specimen bulkloader, cannot use preferred names, and it becomes necessary to add unique aliases to pick agents. (Internal forms pick by agent_id and names are only "human-readable proxies" to the ID.) The current unique index approach seems less problematic than the alternative, both in getting students to choose the correct agent and in avoiding duplicate agent creation, but neither method is ideal. Address any suggestions or concerns to the Arctos discussion group.
-<a class="infoLink" href="#top" name="namesearch"></a>
-<h2>Searching Agents</h2>
+
+## Searching Agents
+
 The search form contains several fields and options, detailed below. All are case-insensitive substring matches. You may also include the special characters _ and % to match any single character or any string, respectively.
 
 <strong><a>Any part of any name</a></strong> is appropriate for most exploratory searching. It matches any name, including preferred, AKAs, name components, and login name.
