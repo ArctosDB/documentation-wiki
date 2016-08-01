@@ -551,7 +551,7 @@
       url = url + "?scientific_name=" + searchQuery;
       return openLink(url);
     });
-    $("nav.site-nav").fixedsticky();
+    $(".fixedsticky").fixedsticky();
     return lightboxImages();
   });
 
