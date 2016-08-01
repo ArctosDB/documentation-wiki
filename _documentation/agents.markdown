@@ -20,10 +20,12 @@ Agent "unknown" should be used where appropriate. Do not create new agents for "
 <a class="infoLink" href="#top" name="agent_type"></a>
 <div class="fldDef">Agent . Agent_Type
 VARCHAR2(15) not null</div>
-<h2>Agent Type</h2>
+
+## Agent Type
 Agent Type is controlled by a <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type" class="click" data-newtab="true">code table</a>.
 
 ## Persons
+
 Data about a person-agent can first, middle, and last names (and must include at least one "person name"). Prefix and Suffix (formerly singular attributes of persons) are now embedded in agent names and should not be viewed as static. (Prefix and suffix should seldom be included in preferred name.) For example, the following might all apply to one agent:
 
 * Some Guy
@@ -36,7 +38,7 @@ See <a href="http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles"
 
 Former concepts <strong>Birth Date</strong> and<strong> Death Date</strong> have now been generalized to <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS">Agent Status</a>. In addition to recording singular events about an agent (such as birth date), this structure allows "snapshots" - "AgentX was seen at a conference on {DATE} and seemed to be living, so things collected before that date may still be attributable to AgentX."
 
-# Organizations
+## Organizations
 
 Examples of organizations include:
 
