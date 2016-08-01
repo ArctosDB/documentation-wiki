@@ -10,8 +10,10 @@
     <main class="page-content">
       <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.0/dist/bootstrap-toc.min.css">
       <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.0/dist/bootstrap-toc.min.js"></script>
-      <nav class="toc" id="toc" data-toggle="toc">
-      </nav>
+      <div class="nav-container" class="col-xs-12 col-sm-3">
+        <nav class="toc" id="toc" data-toggle="toc" data-spy="affix">
+        </nav>
+      </div>
       <article class="wrapper">
         {{ content }}
       </article>
