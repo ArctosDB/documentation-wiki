@@ -15,14 +15,16 @@ Agents with non-English names may exist in the database under alternative transl
 For legacy data, the above is a difficult standard.  Are Robert Smith, R. Smith, and Bob Smith three agents or one?  Sometimes, the activities already recorded for an agent makes the answer clear, _e.g._, there were probably not two Eleazer Fitzgarrolds collecting grasshoppers in northern Madagascar in the 1930s. (If you are viewing a an agent record, the "Agent Activity" link will show you all of the agent's actions that are recorded.) Thus, it is useful to provide as much information as possible when creating and editing agent records. If you can figure it out, the database can usefully handle the information. If you cannot figure it out it probably doesn't matter; having multiple agents collecting under the name "J. Smith" doesn't really affect any conceivable use of the data, and if one of the agents distinguishes themselves somehow (_e.g._, through publications), it's easy to split the combined agent.
 
 Agent "unknown" should be used where appropriate. Do not create new agents for "Collector unknown," "Determiner unknown," etc. Consider using "unknown" (and perhaps specimen remarks) rather than creating uselessly cryptic agents. Is "unknown" really functionally different from "ABC"? (There is no definitive answer, but cryptic abbreviations are seldom useful.)
-<a class="infoLink" href="#top" name="anchor1">Top</a>
 
-<a class="infoLink" href="#top" name="agent_type"></a>
-<div class="fldDef">Agent . Agent_Type
-VARCHAR2(15) not null</div>
 
 ## Agent Type
 Agent Type is controlled by a <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type" class="click" data-newtab="true">code table</a>.
+
+```
+Agent . Agent_Type
+VARCHAR2(15) not null
+```
+
 
 ## Persons
 
