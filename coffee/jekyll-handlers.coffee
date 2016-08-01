@@ -101,5 +101,6 @@ $ ->
     searchQuery = encodeURIComponent($("#arctos-search").val())
     url = "#{url}?scientific_name=#{searchQuery}"
     openLink(url)
+  FixedSticky.tests.sticky = false
   $(".fixedsticky").fixedsticky()
   lightboxImages()
