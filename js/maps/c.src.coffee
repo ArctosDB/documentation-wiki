@@ -358,7 +358,7 @@ $ ->
   #$(".fixedsticky").fixedsticky()
   lightboxImages()
   if $("nav#toc").exists()
-    checkToc = ->
+    do checkToc = ->
       if Polymer.RenderStatus.hasRendered()
         unless $("nav#toc li").length > 0
           if Toc?

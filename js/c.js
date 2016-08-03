@@ -554,7 +554,7 @@
     });
     lightboxImages();
     if ($("nav#toc").exists()) {
-      return checkToc = function() {
+      return (checkToc = function() {
         var $headings, $topContext, opts, topLevel;
         if (Polymer.RenderStatus.hasRendered()) {
           if (!($("nav#toc li").length > 0)) {
@@ -575,7 +575,7 @@
             return checkToc();
           });
         }
-      };
+      })();
     }
   });
 
