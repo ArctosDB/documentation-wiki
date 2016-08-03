@@ -45,6 +45,11 @@ body, main {
     position: relative;
 }
 
+paper-tabs {
+    // Fix for Firefox
+    z-index: 500;
+}
+
 
 nav {
     position: sticky;
