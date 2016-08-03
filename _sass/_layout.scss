@@ -41,7 +41,9 @@ $extra-muted: #666;
       background: $arctos-main-blue;
 }
 
-
+body, main {
+    position: relative;
+}
 
 
 nav {
