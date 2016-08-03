@@ -555,25 +555,33 @@
     lightboxImages();
     if ($("nav#toc").exists()) {
       return (checkToc = function() {
-        var $headings, $topContext, opts, topLevel;
-        if (Polymer.RenderStatus.hasRendered()) {
-          if (!($("nav#toc li").length > 0)) {
-            if (typeof Toc !== "undefined" && Toc !== null) {
-              console.info("Manually populating the TOC");
-              opts = Toc.helpers.parseOps($("#toc"));
-              opts.$scope = $("body");
-              opts.$nav.attr('data-toggle', 'toc');
-              $topContext = Toc.helpers.createChildNavList(opts.$nav);
-              topLevel = Toc.helpers.getTopLevel(opts.$scope);
-              $headings = Toc.helpers.getHeadings(opts.$scope, topLevel);
-              return Toc.helpers.populateNav($topContext, topLevel, $headings);
+        var $headings, $topContext, error, opts, topLevel;
+        try {
+          if (Polymer.RenderStatus.hasRendered()) {
+            if (!($("nav#toc li").length > 0)) {
+              if (typeof Toc !== "undefined" && Toc !== null) {
+                console.info("Manually populating the TOC");
+                opts = Toc.helpers.parseOps($("#toc"));
+                opts.$scope = $("body");
+                opts.$nav.attr('data-toggle', 'toc');
+                $topContext = Toc.helpers.createChildNavList(opts.$nav);
+                topLevel = Toc.helpers.getTopLevel(opts.$scope);
+                $headings = Toc.helpers.getHeadings(opts.$scope, topLevel);
+                return Toc.helpers.populateNav($topContext, topLevel, $headings);
+              }
             }
+          } else {
+            console.warn("Waiting for Polymer.RenderStatus to report ready before building TOC");
+            return delay(100, function() {
+              return checkToc();
+            });
           }
-        } else {
-          console.warn("Waiting for Polymer.RenderStatus to report ready before building TOC");
-          return delay(100, function() {
-            return checkToc();
-          });
+        } catch (error) {
+          if (typeof Polymer === "undefined" || Polymer === null) {
+            return delay(100, function() {
+              return checkToc();
+            });
+          }
         }
       })();
     }

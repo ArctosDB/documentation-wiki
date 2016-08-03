@@ -359,19 +359,25 @@ $ ->
   lightboxImages()
   if $("nav#toc").exists()
     do checkToc = ->
-      if Polymer.RenderStatus.hasRendered()
-        unless $("nav#toc li").length > 0
-          if Toc?
-            console.info "Manually populating the TOC"
-            # Manually make the TOC for firefox and other dumb browsers
-            opts = Toc.helpers.parseOps($("#toc"));
-            opts.$scope = $("body")
-            opts.$nav.attr('data-toggle', 'toc');
-            $topContext = Toc.helpers.createChildNavList(opts.$nav);
-            topLevel = Toc.helpers.getTopLevel(opts.$scope);
-            $headings = Toc.helpers.getHeadings(opts.$scope, topLevel);
-            Toc.helpers.populateNav($topContext, topLevel, $headings);
-      else
-        console.warn "Waiting for Polymer.RenderStatus to report ready before building TOC"
-        delay 100, ->
-          checkToc()
+      try
+        if Polymer.RenderStatus.hasRendered()
+          unless $("nav#toc li").length > 0
+            if Toc?
+              console.info "Manually populating the TOC"
+              # Manually make the TOC for firefox and other dumb browsers
+              opts = Toc.helpers.parseOps($("#toc"));
+              opts.$scope = $("body")
+              opts.$nav.attr('data-toggle', 'toc');
+              $topContext = Toc.helpers.createChildNavList(opts.$nav);
+              topLevel = Toc.helpers.getTopLevel(opts.$scope);
+              $headings = Toc.helpers.getHeadings(opts.$scope, topLevel);
+              Toc.helpers.populateNav($topContext, topLevel, $headings);
+        else
+          console.warn "Waiting for Polymer.RenderStatus to report ready before building TOC"
+          delay 100, ->
+            checkToc()
+      catch
+        if not Polymer?
+          # Polymer polyfills haven't finished yet
+          delay 100, ->
+            checkToc()
