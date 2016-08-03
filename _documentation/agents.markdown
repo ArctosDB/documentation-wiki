@@ -76,7 +76,7 @@ apply to one agent:
 
 See [Wikipedia:Generation Titles](https://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles) for more information on generational titles.
 
-Former concepts **Birth Date** and** Death Date** have now been
+Former concepts **Birth Date** and **Death Date** have now been
 generalized to
 [Agent Status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS). In
 addition to recording singular events about an agent (such as birth
