@@ -70,7 +70,7 @@ handleSearch = ->
   searchConfig =
     searchInput: document.getElementById('search-input')
     resultsContainer: document.getElementById('results-container')
-    json: "/documentation-wiki/search.json"
+    json: "https://arctosdb.github.io/documentation-wiki/search.json"
     fuzzy: true
   SimpleJekyllSearch searchConfig
   false
