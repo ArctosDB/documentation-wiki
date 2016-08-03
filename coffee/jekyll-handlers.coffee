@@ -110,15 +110,19 @@ $ ->
         if Polymer.RenderStatus.hasRendered()
           unless $("nav#toc li").length > 0
             if Toc?
-              console.info "Manually populating the TOC"
-              # Manually make the TOC for firefox and other dumb browsers
-              opts = Toc.helpers.parseOps($("#toc"));
-              opts.$scope = $("body")
-              opts.$nav.attr('data-toggle', 'toc');
-              $topContext = Toc.helpers.createChildNavList(opts.$nav);
-              topLevel = Toc.helpers.getTopLevel(opts.$scope);
-              $headings = Toc.helpers.getHeadings(opts.$scope, topLevel);
-              Toc.helpers.populateNav($topContext, topLevel, $headings);
+              Toc.init $("#toc"), $("main")
+              unless $("nav#toc li").length > 0
+                $("nav#toc ul").remove()
+                console.info "Manually populating the TOC"
+                # Manually make the TOC for firefox and other dumb browsers
+                opts = Toc.helpers.parseOps($("#toc"))
+                opts.$scope = $("body")
+                opts.$nav.attr('data-toggle', 'toc')
+                $topContext = Toc.helpers.createChildNavList(opts.$nav)
+                topLevel = Toc.helpers.getTopLevel(opts.$scope)
+                $headings = Toc.helpers.getHeadings(opts.$scope, topLevel)
+                Toc.helpers.populateNav($topContext, topLevel, $headings)
+              $("body").scrollspy {target: "#toc"}
         else
           console.warn "Waiting for Polymer.RenderStatus to report ready before building TOC"
           delay 100, ->

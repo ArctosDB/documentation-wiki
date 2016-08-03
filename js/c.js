@@ -560,14 +560,21 @@
           if (Polymer.RenderStatus.hasRendered()) {
             if (!($("nav#toc li").length > 0)) {
               if (typeof Toc !== "undefined" && Toc !== null) {
-                console.info("Manually populating the TOC");
-                opts = Toc.helpers.parseOps($("#toc"));
-                opts.$scope = $("body");
-                opts.$nav.attr('data-toggle', 'toc');
-                $topContext = Toc.helpers.createChildNavList(opts.$nav);
-                topLevel = Toc.helpers.getTopLevel(opts.$scope);
-                $headings = Toc.helpers.getHeadings(opts.$scope, topLevel);
-                return Toc.helpers.populateNav($topContext, topLevel, $headings);
+                Toc.init($("#toc"), $("main"));
+                if (!($("nav#toc li").length > 0)) {
+                  $("nav#toc ul").remove();
+                  console.info("Manually populating the TOC");
+                  opts = Toc.helpers.parseOps($("#toc"));
+                  opts.$scope = $("body");
+                  opts.$nav.attr('data-toggle', 'toc');
+                  $topContext = Toc.helpers.createChildNavList(opts.$nav);
+                  topLevel = Toc.helpers.getTopLevel(opts.$scope);
+                  $headings = Toc.helpers.getHeadings(opts.$scope, topLevel);
+                  Toc.helpers.populateNav($topContext, topLevel, $headings);
+                }
+                return $("body").scrollspy({
+                  target: "#toc"
+                });
               }
             }
           } else {
