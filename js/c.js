@@ -514,6 +514,7 @@
   };
 
   $(function() {
+    var checkToc;
     tabSelect();
     $("#searchsubmit").click(function() {
       return $("#sidebar-search-form").submit();
@@ -551,7 +552,31 @@
       url = url + "?scientific_name=" + searchQuery;
       return openLink(url);
     });
-    return lightboxImages();
+    lightboxImages();
+    if ($("nav#toc").exists()) {
+      return checkToc = function() {
+        var $headings, $topContext, opts, topLevel;
+        if (Polymer.RenderStatus.hasRendered()) {
+          if (!($("nav#toc li").length > 0)) {
+            if (typeof Toc !== "undefined" && Toc !== null) {
+              console.info("Manually populating the TOC");
+              opts = Toc.helpers.parseOps($("#toc"));
+              opts.$scope = $("body");
+              opts.$nav.attr('data-toggle', 'toc');
+              $topContext = Toc.helpers.createChildNavList(opts.$nav);
+              topLevel = Toc.helpers.getTopLevel(opts.$scope);
+              $headings = Toc.helpers.getHeadings(opts.$scope, topLevel);
+              return Toc.helpers.populateNav($topContext, topLevel, $headings);
+            }
+          }
+        } else {
+          console.warn("Waiting for Polymer.RenderStatus to report ready before building TOC");
+          return delay(100, function() {
+            return checkToc();
+          });
+        }
+      };
+    }
   });
 
 }).call(this);
