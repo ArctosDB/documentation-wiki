@@ -145,7 +145,11 @@ VARCHAR2(184) not null
 
 Agent Name Type is controlled by a
 [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
-``` Agent_Name . Agent_Name_Type VARCHAR2(18) not null ```
+
+```
+Agent_Name . Agent_Name_Type
+VARCHAR2(18) not null
+```
 
 ## Remarks
 
