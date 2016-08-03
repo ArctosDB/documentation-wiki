@@ -593,7 +593,7 @@
     searchConfig = {
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
-      json: "/search.json",
+      json: "/documentation-wiki/search.json",
       fuzzy: true
     };
     SimpleJekyllSearch(searchConfig);
