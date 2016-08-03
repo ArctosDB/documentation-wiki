@@ -6,13 +6,13 @@ layout: default_toc
 # Agents
 
 
-Agents are people, organizations, or groups that perform actions.  Collectors are agents, authors of publications are agents, users of specimens are agents, and, if you enter or edit data, you are an agent. A single agent can have many roles and many names.
+Agents are people, organizations, or groups that perform actions. Collectors are agents, authors of publications are agents, users of specimens are agents, and, if you enter or edit data, you are an agent. A single agent can have many roles and many names.
 
-No matter how many roles or names an agent has, a single person (or agency) should be in the database only once.  Before new agent records are created, the database should be carefully queried to check that the "new" agent is not already in the database.  A collector may have married and now be submitting specimens as collected under her married name, for example.
+No matter how many roles or names an agent has, a single person (or agency) should be in the database only once. Before new agent records are created, the database should be carefully queried to check that the "new" agent is not already in the database. A collector may have married and now be submitting specimens as collected under her married name, for example.
 
-Agents with non-English names may exist in the database under alternative transliterations.  (Felix Chernyavski's name is published in English as Tchernyavski and Chernyavsky.) In these cases, additional Agent Names are required, not additional Agents.  Additional names using original alphabet of the agent's name are an obvious clarification.(Cyrillic, in the example above.)
+Agents with non-English names may exist in the database under alternative transliterations. (Felix Chernyavski's name is published in English as Tchernyavski and Chernyavsky.) In these cases, additional Agent Names are required, not additional Agents. Additional names using original alphabet of the agent's name are an obvious clarification.(Cyrillic, in the example above.)
 
-For legacy data, the above is a difficult standard.  Are Robert Smith, R. Smith, and Bob Smith three agents or one?  Sometimes, the activities already recorded for an agent makes the answer clear, _e.g._, there were probably not two Eleazer Fitzgarrolds collecting grasshoppers in northern Madagascar in the 1930s. (If you are viewing a an agent record, the "Agent Activity" link will show you all of the agent's actions that are recorded.) Thus, it is useful to provide as much information as possible when creating and editing agent records. If you can figure it out, the database can usefully handle the information. If you cannot figure it out it probably doesn't matter; having multiple agents collecting under the name "J. Smith" doesn't really affect any conceivable use of the data, and if one of the agents distinguishes themselves somehow (_e.g._, through publications), it's easy to split the combined agent.
+For legacy data, the above is a difficult standard. Are Robert Smith, R. Smith, and Bob Smith three agents or one? Sometimes, the activities already recorded for an agent makes the answer clear, _e.g._, there were probably not two Eleazer Fitzgarrolds collecting grasshoppers in northern Madagascar in the 1930s. (If you are viewing a an agent record, the "Agent Activity" link will show you all of the agent's actions that are recorded.) Thus, it is useful to provide as much information as possible when creating and editing agent records. If you can figure it out, the database can usefully handle the information. If you cannot figure it out it probably doesn't matter; having multiple agents collecting under the name "J. Smith" doesn't really affect any conceivable use of the data, and if one of the agents distinguishes themselves somehow (_e.g._, through publications), it's easy to split the combined agent.
 
 Agent "unknown" should be used where appropriate. Do not create new agents for "Collector unknown," "Determiner unknown," etc. Consider using "unknown" (and perhaps specimen remarks) rather than creating uselessly cryptic agents. Is "unknown" really functionally different from "ABC"? (There is no definitive answer, but cryptic abbreviations are seldom useful.)
 
@@ -36,7 +36,7 @@ Data about a person-agent can first, middle, and last names (and must include at
 * Some Guy Sr.
 * Reverend Some Guy Senior, Ph. D
 
-See <a href="http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles">http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles</a> for more information on generational titles.
+See https://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles for more information on generational titles.
 
 Former concepts **Birth Date** and** Death Date** have now been generalized to <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS">Agent Status</a>. In addition to recording singular events about an agent (such as birth date), this structure allows "snapshots" - "AgentX was seen at a conference on {DATE} and seemed to be living, so things collected before that date may still be attributable to AgentX."
 
@@ -49,21 +49,21 @@ Examples of organizations include:
 - U.S. National Park Service
 
 Agencies can have hierarchical relationships, _e.g._:
-<ul>
-	<li>Kanuti National Wildlife Refuge</li>
-	<li>U. S. Fish and Wildlife Service</li>
-	<li>U. S. Department of the Interior</li>
-</ul>
+
+- Kanuti National Wildlife Refuge
+- U. S. Fish and Wildlife Service
+- U. S. Department of the Interior
+
 For most purposes, person agents are more explicit and preferable to organizations; designations such "U.S. Department of the Interior" are next to useless. Nevertheless within a hierarchy of agencies, the more explicit the designation, the more ephemeral the designation is likely to be.
 
 
 ## Verbatim Collectors
 
-Verbatim Collectors as Agents is a failed experiment and should not be used for any purpose. Please change verbatim collectors to another type of agent or flag them as duplicates when you  encounter them. [Attribute](/documentation/attributes/) "verbatim collector" allows uncontrolled strings to be associated with individual specimens. When "bad duplicate of" agents are merged, "verbatim collector" Attributes are automatically created for all affected specimens.
+Verbatim Collectors as Agents is a failed experiment and should not be used for any purpose. Please change verbatim collectors to another type of agent or flag them as duplicates when you encounter them. [Attribute](/documentation/attributes/) "verbatim collector" allows uncontrolled strings to be associated with individual specimens. When "bad duplicate of" agents are merged, "verbatim collector" Attributes are automatically created for all affected specimens.
 
 
 ## Groups
-A group is two or more agents functioning in some named capacity.  So, instead of listing several collectors on an expedition, one might make all the collectors members of something like the "1994 Swedish-Russian Tundra Ecology Expedition."
+A group is two or more agents functioning in some named capacity. So, instead of listing several collectors on an expedition, one might make all the collectors members of something like the "1994 Swedish-Russian Tundra Ecology Expedition."
 Agent Groups consists of:
 
 1. An agent of type=group, and optionally
@@ -74,7 +74,7 @@ Groups may be useful for things like collecting expeditions.
 
 
 ## Names
-All agents must have one and only one "preferred name".  An agent can have any number of other names.
+All agents must have one and only one "preferred name". An agent can have any number of other names.
 
 ```
 Agent_Name . Agent_Name
@@ -89,7 +89,7 @@ VARCHAR2(18) not null
 ```
 
 ## Remarks
-Remarks is a good place to include a one sentence description of the agent.  Anything that might helpful to other users in understanding who or what the agent is should be included.
+Remarks is a good place to include a one sentence description of the agent. Anything that might helpful to other users in understanding who or what the agent is should be included.
 
 ```
 Agent . Agent_Remark
@@ -102,7 +102,8 @@ These are general guidelines to prevent the creation of [duplicate](#duplicate) 
 
 ### Creation Guidelines
 
-Before creating an agent, **thoroughly** search for existence. Use the "clear form" button to ensure that you aren't accidentally limiting your search. Using **only** the "any part of any name" option, search for last name, and especially in the case of "foreign" names, search for the substring that might have been transcribed or transliterated in varying ways. If you have a "McDonald,"  search for `donald` to include the possibility of "Macdonald." Given Чернявских, search for `nyavsk` to include Chernyavski, Tchernyavski, and Chernyavsky. (Please flag any "bad duplicate" agents you find as such during this exploration.) Consider common variations - a "Robert" might exist as "Bob," for example.
+Before creating an agent, **thoroughly** search for existence. Use the "clear form" button to ensure that you aren't accidentally limiting your search. Using **only** the "any part of any name" option, search for last name, and especially in the case of "foreign" names, search for the substring that might have been transcribed or transliterated in varying ways. If you have a "McDonald," search for `donald` to include the possibility of "Macdonald." Given Чернявских, search for `nyavsk` to include Chernyavski, Tchernyavski, and Chernyavsky. (Please flag any "bad duplicate" agents you find as such during this exploration.) Consider common variations - a "Robert" might exist as "Bob," for example.
+
 ### Maintenance Guidelines
 
 - When possible, do not abbreviate. "Co." might mean anything; "Company" is unambiguous. "John J. Smith" is much more ambiguous than "John Johnsson Smith."
@@ -125,7 +126,7 @@ Before creating an agent, **thoroughly** search for existence. Use the "clear fo
 
 ## Relationships
 
-Relationships between agents can be recorded.  Like date of birth and date of death, relationships can be critical to understanding duplication and similarities in names, and in understanding relationships within the literature, taxonomic opinions, etc.  The pull-downs are self-evident.  If you know of a relationship between agents, please record it.  The relationship "not the same as" can be useful in understanding that suspiciously similar names are not duplicates, but do in fact refer to separate agents.
+Relationships between agents can be recorded. Like date of birth and date of death, relationships can be critical to understanding duplication and similarities in names, and in understanding relationships within the literature, taxonomic opinions, etc. The pull-downs are self-evident. If you know of a relationship between agents, please record it. The relationship "not the same as" can be useful in understanding that suspiciously similar names are not duplicates, but do in fact refer to separate agents.
 
 
 ## Different Agent, Same Name
@@ -138,21 +139,21 @@ Without the unique key, applications which use strings to identify agents, such 
 
 The search form contains several fields and options, detailed below. All are case-insensitive substring matches. You may also include the special characters _ and % to match any single character or any string, respectively.
 
-**Any part of any name** is appropriate for most exploratory searching. It matches any name, including preferred, AKAs, name components, and login name.
+- **Any part of any name** is appropriate for most exploratory searching. It matches any name, including preferred, AKAs, name components, and login name.
 
-**Agent Type** matches values used in the <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE">code table</a>.
+- **Agent Type** matches values used in the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE).
 
-<a name="idsearch"></a>**Agent ID** matches the (internal, primary key) agent_id (an integer).
+- **Agent ID** matches the (internal, primary key) `agent_id` (an integer).
 
-**Agent Name Type** matches values used in a <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_NAME_TYPE">code table. Corresponding field</a>
+- **Agent Name Type** matches values used in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_NAME_TYPE)
 
-**Agent Name** matches names of the chosen type.
+- **Agent Name** matches names of the chosen type.
 
-**Address** matches any part of <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=CTADDRESS_TYPE">any address</a>, including mailing addresses, telephone numbers, and email addresses.
+- **Address** matches any part of [any address](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTADDRESS_TYPE), including mailing addresses, telephone numbers, and email addresses.
 
-**Agent Status** matches values from a <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS">code table</a>. This may be combined with "**Match**" and **Status Date** to locate agents reported in an event, agents having an event on a date, or events happening on, before, or after a given date.
+- **Agent Status** matches values from a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS). This may be combined with "**Match**" and **Status Date** to locate agents reported in an event, agents having an event on a date, or events happening on, before, or after a given date.
 
-**Created By** (and corresponding **match** types and **Created Date**) may be used to find agents created by an agent, agents created by an agent on/before/after a date, or agents created on/before/after a date.
+- **Created By** (and corresponding **match** types and **Created Date**) may be used to find agents created by an agent, agents created by an agent on/before/after a date, or agents created on/before/after a date.
 
 
 ## Deleting/merging agents
@@ -161,7 +162,7 @@ Duplicate agents (&gt;1 agent record referring to the same agent entity) prevent
 
 ### How To
 
-To delete an agent, create a "bad duplicate of" relationship to another agent. All collections will receive a warning email, and if no action is taken the agent will be automatically deleted in<del> 7</del> 14 days.
+To delete an agent, create a "bad duplicate of" relationship to another agent. All collections will receive a warning email, and if no action is taken the agent will be automatically deleted in 14 days.
 
 Check collection contacts and their email addresses if you are not receiving notifications.
 
@@ -169,11 +170,11 @@ Generally, the record with least complete information and/or the least activity 
 
 ### Why
 
-Any Operator with Agent access may flag agents as duplicates. Agents lacking evidence to the contrary should be marked as duplicates; if there is evidence of useful individuality, add it by way of relationships and supporting remarks.  Often, low-quality Agents not representing an individual are expedient; there is little reason to have two "J. Smith" (no other information) agents; if disambiguating information is available, add it.
+Any Operator with Agent access may flag agents as duplicates. Agents lacking evidence to the contrary should be marked as duplicates; if there is evidence of useful individuality, add it by way of relationships and supporting remarks. Often, low-quality Agents not representing an individual are expedient; there is little reason to have two "J. Smith" (no other information) agents; if disambiguating information is available, add it.
 
 ### Identical Agent Names
 
-Identical agent <span style="font-style: italic; font-weight: bold;">names</span>, between and among agents, is different than identical agents. Duplicate agents are two or more agent records that mean the same physical entity (THAT PARTICULAR John Smith; US Fish and Wildlife Service). It is not necessary for duplicate agents to share a name; in fact, they are often introduced because of misspellings. The "Agent Activity" link is a good place to make sure you're dealing with real duplicates.
+Identical agent **names**, between and among agents, is different than identical agents. Duplicate agents are two or more agent records that mean the same physical entity (THAT PARTICULAR John Smith; US Fish and Wildlife Service). It is not necessary for duplicate agents to share a name; in fact, they are often introduced because of misspellings. The "Agent Activity" link is a good place to make sure you're dealing with real duplicates.
 
 ### Not Duplicates
 
