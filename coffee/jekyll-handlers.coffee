@@ -72,7 +72,7 @@ handleSearch = ->
     resultsContainer: document.getElementById('results-container')
     json: "/search.json"
     fuzzy: true
-  simpleJekyllSearch searchConfig
+  SimpleJekyllSearch searchConfig
   false
 
 $ ->

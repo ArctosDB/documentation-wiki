@@ -351,6 +351,93 @@
     return false;
   };
 
+  window.loadJS = function(src, callback, doCallbackOnError) {
+    var e, error, errorFunction, onLoadFunction, s;
+    if (callback == null) {
+      callback = new Object();
+    }
+    if (doCallbackOnError == null) {
+      doCallbackOnError = true;
+    }
+
+    /*
+     * Load a new javascript file
+     *
+     * If it's already been loaded, jump straight to the callback
+     *
+     * @param string src The source URL of the file
+     * @param function callback Function to execute after the script has
+     *                          been loaded
+     * @param bool doCallbackOnError Should the callback be executed if
+     *                               loading the script produces an error?
+     */
+    if ($("script[src='" + src + "']").exists()) {
+      if (typeof callback === "function") {
+        try {
+          callback();
+        } catch (error) {
+          e = error;
+          console.error("Script is already loaded, but there was an error executing the callback function - " + e.message);
+        }
+      }
+      return true;
+    }
+    s = document.createElement("script");
+    s.setAttribute("src", src);
+    s.setAttribute("async", "async");
+    s.setAttribute("type", "text/javascript");
+    s.src = src;
+    s.async = true;
+    onLoadFunction = function() {
+      var error1, error2, state;
+      state = s.readyState;
+      try {
+        if (!callback.done && (!state || /loaded|complete/.test(state))) {
+          callback.done = true;
+          if (typeof callback === "function") {
+            try {
+              return callback();
+            } catch (error1) {
+              e = error1;
+              console.error("Postload callback error for " + src + " - " + e.message);
+              return console.warn(e.stack);
+            }
+          }
+        }
+      } catch (error2) {
+        e = error2;
+        return console.error("Onload error - " + e.message);
+      }
+    };
+    errorFunction = function() {
+      var error1, error2;
+      console.warn("There may have been a problem loading " + src);
+      try {
+        if (!callback.done) {
+          callback.done = true;
+          if (typeof callback === "function" && doCallbackOnError) {
+            try {
+              return callback();
+            } catch (error1) {
+              e = error1;
+              return console.error("Post error callback error - " + e.message);
+            }
+          }
+        }
+      } catch (error2) {
+        e = error2;
+        return console.error("There was an error in the error handler! " + e.message);
+      }
+    };
+    s.setAttribute("onload", onLoadFunction);
+    s.setAttribute("onreadystate", onLoadFunction);
+    s.setAttribute("onerror", errorFunction);
+    s.onload = s.onreadystate = onLoadFunction;
+    s.onerror = errorFunction;
+    document.getElementsByTagName('head')[0].appendChild(s);
+    return true;
+  };
+
   deepJQuery = function(selector) {
 
     /*
@@ -509,7 +596,7 @@
       json: "/search.json",
       fuzzy: true
     };
-    simpleJekyllSearch(searchConfig);
+    SimpleJekyllSearch(searchConfig);
     return false;
   };
 
