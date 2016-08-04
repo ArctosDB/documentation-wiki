@@ -4,7 +4,6 @@ layout: default_toc
 ---
 # How to Invite a New User
 
-Help and a list of collection roles may be found at http://arctosdb.org/how-to/users/
 
 In Arctos parlance, Operators are users who can manipulate data in Arctos; they must be both users and agents before they may become an Operator. The following steps are needed to create a new operator or user:
 
