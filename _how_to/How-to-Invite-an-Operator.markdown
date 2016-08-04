@@ -28,12 +28,12 @@ In Arctos parlance, Operators are users who can manipulate data in Arctos; they 
  * An E-mail will be sent to the user inviting them to become an Operator
  * The user should follow the instructions and links in the email to accept responsibilities
 
-* The user must authenticate their account before it is activated.
+5. The user must authenticate their account before it is activated.
  * Click on My Stuff > Profile and the user will see a place to put in their password
  * If the password is acceptable (Oracle rules), then a button will pop up to authenticate - click that
  * If the password is not acceptable, then change the password and try again
 
-* Finally, the Curator is ready to assign roles that give the Operator permission to manage data
+6. Finally, the Curator is ready to assign roles that give the Operator permission to manage data
  * There are two sets of roles: (1) collection - assign the user only to the collection(s) for which you want to grant permission; and (2) data - assign the user only to the specific types of data for which you want to grant that user permission
  * All users should have PUBLIC and COLDFUSION_USER roles
  * DATA_ENTRY is required for anyone who is entering data.
