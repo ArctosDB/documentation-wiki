@@ -4,18 +4,15 @@ layout: home
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1>Welcome to the Arctos User Guide!   </h1> 
+  
+We have three kinds of content on this site:
+<li>Documentation, which describes specific data tables and/or types and defines data fields</li>
+<li>"How-to Guides," which provides step-by-step instructions on how to do specific tasks in Arctos</li>
+<li>Educational Resources, for tutorials and teaching guides which use Arctos</li>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<p>Arctos Documentation and "How-to Guides" can be created or edited by anyone who is a member of the ArctosDB "Users" team (see "[How to Use GitHub for Arctos](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Use-Github-for-Arctos)"). That team has "write" access to the ArctosDB/documentation-wiki repository in GitHub. Anyone can view the content, but you need to be added to the "Users" team by an ArctosDB administrator to make changes.</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<p>Curators/Collection Managers who want the ability to create or edit Documentation and "How-to Guides" should contact dustymc@gmail.com, mkoo@berkeley.edu or ccicero@berkeley.edu to be added "Users" team. We encourage Curators/Collection Managers to engage students in writing "How-to Guides." However, students will not be able to post them to the wiki site; instead, they will need to submit the content to a member of the ArctosDB "Users" team (e.g., their supervisor) who can then post the content.</p>
 
 </div>
