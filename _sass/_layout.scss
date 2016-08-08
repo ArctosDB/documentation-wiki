@@ -110,7 +110,7 @@ nav {
 .site-nav {
     //float: right;
     line-height: 56px;
-
+    z-index: 5000;
     .menu-icon {
         display: none;
     }
