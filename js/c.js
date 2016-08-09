@@ -667,6 +667,8 @@
       var code;
       code = e.keyCode || e.which;
       if (code === 13) {
+        return handleSearch;
+      } else {
         return handleSearch.debounce();
       }
     });
