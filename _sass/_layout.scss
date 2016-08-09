@@ -86,7 +86,12 @@ nav {
 }
 
 nav.collection-toc {
-
+    li {
+        a::before,
+        a:before {
+            content: "\00bb";
+        }
+    }
 }
 
 .site-title {
