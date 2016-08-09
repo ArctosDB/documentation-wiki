@@ -13,6 +13,13 @@
       <div class="nav-container col-xs-12 col-sm-3 clearfix" style="overflow-x:hidden">
         <nav class="toc clearfix col-xs-12 col-sm-3" id="toc" data-toggle="toc" data-spy="affix" style="top:200px; overflow-x:hidden;">
         </nav>
+        <nav class="clearfix collection-toc">
+          {% for collection in site.collections %}
+          <li>
+            <a class="collection-index-link" href="{{ collection.directory }}">{{ collection.label}}</a>
+          </li>
+          {% endfor %}
+        </nav>
       </div>
       <article class="wrapper">
         {{ content }}

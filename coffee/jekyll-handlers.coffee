@@ -187,13 +187,13 @@ $ ->
         if Polymer.RenderStatus.hasRendered()
           unless $("nav#toc li").length > 0
             if Toc?
-              Toc.init $("#toc"), $("main")
+              Toc.init $("#toc"), $("main article")
               unless $("nav#toc li").length > 0
                 $("nav#toc ul").remove()
                 console.info "Manually populating the TOC"
                 # Manually make the TOC for firefox and other dumb browsers
                 opts = Toc.helpers.parseOps($("#toc"))
-                opts.$scope = $("body")
+                opts.$scope = $("main article")
                 opts.$nav.attr('data-toggle', 'toc')
                 $topContext = Toc.helpers.createChildNavList(opts.$nav)
                 topLevel = Toc.helpers.getTopLevel(opts.$scope)

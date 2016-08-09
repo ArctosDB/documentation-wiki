@@ -794,12 +794,12 @@
           if (Polymer.RenderStatus.hasRendered()) {
             if (!($("nav#toc li").length > 0)) {
               if (typeof Toc !== "undefined" && Toc !== null) {
-                Toc.init($("#toc"), $("main"));
+                Toc.init($("#toc"), $("main article"));
                 if (!($("nav#toc li").length > 0)) {
                   $("nav#toc ul").remove();
                   console.info("Manually populating the TOC");
                   opts = Toc.helpers.parseOps($("#toc"));
-                  opts.$scope = $("body");
+                  opts.$scope = $("main article");
                   opts.$nav.attr('data-toggle', 'toc');
                   $topContext = Toc.helpers.createChildNavList(opts.$nav);
                   topLevel = Toc.helpers.getTopLevel(opts.$scope);
