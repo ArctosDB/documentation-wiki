@@ -68,17 +68,21 @@ linkoutLabels = ->
 handleSearch = ->
   # https://github.com/christian-fei/Simple-Jekyll-Search#configuration
   search = $("#search-input").val()
-  callback = (prop, value, template) ->
-    console.info "Search found a result"
-    false
-  searchConfig =
-    searchInput: document.getElementById('search-input')
-    resultsContainer: document.getElementById('results-container')
-    json: "https://arctosdb.github.io/documentation-wiki/search.json"
-    searchResultTemplate: "<li><a href='{url}'>{title}</a></li>"
-    fuzzy: true
-    noResultsText: "<em>Sorry, no results found matching '#{search}'</em>"
-  SimpleJekyllSearch searchConfig
+  $.getJSON "https://arctosdb.github.io/documentation-wiki/search.json"
+  .done (jsonResult) ->
+    console.info "Search pinged back result", jsonResult
+    searchConfig =
+      searchInput: document.getElementById('search-input')
+      resultsContainer: document.getElementById('results-container')
+      json: jsonResult
+      searchResultTemplate: "<li><a href='{url}'>{title}</a></li>"
+      fuzzy: true
+      noResultsText: "<em>Sorry, no results found matching '#{search}'</em>"
+    SimpleJekyllSearch searchConfig
+  .error (result, error) ->
+    console.error "Couldn't do search: #{error}"
+    console.warn result
+    $("#results-container").html "<p>There was an error getting your search results. Please try again later.</p>"
   false
 
 $ ->

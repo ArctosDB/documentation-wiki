@@ -15,28 +15,28 @@
   };
 
   window.isNull = function(str) {
-    var error;
+    var error1;
     try {
       if (isEmpty(str) || isBlank(str) || (str == null)) {
         if (!(str === false || str === 0)) {
           return true;
         }
       }
-    } catch (error) {
+    } catch (error1) {
 
     }
     return false;
   };
 
   window.isJson = function(str) {
-    var error;
+    var error1;
     if (typeof str === 'object') {
       return true;
     }
     try {
       JSON.parse(str);
       return true;
-    } catch (error) {
+    } catch (error1) {
 
     }
     return false;
@@ -142,7 +142,7 @@
   };
 
   Function.prototype.debounce = function() {
-    var args, delayed, e, error, execAsap, func, threshold, timeout;
+    var args, delayed, e, error1, execAsap, func, threshold, timeout;
     threshold = arguments[0], execAsap = arguments[1], timeout = arguments[2], args = 4 <= arguments.length ? slice.call(arguments, 3) : [];
     if (threshold == null) {
       threshold = 300;
@@ -163,8 +163,8 @@
     if (timeout != null) {
       try {
         clearTimeout(timeout);
-      } catch (error) {
-        e = error;
+      } catch (error1) {
+        e = error1;
       }
     } else if (execAsap) {
       func.apply(obj, args);
@@ -225,7 +225,7 @@
   };
 
   window.animateLoad = function(d, elId) {
-    var big, e, error, html, inlineId, offset, offset2, sm_d, small;
+    var big, e, error1, html, inlineId, offset, offset2, sm_d, small;
     if (d == null) {
       d = 50;
     }
@@ -262,14 +262,14 @@
         return true;
       }
       return false;
-    } catch (error) {
-      e = error;
+    } catch (error1) {
+      e = error1;
       return console.error('Could not animate loader', e.message);
     }
   };
 
   window.stopLoad = function(elId, fadeOut) {
-    var big, e, error, small;
+    var big, e, error1, small;
     if (elId == null) {
       elId = "#status-container";
     }
@@ -292,14 +292,14 @@
           return small.removeClass('bballgood ball1good');
         });
       }
-    } catch (error) {
-      e = error;
+    } catch (error1) {
+      e = error1;
       return console.error('Could not stop load animation', e.message);
     }
   };
 
   window.stopLoadError = function(message, elId, fadeOut) {
-    var big, e, error, small;
+    var big, e, error1, small;
     if (elId == null) {
       elId = "#status-container";
     }
@@ -325,8 +325,8 @@
           return toastStatusMessage(message);
         }
       }
-    } catch (error) {
-      e = error;
+    } catch (error1) {
+      e = error1;
       return console.error('Could not stop load error animation', e.message);
     }
   };
@@ -352,7 +352,7 @@
   };
 
   window.loadJS = function(src, callback, doCallbackOnError) {
-    var e, error, errorFunction, onLoadFunction, s;
+    var e, error1, errorFunction, onLoadFunction, s;
     if (callback == null) {
       callback = new Object();
     }
@@ -375,8 +375,8 @@
       if (typeof callback === "function") {
         try {
           callback();
-        } catch (error) {
-          e = error;
+        } catch (error1) {
+          e = error1;
           console.error("Script is already loaded, but there was an error executing the callback function - " + e.message);
         }
       }
@@ -389,7 +389,7 @@
     s.src = src;
     s.async = true;
     onLoadFunction = function() {
-      var error1, error2, state;
+      var error2, error3, state;
       state = s.readyState;
       try {
         if (!callback.done && (!state || /loaded|complete/.test(state))) {
@@ -397,20 +397,20 @@
           if (typeof callback === "function") {
             try {
               return callback();
-            } catch (error1) {
-              e = error1;
+            } catch (error2) {
+              e = error2;
               console.error("Postload callback error for " + src + " - " + e.message);
               return console.warn(e.stack);
             }
           }
         }
-      } catch (error2) {
-        e = error2;
+      } catch (error3) {
+        e = error3;
         return console.error("Onload error - " + e.message);
       }
     };
     errorFunction = function() {
-      var error1, error2;
+      var error2, error3;
       console.warn("There may have been a problem loading " + src);
       try {
         if (!callback.done) {
@@ -418,14 +418,14 @@
           if (typeof callback === "function" && doCallbackOnError) {
             try {
               return callback();
-            } catch (error1) {
-              e = error1;
+            } catch (error2) {
+              e = error2;
               return console.error("Post error callback error - " + e.message);
             }
           }
         }
-      } catch (error2) {
-        e = error2;
+      } catch (error3) {
+        e = error3;
         return console.error("There was an error in the error handler! " + e.message);
       }
     };
@@ -446,31 +446,31 @@
      * Cross-browser, works with Chrome, Firefox, Opera, Safari, and IE
      * Falls back to standard jQuery selector when everything fails.
      */
-    var e, error, error1;
+    var e, error1, error2;
     try {
       if (!$("html /deep/ " + selector).exists()) {
         throw "Bad /deep/ selector";
       }
       return $("html /deep/ " + selector);
-    } catch (error) {
-      e = error;
+    } catch (error1) {
+      e = error1;
       try {
         if (!$("html >>> " + selector).exists()) {
           throw "Bad >>> selector";
         }
         return $("html >>> " + selector);
-      } catch (error1) {
-        e = error1;
+      } catch (error2) {
+        e = error2;
         return $(selector);
       }
     }
   };
 
   p$ = function(selector) {
-    var error;
+    var error1;
     try {
       return $$(selector)[0];
-    } catch (error) {
+    } catch (error1) {
       return $(selector).get(0);
     }
   };
@@ -480,18 +480,18 @@
   };
 
   $(function() {
-    var e, error;
+    var e, error1;
     try {
       window.picturefill();
-    } catch (error) {
-      e = error;
+    } catch (error1) {
+      e = error1;
       console.log("Could not execute picturefill.");
     }
     return mapNewWindows();
   });
 
   tabSelect = function(currentPath) {
-    var e, error, i, index, len, ref, ref1, tab, thisCollection;
+    var e, error1, i, index, len, ref, ref1, tab, thisCollection;
     if (currentPath == null) {
       currentPath = window.currentPagePath;
     }
@@ -508,8 +508,8 @@
           p$("nav paper-tabs").selected = index;
           break;
         }
-      } catch (error) {
-        e = error;
+      } catch (error1) {
+        e = error1;
         console.warn("Couldn't check - " + e.message);
       }
       ++index;
@@ -589,21 +589,25 @@
   };
 
   handleSearch = function() {
-    var callback, search, searchConfig;
+    var search;
     search = $("#search-input").val();
-    callback = function(prop, value, template) {
-      console.info("Search found a result");
-      return false;
-    };
-    searchConfig = {
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: "https://arctosdb.github.io/documentation-wiki/search.json",
-      searchResultTemplate: "<li><a href='{url}'>{title}</a></li>",
-      fuzzy: true,
-      noResultsText: "<em>Sorry, no results found matching '" + search + "'</em>"
-    };
-    SimpleJekyllSearch(searchConfig);
+    $.getJSON("https://arctosdb.github.io/documentation-wiki/search.json").done(function(jsonResult) {
+      var searchConfig;
+      console.info("Search pinged back result", jsonResult);
+      searchConfig = {
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: jsonResult,
+        searchResultTemplate: "<li><a href='{url}'>{title}</a></li>",
+        fuzzy: true,
+        noResultsText: "<em>Sorry, no results found matching '" + search + "'</em>"
+      };
+      return SimpleJekyllSearch(searchConfig);
+    }).error(function(result, error) {
+      console.error("Couldn't do search: " + error);
+      console.warn(result);
+      return $("#results-container").html("<p>There was an error getting your search results. Please try again later.</p>");
+    });
     return false;
   };
 
@@ -649,7 +653,7 @@
     lightboxImages();
     if ($("nav#toc").exists()) {
       return (checkToc = function() {
-        var $headings, $topContext, error, opts, topLevel;
+        var $headings, $topContext, error1, opts, topLevel;
         try {
           if (Polymer.RenderStatus.hasRendered()) {
             if (!($("nav#toc li").length > 0)) {
@@ -677,7 +681,7 @@
               return checkToc();
             });
           }
-        } catch (error) {
+        } catch (error1) {
           if (typeof Polymer === "undefined" || Polymer === null) {
             return delay(100, function() {
               return checkToc();
