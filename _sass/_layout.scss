@@ -85,6 +85,10 @@ nav {
     }
 }
 
+nav.collection-toc {
+
+}
+
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -318,4 +322,8 @@ article {
     #twitter-widget-0 {
         display: none !important;
     }
+}
+
+.nav li {
+    text-transform: capitalize;
 }
