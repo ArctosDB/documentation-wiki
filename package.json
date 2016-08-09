@@ -17,6 +17,7 @@
   },
   "homepage": "https://arctosdb.github.io/documentation-wiki",
   "devDependencies": {
+    "autoprefixer": "^6.4.0",
     "autoprefixer-core": "^6.0.1",
     "bootlint": "^0.14.2",
     "bower": "^1.7.9",
