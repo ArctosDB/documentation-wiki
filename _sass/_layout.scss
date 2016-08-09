@@ -359,3 +359,10 @@ article {
         margin-top: -$paper-tabs-height !important;
     }
 }
+
+@media(max-width: 991px) {
+    // BS @screen-sm-max
+    #twitter-widget-0 {
+        display: none !important;
+    }
+}
