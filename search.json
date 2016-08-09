@@ -14,7 +14,6 @@ layout: null
   {% endfor %}
   ,
   {% for collection in site.collections %}
-    {% if page.path contains collection.label %}
       {% for doc in collection.docs %}
         {% unless doc.url contains "index" %}
     {
@@ -27,6 +26,5 @@ layout: null
     } {% unless forloop.last %},{% endunless %}
         {% endunless %}
       {% endfor %}
-    {% endif %}
   {% endfor %}
 ]
