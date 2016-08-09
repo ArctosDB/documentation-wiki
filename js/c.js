@@ -1,6 +1,7 @@
 (function() {
   var _arctos, activityIndicatorOff, activityIndicatorOn, deepJQuery, formatScientificNames, handleSearch, lightboxImages, linkSubmenu, linkoutLabels, overlayOff, overlayOn, p$, tabSelect,
-    slice = [].slice;
+    slice = [].slice,
+    indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
   window.isBool = function(str) {
     return str === true || str === false;
@@ -592,20 +593,24 @@
     _arctos = new Object();
   }
 
-  handleSearch = function() {
+  handleSearch = function(prepOnly) {
+    var doSearch, search, startTime;
+    if (prepOnly == null) {
+      prepOnly = false;
+    }
 
     /*
      * Do a Jekyll site search
      *
-     * Based on 
+     * Based on
      * https://github.com/christian-fei/Simple-Jekyll-Search#configuration
      *
      * Caches a search result so we don't constantly have to do a server ping
      */
-    var doSearch, search;
+    startTime = Date.now();
     search = $("#search-input").val();
     doSearch = function() {
-      var searchConfig;
+      var elapsed, searchConfig;
       searchConfig = {
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
@@ -614,18 +619,34 @@
         fuzzy: false,
         noResultsText: "<strong><em>Sorry, no results found matching '" + search + "'</em></strong>"
       };
-      return SimpleJekyllSearch(searchConfig);
+      SimpleJekyllSearch(searchConfig);
+      elapsed = Date.now() - startTime;
+      return console.log("Search completed in " + elapsed + "ms");
     };
     if (isNull(_arctos.searchObject)) {
       $.getJSON("https://arctosdb.github.io/documentation-wiki/search.json").done(function(jsonResult) {
-        var hourToMs;
+        var elapsed, hourToMs, i, len, ref, result, uniqueUrls;
         console.info("Search pinged back result", jsonResult);
-        _arctos.searchObject = jsonResult;
+        _arctos.searchObject = new Array();
+        uniqueUrls = new Array();
+        for (i = 0, len = jsonResult.length; i < len; i++) {
+          result = jsonResult[i];
+          if (ref = result.url, indexOf.call(uniqueUrls, ref) >= 0) {
+            continue;
+          }
+          uniqueUrls.push(result.url);
+          _arctos.searchObject.push(result);
+        }
         hourToMs = 3600 * 1000;
         delay(hourToMs, function() {
           console.info("Invalidating stale search result object");
           return delete _arctos.searchObject;
         });
+        elapsed = Date.now() - startTime;
+        if (prepOnly) {
+          console.log("Search results prepped in " + elapsed + "ms");
+        }
+        console.info("It took " + elapsed + "ms to fetch the search items");
         return doSearch();
       }).error(function(result, error) {
         console.error("Couldn't do search: " + error);
@@ -633,6 +654,9 @@
         return $("#results-container").html("<p>There was an error getting your search results. Please try again later.</p>");
       });
     } else {
+      if (prepOnly) {
+        console.warn("Not doing prep -- we already have a search object");
+      }
       console.log("Searching for '" + search + "' in the saved search object");
       doSearch();
     }
@@ -680,6 +704,7 @@
       url = url + "?scientific_name=" + searchQuery;
       return openLink(url);
     });
+    handleSearch(true);
     lightboxImages();
     if ($("nav#toc").exists()) {
       return (checkToc = function() {

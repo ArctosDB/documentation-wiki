@@ -386,15 +386,16 @@ linkoutLabels = ->
 unless _arctos?
   _arctos = new Object()
 
-handleSearch = ->
+handleSearch = (prepOnly = false) ->
   ###
   # Do a Jekyll site search
   #
-  # Based on 
+  # Based on
   # https://github.com/christian-fei/Simple-Jekyll-Search#configuration
   #
   # Caches a search result so we don't constantly have to do a server ping
   ###
+  startTime = Date.now()
   search = $("#search-input").val()
   # Set up the search helper function
   doSearch = ->
@@ -406,17 +407,28 @@ handleSearch = ->
       fuzzy: false
       noResultsText: "<strong><em>Sorry, no results found matching '#{search}'</em></strong>"
     SimpleJekyllSearch searchConfig
+    elapsed = Date.now() - startTime
+    console.log "Search completed in #{elapsed}ms"
   # Get the search object
   if isNull _arctos.searchObject
     $.getJSON "https://arctosdb.github.io/documentation-wiki/search.json"
     .done (jsonResult) ->
       console.info "Search pinged back result", jsonResult
-      _arctos.searchObject = jsonResult
+      _arctos.searchObject = new Array()
+      uniqueUrls = new Array()
+      for result in jsonResult
+        if result.url in uniqueUrls then continue
+        uniqueUrls.push result.url
+        _arctos.searchObject.push result
       # In an hour, invalidate these results
       hourToMs = 3600 * 1000
       delay hourToMs, ->
         console.info "Invalidating stale search result object"
         delete _arctos.searchObject
+      elapsed = Date.now() - startTime
+      if prepOnly
+        console.log "Search results prepped in #{elapsed}ms"
+      console.info "It took #{elapsed}ms to fetch the search items"
       doSearch()
     .error (result, error) ->
       console.error "Couldn't do search: #{error}"
@@ -424,6 +436,8 @@ handleSearch = ->
       $("#results-container").html "<p>There was an error getting your search results. Please try again later.</p>"
   else
     # We already have the search object, do the search
+    if prepOnly
+      console.warn "Not doing prep -- we already have a search object"
     console.log "Searching for '#{search}' in the saved search object"
     doSearch()
   false
@@ -456,6 +470,7 @@ $ ->
     openLink(url)
   #FixedSticky.tests.sticky = false
   #$(".fixedsticky").fixedsticky()
+  handleSearch(true)
   lightboxImages()
   if $("nav#toc").exists()
     do checkToc = ->
