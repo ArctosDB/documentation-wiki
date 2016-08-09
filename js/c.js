@@ -614,6 +614,12 @@
     }
     doSearch = function() {
       var elapsed, searchConfig;
+      if (isNull(search)) {
+        $("#results-container").html("");
+        elapsed = Date.now() - startTime;
+        console.log("Blank search container");
+        return false;
+      }
       searchConfig = {
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
@@ -693,7 +699,7 @@
     $("#search-input").keyup(function(e) {
       var code;
       code = e.keyCode || e.which;
-      return handleSearch;
+      return handleSearch();
     });
     $("#arctos-search-form").submit(function(e) {
       var searchQuery, url;

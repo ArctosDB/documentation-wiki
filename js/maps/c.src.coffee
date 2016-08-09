@@ -401,6 +401,11 @@ handleSearch = (prepOnly = false) ->
     $("#results-container").html ""
   # Set up the search helper function
   doSearch = ->
+    if isNull search
+      $("#results-container").html ""
+      elapsed = Date.now() - startTime
+      console.log "Blank search container"
+      return false
     searchConfig =
       searchInput: document.getElementById('search-input')
       resultsContainer: document.getElementById('results-container')
@@ -463,8 +468,8 @@ $ ->
     $("#arctos-search-form").submit()
   $("#search-input").keyup (e) ->
     code = e.keyCode || e.which
-    # if code is 13 then handleSearch else handleSearch.debounce()
-    handleSearch
+    # if code is 13 then handleSearch() else handleSearch.debounce()
+    handleSearch()
   $("#arctos-search-form").submit (e) ->
     e.preventDefault()
     url = $("#arctos-search-form").attr("action")
