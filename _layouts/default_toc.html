@@ -12,15 +12,15 @@
       <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.0/dist/bootstrap-toc.min.js"></script>
       <div class="nav-container col-xs-12 col-sm-3 clearfix" style="overflow-x:hidden">
         <nav class="toc clearfix col-xs-12 col-sm-3" id="toc" data-toggle="toc" data-spy="affix" style="top:200px; overflow-x:hidden;">
-        </nav>
-        <nav class="clearfix collection-toc hidden-sm hidden-xs">
-          <ul class="nav collection-list">
-            {% for collection in site.collections %}
-            <li>
-              <a class="collection-index-link" href="{{ collection.directory }}">{{ collection.label | replace: '_', ' ' }}</a>
-            </li>
-            {% endfor %}
-          </ul>
+          <nav class="clearfix collection-toc hidden-sm hidden-xs">
+            <ul class="nav collection-list">
+              {% for collection in site.collections %}
+              <li>
+                <a class="collection-index-link" href="{{ collection.directory }}">{{ collection.label | replace: '_', ' ' }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </nav>
         </nav>
       </div>
       <article class="wrapper">
