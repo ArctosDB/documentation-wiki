@@ -620,8 +620,9 @@
         console.log("Blank search container");
         return false;
       }
+      $("#search-input-dummy").val(search);
       searchConfig = {
-        searchInput: document.getElementById('search-input'),
+        searchInput: document.getElementById('search-input-dummy'),
         resultsContainer: document.getElementById('results-container'),
         json: _arctos.searchObject,
         searchResultTemplate: "<li><a href='{url}'>{title}</a></li>",
