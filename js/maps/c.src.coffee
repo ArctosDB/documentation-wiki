@@ -463,9 +463,10 @@ handleSearch = (prepOnly = false) ->
       for result in results
         url = $(result).find("a").attr "href"
         if url in uniqueUrls
-          $(result).remove
+          $(result).remove()
         else
           uniqueUrls.push url
+      uniqueUrls
     delay 100, ->
       cleanupResults.debounce(100)
     elapsed = Date.now() - startTime
