@@ -13,6 +13,10 @@ More about collections [can be seen on the Jekyll page](https://jekyllrb.com/doc
 
 # This is a header
 
+Here's an image.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/edit_parts.jpg)
+
 ## This is a subheader
 
 I want to see how the TOC looks.
