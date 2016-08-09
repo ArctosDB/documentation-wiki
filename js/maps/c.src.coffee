@@ -401,7 +401,7 @@ handleSearch = ->
     searchConfig =
       searchInput: document.getElementById('search-input')
       resultsContainer: document.getElementById('results-container')
-      json: _arctos.searchObject()
+      json: _arctos.searchObject
       searchResultTemplate: "<li><a href='{url}'>{title}</a></li>"
       fuzzy: false
       noResultsText: "<strong><em>Sorry, no results found matching '#{search}'</em></strong>"
