@@ -686,20 +686,19 @@
       };
       SimpleJekyllSearch(searchConfig);
       (cleanupResults = function() {
-        var i, len, result, results, results1, uniqueUrls, url;
+        var i, len, result, results, uniqueUrls, url;
         results = $("#results-container li");
         uniqueUrls = new Array();
-        results1 = [];
         for (i = 0, len = results.length; i < len; i++) {
           result = results[i];
           url = $(result).find("a").attr("href");
           if (indexOf.call(uniqueUrls, url) >= 0) {
-            results1.push($(result).remove);
+            $(result).remove();
           } else {
-            results1.push(uniqueUrls.push(url));
+            uniqueUrls.push(url);
           }
         }
-        return results1;
+        return uniqueUrls;
       })();
       delay(100, function() {
         return cleanupResults.debounce(100);
