@@ -424,7 +424,9 @@ handleSearch = (prepOnly = false) ->
       _arctos.searchObject = new Array()
       uniqueUrls = new Array()
       for result in jsonResult
-        if result.url in uniqueUrls then continue
+        if result.url in uniqueUrls
+          console.info "Removing duplicate url '#{result.url}'"
+          continue
         uniqueUrls.push result.url
         _arctos.searchObject.push result
       # In an hour, invalidate these results
@@ -435,6 +437,7 @@ handleSearch = (prepOnly = false) ->
       elapsed = Date.now() - startTime
       if prepOnly
         console.log "Search results prepped in #{elapsed}ms"
+        window.so = _arctos.searchObject
       console.info "It took #{elapsed}ms to fetch the search items"
       doSearch()
     .error (result, error) ->

@@ -641,6 +641,7 @@
         for (i = 0, len = jsonResult.length; i < len; i++) {
           result = jsonResult[i];
           if (ref = result.url, indexOf.call(uniqueUrls, ref) >= 0) {
+            console.info("Removing duplicate url '" + result.url + "'");
             continue;
           }
           uniqueUrls.push(result.url);
@@ -654,6 +655,7 @@
         elapsed = Date.now() - startTime;
         if (prepOnly) {
           console.log("Search results prepped in " + elapsed + "ms");
+          window.so = _arctos.searchObject;
         }
         console.info("It took " + elapsed + "ms to fetch the search items");
         return doSearch();
