@@ -65,24 +65,49 @@ linkoutLabels = ->
   false
 
 
+unless _arctos?
+  _arctos = new Object()
+
 handleSearch = ->
+  ###
+  # Do a Jekyll site search
+  #
+  # Based on 
   # https://github.com/christian-fei/Simple-Jekyll-Search#configuration
+  #
+  # Caches a search result so we don't constantly have to do a server ping
+  ###
   search = $("#search-input").val()
-  $.getJSON "https://arctosdb.github.io/documentation-wiki/search.json"
-  .done (jsonResult) ->
-    console.info "Search pinged back result", jsonResult
+  # Set up the search helper function
+  doSearch = ->
     searchConfig =
       searchInput: document.getElementById('search-input')
       resultsContainer: document.getElementById('results-container')
-      json: jsonResult
+      json: _arctos.searchObject()
       searchResultTemplate: "<li><a href='{url}'>{title}</a></li>"
-      fuzzy: true
-      noResultsText: "<em>Sorry, no results found matching '#{search}'</em>"
+      fuzzy: false
+      noResultsText: "<strong><em>Sorry, no results found matching '#{search}'</em></strong>"
     SimpleJekyllSearch searchConfig
-  .error (result, error) ->
-    console.error "Couldn't do search: #{error}"
-    console.warn result
-    $("#results-container").html "<p>There was an error getting your search results. Please try again later.</p>"
+  # Get the search object
+  if isNull _arctos.searchObject
+    $.getJSON "https://arctosdb.github.io/documentation-wiki/search.json"
+    .done (jsonResult) ->
+      console.info "Search pinged back result", jsonResult
+      _arctos.searchObject = jsonResult
+      # In an hour, invalidate these results
+      hourToMs = 3600 * 1000
+      delay hourToMs, ->
+        console.info "Invalidating stale search result object"
+        delete _arctos.searchObject
+      doSearch()
+    .error (result, error) ->
+      console.error "Couldn't do search: #{error}"
+      console.warn result
+      $("#results-container").html "<p>There was an error getting your search results. Please try again later.</p>"
+  else
+    # We already have the search object, do the search
+    console.log "Searching for '#{search}' in the saved search object"
+    doSearch()
   false
 
 $ ->
@@ -104,7 +129,7 @@ $ ->
     $("#arctos-search-form").submit()
   $("#search-input").keyup (e) ->
     code = e.keyCode || e.which
-    if code is 13 then handleSearch()
+    if code is 13 then handleSearch.debounce()
   $("#arctos-search-form").submit (e) ->
     e.preventDefault()
     url = $("#arctos-search-form").attr("action")

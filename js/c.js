@@ -1,5 +1,5 @@
 (function() {
-  var activityIndicatorOff, activityIndicatorOn, deepJQuery, formatScientificNames, handleSearch, lightboxImages, linkSubmenu, linkoutLabels, overlayOff, overlayOn, p$, tabSelect,
+  var _arctos, activityIndicatorOff, activityIndicatorOn, deepJQuery, formatScientificNames, handleSearch, lightboxImages, linkSubmenu, linkoutLabels, overlayOff, overlayOn, p$, tabSelect,
     slice = [].slice;
 
   window.isBool = function(str) {
@@ -588,26 +588,54 @@
     return false;
   };
 
+  if (typeof _arctos === "undefined" || _arctos === null) {
+    _arctos = new Object();
+  }
+
   handleSearch = function() {
-    var search;
+
+    /*
+     * Do a Jekyll site search
+     *
+     * Based on 
+     * https://github.com/christian-fei/Simple-Jekyll-Search#configuration
+     *
+     * Caches a search result so we don't constantly have to do a server ping
+     */
+    var doSearch, search;
     search = $("#search-input").val();
-    $.getJSON("https://arctosdb.github.io/documentation-wiki/search.json").done(function(jsonResult) {
+    doSearch = function() {
       var searchConfig;
-      console.info("Search pinged back result", jsonResult);
       searchConfig = {
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: jsonResult,
+        json: _arctos.searchObject(),
         searchResultTemplate: "<li><a href='{url}'>{title}</a></li>",
-        fuzzy: true,
-        noResultsText: "<em>Sorry, no results found matching '" + search + "'</em>"
+        fuzzy: false,
+        noResultsText: "<strong><em>Sorry, no results found matching '" + search + "'</em></strong>"
       };
       return SimpleJekyllSearch(searchConfig);
-    }).error(function(result, error) {
-      console.error("Couldn't do search: " + error);
-      console.warn(result);
-      return $("#results-container").html("<p>There was an error getting your search results. Please try again later.</p>");
-    });
+    };
+    if (isNull(_arctos.searchObject)) {
+      $.getJSON("https://arctosdb.github.io/documentation-wiki/search.json").done(function(jsonResult) {
+        var hourToMs;
+        console.info("Search pinged back result", jsonResult);
+        _arctos.searchObject = jsonResult;
+        hourToMs = 3600 * 1000;
+        delay(hourToMs, function() {
+          console.info("Invalidating stale search result object");
+          return delete _arctos.searchObject;
+        });
+        return doSearch();
+      }).error(function(result, error) {
+        console.error("Couldn't do search: " + error);
+        console.warn(result);
+        return $("#results-container").html("<p>There was an error getting your search results. Please try again later.</p>");
+      });
+    } else {
+      console.log("Searching for '" + search + "' in the saved search object");
+      doSearch();
+    }
     return false;
   };
 
@@ -639,7 +667,7 @@
       var code;
       code = e.keyCode || e.which;
       if (code === 13) {
-        return handleSearch();
+        return handleSearch.debounce();
       }
     });
     $("#arctos-search-form").submit(function(e) {
