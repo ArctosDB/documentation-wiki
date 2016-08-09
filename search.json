@@ -14,7 +14,9 @@ layout: null
   {% endfor %}
   ,
   {% for collection in site.collections %}
+  [{{collection.label}}],
       {% for doc in collection.docs %}
+      [{{doc.title}}],
         {% unless doc.url contains "index" %}
     {
       "title"    : "{{ doc.title | escape }}",
