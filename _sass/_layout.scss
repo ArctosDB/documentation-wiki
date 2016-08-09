@@ -347,3 +347,13 @@ nav {
         }
     }
 }
+
+
+// Header anchors
+
+$paper-tabs-height: 48px;
+
+h1, h2, h3, h4, h5, h6 {
+    padding: $paper-tabs-height;
+    margin-top: -$paper-tabs-height;
+}
