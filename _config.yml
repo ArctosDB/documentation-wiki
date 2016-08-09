@@ -14,6 +14,8 @@ collections:
     output: true
   how_to:
     output: true
+  resources:
+    output: true
 
 # Site settings
 title: ArctosDB Documentation

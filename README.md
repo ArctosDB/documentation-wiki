@@ -17,7 +17,18 @@ Placing the files into the appropriate directory will automatically sort them. T
 
 The collection directories are:
 
-- `_tutorials`
 - `_documentation`
 - `_how_to`
-- `_for_developers`
+
+
+# Creating new collections
+
+To create a collection, do the following:
+
+1. Create a directory with a leading underscore and the name of the collection, replacing spaces with `_`. For example, **My Awesome Collection** becomes the directory `_my_awesome_collection`.
+2. In `./_config.yml`, under the `collections` item, add
+  ```
+  my_awesome_collection:
+    output: true
+  ```
+3. Create an `index.html` file for your new collection, and in the front matter, give it the layout `collection_index`.
