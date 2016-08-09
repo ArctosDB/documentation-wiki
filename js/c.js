@@ -589,12 +589,19 @@
   };
 
   handleSearch = function() {
-    var searchConfig;
+    var callback, search, searchConfig;
+    search = $("#search-input").val();
+    callback = function(prop, value, template) {
+      console.info("Search found a result");
+      return false;
+    };
     searchConfig = {
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
       json: "https://arctosdb.github.io/documentation-wiki/search.json",
-      fuzzy: true
+      searchResultTemplate: "<li><a href='{url}'>{title}</a></li>",
+      fuzzy: true,
+      noResultsText: "<em>Sorry, no results found matching '" + search + "'</em>"
     };
     SimpleJekyllSearch(searchConfig);
     return false;
