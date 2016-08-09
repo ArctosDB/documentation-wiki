@@ -609,6 +609,9 @@
      */
     startTime = Date.now();
     search = $("#search-input").val();
+    if (isNull(search)) {
+      $("#results-container").html("");
+    }
     doSearch = function() {
       var elapsed, searchConfig;
       searchConfig = {
@@ -690,11 +693,7 @@
     $("#search-input").keyup(function(e) {
       var code;
       code = e.keyCode || e.which;
-      if (code === 13) {
-        return handleSearch;
-      } else {
-        return handleSearch.debounce();
-      }
+      return handleSearch;
     });
     $("#arctos-search-form").submit(function(e) {
       var searchQuery, url;
