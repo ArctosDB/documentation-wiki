@@ -142,8 +142,24 @@
     };
   };
 
+  Function.prototype.getName = function() {
+
+    /*
+     * Returns a unique identifier for a function
+     */
+    var name;
+    name = this.name;
+    if (name == null) {
+      name = this.toString().substr(0, this.toString().indexOf("(")).replace("function ", "");
+    }
+    if (isNull(name)) {
+      name = md5(this.toString());
+    }
+    return name;
+  };
+
   Function.prototype.debounce = function() {
-    var args, delayed, e, error1, execAsap, func, threshold, timeout;
+    var args, delayed, e, error1, execAsap, func, key, ref, threshold, timeout;
     threshold = arguments[0], execAsap = arguments[1], timeout = arguments[2], args = 4 <= arguments.length ? slice.call(arguments, 3) : [];
     if (threshold == null) {
       threshold = 300;
@@ -154,12 +170,39 @@
     if (timeout == null) {
       timeout = window.debounce_timer;
     }
+
+    /*
+     * Borrowed from http://coffeescriptcookbook.com/chapters/functions/debounce
+     * Only run the prototyped function once per interval.
+     *
+     * @param threshold -> Timeout in ms
+     * @param execAsap -> Do it NAOW
+     * @param timeout -> backup timeout object
+     */
+    if (((ref = window.core) != null ? ref.debouncers : void 0) == null) {
+      if (window.core == null) {
+        window.core = new Object();
+      }
+      core.debouncers = new Object();
+    }
+    try {
+      key = this.getName();
+    } catch (undefined) {}
+    try {
+      if (core.debouncers[key] != null) {
+        timeout = core.debouncers[key];
+      }
+    } catch (undefined) {}
     func = this;
     delayed = function() {
+      if (key != null) {
+        clearTimeout(timeout);
+        delete core.debouncers[key];
+      }
       if (!execAsap) {
         func.apply(func, args);
       }
-      return console.log("Debounce applied");
+      return console.info("Debounce applied");
     };
     if (timeout != null) {
       try {
@@ -167,11 +210,23 @@
       } catch (error1) {
         e = error1;
       }
-    } else if (execAsap) {
-      func.apply(obj, args);
-      console.log("Executed immediately");
     }
-    return window.debounce_timer = setTimeout(delayed, threshold);
+    if (execAsap) {
+      func.apply(obj, args);
+      console.log("Executed " + key + " immediately");
+      return false;
+    }
+    if (key != null) {
+      console.log("Debouncing '" + key + "' for " + threshold + " ms");
+      return core.debouncers[key] = delay(threshold, function() {
+        return delayed();
+      });
+    } else {
+      console.log("Delaying '" + key + "' for " + threshold + " ms");
+      return window.debounce_timer = delay(threshold, function() {
+        return delayed();
+      });
+    }
   };
 
   window.mapNewWindows = function() {
@@ -613,16 +668,16 @@
       $("#results-container").html("");
     }
     doSearch = function() {
-      var elapsed, searchConfig;
+      var cleanupResults, elapsed, searchConfig;
       if (isNull(search)) {
         $("#results-container").html("");
         elapsed = Date.now() - startTime;
         console.log("Blank search container");
         return false;
       }
-      $("#search-input-dummy").val(search);
+      $("#search-input-dummy").val(search).attr("value", search);
       searchConfig = {
-        searchInput: document.getElementById('search-input-dummy'),
+        searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: _arctos.searchObject,
         searchResultTemplate: "<li><a href='{url}'>{title}</a></li>",
@@ -630,6 +685,25 @@
         noResultsText: "<strong><em>Sorry, no results found matching '" + search + "'</em></strong>"
       };
       SimpleJekyllSearch(searchConfig);
+      (cleanupResults = function() {
+        var i, len, result, results, results1, uniqueUrls, url;
+        results = $("#results-container li");
+        uniqueUrls = new Array();
+        results1 = [];
+        for (i = 0, len = results.length; i < len; i++) {
+          result = results[i];
+          url = $(result).find("a").attr("href");
+          if (indexOf.call(uniqueUrls, url) >= 0) {
+            results1.push($(result).remove);
+          } else {
+            results1.push(uniqueUrls.push(url));
+          }
+        }
+        return results1;
+      })();
+      delay(100, function() {
+        return cleanupResults.debounce(100);
+      });
       elapsed = Date.now() - startTime;
       return console.log("Search completed in " + elapsed + "ms");
     };

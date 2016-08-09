@@ -88,16 +88,29 @@ handleSearch = (prepOnly = false) ->
       elapsed = Date.now() - startTime
       console.log "Blank search container"
       return false
-    $("#search-input-dummy").val search
+    $("#search-input-dummy")
+    .val search
+    .attr "value", search
     searchConfig =
-      searchInput: document.getElementById('search-input-dummy')
+      searchInput: document.getElementById('search-input')
       resultsContainer: document.getElementById('results-container')
       json: _arctos.searchObject
       searchResultTemplate: "<li><a href='{url}'>{title}</a></li>"
       fuzzy: false
       noResultsText: "<strong><em>Sorry, no results found matching '#{search}'</em></strong>"
     SimpleJekyllSearch searchConfig
-    
+    do cleanupResults = ->
+      # Remove duplicates
+      results = $("#results-container li")
+      uniqueUrls = new Array()
+      for result in results
+        url = $(result).find("a").attr "href"
+        if url in uniqueUrls
+          $(result).remove
+        else
+          uniqueUrls.push url
+    delay 100, ->
+      cleanupResults.debounce(100)
     elapsed = Date.now() - startTime
     console.log "Search completed in #{elapsed}ms"
   # Get the search object
