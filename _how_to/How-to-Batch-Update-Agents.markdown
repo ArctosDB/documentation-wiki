@@ -10,7 +10,7 @@ Batch update Agents (collectors and preparators) using the Manage Menu. The Mana
 
 **Note:** Other types of agents (donors, determiners, loan contacts, etc.) cannot be globally edited, and must be individually updated record-by-record.
 
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/manage_agents_1.jpg)
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_agents_1.jpg)
 *Navigation: from the Search Results screen → "Manage..." Menu → Agents*
 
 Query the records to be edited. ALL records that appear in the search results list will be batch-updated. Be sure to double-check the results and isolate only the records you wish to update, narrowing your search parameters if need be.
