@@ -17,7 +17,7 @@ Query the records to be edited. ALL records that appear in the search results li
 
 ## Manage Agents
 
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/manage_agents_2.jpg)
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_agents_2.jpg)
 
 ### Add Agents
 
