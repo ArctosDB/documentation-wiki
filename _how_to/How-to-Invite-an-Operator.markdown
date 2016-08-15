@@ -37,6 +37,6 @@ In Arctos parlance, Operators are users who can manipulate data in Arctos; they 
  * All users should have PUBLIC and COLDFUSION_USER roles
  * DATA_ENTRY is required for anyone who is entering data.
  * As a general rule, students should not have permission to manage COLLECTION, TAXONOMY, AGENTS, or GEOGRAPHY - this should be reserved for Curators or Collection Managers
- * The most restrictive roles are for CODETABLES and GLOBAL ADMIN. 
+ * The most restrictive roles are for CODETABLES and GLOBAL ADMIN, limited to very few including the database administrators. 
 
 

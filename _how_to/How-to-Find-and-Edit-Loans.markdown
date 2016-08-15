@@ -1,13 +1,15 @@
 ---
-title: How To Create/ Edit Attributes
+title: How To Find and Edit Loans
 layout: default_toc
 ---
+
+# How To Find and Edit Loans
 
 ## Finding Loans
 
 Use the Arctos drop-down menus to select **Manage Data > Transactions > Find Loan**
 
-To find loans that have not been closed (i.e., active loans), click the button on the right side of this page titled “Find all loans that are not ‘closed’”. Otherwise, use the options on the left side of the screen to search for loans by collection, recipients, etc.
+To find loans that have not been closed (i.e., active loans), click the button on the right side of this page titled: **Find all loans that are not ‘closed'**.  Otherwise, use the options on the left side of the screen to search for loans by collection, recipients, etc.
 
 When finished, click the “Find Loans” button and a new page will appear with a list of search results. To view loan details, click “Review Items”. 
 

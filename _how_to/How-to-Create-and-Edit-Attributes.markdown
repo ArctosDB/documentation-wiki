@@ -1,13 +1,13 @@
 ---
-title: How To Create/ Edit Attributes
+title: How To Create and Edit Attributes
 layout: default_toc
 ---
 
 # How to Create and Edit Attributes
 
-**NAVIGATION: from the specimen record, click on the Attributes Tab OR the "Edit" link in the corner of the Attributes detail**
+**NAVIGATION: from the Specimen record, click on the Attributes Tab OR the "Edit" link in the corner of the Attributes detail**
 
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/edit_attributes.jpg)
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/edit_attributes.jpg)
 
 ## Create Attributes
 
@@ -16,7 +16,7 @@ layout: default_toc
 * Click the "Save All" button below the table to create the attribute. Upon saving, a new blank row will appear so that additional attributes can be added. **TIP:** Use the "use Agent1/Date1" hypertext to carry over agent name and determination date when creating new attributes.
 * Continue creating new attributes as desired by populating the appropriate fields and saving.
 
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/edit_attributes_detail.jpg)
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/edit_attributes_detail.jpg)
 
 ## Edit Attributes
 
