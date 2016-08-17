@@ -1,17 +1,17 @@
 ---
-title: How To Batch Update
+title: How To Batch Update Agents
 layout: default_toc
 ---
 
-
 # How to Batch Update Agents
 
-Batch update Agents (collectors and preparators) using the Manage Menu. The Manage Menu is an efficient alternative to using the "Agents Tab" found in individual specimen records when needing to update multiple records at once. Agents can be added, deleted, or re-ordered using this feature.
+To Batch update Agents (collectors and preparators) use the Manage Menu. The Manage Menu is an efficient alternative to using the "Agents Tab" found in individual specimen records when needing to update multiple records at once. Agents can be added, deleted, or re-ordered using this feature.
 
 **Note:** Other types of agents (donors, determiners, loan contacts, etc.) cannot be globally edited, and must be individually updated record-by-record.
 
+**Navigation: from the Search Results screen → "Manage..." Menu → Agents**
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_agents_1.jpg)
-*Navigation: from the Search Results screen → "Manage..." Menu → Agents*
+
 
 Query the records to be edited. ALL records that appear in the search results list will be batch-updated. Be sure to double-check the results and isolate only the records you wish to update, narrowing your search parameters if need be.
 
