@@ -392,9 +392,9 @@ lightboxImages = (selector = "#content a") ->
         activityIndicatorOff()
       allowedTypes: 'png|jpg|jpeg|gif'
   ###
-  $(selector).has("img").each ->
-    if not $(this).attr("nolightbox")?
-      $(this).imageLightbox(options)
+  #$(selector).has("img").each ->
+  #  if not $(this).attr("nolightbox")?
+  #    $(this).imageLightbox(options)
   ###
   # Until these narrower selectors work, let's use this
   $(selector).imageLightbox(options)
@@ -440,6 +440,12 @@ handleSearch = (prepOnly = false) ->
     $("#results-container").html ""
   # Set up the search helper function
   doSearch = ->
+    unless $("#results-container").exists()
+      console.warn "The results container was not properly set up. Manually appending."
+      rc = """
+      <ul id="results-container"></ul>
+      """
+      $("#search-container").append rc
     if isNull search
       $("#results-container").html ""
       elapsed = Date.now() - startTime
@@ -477,6 +483,8 @@ handleSearch = (prepOnly = false) ->
     .done (jsonResult) ->
       console.info "Search pinged back result", jsonResult
       _arctos.searchObject = new Array()
+      _arctos.searchPageObject = new Array()
+      matchCollectionType = ""
       uniqueUrls = new Array()
       for result in jsonResult
         if result.url in uniqueUrls
@@ -484,11 +492,15 @@ handleSearch = (prepOnly = false) ->
           continue
         uniqueUrls.push result.url
         _arctos.searchObject.push result
+        if result.category is matchCollectionType
+          _arctos.searchPageObject.push result
       # In an hour, invalidate these results
       hourToMs = 3600 * 1000
       delay hourToMs, ->
         console.info "Invalidating stale search result object"
         delete _arctos.searchObject
+        handleSearch(true) # Rebuild it
+        false
       elapsed = Date.now() - startTime
       if prepOnly
         console.log "Search results prepped in #{elapsed}ms"

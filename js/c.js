@@ -602,9 +602,9 @@
     };
 
     /*
-    $(selector).has("img").each ->
-      if not $(this).attr("nolightbox")?
-        $(this).imageLightbox(options)
+    #$(selector).has("img").each ->
+     *  if not $(this).attr("nolightbox")?
+     *    $(this).imageLightbox(options)
      */
     return $(selector).imageLightbox(options);
   };
@@ -668,7 +668,12 @@
       $("#results-container").html("");
     }
     doSearch = function() {
-      var cleanupResults, elapsed, searchConfig;
+      var cleanupResults, elapsed, rc, searchConfig;
+      if (!$("#results-container").exists()) {
+        console.warn("The results container was not properly set up. Manually appending.");
+        rc = "<ul id=\"results-container\"></ul>";
+        $("#search-container").append(rc);
+      }
       if (isNull(search)) {
         $("#results-container").html("");
         elapsed = Date.now() - startTime;
@@ -708,9 +713,11 @@
     };
     if (isNull(_arctos.searchObject)) {
       $.getJSON("https://arctosdb.github.io/documentation-wiki/search.json").done(function(jsonResult) {
-        var elapsed, hourToMs, i, len, ref, result, uniqueUrls;
+        var elapsed, hourToMs, i, len, matchCollectionType, ref, result, uniqueUrls;
         console.info("Search pinged back result", jsonResult);
         _arctos.searchObject = new Array();
+        _arctos.searchPageObject = new Array();
+        matchCollectionType = "";
         uniqueUrls = new Array();
         for (i = 0, len = jsonResult.length; i < len; i++) {
           result = jsonResult[i];
@@ -720,11 +727,16 @@
           }
           uniqueUrls.push(result.url);
           _arctos.searchObject.push(result);
+          if (result.category === matchCollectionType) {
+            _arctos.searchPageObject.push(result);
+          }
         }
         hourToMs = 3600 * 1000;
         delay(hourToMs, function() {
           console.info("Invalidating stale search result object");
-          return delete _arctos.searchObject;
+          delete _arctos.searchObject;
+          handleSearch(true);
+          return false;
         });
         elapsed = Date.now() - startTime;
         if (prepOnly) {
