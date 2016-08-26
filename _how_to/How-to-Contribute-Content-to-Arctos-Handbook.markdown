@@ -80,7 +80,8 @@ Note: the title is what shows up on the index pages.
 * Add the link to the page.
 
 ## Pro tip: Text editors
-If you want to work on markdown content offline or just not in a browser, there are a number of great text editors to use. Here are some FREE favorites:
+If you want to work on markdown content offline or just not in a browser, there are a number of great text editors to use. Here are some FREE favorites:    
+
 * [Notepad ++](https://notepad-plus-plus.org/) (PC, free)
 * [Text Wrangler](http://www.barebones.com/products/textwrangler/) (MAC, free)
 * [Brackets](http://brackets.io/) (MAC, PC, free from Adobe)
