@@ -62,13 +62,16 @@ Note: the title is what shows up on the index pages.
 
 * Give the image a URL: Go to the documentation-wiki tutorial_images folder (https://github.com/ArctosDB/documentation-wiki/tree/gh-pages/tutorial_images), and click the "Upload files" button.
 * Drag and drop the image or browse your computer for the image(s) and click the "Commit changes" button.
-* Click on the desired image to open it and copy the URL.
-* Go to the page where you want to add the image (see above), and click on the image icon above the text box. Insert the URL. Only the URL (not the image) will show up in the text box.
+* Now on your page of content, add images with:
+
+```markdown
+![Image of Arctos icon](https://arctosdb.github.io/documentation-wiki/tutorial_images/favicon128.png)
+```
+![Image of Arctos icon](https://arctosdb.github.io/documentation-wiki/tutorial_images/favicon128.png)
 
 * Hit the preview button.
 * Save the page! Note: if you start an entry, and need to add an image, make sure you save your text entry before you leave to go copy the URL.
 
-![Image of arctos](https://arctosdb.github.io/documentation-wiki//tutorial_images/permit_table.JPG)
 
 ## Add Videos
 
@@ -76,4 +79,9 @@ Note: the title is what shows up on the index pages.
 * Email the database administrator for the password.
 * Add the link to the page.
 
-If you really want to learn more, visit [http://nerds.inn.org/2014/05/19/applying-git-to-github-wikis/](http://nerds.inn.org/2014/05/19/applying-git-to-github-wikis/)
+## Pro tip: Text editors
+If you want to work on markdown content offline or just not in a browser, there are a number of great text editors to use. Here are some FREE favorites:
+* [Notepad ++](https://notepad-plus-plus.org/) (PC, free)
+* [Text Wrangler](http://www.barebones.com/products/textwrangler/) (MAC, free)
+* [Brackets](http://brackets.io/) (MAC, PC, free from Adobe)
+
