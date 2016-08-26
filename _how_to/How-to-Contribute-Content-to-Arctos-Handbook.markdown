@@ -34,7 +34,7 @@ Note: the title is what shows up on the index pages.
 
 * Headers are used for organization and navigation. Start with a title preceded by a single hash (#). Subsequent sections are given double-hashes (##). Text can be bulleted by single asterisks (*). Use "Markdown" to format your content (see [Markdown definition](https://en.wikipedia.org/wiki/Markdown) and [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Click on the help (question mark) icon to get some suggestions for doing headers, lists etc.    
 
-```markdown
+```
 
 # This the Title
 ## Section Header
@@ -65,10 +65,10 @@ Note: the title is what shows up on the index pages.
 * Click on the desired image to open it and copy the URL.
 * Go to the page where you want to add the image (see above), and click on the image icon above the text box. Insert the URL. Only the URL (not the image) will show up in the text box.
 
-![](/tutorial_images/create_encumbrance.jpg)
-
 * Hit the preview button.
 * Save the page! Note: if you start an entry, and need to add an image, make sure you save your text entry before you leave to go copy the URL.
+
+![Image of arctos](/tutorial_images/permit_table.JPG)
 
 ## Add Videos
 
