@@ -68,7 +68,7 @@ Note: the title is what shows up on the index pages.
 * Hit the preview button.
 * Save the page! Note: if you start an entry, and need to add an image, make sure you save your text entry before you leave to go copy the URL.
 
-![Image of arctos](/tutorial_images/permit_table.JPG)
+![Image of arctos](https://arctosdb.github.io/documentation-wiki//tutorial_images/permit_table.JPG)
 
 ## Add Videos
 
