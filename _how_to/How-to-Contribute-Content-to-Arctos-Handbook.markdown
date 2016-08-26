@@ -5,6 +5,7 @@ layout: default_toc
 # How to Contribute Content to the Arctos Handbook
 
 There are three kinds of content on the Arctos Handbook:
+
 * **Documentation**, which describes specific data tables and/or types and defines data fields
 * **How-to Guides**, step-by-step instructions on how to do specific tasks in Arctos
 * **Educational Resources**, for tutorials and teaching guides which use Arctos
