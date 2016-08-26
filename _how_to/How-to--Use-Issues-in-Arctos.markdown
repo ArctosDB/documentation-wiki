@@ -1,5 +1,5 @@
 ---
-title: How To Use Issues in Arctos 
+title: Using Github: How To Use Issues in Arctos 
 layout: default_toc
 ---
 
