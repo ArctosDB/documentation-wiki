@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Create a New Specific Locality
+layout: default_toc
+---
 
 For most tasks, you will find yourself working to edit localities that have previously been created by another researcher or curator. Occasionally, however, you will have to create a new locality, whether to assign new events or to clean up messy data. Fortunately, the process is straightforward.
 

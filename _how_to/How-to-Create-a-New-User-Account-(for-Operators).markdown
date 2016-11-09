@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Create a New Operator User Account
+layout: default_toc
+---
 
 Arctos Operators have permissions that allow them to access specific collections and data. To create a new User Account as an Operator, follow these steps:
 

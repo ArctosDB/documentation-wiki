@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Upload Media to TACC
+layout: default_toc
+---
 
 The Texas Advanced Computing Center (TACC) offers media hosting for Arctos users through an Arctos Project allocation. If you are using TACC to store media, the files must be uploaded to TACC and accessible on the web server before creating media in Arctos
  * See [How to Create Media in Arctos](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-Media-(Images))
@@ -17,7 +20,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 * You will need an SFTP (Secure File Transfer Protocol) program in order to access the Corral system on TACC where Arctos media are stored - see the [TACC Corral User Guide](https://portal.tacc.utexas.edu/user-guides/corral)
  * On the left you’ll see [Transferring Files Using Cyberduck](https://portal.tacc.utexas.edu/user-guides/corral#cyberduck) - download Cyberduck or use another SFTP program
 
-* Set up a transfer protocol: 
+* Set up a transfer protocol:
  * Open Connection
  * Select “SFTP” from dropdown
  * Server:  login1.corral.tacc.utexas.edu
@@ -34,6 +37,3 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 
 * TACC must ingest those files in order for them to appear on the web server: [http://web.corral.tacc.utexas.edu](http://web.corral.tacc.utexas.edu) - files are also processed during this stage (e.g., from dng or tiff to jpeg, wav to mp3, etc.)
  * Contact [Chris Jordan](https://www.tacc.utexas.edu/about/directory/chris-jordan) when your file are ready for processing and ingestion
- 
-
-

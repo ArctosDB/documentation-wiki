@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Edit a Specific Locality
+layout: default_toc
+---
 
 ### Find the Locality to Edit
 
@@ -36,6 +39,6 @@ Higher Geography is used to describe the larger geography (county level and abov
 
 * Elevation includes minimum and maximum elevation (often those are the same), as well as elevational units.
 
-* Coordinates include Decimal Latitude and Decimal Longitude, Max Error with units, Datum, georeference_source (how the coordinates were determined), and Georeference Protocol. 
+* Coordinates include Decimal Latitude and Decimal Longitude, Max Error with units, Datum, georeference_source (how the coordinates were determined), and Georeference Protocol.
 
 * Locality Remarks provides information about any part of the locality that will aid in understanding the place. Feel free to be  descriptive with the Locality Remarks. If you had to look up a more detailed map, if you assumed a feature was misspelled, if you thought a town’s boundaries were some distance away from its center, if …………………… Make a note of it! This field is helpful for backtracking and fact-checking. A researcher down the line might not understand how a particular georeference was assigned, and an extra note on your part can validate your decision.

@@ -1,9 +1,12 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Install Cryovials into a Freezer Box
+layout: default_toc
+---
 
 (Based on a guide initally developed by April Payne, Northern Michigan University)
 
 Every cryovial must have its own unique barcode before assigning them to a position in a freezer box. This guide provides the steps needed to install (i.e., scan) barcoded vials into a freezer box.
-               
+
 * The freezer box must already exist with a barcode in Arctos (see [How to Create a Freezer Box Container](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-a-Freezer-Box-Container)).
 
 * In Arctos, go to Manage Data > Object tracking > Find Container.

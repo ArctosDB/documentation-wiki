@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Merge Duplicate Localities
+layout: default_toc
+---
 
 If you notice that there are many localities that have the same specific locality and the same coordinates you will want to merge them into one.
 

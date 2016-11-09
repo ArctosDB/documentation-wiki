@@ -1,8 +1,11 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Use Complex Identifications
+layout: default_toc
+---
 
 ## Capabilities
 
-Arctos provides for the ability to link identifications (what a thing is called) with taxonomy (a formal naming system) via [http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXA_FORMULA](Identification Formula). This allows curatorial users to assert any amount of precision; a specimen may be exactly representative of a formal taxon name, there may be some ambiguity or mixing involved, or taxonomy may have only tangential relationships to the identification. 
+Arctos provides for the ability to link identifications (what a thing is called) with taxonomy (a formal naming system) via [http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXA_FORMULA](Identification Formula). This allows curatorial users to assert any amount of precision; a specimen may be exactly representative of a formal taxon name, there may be some ambiguity or mixing involved, or taxonomy may have only tangential relationships to the identification.
 
 ## Taxonomy
 
@@ -18,7 +21,7 @@ The various formula are somewhat straightforward, allowing mixing taxon names an
 
 ## History of Complex IDs
 
-The "A {string}" formula was initially developed for "working names," in which an often-descriptive term is used for a specimen (often one of several groups) before formal names are published. The "A" (like all other taxa formulae) links to a single taxon, generally a genus (when a new species is being described) or species (for subspecies). Note that identifications are essentially unsearchable under this model, while linked taxonomy remain formal. The working name will be supplied by a person (not chosen from an authority) and may contain typographical errors, unpredictable formats, or anything else. 
+The "A {string}" formula was initially developed for "working names," in which an often-descriptive term is used for a specimen (often one of several groups) before formal names are published. The "A" (like all other taxa formulae) links to a single taxon, generally a genus (when a new species is being described) or species (for subspecies). Note that identifications are essentially unsearchable under this model, while linked taxonomy remain formal. The working name will be supplied by a person (not chosen from an authority) and may contain typographical errors, unpredictable formats, or anything else.
 
 ## Current Usage
 
@@ -34,7 +37,7 @@ _You may need to log OUT of Arctos and any portals to access the following links
 
 ### Unidentifiable
 
-Many cultural items are (relatively) recently manufactured of manufactured materials, have little association with any taxon, and the namestring in such cases is generally linked to taxon "unidentifiable." 
+Many cultural items are (relatively) recently manufactured of manufactured materials, have little association with any taxon, and the namestring in such cases is generally linked to taxon "unidentifiable."
 
 * [Yukon Stove](http://arctos.database.museum/guid/UAM:EH:UA79-011-0002AE)
 * [Whistle](http://arctos.database.museum/guid/UAM:EH:UA2009-020-0031)
@@ -56,7 +59,7 @@ It is important to stress that collection type is a poor indicator of the nature
 
 ### Complex associations
 
-Cultural objects are often created of diverse materials, and Arctos provides a pathway of linking to any number of taxa. 
+Cultural objects are often created of diverse materials, and Arctos provides a pathway of linking to any number of taxa.
 
 * [Parka, Fur](http://arctos.database.museum/guid/UAM:EH:UA67-133-0001)
 
@@ -74,6 +77,6 @@ This structure supports queries by identification, taxonomy, or any combination 
 
 ## HowTo
 
-Simply click the Identification tab from any specimen, type a (partial) taxon name in Associated Taxa, click Add a Row and repeat as necessary, then save. 
+Simply click the Identification tab from any specimen, type a (partial) taxon name in Associated Taxa, click Add a Row and repeat as necessary, then save.
 
 To get the most value from taxonomy linkages, create better taxonomy information in Arctos. Add taxon relationships or common names, edit classifications to include more or better higher-level information, or encourage sources of taxonomy information to contribute to GlobalNames. Note that these tasks are shared not just across Arctos collections, but also across the Internet via GlobalNames.

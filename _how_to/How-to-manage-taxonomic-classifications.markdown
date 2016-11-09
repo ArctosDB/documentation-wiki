@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Manage Taxonomic Classifications
+layout: default_toc
+---
 
 # Overview
 
@@ -12,7 +15,7 @@ Try to include "common" ranked terms for searchability - kingdom, phylum, order,
 
 ## The name I want to use exists, there's no classification in "my" preferred taxonomy.
 
-* Find a similar classification; there's usually one from GlobalNames. 
+* Find a similar classification; there's usually one from GlobalNames.
 * Click Clone Classification.
 * Select your collection's preferred Source
 * Edit the results

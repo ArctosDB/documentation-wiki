@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Create Media
+layout: default_toc
+---
 
 Digital images and associated metadata can be related to records in Arctos through the Media function. When processing large volumes of images, it may be more efficient to use the Media Bulkloader rather than manually enter each media record through the Create Media screen.
 
@@ -44,7 +47,7 @@ Relationship values:
 * documents loan - media which documents a loan, such as email correspondence, loan invoices, etc.
 * retake of media - typically refers to image retakes, where an image is rephotographed from the same view but at a different point in time. Often entails comparison of modern versus historic images to document landscape changes over time.
 * shows agent - agent who is the subject of media
-* shows cataloged_item - media relating to specimens (often images of the specimen in life or death) 
+* shows cataloged_item - media relating to specimens (often images of the specimen in life or death)
 * shows locality - media which may only be related to a place (no temporal component)
 * shows publication - generally a PDF of the publication
 

@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Choose the Proper Identifier Type
+layout: default_toc
+---
 
 Other IDs in Arctos are functionally of two types: Those which are (or are somewhat likely to become) resolvable, and the rest. Therefore the most important question to ask when selecting an other ID type is, "can this number be used to form a URL?"
 
@@ -6,7 +9,7 @@ The code table for other IDs is [CTCOLL_OTHER_ID_TYPE](http://arctos.database.mu
 
 <img width="468" alt="screen shot 2016-03-02 at 8 33 58 am" src="https://cloud.githubusercontent.com/assets/5720791/13467103/92df7ff4-e051-11e5-8e21-4837461901ca.png">
 
-will be appended to the base_url 
+will be appended to the base_url
 
     http://www.ncbi.nlm.nih.gov/nuccore/
 

@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Create a Freeze Box Container
+layout: default_toc
+---
 
 There are many types of containers possible in Arctos. This guide walks you through the steps of creating a freezer box as a new container. This is the first step before you can scan barcoded tissues into Arctos.
 
@@ -24,4 +27,4 @@ There are many types of containers possible in Arctos. This guide walks you thro
 
 * The first time you create a new freezer box, click "Positions" and Arctos will prompt you to create new positions. After you do that, a window will appear that shows the freezer box grid with the empty positions you have made (the box barcode and label will display at the top of the screen).
 
-* You are now ready to start scanning (i.e., installing) barcoded vials into a freezer box (see [How to Install Tissue Cryovials into a Freezer Box](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box)). 
+* You are now ready to start scanning (i.e., installing) barcoded vials into a freezer box (see [How to Install Tissue Cryovials into a Freezer Box](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box)).

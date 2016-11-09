@@ -1,6 +1,9 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Get Started as a New Collection in Arctos
+layout: default_toc
+---
 
-If you are joining Arctos, welcome! 
+If you are joining Arctos, welcome!
 
 There are several steps that need to happen before you can actually do anything in Arctos. These involve registering your institution and collection(s) in the Global Registry of Biological Repositories (GRBIO), and creating the new institution/collection(s) in Arctos.
 
@@ -17,7 +20,7 @@ GRBio ([http://grbio.org](http://grbio.org)) is an online registry of biological
 * You must enter a primary contact for the institution; if the contact doesn't yet exist in the GRBIO registery, you will need to register him/her (see next section).
 * Hit the "Save" button.
 
-**Register Staff Members:** 
+**Register Staff Members:**
 * Go to http://grbio.org/node/add/register-staff-member
 * Enter the person's information in the fields provided (just a few fields are required, but enter as much information as possible)
 * Hit the "Save" button

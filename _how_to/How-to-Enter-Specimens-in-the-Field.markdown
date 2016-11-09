@@ -1,12 +1,16 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Enter Specimens in the Field
+layout: default_toc
+---
 
 **This guide will walk you through the procedure of setting up a spreadsheet to enter specimens while in the field.**
 **Be sure you are familiar with Arctos and how to enter specimens BEFORE attempting to do this in the field.**
 
-Before going into the field, you need to prepare a **bulkload** spreadsheet for bulkloading specimens. Fill in all the information you need other than what is collected in the field. This will save on time. 
+Before going into the field, you need to prepare a **bulkload** spreadsheet for bulkloading specimens. Fill in all the information you need other than what is collected in the field. This will save on time.
 
 The following is what should be filled out before going into the field. (in order of top to bottom, not left to right).
-* **COLLECTION_OBJECT_ID** 1 up to the maximum you expect to collect.	
+
+* **COLLECTION_OBJECT_ID** 1 up to the maximum you expect to collect.
 * **DATUM** World Geodetic System 1984
 * **ENTEREDBY** “your name”
 * **GEOREFERENCE_SOURCE** global positioning system (transcription)
@@ -41,7 +45,7 @@ The following is what should be filled out before going into the field. (in orde
 * **ATTRIBUTE_DATE_1, etc…** Date of prep
 * **OTHER_ID_REFERENCES_1** self
 
-**Excel trick:** You can quickly fill in multiple cells with the same info without highlighting and dragging multiple times. Only highlight and drag once and then the rest of the cells can be automatically filled in by double clicking the small square at the bottom right hand side of the cell. Be careful with numbers: If you want all 1’s you might end up with 1, 2, 3… To fix this, fill in two cells with 1 then highlight both of them and double click the box in the bottom right hand corner. 
+**Excel trick:** You can quickly fill in multiple cells with the same info without highlighting and dragging multiple times. Only highlight and drag once and then the rest of the cells can be automatically filled in by double clicking the small square at the bottom right hand side of the cell. Be careful with numbers: If you want all 1’s you might end up with 1, 2, 3… To fix this, fill in two cells with 1 then highlight both of them and double click the box in the bottom right hand corner.
 
 **Save often to avoid losing progress.**
 

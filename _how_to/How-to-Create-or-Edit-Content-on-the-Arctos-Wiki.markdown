@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Create or Edit Content on the Arctos Wiki (DEPRECATED)
+layout: default_toc
+---
 
 There are two kinds of content on the Arctos wiki site:
 * Documentation, which describes specific data tables and/or types and defines data fields
@@ -43,7 +46,7 @@ Curators/Collection Managers who want the ability to create or edit Documentatio
 
 ### Add Videos
 
-* Create a YouTube Video using the Arctos login: arctos.database@gmail.com. 
+* Create a YouTube Video using the Arctos login: arctos.database@gmail.com.
 * Email the database administrator for the password.
 * Add the link to the page.
 

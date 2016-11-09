@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Understand the Arctos Locality Model
+layout: default_toc
+---
 
 The core Arctos locality model consists of 4 primary tables. This guide and the following illustration describe their primary function and interaction.
 
@@ -37,7 +40,7 @@ Collecting Event adds verbatim data plus dates. Collecting events are shared; on
 
 **Locality**
 
-Locality adds formality and vertical spatial data to collecting events. Localities are shared; one locality may be parent to any number of collecting_events. 
+Locality adds formality and vertical spatial data to collecting events. Localities are shared; one locality may be parent to any number of collecting_events.
 
 * LOCALITY_ID is the primary key
 * GEOG_AUTH_REC_ID is the foreign key to geography
@@ -106,4 +109,4 @@ There are two localities given; we will focus only on Locality 1, which contains
 
 Note that the specimen<-->specimen_event relationship is always 1:1; all other relationships in this model are 1:∞. One geography may contain two (or zero or two million) localities, one locality may contain two (or zero or two million) events, and one event may contain two (or zero or two million) specimen-events.
 
-(Note also that the possibility of 1:0 relationships is in the context of specimens; "unused" data objects may exist in support of other nodes, such as Media.) 
+(Note also that the possibility of 1:0 relationships is in the context of specimens; "unused" data objects may exist in support of other nodes, such as Media.)

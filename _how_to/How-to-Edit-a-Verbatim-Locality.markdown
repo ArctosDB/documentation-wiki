@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Edit a Verbatim Locality
+layout: default_toc
+---
 
 Verbatim locality is the letter-for-letter, word-for-word locality description of a specimen or observation as written by a collector in their field notes. This may include higher geography, elevation, geographic coordinates, and other specific information such as trap or mistnet information.
 

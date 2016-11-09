@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Reassign Speciments to Another Locality
+layout: default_toc
+---
 
 In some cases, editing a locality for a specimen may not be the best course of action. This may be because the locality itself is correct and the specimen has been improperly attributed to it. Alternatively, you may wish to clean up duplicate entries by consolidating them. In these situations, it is more efficient to reassign these specimens to a preexisting or a new locality. The first half of this tutorial will teach you how to reassign specimens to a new locality, if your specimen(s) is/are assigned to one collecting event only. If you only want to reassign one specimen that is part of a collecting events with other specimens into a new locality, please refer to the second half of this tutorial.
 

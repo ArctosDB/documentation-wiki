@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/create_publication.JPG)
+---
+title: How To Create a Publication
+layout: default_toc
+---
 
 Create a profile for a Journal Article or other Publication type. Once a publication exists in Arctos, a citation can then be created to link the publication directly to a specimen record(s). Publications can also be linked to Projects.
 
@@ -14,7 +17,7 @@ If available, enter the publication's PMID and click the "crossref" hypertext to
 
 **Full Citation**
 
-Enter the textual description of the publication formatted as it would appear in a bibliography (typically author(s), year, title, journal name, volume/issue, and page numbers. Use the tools to right of text box to format text. 
+Enter the textual description of the publication formatted as it would appear in a bibliography (typically author(s), year, title, journal name, volume/issue, and page numbers. Use the tools to right of text box to format text.
 
 Formatting conventions:
 

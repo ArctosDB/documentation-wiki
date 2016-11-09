@@ -1,6 +1,9 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Batch Update Accessions
+layout: default_toc
+---
 
-Batch update Accessions using the Manage Menu to transfer specimen records from one accession into another. The Manage Menu is an efficient alternative to using the "Accn Tab" found in individual specimen records when needing to update multiple records at once. **Note:** Specimen records can only be added _into_ an existing accession. Moving  records _into_ an accession and others _out_ of the same accession is therefore a two-step process (e.g., first transfer any "unwanted" records out of the accession into a different accession before transferring any additional records in). 
+Batch update Accessions using the Manage Menu to transfer specimen records from one accession into another. The Manage Menu is an efficient alternative to using the "Accn Tab" found in individual specimen records when needing to update multiple records at once. **Note:** Specimen records can only be added _into_ an existing accession. Moving  records _into_ an accession and others _out_ of the same accession is therefore a two-step process (e.g., first transfer any "unwanted" records out of the accession into a different accession before transferring any additional records in).
 
 ![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/manage_accessions_1.jpg)
 
@@ -15,4 +18,3 @@ As noted on the page, "Add all the items listed below to accession":
 * Select the **Collection** from the drop down menu (institution acronym + collection)
 * Enter an existing **Accession** number into which the records listed below will be transferred. Push the TAB key to generate a pick-list. Select the desired accession number from the list (or conduct an accession search from this window if the desired accession does not appear).
 * Click on the "Add Items" button when ready to move the records listed below into the accession indicated. Changes will be displayed immediately in the table.
-       

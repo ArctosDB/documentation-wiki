@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Assign Operator Roles and Permissions
+layout: default_toc
+---
 
 Arctos Operators have permissions that allow them to access specific collections and data - see [list of user roles and their descriptions](http://arctos.database.museum/Admin/user_roles.cfm).
 

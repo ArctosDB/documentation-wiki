@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Create Your Arctos Team
+layout: default_toc
+---
 
 If you are organizing users/operators to assist you with data entry and collection data management.  This document provides a workflow for getting your team members on Arctos as Operators with the appropriate roles and permissions to get their share of the work done.  It also offers helpful templates of instructions to your new team members as you guide them through the process.
 
@@ -67,7 +70,7 @@ MANAGE_TRANSACTIONS – allows access to create/edit/delete loans, accessions, a
 
 MANAGE_MEDIA – allows create/update/delete of Media.
 MANAGE_GEOGRAPHY – full access to geog_auth_rec.
-MANAGE_CONTAINER – full access to containers. Not necessary to “barcode specimens.” 
+MANAGE_CONTAINER – full access to containers. Not necessary to “barcode specimens.”
 MANAGE_AGENTS – full access to agents and agent names
 MANAGE_LOCALITY – allows full access to Locality, Collecting Event, and Coordinates data.
 MANAGE_PUBLICATIONS – allows full access to publications, projects, and citations.

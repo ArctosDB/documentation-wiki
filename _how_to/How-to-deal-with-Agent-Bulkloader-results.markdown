@@ -1,3 +1,8 @@
+---
+title: How To Deal with Agent Bulkloader Results
+layout: default_toc
+---
+
 This document refers to the output of the validation step of bulkloading agents, which is generally run directly before creation.
 
 The "preferred_name" column is generally a key back to other data (usually specimens) and in almost all cases should NOT be modified independent of any related data.

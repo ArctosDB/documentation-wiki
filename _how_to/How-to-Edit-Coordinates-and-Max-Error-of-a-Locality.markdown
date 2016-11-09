@@ -1,4 +1,7 @@
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/arctoscolorbanner.png)
+---
+title: How To Edit Coordinates and Max Error of a Locality
+layout: default_toc
+---
 
 ### Manually
 
@@ -34,7 +37,7 @@ More often than not, you will be working with individual or small numbers of spe
 
 * You may have noticed the “Georeference with GeoLocate” button earlier. It is one of the four teal buttons near the bottom of the locality box.
 
-* Clicking the button will open up the applet. GeoLocate will try to automatically georeference the locality. Be warned: it is almost always incorrect. 
+* Clicking the button will open up the applet. GeoLocate will try to automatically georeference the locality. Be warned: it is almost always incorrect.
 
  * Navigating the map is pretty intuitive and familiar if you regularly use Google Maps. You can easily move the map by clicking and dragging. Zooming in and out can be done either by scrolling using the mouse wheel or clicking on the "+" or "-" on the left side of the app.
 
