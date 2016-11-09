@@ -1,5 +1,5 @@
 ---
-title: How to Approve Records Entered With Data Entry Form
+title: How To Approve Records Entered With Data Entry Form
 layout: default_toc
 ---
 

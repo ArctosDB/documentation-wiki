@@ -1,5 +1,5 @@
 ---
-title: How to Enter Data for a Single Record
+title: How To Enter Data for a Single Record
 layout: default_toc
 ---
 

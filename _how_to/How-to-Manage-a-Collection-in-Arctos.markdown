@@ -1,5 +1,5 @@
 ---
-title: How to Manage a Collection
+title: How To Manage a Collection
 layout: default_toc
 ---
 
@@ -34,4 +34,3 @@ The Manage Collection form in Arctos allows new or existing collections to creat
  * technical support (if the collection has a person who can help with technical issues such as programming)
 
 * **Header Options:** Collections may customize the header that appears at the top of a collection record or when searching a collection portal. Options for customization include color, image, text, and URL.
-
