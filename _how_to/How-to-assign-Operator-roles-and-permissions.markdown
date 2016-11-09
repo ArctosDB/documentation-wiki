@@ -7,7 +7,7 @@ Arctos Operators have permissions that allow them to access specific collections
 
 To assign your Operator roles and permissions take the following steps:
 
-### Caution
+# Caution
 
 Before you can assign Permissions/Roles to a user, they MUST be an Operator.  Follow the instructions for [How to Create a New User Account (for Operators)](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-a-New-User-Account-%28for-Operators%29) if you need to make your user an Operator.
 
@@ -15,7 +15,7 @@ There are two types of “roles” in Arctos: Collection roles and access roles.
 
 Some objects (taxonomy, media, agents, places) are shared amongst collections. **People who have access to these data must fully understand that Arctos is a shared system, and must always consider the implications of working in a shared system.**  So be careful when assigning roles to shares access tables.
 
-### Assigning permission to Collections and Roles
+# Assigning permission to Collections and Roles
 
  * Go to [http://arctos.database.museum](http://arctos.database.museum) and login
  * Select Manage Arctos>Roles/Permissions>Arctos Users from the drop down menu at the top of the page.  
