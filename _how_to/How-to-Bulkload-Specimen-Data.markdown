@@ -13,6 +13,7 @@ If you do not have a Bulkload Specimen Data sheet, begin with the Bulkload Build
 
 Select which ones you want to save time on selecting individual fields in the larger table below.
 The following are the groups most relevant to our collection:
+
 * Required
 * Coordinate Meta
 * DMS Coordinates
@@ -25,10 +26,12 @@ The following are the groups most relevant to our collection:
 
 From the larger table, you will see the fields that were selected as part of the group selected above.
 Those that were not selected and need to be are as follows:
+
 * DEC_LAT
 * DEC_LONG
 
 There are some fields that will never be used four our collection’s purposes and therefore do not need to be in your file. So, **unselect** the following:
+
 * LOADED
 * LATMIN
 * LATSEC
@@ -49,7 +52,8 @@ There are some fields that will never be used four our collection’s purposes a
 Now click on “Download Template” located below the small table and above the large table.
 Your file will automatically be put into your computer’s downloads.
 
-**Helpful Hints:** 
+## Helpful Hints:
+
 * Any header can be deleted, added, or rearranged in the excel sheet manually.
 * **BUT BE CAREFUL!** Be sure edited cells do not have an invisible lead or end, otherwise Arctos will reject it.
 * Open your new Bulkloader template and review the headers.
@@ -61,7 +65,8 @@ Your file will automatically be put into your computer’s downloads.
  * Leave the CAT_NUM blank if you want Arctos to automatically assign the next available catalog number.
  * **WARNING!** This does not always work. When trying to fill a gap in the available catalog numbers, it is wise to view what is available and enter them manually. Otherwise you will have to either email the head janitor of Arctos to ask for the records to be deleted, or do each one manually via the “Other ID” tab in edit mode.
 
-**Excel Helpful Hints:**
+## Excel Helpful Hints:
+
 * Excel likes dates to be in the (mm-dd-yyyy) format, whereas Arctos likes them to be in (yyyy-mm-dd) format. Excel will also re-format the date back to how it likes if you close and re-open the file. To change the date format at any point, do the following:
  * In the Home tab of excel in the “Number” section there will be a drop menu. With the cell(s) you need selected, click the drop menu and scroll to the bottom and select Text. This tells excel to stop assuming it knows what to do with the date and keep it the way you want it.
  * Another way to do this, which is especially helpful with a re-opened file, is to again, select the cell(s) you want and click the drop down menu in the “Number” section of the Home tab.
@@ -72,6 +77,7 @@ Your file will automatically be put into your computer’s downloads.
 * Your highlighted cell(s) should automatically change to Arctos date format. **Woot!**
 
 The following is a complete breakdown of all fields and what data they should include:
+
 * COLLECTION_OBJECT_ID
  * A temporary number for the excel list only. It will not be included in the specimen data.
 * ENTEREDBY
@@ -116,7 +122,7 @@ The following is a complete breakdown of all fields and what data they should in
  * Continent, country, state, county
 * SPEC_LOCALITY
  * Verbatim locality + state & country
-* VERBATiM_LOCALITY
+* VERBATIM_LOCALITY
  * The locality on the specimen tag or data page
 * ORIG_LAT_LONG_UNITS
  * decimal degrees
@@ -209,12 +215,14 @@ The following is a complete breakdown of all fields and what data they should in
  * Any other id references
 
 ### Before Bulkloading    
+
 At the bulkloading page, just above where you will click to choose your file to upload, Arctos will tell you if the bulkloader is currently being used.
 * **“There is nothing in the staging table. You are free to proceed”**
 * As we know, Arctos is publicly shared. This is also true for the bulkloader. If another institution is bulkloading, this page will tell you who is using it and show their contact information (if they have any).
 * If you are using the bulkloader, your name and contact information will be shown and will stay up there if you do not clear the staging table after you are done. If you forget to delete your stuff from the staging table, you may end up getting some emails from other institutions asking when you will be done.
 
 ### Ready to Bulkload    
+
 * Choose your file and click “Upload this file”. **!MAKE SURE TO EDIT THE FILE IN “NOTE” FIRST!**
  * Open the file in “note” and delete the empty space at the bottom of your data, save and your good to go.
 * You will be brought to a page that says “There are (#) records in the staging table. They have not been checked or processed yet”. (#- the number of records you are trying to upload).
@@ -226,5 +234,3 @@ At the bulkloading page, just above where you will click to choose your file to 
 * Your data should now be in your institution’s (?) bulkloader awaiting approval.
 
  ***IMPORTANT: DELETE YOUR DATA FROM THE STAGING TABLE***
-
-##
