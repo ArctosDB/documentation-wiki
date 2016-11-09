@@ -9,7 +9,8 @@ Learn how to use Arctos better here! Written by Arctos users.
   <!-- {{ collection.label }} -->
     {% if page.path contains collection.label %}
     <!-- {{ page.path }} does contain {{ collection.label }} -->
-      {% for doc in collection.docs | sort: 'title' %}
+    {% assign sorted_docs = (collection.docs | sort: 'title') %}
+      {% for doc in sorted_docs %}
         <!-- Iterating on {{doc.title}} @ {{doc.url}} -->
         {% unless doc.url contains "index" %}
           <li>
