@@ -1,5 +1,4 @@
-Authorities {#authorities .entry-title}
-===========
+# Authorities 
 
 <div class="entry-content">
 

@@ -1,5 +1,4 @@
-Agents {#agents .entry-title}
-======
+# Agents 
 
 <div class="anchors">
 

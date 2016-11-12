@@ -1,5 +1,4 @@
-Attributes {#attributes .entry-title}
-==========
+# Attributes
 
 <div class="entry-content">
 
