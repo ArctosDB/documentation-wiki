@@ -29,13 +29,13 @@ ansi-align@^1.1.0:
   dependencies:
     string-width "^1.0.1"
 
-ansi-regex@*, ansi-regex@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.0.0.tgz#c5061b6e0ef8a81775e50f5d66151bf6bf371107"
-
 ansi-regex@^1.0.0, ansi-regex@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-1.1.1.tgz#41c847194646375e6a1a5d10c3ca054ef9fc980d"
+
+ansi-regex@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.0.0.tgz#c5061b6e0ef8a81775e50f5d66151bf6bf371107"
 
 ansi-styles@^2.0.1, ansi-styles@^2.2.1:
   version "2.2.1"
@@ -586,7 +586,7 @@ debug@~2.2.0:
   dependencies:
     ms "0.7.1"
 
-debuglog@*, debuglog@^1.0.1:
+debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/debuglog/-/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
 
@@ -1141,14 +1141,14 @@ grunt-contrib-less@^1.3.0:
     less "~2.7.1"
     lodash "^4.8.2"
 
-grunt-contrib-uglify@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/grunt-contrib-uglify/-/grunt-contrib-uglify-1.0.2.tgz#ae67a46f9153edd4cb11813a55eb69c70d7db2fb"
+grunt-contrib-uglify:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/grunt-contrib-uglify/-/grunt-contrib-uglify-2.0.0.tgz#8c9970d690936cde6d25aa1193549bd929016930"
   dependencies:
     chalk "^1.0.0"
-    lodash "^4.0.1"
+    lodash.assign "^4.0.9"
     maxmin "^1.1.0"
-    uglify-js "~2.6.2"
+    uglify-js "~2.7.0"
     uri-path "^1.0.0"
 
 grunt-contrib-watch@^1.0.0:
@@ -1160,9 +1160,9 @@ grunt-contrib-watch@^1.0.0:
     lodash "^3.10.1"
     tiny-lr "^0.2.1"
 
-grunt-html@^7.0.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/grunt-html/-/grunt-html-7.1.0.tgz#1c331d76eac65f4f592603a4f5e76b2aa2471771"
+grunt-html:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/grunt-html/-/grunt-html-8.0.2.tgz#886d9c170a85f90f529f320697d1847d89e3bfa0"
   dependencies:
     async "1.5.2"
     chalk "1.1.3"
@@ -1208,13 +1208,12 @@ grunt-postcss@^0.8.0:
     diff "^2.0.2"
     postcss "^5.0.0"
 
-grunt-shell@^1.3.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/grunt-shell/-/grunt-shell-1.3.1.tgz#5e2beecd05d5d3787fa401028d5733d5d43b9bd1"
+grunt-shell:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/grunt-shell/-/grunt-shell-2.1.0.tgz#439f79159ed11e64a651a69cc8a3d02bebf5ecc2"
   dependencies:
     chalk "^1.0.0"
-    npm-run-path "^1.0.0"
-    object-assign "^4.0.0"
+    npm-run-path "^2.0.0"
 
 grunt-string-replace@^1.2.1:
   version "1.3.1"
@@ -1351,7 +1350,7 @@ image-size@~0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.5.0.tgz#be7aed1c37b5ac3d9ba1d66a24b4c47ff8397651"
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
 
@@ -1625,10 +1624,6 @@ lockfile@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/lockfile/-/lockfile-1.0.2.tgz#97e1990174f696cbe0a3acd58a43b84aa30c7c83"
 
-lodash._baseindexof@*:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/lodash._baseindexof/-/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
-
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash._baseuniq/-/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -1636,39 +1631,21 @@ lodash._baseuniq@~4.6.0:
     lodash._createset "~4.0.0"
     lodash._root "~3.0.0"
 
-lodash._bindcallback@*:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
-
-lodash._cacheindexof@*:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/lodash._cacheindexof/-/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
-
-lodash._createcache@*:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/lodash._createcache/-/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
-  dependencies:
-    lodash._getnative "^3.0.0"
-
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
-
-lodash._getnative@*, lodash._getnative@^3.0.0:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
 
 lodash._root@~3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/lodash._root/-/lodash._root-3.0.1.tgz#fba1c4524c19ee9a5f8136b4609f017cf4ded692"
 
+lodash.assign@^4.0.9:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
+
 lodash.clonedeep@~4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
-
-lodash.restparam@*:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
 
 lodash.union@~4.6.0:
   version "4.6.0"
@@ -1686,7 +1663,7 @@ lodash@^3.10.1, lodash@^3.2.0, lodash@~3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
-lodash@^4.0.1, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.2.0, lodash@^4.8.2, lodash@~4.16.4:
+lodash@^4.14.0, lodash@^4.15.0, lodash@^4.2.0, lodash@^4.8.2, lodash@~4.16.4:
   version "4.16.6"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.16.6.tgz#d22c9ac660288f3843e16ba7d2b5d06cca27d777"
 
@@ -1944,11 +1921,11 @@ npm-registry-client@~7.2.1:
   optionalDependencies:
     npmlog "~2.0.0 || ~3.1.0"
 
-npm-run-path@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-1.0.0.tgz#f5c32bf595fe81ae927daec52e82f8b000ac3c8f"
+npm-run-path@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
   dependencies:
-    path-key "^1.0.0"
+    path-key "^2.0.0"
 
 npm-user-validate@~0.1.5:
   version "0.1.5"
@@ -2073,7 +2050,7 @@ oauth-sign@~0.8.1:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
 
-object-assign@^4.0.0, object-assign@^4.0.1, object-assign@^4.1.0:
+object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.0.tgz#7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0"
 
@@ -2171,9 +2148,9 @@ path-is-inside@^1.0.1, path-is-inside@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/path-is-inside/-/path-is-inside-1.0.2.tgz#365417dede44430d1c11af61027facf074bdfc53"
 
-path-key@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/path-key/-/path-key-1.0.0.tgz#5d53d578019646c0d68800db4e146e6bdc2ac7af"
+path-key@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -2423,7 +2400,7 @@ readable-stream@1.1:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readdir-scoped-modules@*, readdir-scoped-modules@^1.0.0:
+readdir-scoped-modules@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/readdir-scoped-modules/-/readdir-scoped-modules-1.0.2.tgz#9fafa37d286be5d92cbaebdee030dc9b5f406747"
   dependencies:
@@ -2801,9 +2778,9 @@ typedarray@~0.0.5:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-uglify-js@~2.6.2:
-  version "2.6.4"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.6.4.tgz#65ea2fb3059c9394692f15fed87c2b36c16b9adf"
+uglify-js@~2.7.0:
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.7.4.tgz#a295a0de12b6a650c031c40deb0dc40b14568bd2"
   dependencies:
     async "~0.2.6"
     source-map "~0.5.1"
@@ -2885,7 +2862,7 @@ uuid@^2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
-validate-npm-package-license@*, validate-npm-package-license@^3.0.1:
+validate-npm-package-license@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.1.tgz#2804babe712ad3379459acfbe24746ab2c303fbc"
   dependencies:

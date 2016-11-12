@@ -1,6 +1,6 @@
 {
   "name": "arctosdb.org",
-  "version": "2.0.0",
+  "version": "2.1.1",
   "description": "Jekyll site and theme for ArctosDB.org",
   "main": "index.html",
   "scripts": {
@@ -27,13 +27,15 @@
     "grunt-contrib-coffee": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-less": "^1.3.0",
-    "grunt-contrib-uglify": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-html": "^7.0.0",
     "grunt-postcss": "^0.8.0",
-    "grunt-shell": "^1.3.0",
     "grunt-string-replace": "^1.2.1",
     "less": "^2.7.1",
     "npm-check-updates": "^2.6.7"
+  },
+  "dependencies": {
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-html": "^8.0.2",
+    "grunt-shell": "^2.1.0"
   }
 }
