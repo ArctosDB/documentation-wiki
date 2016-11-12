@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<base href="" />
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Container | Arctos Handbook</title>
+	
+	
+	<!--[if lt IE 9]>
+	<script src="/wp-content/themes/twentyfourteen/js/html5.js"></script>
+	<![endif]-->
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+
+
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/bnhmwp.berkeley.edu\/arctos-docs\/wp-includes\/js\/wp-emoji-release.min.js?ver=a75a14e608ba6331bb8c85e03b498b16"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bwg_frontend-css'  href='/wp-content/plugins/photo-gallery/css/bwg_frontend.css?ver=1.3.16' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_sumoselect-css'  href='/wp-content/plugins/photo-gallery/css/sumoselect.css?ver=1.3.16' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_font-awesome-css'  href='/wp-content/plugins/photo-gallery/css/font-awesome/font-awesome.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_mCustomScrollbar-css'  href='/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.css?ver=1.3.16' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts_0-css'  href='https://fonts.googleapis.com/css?family=ABeeZee|Abel|Abril+Fatface|Aclonica|Acme|Actor|Adamina|Advent+Pro|Aguafina+Script|Akronim|Aladin|Aldrich|Alef|Alegreya|Alegreya+SC|Alegreya+Sans|Alex+Brush|Alfa+Slab+One|Alice|Alike|Alike+Angular|Allan|Allerta|Allerta+Stencil|Allura|Almendra|Almendra+Display|Almendra+SC|Amarante|Amaranth|Amatic+SC|Amethysta|Amiri|Amita|Anaheim|Andada|Andika|Angkor|Annie+Use+Your+Telescope|Anonymous+Pro|Antic|Antic+Didone|Antic+Slab|Anton|Arapey|Arbutus|Arbutus+Slab|Architects+Daughter|Archivo+Black|Archivo+Narrow|Arimo|Arizonia|Armata|Artifika|Arvo|Arya|Asap|Asar|Asset|Astloch|Asul|Atomic+Age|Aubrey|Audiowide|Autour+One|Average|Average+Sans|Averia+Gruesa+Libre|Averia+Libre|Averia+Sans+Libre|Averia+Serif+Libre|Bad+Script|Balthazar|Bangers|Basic|Battambang|Baumans|Bayon|Belgrano|BenchNine|Bentham|Berkshire+Swash|Bevan|Bigelow+Rules|Bigshot+One|Bilbo|Bilbo+Swash+Caps|Biryani|Bitter|Black+Ops+One|Bokor|Bonbon|Boogaloo|Bowlby+One|Bowlby+One+SC|Brawler|Bree+Serif|Bubblegum+Sans|Bubbler+One|Buda|Buda+Light+300|Buenard|Butcherman|Butterfly+Kids|Cabin|Cabin+Condensed|Cabin+Sketch|Caesar+Dressing|Cagliostro|Calligraffitti|Cambay|Cambo|Candal|Cantarell|Cantata+One|Cantora+One|Capriola|Cardo|Carme|Carrois+Gothic|Carrois+Gothic+SC|Carter+One|Caudex|Caveat+Brush|Cedarville+Cursive|Ceviche+One|Changa+One|Chango|Chau+Philomene+One|Chela+One|Chelsea+Market|Chenla|Cherry+Cream+Soda|Chewy|Chicle|Chivo|Chonburi|Cinzel|Cinzel+Decorative|Clicker+Script|Coda|Coda+Caption|Codystar|Combo|Comfortaa|Coming+Soon|Concert+One|Condiment|Content|Contrail+One&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts_150-css'  href='https://fonts.googleapis.com/css?family=Convergence|Cookie|Copse|Corben|Courgette|Cousine|Coustard|Covered+By+Your+Grace|Crafty+Girls|Creepster|Crete+Round|Crimson+Text|Croissant+One|Crushed|Cuprum|Cutive|Cutive+Mono|Damion|Dancing+Script|Dangrek|Dawning+of+a+New+Day|Days+One|Dekko|Delius|Delius+Swash+Caps|Delius+Unicase|Della+Respira|Denk+One|Devonshire|Dhurjati|Didact+Gothic|Diplomata|Diplomata+SC|Domine|Donegal+One|Doppio+One|Dorsa|Dosis|Dr+Sugiyama|Droid+Sans|Droid+Sans+Mono|Droid+Serif|Duru+Sans|Dynalight|EB+Garamond|Eagle+Lake|Eater|Economica|Eczar|Ek+Mukta|Electrolize|Elsie|Elsie+Swash+Caps|Emblema+One|Emilys+Candy|Engagement|Englebert|Enriqueta|Erica+One|Esteban|Euphoria+Script|Ewert|Exo|Exo+2|Expletus+Sans|Fanwood+Text|Fascinate|Fascinate+Inline|Faster+One|Fasthand|Fauna+One|Federant|Federo|Felipa|Fenix|Finger+Paint|Fira+Mono|Fjalla+One|Fjord+One|Flamenco|Flavors|Fondamento|Fontdiner+Swanky|Forum|Francois+One|Freckle+Face|Fredericka+the+Great|Fredoka+One|Freehand|Fresca|Frijole|Fruktur|Fugaz+One|GFS+Didot|GFS+Neohellenic|Gabriela|Gafata|Galdeano|Galindo|Gentium+Basic|Gentium+Book+Basic|Geo|Geostar|Geostar+Fill|Germania+One|Gidugu|Gilda+Display|Give+You+Glory|Glass+Antiqua|Glegoo|Gloria+Hallelujah|Goblin+One|Gochi+Hand|Gorditas|Goudy+Bookletter+1911|Graduate|Grand+Hotel|Gravitas+One|Great+Vibes|Griffy|Gruppo|Gudea|Gurajada|Habibi|Halant|Hammersmith+One|Hanalei|Hanalei+Fill|Handlee|Hanuman|Happy+Monkey|Headland+One|Henny+Penny|Herr+Von+Muellerhoff|Hind|Holtwood+One+SC|Homemade+Apple|Homenaje|IM+Fell+DW+Pica|IM+Fell+DW+Pica+SC|IM+Fell+Double+Pica|IM+Fell+Double+Pica+SC|IM+Fell+English|IM+Fell+English+SC|IM+Fell+French+Canon|IM+Fell+French+Canon+SC|IM+Fell+Great+Primer|IM+Fell+Great+Primer+SC|Iceberg|Iceland&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts_300-css'  href='https://fonts.googleapis.com/css?family=Imprima|Inconsolata|Inder|Indie+Flower|Inika|Inknut+Antiqua|Irish+Grover|Istok+Web|Italiana|Italianno|Itim|Jacques+Francois|Jacques+Francois+Shadow|Jaldi|Jim+Nightshade|Jockey+One|Jolly+Lodger|Josefin+Sans|Josefin+Slab|Joti+One|Judson|Julee|Julius+Sans+One|Junge|Jura|Just+Another+Hand|Just+Me+Again+Down+Here|Kadwa|Kameron|Kanit|Karla|Kaushan+Script|Kavoon|Keania+One|Kelly+Slab|Kenia|Khand|Khmer|Khula|Kite+One|Knewave|Kotta+One|Koulen|Kranky|Kreon|Kristi|Krona+One|Kurale|La+Belle+Aurore|Laila|Lakki+Reddy|Lancelot|Lateef|Lato|League+Script|Leckerli+One|Ledger|Lekton|Lemon|Libre+Baskerville|Life+Savers|Lilita+One|Lily+Script+One|Limelight|Linden+Hill|Lobster|Lobster+Two|Londrina+Outline|Londrina+Shadow|Londrina+Sketch|Londrina+Solid|Lora|Love+Ya+Like+A+Sister|Loved+by+the+King|Lovers+Quarrel|Luckiest+Guy|Lusitana|Lustria|Macondo|Macondo+Swash+Caps|Magra|Maiden+Orange|Mako|Mandali|Marcellus|Marcellus+SC|Marck+Script|Margarine|Marko+One|Marmelad|Martel|Martel+Sans|Marvel|Mate|Mate+SC|Maven+Pro|McLaren|Meddon|MedievalSharp|Medula+One|Megrim|Meie+Script|Merienda|Merienda+One|Merriweather|Merriweather+Sans|Metal|Metal+Mania|Metamorphous|Metrophobic|Michroma|Milonga|Miltonian|Miltonian+Tattoo|Miniver|Miss+Fajardose|Modak|Modern+Antiqua|Molengo|Molle:400i|Monda|Monofett|Monoton|Monsieur+La+Doulaise|Montaga|Montez|Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Moul|Moulpali|Mountains+of+Christmas|Mouse+Memoirs|Mr+Bedfort|Mr+Dafoe|Mr+De+Haviland|Mrs+Saint+Delafield|Mrs+Sheppards|Muli|Mystery+Quest|NTR|Neucha|Neuton|New+Rocker|News+Cycle|Niconne|Nixie+One|Nobile|Nokora|Norican&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts_450-css'  href='https://fonts.googleapis.com/css?family=Nosifer|Nothing+You+Could+Do|Noticia+Text|Noto+Sans|Noto+Serif|Nova+Cut|Nova+Flat|Nova+Mono|Nova+Oval|Nova+Round|Nova+Script|Nova+Slim|Nova+Square|Numans|Nunito|Odor+Mean+Chey|Offside|Old+Standard+TT|Oldenburg|Oleo+Script|Oleo+Script+Swash+Caps|Open+Sans|Open+Sans+Condensed:300|Oranienbaum|Orbitron|Oregano|Orienta|Original+Surfer|Oswald|Over+the+Rainbow|Overlock|Overlock+SC|Ovo|Oxygen|Oxygen+Mono|PT+Mono|PT+Sans|PT+Sans+Caption|PT+Sans+Narrow|PT+Serif|PT+Serif+Caption|Pacifico|Palanquin|Palanquin+Dark|Paprika|Parisienne|Passero+One|Passion+One|Pathway+Gothic+One|Patrick+Hand|Patrick+Hand+SC|Patua+One|Paytone+One|Peddana|Peralta|Permanent+Marker|Petit+Formal+Script|Petrona|Philosopher|Piedra|Pinyon+Script|Pirata+One|Plaster|Play|Playball|Playfair+Display|Playfair+Display+SC|Podkova|Poiret+One|Poller+One|Poly|Pompiere|Pontano+Sans|Poppins|Port+Lligat+Sans|Port+Lligat+Slab|Pragati+Narrow|Prata|Preahvihear|Press+Start+2P|Princess+Sofia|Prociono|Prosto+One|Puritan|Purple+Purse|Quando|Quantico|Quattrocento|Quattrocento+Sans|Questrial|Quicksand|Quintessential|Qwigley|Racing+Sans+One|Radley|Rajdhani|Raleway|Raleway+Dots|Ramabhadra|Ramaraja|Rambla|Rammetto+One|Ranchers|Rancho|Ranga|Rationale|Ravi+Prakash|Redressed|Reenie+Beanie|Revalia|Rhodium+Libre|Ribeye|Ribeye+Marrow|Righteous|Risque|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Rochester|Rock+Salt|Rokkitt|Romanesco|Ropa+Sans|Rosario|Rosarivo|Rouge+Script|Rozha+One|Rubik|Rubik+Mono+One|Rubik+One|Ruda|Rufina|Ruge+Boogie|Ruluko|Rum+Raisin|Ruslan+Display|Russo+One|Ruthie|Rye|Sacramento|Sahitya|Sail|Salsa|Sanchez|Sancreek|Sansita+One|Sarina|Sarpanch|Satisfy&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts_600-css'  href='https://fonts.googleapis.com/css?family=Scada|Schoolbell|Seaweed+Script|Sevillana|Seymour+One|Shadows+Into+Light|Shadows+Into+Light+Two|Shanti|Share|Share+Tech|Share+Tech+Mono|Shojumaru|Short+Stack|Siemreap|Sigmar+One|Signika|Signika+Negative|Simonetta|Sintony|Sirin+Stencil|Six+Caps|Skranji|Slabo+13px|Slackey|Smokum|Smythe|Sniglet|Snippet|Snowburst+One|Sofadi+One|Sofia|Sonsie+One|Sorts+Mill+Goudy|Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro|Special+Elite|Spicy+Rice|Spinnaker|Spirax|Squada+One|Sree+Krushnadevaraya|Stalemate|Stalinist+One|Stardos+Stencil|Stint+Ultra+Condensed|Stint+Ultra+Expanded|Stoke|Strait|Sue+Ellen+Francisco|Sumana|Sunshiney|Supermercado+One|Sura|Suranna|Suravaram|Suwannaphum|Swanky+and+Moo+Moo|Syncopate|Tangerine|Taprom|Tauri|Teko|Telex|Tenali+Ramakrishna|Tenor+Sans|Text+Me+One|The+Girl+Next+Door|Tienne|Tillana|Timmana|Tinos|Titan+One|Titillium+Web|Trade+Winds|Trocchi|Trochut|Trykker|Tulpen+One|Ubuntu|Ubuntu+Condensed|Ubuntu+Mono|Ultra|Uncial+Antiqua|Underdog|Unica+One|UnifrakturCook:700|UnifrakturMaguntia|Unkempt|Unlock|Unna|VT323|Vampiro+One|Varela|Varela+Round|Vast+Shadow|Vibur|Vidaloka|Viga|Voces|Volkhov|Vollkorn|Voltaire|Waiting+for+the+Sunrise|Wallpoet|Walter+Turncoat|Warnes|Wellfleet|Wendy+One|Wire+One|Work+Sans|Yanone+Kaffeesatz|Yantramanav|Yellowtail|Yeseva+One|Yesteryear|Zeyada&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-gallery-style-css'  href='/wp-content/plugins/wc-gallery/includes/css/style.css?ver=1.53' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-gallery-popup-style-css'  href='/wp-content/plugins/wc-gallery/includes/css/magnific-popup.css?ver=1.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-gallery-flexslider-style-css'  href='/wp-content/plugins/wc-gallery/includes/vendors/flexslider/flexslider.css?ver=2.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-gallery-owlcarousel-style-css'  href='/wp-content/plugins/wc-gallery/includes/vendors/owlcarousel/assets/owl.carousel.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-gallery-owlcarousel-theme-style-css'  href='/wp-content/plugins/wc-gallery/includes/vendors/owlcarousel/assets/owl.theme.default.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='kamn-css-easy-twitter-feed-widget-css'  href='/wp-content/plugins/easy-twitter-feed-widget/easy-twitter-feed-widget.css?ver=a75a14e608ba6331bb8c85e03b498b16' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-lato-css'  href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='/wp-content/themes/twentyfourteen/style.css?ver=1.8' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='/wp-content/themes/twentyfourteen/css/ie.css?ver=1.8' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='sccss_style-css'  href='?sccss=1&#038;ver=a75a14e608ba6331bb8c85e03b498b16' type='text/css' media='all' />
+<link rel='stylesheet' id='zotpress.shortcode.css-css'  href='/wp-content/plugins/zotpress/css/zotpress.shortcode.css?ver=a75a14e608ba6331bb8c85e03b498b16' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tribe_events_linked_posts = {"post_types":{"tribe_venue":"venue","tribe_organizer":"organizer"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='/wp-content/plugins/photo-gallery/js/bwg_frontend.js?ver=1.3.16'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectsL10n = {"bwg_select_tag":"Select Tag."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=1.3.16'></script>
+<script type='text/javascript' src='/wp-content/plugins/photo-gallery/js/jquery.mobile.js?ver=1.3.16'></script>
+<script type='text/javascript' src='/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=1.3.16'></script>
+<script type='text/javascript' src='/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.js?ver=0.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/photo-gallery/js/bwg_gallery_box.js?ver=1.3.16'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+
+ 
+
+<link rel="canonical" href="/container/" />
+<link rel='shortlink' href='/?p=250' />
+
+
+<!-- <meta name="NextGEN" version="2.1.56" /> -->
+</head>
+
+<body class="page page-id-250 page-template page-template-page-templates page-template-full-width page-template-page-templatesfull-width-php tribe-theme-twentyfourteen masthead-fixed full-width singular">
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="/" rel="home">Arctos Handbook</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container">Search</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Primary Menu</button>
+				<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+				<div id="primary-menu" class="nav-menu"><ul><li class="page_item page-item-231 page_item_has_children"><a href="/agent/">Agents</a><ul class='children'><li class="page_item page-item-228"><a href="/agent/address/">Address</a></li></ul></li><li class="page_item page-item-236"><a href="/attributes/">Attributes</a></li><li class="page_item page-item-1611"><a href="/authorities/">Authorities</a></li><li class="page_item page-item-238"><a href="/bulkloader/">Bulkloader</a></li><li class="page_item page-item-244"><a href="/catalog/">Catalog</a></li><li class="page_item page-item-250 current_page_item"><a href="/container/">Container</a></li><li class="page_item page-item-252"><a href="/dates/">Dates</a></li><li class="page_item page-item-13 page_item_has_children"><a href="/documentation/">Documentation</a><ul class='children'><li class="page_item page-item-274"><a href="/documentation/projects/">Projects</a></li><li class="page_item page-item-276 page_item_has_children"><a href="/documentation/publications/">Publications</a><ul class='children'><li class="page_item page-item-838"><a href="/documentation/publications/specimen-citations/">Specimen Citations</a></li></ul></li><li class="page_item page-item-278"><a href="/documentation/relationships/">Relationships</a></li><li class="page_item page-item-1746"><a href="/documentation/sharing-resources/">Sharing Data and Resources</a></li><li class="page_item page-item-270"><a href="/documentation/parts/">Specimen Parts</a></li></ul></li><li class="page_item page-item-256"><a href="/encumbrance/">Encumbrance</a></li><li class="page_item page-item-129"><a href="/faq/">Frequently Asked Questions</a></li><li class="page_item page-item-535"><a href="/how-to-genbank/">GenBank</a></li><li class="page_item page-item-698"><a href="/geolocate/">GeoLocate</a></li><li class="page_item page-item-1961"><a href="/">Home</a></li><li class="page_item page-item-260 page_item_has_children"><a href="/identification/">Identifications</a><ul class='children'><li class="page_item page-item-281"><a href="/identification/taxonomy/">Taxonomy</a></li></ul></li><li class="page_item page-item-268"><a href="/media/">Media</a></li><li class="page_item page-item-959"><a href="/other-id/">Other Identifying Numbers (Other IDs) and Relationships.</a></li><li class="page_item page-item-246 page_item_has_children"><a href="/places/">Places</a><ul class='children'><li class="page_item page-item-248"><a href="/places/collecting-event/">Collecting Event</a></li><li class="page_item page-item-262"><a href="/places/coordinates/">Coordinates</a></li><li class="page_item page-item-258"><a href="/places/higher-geography/">Higher Geography</a></li><li class="page_item page-item-266 page_item_has_children"><a href="/places/locality/">Locality</a><ul class='children'><li class="page_item page-item-985"><a href="/places/locality/geology/">Geology</a></li></ul></li><li class="page_item page-item-1369"><a href="/places/specimen-event/">Specimen Event</a></li></ul></li><li class="page_item page-item-930 page_item_has_children"><a href="/transaction/">Transactions</a><ul class='children'><li class="page_item page-item-222"><a href="/transaction/accession/">Accessions</a></li><li class="page_item page-item-264"><a href="/transaction/loans/">Loans</a></li><li class="page_item page-item-272"><a href="/transaction/permits/">Permits</a></li></ul></li></ul></div>
+			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<form role="search" method="get" class="search-form" action="/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+			
+<article id="post-250" class="post-250 page type-page status-publish hentry">
+	<header class="entry-header"><h1 class="entry-title">Container</h1></header><!-- .entry-header -->
+	<div class="entry-content">
+		<p><a name="top"></a><br />
+<a id="toplink" href="#top">top</a></p>
+<div class="anchors">
+<div class="anchortitle">Model</div>
+<p><a href="#container_type">Container Type</a><br />
+<a href="#barcode">Barcode</a><br />
+<a href="#label">Label</a><br />
+<a href="#description">Description</a><br />
+<a href="#install_date">Install Date</a><br />
+<a href="#remarks">Remarks</a><br />
+<a href="#print_flag">Print Flag</a><br />
+<a href="#width_height_length">Dimensions</a><br />
+<a href="#number_of_positions">Positions</a></p>
+<div class="anchortitle">Usage</div>
+<p><a href="#general">General Procedure</a><br />
+<a href="#field">Object Tracking in the field</a><br />
+<a href="#nobarcodes">Object Tracking without Barcodes</a><br />
+<a href="#freezerbox">Make a Freezer Box with Positions</a><br />
+<a href="#faq">FAQ</a><br />
+<a href="#usage">General Usage Guidelines</a><br />
+<a href="#purchase">Purchase Guidelines</a></p>
+</div>
+<h2><a name="nuts"></a><br />
+Arctos Object Tracking in a nutshell</h2>
+<ul>
+<ul>
+<li>&#8220;Containers&#8221; are of two categories:
+<ol>
+<li>All Parts are (also) containers.</li>
+<li>User-defined containers are whatever someone says they are &#8211; tubes, tube positions in freezer boxes, boxes, shelves, ranges, buildings, institutions, whatever.</li>
+</ol>
+</li>
+<li>All containers have exactly one parent container.</li>
+</ul>
+</ul>
+<p>That is the functional model in its entirety. Physical specimen-bits ARE containers, and they can be put into other containers, which are arbitrary curatorial declarations hopefully arranged in some useful fashion, such as bones in boxes on shelves. Barcodes (&#8220;machine-readable code&#8221; &#8211; 2D codes, RFID, etc.) are just machine-readable proxies to container_id. Labels are (less reliable) human-readable proxies to container_id. Dimensions, container_type, procedures to disallow infinite recursion, etc. &#8211; everything else about the model &#8211; are attempts to prevent human errors or provide useful information about or from containers. (All such clues are probably unnecessary in a perfect and uniform system, but with the great diversity present in Arctos a remark indicating the color of a box or location of a room is occasionally valuable.)</p>
+<h2>The Model</h2>
+<p><a href="/documentation/parts/">Collection Objects</a> are physically located in containers, and the concept of Containers reflects that reality. Not only are collection objects located in containers, but containers are (optionally) located within larger containers and this relationship is reflected in a recursive, parent-child relationship. Thus, every container has one parent container, except for &#8220;Container Zero&#8221; (the Parentless Void). For example, a tissue sample is typically in a <strong>cryovial</strong>, within a <strong>position</strong> in a <strong>freezer box</strong>, within a <strong>position</strong> in a <strong>freezer rack</strong>, within a <strong>freezer</strong> in a <strong>room</strong>&#8230;seven containers.</p>
+<p>With each container uniquely labeled with a barcode, tracking objects is done by scanning a new parent-container ID into the record of a child container. In the example above, the approximately 1,300 samples in a freezer rack can be tracked from one freezer to another by the scanning barcode on the freezer rack and its new parent ID (the barcode on the freezer).<br />
+<a name="container_type"></a></p>
+<div class="fldDef">Container . Container_Type<br />
+VARCHAR(20) not null<br />
+<a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcontainer_type" target="_blank">ctcontainer_type</a></div>
+<p><strong>Container Type:</strong> Vials, jars, boxes, shelves, and rooms are all Container Types. <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE">Vocabulary</a> is controlled, and should be limited to unambiguous and mutually exclusive kinds of containers.</p>
+<p>The Container Type &#8220;Position&#8221; is locked by programmed logic within its Parent Container. Examples of Positions include entities which cannot be physically moved from their Parent Container such as slots within freezer racks, slots for vials within freezer boxes, and positions for racks within freezers. In order create a Position, a Parent Container must be assigned.</p>
+<p>The various &#8220;label&#8221; container types are for processing. &#8220;Labels&#8221; may generally not have parents or be children, and should be changed to some other container type for usage. For example, one might purchase 100,000 &#8220;cryovial label&#8221; tags intended for the next several years use, and change them to &#8220;cryovial&#8221; 1,000 at a time. A color-coding system is useful.</p>
+<p>&nbsp;</p>
+<div class="fldDef">Container . Parent_Container_id<br />
+NUMBER not null</div>
+<p><strong>Parent Container:</strong><br />
+This is the value that identifies the container into which another (child) Container has been placed. The value is not displayed in applications because Parent Containers are generally displayed by their Labels and entered into forms by their Barcode.</p>
+<p><a class="infoLink" href="#top" name="barcode"></a></p>
+<div class="fldDef">Container . Barcode<br />
+VARCHAR(50) null</div>
+<p><strong>Barcode:</strong> Within the database, a barcode is a string of characters unique to a container. Most barcode values are meaningless &#8220;dumb numbers&#8221; that serve simply to associate a physical container with the information about the container.</p>
+<p>On labels, these characters are typically represented in one of several possible machine-readable fonts. Code Three of Nine (usually called Code 39), Code 128, and the two-dimensional DataMatrix codes are being used at this time. Most modern one-dimensional scanners will automatically recognize most one-dimensional codes, and most two-dimensional scanners will recognize both one-dimensional and two-dimensional codes. RFID, NFC, or any other method by which a machine may interrogate a tag, are also acceptable &#8220;fonts.&#8221;</p>
+<p>Many barcode labels are preprinted, purchased in lots, and made in particular sizes with particular adhesives, etc., for fairly specific applications. Others are printed in-house. Code 39 labels can be generated by installing a barcode font on a computer and printing to a laser printer. Code 39 can be <a href="http://www.idautomation.com/fonts/free/">downloaded</a> for free. Asterisks are the stop and start codons for Code 39, so an expression such as *1234* will be read as 1234 by a barcode scanner.</p>
+<p>In order to assure that barcode values are unique, barcodes are entered into the database as containers of the type label. This is done at the time labels are ordered so that the range of values is reserved. This practice also allows us to limit the values accepted by the database to known barcode values.</p>
+<p><a class="infoLink" href="#top" name="label"></a></p>
+<div class="fldDef">Container . Label<br />
+VARCHAR(255) not null</div>
+<p><strong>Label</strong> is the descriptive value that is displayed in most of our object-tracking applications. It should usually represent something that appears on the container. In many cases, this will be the value of the barcode which is displayed in human-readable fonts on most barcode labels.</p>
+<p>Many legacy containers are not easily barcoded, especially if they are numerous and stored at low temperatures. Therefore, Label should certainly be the value that appears in physical searches for un-barcoded containers. Note that Label is NOT unique.</p>
+<p>Some object-tracking applications simplify the container hierarchy by reporting only the positions (Containers of the type Position) for a Collection Object. Thus, in order to find a tissue sample in the freezers, you do not need to know the label of the freezer box or the freezer rack. You need know only the positions of the box and rack. For these applications, the Labels of positions might usefully indicate the parent container of the position. For example, the Label of position 6-B in Freezer 6 is &#8220;Frzr6 6-B,&#8221; not just &#8220;6-B.&#8221;</p>
+<p><a class="infoLink" href="#top" name="description"></a></p>
+<div class="fldDef">Container . Description<br />
+VARCHAR(255) null</div>
+<p><strong>Description</strong> is a useful expansion of Label. &#8220;Room 363&#8221; is useful as a label, but something like &#8220;The processing room in the south wing of the Biology Annex&#8221; may be expeditious.</p>
+<p><a class="infoLink" href="#top" name="install_date"></a></p>
+<div class="fldDef">Container_History . Install_Date<br />
+DATETIME not null</div>
+<p><strong>Install Date</strong> This is the date on which the Parent Container was last changed, <i>i.e.</i>, the date on which the Container was placed in its parent.</p>
+<p><a class="infoLink" href="#top" name="remarks"></a></p>
+<div class="fldDef">Container . container_remarks<br />
+VARCHAR(255) null</div>
+<p><strong>Remarks</strong><br />
+is the place to record notes and about the container or its contents. Remarks are especially useful in explaining the nature and treatment of legacy containers (<i>i.e.,</i> containers without barcode labels).</p>
+<p><a class="infoLink" href="#top" name="print_flag"></a></p>
+<div class="fldDef">Container . print_fg<br />
+NUMBER(1) null</div>
+<p><strong>Print Flag</strong> is a temporary flag that can be set for the purpose of printing container labels.</p>
+<p><a class="infoLink" href="#top" name="width_height_length"></a></p>
+<div class="fldDef">Container . width<br />
+Container . height<br />
+Container . length<br />
+NUMBER null</div>
+<p><strong>Width, Height, Length</strong> are dimensions of a container in centimeters. Decimal fractions can be used. Because movement of objects involves two barcode scans that relate a child container to a parent container, there is a risk of accidentally reversing these two values. These dimensions are used in logic that prevents scanning a container into a parent that is smaller than itself.</p>
+<p>Some common container dimensions:</p>
+<table>
+<tbody>
+<tr align="center">
+<th>Container</th>
+<th>Width</th>
+<th>Height</th>
+<th>Length</th>
+</tr>
+<tr align="center">
+<td>13-slot freezer rack</td>
+<td>14</td>
+<td>73</td>
+<td>14</td>
+</tr>
+<tr align="center">
+<td>slot in freezer rack</td>
+<td>13.5</td>
+<td>5.5</td>
+<td>13.5</td>
+</tr>
+<tr align="center">
+<td>regular (2 inch) freezer box</td>
+<td>13</td>
+<td>5</td>
+<td>13</td>
+</tr>
+<tr align="center">
+<td>2-dram shell vial</td>
+<td>2</td>
+<td>5.6</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p><a class="infoLink" href="#top" name="number_of_positions"></a></p>
+<div class="fldDef">Container . Number_Positions<br />
+INTEGER null</div>
+<p><strong>Number of Positions:</strong> Some containers have immovable subcontainers of the Container Type Position. For example, many freezer boxes designed to contain cryovials have either 81 (9 X 9 rows) or 100 (10 X 10 rows) subdivisions, or fixed positions, for cryovials. Recording the number of positions in a container allows us to make forms specific to tasks such as scanning cryovials into a 100-position freezer box versus an 81-position freezer box.</p>
+<p><a class="infoLink" href="#top" name="institution"></a></p>
+<div class="fldDef">Container . institution_acronym<br />
+VARCHAR(20) not null</div>
+<p><strong>Institution</strong> is an abbreviation that indicates which institution&#8217;s &#8220;owns&#8221; a container. (&#8220;Owns&#8221; because containers are in fact shared across VPD boundaries; this is closer to an indication of creator.)</p>
+<h2><a class="infoLink" href="#top" name="general"></a><br />
+Object Tracking in general</h2>
+<p>This section describes very general guidelines for object tracking with machine-readable labels.</p>
+<h3>Getting Started</h3>
+<ol>
+<li>Claim a barcode series in the <a href="https://docs.google.com/spreadsheets/d/1Rmj7NCudfdpo2DWwMHZk4FOYM-_anrElznYnjK4nWtY/edit#gid=0" target="_blank">Barcode Series Spreadsheet</a></li>
+<li>Purchase or print labels.</li>
+<li>Create the corresponding containers as some type of &#8220;label&#8221; container in Arctos using the Create Container Series app.</li>
+</ol>
+<h3>Using</h3>
+<ol>
+<li>Change some labels to an appropriate usable container type (one not containing &#8220;label&#8221;) with the Label&gt;Container app. Mark them appropriately; see <a href="#field">Field Procedures </a>for one idea.</li>
+<li>If the barcodes are meant to directly hold specimen parts (<em>e.g.</em>, if they are nunc tubes or tags), install the part into the container using the data entry form, by editing the specimen part, with the Parts&gt;&gt;Container batch tool, or any other method.</li>
+<li>Use the container by scanning it into other containers or by scanning other containers into it using one of the many appropriate Arctos forms.</li>
+</ol>
+<h2><a class="infoLink" href="#top" name="field"></a><br />
+Object Tracking in the field</h2>
+<p>The best place to begin the process of object tracking is when a part is created; for example, when a tissue sample is put into a Nunc tube in the field. Here is a brief overview of one implementation of that process.</p>
+<p><strong>As part of system development</strong></p>
+<ul>
+<ul>
+<ol>
+<li>Acquire a sufficient number of 2-piece barcodes. These are generally clear plastic labels with two identical, separable barcodes, one of which includes a long transparent &#8220;wrap around&#8221; portion through which the tube may be viewed, and which after application serves to protect the barcode and any writing on the tube to which it is affixed.</li>
+<li>Using the Arctos tools, enter the labels into Arctos as containers of type &#8220;{appropriate modifier} label.&#8221; Special handling exists for &#8220;cryovial label&#8221; containers, but this is unused if these practices are followed. &#8220;Cryovial labels&#8221; are often used on glass vials, and being overly-specific in creating &#8220;label&#8221; container types can ultimately result in confusion.</li>
+<li>Acquire a sufficient number of appropriate containers.</li>
+<li>Develop a system of color-coding commonly-used container types. For example, agree that all &#8220;cryovial&#8221; labels will be green, and all &#8220;vial&#8221; labels red.</li>
+</ol>
+</ul>
+</ul>
+<p><strong>Before collecting</strong></p>
+<ul>
+<ul>
+<ol>
+<li>Pull out some containers and a corresponding number of labels.</li>
+<li>Use the Arctos tools to change the labels to an appropriate container type &#8211; from &#8220;specimen label&#8221; to &#8220;vial,&#8221; for example.</li>
+<li>Color-code the barcodes. Indelible ink (Sharpie markers work well) on the peel-off backing is perhaps best, but colored rubber bands, sticky-notes, or anything else that allows a user to identify the intended use of the barcodes is acceptable.</li>
+</ol>
+</ul>
+</ul>
+<p><strong>In the field</strong></p>
+<ul>
+<ul>
+<ol>
+<li>Using the color coding system, grab an appropriate 2-piece label, remove the backing and affix the appropriate half to a container and the corresponding half to the data sheet. (Data sheets including pre-printed common part names, the part name encoded as barcodes, and a clearly-marked area for affixing the appropriate label-half are useful.)</li>
+</ol>
+</ul>
+</ul>
+<p><strong>Back in the collection</strong></p>
+<ul>
+<ul>
+<ol>
+<li>Install the barcoded container by scanning it into an appropriate box, position, etc.</li>
+</ol>
+</ul>
+</ul>
+<p><strong>Also back in the collection</strong></p>
+<ul>
+<ul>
+<ol>
+<li>Enter specimen data, scanning attached label-halves into the appropriate part barcode input area.</li>
+</ol>
+</ul>
+</ul>
+<p>Note that the last two steps are independent and may occur in any order and at any time. Typically tubes are installed immediately upon returning from the field, and specimen data entry may occur months or even years later. Once both steps have been completed, the specimen, part, and object tracking data will automatically consolidate.</p>
+<p><strong>At any time</strong></p>
+<ul>
+<ul>
+<ol>
+<li>If, for whatever reason, an un-barcoded container (with contents or not) should appear in the collection, simply refer to the color-coding chart, locate an appropriate label, and affix it to the container. (If the container does contain something, scan that into the new label as well.) No database inputs or container changes are necessary to bring the &#8220;new&#8221; container into the object tracking system. This immediately allows the container to be tracked by scanning it into any other container, and allows it to contain any container or specimen part.</li>
+</ol>
+</ul>
+</ul>
+<h2><a class="infoLink" href="#top" name="nobarcodes"></a><br />
+Object tracking without barcodes</h2>
+<p>We are occasionally asked about object tracking without barcodes. While such interfaces could be developed, we suggest that they should not be; non-machine-based &#8220;object tracking&#8221; is best accomplished through specimen part attributes.</p>
+<p>With barcodes, explicitly-defined things (specimen parts) are uniquely, unambiguously, and globally identified, then &#8220;read&#8221; by a device which is mathematically prevented from making read errors. We maintain that this is fundamentally different than anything produced by people reading labels. If the machine says ContainerA is in ContainerB, there are limited possibilities:</p>
+<ul>
+<ul>
+<ol>
+<li>It really is</li>
+<li>A protocol is ineffective</li>
+<li>Employees are not following protocol (which probably means a protocol is ineffective)</li>
+</ol>
+</ul>
+</ul>
+<p>Without barcodes, things (often poorly-defined parts of cataloged items) are identified by something that may or may not really be unique (catalog number as transcribed by some student, some taxonomic term as accepted whenever the shelf was labeled, one of the 3 objects labeled &#8220;Catalog Number One,&#8221; etc.), and that value is interpreted by a &#8220;device&#8221; which tends to make the occasional mistake when dealing with large numbers of similar things. Things end up about where they should, usually, (the aforementioned device is very good at dealing with a bit of slop) but there&#8217;s not really any way of knowing when they don&#8217;t.</p>
+<p>The systems are functionally different, and the data they produce are functionally different. Most every &#8220;numbering system&#8221; created by humans has duplicates, etc., and every human who&#8217;s ever read very many numbers has mangled a few of them. (Statistics suggest about 4%; our experience barcoding legacy object tracking systems suggests something higher.) Humans can often deal with those errors, but doing so requires a very different approach than barcodes. Machine codes are as reliable as they&#8217;re made to be, but they must be part of a designed system; there is and can be no room for interpretation or ambiguity.</p>
+<p>If data of a quantifiable quality are desirable, machine-readable codes and a system of handling them is necessary. If data of those characteristics are not necessary, or the resources to barcode are not currently available, use part attribute &#8220;location.&#8221;</p>
+<h2><a class="infoLink" href="#top" name="faq"></a><br />
+FAQ</h2>
+<p>Summary: People who use barcodes tend to find them indispensable; they make producing much better data much simpler.</p>
+<p>Q: The only benefit of barcoding is that it provides you with an east [sic] mechanism for processing large loans, doing inventories or otherwise creating batches of specimens. <a href="http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007337.html">(source)</a><br />
+A: Barcodes are useful for much more than loans. <a href="http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007341.html">(source)</a></p>
+<p>Q: &#8230;reading devices that might go out of production <a href="http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007339.html">(source)</a><br />
+A: This is an argument that we will soon lose all photodetector, laser, and optical devices that may be attached to small computers. Other types of &#8220;barcodes&#8221; (2D codes and RFIDs, for example) require slightly more advanced technology, but the argument that very simple methods of reading very simple encoded data across very short distances will suddenly become impossible just does not make any sense to us.</p>
+<p>Q: The scanner read my barcode wrong.<br />
+A: It probably didn&#8217;t. Even the very simplest barcodes have start and stop codons &#8211; half of barcode &#8220;1234&#8221; is not &#8220;12,&#8221; it&#8217;s unintelligible garbage. Printing useless barcodes, failing to develop useful protocols, and scanning the wrong things produce off-by-something-random errors; technological failures produce only &#8220;it didn&#8217;t work&#8221; errors.</p>
+<p>Q: What should I barcode?<br />
+A: Barcode physical objects &#8211; things you loan, need to find in the collection, or otherwise track. Cataloged items (things to which catalog numbers are assigned) are almost never appropriate; insect genitalia are separated and stored away from the pinned &#8220;voucher,&#8221; a mammal may have multiple organ samples, a plant may be mounted on multiple sheets, etc. That is, barcode and GUID are different types of identifiers used to represent entirely different types of objects. Please note that this is contrary to the  <a href="https://www.idigbio.org/wiki/index.php/Specimen_Barcode_and_Labeling_Guide" target="_blank">iDigBio Specimen Barcode and Labeling Guide</a> (<a href="https://web.archive.org/web/20151205163004/https://www.idigbio.org/wiki/index.php/Specimen_Barcode_and_Labeling_Guide" target="_blank">archive</a>), which states &#8220;A digital specimen GUID is what identifies the specimen (part of an individual, an individual, a set of individuals) in the digital world, while a barcode label identifies the specimen in the physical world. &#8221; A GUID/catalog number is assigned to whatever a Curator chooses (and traditions vary widely across disciplines and collections), while a barcode is assigned to definable physical objects. A barcode may refer to a cataloged item, part of a cataloged item, a part cataloged in multiple collections, material referencing a cataloged item or parts thereof (images, field notes, acquisition records), or anything else; any 1:1 catalog number:barcode ratio is coincidental and likely indicative of data structure problems.</p>
+<p>Q: What should I do differently for [&#8220;vouchers,&#8221; &#8220;tissues&#8221;, herbarium sheets, slides, whale skeletons, lots, subsamples, etc.]<br />
+A: Nothing. All of the above (and much more) is tracked in Arctos under one system. A system which must be modified for &#8220;special&#8221; situations is almost certainly also lacking in &#8220;normal&#8221; usage.</p>
+<p>Q: What &#8220;numbers&#8221; should I use?<br />
+A: Anything unique within your &#8220;globe&#8221; is sufficient; the larger the &#8220;globe,&#8221; the more you one can do with the data. Arctos currently has a system-wide unique key on barcodes, which allows us to deploy Arctos-wide tools which are used to track objects loaned to other Arctos collections, create loans (including those which include material from multiple collections) by scanning barcodes, transfer barcoded (and tracked) objects across collections, and store material from various collections in the same parent containers (<em>e.g.</em>, freezers). We find no fault in the <a href="https://www.idigbio.org/wiki/index.php/Specimen_Barcode_and_Labeling_Guide" target="_blank">iDigBio Specimen Barcode and Labeling Guide</a> (<a href="https://web.archive.org/web/20151205163004/https://www.idigbio.org/wiki/index.php/Specimen_Barcode_and_Labeling_Guide" target="_blank">archive</a>) recommendation of using UUIDs for barcodes, although most collections in Arctos prefer a human-readable label prefix. DOIs which resolve to the part internally and specimen externally seem ideal (they&#8217;re globally-unique and resolvable if inadvertently cited), though we have so far been unable to procure sufficient DOIs to test this idea at scale.</p>
+<p>Q: What encoding should I use?<br />
+A: Whatever fits on your desired labels and can be reliably read by a convenient machine.</p>
+<p><a name="usage"></a></p>
+<h2>Usage</h2>
+<p>This section provides a brief overview of the Arctos container forms and applications. It is not all-inclusive and it should not be viewed as directive.</p>
+<h3>Find a container</h3>
+<p>Containers may be located and displayed hierarchically through Find Container, which is accessible directly through the &#8220;tools&#8221; control in Specimen Results, from Specimen Detail, from loans, and various other places within Arctos. Please note that the container &#8220;tree&#8221; form is dynamic and asynchronous &#8211; clicking controls repeatedly (esp. from slow connections or searches that return large results sets) may &#8220;clog up the pipe&#8221; to the database; be patient.</p>
+<p>Once a container search has successfully completed, you will be presented with a &#8220;tree.&#8221; Doubleclicking any node will expand that node to show all its child containers. Clicking the checkbox beside a node will open a &#8220;more information&#8221; window, the contents of which are context-dependent.</p>
+<ul>
+<li>&#8220;Edit Container&#8221; provides the ability to edit the container, move it to a new parent, add a &#8220;checked&#8221; entry, record fluid information, and provides a list of the children of the container.</li>
+<li>&#8220;See all collection objects&#8221; will return a list of parts as &#8220;leaf nodes.&#8221; This includes parts that are in the container, and parts that are in containers that are in the container at any level of recursion.</li>
+<li>&#8220;Positions&#8221; is functional only for appropriate container types. Note that nothing prevents adding additional material to a container which contains positions, but that doing so will disable the position form.</li>
+<li>&#8220;History&#8221; provides a scan history, and may be useful for locating a misplaced container.</li>
+</ul>
+<h3>Use Containers to add items to a loan</h3>
+<p>Use the &#8220;Bulkload Loan Items&#8221; batch tool or the &#8220;add items by barcode&#8221; link from Edit Loan.</p>
+<h3>&#8220;Flattening&#8221;</h3>
+<p>There are various options to &#8220;flatten&#8221; a container hierarchy into a map for locating specimen parts, generally used in conjunction with loans. These are part (not specimen) based, and so the option from specimen results will flatten all parts for all specimens included in the results set, while the options from loans will flatten only those parts which are included in the loan. Note also that loans often contain subsamples, which are generally not included in object tracking systems.</p>
+<h2>General System Guidelines</h2>
+<p>The following are general guidelines developed largely from examining error logs (or a lack thereof) in relation to the number of tracked objects, the apparent ability to find supposedly-tracked objects, and a general impression of overall &#8220;quality&#8221; and utility of the barcoding system in several collections. This is not a recipe, but rather a description of the general qualities of the finished product.</p>
+<ul>
+<li>A <em><strong>system</strong></em> is critical. Scattering some barcodes around and occasionally beeping at them with a scanner does not somehow lead to knowing where things are.</li>
+<li>Containers should be created (as labels) in large batches, when printed or purchased.</li>
+<li>Containers should be edited exactly one time, when Labels are changed to containers for immediate usage. (See <a href="#field">field procedures</a>.)</li>
+<li>All other container-related tasks involve only scanning barcodes.</li>
+</ul>
+<p><a name="freezerbox"></a></p>
+<h2>Creating position-holding freezer boxes</h2>
+<h6>(From MLC 2016-01-19)</h6>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<ol>
+<li>create a freezer box in object tracking ( or use bulk container edit to create a bunch)</li>
+<li>I prefer, even with 9&#215;9 grids, to create the box wit h100 positions. That way, each row will be 1-10, but you don&#8217;t fill the 10th position. This makes the numbering easier.</li>
+<li>So, make sure that for &#8220;number of positions&#8221;, you put 100 (or 81 if you prefer, but once you create the positions, they can&#8217;t be changed).</li>
+<li>then go find the container using object tracking</li>
+<li>click on the container, putting the check in the box next to it so that that the&#8221;edit container&#8221; screen shows up to the right</li>
+<li>below edit container and see all collection objects in this container, you will see a &#8220;positions&#8221; tab &#8211; click on it</li>
+<li>say yes to create new positions</li>
+<li>it should generate a form with a freezer box template that you can scan tubes into</li>
+<li>note that if you scan a tube in place, and then need to move it, you must scan it into a different position first, and then refresh your browser to delete it from the old position</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><a name="purchase"></a></p>
+<h2>Guidelines for barcode-containing labels:</h2>
+<ul>
+<ol>
+<li>Barcodes should be clearly replicated in a human-readable format. The value read by a scanner should be readable by a human as well. Note that XYZ123, 123, ZYX 123, zyx0123, and ZYX0123 are all very different values.</li>
+<li>Be cautious of lower-case letters. Many barcode readers transmit all data in upper-case. Arctos character comparisons are bitwise; a and A are not the same character.</li>
+<li>Avoid padding with leading zeroes. These may be handled differently by different applications. In order to keep the character strings all the same length, start the series at a high value. For example, instead of beginning a series at 000001, begin at 100001. Thus, the character string will always be six characters long, and the printed labels will format consistently.</li>
+<li>Avoid characters other than A-Z and 0-9. Humans, and sometimes machines, can&#8217;t always tell if that hole represents a space, tab, linefeed, of any of the dozens of other possibilities. <strong>Barcodes containing anything except A-Z, a-z, and 0-9 are NOT eligible for any script-processing through Arctos or TACC, except by previous arrangement.</strong></li>
+<li>Use big numbers if possible. XYZ1234567890 is less likely to cause unanticipated problems than XYZ1 is.</li>
+<li>Don&#8217;t try to be too clever. You&#8217;ll learn to hate &#8220;L090207&#8221; (or was it L927? Maybe L0902007?). Dumb numbers with a locally-meaningful prefix, such as UAM or UAMMAMM, will be much more sustainable.</li>
+<li>Check the Barcode Series Spreadsheet (Arctos: ObjectTracking tab) very early in the ordering process. Avoid anything that even remotely looks like it could be, or ever could become, a conflict. Duplicate barcodes will not be accepted. Barcodes are shared across all Arctos collections.</li>
+<li>Talk to the Arctos folks before doing anything else. Really. It&#8217;s free, and we&#8217;re here to help. Ordering unusable barcodes is not free, and we&#8217;ll make fun of you for doing that.</li>
+<li>Enter the series of barcodes into Arctos and update the Barcode Series Spreadsheet (Arctos: ObjectTracking tab) before placing an order or printing your barcodes.</li>
+</ol>
+</ul>
+	</div><!-- .entry-content -->
+</article><!-- #post-## -->
+		</div><!-- #content -->
+	</div><!-- #primary -->
+</div><!-- #main-content -->
+
+<div id="secondary">
+		<h2 class="site-description">get yer docs here</h2>
+	
+	
+	</div><!-- #secondary -->
+
+		</div><!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+			<div class="site-info">
+								<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+			</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	<!-- ngg_resource_manager_marker --><script type='text/javascript' src='/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b'></script>
+<script type='text/javascript' src='/wp-content/themes/twentyfourteen/js/functions.js?ver=20150315'></script>
+<script type='text/javascript' src='/wp-content/plugins/easy-twitter-feed-widget/lib/js/widget-easy-twitter-feed-widget.js?ver=1.0'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=a75a14e608ba6331bb8c85e03b498b16'></script>
+</body>
+</html>
