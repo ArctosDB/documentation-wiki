@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Taxonomy {#taxonomy .entry-title}
+========
+
+<div class="entry-content">
+
+[]()[top](#top){#toplink}
+
+<div class="anchors">
+
+[Overview](#overview)\
+[Scientific Name](#scientific_name)\
+[Taxon Terms](#terms)\
+[Common Names](#common_names)\
+[Searching](#search)\
+[Creating Names](#newname)\
+[FAQ](#faq)\
+[Source “Arctos”](#arctos_source)\
+[Search Examples](#searchexample)\
+[Relationship of taxonomy to specimens](#specimens)\
+[Editing](#edit)
+
+</div>
+
+[]()
+
+### Overview
+
+“Taxonomy” for the purposes of this document and Arctos in general is
+“some formal naming system.” Arctos taxonomy is not necessarily
+hierarchical, it is not limited to biological taxonomies, we follow no
+organization or committee guidelines, and we make no distinction between
+taxonomy and nomenclature. We offer no judgements or guidelines
+regarding acceptability; if all or part of a system of names (and
+optionally metadata regarding those names) is accepted or endorsed by
+some user group, it’s acceptable for Arctos. If publication “A new
+species of critter” declares, however informally, that “*Some critter*”
+is a distinct “species” (in the loosest possible sense of the word),
+then “Some critter” may be a useful taxon in Arctos. If another
+publication declares “*Some critterrrrr* is obviously not a valid
+\[taxon, biological distinction, etc.\],” then “Some critterrrrr” may be
+a useful taxon name to include in Arctos for discovery purposes, even
+though it’s an obvious misspelling rejecting a name. In short, if a name
+might be useful in discovering specimens, it should be included in
+Arctos. (Remarks, annotated taxon relationships, and links to
+publications should be used to clarify.)
+
+Arctos taxonomy consists of two tables: taxon\_name is a list of “base
+names” (genera, species, kingdoms) and taxon\_term contains metadata
+regarding a taxon\_name, optionally organized in various ways. Informal
+terms, such as “Sorex sp.” or “Sorex cinereus or Sorex ugyunak” are
+Identifications, not taxonomy. (Identifications are generally drawn from
+and linked to taxonomy in various ways.)\
+[]()
 
 Taxon Name
 ----------

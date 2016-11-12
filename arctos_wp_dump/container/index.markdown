@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Container {#container .entry-title}
+=========
+
+<div class="entry-content">
+
+[]()\
+[top](#top){#toplink}
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Model
+
+</div>
+
+[Container Type](#container_type)\
+[Barcode](#barcode)\
+[Label](#label)\
+[Description](#description)\
+[Install Date](#install_date)\
+[Remarks](#remarks)\
+[Print Flag](#print_flag)\
+[Dimensions](#width_height_length)\
+[Positions](#number_of_positions)
+
+<div class="anchortitle">
+
+Usage
+
+</div>
+
+[General Procedure](#general)\
+[Object Tracking in the field](#field)\
+[Object Tracking without Barcodes](#nobarcodes)\
+[Make a Freezer Box with Positions](#freezerbox)\
+[FAQ](#faq)\
+[General Usage Guidelines](#usage)\
+[Purchase Guidelines](#purchase)
+
+</div>
+
+[]()\
+Arctos Object Tracking in a nutshell
+------------------------------------
+
+-   “Containers” are of two categories:
+    1.  All Parts are (also) containers.
+    2.  User-defined containers are whatever someone says they are –
+        tubes, tube positions in freezer boxes, boxes, shelves, ranges,
+        buildings, institutions, whatever.
+-   All containers have exactly one parent container.
+
 That is the functional model in its entirety. Physical specimen-bits ARE
 containers, and they can be put into other containers, which are
 arbitrary curatorial declarations hopefully arranged in some useful

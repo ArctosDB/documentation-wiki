@@ -1,3 +1,56 @@
+Attributes {#attributes .entry-title}
+==========
+
+<div class="entry-content">
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Definitions
+
+</div>
+
+[Name](#name)\
+[Value](#value)\
+[Units](#units)\
+[Method](#method)\
+[Remark](#remark)\
+[Determiner](#determiner)\
+[Determined Date](#date)
+
+<div class="anchortitle">
+
+Using
+
+</div>
+
+[Searching with Attributes](#attribute_search)\
+[Searching by attribute type](#attribute_api)
+
+</div>
+
+Attributes are descriptive (usually biological) characteristics of
+cataloged items (which are often biological individuals) such as
+measurements, weight, age, and sex.  Like other determinations
+(opinions) in Arctos, Attributes have a determiner, a determination
+date, and a determination method. Because they are treated as
+determinations, a record may have any number of similar and even
+contradictory Attributes.
+
+Attributes, many of which use controlled vocabularies with many values
+and many individual definitions, are largely documented within tables
+within Arctos, as opposed to being documented here.  The appropriate
+units for numeric Attributes, and the appropriate vocabulary for
+Attributes with controlled vocabularies are set by a master “[code table
+of code
+tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).” 
+This can be a useful node for exploring these values outside of the
+forms in which the vocabularies are used.\
+[](){.infolink}
+
+<div class="fldDef">
+
 Attributes . Attribute\_Type\
 VARCHAR(60) not null\
 [ctAttribute\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
@@ -302,4 +355,3 @@ get yer docs here {#get-yer-docs-here .site-description}
 </div>
 
 </div>
-

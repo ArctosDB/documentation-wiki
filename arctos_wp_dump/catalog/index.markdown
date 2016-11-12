@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Catalog {#catalog .entry-title}
+=======
+
+<div class="entry-content">
+
+[]()\
+[top](#top){#toplink}
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Concepts
+
+</div>
+
+[Catalog Number](#catalog_number)\
+[GUID](#guid)\
+[Collection](#collection)\
+[Collection Code](#collection_code)\
+[Description](#description)\
+[Institution Acronym](#institution_acronym)
+
+<div class="anchortitle">
+
+Procedures
+
+</div>
+
+[Understanding Cataloged Items](#what)\
+[delete](#delete)\
+[recatalog](#recatalog)\
+[searching](#srch2)
+
+</div>
+
+Catalogs are administrative lists with inconsistent relationships to
+physical items. Therefore, a Cataloged Item is an abstraction, *i.e.*,
+it is an item that has been cataloged, and hence defined, by the
+administrator of a catalog.
+
+In a catalog of mammals or birds, a cataloged item usually coincides
+with a biological individual. A large mammal will be given one catalog
+number even though it may be composed of many [specimen
+parts](/documentation/parts/), *e.g.*, a skin, a skull, frozen tissue
+samples, fluid-preserved soft parts. In a catalog of fish or parasites,
+a cataloged item often is numerous individuals of one species from the
+same collecting event. There are also situations where parts of the same
+biological individual may occur in more than one catalog. For example,
+some museums maintain one catalog for skins and another for skeletal
+material, or separate parts of the same individual may have been
+cataloged at more than one institution. The term “specimen” is uses
+synonymously with “cataloged item” throughout Arctos.\
 [](){.infoLink}
 
 <div class="fldDef">

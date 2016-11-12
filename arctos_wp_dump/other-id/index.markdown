@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Other Identifying Numbers (Other IDs) and Relationships. {#other-identifying-numbers-other-ids-and-relationships. .entry-title}
+========================================================
+
+<div class="entry-content">
+
+[top](#top){#toplink}\
+[]()
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Concepts
+
+</div>
+
+[Other Identifiers](#other_id)\
+[Other ID Type](#other_id_type)\
+[Other ID Number](#other_id_number)\
+[Other ID References](#other_id_references)
+
+<div class="anchortitle">
+
+Procedures
+
+</div>
+
+[General Guidelines](#guidelines)\
+[Forming URIs](#forming_uri)\
+[Bulkloader Considerations](#bulkload_otherid)\
+[Searching](#search_other_id)
+
+</div>
+
+[](){.infoLink}
+
+<span style="font-size:x-small">Other IDs (Identifiers)</span>\
+**Other IDs** (identifiers) are identifiers applied to specimens. These
+identifiers may make identify specimens (as in the case of collector
+numbers), reference other resources (*e.g.*, GenBank numbers), or form
+relationships among specimens (such as hosts of parasites).\
+[](){.infoLink}
+
+<div class="fldDef">
+
+Coll\_Obj\_Other\_ID\_Num . Other\_ID\_Type\
+VARCHAR2(75) not null\
+ctcoll\_other\_ID\_type
+
+</div>
+
+**Other Identifier Type** describes the kind of identifier. This field
+uses a [controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
 Users who are logged in can choose one Other ID Type to be their
 “preferred identifier.”   Your preferred identifier will then be the

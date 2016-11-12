@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Identifications {#identifications .entry-title}
+===============
+
+<div class="entry-content">
+
+[top](#top){#toplink}
+
+<div class="anchors">
+
+[Scientific Name](#scientific_name)\
+[Determination Formula](#id_formula)\
+[“A {string}” Formula](#astring)\
+[Determiner](#id_by)\
+[Determination Date](#id_date)\
+[Nature of Determination](#nature_of_id)\
+[*Sensu* Publication](#identification_publication)\
+[Remarks](#id_remarks)\
+[Searching](#search)
+
+</div>
+
+Determinations, or “identifications” (IDs), apply taxonomic terms to
+specimens.  In other words, determinations are not necessarily just
+taxonomic terms.  Information about taxonomic names (which are used to
+compose determinations) is in [Taxonomy](taxonomy).
+
+A taxonomic determination is comprised of:
+
+-   the taxonomic term, or combination of terms and/or modifiers
+-   the name (or names) of the determiner(s)
+-   the date of the determination
+-   and the nature, or basis of the determination
+
+Arctos maintains a history of determinations for each specimen. 
+Specimens are therefore reidentified by adding a new determination and
+retaining prior determination(s) as “unaccepted.” This means that there
+can be only one accepted determination, but not necessarily that prior
+identifications are wrong. In fact, complimentary IDs by experts or by
+alternative methods enhance the value of the specimen.\
+[]()
+
+**Scientific Name:** There is a distinction between Scientific Name here
+in determinations, as opposed to [Scientific Name as it is used in the
+taxonomy table](taxonomy/#scientific_name). The latter is a term from a
+table serving as a taxonomic look-up (or authority). Here, it is a
+character string applied to a specimen by a [determiner](#id_by), though
+it uses terms from the look-up table to create such strings.
+Nevertheless, in the simplest and commonest case ([Determination
+Formula](#id_formula)= “A”), they are identical. (Some forms display a
+third related term called [Display Name](taxonomy/#display_name), which
+is merely a specific formatting of the data in Taxonomy.)  The
+explanation of Determination Formula (immediately below) is
+illustrative.
 
 []()
 

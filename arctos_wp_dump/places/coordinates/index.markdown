@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Coordinates {#coordinates .entry-title}
+===========
+
+<div class="entry-content">
+
+[]()[top](#top){#toplink}
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Concepts
+
+</div>
+
+[Original Units](#original_units)\
+[Datum](#datum)\
+[Reference Source](#reference)\
+[Georeference Method](#georefmethod)\
+[GPS Accuracy](#gpsaccuracy)\
+[Extent](#extent)\
+[Maximum Uncertainty Distance](#maximum_error)\
+[Determiner](#determiner)\
+[Date](#date)\
+[Verification Status](#verificationstatus)\
+[Accepted Flag](#accepted)\
+[Remarks](#remarks)
+
+<div class="anchortitle">
+
+Search Tips
+
+</div>
+
+[Spatial Query](#spatialquery)
+
+</div>
+
+The application of latitudes and longitudes to verbal
+[locality](locality) data is called georeferencing. Latitude describes a
+position in degrees north or south of the equator. Longitude describes a
+position in degrees east or west of the Greenwich meridian. However,
+coordinates alone are of limited use without information on uncertainty
+and the coordinate frame of reference (datum).
+
+Protocols for georeferencing natural history collections are described
+in the [MaNIS Georeferencing
+Guidelines](http://manisnet.org/GeorefGuide.html).  Tools that automate
+these protocols include the [Georeferencing
+Calculator](http://manisnet.org/gc.html),
+[BioGeomancer](http://bg.berkeley.edu/latest/), and
+[GeoLocate](http://www.museum.tulane.edu/geolocate/ "GeoLocate at Tulane"). 
+GeoLocate is called as a web service by applications within Arctos.
 
 Coordinates are stored with collecting events and with locality, both
 optional. Collecting event coordinates are “verbatim” and should reflect

@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Dates {#dates .entry-title}
+=====
+
+<div class="entry-content">
+
+[top](#top){#toplink}\
+[]()
+
+<div class="anchors">
+
+[Excel hates me](#excel)
+
+</div>
+
+[![](http://imgs.xkcd.com/comics/iso_8601.png)](http://xkcd.com/1179/)
+
+Only the information on this page defines the ISO8601 standard for
+Arctos.
+
+-   Date and time values are organized from the most to the least
+    significant: year, month, day, hour, minute, second, timezone. The
+    lexicographical order of the representation thus corresponds to
+    chronological order.
+-   Each date and time value has a fixed number of digits that must be
+    padded with leading zeros.
+-   Representations can be done in only one format, often referred to as
+    the extended format with separators added to enhance readability.
+    The separator used between date values (year, month, and day) is the
+    hyphen, while the colon is used as the separator between time values
+    (hours, minutes, and seconds). For example, the 6th day of the 1st
+    month of the year 2009 may be written as “2009-01-06.”
+-   For reduced accuracy, any number of values may be dropped from any
+    of the date and time representations, but in the order from the
+    least to the most significant. For example, “2004-05” is a valid ISO
+    8601 date, which indicates the 5th month of the year 2004. This date
+    will never represent the 5th day of some unknown month in 2004.
+
+Supported components:
+---------------------
+
+-   4-digit positive year. <span class="example">Example:
+    1987</span><span class="next">(optionally followed by
+    dash and…)</span>
+-   2-digit month of the year. <span class="example">Example:
+    1987-04</span><span class="next">(optionally followed by
+    dash and…)</span>
+-   2-digit day of the month. <span class="example">Example:
+    1987-04-28</span><span class="next">(optionally followed by the
+    character T and…)</span>
+-   2-digit hour of the day (days have 24 hours). <span
+    class="example">Example: 1987-04-28T13</span><span
+    class="next">(optionally followed by colon and…)</span>
+-   2-digit minute of the hour. <span class="example">Example:
     1987-04-28T13:34</span><span class="next">(optionally followed by
     colon and…)</span>
 -   2-digit second of the minute. <span class="example">Example:

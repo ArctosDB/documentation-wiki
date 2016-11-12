@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Encumbrance {#encumbrance .entry-title}
+===========
+
+<div class="entry-content">
+
+[]()[top](#top){#toplink}
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Concepts
+
+</div>
+
+[encumbrancer](#encumbrancer)\
+[encumbrance\_name](#encumbrance_name)\
+[expiration](#expiration)
+
+<div class="anchortitle">
+
+Procedures
+
+</div>
+
+[Encumbering Specimens](#encspec)\
+[Un-Encumbering Specimens](#unencspec)
+
+</div>
+
+Encumbrances restrict the use of specimens or specimen data.
+Encumbrances are applied to [Cataloged Items](catalog). Attributes of an
+encumbrance include an encumbrancer, a name for the encumbrance, an
+expiration date and/or event, and an encumbering action.
+
+Encumbrances should be used to:
+
+-   Mark erroneous records for deletion. (Records for which a specimen
+    no longer exists should NOT be deleted, but should rather have
+    disposition updated.)
+-   Restrict usage of specimens conditionally placed in
+    public collections. These records should remain publicly visible –
+    do not “mask record.”
+-   Restrict coordinate data for specimens from sensitive collecting
+    events under agreement with landowners. Removing coordinate data
+    removes much of the “discoverability” of specimens, and will exclude
+    those specimens from many searches. Use this encumbrance with
+    great caution.
+
+Encumbrances should NOT be used to:
+
+-   Mask the record of specimens under active research. “Restrict usage”
+    is sufficient to protect any existing interests in the specimen, and
     the specimen remains available, upon approval of the encumberer, for
     other non-conflicting research. This guideline is often
     severely abused.

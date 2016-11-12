@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+GeoLocate {#geolocate .entry-title}
+=========
+
+<div class="entry-content">
+
+Data Entry now and Edit Locality now offer an inline georeferencing
+tool, courtey of the
+[GEOLocate](http://www.museum.tulane.edu/geolocate/) project. While very
+cool, this tool is not magic; you, the user, are still responsible for
+the end result.
+
+You must use an HTML5-compliant browser (that’s FireFox) to use this
+feature.
+
+Higher Geography and Specific Locality are passed to GEOLocate. Trying
+to use the tool without these values won’t work properly.
+
+After you click the GeoLocate button, an overlay containing an
+interactive map will open. This can be quite slow the first time you use
+it as data are cached. Check your cache settings if performance does not
+drastically increase for subsequent calls.
+
+If the locality you passed in returns one result, simply check the
+georeference and click “Save to your Application” to accept the
+coordinates and
+error.[![](/wp-content/uploads/sites/21/2011/09/gl1.png "gl1"){.alignnone
+.size-full .wp-image-699 width="640" height="447"
+sizes="(max-width: 640px) 100vw, 640px"
+srcset="/wp-content/uploads/sites/21/2011/09/gl1.png 808w, /wp-content/uploads/sites/21/2011/09/gl1-300x210.png 300w, /wp-content/uploads/sites/21/2011/09/gl1-768x537.png 768w, /wp-content/uploads/sites/21/2011/09/gl1-250x175.png 250w, /wp-content/uploads/sites/21/2011/09/gl1-550x385.png 550w, /wp-content/uploads/sites/21/2011/09/gl1-800x559.png 800w, /wp-content/uploads/sites/21/2011/09/gl1-257x180.png 257w, /wp-content/uploads/sites/21/2011/09/gl1-429x300.png 429w, /wp-content/uploads/sites/21/2011/09/gl1-715x500.png 715w"}](/wp-content/uploads/sites/21/2011/09/gl1.png)
+
+If the locality you passed in returns zero results, first check the
+higher geography and spec locality data. If it is accurate, you may edit
+the passed-in locality data by clicking “Georeference a locality
+description.” You may also use this pane to change default settings.
+
+[![](/wp-content/uploads/sites/21/2011/09/gl2.png "gl2"){.alignnone
+.size-full .wp-image-702 width="640" height="527"
+sizes="(max-width: 640px) 100vw, 640px"
+srcset="/wp-content/uploads/sites/21/2011/09/gl2.png 805w, /wp-content/uploads/sites/21/2011/09/gl2-300x247.png 300w, /wp-content/uploads/sites/21/2011/09/gl2-768x633.png 768w, /wp-content/uploads/sites/21/2011/09/gl2-250x206.png 250w, /wp-content/uploads/sites/21/2011/09/gl2-550x454.png 550w, /wp-content/uploads/sites/21/2011/09/gl2-800x660.png 800w, /wp-content/uploads/sites/21/2011/09/gl2-218x180.png 218w, /wp-content/uploads/sites/21/2011/09/gl2-364x300.png 364w, /wp-content/uploads/sites/21/2011/09/gl2-606x500.png 606w"}](/wp-content/uploads/sites/21/2011/09/gl2.png)
+
+If the locality you passed in returns more than one results, you must
+click-to-select one of them before clicking “Save to your Application.”
+Check the results carefully – this can be confusing. The result with the
+green dot is “active.”
+
+You may edit coordinates by dragging the green dot. You may edit
+uncertainty by clicking the green dot, following the link, and dragging
+the arrow that appears. You may zoom (on Mac) by holding SHIFT and
+dragging a rectangle with your mouse.
+
+</div>
+
+</div>
 
 </div>
 

@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Loans {#loans .entry-title}
+=====
+
+<div class="entry-content">
+
+[]()[top](#top){#toplink}
+
+<div class="anchors">
+
+[Loan Number](#loan_number)\
+[Loan Type](#loan_type)\
+[Loan Status](#loan_status)\
+[Loan Agents](#loan_agent_role)\
+[Nature of Material](#nature_of_material)\
+[Instructions](#instructions)\
+[Description](#description)\
+[Remarks](#remarks)\
+[Initiated Date](#initiated_date)\
+[Due Date](#due_date)\
+[Shipping Date](#shipping_date)\
+[Receipt Acknowledged](#receipt_acknowledged)\
+[Returned Date](#returned_date)\
+[Permit](#permit)\
+[Project](#project)\
+[Data Loans](#dataloan)\
+[Deleting Items](#deleteitems)
+
+</div>
+
+The concept of a specimen loan is broad and includes any removal of
+specimens from a collection, temporary or permanent, with the exception
+of specimens that are destroyed. (“Discarded” is a specimen
+disposition.) Specimens which are permanently transferred to another
+collection or institution are loans of the the type, “transfer of
+custody” (in place of the oxymoron, “permanent loan”). The type
+“transfer of title” could be added when and if we include collections
+that are willing to release title to cataloged specimens.
+
+In order to associate specimens with in-house projects or the projects
+of visiting researchers, the concept of loans can be further extended to
+include in-house usage. When users of specimens fail to cite these
+specimens in their publications, a degree of documentation, albeit
+indirect, exists in that the specimens are associated with a loan, which
+is associated with a project, which can be associated with the
+publication.
+
+A specimen “exchange” between collections is two transactions: A loan
+and an accession. This arrangement well reflects the reality of
+incompleted exchanges, and takes advantage of the fact that we are
+dealing with both outgoing specimens and incoming specimens.
+
+<div class="fldDef">
+
 Loans . Loan\_Number\
 VARCHAR(20) not null
 

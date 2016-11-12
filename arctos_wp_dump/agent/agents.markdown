@@ -1,3 +1,52 @@
+Agents {#agents .entry-title}
+======
+
+<div class="anchors">
+
+[Agent Type](#agent_type)\
+[Person](#person)\
+[Organization](#organization)\
+[Verbatim Collector](#verbatim_collector)\
+[Group](#group)\
+[Names](#names)\
+[Name Type](#name_type)\
+[Agent Remark](#agent_remark)\
+[General Agent Creation Guidelines](#create)\
+[Relationships](#relationship)\
+[Different Agent, Same Name](#samename)\
+[Name Search](#namesearch)\
+[ID Search](#idsearch)\
+[Deleting Duplicates/deleting](#duplicate)
+
+</div>
+
+[Top](#top){.infoLink}\
+Agents are people, organizations, or groups that perform actions. 
+Collectors are agents, authors of publications are agents, users of
+specimens are agents, and, if you enter or edit data, you are an agent.
+A single agent can have many roles and many names.
+
+No matter how many roles or names an agent has, a single person (or
+agency) should be in the database only once.  Before new agent records
+are created, the database should be carefully queried to check that the
+“new” agent is not already in the database.  A collector may have
+married and now be submitting specimens as collected under her married
+name, for example.
+
+Agents with non-English names may exist in the database under
+alternative transliterations.  (Felix Chernyavski’s name is published in
+English as Tchernyavski and Chernyavsky.) In these cases, additional
+Agent Names are required, not additional Agents.  Additional names using
+original alphabet of the agent’s name are an obvious
+clarification.(Cyrillic, in the example above.)
+
+For legacy data, the above is a difficult standard.  Are Robert Smith,
+R. Smith, and Bob Smith three agents or one?  Sometimes, the activities
+already recorded for an agent makes the answer clear, *e.g.*, there were
+probably not two Eleazer Fitzgarrolds collecting grasshoppers in
+northern Madagascar in the 1930s. (If you are viewing a an agent record,
+the “Agent Activity” link will show you all of the agent’s actions that
+are recorded.) Thus, it is useful to provide as much information as
 possible when creating and editing agent records. If you can figure it
 out, the database can usefully handle the information. If you cannot
 figure it out it probably doesn’t matter; having multiple agents
@@ -374,21 +423,3 @@ Occasionally, it will be determined that two agents are not in fact
 duplicates. The only action that will stop future attempts to merge them
 is a “not the same as” relationship. Document the relationship in
 remarks, but do not try to build functionality into remarks.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>
-

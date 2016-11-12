@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Specimen Citations {#specimen-citations .entry-title}
+==================
+
+<div class="entry-content">
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Definitions
+
+</div>
+
+[Publication](#publication_id)\
+[Specimen](#collection_object)\
+[Page Number](#occurs_page_number)\
+[Basis of Citation](#citation_type)\
+[Cited As](#cited_as_taxon)
+
+<div class="anchortitle">
+
+Using
+
+</div>
+
+[Creating](#create_cite)\
+[Erroneous Citations](#erroneous_citation)\
+[Bulk-loading Citations](#bulkload_citations)\
+[Searching](#search_cite)
+
+</div>
+
+If an unequivocal relationship exists between a particular specimen and
+a page in the publication, then it is a Citation.  Ideally, a
+publication refers to specimens by their catalog numbers and
+institutions, but data can be entered for specimens that were cataloged
+after they were cited, or that were cited by some other identifier such
+as a field number.  A specimen citation includes:\
+[](){.infoLink}
+
+<div class="fldDef">
+
+Citation . Publication\_ID (FK)\
+INTEGER not null
+
+</div>
+
+**Publication:** There cannot be a Citation until the Publication has
+been included in the database.  Because full citation includes a page
+number, the best practice is to enter citations only when the
+publication is in its final form.\
+[](){.infoLink}
+
 <div class="fldDef">
 
 Citation . Identification\_ID (FK)\

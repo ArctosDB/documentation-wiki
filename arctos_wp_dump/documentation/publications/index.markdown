@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Publications {#publications .entry-title}
+============
+
+<div class="entry-content">
+
+[]()
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Definitions
+
+</div>
+
+[Full Citation](#full_citation)\
+[Short Citation](#short_citation)\
+[Publication Type](#publication_type)\
+[Peer Review Flag](#peer)\
+[Published Year](#published_year)\
+[DOI/PMID](#doi)\
+[Author](#author)\
+[Author Role](#author_role)
+
+<div class="anchortitle">
+
+Using
+
+</div>
+
+[Creating](#usedoi)\
+[Linking](#linking)\
+[Finding DOIs](#finddoi)
+
+</div>
+
+Publications are included in Arctos to document the significance of
+specimens.  These associations also enhance publications by making the
+work documented by publications more reproducible.  Where specimens have
+been
+[cited](http://arctosdb.wordpress.com/documentation/publications/specimen-citations/ "Specimen Citations")
+in a publication, this fact can be recorded as an explicit relationship
+between a particular specimen and a particular page within a
+publication.  Where no such explicit relationship exists, publications
+can be related to a [Project](project).\
+[](){.infolink}
+
+<div class="fldDef">
+
+Publication . Full\_Citation\
+varchar(4000) not null
+
+</div>
 
 **Full Citation** is the textual description of a publication formatted
 as it would appear in a bibliography.  Typically this would include

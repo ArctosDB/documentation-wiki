@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Accessions {#accessions .entry-title}
+==========
+
+<div class="entry-content">
+
+[]()
+
+<div class="anchors">
+
+[Accession Number](#accn_number)\
+[How Obtained?](#accn_type)\
+[Accession Status](#accn_status)\
+[Public](#public)\
+[Estimated Count](#estimated_count)\
+[Container](#container)\
+[Alerts](#notification)\
+[Data Entry Considerations](#dataentry)
+
+</div>
+
+An accession is a transaction that conveys a specimen, or (commonly) a
+group of specimens received from one source at one time, to a
+collection.  As an administrative (rather than biological) entity, an
+accession can be delimited by administrative criteria such as previous
+title, applicable [permits](permit), or association with a particular
+[project](projects/).  In general, accessioning is the first step of
+incorporating specimens into a collection and indicates that the museum
+has accepted custody of (if not title to) the accessioned material.
+
+Accessioning generally precedes cataloging.  Therefore, it is
+unnecessary to have specimen data in order to create an accession. 
+Nevertheless, the nature and disposition of the specimen data should be
+recorded in order to assure that the data can eventually be located for
+purposes of cataloging.\
+[](){.infoLink}
+
+<div class="fldDef">
+
+Accn . accn\_number\
+VARCHAR2(60) not null
+
+</div>
+
+**Accession Number** is a text string assigned to identify the specific
+accession.  This is under revision at this writing.\
+[](){.infoLink}
+
+<div class="fldDef">
+
+Accn . accn\_status\
+VARCHAR2(20) not null
+
+</div>
 
 **Status** indicates whether or not the accession is cataloged or not. 
 “Complete” indicates that the disposition of specimens can be determined

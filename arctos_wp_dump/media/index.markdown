@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Media {#media .entry-title}
+=====
+
+<div class="entry-content">
+
+[](){#top}\
+[top](#top){#toplink}
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Components
+
+</div>
+
+[media\_uri](#media_uri)\
+[mime\_type](#mime_type)\
+[media\_type](#media_type)\
+[preview\_uri](#preview_uri)\
+[media\_relationship](#media_relationship)\
+[created\_by](#created_by)\
+[related\_data\_item](#related_data_item)\
+[media\_label](#media_label)\
+[label\_value](#label_value)\
+[assigned\_by](#assigned_by)
+
+<div class="anchortitle">
+
+Tools
+
+</div>
+
+[Media Creation Guidelines](#guide)\
+[Binary Creation Guidelines](#creating)\
+[Multi-page Documents](#mpd)\
+[bulkloading](#bulk)\
+[Discovery](#discovery)\
+[tacctools](#tacctools)\
+[checksum](#checksum)\
+[TAGs](#tag)\
+[Stability](#stability)\
+[Tips](#tips)
+
+</div>
+
+### General Description
+
+Media are any digital objects (such as photographs, sound recordings,
+and three-dimensional renderings of objects) that can be related to data
+items in Arctos. Thus, they are essentially anything that can be
+identified with a Uniform Resource Identifier (URI) and (optionally)
+related to a primary key in a major table. ([some
 examples](http://arctosdb.wordpress.com/2011/11/28/what-are-media/))
 This arrangement allows us to relate photographs of anatomical features
 to specimens, sound recordings to collecting events, text files to

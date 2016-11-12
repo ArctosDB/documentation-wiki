@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Locality {#locality .entry-title}
+========
+
+<div class="entry-content">
+
+[]()[top](#top){#toplink}
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Concepts
+
+</div>
+
+[Locality Nickname](#locality_name)\
+[specific\_locality](#specific_locality)\
+[elevation](#elevation)\
+[depth](#depth)\
+[trs\_data](#trs_data)\
+[nogeorefbecause](#nogeorefbecause)\
+[WKT Polygon](#wkt)
+
+<div class="anchortitle">
+
+Tools
+
+</div>
+
+[Edit Form](#editlocality)
+
+</div>
+
+A locality is a specific place associated with one or more [Collecting
+Events](collecting-event).  Ultimately, each locality should be a unique
+circle in geographic space.  The center is a point defined by [latitude
+and longitude](coordinates), and the radius is a linear estimate of
+error.  For electronic mapping, we convert such data to decimal degrees
+with estimates of error in meters.  Interfaces to the data are more
+flexible.
+
+A locality has these related elements:
+
+-   a description of [higher geography](higher-geography)
+-   one or more [georeferencing determinations](coordinates)
+
+Unfortunately, not all localities are even crudely georeferenced.  Thus
+much of the descriptive data is hierarchical (e.g., continent, country,
+state, county, specific locality).  Applying coordinates and errors
+(georeferencing) to such descriptions is error-prone and even
+subjective.  Therefore, multiple georeferencing determinations can be
+applied to a single locality even though only the “accepted”
+determination is routinely displayed.  Some caveats:
 
 -   A locality documents one *or more* collecting events.
 -   Separate but similar localities may differ only in the extent of

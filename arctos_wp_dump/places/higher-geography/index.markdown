@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Higher Geography {#higher-geography .entry-title}
+================
+
+<div class="entry-content">
+
+[]()[top](#top){#toplink}
+
+<div class="anchors">
+
+<div class="anchortitle">
+
+Concepts
+
+</div>
+
+[Continent/Ocean](#continent_ocean)\
+[Country](#country)\
+[State/Province](#state_province)\
+[Sea](#sea)\
+[County](#county)\
+[Map\_Name](#map_name)\
+[Geographic Feature](#feature)\
+[Island\_Group](#island_group)\
+[Island](#island)\
+[Source](#source)\
+[Higher Geography](#higher_geog)\
+[Field Summary](#fieldsummary_geog)\
+[Additional Data](#additionaldata)\
+[Remark](#remark)
+
+<div class="anchortitle">
+
+Usage
+
+</div>
+
+[Creation Guidelines](#guidelines)\
+[Assigning to Locality](#locality)\
+[Searching by](#search)\
+[terrestrial versus marine descriptors](#terrestrial_marine)\
+[Webservice Data](#service)
+
+</div>
+
+Higher Geography is a combination of terms delineating geopolitical
+units and it includes many imprecise regions. These terms are
+descriptively applied to [Localities](locality). In so far as counties
+occur within states, states within countries, and countries within
+continents, these data are approximately hierarchical, but only
+approximately. For example, a state park or national forest may be
+comprised of segments from two or more counties. Columns in the Higher
+Geography table are concatenated into the column “[higher
+geography](#higher_geog)” which is uniquely indexed. The concatenated
 string “higher geography” is the only column displayed and used in data
 entry. Unfortunately, you cannot assume that any locality or area is
 listed under only one higher geography. The [guidelines](#guidelines)

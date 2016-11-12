@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Projects {#projects .entry-title}
+========
+
+<div class="entry-content">
+
+[]()[top](#top){#toplink}
+
+<div class="anchors">
+
+[title](#title)\
+[description](#description)\
+[date](#date)\
+[agent](#agent)\
+[agent\_role](#agent_role)\
+[agent\_order](#agent_order)
+
+</div>
+
+[]()\
+Projects are primarily endeavors that contribute specimens, use
+specimens, or both, but also serve as a convenient place to arbitrarily
+group things like Media and Publications.  Dissertations and expeditions
+are two examples of potential projects.  Because information about
+incoming specimens is recorded as accessions, and because information
+about specimen usage is recorded as loans, relationships between
+projects can be queried.  Project descriptions, and their relationships
+to specimens and publications, are intended to:
+
+-   Track the scientific context of specimens and thereby add to their
+    utility and value.
+-   Demonstrate the scientific significance of collections by explicitly
+    detailing usage of individual specimens.
+-   Give credit where credit is due to contributors of specimens, or to
+    sponsors of collecting efforts.
+-   Allow contributors of specimens to track the usage of
+    their contributions.
+
+Projects can be created retroactively in order to reflect the historic
+usage or origin of specimens, or projects can be created in the process
+of requesting a loan or describing an incoming accession.  A project has
+a title, a description, a start date, an end date, and participating
+agents who have roles.  Projects may also produce
+[publications](publication.html) to which they can be related even in
+the absence of specimen [citations](publication.html#citation).
+
+[](){.infoLink}\
+**Title:**  Like projects themselves, project titles may be composed
+retrospectively or they may be originated by the participants.  Titles
+should avoid jargon and be understandable to non-specialists, such as
+educated taxpayers. Titles should be self-explanatory, stand alone, and
+contain enough information for a user to decide whether to investigate
+further or not.  In format, project titles are like journal article and
+book chapter [titles](publication.html#title).  (Capitalize only the
 first letter of the title and proper names.  Punctuate the end of the
 title with a period unless it is otherwise punctuated.)
 

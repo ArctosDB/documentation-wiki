@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Specimen Parts {#specimen-parts .entry-title}
+==============
+
+<div class="entry-content">
+
+<div class="anchors">
+
+[Part Names](#part_name)\
+[Modifier](#modifier)\
+[Preservation Method](#pres_method)\
+[Disposition](#disposition)\
+[Condition](#condition)\
+[Tissues?](#is_tissue)\
+[Lot Count](#lot)\
+[Sampled From](#sampled_from)
+
+</div>
+
+Parts are physical entities, in contrast to[Cataloged
+Items](/documentation/catalog/) (an abstract entity) or binary objects
+(such as Images).  One or many parts may comprise a Cataloged Item, and
+parts may be defined as the minimal units for which [storage
+location](/documentation/container/), usage, and condition are
+tracked. (*“Parts are things to which you can stick barcodes.”*) In many
+collections, parts are nearly always “whole organisms” but in others,
+such as vertebrate paleontology, the variety of parts is huge.
+
+Embryos and parasites may be treated parts of the host organism. 
+Ideally, embryos should be treated as separate cataloged items because
+they may have, or they may acquire, attributes distinct from those of
+their mothers.  Nevertheless it is often practical to consider them as
+parts of the mother until such time as they do acquire separate
+attributes.  Similarly, parasites have been recorded as parts of their
+hosts until such time as they might be worked into a separate parasite
+collection.
+
+<div class="fldDef">
+
+Specimen\_Part.Part\_Name\
+VARCHAR(70) not null\
+[ctspecimen\_part\_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
+
+</div>
+
+[](#top){.infoLink}\
+**Part Names:** What we choose to name as a part depends on what we
+define as a part,  and while this is often obvious (*e.g.,* “whole
+organism”), organisms become separated into parts in ways both
+standardized and not.  Thus, it is difficult to standardize vocabulary
+for every fragment worthy of preservation.
+
+Vocabulary is controlled by a[code
+table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name). 
 Part names should refer to specific anatomical parts or recognized
 groups of parts (*e.g.*, “postcranial skeleton”).  With rare exception,
 parts are the singular form of a noun.  In some cases, where the parts

@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Bulkloader {#bulkloader .entry-title}
+==========
+
+<div class="entry-content">
+
+[top](#top){#toplink}[]()
+
+<div class="anchors">
+
+[Agents](#agent)\
+[Taxon Names](#taxa)\
+[Loading Data](#loading)\
+[Field Descriptions](#fields)\
+[Key warning](#pkey)
+
+</div>
+
+New specimen records may be created from a single flat (non-relational)
+file, a text file in which all (or most) data for a single cataloged
+item are in a single row. This file can be created with any convenient
+client-side application. The file is then loaded into a similarly
+structured table on the server, and a server-side application (the
+bulkloader) parses the columns from each row into the relational
+structure of the database. The process provides an independent layer of
+data checking before new information is incorporated into the database
+proper. Original data that are received in electronic format may require
+minimal manipulation; you can sometimes merely add the necessary columns
+to build a file in the bulk-loading format.
+
+**Bulkloader templates should be created from the Bulkloader Builder in
+Arctos. All other means, including this documentation, may produce
+non-current data which will be rejected.**
+
+There is no standard method for moving data into table Bulkloader. You
+may import data from any file format, type the data into the table,
+write your own data entry screen, or use any other method you choose. We
+appreciate documentation, even for specialized datasets – [contact
+us](/governance/contacts/) if you wish to contribute.
+
+You may mix accessions, collections, or anything else in a single load.
+
+The specimen Bulkloader will not alone handle every eventuality that may
+ever occur while entering data. (The suite of tools available should.)
+Use [flags](#flags) to mark incomplete records for further editing, tie
+to other bulkloaders with UUIDs, or talk to your friendly local Arctos
+development team BEFORE you make a mess.
+
+Error messages should include more than enough information to allow you
+to locate and correct the problem. If that isn’t the case, [contact
+us](/governance/contacts/) with the error message and a description of
+the action that caused the error message.
+
+Arctos is case-sensitive. JOHN DOE is not the same value as John Doe.
 Leading and trailing spaces and other non-printing characters matter.
 
 The web-based applications may not work well for very large loads.

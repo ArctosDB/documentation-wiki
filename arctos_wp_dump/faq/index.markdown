@@ -1,3 +1,133 @@
+<div id="page" class="hfeed site">
+
+<div class="header-main">
+
+[Arctos Handbook](/) {#arctos-handbook .site-title}
+====================
+
+<div class="search-toggle">
+
+[Search](#search-container){.screen-reader-text}
+
+</div>
+
+Primary Menu
+[Skip to content](#content){.screen-reader-text .skip-link}
+<div id="primary-menu" class="nav-menu">
+
+-   [Agents](/agent/)
+    -   [Address](/agent/address/)
+-   [Attributes](/attributes/)
+-   [Authorities](/authorities/)
+-   [Bulkloader](/bulkloader/)
+-   [Catalog](/catalog/)
+-   [Container](/container/)
+-   [Dates](/dates/)
+-   [Documentation](/documentation/)
+    -   [Projects](/documentation/projects/)
+    -   [Publications](/documentation/publications/)
+        -   [Specimen
+            Citations](/documentation/publications/specimen-citations/)
+    -   [Relationships](/documentation/relationships/)
+    -   [Sharing Data and Resources](/documentation/sharing-resources/)
+    -   [Specimen Parts](/documentation/parts/)
+-   [Encumbrance](/encumbrance/)
+-   [Frequently Asked Questions](/faq/)
+-   [GenBank](/how-to-genbank/)
+-   [GeoLocate](/geolocate/)
+-   [Home](/)
+-   [Identifications](/identification/)
+    -   [Taxonomy](/identification/taxonomy/)
+-   [Media](/media/)
+-   [Other Identifying Numbers (Other IDs)
+    and Relationships.](/other-id/)
+-   [Places](/places/)
+    -   [Collecting Event](/places/collecting-event/)
+    -   [Coordinates](/places/coordinates/)
+    -   [Higher Geography](/places/higher-geography/)
+    -   [Locality](/places/locality/)
+        -   [Geology](/places/locality/geology/)
+    -   [Specimen Event](/places/specimen-event/)
+-   [Transactions](/transaction/)
+    -   [Accessions](/transaction/accession/)
+    -   [Loans](/transaction/loans/)
+    -   [Permits](/transaction/permits/)
+
+</div>
+
+</div>
+
+<div id="search-container" class="search-box-wrapper hide">
+
+<div class="search-box">
+
+<span class="screen-reader-text">Search for:</span>
+
+</div>
+
+</div>
+
+<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+<div id="primary" class="content-area">
+
+<div id="content" class="site-content" role="main">
+
+Frequently Asked Questions {#frequently-asked-questions .entry-title}
+==========================
+
+<div class="entry-content">
+
+[]()\
+**Q: How is taxonomy managed in a shared system?**\
+A: Identifications (optionally) reference taxonomy, but taxon names are
+not directly applied to specimens as Identifications. Taxonomy,
+therefore, strives to be “pure” names, leaving the complexities of
+applying names to specimens in Identifications. This arrangement:
+
+-   Removes ambiguity in determining what is “proper” taxonomy
+-   Allows more formality than other systems
+-   Allows us to use external sources of taxonomy
+
+Any namestring (“taxon name” or “scientific name”) may have any number
+of classifications (“higher taxonomy”), and these may be drawn from
+Globalnames.org. Arctos taxonomy is therefore a synthesis of all
+“taxonomy projects” that contribute to GlobalNames, plus local data.
+Curating taxonomy in Arctos is theoretically unnecessary, although as of
+this writing all collections continue to do so due to the lack of
+responsive and useful editing capabilities in the various remote
+sources.
+
+**Q: I hear Arctos is really complicated. What’s up with that?**\
+A: Arctos is complicated, as are the data it strives to accurately
+represent. There is a steep learning curve to understanding *all*
+functionality. Basic functionality – such as that available from other
+collections management systems – is pretty simple, and we think we do a
+pretty good job of making it intuitive. Perhaps more noticeable is the
+level of precision required to use Arctos. Rather than (mis!)typing a
+string, you may have to pick a value from a list, or you may have to
+supply metadata qualifying your assertions. We strongly believe that
+this is a necessary part of managing the specimens and data with which
+we have been entrusted, and thus worth the effort to learn this system.
+
+**Q: Are these live data?\
+**A: Almost. Live data are stored in a [highly normalized relational
+structure](http://code.google.com/p/arctos/downloads/list) – fabulous
+for organization, not so hot for query. Some data are then optimized for
+query performance by way of Database Triggers. Presentation data are
+generally less than one minute stale.
+
+**Q: Is there a limit on the number of records I can return in a
+search?**\
+A: We impose no strict limits. Queries almost always take less than 5
+seconds. Getting the data to your browser often then becomes a
+bottleneck. If you have a reasonably fast browser and connection, it
+should be possible to return at least 100,000 basic records with a
+single query. We have no idea why you’d want to. [Let us
+know](http://arctos.database.museum/contact.cfm) if you find something
+excessively slow.
 
 **Q: What’s a VPD?**\
 A: A Virtual Private Database allows us to share resources, like
