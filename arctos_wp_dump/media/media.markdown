@@ -1,10 +1,5 @@
 # Media
 
-<div class="entry-content">
-
-[](){#top}\
-[top](#top){#toplink}
-
 <div class="anchors">
 
 <div class="anchortitle">

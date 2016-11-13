@@ -1,7 +1,5 @@
 # Specimen Citations
 
-<div class="entry-content">
-
 <div class="anchors">
 
 <div class="anchortitle">

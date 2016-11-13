@@ -1,9 +1,5 @@
 # Accessions 
 
-<div class="entry-content">
-
-[]()
-
 <div class="anchors">
 
 [Accession Number](#accn_number)\

@@ -1,8 +1,5 @@
 # Frequently Asked Questions
 
-<div class="entry-content">
-
-[]()\
 **Q: How is taxonomy managed in a shared system?**\
 A: Identifications (optionally) reference taxonomy, but taxon names are
 not directly applied to specimens as Identifications. Taxonomy,

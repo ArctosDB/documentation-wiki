@@ -1,9 +1,5 @@
 # Projects 
 
-<div class="entry-content">
-
-[]()[top](#top){#toplink}
-
 <div class="anchors">
 
 [title](#title)\

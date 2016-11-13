@@ -1,10 +1,5 @@
 # Container 
 
-<div class="entry-content">
-
-[]()\
-[top](#top){#toplink}
-
 <div class="anchors">
 
 <div class="anchortitle">

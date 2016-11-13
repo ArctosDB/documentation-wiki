@@ -1,9 +1,5 @@
 # Specimen Event 
 
-<div class="entry-content">
-
-[]()[top](#top){#toplink}
-
 <div class="anchors">
 
 [Event Determiner](#determiner)\

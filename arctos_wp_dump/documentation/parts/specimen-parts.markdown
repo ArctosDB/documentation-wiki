@@ -1,7 +1,5 @@
 # Specimen Parts
 
-<div class="entry-content">
-
 <div class="anchors">
 
 [Part Names](#part_name)\

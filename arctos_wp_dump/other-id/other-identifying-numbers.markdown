@@ -1,10 +1,5 @@
 # Other Identifying Numbers (Other IDs) and Relationships
 
-<div class="entry-content">
-
-[top](#top){#toplink}\
-[]()
-
 <div class="anchors">
 
 <div class="anchortitle">

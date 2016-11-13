@@ -1,8 +1,5 @@
 # Documentation 
 
-<div class="entry-content">
-
-[]()\
 Documentation of how to use and operate Arctos is constantly evolving.  
 There are four levels of documentation:
 

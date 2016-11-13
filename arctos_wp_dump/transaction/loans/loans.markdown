@@ -1,9 +1,5 @@
 # Loans 
 
-<div class="entry-content">
-
-[]()[top](#top){#toplink}
-
 <div class="anchors">
 
 [Loan Number](#loan_number)\

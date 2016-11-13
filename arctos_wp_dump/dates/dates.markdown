@@ -1,10 +1,5 @@
 # Dates 
 
-<div class="entry-content">
-
-[top](#top){#toplink}\
-[]()
-
 <div class="anchors">
 
 [Excel hates me](#excel)

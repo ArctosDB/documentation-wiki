@@ -1,8 +1,5 @@
 # Permits 
 
-<div class="entry-content">
-
-[]()\
 Permits are documentation authorizing transactions such as\
 [Accessions](accession) and [Loans](loan).\
 In general, permits are issued by governmental agencies, but letters

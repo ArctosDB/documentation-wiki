@@ -1,8 +1,4 @@
-# Locality 
-
-<div class="entry-content">
-
-[]()[top](#top){#toplink}
+# Locality
 
 <div class="anchors">
 

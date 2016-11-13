@@ -1,7 +1,5 @@
 # GenBank 
 
-<div class="entry-content">
-
 Curators of Arctos collections should encourage researchers using their
 specimens for DNA sequences to submit GenBank accessions that cite the
 specimens by catalog number. At a meeting (report attached) in early

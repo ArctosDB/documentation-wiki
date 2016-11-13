@@ -1,8 +1,4 @@
-# Bulkloader 
-
-<div class="entry-content">
-
-[top](#top){#toplink}[]()
+# Bulkloader
 
 <div class="anchors">
 

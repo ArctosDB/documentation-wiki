@@ -1,10 +1,5 @@
 # Authorities 
 
-<div class="entry-content">
-
-[top](#top){#toplink}\
-[]()
-
 <div class="anchors">
 
 [Code Tables](#codetable)\

@@ -1,9 +1,5 @@
 # Transactions 
 
-<div class="entry-content">
-
-[]()
-
 <div class="anchors">
 
 [Nature of Material](#nature_of_material)\

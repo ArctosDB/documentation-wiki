@@ -1,7 +1,5 @@
 # GeoLocate 
 
-<div class="entry-content">
-
 Data Entry now and Edit Locality now offer an inline georeferencing
 tool, courtey of the
 [GEOLocate](http://www.museum.tulane.edu/geolocate/) project. While very

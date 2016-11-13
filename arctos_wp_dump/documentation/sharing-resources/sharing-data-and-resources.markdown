@@ -1,7 +1,5 @@
 # Sharing Data and Resources 
 
-<div class="entry-content">
-
 Sharing Data
 ------------
 

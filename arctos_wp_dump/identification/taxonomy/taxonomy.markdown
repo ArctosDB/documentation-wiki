@@ -1,9 +1,5 @@
 # Taxonomy 
 
-<div class="entry-content">
-
-[]()[top](#top){#toplink}
-
 <div class="anchors">
 
 [Overview](#overview)\
