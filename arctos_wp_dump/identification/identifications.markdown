@@ -32,7 +32,6 @@ retaining prior determination(s) as “unaccepted.” This means that there
 can be only one accepted determination, but not necessarily that prior
 identifications are wrong. In fact, complimentary IDs by experts or by
 alternative methods enhance the value of the specimen.\
-[]()
 
 **Scientific Name:** There is a distinction between Scientific Name here
 in determinations, as opposed to [Scientific Name as it is used in the
@@ -46,8 +45,6 @@ third related term called [Display Name](taxonomy/#display_name), which
 is merely a specific formatting of the data in Taxonomy.)  The
 explanation of Determination Formula (immediately below) is
 illustrative.
-
-[]()
 
 <div class="fldDef">
 
@@ -129,7 +126,6 @@ entered. The order in which such co-determiners are displayed is set in
 the form by the order in which they were added to the determination. To
 change the displayed order, create a new copy of the determination with
 the determiners in the desired order, then delete the old record.\
-[]()
 
 <div class="fldDef">
 
@@ -162,8 +158,6 @@ additional guidance.
 
 </div>
 
-[]()
-
 <div class="fldDef">
 
 Identification.Publication\_ID\
@@ -179,7 +173,6 @@ This may be used both in the taxonomic sense (“this specimen fits in
 with Some Author’s concept of *Aus bus*“) and as supporting
 documentation (“We’ve determined this to be *Aus bus* using the methods
 provided by Some Author”).\
-[]()
 
 <div class="fldDef">
 

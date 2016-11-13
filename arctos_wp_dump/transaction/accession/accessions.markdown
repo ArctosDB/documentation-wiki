@@ -107,16 +107,13 @@ VARCHAR2(4000) null
 **Remarks** is a place for expanding a description of the conditions of
 acceptance, or for instructions in processing the material.  For
 example, “Take 50 gram subsamples for fatty-acid analysis.”\
-[]()
 
 Estimated Count is an integer expressing approximately how many
 specimens can be expected as part of an accession.\
-[]()
 
 Accession Containers are Containers which hold unprocessed material,
 e.g., bags of frozen mice can be made Containers and scanned into
 freezers.\
-[]()
 
 Email is sent on every annual anniversary of Transaction Data for
 accessions which are not “closed” but contain no specimens.

@@ -79,7 +79,6 @@ container. In the example above, the approximately 1,300 samples in a
 freezer rack can be tracked from one freezer to another by the scanning
 barcode on the freezer rack and its new parent ID (the barcode on the
 freezer).\
-[]()
 
 <div class="fldDef">
 
@@ -531,8 +530,6 @@ Q: What encoding should I use?\
 A: Whatever fits on your desired labels and can be reliably read by a
 convenient machine.
 
-[]()
-
 Usage
 -----
 
@@ -605,8 +602,6 @@ description of the general qualities of the finished product.
     procedures](#field).)
 -   All other container-related tasks involve only scanning barcodes.
 
-[]()
-
 Creating position-holding freezer boxes
 ---------------------------------------
 
@@ -659,8 +654,6 @@ Creating position-holding freezer boxes
 </div>
 
 </div>
-
-[]()
 
 Guidelines for barcode-containing labels:
 -----------------------------------------

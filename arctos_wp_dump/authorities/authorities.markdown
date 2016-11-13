@@ -1,4 +1,4 @@
-# Authorities 
+# Authorities
 
 <div class="anchors">
 
@@ -11,8 +11,6 @@
 
 Code Tables
 -----------
-
-[]()
 
 All [Code
 Tables](http://arctos.database.museum/info/ctDocumentation.cfm) and code

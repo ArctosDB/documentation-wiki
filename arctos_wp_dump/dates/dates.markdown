@@ -109,8 +109,6 @@ record this information, one could simply enter:
 
 -   Birth\_Date: 1927
 
-[]()
-
 **Excel hates me. Help!**
 
 [![](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-26-am.png "Screen Shot 2012-03-07 at 11.35.26 AM"){.size-full

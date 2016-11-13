@@ -1,4 +1,4 @@
-# Higher Geography 
+# Higher Geography
 
 <div class="anchors">
 
@@ -340,8 +340,6 @@ of the name. Some valid island names:
 -   Spitzbergen
 -   Dangerous Reef
 
-[]()
-
 Source
 ------
 
@@ -398,15 +396,12 @@ Usage Example:
     -   Камча́тская о́бласть (Native character encoding)
     -   Kamchatskaya oblast (Common variant or transliteration)
 
-[]()
-
 Remarks
 -------
 
 A remarks field is also provided. Information in this field is intended
 to provide guidance and clarification in future geography creation or
 merge events, and is not searchable nor intended for public display.\
-[]()
 
 Guidelines for creating and editing geographic terms in Arctos.
 ---------------------------------------------------------------
@@ -529,8 +524,6 @@ else (and  leaving verbose notes in remarks when necessary).
 -   See
     [Iran](http://arctos.database.museum/geography.cfm?geog_auth_rec_id=10000319)
     for an “complete” example.
-
-[]()
 
 Guidelines for assigning geography to specimens.
 ------------------------------------------------

@@ -296,8 +296,6 @@ determinations.\
 text](https://en.wikipedia.org/wiki/Well-known_text) shape associated
 with locality data.
 
-[]()
-
 Edit Locality Form
 ------------------
 

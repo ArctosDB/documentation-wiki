@@ -89,8 +89,6 @@ expiration\_date is reached.
 
  
 
-[]()
-
 **Un-Encumbering Specimens**
 
 1.  Find the specimens from which you wish to remove an
@@ -105,8 +103,6 @@ expiration\_date is reached.
 
 When the screen refreshes, the specimens are no longer in the selected
 encumbrance.
-
-[]()
 
 **Encumbering Specimens**
 

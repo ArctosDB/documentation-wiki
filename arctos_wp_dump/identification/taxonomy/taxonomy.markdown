@@ -16,8 +16,6 @@
 
 </div>
 
-[]()
-
 ### Overview
 
 “Taxonomy” for the purposes of this document and Arctos in general is
@@ -45,7 +43,6 @@ regarding a taxon\_name, optionally organized in various ways. Informal
 terms, such as “Sorex sp.” or “Sorex cinereus or Sorex ugyunak” are
 Identifications, not taxonomy. (Identifications are generally drawn from
 and linked to taxonomy in various ways.)\
-[]()
 
 Taxon Name
 ----------
@@ -66,8 +63,6 @@ genus-species-infraspecific rank-infraspecific epithet concatenations,
 or nonbiological taxonomy terms (“Granite”). The sole distinguishing
 feature of this field is that a Curator, usually a taxonomist, considers
 the values here formal taxonomy.
-
-[]()
 
 Taxon Term
 ----------
@@ -96,7 +91,6 @@ Terms which are not organized hierarchically are intended for
 clarification, and are linked to but not part of classifications. These
 consist of things like HTML-formatted “display name” and author strings.
 A rank is required.\
-[]()
 
 Taxonomy as a Hierarchy
 -----------------------
@@ -278,8 +272,6 @@ modern, consensus ideas of the term searched. This field is appropriate
 for exploratory searching: “what genera did someone at some point
 consider to be members of taxon BLA?”
 
-[]()
-
 FAQ
 ---
 
@@ -308,8 +300,6 @@ varies by discipline, tradition, and time) literature creating or
 supporting them. Collections choose a classification, which asserts
 “classification according to this collection.”
 
-[]()
-
 Create a Name
 -------------
 
@@ -322,8 +312,6 @@ Search Arctos before creating names. Do not try to create duplicate
 namestrings, even in the case of homonyms, hemihomonyms, committee
 rulings, or for any other reason.
 
-[]()
-
 Create a Classification
 -----------------------
 
@@ -334,16 +322,12 @@ local source.
 There is currently no classification bulkloader. One can be created if
 necessary.
 
-[]()
-
 Source “Arctos”
 ---------------
 
 The pre-migration Arctos data have been pushed to source “Arctos.” These
 data are the default classification for all collections, and generally
 represent a ranked singular taxonomic viewpoint.
-
-[]()
 
 Taxonomy search examples
 ------------------------
@@ -372,8 +356,6 @@ Microtus according to Arctos\
 
 Genus microtus according to Arctos\
 <http://arctos.database.museum/taxonomy.cfm?taxon_name=&taxon_term=%3Dmicrotus&term_type=genus&source=Arctos>
-
-[]()
 
 Relationship of taxonomy to specimens
 -------------------------------------
@@ -434,8 +416,6 @@ necessarily add up to the “family-according-to-someone” search total; a
 collection may use a classification that does not include a term ranked
 “family,” and doing so will return no specimens with queries which
 include family-according-to-collection.
-
-[]()
 
 Editing
 -------

@@ -66,8 +66,6 @@ media are stored in three tables:
 Fields in table Media
 ---------------------
 
-[]()
-
 <div class="fldDef">
 
 Media . MEDIA\_URI VARCHAR2(255) not null
@@ -377,8 +375,6 @@ developed specialized procedures to fit their workflow, for example.
 3.  Populate the Media Bulkloader using the URI you’ve created in
     loading media, upload the CSV file, and follow the directions until
     you get a “spiffy” message.
-
-[]()
 
 Discovery
 ---------

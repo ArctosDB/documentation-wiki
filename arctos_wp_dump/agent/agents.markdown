@@ -1,4 +1,4 @@
-# Agents 
+# Agents
 
 <div class="anchors">
 
@@ -290,8 +290,6 @@ Attributes.
     Type “URL”) is very likely to be useful. Avoid using remarks for
     address information.
 
-[]()
-
 Relationships
 -------------
 
@@ -303,8 +301,6 @@ pull-downs are self-evident.  If you know of a relationship between
 agents, please record it.  The relationship “not the same as” can be
 useful in understanding that suspiciously similar names are not
 duplicates, but do in fact refer to separate agents.
-
-[]()
 
 Different Agent, Same Name
 --------------------------

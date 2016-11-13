@@ -293,8 +293,6 @@ Additionally, if current Hieracium specimens are later determined to be
 some other species, those data will remain as part of the loan, perhaps
 explaining yet-undetected anomalies in the publication.
 
-[]()
-
 **Deleting Items:**
 
 In general, an item which has gone out on loan should never be removed

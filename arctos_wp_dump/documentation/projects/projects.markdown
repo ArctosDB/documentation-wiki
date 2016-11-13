@@ -1,4 +1,4 @@
-# Projects 
+# Projects
 
 <div class="anchors">
 
@@ -11,7 +11,7 @@
 
 </div>
 
-[]()\
+
 Projects are primarily endeavors that contribute specimens, use
 specimens, or both, but also serve as a convenient place to arbitrarily
 group things like Media and Publications.  Dissertations and expeditions
