@@ -75,20 +75,3 @@ Agents
 []()\
 Agents are included here only for completeness. See [Agent
 Documentation](/documentation/agent/)[]() for more information.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

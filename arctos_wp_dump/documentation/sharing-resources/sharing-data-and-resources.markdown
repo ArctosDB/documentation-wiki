@@ -73,20 +73,3 @@ Higher Geography is shared globally. Localities are optionally shared,
 and are locked when shared; only users with access to all collections
 using a shared locality may edit it. Events are shared similar to
 localities.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

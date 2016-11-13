@@ -67,20 +67,3 @@ Take-home message? Use coordinate query if at all possible, and expect
 the unexpected if you must use textual query.
 
  
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

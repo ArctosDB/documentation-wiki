@@ -40,20 +40,3 @@ Downloads and Randomness
 [Arctos Air (desktop
 app)](https://drive.google.com/file/d/0B98yCIdkx2YpYlNzNGd5RXVKdkU/edit?usp=sharing)\
 [ER diagram](http://code.google.com/p/arctos/downloads/list)
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

@@ -500,20 +500,3 @@ To do this,
 
 Other ID documentation has moved to[it’s own
 page](http://arctosdb.org/documentation/other-id/#search_other_id).
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

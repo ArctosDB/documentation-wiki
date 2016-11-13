@@ -1,4 +1,4 @@
-# Coordinates 
+# Coordinates
 
 <div class="entry-content">
 
@@ -419,20 +419,3 @@ AM](/wp-content/uploads/sites/21/2013/05/screen-shot-2013-05-20-at-10-32-33-am.p
 .size-full .wp-image-1274 width="640" height="390"
 sizes="(max-width: 640px) 100vw, 640px"
 srcset="/wp-content/uploads/sites/21/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png 720w, /wp-content/uploads/sites/21/2013/05/screen-shot-2013-05-20-at-10-32-33-am-300x183.png 300w, /wp-content/uploads/sites/21/2013/05/screen-shot-2013-05-20-at-10-32-33-am-250x152.png 250w, /wp-content/uploads/sites/21/2013/05/screen-shot-2013-05-20-at-10-32-33-am-550x335.png 550w, /wp-content/uploads/sites/21/2013/05/screen-shot-2013-05-20-at-10-32-33-am-295x180.png 295w, /wp-content/uploads/sites/21/2013/05/screen-shot-2013-05-20-at-10-32-33-am-492x300.png 492w"}](/wp-content/uploads/sites/21/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png)
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

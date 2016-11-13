@@ -319,20 +319,3 @@ All coordinates are stored as DD.ddd format. (Verbatim Coordinates are
 an attribute of Collecting Events.) The form will make conversions.
 
 The webservice data pane has documentation inline. Read it.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

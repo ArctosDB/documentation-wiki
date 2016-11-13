@@ -46,20 +46,3 @@ You may edit coordinates by dragging the green dot. You may edit
 uncertainty by clicking the green dot, following the link, and dragging
 the arrow that appears. You may zoom (on Mac) by holding SHIFT and
 dragging a rectangle with your mouse.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

@@ -1,4 +1,4 @@
-# Publications 
+# Publications
 
 <div class="entry-content">
 
@@ -374,20 +374,3 @@ cases, adding a DOI is simply a matter of clicking the button, letting
 the service work, and saving. Please leave a remark as suggested (the
 semi-standardized format facilitates search) if you are unable to locate
 a DOI for a publication.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

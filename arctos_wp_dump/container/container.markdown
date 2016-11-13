@@ -705,20 +705,3 @@ Guidelines for barcode-containing labels:
 9.  Enter the series of barcodes into Arctos and update the Barcode
     Series Spreadsheet (Arctos: ObjectTracking tab) before placing an
     order or printing your barcodes.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

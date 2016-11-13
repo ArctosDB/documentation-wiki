@@ -196,20 +196,3 @@ will search for specimens which meet ALL of the listed requirements:
 Specimens from August 31 will not be included (31 is not between 1 and
 30), and specimens from January will not be included (1 is not between 6
 and 7).
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

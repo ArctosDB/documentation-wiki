@@ -1,4 +1,4 @@
-# Media 
+# Media
 
 <div class="entry-content">
 
@@ -531,20 +531,3 @@ format](http://en.wikipedia.org/wiki/ISO_8601) (e.g. 2014-05-01 for 1
 May 2014) and will give an error upon saving if not rendered in that
 format. Try updating the date to the correct format to avoid error
 messages.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

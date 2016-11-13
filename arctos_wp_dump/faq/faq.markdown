@@ -116,20 +116,3 @@ security package controls access to forms, while Oracle partitions data
 by user, roles, and context, and provides auditing. Incremental backup
 logs are maintained on mirrored disks, and daily backups are maintained
 in 3 geographically separate secure locations.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

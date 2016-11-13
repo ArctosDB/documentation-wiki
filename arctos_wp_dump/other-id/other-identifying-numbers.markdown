@@ -333,20 +333,3 @@ Examples:
   v-00001       v-00001       NULL     NULL      v-00001     Above rules would lead to dropped leading zeroes in Number
 
 See also [Searching Arctos](catalog/#srch2)
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

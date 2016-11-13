@@ -1,4 +1,4 @@
-# Specimen Citations 
+# Specimen Citations
 
 <div class="entry-content">
 
@@ -192,20 +192,3 @@ the Arctos search form (SpecimenSearch.cfm). Type specimens can also be
 sought using Nature of ID = type specimen in the Identification and
 Taxonomy segment of the same form. Because this kind of Nature of ID
 does not require a citation, its use has been inconsistent.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

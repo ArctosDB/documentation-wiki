@@ -152,20 +152,3 @@ There are many ways to encumber specimens; here one is described.
     srcset="/wp-content/uploads/sites/21/2015/11/screen-shot-2015-11-18-at-11-59-15-am.png 1096w, /wp-content/uploads/sites/21/2015/11/screen-shot-2015-11-18-at-11-59-15-am-300x44.png 300w, /wp-content/uploads/sites/21/2015/11/screen-shot-2015-11-18-at-11-59-15-am-768x112.png 768w, /wp-content/uploads/sites/21/2015/11/screen-shot-2015-11-18-at-11-59-15-am-1024x149.png 1024w, /wp-content/uploads/sites/21/2015/11/screen-shot-2015-11-18-at-11-59-15-am-250x36.png 250w, /wp-content/uploads/sites/21/2015/11/screen-shot-2015-11-18-at-11-59-15-am-550x80.png 550w, /wp-content/uploads/sites/21/2015/11/screen-shot-2015-11-18-at-11-59-15-am-800x117.png 800w"}to
     perform additional actions, such as deleting the
     encumbered specimens.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

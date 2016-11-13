@@ -1,4 +1,4 @@
-# Specimen Parts 
+# Specimen Parts
 
 <div class="entry-content">
 
@@ -235,20 +235,3 @@ intended to be a subsample supplied to an investigator for destructive
 analysis. therefore it often applies to parts that are no longer in the
 collection, but if the subsamples or extracts thereof are returned,
 these can be tracked.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

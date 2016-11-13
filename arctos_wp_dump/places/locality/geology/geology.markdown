@@ -31,20 +31,3 @@ While individual geology attributes are asserted, the [hierachical code
 table](http://arctos-test.tacc.utexas.edu/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE)
 structure allows locating specimens attributed to geology which is more
 specific than the search term.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

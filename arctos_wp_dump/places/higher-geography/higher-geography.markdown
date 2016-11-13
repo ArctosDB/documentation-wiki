@@ -611,20 +611,3 @@ erroneous results. Service-derived data are viewable under Edit
 Locality, and searchable through “Any Geographic Element.” Use more
 precise terms (Continent, Feature, etc.) to avoid the inclusion of these
 secondary data. See also [Additional Data](#additionaldata).
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

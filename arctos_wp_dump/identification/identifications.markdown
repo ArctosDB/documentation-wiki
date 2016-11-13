@@ -233,20 +233,3 @@ searches are case-insensitive. Examples are fictitious and incomplete.
     Apiales (as an Order).
 -   CommonName CONTAINS: Substring match of any common name of the
     current-identification taxon.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

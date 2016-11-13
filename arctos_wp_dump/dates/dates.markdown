@@ -142,20 +142,3 @@ custom date format
 sizes="(max-width: 100px) 100vw, 100px"
 srcset="/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png 100w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-38-am-48x48.png 48w"}](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png)
 happy!
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

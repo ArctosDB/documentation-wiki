@@ -535,20 +535,3 @@ cinereus**, never only **cinereus**.
 <http://arctos.database.museum/name/Carex%20brunnescens%20subsp.%20alaskana#Arctos>
 is an example of a botanical name which includes a subspecific epithet
 and two authors.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>

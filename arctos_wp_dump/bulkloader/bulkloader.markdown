@@ -450,20 +450,3 @@ database identifiers that exist only for convenience, and may be
 updated, transferred to another data object, or removed for seemingly
 arbitrary reasons and without warning. They’ll probably work over short
 time-periods, but we offer no guarantees.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="secondary">
-
-get yer docs here {#get-yer-docs-here .site-description}
------------------
-
-</div>
-
-</div>
