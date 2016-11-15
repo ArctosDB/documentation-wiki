@@ -193,8 +193,13 @@ $ ->
   #$(".fixedsticky").fixedsticky()
   handleSearch(true)
   lightboxImages()
+  i = 0
   for table in $("table")
     $(table).addClass "table table-condensed table-hover"
+  if i is 0
+    console.log "No tables found"
+  else
+    console.debug "Added classes to #{i} tables"
   if $("nav#toc").exists()
     do checkToc = ->
       try
