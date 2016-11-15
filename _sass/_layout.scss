@@ -593,7 +593,7 @@ table th[class*="col-"] {
 }
 
 table {
-  .table-hover;
-  .table;
-  .table-condensed;
+  @extend .table-hover;
+  @extend .table;
+  @extend .table-condensed;
 }
