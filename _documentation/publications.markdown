@@ -239,9 +239,8 @@ publication” form in Arctos. Paste the DOI
 “http://dx.doi.org/” are common) into the appropriate box, and click “\[
 crossref \].”
 
-[![](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-11-57-58-am.png "Screen Shot 2011-11-28 at 11.57.58 AM"){.alignnone
-.wp-image-811 width="640"
-height="356"}](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-11-57-58-am.png)
+<img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-11-57-58-am.png"  width="640"
+height="356" />
 
 The DOI lookup service was able to obtain metadata, and everything you
 see above is the result of that one click. If you click “create
@@ -268,9 +267,8 @@ that agent happens to have an exact-match agent string available. 
 Arctos finds and suggests only this agent, and again one click is all
 that’s necessary to add him to the publication.
 
-[![](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-09-13-pm.png "Screen Shot 2011-11-28 at 12.09.13 PM"){.alignnone
-.size-full .wp-image-812 width="268"
-height="312"}](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-09-13-pm.png)
+<img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-09-13-pm.png"  width="268"
+height="312" />
 
 The third author, Patrick J. Orr, does not have an exact name match in
 Arctos, and does not have a last name match in Arctos, so the system has
@@ -285,54 +283,46 @@ sometimes they’re not.  Make no assumptions from them.
 
 If we select the two suggested agents and create the publication….
 
-[![](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-21-10-pm.png "Screen Shot 2011-11-28 at 12.21.10 PM"){.alignnone
-.size-full .wp-image-819 width="640"
-height="356"}](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-21-10-pm.png)
+<img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-21-10-pm.png"  width="640"
+height="356" />
 
-[![](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-12-38-pm.png "Screen Shot 2011-11-28 at 12.12.38 PM"){.alignnone
-.size-full .wp-image-813 width="640"
-height="223"}](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-12-38-pm.png)
+<img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-12-38-pm.png"  width="640"
+height="223" />
 
 we can then locate it by any name of either of two the authors who we
 added
 
-[![](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-14-04-pm.png "Screen Shot 2011-11-28 at 12.14.04 PM"){.alignnone
-.size-full .wp-image-814 width="265"
-height="242"}](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-14-04-pm.png)
+<img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-14-04-pm.png"  width="265"
+height="242" />
 
 or anything from the “full citation,”
 
-[![](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-15-16-pm.png "Screen Shot 2011-11-28 at 12.15.16 PM"){.alignnone
-.size-full .wp-image-815 width="230"
-height="246"}](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-15-16-pm.png)
+<img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-15-16-pm.png"  width="230"
+height="246" />
 
 including the authors that we did not explicitly include
 
-[![](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-16-30-pm.png "Screen Shot 2011-11-28 at 12.16.30 PM"){.alignnone
-.size-full .wp-image-816 width="233"
-height="222"}](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-16-30-pm.png)
+<img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-16-30-pm.png"  width="233"
+height="222" />
 
 but we **canno**t find the publication by authors (as “Participants”)
 that we did not link to the publication.
 
-[![](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-17-20-pm.png "Screen Shot 2011-11-28 at 12.17.20 PM"){.alignnone
-.size-full .wp-image-817 width="252"
-height="245"}](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-17-20-pm.png)
+<img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-17-20-pm.png"  width="252"
+height="245" />
 
 results in
 
-[![](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-17-51-pm.png "Screen Shot 2011-11-28 at 12.17.51 PM"){.alignnone
-.size-full .wp-image-818 width="640"
-height="172"}](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-17-51-pm.png)
+<img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-17-51-pm.png"  width="640"
+height="172" />
 
 We could have used PMID (PubMed ID) rather than DOI to roughly the same
 affect. Note that PMID and DOI are apparently independently created and
 do not return the same values (“Maria E. McNamara” vs. “Maria E(no-dot)
 McNamara,” etc.).
 
-[![](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-24-20-pm.png "Screen Shot 2011-11-28 at 12.24.20 PM"){.alignnone
-.size-full .wp-image-820 width="640"
-height="351"}](http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-24-20-pm.png)
+<img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-24-20-pm.png"  width="640"
+height="351" />
 
 Formatting from either source is occasionally horrible, and you are
 encouraged to use the formatting tools provided (or your method of

@@ -313,10 +313,9 @@ Required fields are:
 
 Use the additional fields as you normally would to add any additional
 information, such as author(s).
-[![](../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png "Screen Shot 2012-01-25 at 10.43.48 AM"){.alignnone
-.size-full .wp-image-905 width="640" height="81"
+<img src="../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png"  width="640" height="81"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png 809w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-300x38.png 300w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-768x98.png 768w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-250x32.png 250w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-550x70.png 550w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-800x102.png 800w"}](../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png)
+srcset="images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png 809w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-300x38.png 300w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-768x98.png 768w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-250x32.png 250w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-550x70.png 550w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-800x102.png 800w" />
 Note that with good organization and clever use of your favorite
 spreadsheet, most of the work should be simple copy/paste/increment.
 
