@@ -17,7 +17,7 @@ addresses of any type.
 
 ## Maintenance
 
-[]()Addresses used in shipments are automatically maintained. Changes
+Addresses used in shipments are automatically maintained. Changes
 are pushed to a new address, and every attempt to change[\*](#change) a
 shipping address will result in the creation of a new address. Used
 addresses are noted with a red border on the Edit Agent form. This is in
@@ -29,7 +29,7 @@ Email addresses of Operators are used extensively by various reports or
 notifications. Please ensure that all operators have a valid email
 address.
 
-[]()Note: “Changes” do not include the addition or removal of linebreak
+Note: “Changes” do not include the addition or removal of linebreak
 (chr(10) and chr(13)) characters, spaces, or commas.
 
 ## Address Type
@@ -74,7 +74,7 @@ addr . valid_addr_fg NUMBER not null
 
 ```
 
-[](#top){.infoLink}Valid Flag
+Valid Flag
 -----------------------------
 
 **Valid?:** A flag indicating whether or not the address is still valid.

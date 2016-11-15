@@ -463,15 +463,15 @@ To do this,
     MSB:Mamm:456, enter: old_path=**/guid/DGR:Mamm:123**;
     new_path=**/guid/MSB:Mamm:456**.
 
-[]()
 
-[]()
 
-[]()
 
-[]()
 
-[]()
+
+
+
+
+
 
 
 Other ID documentation has moved to[it’s own

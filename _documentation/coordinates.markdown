@@ -38,7 +38,7 @@ these data are stored as both verbatim and locality coordinates. Events
 and localities may be pre-made and selected when these limitations
 prevent accurately representing the data.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -68,7 +68,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_U
 In all formats, include as many digits of precision as are provided in
 the original data.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -93,7 +93,7 @@ coordinates will be determined (default usually set to WGS84, but this
 should be checked in the field). Maps and gazetteers generally provide
 this information as well.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -133,7 +133,7 @@ with the specimen. Examples:
 -   global positioning system (download)
 -   global positioning system (transcription)
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -152,7 +152,7 @@ differences can produce different results.  The
 [vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctgeorefmethod "Georeference Method")
 for this field is controlled.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -219,7 +219,7 @@ For most usage, including exportation to federated portals, the value
 for Maximum Uncertainty is converted from the original units (recorded
 here) to the value in meters.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -252,7 +252,7 @@ If the collector offered a determination in the original data, this
 determination should not be modified even if it is no longer the
 accepted determination.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -266,7 +266,7 @@ DATETIME null
 the determination was made. Entry/editing forms load with the current
 date as a default for new records.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -292,7 +292,7 @@ represented on an appropriately scaled map, and believes that these data
 are accurate and that the represented uncertainty is as small as
 possible.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -307,7 +307,7 @@ per locality but only the accepted determination is routinely displayed.
 You can revert to an earlier determination by changing its *accepted*
 flag from “no” to “yes.”
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -323,7 +323,7 @@ DarwinCore2=GeoreferenceRemarks
 assumptions made in addition or opposition to the those formalized in
 the method referred to in [Georeference Method](#georefmethod).
 
-[](#top){.infoLink}
+
 
 ### **Spatial Query**
 

@@ -60,7 +60,7 @@ VARCHAR(255) not null
 
 ```
 
-**Attribute Value:**
+## Attribute Value:
 
 Attributes have a Value, and those values are of three types:
 

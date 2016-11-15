@@ -118,7 +118,7 @@ Examples:
   ABC-0123-XYZ     collector number   ABC-0          123       -XYZ     The integer component will NOT retain leading zeroes. See next row.
   ABC-0123-XYZ     collector number   ABC-0123-XYZ   NULL      NULL     It may not be worthwhile to try to separate a cryptic “integer component,” especially if the number is not part of a large series
 
-[Top](#top){.infoLink}
+
 
 <span style="font-size:larger;font-weight:bold">ID References</span>
 
@@ -150,16 +150,16 @@ three cataloged items:
 
 the following Other IDs would be appropriate for the listed items:
 
-  Item      OtherID   IDReferences
-  --------- --------- --------------
-  ABC:123   ABC:124   parent of
-  ABC:123   ABC:125   parent of
-  ABC:124   ABC:123   offspring of
-  ABC:125   ABC:123   offspring of
-  ABC:125   ABC:124   sibling of
-  ABC:124   ABC:125   sibling of
+  |Item     | OtherID |  IDReferences|
+  |---------|---------|--------------|
+  |ABC:123  |ABC:124  |parent of|
+  |ABC:123  |ABC:125  |parent of|
+  |ABC:124  |ABC:123  |offspring of|
+  |ABC:125  |ABC:123  |offspring of|
+  |ABC:125  |ABC:124  |sibling of|
+  |ABC:124  |ABC:125  |sibling of|
 
-[Top](#top){.infoLink}
+
 
 <span style="font-size:larger;font-weight:bold">General
 Guidelines</span>
@@ -205,7 +205,7 @@ Actionable Other IDs (at least those that can or could be used to form
 URIs) should always be recorded as specific types. Everything else is
 subject to curatorial discretion.
 
-[Top](#top){.infoLink}
+
 
 <span style="font-size:larger;font-weight:bold">Bulk-loading
 Rules:</span>
@@ -256,7 +256,7 @@ Examples:
   {v-00001}     v-00001   NULL     NULL      v-00001     {} force to prefix
   \[1\]-abc-2   NULL      1        -abc-2    1-abc-2     Number explicitly defined.
 
-[]()
+
 
 **Searching by Other ID:** Most searches by Other ID match text strings
 (or substrings) to the concatenated value of Other ID (Prefix + Other ID

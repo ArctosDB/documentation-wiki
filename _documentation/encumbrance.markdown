@@ -51,7 +51,7 @@ available.
 The **Encumbrancer** (encumbering [agent](agent)) is the person or
 organization requiring the restriction. This agent may act in an
 advisory role; final authority to remove encumbrances rests with the
-collection.[](#top){.infoLink}
+collection.
 
 **Encumbrance Name:** Encumbrances are described with a name. This name
 should be as general as possible with the aim of avoiding separate
@@ -60,7 +60,7 @@ same. (If possible, additional specimens should be added to existing
 encumbrances.) Do **not** just copypasta the encumbrance action here.
 Really. Don’t.
 
-[](#top){.infoLink}
+
 
 **Expiration Date:** All encumbrances should be temporary, and
 encumbrances must be periodically reviewed. De-accession should be
@@ -70,7 +70,7 @@ extended (in 5-year increments) indefinitely. Expiration date is a
 triggering event – encumbrances are automatically retracted when
 expiration_date is reached.
 
-[](#top){.infoLink}
+
 
  
 

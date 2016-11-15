@@ -121,7 +121,7 @@ freezers.
 Email is sent on every annual anniversary of Transaction Data for
 accessions which are not “closed” but contain no specimens.
 
-[](#top){.infoLink}
+
 
 ## Data Entry Considerations
 

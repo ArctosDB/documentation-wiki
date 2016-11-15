@@ -6,7 +6,6 @@ layout: default_toc
 # Container
 
 
-[]()
 
 ## Arctos Object Tracking in a nutshell
 
@@ -92,14 +91,14 @@ NUMBER not null
 
 ```
 
-**Parent Container:**
+## Parent Container:
 
 This is the value that identifies the container into which another
 (child) Container has been placed. The value is not displayed in
 applications because Parent Containers are generally displayed by their
 Labels and entered into forms by their Barcode.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -138,7 +137,7 @@ time labels are ordered so that the range of values is reserved. This
 practice also allows us to limit the values accepted by the database to
 known barcode values.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -168,7 +167,7 @@ these applications, the Labels of positions might usefully indicate the
 parent container of the position. For example, the Label of position 6-B
 in Freezer 6 is “Frzr6 6-B,” not just “6-B.”
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -182,7 +181,7 @@ VARCHAR(255) null
 a label, but something like “The processing room in the south wing of
 the Biology Annex” may be expeditious.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -196,7 +195,7 @@ DATETIME not null
 changed, *i.e.*, the date on which the Container was placed in its
 parent.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -212,7 +211,7 @@ is the place to record notes and about the container or its contents.
 Remarks are especially useful in explaining the nature and treatment of
 legacy containers (*i.e.,* containers without barcode labels).
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -225,7 +224,7 @@ NUMBER(1) null
 **Print Flag** is a temporary flag that can be set for the purpose of
 printing container labels.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -255,7 +254,7 @@ Some common container dimensions:
   regular (2 inch) freezer box   13      5        13
   2-dram shell vial              2       5.6      2
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -273,7 +272,7 @@ positions in a container allows us to make forms specific to tasks such
 as scanning cryovials into a 100-position freezer box versus an
 81-position freezer box.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -287,7 +286,7 @@ VARCHAR(20) not null
 “owns” a container. (“Owns” because containers are in fact shared across
 VPD boundaries; this is closer to an indication of creator.)
 
-[](#top){.infoLink}
+
 
 ## Object Tracking in general
 
@@ -315,7 +314,7 @@ machine-readable labels.
     scanning other containers into it using one of the many appropriate
     Arctos forms.
 
-[](#top){.infoLink}
+
 
 ## Object Tracking in the field
 
@@ -390,7 +389,7 @@ part, and object tracking data will automatically consolidate.
     by scanning it into any other container, and allows it to contain
     any container or specimen part.
 
-[](#top){.infoLink}
+
 
 ## Object tracking without barcodes
 
@@ -436,7 +435,7 @@ and a system of handling them is necessary. If data of those
 characteristics are not necessary, or the resources to barcode are not
 currently available, use part attribute “location.”
 
-[](#top){.infoLink}
+
 
 ## FAQ
 

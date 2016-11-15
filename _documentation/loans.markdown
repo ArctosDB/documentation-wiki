@@ -37,7 +37,7 @@ VARCHAR(20) not null
 
 ```
 
-[](#top){.infoLink}
+
 
 ## Loan Number
 
@@ -53,7 +53,7 @@ VARCHAR not null
 
 ```
 
-[](#top){.infoLink}
+
 
 ## Type
 
@@ -71,7 +71,7 @@ VARCHAR not null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Status** is essentially the degree to which the transaction has been
 completed. The values comes from a [code-table controlled
@@ -85,7 +85,7 @@ VARCHAR not null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Loan Agents** Agents (generally people) are associated with loans in
 various capacities, and these vary among collections. At a minimum, a
@@ -105,7 +105,7 @@ VARCHAR not null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Nature of Material:** A description summarizing the overall content of
 the loan. This description will appear on the loan invoice. It should be
@@ -120,7 +120,7 @@ VARCHAR null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Instructions:** Directions to the borrower on such things as storage
 and return of the loaned items.
@@ -133,7 +133,7 @@ VARCHAR null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Description:** I don’t know? Why do we need another text field in
 addition to Nature of Material and Remarks?
@@ -146,7 +146,7 @@ VARCHAR null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Remarks:** Any annotations that will not be included on the Loan
 invoice.
@@ -159,7 +159,7 @@ DATE not null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Initiated Date** is the date on which preparation of the loan began. A
 default value would be the date on which the loan was first recorded in
@@ -173,7 +173,7 @@ DATE null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Due Date** is the date that a loan of the Type Returnable is expected
 to be returned to the lending collection. This date may be used to
@@ -188,7 +188,7 @@ DATE null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Shipping Date** is the date that the loaned material was shipped from
 the collection issuing the loan. The Shipping Date should be consistent
@@ -203,7 +203,7 @@ DATE null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Receipt Acknowledged** is the date the agent receiving the loan
 submitted acknowledgment of its arrival to lending collection.
@@ -216,7 +216,7 @@ DATE null
 
 ```
 
-[](#top){.infoLink}
+
 
 ## Returned Date
 
@@ -231,7 +231,7 @@ INTEGER null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Permits:** A loan may be authorized under one or more
 [permits](permit.html), and these may include both the senders and to
@@ -249,13 +249,13 @@ INTEGER null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Projects:** A loan is almost always made in support of one or more
 [projects](project.html), and it is in project descriptions that the
 scientific justification for the loan should be described.
 
-[](#top){.infoLink}
+
 
 **Data loans** document data usage, and are generally used when a
 project downloads data from Arctos without examining specimens. Data
@@ -311,7 +311,7 @@ Additionally, if current Hieracium specimens are later determined to be
 some other species, those data will remain as part of the loan, perhaps
 explaining yet-undetected anomalies in the publication.
 
-**Deleting Items:**
+## Deleting Items:
 
 In general, an item which has gone out on loan should never be removed
 from the loan. Delete functionality exists only to correct mistakes –

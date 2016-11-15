@@ -48,14 +48,14 @@ Leading and trailing spaces and other non-printing characters matter.
 The web-based applications may not work well for very large loads.
 [Contact us](/governance/contacts/) if you’re having problems.
 
-[](#top){.infoLink}**Agent names** must match a unique namestring, not
+**Agent names** must match a unique namestring, not
 necessarily the preferred name. If you are loading “John Smith” and
 there are three John Smiths in Arctos, you might create a new name “John
 Smith (my project)” and use that namestring in your data. Once loaded,
 the records will display preferred name, and agent name “John Smith (my
 project)” may be removed.
 
-[](#top){.infoLink}Special note primarily for botanists: The bulkloader
+Special note primarily for botanists: The bulkloader
 requires taxonomy.scientific_name, not taxonomy.display_name. That is,
 “Carex bigelowii subsp. lugens” rather than “*Carex bigelowii* Torr.
 subsp. *lugens* (Holm) T.V.Egorova”.
@@ -90,12 +90,12 @@ Any of the following are acceptable taxon name values (current
     -   Sorex {Sorex new species “my name”}
     -   unidentifiable {granite}
 
-[](#top){.infoLink}Be sure anything coming from other applications
+Be sure anything coming from other applications
 (especially Microsoft products) has not changed field length, precision,
 or other attributes. Watch dates and non-integer numbers (such as
 decimal latitude) most closely.
 
-[](#top){.infoLink}The following table describes select individual
+The following table describes select individual
 fields in BULKLOADER. **Check the Bulkloader Builder for the latest
 table structure. Do not attempt to use this as a template.** [Let us
 know](http://arctos.database.museum/contact.cfm) if it’s out of date,
@@ -271,11 +271,11 @@ text;
 [ctcollecting_source](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollecting_source)
 [\[ doc \]](/documentation/places/collecting-event/#collecting_source)
 Source from which the specimen was received. Example: “wild caught”
-[]()<span class="bloptional">Habitat</span>
+<span class="bloptional">Habitat</span>
 text; any string
 [\[ doc \]](/documentation/places/specimen-event/#habitat) A description
 of habitat at the time of the collecting event.
-[]()<span class="bloptional">Associated_Species</span>
+<span class="bloptional">Associated_Species</span>
 text; any string
 A description of other species occurring at the collecting event. Use
 relationships to other specimens when possible.
@@ -331,7 +331,7 @@ collector_agent is required.
 [\[ ctcollector_role
 \]](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLLECTOR_ROLE)
 Collector Role.
-[]()<span class="blrequired">Part_Name_x</span>
+<span class="blrequired">Part_Name_x</span>
 text;
 [ctspecimen_part_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
 [\[ doc \]](/documentation/parts/#part_name) At least one part is
@@ -368,7 +368,7 @@ text; accn number
 assigned upon acceptance of specimens. Format is accn number without
 collection information, but see [cross-collection
 considerations.](http://arctosdb.org/documentation/transaction/accession/#dataentry)
-[]()<span class="blcondreq">EnteredBy</span>
+<span class="blcondreq">EnteredBy</span>
 text; [agent name](#agent)
 [\[ doc \]](/documentation/agent/#names) Agent entering the data into
 this table. Must match agent_name of type login. NULLable if
@@ -388,11 +388,11 @@ Primary key of table Collection. Alternative to guid_prefix.
 text; any string
 This is where errors are stored after Bulkloader processing. [More
 Info](https://arctosdb.wordpress.com/how-to/create/#load)
-[]()<span class="bloptional">Flags</span>
+<span class="bloptional">Flags</span>
 text;
 [ctflags](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctflags)
 Flag indicating the specimen needs further work.
-[]()<span class="bloptional">Attribute</span>
+<span class="bloptional">Attribute</span>
 text;
 [ctattribute_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
 [\[ doc \]](/documentation/attributes/#name) Attribute name. (Code-table
@@ -435,10 +435,10 @@ A primary key from table collecting_event may be used in place of
 collecting_event information. A value here will over-ride anything
 entered into higher_geog, spec_locality, coordinates, dates, method,
 etc.
-[]()\* All date fields should be formatted as ISO8601, *e.g.*,
+\* All date fields should be formatted as ISO8601, *e.g.*,
 2006-12-31.
 
-[](#top){.infoLink}
+
 
 ## Primary Key Warning
 

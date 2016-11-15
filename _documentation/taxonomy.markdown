@@ -169,7 +169,7 @@ the “parent” binomen, *Trichophorum pumilum* (M. Vahl) Schinz & Thell
 plus the infraspecific rank, “subspecies,” and author text from the
 “child” trinomen, *Trichophorum pumilum* var. *Rollandii* (Fern.) Hult.
 
-[]()
+
 
 ## Searching
 

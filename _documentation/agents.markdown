@@ -7,7 +7,7 @@ layout: default_toc
 
 
 
-[Top](#top){.infoLink}
+
 
 Agents are people, organizations, or groups that perform actions. 
 Collectors are agents, authors of publications are agents, users of
@@ -50,7 +50,7 @@ uselessly cryptic agents. Is “unknown” really functionally different
 from “ABC”? (There is no definitive answer, but cryptic abbreviations
 are seldom useful.)
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -65,7 +65,7 @@ VARCHAR2(15) not null
 Agent Type is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type).
 
-[](#top){.infoLink}
+
 
 **Persons:**
 
@@ -93,7 +93,7 @@ date), this structure allows “snapshots” – “AgentX was seen at a
 conference on {DATE} and seemed to be living, so things collected before
 that date may still be attributable to AgentX.”
 
-[](#top){.infoLink}
+
 
 ## Organizations
 
@@ -115,7 +115,7 @@ next to useless. Nevertheless within a hierarchy of agencies, the more
 explicit the designation, the more ephemeral the designation is likely
 to be.
 
-[](#top){.infoLink}
+
 
 ## Verbatim Collectors
 
@@ -127,7 +127,7 @@ uncontrolled strings to be associated with individual specimens. When
 “bad duplicate of” agents are merged, “verbatim collector” Attributes
 are automatically created for all affected specimens.
 
-[](#top){.infoLink}
+
 
 ## Groups
 
@@ -151,7 +151,7 @@ VARCHAR2(184) not null
 
 ```
 
-[](#top){.infoLink}
+
 
 ## Names
 
@@ -168,7 +168,7 @@ ctagent_name_type
 
 ```
 
-[](#top){.infoLink}
+
 
 ## Name Type
 
@@ -183,7 +183,7 @@ VARCHAR2(255) null
 
 ```
 
-[](#top){.infoLink}
+
 
 ## Remarks
 
@@ -191,7 +191,7 @@ Remarks is a good place to include a one sentence description of the
 agent.  Anything that might helpful to other users in understanding who
 or what the agent is should be included.
 
-[](#top){.infoLink}
+
 
 ## General Agent Creation and Maintenance Guidelines
 
@@ -314,7 +314,7 @@ the alternative, both in getting students to choose the correct agent
 and in avoiding duplicate agent creation, but neither method is ideal.
 Address any suggestions or concerns to the Arctos discussion group.
 
-[](#top){.infoLink}
+
 
 ## Searching Agents
 
@@ -330,7 +330,7 @@ components, and login name.
 **Agent Type** matches values used in the [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE).
 
-[]()**Agent ID** matches the (internal, primary key) agent_id (an
+**Agent ID** matches the (internal, primary key) agent_id (an
 integer).
 
 **Agent Name Type** matches values used in a [code table. Corresponding
@@ -352,7 +352,7 @@ happening on, before, or after a given date.
 may be used to find agents created by an agent, agents created by an
 agent on/before/after a date, or agents created on/before/after a date.
 
-[](#top){.infoLink}
+
 
 Deleting/merging agents
 -----------------------

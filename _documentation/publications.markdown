@@ -350,7 +350,7 @@ You may create [Media](media) to link publications with arbitrary
 Internet documents. Please not that these linkages are notoriously
 fragile, and do not serve as a suitable replacement for DOIs.
 
-[](#top){.infoLink}
+
 
 ## Finding DOIs for existing publications
 

@@ -40,7 +40,7 @@ VARCHAR(20) null
 
 ```
 
-**[]()Permit Number**
+## Permit Number
 
 is an identifying text string assigned by the agency issuing the
 permit.
@@ -56,7 +56,7 @@ ctpermit_type
 
 ```
 
-**[]()Permit Type:**
+## Permit Type:
 
 The kind of activity authorized by the permit.
 
@@ -81,7 +81,7 @@ INTEGER not null
 
 ```
 
-**[]()Issued To:**
+## Issued To:
 
 The agent to whom the permit was issued.
 
@@ -94,7 +94,7 @@ INTEGER not null
 
 ```
 
-**[]()Issued By:**
+## Issued By:
 
 The agent to who issued the permit.
 
@@ -107,7 +107,7 @@ INTEGER not null
 
 ```
 
-**[]()Contact Person:**
+## Contact Person:
 
 Assuming that the Permit was issued by an organization,
 
@@ -123,7 +123,7 @@ DATETIME null
 
 ```
 
-**[]()Issued Date:**
+## Issued Date:
 
 The day the permit was issued.
 
@@ -146,7 +146,7 @@ DATETIME null
 
 ```
 
-**[]()Renewed Date:**
+## Renewed Date:
 
 Rather than expiring, and requiring a new permit for continued
 
@@ -159,7 +159,7 @@ DATETIME null
 
 ```
 
-**[]()Expiration Date:**
+## Expiration Date:
 
 The day on which the permit is no longer valid.
 
@@ -174,7 +174,7 @@ VACHAR(255) null
 
 ```
 
-**[]()Remarks:**
+**Remarks:**
 
 These can be anything that extends the definition of the
 

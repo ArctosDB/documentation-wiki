@@ -48,7 +48,7 @@ tag – whatever the collector wrote, warts and all.  If the locality is
 outside of the U.S., include the higher geography as given verbatim by
 the collector.  Verbatim Locality is not often displayed.
 
-[]()
+
 
 The date of the Collecting Event is expressed in three fields: Verbatim
 Date, Began Date, and Ended Date.  The purpose of these three fields is

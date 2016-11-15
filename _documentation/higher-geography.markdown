@@ -21,7 +21,7 @@ entry. Unfortunately, you cannot assume that any locality or area is
 listed under only one higher geography. The [guidelines](#guidelines)
 below are intended to prevent (and even remedy) such inconsistencies.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -114,7 +114,7 @@ Russia is in Asia. Both are sometimes in Eurasia.
 | </div>                               | </div>                               |
 +--------------------------------------+--------------------------------------+
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -132,7 +132,7 @@ would not occur to most users to search for muskox from Denmark.)
 Note that country is political, not geographic, as demonstrated by
 georeferenced specimens “from France.”
 
-[](#top){.infoLink}
+
 
 [![This is
 France](/images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png){.wp-image-1542
@@ -156,7 +156,7 @@ states, provinces, departments, or okrugs.
     -   **Not:** Madanskaya Oblast
 -   **Example:** Baja California Norte
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -183,7 +183,7 @@ particular sea. (In their effort to be comprehensive and consistent
 within a domain where rigorous definitions are not commonly used, these
 references occasionally offend common sense.)
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -209,9 +209,9 @@ VARCHAR(30) null
 
 ```
 
-[]()
 
-[]()
+
+
 
 **Map Name (Quad):** The name of the U. S. Geological Survey maps in the
 1:250,000 series. Because Alaska lacks anything as inclusive counties,
@@ -220,7 +220,7 @@ interrogating data. (Although note that a combination of Borough and
 Census Area is all-inclusive and mutually exclusive and therefore serves
 as a suitable if large-scale “county substitute.”)
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -239,7 +239,7 @@ future use may be inconsistent. Therefore, avoid using Feature if the
 locality is well georeferenced and/or unequivocal in the absence of
 Feature.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -264,7 +264,7 @@ indicated in [Geographic Feature](#feature).
 | </div>             | </div>             | </div>             | </div>             |
 +--------------------+--------------------+--------------------+--------------------+
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -352,7 +352,7 @@ VARCHAR(255) not null
 
 **Higher Geography** (as a specific data field) is a the actual concatenation of the subdivisions described above. This is the value that is displayed in most applications.
 
-[]()
+
 
 ## Field Summary
 
@@ -368,7 +368,7 @@ VARCHAR(255) not null
   [Island Group](#island_group)         Alexander Archipelago, Franz Joseph Land                  <span style="color:#000000">A named (but sometimes poorly defined) group of islands. These data are often replicated in Feature.</span>
   [Island](#island)                     Kodiak Island, Svalbard                                   A single island.
 
-[]()
+
 
 Additional Data
 
@@ -544,7 +544,7 @@ value of the specimens and their associated data.
     nearby georeferences and in identical specific locality strings.
     Unify these data when possible.
 
-[](#top){.infoLink}
+
 
 ## Searching Guidelines
 
@@ -563,7 +563,7 @@ georeferenced specimens; additional or exploratory queries may be
 necessary to find all relevant specimens. Use the contact link at the
 bottom of any Arctos page for assistance.
 
-[](#top){.infoLink}
+
 
 ## Terrestrial versus marine descriptors
 
@@ -573,7 +573,7 @@ ocean in [Continent/Ocean](#continent_ocean) and, if applicable, it
 should also include [Sea](#sea). (Therefore, “coastal” specimens are
 often impossible to location by descriptive geography queries.)
 
-[](#top){.infoLink}
+
 
 ## Webservice Data
 

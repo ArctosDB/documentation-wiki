@@ -184,7 +184,7 @@ Events](collecting-event) for more details).
       University of California              U.C.           Should be followed by a modifier, e.g., U.C. Berkeley
       Doctor                                Dr.            e.g., Dr. Pearson’s house. Do not use for “Drive” (e.g., “Sunset Drive”).
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -213,7 +213,7 @@ fields, respectively.  If a single elevation is given in Verbatim
 Locality, put that value in both the minimum and maximum elevation
 fields.
 
-[](#top){.infoLink}
+
 
 ```
 
@@ -243,7 +243,7 @@ depth fields, respectively.  If a single depth is given in the verbatim
 locality, put that value in both the minimum and maximum elevation
 fields.
 
-[](#top){.infoLink}
+
 
 ~~**Township, Range, and Section (TRS)** information is sometimes given
 for localities.  If TRS data are part of the Verbatim Locality, they
@@ -281,7 +281,7 @@ Locality . NogeorefbecauseVARCHAR2(255) null
 
 ```
 
-[](#top){.infoLink}
+
 
 **NoGeorefBecause** is should always be NULL for localities with
 coordinate determinations.  Otherwise, it may be used to indicate
@@ -289,7 +289,7 @@ problems with georeferencing the locality, resources needed to
 georeference, or anything else about the lack of coordinate
 determinations.
 
-[](#top){.infoLink}
+
 
 **WKT Polygon** provides for a [well-known
 text](https://en.wikipedia.org/wiki/Well-known_text) shape associated

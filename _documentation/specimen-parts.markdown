@@ -35,7 +35,7 @@ VARCHAR(70) not null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Part Names:** What we choose to name as a part depends on what we
 define as a part,  and while this is often obvious (*e.g.,* “whole
@@ -106,7 +106,7 @@ VARCHAR(20) not null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Disposition** describes the status of parts and, as an abstract
 generality,
@@ -127,7 +127,7 @@ VARCHAR(255) not null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Condition** is used for entries such as “broken” or “dissected”.
 
@@ -153,7 +153,7 @@ NUMBER not null
 
 ```
 
-[](#top){.infoLink}
+
 
 A **Lot Count** is an integer that enumberates how many similar items
 comprise a part.  The value is frequently one (1), but collections of
@@ -237,7 +237,7 @@ NUMBER null
 
 ```
 
-[](#top){.infoLink}
+
 
 **Sampled From** designates a part derived from another part. This is
 intended to be a subsample supplied to an investigator for destructive

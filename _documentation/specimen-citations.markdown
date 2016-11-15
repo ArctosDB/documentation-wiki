@@ -52,7 +52,7 @@ INTEGER null
 specific specimen is mentioned.  Referrals to the specimen on subsequent
 pages within the same publication are ignored.
 
-[](#top){.infolink}
+
 
 ```
 
@@ -169,7 +169,7 @@ comma-delimited text file. The tool for uploading this file, and a
 detailed description of the file are found from Bulkload Citations on
 the Tool tab.
 
-[](#top){.infolink}
+
 
 ### **Searching Specimen Citations**
 

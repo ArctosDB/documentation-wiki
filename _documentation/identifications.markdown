@@ -50,7 +50,7 @@ VARCHAR2 (25) not null
 
 ```
 
-**Determination Formula:**
+## Determination Formula:
 
 A determination can contain more than one taxon, possibly in conjunction
 with modifiers. Taxa are combined with each other, or with modifiers,
@@ -83,7 +83,7 @@ do not need to designate a formula for data entry if you intend a simple
 one-taxon determination (formula “A”), and the bulkloader will recognize
 and appropriately parse constructions such as “Canis sp.”
 
-### []()
+###
 
 “A {string}” Formula
 
@@ -150,7 +150,7 @@ VARCHAR2 (30) not null
 
 ```
 
-[]()
+
 
 **Nature of ID:** The basis of the identification. Vocabulary is defined
 in, and controlled by, a [code
@@ -195,7 +195,7 @@ VARCHAR2 255
 determination.  This is a good place for recording the verbatim form of
 a [Determined Date](#id_date) if it was not recorded as an exact day.
 
-[]()
+
 
 SpecimenSearch contains a dropdown list with the following values. All
 searches are case-insensitive. Examples are fictitious and incomplete.
