@@ -46,7 +46,6 @@ institutions, but data can be entered for specimens that were cataloged
 after they were cited, or that were cited by some other identifier such
 as a field number.  A specimen citation includes:
 
-[](){.infoLink}
 
 ```
 
@@ -61,7 +60,6 @@ been included in the database.  Because full citation includes a page
 number, the best practice is to enter citations only when the
 publication is in its final form.
 
-[](){.infoLink}
 
 ```
 
@@ -73,7 +71,6 @@ INTEGER not null
 
 **Specimen:** Citations link to, and ideally create, Identifications.
 
-[](){.infolink}
 
 ```
 
@@ -106,7 +103,6 @@ context in which the specimen is cited, or the most important context in
 which the specimen is cited.  Vocabulary is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status).
 
-[](){.infolink}
 
 ```
 
@@ -157,7 +153,6 @@ an Other_ID was used), and the current taxonomic determination for the
 specimen.  You then select the scientific name by which the publication
 cited the item.
 
-[](){.infolink}
 
 **Erroneous Citations:** In entering Cited As determinations and
 comparing them to current determinations, errors within the publication
@@ -188,7 +183,6 @@ Citation Remarks should say something like, “Specimen was incorrectly
 cited as MVZ 125456.”  With this, anyone coming from the publication
 should be able to find their way to the correct meaning.
 
-[](){.infolink}
 
 ```
 

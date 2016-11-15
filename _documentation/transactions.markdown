@@ -23,7 +23,6 @@ other collections lent, and in your collection’s temporary custody. 
 These three types of transactions share several fields in common, and
 those fields are treated on this page.
 
-[](){.infoLink}
 
 ```
 
@@ -38,7 +37,6 @@ or loan. Quantities can be approximate if accession material is not
 being unpacked prior to storage. For example, “About 300 frozen small
 mammals collected during the summer of 2004 in Denali State Park.”
 
-[](){.infoLink}
 
 ```
 

@@ -48,7 +48,6 @@ agents who have roles.  Projects may also produce
 [publications](publication.html) to which they can be related even in
 the absence of specimen [citations](publication.html#citation).
 
-[](){.infoLink}
 
 **Title:**  Like projects themselves, project titles may be composed
 retrospectively or they may be originated by the participants.  Titles
@@ -60,7 +59,6 @@ book chapter [titles](publication.html#title).  (Capitalize only the
 first letter of the title and proper names.  Punctuate the end of the
 title with a period unless it is otherwise punctuated.)
 
-[](){.infoLink}
 
 **Descriptions** are an abstract of one to about ten sentences.  They
 should demonstrate the importance of the work and justify the use of
@@ -72,26 +70,22 @@ or absent descriptions will result in the project being under-exposed –
 include at least 100 meaningful characters for the project to show up in
 search results. Write something meaningful here. Really. Please.
 
-[](){.infoLink}
 
 **Start Date** and **End Date** will often be approximate, and End Date
 can be ignored for projects that are active.  Often, the date that a
 request for specimens is received is used as the start date, and the
 date that results are last published is used as the end date.
 
-[](){.infoLink}
 
 **Project Agents** are the people or agencies doing the project.  Their
 names are drawn from the agents-names table and must be entered there if
 they are not already in the database.
 
-[](){.infoLink}
 
 **Agent Roles** describe what the agents do as project participants. 
 The values for this field are controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPROJECT_AGENT_ROLE).
 
-[](){.infoLink}
 
 **Agent Order** is the order in which the agents will be displayed.  A
 principal investigator would usually be number one followed by

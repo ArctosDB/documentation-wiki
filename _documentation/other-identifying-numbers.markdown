@@ -37,7 +37,6 @@ Procedures
 
 </div>
 
-[](){.infoLink}
 
 <span style="font-size:x-small">Other IDs (Identifiers)</span>
 
@@ -46,7 +45,6 @@ identifiers may make identify specimens (as in the case of collector
 numbers), reference other resources (*e.g.*, GenBank numbers), or form
 relationships among specimens (such as hosts of parasites).
 
-[](){.infoLink}
 
 ```
 
@@ -67,7 +65,6 @@ Users who are logged in can choose one Other ID Type to be their
 “preferred identifier.”   Your preferred identifier will then be the
 default displayed in several forms.
 
-[](){.infoLink}
 
 This same vocabulary can be used to systematically form URLs from
 pre-set strings plus Other ID values. For example, the complete
@@ -98,7 +95,6 @@ returning the link to the GenBank record for that specimen
 
 <http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=nucleotide&doptcmdl=GenBank&term=EU139271>
 
-[](){.infoLink}
 
 ```
 
@@ -309,7 +305,6 @@ may specify Prefix and/or Suffix in the 3-part search boxes to produce
 SQL like:
 ` ...AND customIdentifier.other_id_type = 'ALAAC' AND upper(customIdentifier.other_id_prefix) LIKE '%I TYPED THIS IN THE PREFIX BOX%' AND customIdentifier.other_id_number between 50000 and 50110 `
 
-[](){.infoLink}
 
 The “**contains/is/in list**” option works as follows:
 

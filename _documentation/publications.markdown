@@ -53,7 +53,6 @@ between a particular specimen and a particular page within a
 publication.  Where no such explicit relationship exists, publications
 can be related to a [Project](project).
 
-[](){.infolink}
 
 ```
 
@@ -108,7 +107,6 @@ formatting should be handled with HTML tags.
 -   Renders as: **Temporal records of d^13^C and d^15^N in North
     Pacific pinnipeds.**
 
-[](){.infolink}
 
 ```
 
@@ -127,7 +125,6 @@ formatting.
 -   Burns and Fay 1970
 -   Welsh 1968
 
-[](){.infolink}
 
 ```
 
@@ -143,7 +140,6 @@ not null VARCHAR2(21)
 vocabulary is
 [controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE).
 
-[](){.infolink}
 
 ```
 
@@ -156,7 +152,6 @@ number, not null
 **Published Year** is the year in which the publication occurred.  It is
 a four-digit integer, *e.g*., 1985.
 
-[](){.infolink}
 
 ```
 
@@ -169,7 +164,6 @@ number(1), not null
 **Peer Review Flag** should be set to false for publications which have
 not undergone a formal peer review process, such as dissertations.
 
-[](){.infolink}
 
 ```
 
@@ -202,7 +196,6 @@ The following are examples of formats that **contain** DOIs; they are
 -   **dx.doi.org/10.1111/j.1365-294X.2005.02461.x**
 -   **DOI:10.1111/j.1365-294X.2005.02461.x**.
 
-[](){.infolink}
 
 ```
 
@@ -233,7 +226,6 @@ their Publications.  It is not necessary to create or link all authors
 as publication agents.  Agent Name formatting is unimportant as
 formatted agent names are part of the full citation.
 
-[](){.infolink}
 
 ```
 
@@ -249,7 +241,6 @@ varchar2(255), not null
 author, or an editor of the publication. Vocabulary is
 [controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE).
 
-[](){.infolink}
 
 ```
 
@@ -390,7 +381,6 @@ service is, however, not magic and you, the operator, are responsible
 for the results. Your collections may have additional guidelines as to
 what agents to include, or how to format publications.
 
-[](){.infolink}
 
 You may create [Media](media) to link publications with arbitrary
 Internet documents. Please not that these linkages are notoriously

@@ -57,7 +57,6 @@ tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE
 This can be a useful node for exploring these values outside of the
 forms in which the vocabularies are used.
 
-[](){.infolink}
 
 ```
 
@@ -83,7 +82,6 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_
     controlled vocabulary and associates them with specific tables that
     control their specific vocabularies.
 
-[](){.infoLink}
 
 ```
 
@@ -125,7 +123,6 @@ appropriate vocabulary for controlled vocabulary are set by a by a
 “[code table of code
 tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).”
 
-[](){.infoLink}
 
 **Conversion of fractional values:**  Numeric values are sometimes
 reported in the numerator/denominator format.  For example, total length
@@ -145,7 +142,6 @@ round off to 7.19 inches.  Whenever the value of an attribute is
 converted (or in any way modified or assumed), the verbatim value should
 be given in the [Attribute Remark](#remark).
 
-[](){.infoLink}
 
 ```
 
@@ -168,7 +164,6 @@ weight, length, and time.  Numeric Attributes are assigned one of these
 code tables in the “[code table of code
 tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).”
 
-[](){.infoLink}
 
 ```
 
@@ -184,7 +179,6 @@ length measurements are assumed to have been taken with rulers,
 calipers, or another standard tool. In such cases, no value is recorded
 for Method.
 
-[](){.infoLink}
 
 ```
 
@@ -200,7 +194,6 @@ VARCHAR(255) null
 -   “Weighed after substantial loss of blood.”
 -   “verbatim: 7 3/16 inches”
 
-[](){.infoLink}
 
 ```
 
@@ -217,7 +210,6 @@ investigator using the specimen. In the many specimen records for which
 this data was not recorded, the institution contributing the record has
 been used as a default value for Determiner.
 
-[](){.infoLink}
 
 ```
 
@@ -237,7 +229,6 @@ For Attributes which can be re-determined from the existing specimen,
 even an imprecise date will provide a chronological order to successive
 determinations.
 
-[](){.infoLink}
 
 ## Searching with Attributes
 
@@ -271,7 +262,6 @@ You may set the search operator for Attributes to:
 matches. For example, sex `equals` ‘male’ will find only *male*
 specimens; sex `contains` ‘male’ will find both *male* and *fe**male***.
 
-[](){.infoLink}
 
 ## Searching by Attribute Type
 

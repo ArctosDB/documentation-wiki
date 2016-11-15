@@ -40,7 +40,6 @@ Nevertheless, the nature and disposition of the specimen data should be
 recorded in order to assure that the data can eventually be located for
 purposes of cataloging.
 
-[](){.infoLink}
 
 ```
 
@@ -53,7 +52,6 @@ VARCHAR2(60) not null
 **Accession Number** is a text string assigned to identify the specific
 accession.  This is under revision at this writing.
 
-[](){.infoLink}
 
 ```
 
@@ -69,14 +67,12 @@ from individual specimen records.  “In process” indicates that at least
 some of the material is still being stored and labeled by accession
 number.
 
-[](){.infoLink}
 
 The Public? flag allows accession data to be displayed in a public (open
 to non-operators) page, currently linked to from Specimen Results. This
 is useful for displaying accession-level Media, such an UAM Earth
 Science accession and locality card scans.
 
-[](){.infoLink}
 
 ```
 
@@ -99,7 +95,6 @@ described material to the museum.  Whenever possible, this should be the
 name of a person, *i.e.,* the person within an agency rather than the
 name of the agency.
 
-[](){.infoLink}
 
 ```
 
@@ -118,7 +113,6 @@ a valid date. Default could be the system date when the record was
 created.  {Do we need this? Should it be a stored system date, and not
 necessarily displayed in normal applications?}
 
-[](){.infoLink}
 
 ```
 

@@ -114,7 +114,6 @@ literature is anything but: Most name have a long history of “current
 family, according to….”, for example, and many refer to multiple
 concepts, such as plants and animals.
 
-[](){.infoLink}
 
 ```
 
@@ -135,7 +134,6 @@ particular standard such as that of the American Ornithological Union
 (AOU Checklist).  Adjectival forms of proper names are capitalized
 (*e.g.*, “Alaska marmot”).
 
-[](){.infoLink}
 
 ```
 
@@ -151,7 +149,6 @@ cttaxon_relation
 taxon, and an authority for the relationship. The related taxon is
 another record in the taxonomy table.
 
-[](){.infoLink}
 
 ```
 

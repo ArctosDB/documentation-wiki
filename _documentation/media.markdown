@@ -133,7 +133,6 @@ The Internet media type. Consists of a type and subtype, such as
 controlled, described in
 [Wikipedia](http://en.wikipedia.org/wiki/Mime_type).
 
-[](){#media_type}
 
 ```
 
@@ -163,7 +162,6 @@ The Uniform Resource Identifier (URI) for a preview of the Media item. A
 preview might be something like a thumb-nail sized version of a larger
 image.
 
-[](){.infoLink}
 
 ```
 
@@ -203,7 +201,6 @@ Media_Relations . RELATED_PRIMARY_KEY NUMBER not null
 The data item to which the Media object is related. This is a foreign
 key.
 
-[](){.infoLink}
 
 ```
 
@@ -218,7 +215,6 @@ The subject matter of a label describing a Media object. Values are
 controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label).
 
-[](){#checksum .infoLink}
 
 ### A checksum
 
@@ -261,7 +257,6 @@ Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null
 The agent who assigned the label. This is a foreign key to the Agent
 table.
 
-[](){#guide}
 
 ### Media Creation Guidelines
 
@@ -287,7 +282,6 @@ under!) 10K (previews larger than 48K will NOT be displayed), and scale
 to \~120px. Cropped or otherwise misleading previews should be avoided.
 Leave preview_uri NULL if producing a good thumbnail isn’t possible.
 
-[](){#creating}
 
 ### Binary Object Creation Guidelines
 
@@ -330,7 +324,6 @@ srcset="/images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png
 
 
 JPG view – what most users find
-[](){#mpd}
 
 ### Multi-page documents
 
@@ -452,7 +445,6 @@ to relevant data, Arctos encourages links in. Many users discover Arctos
 by following links from NCBI, Google, content aggregators (such as
 iDigBio), scientific publications, and researcher’s home pages.
 
-[](){#tacctools}
 
 ### TACC Tools
 
@@ -465,7 +457,6 @@ specimens), a WEBDAV dropbox ([contact
 us](http://arctos.database.museum/contact.cfm) for access), and the
 ability to automatically push files uploaded to Arctos to TACC.
 
-[](){#tag}
 
 ### TAGs
 
@@ -492,7 +483,6 @@ forms a HTML-link to
 
 </div>
 
-[](){#stability}
 
 ### URLs and Stability
 
@@ -541,7 +531,6 @@ which to use in any particular situation.
     logging, come with no stability guarantees, and should not be used
     for most purposes.
 
-[](){#tips}
 
 ### Tips
 

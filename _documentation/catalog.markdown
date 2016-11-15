@@ -58,7 +58,6 @@ material, or separate parts of the same individual may have been
 cataloged at more than one institution. The term “specimen” is uses
 synonymously with “cataloged item” throughout Arctos.
 
-[](){.infoLink}
 
 ```
 
@@ -106,7 +105,6 @@ The following table is illustrative.
   \_12        012, a12, 912, ….                                “\_” is “match any single character.”
   1_2        102, 112, 1A2, ….                                “\_” is “match any single character.”
 
-[](){.infoLink}
 
 ## Guid Prefix
 
@@ -118,7 +116,6 @@ must never be allowed to change or expire. See [deleting
 specimens](#delete) for guidelines. All specimen citations should occur
 by way of GUID.
 
-[](){.infoLink}
 
 ```
 
@@ -133,7 +130,6 @@ example:
 
 -   Mammal Specimens
 
-[](){.infoLink}
 
 ```
 
@@ -152,7 +148,6 @@ you are editing the record for a mammal specimen, you have the option of
 using an attribute such as ear length, and you do not have to see
 irrelevant attributes such as beak length.
 
-[](){.infoLink}
 
 ```
 
@@ -171,7 +166,6 @@ An extended name/description of the collection. For example:
     Albuquerque, NM
 -   Kenelm W. Philip lepidoptera collection
 
-[](){.infoLink}
 
 ```
 
@@ -191,7 +185,6 @@ identifiers on the Internet, and at least [one
 registry](http://grbio.org//) for such abbreviations has been
 established.
 
-[](){.infoLink}
 
 ## Locating Specimens by Identifier
 
@@ -366,7 +359,6 @@ height="215"}
 
 </div>
 
-[](){.infoLink}
 
 ## Understanding Cataloged Items
 
@@ -455,7 +447,6 @@ number.” This approach has been used to unify and disambiguate several
 Arctos collections; we find tradition little excuse to go forward under
 systems which discourage good science
 
-[](){.infoLink}
 
 ## Deleting records from Arctos
 
@@ -475,7 +466,6 @@ systems which discourage good science
 Note that there may be reasons to keep masked records in the database
 instead of deleting them.
 
-[](){.infoLink}
 
 ## Recataloging Specimens
 

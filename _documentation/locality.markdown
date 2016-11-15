@@ -73,13 +73,11 @@ determination is routinely displayed.  Some caveats:
     Locality](collecting-event/#verbatim_locality), though the verbiage
     may often be the same.
 
-[](){.infoLink}
 
 Locality Nickname is a globally-unique human-readable “locality ID”
 commonly used to unambiguously associate one or more specimens to a
 locality.
 
-[](){.infoLink}
 
 ```
 
