@@ -67,7 +67,7 @@ dealing with both outgoing specimens and incoming specimens.
 
 ```
 
-Loans . Loan\_Number
+Loans . Loan_Number
 
 VARCHAR(20) not null
 
@@ -83,7 +83,7 @@ uncontrolled.
 
 ```
 
-Loans . Loan\_Type
+Loans . Loan_Type
 
 VARCHAR not null
 
@@ -101,7 +101,7 @@ enter the most important one (*i.e.*, “returnable”).
 
 ```
 
-Loans . Loan\_Status
+Loans . Loan_Status
 
 VARCHAR not null
 
@@ -115,7 +115,7 @@ vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_
 
 ```
 
-Loans . Loan\_Agent\_Role
+Loans . Loan_Agent_Role
 
 VARCHAR not null
 
@@ -135,7 +135,7 @@ vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTRANS
 
 ```
 
-Loans . Nature\_of\_Material
+Loans . Nature_of_Material
 
 VARCHAR not null
 
@@ -176,7 +176,7 @@ addition to Nature of Material and Remarks?
 
 ```
 
-Loans . Loan\_Remarks
+Loans . Loan_Remarks
 
 VARCHAR null
 
@@ -189,7 +189,7 @@ invoice.
 
 ```
 
-Loans . Initiated\_Date
+Loans . Initiated_Date
 
 DATE not null
 
@@ -203,7 +203,7 @@ the database.
 
 ```
 
-Loans . Due\_Date
+Loans . Due_Date
 
 DATE null
 
@@ -218,7 +218,7 @@ appropriate agents.
 
 ```
 
-Loans . Shipping\_Date
+Loans . Shipping_Date
 
 DATE null
 
@@ -233,7 +233,7 @@ of lading, etc.
 
 ```
 
-Loans . Receipt\_Acknowledged\_Date
+Loans . Receipt_Acknowledged_Date
 
 DATE null
 
@@ -246,7 +246,7 @@ submitted acknowledgment of its arrival to lending collection.
 
 ```
 
-Loans . Returned\_Date
+Loans . Returned_Date
 
 DATE null
 
@@ -261,7 +261,7 @@ collection from which the loan was issued.
 
 ```
 
-Permit . Permit\_ID
+Permit . Permit_ID
 
 INTEGER null
 
@@ -279,7 +279,7 @@ loan.
 
 ```
 
-Project . Project\_ID
+Project . Project_ID
 
 INTEGER null
 

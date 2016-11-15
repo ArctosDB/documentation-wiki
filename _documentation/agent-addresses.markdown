@@ -9,11 +9,11 @@ layout: default_toc
 
 [Maintenance](#used)
 
-[address\_type](#addr_type)
+[address_type](#addr_type)
 
 [address](#address)
 
-[valid\_addr\_fg](#valid_addr_fg)
+[valid_addr_fg](#valid_addr_fg)
 
 </div>
 
@@ -46,7 +46,7 @@ address.
 
 **Address Type:** The kind of address, or how the address is used. The
 vocabulary is controlled by
-[ctaddress\_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctaddress_type).
+[ctaddress_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctaddress_type).
 
 ## Address
 
@@ -80,7 +80,7 @@ include:
 
 ```
 
-addr . valid\_addr\_fg NUMBER not null
+addr . valid_addr_fg NUMBER not null
 
 ```
 

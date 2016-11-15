@@ -23,11 +23,11 @@ Concepts
 
 [County](#county)
 
-[Map\_Name](#map_name)
+[Map_Name](#map_name)
 
 [Geographic Feature](#feature)
 
-[Island\_Group](#island_group)
+[Island_Group](#island_group)
 
 [Island](#island)
 
@@ -77,7 +77,7 @@ below are intended to prevent (and even remedy) such inconsistencies.
 
 ```
 
-Geo\_Auth\_Rec . Continent\_Ocean
+Geo_Auth_Rec . Continent_Ocean
 
 VARCHAR(50) not null
 
@@ -170,7 +170,7 @@ Russia is in Asia. Both are sometimes in Eurasia.
 
 ```
 
-Geo\_Auth\_Rec . Country
+Geo_Auth_Rec . Country
 
 VARCHAR(50) null
 
@@ -194,7 +194,7 @@ srcset="/images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.pn
 France
 ```
 
-Geo\_Auth\_Rec . State\_Prov
+Geo_Auth_Rec . State_Prov
 
 VARCHAR(75) null
 
@@ -212,7 +212,7 @@ states, provinces, departments, or okrugs.
 
 ```
 
-Geo\_Auth\_Rec . Sea
+Geo_Auth_Rec . Sea
 
 VARCHAR(50) not null
 
@@ -239,7 +239,7 @@ references occasionally offend common sense.)
 
 ```
 
-Geo\_Auth\_Rec . County
+Geo_Auth_Rec . County
 
 VARCHAR(50) null
 
@@ -255,7 +255,7 @@ does not belong in the County field.
 
 ```
 
-Geo\_Auth\_Rec . Quad
+Geo_Auth_Rec . Quad
 
 VARCHAR(30) null
 
@@ -276,7 +276,7 @@ as a suitable if large-scale “county substitute.”)
 
 ```
 
-Geo\_Auth\_Rec . Feature
+Geo_Auth_Rec . Feature
 
 VARCHAR(50) null
 
@@ -295,7 +295,7 @@ Feature.
 
 ```
 
-Geo\_Auth\_Rec . Island\_Group
+Geo_Auth_Rec . Island_Group
 
 VARCHAR(50) null
 
@@ -320,7 +320,7 @@ indicated in [Geographic Feature](#feature).
 
 ```
 
-Geo\_Auth\_Rec . Island
+Geo_Auth_Rec . Island
 
 VARCHAR(50) null
 
@@ -390,13 +390,13 @@ appropriate. Examples follow.
   -------------------------------------------------------------------------------------------- -------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   North America, United States, Alaska                                                         http://en.wikipedia.org/wiki/Alaska                                  Well-defined unambiguous entity – yay us!
   North America, United States, Alaska, Ambler River Quad                                      http://en.wikipedia.org/wiki/Alaska                                  There is no Wiki page for USGS quad maps. The data are unambiguous (there is or is not an appropriate USGS quad map) and mostly internal, so a general citation is appropriate.
-  North America, Beaufort Sea, United States, Alaska                                           http://en.wikipedia.org/wiki/Beaufort\_Sea                           This is “Arctos shorthand” for “Beaufort, probably West of the Canandian border.” The relevant Wikipedia article is the Sea. Note also that a geospatial search on this general area finds 7 geography entries; georeferencing is critical when geographic data is ambiguous.
+  North America, Beaufort Sea, United States, Alaska                                           http://en.wikipedia.org/wiki/Beaufort_Sea                           This is “Arctos shorthand” for “Beaufort, probably West of the Canandian border.” The relevant Wikipedia article is the Sea. Note also that a geospatial search on this general area finds 7 geography entries; georeferencing is critical when geographic data is ambiguous.
   North Pacific Ocean, Bering Sea, United States, Alaska                                                                                                            
-  North America, United States, Alaska, Mt. McKinley Quad, Denali National Park and Preserve   http://en.wikipedia.org/wiki/Denali\_National\_Park\_and\_Preserve   There is no Wikipedia entry for the area of Alaska that’s within both DNP and a USGS quad
+  North America, United States, Alaska, Mt. McKinley Quad, Denali National Park and Preserve   http://en.wikipedia.org/wiki/Denali_National_Park_and_Preserve   There is no Wikipedia entry for the area of Alaska that’s within both DNP and a USGS quad
 
 ```
 
-Geo\_Auth\_Rec . Higher\_Geog
+Geo_Auth_Rec . Higher_Geog
 
 VARCHAR(255) not null
 
@@ -482,7 +482,7 @@ else (and  leaving verbose notes in remarks when necessary).
     Yugoslavia was used in the original data, it now belongs in verbatim
     locality, *not* in Higher Geography. If you are editing specimen
     records, append the old higher geography to verbatim locality in the
-    following order: verbatim\_locality, state, country.~~
+    following order: verbatim_locality, state, country.~~
 -   Try not to mix terms; try to use modern geography. We have no idea
     how to do that when, *e.g.*, one Province of Kenya becomes
     6 Counties. Especially in the case where the “new” shares
@@ -517,10 +517,10 @@ else (and  leaving verbose notes in remarks when necessary).
 -   Google is your friend. “{local word for county} County” is no
     longer amusing. New York City isn’t in Inyo County, Texas, no matter
     what it says on the label. (Label data should be transcribed
-    to verbatim\_locality.)
+    to verbatim_locality.)
 -   Do not introduce unnecessary descriptors or ranks, but also do not
     exclude parts of proper names. “Santiago Metropolitan Region” in
-    state\_prov is correct; Maule Region in state\_prov is redundant
+    state_prov is correct; Maule Region in state_prov is redundant
     and confusing. Use the construction used by Wikipedia.
 -   Do not partially translate. “Región de la Araucanía” (disallowed
     under rules “use English Wikipedia” and “use ASCII128”) should be
@@ -528,7 +528,7 @@ else (and  leaving verbose notes in remarks when necessary).
     Araucania.”
 -   Do not “promote” entities. Cities, vaguely-described districts,
     4th-level administrative entities, and things the collector made up
-    are verbatim\_locality and should not be stuffed into geography.
+    are verbatim_locality and should not be stuffed into geography.
     Chilean Communes, for example, are “real” political entities, but as
     sub-county-level divisions are not formal geography.
 -   Do “standardize” spelling. Sometimes you’ll have to do something

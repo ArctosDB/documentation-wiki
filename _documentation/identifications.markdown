@@ -62,11 +62,11 @@ illustrative.
 
 ```
 
-Identification . TAXA\_FORMULA
+Identification . TAXA_FORMULA
 
 VARCHAR2 (25) not null
 
-[cttaxa\_formula](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula)
+[cttaxa_formula](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula)
 
 ```
 
@@ -77,7 +77,7 @@ with modifiers. Taxa are combined with each other, or with modifiers,
 according to a formula. For example:
 
   -------------------------------------------------------------------------------------------
-  Identification.Scientific\_Name            Formula           Taxonomy.Scientific\_Name(s)
+  Identification.Scientific_Name            Formula           Taxonomy.Scientific_Name(s)
   ------------------------------------------ ----------------- ------------------------------
   *Sorex cinereus*                           one taxon (A)     A = *Sorex cinereus*
 
@@ -135,7 +135,7 @@ The following table is illustrative.
 
 ```
 
-Identification . Made\_By\_Agent\_id
+Identification . Made_By_Agent_id
 
 NUMBER not null (FK)
 
@@ -151,7 +151,7 @@ the determiners in the desired order, then delete the old record.
 
 ```
 
-Identification . Made\_Date
+Identification . Made_Date
 
 DATE null
 
@@ -162,11 +162,11 @@ chronological order of determinations may be the most critical issue.
 
 ```
 
-Identification . Nature\_Of\_ID
+Identification . Nature_Of_ID
 
 VARCHAR2 (30) not null
 
-[ctnature\_of\_id](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id)
+[ctnature_of_id](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id)
 
 ```
 
@@ -186,9 +186,9 @@ additional guidance.
 
 ```
 
-Identification.Publication\_ID
+Identification.Publication_ID
 
-NUMBER NOT NULL (FK Publication.Publication\_ID)
+NUMBER NOT NULL (FK Publication.Publication_ID)
 
 ```
 
@@ -231,7 +231,7 @@ searches are case-insensitive. Examples are fictitious and incomplete.
     matches both “Sorex cinereus” and “Sorex monticolus” but not “Sorex
     yukonicus” or “Sorex.”
 -   Current Identification NOT: Exact-match exclusion of
-    current taxonomy. geog=”someplace” + taxon\_name=Current
+    current taxonomy. geog=”someplace” + taxon_name=Current
     Identification NOT “Sorex” + this option returns everything from
     “someplace” that is not currently identified as “Sorex” – including
     “Sorex cinereus”

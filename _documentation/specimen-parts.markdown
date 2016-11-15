@@ -45,11 +45,11 @@ collection.
 
 ```
 
-Specimen\_Part.Part\_Name
+Specimen_Part.Part_Name
 
 VARCHAR(70) not null
 
-[ctspecimen\_part\_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
+[ctspecimen_part_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
 
 ```
 
@@ -97,7 +97,7 @@ Part name contains information once split out into part modifier, and
 also preservation and storage information. Preservation and storage
 information (eg, “reproductive tract (formalin-fixed, 70% ethanol)”) is
 not meant to replace container condition information (e.g.,
-“checked-by-on-date” and fluid\_preservation\_history), but simply to
+“checked-by-on-date” and fluid_preservation_history), but simply to
 facilitate searching.
 
 “Traditional” (a concept which varies wildly by discipline and
@@ -105,7 +105,7 @@ collection) part names are often stored without “modifiers.” A
 “skeleton” in a mammal collection probably consists of cleaned, dried
 bones stored at room temperature, for example.
 
-The specimen part code table also contains a “is\_tissue” flag. Parts
+The specimen part code table also contains a “is_tissue” flag. Parts
 flagged as “tissues” indicate a Specimen Part is a sample intended for
 subsampling and distribution, generally for purposes of destructive
 analysis, or simply a part with readily-available tissue from which DNA
@@ -116,11 +116,11 @@ from which they can readily obtain subsamples.
 
 ```
 
-Coll\_Object.Disposition
+Coll_Object.Disposition
 
 VARCHAR(20) not null
 
-[ctcoll\_obj\_disp](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
+[ctcoll_obj_disp](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
 
 ```
 
@@ -139,7 +139,7 @@ the status of cataloged items.  Typical values are:
 
 ```
 
-Coll\_Object.Condition
+Coll_Object.Condition
 
 VARCHAR(255) not null
 
@@ -165,7 +165,7 @@ VARCHAR(255) not null
 
 ```
 
-Coll\_Object.Lot\_Count
+Coll_Object.Lot_Count
 
 NUMBER not null
 
@@ -249,7 +249,7 @@ Examples of lot count usage:
 
 ```
 
-Specimen\_Part.Sampled\_From\_Obj\_Id
+Specimen_Part.Sampled_From_Obj_Id
 
 NUMBER null
 

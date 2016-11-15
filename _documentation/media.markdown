@@ -13,25 +13,25 @@ Components
 
 </div>
 
-[media\_uri](#media_uri)
+[media_uri](#media_uri)
 
-[mime\_type](#mime_type)
+[mime_type](#mime_type)
 
-[media\_type](#media_type)
+[media_type](#media_type)
 
-[preview\_uri](#preview_uri)
+[preview_uri](#preview_uri)
 
-[media\_relationship](#media_relationship)
+[media_relationship](#media_relationship)
 
-[created\_by](#created_by)
+[created_by](#created_by)
 
-[related\_data\_item](#related_data_item)
+[related_data_item](#related_data_item)
 
-[media\_label](#media_label)
+[media_label](#media_label)
 
-[label\_value](#label_value)
+[label_value](#label_value)
 
-[assigned\_by](#assigned_by)
+[assigned_by](#assigned_by)
 
 <div class="anchortitle">
 
@@ -90,7 +90,7 @@ media are stored in three tables:
 
 ```
 
-Media . MEDIA\_URI VARCHAR2(255) not null
+Media . MEDIA_URI VARCHAR2(255) not null
 
 ```
 
@@ -113,15 +113,15 @@ roughly three classes:
 
 Try to avoid characters other than A-Z/a-z/0-9 in URLs. This is not
 always possible, but scripting
-“protocol://some\_domain/my/directory/structure/file\_name\_is\_out\_here.jpg”
+“protocol://some_domain/my/directory/structure/file_name_is_out_here.jpg”
 will always work, while admins may be less able to help with, for
-example, “protocol://some\_domain/my/directory/structure/file name is
+example, “protocol://some_domain/my/directory/structure/file name is
 out here.jpg”
 
 ```
 
-Media . MIME\_TYPE VARCHAR2(255) not null
-[ctmime\_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
+Media . MIME_TYPE VARCHAR2(255) not null
+[ctmime_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
 
 ```
 
@@ -137,8 +137,8 @@ controlled, described in
 
 ```
 
-Media . MEDIA\_TYPE VARCHAR2(255) not null
-[ctmedia\_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type)
+Media . MEDIA_TYPE VARCHAR2(255) not null
+[ctmedia_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type)
 
 ```
 
@@ -149,11 +149,11 @@ A description of the kind of media. These values are controlled by a
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type).
 Media Type exists to categorize Media whose MIME type is not
 sufficiently descriptive. A HTML image viewer application would have
-MIME\_TYPE of ‘text/html’ and MEDIA\_TYPE of ‘image,’ for example.
+MIME_TYPE of ‘text/html’ and MEDIA_TYPE of ‘image,’ for example.
 
 ```
 
-Media . PREVIEW\_URI VARCHAR2(255) null
+Media . PREVIEW_URI VARCHAR2(255) null
 
 ```
 
@@ -167,8 +167,8 @@ image.
 
 ```
 
-Media\_Relations . MEDIA\_RELATIONSHIP VARCHAR2(40) not null
-[ctmedia\_relationship](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship)
+Media_Relations . MEDIA_RELATIONSHIP VARCHAR2(40) not null
+[ctmedia_relationship](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship)
 
 ```
 
@@ -182,7 +182,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_rela
 
 ```
 
-Media\_Relations . CREATED\_BY\_AGENT\_ID NUMBER not null
+Media_Relations . CREATED_BY_AGENT_ID NUMBER not null
 
 ```
 
@@ -194,7 +194,7 @@ item. This is a foreign key to the Agent table.
 
 ```
 
-Media\_Relations . RELATED\_PRIMARY\_KEY NUMBER not null
+Media_Relations . RELATED_PRIMARY_KEY NUMBER not null
 
 ```
 
@@ -207,8 +207,8 @@ key.
 
 ```
 
-Media\_Labels . MEDIA\_LABEL VARCHAR2(255) not null
-[ctmedia\_label](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label)
+Media_Labels . MEDIA_LABEL VARCHAR2(255) not null
+[ctmedia_label](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label)
 
 ```
 
@@ -233,7 +233,7 @@ sources can be manually entered as Media Labels.
 
 ```
 
-Media\_Labels . LABEL\_VALUE VARCHAR2(255) not null
+Media_Labels . LABEL_VALUE VARCHAR2(255) not null
 
 ```
 
@@ -244,7 +244,7 @@ dates, which are ISO8601-format).
 
 ```
 
-Media\_Labels . ASSIGNED\_BY\_AGENT\_ID NUMBER not null
+Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null
 
 ```
 
@@ -252,7 +252,7 @@ Media\_Labels . ASSIGNED\_BY\_AGENT\_ID NUMBER not null
 
 ```
 
-Media\_Labels . ASSIGNED\_BY\_AGENT\_ID NUMBER not null
+Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null
 
 ```
 
@@ -267,8 +267,8 @@ table.
 
 Create only necessary relationships; allow the relational nature of
 Arctos to work for you. An image showing a specimen should have a
-relationship of “shows cataloged\_item” but not “shows
-collecting\_event” or “shows locality” or “documents accn,” all of which
+relationship of “shows cataloged_item” but not “shows
+collecting_event” or “shows locality” or “documents accn,” all of which
 can be derived from the relationship to the cataloged item.
 
 Choose reasonable media formats; use derivatives if necessary.
@@ -285,7 +285,7 @@ the resultant file is 2MB!
 Use reasonable previews; filesize should be under (preferably much
 under!) 10K (previews larger than 48K will NOT be displayed), and scale
 to \~120px. Cropped or otherwise misleading previews should be avoided.
-Leave preview\_uri NULL if producing a good thumbnail isn’t possible.
+Leave preview_uri NULL if producing a good thumbnail isn’t possible.
 
 [](){#creating}
 
@@ -346,8 +346,8 @@ Scan your material. If you can get the page number (starts with one,
 increments by one) in the file name, it will make everything else
 easier. Most scanners support sequential naming, such as
 
--   My\_Fieldnotes\_1.jpg
--   My\_Fieldnotes\_2.jpg.
+-   My_Fieldnotes_1.jpg
+-   My_Fieldnotes_2.jpg.
 
 Load the scans to a stable, archival, visible server. (As always, we
 
@@ -363,13 +363,13 @@ Expressions.)
 
 Required fields are:
 
--   MEDIA\_URI – the location to which you uploaded your scans
--   MIME\_TYPE – this must be image/jpeg
--   MEDIA\_TYPE – “multi-page document”
--   media\_label\_1 & media\_label\_value\_1 (some label-plus-value – it
+-   MEDIA_URI – the location to which you uploaded your scans
+-   MIME_TYPE – this must be image/jpeg
+-   MEDIA_TYPE – “multi-page document”
+-   media_label_1 & media_label_value_1 (some label-plus-value – it
     doesn’t have to be 1) are “page” with sequential integers starting
     with 1 as value.
--   media\_label\_2 & media\_label\_value\_2 – “title” – this must be
+-   media_label_2 & media_label_value_2 – “title” – this must be
     EXACTLY the same for all pages in the document.
 
 Use the additional fields as you normally would to add any additional
@@ -509,8 +509,8 @@ which to use in any particular situation.
 -   **“Stable Exit link” (
     (<http://arctos.database.museum/media/10002230?open>)**
 
-    Append “?open” (or “?open=true”) to the detail\_url; logs the
-    request and redirects to media\_URI. This is a “fairly permanent”
+    Append “?open” (or “?open=true”) to the detail_url; logs the
+    request and redirects to media_URI. This is a “fairly permanent”
     (a decade?) link to the Media URI. Logging is enabled. This link
     should continue to work as long as Arctos is at the same URL and
     running under the HTTP protocol, and the media itself is maintained.
@@ -545,7 +545,7 @@ which to use in any particular situation.
 
 ### Tips
 
-Media label **“Made\_Date”** requires value to be in [ISO date
+Media label **“Made_Date”** requires value to be in [ISO date
 format](http://en.wikipedia.org/wiki/ISO_8601) (e.g. 2014-05-01 for 1
 May 2014) and will give an error upon saving if not rendered in that
 format. Try updating the date to the correct format to avoid error

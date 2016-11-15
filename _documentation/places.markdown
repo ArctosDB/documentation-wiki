@@ -27,7 +27,7 @@ srcset="/images/classic-uploads/2011/09/screen-shot-2011-09-19-at-1-31-08-pm.png
 
 Returns these data:
 
-  CONTINENT\_OCEAN      COUNTRY         STATE\_PROV   SEA
+  CONTINENT_OCEAN      COUNTRY         STATE_PROV   SEA
   --------------------- --------------- ------------- --------------
   Arctic Ocean          -NULL-          -NULL-        Chukchi Sea
   North America         United States   Alaska        Chukchi Sea

@@ -27,7 +27,7 @@ those fields are treated on this page.
 
 ```
 
-Trans . Nature\_of\_Material
+Trans . Nature_of_Material
 
 VARCHAR2(4000) not null
 
@@ -42,7 +42,7 @@ mammals collected during the summer of 2004 in Denali State Park.”
 
 ```
 
-Trans . Trans\_Remarks
+Trans . Trans_Remarks
 
 VARCHAR2(4000) null
 

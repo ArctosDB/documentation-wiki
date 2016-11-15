@@ -39,7 +39,7 @@ are.
 
 ## What is shared
 
-Code tables with a “collection\_cde” column are shared across collection
+Code tables with a “collection_cde” column are shared across collection
 types. That is, all “Herp” collections (and no “Mamm” collections) have
 access to an Attribute “carapace width” which in all collections
 requires a numeric value and units. All collections share

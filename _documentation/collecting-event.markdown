@@ -21,9 +21,9 @@ Concepts
 
 [verbatim date](#verbatim_date)
 
-[began\_date](#began_date)
+[began_date](#began_date)
 
-[verbatim\_coordinates](#verbatim_coordinates)
+[verbatim_coordinates](#verbatim_coordinates)
 
 <div class="anchortitle">
 
@@ -44,7 +44,7 @@ from existing events, and/or given a nickname for easy identification.
 
 ```
 
-Collecting\_Event . COLLECTING\_EVENT\_NAME
+Collecting_Event . COLLECTING_EVENT_NAME
 
 VARCHAR(255) null
 
@@ -59,7 +59,7 @@ sequentially, such as hosts and parasites.
 
 ```
 
-Collecting\_Event . Verbatim\_Locality
+Collecting_Event . Verbatim_Locality
 
 VARCHAR(255) not null
 
@@ -87,7 +87,7 @@ than a single day.
 
 ```
 
-Collecting\_Event . Verbatim\_Date
+Collecting_Event . Verbatim_Date
 
 VARCHAR(60) not null
 
@@ -101,7 +101,7 @@ before the present.)
 
 ```
 
-Collecting\_Event . Began\_Date
+Collecting_Event . Began_Date
 
 ```
 
@@ -115,7 +115,7 @@ ISO8601, not null
 
 – – –
 
-Collecting\_Event . Ended\_Date
+Collecting_Event . Ended_Date
 
 ISO8601, not null
 

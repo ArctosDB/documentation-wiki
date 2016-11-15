@@ -74,23 +74,23 @@ with the ESCAPE key to enter a different format.) Traditional collecting
 activities might record an identical began and ended date, giving
 precision to day:
 
--   Began\_Date: 2010-08-27
--   Ended\_Date: 2010-08-27
+-   Began_Date: 2010-08-27
+-   Ended_Date: 2010-08-27
 
 For scientific sampling activities, a more precise timespan could be
 recorded. For example, perhaps a mist net is opened for 15 minutes.
 Specimens collected during that time could be entered as:
 
--   Began\_Date: 2010-08-27T09:30
--   Ended\_Date: 2010-08-27T09:45
+-   Began_Date: 2010-08-27T09:30
+-   Ended_Date: 2010-08-27T09:45
 
 This describes an ambiguous 15-minute timespan. The event began on the
 27th day of August 2010 at some local time, rounded to the nearest
 minute, and ended 15 minutes later. A less ambiguous description would
 be:
 
--   Began\_Date: 2010-08-27T09:30:00-07
--   Ended\_Date: 2010-08-27T09:45:00-07
+-   Began_Date: 2010-08-27T09:30:00-07
+-   Ended_Date: 2010-08-27T09:45:00-07
 
 This describes the same 15-minute timespan with more accuracy (to the
 second) happening seven hours before UTC (perhaps in California during
@@ -101,8 +101,8 @@ those two events? An alternative and preferred method would be to record
 UTC time. The following example describes a timespan identical to the
 above example, but is easier to compare to other such data.
 
--   Began\_Date: 2010-08-27T16:30:00Z
--   Ended\_Date: 2010-08-27T16:45:00Z
+-   Began_Date: 2010-08-27T16:30:00Z
+-   Ended_Date: 2010-08-27T16:45:00Z
 
 Note that timezone offset should NOT be used to infer location. GMT-7
 could mean the data were recorded in California in the summer, Montana
@@ -111,7 +111,7 @@ settings. Other date data may be recorded with less precision. For
 example, Agents’ birth and death dates are often known only to year. To
 record this information, one could simply enter:
 
--   Birth\_Date: 1927
+-   Birth_Date: 1927
 
 **Excel hates me. Help!**
 

@@ -50,7 +50,7 @@ as a field number.  A specimen citation includes:
 
 ```
 
-Citation . Publication\_ID (FK)
+Citation . Publication_ID (FK)
 
 INTEGER not null
 
@@ -65,7 +65,7 @@ publication is in its final form.
 
 ```
 
-Citation . Identification\_ID (FK)
+Citation . Identification_ID (FK)
 
 INTEGER not null
 
@@ -77,7 +77,7 @@ INTEGER not null
 
 ```
 
-Citation . Occurs\_Page\_Number
+Citation . Occurs_Page_Number
 
 INTEGER null
 
@@ -91,11 +91,11 @@ pages within the same publication are ignored.
 
 ```
 
-Citation . Type\_Status
+Citation . Type_Status
 
 VARCHAR(20) not null
 
-[ctcitation\_type\_status](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status)
+[ctcitation_type_status](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status)
 
 ```
 
@@ -110,13 +110,13 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_t
 
 ```
 
-Citation . identification\_id (FK)
+Citation . identification_id (FK)
 
 INTEGER not null
 
 ```
 
-**Cited As** is the Identification.Scientific\_Name to which the
+**Cited As** is the Identification.Scientific_Name to which the
 author(s) applied the specimen in the publication.  Sometimes this must
 be inferred from the publication because the author has not explicitly
 identified individual specimens.  For example, the whole paper is about
@@ -153,7 +153,7 @@ the Search -&gt; Publication/Project tabs, clicking the Citation Button,
 and using the form (Citation.cfm) to enter the appropriate information. 
 You can select the cited specimens by catalog number or an Other
 Identifier.  The form will automatically fill in the catalog number (if
-an Other\_ID was used), and the current taxonomic determination for the
+an Other_ID was used), and the current taxonomic determination for the
 specimen.  You then select the scientific name by which the publication
 cited the item.
 

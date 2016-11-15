@@ -84,7 +84,7 @@ are seldom useful.)
 
 ```
 
-Agent . Agent\_Type
+Agent . Agent_Type
 
 VARCHAR2(15) not null
 
@@ -175,7 +175,7 @@ Groups may be useful for things like collecting expeditions.
 
 ```
 
-Agent\_Name . Agent\_Name
+Agent_Name . Agent_Name
 
 VARCHAR2(184) not null
 
@@ -190,11 +190,11 @@ have any number of other names.
 
 ```
 
-Agent\_Name . Agent\_Name\_Type
+Agent_Name . Agent_Name_Type
 
 VARCHAR2(18) not null
 
-ctagent\_name\_type
+ctagent_name_type
 
 ```
 
@@ -207,7 +207,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name
 
 ```
 
-Agent . Agent\_Remark
+Agent . Agent_Remark
 
 VARCHAR2(255) null
 
@@ -297,7 +297,7 @@ Attributes.
     when appropriate.
 -   If possible (especially for non-person Agents), follow Wikipedia for
     preferred agent name. See for example
-    https://en.wikipedia.org/wiki/United\_States\_Fish\_and\_Wildlife\_Service,
+    https://en.wikipedia.org/wiki/United_States_Fish_and_Wildlife_Service,
     which should be entered in Arctos as “United States Fish and
     Wildlife Service.” Include common variations, stock symbols, etc.,
     as nonpreferred names.
@@ -325,7 +325,7 @@ Different Agent, Same Name
 --------------------------
 
 Occasionally, two distinct agents will share a name, but there exists a
-unique key on preferred\_name so duplicate preferred names are not
+unique key on preferred_name so duplicate preferred names are not
 possible. With some research, it is usually possible to disambiguate the
 agents by adding initials, middle names, or nicknames. If that is not
 possible, it may be necessary to add parenthetical information to the
@@ -338,7 +338,7 @@ remarks.
 Without the unique key, applications which use strings to identify
 agents, such as the specimen bulkloader, cannot use preferred names, and
 it becomes necessary to add unique aliases to pick agents. (Internal
-forms pick by agent\_id and names are only “human-readable proxies” to
+forms pick by agent_id and names are only “human-readable proxies” to
 the ID.) The current unique index approach seems less problematic than
 the alternative, both in getting students to choose the correct agent
 and in avoiding duplicate agent creation, but neither method is ideal.
@@ -360,7 +360,7 @@ components, and login name.
 **Agent Type** matches values used in the [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE).
 
-[]()**Agent ID** matches the (internal, primary key) agent\_id (an
+[]()**Agent ID** matches the (internal, primary key) agent_id (an
 integer).
 
 **Agent Name Type** matches values used in a [code table. Corresponding

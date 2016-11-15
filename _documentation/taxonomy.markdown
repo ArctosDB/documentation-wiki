@@ -52,9 +52,9 @@ might be useful in discovering specimens, it should be included in
 Arctos. (Remarks, annotated taxon relationships, and links to
 publications should be used to clarify.)
 
-Arctos taxonomy consists of two tables: taxon\_name is a list of “base
-names” (genera, species, kingdoms) and taxon\_term contains metadata
-regarding a taxon\_name, optionally organized in various ways. Informal
+Arctos taxonomy consists of two tables: taxon_name is a list of “base
+names” (genera, species, kingdoms) and taxon_term contains metadata
+regarding a taxon_name, optionally organized in various ways. Informal
 terms, such as “Sorex sp.” or “Sorex cinereus or Sorex ugyunak” are
 Identifications, not taxonomy. (Identifications are generally drawn from
 and linked to taxonomy in various ways.)
@@ -62,7 +62,7 @@ and linked to taxonomy in various ways.)
 
 ## Taxon Name
 
-The names in taxon\_name are intended to be a formal taxonomic
+The names in taxon_name are intended to be a formal taxonomic
 authority, and should all be drawn from relevant taxonomic publications.
 A name is not linked to any particular classification (rather,
 classifications are linked to names), and may be a homonym or
@@ -118,7 +118,7 @@ concepts, such as plants and animals.
 
 ```
 
-Common\_Name . Common\_Name
+Common_Name . Common_Name
 
 VARCHAR2 (20) null
 
@@ -139,11 +139,11 @@ particular standard such as that of the American Ornithological Union
 
 ```
 
-Taxon\_Relations . Taxon\_Relationship
+Taxon_Relations . Taxon_Relationship
 
 VARCHAR2 (30) not null
 
-cttaxon\_relation
+cttaxon_relation
 
 ```
 
@@ -155,7 +155,7 @@ another record in the taxonomy table.
 
 ```
 
-Taxon\_Relations . Relationship\_Authority
+Taxon_Relations . Relationship_Authority
 
 VARCHAR2 (45) null
 
@@ -383,7 +383,7 @@ Genus microtus according to Arctos
 ## Relationship of taxonomy to specimens
 
 The link between taxonomy and specimens is through Identification and
-Identification\_Taxonomy. However, Taxonomy no longer resolves to a
+Identification_Taxonomy. However, Taxonomy no longer resolves to a
 single set of ranked assertions (eg, row in table). Collections chose a
 single preferred source (in manage collection), and the data in that
 classification become available for various “specimen-taxonomy” purposes
@@ -480,20 +480,20 @@ for understanding why a specimen has been assigned to a name, or why a
 name has been assigned to a classification. Some terms are especially
 important:
 
--   **display\_name** is the HTML-formatted namestring. This is included
+-   **display_name** is the HTML-formatted namestring. This is included
     in various places on Arctos forms, and in FLAT and DWC
-    as FORMATTED\_SCIENTIFIC\_NAME. The form will suggest values for
-    display\_name; click to accept the suggestions, or type your own,
+    as FORMATTED_SCIENTIFIC_NAME. The form will suggest values for
+    display_name; click to accept the suggestions, or type your own,
     including any necessary HTML markup.
--   **nomenclatural\_code** controls how display\_name is suggested, and
+-   **nomenclatural_code** controls how display_name is suggested, and
     helps format display. Actionable values are “ICZN” and “ICNB.”
--   **author\_text** is the author of ICZN names, or the species author
+-   **author_text** is the author of ICZN names, or the species author
     of ICBN names
--   **infraspecific\_author** is the author of the infraspecific epithet
+-   **infraspecific_author** is the author of the infraspecific epithet
     in ICBN names
 
 The ordering of these terms is unimportant, and un-paired terms (e.g.,
-display\_name=NULL or NULL=”Sorex cinereus”) will be ignored (that is,
+display_name=NULL or NULL=”Sorex cinereus”) will be ignored (that is,
 deleted at save).
 
 **Classification terms** are ordered taxonomic data (drag rows to

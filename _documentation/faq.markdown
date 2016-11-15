@@ -38,9 +38,9 @@ supply metadata qualifying your assertions. We strongly believe that
 this is a necessary part of managing the specimens and data with which
 we have been entrusted, and thus worth the effort to learn this system.
 
-**Q: Are these live data?
+**Q: Are these live data?**
 
-**A: Almost. Live data are stored in a [highly normalized relational
+A: Almost. Live data are stored in a [highly normalized relational
 structure](http://code.google.com/p/arctos/downloads/list) – fabulous
 for organization, not so hot for query. Some data are then optimized for
 query performance by way of Database Triggers. Presentation data are

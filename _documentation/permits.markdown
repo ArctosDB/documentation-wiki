@@ -35,7 +35,7 @@ and any number of permits may be required for a transaction.
 
 ```
 
-Permit . Permit\_Num
+Permit . Permit_Num
 VARCHAR(20) null
 
 ```
@@ -49,10 +49,10 @@ Not all permits have such a number.
 
 ```
 
-Permit . Permit\_Type
+Permit . Permit_Type
 VARCHAR(50) not null
 
-ctpermit\_type
+ctpermit_type
 
 ```
 
@@ -76,7 +76,7 @@ exportation.
 
 ```
 
-Permit . Issued\_To\_Agent\_id
+Permit . Issued_To_Agent_id
 INTEGER not null
 
 ```
@@ -89,7 +89,7 @@ This could be either a person or organization.
 
 ```
 
-Permit . Issued\_By\_Agent\_id
+Permit . Issued_By_Agent_id
 INTEGER not null
 
 ```
@@ -102,7 +102,7 @@ This could be either a person or organization.
 
 ```
 
-Permit . Contact\_Agent\_id
+Permit . Contact_Agent_id
 INTEGER not null
 
 ```
@@ -118,7 +118,7 @@ This should always be a person, not an organization.
 
 ```
 
-Permit . Issued\_Date
+Permit . Issued_Date
 DATETIME null
 
 ```
@@ -141,7 +141,7 @@ A valid date is required.
 
 ```
 
-Permit . Renewed\_Date
+Permit . Renewed_Date
 DATETIME null
 
 ```
@@ -154,7 +154,7 @@ activity, some permits may be renewed.
 
 ```
 
-Permit . Exp\_Date
+Permit . Exp_Date
 DATETIME null
 
 ```
@@ -169,7 +169,7 @@ of the approaching expiration.
 
 ```
 
-Permit . Permit\_Remarks
+Permit . Permit_Remarks
 VACHAR(255) null
 
 ```

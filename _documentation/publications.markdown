@@ -57,7 +57,7 @@ can be related to a [Project](project).
 
 ```
 
-Publication . Full\_Citation
+Publication . Full_Citation
 
 varchar(4000) not null
 
@@ -112,7 +112,7 @@ formatting should be handled with HTML tags.
 
 ```
 
-Publication . Short\_Citation
+Publication . Short_Citation
 
 varchar(4000) not null
 
@@ -131,11 +131,11 @@ formatting.
 
 ```
 
-Publication . Publication\_Type
+Publication . Publication_Type
 
 not null VARCHAR2(21)
 
-[ctPublication\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE)
+[ctPublication_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE)
 
 ```
 
@@ -147,7 +147,7 @@ vocabulary is
 
 ```
 
-Publication . Publication\_Year
+Publication . Publication_Year
 
 number, not null
 
@@ -160,7 +160,7 @@ a four-digit integer, *e.g*., 1985.
 
 ```
 
-Publication . Is\_Peer\_Reviewed\_FG
+Publication . Is_Peer_Reviewed_FG
 
 number(1), not null
 
@@ -206,21 +206,21 @@ The following are examples of formats that **contain** DOIs; they are
 
 ```
 
-Publication\_Agent . Publication\_Agent\_ID
+Publication_Agent . Publication_Agent_ID
 
 number, not null (primary key)
 
 – – –
 
-Publication\_Agent . Agent\_ID
+Publication_Agent . Agent_ID
 
-number, not null (foreign key = Agent . Agent\_ID)
+number, not null (foreign key = Agent . Agent_ID)
 
 – – –
 
-Publication\_Agent . Publication\_ID
+Publication_Agent . Publication_ID
 
-number, not null (foreign key = Publication . Publication\_ID
+number, not null (foreign key = Publication . Publication_ID
 
 ```
 
@@ -237,11 +237,11 @@ formatted agent names are part of the full citation.
 
 ```
 
-Publication . Author\_Role
+Publication . Author_Role
 
 varchar2(255), not null
 
-[ctAuthor\_Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE)
+[ctAuthor_Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE)
 
 ```
 
@@ -402,7 +402,7 @@ fragile, and do not serve as a suitable replacement for DOIs.
 
 Arctos provides tools to find publications lacking DOIs, and to locate
 DOIs for those publications. If you are an operator with
-mange\_publication rights you will receive missing DOI notifications in
+mange_publication rights you will receive missing DOI notifications in
 publication search results and the publication edit screen. In most
 cases, adding a DOI is simply a matter of clicking the button, letting
 the service work, and saving. Please leave a remark as suggested (the

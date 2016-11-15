@@ -42,7 +42,7 @@ place/time.
 [](){.infoLink}
 
 **Event Type** See
-[CTSPECIMEN\_EVENT\_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSPECIMEN_EVENT_TYPE)
+[CTSPECIMEN_EVENT_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSPECIMEN_EVENT_TYPE)
 
 [](){.infoLink}
 
@@ -57,7 +57,7 @@ event are related. Examples:
 [](){.infoLink}
 
 **Collecting Source** See
-[CTCOLLECTING\_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLLECTING_SOURCE)
+[CTCOLLECTING_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLLECTING_SOURCE)
 
 [](){.infoLink}
 

@@ -20,7 +20,7 @@ etc. (Definition at TDWG:
 <http://wiki.tdwg.org/twiki/bin/view/DarwinCore/GlobalUniqueIdentifier>)
 
 If the correct term is entered by the owner of the GenBank accession
-under “source/specimen\_voucher,” then the catalog number will appear on
+under “source/specimen_voucher,” then the catalog number will appear on
 the GenBank sequence page as a link to the specimen record. An example
 in GenBank:
 <http://www.ncbi.nlm.nih.gov/nuccore/157058307?report=GenBank>

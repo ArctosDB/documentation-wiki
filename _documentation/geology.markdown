@@ -16,17 +16,17 @@ method.
 
 ### Structure
 
-UAM@ARCTOS&gt; desc geology\_attributes\
+UAM@ARCTOS&gt; desc geology_attributes\
 Name                                   Null?    Type\
 —————————————————————– ——– ——————————————–\
-GEOLOGY\_ATTRIBUTE\_ID                           NOT NULL NUMBER\
-LOCALITY\_ID                               NOT NULL NUMBER\
-GEOLOGY\_ATTRIBUTE                           NOT NULL VARCHAR2(255)\
-GEO\_ATT\_VALUE                               NOT NULL VARCHAR2(255)\
-GEO\_ATT\_DETERMINER\_ID                                NUMBER\
-GEO\_ATT\_DETERMINED\_DATE                            DATE\
-GEO\_ATT\_DETERMINED\_METHOD                            VARCHAR2(255)\
-GEO\_ATT\_REMARK                                 VARCHAR2(4000)
+GEOLOGY_ATTRIBUTE_ID                           NOT NULL NUMBER\
+LOCALITY_ID                               NOT NULL NUMBER\
+GEOLOGY_ATTRIBUTE                           NOT NULL VARCHAR2(255)\
+GEO_ATT_VALUE                               NOT NULL VARCHAR2(255)\
+GEO_ATT_DETERMINER_ID                                NUMBER\
+GEO_ATT_DETERMINED_DATE                            DATE\
+GEO_ATT_DETERMINED_METHOD                            VARCHAR2(255)\
+GEO_ATT_REMARK                                 VARCHAR2(4000)
 
  
 

@@ -44,7 +44,7 @@ purposes of cataloging.
 
 ```
 
-Accn . accn\_number
+Accn . accn_number
 
 VARCHAR2(60) not null
 
@@ -57,7 +57,7 @@ accession.  This is under revision at this writing.
 
 ```
 
-Accn . accn\_status
+Accn . accn_status
 
 VARCHAR2(20) not null
 
@@ -80,11 +80,11 @@ Science accession and locality card scans.
 
 ```
 
-Accn . accn\_type
+Accn . accn_type
 
 VARCHAR2(35) not null
 
-[ctAccn\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type)
+[ctAccn_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type)
 
 ```
 
@@ -103,7 +103,7 @@ name of the agency.
 
 ```
 
-Accn . Received\_Date
+Accn . Received_Date
 
 DATE not null
 
@@ -122,7 +122,7 @@ necessarily displayed in normal applications?}
 
 ```
 
-Trans . Trans\_Remarks
+Trans . Trans_Remarks
 
 VARCHAR2(4000) null
 
@@ -154,7 +154,7 @@ by another collection.  For data entry (through either the data-entry
 application or the bulkloader) indicate the accession that you wish to
 use, but put brackets around the part of the accession “number” that
 indicates the collection.  This effectively tells the bulkloader,
-“ignore the collection (collection\_cde + institution\_acronym) to which
+“ignore the collection (collection_cde + institution_acronym) to which
 this record is going to be appended, and indicate the accession based on
 what is in the brackets.” (Though that accession must be present in
 Arctos.)  Examples include:

@@ -51,11 +51,11 @@ relationships among specimens (such as hosts of parasites).
 ```
 
 
-Coll\_Obj\_Other\_ID\_Num . Other\_ID\_Type
+Coll_Obj_Other_ID_Num . Other_ID_Type
 
 VARCHAR2(75) not null
 
-ctcoll\_other\_ID\_type
+ctcoll_other_ID_type
 
 
 ```
@@ -78,9 +78,9 @@ code-table entry for GenBank is
 sizes="(max-width: 640px) 100vw, 640px"
 srcset="/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png 1146w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-300x29.png 300w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-768x75.png 768w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-1024x100.png 1024w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-250x24.png 250w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-550x54.png 550w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-800x78.png 800w"}](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png)
 
-The columns above are “other ID type,” “definition,” and “base\_URL.”
+The columns above are “other ID type,” “definition,” and “base_URL.”
 
-The full base\_url is
+The full base_url is
 
 <http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=nucleotide&doptcmdl=GenBank&term=>
 
@@ -102,11 +102,11 @@ returning the link to the GenBank record for that specimen
 
 ```
 
-Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Prefix VARCHAR2(60)
+Coll_Obj_Other_ID_Num.Other_ID_Prefix VARCHAR2(60)
 
-Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Number NUMBER
+Coll_Obj_Other_ID_Num.Other_ID_Number NUMBER
 
-Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Suffix VARCHAR2(60)
+Coll_Obj_Other_ID_Num.Other_ID_Suffix VARCHAR2(60)
 
 ```
 
@@ -117,7 +117,7 @@ three fields:
 -   Number (integer)
 -   Suffix (text)
 
-which are automatically concatenated into display\_value. Display value
+which are automatically concatenated into display_value. Display value
 can, for most purposes, be considered “the number”; the tripartite
 structure exists primarily to facilitate numerical sorting.
 
@@ -231,7 +231,7 @@ Term: **MVZ: Museum of Vertebrate Zoology**
 Defintion: **Various inactionable identifiers assigned by the MVZ**
 
 Better than “MVZ” would be the identifier type “MVZ:Bird,” which in
-conjunction with a base\_url could serve as a [GUID](catalog/#guid) to
+conjunction with a base_url could serve as a [GUID](catalog/#guid) to
 specimens. (Note that this example also works from outside the MVZ – for
 example, if the MSB Bird Collection had co-cataloged an MVZ specimen.)
 

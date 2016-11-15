@@ -62,7 +62,7 @@ synonymously with “cataloged item” throughout Arctos.
 
 ```
 
-Cataloged\_Item . Cat\_Num
+Cataloged_Item . Cat_Num
 
 NUMBER not null
 
@@ -104,13 +104,13 @@ The following table is illustrative.
   %12%        **12**, **12**1, **12**a, 9994836**12**345, ….   “%” is “match anything.” This matches anything CONTAINING 12.
   %12         12, 112, AABC-5-a12, ….                          “%” is “match anything.” This matches anything ENDING WITH 12.
   \_12        012, a12, 912, ….                                “\_” is “match any single character.”
-  1\_2        102, 112, 1A2, ….                                “\_” is “match any single character.”
+  1_2        102, 112, 1A2, ….                                “\_” is “match any single character.”
 
 [](){.infoLink}
 
 ## Guid Prefix
 
-Catalogs are most usefully defined by way of Collection.Guid\_Prefix,
+Catalogs are most usefully defined by way of Collection.Guid_Prefix,
 which in conjunction with catalog number forms a unique identifier
 within Arctos, and in conjunction with Arctos’ URI forms a Globally
 Unique Identifier (GUID) for the specimen record. GUIDs, once formed,
@@ -137,7 +137,7 @@ example:
 
 ```
 
-Collection . Collection\_Cde
+Collection . Collection_Cde
 
 VARCHAR2(4) not null
 
@@ -175,7 +175,7 @@ An extended name/description of the collection. For example:
 
 ```
 
-Collection . Institution\_Acronym
+Collection . Institution_Acronym
 
 VARCHAR2(20) not null
 
@@ -275,8 +275,8 @@ height="78"}](/images/classic-uploads/2013/06/d19e1-screenshot2011-07-12at11-01-
 
 </div>
 
-This sends the query upper(customIdentifier.Display\_Value) LIKE
-‘%1234%’ (display\_value is a concatenation of prefix, number, and
+This sends the query upper(customIdentifier.Display_Value) LIKE
+‘%1234%’ (display_value is a concatenation of prefix, number, and
 suffix). This returns specimens with Collector Numbers of:
 
 -   ABC-1234-X
@@ -300,7 +300,7 @@ height="76"}](/images/classic-uploads/2013/06/f841d-screenshot2011-07-12at11-13-
 
 </div>
 
-The above example sends SQL upper(customIdentifier.DISPLAY\_VALUE) IN
+The above example sends SQL upper(customIdentifier.DISPLAY_VALUE) IN
 (‘A’,’B’,’C’), and as of this writing returns three specimens:
 
 <div class="separator" style="clear:both;text-align:center">
@@ -327,7 +327,7 @@ height="116"}](/images/classic-uploads/2013/06/1480d-screenshot2011-07-12at11-26
 
 </div>
 
-to send SQL customIdentifier.other\_id\_number = 1234<span
+to send SQL customIdentifier.other_id_number = 1234<span
 style="font-family:Arial, Helvetica, sans-serif">. </span>
 
 This is a numeric match of the numeric part of other IDs. It will not
@@ -353,8 +353,8 @@ height="90"}](/images/classic-uploads/2013/06/c3328-screenshot2011-07-12at11-37-
 
 <div class="separator" style="clear:both;text-align:left">
 
-sends SQL AND upper(customIdentifier.other\_id\_prefix) LIKE ‘%A%’ AND
-customIdentifier.other\_id\_number = 123 (note prefix is a CONTAINS
+sends SQL AND upper(customIdentifier.other_id_prefix) LIKE ‘%A%’ AND
+customIdentifier.other_id_number = 123 (note prefix is a CONTAINS
 match and is not case-sensitive) and returns these specimens:
 
 </div>
@@ -505,8 +505,8 @@ To do this,
 
 2.   Insert into table REDIRECT (Manage Data/Tools/Redirects) old and
     new paths. For example, if DGR:Mamm:123 is recataloged as
-    MSB:Mamm:456, enter: old\_path=**/guid/DGR:Mamm:123**;
-    new\_path=**/guid/MSB:Mamm:456**.
+    MSB:Mamm:456, enter: old_path=**/guid/DGR:Mamm:123**;
+    new_path=**/guid/MSB:Mamm:456**.
 
 []()
 

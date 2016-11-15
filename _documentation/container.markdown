@@ -68,8 +68,8 @@ containers, and they can be put into other containers, which are
 arbitrary curatorial declarations hopefully arranged in some useful
 fashion, such as bones in boxes on shelves. Barcodes (“machine-readable
 code” – 2D codes, RFID, etc.) are just machine-readable proxies to
-container\_id. Labels are (less reliable) human-readable proxies to
-container\_id. Dimensions, container\_type, procedures to disallow
+container_id. Labels are (less reliable) human-readable proxies to
+container_id. Dimensions, container_type, procedures to disallow
 infinite recursion, etc. – everything else about the model – are
 attempts to prevent human errors or provide useful information about or
 from containers. (All such clues are probably unnecessary in a perfect
@@ -100,11 +100,11 @@ freezer).
 
 ```
 
-Container . Container\_Type
+Container . Container_Type
 
 VARCHAR(20) not null
 
-[ctcontainer\_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcontainer_type)
+[ctcontainer_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcontainer_type)
 
 ```
 
@@ -132,7 +132,7 @@ useful.
 
 ```
 
-Container . Parent\_Container\_id
+Container . Parent_Container_id
 
 NUMBER not null
 
@@ -232,7 +232,7 @@ the Biology Annex” may be expeditious.
 
 ```
 
-Container\_History . Install\_Date
+Container_History . Install_Date
 
 DATETIME not null
 
@@ -246,7 +246,7 @@ parent.
 
 ```
 
-Container . container\_remarks
+Container . container_remarks
 
 VARCHAR(255) null
 
@@ -262,7 +262,7 @@ legacy containers (*i.e.,* containers without barcode labels).
 
 ```
 
-Container . print\_fg
+Container . print_fg
 
 NUMBER(1) null
 
@@ -305,7 +305,7 @@ Some common container dimensions:
 
 ```
 
-Container . Number\_Positions
+Container . Number_Positions
 
 INTEGER null
 
@@ -323,7 +323,7 @@ as scanning cryovials into a 100-position freezer box versus an
 
 ```
 
-Container . institution\_acronym
+Container . institution_acronym
 
 VARCHAR(20) not null
 

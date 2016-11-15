@@ -15,9 +15,9 @@ layout: default_toc
 
 [agent](#agent)
 
-[agent\_role](#agent_role)
+[agent_role](#agent_role)
 
-[agent\_order](#agent_order)
+[agent_order](#agent_order)
 
 </div>
 

@@ -82,11 +82,11 @@ prevent accurately representing the data.
 
 ```
 
-collecting\_event . Orig\_Lat\_long\_Units
+collecting_event . Orig_Lat_long_Units
 
 VARCHAR(20) null
 
-[ctlat\_long\_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS)
+[ctlat_long_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS)
 
 DarwinCore2=VerbatimCoordinateSystem
 
@@ -112,7 +112,7 @@ the original data.
 
 ```
 
-Collecting\_Event . Datum
+Collecting_Event . Datum
 
 VARCHAR(40) null
 
@@ -137,11 +137,11 @@ this information as well.
 
 ```
 
-Locality . GEOREFERENCE\_SOURCE
+Locality . GEOREFERENCE_SOURCE
 
 VARCHAR(255) not null
 
-[ctGEOREFERENCE\_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_SOURCE "Georefrence Source")
+[ctGEOREFERENCE_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_SOURCE "Georefrence Source")
 
 DarwinCore2=GeoreferenceSources
 
@@ -177,11 +177,11 @@ with the specimen. Examples:
 
 ```
 
-Locality.GEOREFERENCE\_PROTOCOL
+Locality.GEOREFERENCE_PROTOCOL
 
 VARCHAR(40) not null
 
-[ctGEOREFERENCE\_PROTOCOL](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_PROTOCOL "GEOREFERENCE_PROTOCOL")
+[ctGEOREFERENCE_PROTOCOL](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_PROTOCOL "GEOREFERENCE_PROTOCOL")
 
 ```
 
@@ -196,7 +196,7 @@ for this field is controlled.
 
 ```
 
-Lat\_Long . Max\_Error\_Distance
+Lat_Long . Max_Error_Distance
 
 NUMBER null
 
@@ -212,7 +212,7 @@ DarwinCore2=CoordinateUncertaintyInMeters
 
 ```
 
-Lat\_Long . Max\_Error\_Units
+Lat_Long . Max_Error_Units
 
 VARCHAR2(2) null
 
@@ -220,7 +220,7 @@ VARCHAR2(2) null
 
 ```
 
-[ctlat\_long\_error\_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_error_units "Distance Units")
+[ctlat_long_error_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_error_units "Distance Units")
 
 ```
 
@@ -250,8 +250,8 @@ ambiguous or misleading locality descriptions, see [MVZ’s
 guidelines](http://mvz.berkeley.edu/Locality_Field_Recording.html).
 
 Note that there is no error inherent to coordinates.
-{Dec\_Lat=12,Dec\_Long=34} is precisely the same point as
-{Dec\_Lat=12.000000000000000000000000000000,Dec\_Long=34.000000000000000000000000000000}.
+{Dec_Lat=12,Dec_Long=34} is precisely the same point as
+{Dec_Lat=12.000000000000000000000000000000,Dec_Long=34.000000000000000000000000000000}.
 Make no assumptions of coordinate error or “size” (all coordinates
 describe a point) based on anything other than asserted maximum error.
 
@@ -263,7 +263,7 @@ here) to the value in meters.
 
 ```
 
-Lat\_Long . Determined\_By\_Agent\_id
+Lat_Long . Determined_By_Agent_id
 
 INT not null
 
@@ -296,7 +296,7 @@ accepted determination.
 
 ```
 
-Lat\_Long . Determined\_Date
+Lat_Long . Determined_Date
 
 DATETIME null
 
@@ -310,7 +310,7 @@ date as a default for new records.
 
 ```
 
-Lat\_Long . VerificationStatus
+Lat_Long . VerificationStatus
 
 VARCHAR(40) not null
 
@@ -336,7 +336,7 @@ possible.
 
 ```
 
-Lat\_Long . Accepted\_Lat\_Long\_fg
+Lat_Long . Accepted_Lat_Long_fg
 
 TINYINT not null
 
@@ -351,7 +351,7 @@ flag from “no” to “yes.”
 
 ```
 
-Lat\_Long . Lat\_Long\_Remarks
+Lat_Long . Lat_Long_Remarks
 
 VARCHAR2(4000) null
 

@@ -15,13 +15,13 @@ Concepts
 
 [Locality Nickname](#locality_name)
 
-[specific\_locality](#specific_locality)
+[specific_locality](#specific_locality)
 
 [elevation](#elevation)
 
 [depth](#depth)
 
-[trs\_data](#trs_data)
+[trs_data](#trs_data)
 
 [nogeorefbecause](#nogeorefbecause)
 
@@ -83,7 +83,7 @@ locality.
 
 ```
 
-Locality . Spec\_Locality
+Locality . Spec_Locality
 
 VARCHAR2 (255) null
 
@@ -220,19 +220,19 @@ Events](collecting-event) for more details).
 
 ```
 
-Locality . Maximum\_Elevation
+Locality . Maximum_Elevation
 
-Locality . Minimum\_Elevation
+Locality . Minimum_Elevation
 
 NUMBER null
 
 – – –
 
-Locality . Orig\_Elev\_Units
+Locality . Orig_Elev_Units
 
 VARCHAR2 (2) null
 
-ctorig\_elev\_units
+ctorig_elev_units
 
 ```
 
@@ -249,19 +249,19 @@ fields.
 
 ```
 
-Locality . Max\_Depth
+Locality . Max_Depth
 
-Locality . Min\_Depth
+Locality . Min_Depth
 
 NUMBER null
 
 – – –
 
-Locality . Depth\_Units
+Locality . Depth_Units
 
 VARCHAR2 (2) null
 
-ctdepth\_units
+ctdepth_units
 
 ```
 

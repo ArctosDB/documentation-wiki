@@ -61,11 +61,11 @@ forms in which the vocabularies are used.
 
 ```
 
-Attributes . Attribute\_Type
+Attributes . Attribute_Type
 
 VARCHAR(60) not null
 
-[ctAttribute\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
+[ctAttribute_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
 
 ```
 
@@ -75,10 +75,10 @@ possible.  These names of Attributes are listed, defined, and linked to
 particular types of collections, in an another [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type).
 
--   [ctAttribute\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
+-   [ctAttribute_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
     lists all Attribute names, collection types, and definitions of what
     the Attributes are.
--   [ctAttribute\_Code\_Tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
+-   [ctAttribute_Code_Tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
     (“code table of code tables) lists all Attributes that have
     controlled vocabulary and associates them with specific tables that
     control their specific vocabularies.
@@ -87,11 +87,11 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_
 
 ```
 
-Attributes . Attribute\_Value
+Attributes . Attribute_Value
 
 VARCHAR(255) not null
 
-[ct\_Attribute\_Code\_Tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
+[ct_Attribute_Code_Tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
 
 ```
 
@@ -149,15 +149,15 @@ be given in the [Attribute Remark](#remark).
 
 ```
 
-Attributes.Attribute\_Units
+Attributes.Attribute_Units
 
 VARCHAR(60) null
 
-[ctLength\_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
+[ctLength_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
 
-[ctNumeric\_Age\_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)
+[ctNumeric_Age_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)
 
-[ctWeight\_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
+[ctWeight_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
 
 ```
 
@@ -172,7 +172,7 @@ tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE
 
 ```
 
-Attributes.Determination\_Method
+Attributes.Determination_Method
 
 VARCHAR(255) null
 
@@ -188,7 +188,7 @@ for Method.
 
 ```
 
-Attributes.Attribute\_Remark
+Attributes.Attribute_Remark
 
 VARCHAR(255) null
 
@@ -204,7 +204,7 @@ VARCHAR(255) null
 
 ```
 
-Attributes.Determined\_By\_Agent\_id
+Attributes.Determined_By_Agent_id
 
 integer, not null
 
@@ -221,7 +221,7 @@ been used as a default value for Determiner.
 
 ```
 
-Attributes . Determined\_Date
+Attributes . Determined_Date
 
 datetime, null
 
@@ -277,10 +277,10 @@ specimens; sex `contains` ‘male’ will find both *male* and *fe**male***.
 
 In addition to the above, the interactive Specimen Results Widget will
 accept any attribute, with spaces and dashes replaced by underscore, as
-a variable. For example, “age class” becomes “age\_class.”
+a variable. For example, “age class” becomes “age_class.”
 
 All attributes (and most other variables) will accept underbar (\_) to
-mean “require the field; match any value.” For example, “age\_class=\_”
+mean “require the field; match any value.” For example, “age_class=\_”
 will return specimens for which the attribute “age class” exists.
 
 String attributes – those consisting of uncontrolled text and those
@@ -296,19 +296,19 @@ suffix, so an exact code-table match is not usually necessary. Units of
 both data and criteria are converted (to meters, days, and grams), and
 so exact matches may be difficult to obtain. Therefore, numeric
 attributes will also accept a range of values in conjunction with units
-(format {low value}{dash}{high\_value} {units}).
+(format {low value}{dash}{high_value} {units}).
 
 The following examples are illustrative.
 
   SearchTerm               Result
   ------------------------ -------------------------------------------------------------
-  age\_class=adult         adult, subadult, ….
-  age\_class==adult        adult
-  age\_class=!adult        juvenile, subadult, ….
-  numeric\_age=3           3 years, 3 seconds, 3 days, …..
-  numeric\_age=!3          1 years, 5 years, 1 hour, 5 days, …
-  numeric\_ag=3 years      {value converted to} 1095.726 days
-  numeric\_age=3-5 years   {value converted to days} BETWEEN 1095.726 and 1826.21 days
+  age_class=adult         adult, subadult, ….
+  age_class==adult        adult
+  age_class=!adult        juvenile, subadult, ….
+  numeric_age=3           3 years, 3 seconds, 3 days, …..
+  numeric_age=!3          1 years, 5 years, 1 hour, 5 days, …
+  numeric_ag=3 years      {value converted to} 1095.726 days
+  numeric_age=3-5 years   {value converted to days} BETWEEN 1095.726 and 1826.21 days
 
 Arctos can convert the  following units to meters:
 

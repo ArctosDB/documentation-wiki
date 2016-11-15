@@ -15,7 +15,7 @@ Concepts
 
 [encumbrancer](#encumbrancer)
 
-[encumbrance\_name](#encumbrance_name)
+[encumbrance_name](#encumbrance_name)
 
 [expiration](#expiration)
 
@@ -92,7 +92,7 @@ considered for permanently-encumbered specimens.Yearly email
 notifications are provided to collection staff, and encumbrances may be
 extended (in 5-year increments) indefinitely. Expiration date is a
 triggering event – encumbrances are automatically retracted when
-expiration\_date is reached.
+expiration_date is reached.
 
 [](#top){.infoLink}
 
