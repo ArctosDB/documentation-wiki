@@ -761,7 +761,7 @@
   };
 
   $(function() {
-    var checkToc;
+    var checkToc, i, len, ref, table;
     tabSelect();
     $("#searchsubmit").click(function() {
       return $("#sidebar-search-form").submit();
@@ -799,6 +799,11 @@
     });
     handleSearch(true);
     lightboxImages();
+    ref = $("table");
+    for (i = 0, len = ref.length; i < len; i++) {
+      table = ref[i];
+      $(table).addClass("table table-condensed table-hover");
+    }
     if ($("nav#toc").exists()) {
       return (checkToc = function() {
         var $headings, $topContext, error1, opts, topLevel;

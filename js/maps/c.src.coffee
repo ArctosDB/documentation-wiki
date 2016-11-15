@@ -550,6 +550,8 @@ $ ->
   #$(".fixedsticky").fixedsticky()
   handleSearch(true)
   lightboxImages()
+  for table in $("table")
+    $(table).addClass "table table-condensed table-hover"
   if $("nav#toc").exists()
     do checkToc = ->
       try
