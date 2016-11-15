@@ -193,7 +193,7 @@ established.
 
 [](){.infoLink}
 
-**Locating Specimens by Identifier**
+## Locating Specimens by Identifier
 
 Each specimen in Arctos receives a single catalog number, along with any
 number of identifying numbers, often referred to as “Other IDs.” There
@@ -457,7 +457,7 @@ systems which discourage good science
 
 [](){.infoLink}
 
-**Deleting records from Arctos**
+## Deleting records from Arctos
 
 1.  [Encumber](https://arctosdb.wordpress.com/documentation/encumbrance/#top)
     the record(s) to be deleted. Create an appropriate encumbrance
@@ -477,7 +477,7 @@ instead of deleting them.
 
 [](){.infoLink}
 
-**Recataloging Specimens**
+## Recataloging Specimens
 
 It is sometimes necessary to move cataloged items from one collection or
 catalog number to another. When doing so, it is important to maintain a

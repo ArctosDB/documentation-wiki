@@ -147,7 +147,7 @@ accessions which are not “closed” but contain no specimens.
 
 [](#top){.infoLink}
 
-**Data Entry Considerations**
+## Data Entry Considerations
 
 You can catalog records in “your collection” that have been accessioned
 by another collection.  For data entry (through either the data-entry

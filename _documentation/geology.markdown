@@ -7,8 +7,7 @@ layout: default_toc
 
 <div class="entry-content">
 
-**Geology Attributes**
-----------------------
+## Geology Attributes
 
 Geology Attributes attach geology information to Locality. Each locality
 may contain any number of geology attributes, each with a determiner and

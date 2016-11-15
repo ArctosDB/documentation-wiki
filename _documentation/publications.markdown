@@ -257,7 +257,7 @@ Publication.cfm?action=newPub
 
 ```
 
-**Creating Publications**
+## Creating Publications
 
 Publications can be created in Arctos by two methods: (1) The relevant
 data can be keyboarded into the form, and (2) the DOI and/or PMID can be

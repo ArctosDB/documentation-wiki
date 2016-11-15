@@ -252,7 +252,7 @@ VARCHAR(255) null
 
 ```
 
-**Remarks**
+## Remarks
 
 is the place to record notes and about the container or its contents.
 Remarks are especially useful in explaining the nature and treatment of
@@ -370,7 +370,7 @@ created; for example, when a tissue sample is put into a Nunc tube in
 the field. Here is a brief overview of one implementation of that
 process.
 
-**As part of system development**
+## As part of system development
 
 1.  Acquire a sufficient number of 2-piece barcodes. These are generally
     clear plastic labels with two identical, separable barcodes, one of
@@ -389,7 +389,7 @@ process.
     example, agree that all “cryovial” labels will be green, and all
     “vial” labels red.
 
-**Before collecting**
+## Before collecting
 
 1.  Pull out some containers and a corresponding number of labels.
 2.  Use the Arctos tools to change the labels to an appropriate
@@ -399,7 +399,7 @@ process.
     sticky-notes, or anything else that allows a user to identify the
     intended use of the barcodes is acceptable.
 
-**In the field**
+## In the field
 
 1.  Using the color coding system, grab an appropriate 2-piece label,
     remove the backing and affix the appropriate half to a container and
@@ -408,12 +408,12 @@ process.
     and a clearly-marked area for affixing the appropriate label-half
     are useful.)
 
-**Back in the collection**
+## Back in the collection
 
 1.  Install the barcoded container by scanning it into an appropriate
     box, position, etc.
 
-**Also back in the collection**
+## Also back in the collection
 
 1.  Enter specimen data, scanning attached label-halves into the
     appropriate part barcode input area.
@@ -424,7 +424,7 @@ returning from the field, and specimen data entry may occur months or
 even years later. Once both steps have been completed, the specimen,
 part, and object tracking data will automatically consolidate.
 
-**At any time**
+## At any time
 
 1.  If, for whatever reason, an un-barcoded container (with contents
     or not) should appear in the collection, simply refer to the

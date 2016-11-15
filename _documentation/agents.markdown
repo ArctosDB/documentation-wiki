@@ -392,7 +392,7 @@ prevent accurate answers to questions involving agents. Collector “John
 Smith” cannot locate “his” specimens if some of them are stored under
 agent “J. Smith.”
 
-**How To**
+## How To
 
 To delete an agent, create a “bad duplicate of” relationship to another
 agent. All collections will receive a warning email, and if no action is
@@ -410,7 +410,7 @@ that seems important to the merged agent; avoid copying anything which
 might cause confusion (and the introduction of more duplicates) in the
 future.
 
-**Why**
+## Why
 
 Any Operator with Agent access may flag agents as duplicates. Agents
 lacking evidence to the contrary should be marked as duplicates; if
@@ -420,7 +420,7 @@ representing an individual are expedient; there is little reason to have
 two “J. Smith” (no other information) agents; if disambiguating
 information is available, add it.
 
-**Identical Agent Names**
+## Identical Agent Names
 
 Identical agent <span
 style="font-style: italic; font-weight: bold;">names</span>, between and
@@ -431,7 +431,7 @@ necessary for duplicate agents to share a name; in fact, they are often
 introduced because of misspellings. The “Agent Activity” link is a good
 place to make sure you’re dealing with real duplicates.
 
-**Not Duplicates**
+## Not Duplicates
 
 Occasionally, it will be determined that two agents are not in fact
 duplicates. The only action that will stop future attempts to merge them

@@ -452,7 +452,7 @@ etc.
 
 [](#top){.infoLink}
 
-**Primary Key Warning**
+## Primary Key Warning
 
 Some values may be replaced by or require primary keys: locality_id,
 entered_by_agent_id, collecting_event_id, etc. These are internal

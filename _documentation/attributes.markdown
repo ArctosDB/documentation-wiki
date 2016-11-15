@@ -239,7 +239,7 @@ determinations.
 
 [](){.infoLink}
 
-**Searching with Attributes**
+## Searching with Attributes
 
 You may search for only [Attribute Name](#name) (leave Value and Units
 blank) to return specimens that match your other criteria and possess
@@ -273,7 +273,7 @@ specimens; sex `contains` ‘male’ will find both *male* and *fe**male***.
 
 [](){.infoLink}
 
-**Searching by Attribute Type**
+## Searching by Attribute Type
 
 In addition to the above, the interactive Specimen Results Widget will
 accept any attribute, with spaces and dashes replaced by underscore, as

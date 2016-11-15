@@ -114,7 +114,7 @@ expiration_date is reached.
 When the screen refreshes, the specimens are no longer in the selected
 encumbrance.
 
-**Encumbering Specimens**
+## Encumbering Specimens
 
 There are many ways to encumber specimens; here one is described.
 

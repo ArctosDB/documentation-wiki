@@ -75,7 +75,7 @@ VARCHAR(20) not null
 
 [](#top){.infoLink}
 
-**Loan Number**
+## Loan Number
 
 A Loan “number” is a string identifying the loan. The format usually
 follows local tradition (*e.g.*, YYYY:nnn:Collection) but is
@@ -91,7 +91,7 @@ VARCHAR not null
 
 [](#top){.infoLink}
 
-**Type**
+## Type
 
 Loan type is a [code-table controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE).
@@ -254,7 +254,7 @@ DATE null
 
 [](#top){.infoLink}
 
-**Returned Date**
+## Returned Date
 
 is the date that a loan of the type Returnable was received back at the
 collection from which the loan was issued.
