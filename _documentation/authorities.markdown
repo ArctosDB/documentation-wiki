@@ -7,9 +7,12 @@ layout: default_toc
 
 <div class="anchors">
 
-[Code Tables](#codetable)\
-[Taxonomy](#taxonomy)\
-[Geography](#geography)\
+[Code Tables](#codetable)
+
+[Taxonomy](#taxonomy)
+
+[Geography](#geography)
+
 [Agents](#agents)
 
 </div>
@@ -52,20 +55,23 @@ administrators.
 
 ## Taxonomy
 
-[]()\
+[]()
+
 Taxonomy is included here only for completeness. See [Taxonomy
 Documentation](/documentation/identification/taxonomy/)[]() for more
 information.
 
 ## Geography
 
-[]()\
+[]()
+
 Geography is included here only for completeness. See [Geography
 Documentation](/documentation/places/higher-geography/)[]() for more
 information.
 
 ## Agents
 
-[]()\
+[]()
+
 Agents are included here only for completeness. See [Agent
 Documentation](/documentation/agent/)[]() for more information.

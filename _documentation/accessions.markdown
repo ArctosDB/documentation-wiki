@@ -7,13 +7,20 @@ layout: default_toc
 
 <div class="anchors">
 
-[Accession Number](#accn_number)\
-[How Obtained?](#accn_type)\
-[Accession Status](#accn_status)\
-[Public](#public)\
-[Estimated Count](#estimated_count)\
-[Container](#container)\
-[Alerts](#notification)\
+[Accession Number](#accn_number)
+
+[How Obtained?](#accn_type)
+
+[Accession Status](#accn_status)
+
+[Public](#public)
+
+[Estimated Count](#estimated_count)
+
+[Container](#container)
+
+[Alerts](#notification)
+
 [Data Entry Considerations](#dataentry)
 
 </div>
@@ -31,23 +38,27 @@ Accessioning generally precedes cataloging.  Therefore, it is
 unnecessary to have specimen data in order to create an accession. 
 Nevertheless, the nature and disposition of the specimen data should be
 recorded in order to assure that the data can eventually be located for
-purposes of cataloging.\
+purposes of cataloging.
+
 [](){.infoLink}
 
 ```
 
-Accn . accn\_number\
+Accn . accn\_number
+
 VARCHAR2(60) not null
 
 ```
 
 **Accession Number** is a text string assigned to identify the specific
-accession.  This is under revision at this writing.\
+accession.  This is under revision at this writing.
+
 [](){.infoLink}
 
 ```
 
-Accn . accn\_status\
+Accn . accn\_status
+
 VARCHAR2(20) not null
 
 ```
@@ -56,19 +67,23 @@ VARCHAR2(20) not null
 “Complete” indicates that the disposition of specimens can be determined
 from individual specimen records.  “In process” indicates that at least
 some of the material is still being stored and labeled by accession
-number.\
+number.
+
 [](){.infoLink}
 
 The Public? flag allows accession data to be displayed in a public (open
 to non-operators) page, currently linked to from Specimen Results. This
 is useful for displaying accession-level Media, such an UAM Earth
-Science accession and locality card scans.\
+Science accession and locality card scans.
+
 [](){.infoLink}
 
 ```
 
-Accn . accn\_type\
-VARCHAR2(35) not null\
+Accn . accn\_type
+
+VARCHAR2(35) not null
+
 [ctAccn\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type)
 
 ```
@@ -82,12 +97,14 @@ definition; several of the values in this field are really agents
 **Received From** is the name of the agent who (or which) provided the
 described material to the museum.  Whenever possible, this should be the
 name of a person, *i.e.,* the person within an agency rather than the
-name of the agency.\
+name of the agency.
+
 [](){.infoLink}
 
 ```
 
-Accn . Received\_Date\
+Accn . Received\_Date
+
 DATE not null
 
 ```
@@ -99,32 +116,39 @@ when the record was created.
 **Entry Date** is the day that the accession record was created. Must be
 a valid date. Default could be the system date when the record was
 created.  {Do we need this? Should it be a stored system date, and not
-necessarily displayed in normal applications?}\
+necessarily displayed in normal applications?}
+
 [](){.infoLink}
 
 ```
 
-Trans . Trans\_Remarks\
+Trans . Trans\_Remarks
+
 VARCHAR2(4000) null
 
 ```
 
 **Remarks** is a place for expanding a description of the conditions of
 acceptance, or for instructions in processing the material.  For
-example, “Take 50 gram subsamples for fatty-acid analysis.”\
+example, “Take 50 gram subsamples for fatty-acid analysis.”
+
 
 Estimated Count is an integer expressing approximately how many
-specimens can be expected as part of an accession.\
+specimens can be expected as part of an accession.
+
 
 Accession Containers are Containers which hold unprocessed material,
 e.g., bags of frozen mice can be made Containers and scanned into
-freezers.\
+freezers.
+
 
 Email is sent on every annual anniversary of Transaction Data for
 accessions which are not “closed” but contain no specimens.
 
-[](#top){.infoLink}\
-**Data Entry Considerations**\
+[](#top){.infoLink}
+
+**Data Entry Considerations**
+
 You can catalog records in “your collection” that have been accessioned
 by another collection.  For data entry (through either the data-entry
 application or the bulkloader) indicate the accession that you wish to

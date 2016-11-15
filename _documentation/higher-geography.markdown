@@ -13,19 +13,32 @@ Concepts
 
 </div>
 
-[Continent/Ocean](#continent_ocean)\
-[Country](#country)\
-[State/Province](#state_province)\
-[Sea](#sea)\
-[County](#county)\
-[Map\_Name](#map_name)\
-[Geographic Feature](#feature)\
-[Island\_Group](#island_group)\
-[Island](#island)\
-[Source](#source)\
-[Higher Geography](#higher_geog)\
-[Field Summary](#fieldsummary_geog)\
-[Additional Data](#additionaldata)\
+[Continent/Ocean](#continent_ocean)
+
+[Country](#country)
+
+[State/Province](#state_province)
+
+[Sea](#sea)
+
+[County](#county)
+
+[Map\_Name](#map_name)
+
+[Geographic Feature](#feature)
+
+[Island\_Group](#island_group)
+
+[Island](#island)
+
+[Source](#source)
+
+[Higher Geography](#higher_geog)
+
+[Field Summary](#fieldsummary_geog)
+
+[Additional Data](#additionaldata)
+
 [Remark](#remark)
 
 <div class="anchortitle">
@@ -34,10 +47,14 @@ Usage
 
 </div>
 
-[Creation Guidelines](#guidelines)\
-[Assigning to Locality](#locality)\
-[Searching by](#search)\
-[terrestrial versus marine descriptors](#terrestrial_marine)\
+[Creation Guidelines](#guidelines)
+
+[Assigning to Locality](#locality)
+
+[Searching by](#search)
+
+[terrestrial versus marine descriptors](#terrestrial_marine)
+
 [Webservice Data](#service)
 
 </div>
@@ -54,12 +71,14 @@ geography](#higher_geog)” which is uniquely indexed. The concatenated
 string “higher geography” is the only column displayed and used in data
 entry. Unfortunately, you cannot assume that any locality or area is
 listed under only one higher geography. The [guidelines](#guidelines)
-below are intended to prevent (and even remedy) such inconsistencies.\
+below are intended to prevent (and even remedy) such inconsistencies.
+
 [](#top){.infoLink}
 
 ```
 
-Geo\_Auth\_Rec . Continent\_Ocean\
+Geo\_Auth\_Rec . Continent\_Ocean
+
 VARCHAR(50) not null
 
 ```
@@ -151,7 +170,8 @@ Russia is in Asia. Both are sometimes in Eurasia.
 
 ```
 
-Geo\_Auth\_Rec . Country\
+Geo\_Auth\_Rec . Country
+
 VARCHAR(50) null
 
 ```
@@ -162,7 +182,8 @@ recognize Greenland as a country and not as a state in Denmark. (It
 would not occur to most users to search for muskox from Denmark.)
 
 Note that country is political, not geographic, as demonstrated by
-georeferenced specimens “from France.”\
+georeferenced specimens “from France.”
+
 [](#top){.infoLink}
 
 [![This is
@@ -173,7 +194,8 @@ srcset="/images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.pn
 France
 ```
 
-Geo\_Auth\_Rec . State\_Prov\
+Geo\_Auth\_Rec . State\_Prov
+
 VARCHAR(75) null
 
 ```
@@ -190,7 +212,8 @@ states, provinces, departments, or okrugs.
 
 ```
 
-Geo\_Auth\_Rec . Sea\
+Geo\_Auth\_Rec . Sea
+
 VARCHAR(50) not null
 
 ```
@@ -210,12 +233,14 @@ These should be consulted for the name of seas, or if there is a
 question about whether a locality is appropriately included in a
 particular sea. (In their effort to be comprehensive and consistent
 within a domain where rigorous definitions are not commonly used, these
-references occasionally offend common sense.)\
+references occasionally offend common sense.)
+
 [](#top){.infoLink}
 
 ```
 
-Geo\_Auth\_Rec . County\
+Geo\_Auth\_Rec . County
+
 VARCHAR(50) null
 
 ```
@@ -230,24 +255,29 @@ does not belong in the County field.
 
 ```
 
-Geo\_Auth\_Rec . Quad\
+Geo\_Auth\_Rec . Quad
+
 VARCHAR(30) null
 
 ```
 
-[]()\
-[]()\
+[]()
+
+[]()
+
 **Map Name (Quad):** The name of the U. S. Geological Survey maps in the
 1:250,000 series. Because Alaska lacks anything as inclusive counties,
 “quads” have been used extensively in organizing collections and
 interrogating data. (Although note that a combination of Borough and
 Census Area is all-inclusive and mutually exclusive and therefore serves
-as a suitable if large-scale “county substitute.”)\
+as a suitable if large-scale “county substitute.”)
+
 [](#top){.infoLink}
 
 ```
 
-Geo\_Auth\_Rec . Feature\
+Geo\_Auth\_Rec . Feature
+
 VARCHAR(50) null
 
 ```
@@ -259,12 +289,14 @@ islands](#island_group). Many administrative units included in Feature
 have ephemeral boundaries, if not an ephemeral existence. Their past and
 future use may be inconsistent. Therefore, avoid using Feature if the
 locality is well georeferenced and/or unequivocal in the absence of
-Feature.\
+Feature.
+
 [](#top){.infoLink}
 
 ```
 
-Geo\_Auth\_Rec . Island\_Group\
+Geo\_Auth\_Rec . Island\_Group
+
 VARCHAR(50) null
 
 ```
@@ -288,7 +320,8 @@ indicated in [Geographic Feature](#feature).
 
 ```
 
-Geo\_Auth\_Rec . Island\
+Geo\_Auth\_Rec . Island
+
 VARCHAR(50) null
 
 ```
@@ -363,13 +396,16 @@ appropriate. Examples follow.
 
 ```
 
-Geo\_Auth\_Rec . Higher\_Geog\
+Geo\_Auth\_Rec . Higher\_Geog
+
 VARCHAR(255) not null
 
 ```
 
-**Higher Geography** (as a specific data field) is a the actual concatenation of the subdivisions described above. This is the value that is displayed in most applications.\
-[]()\
+**Higher Geography** (as a specific data field) is a the actual concatenation of the subdivisions described above. This is the value that is displayed in most applications.
+
+[]()
+
 ## Field Summary
 
   Category                              Examples                                                  Short Definition
@@ -384,17 +420,21 @@ VARCHAR(255) not null
   [Island Group](#island_group)         Alexander Archipelago, Franz Joseph Land                  <span style="color:#000000">A named (but sometimes poorly defined) group of islands. These data are often replicated in Feature.</span>
   [Island](#island)                     Kodiak Island, Svalbard                                   A single island.
 
-[]()\
-Additional Data\
+[]()
+
+Additional Data
+
 In addition to the “formal” fields, the Edit Geography form provides for
 any number of UTF-encoded additional identifiers. These should not be
-considered “formal”\
+considered “formal”
+
 terms, but as search aids. The “any geography” specimen search field
 will consider these data, and they will be displayed on Specimen Detail.
 
 Usage Example:
 
--   **Asia, Russia, Kamchatka Oblast** (Formal term)**\
+-   **Asia, Russia, Kamchatka Oblast** (Formal term)**
+
     **
     -   Камча́тская о́бласть (Native character encoding)
     -   Kamchatskaya oblast (Common variant or transliteration)
@@ -403,7 +443,8 @@ Usage Example:
 
 A remarks field is also provided. Information in this field is intended
 to provide guidance and clarification in future geography creation or
-merge events, and is not searchable nor intended for public display.\
+merge events, and is not searchable nor intended for public display.
+
 
 Guidelines for creating and editing geographic terms in Arctos.
 ---------------------------------------------------------------
@@ -582,7 +623,8 @@ Coastal localities should be described with terrestrial descriptors. For
 offshore localities, the Higher Geography should include at least the
 ocean in [Continent/Ocean](#continent_ocean) and, if applicable, it
 should also include [Sea](#sea). (Therefore, “coastal” specimens are
-often impossible to location by descriptive geography queries.)\
+often impossible to location by descriptive geography queries.)
+
 [](#top){.infoLink}
 
 ## Webservice Data

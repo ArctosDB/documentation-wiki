@@ -13,12 +13,18 @@ Definitions
 
 </div>
 
-[Name](#name)\
-[Value](#value)\
-[Units](#units)\
-[Method](#method)\
-[Remark](#remark)\
-[Determiner](#determiner)\
+[Name](#name)
+
+[Value](#value)
+
+[Units](#units)
+
+[Method](#method)
+
+[Remark](#remark)
+
+[Determiner](#determiner)
+
 [Determined Date](#date)
 
 <div class="anchortitle">
@@ -27,7 +33,8 @@ Using
 
 </div>
 
-[Searching with Attributes](#attribute_search)\
+[Searching with Attributes](#attribute_search)
+
 [Searching by attribute type](#attribute_api)
 
 </div>
@@ -48,13 +55,16 @@ Attributes with controlled vocabularies are set by a master “[code table
 of code
 tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).” 
 This can be a useful node for exploring these values outside of the
-forms in which the vocabularies are used.\
+forms in which the vocabularies are used.
+
 [](){.infolink}
 
 ```
 
-Attributes . Attribute\_Type\
-VARCHAR(60) not null\
+Attributes . Attribute\_Type
+
+VARCHAR(60) not null
+
 [ctAttribute\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
 
 ```
@@ -77,13 +87,16 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_
 
 ```
 
-Attributes . Attribute\_Value\
-VARCHAR(255) not null\
+Attributes . Attribute\_Value
+
+VARCHAR(255) not null
+
 [ct\_Attribute\_Code\_Tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
 
 ```
 
-**Attribute Value:**\
+**Attribute Value:**
+
 Attributes have a Value, and those values are of three types:
 
 -   **numeric** (with [Units](#units)) – These are measurements and
@@ -110,8 +123,10 @@ Some examples:
 The appropriate units for particular numeric Attributes, and the
 appropriate vocabulary for controlled vocabulary are set by a by a
 “[code table of code
-tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).”\
-[](){.infoLink}\
+tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).”
+
+[](){.infoLink}
+
 **Conversion of fractional values:**  Numeric values are sometimes
 reported in the numerator/denominator format.  For example, total length
 = 7 3/16 inches.  Such values must be converted to decimal fractions in
@@ -128,15 +143,20 @@ precision.   Both the 16ths and 32ths on our assumed ruler are smaller
 there can be no precision beyond the 100ths place.  Therefore we should
 round off to 7.19 inches.  Whenever the value of an attribute is
 converted (or in any way modified or assumed), the verbatim value should
-be given in the [Attribute Remark](#remark).\
+be given in the [Attribute Remark](#remark).
+
 [](){.infoLink}
 
 ```
 
-Attributes.Attribute\_Units\
-VARCHAR(60) null\
-[ctLength\_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)\
-[ctNumeric\_Age\_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)\
+Attributes.Attribute\_Units
+
+VARCHAR(60) null
+
+[ctLength\_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
+
+[ctNumeric\_Age\_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)
+
 [ctWeight\_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
 
 ```
@@ -146,12 +166,14 @@ such as grams, millimeters, and years. Different Attributes are
 described in different units, so there are code tables for units of
 weight, length, and time.  Numeric Attributes are assigned one of these
 code tables in the “[code table of code
-tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).”\
+tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).”
+
 [](){.infoLink}
 
 ```
 
-Attributes.Determination\_Method\
+Attributes.Determination\_Method
+
 VARCHAR(255) null
 
 ```
@@ -160,12 +182,14 @@ VARCHAR(255) null
 logically inferred, it is usually unspecified. Thus, Attributes such as
 length measurements are assumed to have been taken with rulers,
 calipers, or another standard tool. In such cases, no value is recorded
-for Method.\
+for Method.
+
 [](){.infoLink}
 
 ```
 
-Attributes.Attribute\_Remark\
+Attributes.Attribute\_Remark
+
 VARCHAR(255) null
 
 ```
@@ -180,7 +204,8 @@ VARCHAR(255) null
 
 ```
 
-Attributes.Determined\_By\_Agent\_id\
+Attributes.Determined\_By\_Agent\_id
+
 integer, not null
 
 ```
@@ -190,12 +215,14 @@ Many Attributes are determined by either the collector or preparator of
 the specimen, but often Attributes are determined at a later time by an
 investigator using the specimen. In the many specimen records for which
 this data was not recorded, the institution contributing the record has
-been used as a default value for Determiner.\
+been used as a default value for Determiner.
+
 [](){.infoLink}
 
 ```
 
-Attributes . Determined\_Date\
+Attributes . Determined\_Date
+
 datetime, null
 
 ```
@@ -210,8 +237,10 @@ For Attributes which can be re-determined from the existing specimen,
 even an imprecise date will provide a chronological order to successive
 determinations.
 
-[](){.infoLink}\
-**Searching with Attributes**\
+[](){.infoLink}
+
+**Searching with Attributes**
+
 You may search for only [Attribute Name](#name) (leave Value and Units
 blank) to return specimens that match your other criteria and possess
 data for the specified Attribute. Exercising this option unwisely (For
@@ -242,7 +271,8 @@ You may set the search operator for Attributes to:
 matches. For example, sex `equals` ‘male’ will find only *male*
 specimens; sex `contains` ‘male’ will find both *male* and *fe**male***.
 
-[](){.infoLink}\
+[](){.infoLink}
+
 **Searching by Attribute Type**
 
 In addition to the above, the interactive Specimen Results Widget will

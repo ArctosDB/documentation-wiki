@@ -13,13 +13,20 @@ Definitions
 
 </div>
 
-[Full Citation](#full_citation)\
-[Short Citation](#short_citation)\
-[Publication Type](#publication_type)\
-[Peer Review Flag](#peer)\
-[Published Year](#published_year)\
-[DOI/PMID](#doi)\
-[Author](#author)\
+[Full Citation](#full_citation)
+
+[Short Citation](#short_citation)
+
+[Publication Type](#publication_type)
+
+[Peer Review Flag](#peer)
+
+[Published Year](#published_year)
+
+[DOI/PMID](#doi)
+
+[Author](#author)
+
 [Author Role](#author_role)
 
 <div class="anchortitle">
@@ -28,8 +35,10 @@ Using
 
 </div>
 
-[Creating](#usedoi)\
-[Linking](#linking)\
+[Creating](#usedoi)
+
+[Linking](#linking)
+
 [Finding DOIs](#finddoi)
 
 </div>
@@ -42,12 +51,14 @@ been
 in a publication, this fact can be recorded as an explicit relationship
 between a particular specimen and a particular page within a
 publication.  Where no such explicit relationship exists, publications
-can be related to a [Project](project).\
+can be related to a [Project](project).
+
 [](){.infolink}
 
 ```
 
-Publication . Full\_Citation\
+Publication . Full\_Citation
+
 varchar(4000) not null
 
 ```
@@ -101,7 +112,8 @@ formatting should be handled with HTML tags.
 
 ```
 
-Publication . Short\_Citation\
+Publication . Short\_Citation
+
 varchar(4000) not null
 
 ```
@@ -119,8 +131,10 @@ formatting.
 
 ```
 
-Publication . Publication\_Type\
-not null VARCHAR2(21)\
+Publication . Publication\_Type
+
+not null VARCHAR2(21)
+
 [ctPublication\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE)
 
 ```
@@ -133,32 +147,40 @@ vocabulary is
 
 ```
 
-Publication . Publication\_Year\
+Publication . Publication\_Year
+
 number, not null
 
 ```
 
 **Published Year** is the year in which the publication occurred.  It is
-a four-digit integer, *e.g*., 1985.\
+a four-digit integer, *e.g*., 1985.
+
 [](){.infolink}
 
 ```
 
-Publication . Is\_Peer\_Reviewed\_FG\
+Publication . Is\_Peer\_Reviewed\_FG
+
 number(1), not null
 
 ```
 
 **Peer Review Flag** should be set to false for publications which have
-not undergone a formal peer review process, such as dissertations.\
+not undergone a formal peer review process, such as dissertations.
+
 [](){.infolink}
 
 ```
 
-Publication . DOI\
-varchar(4000), null\
-– – –\
-Publication . PMID\
+Publication . DOI
+
+varchar(4000), null
+
+– – –
+
+Publication . PMID
+
 varchar(4000), null
 
 ```
@@ -184,13 +206,20 @@ The following are examples of formats that **contain** DOIs; they are
 
 ```
 
-Publication\_Agent . Publication\_Agent\_ID\
-number, not null (primary key)\
-– – –\
-Publication\_Agent . Agent\_ID\
-number, not null (foreign key = Agent . Agent\_ID)\
-– – –\
-Publication\_Agent . Publication\_ID\
+Publication\_Agent . Publication\_Agent\_ID
+
+number, not null (primary key)
+
+– – –
+
+Publication\_Agent . Agent\_ID
+
+number, not null (foreign key = Agent . Agent\_ID)
+
+– – –
+
+Publication\_Agent . Publication\_ID
+
 number, not null (foreign key = Publication . Publication\_ID
 
 ```
@@ -202,20 +231,24 @@ Citation, Agents who are associated with other activities in Arctos,
 such as Loans, Projects, and specimen collecting, should be linked to
 their Publications.  It is not necessary to create or link all authors
 as publication agents.  Agent Name formatting is unimportant as
-formatted agent names are part of the full citation.\
+formatted agent names are part of the full citation.
+
 [](){.infolink}
 
 ```
 
-Publication . Author\_Role\
-varchar2(255), not null\
+Publication . Author\_Role
+
+varchar2(255), not null
+
 [ctAuthor\_Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE)
 
 ```
 
 **Author Role** indicates whether the indicated agent is an actual
 author, or an editor of the publication. Vocabulary is
-[controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE).\
+[controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE).
+
 [](){.infolink}
 
 ```
@@ -361,7 +394,8 @@ what agents to include, or how to format publications.
 
 You may create [Media](media) to link publications with arbitrary
 Internet documents. Please not that these linkages are notoriously
-fragile, and do not serve as a suitable replacement for DOIs.\
+fragile, and do not serve as a suitable replacement for DOIs.
+
 [](#top){.infoLink}
 
 ## Finding DOIs for existing publications

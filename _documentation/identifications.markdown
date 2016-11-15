@@ -7,14 +7,22 @@ layout: default_toc
 
 <div class="anchors">
 
-[Scientific Name](#scientific_name)\
-[Determination Formula](#id_formula)\
-[“A {string}” Formula](#astring)\
-[Determiner](#id_by)\
-[Determination Date](#id_date)\
-[Nature of Determination](#nature_of_id)\
-[*Sensu* Publication](#identification_publication)\
-[Remarks](#id_remarks)\
+[Scientific Name](#scientific_name)
+
+[Determination Formula](#id_formula)
+
+[“A {string}” Formula](#astring)
+
+[Determiner](#id_by)
+
+[Determination Date](#id_date)
+
+[Nature of Determination](#nature_of_id)
+
+[*Sensu* Publication](#identification_publication)
+
+[Remarks](#id_remarks)
+
 [Searching](#search)
 
 </div>
@@ -36,7 +44,8 @@ Specimens are therefore reidentified by adding a new determination and
 retaining prior determination(s) as “unaccepted.” This means that there
 can be only one accepted determination, but not necessarily that prior
 identifications are wrong. In fact, complimentary IDs by experts or by
-alternative methods enhance the value of the specimen.\
+alternative methods enhance the value of the specimen.
+
 
 **Scientific Name:** There is a distinction between Scientific Name here
 in determinations, as opposed to [Scientific Name as it is used in the
@@ -53,13 +62,16 @@ illustrative.
 
 ```
 
-Identification . TAXA\_FORMULA\
-VARCHAR2 (25) not null\
+Identification . TAXA\_FORMULA
+
+VARCHAR2 (25) not null
+
 [cttaxa\_formula](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula)
 
 ```
 
-**Determination Formula:**\
+**Determination Formula:**
+
 A determination can contain more than one taxon, possibly in conjunction
 with modifiers. Taxa are combined with each other, or with modifiers,
 according to a formula. For example:
@@ -71,12 +83,14 @@ according to a formula. For example:
 
   *Sorex cinereus* ?                         taxon (A) + “?”   A = *Sorex cinereus*
 
-  *Sorex cinereus* or *Sorex ugyunak*        A “or” B          A = *Sorex cinereus*\
+  *Sorex cinereus* or *Sorex ugyunak*        A “or” B          A = *Sorex cinereus*
+
                                                                B = *Sorex ugyunak*
 
   *Sorex sp.*                                A + “sp.”         A= *Sorex*
 
-  *Canis latrans x Canis lupus familiaris*   A “X” B           A = *Canis latrans*\
+  *Canis latrans x Canis lupus familiaris*   A “X” B           A = *Canis latrans*
+
                                                                B = *Canis lupus familiaris*
   -------------------------------------------------------------------------------------------
 
@@ -89,7 +103,8 @@ do not need to designate a formula for data entry if you intend a simple
 one-taxon determination (formula “A”), and the bulkloader will recognize
 and appropriately parse constructions such as “Canis sp.”
 
-### []()\
+### []()
+
 “A {string}” Formula
 
 The “A {string}” formula links nonformulaic identifications to taxa,
@@ -120,7 +135,8 @@ The following table is illustrative.
 
 ```
 
-Identification . Made\_By\_Agent\_id\
+Identification . Made\_By\_Agent\_id
+
 NUMBER not null (FK)
 
 ```
@@ -130,11 +146,13 @@ a person) who identified the specimen. More than one agent can be
 entered. The order in which such co-determiners are displayed is set in
 the form by the order in which they were added to the determination. To
 change the displayed order, create a new copy of the determination with
-the determiners in the desired order, then delete the old record.\
+the determiners in the desired order, then delete the old record.
+
 
 ```
 
-Identification . Made\_Date\
+Identification . Made\_Date
+
 DATE null
 
 ```
@@ -144,13 +162,16 @@ chronological order of determinations may be the most critical issue.
 
 ```
 
-Identification . Nature\_Of\_ID\
-VARCHAR2 (30) not null\
+Identification . Nature\_Of\_ID
+
+VARCHAR2 (30) not null
+
 [ctnature\_of\_id](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id)
 
 ```
 
-[]()\
+[]()
+
 **Nature of ID:** The basis of the identification. Vocabulary is defined
 in, and controlled by, a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id).
@@ -165,31 +186,37 @@ additional guidance.
 
 ```
 
-Identification.Publication\_ID\
+Identification.Publication\_ID
+
 NUMBER NOT NULL (FK Publication.Publication\_ID)
 
 ```
 
-***Sensu* Publication:**\
+***Sensu* Publication:**
+
 Signifies that a determination is made in the sense of (*sensu*) a
 particular
 [publication](http://arctosdb.wordpress.com/documentation/publications/ "Publications").
 This may be used both in the taxonomic sense (“this specimen fits in
 with Some Author’s concept of *Aus bus*“) and as supporting
 documentation (“We’ve determined this to be *Aus bus* using the methods
-provided by Some Author”).\
+provided by Some Author”).
+
 
 ```
 
-Identification . Remarks\
+Identification . Remarks
+
 VARCHAR2 255
 
 ```
 
 **Remarks** can elaborate or clarify any signficant aspect of a
 determination.  This is a good place for recording the verbatim form of
-a [Determined Date](#id_date) if it was not recorded as an exact day.\
-[]()\
+a [Determined Date](#id_date) if it was not recorded as an exact day.
+
+[]()
+
 SpecimenSearch contains a dropdown list with the following values. All
 searches are case-insensitive. Examples are fictitious and incomplete.
 

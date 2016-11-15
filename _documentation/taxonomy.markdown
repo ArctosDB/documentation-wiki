@@ -7,16 +7,26 @@ layout: default_toc
 
 <div class="anchors">
 
-[Overview](#overview)\
-[Scientific Name](#scientific_name)\
-[Taxon Terms](#terms)\
-[Common Names](#common_names)\
-[Searching](#search)\
-[Creating Names](#newname)\
-[FAQ](#faq)\
-[Source “Arctos”](#arctos_source)\
-[Search Examples](#searchexample)\
-[Relationship of taxonomy to specimens](#specimens)\
+[Overview](#overview)
+
+[Scientific Name](#scientific_name)
+
+[Taxon Terms](#terms)
+
+[Common Names](#common_names)
+
+[Searching](#search)
+
+[Creating Names](#newname)
+
+[FAQ](#faq)
+
+[Source “Arctos”](#arctos_source)
+
+[Search Examples](#searchexample)
+
+[Relationship of taxonomy to specimens](#specimens)
+
 [Editing](#edit)
 
 </div>
@@ -47,7 +57,8 @@ names” (genera, species, kingdoms) and taxon\_term contains metadata
 regarding a taxon\_name, optionally organized in various ways. Informal
 terms, such as “Sorex sp.” or “Sorex cinereus or Sorex ugyunak” are
 Identifications, not taxonomy. (Identifications are generally drawn from
-and linked to taxonomy in various ways.)\
+and linked to taxonomy in various ways.)
+
 
 ## Taxon Name
 
@@ -93,7 +104,8 @@ ranked or unranked.
 Terms which are not organized hierarchically are intended for
 clarification, and are linked to but not part of classifications. These
 consist of things like HTML-formatted “display name” and author strings.
-A rank is required.\
+A rank is required.
+
 
 ## Taxonomy as a Hierarchy
 
@@ -106,7 +118,8 @@ concepts, such as plants and animals.
 
 ```
 
-Common\_Name . Common\_Name\
+Common\_Name . Common\_Name
+
 VARCHAR2 (20) null
 
 ```
@@ -126,8 +139,10 @@ particular standard such as that of the American Ornithological Union
 
 ```
 
-Taxon\_Relations . Taxon\_Relationship\
-VARCHAR2 (30) not null\
+Taxon\_Relations . Taxon\_Relationship
+
+VARCHAR2 (30) not null
+
 cttaxon\_relation
 
 ```
@@ -140,7 +155,8 @@ another record in the taxonomy table.
 
 ```
 
-Taxon\_Relations . Relationship\_Authority\
+Taxon\_Relations . Relationship\_Authority
+
 VARCHAR2 (45) null
 
 ```
@@ -180,7 +196,8 @@ the “parent” binomen, *Trichophorum pumilum* (M. Vahl) Schinz & Thell
 plus the infraspecific rank, “subspecies,” and author text from the
 “child” trinomen, *Trichophorum pumilum* var. *Rollandii* (Fern.) Hult.
 
-[]()\
+[]()
+
 ## Searching
 
 There are various “taxonomy-like” search fields on SpecimenSearch, and
@@ -274,14 +291,16 @@ consider to be members of taxon BLA?”
 
 ## FAQ
 
-**Q: Why not hierarchies/thesauri/some other model?**\
+**Q: Why not hierarchies/thesauri/some other model?**
+
 A: The taxonomy model is primarily designed for flexibility, an idea
 somewhat incompatible with more-structured data. This model is designed
 to work with changes, uncertainty, unranked terms, and even
 nonbiological taxonomies, and to communicate with services such as
 globalnames.
 
-**Q: Why does the editing interface not ….. ?\
+**Q: Why does the editing interface not ….. ?
+
 **A: The editing interfaces are designed to get us by until
 [someone](http://gnite.org) does a better job, and are a reflection of
 the model in being very generic (and therefore also very limited and
@@ -292,7 +311,8 @@ homonyms and all the other reality that is taxonomy at the scale of
 Arctos) rather than in Arctos (which can now leverage any number of
 those services to compile a complete picture).
 
-**Q: How does the model assert “acceptedness”?**\
+**Q: How does the model assert “acceptedness”?**
+
 A: All names exist because someone with the proper credentials loaded
 them, and presumably because there exists “appropriate” (a term which
 varies by discipline, tradition, and time) literature creating or
@@ -330,27 +350,34 @@ represent a ranked singular taxonomic viewpoint.
 
 Note values that pop into search form.
 
-Names that contain the string “microtus”\
+Names that contain the string “microtus”
+
 <http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus>
 
-Names that ARE Microtus:\
+Names that ARE Microtus:
+
 <http://arctos.database.museum/taxonomy.cfm?taxon_name==microtus>
 
-Names that contain microtus AND have an attribute of “mammalia”:\
+Names that contain microtus AND have an attribute of “mammalia”:
+
 <http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus&taxon_term=mammalia>
 
 Names that contain microtus AND have an attribute of value “mammalia”
-and rank (=term type) “phylclass”\
+and rank (=term type) “phylclass”
+
 <http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus&taxon_term=mammalia&term_type=phylclass>
 
 Names that contain microtus AND have an unranked attribute of value
-“mammalia”\
+“mammalia”
+
 <http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus&taxon_term=mammalia&term_type=NULL>
 
-Microtus according to Arctos\
+Microtus according to Arctos
+
 <http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus&taxon_term=&term_type=&source=Arctos>
 
-Genus microtus according to Arctos\
+Genus microtus according to Arctos
+
 <http://arctos.database.museum/taxonomy.cfm?taxon_name=&taxon_term=%3Dmicrotus&term_type=genus&source=Arctos>
 
 ## Relationship of taxonomy to specimens

@@ -12,11 +12,16 @@ Concepts
 
 </div>
 
-[Catalog Number](#catalog_number)\
-[GUID](#guid)\
-[Collection](#collection)\
-[Collection Code](#collection_code)\
-[Description](#description)\
+[Catalog Number](#catalog_number)
+
+[GUID](#guid)
+
+[Collection](#collection)
+
+[Collection Code](#collection_code)
+
+[Description](#description)
+
 [Institution Acronym](#institution_acronym)
 
 <div class="anchortitle">
@@ -25,9 +30,12 @@ Procedures
 
 </div>
 
-[Understanding Cataloged Items](#what)\
-[delete](#delete)\
-[recatalog](#recatalog)\
+[Understanding Cataloged Items](#what)
+
+[delete](#delete)
+
+[recatalog](#recatalog)
+
 [searching](#srch2)
 
 </div>
@@ -48,12 +56,14 @@ biological individual may occur in more than one catalog. For example,
 some museums maintain one catalog for skins and another for skeletal
 material, or separate parts of the same individual may have been
 cataloged at more than one institution. The term “specimen” is uses
-synonymously with “cataloged item” throughout Arctos.\
+synonymously with “cataloged item” throughout Arctos.
+
 [](){.infoLink}
 
 ```
 
-Cataloged\_Item . Cat\_Num\
+Cataloged\_Item . Cat\_Num
+
 NUMBER not null
 
 ```
@@ -96,7 +106,8 @@ The following table is illustrative.
   \_12        012, a12, 912, ….                                “\_” is “match any single character.”
   1\_2        102, 112, 1A2, ….                                “\_” is “match any single character.”
 
-[](){.infoLink}\
+[](){.infoLink}
+
 ## Guid Prefix
 
 Catalogs are most usefully defined by way of Collection.Guid\_Prefix,
@@ -111,7 +122,8 @@ by way of GUID.
 
 ```
 
-Collection . Collection\
+Collection . Collection
+
 VARCHAR2(15) not null
 
 ```
@@ -125,7 +137,8 @@ example:
 
 ```
 
-Collection . Collection\_Cde\
+Collection . Collection\_Cde
+
 VARCHAR2(4) not null
 
 ```
@@ -137,17 +150,20 @@ This field is most importantly used in code tables, which determine the
 values provided to drop-downs in specimen-editing applications. Thus, if
 you are editing the record for a mammal specimen, you have the option of
 using an attribute such as ear length, and you do not have to see
-irrelevant attributes such as beak length.\
+irrelevant attributes such as beak length.
+
 [](){.infoLink}
 
 ```
 
-Collection . Desc\
+Collection . Desc
+
 VARCHAR2(255) not null
 
 ```
 
-**Description:**\
+**Description:**
+
 An extended name/description of the collection. For example:
 
 -   University of Alaska Museum, Mammal Collection
@@ -159,7 +175,8 @@ An extended name/description of the collection. For example:
 
 ```
 
-Collection . Institution\_Acronym\
+Collection . Institution\_Acronym
+
 VARCHAR2(20) not null
 
 ```
@@ -176,7 +193,8 @@ established.
 
 [](){.infoLink}
 
-**Locating Specimens by Identifier**\
+**Locating Specimens by Identifier**
+
 Each specimen in Arctos receives a single catalog number, along with any
 number of identifying numbers, often referred to as “Other IDs.” There
 are several ways, each with their own limitations, to search these
@@ -228,7 +246,8 @@ height="140"}](/images/classic-uploads/2013/06/3f7b9-screenshot2011-07-12at1-34-
 </div>
 
 The above example finds all specimens with any type of identifier
-(except catalog number)\
+(except catalog number)
+
 containing the string “123.” As of this writing, that search returns
 9330 specimens. Additional criteria, coupled with Arctos’ sorting
 capability, is hopefully enough to find the specimen data of interest.
@@ -454,7 +473,8 @@ systems which discourage good science
     the database.
 
 Note that there may be reasons to keep masked records in the database
-instead of deleting them.\
+instead of deleting them.
+
 [](){.infoLink}
 
 **Recataloging Specimens**
@@ -488,11 +508,16 @@ To do this,
     MSB:Mamm:456, enter: old\_path=**/guid/DGR:Mamm:123**;
     new\_path=**/guid/MSB:Mamm:456**.
 
-[]()\
-[]()\
-[]()\
-[]()\
-[]()\
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
 
 Other ID documentation has moved to[it’s own
 page](http://arctosdb.org/documentation/other-id/#search_other_id).

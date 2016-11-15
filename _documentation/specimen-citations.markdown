@@ -13,10 +13,14 @@ Definitions
 
 </div>
 
-[Publication](#publication_id)\
-[Specimen](#collection_object)\
-[Page Number](#occurs_page_number)\
-[Basis of Citation](#citation_type)\
+[Publication](#publication_id)
+
+[Specimen](#collection_object)
+
+[Page Number](#occurs_page_number)
+
+[Basis of Citation](#citation_type)
+
 [Cited As](#cited_as_taxon)
 
 <div class="anchortitle">
@@ -25,9 +29,12 @@ Using
 
 </div>
 
-[Creating](#create_cite)\
-[Erroneous Citations](#erroneous_citation)\
-[Bulk-loading Citations](#bulkload_citations)\
+[Creating](#create_cite)
+
+[Erroneous Citations](#erroneous_citation)
+
+[Bulk-loading Citations](#bulkload_citations)
+
 [Searching](#search_cite)
 
 </div>
@@ -37,12 +44,14 @@ a page in the publication, then it is a Citation.  Ideally, a
 publication refers to specimens by their catalog numbers and
 institutions, but data can be entered for specimens that were cataloged
 after they were cited, or that were cited by some other identifier such
-as a field number.  A specimen citation includes:\
+as a field number.  A specimen citation includes:
+
 [](){.infoLink}
 
 ```
 
-Citation . Publication\_ID (FK)\
+Citation . Publication\_ID (FK)
+
 INTEGER not null
 
 ```
@@ -50,35 +59,42 @@ INTEGER not null
 **Publication:** There cannot be a Citation until the Publication has
 been included in the database.  Because full citation includes a page
 number, the best practice is to enter citations only when the
-publication is in its final form.\
+publication is in its final form.
+
 [](){.infoLink}
 
 ```
 
-Citation . Identification\_ID (FK)\
+Citation . Identification\_ID (FK)
+
 INTEGER not null
 
 ```
 
-**Specimen:** Citations link to, and ideally create, Identifications.\
+**Specimen:** Citations link to, and ideally create, Identifications.
+
 [](){.infolink}
 
 ```
 
-Citation . Occurs\_Page\_Number\
+Citation . Occurs\_Page\_Number
+
 INTEGER null
 
 ```
 
 **Publication Page Number** is the number of the first page on which the
 specific specimen is mentioned.  Referrals to the specimen on subsequent
-pages within the same publication are ignored.\
+pages within the same publication are ignored.
+
 [](#top){.infolink}
 
 ```
 
-Citation . Type\_Status\
-VARCHAR(20) not null\
+Citation . Type\_Status
+
+VARCHAR(20) not null
+
 [ctcitation\_type\_status](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status)
 
 ```
@@ -88,12 +104,14 @@ cited.  It is possible that one specimen was cited in more than one
 context within a single publication.  In this case, use either the first
 context in which the specimen is cited, or the most important context in
 which the specimen is cited.  Vocabulary is controlled by a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status).\
+table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status).
+
 [](){.infolink}
 
 ```
 
-Citation . identification\_id (FK)\
+Citation . identification\_id (FK)
+
 INTEGER not null
 
 ```
@@ -137,7 +155,8 @@ You can select the cited specimens by catalog number or an Other
 Identifier.  The form will automatically fill in the catalog number (if
 an Other\_ID was used), and the current taxonomic determination for the
 specimen.  You then select the scientific name by which the publication
-cited the item.\
+cited the item.
+
 [](){.infolink}
 
 **Erroneous Citations:** In entering Cited As determinations and
@@ -167,7 +186,8 @@ transcription of MVZ 123456.”  The second citation of the intended
 record should have the appropriate value for Basis of Citation, and
 Citation Remarks should say something like, “Specimen was incorrectly
 cited as MVZ 125456.”  With this, anyone coming from the publication
-should be able to find their way to the correct meaning.\
+should be able to find their way to the correct meaning.
+
 [](){.infolink}
 
 ```
@@ -176,7 +196,8 @@ BulkloadCitations.cfm
 
 ```
 
-**Bulk-loading Citations**\
+**Bulk-loading Citations**
+
 In publications that cite numerous specimens, it is often efficient to
 bulkload the citations, especially if they are in tabular form within an
 electronic copy of the document. This can be done by copying and pasting
@@ -184,7 +205,8 @@ the table from the publication into a spreadsheet. It must then be
 formatted to exactly match the key fields in Arctos, and exported as a
 comma-delimited text file. The tool for uploading this file, and a
 detailed description of the file are found from Bulkload Citations on
-the Tool tab.\
+the Tool tab.
+
 [](#top){.infolink}
 
 ### **Searching Specimen Citations**

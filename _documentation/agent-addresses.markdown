@@ -7,9 +7,12 @@ layout: default_toc
 
 <div class="anchors">
 
-[Maintenance](#used)\
-[address\_type](#addr_type)\
-[address](#address)\
+[Maintenance](#used)
+
+[address\_type](#addr_type)
+
+[address](#address)
+
 [valid\_addr\_fg](#valid_addr_fg)
 
 </div>
@@ -52,9 +55,12 @@ allowed in mailing addresses, which will display in a textarea on the
 edit agent form. Other address types use HTML5 datatype controls.
 Mailing or shipping addresses should be of the format:
 
-Agent Name, Job Title\
-Full Mailing Address\
-Street, State, etc. as required\
+Agent Name, Job Title
+
+Full Mailing Address
+
+Street, State, etc. as required
+
 Zip Code or Equivalent, Country Code
 
 Do not abbreviate except according to postal guidelines. Make no

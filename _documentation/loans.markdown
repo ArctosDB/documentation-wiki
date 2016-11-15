@@ -7,22 +7,38 @@ layout: default_toc
 
 <div class="anchors">
 
-[Loan Number](#loan_number)\
-[Loan Type](#loan_type)\
-[Loan Status](#loan_status)\
-[Loan Agents](#loan_agent_role)\
-[Nature of Material](#nature_of_material)\
-[Instructions](#instructions)\
-[Description](#description)\
-[Remarks](#remarks)\
-[Initiated Date](#initiated_date)\
-[Due Date](#due_date)\
-[Shipping Date](#shipping_date)\
-[Receipt Acknowledged](#receipt_acknowledged)\
-[Returned Date](#returned_date)\
-[Permit](#permit)\
-[Project](#project)\
-[Data Loans](#dataloan)\
+[Loan Number](#loan_number)
+
+[Loan Type](#loan_type)
+
+[Loan Status](#loan_status)
+
+[Loan Agents](#loan_agent_role)
+
+[Nature of Material](#nature_of_material)
+
+[Instructions](#instructions)
+
+[Description](#description)
+
+[Remarks](#remarks)
+
+[Initiated Date](#initiated_date)
+
+[Due Date](#due_date)
+
+[Shipping Date](#shipping_date)
+
+[Receipt Acknowledged](#receipt_acknowledged)
+
+[Returned Date](#returned_date)
+
+[Permit](#permit)
+
+[Project](#project)
+
+[Data Loans](#dataloan)
+
 [Deleting Items](#deleteitems)
 
 </div>
@@ -51,12 +67,14 @@ dealing with both outgoing specimens and incoming specimens.
 
 ```
 
-Loans . Loan\_Number\
+Loans . Loan\_Number
+
 VARCHAR(20) not null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Loan Number**
 
 A Loan “number” is a string identifying the loan. The format usually
@@ -65,12 +83,14 @@ uncontrolled.
 
 ```
 
-Loans . Loan\_Type\
+Loans . Loan\_Type
+
 VARCHAR not null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Type**
 
 Loan type is a [code-table controlled
@@ -81,24 +101,28 @@ enter the most important one (*i.e.*, “returnable”).
 
 ```
 
-Loans . Loan\_Status\
+Loans . Loan\_Status
+
 VARCHAR not null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Status** is essentially the degree to which the transaction has been
 completed. The values comes from a [code-table controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_STATUS).
 
 ```
 
-Loans . Loan\_Agent\_Role\
+Loans . Loan\_Agent\_Role
+
 VARCHAR not null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Loan Agents** Agents (generally people) are associated with loans in
 various capacities, and these vary among collections. At a minimum, a
 loan is authorized by at least one person and received by another
@@ -111,12 +135,14 @@ vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTRANS
 
 ```
 
-Loans . Nature\_of\_Material\
+Loans . Nature\_of\_Material
+
 VARCHAR not null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Nature of Material:** A description summarizing the overall content of
 the loan. This description will appear on the loan invoice. It should be
 explicit and concise, but it does not need include details on a
@@ -124,57 +150,67 @@ specimen-by-specimen basis.
 
 ```
 
-Loans . Instructions\
+Loans . Instructions
+
 VARCHAR null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Instructions:** Directions to the borrower on such things as storage
 and return of the loaned items.
 
 ```
 
-Loans . Description\
+Loans . Description
+
 VARCHAR null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Description:** I don’t know? Why do we need another text field in
 addition to Nature of Material and Remarks?
 
 ```
 
-Loans . Loan\_Remarks\
+Loans . Loan\_Remarks
+
 VARCHAR null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Remarks:** Any annotations that will not be included on the Loan
 invoice.
 
 ```
 
-Loans . Initiated\_Date\
+Loans . Initiated\_Date
+
 DATE not null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Initiated Date** is the date on which preparation of the loan began. A
 default value would be the date on which the loan was first recorded in
 the database.
 
 ```
 
-Loans . Due\_Date\
+Loans . Due\_Date
+
 DATE null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Due Date** is the date that a loan of the Type Returnable is expected
 to be returned to the lending collection. This date may be used to
 search for overdue loans, and/or to generate automated reminders to the
@@ -182,12 +218,14 @@ appropriate agents.
 
 ```
 
-Loans . Shipping\_Date\
+Loans . Shipping\_Date
+
 DATE null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Shipping Date** is the date that the loaned material was shipped from
 the collection issuing the loan. The Shipping Date should be consistent
 with any documentation provided by the carrier, *e.g.,* a waybill, bill
@@ -195,35 +233,42 @@ of lading, etc.
 
 ```
 
-Loans . Receipt\_Acknowledged\_Date\
+Loans . Receipt\_Acknowledged\_Date
+
 DATE null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Receipt Acknowledged** is the date the agent receiving the loan
 submitted acknowledgment of its arrival to lending collection.
 
 ```
 
-Loans . Returned\_Date\
+Loans . Returned\_Date
+
 DATE null
 
 ```
 
-[](#top){.infoLink}\
-**Returned Date**\
+[](#top){.infoLink}
+
+**Returned Date**
+
 is the date that a loan of the type Returnable was received back at the
 collection from which the loan was issued.
 
 ```
 
-Permit . Permit\_ID\
+Permit . Permit\_ID
+
 INTEGER null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Permits:** A loan may be authorized under one or more
 [permits](permit.html), and these may include both the senders and to
 the recipients. Such authorizations should be recorded by associating
@@ -234,17 +279,20 @@ loan.
 
 ```
 
-Project . Project\_ID\
+Project . Project\_ID
+
 INTEGER null
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Projects:** A loan is almost always made in support of one or more
 [projects](project.html), and it is in project descriptions that the
 scientific justification for the loan should be described.
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Data loans** document data usage, and are generally used when a
 project downloads data from Arctos without examining specimens. Data
 loans form a special relationship between a loan and a cataloged item,
@@ -287,7 +335,8 @@ loan for illustrative purposes.
 
 Total time: \~10 minutes, mostly spent researching and creating Agents.
 Result:
-<http://arctos.database.museum/project/different-climatic-envelopes-among-invasive-populations-may-lead-to-underestimations-of-current-and-future-biological-invasions>\
+<http://arctos.database.museum/project/different-climatic-envelopes-among-invasive-populations-may-lead-to-underestimations-of-current-and-future-biological-invasions>
+
 The collections used, even though there was no formal loan request and
 no physical specimen usage, receive quantifiable credit for specimen
 data used. Future Hieracium added to Arctos will not be included in this

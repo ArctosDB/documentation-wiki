@@ -13,9 +13,12 @@ Concepts
 
 </div>
 
-[Other Identifiers](#other_id)\
-[Other ID Type](#other_id_type)\
-[Other ID Number](#other_id_number)\
+[Other Identifiers](#other_id)
+
+[Other ID Type](#other_id_type)
+
+[Other ID Number](#other_id_number)
+
 [Other ID References](#other_id_references)
 
 <div class="anchortitle">
@@ -24,27 +27,34 @@ Procedures
 
 </div>
 
-[General Guidelines](#guidelines)\
-[Forming URIs](#forming_uri)\
-[Bulkloader Considerations](#bulkload_otherid)\
+[General Guidelines](#guidelines)
+
+[Forming URIs](#forming_uri)
+
+[Bulkloader Considerations](#bulkload_otherid)
+
 [Searching](#search_other_id)
 
 </div>
 
 [](){.infoLink}
 
-<span style="font-size:x-small">Other IDs (Identifiers)</span>\
+<span style="font-size:x-small">Other IDs (Identifiers)</span>
+
 **Other IDs** (identifiers) are identifiers applied to specimens. These
 identifiers may make identify specimens (as in the case of collector
 numbers), reference other resources (*e.g.*, GenBank numbers), or form
-relationships among specimens (such as hosts of parasites).\
+relationships among specimens (such as hosts of parasites).
+
 [](){.infoLink}
 
 ```
 
 
-Coll\_Obj\_Other\_ID\_Num . Other\_ID\_Type\
-VARCHAR2(75) not null\
+Coll\_Obj\_Other\_ID\_Num . Other\_ID\_Type
+
+VARCHAR2(75) not null
+
 ctcoll\_other\_ID\_type
 
 
@@ -55,7 +65,8 @@ uses a [controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
 Users who are logged in can choose one Other ID Type to be their
 “preferred identifier.”   Your preferred identifier will then be the
-default displayed in several forms.\
+default displayed in several forms.
+
 [](){.infoLink}
 
 This same vocabulary can be used to systematically form URLs from
@@ -91,8 +102,10 @@ returning the link to the GenBank record for that specimen
 
 ```
 
-Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Prefix VARCHAR2(60)\
-Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Number NUMBER\
+Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Prefix VARCHAR2(60)
+
+Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Number NUMBER
+
 Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Suffix VARCHAR2(60)
 
 ```
@@ -183,7 +196,8 @@ the following Other IDs would be appropriate for the listed items:
 [Top](#top){.infoLink}
 
 <span style="font-size:larger;font-weight:bold">General
-Guidelines</span>\
+Guidelines</span>
+
 Be as specific and complete as possible in choosing both an Other ID
 Type and assigning an Other ID Number. Everything that follows is an
 elaboration of this simple concept.
@@ -212,7 +226,8 @@ Considering that the one and only mission of Other Identifiers is to
 serve as a hopefully-unique “name” for specimens, it is hard to imagine
 what of value might be lost if all those were merged into something like
 
-Term: **MVZ: Museum of Vertebrate Zoology**\
+Term: **MVZ: Museum of Vertebrate Zoology**
+
 Defintion: **Various inactionable identifiers assigned by the MVZ**
 
 Better than “MVZ” would be the identifier type “MVZ:Bird,” which in
@@ -227,7 +242,8 @@ subject to curatorial discretion.
 [Top](#top){.infoLink}
 
 <span style="font-size:larger;font-weight:bold">Bulk-loading
-Rules:</span>\
+Rules:</span>
+
 The bulk-loader accepts a single string which is parsed out into three
 fields at runtime. Strangely formatted strings may be manually entered
 into the correct fields under Specimen Detail.
@@ -242,7 +258,8 @@ individual fields according to the following rules
     define the numeric portion of an identifier
 -   Curly brackets ( <span style="font-weight:bold">{</span> and <span
     style="font-weight:bold">}</span> ) may be used <span
-    style="font-weight:bold">around the entire Identifier only</span>\
+    style="font-weight:bold">around the entire Identifier only</span>
+
     to force the Identifier into Prefix. This is most useful when
     leading zeros would otherwise be lost in the numeric portion of
     the Identifier.
@@ -273,7 +290,8 @@ Examples:
   {v-00001}     v-00001   NULL     NULL      v-00001     {} force to prefix
   \[1\]-abc-2   NULL      1        -abc-2    1-abc-2     Number explicitly defined.
 
-[]()\
+[]()
+
 **Searching by Other ID:** Most searches by Other ID match text strings
 (or substrings) to the concatenated value of Other ID (Prefix + Other ID
 Number + Suffix). To **search by the integer component** (Other ID
@@ -289,7 +307,8 @@ Note that this relies on having other IDs entered as a 3-part number.
 Many Other IDs have been entered entirely in Prefix. Note also that you
 may specify Prefix and/or Suffix in the 3-part search boxes to produce
 SQL like:
-` ...AND customIdentifier.other_id_type = 'ALAAC' AND upper(customIdentifier.other_id_prefix) LIKE '%I TYPED THIS IN THE PREFIX BOX%' AND customIdentifier.other_id_number between 50000 and 50110 `\
+` ...AND customIdentifier.other_id_type = 'ALAAC' AND upper(customIdentifier.other_id_prefix) LIKE '%I TYPED THIS IN THE PREFIX BOX%' AND customIdentifier.other_id_number between 50000 and 50110 `
+
 [](){.infoLink}
 
 The “**contains/is/in list**” option works as follows:

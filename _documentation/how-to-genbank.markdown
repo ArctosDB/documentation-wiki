@@ -12,7 +12,8 @@ January, the Database Working Group of the Barcode of Life and GenBank
 agreed to use essentially our current three-part format for specimen
 citations. For example:
 
-UAM:Mamm:123456\
+UAM:Mamm:123456
+
 MVZ:Herp:78910
 
 etc. (Definition at TDWG:
@@ -56,6 +57,8 @@ changes the format of their URLs, breaking all links. Barcode IDs in
 Arctos: <http://arctos.database.museum/go.cfm?id=3104>.
 
 [Chicago Workshop
-Report](http://arctosdb.files.wordpress.com/2011/08/dbwgchicagoworkshopreport-final.pdf)\
-[Federhen et al. 2009](http://arctos.database.museum/media/10253751)\
+Report](http://arctosdb.files.wordpress.com/2011/08/dbwgchicagoworkshopreport-final.pdf)
+
+[Federhen et al. 2009](http://arctos.database.museum/media/10253751)
+
 [Federhen 2014](https://www.ncbi.nlm.nih.gov/pubmed/25398905)

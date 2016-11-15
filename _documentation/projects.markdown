@@ -7,11 +7,16 @@ layout: default_toc
 
 <div class="anchors">
 
-[title](#title)\
-[description](#description)\
-[date](#date)\
-[agent](#agent)\
-[agent\_role](#agent_role)\
+[title](#title)
+
+[description](#description)
+
+[date](#date)
+
+[agent](#agent)
+
+[agent\_role](#agent_role)
+
 [agent\_order](#agent_order)
 
 </div>
@@ -43,7 +48,8 @@ agents who have roles.  Projects may also produce
 [publications](publication.html) to which they can be related even in
 the absence of specimen [citations](publication.html#citation).
 
-[](){.infoLink}\
+[](){.infoLink}
+
 **Title:**  Like projects themselves, project titles may be composed
 retrospectively or they may be originated by the participants.  Titles
 should avoid jargon and be understandable to non-specialists, such as
@@ -66,22 +72,27 @@ or absent descriptions will result in the project being under-exposed –
 include at least 100 meaningful characters for the project to show up in
 search results. Write something meaningful here. Really. Please.
 
-[](){.infoLink}\
+[](){.infoLink}
+
 **Start Date** and **End Date** will often be approximate, and End Date
 can be ignored for projects that are active.  Often, the date that a
 request for specimens is received is used as the start date, and the
 date that results are last published is used as the end date.
 
-[](){.infoLink}\
+[](){.infoLink}
+
 **Project Agents** are the people or agencies doing the project.  Their
 names are drawn from the agents-names table and must be entered there if
 they are not already in the database.
 
-[](){.infoLink}\
+[](){.infoLink}
+
 **Agent Roles** describe what the agents do as project participants. 
 The values for this field are controlled by a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPROJECT_AGENT_ROLE).\
-[](){.infoLink}\
+table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPROJECT_AGENT_ROLE).
+
+[](){.infoLink}
+
 **Agent Order** is the order in which the agents will be displayed.  A
 principal investigator would usually be number one followed by
 co-investigators.  In the case of a doctoral thesis or dissertation, the

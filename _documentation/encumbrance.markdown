@@ -13,8 +13,10 @@ Concepts
 
 </div>
 
-[encumbrancer](#encumbrancer)\
-[encumbrance\_name](#encumbrance_name)\
+[encumbrancer](#encumbrancer)
+
+[encumbrance\_name](#encumbrance_name)
+
 [expiration](#expiration)
 
 <div class="anchortitle">
@@ -23,7 +25,8 @@ Procedures
 
 </div>
 
-[Encumbering Specimens](#encspec)\
+[Encumbering Specimens](#encspec)
+
 [Un-Encumbering Specimens](#unencspec)
 
 </div>
@@ -79,7 +82,8 @@ should be as general as possible with the aim of avoiding separate
 encumbrances when the encumbrancer and the encumbering action are the
 same. (If possible, additional specimens should be added to existing
 encumbrances.) Do **not** just copypasta the encumbrance action here.
-Really. Don’t.\
+Really. Don’t.
+
 [](#top){.infoLink}
 
 **Expiration Date:** All encumbrances should be temporary, and
@@ -102,7 +106,8 @@ expiration\_date is reached.
     now see a summary of your specimens at the bottom of the page, and
     the encumbrance finder at the top.
 3.  Find the appropriate encumbrance by entering search criteria and
-    clicking Find Encumbrance.\
+    clicking Find Encumbrance.
+
     Under the appropriate encumbrance, click the “Remove Listed Items
     From This Encumbrance” button.
 
@@ -116,14 +121,16 @@ There are many ways to encumber specimens; here one is described.
 1.  Create an Encumbrance (ManageData/Metadata) if an appropriate one
     does not exist.
 2.  Find the specimens you want to encumber using SpecimenSearch.
-3.  From the Manage tool, choose Encumbrances.\
+3.  From the Manage tool, choose Encumbrances.
+
     ![Screen Shot 2015-11-18 at 11.52.20
     AM.png](/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am.png){.alignnone
     .size-full .wp-image-1836 width="518" height="324"
     sizes="(max-width: 518px) 100vw, 518px"
     srcset="/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am.png 518w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-300x188.png 300w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-250x156.png 250w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-288x180.png 288w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-480x300.png 480w"}
 4.  You should now see a summary of your specimens at the bottom of the
-    page, and the encumbrance finder at the top.\
+    page, and the encumbrance finder at the top.
+
     ![Screen Shot 2015-11-18 at 11.55.00
     AM.png](/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am.png){.alignnone
     .size-full .wp-image-1837 width="2644" height="1210"
@@ -133,7 +140,8 @@ There are many ways to encumber specimens; here one is described.
     clicking Find Encumbrance. You’ll get a list of encumbrances (and
     specimens below).
 6.  Under the appropriate encumbrance, click the Add All Items To This
-    Encumbrance button.\
+    Encumbrance button.
+
     ![Screen Shot 2015-11-18 at 11.57.38
     AM.png](/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am.png){.alignnone
     .size-full .wp-image-1838 width="604" height="190"
@@ -141,7 +149,8 @@ There are many ways to encumber specimens; here one is described.
     srcset="/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am.png 604w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-300x94.png 300w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-600x190.png 600w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-250x79.png 250w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-550x173.png 550w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-572x180.png 572w"}
 7.  When the screen refreshes, the specimens are encumbered.
     Double-check that no extraneous specimens have been encumbered. Use
-    the “Return to Encumbrance” link\
+    the “Return to Encumbrance” link
+
     ![Screen Shot 2015-11-18 at 11.59.15
     AM.png](/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am.png){.alignnone
     .size-full .wp-image-1839 width="1096" height="160"

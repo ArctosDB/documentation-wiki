@@ -40,5 +40,6 @@ developed for a more general community of Arctos users.
 Downloads and Randomness
 
 [Arctos Air (desktop
-app)](https://drive.google.com/file/d/0B98yCIdkx2YpYlNzNGd5RXVKdkU/edit?usp=sharing)\
+app)](https://drive.google.com/file/d/0B98yCIdkx2YpYlNzNGd5RXVKdkU/edit?usp=sharing)
+
 [ER diagram](http://code.google.com/p/arctos/downloads/list)

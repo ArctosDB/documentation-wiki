@@ -13,12 +13,18 @@ Concepts
 
 </div>
 
-[Locality Nickname](#locality_name)\
-[specific\_locality](#specific_locality)\
-[elevation](#elevation)\
-[depth](#depth)\
-[trs\_data](#trs_data)\
-[nogeorefbecause](#nogeorefbecause)\
+[Locality Nickname](#locality_name)
+
+[specific\_locality](#specific_locality)
+
+[elevation](#elevation)
+
+[depth](#depth)
+
+[trs\_data](#trs_data)
+
+[nogeorefbecause](#nogeorefbecause)
+
 [WKT Polygon](#wkt)
 
 <div class="anchortitle">
@@ -77,7 +83,8 @@ locality.
 
 ```
 
-Locality . Spec\_Locality\
+Locality . Spec\_Locality
+
 VARCHAR2 (255) null
 
 ```
@@ -100,9 +107,11 @@ Events](collecting-event) for more details).
 
 -   **Example:** 10 mi below Ehrenberg (Arizona), Colorado River
 -   There some situations in which no Specific Locality is given, or no
-    Specific\
+    Specific
+
     Locality would be appropriate. For example, collecting events on the
-    high seas\
+    high seas
+
     which are specified by geographic latitude and longitude.
 
     -   **Example:** North Pacific Ocean, 45 52′ 24″ N, 165 21′ 48″ W
@@ -114,7 +123,8 @@ Events](collecting-event) for more details).
 
     In these examples, as well as in records for which appropriate data
     are missing, the correct value for Specific Locality is, “**No
-    specific locality recorded.**”\
+    specific locality recorded.**”
+
     (In contrast to a normal locality, this is a sentence and therefore
     begins with a capital letter and ends with a period.)
 
@@ -174,7 +184,8 @@ Events](collecting-event) for more details).
     “junction” should be spelled out and followed by “with” or “of.”
     -   **Example 1:**  10 km S junction of Hwy. 1 and Hwy. 5
     -   **Example 2:**  junction of Strawberry Creek with Oxford Ave.
--   Use only the following abbreviations:\
+-   Use only the following abbreviations:
+
       Word or phrase                        Abbreviation   Comment
       ------------------------------------- -------------- --------------------------------------------------------------------------------------------
       yards                                 yds            If space permits, spell out non-metric units. *E.g.,*“yards”
@@ -209,12 +220,18 @@ Events](collecting-event) for more details).
 
 ```
 
-Locality . Maximum\_Elevation\
-Locality . Minimum\_Elevation\
-NUMBER null\
-– – –\
-Locality . Orig\_Elev\_Units\
-VARCHAR2 (2) null\
+Locality . Maximum\_Elevation
+
+Locality . Minimum\_Elevation
+
+NUMBER null
+
+– – –
+
+Locality . Orig\_Elev\_Units
+
+VARCHAR2 (2) null
+
 ctorig\_elev\_units
 
 ```
@@ -226,17 +243,24 @@ Verbatim Locality contains a range for an elevation, e.g., 500-600 ft,
 these values should be entered into the minimum and maximum elevation
 fields, respectively.  If a single elevation is given in Verbatim
 Locality, put that value in both the minimum and maximum elevation
-fields.\
+fields.
+
 [](#top){.infoLink}
 
 ```
 
-Locality . Max\_Depth\
-Locality . Min\_Depth\
-NUMBER null\
-– – –\
-Locality . Depth\_Units\
-VARCHAR2 (2) null\
+Locality . Max\_Depth
+
+Locality . Min\_Depth
+
+NUMBER null
+
+– – –
+
+Locality . Depth\_Units
+
+VARCHAR2 (2) null
+
 ctdepth\_units
 
 ```
@@ -279,7 +303,8 @@ would be entered as:~~
     half,” NW corner, etc.)~~
 
 A thorough description of TRS data, along with a tool to translate them
-to latitude and longitude can be found at the following URL:\
+to latitude and longitude can be found at the following URL:
+
 [www.esg.montana.edu/gl/trs-data.html](http://www.esg.montana.edu/gl/trs-data.html).
 
 ```
@@ -294,7 +319,8 @@ Locality . NogeorefbecauseVARCHAR2(255) null
 coordinate determinations.  Otherwise, it may be used to indicate
 problems with georeferencing the locality, resources needed to
 georeference, or anything else about the lack of coordinate
-determinations.\
+determinations.
+
 [](#top){.infoLink}
 
 **WKT Polygon** provides for a [well-known

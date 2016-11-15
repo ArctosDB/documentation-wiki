@@ -7,12 +7,18 @@ layout: default_toc
 
 <div class="anchors">
 
-[Event Determiner](#determiner)\
-[Event Date](#date)\
-[Event Type](#type)\
-[Collecting Method](#method)\
-[Collecting Source](#source)\
-[Verification Status](#verificationstatus)\
+[Event Determiner](#determiner)
+
+[Event Date](#date)
+
+[Event Type](#type)
+
+[Collecting Method](#method)
+
+[Collecting Source](#source)
+
+[Verification Status](#verificationstatus)
+
 [Habitat](#habitat)
 
 </div>

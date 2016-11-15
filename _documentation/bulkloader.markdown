@@ -7,10 +7,14 @@ layout: default_toc
 
 <div class="anchors">
 
-[Agents](#agent)\
-[Taxon Names](#taxa)\
-[Loading Data](#loading)\
-[Field Descriptions](#fields)\
+[Agents](#agent)
+
+[Taxon Names](#taxa)
+
+[Loading Data](#loading)
+
+[Field Descriptions](#fields)
+
 [Key warning](#pkey)
 
 </div>
@@ -109,9 +113,12 @@ table structure. Do not attempt to use this as a template.** [Let us
 know](http://arctos.database.museum/contact.cfm) if it’s out of date,
 incomplete, cryptic, or otherwise useless.
 
-Field Name\
-<span class="blrequired">required</span>\
-<span class="blcondreq">conditionally required</span>\
+Field Name
+
+<span class="blrequired">required</span>
+
+<span class="blcondreq">conditionally required</span>
+
 <span class="bloptional">not required</span>
 Data Type/Vocabulary
 Description/Example
@@ -441,8 +448,10 @@ collecting\_event information. A value here will over-ride anything
 entered into higher\_geog, spec\_locality, coordinates, dates, method,
 etc.
 []()\* All date fields should be formatted as ISO8601, *e.g.*,
-2006-12-31.\
-[](#top){.infoLink}\
+2006-12-31.
+
+[](#top){.infoLink}
+
 **Primary Key Warning**
 
 Some values may be replaced by or require primary keys: locality\_id,

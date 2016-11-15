@@ -7,24 +7,38 @@ layout: default_toc
 
 <div class="anchors">
 
-[Agent Type](#agent_type)\
-[Person](#person)\
-[Organization](#organization)\
-[Verbatim Collector](#verbatim_collector)\
-[Group](#group)\
-[Names](#names)\
-[Name Type](#name_type)\
-[Agent Remark](#agent_remark)\
-[General Agent Creation Guidelines](#create)\
-[Relationships](#relationship)\
-[Different Agent, Same Name](#samename)\
-[Name Search](#namesearch)\
-[ID Search](#idsearch)\
+[Agent Type](#agent_type)
+
+[Person](#person)
+
+[Organization](#organization)
+
+[Verbatim Collector](#verbatim_collector)
+
+[Group](#group)
+
+[Names](#names)
+
+[Name Type](#name_type)
+
+[Agent Remark](#agent_remark)
+
+[General Agent Creation Guidelines](#create)
+
+[Relationships](#relationship)
+
+[Different Agent, Same Name](#samename)
+
+[Name Search](#namesearch)
+
+[ID Search](#idsearch)
+
 [Deleting Duplicates/deleting](#duplicate)
 
 </div>
 
-[Top](#top){.infoLink}\
+[Top](#top){.infoLink}
+
 Agents are people, organizations, or groups that perform actions. 
 Collectors are agents, authors of publications are agents, users of
 specimens are agents, and, if you enter or edit data, you are an agent.
@@ -70,7 +84,8 @@ are seldom useful.)
 
 ```
 
-Agent . Agent\_Type\
+Agent . Agent\_Type
+
 VARCHAR2(15) not null
 
 ```
@@ -78,9 +93,12 @@ VARCHAR2(15) not null
 ## Agent Type
 
 Agent Type is controlled by a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type).\
-[](#top){.infoLink}\
-**Persons:**\
+table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type).
+
+[](#top){.infoLink}
+
+**Persons:**
+
 Data about a person-agent can first, middle, and last names (and must
 include at least one “person name”). Prefix and Suffix (formerly
 singular attributes of persons) are now embedded in agent names and
@@ -146,7 +164,8 @@ are automatically created for all affected specimens.
 A group is two or more agents functioning in some named capacity.  So,
 instead of listing several collectors on an expedition, one might make
 all the collectors members of something like the “1994 Swedish-Russian
-Tundra Ecology Expedition.”\
+Tundra Ecology Expedition.”
+
 Agent Groups consists of:
 
 1.  An agent of type=group, and optionally
@@ -156,7 +175,8 @@ Groups may be useful for things like collecting expeditions.
 
 ```
 
-Agent\_Name . Agent\_Name\
+Agent\_Name . Agent\_Name
+
 VARCHAR2(184) not null
 
 ```
@@ -170,8 +190,10 @@ have any number of other names.
 
 ```
 
-Agent\_Name . Agent\_Name\_Type\
-VARCHAR2(18) not null\
+Agent\_Name . Agent\_Name\_Type
+
+VARCHAR2(18) not null
+
 ctagent\_name\_type
 
 ```
@@ -185,7 +207,8 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name
 
 ```
 
-Agent . Agent\_Remark\
+Agent . Agent\_Remark
+
 VARCHAR2(255) null
 
 ```
@@ -319,7 +342,8 @@ forms pick by agent\_id and names are only “human-readable proxies” to
 the ID.) The current unique index approach seems less problematic than
 the alternative, both in getting students to choose the correct agent
 and in avoiding duplicate agent creation, but neither method is ideal.
-Address any suggestions or concerns to the Arctos discussion group.\
+Address any suggestions or concerns to the Arctos discussion group.
+
 [](#top){.infoLink}
 
 ## Searching Agents

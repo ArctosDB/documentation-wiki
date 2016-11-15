@@ -13,15 +13,24 @@ Components
 
 </div>
 
-[media\_uri](#media_uri)\
-[mime\_type](#mime_type)\
-[media\_type](#media_type)\
-[preview\_uri](#preview_uri)\
-[media\_relationship](#media_relationship)\
-[created\_by](#created_by)\
-[related\_data\_item](#related_data_item)\
-[media\_label](#media_label)\
-[label\_value](#label_value)\
+[media\_uri](#media_uri)
+
+[mime\_type](#mime_type)
+
+[media\_type](#media_type)
+
+[preview\_uri](#preview_uri)
+
+[media\_relationship](#media_relationship)
+
+[created\_by](#created_by)
+
+[related\_data\_item](#related_data_item)
+
+[media\_label](#media_label)
+
+[label\_value](#label_value)
+
 [assigned\_by](#assigned_by)
 
 <div class="anchortitle">
@@ -30,15 +39,24 @@ Tools
 
 </div>
 
-[Media Creation Guidelines](#guide)\
-[Binary Creation Guidelines](#creating)\
-[Multi-page Documents](#mpd)\
-[bulkloading](#bulk)\
-[Discovery](#discovery)\
-[tacctools](#tacctools)\
-[checksum](#checksum)\
-[TAGs](#tag)\
-[Stability](#stability)\
+[Media Creation Guidelines](#guide)
+
+[Binary Creation Guidelines](#creating)
+
+[Multi-page Documents](#mpd)
+
+[bulkloading](#bulk)
+
+[Discovery](#discovery)
+
+[tacctools](#tacctools)
+
+[checksum](#checksum)
+
+[TAGs](#tag)
+
+[Stability](#stability)
+
 [Tips](#tips)
 
 </div>
@@ -309,7 +327,8 @@ DNG view
 .wp-image-911 width="640" height="360"
 sizes="(max-width: 640px) 100vw, 640px"
 srcset="/images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png 853w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-300x169.png 300w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-768x433.png 768w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-250x141.png 250w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-550x310.png 550w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-800x451.png 800w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-319x180.png 319w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-532x300.png 532w"}
-\
+
+
 JPG view – what most users find
 [](){#mpd}
 
@@ -330,7 +349,8 @@ easier. Most scanners support sequential naming, such as
 -   My\_Fieldnotes\_1.jpg
 -   My\_Fieldnotes\_2.jpg.
 
-Load the scans to a stable, archival, visible server. (As always, we\
+Load the scans to a stable, archival, visible server. (As always, we
+
 recommend TACC.) After this step, you should have a list of URIs
 
 -   <http://some.server.somewhere/some/path/information/folders/whatever/My_Fieldnotes_1.jpg>
@@ -479,14 +499,16 @@ forms a HTML-link to
 Arctos provides several URLs to media objects. It it important to know
 which to use in any particular situation.
 
--   **Detail URL: (<http://arctos.database.museum/media/10002230>)**\
+-   **Detail URL: (<http://arctos.database.museum/media/10002230>)**
+
     This is a “fairly permanent” (a decade?) link to the Media
     Detail page. This link should continue to work as long as Arctos is
     at the same URL and running under the HTTP protocol. Suitable for
     any maintained online link; DOI is perhaps a better choice for paper
     or PDF archives.
 -   **“Stable Exit link” (
-    (<http://arctos.database.museum/media/10002230?open>)**\
+    (<http://arctos.database.museum/media/10002230?open>)**
+
     Append “?open” (or “?open=true”) to the detail\_url; logs the
     request and redirects to media\_URI. This is a “fairly permanent”
     (a decade?) link to the Media URI. Logging is enabled. This link
@@ -496,14 +518,16 @@ which to use in any particular situation.
     choice for paper or PDF archives. This link is a suitable
     DOI target.
 -   **DOI
-    ([DOI:10.7299/X78050Z6](http://dx.doi.org/10.7299/X78050Z6))**\
+    ([DOI:10.7299/X78050Z6](http://dx.doi.org/10.7299/X78050Z6))**
+
     DOIs should be (50-year-plus) permanent; they (with proper
     Curatorial commitment) will survive the material moving out of
     Arctos, the deprecation of the HTTP protocol, and other
     imaginable changes. Not all material in Arctos has a DOI, but
     Operators may assign DOIs by request.
 -   **“Exit link”
-    (<http://arctos.database.museum/exit.cfm?target=http://web.corral.tacc.utexas.edu/MVZ/images/MVZ_img/cards/jpg/img_card_2242.jpg>)**\
+    (<http://arctos.database.museum/exit.cfm?target=http://web.corral.tacc.utexas.edu/MVZ/images/MVZ_img/cards/jpg/img_card_2242.jpg>)**
+
     Links of this format trigger application-level logging and then
     redirect to the [media URI](#media_uri). These links are as stable
     as the Media URI, but trigger local usage logging which helps us pay
@@ -511,7 +535,8 @@ which to use in any particular situation.
     necessary because Arctos Media may be located anywhere, including
     servers over which we have no control.)
 -   **Media URI
-    (<http://web.corral.tacc.utexas.edu/MVZ/images/MVZ_img/cards/jpg/img_card_2242.jpg>)\
+    (<http://web.corral.tacc.utexas.edu/MVZ/images/MVZ_img/cards/jpg/img_card_2242.jpg>)
+
     **The link to the binary. These do NOT fire application-level
     logging, come with no stability guarantees, and should not be used
     for most purposes.

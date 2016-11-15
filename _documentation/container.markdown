@@ -12,14 +12,22 @@ Model
 
 </div>
 
-[Container Type](#container_type)\
-[Barcode](#barcode)\
-[Label](#label)\
-[Description](#description)\
-[Install Date](#install_date)\
-[Remarks](#remarks)\
-[Print Flag](#print_flag)\
-[Dimensions](#width_height_length)\
+[Container Type](#container_type)
+
+[Barcode](#barcode)
+
+[Label](#label)
+
+[Description](#description)
+
+[Install Date](#install_date)
+
+[Remarks](#remarks)
+
+[Print Flag](#print_flag)
+
+[Dimensions](#width_height_length)
+
 [Positions](#number_of_positions)
 
 <div class="anchortitle">
@@ -28,17 +36,24 @@ Usage
 
 </div>
 
-[General Procedure](#general)\
-[Object Tracking in the field](#field)\
-[Object Tracking without Barcodes](#nobarcodes)\
-[Make a Freezer Box with Positions](#freezerbox)\
-[FAQ](#faq)\
-[General Usage Guidelines](#usage)\
+[General Procedure](#general)
+
+[Object Tracking in the field](#field)
+
+[Object Tracking without Barcodes](#nobarcodes)
+
+[Make a Freezer Box with Positions](#freezerbox)
+
+[FAQ](#faq)
+
+[General Usage Guidelines](#usage)
+
 [Purchase Guidelines](#purchase)
 
 </div>
 
-[]()\
+[]()
+
 ## Arctos Object Tracking in a nutshell
 
 -   “Containers” are of two categories:
@@ -80,12 +95,15 @@ done by scanning a new parent-container ID into the record of a child
 container. In the example above, the approximately 1,300 samples in a
 freezer rack can be tracked from one freezer to another by the scanning
 barcode on the freezer rack and its new parent ID (the barcode on the
-freezer).\
+freezer).
+
 
 ```
 
-Container . Container\_Type\
-VARCHAR(20) not null\
+Container . Container\_Type
+
+VARCHAR(20) not null
+
 [ctcontainer\_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcontainer_type)
 
 ```
@@ -114,12 +132,14 @@ useful.
 
 ```
 
-Container . Parent\_Container\_id\
+Container . Parent\_Container\_id
+
 NUMBER not null
 
 ```
 
-**Parent Container:**\
+**Parent Container:**
+
 This is the value that identifies the container into which another
 (child) Container has been placed. The value is not displayed in
 applications because Parent Containers are generally displayed by their
@@ -129,7 +149,8 @@ Labels and entered into forms by their Barcode.
 
 ```
 
-Container . Barcode\
+Container . Barcode
+
 VARCHAR(50) null
 
 ```
@@ -167,7 +188,8 @@ known barcode values.
 
 ```
 
-Container . Label\
+Container . Label
+
 VARCHAR(255) not null
 
 ```
@@ -196,7 +218,8 @@ in Freezer 6 is “Frzr6 6-B,” not just “6-B.”
 
 ```
 
-Container . Description\
+Container . Description
+
 VARCHAR(255) null
 
 ```
@@ -209,7 +232,8 @@ the Biology Annex” may be expeditious.
 
 ```
 
-Container\_History . Install\_Date\
+Container\_History . Install\_Date
+
 DATETIME not null
 
 ```
@@ -222,12 +246,14 @@ parent.
 
 ```
 
-Container . container\_remarks\
+Container . container\_remarks
+
 VARCHAR(255) null
 
 ```
 
-**Remarks**\
+**Remarks**
+
 is the place to record notes and about the container or its contents.
 Remarks are especially useful in explaining the nature and treatment of
 legacy containers (*i.e.,* containers without barcode labels).
@@ -236,7 +262,8 @@ legacy containers (*i.e.,* containers without barcode labels).
 
 ```
 
-Container . print\_fg\
+Container . print\_fg
+
 NUMBER(1) null
 
 ```
@@ -248,9 +275,12 @@ printing container labels.
 
 ```
 
-Container . width\
-Container . height\
-Container . length\
+Container . width
+
+Container . height
+
+Container . length
+
 NUMBER null
 
 ```
@@ -275,7 +305,8 @@ Some common container dimensions:
 
 ```
 
-Container . Number\_Positions\
+Container . Number\_Positions
+
 INTEGER null
 
 ```
@@ -292,7 +323,8 @@ as scanning cryovials into a 100-position freezer box versus an
 
 ```
 
-Container . institution\_acronym\
+Container . institution\_acronym
+
 VARCHAR(20) not null
 
 ```
@@ -301,7 +333,8 @@ VARCHAR(20) not null
 “owns” a container. (“Owns” because containers are in fact shared across
 VPD boundaries; this is closer to an indication of creator.)
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 ## Object Tracking in general
 
 This section describes very general guidelines for object tracking with
@@ -328,7 +361,8 @@ machine-readable labels.
     scanning other containers into it using one of the many appropriate
     Arctos forms.
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 ## Object Tracking in the field
 
 The best place to begin the process of object tracking is when a part is
@@ -402,7 +436,8 @@ part, and object tracking data will automatically consolidate.
     by scanning it into any other container, and allows it to contain
     any container or specimen part.
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 ## Object tracking without barcodes
 
 We are occasionally asked about object tracking without barcodes. While
@@ -447,7 +482,8 @@ and a system of handling them is necessary. If data of those
 characteristics are not necessary, or the resources to barcode are not
 currently available, use part attribute “location.”
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 ## FAQ
 
 Summary: People who use barcodes tend to find them indispensable; they
@@ -456,12 +492,14 @@ make producing much better data much simpler.
 Q: The only benefit of barcoding is that it provides you with an east
 \[sic\] mechanism for processing large loans, doing inventories or
 otherwise creating batches of specimens.
-[(source)](http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007337.html)\
+[(source)](http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007337.html)
+
 A: Barcodes are useful for much more than loans.
 [(source)](http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007341.html)
 
 Q: …reading devices that might go out of production
-[(source)](http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007339.html)\
+[(source)](http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007339.html)
+
 A: This is an argument that we will soon lose all photodetector, laser,
 and optical devices that may be attached to small computers. Other types
 of “barcodes” (2D codes and RFIDs, for example) require slightly more
@@ -469,14 +507,16 @@ advanced technology, but the argument that very simple methods of
 reading very simple encoded data across very short distances will
 suddenly become impossible just does not make any sense to us.
 
-Q: The scanner read my barcode wrong.\
+Q: The scanner read my barcode wrong.
+
 A: It probably didn’t. Even the very simplest barcodes have start and
 stop codons – half of barcode “1234” is not “12,” it’s unintelligible
 garbage. Printing useless barcodes, failing to develop useful protocols,
 and scanning the wrong things produce off-by-something-random errors;
 technological failures produce only “it didn’t work” errors.
 
-Q: What should I barcode?\
+Q: What should I barcode?
+
 A: Barcode physical objects – things you loan, need to find in the
 collection, or otherwise track. Cataloged items (things to which catalog
 numbers are assigned) are almost never appropriate; insect genitalia are
@@ -500,12 +540,14 @@ anything else; any 1:1 catalog number:barcode ratio is coincidental and
 likely indicative of data structure problems.
 
 Q: What should I do differently for \[“vouchers,” “tissues”, herbarium
-sheets, slides, whale skeletons, lots, subsamples, etc.\]\
+sheets, slides, whale skeletons, lots, subsamples, etc.\]
+
 A: Nothing. All of the above (and much more) is tracked in Arctos under
 one system. A system which must be modified for “special” situations is
 almost certainly also lacking in “normal” usage.
 
-Q: What “numbers” should I use?\
+Q: What “numbers” should I use?
+
 A: Anything unique within your “globe” is sufficient; the larger the
 “globe,” the more you one can do with the data. Arctos currently has a
 system-wide unique key on barcodes, which allows us to deploy
@@ -524,7 +566,8 @@ globally-unique and resolvable if inadvertently cited), though we have
 so far been unable to procure sufficient DOIs to test this idea at
 scale.
 
-Q: What encoding should I use?\
+Q: What encoding should I use?
+
 A: Whatever fits on your desired labels and can be reliably read by a
 convenient machine.
 

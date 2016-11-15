@@ -7,13 +7,20 @@ layout: default_toc
 
 <div class="anchors">
 
-[Part Names](#part_name)\
-[Modifier](#modifier)\
-[Preservation Method](#pres_method)\
-[Disposition](#disposition)\
-[Condition](#condition)\
-[Tissues?](#is_tissue)\
-[Lot Count](#lot)\
+[Part Names](#part_name)
+
+[Modifier](#modifier)
+
+[Preservation Method](#pres_method)
+
+[Disposition](#disposition)
+
+[Condition](#condition)
+
+[Tissues?](#is_tissue)
+
+[Lot Count](#lot)
+
 [Sampled From](#sampled_from)
 
 </div>
@@ -38,13 +45,16 @@ collection.
 
 ```
 
-Specimen\_Part.Part\_Name\
-VARCHAR(70) not null\
+Specimen\_Part.Part\_Name
+
+VARCHAR(70) not null
+
 [ctspecimen\_part\_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Part Names:** What we choose to name as a part depends on what we
 define as a part,  and while this is often obvious (*e.g.,* “whole
 organism”), organisms become separated into parts in ways both
@@ -60,20 +70,27 @@ may be a batch of indefinite size, the plural is included
 parenthetically (*e.g.,* “endoparasite(s)”).
 
 Parts, when separable, should be entered on individual lines of the
-parts grid as individual\
+parts grid as individual
+
 collection objects. Distinct parts should be entered on separate lines,
 *e.g*., ***skull*** and ***postcranial skeleton***.  A ***postcranial
-skeleton*** is considered a single part. Parts\
+skeleton*** is considered a single part. Parts
+
 already contained in the ***postcranial skeleton*** may be entered on
 separate lines for clarity.  An acceptable entry might be:
 
-> skull\
-> postcranial skeleton (partial)\
+> skull
+
+> postcranial skeleton (partial)
+
 > right humerus \[part condition: broken\]
 
-Such an entry would designate a postcranial skeleton that has a broken\
-right humerus. Situations like this are typically discovered during\
-loans, are almost always unique, and should be dealt with on a case by\
+Such an entry would designate a postcranial skeleton that has a broken
+
+right humerus. Situations like this are typically discovered during
+
+loans, are almost always unique, and should be dealt with on a case by
+
 case basis.
 
 Part name contains information once split out into part modifier, and
@@ -99,15 +116,19 @@ from which they can readily obtain subsamples.
 
 ```
 
-Coll\_Object.Disposition\
-VARCHAR(20) not null\
+Coll\_Object.Disposition
+
+VARCHAR(20) not null
+
 [ctcoll\_obj\_disp](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
 
 ```
 
-[](#top){.infoLink}\
+[](#top){.infoLink}
+
 **Disposition** describes the status of parts and, as an abstract
-generality,\
+generality,
+
 the status of cataloged items.  Typical values are:
 
 -   in collection
@@ -118,7 +139,8 @@ the status of cataloged items.  Typical values are:
 
 ```
 
-Coll\_Object.Condition\
+Coll\_Object.Condition
+
 VARCHAR(255) not null
 
 ```
@@ -143,7 +165,8 @@ VARCHAR(255) not null
 
 ```
 
-Coll\_Object.Lot\_Count\
+Coll\_Object.Lot\_Count
+
 NUMBER not null
 
 ```
@@ -226,7 +249,8 @@ Examples of lot count usage:
 
 ```
 
-Specimen\_Part.Sampled\_From\_Obj\_Id\
+Specimen\_Part.Sampled\_From\_Obj\_Id
+
 NUMBER null
 
 ```

@@ -13,17 +13,28 @@ Concepts
 
 </div>
 
-[Original Units](#original_units)\
-[Datum](#datum)\
-[Reference Source](#reference)\
-[Georeference Method](#georefmethod)\
-[GPS Accuracy](#gpsaccuracy)\
-[Extent](#extent)\
-[Maximum Uncertainty Distance](#maximum_error)\
-[Determiner](#determiner)\
-[Date](#date)\
-[Verification Status](#verificationstatus)\
-[Accepted Flag](#accepted)\
+[Original Units](#original_units)
+
+[Datum](#datum)
+
+[Reference Source](#reference)
+
+[Georeference Method](#georefmethod)
+
+[GPS Accuracy](#gpsaccuracy)
+
+[Extent](#extent)
+
+[Maximum Uncertainty Distance](#maximum_error)
+
+[Determiner](#determiner)
+
+[Date](#date)
+
+[Verification Status](#verificationstatus)
+
+[Accepted Flag](#accepted)
+
 [Remarks](#remarks)
 
 <div class="anchortitle">
@@ -71,9 +82,12 @@ prevent accurately representing the data.
 
 ```
 
-collecting\_event . Orig\_Lat\_long\_Units\
-VARCHAR(20) null\
-[ctlat\_long\_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS)\
+collecting\_event . Orig\_Lat\_long\_Units
+
+VARCHAR(20) null
+
+[ctlat\_long\_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS)
+
 DarwinCore2=VerbatimCoordinateSystem
 
 ```
@@ -92,14 +106,18 @@ formats are defined and described by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS).
 
 In all formats, include as many digits of precision as are provided in
-the original data.\
+the original data.
+
 [](#top){.infoLink}
 
 ```
 
-Collecting\_Event . Datum\
-VARCHAR(40) null\
-[ctdatum](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum)\
+Collecting\_Event . Datum
+
+VARCHAR(40) null
+
+[ctdatum](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum)
+
 DarwinCore2=GeodeticDatum
 
 ```
@@ -113,14 +131,18 @@ data, it is important to know from which datum those data are derived.
 Most GPS units allow you to select the geodetic data from which its
 coordinates will be determined (default usually set to WGS84, but this
 should be checked in the field). Maps and gazetteers generally provide
-this information as well.\
+this information as well.
+
 [](#top){.infoLink}
 
 ```
 
-Locality . GEOREFERENCE\_SOURCE\
-VARCHAR(255) not null\
-[ctGEOREFERENCE\_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_SOURCE "Georefrence Source")\
+Locality . GEOREFERENCE\_SOURCE
+
+VARCHAR(255) not null
+
+[ctGEOREFERENCE\_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_SOURCE "Georefrence Source")
+
 DarwinCore2=GeoreferenceSources
 
 ```
@@ -155,8 +177,10 @@ with the specimen. Examples:
 
 ```
 
-Locality.GEOREFERENCE\_PROTOCOL\
-VARCHAR(40) not null\
+Locality.GEOREFERENCE\_PROTOCOL
+
+VARCHAR(40) not null
+
 [ctGEOREFERENCE\_PROTOCOL](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_PROTOCOL "GEOREFERENCE_PROTOCOL")
 
 ```
@@ -172,8 +196,10 @@ for this field is controlled.
 
 ```
 
-Lat\_Long . Max\_Error\_Distance\
-NUMBER null\
+Lat\_Long . Max\_Error\_Distance
+
+NUMBER null
+
 DarwinCore2=CoordinateUncertaintyInMeters
 
 ```
@@ -186,7 +212,8 @@ DarwinCore2=CoordinateUncertaintyInMeters
 
 ```
 
-Lat\_Long . Max\_Error\_Units\
+Lat\_Long . Max\_Error\_Units
+
 VARCHAR2(2) null
 
 ```
@@ -230,12 +257,14 @@ describe a point) based on anything other than asserted maximum error.
 
 For most usage, including exportation to federated portals, the value
 for Maximum Uncertainty is converted from the original units (recorded
-here) to the value in meters.\
+here) to the value in meters.
+
 [](#top){.infoLink}
 
 ```
 
-Lat\_Long . Determined\_By\_Agent\_id\
+Lat\_Long . Determined\_By\_Agent\_id
+
 INT not null
 
 ```
@@ -261,26 +290,32 @@ determination.
 
 If the collector offered a determination in the original data, this
 determination should not be modified even if it is no longer the
-accepted determination.\
+accepted determination.
+
 [](#top){.infoLink}
 
 ```
 
-Lat\_Long . Determined\_Date\
+Lat\_Long . Determined\_Date
+
 DATETIME null
 
 ```
 
 **Determination Date** is the [ISO8601](/documentation/dates/) date that
 the determination was made. Entry/editing forms load with the current
-date as a default for new records.\
+date as a default for new records.
+
 [](#top){.infoLink}
 
 ```
 
-Lat\_Long . VerificationStatus\
-VARCHAR(40) not null\
-[ctverificationstatus](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")\
+Lat\_Long . VerificationStatus
+
+VARCHAR(40) not null
+
+[ctverificationstatus](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")
+
 DarwinCore2=GeoreferenceVerificationStatus
 
 ```
@@ -295,12 +330,14 @@ is controlled.
 specimen from nature has looked at the coordinates and uncertainty
 represented on an appropriately scaled map, and believes that these data
 are accurate and that the represented uncertainty is as small as
-possible.\
+possible.
+
 [](#top){.infoLink}
 
 ```
 
-Lat\_Long . Accepted\_Lat\_Long\_fg\
+Lat\_Long . Accepted\_Lat\_Long\_fg
+
 TINYINT not null
 
 ```
@@ -308,20 +345,24 @@ TINYINT not null
 **Accepted?**  There can be more than one georeferencing determination
 per locality but only the accepted determination is routinely displayed.
 You can revert to an earlier determination by changing its *accepted*
-flag from “no” to “yes.”\
+flag from “no” to “yes.”
+
 [](#top){.infoLink}
 
 ```
 
-Lat\_Long . Lat\_Long\_Remarks\
-VARCHAR2(4000) null\
+Lat\_Long . Lat\_Long\_Remarks
+
+VARCHAR2(4000) null
+
 DarwinCore2=GeoreferenceRemarks
 
 ```
 
 **Remarks** about the spatial description determination, explaining
 assumptions made in addition or opposition to the those formalized in
-the method referred to in [Georeference Method](#georefmethod).\
+the method referred to in [Georeference Method](#georefmethod).
+
 [](#top){.infoLink}
 
 ### **Spatial Query**

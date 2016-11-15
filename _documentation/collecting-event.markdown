@@ -13,11 +13,16 @@ Concepts
 
 </div>
 
-[event nickname](#event_name)\
-[verbatim locality](#verbatim_locality)\
-[time](#time)\
-[verbatim date](#verbatim_date)\
-[began\_date](#began_date)\
+[event nickname](#event_name)
+
+[verbatim locality](#verbatim_locality)
+
+[time](#time)
+
+[verbatim date](#verbatim_date)
+
+[began\_date](#began_date)
+
 [verbatim\_coordinates](#verbatim_coordinates)
 
 <div class="anchortitle">
@@ -39,7 +44,8 @@ from existing events, and/or given a nickname for easy identification.
 
 ```
 
-Collecting\_Event . COLLECTING\_EVENT\_NAME\
+Collecting\_Event . COLLECTING\_EVENT\_NAME
+
 VARCHAR(255) null
 
 ```
@@ -53,7 +59,8 @@ sequentially, such as hosts and parasites.
 
 ```
 
-Collecting\_Event . Verbatim\_Locality\
+Collecting\_Event . Verbatim\_Locality
+
 VARCHAR(255) not null
 
 ```
@@ -69,7 +76,8 @@ tag – whatever the collector wrote, warts and all.  If the locality is
 outside of the U.S., include the higher geography as given verbatim by
 the collector.  Verbatim Locality is not often displayed.
 
-[]()\
+[]()
+
 The date of the Collecting Event is expressed in three fields: Verbatim
 Date, Began Date, and Ended Date.  The purpose of these three fields is
 to encompass the uncertainty and imprecision inherent in collecting
@@ -79,7 +87,8 @@ than a single day.
 
 ```
 
-Collecting\_Event . Verbatim\_Date\
+Collecting\_Event . Verbatim\_Date
+
 VARCHAR(60) not null
 
 ```
@@ -104,8 +113,10 @@ ISO8601, not null
 
 ```
 
-– – –\
-Collecting\_Event . Ended\_Date\
+– – –
+
+Collecting\_Event . Ended\_Date
+
 ISO8601, not null
 
 ```
