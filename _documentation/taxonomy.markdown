@@ -21,7 +21,7 @@ species of critter” declares, however informally, that “*Some critter*”
 is a distinct “species” (in the loosest possible sense of the word),
 then “Some critter” may be a useful taxon in Arctos. If another
 publication declares “*Some critterrrrr* is obviously not a valid
-\[taxon, biological distinction, etc.\],” then “Some critterrrrr” may be
+[taxon, biological distinction, etc.],” then “Some critterrrrr” may be
 a useful taxon name to include in Arctos for discovery purposes, even
 though it’s an obvious misspelling rejecting a name. In short, if a name
 might be useful in discovering specimens, it should be included in

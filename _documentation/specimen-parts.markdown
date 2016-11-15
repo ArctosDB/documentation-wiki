@@ -65,7 +65,7 @@ separate lines for clarity.  An acceptable entry might be:
 
 > postcranial skeleton (partial)
 
-> right humerus \[part condition: broken\]
+> right humerus [part condition: broken]
 
 Such an entry would designate a postcranial skeleton that has a broken
 

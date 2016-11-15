@@ -488,7 +488,7 @@ Curator chooses (and traditions vary widely across disciplines and
 collections), while a barcode is assigned to definable physical objects.
 A barcode may refer to a cataloged item, part of a cataloged item, a
 part cataloged in multiple collections, material referencing a cataloged
-item or parts thereof (images, field notes, acquisition records), or
+item or parts thereof (../images, field notes, acquisition records), or
 anything else; any 1:1 catalog number:barcode ratio is coincidental and
 likely indicative of data structure problems.
 
