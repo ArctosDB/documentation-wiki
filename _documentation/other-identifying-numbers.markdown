@@ -40,10 +40,10 @@ This same vocabulary can be used to systematically form URLs from
 pre-set strings plus Other ID values. For example, the complete
 code-table entry for GenBank is
 
-[![](images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png "Screen Shot 2012-03-07 at 9.48.25 AM"){.alignnone
+[![](../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png "Screen Shot 2012-03-07 at 9.48.25 AM"){.alignnone
 .size-full .wp-image-970 width="640" height="62"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png 1146w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-300x29.png 300w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-768x75.png 768w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-1024x100.png 1024w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-250x24.png 250w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-550x54.png 550w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-800x78.png 800w"}](images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png)
+srcset="images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png 1146w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-300x29.png 300w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-768x75.png 768w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-1024x100.png 1024w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-250x24.png 250w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-550x54.png 550w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-800x78.png 800w"}](../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png)
 
 The columns above are “other ID type,” “definition,” and “base_URL.”
 
@@ -56,10 +56,10 @@ and the code from, for example,
 
 is
 
-[![](images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am.png "Screen Shot 2012-03-07 at 9.51.45 AM"){.alignnone
+[![](../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am.png "Screen Shot 2012-03-07 at 9.51.45 AM"){.alignnone
 .size-full .wp-image-971 width="545" height="84"
 sizes="(max-width: 545px) 100vw, 545px"
-srcset="images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am.png 545w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am-300x46.png 300w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am-250x39.png 250w"}](images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am.png)
+srcset="images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am.png 545w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am-300x46.png 300w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am-250x39.png 250w"}](../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am.png)
 
 returning the link to the GenBank record for that specimen
 
@@ -161,8 +161,7 @@ the following Other IDs would be appropriate for the listed items:
 
 
 
-## General
-Guidelines
+## General Guidelines
 
 Be as specific and complete as possible in choosing both an Other ID
 Type and assigning an Other ID Number. Everything that follows is an
@@ -183,10 +182,10 @@ The vast majority of the current 150 (one hundred and fifty!) ID types
 in Arctos are  useless. For example, there are 6 identifier types
 referencing MVZ, only one of which has a definition:
 
-[![](images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png "Screen Shot 2012-03-07 at 10.01.52 AM"){.alignnone
+[![](../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png "Screen Shot 2012-03-07 at 10.01.52 AM"){.alignnone
 .size-full .wp-image-972 width="640" height="129"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png 809w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-300x61.png 300w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-768x156.png 768w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-250x51.png 250w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-550x111.png 550w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-800x162.png 800w"}](images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png)
+srcset="images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png 809w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-300x61.png 300w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-768x156.png 768w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-250x51.png 250w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-550x111.png 550w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-800x162.png 800w"}](../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png)
 
 Considering that the one and only mission of Other Identifiers is to
 serve as a hopefully-unique “name” for specimens, it is hard to imagine
@@ -243,17 +242,17 @@ individual fields according to the following rules
 
 Examples:
 
-  Input         Prefix    Number   Suffix    Display     Explanation
-  ------------- --------- -------- --------- ----------- --------------------------------------------
-  v12345        v         12345    NULL      v12345      One character plus number.
-  v-12345       v-        12345    v-12345   v-12345     Split at a separator character.
-  v-12345-1     v-        12345    -1        v-12345-1   Split at separator characters.
-  1\[12345\]1   1         12345    1         1123451     Number explicitly defined.
-  1-abc-2       1-abc-2   NULL     NULL      1-abc-2     Value not numeric.
-  \[1\]-abc-2   NULL      1        -abc-2    1-abc-2     Number explicitly defined.
-  v-00001       v-        1        NULL      v-1         Leading zeros are not stored with NUMBERs.
-  {v-00001}     v-00001   NULL     NULL      v-00001     {} force to prefix
-  \[1\]-abc-2   NULL      1        -abc-2    1-abc-2     Number explicitly defined.
+  |Input       |  Prefix  |  Number | Suffix |  Display  |  Explanation
+  |-------------|---------|--------|---------|-----------|---------------
+  |v12345     |v         |12345    |NULL     |v12345      |One character plus number.
+  |v-12345     |v-        |12345    |v-12345  |v-12345     |Split at a separator character.
+  |v-12345-1    |v-        |12345    |-1        |v-12345-1   |Split at separator characters.
+  |1\[12345\]1   |1         |12345    |1         |1123451     |Number explicitly defined.
+  |1-abc-2       |1-abc-2   |NULL     |NULL      |1-abc-2     |Value not numeric.
+  |\[1\]-abc-2   |NULL      |1        |-abc-2    |1-abc-2     |Number explicitly defined.
+  |v-00001       |v-        |1        |NULL      |v-1         |Leading zeros are not stored with NUMBERs.
+  |{v-00001}     |v-00001   |NULL     |NULL      |v-00001     |{} force to prefix
+  |\[1\]-abc-2   |NULL      |1        |-abc-2    |1-abc-2     |Number explicitly defined.
 
 
 
