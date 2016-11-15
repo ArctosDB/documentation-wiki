@@ -166,10 +166,10 @@ georeferenced specimens “from France.”\
 [](#top){.infoLink}
 
 [![This is
-France](/wp-content/uploads/sites/21/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png){.wp-image-1542
+France](/images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png){.wp-image-1542
 .size-full width="640" height="437"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="/wp-content/uploads/sites/21/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png 664w, /wp-content/uploads/sites/21/2014/06/screen-shot-2014-06-09-at-11-28-13-am-300x205.png 300w, /wp-content/uploads/sites/21/2014/06/screen-shot-2014-06-09-at-11-28-13-am-250x171.png 250w, /wp-content/uploads/sites/21/2014/06/screen-shot-2014-06-09-at-11-28-13-am-550x376.png 550w, /wp-content/uploads/sites/21/2014/06/screen-shot-2014-06-09-at-11-28-13-am-263x180.png 263w, /wp-content/uploads/sites/21/2014/06/screen-shot-2014-06-09-at-11-28-13-am-439x300.png 439w"}](/wp-content/uploads/sites/21/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png)
+srcset="/images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png 664w, /images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-300x205.png 300w, /images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-250x171.png 250w, /images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-550x376.png 550w, /images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-263x180.png 263w, /images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-439x300.png 439w"}](/images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png)
 France
 <div class="fldDef">
 

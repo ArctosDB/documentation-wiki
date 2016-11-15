@@ -116,27 +116,27 @@ record this information, one could simply enter:
 
 **Excel hates me. Help!**
 
-[![](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-26-am.png "Screen Shot 2012-03-07 at 11.35.26 AM"){.size-full
+[![](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-26-am.png "Screen Shot 2012-03-07 at 11.35.26 AM"){.size-full
 .wp-image-980 width="131"
-height="84"}](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-26-am.png)
+height="84"}](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-26-am.png)
 Enter a date into Excel…
-[![](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png "Screen Shot 2012-03-07 at 11.35.34 AM"){.size-full
+[![](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png "Screen Shot 2012-03-07 at 11.35.34 AM"){.size-full
 .wp-image-979 width="151" height="91"
 sizes="(max-width: 151px) 100vw, 151px"
-srcset="/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png 151w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-34-am-150x91.png 150w"}](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png)
+srcset="/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png 151w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am-150x91.png 150w"}](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png)
 Leave the field. Evil magic happens. Bill Gates personally hates you.
-[![](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png "Screen Shot 2012-03-07 at 11.35.46 AM"){.size-full
+[![](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png "Screen Shot 2012-03-07 at 11.35.46 AM"){.size-full
 .wp-image-978 width="304" height="325"
 sizes="(max-width: 304px) 100vw, 304px"
-srcset="/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png 304w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-46-am-281x300.png 281w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-46-am-250x267.png 250w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-46-am-168x180.png 168w"}](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png)
+srcset="/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png 304w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am-281x300.png 281w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am-250x267.png 250w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am-168x180.png 168w"}](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png)
 Format Cells…
-[![](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-25-am.png "Screen Shot 2012-03-07 at 11.36.25 AM"){.size-full
+[![](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am.png "Screen Shot 2012-03-07 at 11.36.25 AM"){.size-full
 .wp-image-977 width="543" height="551"
 sizes="(max-width: 543px) 100vw, 543px"
-srcset="/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-25-am.png 543w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-25-am-296x300.png 296w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-25-am-48x48.png 48w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-25-am-250x254.png 250w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-25-am-177x180.png 177w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-25-am-493x500.png 493w"}](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-25-am.png)
+srcset="/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am.png 543w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-296x300.png 296w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-48x48.png 48w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-250x254.png 250w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-177x180.png 177w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-493x500.png 493w"}](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am.png)
 custom date format
-[![](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png "Screen Shot 2012-03-07 at 11.36.38 AM"){.size-full
+[![](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png "Screen Shot 2012-03-07 at 11.36.38 AM"){.size-full
 .wp-image-976 width="100" height="102"
 sizes="(max-width: 100px) 100vw, 100px"
-srcset="/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png 100w, /wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-38-am-48x48.png 48w"}](/wp-content/uploads/sites/21/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png)
+srcset="/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png 100w, /images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am-48x48.png 48w"}](/images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png)
 happy!

@@ -205,8 +205,8 @@ SpecimenSearch.
 
 <div class="separator" style="clear:both;text-align:center">
 
-[![](/wp-content/uploads/sites/21/2013/06/9ad69-idp.png){width="640"
-height="56"}](/wp-content/uploads/sites/21/2013/06/d23e4-idp.png)
+[![](/images/classic-uploads/2013/06/9ad69-idp.png){width="640"
+height="56"}](/images/classic-uploads/2013/06/d23e4-idp.png)
 
 </div>
 
@@ -223,8 +223,8 @@ component, entirely ignoring ID Type.
 
 <div class="separator" style="clear:both;text-align:center">
 
-[![](/wp-content/uploads/sites/21/2013/06/c8310-screenshot2011-07-12at1-34-13pm.png){width="640"
-height="140"}](/wp-content/uploads/sites/21/2013/06/3f7b9-screenshot2011-07-12at1-34-13pm.png)
+[![](/images/classic-uploads/2013/06/c8310-screenshot2011-07-12at1-34-13pm.png){width="640"
+height="140"}](/images/classic-uploads/2013/06/3f7b9-screenshot2011-07-12at1-34-13pm.png)
 
 </div>
 
@@ -240,8 +240,8 @@ and on various forms), and choose “Show 3-part ID Search.”
 
 <div class="separator" style="clear:both;text-align:center">
 
-[![](/wp-content/uploads/sites/21/2013/06/d5574-screenshot2011-07-12at10-54-33am.png){width="640"
-height="124"}](/wp-content/uploads/sites/21/2013/06/c634b-screenshot2011-07-12at10-54-33am.png)
+[![](/images/classic-uploads/2013/06/d5574-screenshot2011-07-12at10-54-33am.png){width="640"
+height="124"}](/images/classic-uploads/2013/06/c634b-screenshot2011-07-12at10-54-33am.png)
 
 </div>
 
@@ -252,8 +252,8 @@ The simplest use case is to search for a string, here “1234”:
 
 <div class="separator" style="clear:both;text-align:center">
 
-[![](/wp-content/uploads/sites/21/2013/06/d77d2-screenshot2011-07-12at11-01-46am.png){width="640"
-height="78"}](/wp-content/uploads/sites/21/2013/06/d19e1-screenshot2011-07-12at11-01-46am.png)
+[![](/images/classic-uploads/2013/06/d77d2-screenshot2011-07-12at11-01-46am.png){width="640"
+height="78"}](/images/classic-uploads/2013/06/d19e1-screenshot2011-07-12at11-01-46am.png)
 
 </div>
 
@@ -277,8 +277,8 @@ The “in list” option accepts a comma-separated list of values.
 
 <div class="separator" style="clear:both;text-align:center">
 
-[![](/wp-content/uploads/sites/21/2013/06/32a29-screenshot2011-07-12at11-13-08am.png){width="640"
-height="76"}](/wp-content/uploads/sites/21/2013/06/f841d-screenshot2011-07-12at11-13-08am.png)
+[![](/images/classic-uploads/2013/06/32a29-screenshot2011-07-12at11-13-08am.png){width="640"
+height="76"}](/images/classic-uploads/2013/06/f841d-screenshot2011-07-12at11-13-08am.png)
 
 </div>
 
@@ -287,8 +287,8 @@ The above example sends SQL upper(customIdentifier.DISPLAY\_VALUE) IN
 
 <div class="separator" style="clear:both;text-align:center">
 
-[![](/wp-content/uploads/sites/21/2013/06/15eba-screenshot2011-07-12at11-15-18am.png){width="400"
-height="146"}](/wp-content/uploads/sites/21/2013/06/e95c0-screenshot2011-07-12at11-15-18am.png)
+[![](/images/classic-uploads/2013/06/15eba-screenshot2011-07-12at11-15-18am.png){width="400"
+height="146"}](/images/classic-uploads/2013/06/e95c0-screenshot2011-07-12at11-15-18am.png)
 
 </div>
 
@@ -304,8 +304,8 @@ component=1234:
 
 <div class="separator" style="clear:both;text-align:center">
 
-[![](/wp-content/uploads/sites/21/2013/06/a7771-screenshot2011-07-12at11-26-42am.png){width="640"
-height="116"}](/wp-content/uploads/sites/21/2013/06/1480d-screenshot2011-07-12at11-26-42am.png)
+[![](/images/classic-uploads/2013/06/a7771-screenshot2011-07-12at11-26-42am.png){width="640"
+height="116"}](/images/classic-uploads/2013/06/1480d-screenshot2011-07-12at11-26-42am.png)
 
 </div>
 
@@ -319,8 +319,8 @@ the edit form. This specimen will NOT be found with the previous search!
 
 <div class="separator" style="clear:both;text-align:center">
 
-[![](/wp-content/uploads/sites/21/2013/06/b9b6a-screenshot2011-07-12at11-35-21am.png){width="640"
-height="56"}](/wp-content/uploads/sites/21/2013/06/e294d-screenshot2011-07-12at11-35-21am.png)
+[![](/images/classic-uploads/2013/06/b9b6a-screenshot2011-07-12at11-35-21am.png){width="640"
+height="56"}](/images/classic-uploads/2013/06/e294d-screenshot2011-07-12at11-35-21am.png)
 
 </div>
 
@@ -328,8 +328,8 @@ Prefix and suffix work similarly. This search:
 
 <div class="separator" style="clear:both;text-align:center">
 
-[![](/wp-content/uploads/sites/21/2013/06/7719a-screenshot2011-07-12at11-37-17am.png){width="640"
-height="90"}](/wp-content/uploads/sites/21/2013/06/c3328-screenshot2011-07-12at11-37-17am.png)
+[![](/images/classic-uploads/2013/06/7719a-screenshot2011-07-12at11-37-17am.png){width="640"
+height="90"}](/images/classic-uploads/2013/06/c3328-screenshot2011-07-12at11-37-17am.png)
 
 </div>
 
@@ -343,7 +343,7 @@ match and is not case-sensitive) and returns these specimens:
 
 <div class="separator" style="clear:both;text-align:center">
 
-![](/wp-content/uploads/sites/21/2013/06/7aa78-screenshot2011-07-12at11-39-28am.png){width="320"
+![](/images/classic-uploads/2013/06/7aa78-screenshot2011-07-12at11-39-28am.png){width="320"
 height="215"}
 
 </div>
