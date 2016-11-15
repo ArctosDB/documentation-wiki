@@ -68,8 +68,7 @@ media are stored in three tables:
 -   Media Relations
 -   Media Labels
 
-Fields in table Media
----------------------
+## Fields in table Media
 
 ```
 
@@ -381,8 +380,7 @@ developed specialized procedures to fit their workflow, for example.
     loading media, upload the CSV file, and follow the directions until
     you get a “spiffy” message.
 
-Discovery
----------
+## Discovery
 
 Media Relationships link Media to specimens, agents, places, other
 Media, and more (and in turn link those resources together). Data

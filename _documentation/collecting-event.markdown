@@ -147,8 +147,7 @@ mapped (although locality coordinates are automatically generated from
 them via the bulkloader) and generally should not be changed (except,
 eg, transcription errors).
 
-Specimen Search
----------------
+## Specimen Search
 
 <span id="year_collected" class="helpLink">“Collected On or
 After</span>” and “Collected on or before” offer two distinct search

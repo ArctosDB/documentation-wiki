@@ -345,8 +345,7 @@ of the name. Some valid island names:
 -   Spitzbergen
 -   Dangerous Reef
 
-Source
-------
+## Source
 
 Source is limited to the URL of a page on English Wikipedia. If such a
 page does not exist, it should usually be created. However, in some
@@ -371,8 +370,7 @@ VARCHAR(255) not null
 
 **Higher Geography** (as a specific data field) is a the actual concatenation of the subdivisions described above. This is the value that is displayed in most applications.\
 []()\
-Field Summary
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Field Summary
 
   Category                              Examples                                                  Short Definition
   ------------------------------------- --------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -401,8 +399,7 @@ Usage Example:
     -   Камча́тская о́бласть (Native character encoding)
     -   Kamchatskaya oblast (Common variant or transliteration)
 
-Remarks
--------
+## Remarks
 
 A remarks field is also provided. Information in this field is intended
 to provide guidance and clarification in future geography creation or
@@ -560,8 +557,7 @@ value of the specimens and their associated data.
 
 [](#top){.infoLink}
 
-Searching Guidelines
---------------------
+## Searching Guidelines
 
 Higher Geography should be viewed as “semi-arbitrary
 curatorially-assigned string” rather than “singular definitive
@@ -580,8 +576,7 @@ bottom of any Arctos page for assistance.
 
 [](#top){.infoLink}
 
-Terrestrial versus marine descriptors
--------------------------------------
+## Terrestrial versus marine descriptors
 
 Coastal localities should be described with terrestrial descriptors. For
 offshore localities, the Higher Geography should include at least the
@@ -590,8 +585,7 @@ should also include [Sea](#sea). (Therefore, “coastal” specimens are
 often impossible to location by descriptive geography queries.)\
 [](#top){.infoLink}
 
-Webservice Data
----------------
+## Webservice Data
 
 In addition to curatorially-asserted data, Arctos also uses data from
 various web services to:

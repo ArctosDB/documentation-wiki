@@ -75,8 +75,7 @@ VARCHAR2(15) not null
 
 ```
 
-Agent Type
-----------
+## Agent Type
 
 Agent Type is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type).\
@@ -108,8 +107,7 @@ that date may still be attributable to AgentX.”
 
 [](#top){.infoLink}
 
-Organizations
--------------
+## Organizations
 
 Examples of organizations include:
 
@@ -131,8 +129,7 @@ to be.
 
 [](#top){.infoLink}
 
-Verbatim Collectors
--------------------
+## Verbatim Collectors
 
 Verbatim Collectors as Agents is a failed experiment and should not be
 used for any purpose. Please change verbatim collectors to another type
@@ -144,8 +141,7 @@ are automatically created for all affected specimens.
 
 [](#top){.infoLink}
 
-Groups
-------
+## Groups
 
 A group is two or more agents functioning in some named capacity.  So,
 instead of listing several collectors on an expedition, one might make
@@ -167,8 +163,7 @@ VARCHAR2(184) not null
 
 [](#top){.infoLink}
 
-Names
------
+## Names
 
 All agents must have one and only one “preferred name”.  An agent can
 have any number of other names.
@@ -183,8 +178,7 @@ ctagent\_name\_type
 
 [](#top){.infoLink}
 
-Name Type
----------
+## Name Type
 
 Agent Name Type is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
@@ -198,8 +192,7 @@ VARCHAR2(255) null
 
 [](#top){.infoLink}
 
-Remarks
--------
+## Remarks
 
 Remarks is a good place to include a one sentence description of the
 agent.  Anything that might helpful to other users in understanding who
@@ -207,8 +200,7 @@ or what the agent is should be included.
 
 [](#top){.infoLink}
 
-General Agent Creation and Maintenance Guidelines
--------------------------------------------------
+## General Agent Creation and Maintenance Guidelines
 
 These are general guidelines to prevent the creation of
 [duplicate](#duplicate) agents. Nothing here should be considered a hard
@@ -295,8 +287,7 @@ Attributes.
     Type “URL”) is very likely to be useful. Avoid using remarks for
     address information.
 
-Relationships
--------------
+## Relationships
 
 Relationships between agents can be recorded.  Like date of birth and
 date of death, relationships can be critical to understanding
@@ -331,8 +322,7 @@ and in avoiding duplicate agent creation, but neither method is ideal.
 Address any suggestions or concerns to the Arctos discussion group.\
 [](#top){.infoLink}
 
-Searching Agents
-----------------
+## Searching Agents
 
 The search form contains several fields and options, detailed below. All
 are case-insensitive substring matches. You may also include the special

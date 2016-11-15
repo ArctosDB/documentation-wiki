@@ -14,8 +14,7 @@ layout: default_toc
 
 </div>
 
-Code Tables
------------
+## Code Tables
 
 All [Code
 Tables](http://arctos.database.museum/info/ctDocumentation.cfm) and code
@@ -51,24 +50,21 @@ improvements then.)
 Any changes to existing values must be coordinated with the database
 administrators.
 
-Taxonomy
---------
+## Taxonomy
 
 []()\
 Taxonomy is included here only for completeness. See [Taxonomy
 Documentation](/documentation/identification/taxonomy/)[]() for more
 information.
 
-Geography
----------
+## Geography
 
 []()\
 Geography is included here only for completeness. See [Geography
 Documentation](/documentation/places/higher-geography/)[]() for more
 information.
 
-Agents
-------
+## Agents
 
 []()\
 Agents are included here only for completeness. See [Agent

@@ -21,7 +21,7 @@ layout: default_toc
 
 </div>
 
-### Overview
+## Overview
 
 “Taxonomy” for the purposes of this document and Arctos in general is
 “some formal naming system.” Arctos taxonomy is not necessarily
@@ -49,8 +49,7 @@ terms, such as “Sorex sp.” or “Sorex cinereus or Sorex ugyunak” are
 Identifications, not taxonomy. (Identifications are generally drawn from
 and linked to taxonomy in various ways.)\
 
-Taxon Name
-----------
+## Taxon Name
 
 The names in taxon\_name are intended to be a formal taxonomic
 authority, and should all be drawn from relevant taxonomic publications.
@@ -69,8 +68,7 @@ or nonbiological taxonomy terms (“Granite”). The sole distinguishing
 feature of this field is that a Curator, usually a taxonomist, considers
 the values here formal taxonomy.
 
-Taxon Term
-----------
+## Taxon Term
 
 Taxon Term contains metadata regarding taxon names and a system for
 organizing such data. Every term may be arranged hierarchically within a
@@ -97,8 +95,7 @@ clarification, and are linked to but not part of classifications. These
 consist of things like HTML-formatted “display name” and author strings.
 A rank is required.\
 
-Taxonomy as a Hierarchy
------------------------
+## Taxonomy as a Hierarchy
 
 While single classifications are hierarchical, taxonomy as a body of 
 literature is anything but: Most name have a long history of “current
@@ -184,8 +181,7 @@ plus the infraspecific rank, “subspecies,” and author text from the
 “child” trinomen, *Trichophorum pumilum* var. *Rollandii* (Fern.) Hult.
 
 []()\
-Searching
----------
+## Searching
 
 There are various “taxonomy-like” search fields on SpecimenSearch, and
 they query different data.
@@ -218,8 +214,7 @@ return specimens identified as *Euryoryzomys nitidus*; only
 Family=Cricetidae will locate specimens identified using that taxon
 name, which may be viewed as “Cricetidae according to MVZ.”
 
-Details and more examples
--------------------------
+## Details and more examples
 
 Each collection “claims” one taxon term source, and data from that
 source, when available, are stored with the specimen record. For
@@ -277,8 +272,7 @@ modern, consensus ideas of the term searched. This field is appropriate
 for exploratory searching: “what genera did someone at some point
 consider to be members of taxon BLA?”
 
-FAQ
----
+## FAQ
 
 **Q: Why not hierarchies/thesauri/some other model?**\
 A: The taxonomy model is primarily designed for flexibility, an idea
@@ -305,8 +299,7 @@ varies by discipline, tradition, and time) literature creating or
 supporting them. Collections choose a classification, which asserts
 “classification according to this collection.”
 
-Create a Name
--------------
+## Create a Name
 
 There are two ways by which taxon names may be created:
 
@@ -317,8 +310,7 @@ Search Arctos before creating names. Do not try to create duplicate
 namestrings, even in the case of homonyms, hemihomonyms, committee
 rulings, or for any other reason.
 
-Create a Classification
------------------------
+## Create a Classification
 
 Classifications may be created by pulling from globalnames, cloning an
 existing classification into a local source, or manually creating a
@@ -334,8 +326,7 @@ The pre-migration Arctos data have been pushed to source “Arctos.” These
 data are the default classification for all collections, and generally
 represent a ranked singular taxonomic viewpoint.
 
-Taxonomy search examples
-------------------------
+## Taxonomy search examples
 
 Note values that pop into search form.
 
@@ -362,8 +353,7 @@ Microtus according to Arctos\
 Genus microtus according to Arctos\
 <http://arctos.database.museum/taxonomy.cfm?taxon_name=&taxon_term=%3Dmicrotus&term_type=genus&source=Arctos>
 
-Relationship of taxonomy to specimens
--------------------------------------
+## Relationship of taxonomy to specimens
 
 The link between taxonomy and specimens is through Identification and
 Identification\_Taxonomy. However, Taxonomy no longer resolves to a
@@ -422,8 +412,7 @@ collection may use a classification that does not include a term ranked
 “family,” and doing so will return no specimens with queries which
 include family-according-to-collection.
 
-Editing
--------
+## Editing
 
 ### Names
 

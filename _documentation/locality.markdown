@@ -301,8 +301,7 @@ determinations.\
 text](https://en.wikipedia.org/wiki/Well-known_text) shape associated
 with locality data.
 
-Edit Locality Form
-------------------
+## Edit Locality Form
 
 Localities used by “verified by….” verificationstatus values may not be
 edited. If you don’t understand the giant bright red box, please use a

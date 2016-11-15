@@ -5,8 +5,7 @@ layout: default_toc
 
 # Sharing Data and Resources
 
-Sharing Data
-------------
+## Sharing Data
 
 Arctos is a shared system, which means we dictionary and authority
 files, and ideas and development while individual collections
@@ -38,8 +37,7 @@ Projects.
 Specimen-events are not shared, but events, localities, and geography
 are.
 
-What is shared
---------------
+## What is shared
 
 Code tables with a “collection\_cde” column are shared across collection
 types. That is, all “Herp” collections (and no “Mamm” collections) have

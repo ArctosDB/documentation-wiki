@@ -39,8 +39,7 @@ Usage
 </div>
 
 []()\
-Arctos Object Tracking in a nutshell
-------------------------------------
+## Arctos Object Tracking in a nutshell
 
 -   “Containers” are of two categories:
     1.  All Parts are (also) containers.
@@ -63,8 +62,7 @@ and uniform system, but with the great diversity present in Arctos a
 remark indicating the color of a box or location of a room is
 occasionally valuable.)
 
-The Model
----------
+## The Model
 
 [Collection Objects](/documentation/parts/) are physically located in
 containers, and the concept of Containers reflects that reality. Not
@@ -304,8 +302,7 @@ VARCHAR(20) not null
 VPD boundaries; this is closer to an indication of creator.)
 
 [](#top){.infoLink}\
-Object Tracking in general
---------------------------
+## Object Tracking in general
 
 This section describes very general guidelines for object tracking with
 machine-readable labels.
@@ -332,8 +329,7 @@ machine-readable labels.
     Arctos forms.
 
 [](#top){.infoLink}\
-Object Tracking in the field
-----------------------------
+## Object Tracking in the field
 
 The best place to begin the process of object tracking is when a part is
 created; for example, when a tissue sample is put into a Nunc tube in
@@ -407,8 +403,7 @@ part, and object tracking data will automatically consolidate.
     any container or specimen part.
 
 [](#top){.infoLink}\
-Object tracking without barcodes
---------------------------------
+## Object tracking without barcodes
 
 We are occasionally asked about object tracking without barcodes. While
 such interfaces could be developed, we suggest that they should not be;
@@ -453,8 +448,7 @@ characteristics are not necessary, or the resources to barcode are not
 currently available, use part attribute “location.”
 
 [](#top){.infoLink}\
-FAQ
---------------------
+## FAQ
 
 Summary: People who use barcodes tend to find them indispensable; they
 make producing much better data much simpler.
@@ -534,8 +528,7 @@ Q: What encoding should I use?\
 A: Whatever fits on your desired labels and can be reliably read by a
 convenient machine.
 
-Usage
------
+## Usage
 
 This section provides a brief overview of the Arctos container forms and
 applications. It is not all-inclusive and it should not be viewed as
@@ -586,8 +579,7 @@ set, while the options from loans will flatten only those parts which
 are included in the loan. Note also that loans often contain subsamples,
 which are generally not included in object tracking systems.
 
-General System Guidelines
--------------------------
+## General System Guidelines
 
 The following are general guidelines developed largely from examining
 error logs (or a lack thereof) in relation to the number of tracked
@@ -606,8 +598,7 @@ description of the general qualities of the finished product.
     procedures](#field).)
 -   All other container-related tasks involve only scanning barcodes.
 
-Creating position-holding freezer boxes
----------------------------------------
+## Creating position-holding freezer boxes
 
 ###### (From MLC 2016-01-19)
 

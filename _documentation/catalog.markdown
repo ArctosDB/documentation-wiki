@@ -97,8 +97,7 @@ The following table is illustrative.
   1\_2        102, 112, 1A2, ….                                “\_” is “match any single character.”
 
 [](){.infoLink}\
-Guid Prefix
-----------------
+## Guid Prefix
 
 Catalogs are most usefully defined by way of Collection.Guid\_Prefix,
 which in conjunction with catalog number forms a unique identifier
@@ -350,8 +349,7 @@ height="215"}
 
 [](){.infoLink}
 
-Understanding Cataloged Items
------------------------------
+## Understanding Cataloged Items
 
 We address assigning catalog numbers to material with a few brief
 examples.

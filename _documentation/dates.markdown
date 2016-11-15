@@ -64,8 +64,7 @@ Supported components:
 -   4-digit negative year. Example: -1987. By convention 1 BC is
     labelled +0000, 2 BC is labeled -0001, and so on.
 
-Usage Notes
------------
+## Usage Notes
 
 Most natural history data are provided with one-day accuracy, and a
 YYYY-MM-DD date format will work for most things most of the time. Most

@@ -22,8 +22,7 @@ extensively in transactions such as [loans](loan), [permits](permit),
 and [accessions](accession). Any one Agent may have any number of
 addresses of any type.
 
-Maintenance
------------
+## Maintenance
 
 []()Addresses used in shipments are automatically maintained. Changes
 are pushed to a new address, and every attempt to change[\*](#change) a
@@ -40,15 +39,13 @@ address.
 []()Note: “Changes” do not include the addition or removal of linebreak
 (chr(10) and chr(13)) characters, spaces, or commas.
 
-Address Type
-------------
+## Address Type
 
 **Address Type:** The kind of address, or how the address is used. The
 vocabulary is controlled by
 [ctaddress\_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctaddress_type).
 
-Address
--------
+## Address
 
 Address: The address string. Control (*e.g.*, linefeed) characters are
 allowed in mailing addresses, which will display in a textarea on the
@@ -66,8 +63,7 @@ foreign shipments, and should therefore include country code. Phone
 numbers should include country and area codes, URIs should include
 protocol (http://), etc.
 
-Remarks
--------
+## Remarks
 
 **Remarks:** Any necessary explanation of the address. Examples might
 include:
