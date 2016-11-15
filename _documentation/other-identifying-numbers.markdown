@@ -42,7 +42,7 @@ code-table entry for GenBank is
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png"  width="640" height="62"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png 1146w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-300x29.png 300w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-768x75.png 768w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-1024x100.png 1024w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-250x24.png 250w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-550x54.png 550w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-800x78.png 800w" />
+srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png 1146w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-300x29.png 300w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-768x75.png 768w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-1024x100.png 1024w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-250x24.png 250w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-550x54.png 550w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-800x78.png 800w" />
 
 The columns above are “other ID type,” “definition,” and “base_URL.”
 
@@ -57,7 +57,7 @@ is
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am.png"  width="545" height="84"
 sizes="(max-width: 545px) 100vw, 545px"
-srcset="images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am.png 545w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am-300x46.png 300w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am-250x39.png 250w" />
+srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am.png 545w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am-300x46.png 300w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am-250x39.png 250w" />
 
 returning the link to the GenBank record for that specimen
 
@@ -182,7 +182,7 @@ referencing MVZ, only one of which has a definition:
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png"  width="640" height="129"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png 809w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-300x61.png 300w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-768x156.png 768w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-250x51.png 250w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-550x111.png 550w, images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-800x162.png 800w" />
+srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png 809w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-300x61.png 300w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-768x156.png 768w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-250x51.png 250w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-550x111.png 550w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-800x162.png 800w" />
 
 Considering that the one and only mission of Other Identifiers is to
 serve as a hopefully-unique “name” for specimens, it is hard to imagine

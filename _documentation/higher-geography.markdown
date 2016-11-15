@@ -138,7 +138,7 @@ georeferenced specimens “from France.”
 France](../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png){.wp-image-1542
 .size-full width="640" height="437"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png 664w, images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-300x205.png 300w, images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-250x171.png 250w, images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-550x376.png 550w, images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-263x180.png 263w, images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-439x300.png 439w"}](../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png)
+srcset="../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png 664w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-300x205.png 300w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-250x171.png 250w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-550x376.png 550w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-263x180.png 263w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-439x300.png 439w"}](../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png)
 France
 ```
 
@@ -448,7 +448,7 @@ else (and  leaving verbose notes in remarks when necessary).
     “Authority” of the geography entry; it will be automatically
     converted to HTML. Link to the most specific Wikipedia page
     available; do not link to anchors in general articles, lists, maps,
-    images, or anything except the most specific relevant article
+    ../images, or anything except the most specific relevant article
     in Wikipedia. The Wikipedia link must directly describe the
     Arctos record.
 -   No accents, umlauts, Cyrillic, Chinese, etc. Do it in ASCII-128.

@@ -261,12 +261,12 @@ derivative.
 view](../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png "DNG view"){.size-full
 .wp-image-910 width="595" height="470"
 sizes="(max-width: 595px) 100vw, 595px"
-srcset="images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png 595w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-300x237.png 300w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-250x197.png 250w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-550x434.png 550w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-228x180.png 228w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-380x300.png 380w"}
+srcset="../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png 595w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-300x237.png 300w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-250x197.png 250w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-550x434.png 550w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-228x180.png 228w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-380x300.png 380w"}
 DNG view
 ![](../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png "JPG view - what most users find"){.size-full
 .wp-image-911 width="640" height="360"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png 853w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-300x169.png 300w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-768x433.png 768w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-250x141.png 250w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-550x310.png 550w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-800x451.png 800w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-319x180.png 319w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-532x300.png 532w"}
+srcset="../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png 853w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-300x169.png 300w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-768x433.png 768w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-250x141.png 250w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-550x310.png 550w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-800x451.png 800w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-319x180.png 319w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-532x300.png 532w"}
 
 
 JPG view – what most users find
@@ -315,7 +315,7 @@ Use the additional fields as you normally would to add any additional
 information, such as author(s).
 <img src="../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png"  width="640" height="81"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png 809w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-300x38.png 300w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-768x98.png 768w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-250x32.png 250w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-550x70.png 550w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-800x102.png 800w" />
+srcset="../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png 809w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-300x38.png 300w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-768x98.png 768w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-250x32.png 250w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-550x70.png 550w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-800x102.png 800w" />
 Note that with good organization and clever use of your favorite
 spreadsheet, most of the work should be simple copy/paste/increment.
 
