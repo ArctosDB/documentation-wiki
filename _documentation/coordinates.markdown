@@ -328,9 +328,9 @@ the method referred to in [Georeference Method](#georefmethod).
 ### **Spatial Query**
 
 -   Click the select icon
-    ([![](/images/classic-uploads/2011/09/selector.png "selector"){.alignnone
+    ([![](images/classic-uploads/2011/09/selector.png "selector"){.alignnone
     .size-full .wp-image-667 width="18"
-    height="18"}](/images/classic-uploads/2011/09/selector.png)) to
+    height="18"}](images/classic-uploads/2011/09/selector.png)) to
     add a spatial query box to the map. Click the X to start over. Click
     and drag the box to select an area on the map. The northeast and
     southwest corner coordinates of the selected area are indicated on
@@ -361,29 +361,29 @@ the method referred to in [Georeference Method](#georefmethod).
 For example, this query:
 
 [![Screen Shot 2013-05-20 at 10.14.18
-AM](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am.png){.alignnone
+AM](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am.png){.alignnone
 .size-full .wp-image-1268 width="640" height="456"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am.png 814w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-300x214.png 300w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-768x547.png 768w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-250x178.png 250w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-550x392.png 550w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-800x570.png 800w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-253x180.png 253w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-421x300.png 421w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-702x500.png 702w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-210x150.png 210w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-400x285.png 400w"}](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am.png)
+srcset="images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am.png 814w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-300x214.png 300w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-768x547.png 768w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-250x178.png 250w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-550x392.png 550w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-800x570.png 800w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-253x180.png 253w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-421x300.png 421w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-702x500.png 702w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-210x150.png 210w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-400x285.png 400w"}](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am.png)
 
 (note the “query by points only” option)
 
 produces these results:
 
 [![Screen Shot 2013-05-20 at 10.16.51
-AM](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am.png){.alignnone
+AM](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am.png){.alignnone
 .size-full .wp-image-1269 width="640" height="422"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am.png 975w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-300x198.png 300w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-768x507.png 768w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-250x165.png 250w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-550x363.png 550w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-800x528.png 800w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-273x180.png 273w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-454x300.png 454w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-757x500.png 757w"}](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am.png)
+srcset="images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am.png 975w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-300x198.png 300w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-768x507.png 768w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-250x165.png 250w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-550x363.png 550w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-800x528.png 800w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-273x180.png 273w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-454x300.png 454w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am-757x500.png 757w"}](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-16-51-am.png)
 
 Note that BerkeleyMapper does not by default include precision or
 remember your settings, so you must enable it every time:
 
 [![Screen Shot 2013-05-20 at 10.36.58
-AM](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am.png){.alignnone
+AM](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am.png){.alignnone
 .size-full .wp-image-1275 width="354" height="295"
 sizes="(max-width: 354px) 100vw, 354px"
-srcset="/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am.png 354w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am-300x250.png 300w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am-250x208.png 250w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am-216x180.png 216w"}](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am.png)
+srcset="images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am.png 354w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am-300x250.png 300w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am-250x208.png 250w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am-216x180.png 216w"}](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-36-58-am.png)
 
 Feel free to stop by
 <https://code.google.com/p/berkeleymapper/issues/detail?id=44> and leave
@@ -392,32 +392,32 @@ a comment!
 Change the original query to “points and error”….
 
 [![Screen Shot 2013-05-20 at 10.18.05
-AM](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am.png){.alignnone
+AM](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am.png){.alignnone
 .size-full .wp-image-1270 width="640" height="532"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am.png 693w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-300x250.png 300w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-250x208.png 250w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-550x458.png 550w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-216x180.png 216w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-360x300.png 360w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-601x500.png 601w"}](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am.png)
+srcset="images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am.png 693w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-300x250.png 300w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-250x208.png 250w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-550x458.png 550w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-216x180.png 216w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-360x300.png 360w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am-601x500.png 601w"}](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am.png)
 
 we get….
 
 [![Screen Shot 2013-05-20 at 10.19.20
-AM](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am.png){.alignnone
+AM](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am.png){.alignnone
 .size-full .wp-image-1271 width="640" height="485"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am.png 748w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-300x227.png 300w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-250x190.png 250w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-550x417.png 550w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-237x180.png 237w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-396x300.png 396w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-660x500.png 660w"}](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am.png)
+srcset="images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am.png 748w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-300x227.png 300w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-250x190.png 250w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-550x417.png 550w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-237x180.png 237w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-396x300.png 396w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am-660x500.png 660w"}](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-19-20-am.png)
 
 To remove the huge-error specimens, we can add a maximum coordinate
 precision value:
 
 [![Screen Shot 2013-05-20 at 10.30.26
-AM](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am.png){.alignnone
+AM](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am.png){.alignnone
 .size-full .wp-image-1273 width="640" height="106"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am.png 647w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am-300x50.png 300w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am-250x42.png 250w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am-550x92.png 550w"}](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am.png)
+srcset="images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am.png 647w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am-300x50.png 300w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am-250x42.png 250w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am-550x92.png 550w"}](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-30-26-am.png)
 
 which results in:
 
 [![Screen Shot 2013-05-20 at 10.32.33
-AM](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png){.alignnone
+AM](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png){.alignnone
 .size-full .wp-image-1274 width="640" height="390"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png 720w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-300x183.png 300w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-250x152.png 250w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-550x335.png 550w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-295x180.png 295w, /images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-492x300.png 492w"}](/images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png)
+srcset="images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png 720w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-300x183.png 300w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-250x152.png 250w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-550x335.png 550w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-295x180.png 295w, images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-492x300.png 492w"}](images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png)

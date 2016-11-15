@@ -258,15 +258,15 @@ click on thumbnails) while still providing easy access to them from the
 derivative.
 
 ![DNG
-view](/images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png "DNG view"){.size-full
+view](images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png "DNG view"){.size-full
 .wp-image-910 width="595" height="470"
 sizes="(max-width: 595px) 100vw, 595px"
-srcset="/images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png 595w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-300x237.png 300w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-250x197.png 250w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-550x434.png 550w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-228x180.png 228w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-380x300.png 380w"}
+srcset="images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png 595w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-300x237.png 300w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-250x197.png 250w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-550x434.png 550w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-228x180.png 228w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-380x300.png 380w"}
 DNG view
-![](/images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png "JPG view - what most users find"){.size-full
+![](images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png "JPG view - what most users find"){.size-full
 .wp-image-911 width="640" height="360"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="/images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png 853w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-300x169.png 300w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-768x433.png 768w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-250x141.png 250w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-550x310.png 550w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-800x451.png 800w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-319x180.png 319w, /images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-532x300.png 532w"}
+srcset="images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png 853w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-300x169.png 300w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-768x433.png 768w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-250x141.png 250w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-550x310.png 550w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-800x451.png 800w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-319x180.png 319w, images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-532x300.png 532w"}
 
 
 JPG view – what most users find
@@ -313,10 +313,10 @@ Required fields are:
 
 Use the additional fields as you normally would to add any additional
 information, such as author(s).
-[![](/images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png "Screen Shot 2012-01-25 at 10.43.48 AM"){.alignnone
+[![](images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png "Screen Shot 2012-01-25 at 10.43.48 AM"){.alignnone
 .size-full .wp-image-905 width="640" height="81"
 sizes="(max-width: 640px) 100vw, 640px"
-srcset="/images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png 809w, /images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-300x38.png 300w, /images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-768x98.png 768w, /images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-250x32.png 250w, /images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-550x70.png 550w, /images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-800x102.png 800w"}](/images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png)
+srcset="images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png 809w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-300x38.png 300w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-768x98.png 768w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-250x32.png 250w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-550x70.png 550w, images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-800x102.png 800w"}](images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png)
 Note that with good organization and clever use of your favorite
 spreadsheet, most of the work should be simple copy/paste/increment.
 
@@ -462,7 +462,7 @@ which to use in any particular situation.
     imaginable changes. Not all material in Arctos has a DOI, but
     Operators may assign DOIs by request.
 -   **“Exit link”
-    (<http://arctos.database.museum/exit.cfm?target=http://web.corral.tacc.utexas.edu/MVZ/images/MVZ_img/cards/jpg/img_card_2242.jpg>)**
+    (<http://arctos.database.museum/exit.cfm?target=http://web.corral.tacc.utexas.edu/MVZimages/MVZ_img/cards/jpg/img_card_2242.jpg>)**
 
     Links of this format trigger application-level logging and then
     redirect to the [media URI](#media_uri). These links are as stable
@@ -471,7 +471,7 @@ which to use in any particular situation.
     necessary because Arctos Media may be located anywhere, including
     servers over which we have no control.)
 -   **Media URI
-    (<http://web.corral.tacc.utexas.edu/MVZ/images/MVZ_img/cards/jpg/img_card_2242.jpg>)
+    (<http://web.corral.tacc.utexas.edu/MVZimages/MVZ_img/cards/jpg/img_card_2242.jpg>)
 
     **The link to the binary. These do NOT fire application-level
     logging, come with no stability guarantees, and should not be used

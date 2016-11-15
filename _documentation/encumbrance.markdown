@@ -100,18 +100,18 @@ There are many ways to encumber specimens; here one is described.
 3.  From the Manage tool, choose Encumbrances.
 
     ![Screen Shot 2015-11-18 at 11.52.20
-    AM.png](/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am.png){.alignnone
+    AM.png](images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am.png){.alignnone
     .size-full .wp-image-1836 width="518" height="324"
     sizes="(max-width: 518px) 100vw, 518px"
-    srcset="/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am.png 518w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-300x188.png 300w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-250x156.png 250w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-288x180.png 288w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-480x300.png 480w"}
+    srcset="images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am.png 518w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-300x188.png 300w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-250x156.png 250w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-288x180.png 288w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-52-20-am-480x300.png 480w"}
 4.  You should now see a summary of your specimens at the bottom of the
     page, and the encumbrance finder at the top.
 
     ![Screen Shot 2015-11-18 at 11.55.00
-    AM.png](/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am.png){.alignnone
+    AM.png](images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am.png){.alignnone
     .size-full .wp-image-1837 width="2644" height="1210"
     sizes="(max-width: 2644px) 100vw, 2644px"
-    srcset="/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am.png 2644w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-300x137.png 300w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-768x351.png 768w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-1024x469.png 1024w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-250x114.png 250w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-550x252.png 550w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-800x366.png 800w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-393x180.png 393w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-656x300.png 656w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-1093x500.png 1093w"}
+    srcset="images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am.png 2644w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-300x137.png 300w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-768x351.png 768w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-1024x469.png 1024w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-250x114.png 250w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-550x252.png 550w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-800x366.png 800w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-393x180.png 393w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-656x300.png 656w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-55-00-am-1093x500.png 1093w"}
 5.  Find the appropriate encumbrance by entering search criteria and
     clicking Find Encumbrance. You’ll get a list of encumbrances (and
     specimens below).
@@ -119,18 +119,18 @@ There are many ways to encumber specimens; here one is described.
     Encumbrance button.
 
     ![Screen Shot 2015-11-18 at 11.57.38
-    AM.png](/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am.png){.alignnone
+    AM.png](images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am.png){.alignnone
     .size-full .wp-image-1838 width="604" height="190"
     sizes="(max-width: 604px) 100vw, 604px"
-    srcset="/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am.png 604w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-300x94.png 300w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-600x190.png 600w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-250x79.png 250w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-550x173.png 550w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-572x180.png 572w"}
+    srcset="images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am.png 604w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-300x94.png 300w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-600x190.png 600w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-250x79.png 250w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-550x173.png 550w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-572x180.png 572w"}
 7.  When the screen refreshes, the specimens are encumbered.
     Double-check that no extraneous specimens have been encumbered. Use
     the “Return to Encumbrance” link
 
     ![Screen Shot 2015-11-18 at 11.59.15
-    AM.png](/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am.png){.alignnone
+    AM.png](images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am.png){.alignnone
     .size-full .wp-image-1839 width="1096" height="160"
     sizes="(max-width: 1096px) 100vw, 1096px"
-    srcset="/images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am.png 1096w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-300x44.png 300w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-768x112.png 768w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-1024x149.png 1024w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-250x36.png 250w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-550x80.png 550w, /images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-800x117.png 800w"}to
+    srcset="images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am.png 1096w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-300x44.png 300w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-768x112.png 768w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-1024x149.png 1024w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-250x36.png 250w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-550x80.png 550w, images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am-800x117.png 800w"}to
     perform additional actions, such as deleting the
     encumbered specimens.
