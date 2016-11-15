@@ -8,7 +8,7 @@ layout: default_toc
 
 
 
-<span style="font-size:x-small">Other IDs (Identifiers)</span>
+## Other IDs (Identifiers)
 
 **Other IDs** (identifiers) are identifiers applied to specimens. These
 identifiers may make identify specimens (as in the case of collector
@@ -120,7 +120,7 @@ Examples:
 
 
 
-<span style="font-size:larger;font-weight:bold">ID References</span>
+## ID References
 
 ID References is a [controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references)
@@ -161,8 +161,8 @@ the following Other IDs would be appropriate for the listed items:
 
 
 
-<span style="font-size:larger;font-weight:bold">General
-Guidelines</span>
+## General
+Guidelines
 
 Be as specific and complete as possible in choosing both an Other ID
 Type and assigning an Other ID Number. Everything that follows is an
@@ -207,8 +207,7 @@ subject to curatorial discretion.
 
 
 
-<span style="font-size:larger;font-weight:bold">Bulk-loading
-Rules:</span>
+## Bulk-loading Rules:
 
 The bulk-loader accepts a single string which is parsed out into three
 fields at runtime. Strangely formatted strings may be manually entered
@@ -219,10 +218,10 @@ IDs. At load, the values provided in this field are parsed into
 individual fields according to the following rules
 
 -   Integers are loaded as Number
--   Square brackets ( <span style="font-weight:bold">\[</span> and <span
+-   Square brackets ( **\[** and <span
     style="font-weight:bold">\]</span> ) may be used to explicitly
     define the numeric portion of an identifier
--   Curly brackets ( <span style="font-weight:bold">{</span> and <span
+-   Curly brackets ( **{** and <span
     style="font-weight:bold">}</span> ) may be used <span
     style="font-weight:bold">around the entire Identifier only</span>
 

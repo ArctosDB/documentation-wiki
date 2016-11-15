@@ -160,7 +160,7 @@ numbers. The data available for searching vary wildly based on what
 collectors have recorded and what collections have entered. Some
 exploration is often involved in finding a particular set of specimens.
 
-<span style="font-size:large">**Other IDs**</span>
+****Other IDs****
 
 Along with catalog numbers, Arctos provides the capacity to attach any
 number of [identifiers of various
@@ -272,10 +272,10 @@ The in range option works only for enforced-integer types of identifiers
 (currently only AF and NK). Attempting to use it for collector number
 will result in a datatype mismatch and return an error.
 
-<span style="font-family:inherit">Three-part search to the rescue! (At
+**Three-part search to the rescue! (At
 least in the cases where data are entered correctly.) All of the above
 deal with the concatenation of prefix, number, and suffix. It is also
-possible to search these independently. Search for intege</span>r
+possible to search these independently. Search for intege**r
 component=1234:
 
 <div class="separator" style="clear:both;text-align:center">

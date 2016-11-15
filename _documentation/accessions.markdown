@@ -142,9 +142,9 @@ Arctos.)  Examples include:
 Example Usage is follows. Collections are in <span
 style="font-style:italic">italics</span>.
 
--   Desired accession: <span style="font-style:italic">UAM:Mamm</span>
+-   Desired accession: **UAM:Mamm**
     1234.123.Mamm
--   New Specimen: <span style="font-style:italic">UAMObs:Mamm</span>
+-   New Specimen: **UAMObs:Mamm**
     9876
 -   Default accession: <span
     style="font-style:italic">UAMObs:Mamm</span> 1234.123.Mamm <span
@@ -153,9 +153,9 @@ style="font-style:italic">italics</span>.
 
 <!-- -->
 
--   Desired accession: <span style="font-style:italic">MVZ:Birds</span>
+-   Desired accession: **MVZ:Birds**
     14508
--   New Specimen: <span style="font-style:italic">MVZ:Bird </span>183000
+-   New Specimen: **MVZ:Bird **183000
     -Value to enter for Accession: 14508
 -   New Specimen: *MVZ:Mamm* 250000 -Value to enter for Accession:
     **\[MVZ:Bird\]14508**

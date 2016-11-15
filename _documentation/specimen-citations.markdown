@@ -158,7 +158,7 @@ BulkloadCitations.cfm
 
 ```
 
-**Bulk-loading Citations**
+## Bulk-loading Citations
 
 In publications that cite numerous specimens, it is often efficient to
 bulkload the citations, especially if they are in tabular form within an

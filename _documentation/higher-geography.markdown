@@ -359,13 +359,13 @@ VARCHAR(255) not null
   Category                              Examples                                                  Short Definition
   ------------------------------------- --------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   [Continent/Ocean](#continent_ocean)   North America, Arctic Ocean                               An all-inclusive set of divisions of the globe.
-  [Country](#country)                   United States, Iraq, Tibet                                <span style="color:#000000">The primary political entity.</span>
+  [Country](#country)                   United States, Iraq, Tibet                                **The primary political entity.**
   [State/Province](#state_province)     Florida, Magadanskaya oblast                              Primary subdivision of a country, whatever its formal rank.
   [Sea](#sea)                           Bering Sea, Gulf of Mexico                                A subdivision of an ocean. (See [chart](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data=/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res=2 "Chart of the Limits of Seas and Oceans").)
   [County](#county)                     Lincoln County, Cajun Parish                              County, parish, or equivalent subdivision of a state or province.
   [Map Name (Quad)](#map_name)          Fairbanks, Beaver                                         Names of quadrangles delineated by USGS 1:250,00 map series.
   [Feature](#feature)                   Kenai National Wildlife Refuge, Anza Borrego State Park   Miscellaneous named and delineated entities below the level of state.
-  [Island Group](#island_group)         Alexander Archipelago, Franz Joseph Land                  <span style="color:#000000">A named (but sometimes poorly defined) group of islands. These data are often replicated in Feature.</span>
+  [Island Group](#island_group)         Alexander Archipelago, Franz Joseph Land                  **A named (but sometimes poorly defined) group of islands. These data are often replicated in Feature.**
   [Island](#island)                     Kodiak Island, Svalbard                                   A single island.
 
 
