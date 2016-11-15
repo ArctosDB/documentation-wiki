@@ -5,17 +5,7 @@ layout: default_toc
 
 # Agent Addresses
 
-<div class="anchors">
 
-[Maintenance](#used)
-
-[address_type](#addr_type)
-
-[address](#address)
-
-[valid_addr_fg](#valid_addr_fg)
-
-</div>
 
 Addresses are ways to locate or contact [Agents](agent). There are both
 physical addresses and electronic addresses, and various types of each

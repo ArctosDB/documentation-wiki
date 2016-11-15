@@ -4,41 +4,6 @@ layout: default_toc
 ---
 
 # Catalog
-<div class="anchors">
-
-<div class="anchortitle">
-
-Concepts
-
-</div>
-
-[Catalog Number](#catalog_number)
-
-[GUID](#guid)
-
-[Collection](#collection)
-
-[Collection Code](#collection_code)
-
-[Description](#description)
-
-[Institution Acronym](#institution_acronym)
-
-<div class="anchortitle">
-
-Procedures
-
-</div>
-
-[Understanding Cataloged Items](#what)
-
-[delete](#delete)
-
-[recatalog](#recatalog)
-
-[searching](#srch2)
-
-</div>
 
 Catalogs are administrative lists with inconsistent relationships to
 physical items. Therefore, a Cataloged Item is an abstraction, *i.e.*,

@@ -5,39 +5,6 @@ layout: default_toc
 
 # Attributes
 
-<div class="anchors">
-
-<div class="anchortitle">
-
-Definitions
-
-</div>
-
-[Name](#name)
-
-[Value](#value)
-
-[Units](#units)
-
-[Method](#method)
-
-[Remark](#remark)
-
-[Determiner](#determiner)
-
-[Determined Date](#date)
-
-<div class="anchortitle">
-
-Using
-
-</div>
-
-[Searching with Attributes](#attribute_search)
-
-[Searching by attribute type](#attribute_api)
-
-</div>
 
 Attributes are descriptive (usually biological) characteristics of
 cataloged items (which are often biological individuals) such as

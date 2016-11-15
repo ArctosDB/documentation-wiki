@@ -5,43 +5,7 @@ layout: default_toc
 
 # Publications
 
-<div class="anchors">
 
-<div class="anchortitle">
-
-Definitions
-
-</div>
-
-[Full Citation](#full_citation)
-
-[Short Citation](#short_citation)
-
-[Publication Type](#publication_type)
-
-[Peer Review Flag](#peer)
-
-[Published Year](#published_year)
-
-[DOI/PMID](#doi)
-
-[Author](#author)
-
-[Author Role](#author_role)
-
-<div class="anchortitle">
-
-Using
-
-</div>
-
-[Creating](#usedoi)
-
-[Linking](#linking)
-
-[Finding DOIs](#finddoi)
-
-</div>
 
 Publications are included in Arctos to document the significance of
 specimens.  These associations also enhance publications by making the

@@ -5,61 +5,7 @@ layout: default_toc
 
 # Media
 
-<div class="anchors">
 
-<div class="anchortitle">
-
-Components
-
-</div>
-
-[media_uri](#media_uri)
-
-[mime_type](#mime_type)
-
-[media_type](#media_type)
-
-[preview_uri](#preview_uri)
-
-[media_relationship](#media_relationship)
-
-[created_by](#created_by)
-
-[related_data_item](#related_data_item)
-
-[media_label](#media_label)
-
-[label_value](#label_value)
-
-[assigned_by](#assigned_by)
-
-<div class="anchortitle">
-
-Tools
-
-</div>
-
-[Media Creation Guidelines](#guide)
-
-[Binary Creation Guidelines](#creating)
-
-[Multi-page Documents](#mpd)
-
-[bulkloading](#bulk)
-
-[Discovery](#discovery)
-
-[tacctools](#tacctools)
-
-[checksum](#checksum)
-
-[TAGs](#tag)
-
-[Stability](#stability)
-
-[Tips](#tips)
-
-</div>
 
 ### General Description
 

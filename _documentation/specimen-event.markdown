@@ -5,23 +5,7 @@ layout: default_toc
 
 # Specimen Event
 
-<div class="anchors">
 
-[Event Determiner](#determiner)
-
-[Event Date](#date)
-
-[Event Type](#type)
-
-[Collecting Method](#method)
-
-[Collecting Source](#source)
-
-[Verification Status](#verificationstatus)
-
-[Habitat](#habitat)
-
-</div>
 
 Specimen Events link [Specimens](/documentation/catalog/) to [Collecting
 Events](/documentation/places/collecting-event/).

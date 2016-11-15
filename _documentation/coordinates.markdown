@@ -5,47 +5,7 @@ layout: default_toc
 
 # Coordinates
 
-<div class="anchors">
 
-<div class="anchortitle">
-
-Concepts
-
-</div>
-
-[Original Units](#original_units)
-
-[Datum](#datum)
-
-[Reference Source](#reference)
-
-[Georeference Method](#georefmethod)
-
-[GPS Accuracy](#gpsaccuracy)
-
-[Extent](#extent)
-
-[Maximum Uncertainty Distance](#maximum_error)
-
-[Determiner](#determiner)
-
-[Date](#date)
-
-[Verification Status](#verificationstatus)
-
-[Accepted Flag](#accepted)
-
-[Remarks](#remarks)
-
-<div class="anchortitle">
-
-Search Tips
-
-</div>
-
-[Spatial Query](#spatialquery)
-
-</div>
 
 The application of latitudes and longitudes to verbal
 [locality](locality) data is called georeferencing. Latitude describes a

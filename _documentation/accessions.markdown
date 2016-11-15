@@ -5,25 +5,7 @@ layout: default_toc
 
 # Accessions
 
-<div class="anchors">
 
-[Accession Number](#accn_number)
-
-[How Obtained?](#accn_type)
-
-[Accession Status](#accn_status)
-
-[Public](#public)
-
-[Estimated Count](#estimated_count)
-
-[Container](#container)
-
-[Alerts](#notification)
-
-[Data Entry Considerations](#dataentry)
-
-</div>
 
 An accession is a transaction that conveys a specimen, or (commonly) a
 group of specimens received from one source at one time, to a

@@ -5,13 +5,6 @@ layout: default_toc
 
 # Transactions
 
-<div class="anchors">
-
-[Nature of Material](#nature_of_material)
-
-[Remarks](#remarks)
-
-</div>
 
 Transactions are actions that effect the coming and going of Cataloged
 Items, and parts thereof. 

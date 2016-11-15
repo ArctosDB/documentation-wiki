@@ -5,31 +5,7 @@ layout: default_toc
 
 # Taxonomy
 
-<div class="anchors">
 
-[Overview](#overview)
-
-[Scientific Name](#scientific_name)
-
-[Taxon Terms](#terms)
-
-[Common Names](#common_names)
-
-[Searching](#search)
-
-[Creating Names](#newname)
-
-[FAQ](#faq)
-
-[Source “Arctos”](#arctos_source)
-
-[Search Examples](#searchexample)
-
-[Relationship of taxonomy to specimens](#specimens)
-
-[Editing](#edit)
-
-</div>
 
 ## Overview
 

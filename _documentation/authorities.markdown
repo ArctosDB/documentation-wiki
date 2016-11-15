@@ -5,17 +5,7 @@ layout: default_toc
 
 # Authorities
 
-<div class="anchors">
 
-[Code Tables](#codetable)
-
-[Taxonomy](#taxonomy)
-
-[Geography](#geography)
-
-[Agents](#agents)
-
-</div>
 
 ## Code Tables
 

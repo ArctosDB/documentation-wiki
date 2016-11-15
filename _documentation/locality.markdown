@@ -5,37 +5,7 @@ layout: default_toc
 
 # Locality
 
-<div class="anchors">
 
-<div class="anchortitle">
-
-Concepts
-
-</div>
-
-[Locality Nickname](#locality_name)
-
-[specific_locality](#specific_locality)
-
-[elevation](#elevation)
-
-[depth](#depth)
-
-[trs_data](#trs_data)
-
-[nogeorefbecause](#nogeorefbecause)
-
-[WKT Polygon](#wkt)
-
-<div class="anchortitle">
-
-Tools
-
-</div>
-
-[Edit Form](#editlocality)
-
-</div>
 
 A locality is a specific place associated with one or more [Collecting
 Events](collecting-event).  Ultimately, each locality should be a unique

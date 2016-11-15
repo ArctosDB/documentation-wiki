@@ -5,21 +5,6 @@ layout: default_toc
 
 # Projects
 
-<div class="anchors">
-
-[title](#title)
-
-[description](#description)
-
-[date](#date)
-
-[agent](#agent)
-
-[agent_role](#agent_role)
-
-[agent_order](#agent_order)
-
-</div>
 
 
 Projects are primarily endeavors that contribute specimens, use

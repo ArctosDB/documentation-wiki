@@ -4,53 +4,7 @@ layout: default_toc
 ---
 
 # Container
-<div class="anchors">
 
-<div class="anchortitle">
-
-Model
-
-</div>
-
-[Container Type](#container_type)
-
-[Barcode](#barcode)
-
-[Label](#label)
-
-[Description](#description)
-
-[Install Date](#install_date)
-
-[Remarks](#remarks)
-
-[Print Flag](#print_flag)
-
-[Dimensions](#width_height_length)
-
-[Positions](#number_of_positions)
-
-<div class="anchortitle">
-
-Usage
-
-</div>
-
-[General Procedure](#general)
-
-[Object Tracking in the field](#field)
-
-[Object Tracking without Barcodes](#nobarcodes)
-
-[Make a Freezer Box with Positions](#freezerbox)
-
-[FAQ](#faq)
-
-[General Usage Guidelines](#usage)
-
-[Purchase Guidelines](#purchase)
-
-</div>
 
 []()
 

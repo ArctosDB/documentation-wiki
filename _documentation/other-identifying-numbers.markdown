@@ -5,37 +5,7 @@ layout: default_toc
 
 # Other Identifying Numbers (Other IDs) and Relationships
 
-<div class="anchors">
 
-<div class="anchortitle">
-
-Concepts
-
-</div>
-
-[Other Identifiers](#other_id)
-
-[Other ID Type](#other_id_type)
-
-[Other ID Number](#other_id_number)
-
-[Other ID References](#other_id_references)
-
-<div class="anchortitle">
-
-Procedures
-
-</div>
-
-[General Guidelines](#guidelines)
-
-[Forming URIs](#forming_uri)
-
-[Bulkloader Considerations](#bulkload_otherid)
-
-[Searching](#search_other_id)
-
-</div>
 
 
 <span style="font-size:x-small">Other IDs (Identifiers)</span>

@@ -5,59 +5,7 @@ layout: default_toc
 
 # Higher Geography
 
-<div class="anchors">
 
-<div class="anchortitle">
-
-Concepts
-
-</div>
-
-[Continent/Ocean](#continent_ocean)
-
-[Country](#country)
-
-[State/Province](#state_province)
-
-[Sea](#sea)
-
-[County](#county)
-
-[Map_Name](#map_name)
-
-[Geographic Feature](#feature)
-
-[Island_Group](#island_group)
-
-[Island](#island)
-
-[Source](#source)
-
-[Higher Geography](#higher_geog)
-
-[Field Summary](#fieldsummary_geog)
-
-[Additional Data](#additionaldata)
-
-[Remark](#remark)
-
-<div class="anchortitle">
-
-Usage
-
-</div>
-
-[Creation Guidelines](#guidelines)
-
-[Assigning to Locality](#locality)
-
-[Searching by](#search)
-
-[terrestrial versus marine descriptors](#terrestrial_marine)
-
-[Webservice Data](#service)
-
-</div>
 
 Higher Geography is a combination of terms delineating geopolitical
 units and it includes many imprecise regions. These terms are

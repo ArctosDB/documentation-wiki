@@ -5,27 +5,7 @@ layout: default_toc
 
 # Identifications
 
-<div class="anchors">
 
-[Scientific Name](#scientific_name)
-
-[Determination Formula](#id_formula)
-
-[“A {string}” Formula](#astring)
-
-[Determiner](#id_by)
-
-[Determination Date](#id_date)
-
-[Nature of Determination](#nature_of_id)
-
-[*Sensu* Publication](#identification_publication)
-
-[Remarks](#id_remarks)
-
-[Searching](#search)
-
-</div>
 
 Determinations, or “identifications” (IDs), apply taxonomic terms to
 specimens.  In other words, determinations are not necessarily just

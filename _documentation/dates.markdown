@@ -5,11 +5,7 @@ layout: default_toc
 
 # Dates
 
-<div class="anchors">
 
-[Excel hates me](#excel)
-
-</div>
 
 [![](http://imgs.xkcd.com/comics/iso_8601.png)](http://xkcd.com/1179/)
 

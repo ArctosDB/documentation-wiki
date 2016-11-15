@@ -5,37 +5,7 @@ layout: default_toc
 
 # Agents
 
-<div class="anchors">
 
-[Agent Type](#agent_type)
-
-[Person](#person)
-
-[Organization](#organization)
-
-[Verbatim Collector](#verbatim_collector)
-
-[Group](#group)
-
-[Names](#names)
-
-[Name Type](#name_type)
-
-[Agent Remark](#agent_remark)
-
-[General Agent Creation Guidelines](#create)
-
-[Relationships](#relationship)
-
-[Different Agent, Same Name](#samename)
-
-[Name Search](#namesearch)
-
-[ID Search](#idsearch)
-
-[Deleting Duplicates/deleting](#duplicate)
-
-</div>
 
 [Top](#top){.infoLink}
 

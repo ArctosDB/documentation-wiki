@@ -5,39 +5,7 @@ layout: default_toc
 
 # Specimen Citations
 
-<div class="anchors">
 
-<div class="anchortitle">
-
-Definitions
-
-</div>
-
-[Publication](#publication_id)
-
-[Specimen](#collection_object)
-
-[Page Number](#occurs_page_number)
-
-[Basis of Citation](#citation_type)
-
-[Cited As](#cited_as_taxon)
-
-<div class="anchortitle">
-
-Using
-
-</div>
-
-[Creating](#create_cite)
-
-[Erroneous Citations](#erroneous_citation)
-
-[Bulk-loading Citations](#bulkload_citations)
-
-[Searching](#search_cite)
-
-</div>
 
 If an unequivocal relationship exists between a particular specimen and
 a page in the publication, then it is a Citation.  Ideally, a

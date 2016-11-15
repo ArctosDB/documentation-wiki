@@ -5,31 +5,7 @@ layout: default_toc
 
 # Encumbrance
 
-<div class="anchors">
 
-<div class="anchortitle">
-
-Concepts
-
-</div>
-
-[encumbrancer](#encumbrancer)
-
-[encumbrance_name](#encumbrance_name)
-
-[expiration](#expiration)
-
-<div class="anchortitle">
-
-Procedures
-
-</div>
-
-[Encumbering Specimens](#encspec)
-
-[Un-Encumbering Specimens](#unencspec)
-
-</div>
 
 Encumbrances restrict the use of specimens or specimen data.
 Encumbrances are applied to [Cataloged Items](catalog). Attributes of an

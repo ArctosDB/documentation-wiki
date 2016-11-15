@@ -5,25 +5,7 @@ layout: default_toc
 
 # Specimen Parts
 
-<div class="anchors">
 
-[Part Names](#part_name)
-
-[Modifier](#modifier)
-
-[Preservation Method](#pres_method)
-
-[Disposition](#disposition)
-
-[Condition](#condition)
-
-[Tissues?](#is_tissue)
-
-[Lot Count](#lot)
-
-[Sampled From](#sampled_from)
-
-</div>
 
 Parts are physical entities, in contrast to[Cataloged
 Items](/documentation/catalog/) (an abstract entity) or binary objects

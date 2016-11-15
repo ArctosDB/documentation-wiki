@@ -5,43 +5,7 @@ layout: default_toc
 
 # Loans
 
-<div class="anchors">
 
-[Loan Number](#loan_number)
-
-[Loan Type](#loan_type)
-
-[Loan Status](#loan_status)
-
-[Loan Agents](#loan_agent_role)
-
-[Nature of Material](#nature_of_material)
-
-[Instructions](#instructions)
-
-[Description](#description)
-
-[Remarks](#remarks)
-
-[Initiated Date](#initiated_date)
-
-[Due Date](#due_date)
-
-[Shipping Date](#shipping_date)
-
-[Receipt Acknowledged](#receipt_acknowledged)
-
-[Returned Date](#returned_date)
-
-[Permit](#permit)
-
-[Project](#project)
-
-[Data Loans](#dataloan)
-
-[Deleting Items](#deleteitems)
-
-</div>
 
 The concept of a specimen loan is broad and includes any removal of
 specimens from a collection, temporary or permanent, with the exception

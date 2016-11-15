@@ -5,19 +5,7 @@ layout: default_toc
 
 # Bulkloader
 
-<div class="anchors">
 
-[Agents](#agent)
-
-[Taxon Names](#taxa)
-
-[Loading Data](#loading)
-
-[Field Descriptions](#fields)
-
-[Key warning](#pkey)
-
-</div>
 
 New specimen records may be created from a single flat (non-relational)
 file, a text file in which all (or most) data for a single cataloged

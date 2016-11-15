@@ -5,35 +5,7 @@ layout: default_toc
 
 # Collecting Event
 
-<div class="anchors">
 
-<div class="anchortitle">
-
-Concepts
-
-</div>
-
-[event nickname](#event_name)
-
-[verbatim locality](#verbatim_locality)
-
-[time](#time)
-
-[verbatim date](#verbatim_date)
-
-[began_date](#began_date)
-
-[verbatim_coordinates](#verbatim_coordinates)
-
-<div class="anchortitle">
-
-Usage
-
-</div>
-
-[specimen search](#ssearch)
-
-</div>
 
 A collecting event is a place and time where collecting occurred. A
 collecting event often applies to more than one catalogued specimen, so
