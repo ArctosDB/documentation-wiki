@@ -57,12 +57,12 @@ listed under only one higher geography. The [guidelines](#guidelines)
 below are intended to prevent (and even remedy) such inconsistencies.\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Geo\_Auth\_Rec . Continent\_Ocean\
 VARCHAR(50) not null
 
-</div>
+```
 
 **Continent/Ocean:** All records in Higher Geography have a value in
 this field. A record with the value “no higher geography” is applied to
@@ -149,12 +149,12 @@ Russia is in Asia. Both are sometimes in Eurasia.
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Geo\_Auth\_Rec . Country\
 VARCHAR(50) null
 
-</div>
+```
 
 **Country** is the familiar concept of first-level political entity,
 though various territorial claims complicate reality. We currently
@@ -171,12 +171,12 @@ France](/images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.pn
 sizes="(max-width: 640px) 100vw, 640px"
 srcset="/images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png 664w, /images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-300x205.png 300w, /images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-250x171.png 250w, /images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-550x376.png 550w, /images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-263x180.png 263w, /images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-439x300.png 439w"}](/images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png)
 France
-<div class="fldDef">
+```
 
 Geo\_Auth\_Rec . State\_Prov\
 VARCHAR(75) null
 
-</div>
+```
 
 **State/Province:** These are primary subdivisions of a country, be they
 states, provinces, departments, or okrugs.
@@ -188,12 +188,12 @@ states, provinces, departments, or okrugs.
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Geo\_Auth\_Rec . Sea\
 VARCHAR(50) not null
 
-</div>
+```
 
 **Seas** are defined as divisions of [oceans](#continent_ocean), but for
 a large proportion of open ocean, seas are not applicable. For example,
@@ -213,12 +213,12 @@ within a domain where rigorous definitions are not commonly used, these
 references occasionally offend common sense.)\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Geo\_Auth\_Rec . County\
 VARCHAR(50) null
 
-</div>
+```
 
 **County:** County is a second-level political subdivision of a county,
 regardless of local labels. “Primorsky Krai” is a County in the Far
@@ -228,12 +228,12 @@ possible. Note that administrative hierarchy rather than local
 terminology defines County: Montserrado County is a State in Liberia and
 does not belong in the County field.
 
-<div class="fldDef">
+```
 
 Geo\_Auth\_Rec . Quad\
 VARCHAR(30) null
 
-</div>
+```
 
 []()\
 []()\
@@ -245,12 +245,12 @@ Census Area is all-inclusive and mutually exclusive and therefore serves
 as a suitable if large-scale “county substitute.”)\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Geo\_Auth\_Rec . Feature\
 VARCHAR(50) null
 
-</div>
+```
 
 **Geographic Feature:** Features include named entities such as parks,
 preserves, refuges, and other delineated geo-political features. Feature
@@ -262,12 +262,12 @@ locality is well georeferenced and/or unequivocal in the absence of
 Feature.\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Geo\_Auth\_Rec . Island\_Group\
 VARCHAR(50) null
 
-</div>
+```
 
 **Island Group** is defined as the largest island group or Archipelago
 to which an island belongs. Island groups within island groups should be
@@ -286,12 +286,12 @@ indicated in [Geographic Feature](#feature).
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Geo\_Auth\_Rec . Island\
 VARCHAR(50) null
 
-</div>
+```
 
 **Island:** When a locality includes an island name, and the locality is
 on or near an island, then the name of the island should be included in
@@ -362,12 +362,12 @@ appropriate. Examples follow.
   North Pacific Ocean, Bering Sea, United States, Alaska                                                                                                            
   North America, United States, Alaska, Mt. McKinley Quad, Denali National Park and Preserve   http://en.wikipedia.org/wiki/Denali\_National\_Park\_and\_Preserve   There is no Wikipedia entry for the area of Alaska that’s within both DNP and a USGS quad
 
-<div class="fldDef">
+```
 
 Geo\_Auth\_Rec . Higher\_Geog\
 VARCHAR(255) not null
 
-</div>
+```
 
 **Higher Geography** (as a specific data field) is a the actual concatenation of the subdivisions described above. This is the value that is displayed in most applications.\
 []()\

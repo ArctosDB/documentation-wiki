@@ -68,12 +68,12 @@ are seldom useful.)
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Agent . Agent\_Type\
 VARCHAR2(15) not null
 
-</div>
+```
 
 Agent Type
 ----------
@@ -158,12 +158,12 @@ Agent Groups consists of:
 
 Groups may be useful for things like collecting expeditions.
 
-<div class="fldDef">
+```
 
 Agent\_Name . Agent\_Name\
 VARCHAR2(184) not null
 
-</div>
+```
 
 [](#top){.infoLink}
 
@@ -173,13 +173,13 @@ Names
 All agents must have one and only one “preferred name”.  An agent can
 have any number of other names.
 
-<div class="fldDef">
+```
 
 Agent\_Name . Agent\_Name\_Type\
 VARCHAR2(18) not null\
 ctagent\_name\_type
 
-</div>
+```
 
 [](#top){.infoLink}
 
@@ -189,12 +189,12 @@ Name Type
 Agent Name Type is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
 
-<div class="fldDef">
+```
 
 Agent . Agent\_Remark\
 VARCHAR2(255) null
 
-</div>
+```
 
 [](#top){.infoLink}
 

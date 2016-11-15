@@ -84,13 +84,13 @@ freezer rack can be tracked from one freezer to another by the scanning
 barcode on the freezer rack and its new parent ID (the barcode on the
 freezer).\
 
-<div class="fldDef">
+```
 
 Container . Container\_Type\
 VARCHAR(20) not null\
 [ctcontainer\_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcontainer_type)
 
-</div>
+```
 
 **Container Type:** Vials, jars, boxes, shelves, and rooms are all
 Container Types.
@@ -114,12 +114,12 @@ useful.
 
  
 
-<div class="fldDef">
+```
 
 Container . Parent\_Container\_id\
 NUMBER not null
 
-</div>
+```
 
 **Parent Container:**\
 This is the value that identifies the container into which another
@@ -129,12 +129,12 @@ Labels and entered into forms by their Barcode.
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Container . Barcode\
 VARCHAR(50) null
 
-</div>
+```
 
 **Barcode:** Within the database, a barcode is a string of characters
 unique to a container. Most barcode values are meaningless “dumb
@@ -167,12 +167,12 @@ known barcode values.
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Container . Label\
 VARCHAR(255) not null
 
-</div>
+```
 
 **Label** is the descriptive value that is displayed in most of our
 object-tracking applications. It should usually represent something that
@@ -196,12 +196,12 @@ in Freezer 6 is “Frzr6 6-B,” not just “6-B.”
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Container . Description\
 VARCHAR(255) null
 
-</div>
+```
 
 **Description** is a useful expansion of Label. “Room 363” is useful as
 a label, but something like “The processing room in the south wing of
@@ -209,12 +209,12 @@ the Biology Annex” may be expeditious.
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Container\_History . Install\_Date\
 DATETIME not null
 
-</div>
+```
 
 **Install Date** This is the date on which the Parent Container was last
 changed, *i.e.*, the date on which the Container was placed in its
@@ -222,12 +222,12 @@ parent.
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Container . container\_remarks\
 VARCHAR(255) null
 
-</div>
+```
 
 **Remarks**\
 is the place to record notes and about the container or its contents.
@@ -236,26 +236,26 @@ legacy containers (*i.e.,* containers without barcode labels).
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Container . print\_fg\
 NUMBER(1) null
 
-</div>
+```
 
 **Print Flag** is a temporary flag that can be set for the purpose of
 printing container labels.
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Container . width\
 Container . height\
 Container . length\
 NUMBER null
 
-</div>
+```
 
 **Width, Height, Length** are dimensions of a container in centimeters.
 Decimal fractions can be used. Because movement of objects involves two
@@ -275,12 +275,12 @@ Some common container dimensions:
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Container . Number\_Positions\
 INTEGER null
 
-</div>
+```
 
 **Number of Positions:** Some containers have immovable subcontainers of
 the Container Type Position. For example, many freezer boxes designed to
@@ -292,12 +292,12 @@ as scanning cryovials into a 100-position freezer box versus an
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Container . institution\_acronym\
 VARCHAR(20) not null
 
-</div>
+```
 
 **Institution** is an abbreviation that indicates which institution’s
 “owns” a container. (“Owns” because containers are in fact shared across

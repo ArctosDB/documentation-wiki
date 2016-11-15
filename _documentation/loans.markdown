@@ -49,12 +49,12 @@ and an accession. This arrangement well reflects the reality of
 incompleted exchanges, and takes advantage of the fact that we are
 dealing with both outgoing specimens and incoming specimens.
 
-<div class="fldDef">
+```
 
 Loans . Loan\_Number\
 VARCHAR(20) not null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Loan Number**
@@ -63,12 +63,12 @@ A Loan “number” is a string identifying the loan. The format usually
 follows local tradition (*e.g.*, YYYY:nnn:Collection) but is
 uncontrolled.
 
-<div class="fldDef">
+```
 
 Loans . Loan\_Type\
 VARCHAR not null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Type**
@@ -79,24 +79,24 @@ vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_
 If multiple Types apply, consider separate loans for separate Types, or
 enter the most important one (*i.e.*, “returnable”).
 
-<div class="fldDef">
+```
 
 Loans . Loan\_Status\
 VARCHAR not null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Status** is essentially the degree to which the transaction has been
 completed. The values comes from a [code-table controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_STATUS).
 
-<div class="fldDef">
+```
 
 Loans . Loan\_Agent\_Role\
 VARCHAR not null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Loan Agents** Agents (generally people) are associated with loans in
@@ -109,12 +109,12 @@ may not be the person physically receiving or using the material.
 Loan Agent Role is a [code-table controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTRANS_AGENT_ROLE).
 
-<div class="fldDef">
+```
 
 Loans . Nature\_of\_Material\
 VARCHAR not null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Nature of Material:** A description summarizing the overall content of
@@ -122,57 +122,57 @@ the loan. This description will appear on the loan invoice. It should be
 explicit and concise, but it does not need include details on a
 specimen-by-specimen basis.
 
-<div class="fldDef">
+```
 
 Loans . Instructions\
 VARCHAR null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Instructions:** Directions to the borrower on such things as storage
 and return of the loaned items.
 
-<div class="fldDef">
+```
 
 Loans . Description\
 VARCHAR null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Description:** I don’t know? Why do we need another text field in
 addition to Nature of Material and Remarks?
 
-<div class="fldDef">
+```
 
 Loans . Loan\_Remarks\
 VARCHAR null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Remarks:** Any annotations that will not be included on the Loan
 invoice.
 
-<div class="fldDef">
+```
 
 Loans . Initiated\_Date\
 DATE not null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Initiated Date** is the date on which preparation of the loan began. A
 default value would be the date on which the loan was first recorded in
 the database.
 
-<div class="fldDef">
+```
 
 Loans . Due\_Date\
 DATE null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Due Date** is the date that a loan of the Type Returnable is expected
@@ -180,12 +180,12 @@ to be returned to the lending collection. This date may be used to
 search for overdue loans, and/or to generate automated reminders to the
 appropriate agents.
 
-<div class="fldDef">
+```
 
 Loans . Shipping\_Date\
 DATE null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Shipping Date** is the date that the loaned material was shipped from
@@ -193,35 +193,35 @@ the collection issuing the loan. The Shipping Date should be consistent
 with any documentation provided by the carrier, *e.g.,* a waybill, bill
 of lading, etc.
 
-<div class="fldDef">
+```
 
 Loans . Receipt\_Acknowledged\_Date\
 DATE null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Receipt Acknowledged** is the date the agent receiving the loan
 submitted acknowledgment of its arrival to lending collection.
 
-<div class="fldDef">
+```
 
 Loans . Returned\_Date\
 DATE null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Returned Date**\
 is the date that a loan of the type Returnable was received back at the
 collection from which the loan was issued.
 
-<div class="fldDef">
+```
 
 Permit . Permit\_ID\
 INTEGER null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Permits:** A loan may be authorized under one or more
@@ -232,12 +232,12 @@ Recording this information may be critical to reporting to the
 permit-issuing authority, and hence a legal requirement for conducting a
 loan.
 
-<div class="fldDef">
+```
 
 Project . Project\_ID\
 INTEGER null
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Projects:** A loan is almost always made in support of one or more

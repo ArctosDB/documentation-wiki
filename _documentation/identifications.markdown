@@ -51,13 +51,13 @@ is merely a specific formatting of the data in Taxonomy.)  The
 explanation of Determination Formula (immediately below) is
 illustrative.
 
-<div class="fldDef">
+```
 
 Identification . TAXA\_FORMULA\
 VARCHAR2 (25) not null\
 [cttaxa\_formula](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula)
 
-</div>
+```
 
 **Determination Formula:**\
 A determination can contain more than one taxon, possibly in conjunction
@@ -118,12 +118,12 @@ The following table is illustrative.
 
  
 
-<div class="fldDef">
+```
 
 Identification . Made\_By\_Agent\_id\
 NUMBER not null (FK)
 
-</div>
+```
 
 **Determiner:** The determiner is the [agent](agent) (or agents, usually
 a person) who identified the specimen. More than one agent can be
@@ -132,23 +132,23 @@ the form by the order in which they were added to the determination. To
 change the displayed order, create a new copy of the determination with
 the determiners in the desired order, then delete the old record.\
 
-<div class="fldDef">
+```
 
 Identification . Made\_Date\
 DATE null
 
-</div>
+```
 
 **Determined Date:** [ISO8601](/documentation/dates/) date-type. The
 chronological order of determinations may be the most critical issue.
 
-<div class="fldDef">
+```
 
 Identification . Nature\_Of\_ID\
 VARCHAR2 (30) not null\
 [ctnature\_of\_id](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id)
 
-</div>
+```
 
 []()\
 **Nature of ID:** The basis of the identification. Vocabulary is defined
@@ -163,12 +163,12 @@ additional guidance.
 
 </div>
 
-<div class="fldDef">
+```
 
 Identification.Publication\_ID\
 NUMBER NOT NULL (FK Publication.Publication\_ID)
 
-</div>
+```
 
 ***Sensu* Publication:**\
 Signifies that a determination is made in the sense of (*sensu*) a
@@ -179,12 +179,12 @@ with Some Author’s concept of *Aus bus*“) and as supporting
 documentation (“We’ve determined this to be *Aus bus* using the methods
 provided by Some Author”).\
 
-<div class="fldDef">
+```
 
 Identification . Remarks\
 VARCHAR2 255
 
-</div>
+```
 
 **Remarks** can elaborate or clarify any signficant aspect of a
 determination.  This is a good place for recording the verbatim form of

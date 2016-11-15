@@ -40,13 +40,15 @@ numbers), reference other resources (*e.g.*, GenBank numbers), or form
 relationships among specimens (such as hosts of parasites).\
 [](){.infoLink}
 
-<div class="fldDef">
+```
+
 
 Coll\_Obj\_Other\_ID\_Num . Other\_ID\_Type\
 VARCHAR2(75) not null\
 ctcoll\_other\_ID\_type
 
-</div>
+
+```
 
 **Other Identifier Type** describes the kind of identifier. This field
 uses a [controlled
@@ -87,13 +89,13 @@ returning the link to the GenBank record for that specimen
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Prefix VARCHAR2(60)\
 Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Number NUMBER\
 Coll\_Obj\_Other\_ID\_Num.Other\_ID\_Suffix VARCHAR2(60)
 
-</div>
+```
 
 **Other Identifier** is the value of an Other ID. Data are stored in
 three fields:

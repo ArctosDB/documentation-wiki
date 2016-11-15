@@ -107,12 +107,12 @@ concepts, such as plants and animals.
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Common\_Name . Common\_Name\
 VARCHAR2 (20) null
 
-</div>
+```
 
 **Common Names** are intended to help users find what they are looking
 for, and not to propagate any standard or system. A taxon may have
@@ -127,13 +127,13 @@ particular standard such as that of the American Ornithological Union
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Taxon\_Relations . Taxon\_Relationship\
 VARCHAR2 (30) not null\
 cttaxon\_relation
 
-</div>
+```
 
 **Taxon Relations** are comprised of a relationship type, a related
 taxon, and an authority for the relationship. The related taxon is
@@ -141,12 +141,12 @@ another record in the taxonomy table.
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Taxon\_Relations . Relationship\_Authority\
 VARCHAR2 (45) null
 
-</div>
+```
 
 **Relationship Authority** is an open text field, and it may be null.
 Presumably the [Source Authority](#source_authority) for an accepted

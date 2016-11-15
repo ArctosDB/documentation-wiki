@@ -51,13 +51,13 @@ This can be a useful node for exploring these values outside of the
 forms in which the vocabularies are used.\
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Attributes . Attribute\_Type\
 VARCHAR(60) not null\
 [ctAttribute\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
 
-</div>
+```
 
 **Attribute Name** is the proper name of an Attribute. These should be
 unambiguous and match their usage in scientific literature as closely as
@@ -75,13 +75,13 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Attributes . Attribute\_Value\
 VARCHAR(255) not null\
 [ct\_Attribute\_Code\_Tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
 
-</div>
+```
 
 **Attribute Value:**\
 Attributes have a Value, and those values are of three types:
@@ -131,7 +131,7 @@ converted (or in any way modified or assumed), the verbatim value should
 be given in the [Attribute Remark](#remark).\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Attributes.Attribute\_Units\
 VARCHAR(60) null\
@@ -139,7 +139,7 @@ VARCHAR(60) null\
 [ctNumeric\_Age\_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)\
 [ctWeight\_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
 
-</div>
+```
 
 **Attribute Units:** Numeric Attributes have values expressed in units
 such as grams, millimeters, and years. Different Attributes are
@@ -149,12 +149,12 @@ code tables in the “[code table of code
 tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).”\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Attributes.Determination\_Method\
 VARCHAR(255) null
 
-</div>
+```
 
 **Method** is how the Attribute was determined. If the Method can be
 logically inferred, it is usually unspecified. Thus, Attributes such as
@@ -163,12 +163,12 @@ calipers, or another standard tool. In such cases, no value is recorded
 for Method.\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Attributes.Attribute\_Remark\
 VARCHAR(255) null
 
-</div>
+```
 
 **Remark** is a comment about the Attribute. For example:
 
@@ -178,12 +178,12 @@ VARCHAR(255) null
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Attributes.Determined\_By\_Agent\_id\
 integer, not null
 
-</div>
+```
 
 **Determiner** is the agent that determined the Value of the Attribute.
 Many Attributes are determined by either the collector or preparator of
@@ -193,12 +193,12 @@ this data was not recorded, the institution contributing the record has
 been used as a default value for Determiner.\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Attributes . Determined\_Date\
 datetime, null
 
-</div>
+```
 
 **Determined Date** is the [ISO8601](/documentation/dates/) date that
 the determination was made. Where this is unknown, the date that the

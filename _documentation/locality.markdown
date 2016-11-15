@@ -75,12 +75,12 @@ locality.
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Locality . Spec\_Locality\
 VARCHAR2 (255) null
 
-</div>
+```
 
 **Specific Locality** refers to the locality from which the specimen was
 collected from the wild, regardless of whether the animal was brought
@@ -207,7 +207,7 @@ Events](collecting-event) for more details).
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Locality . Maximum\_Elevation\
 Locality . Minimum\_Elevation\
@@ -217,7 +217,7 @@ Locality . Orig\_Elev\_Units\
 VARCHAR2 (2) null\
 ctorig\_elev\_units
 
-</div>
+```
 
 **Elevations** are a height above mean sea level.  If elevation data are
 part of the verbatim locality, they should be entered into Minimum
@@ -229,7 +229,7 @@ Locality, put that value in both the minimum and maximum elevation
 fields.\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Locality . Max\_Depth\
 Locality . Min\_Depth\
@@ -239,7 +239,7 @@ Locality . Depth\_Units\
 VARCHAR2 (2) null\
 ctdepth\_units
 
-</div>
+```
 
 **Depths** are a distance below the surface of a body of water.  The
 body of water may or may not be at sea level, *e.g.,* a mountain lake. 
@@ -282,11 +282,11 @@ A thorough description of TRS data, along with a tool to translate them
 to latitude and longitude can be found at the following URL:\
 [www.esg.montana.edu/gl/trs-data.html](http://www.esg.montana.edu/gl/trs-data.html).
 
-<div class="fldDef">
+```
 
 Locality . NogeorefbecauseVARCHAR2(255) null
 
-</div>
+```
 
 [](#top){.infoLink}
 

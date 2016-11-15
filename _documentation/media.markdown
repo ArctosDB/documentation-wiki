@@ -71,11 +71,11 @@ media are stored in three tables:
 Fields in table Media
 ---------------------
 
-<div class="fldDef">
+```
 
 Media . MEDIA\_URI VARCHAR2(255) not null
 
-</div>
+```
 
 ### Media URI:
 
@@ -101,12 +101,12 @@ will always work, while admins may be less able to help with, for
 example, “protocol://some\_domain/my/directory/structure/file name is
 out here.jpg”
 
-<div class="fldDef">
+```
 
 Media . MIME\_TYPE VARCHAR2(255) not null
 [ctmime\_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
 
-</div>
+```
 
 ### Mime Type:
 
@@ -118,12 +118,12 @@ controlled, described in
 
 [](){#media_type}
 
-<div class="fldDef">
+```
 
 Media . MEDIA\_TYPE VARCHAR2(255) not null
 [ctmedia\_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type)
 
-</div>
+```
 
 ### Media Type:
 
@@ -134,11 +134,11 @@ Media Type exists to categorize Media whose MIME type is not
 sufficiently descriptive. A HTML image viewer application would have
 MIME\_TYPE of ‘text/html’ and MEDIA\_TYPE of ‘image,’ for example.
 
-<div class="fldDef">
+```
 
 Media . PREVIEW\_URI VARCHAR2(255) null
 
-</div>
+```
 
 ### Preview URI:
 
@@ -148,12 +148,12 @@ image.
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Media\_Relations . MEDIA\_RELATIONSHIP VARCHAR2(40) not null
 [ctmedia\_relationship](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship)
 
-</div>
+```
 
 ### Media Relationship:
 
@@ -163,11 +163,11 @@ containing at least one space and ending with a table name. ColdFusion
 and Oracle both rely on this. Values are controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship).
 
-<div class="fldDef">
+```
 
 Media\_Relations . CREATED\_BY\_AGENT\_ID NUMBER not null
 
-</div>
+```
 
 ### Created By:
 
@@ -175,11 +175,11 @@ The agent who created the relationship between a media object and a data
 item. This is a foreign key to the Agent table.
 [](#top){#related_data_item .infoLink}
 
-<div class="fldDef">
+```
 
 Media\_Relations . RELATED\_PRIMARY\_KEY NUMBER not null
 
-</div>
+```
 
 ### Related Data Item:
 
@@ -188,12 +188,12 @@ key.
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Media\_Labels . MEDIA\_LABEL VARCHAR2(255) not null
 [ctmedia\_label](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label)
 
-</div>
+```
 
 ### Media Label:
 
@@ -214,30 +214,30 @@ sources can be manually entered as Media Labels.
 
 [](#top){#label_value .infoLink}
 
-<div class="fldDef">
+```
 
 Media\_Labels . LABEL\_VALUE VARCHAR2(255) not null
 
-</div>
+```
 
 ### Label Value:
 
 The content of a label generally uncontrolled text (excepting some
 dates, which are ISO8601-format).
 
-<div class="fldDef">
+```
 
 Media\_Labels . ASSIGNED\_BY\_AGENT\_ID NUMBER not null
 
-</div>
+```
 
 [](#top){#assigned_by .infoLink}
 
-<div class="fldDef">
+```
 
 Media\_Labels . ASSIGNED\_BY\_AGENT\_ID NUMBER not null
 
-</div>
+```
 
 ### Assigned By:
 

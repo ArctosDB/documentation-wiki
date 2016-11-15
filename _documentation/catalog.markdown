@@ -51,12 +51,12 @@ cataloged at more than one institution. The term “specimen” is uses
 synonymously with “cataloged item” throughout Arctos.\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Cataloged\_Item . Cat\_Num\
 NUMBER not null
 
-</div>
+```
 
 **Catalog Number** is the string (sometimes integer) assigned to a
 Cataloged Item. It must be unique (case-insensitive) within a particular
@@ -110,12 +110,12 @@ by way of GUID.
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Collection . Collection\
 VARCHAR2(15) not null
 
-</div>
+```
 
 **Collection:**  A short name for a particular collection type. For
 example:
@@ -124,12 +124,12 @@ example:
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Collection . Collection\_Cde\
 VARCHAR2(4) not null
 
-</div>
+```
 
 **Collection Code:** This is an abbreviation for a collection type, such
 as “Mamm” or “Bird.” ([code
@@ -141,12 +141,12 @@ using an attribute such as ear length, and you do not have to see
 irrelevant attributes such as beak length.\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Collection . Desc\
 VARCHAR2(255) not null
 
-</div>
+```
 
 **Description:**\
 An extended name/description of the collection. For example:
@@ -158,12 +158,12 @@ An extended name/description of the collection. For example:
 
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Collection . Institution\_Acronym\
 VARCHAR2(20) not null
 
-</div>
+```
 
 **Institution Acronym:** Abbreviation of the institution that hosts the
 catalog. For example, “MVZ” for Museum of Vertebrate Zoology, “UAM” for

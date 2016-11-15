@@ -40,12 +40,12 @@ after they were cited, or that were cited by some other identifier such
 as a field number.  A specimen citation includes:\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Citation . Publication\_ID (FK)\
 INTEGER not null
 
-</div>
+```
 
 **Publication:** There cannot be a Citation until the Publication has
 been included in the database.  Because full citation includes a page
@@ -53,35 +53,35 @@ number, the best practice is to enter citations only when the
 publication is in its final form.\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Citation . Identification\_ID (FK)\
 INTEGER not null
 
-</div>
+```
 
 **Specimen:** Citations link to, and ideally create, Identifications.\
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Citation . Occurs\_Page\_Number\
 INTEGER null
 
-</div>
+```
 
 **Publication Page Number** is the number of the first page on which the
 specific specimen is mentioned.  Referrals to the specimen on subsequent
 pages within the same publication are ignored.\
 [](#top){.infolink}
 
-<div class="fldDef">
+```
 
 Citation . Type\_Status\
 VARCHAR(20) not null\
 [ctcitation\_type\_status](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status)
 
-</div>
+```
 
 **Basis of Citation** describes the context in which the specimen was
 cited.  It is possible that one specimen was cited in more than one
@@ -91,12 +91,12 @@ which the specimen is cited.  Vocabulary is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status).\
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Citation . identification\_id (FK)\
 INTEGER not null
 
-</div>
+```
 
 **Cited As** is the Identification.Scientific\_Name to which the
 author(s) applied the specimen in the publication.  Sometimes this must
@@ -110,11 +110,11 @@ family. It is preferable to create Identifications *sensu* the
 publication, even when the publication does not explicitly create names
 or re-identify specimens, as doing so supports more-detailed queries.
 
-<div class="fldDef">
+```
 
 citation.cfm
 
-</div>
+```
 
 ### **Creating Specimen Citations**
 
@@ -170,11 +170,11 @@ cited as MVZ 125456.”  With this, anyone coming from the publication
 should be able to find their way to the correct meaning.\
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 BulkloadCitations.cfm
 
-</div>
+```
 
 **Bulk-loading Citations**\
 In publications that cite numerous specimens, it is often efficient to

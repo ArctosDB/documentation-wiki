@@ -36,13 +36,13 @@ attributes.  Similarly, parasites have been recorded as parts of their
 hosts until such time as they might be worked into a separate parasite
 collection.
 
-<div class="fldDef">
+```
 
 Specimen\_Part.Part\_Name\
 VARCHAR(70) not null\
 [ctspecimen\_part\_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Part Names:** What we choose to name as a part depends on what we
@@ -97,13 +97,13 @@ thereof, preserved by freezing. Such samples commonly supply DNA for
 sequence analysis, and many researchers want to search for specimens
 from which they can readily obtain subsamples.
 
-<div class="fldDef">
+```
 
 Coll\_Object.Disposition\
 VARCHAR(20) not null\
 [ctcoll\_obj\_disp](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
 
-</div>
+```
 
 [](#top){.infoLink}\
 **Disposition** describes the status of parts and, as an abstract
@@ -116,12 +116,12 @@ the status of cataloged items.  Typical values are:
 -   missing
 -   destroyed
 
-<div class="fldDef">
+```
 
 Coll\_Object.Condition\
 VARCHAR(255) not null
 
-</div>
+```
 
 [](#top){.infoLink}
 
@@ -141,12 +141,12 @@ VARCHAR(255) not null
 -   1 – These tissues are flaccid and thoroughly autolyzed. They
     probably stink.
 
-<div class="fldDef">
+```
 
 Coll\_Object.Lot\_Count\
 NUMBER not null
 
-</div>
+```
 
 [](#top){.infoLink}
 
@@ -224,12 +224,12 @@ Examples of lot count usage:
 | collecting event.                    |                                      |
 +--------------------------------------+--------------------------------------+
 
-<div class="fldDef">
+```
 
 Specimen\_Part.Sampled\_From\_Obj\_Id\
 NUMBER null
 
-</div>
+```
 
 [](#top){.infoLink}
 

@@ -76,11 +76,11 @@ include:
 -   Not valid for Federal Express deliveries.
 -   Jones uses home address in June and July.
 
-<div class="fldDef">
+```
 
 addr . valid\_addr\_fg NUMBER not null
 
-</div>
+```
 
 [](#top){.infoLink}Valid Flag
 -----------------------------

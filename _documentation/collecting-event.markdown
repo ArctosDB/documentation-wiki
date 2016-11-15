@@ -37,12 +37,12 @@ the specimens.  **New Collecting Events** are normally created when
 specimen records are bulk-loaded, but may be created manually, cloned
 from existing events, and/or given a nickname for easy identification.
 
-<div class="fldDef">
+```
 
 Collecting\_Event . COLLECTING\_EVENT\_NAME\
 VARCHAR(255) null
 
-</div>
+```
 
 **Event Nickname** is a human-readable stable “primary key” to
 collecting events. Event Nickname may only be created or added in the
@@ -51,12 +51,12 @@ field is useful for locating pre-created collecting event information,
 and may be useful when specimens share an event but are not entered
 sequentially, such as hosts and parasites.
 
-<div class="fldDef">
+```
 
 Collecting\_Event . Verbatim\_Locality\
 VARCHAR(255) not null
 
-</div>
+```
 
 **Verbatim Locality** is the locality description as provided by the
 collector and is specific to the Collecting Event, not to the Locality. 
@@ -77,12 +77,12 @@ dates as they are often recorded by collectors, and to properly record
 the duration of Collecting Events that may have been longer or shorter
 than a single day.
 
-<div class="fldDef">
+```
 
 Collecting\_Event . Verbatim\_Date\
 VARCHAR(60) not null
 
-</div>
+```
 
 **Verbatim Date** is a transcription of the date provided by the
 collector. If the collection date is given as “unknown,” then a value
@@ -90,25 +90,25 @@ such as “before 14 Jan 2005” should be entered. (The time is never
 completely unknown: We always know that a specimen in hand was collected
 before the present.)
 
-<div class="fldDef">
+```
 
 Collecting\_Event . Began\_Date
 
-</div>
+```
 
-<div class="fldDef">
+```
 
 ISO8601, not null
 
-</div>
+```
 
-<div class="fldDef">
+```
 
 – – –\
 Collecting\_Event . Ended\_Date\
 ISO8601, not null
 
-</div>
+```
 
 **Began Date** and **Ended Date** delimit the range of dates encompassed
 by the Verbatim Date.  Unlike Verbatim Date, they are [ISO8601

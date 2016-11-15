@@ -45,12 +45,12 @@ publication.  Where no such explicit relationship exists, publications
 can be related to a [Project](project).\
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Publication . Full\_Citation\
 varchar(4000) not null
 
-</div>
+```
 
 **Full Citation** is the textual description of a publication formatted
 as it would appear in a bibliography.  Typically this would include
@@ -99,12 +99,12 @@ formatting should be handled with HTML tags.
 
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Publication . Short\_Citation\
 varchar(4000) not null
 
-</div>
+```
 
 **Short Citation** is typically authorship and year, the way
 publications are cited when included in the text of other publications. 
@@ -117,13 +117,13 @@ formatting.
 
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Publication . Publication\_Type\
 not null VARCHAR2(21)\
 [ctPublication\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE)
 
-</div>
+```
 
 **Publication Type** describes the nature of the publication, and
 vocabulary is
@@ -131,29 +131,29 @@ vocabulary is
 
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Publication . Publication\_Year\
 number, not null
 
-</div>
+```
 
 **Published Year** is the year in which the publication occurred.  It is
 a four-digit integer, *e.g*., 1985.\
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Publication . Is\_Peer\_Reviewed\_FG\
 number(1), not null
 
-</div>
+```
 
 **Peer Review Flag** should be set to false for publications which have
 not undergone a formal peer review process, such as dissertations.\
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Publication . DOI\
 varchar(4000), null\
@@ -161,7 +161,7 @@ varchar(4000), null\
 Publication . PMID\
 varchar(4000), null
 
-</div>
+```
 
 **DOI** ([Digital Object Identifier](http://www.doi.org/)) or **PMID**
 ([PubMed Identifier](http://www.ncbi.nlm.nih.gov/pubmed/)) should be
@@ -182,7 +182,7 @@ The following are examples of formats that **contain** DOIs; they are
 
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Publication\_Agent . Publication\_Agent\_ID\
 number, not null (primary key)\
@@ -193,7 +193,7 @@ number, not null (foreign key = Agent . Agent\_ID)\
 Publication\_Agent . Publication\_ID\
 number, not null (foreign key = Publication . Publication\_ID
 
-</div>
+```
 
 **Authors**, as
 [Agents](http://arctosdb.org/documentation/agent/ "Agents") can be
@@ -205,24 +205,24 @@ as publication agents.  Agent Name formatting is unimportant as
 formatted agent names are part of the full citation.\
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Publication . Author\_Role\
 varchar2(255), not null\
 [ctAuthor\_Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE)
 
-</div>
+```
 
 **Author Role** indicates whether the indicated agent is an actual
 author, or an editor of the publication. Vocabulary is
 [controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE).\
 [](){.infolink}
 
-<div class="fldDef">
+```
 
 Publication.cfm?action=newPub
 
-</div>
+```
 
 **Creating Publications**
 

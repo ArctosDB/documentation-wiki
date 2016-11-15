@@ -34,23 +34,23 @@ recorded in order to assure that the data can eventually be located for
 purposes of cataloging.\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Accn . accn\_number\
 VARCHAR2(60) not null
 
-</div>
+```
 
 **Accession Number** is a text string assigned to identify the specific
 accession.  This is under revision at this writing.\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Accn . accn\_status\
 VARCHAR2(20) not null
 
-</div>
+```
 
 **Status** indicates whether or not the accession is cataloged or not. 
 “Complete” indicates that the disposition of specimens can be determined
@@ -65,13 +65,13 @@ is useful for displaying accession-level Media, such an UAM Earth
 Science accession and locality card scans.\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Accn . accn\_type\
 VARCHAR2(35) not null\
 [ctAccn\_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type)
 
-</div>
+```
 
 **How obtained?**  This is a means of acquiring the specimens, such as
 “gift,” “salvaged,” and “purchased.”  The field needs a more rigorous
@@ -85,12 +85,12 @@ name of a person, *i.e.,* the person within an agency rather than the
 name of the agency.\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Accn . Received\_Date\
 DATE not null
 
-</div>
+```
 
 **Received Date** is the day that the accessioned material was received
 by the museum.  Must be a valid date.  Default could be the system date
@@ -102,12 +102,12 @@ created.  {Do we need this? Should it be a stored system date, and not
 necessarily displayed in normal applications?}\
 [](){.infoLink}
 
-<div class="fldDef">
+```
 
 Trans . Trans\_Remarks\
 VARCHAR2(4000) null
 
-</div>
+```
 
 **Remarks** is a place for expanding a description of the conditions of
 acceptance, or for instructions in processing the material.  For

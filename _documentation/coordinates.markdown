@@ -69,14 +69,14 @@ prevent accurately representing the data.
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 collecting\_event . Orig\_Lat\_long\_Units\
 VARCHAR(20) null\
 [ctlat\_long\_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS)\
 DarwinCore2=VerbatimCoordinateSystem
 
-</div>
+```
 
 **Original Units** for geographic coordinates vary with the source of
 the data.  Classically, latitude and longitude have been recorded in
@@ -95,14 +95,14 @@ In all formats, include as many digits of precision as are provided in
 the original data.\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Collecting\_Event . Datum\
 VARCHAR(40) null\
 [ctdatum](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum)\
 DarwinCore2=GeodeticDatum
 
-</div>
+```
 
 **Datum:** The geodetic datum to which the latitude and longitude refer.
 A geodetic datum describes the size, shape, origin, and orientation of a
@@ -116,14 +116,14 @@ should be checked in the field). Maps and gazetteers generally provide
 this information as well.\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Locality . GEOREFERENCE\_SOURCE\
 VARCHAR(255) not null\
 [ctGEOREFERENCE\_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_SOURCE "Georefrence Source")\
 DarwinCore2=GeoreferenceSources
 
-</div>
+```
 
 **Reference Source(s)** refers to the source of the coordinates and not
 to the source of the error. Coordinates may be original data collected
@@ -153,13 +153,13 @@ with the specimen. Examples:
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Locality.GEOREFERENCE\_PROTOCOL\
 VARCHAR(40) not null\
 [ctGEOREFERENCE\_PROTOCOL](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_PROTOCOL "GEOREFERENCE_PROTOCOL")
 
-</div>
+```
 
 **Georeference Method** is the protocol used to obtain the values for
 the coordinates and the measure of precision. Different methods and
@@ -170,32 +170,32 @@ for this field is controlled.
 
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Lat\_Long . Max\_Error\_Distance\
 NUMBER null\
 DarwinCore2=CoordinateUncertaintyInMeters
 
-</div>
+```
 
-<div class="fldDef">
+```
 
 —
 
-</div>
+```
 
-<div class="fldDef">
+```
 
 Lat\_Long . Max\_Error\_Units\
 VARCHAR2(2) null
 
-</div>
+```
 
-<div class="fldDef">
+```
 
 [ctlat\_long\_error\_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_error_units "Distance Units")
 
-</div>
+```
 
 **Maximum Uncertainty Distance** is the upper limit of the horizontal
 (as opposed to elevational) distance from the reported latitude and
@@ -233,12 +233,12 @@ for Maximum Uncertainty is converted from the original units (recorded
 here) to the value in meters.\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Lat\_Long . Determined\_By\_Agent\_id\
 INT not null
 
-</div>
+```
 
 **Determiner** is the
 [agent](http://arctosdb.wordpress.com/documentation/agent/ "Agents")
@@ -264,26 +264,26 @@ determination should not be modified even if it is no longer the
 accepted determination.\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Lat\_Long . Determined\_Date\
 DATETIME null
 
-</div>
+```
 
 **Determination Date** is the [ISO8601](/documentation/dates/) date that
 the determination was made. Entry/editing forms load with the current
 date as a default for new records.\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Lat\_Long . VerificationStatus\
 VARCHAR(40) not null\
 [ctverificationstatus](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")\
 DarwinCore2=GeoreferenceVerificationStatus
 
-</div>
+```
 
 **Verification Status:** A categorical description of the extent to
 which the georeference has been verified to represent the location where
@@ -298,12 +298,12 @@ are accurate and that the represented uncertainty is as small as
 possible.\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Lat\_Long . Accepted\_Lat\_Long\_fg\
 TINYINT not null
 
-</div>
+```
 
 **Accepted?**  There can be more than one georeferencing determination
 per locality but only the accepted determination is routinely displayed.
@@ -311,13 +311,13 @@ You can revert to an earlier determination by changing its *accepted*
 flag from “no” to “yes.”\
 [](#top){.infoLink}
 
-<div class="fldDef">
+```
 
 Lat\_Long . Lat\_Long\_Remarks\
 VARCHAR2(4000) null\
 DarwinCore2=GeoreferenceRemarks
 
-</div>
+```
 
 **Remarks** about the spatial description determination, explaining
 assumptions made in addition or opposition to the those formalized in
