@@ -1,4 +1,9 @@
-# Loans 
+---
+title: Loans
+layout: default_toc
+---
+
+# Loans
 
 <div class="anchors">
 

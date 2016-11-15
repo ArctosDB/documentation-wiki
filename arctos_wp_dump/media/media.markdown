@@ -1,3 +1,8 @@
+---
+title: Media
+layout: default_toc
+---
+
 # Media
 
 <div class="anchors">

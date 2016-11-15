@@ -1,3 +1,8 @@
+---
+title: Agent Addresses
+layout: default_toc
+---
+
 # Agent Addresses
 
 <div class="anchors">

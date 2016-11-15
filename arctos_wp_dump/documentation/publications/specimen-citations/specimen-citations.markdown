@@ -1,3 +1,8 @@
+---
+title: Specimen Citations
+layout: default_toc
+---
+
 # Specimen Citations
 
 <div class="anchors">

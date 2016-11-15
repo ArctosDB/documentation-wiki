@@ -1,3 +1,8 @@
+---
+title: Locality
+layout: default_toc
+---
+
 # Locality
 
 <div class="anchors">

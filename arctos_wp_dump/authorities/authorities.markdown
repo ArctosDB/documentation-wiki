@@ -1,3 +1,8 @@
+---
+title: Authorities
+layout: default_toc
+---
+
 # Authorities
 
 <div class="anchors">

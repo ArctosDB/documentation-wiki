@@ -1,3 +1,8 @@
+---
+title: Attributes
+layout: default_toc
+---
+
 # Attributes
 
 <div class="anchors">

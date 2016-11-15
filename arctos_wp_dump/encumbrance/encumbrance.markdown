@@ -1,4 +1,9 @@
-# Encumbrance 
+---
+title: Encumbrance
+layout: default_toc
+---
+
+# Encumbrance
 
 <div class="anchors">
 

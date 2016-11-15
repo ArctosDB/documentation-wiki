@@ -1,4 +1,9 @@
-# Places 
+---
+title: Places
+layout: default_toc
+---
+
+# Places
 
 <div class="entry-content">
 

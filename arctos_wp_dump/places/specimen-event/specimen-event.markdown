@@ -1,4 +1,9 @@
-# Specimen Event 
+---
+title: Specimen Event
+layout: default_toc
+---
+
+# Specimen Event
 
 <div class="anchors">
 

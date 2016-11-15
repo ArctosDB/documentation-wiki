@@ -1,4 +1,9 @@
-# Dates 
+---
+title: Dates
+layout: default_toc
+---
+
+# Dates
 
 <div class="anchors">
 

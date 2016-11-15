@@ -1,3 +1,8 @@
+---
+title: Identifications
+layout: default_toc
+---
+
 # Identifications
 
 <div class="anchors">

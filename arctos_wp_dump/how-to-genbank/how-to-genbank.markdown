@@ -1,4 +1,9 @@
-# GenBank 
+---
+title: GenBank
+layout: default_toc
+---
+
+# GenBank
 
 Curators of Arctos collections should encourage researchers using their
 specimens for DNA sequences to submit GenBank accessions that cite the

@@ -1,5 +1,9 @@
-# Catalog 
+---
+title: Catalog
+layout: default_toc
+---
 
+# Catalog
 <div class="anchors">
 
 <div class="anchortitle">

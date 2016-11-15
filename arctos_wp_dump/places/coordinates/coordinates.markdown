@@ -1,3 +1,8 @@
+---
+title: Coordinates
+layout: default_toc
+---
+
 # Coordinates
 
 <div class="anchors">

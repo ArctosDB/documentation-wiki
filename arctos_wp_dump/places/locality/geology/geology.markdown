@@ -1,4 +1,9 @@
-# Geology 
+---
+title: Geology
+layout: default_toc
+---
+
+# Geology
 
 <div class="entry-content">
 

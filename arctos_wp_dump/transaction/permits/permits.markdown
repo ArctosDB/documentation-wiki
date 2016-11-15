@@ -1,4 +1,9 @@
-# Permits 
+---
+title: Permits
+layout: default_toc
+---
+
+# Permits
 
 Permits are documentation authorizing transactions such as\
 [Accessions](accession) and [Loans](loan).\

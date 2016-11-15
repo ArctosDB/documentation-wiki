@@ -1,4 +1,9 @@
-# Transactions 
+---
+title: Transactions
+layout: default_toc
+---
+
+# Transactions
 
 <div class="anchors">
 

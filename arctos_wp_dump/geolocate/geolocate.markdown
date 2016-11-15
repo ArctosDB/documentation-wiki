@@ -1,4 +1,9 @@
-# GeoLocate 
+---
+title: GeoLocate
+layout: default_toc
+---
+
+# GeoLocate
 
 Data Entry now and Edit Locality now offer an inline georeferencing
 tool, courtey of the

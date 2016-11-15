@@ -1,3 +1,8 @@
+---
+title: Publications
+layout: default_toc
+---
+
 # Publications
 
 <div class="anchors">

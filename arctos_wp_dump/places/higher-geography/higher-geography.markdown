@@ -1,3 +1,8 @@
+---
+title: Higher Geography
+layout: default_toc
+---
+
 # Higher Geography
 
 <div class="anchors">

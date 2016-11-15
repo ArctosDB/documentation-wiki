@@ -1,4 +1,9 @@
-# Collecting Event 
+---
+title: Collecting Event
+layout: default_toc
+---
+
+# Collecting Event
 
 <div class="anchors">
 

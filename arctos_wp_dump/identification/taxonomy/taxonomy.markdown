@@ -1,4 +1,9 @@
-# Taxonomy 
+---
+title: Taxonomy
+layout: default_toc
+---
+
+# Taxonomy
 
 <div class="anchors">
 

@@ -1,4 +1,9 @@
-# Accessions 
+---
+title: Accessions
+layout: default_toc
+---
+
+# Accessions
 
 <div class="anchors">
 

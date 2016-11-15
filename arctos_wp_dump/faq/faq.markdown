@@ -1,3 +1,8 @@
+---
+title: Frequently Asked Questions
+layout: default_toc
+---
+
 # Frequently Asked Questions
 
 **Q: How is taxonomy managed in a shared system?**\

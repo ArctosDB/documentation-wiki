@@ -1,3 +1,8 @@
+---
+title: Specimen Parts
+layout: default_toc
+---
+
 # Specimen Parts
 
 <div class="anchors">

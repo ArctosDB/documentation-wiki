@@ -1,4 +1,9 @@
-# Sharing Data and Resources 
+---
+title: Sharing Data and Resources
+layout: default_toc
+---
+
+# Sharing Data and Resources
 
 Sharing Data
 ------------

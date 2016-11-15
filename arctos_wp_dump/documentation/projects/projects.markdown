@@ -1,3 +1,8 @@
+---
+title: Projects
+layout: default_toc
+---
+
 # Projects
 
 <div class="anchors">
