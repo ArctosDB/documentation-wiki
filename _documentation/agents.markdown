@@ -52,13 +52,9 @@ are seldom useful.)
 
 
 
-```
+`Agent . Agent_Type
 
-Agent . Agent_Type
-
-VARCHAR2(15) not null
-
-```
+VARCHAR2(15) not null`
 
 ## Agent Type
 
@@ -143,13 +139,9 @@ Agent Groups consists of:
 
 Groups may be useful for things like collecting expeditions.
 
-```
+`Agent_Name . Agent_Name
 
-Agent_Name . Agent_Name
-
-VARCHAR2(184) not null
-
-```
+VARCHAR2(184) not null`
 
 
 
@@ -158,15 +150,11 @@ VARCHAR2(184) not null
 All agents must have one and only one "preferred name".  An agent can
 have any number of other names.
 
-```
-
-Agent_Name . Agent_Name_Type
+`Agent_Name . Agent_Name_Type
 
 VARCHAR2(18) not null
 
-ctagent_name_type
-
-```
+ctagent_name_type`
 
 
 
@@ -175,13 +163,9 @@ ctagent_name_type
 Agent Name Type is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
 
-```
+`Agent . Agent_Remark
 
-Agent . Agent_Remark
-
-VARCHAR2(255) null
-
-```
+VARCHAR2(255) null`
 
 
 
