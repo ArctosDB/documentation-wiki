@@ -12,8 +12,8 @@ Items](/documentation/catalog/) (an abstract entity) or binary objects
 (such as Images).  One or many parts may comprise a Cataloged Item, and
 parts may be defined as the minimal units for which [storage
 location](/documentation/container/), usage, and condition are
-tracked. (*“Parts are things to which you can stick barcodes.”*) In many
-collections, parts are nearly always “whole organisms” but in others,
+tracked. (*"Parts are things to which you can stick barcodes."*) In many
+collections, parts are nearly always "whole organisms" but in others,
 such as vertebrate paleontology, the variety of parts is huge.
 
 Embryos and parasites may be treated parts of the host organism. 
@@ -38,18 +38,18 @@ VARCHAR(70) not null
 
 
 **Part Names:** What we choose to name as a part depends on what we
-define as a part,  and while this is often obvious (*e.g.,* “whole
-organism”), organisms become separated into parts in ways both
+define as a part,  and while this is often obvious (*e.g.,* "whole
+organism"), organisms become separated into parts in ways both
 standardized and not.  Thus, it is difficult to standardize vocabulary
 for every fragment worthy of preservation.
 
 Vocabulary is controlled by a[code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name). 
 Part names should refer to specific anatomical parts or recognized
-groups of parts (*e.g.*, “postcranial skeleton”).  With rare exception,
+groups of parts (*e.g.*, "postcranial skeleton").  With rare exception,
 parts are the singular form of a noun.  In some cases, where the parts
 may be a batch of indefinite size, the plural is included
-parenthetically (*e.g.,* “endoparasite(s)”).
+parenthetically (*e.g.,* "endoparasite(s)").
 
 Parts, when separable, should be entered on individual lines of the
 parts grid as individual
@@ -77,18 +77,18 @@ case basis.
 
 Part name contains information once split out into part modifier, and
 also preservation and storage information. Preservation and storage
-information (eg, “reproductive tract (formalin-fixed, 70% ethanol)”) is
+information (eg, "reproductive tract (formalin-fixed, 70% ethanol)") is
 not meant to replace container condition information (e.g.,
-“checked-by-on-date” and fluid_preservation_history), but simply to
+"checked-by-on-date" and fluid_preservation_history), but simply to
 facilitate searching.
 
-“Traditional” (a concept which varies wildly by discipline and
-collection) part names are often stored without “modifiers.” A
-“skeleton” in a mammal collection probably consists of cleaned, dried
+"Traditional" (a concept which varies wildly by discipline and
+collection) part names are often stored without "modifiers." A
+"skeleton" in a mammal collection probably consists of cleaned, dried
 bones stored at room temperature, for example.
 
-The specimen part code table also contains a “is_tissue” flag. Parts
-flagged as “tissues” indicate a Specimen Part is a sample intended for
+The specimen part code table also contains a "is_tissue" flag. Parts
+flagged as "tissues" indicate a Specimen Part is a sample intended for
 subsampling and distribution, generally for purposes of destructive
 analysis, or simply a part with readily-available tissue from which DNA
 may be extracted. In general, these parts are soft organs, or parts
@@ -129,7 +129,7 @@ VARCHAR(255) not null
 
 
 
-**Condition** is used for entries such as “broken” or “dissected”.
+**Condition** is used for entries such as "broken" or "dissected".
 
 -   5 – The best tissues. These have gone from a freshly killed animal
     directly into liquid nitrogen. The animal should not have been dead
@@ -191,7 +191,7 @@ animals.
 Lot counts are not static; lots may be split into smaller lots by
 creating a separate part.  If one of those 86 minnows was prepared for
 skeletal study by clearing and staining, it would be necessary to create
-a second “part” within the catalogued item.
+a second "part" within the catalogued item.
 
 A cryotube of embryos or a box of ribs should have a lot count.  In
 contrast, three tubes of muscle from an individual will be tracked

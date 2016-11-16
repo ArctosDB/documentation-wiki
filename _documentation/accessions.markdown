@@ -44,8 +44,8 @@ VARCHAR2(20) not null
 ```
 
 **Status** indicates whether or not the accession is cataloged or not. 
-“Complete” indicates that the disposition of specimens can be determined
-from individual specimen records.  “In process” indicates that at least
+"Complete" indicates that the disposition of specimens can be determined
+from individual specimen records.  "In process" indicates that at least
 some of the material is still being stored and labeled by accession
 number.
 
@@ -67,9 +67,9 @@ VARCHAR2(35) not null
 ```
 
 **How obtained?**  This is a means of acquiring the specimens, such as
-“gift,” “salvaged,” and “purchased.”  The field needs a more rigorous
+"gift," "salvaged," and "purchased."  The field needs a more rigorous
 definition; several of the values in this field are really agents
-(agencies, organizations), and should be reflected in “Received From”
+(agencies, organizations), and should be reflected in "Received From"
 (below).
 
 **Received From** is the name of the agent who (or which) provided the
@@ -106,7 +106,7 @@ VARCHAR2(4000) null
 
 **Remarks** is a place for expanding a description of the conditions of
 acceptance, or for instructions in processing the material.  For
-example, “Take 50 gram subsamples for fatty-acid analysis.”
+example, "Take 50 gram subsamples for fatty-acid analysis."
 
 
 Estimated Count is an integer expressing approximately how many
@@ -119,20 +119,20 @@ freezers.
 
 
 Email is sent on every annual anniversary of Transaction Data for
-accessions which are not “closed” but contain no specimens.
+accessions which are not "closed" but contain no specimens.
 
 
 
 ## Data Entry Considerations
 
-You can catalog records in “your collection” that have been accessioned
+You can catalog records in "your collection" that have been accessioned
 by another collection.  For data entry (through either the data-entry
 application or the bulkloader) indicate the accession that you wish to
-use, but put brackets around the part of the accession “number” that
+use, but put brackets around the part of the accession "number" that
 indicates the collection.  This effectively tells the bulkloader,
-“ignore the collection (collection_cde + institution_acronym) to which
+"ignore the collection (collection_cde + institution_acronym) to which
 this record is going to be appended, and indicate the accession based on
-what is in the brackets.” (Though that accession must be present in
+what is in the brackets." (Though that accession must be present in
 Arctos.)  Examples include:
 
 -   A UAM Mammal Observation being entered into a UAM Mammal accession

@@ -23,10 +23,10 @@ Arctos.
     The separator used between date values (year, month, and day) is the
     hyphen, while the colon is used as the separator between time values
     (hours, minutes, and seconds). For example, the 6th day of the 1st
-    month of the year 2009 may be written as “2009-01-06.”
+    month of the year 2009 may be written as "2009-01-06."
 -   For reduced accuracy, any number of values may be dropped from any
     of the date and time representations, but in the order from the
-    least to the most significant. For example, “2004-05” is a valid ISO
+    least to the most significant. For example, "2004-05" is a valid ISO
     8601 date, which indicates the 5th month of the year 2004. This date
     will never represent the 5th day of some unknown month in 2004.
 

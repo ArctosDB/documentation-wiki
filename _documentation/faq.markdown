@@ -9,17 +9,17 @@ layout: default_toc
 
 A: Identifications (optionally) reference taxonomy, but taxon names are
 not directly applied to specimens as Identifications. Taxonomy,
-therefore, strives to be “pure” names, leaving the complexities of
+therefore, strives to be "pure" names, leaving the complexities of
 applying names to specimens in Identifications. This arrangement:
 
--   Removes ambiguity in determining what is “proper” taxonomy
+-   Removes ambiguity in determining what is "proper" taxonomy
 -   Allows more formality than other systems
 -   Allows us to use external sources of taxonomy
 
-Any namestring (“taxon name” or “scientific name”) may have any number
-of classifications (“higher taxonomy”), and these may be drawn from
+Any namestring ("taxon name" or "scientific name") may have any number
+of classifications ("higher taxonomy"), and these may be drawn from
 Globalnames.org. Arctos taxonomy is therefore a synthesis of all
-“taxonomy projects” that contribute to GlobalNames, plus local data.
+"taxonomy projects" that contribute to GlobalNames, plus local data.
 Curating taxonomy in Arctos is theoretically unnecessary, although as of
 this writing all collections continue to do so due to the lack of
 responsive and useful editing capabilities in the various remote
@@ -76,7 +76,7 @@ as possible, but we have made some exceptions:
     preferences and user rights. In order to benefit from all but the
     most basic public features, you must enable cookies.
 -   **Pop-ups:** Users may wish to enable pop-ups. Some informational
-    windows use pop-ups. We promise to only “pop up” things you ask
+    windows use pop-ups. We promise to only "pop up" things you ask
     for.
 
     Operators must enable pop-ups. Many browsers block this, sometimes
@@ -93,7 +93,7 @@ accessing this site in your browser, and we’ll fix it if we can.
 
 A: Media, loosely defined, is anything you can produce a URI for. Web
 pages, Internet-accessible images, and documents stored on FTP sites are
-all potentially Media. Media may form relationships with any “node” in
+all potentially Media. Media may form relationships with any "node" in
 Arctos.
 
 Arctos proper offers little in the way of storage. However, we have a

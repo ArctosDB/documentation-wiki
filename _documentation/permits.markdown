@@ -14,7 +14,7 @@ authorizing
 
 collecting activities on private land can also be considered permits.
 
-Some “registrations” may also constitute permits.
+Some "registrations" may also constitute permits.
 
 For example, museums can do international exchanges of specimens of
 endangered

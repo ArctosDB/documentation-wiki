@@ -29,7 +29,7 @@ Email addresses of Operators are used extensively by various reports or
 notifications. Please ensure that all operators have a valid email
 address.
 
-Note: “Changes” do not include the addition or removal of linebreak
+Note: "Changes" do not include the addition or removal of linebreak
 (chr(10) and chr(13)) characters, spaces, or commas.
 
 ## Address Type
@@ -54,7 +54,7 @@ Street, State, etc. as required
 Zip Code or Equivalent, Country Code
 
 Do not abbreviate except according to postal guidelines. Make no
-assumptions – “local” mailing addresses may be used for returning
+assumptions – "local" mailing addresses may be used for returning
 foreign shipments, and should therefore include country code. Phone
 numbers should include country and area codes, URIs should include
 protocol (http://), etc.
@@ -74,18 +74,10 @@ addr . valid_addr_fg NUMBER not null
 
 ```
 
-Valid Flag
------------------------------
+## Valid Flag
+
 
 **Valid?:** A flag indicating whether or not the address is still valid.
 Invalid (old, or corrected) addresses are maintained against the
 possibility that they might be needed to resolve a lost shipment. Please
 invalidate any addresses as necessary.
-
-</div>
-
-</div>
-
-</div>
-
-</div>

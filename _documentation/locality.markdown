@@ -25,13 +25,13 @@ much of the descriptive data is hierarchical (e.g., continent, country,
 state, county, specific locality).  Applying coordinates and errors
 (georeferencing) to such descriptions is error-prone and even
 subjective.  Therefore, multiple georeferencing determinations can be
-applied to a single locality even though only the “accepted”
+applied to a single locality even though only the "accepted"
 determination is routinely displayed.  Some caveats:
 
 -   A locality documents one *or more* collecting events.
 -   Separate but similar localities may differ only in the extent of
     their respective errors.  For example, if the specific locality
-    “Barrow” is given for a lemming, it would be reasonable to assume
+    "Barrow" is given for a lemming, it would be reasonable to assume
     the animal came from right in Barrow, or from somewhere on the
     limited road system around Barrow. Five kilometers might be
     appropriate.  If Barrow were given for the specific locality of a
@@ -44,7 +44,7 @@ determination is routinely displayed.  Some caveats:
     may often be the same.
 
 
-Locality Nickname is a globally-unique human-readable “locality ID”
+Locality Nickname is a globally-unique human-readable "locality ID"
 commonly used to unambiguously associate one or more specimens to a
 locality.
 
@@ -90,8 +90,8 @@ Events](collecting-event) for more details).
     -   **Example:** USA, Alaska, Petersburg quad, Thorne Island
 
     In these examples, as well as in records for which appropriate data
-    are missing, the correct value for Specific Locality is, “**No
-    specific locality recorded.**”
+    are missing, the correct value for Specific Locality is, "**No
+    specific locality recorded.**"
 
     (In contrast to a normal locality, this is a sentence and therefore
     begins with a capital letter and ends with a period.)
@@ -111,7 +111,7 @@ Events](collecting-event) for more details).
     TRS data in the Specific Locality field.
 -   If an obsolete name for a geographic place is given in Verbatim
     Locality, put the current name in Specific Locality, followed
-    immediately by the obsolete name in parentheses after an “=”.
+    immediately by the obsolete name in parentheses after an "=".
     -   **Example:** Whistler (=Alta Lake=Mons), N of Vancouver, British
         Columbia
 
@@ -136,7 +136,7 @@ Events](collecting-event) for more details).
 -   Enter distances in decimals, not as fractions.
     -   **Examples:**  1/2 = 0.5; 1/4 = 0.25; 1/8 = 0.125, 1/3 = 0.33,
         2/3 = 0.67
--   Put a “0” before the decimal in distances between 0 and 1 units
+-   Put a "0" before the decimal in distances between 0 and 1 units
     (e.g., 0.5 mi, 0.75 km).
 -   Put a period after an abbreviation unless it is a direction or a
     unit of measure (e.g., mi, N, yds, etc.).
@@ -144,22 +144,22 @@ Events](collecting-event) for more details).
     -   **Not:**  1 mi. N. jct. Hwys 580 & 80
 -   Do not put a period at the end of the specific locality except as
     part of an abbreviation.
--   Include parentheses when giving a description such as “by road” or
-    “by air,” and place the parenthetical between the direction and the
+-   Include parentheses when giving a description such as "by road" or
+    "by air," and place the parenthetical between the direction and the
     named place that it modifies.
     -   **Example:**  1 mi N (by road) Berkeley
--   Capitalize “Junction” only for proper names. When not a proper noun,
-    “junction” should be spelled out and followed by “with” or “of.”
+-   Capitalize "Junction" only for proper names. When not a proper noun,
+    "junction" should be spelled out and followed by "with" or "of."
     -   **Example 1:**  10 km S junction of Hwy. 1 and Hwy. 5
     -   **Example 2:**  junction of Strawberry Creek with Oxford Ave.
 -   Use only the following abbreviations:
 
       Word or phrase                        Abbreviation   Comment
       ------------------------------------- -------------- --------------------------------------------------------------------------------------------
-      yards                                 yds            If space permits, spell out non-metric units. *E.g.,*“yards”
-      feet                                  ft             If space permits, spell out non-metric units. *E.g.,*“feet”
+      yards                                 yds            If space permits, spell out non-metric units. *E.g.,*"yards"
+      feet                                  ft             If space permits, spell out non-metric units. *E.g.,*"feet"
       meters                                m              
-      miles                                 mi             If space permits, spell out non-metric units. *E.g.,*“miles”
+      miles                                 mi             If space permits, spell out non-metric units. *E.g.,*"miles"
       kilometers                            km             
       east (of)                             E              
       west (of)                             W              
@@ -170,19 +170,19 @@ Events](collecting-event) for more details).
       southeast (of)                        SE             
       southwest (of)                        SW             
       approximately, about, near, *circa*   ca.            
-      Highway                               Hwy.           Only as part of a proper noun (e.g., “Hwy. 1”, but not “on the highway”).
-      Route                                 Rte.           Only as part of a proper noun (e.g., “Rte. 66”).
+      Highway                               Hwy.           Only as part of a proper noun (e.g., "Hwy. 1", but not "on the highway").
+      Route                                 Rte.           Only as part of a proper noun (e.g., "Rte. 66").
       Provincia, Province                   Prov.          
       Departmento                           Depto.         
-      Road                                  Rd.            Only as part of a proper noun (e.g., “Sunset Rd.”, but not “on the road” or “by road”).
-      Mount                                 Mt.            Only as part of proper noun in which it is spelled out (e.g., “Mount Holyoke”).
-      Mountains                             Mts.           Only as part of a proper noun (e.g., Rocky Mts., but not “in the mountains N Lake Tahoe”).
+      Road                                  Rd.            Only as part of a proper noun (e.g., "Sunset Rd.", but not "on the road" or "by road").
+      Mount                                 Mt.            Only as part of proper noun in which it is spelled out (e.g., "Mount Holyoke").
+      Mountains                             Mts.           Only as part of a proper noun (e.g., Rocky Mts., but not "in the mountains N Lake Tahoe").
       Number, NÀômero                       No.            
       Avenue                                Ave.           
       Boulevard                             Blvd.          
       United States                         U.S.           e.g., U. S. Forest Service
       University of California              U.C.           Should be followed by a modifier, e.g., U.C. Berkeley
-      Doctor                                Dr.            e.g., Dr. Pearson’s house. Do not use for “Drive” (e.g., “Sunset Drive”).
+      Doctor                                Dr.            e.g., Dr. Pearson’s house. Do not use for "Drive" (e.g., "Sunset Drive").
 
 
 
@@ -267,8 +267,8 @@ would be entered as:~~
 3.  ~~Range = 15~~
 4.  ~~Range Direction = E~~
 5.  ~~Section = 12~~
-6.  ~~NW1/4 SE1/4 (variations on section part may be: SE 1/4, “western
-    half,” NW corner, etc.)~~
+6.  ~~NW1/4 SE1/4 (variations on section part may be: SE 1/4, "western
+    half," NW corner, etc.)~~
 
 A thorough description of TRS data, along with a tool to translate them
 to latitude and longitude can be found at the following URL:
@@ -297,7 +297,7 @@ with locality data.
 
 ## Edit Locality Form
 
-Localities used by “verified by….” verificationstatus values may not be
+Localities used by "verified by…." verificationstatus values may not be
 edited. If you don’t understand the giant bright red box, please use a
 contact link.
 

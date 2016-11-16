@@ -82,7 +82,7 @@ varchar(4000) not null
 
 **Short Citation** is typically authorship and year, the way
 publications are cited when included in the text of other publications. 
-Except in the case of “et al.,” these should contain no punctuation or
+Except in the case of "et al.," these should contain no punctuation or
 formatting.
 
 -   Jockusch et al. 1998
@@ -233,18 +233,18 @@ The publication includes additional authors who are not in Arctos, were
 not part of the loan, and who are not important to demonstrating the
 usefulness of our collections.
 
-There is a DOI given in the publication. Copy that, open the “create
-publication” form in Arctos. Paste the DOI
-(10.1371/journal.pbio.1001200) excluding any prefix (“doi:” and
-“http://dx.doi.org/” are common) into the appropriate box, and click “\[
-crossref \].”
+There is a DOI given in the publication. Copy that, open the "create
+publication" form in Arctos. Paste the DOI
+(10.1371/journal.pbio.1001200) excluding any prefix ("doi:" and
+"http://dx.doi.org/" are common) into the appropriate box, and click "\[
+crossref \]."
 
 <img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-11-57-58-am.png"  width="640"
 height="356" />
 
 The DOI lookup service was able to obtain metadata, and everything you
-see above is the result of that one click. If you click “create
-publication” at this point, you would create a usable publication to
+see above is the result of that one click. If you click "create
+publication" at this point, you would create a usable publication to
 which Citations could be attached, and which could be a part of
 Projects.
 
@@ -253,16 +253,16 @@ authors to whom we’ve made our earlier (fake) loan.  During the CrosRref
 lookup, Arctos has first looked for agents who match the string provided
 by DOI, then for agents who MIGHT match the string provided by DOI. All
 names – not just preferred – are considered.  A maximum of five
-“suggestions” are returned for each of the first five authors.
+"suggestions" are returned for each of the first five authors.
 
 The first agent returned by the DOI service is Maria E. McNamara. There
-is no agent with the exact name “Maria E. McNamara” in Arctos, but there
-are three agents with last name “McNamara,” all suggested in the first
-line of the blue Agents grid. We happen to know that “Marie Englewood
-McNamara” is correct, so we click that entry to select her.
+is no agent with the exact name "Maria E. McNamara" in Arctos, but there
+are three agents with last name "McNamara," all suggested in the first
+line of the blue Agents grid. We happen to know that "Marie Englewood
+McNamara" is correct, so we click that entry to select her.
 
 The second author, who we also care about because he was on the loan, is
-“Derek E. G. Briggs.” Derek is also a pre-existing Arctos agent, and
+"Derek E. G. Briggs." Derek is also a pre-existing Arctos agent, and
 that agent happens to have an exact-match agent string available. 
 Arctos finds and suggests only this agent, and again one click is all
 that’s necessary to add him to the publication.
@@ -272,10 +272,10 @@ height="312" />
 
 The third author, Patrick J. Orr, does not have an exact name match in
 Arctos, and does not have a last name match in Arctos, so the system has
-gone off looking for agents with any string matching “Orr.” In this
+gone off looking for agents with any string matching "Orr." In this
 case, the results are not useful and can simply be ignored. If Patrick
 J. were deemed important, he would need to be added to Agents and
-selected in the standard way.  If there were six “Orr” agents, Patrick
+selected in the standard way.  If there were six "Orr" agents, Patrick
 J. might still not show up in the suggest list, but could be found in
 the standard way of picking agents. Take-home message: The agent
 suggestions are just suggestions.  Sometimes they’re useful, and
@@ -295,7 +295,7 @@ added
 <img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-14-04-pm.png"  width="265"
 height="242" />
 
-or anything from the “full citation,”
+or anything from the "full citation,"
 
 <img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-15-16-pm.png"  width="230"
 height="246" />
@@ -305,7 +305,7 @@ including the authors that we did not explicitly include
 <img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-16-30-pm.png"  width="233"
 height="222" />
 
-but we **canno**t find the publication by authors (as “Participants”)
+but we **canno**t find the publication by authors (as "Participants")
 that we did not link to the publication.
 
 <img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-17-20-pm.png"  width="252"
@@ -318,8 +318,8 @@ height="172" />
 
 We could have used PMID (PubMed ID) rather than DOI to roughly the same
 affect. Note that PMID and DOI are apparently independently created and
-do not return the same values (“Maria E. McNamara” vs. “Maria E(no-dot)
-McNamara,” etc.).
+do not return the same values ("Maria E. McNamara" vs. "Maria E(no-dot)
+McNamara," etc.).
 
 <img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-24-20-pm.png"  width="640"
 height="351" />

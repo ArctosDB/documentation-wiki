@@ -9,7 +9,7 @@ layout: default_toc
 
 Places are described in Arctos using, independently, both coordinate and
 descriptive data. This is often conflicting. For example, the map below
-is of a “New Mexico” specimen that also maps to Colorado, Utah, and
+is of a "New Mexico" specimen that also maps to Colorado, Utah, and
 Arizona.
 
 <img src="../images/classic-uploads/2011/09/screen-shot-2011-09-19-at-12-54-01-pm.png"  width="535" height="414"

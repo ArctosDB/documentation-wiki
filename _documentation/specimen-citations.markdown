@@ -130,8 +130,8 @@ indicates a mouse… a typographical error that becomes nonsense only when
 the published catalog number is resolved.  We cannot correct the
 publication, but we should not leave obvious errors unremarked, if for
 other reason than it leaves the data in Arctos suspect.  There is a
-value of Basis of Citation for this situation: “erroneous citation.”  In
-addition to using “erroneous citation” for the actual citation, it may
+value of Basis of Citation for this situation: "erroneous citation."  In
+addition to using "erroneous citation" for the actual citation, it may
 be possible to correct the error in Arctos with an additional (what was
 meant) citation, if the author’s true meaning can be obtained or
 logically inferred.
@@ -143,12 +143,12 @@ logically inferred.
 
 If you can establish the author’s intention with reasonable certainty,
 then create an additional citation to the correct specimen.  The
-actually (and incorrectly) cited record should be designated “erroneous
-citation,” and Citation Remarks should say something like, “An incorrect
-transcription of MVZ 123456.”  The second citation of the intended
+actually (and incorrectly) cited record should be designated "erroneous
+citation," and Citation Remarks should say something like, "An incorrect
+transcription of MVZ 123456."  The second citation of the intended
 record should have the appropriate value for Basis of Citation, and
-Citation Remarks should say something like, “Specimen was incorrectly
-cited as MVZ 125456.”  With this, anyone coming from the publication
+Citation Remarks should say something like, "Specimen was incorrectly
+cited as MVZ 125456."  With this, anyone coming from the publication
 should be able to find their way to the correct meaning.
 
 
@@ -174,7 +174,7 @@ the Tool tab.
 ### **Searching Specimen Citations**
 
 Searching for specimens by the nature of their citation, or for
-specimens that have been cited, can be done from the “Usage” segment of
+specimens that have been cited, can be done from the "Usage" segment of
 the Arctos search form (SpecimenSearch.cfm). Type specimens can also be
 sought using Nature of ID = type specimen in the Identification and
 Taxonomy segment of the same form. Because this kind of Nature of ID

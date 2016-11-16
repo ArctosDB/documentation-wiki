@@ -9,11 +9,11 @@ layout: default_toc
 
 The concept of a specimen loan is broad and includes any removal of
 specimens from a collection, temporary or permanent, with the exception
-of specimens that are destroyed. (“Discarded” is a specimen
+of specimens that are destroyed. ("Discarded" is a specimen
 disposition.) Specimens which are permanently transferred to another
-collection or institution are loans of the the type, “transfer of
-custody” (in place of the oxymoron, “permanent loan”). The type
-“transfer of title” could be added when and if we include collections
+collection or institution are loans of the the type, "transfer of
+custody" (in place of the oxymoron, "permanent loan"). The type
+"transfer of title" could be added when and if we include collections
 that are willing to release title to cataloged specimens.
 
 In order to associate specimens with in-house projects or the projects
@@ -24,7 +24,7 @@ indirect, exists in that the specimens are associated with a loan, which
 is associated with a project, which can be associated with the
 publication.
 
-A specimen “exchange” between collections is two transactions: A loan
+A specimen "exchange" between collections is two transactions: A loan
 and an accession. This arrangement well reflects the reality of
 incompleted exchanges, and takes advantage of the fact that we are
 dealing with both outgoing specimens and incoming specimens.
@@ -41,7 +41,7 @@ VARCHAR(20) not null
 
 ## Loan Number
 
-A Loan “number” is a string identifying the loan. The format usually
+A Loan "number" is a string identifying the loan. The format usually
 follows local tradition (*e.g.*, YYYY:nnn:Collection) but is
 uncontrolled.
 
@@ -61,7 +61,7 @@ Loan type is a [code-table controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE).
 
 If multiple Types apply, consider separate loans for separate Types, or
-enter the most important one (*i.e.*, “returnable”).
+enter the most important one (*i.e.*, "returnable").
 
 ```
 
@@ -261,10 +261,10 @@ scientific justification for the loan should be described.
 project downloads data from Arctos without examining specimens. Data
 loans form a special relationship between a loan and a cataloged item,
 rather than a loan and a specimen part. Data loans are not meant as a
-replacement for “digital” loans, in which a specimen part is imaged (or
-otherwise digitized), as “digital” loans concern physical objects and
+replacement for "digital" loans, in which a specimen part is imaged (or
+otherwise digitized), as "digital" loans concern physical objects and
 handling specimens. Subsequent usage of digital media (including that
-generated in “digital” loans) may best be recorded as data loans.
+generated in "digital" loans) may best be recorded as data loans.
 Curators may wish to create a new loan number series for data loans,
 although this is not required. This entry documents creation of a data
 loan for illustrative purposes.
@@ -280,7 +280,7 @@ loan for illustrative purposes.
     (<http://www.google.com/search?q=DOI%3A+10.1111%2Fj.1472-4642.2008.00547.x>)
 4.  Created Publication in Arctos
 5.  Added Media to the publication
-6.  Created Arctos loan of type “data”
+6.  Created Arctos loan of type "data"
 7.  Downloaded data loan template
 8.  Searched Arctos for scientific names cited in publication
     <div class="separator" style="clear:both;text-align:center">

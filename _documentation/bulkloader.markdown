@@ -49,45 +49,45 @@ The web-based applications may not work well for very large loads.
 [Contact us](/governance/contacts/) if you’re having problems.
 
 **Agent names** must match a unique namestring, not
-necessarily the preferred name. If you are loading “John Smith” and
-there are three John Smiths in Arctos, you might create a new name “John
-Smith (my project)” and use that namestring in your data. Once loaded,
-the records will display preferred name, and agent name “John Smith (my
-project)” may be removed.
+necessarily the preferred name. If you are loading "John Smith" and
+there are three John Smiths in Arctos, you might create a new name "John
+Smith (my project)" and use that namestring in your data. Once loaded,
+the records will display preferred name, and agent name "John Smith (my
+project)" may be removed.
 
 Special note primarily for botanists: The bulkloader
 requires taxonomy.scientific_name, not taxonomy.display_name. That is,
-“Carex bigelowii subsp. lugens” rather than “*Carex bigelowii* Torr.
-subsp. *lugens* (Holm) T.V.Egorova”.
+"Carex bigelowii subsp. lugens" rather than "*Carex bigelowii* Torr.
+subsp. *lugens* (Holm) T.V.Egorova".
 
 Any of the following are acceptable taxon name values (current
 23Aug2011). ref.
 [cttaxa_formula](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula)
 
--   Formula “A”: An exact match to any accepted
+-   Formula "A": An exact match to any accepted
     taxonomy.scientific_name
     -   Sorex cinereus
     -   Soricidae
--   Formula “A sp.”: Any accepted taxonomy.scientific_name where
-    scientific name is also genus plus ” sp.”
+-   Formula "A sp.": Any accepted taxonomy.scientific_name where
+    scientific name is also genus plus " sp."
     -   Sorex sp.
--   Formula “A cf.”: Any accepted taxonomy.scientific_name plus ” cf.”
+-   Formula "A cf.": Any accepted taxonomy.scientific_name plus " cf."
     -   Sorex cf.
--   Formula “A ?”: Any accepted taxonomy.scientific_name plus ” ?”
+-   Formula "A ?": Any accepted taxonomy.scientific_name plus " ?"
     -   Sorex ?
--   Formula “A x B”: Any two accepted taxonomy.scientific_names
-    separated by ” x ”
+-   Formula "A x B": Any two accepted taxonomy.scientific_names
+    separated by " x "
     -   Sorex cinereus x Sorex yukonicus
--   Formula “A or B”: Any two accepted taxonomy.scientific_names
-    separated by ” or ”
+-   Formula "A or B": Any two accepted taxonomy.scientific_names
+    separated by " or "
     -   Sorex cinereus or Sorex yukonicus
--   Formula “A and B”: Any two accepted taxonomy.scientific_names
-    separated by ” and ”
+-   Formula "A and B": Any two accepted taxonomy.scientific_names
+    separated by " and "
     -   Sorex cinereus and Sorex yukonicus
--   Formula “A {string}”: Any valid taxonomy.scientific_name, followed
+-   Formula "A {string}": Any valid taxonomy.scientific_name, followed
     by a space, followed by an opening curly bracket, followed by a
     verbatim identification, followed by a closing curly bracket.
-    -   Sorex {Sorex new species “my name”}
+    -   Sorex {Sorex new species "my name"}
     -   unidentifiable {granite}
 
 Be sure anything coming from other applications
@@ -238,7 +238,7 @@ positive number
 Seconds Latitude (Decimal fraction, less than 60.)
 <span class="blcondreq">LatDir^2\\ and\\ 3^</span>
 text; N or S
-Latitude Direction: “N” or “S” (North or South).
+Latitude Direction: "N" or "S" (North or South).
 <span class="blcondreq">LongDeg^2\\ and\\ 3^</span>
 positive number
 Degrees Longitude (Integer, 180 or less.)
@@ -250,7 +250,7 @@ positive number
 Seconds Longitude (Decimal fraction, less than 60.)
 <span class="blcondreq">LongDir^2\\ and\\ 3^</span>
 text
-Longitude Direction: “E” or “W” (East or West).
+Longitude Direction: "E" or "W" (East or West).
 <span class="blcondreq">Dec_Lat_Min^3^</span>
 positive number
 Decimal Latitude Minutes (Used with LatDeg, decimal fraction, less than
@@ -270,7 +270,7 @@ locality](/documentation/places/locality/#specific_locality).)
 text;
 [ctcollecting_source](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollecting_source)
 [\[ doc \]](/documentation/places/collecting-event/#collecting_source)
-Source from which the specimen was received. Example: “wild caught”
+Source from which the specimen was received. Example: "wild caught"
 <span class="bloptional">Habitat</span>
 text; any string
 [\[ doc \]](/documentation/places/specimen-event/#habitat) A description
@@ -348,7 +348,7 @@ documented condition.
 text;
 [ctcoll_obj_disp](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OBJ_DISP)
 [\[ doc \]](/documentation/parts/#disposition) A Part_disposition is
-required for all non-`null` parts. Example: “in collection”
+required for all non-`null` parts. Example: "in collection"
 <span class="bloptional">Part_Barcode_x</span>
 text; any barcode
 [\[ doc \]](/documentation/container/#barcode) Barcode on the part as it

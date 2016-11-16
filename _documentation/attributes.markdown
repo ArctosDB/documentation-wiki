@@ -18,9 +18,9 @@ Attributes, many of which use controlled vocabularies with many values
 and many individual definitions, are largely documented within tables
 within Arctos, as opposed to being documented here.  The appropriate
 units for numeric Attributes, and the appropriate vocabulary for
-Attributes with controlled vocabularies are set by a master “[code table
+Attributes with controlled vocabularies are set by a master "[code table
 of code
-tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).” 
+tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)." 
 This can be a useful node for exploring these values outside of the
 forms in which the vocabularies are used.
 
@@ -45,7 +45,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_
     lists all Attribute names, collection types, and definitions of what
     the Attributes are.
 -   [ctAttribute_Code_Tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
-    (“code table of code tables) lists all Attributes that have
+    ("code table of code tables) lists all Attributes that have
     controlled vocabulary and associates them with specific tables that
     control their specific vocabularies.
 
@@ -66,29 +66,29 @@ Attributes have a Value, and those values are of three types:
 
 -   **numeric** (with [Units](#units)) – These are measurements and
     meristic values that are subject to numeric operators, such as
-    “greater than” (&gt;) and “less than” (&lt;).  Only numbers
+    "greater than" (&gt;) and "less than" (&lt;).  Only numbers
     (integers and/or decimal fractions) can be entered.
-    ([Convert](#conversion) “1 1/2 inches” to “1.5 inches.”)
+    ([Convert](#conversion) "1 1/2 inches" to "1.5 inches.")
 -   **controlled vocabulary** – These are Attributes for which there are
     a limited number of possible states, *e.g.*, the sex of
     the individual.
 -   **uncontrolled vocabulary** – These are often relatively subjective
     Attributes, and the values are anything that can be expressed
-    in text. Examples include the Attributes “Colors” and “Body
-    Condition.”
+    in text. Examples include the Attributes "Colors" and "Body
+    Condition."
 
 Some examples:
 
-  Attribute Name   Value                                Units
-  ---------------- ------------------------------------ -------------
-  Total Length     “123.4”                              millimeters
-  Age Class        “adult” (controlled text)            `null`
-  Colors           “reddish feet” (uncontrolled text)   `null`
+  |Attribute Name |  Value                              |Units|
+  |---------------|-------------------------------------|-----|
+  |Total Length   |"123.4"                              |millimeters|
+  |Age Class      |"adult" (controlled text)            |`null`|
+  |Colors         |"reddish feet" (uncontrolled text)   |`null`|
 
 The appropriate units for particular numeric Attributes, and the
 appropriate vocabulary for controlled vocabulary are set by a by a
-“[code table of code
-tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).”
+"[code table of code
+tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)."
 
 
 **Conversion of fractional values:**  Numeric values are sometimes
@@ -128,8 +128,8 @@ VARCHAR(60) null
 such as grams, millimeters, and years. Different Attributes are
 described in different units, so there are code tables for units of
 weight, length, and time.  Numeric Attributes are assigned one of these
-code tables in the “[code table of code
-tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES).”
+code tables in the "[code table of code
+tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)."
 
 
 ```
@@ -157,9 +157,9 @@ VARCHAR(255) null
 
 **Remark** is a comment about the Attribute. For example:
 
--   “Transcribed from collector’s journal.”
--   “Weighed after substantial loss of blood.”
--   “verbatim: 7 3/16 inches”
+-   "Transcribed from collector’s journal."
+-   "Weighed after substantial loss of blood."
+-   "verbatim: 7 3/16 inches"
 
 
 ```
@@ -209,13 +209,13 @@ You can search for Attributes by only value or by only units. For
 example:
 
 -   Attribute: Numeric Age
--   Units = “years” (Returns all specimens with a numeric age recorded
+-   Units = "years" (Returns all specimens with a numeric age recorded
     in years.)
 
-<!-- -->
+
 
 -   Attribute: Numeric Age
--   Value = “5” (Returns all specimens with a numeric age of 6 years, 6
+-   Value = "5" (Returns all specimens with a numeric age of 6 years, 6
     days, etc.
 
 You may set the search operator for Attributes to:
@@ -234,17 +234,17 @@ specimens; sex `contains` ‘male’ will find both *male* and *fe**male***.
 
 In addition to the above, the interactive Specimen Results Widget will
 accept any attribute, with spaces and dashes replaced by underscore, as
-a variable. For example, “age class” becomes “age_class.”
+a variable. For example, "age class" becomes "age_class."
 
 All attributes (and most other variables) will accept underbar (\_) to
-mean “require the field; match any value.” For example, “age_class=\_”
-will return specimens for which the attribute “age class” exists.
+mean "require the field; match any value." For example, "age_class=\_"
+will return specimens for which the attribute "age class" exists.
 
 String attributes – those consisting of uncontrolled text and those
 consisting of code-table controlled vocabularies – will accept two
-prefixes: = and !, meaning “is exactly” and “is not.” Unprefixed
-attributes are case-insensitive substring matches, and so “male” will
-match “male” and “fe**male**.”
+prefixes: = and !, meaning "is exactly" and "is not." Unprefixed
+attributes are case-insensitive substring matches, and so "male" will
+match "male" and "fe**male**."
 
 Numeric attributes – those with code-table controlled units – will
 accept prefixes = (exactly), ! (is not), &lt; (less than), &gt; (greater
@@ -257,15 +257,15 @@ attributes will also accept a range of values in conjunction with units
 
 The following examples are illustrative.
 
-  SearchTerm               Result
-  ------------------------ -------------------------------------------------------------
-  age_class=adult         adult, subadult, ….
-  age_class==adult        adult
-  age_class=!adult        juvenile, subadult, ….
-  numeric_age=3           3 years, 3 seconds, 3 days, …..
-  numeric_age=!3          1 years, 5 years, 1 hour, 5 days, …
-  numeric_ag=3 years      {value converted to} 1095.726 days
-  numeric_age=3-5 years   {value converted to days} BETWEEN 1095.726 and 1826.21 days
+  |SearchTerm              |Result|
+  |------------------------|-------|
+  |age_class=adult         |adult, subadult, ….|
+  |age_class==adult        |adult|
+  |age_class=!adult        |juvenile, subadult, ….|
+  |numeric_age=3           |3 years, 3 seconds, 3 days, …..|
+  |numeric_age=!3          |1 years, 5 years, 1 hour, 5 days, …|
+  |numeric_ag=3 years      |{value converted to} 1095.726 days|
+  |numeric_age=3-5 years   |{value converted to days} BETWEEN 1095.726 and 1826.21 days|
 
 Arctos can convert the  following units to meters:
 

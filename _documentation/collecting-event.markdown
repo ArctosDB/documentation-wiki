@@ -22,7 +22,7 @@ VARCHAR(255) null
 
 ```
 
-**Event Nickname** is a human-readable stable “primary key” to
+**Event Nickname** is a human-readable stable "primary key" to
 collecting events. Event Nickname may only be created or added in the
 edit forms; it may not be created during the data entry process. This
 field is useful for locating pre-created collecting event information,
@@ -66,8 +66,8 @@ VARCHAR(60) not null
 ```
 
 **Verbatim Date** is a transcription of the date provided by the
-collector. If the collection date is given as “unknown,” then a value
-such as “before 14 Jan 2005” should be entered. (The time is never
+collector. If the collection date is given as "unknown," then a value
+such as "before 14 Jan 2005" should be entered. (The time is never
 completely unknown: We always know that a specimen in hand was collected
 before the present.)
 
@@ -132,8 +132,8 @@ eg, transcription errors).
 
 ## Specimen Search
 
-<span id="year_collected" class="helpLink">“Collected On or
-After</span>” and “Collected on or before” offer two distinct search
+<span id="year_collected" class="helpLink">"Collected On or
+After</span>" and "Collected on or before" offer two distinct search
 possibilities:
 
 -   ISO8601 is a began and ended date search

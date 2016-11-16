@@ -24,13 +24,13 @@ Calculator](http://manisnet.org/gc.html),
 GeoLocate is called as a web service by applications within Arctos.
 
 Coordinates are stored with collecting events and with locality, both
-optional. Collecting event coordinates are “verbatim” and should reflect
+optional. Collecting event coordinates are "verbatim" and should reflect
 some data associated with specimen events. Locality coordinates are part
 of georeferences, and may be standardizations or corrections of, or
 additions to verbatim coordinates.
 
-Any locality has zero or one coordinate assertions. “Unaccepted
-coordinates” are handled by having multiple specimen events referencing
+Any locality has zero or one coordinate assertions. "Unaccepted
+coordinates" are handled by having multiple specimen events referencing
 multiple localities.
 
 Data Entry has (for brevity) one place for coordinate information, and
@@ -212,7 +212,7 @@ guidelines](http://mvz.berkeley.edu/Locality_Field_Recording.html).
 Note that there is no error inherent to coordinates.
 {Dec_Lat=12,Dec_Long=34} is precisely the same point as
 {Dec_Lat=12.000000000000000000000000000000,Dec_Long=34.000000000000000000000000000000}.
-Make no assumptions of coordinate error or “size” (all coordinates
+Make no assumptions of coordinate error or "size" (all coordinates
 describe a point) based on anything other than asserted maximum error.
 
 For most usage, including exportation to federated portals, the value
@@ -286,7 +286,7 @@ the specimen or observation was collected. 
 [Vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")
 is controlled.
 
-“Verified by collector” indicates that the person who removed the
+"Verified by collector" indicates that the person who removed the
 specimen from nature has looked at the coordinates and uncertainty
 represented on an appropriately scaled map, and believes that these data
 are accurate and that the represented uncertainty is as small as
@@ -305,7 +305,7 @@ TINYINT not null
 **Accepted?**  There can be more than one georeferencing determination
 per locality but only the accepted determination is routinely displayed.
 You can revert to an earlier determination by changing its *accepted*
-flag from “no” to “yes.”
+flag from "no" to "yes."
 
 
 
@@ -347,10 +347,10 @@ the method referred to in [Georeference Method](#georefmethod).
     geographic coordinates. Within individual collections, this
     proportion ranges from all to none.
 -   Localities are not simply points, but circles indicating precision.
-    (Some have radius 0, which should be interpreted as “`NULL`” rather
-    than “infinitely precise,” and some are very large.) Choose the
-    “query by points and error” option to find specimens by error (the
-    match is “any overlap”) rather than only by coordinate points. Error
+    (Some have radius 0, which should be interpreted as "`NULL`" rather
+    than "infinitely precise," and some are very large.) Choose the
+    "query by points and error" option to find specimens by error (the
+    match is "any overlap") rather than only by coordinate points. Error
     is represented as a simplified rectangle and may be especially
     inaccurate at high latitudes and large errors.
 -   All records are plotted on the geodetic datum WGS84, irrespective of
@@ -366,7 +366,7 @@ AM](../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am.png)
 sizes="(max-width: 640px) 100vw, 640px"
 srcset="../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am.png 814w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-300x214.png 300w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-768x547.png 768w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-250x178.png 250w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-550x392.png 550w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-800x570.png 800w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-253x180.png 253w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-421x300.png 421w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-702x500.png 702w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-210x150.png 210w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am-400x285.png 400w"}](../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-14-18-am.png)
 
-(note the “query by points only” option)
+(note the "query by points only" option)
 
 produces these results:
 
@@ -389,7 +389,7 @@ Feel free to stop by
 <https://code.google.com/p/berkeleymapper/issues/detail?id=44> and leave
 a comment!
 
-Change the original query to “points and error”….
+Change the original query to "points and error"….
 
 [![Screen Shot 2013-05-20 at 10.18.05
 AM](../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-18-05-am.png){.alignnone

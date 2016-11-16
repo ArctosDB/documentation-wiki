@@ -21,13 +21,13 @@ Values should:
 -   Be documented. Especially in the case of values which cannot stand
     alone, clear documentation applicable to any collection which might
     use the value is critical. For example, note the distinction in
-    CTSEX_CDE between “[not
-    recorded](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=not%20recorded),”
-    “[recorded as
-    unknown](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=recorded%20as%20unknown),”
+    CTSEX_CDE between "[not
+    recorded](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=not%20recorded),"
+    "[recorded as
+    unknown](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=recorded%20as%20unknown),"
     and
-    “[unknown](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=unknown).”
--   Be universal. “A” should mean the same thing in an insect collection
+    "[unknown](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=unknown)."
+-   Be universal. "A" should mean the same thing in an insect collection
     as it does in a palaeontology collection. This sometimes requires
     compromises in terminology.
 -   Be consistent.

@@ -14,8 +14,8 @@ Events](/documentation/places/collecting-event/).
 **Event Determiner** refers to the agent who asserts that the specimen
 has [Event Type](#type) relationship to a collecting event. This person
 has determined or verified coordinates and error, dates, higher
-geography, and everything else in the “[place and time
-stack](/documentation/places/).”
+geography, and everything else in the "[place and time
+stack](/documentation/places/)."
 
 
 **Event Date** is the date on which the specimen was assigned to the

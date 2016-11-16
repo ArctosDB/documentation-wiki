@@ -48,7 +48,7 @@ Identifier](http://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
 type of URI.) See also [stability](#stability). Media URIs are of very
 roughly three classes:
 
--   A binary object which your a web browser natively “knows” how to
+-   A binary object which your a web browser natively "knows" how to
     process, such as a JPG or MP3 file.
 -   A web page, such as YouTube or the Arctos Multi-Page
     Document handler.
@@ -59,10 +59,10 @@ roughly three classes:
 
 Try to avoid characters other than A-Z/a-z/0-9 in URLs. This is not
 always possible, but scripting
-“protocol://some_domain/my/directory/structure/file_name_is_out_here.jpg”
+"protocol://some_domain/my/directory/structure/file_name_is_out_here.jpg"
 will always work, while admins may be less able to help with, for
-example, “protocol://some_domain/my/directory/structure/file name is
-out here.jpg”
+example, "protocol://some_domain/my/directory/structure/file name is
+out here.jpg"
 
 ```
 
@@ -74,7 +74,7 @@ Media . MIME_TYPE VARCHAR2(255) not null
 ### Mime Type:
 
 The Internet media type. Consists of a type and subtype, such as
-“text/html.”
+"text/html."
 [Code-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
 controlled, described in
 [Wikipedia](http://en.wikipedia.org/wiki/Mime_type).
@@ -164,7 +164,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_labe
 
 ### A checksum
 
-is a cryptographic hash, or “digital fingerprint,” of a file. At a later
+is a cryptographic hash, or "digital fingerprint," of a file. At a later
 time, another checksum can be generated and compared to the original.
 Matching checksum values provide great certainty that the file has not
 changed. Arctos provides a means to generate an MD5 checksum and save
@@ -208,8 +208,8 @@ table.
 
 Create only necessary relationships; allow the relational nature of
 Arctos to work for you. An image showing a specimen should have a
-relationship of “shows cataloged_item” but not “shows
-collecting_event” or “shows locality” or “documents accn,” all of which
+relationship of "shows cataloged_item" but not "shows
+collecting_event" or "shows locality" or "documents accn," all of which
 can be derived from the relationship to the cataloged item.
 
 Choose reasonable media formats; use derivatives if necessary.
@@ -240,10 +240,10 @@ format is preferred for photography. DNGs store all the information from
 the camera in a compact package. Never store archival material in any
 non-DNG RAW format, which tend to be proprietary and dynamic. TIFF (a
 proprietary format also owned by Adobe) is not an equivalent choice, but
-is often the “most archival” option offered by a camera or scanner. JPG
+is often the "most archival" option offered by a camera or scanner. JPG
 is a poor choice for archival media, but is often the only option.
 Derivatives, which are generally JPG images scaled to be viewed in a
-“normal” browser, should be sized to facilitate access on
+"normal" browser, should be sized to facilitate access on
 less-than-optimal networks while still preserving most of the
 information available from the original. We’ve had few complaints about
 500K images of herbarium sheets. Users always have access to the
@@ -296,7 +296,7 @@ recommend TACC.) After this step, you should have a list of URIs
 -   <http://some.server.somewhere/some/path/information/folders/whatever/My_Fieldnotes_2.jpg>
 
 Download the Media Bulkloader template and fill in the blanks, or use
-the “pull from server” option to build a Media bulkloader template using
+the "pull from server" option to build a Media bulkloader template using
 information embedded in URIs. (This requires some knowledge of Regular
 Expressions.)
 
@@ -304,11 +304,11 @@ Required fields are:
 
 -   MEDIA_URI – the location to which you uploaded your scans
 -   MIME_TYPE – this must be image/jpeg
--   MEDIA_TYPE – “multi-page document”
+-   MEDIA_TYPE – "multi-page document"
 -   media_label_1 & media_label_value_1 (some label-plus-value – it
-    doesn’t have to be 1) are “page” with sequential integers starting
+    doesn’t have to be 1) are "page" with sequential integers starting
     with 1 as value.
--   media_label_2 & media_label_value_2 – “title” – this must be
+-   media_label_2 & media_label_value_2 – "title" – this must be
     EXACTLY the same for all pages in the document.
 
 Use the additional fields as you normally would to add any additional
@@ -336,7 +336,7 @@ developed specialized procedures to fit their workflow, for example.
     always intuitive. See the Media Bulkloader for details.
 3.  Populate the Media Bulkloader using the URI you’ve created in
     loading media, upload the CSV file, and follow the directions until
-    you get a “spiffy” message.
+    you get a "spiffy" message.
 
 ## Discovery
 
@@ -346,7 +346,7 @@ objects thereby exchange information through database-key linkages as
 necessary; no information is replicated or otherwise made redundant (the
 process of normalization). An important factor in discoverability is
 having well-Curated data, and our model eliminates any possibility of
-data becoming “stale” (such as updates to specimens not being made also
+data becoming "stale" (such as updates to specimens not being made also
 to images of specimens) while simultaneously providing an efficient and
 powerful Curatorial toolset which requires no redundant tasks, nor any
 knowledge of existing or future relationships in order to maintain data.
@@ -356,15 +356,15 @@ data may be linked, found, or viewed. Arctos may be equally viewed as a
 Media database (which happens to contain specimens) and a Specimen
 database (which also contains Media); there is no pre-defined starting
 point or pathway through the data, and no fixed bounds on the data for
-any given object. (That is, “specimen data” may be viewed to include
-data concerning publications in which the specimen is cited, and “media
-data” may be viewed as including specimen data, including linked data
+any given object. (That is, "specimen data" may be viewed to include
+data concerning publications in which the specimen is cited, and "media
+data" may be viewed as including specimen data, including linked data
 such as publications.) Therefore, Media may be linked to and draw
 information from any information in Arctos, directly or indirectly, and
 those objects may in turn be linked to each other. (For example, a
 Specimen may have Media and be cited in a Publication, providing a
 pathway from a citation to the Media; Media are therby discoverable
-across multiple “nodes.”) Arctos users are presented with Media from
+across multiple "nodes.") Arctos users are presented with Media from
 various pathways; by searching directly for Media, or by encountering
 Specimens, Projects, Publications, Taxonomy, Agents, Places or Events
 with associated Media, or by encountering objects which use those
@@ -409,9 +409,9 @@ TAGs relate a specific area of a JPG image to data objects in Arctos.
 
 Comments in TAGs may contain a very specific (and currently very
 limited) type of markup language in order to form links to specimens in
-Arctos. This can be useful for negative references: “this area on the
+Arctos. This can be useful for negative references: "this area on the
 field notes probably does NOT refer to that specimen, possible because
-someone’s mixed some numbers up somewhere along the way.” To create a
+someone’s mixed some numbers up somewhere along the way." To create a
 link from a comment TAG to a specimen, simply type doubled square
 brackets around the GUID-string. Example:
 
@@ -436,16 +436,16 @@ which to use in any particular situation.
 
 -   **Detail URL: (<http://arctos.database.museum/media/10002230>)**
 
-    This is a “fairly permanent” (a decade?) link to the Media
+    This is a "fairly permanent" (a decade?) link to the Media
     Detail page. This link should continue to work as long as Arctos is
     at the same URL and running under the HTTP protocol. Suitable for
     any maintained online link; DOI is perhaps a better choice for paper
     or PDF archives.
--   **“Stable Exit link” (
+-   **"Stable Exit link" (
     (<http://arctos.database.museum/media/10002230?open>)**
 
-    Append “?open” (or “?open=true”) to the detail_url; logs the
-    request and redirects to media_URI. This is a “fairly permanent”
+    Append "?open" (or "?open=true") to the detail_url; logs the
+    request and redirects to media_URI. This is a "fairly permanent"
     (a decade?) link to the Media URI. Logging is enabled. This link
     should continue to work as long as Arctos is at the same URL and
     running under the HTTP protocol, and the media itself is maintained.
@@ -460,7 +460,7 @@ which to use in any particular situation.
     Arctos, the deprecation of the HTTP protocol, and other
     imaginable changes. Not all material in Arctos has a DOI, but
     Operators may assign DOIs by request.
--   **“Exit link”
+-   **"Exit link"
     (<http://arctos.database.museum/exit.cfm?target=http://web.corral.tacc.utexas.edu/MVZimages/MVZ_img/cards/jpg/img_card_2242.jpg>)**
 
     Links of this format trigger application-level logging and then
@@ -479,7 +479,7 @@ which to use in any particular situation.
 
 ### Tips
 
-Media label **“Made_Date”** requires value to be in [ISO date
+Media label **"Made_Date"** requires value to be in [ISO date
 format](http://en.wikipedia.org/wiki/ISO_8601) (e.g. 2014-05-01 for 1
 May 2014) and will give an error upon saving if not rendered in that
 format. Try updating the date to the correct format to avoid error

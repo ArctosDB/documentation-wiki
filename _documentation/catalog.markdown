@@ -20,8 +20,8 @@ same collecting event. There are also situations where parts of the same
 biological individual may occur in more than one catalog. For example,
 some museums maintain one catalog for skins and another for skeletal
 material, or separate parts of the same individual may have been
-cataloged at more than one institution. The term “specimen” is uses
-synonymously with “cataloged item” throughout Arctos.
+cataloged at more than one institution. The term "specimen" is uses
+synonymously with "cataloged item" throughout Arctos.
 
 
 ```
@@ -39,9 +39,9 @@ catalog. Arctos currently supports three formats of catalog number.
 1.  **Integer**: Catalog number must be positive integers. Arctos
     provides tools to predict the next number (e.g., data entry can
     leave catalog number blank), find gaps in sequences, search by
-    ranges, and provide GUIDs of the “expected” format. Only this format
+    ranges, and provide GUIDs of the "expected" format. Only this format
     comes with these tools and abilities, and it is often worthwhile to
-    convert existing mixed-string catalog “series” to Integer catalog
+    convert existing mixed-string catalog "series" to Integer catalog
     numbers and store the old numbers as other IDs.
 2.  **Prefix-Integer-Suffix**: An integer is required, and may be
     accompanied by a prefix and/or suffix. The concatenation of
@@ -60,15 +60,15 @@ The following table is illustrative.
   ----------- ------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   12          12                                               No-operator inputs are string matched.
   12-14       12, 13, or 14                                    Dash-separated smaller–&gt;larger integers specify a range. Note that there is a 1000-item limit on ranges and lists.
-  =12-14      12-14                                            “=” (equals) prefix overrides all other operators and assumptions.
-  12-11       12-11                                            “Second” item is smaller than “first” item; not considered as range.
-  12-0110     12-11                                            “Second” item is zero-padded so not considered an integer; not considered as range.
+  =12-14      12-14                                            "=" (equals) prefix overrides all other operators and assumptions.
+  12-11       12-11                                            "Second" item is smaller than "first" item; not considered as range.
+  12-0110     12-11                                            "Second" item is zero-padded so not considered an integer; not considered as range.
   12,13,14    12, 13, or 14                                    Commas are treated as list delimiters unless the value is prefixed with an equals sign. Note that there is a 1000-item limit on ranges and lists.
   12,13a,14   12, 13a, or 14                                   Commas are treated as list delimiters unless the value is prefixed with an equals sign. Neither catalog numbers nor list elements must be numeric. Note that there is a 1000-item limit on ranges and lists.
-  %12%        <strong>12</strong>, <strong>12</strong>1, <strong>12</strong>a, 9994836<strong>12</strong>345, ….   “%” is “match anything.” This matches anything CONTAINING 12.
-  %12         12, 112, AABC-5-a12, ….                          “%” is “match anything.” This matches anything ENDING WITH 12.
-  \_12        012, a12, 912, ….                                “\_” is “match any single character.”
-  1_2        102, 112, 1A2, ….                                “\_” is “match any single character.”
+  %12%        <strong>12</strong>, <strong>12</strong>1, <strong>12</strong>a, 9994836<strong>12</strong>345, ….   "%" is "match anything." This matches anything CONTAINING 12.
+  %12         12, 112, AABC-5-a12, ….                          "%" is "match anything." This matches anything ENDING WITH 12.
+  \_12        012, a12, 912, ….                                "\_" is "match any single character."
+  1_2        102, 112, 1A2, ….                                "\_" is "match any single character."
 
 
 ## Guid Prefix
@@ -105,7 +105,7 @@ VARCHAR2(4) not null
 ```
 
 **Collection Code:** This is an abbreviation for a collection type, such
-as “Mamm” or “Bird.” ([code
+as "Mamm" or "Bird." ([code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde))
 This field is most importantly used in code tables, which determine the
 values provided to drop-downs in specimen-editing applications. Thus, if
@@ -141,8 +141,8 @@ VARCHAR2(20) not null
 ```
 
 **Institution Acronym:** Abbreviation of the institution that hosts the
-catalog. For example, “MVZ” for Museum of Vertebrate Zoology, “UAM” for
-University of Alaska Museum (of the North), “MSB” for Museum of
+catalog. For example, "MVZ" for Museum of Vertebrate Zoology, "UAM" for
+University of Alaska Museum (of the North), "MSB" for Museum of
 Southwestern Biology.  Generally, these values are the same as those
 traditionally used for specimen citations within discipline-specific
 publications.  There is now a demand for globally unique specimen
@@ -154,7 +154,7 @@ established.
 ## Locating Specimens by Identifier
 
 Each specimen in Arctos receives a single catalog number, along with any
-number of identifying numbers, often referred to as “Other IDs.” There
+number of identifying numbers, often referred to as "Other IDs." There
 are several ways, each with their own limitations, to search these
 numbers. The data available for searching vary wildly based on what
 collectors have recorded and what collections have entered. Some
@@ -186,9 +186,9 @@ height="56"}](../images/classic-uploads/2013/06/d23e4-idp.png)
 </div>
 
 This will provide options to select Other ID Type and to provide an
-Other ID Number. (We generally use “number” in the sense of a license
+Other ID Number. (We generally use "number" in the sense of a license
 plate rather than an integer.) Additionally, you can choose whether the
-number is an exact match or a “contains” match. Exact match searches are
+number is an exact match or a "contains" match. Exact match searches are
 case-sensitive.
 
 It’s often unclear what type of ID might have been assigned to a number,
@@ -206,13 +206,13 @@ height="140"}](../images/classic-uploads/2013/06/3f7b9-screenshot2011-07-12at1-3
 The above example finds all specimens with any type of identifier
 (except catalog number)
 
-containing the string “123.” As of this writing, that search returns
+containing the string "123." As of this writing, that search returns
 9330 specimens. Additional criteria, coupled with Arctos’ sorting
 capability, is hopefully enough to find the specimen data of interest.
 
-To get all search options, click Customize (near “Show More Options”),
-select a “My Other Identifier” (which will also then appear in results
-and on various forms), and choose “Show 3-part ID Search.”
+To get all search options, click Customize (near "Show More Options"),
+select a "My Other Identifier" (which will also then appear in results
+and on various forms), and choose "Show 3-part ID Search."
 
 <div class="separator" style="clear:both;text-align:center">
 
@@ -224,7 +224,7 @@ height="124"}](../images/classic-uploads/2013/06/c634b-screenshot2011-07-12at10-
 Click Close and the form will reload with total of eight search options.
 For this example, we’ll use [Collector
 Number](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type&field=collector%20number).
-The simplest use case is to search for a string, here “1234”:
+The simplest use case is to search for a string, here "1234":
 
 <div class="separator" style="clear:both;text-align:center">
 
@@ -241,15 +241,15 @@ suffix). This returns specimens with Collector Numbers of:
 -   1234
 -   1234567
 
-regardless of how the data were entered and are stored. (“ABC-1234-X”
-could be entered as prefix=”ABC-1234-X” or as prefix=”ABC-“,
-number=”1234″, suffix=”-X”; “1234” could have been entered as a number
+regardless of how the data were entered and are stored. ("ABC-1234-X"
+could be entered as prefix="ABC-1234-X" or as prefix="ABC-",
+number="1234″, suffix="-X"; "1234" could have been entered as a number
 or as a prefix.)
 
-Changing the dropdown from “contains” to “is” will, of the above
-examples, return only “1234.”
+Changing the dropdown from "contains" to "is" will, of the above
+examples, return only "1234."
 
-The “in list” option accepts a comma-separated list of values.
+The "in list" option accepts a comma-separated list of values.
 
 <div class="separator" style="clear:both;text-align:center">
 
@@ -353,14 +353,14 @@ Arctos.
 -   A lot (*e.g.*, all intestinal parasites from an individual; all
     members of a taxon from a time and place, or all insects from
     a trap)
-    -   While lots are a convenient and sometimes necessary  “working
-        group,” (*e.g.*, due to the number of individuals involved or
+    -   While lots are a convenient and sometimes necessary  "working
+        group," (*e.g.*, due to the number of individuals involved or
         the available expertise in identification) we strongly
         discourage making lots available for citation. Insect
         collections often loan lots, and the borrowing researcher will
         sort the lot to individuals for which they are provided catalog
         numbers, a situation we find acceptable. Attaching cryptic and
-        fragile “individual tags” to members of a lot when someone uses
+        fragile "individual tags" to members of a lot when someone uses
         a specimen for molecular analysis makes little sense to us.
 -   An Occurrence (*e.g.*, each instance of the capture of
     an individual)
@@ -369,7 +369,7 @@ Arctos.
         locations is assumed by users to be multiple
         distinct individuals. Arctos supports cataloging encounters as
         events under one cataloged item.
--   Your “share” of an individual (*e.g.*, tissues; the bones being
+-   Your "share" of an individual (*e.g.*, tissues; the bones being
     cataloged elsewhere)
     -   Similar to Occurrences in that this leads to multiple
         identifiers being assigned to an individual (and potentially the
@@ -377,7 +377,7 @@ Arctos.
         when possible. When unavoidable, both systems should support
         resolvable identifiers and link to each other, and specimen
         downloads should include the relationship. Arctos also adds a
-        distinctive style to “same individual as” specimens.
+        distinctive style to "same individual as" specimens.
 -   Various parts of an individual (*e.g.*, tissues cataloged separately
     from vouchers)
     -   This denormalization of data inevitable leads to divergence and
@@ -405,10 +405,10 @@ Arctos.
 
 Re: <http://mailman.yale.edu/pipermail/nhcoll-l/2016-March/009178.html>
 
-Collections with “less citable” catalog number schemes are extremely
+Collections with "less citable" catalog number schemes are extremely
 unlikely to support actionable citations, and so little is lost if the
-“traditional catalog numbers” are subsumed under a “citable catalog
-number.” This approach has been used to unify and disambiguate several
+"traditional catalog numbers" are subsumed under a "citable catalog
+number." This approach has been used to unify and disambiguate several
 Arctos collections; we find tradition little excuse to go forward under
 systems which discourage good science
 
@@ -450,10 +450,10 @@ links.
 
 To do this,
 
-1.  Ensure that the “old” URL returns a 404 HTTP status code. You may do
+1.  Ensure that the "old" URL returns a 404 HTTP status code. You may do
     this in two ways:
     1.  Delete the specimen. All users will then get the redirect.
-    2.  Encumber the specimen with a “mask record” encumbrance. Users
+    2.  Encumber the specimen with a "mask record" encumbrance. Users
         who do not have rights to bypass the encumbrance (*e.g.*, all
         public users) will then be redirected, while operators will be
         able to continue to access the record.

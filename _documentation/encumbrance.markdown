@@ -19,22 +19,22 @@ Encumbrances should be used to:
     disposition updated.)
 -   Restrict usage of specimens conditionally placed in
     public collections. These records should remain publicly visible –
-    do not “mask record.”
+    do not "mask record."
 -   Restrict coordinate data for specimens from sensitive collecting
     events under agreement with landowners. Removing coordinate data
-    removes much of the “discoverability” of specimens, and will exclude
+    removes much of the "discoverability" of specimens, and will exclude
     those specimens from many searches. Use this encumbrance with
     great caution.
 
 Encumbrances should NOT be used to:
 
--   Mask the record of specimens under active research. “Restrict usage”
+-   Mask the record of specimens under active research. "Restrict usage"
     is sufficient to protect any existing interests in the specimen, and
     the specimen remains available, upon approval of the encumberer, for
     other non-conflicting research. This guideline is often
     severely abused.
 -   Mask illegal activity, including a lack of permits.
--   Randomly mask “sensitive” records which aren’t, such as those
+-   Randomly mask "sensitive" records which aren’t, such as those
     records on CITES lists or records which have been tested
     for disease.
 -   Mask truly sensitive data. While we strive to effectively implement
@@ -84,8 +84,8 @@ expiration_date is reached.
 3.  Find the appropriate encumbrance by entering search criteria and
     clicking Find Encumbrance.
 
-    Under the appropriate encumbrance, click the “Remove Listed Items
-    From This Encumbrance” button.
+    Under the appropriate encumbrance, click the "Remove Listed Items
+    From This Encumbrance" button.
 
 When the screen refreshes, the specimens are no longer in the selected
 encumbrance.
@@ -125,7 +125,7 @@ There are many ways to encumber specimens; here one is described.
     srcset="../images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am.png 604w, ../images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-300x94.png 300w, ../images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-600x190.png 600w, ../images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-250x79.png 250w, ../images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-550x173.png 550w, ../images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-57-38-am-572x180.png 572w"}
 7.  When the screen refreshes, the specimens are encumbered.
     Double-check that no extraneous specimens have been encumbered. Use
-    the “Return to Encumbrance” link
+    the "Return to Encumbrance" link
 
     ![Screen Shot 2015-11-18 at 11.59.15
     AM.png](../images/classic-uploads/2015/11/screen-shot-2015-11-18-at-11-59-15-am.png){.alignnone

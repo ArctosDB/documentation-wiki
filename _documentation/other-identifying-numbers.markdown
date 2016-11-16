@@ -32,7 +32,7 @@ ctcoll_other_ID_type
 uses a [controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
 Users who are logged in can choose one Other ID Type to be their
-“preferred identifier.”   Your preferred identifier will then be the
+"preferred identifier."   Your preferred identifier will then be the
 default displayed in several forms.
 
 
@@ -44,7 +44,7 @@ code-table entry for GenBank is
 sizes="(max-width: 640px) 100vw, 640px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am.png 1146w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-300x29.png 300w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-768x75.png 768w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-1024x100.png 1024w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-250x24.png 250w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-550x54.png 550w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-48-25-am-800x78.png 800w" />
 
-The columns above are “other ID type,” “definition,” and “base_URL.”
+The columns above are "other ID type," "definition," and "base_URL."
 
 The full base_url is
 
@@ -82,13 +82,13 @@ three fields:
 -   Suffix (text)
 
 which are automatically concatenated into display_value. Display value
-can, for most purposes, be considered “the number”; the tripartite
+can, for most purposes, be considered "the number"; the tripartite
 structure exists primarily to facilitate numerical sorting.
 
 The main purpose of Other IDs is a link between specimen data and other
 related information, such as collector notes or related specimen
-records. Therefore, format can be critical: “ABC 123,” “ABC123,”
-ABC-123,” and “ABC0123,” are not equivalent values.
+records. Therefore, format can be critical: "ABC 123," "ABC123,"
+ABC-123," and "ABC0123," are not equivalent values.
 
 Many other IDs are alphanumeric, and there is often a need to sort,
 order, and increment them as if they were numeric, it is sometimes
@@ -99,10 +99,10 @@ may be `null`.
 There is no built-in concatenation operator, and the integer component
 does not maintain leading zeroes. How data should be entered is
 primarily a function of how the data might be used. GenBank number
-“ABC123” should probably be entered into Prefix; it will never be sorted
+"ABC123" should probably be entered into Prefix; it will never be sorted
 by the integer component, and adding artificial splits just increases
-the chance of errors. Collector number “ABC-123-2014” (where ABC is
-perhaps the collector’s initials, 2014 is a “series designator,” and 123
+the chance of errors. Collector number "ABC-123-2014" (where ABC is
+perhaps the collector’s initials, 2014 is a "series designator," and 123
 is the 123d specimen in the series) should probably be split out into
 prefix, number, and suffix to facilitate sorting.
 
@@ -114,7 +114,7 @@ Examples:
   |ABC123XYZ      |collector number |ABC            |123       |XYZ      |Allows sorting by integer component|
   |ABC-123-XYZ    |collector number |ABC-           |123       |-XYZ     |The concatenation character (here, dash) must be included|
   |ABC-0123-XYZ   |collector number |ABC-0          |123       |-XYZ     |The integer component will NOT retain leading zeroes. See next row.|
-  |ABC-0123-XYZ   |collector number |ABC-0123-XYZ   |`NULL`      |`NULL`     |It may not be worthwhile to try to separate a cryptic “integer component,” especially if the number is not part of a large series|
+  |ABC-0123-XYZ   |collector number |ABC-0123-XYZ   |`NULL`      |`NULL`     |It may not be worthwhile to try to separate a cryptic "integer component," especially if the number is not part of a large series|
 
 
 
@@ -122,10 +122,10 @@ Examples:
 
 ID References is a [controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references)
-defining the item to which the other ID was originally applied. “Self”
+defining the item to which the other ID was originally applied. "Self"
 is the value used when an ID was applied to the current item; all other
 values create a (sometimes-resolvable) relationship to another item.
-Note that the “other half” of an ID-created relationship does not
+Note that the "other half" of an ID-created relationship does not
 necessarily resolve to a cataloged item (though it should), and is not
 limited to other records in Arctos (relationships can be formed to any
 online resource).
@@ -138,7 +138,7 @@ specificity of identifiers, but relationships should be made to
 resolvable identifiers; ones with a URL in the code table.
 
 Relationships (non-self references) express a
-subject-relationship-object directionality in which the “subject” is the
+subject-relationship-object directionality in which the "subject" is the
 current record and the object is the indicated record.  Example, given
 three cataloged items:
 
@@ -173,7 +173,7 @@ identifier associated with a specimen – someone at some time considered
 the identifier useful, and may wish to locate the specimen using it.
 
 Loaned specimens occasionally return with de-facto other IDs (in the
-form of attached barcodes, GenBank numbers, “personal numbers,” etc.).
+form of attached barcodes, GenBank numbers, "personal numbers," etc.).
 Record all these as Other IDs.
 
 The vast majority of the current 150 (one hundred and fifty!) ID types
@@ -185,14 +185,14 @@ sizes="(max-width: 640px) 100vw, 640px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png 809w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-300x61.png 300w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-768x156.png 768w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-250x51.png 250w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-550x111.png 550w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-800x162.png 800w" />
 
 Considering that the one and only mission of Other Identifiers is to
-serve as a hopefully-unique “name” for specimens, it is hard to imagine
+serve as a hopefully-unique "name" for specimens, it is hard to imagine
 what of value might be lost if all those were merged into something like
 
 Term: **MVZ: Museum of Vertebrate Zoology**
 
 Defintion: **Various inactionable identifiers assigned by the MVZ**
 
-Better than “MVZ” would be the identifier type “MVZ:Bird,” which in
+Better than "MVZ" would be the identifier type "MVZ:Bird," which in
 conjunction with a base_url could serve as a [GUID](catalog/#guid) to
 specimens. (Note that this example also works from outside the MVZ – for
 example, if the MSB Bird Collection had co-cataloged an MVZ specimen.)
@@ -225,7 +225,7 @@ individual fields according to the following rules
     number (V12345) are split into Prefix and Number (**V** and **12345**, respectively)
 -   Strings consisting of a number and a single alpha character (12345a)
     are split, as above, into Number and Suffix
--   Strings containing one or two “separator characters” ( | – . ; ) are
+-   Strings containing one or two "separator characters" ( | – . ; ) are
     split at those characters.
 -   The results of the above are checked to ensure that Number is an
     integer
@@ -254,8 +254,8 @@ Number + Suffix). To **search by the integer component** (Other ID
 Number) of an Other ID:
 
 1.  Click Customize on the Identifiers pane.
-2.  Change “Show 3-part ID Search” to “yes” and click “Close.”
-3.  In the Number box, enter a range of values, *e.g.*, “50000-50110.”
+2.  Change "Show 3-part ID Search" to "yes" and click "Close."
+3.  In the Number box, enter a range of values, *e.g.*, "50000-50110."
 4.  The submitted SQL is
     ` ...AND customIdentifier.other_id_type = 'ALAAC' AND customIdentifier.other_id_number between 50000 and 50110 `
 
@@ -269,17 +269,17 @@ SQL like:
 ```
 
 
-The “**contains/is/in list**” option works as follows:
+The "**contains/is/in list**" option works as follows:
 
 -   ***contains*** matches substrings of the concatenation (display
-    value), so that search term “1” finds “1” and “12” and “21”
--   ***is*** matches the entire concatenation. Search term “1” finds
-    only “1”, not “11” or “{space}1”
+    value), so that search term "1" finds "1" and "12" and "21"
+-   ***is*** matches the entire concatenation. Search term "1" finds
+    only "1", not "11" or "{space}1"
 -   ***in list*** matches entire terms, with **<span
     style="color:#993300">delimiters and spaces removed from the search
-    term</span>**. Search terms “1, 2”, “1,2”, “1 2”, “1;2” all find
-    exactly and only “1” and “2”. There is no way by which an “in list”
-    search can find other ID “1 2” or “1;2”; use one of the other
+    term</span>**. Search terms "1, 2", "1,2", "1 2", "1;2" all find
+    exactly and only "1" and "2". There is no way by which an "in list"
+    search can find other ID "1 2" or "1;2"; use one of the other
     options to find such values.
 
 The specimen bulkloader has only one field for (each of several) Other
@@ -291,7 +291,7 @@ individual fields according to the following rules.
     number (V12345) are split into Prefix and Number (**V** and **12345**, respectively)
 -   Strings consisting of a number and a single alpha character (12345a)
     are split, as above, into Number and Suffix
--   Strings containing one or two “separator characters” (| – . 😉 are
+-   Strings containing one or two "separator characters" (| – . 😉 are
     split at those characters.
 -   The results of the above are checked to ensure that Number is an
     integer
