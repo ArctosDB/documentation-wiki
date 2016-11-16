@@ -71,17 +71,9 @@ such as "before 14 Jan 2005" should be entered. (The time is never
 completely unknown: We always know that a specimen in hand was collected
 before the present.)
 
-```
+`Collecting_Event . Began_Date`
 
-Collecting_Event . Began_Date
-
-```
-
-```
-
-ISO8601, not null
-
-```
+`ISO8601, not null`
 
 ```
 

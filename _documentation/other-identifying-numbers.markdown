@@ -264,9 +264,7 @@ Many Other IDs have been entered entirely in Prefix. Note also that you
 may specify Prefix and/or Suffix in the 3-part search boxes to produce
 SQL like:
 
-``` 
-...AND customIdentifier.other_id_type = 'ALAAC' AND upper(customIdentifier.other_id_prefix) LIKE '%I TYPED THIS IN THE PREFIX BOX%' AND customIdentifier.other_id_number between 50000 and 50110
-```
+`...AND customIdentifier.other_id_type = 'ALAAC' AND upper(customIdentifier.other_id_prefix) LIKE '%I TYPED THIS IN THE PREFIX BOX%' AND customIdentifier.other_id_number between 50000 and 50110`
 
 
 The "**contains/is/in list**" option works as follows:

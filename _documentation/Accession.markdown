@@ -71,7 +71,7 @@ You can catalog records in "your collection" that have been accessioned by anoth
 
 *   Desired accession: 1234.123.Mamm
 *   New Specimen: UAMObs:Mamm 9876
-*   Default accession: UAMObs:Mamm</span> 1234.123.Mamm (Does not and should not exist)
+*   Default accession: UAMObs:Mamm 1234.123.Mamm (Does not and should not exist)
 *   Value to enter for Accession: [UAM:Mamm]1234.123.Mamm
 
 *   Desired accession: MVZ:Birds 14508

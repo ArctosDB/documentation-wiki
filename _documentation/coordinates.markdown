@@ -164,11 +164,7 @@ DarwinCore2=CoordinateUncertaintyInMeters
 
 ```
 
-```
-
-—
-
-```
+`—`
 
 ```
 
@@ -178,11 +174,7 @@ VARCHAR2(2) null
 
 ```
 
-```
-
-[ctlat_long_error_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_error_units "Distance Units")
-
-```
+`[ctlat_long_error_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_error_units "Distance Units")`
 
 **Maximum Uncertainty Distance** is the upper limit of the horizontal
 (as opposed to elevational) distance from the reported latitude and

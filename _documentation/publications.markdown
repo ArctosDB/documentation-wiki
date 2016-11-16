@@ -206,11 +206,7 @@ author, or an editor of the publication. Vocabulary is
 [controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE).
 
 
-```
-
-Publication.cfm?action=newPub
-
-```
+`Publication.cfm?action=newPub`
 
 ## Creating Publications
 

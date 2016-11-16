@@ -34,11 +34,7 @@ media are stored in three tables:
 
 ## Fields in table Media
 
-```
-
-Media . MEDIA_URI VARCHAR2(255) not null
-
-```
+`Media . MEDIA_URI VARCHAR2(255) not null`
 
 ### Media URI:
 
@@ -96,11 +92,7 @@ Media Type exists to categorize Media whose MIME type is not
 sufficiently descriptive. A HTML image viewer application would have
 MIME_TYPE of ‘text/html’ and MEDIA_TYPE of ‘image,’ for example.
 
-```
-
-Media . PREVIEW_URI VARCHAR2(255) null
-
-```
+`Media . PREVIEW_URI VARCHAR2(255) null`
 
 ### Preview URI:
 
@@ -124,11 +116,7 @@ containing at least one space and ending with a table name. ColdFusion
 and Oracle both rely on this. Values are controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship).
 
-```
-
-Media_Relations . CREATED_BY_AGENT_ID NUMBER not null
-
-```
+`Media_Relations . CREATED_BY_AGENT_ID NUMBER not null`
 
 ### Created By:
 
@@ -136,11 +124,7 @@ The agent who created the relationship between a media object and a data
 item. This is a foreign key to the Agent table.
 
 
-```
-
-Media_Relations . RELATED_PRIMARY_KEY NUMBER not null
-
-```
+`Media_Relations . RELATED_PRIMARY_KEY NUMBER not null`
 
 ### Related Data Item:
 
@@ -173,30 +157,18 @@ sources can be manually entered as Media Labels.
 
 
 
-```
-
-Media_Labels . LABEL_VALUE VARCHAR2(255) not null
-
-```
+`Media_Labels . LABEL_VALUE VARCHAR2(255) not null`
 
 ### Label Value:
 
 The content of a label generally uncontrolled text (excepting some
 dates, which are ISO8601-format).
 
-```
-
-Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null
-
-```
+`Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null`
 
 
 
-```
-
-Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null
-
-```
+`Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null`
 
 ### Assigned By:
 

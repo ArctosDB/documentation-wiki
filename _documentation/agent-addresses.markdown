@@ -68,11 +68,7 @@ include:
 -   Not valid for Federal Express deliveries.
 -   Jones uses home address in June and July.
 
-```
-
-addr . valid_addr_fg NUMBER not null
-
-```
+`addr . valid_addr_fg NUMBER not null`
 
 ## Valid Flag
 
