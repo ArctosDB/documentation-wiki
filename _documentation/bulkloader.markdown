@@ -178,7 +178,7 @@ text; any string
 Remarks associated with Locality.
 Begin coordinate fields. All coordinate data are optional unless
 Orig_Lat_Long_Units is specified, and leaving Orig_Lat_Long_Units
-NULL will cause all other coordinate data to be ignored.
+`NULL` will cause all other coordinate data to be ignored.
 <span class="blrequired">Orig_Lat_Long_Units</span>
 text;
 [ctlat_long_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units)
@@ -339,7 +339,7 @@ required.
 <span class="blrequired">Part_lot_count_x</span>
 number
 [\[ doc \]](/documentation/parts/#lot) A part_lot_count is required
-for all non-null parts.
+for all non-`null` parts.
 <span class="blrequired">Part_Condition_x</span>
 text; any string
 [\[ doc \]](/documentation/parts/#condition) A description of the latest
@@ -348,7 +348,7 @@ documented condition.
 text;
 [ctcoll_obj_disp](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OBJ_DISP)
 [\[ doc \]](/documentation/parts/#disposition) A Part_disposition is
-required for all non-null parts. Example: “in collection”
+required for all non-`null` parts. Example: “in collection”
 <span class="bloptional">Part_Barcode_x</span>
 text; any barcode
 [\[ doc \]](/documentation/container/#barcode) Barcode on the part as it
@@ -356,9 +356,9 @@ will be read by a barcode scanner.
 <span class="bloptional">Part_Container_Label_x</span>
 text; any string
 [\[ doc \]](/documentation/container/#label) Label on the container (ie,
-Nunc tube). The human-readable printing on the container. NULL results
+Nunc tube). The human-readable printing on the container. `NULL` results
 in no changes to the part container; ignored if Part_Barcode_x is
-null.
+`null`.
 <span class="bloptional">Part_Remark_x</span>
 text
 Remark about the part.
@@ -371,7 +371,7 @@ considerations.](http://arctosdb.org/documentation/transaction/accession/#dataen
 <span class="blcondreq">EnteredBy</span>
 text; [agent name](#agent)
 [\[ doc \]](/documentation/agent/#names) Agent entering the data into
-this table. Must match agent_name of type login. NULLable if
+this table. Must match agent_name of type login. `NULL`able if
 entered_by_agent_id provided.
 ENTERED_AGENT_ID
 number; [key](#pkey)
@@ -400,7 +400,7 @@ controlled.)
 <span class="bloptional">Attribute_value</span>
 text; various
 [\[ doc \]](/documentation/attributes/#value) Value of the attribute.
-Leaving this NULL will cause the bulkloader to ignore the attribute
+Leaving this `NULL` will cause the bulkloader to ignore the attribute
 entry regardless of other values.
 <span class="bloptional">Attribute_units</span>
 text;

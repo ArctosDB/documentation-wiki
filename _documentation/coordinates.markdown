@@ -347,7 +347,7 @@ the method referred to in [Georeference Method](#georefmethod).
     geographic coordinates. Within individual collections, this
     proportion ranges from all to none.
 -   Localities are not simply points, but circles indicating precision.
-    (Some have radius 0, which should be interpreted as “NULL” rather
+    (Some have radius 0, which should be interpreted as “`NULL`” rather
     than “infinitely precise,” and some are very large.) Choose the
     “query by points and error” option to find specimens by error (the
     match is “any overlap”) rather than only by coordinate points. Error

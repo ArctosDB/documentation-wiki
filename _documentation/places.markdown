@@ -27,14 +27,14 @@ Returns these data:
 
   CONTINENT_OCEAN      COUNTRY         STATE_PROV   SEA
   --------------------- --------------- ------------- --------------
-  Arctic Ocean          -NULL-          -NULL-        Chukchi Sea
+  Arctic Ocean          -`NULL`-          -`NULL`-        Chukchi Sea
   North America         United States   Alaska        Chukchi Sea
-  North America         United States   Alaska        -NULL-
+  North America         United States   Alaska        -`NULL`-
   North America         United States   Alaska        Beaufort Sea
-  Arctic Ocean          -NULL-          -NULL-        -NULL-
-  Arctic Ocean          -NULL-          -NULL-        Beaufort Sea
+  Arctic Ocean          -`NULL`-          -`NULL`-        -`NULL`-
+  Arctic Ocean          -`NULL`-          -`NULL`-        Beaufort Sea
   North America         United States   Alaska        Bering Sea
-  North Pacific Ocean   -NULL-          -NULL-        Bering Sea
+  North Pacific Ocean   -`NULL`-          -`NULL`-        Bering Sea
 
 This virtually guarantees that descriptive queries will miss specimens.
 

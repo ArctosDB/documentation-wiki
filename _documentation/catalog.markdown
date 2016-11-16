@@ -47,7 +47,7 @@ catalog. Arctos currently supports three formats of catalog number.
     accompanied by a prefix and/or suffix. The concatenation of
     prefix-integer-suffix must be unique. No predictive tools
     are available. Search is by the concatenation or substrings thereof.
-3.  **String**: Any unique non-NULL string is accepted. No predictive
+3.  **String**: Any unique non-`NULL` string is accepted. No predictive
     tools are available. Search is by the concatenation or
     substrings thereof.
 
@@ -65,7 +65,7 @@ The following table is illustrative.
   12-0110     12-11                                            “Second” item is zero-padded so not considered an integer; not considered as range.
   12,13,14    12, 13, or 14                                    Commas are treated as list delimiters unless the value is prefixed with an equals sign. Note that there is a 1000-item limit on ranges and lists.
   12,13a,14   12, 13a, or 14                                   Commas are treated as list delimiters unless the value is prefixed with an equals sign. Neither catalog numbers nor list elements must be numeric. Note that there is a 1000-item limit on ranges and lists.
-  %12%        **12**, **12**1, **12**a, 9994836**12**345, ….   “%” is “match anything.” This matches anything CONTAINING 12.
+  %12%        <strong>12</strong>, <strong>12</strong>1, <strong>12</strong>a, 9994836<strong>12</strong>345, ….   “%” is “match anything.” This matches anything CONTAINING 12.
   %12         12, 112, AABC-5-a12, ….                          “%” is “match anything.” This matches anything ENDING WITH 12.
   \_12        012, a12, 912, ….                                “\_” is “match any single character.”
   1_2        102, 112, 1A2, ….                                “\_” is “match any single character.”

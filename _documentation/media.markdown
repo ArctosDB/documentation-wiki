@@ -226,7 +226,7 @@ the resultant file is 2MB!
 Use reasonable previews; filesize should be under (preferably much
 under!) 10K (previews larger than 48K will NOT be displayed), and scale
 to \~120px. Cropped or otherwise misleading previews should be avoided.
-Leave preview_uri NULL if producing a good thumbnail isn’t possible.
+Leave preview_uri `NULL` if producing a good thumbnail isn’t possible.
 
 
 ### Binary Object Creation Guidelines

@@ -134,7 +134,7 @@ VARCHAR2 (45) null
 
 ```
 
-**Relationship Authority** is an open text field, and it may be null.
+**Relationship Authority** is an open text field, and it may be `null`.
 Presumably the [Source Authority](#source_authority) for an accepted
 taxon is adequate documentation, but if not, then Relationship Authority
 could cite a publication or the name of an expert to whom the
@@ -466,7 +466,7 @@ important:
     in ICBN names
 
 The ordering of these terms is unimportant, and un-paired terms (e.g.,
-display_name=NULL or NULL=”Sorex cinereus”) will be ignored (that is,
+display_name=`NULL` or `NULL`=”Sorex cinereus”) will be ignored (that is,
 deleted at save).
 
 **Classification terms** are ordered taxonomic data (drag rows to

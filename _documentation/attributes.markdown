@@ -82,8 +82,8 @@ Some examples:
   Attribute Name   Value                                Units
   ---------------- ------------------------------------ -------------
   Total Length     “123.4”                              millimeters
-  Age Class        “adult” (controlled text)            null
-  Colors           “reddish feet” (uncontrolled text)   null
+  Age Class        “adult” (controlled text)            `null`
+  Colors           “reddish feet” (uncontrolled text)   `null`
 
 The appropriate units for particular numeric Attributes, and the
 appropriate vocabulary for controlled vocabulary are set by a by a

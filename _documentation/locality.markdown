@@ -283,7 +283,7 @@ Locality . NogeorefbecauseVARCHAR2(255) null
 
 
 
-**NoGeorefBecause** is should always be NULL for localities with
+**NoGeorefBecause** is should always be `NULL` for localities with
 coordinate determinations.  Otherwise, it may be used to indicate
 problems with georeferencing the locality, resources needed to
 georeference, or anything else about the lack of coordinate

@@ -18,8 +18,7 @@ Any user with access to shared nodes should have a thorough
 understanding of this information, and how it affects their collection
 and others.
 
-What’s not shared
------------------
+## What’s not shared
 
 Specimens, and core specimen data such at Attributes, Identifications,
 Collectors, and Citations are wholly owned by collections.

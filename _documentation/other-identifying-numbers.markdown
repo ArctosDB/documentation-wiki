@@ -21,7 +21,7 @@ relationships among specimens (such as hosts of parasites).
 
 Coll_Obj_Other_ID_Num . Other_ID_Type
 
-VARCHAR2(75) not null
+VARCHAR2(75) not `null`
 
 ctcoll_other_ID_type
 
@@ -94,7 +94,7 @@ Many other IDs are alphanumeric, and there is often a need to sort,
 order, and increment them as if they were numeric, it is sometimes
 desirable to treat them as true numbers, but with the option of
 prefixes, suffixes, or both. Any (but not all) of these three components
-may be null.
+may be `null`.
 
 There is no built-in concatenation operator, and the integer component
 does not maintain leading zeroes. How data should be entered is
@@ -108,13 +108,13 @@ prefix, number, and suffix to facilitate sorting.
 
 Examples:
 
-  Desired Result   ID Type            Prefix         Integer   Suffix   Explanation
-  ---------------- ------------------ -------------- --------- -------- -----------------------------------------------------------------------------------------------------------------------------------
-  ABC123           GenBank            ABC123         NULL      NULL     GenBank number are not usefully sortable; just put them into prefix.
-  ABC123XYZ        collector number   ABC            123       XYZ      Allows sorting by integer component
-  ABC-123-XYZ      collector number   ABC-           123       -XYZ     The concatenation character (here, dash) must be included
-  ABC-0123-XYZ     collector number   ABC-0          123       -XYZ     The integer component will NOT retain leading zeroes. See next row.
-  ABC-0123-XYZ     collector number   ABC-0123-XYZ   NULL      NULL     It may not be worthwhile to try to separate a cryptic “integer component,” especially if the number is not part of a large series
+  |Desired Result | ID Type         |  Prefix       |  Integer |  Suffix |  Explanation|
+  |---------------|-----------------|---------------|--------- |---------|-------------|
+  |ABC123         |GenBank          |ABC123         |`NULL`      |`NULL`     |GenBank number are not usefully sortable; just put them into prefix.|
+  |ABC123XYZ      |collector number |ABC            |123       |XYZ      |Allows sorting by integer component|
+  |ABC-123-XYZ    |collector number |ABC-           |123       |-XYZ     |The concatenation character (here, dash) must be included|
+  |ABC-0123-XYZ   |collector number |ABC-0          |123       |-XYZ     |The integer component will NOT retain leading zeroes. See next row.|
+  |ABC-0123-XYZ   |collector number |ABC-0123-XYZ   |`NULL`      |`NULL`     |It may not be worthwhile to try to separate a cryptic “integer component,” especially if the number is not part of a large series|
 
 
 
@@ -214,20 +214,15 @@ IDs. At load, the values provided in this field are parsed into
 individual fields according to the following rules
 
 -   Integers are loaded as Number
--   Square brackets ( **\[** and <span
-    style="font-weight:bold">\]</span> ) may be used to explicitly
+-   Square brackets ( **\[** and **\]** ) may be used to explicitly
     define the numeric portion of an identifier
--   Curly brackets ( **{** and <span
-    style="font-weight:bold">}</span> ) may be used <span
-    style="font-weight:bold">around the entire Identifier only</span>
+-   Curly brackets ( **{** and **}** ) may be used **around the entire Identifier only**
 
     to force the Identifier into Prefix. This is most useful when
     leading zeros would otherwise be lost in the numeric portion of
     the Identifier.
 -   Strings consisting on a single alpha character followed by a
-    number (V12345) are split into Prefix and Number (<span
-    style="font-weight:bold;font-style:italic">V</span> and <span
-    style="font-weight:bold;font-style:italic">12345</span>, respectively)
+    number (V12345) are split into Prefix and Number (**V** and **12345**, respectively)
 -   Strings consisting of a number and a single alpha character (12345a)
     are split, as above, into Number and Suffix
 -   Strings containing one or two “separator characters” ( | – . ; ) are
@@ -241,15 +236,15 @@ Examples:
 
   |Input       |  Prefix  |  Number | Suffix |  Display  |  Explanation
   |-------------|---------|--------|---------|-----------|---------------
-  |v12345     |v         |12345    |NULL     |v12345      |One character plus number.
+  |v12345     |v         |12345    |`NULL`     |v12345      |One character plus number.
   |v-12345     |v-        |12345    |v-12345  |v-12345     |Split at a separator character.
   |v-12345-1    |v-        |12345    |-1        |v-12345-1   |Split at separator characters.
   |1\[12345\]1   |1         |12345    |1         |1123451     |Number explicitly defined.
-  |1-abc-2       |1-abc-2   |NULL     |NULL      |1-abc-2     |Value not numeric.
-  |\[1\]-abc-2   |NULL      |1        |-abc-2    |1-abc-2     |Number explicitly defined.
-  |v-00001       |v-        |1        |NULL      |v-1         |Leading zeros are not stored with NUMBERs.
-  |{v-00001}     |v-00001   |NULL     |NULL      |v-00001     |{} force to prefix
-  |\[1\]-abc-2   |NULL      |1        |-abc-2    |1-abc-2     |Number explicitly defined.
+  |1-abc-2       |1-abc-2   |`NULL`     |`NULL`      |1-abc-2     |Value not numeric.
+  |\[1\]-abc-2   |`NULL`      |1        |-abc-2    |1-abc-2     |Number explicitly defined.
+  |v-00001       |v-        |1        |`NULL`      |v-1         |Leading zeros are not stored with NUMBERs.
+  |{v-00001}     |v-00001   |`NULL`     |`NULL`      |v-00001     |{} force to prefix
+  |\[1\]-abc-2   |`NULL`      |1        |-abc-2    |1-abc-2     |Number explicitly defined.
 
 
 
@@ -268,7 +263,10 @@ Note that this relies on having other IDs entered as a 3-part number.
 Many Other IDs have been entered entirely in Prefix. Note also that you
 may specify Prefix and/or Suffix in the 3-part search boxes to produce
 SQL like:
-` ...AND customIdentifier.other_id_type = 'ALAAC' AND upper(customIdentifier.other_id_prefix) LIKE '%I TYPED THIS IN THE PREFIX BOX%' AND customIdentifier.other_id_number between 50000 and 50110 `
+
+``` 
+...AND customIdentifier.other_id_type = 'ALAAC' AND upper(customIdentifier.other_id_prefix) LIKE '%I TYPED THIS IN THE PREFIX BOX%' AND customIdentifier.other_id_number between 50000 and 50110
+```
 
 
 The “**contains/is/in list**” option works as follows:
@@ -290,9 +288,7 @@ individual fields according to the following rules.
 
 -   Integers are loaded as Number
 -   Strings consisting on a single alpha character followed by a
-    number (V12345) are split into Prefix and Number (<span
-    style="font-weight:bold;font-style:italic">V</span> and <span
-    style="font-weight:bold;font-style:italic">12345</span>, respectively)
+    number (V12345) are split into Prefix and Number (**V** and **12345**, respectively)
 -   Strings consisting of a number and a single alpha character (12345a)
     are split, as above, into Number and Suffix
 -   Strings containing one or two “separator characters” (| – . 😉 are
@@ -304,13 +300,13 @@ individual fields according to the following rules.
 
 Examples:
 
-  Input         Prefix        Number   Suffix    Display     Explanation
-  ------------- ------------- -------- --------- ----------- ------------------------------------------------------------
-  v12345        v             12345    NULL      v12345      One character plus number
-  v-12345       v-            12345    v-12345   v-12345     Split at a separator character
-  v-12345-1     v-            12345    -1        v-12345-1   Split at separator characters
-  1\[12345\]1   1\[12345\]1   NULL     NULL      1123451     Brackets are treated as characters.
-  1-abc-2       1-abc-2       NULL     NULL      1-abc-2     Number is not numeric
-  v-00001       v-00001       NULL     NULL      v-00001     Above rules would lead to dropped leading zeroes in Number
+  |Input        |Prefix       |Number   |Suffix    |Display   |Explanation            |
+  |-------------|-------------|---------|----------|----------|-----------------------|
+  |v12345       |v            |12345    |`NULL`      |v12345    |One character plus number|
+  |v-12345      |v-           |12345    |v-12345   |v-12345   |Split at a separator character|
+  |v-12345-1    |v-           |12345    |-1        |v-12345-1 |Split at separator characters|
+  |1\[12345\]1  |1\[12345\]1  |`NULL`     |`NULL`      |1123451   |Brackets are treated as characters.|
+  |1-abc-2      |1-abc-2      |`NULL`     |`NULL`      |1-abc-2   | Number is not numeric|
+  |v-00001      |v-00001      |`NULL`     |`NULL`      |v-00001   |Above rules would lead to dropped leading zeroes in Number|
 
 See also [Searching Arctos](catalog/#srch2)
