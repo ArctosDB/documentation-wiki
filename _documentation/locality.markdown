@@ -49,13 +49,7 @@ commonly used to unambiguously associate one or more specimens to a
 locality.
 
 
-```
-
-Locality . Spec_Locality
-
-VARCHAR2 (255) null
-
-```
+`Locality . Spec_Locality VARCHAR2 (255) null`
 
 **Specific Locality** refers to the locality from which the specimen was
 collected from the wild, regardless of whether the animal was brought
@@ -275,11 +269,7 @@ to latitude and longitude can be found at the following URL:
 
 [www.esg.montana.edu/gl/trs-data.html](http://www.esg.montana.edu/gl/trs-data.html).
 
-```
-
-Locality . NogeorefbecauseVARCHAR2(255) null
-
-```
+`Locality . NogeorefbecauseVARCHAR2(255) null`
 
 
 

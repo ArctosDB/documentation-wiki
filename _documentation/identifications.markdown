@@ -40,15 +40,10 @@ is merely a specific formatting of the data in Taxonomy.)  The
 explanation of Determination Formula (immediately below) is
 illustrative.
 
-```
+`Identification . TAXA_FORMULA VARCHAR2 (25) not null`
 
-Identification . TAXA_FORMULA
+[`cttaxa_formula`](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula)
 
-VARCHAR2 (25) not null
-
-[cttaxa_formula](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula)
-
-```
 
 ## Determination Formula:
 
@@ -113,13 +108,7 @@ The following table is illustrative.
 
  
 
-```
-
-Identification . Made_By_Agent_id
-
-NUMBER not null (FK)
-
-```
+`Identification . Made_By_Agent_id NUMBER not null (FK)`
 
 **Determiner:** The determiner is the [agent](agent) (or agents, usually
 a person) who identified the specimen. More than one agent can be
@@ -129,26 +118,15 @@ change the displayed order, create a new copy of the determination with
 the determiners in the desired order, then delete the old record.
 
 
-```
-
-Identification . Made_Date
-
-DATE null
-
-```
+`Identification . Made_Date DATE null`
 
 **Determined Date:** [ISO8601](/documentation/dates/) date-type. The
 chronological order of determinations may be the most critical issue.
 
-```
+`Identification . Nature_Of_ID VARCHAR2 (30) not null`
 
-Identification . Nature_Of_ID
+[`ctnature_of_id`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id)
 
-VARCHAR2 (30) not null
-
-[ctnature_of_id](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id)
-
-```
 
 
 
@@ -164,15 +142,9 @@ additional guidance.
 
 </div>
 
-```
+`Identification.Publication_ID NUMBER NOT NULL (FK Publication.Publication_ID)`
 
-Identification.Publication_ID
-
-NUMBER NOT NULL (FK Publication.Publication_ID)
-
-```
-
-***Sensu* Publication:**
+## *Sensu* Publication
 
 Signifies that a determination is made in the sense of (*sensu*) a
 particular
@@ -183,13 +155,7 @@ documentation ("We’ve determined this to be *Aus bus* using the methods
 provided by Some Author").
 
 
-```
-
-Identification . Remarks
-
-VARCHAR2 255
-
-```
+`Identification . Remarks VARCHAR2 255`
 
 **Remarks** can elaborate or clarify any signficant aspect of a
 determination.  This is a good place for recording the verbatim form of

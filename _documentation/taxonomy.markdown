@@ -91,13 +91,7 @@ family, according to….", for example, and many refer to multiple
 concepts, such as plants and animals.
 
 
-```
-
-Common_Name . Common_Name
-
-VARCHAR2 (20) null
-
-```
+`Common_Name . Common_Name VARCHAR2 (20) null`
 
 **Common Names** are intended to help users find what they are looking
 for, and not to propagate any standard or system. A taxon may have
@@ -111,28 +105,16 @@ particular standard such as that of the American Ornithological Union
 (*e.g.*, "Alaska marmot").
 
 
-```
+`Taxon_Relations . Taxon_Relationship VARCHAR2 (30) not null`
 
-Taxon_Relations . Taxon_Relationship
-
-VARCHAR2 (30) not null
-
-cttaxon_relation
-
-```
+`cttaxon_relation`
 
 **Taxon Relations** are comprised of a relationship type, a related
 taxon, and an authority for the relationship. The related taxon is
 another record in the taxonomy table.
 
 
-```
-
-Taxon_Relations . Relationship_Authority
-
-VARCHAR2 (45) null
-
-```
+`Taxon_Relations . Relationship_Authority VARCHAR2 (45) null`
 
 **Relationship Authority** is an open text field, and it may be `null`.
 Presumably the [Source Authority](#source_authority) for an accepted
@@ -272,9 +254,9 @@ to work with changes, uncertainty, unranked terms, and even
 nonbiological taxonomies, and to communicate with services such as
 globalnames.
 
-**Q: Why does the editing interface not ….. ?
+**Q: Why does the editing interface not ….. ?**
 
-**A: The editing interfaces are designed to get us by until
+A: The editing interfaces are designed to get us by until
 [someone](http://gnite.org) does a better job, and are a reflection of
 the model in being very generic (and therefore also very limited and
 scary in terms of multi-record updates). We hope that most taxonomy will
@@ -312,8 +294,7 @@ local source.
 There is currently no classification bulkloader. One can be created if
 necessary.
 
-Source "Arctos"
----------------
+## Source "Arctos"
 
 The pre-migration Arctos data have been pushed to source "Arctos." These
 data are the default classification for all collections, and generally

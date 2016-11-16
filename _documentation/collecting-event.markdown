@@ -14,13 +14,7 @@ the specimens.  **New Collecting Events** are normally created when
 specimen records are bulk-loaded, but may be created manually, cloned
 from existing events, and/or given a nickname for easy identification.
 
-```
-
-Collecting_Event . COLLECTING_EVENT_NAME
-
-VARCHAR(255) null
-
-```
+`Collecting_Event . COLLECTING_EVENT_NAME VARCHAR(255) null`
 
 **Event Nickname** is a human-readable stable "primary key" to
 collecting events. Event Nickname may only be created or added in the
@@ -29,13 +23,7 @@ field is useful for locating pre-created collecting event information,
 and may be useful when specimens share an event but are not entered
 sequentially, such as hosts and parasites.
 
-```
-
-Collecting_Event . Verbatim_Locality
-
-VARCHAR(255) not null
-
-```
+`Collecting_Event . Verbatim_Locality VARCHAR(255) not null`
 
 **Verbatim Locality** is the locality description as provided by the
 collector and is specific to the Collecting Event, not to the Locality. 
@@ -57,13 +45,7 @@ dates as they are often recorded by collectors, and to properly record
 the duration of Collecting Events that may have been longer or shorter
 than a single day.
 
-```
-
-Collecting_Event . Verbatim_Date
-
-VARCHAR(60) not null
-
-```
+`Collecting_Event . Verbatim_Date VARCHAR(60) not null`
 
 **Verbatim Date** is a transcription of the date provided by the
 collector. If the collection date is given as "unknown," then a value
@@ -75,15 +57,7 @@ before the present.)
 
 `ISO8601, not null`
 
-```
-
-– – –
-
-Collecting_Event . Ended_Date
-
-ISO8601, not null
-
-```
+`Collecting_Event . Ended_Date ISO8601, not null`
 
 **Began Date** and **Ended Date** delimit the range of dates encompassed
 by the Verbatim Date.  Unlike Verbatim Date, they are [ISO8601

@@ -33,12 +33,7 @@ Permits can can authorize any number of transactions,
 
 and any number of permits may be required for a transaction.
 
-```
-
-Permit . Permit_Num
-VARCHAR(20) null
-
-```
+`Permit . Permit_Num ARCHAR(20) null`
 
 ## Permit Number
 
@@ -47,14 +42,9 @@ permit.
 
 Not all permits have such a number.
 
-```
+`Permit . Permit_Type ARCHAR(50) not null`
 
-Permit . Permit_Type
-VARCHAR(50) not null
-
-ctpermit_type
-
-```
+`ctpermit_type`
 
 ## Permit Type:
 
@@ -74,40 +64,25 @@ There is room for improvement here.
 In some cases, permits may authorize collecting, importation, and
 exportation.
 
-```
+`Permit . Issued_To_Agent_id NTEGER not null`
 
-Permit . Issued_To_Agent_id
-INTEGER not null
-
-```
-
-## Issued To:
+## Issued To
 
 The agent to whom the permit was issued.
 
 This could be either a person or organization.
 
-```
+`Permit . Issued_By_Agent_id INTEGER not null`
 
-Permit . Issued_By_Agent_id
-INTEGER not null
-
-```
-
-## Issued By:
+## Issued By
 
 The agent to who issued the permit.
 
 This could be either a person or organization.
 
-```
+`Permit . Contact_Agent_id INTEGER not null`
 
-Permit . Contact_Agent_id
-INTEGER not null
-
-```
-
-## Contact Person:
+## Contact Person
 
 Assuming that the Permit was issued by an organization,
 
@@ -116,14 +91,9 @@ permit.
 
 This should always be a person, not an organization.
 
-```
+`Permit . Issued_Date DATETIME null`
 
-Permit . Issued_Date
-DATETIME null
-
-```
-
-## Issued Date:
+## Issued Date
 
 The day the permit was issued.
 
@@ -139,27 +109,17 @@ the time period for which the permit is effective.)
 
 A valid date is required.
 
-```
+`Permit . Renewed_Date DATETIME null`
 
-Permit . Renewed_Date
-DATETIME null
-
-```
-
-## Renewed Date:
+## Renewed Date
 
 Rather than expiring, and requiring a new permit for continued
 
 activity, some permits may be renewed.
 
-```
+`Permit . Exp_Date DATETIME null`
 
-Permit . Exp_Date
-DATETIME null
-
-```
-
-## Expiration Date:
+## Expiration Date
 
 The day on which the permit is no longer valid.
 
@@ -167,14 +127,9 @@ This date might be used to automatically notify the permittees
 
 of the approaching expiration.
 
-```
+`Permit . Permit_Remarks VACHAR(255) null`
 
-Permit . Permit_Remarks
-VACHAR(255) null
-
-```
-
-**Remarks:**
+## Remarks
 
 These can be anything that extends the definition of the
 

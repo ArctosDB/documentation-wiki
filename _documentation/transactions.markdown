@@ -17,13 +17,7 @@ These three types of transactions share several fields in common, and
 those fields are treated on this page.
 
 
-```
-
-Trans . Nature_of_Material
-
-VARCHAR2(4000) not null
-
-```
+`Trans . Nature_of_Material VARCHAR2(4000) not null`
 
 **Nature of Material** is a brief textual description of the accession
 or loan. Quantities can be approximate if accession material is not
@@ -31,13 +25,7 @@ being unpacked prior to storage. For example, "About 300 frozen small
 mammals collected during the summer of 2004 in Denali State Park."
 
 
-```
-
-Trans . Trans_Remarks
-
-VARCHAR2(4000) null
-
-```
+`Trans . Trans_Remarks VARCHAR2(4000) null`
 
 **Remarks** is a place for expanding a description of the conditions of
 acceptance, or for instructions in processing the material. For example,

@@ -52,13 +52,7 @@ are seldom useful.)
 
 
 
-```
-
-Agent . Agent_Type
-
-VARCHAR2(15) not null
-
-```
+`Agent . Agent_Type VARCHAR2(15) not null`
 
 ## Agent Type
 
@@ -143,13 +137,7 @@ Agent Groups consists of:
 
 Groups may be useful for things like collecting expeditions.
 
-```
-
-Agent_Name . Agent_Name
-
-VARCHAR2(184) not null
-
-```
+`Agent_Name . Agent_Name VARCHAR2(184) not null`
 
 
 
@@ -158,15 +146,7 @@ VARCHAR2(184) not null
 All agents must have one and only one "preferred name".  An agent can
 have any number of other names.
 
-```
-
-Agent_Name . Agent_Name_Type
-
-VARCHAR2(18) not null
-
-ctagent_name_type
-
-```
+`Agent_Name . Agent_Name_Type VARCHAR2(18) not null ctagent_name_type`
 
 
 
@@ -175,13 +155,7 @@ ctagent_name_type
 Agent Name Type is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
 
-```
-
-Agent . Agent_Remark
-
-VARCHAR2(255) null
-
-```
+`Agent . Agent_Remark VARCHAR2(255) null`
 
 
 
@@ -291,8 +265,7 @@ agents, please record it.  The relationship "not the same as" can be
 useful in understanding that suspiciously similar names are not
 duplicates, but do in fact refer to separate agents.
 
-Different Agent, Same Name
---------------------------
+### Different Agent, Same Name
 
 Occasionally, two distinct agents will share a name, but there exists a
 unique key on preferred_name so duplicate preferred names are not
@@ -354,8 +327,7 @@ agent on/before/after a date, or agents created on/before/after a date.
 
 
 
-Deleting/merging agents
------------------------
+### Deleting/merging agents
 
 Duplicate agents (&gt;1 agent record referring to the same agent entity)
 prevent accurate answers to questions involving agents. Collector "John
@@ -392,8 +364,7 @@ information is available, add it.
 
 ## Identical Agent Names
 
-Identical agent <span
-style="font-style: italic; font-weight: bold;">names</span>, between and
+Identical agent **names**, between and
 among agents, is different than identical agents. Duplicate agents are
 two or more agent records that mean the same physical entity (THAT
 PARTICULAR John Smith; US Fish and Wildlife Service). It is not

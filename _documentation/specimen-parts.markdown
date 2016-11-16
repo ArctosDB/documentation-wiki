@@ -25,15 +25,10 @@ attributes.  Similarly, parasites have been recorded as parts of their
 hosts until such time as they might be worked into a separate parasite
 collection.
 
-```
+`Specimen_Part.Part_Name VARCHAR(70) not null`
 
-Specimen_Part.Part_Name
+[`ctspecimen_part_name`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
 
-VARCHAR(70) not null
-
-[ctspecimen_part_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
-
-```
 
 
 
@@ -96,15 +91,9 @@ thereof, preserved by freezing. Such samples commonly supply DNA for
 sequence analysis, and many researchers want to search for specimens
 from which they can readily obtain subsamples.
 
-```
+`Coll_Object.Disposition VARCHAR(20) not null`
 
-Coll_Object.Disposition
-
-VARCHAR(20) not null
-
-[ctcoll_obj_disp](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
-
-```
+[`ctcoll_obj_disp`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
 
 
 
@@ -119,13 +108,7 @@ the status of cataloged items.  Typical values are:
 -   missing
 -   destroyed
 
-```
-
-Coll_Object.Condition
-
-VARCHAR(255) not null
-
-```
+`Coll_Object.Condition VARCHAR(255) not null`
 
 
 
@@ -145,13 +128,7 @@ VARCHAR(255) not null
 -   1 – These tissues are flaccid and thoroughly autolyzed. They
     probably stink.
 
-```
-
-Coll_Object.Lot_Count
-
-NUMBER not null
-
-```
+`Coll_Object.Lot_Count NUMBER not null`
 
 
 
@@ -229,13 +206,7 @@ Examples of lot count usage:
 | collecting event.                    |                                      |
 +--------------------------------------+--------------------------------------+
 
-```
-
-Specimen_Part.Sampled_From_Obj_Id
-
-NUMBER null
-
-```
+`Specimen_Part.Sampled_From_Obj_Id NUMBER null`
 
 
 

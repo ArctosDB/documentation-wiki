@@ -18,13 +18,7 @@ publication.  Where no such explicit relationship exists, publications
 can be related to a [Project](project).
 
 
-```
-
-Publication . Full_Citation
-
-varchar(4000) not null
-
-```
+`Publication . Full_Citation varchar(4000) not null`
 
 **Full Citation** is the textual description of a publication formatted
 as it would appear in a bibliography.  Typically this would include
@@ -72,13 +66,7 @@ formatting should be handled with HTML tags.
     Pacific pinnipeds.**
 
 
-```
-
-Publication . Short_Citation
-
-varchar(4000) not null
-
-```
+`Publication . Short_Citation varchar(4000) not null`
 
 **Short Citation** is typically authorship and year, the way
 publications are cited when included in the text of other publications. 
@@ -90,40 +78,23 @@ formatting.
 -   Welsh 1968
 
 
-```
+`Publication . Publication_Type not null VARCHAR2(21)`
 
-Publication . Publication_Type
+[`ctPublication_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE)
 
-not null VARCHAR2(21)
-
-[ctPublication_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE)
-
-```
 
 **Publication Type** describes the nature of the publication, and
 vocabulary is
 [controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE).
 
 
-```
-
-Publication . Publication_Year
-
-number, not null
-
-```
+`Publication . Publication_Year number, not null`
 
 **Published Year** is the year in which the publication occurred.  It is
 a four-digit integer, *e.g*., 1985.
 
 
-```
-
-Publication . Is_Peer_Reviewed_FG
-
-number(1), not null
-
-```
+`Publication . Is_Peer_Reviewed_FG number(1), not null`
 
 **Peer Review Flag** should be set to false for publications which have
 not undergone a formal peer review process, such as dissertations.
@@ -191,15 +162,10 @@ as publication agents.  Agent Name formatting is unimportant as
 formatted agent names are part of the full citation.
 
 
-```
+`Publication . Author_Role varchar2(255), not null`
 
-Publication . Author_Role
+[`ctAuthor_Role`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE)
 
-varchar2(255), not null
-
-[ctAuthor_Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE)
-
-```
 
 **Author Role** indicates whether the indicated agent is an actual
 author, or an editor of the publication. Vocabulary is
@@ -301,7 +267,7 @@ including the authors that we did not explicitly include
 <img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-16-30-pm.png"  width="233"
 height="222" />
 
-but we **canno**t find the publication by authors (as "Participants")
+but we **cannot** find the publication by authors (as "Participants")
 that we did not link to the publication.
 
 <img src="http://arctosdb.files.wordpress.com/2011/11/screen-shot-2011-11-28-at-12-17-20-pm.png"  width="252"

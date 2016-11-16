@@ -74,7 +74,7 @@ expiration_date is reached.
 
  
 
-**Un-Encumbering Specimens**
+## Un-Encumbering Specimens
 
 1.  Find the specimens from which you wish to remove an
     encumbrance SpecimenSearch.

@@ -5,7 +5,6 @@ layout: default_toc
 
 # Places
 
-<div class="entry-content">
 
 Places are described in Arctos using, independently, both coordinate and
 descriptive data. This is often conflicting. For example, the map below

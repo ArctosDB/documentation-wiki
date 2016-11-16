@@ -29,13 +29,7 @@ and an accession. This arrangement well reflects the reality of
 incompleted exchanges, and takes advantage of the fact that we are
 dealing with both outgoing specimens and incoming specimens.
 
-```
-
-Loans . Loan_Number
-
-VARCHAR(20) not null
-
-```
+`Loans . Loan_Number VARCHAR(20) not null`
 
 
 
@@ -45,13 +39,7 @@ A Loan "number" is a string identifying the loan. The format usually
 follows local tradition (*e.g.*, YYYY:nnn:Collection) but is
 uncontrolled.
 
-```
-
-Loans . Loan_Type
-
-VARCHAR not null
-
-```
+`Loans . Loan_Type VARCHAR not null`
 
 
 
@@ -63,13 +51,7 @@ vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_
 If multiple Types apply, consider separate loans for separate Types, or
 enter the most important one (*i.e.*, "returnable").
 
-```
-
-Loans . Loan_Status
-
-VARCHAR not null
-
-```
+`Loans . Loan_Status VARCHAR not null`
 
 
 
@@ -77,13 +59,7 @@ VARCHAR not null
 completed. The values comes from a [code-table controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_STATUS).
 
-```
-
-Loans . Loan_Agent_Role
-
-VARCHAR not null
-
-```
+`Loans . Loan_Agent_Role VARCHAR not null`
 
 
 
@@ -97,13 +73,7 @@ may not be the person physically receiving or using the material.
 Loan Agent Role is a [code-table controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTRANS_AGENT_ROLE).
 
-```
-
-Loans . Nature_of_Material
-
-VARCHAR not null
-
-```
+`Loans . Nature_of_Material VARCHAR not null`
 
 
 
@@ -112,52 +82,28 @@ the loan. This description will appear on the loan invoice. It should be
 explicit and concise, but it does not need include details on a
 specimen-by-specimen basis.
 
-```
-
-Loans . Instructions
-
-VARCHAR null
-
-```
+`Loans . Instructions VARCHAR null`
 
 
 
 **Instructions:** Directions to the borrower on such things as storage
 and return of the loaned items.
 
-```
-
-Loans . Description
-
-VARCHAR null
-
-```
+`Loans . Description VARCHAR null`
 
 
 
 **Description:** I don’t know? Why do we need another text field in
 addition to Nature of Material and Remarks?
 
-```
-
-Loans . Loan_Remarks
-
-VARCHAR null
-
-```
+`Loans . Loan_Remarks VARCHAR null`
 
 
 
 **Remarks:** Any annotations that will not be included on the Loan
 invoice.
 
-```
-
-Loans . Initiated_Date
-
-DATE not null
-
-```
+`Loans . Initiated_Date DATE not null`
 
 
 
@@ -165,13 +111,7 @@ DATE not null
 default value would be the date on which the loan was first recorded in
 the database.
 
-```
-
-Loans . Due_Date
-
-DATE null
-
-```
+`Loans . Due_Date DATE null`
 
 
 
@@ -180,13 +120,7 @@ to be returned to the lending collection. This date may be used to
 search for overdue loans, and/or to generate automated reminders to the
 appropriate agents.
 
-```
-
-Loans . Shipping_Date
-
-DATE null
-
-```
+`Loans . Shipping_Date DATE null`
 
 
 
@@ -195,26 +129,14 @@ the collection issuing the loan. The Shipping Date should be consistent
 with any documentation provided by the carrier, *e.g.,* a waybill, bill
 of lading, etc.
 
-```
-
-Loans . Receipt_Acknowledged_Date
-
-DATE null
-
-```
+`Loans . Receipt_Acknowledged_Date DATE null`
 
 
 
 **Receipt Acknowledged** is the date the agent receiving the loan
 submitted acknowledgment of its arrival to lending collection.
 
-```
-
-Loans . Returned_Date
-
-DATE null
-
-```
+`Loans . Returned_Date DATE null`
 
 
 
@@ -223,13 +145,7 @@ DATE null
 is the date that a loan of the type Returnable was received back at the
 collection from which the loan was issued.
 
-```
-
-Permit . Permit_ID
-
-INTEGER null
-
-```
+`Permit . Permit_ID INTEGER null`
 
 
 
@@ -241,13 +157,7 @@ Recording this information may be critical to reporting to the
 permit-issuing authority, and hence a legal requirement for conducting a
 loan.
 
-```
-
-Project . Project_ID
-
-INTEGER null
-
-```
+`Project . Project_ID INTEGER null`
 
 
 

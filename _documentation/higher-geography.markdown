@@ -23,13 +23,7 @@ below are intended to prevent (and even remedy) such inconsistencies.
 
 
 
-```
-
-Geo_Auth_Rec . Continent_Ocean
-
-VARCHAR(50) not null
-
-```
+`Geo_Auth_Rec . Continent_Ocean VARCHAR(50) not null`
 
 **Continent/Ocean:** All records in Higher Geography have a value in
 this field. A record with the value "no higher geography" is applied to
@@ -116,13 +110,7 @@ Russia is in Asia. Both are sometimes in Eurasia.
 
 
 
-```
-
-Geo_Auth_Rec . Country
-
-VARCHAR(50) null
-
-```
+`Geo_Auth_Rec . Country VARCHAR(50) null`
 
 **Country** is the familiar concept of first-level political entity,
 though various territorial claims complicate reality. We currently
@@ -140,13 +128,7 @@ France](../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.
 sizes="(max-width: 640px) 100vw, 640px"
 srcset="../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png 664w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-300x205.png 300w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-250x171.png 250w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-550x376.png 550w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-263x180.png 263w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-439x300.png 439w"}](../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png)
 France
-```
-
-Geo_Auth_Rec . State_Prov
-
-VARCHAR(75) null
-
-```
+`Geo_Auth_Rec . State_Prov VARCHAR(75) null`
 
 **State/Province:** These are primary subdivisions of a country, be they
 states, provinces, departments, or okrugs.
@@ -158,13 +140,7 @@ states, provinces, departments, or okrugs.
 
 
 
-```
-
-Geo_Auth_Rec . Sea
-
-VARCHAR(50) not null
-
-```
+`Geo_Auth_Rec . Sea VARCHAR(50) not null`
 
 **Seas** are defined as divisions of [oceans](#continent_ocean), but for
 a large proportion of open ocean, seas are not applicable. For example,
@@ -185,13 +161,7 @@ references occasionally offend common sense.)
 
 
 
-```
-
-Geo_Auth_Rec . County
-
-VARCHAR(50) null
-
-```
+`Geo_Auth_Rec . County VARCHAR(50) null`
 
 **County:** County is a second-level political subdivision of a county,
 regardless of local labels. "Primorsky Krai" is a County in the Far
@@ -201,13 +171,7 @@ possible. Note that administrative hierarchy rather than local
 terminology defines County: Montserrado County is a State in Liberia and
 does not belong in the County field.
 
-```
-
-Geo_Auth_Rec . Quad
-
-VARCHAR(30) null
-
-```
+`Geo_Auth_Rec . Quad VARCHAR(30) null`
 
 
 
@@ -222,13 +186,7 @@ as a suitable if large-scale "county substitute.")
 
 
 
-```
-
-Geo_Auth_Rec . Feature
-
-VARCHAR(50) null
-
-```
+`Geo_Auth_Rec . Feature VARCHAR(50) null`
 
 **Geographic Feature:** Features include named entities such as parks,
 preserves, refuges, and other delineated geo-political features. Feature
@@ -241,13 +199,7 @@ Feature.
 
 
 
-```
-
-Geo_Auth_Rec . Island_Group
-
-VARCHAR(50) null
-
-```
+`Geo_Auth_Rec . Island_Group VARCHAR(50) null`
 
 **Island Group** is defined as the largest island group or Archipelago
 to which an island belongs. Island groups within island groups should be
@@ -266,13 +218,7 @@ indicated in [Geographic Feature](#feature).
 
 
 
-```
-
-Geo_Auth_Rec . Island
-
-VARCHAR(50) null
-
-```
+`Geo_Auth_Rec . Island VARCHAR(50) null`
 
 **Island:** When a locality includes an island name, and the locality is
 on or near an island, then the name of the island should be included in
@@ -342,13 +288,7 @@ appropriate. Examples follow.
   North Pacific Ocean, Bering Sea, United States, Alaska                                                                                                            
   North America, United States, Alaska, Mt. McKinley Quad, Denali National Park and Preserve   http://en.wikipedia.org/wiki/Denali_National_Park_and_Preserve   There is no Wikipedia entry for the area of Alaska that’s within both DNP and a USGS quad
 
-```
-
-Geo_Auth_Rec . Higher_Geog
-
-VARCHAR(255) not null
-
-```
+`Geo_Auth_Rec . Higher_Geog VARCHAR(255) not null`
 
 **Higher Geography** (as a specific data field) is a the actual concatenation of the subdivisions described above. This is the value that is displayed in most applications.
 

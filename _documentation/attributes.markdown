@@ -25,15 +25,9 @@ This can be a useful node for exploring these values outside of the
 forms in which the vocabularies are used.
 
 
-```
+`Attributes . Attribute_Type VARCHAR(60) not null`
 
-Attributes . Attribute_Type
-
-VARCHAR(60) not null
-
-[ctAttribute_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
-
-```
+[`ctAttribute_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
 
 **Attribute Name** is the proper name of an Attribute. These should be
 unambiguous and match their usage in scientific literature as closely as
@@ -50,15 +44,10 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_
     control their specific vocabularies.
 
 
-```
+`Attributes . Attribute_Value VARCHAR(255) not null`
 
-Attributes . Attribute_Value
+[`ct_Attribute_Code_Tables`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
 
-VARCHAR(255) not null
-
-[ct_Attribute_Code_Tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
-
-```
 
 ## Attribute Value:
 
@@ -110,19 +99,14 @@ converted (or in any way modified or assumed), the verbatim value should
 be given in the [Attribute Remark](#remark).
 
 
-```
+`Attributes.Attribute_Units VARCHAR(60) null`
 
-Attributes.Attribute_Units
+[`ctLength_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
 
-VARCHAR(60) null
+[`ctNumeric_Age_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)
 
-[ctLength_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
+[`ctWeight_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
 
-[ctNumeric_Age_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)
-
-[ctWeight_Units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
-
-```
 
 **Attribute Units:** Numeric Attributes have values expressed in units
 such as grams, millimeters, and years. Different Attributes are
@@ -132,13 +116,7 @@ code tables in the "[code table of code
 tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)."
 
 
-```
-
-Attributes.Determination_Method
-
-VARCHAR(255) null
-
-```
+`Attributes.Determination_Method VARCHAR(255) null`
 
 **Method** is how the Attribute was determined. If the Method can be
 logically inferred, it is usually unspecified. Thus, Attributes such as
@@ -147,13 +125,7 @@ calipers, or another standard tool. In such cases, no value is recorded
 for Method.
 
 
-```
-
-Attributes.Attribute_Remark
-
-VARCHAR(255) null
-
-```
+`Attributes.Attribute_Remark VARCHAR(255) null`
 
 **Remark** is a comment about the Attribute. For example:
 
@@ -162,13 +134,7 @@ VARCHAR(255) null
 -   "verbatim: 7 3/16 inches"
 
 
-```
-
-Attributes.Determined_By_Agent_id
-
-integer, not null
-
-```
+`Attributes.Determined_By_Agent_id integer, not null`
 
 **Determiner** is the agent that determined the Value of the Attribute.
 Many Attributes are determined by either the collector or preparator of
@@ -178,13 +144,7 @@ this data was not recorded, the institution contributing the record has
 been used as a default value for Determiner.
 
 
-```
-
-Attributes . Determined_Date
-
-datetime, null
-
-```
+`Attributes . Determined_Date datetime, null`
 
 **Determined Date** is the [ISO8601](/documentation/dates/) date that
 the determination was made. Where this is unknown, the date that the

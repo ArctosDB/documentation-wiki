@@ -60,12 +60,10 @@ will always work, while admins may be less able to help with, for
 example, "protocol://some_domain/my/directory/structure/file name is
 out here.jpg"
 
-```
+`Media . MIME_TYPE VARCHAR2(255) not null`
 
-Media . MIME_TYPE VARCHAR2(255) not null
-[ctmime_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
+[`ctmime_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
 
-```
 
 ### Mime Type:
 
@@ -76,12 +74,9 @@ controlled, described in
 [Wikipedia](http://en.wikipedia.org/wiki/Mime_type).
 
 
-```
+`Media . MEDIA_TYPE VARCHAR2(255) not null`
+[`ctmedia_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type)
 
-Media . MEDIA_TYPE VARCHAR2(255) not null
-[ctmedia_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type)
-
-```
 
 ### Media Type:
 
@@ -101,12 +96,9 @@ preview might be something like a thumb-nail sized version of a larger
 image.
 
 
-```
+`Media_Relations . MEDIA_RELATIONSHIP VARCHAR2(40) not null`
+[`ctmedia_relationship`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship)
 
-Media_Relations . MEDIA_RELATIONSHIP VARCHAR2(40) not null
-[ctmedia_relationship](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship)
-
-```
 
 ### Media Relationship:
 
@@ -132,12 +124,9 @@ The data item to which the Media object is related. This is a foreign
 key.
 
 
-```
+`Media_Labels . MEDIA_LABEL VARCHAR2(255) not null`
+[`ctmedia_label`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label)
 
-Media_Labels . MEDIA_LABEL VARCHAR2(255) not null
-[ctmedia_label](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label)
-
-```
 
 ### Media Label:
 

@@ -15,13 +15,7 @@ after they were cited, or that were cited by some other identifier such
 as a field number.  A specimen citation includes:
 
 
-```
-
-Citation . Publication_ID (FK)
-
-INTEGER not null
-
-```
+`Citation . Publication_ID (FK) INTEGER not null`
 
 **Publication:** There cannot be a Citation until the Publication has
 been included in the database.  Because full citation includes a page
@@ -29,24 +23,12 @@ number, the best practice is to enter citations only when the
 publication is in its final form.
 
 
-```
-
-Citation . Identification_ID (FK)
-
-INTEGER not null
-
-```
+`Citation . Identification_ID (FK)INTEGER not null`
 
 **Specimen:** Citations link to, and ideally create, Identifications.
 
 
-```
-
-Citation . Occurs_Page_Number
-
-INTEGER null
-
-```
+`Citation . Occurs_Page_Number INTEGER null`
 
 **Publication Page Number** is the number of the first page on which the
 specific specimen is mentioned.  Referrals to the specimen on subsequent
@@ -54,15 +36,10 @@ pages within the same publication are ignored.
 
 
 
-```
+`Citation . Type_Status VARCHAR(20) not null`
 
-Citation . Type_Status
+[`ctcitation_type_status`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status)
 
-VARCHAR(20) not null
-
-[ctcitation_type_status](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status)
-
-```
 
 **Basis of Citation** describes the context in which the specimen was
 cited.  It is possible that one specimen was cited in more than one
@@ -72,13 +49,7 @@ which the specimen is cited.  Vocabulary is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status).
 
 
-```
-
-Citation . identification_id (FK)
-
-INTEGER not null
-
-```
+`Citation . identification_id (FK) INTEGER not null`
 
 **Cited As** is the Identification.Scientific_Name to which the
 author(s) applied the specimen in the publication.  Sometimes this must
@@ -92,13 +63,8 @@ family. It is preferable to create Identifications *sensu* the
 publication, even when the publication does not explicitly create names
 or re-identify specimens, as doing so supports more-detailed queries.
 
-```
 
-citation.cfm
-
-```
-
-### **Creating Specimen Citations**
+### Creating Specimen Citations
 
 Citations are a linkage between a cataloged item (via Identifications)
 and a page in a publication. They contain little information, being
@@ -122,7 +88,9 @@ specimen.  You then select the scientific name by which the publication
 cited the item.
 
 
-**Erroneous Citations:** In entering Cited As determinations and
+### Erroneous Citations
+
+In entering Cited As determinations and
 comparing them to current determinations, errors within the publication
 sometimes become evident.  For example the cited specimen is described
 as a walrus in the publication, but the published catalog number
@@ -152,11 +120,6 @@ cited as MVZ 125456."  With this, anyone coming from the publication
 should be able to find their way to the correct meaning.
 
 
-```
-
-BulkloadCitations.cfm
-
-```
 
 ## Bulk-loading Citations
 
@@ -171,7 +134,7 @@ the Tool tab.
 
 
 
-### **Searching Specimen Citations**
+### Searching Specimen Citations
 
 Searching for specimens by the nature of their citation, or for
 specimens that have been cited, can be done from the "Usage" segment of

@@ -40,17 +40,11 @@ prevent accurately representing the data.
 
 
 
-```
+`collecting_event . Orig_Lat_long_Units VARCHAR(20) null`
 
-collecting_event . Orig_Lat_long_Units
+[`ctlat_long_units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS)
 
-VARCHAR(20) null
-
-[ctlat_long_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS)
-
-DarwinCore2=VerbatimCoordinateSystem
-
-```
+`DarwinCore2=VerbatimCoordinateSystem`
 
 **Original Units** for geographic coordinates vary with the source of
 the data.  Classically, latitude and longitude have been recorded in
@@ -70,17 +64,11 @@ the original data.
 
 
 
-```
+`Collecting_Event . Datum VARCHAR(40) null`
 
-Collecting_Event . Datum
+[`ctdatum`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum)
 
-VARCHAR(40) null
-
-[ctdatum](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum)
-
-DarwinCore2=GeodeticDatum
-
-```
+`DarwinCore2=GeodeticDatum`
 
 **Datum:** The geodetic datum to which the latitude and longitude refer.
 A geodetic datum describes the size, shape, origin, and orientation of a
@@ -95,17 +83,11 @@ this information as well.
 
 
 
-```
+`Locality . GEOREFERENCE_SOURCE VARCHAR(255) not null`
 
-Locality . GEOREFERENCE_SOURCE
+[`ctGEOREFERENCE_SOURCE`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_SOURCE "Georefrence Source")
 
-VARCHAR(255) not null
-
-[ctGEOREFERENCE_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_SOURCE "Georefrence Source")
-
-DarwinCore2=GeoreferenceSources
-
-```
+`DarwinCore2=GeoreferenceSources`
 
 **Reference Source(s)** refers to the source of the coordinates and not
 to the source of the error. Coordinates may be original data collected
@@ -135,15 +117,10 @@ with the specimen. Examples:
 
 
 
-```
+`Locality.GEOREFERENCE_PROTOCOL VARCHAR(40) not null`
 
-Locality.GEOREFERENCE_PROTOCOL
+[`ctGEOREFERENCE_PROTOCOL`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_PROTOCOL "GEOREFERENCE_PROTOCOL")
 
-VARCHAR(40) not null
-
-[ctGEOREFERENCE_PROTOCOL](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_PROTOCOL "GEOREFERENCE_PROTOCOL")
-
-```
 
 **Georeference Method** is the protocol used to obtain the values for
 the coordinates and the measure of precision. Different methods and
@@ -154,27 +131,14 @@ for this field is controlled.
 
 
 
-```
+`Lat_Long . Max_Error_Distance NUMBER null`
 
-Lat_Long . Max_Error_Distance
+`DarwinCore2=CoordinateUncertaintyInMeters`
 
-NUMBER null
 
-DarwinCore2=CoordinateUncertaintyInMeters
+`Lat_Long . Max_Error_Units VARCHAR2(2) null`
 
-```
-
-`—`
-
-```
-
-Lat_Long . Max_Error_Units
-
-VARCHAR2(2) null
-
-```
-
-`[ctlat_long_error_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_error_units "Distance Units")`
+[`ctlat_long_error_units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_error_units "Distance Units")
 
 **Maximum Uncertainty Distance** is the upper limit of the horizontal
 (as opposed to elevational) distance from the reported latitude and
@@ -213,13 +177,7 @@ here) to the value in meters.
 
 
 
-```
-
-Lat_Long . Determined_By_Agent_id
-
-INT not null
-
-```
+`Lat_Long . Determined_By_Agent_id INT not null`
 
 **Determiner** is the
 [agent](http://arctosdb.wordpress.com/documentation/agent/ "Agents")
@@ -246,13 +204,7 @@ accepted determination.
 
 
 
-```
-
-Lat_Long . Determined_Date
-
-DATETIME null
-
-```
+`Lat_Long . Determined_Date DATETIME null`
 
 **Determination Date** is the [ISO8601](/documentation/dates/) date that
 the determination was made. Entry/editing forms load with the current
@@ -260,17 +212,11 @@ date as a default for new records.
 
 
 
-```
+`Lat_Long . VerificationStatus VARCHAR(40) not null`
 
-Lat_Long . VerificationStatus
+[`ctverificationstatus`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")
 
-VARCHAR(40) not null
-
-[ctverificationstatus](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")
-
-DarwinCore2=GeoreferenceVerificationStatus
-
-```
+`DarwinCore2=GeoreferenceVerificationStatus`
 
 **Verification Status:** A categorical description of the extent to
 which the georeference has been verified to represent the location where
@@ -286,13 +232,7 @@ possible.
 
 
 
-```
-
-Lat_Long . Accepted_Lat_Long_fg
-
-TINYINT not null
-
-```
+`Lat_Long . Accepted_Lat_Long_fg TINYINT not null`
 
 **Accepted?**  There can be more than one georeferencing determination
 per locality but only the accepted determination is routinely displayed.
@@ -301,15 +241,9 @@ flag from "no" to "yes."
 
 
 
-```
+`Lat_Long . Lat_Long_Remarks VARCHAR2(4000) null`
 
-Lat_Long . Lat_Long_Remarks
-
-VARCHAR2(4000) null
-
-DarwinCore2=GeoreferenceRemarks
-
-```
+`DarwinCore2=GeoreferenceRemarks`
 
 **Remarks** about the spatial description determination, explaining
 assumptions made in addition or opposition to the those formalized in
@@ -317,7 +251,7 @@ the method referred to in [Georeference Method](#georefmethod).
 
 
 
-### **Spatial Query**
+### Spatial Query
 
 -   Click the select icon
     ([![](../images/classic-uploads/2011/09/selector.png "selector"){.alignnone

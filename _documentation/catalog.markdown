@@ -82,13 +82,7 @@ specimens](#delete) for guidelines. All specimen citations should occur
 by way of GUID.
 
 
-```
-
-Collection . Collection
-
-VARCHAR2(15) not null
-
-```
+`Collection . Collection VARCHAR2(15) not null`
 
 **Collection:**  A short name for a particular collection type. For
 example:
@@ -96,13 +90,7 @@ example:
 -   Mammal Specimens
 
 
-```
-
-Collection . Collection_Cde
-
-VARCHAR2(4) not null
-
-```
+`Collection . Collection_Cde VARCHAR2(4) not null`
 
 **Collection Code:** This is an abbreviation for a collection type, such
 as "Mamm" or "Bird." ([code
@@ -114,13 +102,7 @@ using an attribute such as ear length, and you do not have to see
 irrelevant attributes such as beak length.
 
 
-```
-
-Collection . Desc
-
-VARCHAR2(255) not null
-
-```
+`Collection . Desc VARCHAR2(255) not null`
 
 **Description:**
 
@@ -132,13 +114,7 @@ An extended name/description of the collection. For example:
 -   Kenelm W. Philip lepidoptera collection
 
 
-```
-
-Collection . Institution_Acronym
-
-VARCHAR2(20) not null
-
-```
+`Collection . Institution_Acronym VARCHAR2(20) not null`
 
 **Institution Acronym:** Abbreviation of the institution that hosts the
 catalog. For example, "MVZ" for Museum of Vertebrate Zoology, "UAM" for
@@ -160,7 +136,7 @@ numbers. The data available for searching vary wildly based on what
 collectors have recorded and what collections have entered. Some
 exploration is often involved in finding a particular set of specimens.
 
-****Other IDs****
+### Other IDs
 
 Along with catalog numbers, Arctos provides the capacity to attach any
 number of [identifiers of various
@@ -272,10 +248,10 @@ The in range option works only for enforced-integer types of identifiers
 (currently only AF and NK). Attempting to use it for collector number
 will result in a datatype mismatch and return an error.
 
-**Three-part search to the rescue! (At
+Three-part search to the rescue! (At
 least in the cases where data are entered correctly.) All of the above
 deal with the concatenation of prefix, number, and suffix. It is also
-possible to search these independently. Search for intege**r
+possible to search these independently. Search for integer
 component=1234:
 
 <div class="separator" style="clear:both;text-align:center">
