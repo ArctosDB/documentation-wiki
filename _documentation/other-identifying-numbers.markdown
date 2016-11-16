@@ -270,7 +270,9 @@ Many Other IDs have been entered entirely in Prefix. Note also that you
 may specify Prefix and/or Suffix in the 3-part search boxes to produce
 SQL like:
 
-`...AND customIdentifier.other_id_type = 'ALAAC' AND upper(customIdentifier.other_id_prefix) LIKE '%I TYPED THIS IN THE PREFIX BOX%' AND customIdentifier.other_id_number between 50000 and 50110`
+```
+...AND customIdentifier.other_id_type = 'ALAAC' AND upper(customIdentifier.other_id_prefix) LIKE '%I TYPED THIS IN THE PREFIX BOX%' AND customIdentifier.other_id_number between 50000 and 50110
+```
 
 
 The "**contains/is/in list**" option works as follows:
@@ -279,9 +281,8 @@ The "**contains/is/in list**" option works as follows:
     value), so that search term "1" finds "1" and "12" and "21"
 -   ***is*** matches the entire concatenation. Search term "1" finds
     only "1", not "11" or "{space}1"
--   ***in list*** matches entire terms, with **<span
-    style="color:#993300">delimiters and spaces removed from the search
-    term</span>**. Search terms "1, 2", "1,2", "1 2", "1;2" all find
+-   ***in list*** matches entire terms, with **delimiters and spaces removed from the search
+    term**. Search terms "1, 2", "1,2", "1 2", "1;2" all find
     exactly and only "1" and "2". There is no way by which an "in list"
     search can find other ID "1 2" or "1;2"; use one of the other
     options to find such values.
