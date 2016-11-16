@@ -93,7 +93,9 @@ concepts, such as plants and animals.
 
 `Common_Name . Common_Name VARCHAR2 (20) null`
 
-**Common Names** are intended to help users find what they are looking
+## Common Names
+
+ are intended to help users find what they are looking
 for, and not to propagate any standard or system. A taxon may have
 several common names, in several languages and using several types of
 characters, or nothing. The same common name may apply to more than one
@@ -109,14 +111,18 @@ particular standard such as that of the American Ornithological Union
 
 `cttaxon_relation`
 
-**Taxon Relations** are comprised of a relationship type, a related
+## Taxon Relations
+
+ are comprised of a relationship type, a related
 taxon, and an authority for the relationship. The related taxon is
 another record in the taxonomy table.
 
 
 `Taxon_Relations . Relationship_Authority VARCHAR2 (45) null`
 
-**Relationship Authority** is an open text field, and it may be `null`.
+## Relationship Authority
+
+ is an open text field, and it may be `null`.
 Presumably the [Source Authority](#source_authority) for an accepted
 taxon is adequate documentation, but if not, then Relationship Authority
 could cite a publication or the name of an expert to whom the
@@ -450,7 +456,9 @@ The ordering of these terms is unimportant, and un-paired terms (e.g.,
 display_name=`NULL` or `NULL`="Sorex cinereus") will be ignored (that is,
 deleted at save).
 
-**Classification terms** are ordered taxonomic data (drag rows to
+## Classification terms
+
+ are ordered taxonomic data (drag rows to
 order). Ranks are optional; the following mixture of ordered ranked and
 unranked terms is possible (and common):
 

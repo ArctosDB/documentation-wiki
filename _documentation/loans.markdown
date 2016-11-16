@@ -55,7 +55,9 @@ enter the most important one (*i.e.*, "returnable").
 
 
 
-**Status** is essentially the degree to which the transaction has been
+## Status
+
+ is essentially the degree to which the transaction has been
 completed. The values comes from a [code-table controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_STATUS).
 
@@ -63,7 +65,9 @@ vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_
 
 
 
-**Loan Agents** Agents (generally people) are associated with loans in
+## Loan Agents
+
+ Agents (generally people) are associated with loans in
 various capacities, and these vary among collections. At a minimum, a
 loan is authorized by at least one person and received by another
 person. Some collections require multiple authorizations, and at the
@@ -77,7 +81,9 @@ vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTRANS
 
 
 
-**Nature of Material:** A description summarizing the overall content of
+## Nature of Material
+
+ A description summarizing the overall content of
 the loan. This description will appear on the loan invoice. It should be
 explicit and concise, but it does not need include details on a
 specimen-by-specimen basis.
@@ -86,28 +92,36 @@ specimen-by-specimen basis.
 
 
 
-**Instructions:** Directions to the borrower on such things as storage
+## Instructions
+
+ Directions to the borrower on such things as storage
 and return of the loaned items.
 
 `Loans . Description VARCHAR null`
 
 
 
-**Description:** I don’t know? Why do we need another text field in
+## Description
+
+ I don’t know? Why do we need another text field in
 addition to Nature of Material and Remarks?
 
 `Loans . Loan_Remarks VARCHAR null`
 
 
 
-**Remarks:** Any annotations that will not be included on the Loan
+## Remarks
+
+ Any annotations that will not be included on the Loan
 invoice.
 
 `Loans . Initiated_Date DATE not null`
 
 
 
-**Initiated Date** is the date on which preparation of the loan began. A
+## Initiated Date
+
+ is the date on which preparation of the loan began. A
 default value would be the date on which the loan was first recorded in
 the database.
 
@@ -115,7 +129,9 @@ the database.
 
 
 
-**Due Date** is the date that a loan of the Type Returnable is expected
+## Due Date
+
+ is the date that a loan of the Type Returnable is expected
 to be returned to the lending collection. This date may be used to
 search for overdue loans, and/or to generate automated reminders to the
 appropriate agents.
@@ -124,7 +140,9 @@ appropriate agents.
 
 
 
-**Shipping Date** is the date that the loaned material was shipped from
+## Shipping Date
+
+ is the date that the loaned material was shipped from
 the collection issuing the loan. The Shipping Date should be consistent
 with any documentation provided by the carrier, *e.g.,* a waybill, bill
 of lading, etc.
@@ -133,7 +151,9 @@ of lading, etc.
 
 
 
-**Receipt Acknowledged** is the date the agent receiving the loan
+## Receipt Acknowledged
+
+ is the date the agent receiving the loan
 submitted acknowledgment of its arrival to lending collection.
 
 `Loans . Returned_Date DATE null`
@@ -149,7 +169,9 @@ collection from which the loan was issued.
 
 
 
-**Permits:** A loan may be authorized under one or more
+## Permits
+
+ A loan may be authorized under one or more
 [permits](permit.html), and these may include both the senders and to
 the recipients. Such authorizations should be recorded by associating
 the loan with a permit that must be already be in the database.
@@ -161,13 +183,17 @@ loan.
 
 
 
-**Projects:** A loan is almost always made in support of one or more
+## Projects
+
+ A loan is almost always made in support of one or more
 [projects](project.html), and it is in project descriptions that the
 scientific justification for the loan should be described.
 
 
 
-**Data loans** document data usage, and are generally used when a
+## Data loans
+
+ document data usage, and are generally used when a
 project downloads data from Arctos without examining specimens. Data
 loans form a special relationship between a loan and a cataloged item,
 rather than a loan and a specimen part. Data loans are not meant as a

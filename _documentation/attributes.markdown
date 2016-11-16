@@ -29,7 +29,9 @@ forms in which the vocabularies are used.
 
 [`ctAttribute_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
 
-**Attribute Name** is the proper name of an Attribute. These should be
+## Attribute Name
+
+is the proper name of an Attribute. These should be
 unambiguous and match their usage in scientific literature as closely as
 possible.  These names of Attributes are listed, defined, and linked to
 particular types of collections, in an another [code
@@ -80,7 +82,9 @@ appropriate vocabulary for controlled vocabulary are set by a by a
 tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)."
 
 
-**Conversion of fractional values:**  Numeric values are sometimes
+## Conversion of fractional values
+
+Numeric values are sometimes
 reported in the numerator/denominator format.  For example, total length
 = 7 3/16 inches.  Such values must be converted to decimal fractions in
 order to be represented as a numeric data type.  In making such
@@ -108,7 +112,9 @@ be given in the [Attribute Remark](#remark).
 [`ctWeight_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
 
 
-**Attribute Units:** Numeric Attributes have values expressed in units
+## Attribute Units
+
+Numeric Attributes have values expressed in units
 such as grams, millimeters, and years. Different Attributes are
 described in different units, so there are code tables for units of
 weight, length, and time.  Numeric Attributes are assigned one of these
@@ -118,7 +124,9 @@ tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE
 
 `Attributes.Determination_Method VARCHAR(255) null`
 
-**Method** is how the Attribute was determined. If the Method can be
+## Method
+
+is how the Attribute was determined. If the Method can be
 logically inferred, it is usually unspecified. Thus, Attributes such as
 length measurements are assumed to have been taken with rulers,
 calipers, or another standard tool. In such cases, no value is recorded
@@ -127,7 +135,9 @@ for Method.
 
 `Attributes.Attribute_Remark VARCHAR(255) null`
 
-**Remark** is a comment about the Attribute. For example:
+## Remark
+
+is a comment about the Attribute. For example:
 
 -   "Transcribed from collector’s journal."
 -   "Weighed after substantial loss of blood."
@@ -136,7 +146,9 @@ for Method.
 
 `Attributes.Determined_By_Agent_id integer, not null`
 
-**Determiner** is the agent that determined the Value of the Attribute.
+## Determiner
+
+is the agent that determined the Value of the Attribute.
 Many Attributes are determined by either the collector or preparator of
 the specimen, but often Attributes are determined at a later time by an
 investigator using the specimen. In the many specimen records for which
@@ -146,7 +158,9 @@ been used as a default value for Determiner.
 
 `Attributes . Determined_Date datetime, null`
 
-**Determined Date** is the [ISO8601](/documentation/dates/) date that
+## Determined Date
+
+is the [ISO8601](/documentation/dates/) date that
 the determination was made. Where this is unknown, the date that the
 specimen record was moved into the database has been used as a default
 value, meaning essentially that the determination was made before this

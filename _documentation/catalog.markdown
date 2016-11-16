@@ -24,15 +24,11 @@ cataloged at more than one institution. The term "specimen" is uses
 synonymously with "cataloged item" throughout Arctos.
 
 
-```
+`Cataloged_Item . Cat_Num NUMBER not null`
 
-Cataloged_Item . Cat_Num
+## Catalog Number
 
-NUMBER not null
-
-```
-
-**Catalog Number** is the string (sometimes integer) assigned to a
+ is the string (sometimes integer) assigned to a
 Cataloged Item. It must be unique (case-insensitive) within a particular
 catalog. Arctos currently supports three formats of catalog number.
 
@@ -84,7 +80,9 @@ by way of GUID.
 
 `Collection . Collection VARCHAR2(15) not null`
 
-**Collection:**  A short name for a particular collection type. For
+## Collection
+
+  A short name for a particular collection type. For
 example:
 
 -   Mammal Specimens
@@ -92,7 +90,9 @@ example:
 
 `Collection . Collection_Cde VARCHAR2(4) not null`
 
-**Collection Code:** This is an abbreviation for a collection type, such
+## Collection Code
+
+ This is an abbreviation for a collection type, such
 as "Mamm" or "Bird." ([code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde))
 This field is most importantly used in code tables, which determine the
@@ -104,7 +104,9 @@ irrelevant attributes such as beak length.
 
 `Collection . Desc VARCHAR2(255) not null`
 
-**Description:**
+## Description
+
+
 
 An extended name/description of the collection. For example:
 
@@ -116,7 +118,9 @@ An extended name/description of the collection. For example:
 
 `Collection . Institution_Acronym VARCHAR2(20) not null`
 
-**Institution Acronym:** Abbreviation of the institution that hosts the
+## Institution Acronym
+
+ Abbreviation of the institution that hosts the
 catalog. For example, "MVZ" for Museum of Vertebrate Zoology, "UAM" for
 University of Alaska Museum (of the North), "MSB" for Museum of
 Southwestern Biology.  Generally, these values are the same as those

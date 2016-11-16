@@ -61,7 +61,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type
 
 
 
-**Persons:**
+## Persons
 
 Data about a person-agent can first, middle, and last names (and must
 include at least one "person name"). Prefix and Suffix (formerly
@@ -146,7 +146,7 @@ Groups may be useful for things like collecting expeditions.
 All agents must have one and only one "preferred name".  An agent can
 have any number of other names.
 
-`Agent_Name . Agent_Name_Type VARCHAR2(18) not null ctagent_name_type`
+`Agent_Name . Agent_Name_Type VARCHAR2(18) not null`
 
 
 
@@ -268,7 +268,7 @@ duplicates, but do in fact refer to separate agents.
 ### Different Agent, Same Name
 
 Occasionally, two distinct agents will share a name, but there exists a
-unique key on preferred_name so duplicate preferred names are not
+unique key on `preferred_name` so duplicate preferred names are not
 possible. With some research, it is usually possible to disambiguate the
 agents by adding initials, middle names, or nicknames. If that is not
 possible, it may be necessary to add parenthetical information to the
@@ -281,7 +281,7 @@ remarks.
 Without the unique key, applications which use strings to identify
 agents, such as the specimen bulkloader, cannot use preferred names, and
 it becomes necessary to add unique aliases to pick agents. (Internal
-forms pick by agent_id and names are only "human-readable proxies" to
+forms pick by `agent_id` and names are only "human-readable proxies" to
 the ID.) The current unique index approach seems less problematic than
 the alternative, both in getting students to choose the correct agent
 and in avoiding duplicate agent creation, but neither method is ideal.
@@ -296,32 +296,48 @@ are case-insensitive substring matches. You may also include the special
 characters \_ and % to match any single character or any string,
 respectively.
 
-**[Any part of any name]()** is appropriate for most exploratory
+### [Any part of any name]()
+
+is appropriate for most exploratory
 searching. It matches any name, including preferred, AKAs, name
 components, and login name.
 
-**Agent Type** matches values used in the [code
+### Agent Type
+
+matches values used in the [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE).
 
-**Agent ID** matches the (internal, primary key) agent_id (an
+### Agent ID
+
+matches the (internal, primary key) agent_id (an
 integer).
 
-**Agent Name Type** matches values used in a [code table. Corresponding
+### Agent Name Type
+
+matches values used in a [code table. Corresponding
 field](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_NAME_TYPE)
 
-**Agent Name** matches names of the chosen type.
+### Agent Name
 
-**Address** matches any part of [any
+matches names of the chosen type.
+
+### Address
+
+matches any part of [any
 address](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTADDRESS_TYPE),
 including mailing addresses, telephone numbers, and email addresses.
 
-**Agent Status** matches values from a [code
+### Agent Status
+
+matches values from a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS).
 This may be combined with "**Match**" and **Status Date** to locate
 agents reported in an event, agents having an event on a date, or events
 happening on, before, or after a given date.
 
-**Created By** (and corresponding **match** types and **Created Date**)
+### Created By
+
+(and corresponding **match** types and **Created Date**)
 may be used to find agents created by an agent, agents created by an
 agent on/before/after a date, or agents created on/before/after a date.
 

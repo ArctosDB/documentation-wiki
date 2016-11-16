@@ -56,7 +56,9 @@ freezer).
 [`ctcontainer_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcontainer_type)
 
 
-**Container Type:** Vials, jars, boxes, shelves, and rooms are all
+## Container Type
+
+ Vials, jars, boxes, shelves, and rooms are all
 Container Types.
 [Vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)
 is controlled, and should be limited to unambiguous and mutually
@@ -91,7 +93,9 @@ Labels and entered into forms by their Barcode.
 
 `Container . Barcode VARCHAR(50) null`
 
-**Barcode:** Within the database, a barcode is a string of characters
+## Barcode
+
+ Within the database, a barcode is a string of characters
 unique to a container. Most barcode values are meaningless "dumb
 numbers" that serve simply to associate a physical container with the
 information about the container.
@@ -124,7 +128,9 @@ known barcode values.
 
 `Container . Label VARCHAR(255) not null`
 
-**Label** is the descriptive value that is displayed in most of our
+## Label
+
+ is the descriptive value that is displayed in most of our
 object-tracking applications. It should usually represent something that
 appears on the container. In many cases, this will be the value of the
 barcode which is displayed in human-readable fonts on most barcode
@@ -148,7 +154,9 @@ in Freezer 6 is "Frzr6 6-B," not just "6-B."
 
 `Container . Description VARCHAR(255) null`
 
-**Description** is a useful expansion of Label. "Room 363" is useful as
+## Description
+
+ is a useful expansion of Label. "Room 363" is useful as
 a label, but something like "The processing room in the south wing of
 the Biology Annex" may be expeditious.
 
@@ -156,7 +164,9 @@ the Biology Annex" may be expeditious.
 
 `Container_History . Install_Date DATETIME not null`
 
-**Install Date** This is the date on which the Parent Container was last
+## Install Date
+
+ This is the date on which the Parent Container was last
 changed, *i.e.*, the date on which the Container was placed in its
 parent.
 
@@ -174,7 +184,9 @@ legacy containers (*i.e.,* containers without barcode labels).
 
 `Container . print_fg NUMBER(1) null`
 
-**Print Flag** is a temporary flag that can be set for the purpose of
+## Print Flag
+
+ is a temporary flag that can be set for the purpose of
 printing container labels.
 
 
@@ -211,7 +223,9 @@ Some common container dimensions:
 
 `Container . Number_Positions INTEGER null`
 
-**Number of Positions:** Some containers have immovable subcontainers of
+## Number of Positions
+
+ Some containers have immovable subcontainers of
 the Container Type Position. For example, many freezer boxes designed to
 contain cryovials have either 81 (9 X 9 rows) or 100 (10 X 10 rows)
 subdivisions, or fixed positions, for cryovials. Recording the number of
@@ -223,7 +237,9 @@ as scanning cryovials into a 100-position freezer box versus an
 
 `Container . institution_acronym VARCHAR(20) not null`
 
-**Institution** is an abbreviation that indicates which institution’s
+## Institution
+
+ is an abbreviation that indicates which institution’s
 "owns" a container. ("Owns" because containers are in fact shared across
 VPD boundaries; this is closer to an indication of creator.)
 

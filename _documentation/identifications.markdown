@@ -27,7 +27,9 @@ identifications are wrong. In fact, complimentary IDs by experts or by
 alternative methods enhance the value of the specimen.
 
 
-**Scientific Name:** There is a distinction between Scientific Name here
+## Scientific Name
+
+ There is a distinction between Scientific Name here
 in determinations, as opposed to [Scientific Name as it is used in the
 taxonomy table](taxonomy/#scientific_name). The latter is a term from a
 table serving as a taxonomic look-up (or authority). Here, it is a
@@ -110,7 +112,9 @@ The following table is illustrative.
 
 `Identification . Made_By_Agent_id NUMBER not null (FK)`
 
-**Determiner:** The determiner is the [agent](agent) (or agents, usually
+## Determiner
+
+ The determiner is the [agent](agent) (or agents, usually
 a person) who identified the specimen. More than one agent can be
 entered. The order in which such co-determiners are displayed is set in
 the form by the order in which they were added to the determination. To
@@ -120,7 +124,9 @@ the determiners in the desired order, then delete the old record.
 
 `Identification . Made_Date DATE null`
 
-**Determined Date:** [ISO8601](/documentation/dates/) date-type. The
+## Determined Date
+
+ [ISO8601](/documentation/dates/) date-type. The
 chronological order of determinations may be the most critical issue.
 
 `Identification . Nature_Of_ID VARCHAR2 (30) not null`
@@ -130,7 +136,9 @@ chronological order of determinations may be the most critical issue.
 
 
 
-**Nature of ID:** The basis of the identification. Vocabulary is defined
+## Nature of ID
+
+ The basis of the identification. Vocabulary is defined
 in, and controlled by, a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id).
 
@@ -157,7 +165,9 @@ provided by Some Author").
 
 `Identification . Remarks VARCHAR2 255`
 
-**Remarks** can elaborate or clarify any signficant aspect of a
+## Remarks
+
+ can elaborate or clarify any signficant aspect of a
 determination.  This is a good place for recording the verbatim form of
 a [Determined Date](#id_date) if it was not recorded as an exact day.
 

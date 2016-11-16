@@ -32,15 +32,17 @@ address.
 Note: "Changes" do not include the addition or removal of linebreak
 (chr(10) and chr(13)) characters, spaces, or commas.
 
-## Address Type
+## Fields
 
-**Address Type:** The kind of address, or how the address is used. The
+### Address Type
+
+The kind of address, or how the address is used. The
 vocabulary is controlled by
 [ctaddress_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctaddress_type).
 
-## Address
+### Address
 
-Address: The address string. Control (*e.g.*, linefeed) characters are
+The address string. Control (*e.g.*, linefeed) characters are
 allowed in mailing addresses, which will display in a textarea on the
 edit agent form. Other address types use HTML5 datatype controls.
 Mailing or shipping addresses should be of the format:
@@ -59,9 +61,9 @@ foreign shipments, and should therefore include country code. Phone
 numbers should include country and area codes, URIs should include
 protocol (http://), etc.
 
-## Remarks
+### Remarks
 
-**Remarks:** Any necessary explanation of the address. Examples might
+Any necessary explanation of the address. Examples might
 include:
 
 -   Sabbatical address during academic year 04/05.
@@ -70,10 +72,10 @@ include:
 
 `addr . valid_addr_fg NUMBER not null`
 
-## Valid Flag
+### Valid Flag
 
 
-**Valid?:** A flag indicating whether or not the address is still valid.
+A flag indicating whether or not the address is still valid.
 Invalid (old, or corrected) addresses are maintained against the
 possibility that they might be needed to resolve a lost shipment. Please
 invalidate any addresses as necessary.

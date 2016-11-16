@@ -51,7 +51,9 @@ locality.
 
 `Locality . Spec_Locality VARCHAR2 (255) null`
 
-**Specific Locality** refers to the locality from which the specimen was
+## Specific Locality
+
+ refers to the locality from which the specimen was
 collected from the wild, regardless of whether the animal was brought
 into captivity and killed at a different time and place.  If the
 wild-caught locality is not known, put the location where the animal
@@ -198,7 +200,9 @@ ctorig_elev_units
 
 ```
 
-**Elevations** are a height above mean sea level.  If elevation data are
+## Elevations
+
+ are a height above mean sea level.  If elevation data are
 part of the verbatim locality, they should be entered into Minimum
 Elevation, Maximum Elevation, and Elevation Units (ft, m).  If the
 Verbatim Locality contains a range for an elevation, e.g., 500-600 ft,
@@ -227,7 +231,9 @@ ctdepth_units
 
 ```
 
-**Depths** are a distance below the surface of a body of water.  The
+## Depths
+
+ are a distance below the surface of a body of water.  The
 body of water may or may not be at sea level, *e.g.,* a mountain lake. 
 If depth data are part of the verbatim locality, they should be entered
 three fields for elevation: Minimum Depth, Maximum Depth, and Depth
@@ -273,7 +279,9 @@ to latitude and longitude can be found at the following URL:
 
 
 
-**NoGeorefBecause** is should always be `NULL` for localities with
+## NoGeorefBecause
+
+ is should always be `NULL` for localities with
 coordinate determinations.  Otherwise, it may be used to indicate
 problems with georeferencing the locality, resources needed to
 georeference, or anything else about the lack of coordinate
@@ -281,7 +289,9 @@ determinations.
 
 
 
-**WKT Polygon** provides for a [well-known
+## WKT Polygon
+
+ provides for a [well-known
 text](https://en.wikipedia.org/wiki/Well-known_text) shape associated
 with locality data.
 

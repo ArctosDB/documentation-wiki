@@ -53,7 +53,9 @@ organization requiring the restriction. This agent may act in an
 advisory role; final authority to remove encumbrances rests with the
 collection.
 
-**Encumbrance Name:** Encumbrances are described with a name. This name
+## Encumbrance Name
+
+ Encumbrances are described with a name. This name
 should be as general as possible with the aim of avoiding separate
 encumbrances when the encumbrancer and the encumbering action are the
 same. (If possible, additional specimens should be added to existing
@@ -62,7 +64,9 @@ Really. Don’t.
 
 
 
-**Expiration Date:** All encumbrances should be temporary, and
+## Expiration Date
+
+ All encumbrances should be temporary, and
 encumbrances must be periodically reviewed. De-accession should be
 considered for permanently-encumbered specimens.Yearly email
 notifications are provided to collection staff, and encumbrances may be

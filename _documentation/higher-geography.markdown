@@ -112,7 +112,9 @@ Russia is in Asia. Both are sometimes in Eurasia.
 
 `Geo_Auth_Rec . Country VARCHAR(50) null`
 
-**Country** is the familiar concept of first-level political entity,
+## Country
+
+ is the familiar concept of first-level political entity,
 though various territorial claims complicate reality. We currently
 recognize Greenland as a country and not as a state in Denmark. (It
 would not occur to most users to search for muskox from Denmark.)
@@ -142,7 +144,9 @@ states, provinces, departments, or okrugs.
 
 `Geo_Auth_Rec . Sea VARCHAR(50) not null`
 
-**Seas** are defined as divisions of [oceans](#continent_ocean), but for
+## Seas
+
+ are defined as divisions of [oceans](#continent_ocean), but for
 a large proportion of open ocean, seas are not applicable. For example,
 the waters north of Point Barrow, Alaska are in the Arctic Ocean but are
 in neither the Chukchi nor Bering seas. Similarly, the coastal waters of
@@ -163,7 +167,9 @@ references occasionally offend common sense.)
 
 `Geo_Auth_Rec . County VARCHAR(50) null`
 
-**County:** County is a second-level political subdivision of a county,
+## County
+
+ County is a second-level political subdivision of a county,
 regardless of local labels. "Primorsky Krai" is a County in the Far
 Eastern Federal District (a State) of Russia. Localities should be
 referenced to county, parish or equivalent political subdivision when
@@ -177,7 +183,9 @@ does not belong in the County field.
 
 
 
-**Map Name (Quad):** The name of the U. S. Geological Survey maps in the
+## Map Name (Quad)
+
+ The name of the U. S. Geological Survey maps in the
 1:250,000 series. Because Alaska lacks anything as inclusive counties,
 "quads" have been used extensively in organizing collections and
 interrogating data. (Although note that a combination of Borough and
@@ -188,7 +196,9 @@ as a suitable if large-scale "county substitute.")
 
 `Geo_Auth_Rec . Feature VARCHAR(50) null`
 
-**Geographic Feature:** Features include named entities such as parks,
+## Geographic Feature
+
+ Features include named entities such as parks,
 preserves, refuges, and other delineated geo-political features. Feature
 may also be used to describe recognized [sub-groups of
 islands](#island_group). Many administrative units included in Feature
@@ -201,7 +211,9 @@ Feature.
 
 `Geo_Auth_Rec . Island_Group VARCHAR(50) null`
 
-**Island Group** is defined as the largest island group or Archipelago
+## Island Group
+
+ is defined as the largest island group or Archipelago
 to which an island belongs. Island groups within island groups should be
 indicated in [Geographic Feature](#feature).
 
@@ -220,7 +232,9 @@ indicated in [Geographic Feature](#feature).
 
 `Geo_Auth_Rec . Island VARCHAR(50) null`
 
-**Island:** When a locality includes an island name, and the locality is
+## Island
+
+ When a locality includes an island name, and the locality is
 on or near an island, then the name of the island should be included in
 this field. An island is included in this field if a locality has the
 word "island" in its proper name even though (depending on the tides) it
@@ -290,7 +304,9 @@ appropriate. Examples follow.
 
 `Geo_Auth_Rec . Higher_Geog VARCHAR(255) not null`
 
-**Higher Geography** (as a specific data field) is a the actual concatenation of the subdivisions described above. This is the value that is displayed in most applications.
+## Higher Geography
+
+ (as a specific data field) is a the actual concatenation of the subdivisions described above. This is the value that is displayed in most applications.
 
 
 

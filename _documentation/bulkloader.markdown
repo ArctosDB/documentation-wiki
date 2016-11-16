@@ -48,7 +48,9 @@ Leading and trailing spaces and other non-printing characters matter.
 The web-based applications may not work well for very large loads.
 [Contact us](/governance/contacts/) if you’re having problems.
 
-**Agent names** must match a unique namestring, not
+## Agent names
+
+must match a unique namestring, not
 necessarily the preferred name. If you are loading "John Smith" and
 there are three John Smiths in Arctos, you might create a new name "John
 Smith (my project)" and use that namestring in your data. Once loaded,

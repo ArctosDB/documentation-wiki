@@ -16,7 +16,9 @@ from existing events, and/or given a nickname for easy identification.
 
 `Collecting_Event . COLLECTING_EVENT_NAME VARCHAR(255) null`
 
-**Event Nickname** is a human-readable stable "primary key" to
+## Event Nickname
+
+ is a human-readable stable "primary key" to
 collecting events. Event Nickname may only be created or added in the
 edit forms; it may not be created during the data entry process. This
 field is useful for locating pre-created collecting event information,
@@ -25,7 +27,9 @@ sequentially, such as hosts and parasites.
 
 `Collecting_Event . Verbatim_Locality VARCHAR(255) not null`
 
-**Verbatim Locality** is the locality description as provided by the
+## Verbatim Locality
+
+ is the locality description as provided by the
 collector and is specific to the Collecting Event, not to the Locality. 
 The same Locality may have been described differently at different
 times, and this distinction allows us to incorporate assumptions about
@@ -47,7 +51,9 @@ than a single day.
 
 `Collecting_Event . Verbatim_Date VARCHAR(60) not null`
 
-**Verbatim Date** is a transcription of the date provided by the
+## Verbatim Date
+
+ is a transcription of the date provided by the
 collector. If the collection date is given as "unknown," then a value
 such as "before 14 Jan 2005" should be entered. (The time is never
 completely unknown: We always know that a specimen in hand was collected
@@ -59,7 +65,9 @@ before the present.)
 
 `Collecting_Event . Ended_Date ISO8601, not null`
 
-**Began Date** and **Ended Date** delimit the range of dates encompassed
+## Began Date & Ended Date
+
+delimit the range of dates encompassed
 by the Verbatim Date.  Unlike Verbatim Date, they are [ISO8601
 date](dates) values, not an indeterminate character string.  If the
 Verbatim Date is a valid date, then both the Began Date and the End Date

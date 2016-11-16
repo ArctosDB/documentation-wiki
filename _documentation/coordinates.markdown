@@ -46,7 +46,9 @@ prevent accurately representing the data.
 
 `DarwinCore2=VerbatimCoordinateSystem`
 
-**Original Units** for geographic coordinates vary with the source of
+## Original Units
+
+ for geographic coordinates vary with the source of
 the data.  Classically, latitude and longitude have been recorded in
 degrees, minute and seconds.  Now, modern GIS applications generally use
 degrees only, including decimal fractions for all levels of precision. 
@@ -70,7 +72,9 @@ the original data.
 
 `DarwinCore2=GeodeticDatum`
 
-**Datum:** The geodetic datum to which the latitude and longitude refer.
+## (Geodetic) Datum
+
+ The geodetic datum to which the latitude and longitude refer.
 A geodetic datum describes the size, shape, origin, and orientation of a
 coordinate system for mapping the earth. Latitude and longitude data
 referenced to the wrong datum can result in positional errors of
@@ -89,7 +93,9 @@ this information as well.
 
 `DarwinCore2=GeoreferenceSources`
 
-**Reference Source(s)** refers to the source of the coordinates and not
+## Reference Source(s)
+
+ refers to the source of the coordinates and not
 to the source of the error. Coordinates may be original data collected
 with the specimen, or they may be provided by after-the-fact
 georeferencing efforts. In the latter situation, data in Source(s)
@@ -122,7 +128,9 @@ with the specimen. Examples:
 [`ctGEOREFERENCE_PROTOCOL`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_PROTOCOL "GEOREFERENCE_PROTOCOL")
 
 
-**Georeference Method** is the protocol used to obtain the values for
+## Georeference Method
+
+ is the protocol used to obtain the values for
 the coordinates and the measure of precision. Different methods and
 tools have been produced, and are sometimes revised, and these
 differences can produce different results.  The
@@ -140,7 +148,9 @@ for this field is controlled.
 
 [`ctlat_long_error_units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_error_units "Distance Units")
 
-**Maximum Uncertainty Distance** is the upper limit of the horizontal
+## Maximum Uncertainty Distance
+
+ is the upper limit of the horizontal
 (as opposed to elevational) distance from the reported latitude and
 longitude. It describes a circle within which the whole of the described
 locality lies. Leave the value empty if the uncertainty is unknown,
@@ -179,7 +189,9 @@ here) to the value in meters.
 
 `Lat_Long . Determined_By_Agent_id INT not null`
 
-**Determiner** is the
+## Determiner
+
+ is the
 [agent](http://arctosdb.wordpress.com/documentation/agent/ "Agents")
 (usually a person) who determined that these coordinates and measures of
 uncertainty apply to this locality. Often, this is the collector or,
@@ -206,7 +218,9 @@ accepted determination.
 
 `Lat_Long . Determined_Date DATETIME null`
 
-**Determination Date** is the [ISO8601](/documentation/dates/) date that
+## Determination Date
+
+ is the [ISO8601](/documentation/dates/) date that
 the determination was made. Entry/editing forms load with the current
 date as a default for new records.
 
@@ -218,7 +232,9 @@ date as a default for new records.
 
 `DarwinCore2=GeoreferenceVerificationStatus`
 
-**Verification Status:** A categorical description of the extent to
+## Verification Status
+
+ A categorical description of the extent to
 which the georeference has been verified to represent the location where
 the specimen or observation was collected. 
 [Vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")
@@ -245,7 +261,9 @@ flag from "no" to "yes."
 
 `DarwinCore2=GeoreferenceRemarks`
 
-**Remarks** about the spatial description determination, explaining
+## Remarks
+
+ about the spatial description determination, explaining
 assumptions made in addition or opposition to the those formalized in
 the method referred to in [Georeference Method](#georefmethod).
 

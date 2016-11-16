@@ -32,7 +32,9 @@ collection.
 
 
 
-**Part Names:** What we choose to name as a part depends on what we
+## Part Names
+
+ What we choose to name as a part depends on what we
 define as a part,  and while this is often obvious (*e.g.,* "whole
 organism"), organisms become separated into parts in ways both
 standardized and not.  Thus, it is difficult to standardize vocabulary
@@ -97,7 +99,9 @@ from which they can readily obtain subsamples.
 
 
 
-**Disposition** describes the status of parts and, as an abstract
+## Disposition
+
+ describes the status of parts and, as an abstract
 generality,
 
 the status of cataloged items.  Typical values are:
@@ -112,7 +116,9 @@ the status of cataloged items.  Typical values are:
 
 
 
-**Condition** is used for entries such as "broken" or "dissected".
+## Condition
+
+ is used for entries such as "broken" or "dissected".
 
 -   5 – The best tissues. These have gone from a freshly killed animal
     directly into liquid nitrogen. The animal should not have been dead
@@ -210,7 +216,9 @@ Examples of lot count usage:
 
 
 
-**Sampled From** designates a part derived from another part. This is
+## Sampled From
+
+ designates a part derived from another part. This is
 intended to be a subsample supplied to an investigator for destructive
 analysis. therefore it often applies to parts that are no longer in the
 collection, but if the subsamples or extracts thereof are returned,

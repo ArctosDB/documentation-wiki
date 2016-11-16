@@ -28,7 +28,9 @@ ctcoll_other_ID_type
 
 ```
 
-**Other Identifier Type** describes the kind of identifier. This field
+## Other Identifier Type
+
+ describes the kind of identifier. This field
 uses a [controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
 Users who are logged in can choose one Other ID Type to be their
@@ -74,7 +76,9 @@ Coll_Obj_Other_ID_Num.Other_ID_Suffix VARCHAR2(60)
 
 ```
 
-**Other Identifier** is the value of an Other ID. Data are stored in
+## Other Identifier
+
+ is the value of an Other ID. Data are stored in
 three fields:
 
 -   Prefix (text)
@@ -248,7 +252,9 @@ Examples:
 
 
 
-**Searching by Other ID:** Most searches by Other ID match text strings
+## Searching by Other ID
+
+ Most searches by Other ID match text strings
 (or substrings) to the concatenated value of Other ID (Prefix + Other ID
 Number + Suffix). To **search by the integer component** (Other ID
 Number) of an Other ID:

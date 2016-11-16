@@ -17,7 +17,9 @@ as a field number.  A specimen citation includes:
 
 `Citation . Publication_ID (FK) INTEGER not null`
 
-**Publication:** There cannot be a Citation until the Publication has
+## Publication
+
+ There cannot be a Citation until the Publication has
 been included in the database.  Because full citation includes a page
 number, the best practice is to enter citations only when the
 publication is in its final form.
@@ -25,12 +27,16 @@ publication is in its final form.
 
 `Citation . Identification_ID (FK)INTEGER not null`
 
-**Specimen:** Citations link to, and ideally create, Identifications.
+## Specimen
+
+ Citations link to, and ideally create, Identifications.
 
 
 `Citation . Occurs_Page_Number INTEGER null`
 
-**Publication Page Number** is the number of the first page on which the
+## Publication Page Number
+
+ is the number of the first page on which the
 specific specimen is mentioned.  Referrals to the specimen on subsequent
 pages within the same publication are ignored.
 
@@ -41,7 +47,9 @@ pages within the same publication are ignored.
 [`ctcitation_type_status`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status)
 
 
-**Basis of Citation** describes the context in which the specimen was
+## Basis of Citation
+
+ describes the context in which the specimen was
 cited.  It is possible that one specimen was cited in more than one
 context within a single publication.  In this case, use either the first
 context in which the specimen is cited, or the most important context in
@@ -51,7 +59,9 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_t
 
 `Citation . identification_id (FK) INTEGER not null`
 
-**Cited As** is the Identification.Scientific_Name to which the
+## Cited As
+
+ is the Identification.Scientific_Name to which the
 author(s) applied the specimen in the publication.  Sometimes this must
 be inferred from the publication because the author has not explicitly
 identified individual specimens.  For example, the whole paper is about

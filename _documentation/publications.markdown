@@ -20,7 +20,9 @@ can be related to a [Project](project).
 
 `Publication . Full_Citation varchar(4000) not null`
 
-**Full Citation** is the textual description of a publication formatted
+## Full Citation
+
+ is the textual description of a publication formatted
 as it would appear in a bibliography.  Typically this would include
 authors (also potentially [separate data elements](#author)), year of
 publication (also a [separate data element](#published_year)), title,
@@ -68,7 +70,9 @@ formatting should be handled with HTML tags.
 
 `Publication . Short_Citation varchar(4000) not null`
 
-**Short Citation** is typically authorship and year, the way
+## Short Citation
+
+ is typically authorship and year, the way
 publications are cited when included in the text of other publications. 
 Except in the case of "et al.," these should contain no punctuation or
 formatting.
@@ -83,20 +87,26 @@ formatting.
 [`ctPublication_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE)
 
 
-**Publication Type** describes the nature of the publication, and
+## Publication Type
+
+ describes the nature of the publication, and
 vocabulary is
 [controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE).
 
 
 `Publication . Publication_Year number, not null`
 
-**Published Year** is the year in which the publication occurred.  It is
+## Published Year
+
+ is the year in which the publication occurred.  It is
 a four-digit integer, *e.g*., 1985.
 
 
 `Publication . Is_Peer_Reviewed_FG number(1), not null`
 
-**Peer Review Flag** should be set to false for publications which have
+## Peer Review Flag
+
+ should be set to false for publications which have
 not undergone a formal peer review process, such as dissertations.
 
 
@@ -114,7 +124,9 @@ varchar(4000), null
 
 ```
 
-**DOI** ([Digital Object Identifier](http://www.doi.org/)) or **PMID**
+## DOI
+
+ ([Digital Object Identifier](http://www.doi.org/)) or **PMID**
 ([PubMed Identifier](http://www.ncbi.nlm.nih.gov/pubmed/)) should be
 recorded with a publication when they are available.  Including these
 identifiers will automatically create resolvable links to the
@@ -152,7 +164,9 @@ number, not null (foreign key = Publication . Publication_ID
 
 ```
 
-**Authors**, as
+## Authors
+
+, as
 [Agents](http://arctosdb.org/documentation/agent/ "Agents") can be
 linked to Publications.  Though authorship is expressed in Full
 Citation, Agents who are associated with other activities in Arctos,
@@ -167,7 +181,9 @@ formatted agent names are part of the full citation.
 [`ctAuthor_Role`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE)
 
 
-**Author Role** indicates whether the indicated agent is an actual
+## Author Role
+
+ indicates whether the indicated agent is an actual
 author, or an editor of the publication. Vocabulary is
 [controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE).
 
