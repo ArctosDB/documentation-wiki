@@ -158,12 +158,8 @@ help.
 To get Other ID search, click More Options on the Identifiers pane of
 SpecimenSearch.
 
-<div class="separator" style="clear:both;text-align:center">
-
-[![](../images/classic-uploads/2013/06/9ad69-idp.png){width="640"
-height="56"}](../images/classic-uploads/2013/06/d23e4-idp.png)
-
-</div>
+<img src="../images/classic-uploads/2013/06/9ad69-idp.png" width="640"
+height="56" />
 
 This will provide options to select Other ID Type and to provide an
 Other ID Number. (We generally use "number" in the sense of a license
@@ -176,12 +172,8 @@ and the descriptions currently do little to clarify that problem. It is
 therefore possible (and often most practical) to search by the number
 component, entirely ignoring ID Type.
 
-<div class="separator" style="clear:both;text-align:center">
-
-[![](../images/classic-uploads/2013/06/c8310-screenshot2011-07-12at1-34-13pm.png){width="640"
-height="140"}](../images/classic-uploads/2013/06/3f7b9-screenshot2011-07-12at1-34-13pm.png)
-
-</div>
+<img src="../images/classic-uploads/2013/06/c8310-screenshot2011-07-12at1-34-13pm.png" width="640"
+height="140" />
 
 The above example finds all specimens with any type of identifier
 (except catalog number)
@@ -194,24 +186,16 @@ To get all search options, click Customize (near "Show More Options"),
 select a "My Other Identifier" (which will also then appear in results
 and on various forms), and choose "Show 3-part ID Search."
 
-<div class="separator" style="clear:both;text-align:center">
-
-[![](../images/classic-uploads/2013/06/d5574-screenshot2011-07-12at10-54-33am.png){width="640"
-height="124"}](../images/classic-uploads/2013/06/c634b-screenshot2011-07-12at10-54-33am.png)
-
-</div>
+<img src="../images/classic-uploads/2013/06/d5574-screenshot2011-07-12at10-54-33am.png" width="640"
+height="124" />
 
 Click Close and the form will reload with total of eight search options.
 For this example, we’ll use [Collector
 Number](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type&field=collector%20number).
 The simplest use case is to search for a string, here "1234":
 
-<div class="separator" style="clear:both;text-align:center">
-
-[![](../images/classic-uploads/2013/06/d77d2-screenshot2011-07-12at11-01-46am.png){width="640"
-height="78"}](../images/classic-uploads/2013/06/d19e1-screenshot2011-07-12at11-01-46am.png)
-
-</div>
+<img src="../images/classic-uploads/2013/06/d77d2-screenshot2011-07-12at11-01-46am.png" width="640"
+height="78" />
 
 This sends the query upper(customIdentifier.Display_Value) LIKE
 ‘%1234%’ (display_value is a concatenation of prefix, number, and
@@ -231,22 +215,14 @@ examples, return only "1234."
 
 The "in list" option accepts a comma-separated list of values.
 
-<div class="separator" style="clear:both;text-align:center">
-
-[![](../images/classic-uploads/2013/06/32a29-screenshot2011-07-12at11-13-08am.png){width="640"
-height="76"}](../images/classic-uploads/2013/06/f841d-screenshot2011-07-12at11-13-08am.png)
-
-</div>
+<img src="../images/classic-uploads/2013/06/32a29-screenshot2011-07-12at11-13-08am.png" width="640"
+height="76" />
 
 The above example sends SQL upper(customIdentifier.DISPLAY_VALUE) IN
 (‘A’,’B’,’C’), and as of this writing returns three specimens:
 
-<div class="separator" style="clear:both;text-align:center">
-
-[![](../images/classic-uploads/2013/06/15eba-screenshot2011-07-12at11-15-18am.png){width="400"
-height="146"}](../images/classic-uploads/2013/06/e95c0-screenshot2011-07-12at11-15-18am.png)
-
-</div>
+<img src="../images/classic-uploads/2013/06/15eba-screenshot2011-07-12at11-15-18am.png" width="400"
+height="146" />
 
 The in range option works only for enforced-integer types of identifiers
 (currently only AF and NK). Attempting to use it for collector number
@@ -258,12 +234,8 @@ deal with the concatenation of prefix, number, and suffix. It is also
 possible to search these independently. Search for integer
 component=1234:
 
-<div class="separator" style="clear:both;text-align:center">
-
-[![](../images/classic-uploads/2013/06/a7771-screenshot2011-07-12at11-26-42am.png){width="640"
-height="116"}](../images/classic-uploads/2013/06/1480d-screenshot2011-07-12at11-26-42am.png)
-
-</div>
+<img src="../images/classic-uploads/2013/06/a7771-screenshot2011-07-12at11-26-42am.png" width="640"
+height="116" />
 
 to send SQL customIdentifier.other_id_number = 1234<span
 style="font-family:Arial, Helvetica, sans-serif">. </span>
@@ -273,36 +245,20 @@ find specimens which have the numeric information entered into prefix.
 This information is not available to public users, but is evident from
 the edit form. This specimen will NOT be found with the previous search!
 
-<div class="separator" style="clear:both;text-align:center">
-
-[![](../images/classic-uploads/2013/06/b9b6a-screenshot2011-07-12at11-35-21am.png){width="640"
-height="56"}](../images/classic-uploads/2013/06/e294d-screenshot2011-07-12at11-35-21am.png)
-
-</div>
+<img src="../images/classic-uploads/2013/06/b9b6a-screenshot2011-07-12at11-35-21am.png" width="640"
+height="56" />
 
 Prefix and suffix work similarly. This search:
 
-<div class="separator" style="clear:both;text-align:center">
-
-[![](../images/classic-uploads/2013/06/7719a-screenshot2011-07-12at11-37-17am.png){width="640"
-height="90"}](../images/classic-uploads/2013/06/c3328-screenshot2011-07-12at11-37-17am.png)
-
-</div>
-
-<div class="separator" style="clear:both;text-align:left">
+<img src="../images/classic-uploads/2013/06/7719a-screenshot2011-07-12at11-37-17am.png" width="640"
+height="90" />
 
 sends SQL AND upper(customIdentifier.other_id_prefix) LIKE ‘%A%’ AND
 customIdentifier.other_id_number = 123 (note prefix is a CONTAINS
 match and is not case-sensitive) and returns these specimens:
 
-</div>
-
-<div class="separator" style="clear:both;text-align:center">
-
 ![](../images/classic-uploads/2013/06/7aa78-screenshot2011-07-12at11-39-28am.png){width="320"
 height="215"}
-
-</div>
 
 
 ## Understanding Cataloged Items

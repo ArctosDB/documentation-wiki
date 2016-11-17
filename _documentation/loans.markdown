@@ -205,10 +205,6 @@ Curators may wish to create a new loan number series for data loans,
 although this is not required. This entry documents creation of a data
 loan for illustrative purposes.
 
-<div class="separator" style="clear:both;text-align:center">
-
-</div>
-
 1.  Found publication vaguely citing Arctos
 2.  Created publication agents in Arctos
 3.  Since the available PDF was a reprint, used the DOI to look up
@@ -221,10 +217,8 @@ loan for illustrative purposes.
 8.  Searched Arctos for scientific names cited in publication
     <div class="separator" style="clear:both;text-align:center">
 
-    [![](https://sites.google.com/site/arctosdb/_/rsrc/1302031427955/howto/dataloan/screenshot_%202011-04-05%20at%2012.23.05%20PM.png){width="320"
-    height="51"}](https://sites.google.com/site/arctosdb/_/rsrc/1302031427955/howto/dataloan/screenshot_%202011-04-05%20at%2012.23.05%20PM.png)
-
-    </div>
+<img src="https://sites.google.com/site/arctosdb/_/rsrc/1302031427955/howto/dataloan/screenshot_%202011-04-05%20at%2012.23.05%20PM.png" width="320"
+    height="51" />
 
 9.  Downloaded results, copied catalog numbers to data loan template.
 10. Filled in rest of values in data loan template, copy/paste to
