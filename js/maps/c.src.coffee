@@ -522,13 +522,18 @@ handleSearch = (prepOnly = false) ->
 
 fixSearchHeight = ->
   unless window.hasSetupSizer
+    console.debug "Running initial search height sizer ..."
     $(window).resize ->
+      console.debug "Firing search height resizer on window resize"
       fixSearchHeight()
       false
-  window.hasSetupSizer = true
+    delay 250, ->
+      # Run a one-time delayed fix
+      fixSearchHeight()
   # Resize!
   minHeight = $("nav#toc").outerHeight(true)
   $("div.nav-container").css "min-height", minHeight
+  window.hasSetupSizer = true
   minHeight
 
 window.fixSearchHeight = fixSearchHeight

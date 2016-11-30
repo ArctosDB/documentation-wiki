@@ -763,14 +763,19 @@
   fixSearchHeight = function() {
     var minHeight;
     if (!window.hasSetupSizer) {
+      console.debug("Running initial search height sizer ...");
       $(window).resize(function() {
+        console.debug("Firing search height resizer on window resize");
         fixSearchHeight();
         return false;
       });
+      delay(250, function() {
+        return fixSearchHeight();
+      });
     }
-    window.hasSetupSizer = true;
     minHeight = $("nav#toc").outerHeight(true);
     $("div.nav-container").css("min-height", minHeight);
+    window.hasSetupSizer = true;
     return minHeight;
   };
 
