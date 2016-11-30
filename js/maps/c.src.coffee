@@ -529,8 +529,9 @@ fixSearchHeight = ->
   # Resize!
   minHeight = $("nav#toc").outerHeight(true)
   $("div.nav-container").css "min-heieght", minHeight
-  false
+  minHeight
 
+window.fixSearchHeight = fixSearchHeight
 
 $ ->
   # Local searching

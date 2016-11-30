@@ -771,8 +771,10 @@
     window.hasSetupSizer = true;
     minHeight = $("nav#toc").outerHeight(true);
     $("div.nav-container").css("min-heieght", minHeight);
-    return false;
+    return minHeight;
   };
+
+  window.fixSearchHeight = fixSearchHeight;
 
   $(function() {
     var checkToc, i, j, len, ref, table;
