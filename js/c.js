@@ -853,9 +853,9 @@
                 $("body").scrollspy({
                   target: "#toc"
                 });
-                return fixSearchHeight();
               }
             }
+            return fixSearchHeight();
           } else {
             console.warn("Waiting for Polymer.RenderStatus to report ready before building TOC");
             return delay(100, function() {

@@ -238,7 +238,7 @@ $ ->
                 $headings = Toc.helpers.getHeadings(opts.$scope, topLevel)
                 Toc.helpers.populateNav($topContext, topLevel, $headings)
               $("body").scrollspy {target: "#toc"}
-              fixSearchHeight()
+          fixSearchHeight()
         else
           console.warn "Waiting for Polymer.RenderStatus to report ready before building TOC"
           delay 100, ->
