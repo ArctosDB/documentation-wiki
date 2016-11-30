@@ -95,6 +95,9 @@ nav.collection-toc {
         }
     }
 }
+nav#toc {
+  background: #fff;
+}
 
 @media(max-width: 991px) {
     nav.toc.affix {
