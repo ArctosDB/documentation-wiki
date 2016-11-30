@@ -1,0 +1,44 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+collections:
+  documentation:
+    output: true
+  how_to:
+    output: true
+  resources:
+    output: true
+
+# Site settings
+title: ArctosDB Documentation
+email: arctos.database@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Documentations and How-To's for the Arctos museum database platform
+baseurl: "/documentation-wiki" # the subpath of your site, e.g. /blog
+#baseurl: ""
+cover: ""
+logo: ""
+
+#url: "http://docs.arctosdb.org" # the base hostname & protocol for your site
+url: "https://arctosdb.github.io"
+twitter_username: arctosdb
+github_username:  Arctosdb
+
+# Build settings
+#exclude: ["bower_components/"]
+markdown: kramdown
+auto_ids: true
+markdown_ext: "markdown, mkdown, mkdn, mkd, md"
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+paginate: 5
+paginate_path: "/page:num/"

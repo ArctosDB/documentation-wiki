@@ -1,0 +1,99 @@
+---
+title: How To Search for Specimens
+layout: default_toc
+---
+
+# Conducting a Search
+
+The key to getting the most out of Arctos is learning to search effectively. More often than not, a task will specify a specimen by MVZ number, or a group of specimens by their Accession. In these cases, your search will consist of only one step. Occasionally, however, you will be asked to find a list of specimens without using these numbers. Fortunately, Arctos’ powerful search feature will help you get there.
+
+The homepage of Arctos is also its search feature. That is your signal that you will be seeing this page a lot, so you will very quickly grow familiar with it. This guide explains some of the most commonly used search features.
+
+You do not need to create an account or login to search. However, there are some features (e.g., downloading records) that require you to login.
+
+* At the most basic level, Arctos has nine categories of search criteria that are analogous to the basic search feature of other sites. You can enter one criterion to execute a broad search, or you could enter multiple criteria to perform a more specific one.
+
+* Although you are provided with these nine different options, you will find that you will use some fields more often than others. There are also some fields you may never have to use at all.
+
+* In the grey header of each section, there’s is a link to “Show More Options" all the way to the right of the header. Clicking on it will expand the section and display more fields to help narrow down your search.
+
+* At the top of the page you will see an option for "Require Tissues" - click this box if you want to limit your search to records associated with at least one tissue sample.
+
+* Likewise at the top of the page, you will see an option to limit your search to just specimens or observations (default is "any" type of record).
+
+## Identifiers
+
+* The list of options supplied in the field “Collection” allows you to limit your search to only one collection or vertebrate taxon. Ignoring this field will return results that match your search criteria from all collections.
+
+* The “Catalog Number” field is used to search for a specific specimen if you know the number. You should use this in conjunction with a collection, otherwise you will get results from multiple collections of specimens that share the same number. Each catalog number is tied directly to one specimen within each collection.
+
+* GUID is another specific way of searching for a specimen. The GUID is the three-part identifier for the specimen that includes the institution code, collection code, and catalog number (e.g., MVZ:Bird:180000). The GUID is part of the URL for the specimen.
+
+* You can also search by any type of other identifier through the "Other Identifier Type" field. This is a dropdown list of identifier types in Arctos. Select the identifier type you want and conduct your search using any other search field in addition to this identifier type.
+
+ * For example, to search for records with GenBank numbers, select "GenBank" from the dropdown list.
+
+ * When searching by another identifier, you can also enter a specific value for that identifier in the "Other Identifier" is/contains/in list field. For example, you can select the identifier type of "collector number" and enter the actual number in the "Other Identifier" field.
+
+ * If you commonly search by a particular identifier, you can customize the search by selecting a specific identifier type that will show up on the search interface each time you login. In the grey header of the Identifier section, there is a link to "Customize" that will take you to a window where you can customize your identifier. Once you save that, the "Identifier" section will always have that chosen identifier type as a search option.
+
+* “Accession” is another numerical field that you can use to search for a group of specimens. Accessions are typically associated with a specific collection.
+
+## Identification and Taxonomy
+
+* The first field in this section is "Identification" which allows you to search by anything in the scientific name (genus, species, subspecies).
+
+* Once you hit "Show More Options" to the right in the gray section header, you will see a number of other search fields. These allow you to search by higher taxonomy or other types of data in Arctos.
+
+## Locality
+
+* As with taxonomy, this section provides a number of fields for searching (if you select "Show More Options"). However, take heart in the fact that you will not have to fill them all out. The field that you will likely use the most is "Any Geographic Element", which performs a broad search incorporating the other fields in this section. If for any reason, you need to be more specific, you can search in the appropriate category.
+
+* Arctos also allows you to search spatially by selecting a bounding box on a map. To do that, click the small box to open the spatial query tool, then move and/or adjust the bounding box until you've covered the area of interest.
+
+* Occasionally, you may be asked to survey some of the entries in Arctos to figure out how many records have been georeferenced or how precise the georeferences are. For these tasks, there are two relevant fields near the bottom of the Locality section. The drop-down menu for “Georeferenced?” has two options: "Is Georeferenced" and "Not Georeferenced". To evaluate how precise existing georeferences are, you can use the fields for “Coordinate Precision”.
+
+## Date/Collector
+
+* This section allows you to search by a person's name (or part of the name). What you enter here must match how the person is entered into Arctos. It is often better to enter just the last name of the person, rather than try to match the full name if you do not know how it is entered in the database.
+
+* If you are interested in specimens by date, you can search by a range of years or more specific dates.
+
+* You can also search by other fields relating to the specimen event, e.g., collecting source ("captive", "wild-caught") or method ("mistnet"). Note that some of these fields are text strings, so the data my not be entered consistently (e.g., "mistnet" versus "net" or "mist net").
+
+## Biological Individual
+
+* This section allows you to search by specific parts. For example, if you are only interested in study skins or skeletal material, you can narrow down your search by entering a part name here. When you type something into the "Part Name" field, Arctos will search the matching parts in its authority table and you can then choose one of those parts to refine the search.
+
+## Usage
+
+* Use this section if you are interested in searching by "Basis of Citation", e.g., for type specimens.
+
+## Media
+
+* Arctos has a lot of media associated with its records. If you are interested in records with media (images, audio, video), you can select the media type here. If you do not choose a media type, you will get records with as well as without media in your other search options.
+
+# Customizing Results of a Search
+
+The default Specimens Result page provides a pretty comprehensive overview of each specimen and its relevant locality information. The most important fields you will pay the most attention to are GUID, Identification, Specific Locality, Dec. Lat., Dec. Long., and Max Error. Even though these are already present on the page, different tasks may require you to modify your results out of convenience or necessity.
+
+* The modification to your results that you will probably perform most frequently is reordering the specimens to group similar entries together. By default, these specimens are initially sorted by GUID. There is usually some rhyme or reason to how they are assigned, but it may still make more sense to sort them in another order.
+ * On top of the specimen results and on the left side of the screen, you will find a drop-down menu under the header “Order by…” listing different fields used to identify the specimen. Simply select the criterion by which to organize your results.
+ * Eagle-eyed readers may have noticed the neighboring drop-down menu “...then order by”. It has the same list of options as the first field. As its header suggests, it is a secondary criterion to order the specimens.
+ * In the example above, the specimens from the same locality will be grouped together, and within each locality grouping, they will then be arranged according to their date of collection. You can change whether these specimens are arranged in increasing order or decreasing order by clicking on the respective arrows to the right.
+* For most tasks, the GUID, Identification, Specific Locality, and Date will be all that you need to identify specimens in need of correction. Some odd tasks may require you to add another field. This can be done by clicking on the “Add/Remove Data Fields” button in the middle of the screen above the specimen results.
+ * This brings up a window with a huge list of options. As you may have guessed, you will mainly be working with the Locality section. The other fields are worth looking at, however, whether out of utility or curiosity. The Random section has an option for “collectors” which you may find useful on occasion. Lastly, the Attribute section is interesting, even if not directly applicable for the tasks we are concerned with. It contains a variety of biological information about the specimen including size, wingspan, parasite information, and reproductive status.
+ * Once you have selected the additional options, you can click “Close and Refresh” in the top right corner to refresh the page and add the new data fields to your specimen results.
+ * You can return to this window later on to remove any unnecessary fields in order to keep your results from becoming too cluttered.
+* One other way to customize your results is to remove specimens from your search that do not require attention or edits. In order to do this, return to the “Add/Remove Data Fields” window and look for the “Row-Removal Option” in the top left corner. Set this option to “Yes” then click “Close and Refresh” in the top right corner. Doing so will add a new column on the left side of your specimen results.
+ * All that is left to do is check the boxes for the specimens you want to remove. Once you have made your selection, click the glaring red “Remove Checked Rows” button above the specimen results to refresh the page.
+
+# Saving Searches
+
+Occasionally, you will be assigned a task that you may not be able to complete in one session. If the search parameters are simple, it would be easy to execute the search the next time and resume working. If you have modified the results or wish to share your search with someone, it would be helpful to save your search.
+
+* On the search results page, the “Save Search” button can be found in the center of the screen above the list of specimens.
+ * Clicking on the button will bring up a little dialog window. All you are required to do is name your search. Make sure it is informative so that you can easily recall what the point of the search was. It might also be helpful to include the date. Click “OK” when you have named your search.
+ * Clicking “OK” does not seem to do anything immediately. It closes the dialog and returns you to the specimen results so that you can make the edits that you originally intended. In order to access your saved search, locate the “Saved Searches” button in the drop-down menu “My Stuff” at the top of the page. This button will bring you to a page where you can access or manage all of the searches you have saved.
+  * Clicking on the red X’s in the column on the left will delete the saved search.
+  * Clicking “Mail” on the right hand column will allow you to send the link to an email address.

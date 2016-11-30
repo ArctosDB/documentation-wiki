@@ -1,0 +1,63 @@
+{
+  "name": "arctosdb.org",
+  "version": "2.1.1",
+  "description": "Jekyll site and theme for ArctosDB.org",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArctosDB/documentation-wiki/documentation-wiki.git"
+  },
+  "author": "Philip Kahn <tigerhawkvok@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ArctosDB/documentation-wiki/issues"
+  },
+  "homepage": "https://arctosdb.github.io/documentation-wiki",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "autoprefixer-core": "^6.0.1",
+    "bootlint": "^0.14.2",
+    "bower": "^1.7.9",
+    "btoa": "^1.1.2",
+    "coffee-script": "^1.10.0",
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-bootlint": "^0.10.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-compress": "^1.3.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-qunit": "^1.2.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-csscomb": "^3.1.1",
+    "grunt-exec": "^1.0.1",
+    "grunt-html": "^8.0.2",
+    "grunt-jekyll": "^0.4.4",
+    "grunt-jscs": "^3.0.1",
+    "grunt-postcss": "^0.8.0",
+    "grunt-saucelabs": "^9.0.0",
+    "grunt-string-replace": "^1.2.1",
+    "less": "^2.7.1",
+    "load-grunt-tasks": "^3.5.2",
+    "markdown-it": "^8.1.0",
+    "npm-check-updates": "^2.6.7",
+    "time-grunt": "^1.4.0"
+  },
+  "dependencies": {
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-html": "^8.0.2",
+    "grunt-shell": "^2.1.0"
+  }
+}
