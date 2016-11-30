@@ -6,9 +6,6 @@ layout: default_toc
 # Agents
 
 
-
-
-
 Agents are people, organizations, or groups that perform actions. 
 Collectors are agents, authors of publications are agents, users of
 specimens are agents, and, if you enter or edit data, you are an agent.
@@ -51,15 +48,12 @@ from "ABC"? (There is no definitive answer, but cryptic abbreviations
 are seldom useful.)
 
 
-
-`Agent . Agent_Type VARCHAR2(15) not null`
-
 ## Agent Type
 
 Agent Type is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type).
 
-
+`Agent . Agent_Type VARCHAR2(15) not null`
 
 ## Persons
 
@@ -76,7 +70,7 @@ to one agent:
 -   Some Guy Sr.
 -   Reverend Some Guy Senior, Ph.D
 
-See <http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles>
+See http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles
 for more information on generational titles.
 
 Former concepts **Birth Date** and **Death Date** have now been
@@ -137,8 +131,6 @@ Agent Groups consists of:
 
 Groups may be useful for things like collecting expeditions.
 
-`Agent_Name . Agent_Name VARCHAR2(184) not null`
-
 
 
 ## Names
@@ -146,7 +138,7 @@ Groups may be useful for things like collecting expeditions.
 All agents must have one and only one "preferred name".  An agent can
 have any number of other names.
 
-`Agent_Name . Agent_Name_Type VARCHAR2(18) not null`
+`Agent_Name . Agent_Name VARCHAR2(184) not null`
 
 
 
@@ -155,7 +147,7 @@ have any number of other names.
 Agent Name Type is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
 
-`Agent . Agent_Remark VARCHAR2(255) null`
+`Agent_Name . Agent_Name_Type VARCHAR2(18) not null`
 
 
 
@@ -165,6 +157,7 @@ Remarks is a good place to include a one sentence description of the
 agent.  Anything that might helpful to other users in understanding who
 or what the agent is should be included.
 
+`Agent . Agent_Remark VARCHAR2(255) null`
 
 
 ## General Agent Creation and Maintenance Guidelines
@@ -309,7 +302,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE
 
 ### Agent ID
 
-matches the (internal, primary key) agent_id (an
+matches the (internal, primary key) `agent_id` (an
 integer).
 
 ### Agent Name Type

@@ -25,10 +25,6 @@ This can be a useful node for exploring these values outside of the
 forms in which the vocabularies are used.
 
 
-`Attributes . Attribute_Type VARCHAR(60) not null`
-
-[`ctAttribute_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
-
 ## Attribute Name
 
 is the proper name of an Attribute. These should be
@@ -46,9 +42,9 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_
     control their specific vocabularies.
 
 
-`Attributes . Attribute_Value VARCHAR(255) not null`
+`Attributes . Attribute_Type VARCHAR(60) not null`
 
-[`ct_Attribute_Code_Tables`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
+[`ctAttribute_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
 
 
 ## Attribute Value:
@@ -67,6 +63,11 @@ Attributes have a Value, and those values are of three types:
     Attributes, and the values are anything that can be expressed
     in text. Examples include the Attributes "Colors" and "Body
     Condition."
+
+`Attributes . Attribute_Value VARCHAR(255) not null`
+
+[`ct_Attribute_Code_Tables`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
+
 
 Some examples:
 
@@ -103,14 +104,6 @@ converted (or in any way modified or assumed), the verbatim value should
 be given in the [Attribute Remark](#remark).
 
 
-`Attributes.Attribute_Units VARCHAR(60) null`
-
-[`ctLength_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
-
-[`ctNumeric_Age_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)
-
-[`ctWeight_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
-
 
 ## Attribute Units
 
@@ -122,7 +115,15 @@ code tables in the "[code table of code
 tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)."
 
 
-`Attributes.Determination_Method VARCHAR(255) null`
+`Attributes.Attribute_Units VARCHAR(60) null`
+
+[`ctLength_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
+
+[`ctNumeric_Age_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)
+
+[`ctWeight_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
+
+
 
 ## Method
 
@@ -132,8 +133,8 @@ length measurements are assumed to have been taken with rulers,
 calipers, or another standard tool. In such cases, no value is recorded
 for Method.
 
+`Attributes.Determination_Method VARCHAR(255) null`
 
-`Attributes.Attribute_Remark VARCHAR(255) null`
 
 ## Remark
 
@@ -143,8 +144,8 @@ is a comment about the Attribute. For example:
 -   "Weighed after substantial loss of blood."
 -   "verbatim: 7 3/16 inches"
 
+`Attributes.Attribute_Remark VARCHAR(255) null`
 
-`Attributes.Determined_By_Agent_id integer, not null`
 
 ## Determiner
 
@@ -155,8 +156,8 @@ investigator using the specimen. In the many specimen records for which
 this data was not recorded, the institution contributing the record has
 been used as a default value for Determiner.
 
+`Attributes.Determined_By_Agent_id integer, not null`
 
-`Attributes . Determined_Date datetime, null`
 
 ## Determined Date
 
@@ -170,6 +171,7 @@ For Attributes which can be re-determined from the existing specimen,
 even an imprecise date will provide a chronological order to successive
 determinations.
 
+`Attributes . Determined_Date datetime, null`
 
 ## Searching with Attributes
 

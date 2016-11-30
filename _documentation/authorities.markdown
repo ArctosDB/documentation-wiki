@@ -21,7 +21,7 @@ Values should:
 -   Be documented. Especially in the case of values which cannot stand
     alone, clear documentation applicable to any collection which might
     use the value is critical. For example, note the distinction in
-    CTSEX_CDE between "[not
+    `CTSEX_CDE` between "[not
     recorded](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=not%20recorded),"
     "[recorded as
     unknown](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=recorded%20as%20unknown),"

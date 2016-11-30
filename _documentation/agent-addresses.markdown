@@ -30,7 +30,7 @@ notifications. Please ensure that all operators have a valid email
 address.
 
 Note: "Changes" do not include the addition or removal of linebreak
-(chr(10) and chr(13)) characters, spaces, or commas.
+(`chr(10)` and `chr(13)`) characters, spaces, or commas.
 
 ## Fields
 
