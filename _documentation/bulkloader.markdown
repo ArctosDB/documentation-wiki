@@ -103,68 +103,22 @@ table structure. Do not attempt to use this as a template.** [Let us
 know](http://arctos.database.museum/contact.cfm) if it’s out of date,
 incomplete, cryptic, or otherwise useless.
 
-Field Name
-
-<span class="blrequired">required</span>
-
-<span class="blcondreq">conditionally required</span>
-
-<span class="bloptional">not required</span>
-Data Type/Vocabulary
-Description/Example
-<span class="bloptional">Collection_Object_Id</span>
-any unique number
-Temporary record identifier; Does NOT carry over to any internal primary
-keys.
-<span class="bloptional">Cat_Num</span>
-set by collection
-Existing catalog number, or leave blank to assign sequential numbers on
-upload.
-<span class="blrequired">Began_Date</span>
-ISO8601 date
-[\[ doc \]](/documentation/places/collecting-event/#began_date) Earliest
-date the specimen could have been collected.
-<span class="blrequired">Ended_Date</span>
-ISO8601 date
-[\[ doc \]](/documentation/places/collecting-event/#began_date) Latest
-date the specimen could have been collected.
-<span class="blrequired">Verbatim_Date</span>
-text; any string
-[\[ doc \]](/documentation/places/collecting-event/#verbatim_date)
-Examples: ‘winter 2002’; ‘1 Nov 2002’; ‘Nov 2002’.
-<span class="blrequired">VERIFICATIONSTATUS</span>
-text;
-[CTVERIFICATIONSTATUS](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctVERIFICATIONSTATUS)
- 
-<span class="blrequired">SPECIMEN_EVENT_TYPE</span>
-text;
-[CTSPECIMEN_EVENT_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctSPECIMEN_EVENT_TYPE)
-Type of specimen-event relationship
-<span class="blrequired">Event_Assigned_By_Agent</span>
-text; [agent name](#agent)
- Agent asserting specimen-to-event relationship; often coordinate
-determiner.
-<span class="blrequired">Event_Assigned_Date</span>
-date
-Date on which the specimen-event relationship is made
-<span class="bloptional">Coll_Event_Remarks</span>
-text; any string
-Remarks about Collecting Event.
-<span class="blrequired">Higher_Geog</span>
-text; [pre-existing](http://arctos.database.museum/showLocality.cfm)
-[\[ doc \]](/documentation/places/higher-geography/) Higher Geography
-*exactly* as it appears in table Geog_Auth_Rec. New values must be
-added to the database prior to bulk-loading.
-<span class="blcondreq">Maximum_Elevation</span>
-integer &gt; minimum_elevation
-[\[ doc \]](/documentation/places/locality/#elevation) Maximum elevation
-from which the specimen could have come. Used in conjunction with
-Minimum_Elevation and Orig_Elev_Units.
-<span class="blcondreq">Minimum_Elevation</span>
-integer &lt; maximum_elevation
-[\[ doc \]](/documentation/places/locality/#elevation) Minimum elevation
-from which the specimen could have come. Used in conjunction with
-Maximum_Elevation and Orig_Elev_Units.
+| Field Name | Data Type/Vocabulary | Description/Example |
+|------------|----------------------|---------------------|
+| <span class="blrequired">required</span><br/><span class="blcondreq">conditionally required</span><br/><span class="bloptional">not required</span> | | |
+|<span class="bloptional">Collection_Object_Id</span>| any unique number | Temporary record identifier; Does NOT carry over to any internal primary keys.|
+| <span class="bloptional">Cat_Num</span> | set by collection | Existing catalog number, or leave blank to assign sequential numbers on upload. |
+| <span class="blrequired">Began_Date</span> |ISO8601 date|[\[ doc \]](/documentation/places/collecting-event/#began_date) Earliest date the specimen could have been collected. |
+| <span class="blrequired">Ended_Date</span> | ISO8601 date | [\[ doc \]](/documentation/places/collecting-event/#began_date) Latest date the specimen could have been collected. |
+| <span class="blrequired">Verbatim_Date</span> | text; any string | [\[ doc \]](/documentation/places/collecting-event/#verbatim_date) Examples: ‘winter 2002’; ‘1 Nov 2002’; ‘Nov 2002’. |
+| <span class="blrequired">VERIFICATIONSTATUS</span> |text; [CTVERIFICATIONSTATUS](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctVERIFICATIONSTATUS) | |
+| <span class="blrequired">SPECIMEN_EVENT_TYPE</span> | text; [CTSPECIMEN_EVENT_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctSPECIMEN_EVENT_TYPE) | Type of specimen-event relationship |
+| <span class="blrequired">Event_Assigned_By_Agent</span> | text; [agent name](#agent) | Agent asserting specimen-to-event relationship; often coordinate determiner. |
+| <span class="blrequired">Event_Assigned_Date</span> |date|Date on which the specimen-event relationship is made|
+|<span class="bloptional">Coll_Event_Remarks</span>|text; any string|Remarks about Collecting Event.|
+|<span class="blrequired">Higher_Geog</span>|text; [pre-existing](http://arctos.database.museum/showLocality.cfm)|[\[ doc \]](/documentation/places/higher-geography/) Higher Geography *exactly* as it appears in table Geog_Auth_Rec. New values must be added to the database prior to bulk-loading. |
+|<span class="blcondreq">Maximum_Elevation</span>|integer &gt; minimum_elevation|[\[ doc \]](/documentation/places/locality/#elevation) Maximum elevation from which the specimen could have come. Used in conjunction with Minimum_Elevation and Orig_Elev_Units.|
+|<span class="blcondreq">Minimum_Elevation</span>|integer &lt; maximum_elevation|[\[ doc \]](/documentation/places/locality/#elevation) Minimum elevation from which the specimen could have come. Used in conjunction with Maximum_Elevation and Orig_Elev_Units.|
 <span class="blcondreq">Orig_Elev_Units</span>
 text;
 [ctorig_elev_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctorig_elev_units)
