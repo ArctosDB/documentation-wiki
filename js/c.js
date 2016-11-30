@@ -761,7 +761,7 @@
   };
 
   fixSearchHeight = function() {
-    var minHeight;
+    var minHeight, topOffset, topOffsetNumber;
     if (!window.hasSetupSizer) {
       console.debug("Running initial search height sizer ...");
       $(window).resize(function() {
@@ -775,10 +775,14 @@
     }
     if ($(window).width() <= 1280) {
       minHeight = $("nav#toc").outerHeight(true);
+      topOffsetNumber = $("paper-tabs.affix").outerHeight(true);
+      topOffset = topOffsetNumber + "px";
     } else {
       minHeight = 0;
+      topOffset = "200px";
     }
     $("div.nav-container").css("min-height", minHeight);
+    $("div.nav-container").css("top", topOffset);
     window.hasSetupSizer = true;
     return minHeight;
   };

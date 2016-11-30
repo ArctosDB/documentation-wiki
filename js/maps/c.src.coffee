@@ -533,9 +533,13 @@ fixSearchHeight = ->
   # Resize!
   if $(window).width() <= 1280 # 1280 is the breakpoint
     minHeight = $("nav#toc").outerHeight(true)
+    topOffsetNumber = $("paper-tabs.affix").outerHeight(true)
+    topOffset = "#{topOffsetNumber}px"
   else
     minHeight = 0
+    topOffset = "200px"
   $("div.nav-container").css "min-height", minHeight
+  $("div.nav-container").css "top", topOffset
   window.hasSetupSizer = true
   minHeight
 
