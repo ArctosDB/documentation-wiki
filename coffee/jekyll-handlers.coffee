@@ -162,6 +162,19 @@ handleSearch = (prepOnly = false) ->
     doSearch()
   false
 
+
+fixSearchHeight = ->
+  unless window.hasSetupSizer
+    $(window).resize ->
+      fixSearchHeight()
+      false
+  window.hasSetupSizer = true
+  # Resize!
+  minHeight = $("nav#toc").outerHeight(true)
+  $("div.nav-container").css "min-heieght", minHeight
+  false
+
+
 $ ->
   # Local searching
   tabSelect()
@@ -219,6 +232,7 @@ $ ->
                 $headings = Toc.helpers.getHeadings(opts.$scope, topLevel)
                 Toc.helpers.populateNav($topContext, topLevel, $headings)
               $("body").scrollspy {target: "#toc"}
+              fixSearchHeight()
         else
           console.warn "Waiting for Polymer.RenderStatus to report ready before building TOC"
           delay 100, ->

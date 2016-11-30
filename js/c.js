@@ -1,5 +1,5 @@
 (function() {
-  var _arctos, activityIndicatorOff, activityIndicatorOn, deepJQuery, formatScientificNames, handleSearch, lightboxImages, linkSubmenu, linkoutLabels, overlayOff, overlayOn, p$, tabSelect,
+  var _arctos, activityIndicatorOff, activityIndicatorOn, deepJQuery, fixSearchHeight, formatScientificNames, handleSearch, lightboxImages, linkSubmenu, linkoutLabels, overlayOff, overlayOn, p$, tabSelect,
     slice = [].slice,
     indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
@@ -547,14 +547,14 @@
   });
 
   tabSelect = function(currentPath) {
-    var e, error1, i, index, len, ref, ref1, tab, thisCollection;
+    var e, error1, index, j, len, ref, ref1, tab, thisCollection;
     if (currentPath == null) {
       currentPath = window.currentPagePath;
     }
     index = 0;
     ref = $("nav paper-tabs paper-tab");
-    for (i = 0, len = ref.length; i < len; i++) {
-      tab = ref[i];
+    for (j = 0, len = ref.length; j < len; j++) {
+      tab = ref[j];
       console.log("Tab iteration");
       try {
         thisCollection = (ref1 = $(tab).attr("data-label")) != null ? ref1 : "NO_LABEL";
@@ -691,11 +691,11 @@
       };
       SimpleJekyllSearch(searchConfig);
       (cleanupResults = function() {
-        var i, len, result, results, uniqueUrls, url;
+        var j, len, result, results, uniqueUrls, url;
         results = $("#results-container li");
         uniqueUrls = new Array();
-        for (i = 0, len = results.length; i < len; i++) {
-          result = results[i];
+        for (j = 0, len = results.length; j < len; j++) {
+          result = results[j];
           url = $(result).find("a").attr("href");
           if (indexOf.call(uniqueUrls, url) >= 0) {
             $(result).remove();
@@ -713,14 +713,14 @@
     };
     if (isNull(_arctos.searchObject)) {
       $.getJSON("https://arctosdb.github.io/documentation-wiki/search.json").done(function(jsonResult) {
-        var elapsed, hourToMs, i, len, matchCollectionType, ref, result, uniqueUrls;
+        var elapsed, hourToMs, j, len, matchCollectionType, ref, result, uniqueUrls;
         console.info("Search pinged back result", jsonResult);
         _arctos.searchObject = new Array();
         _arctos.searchPageObject = new Array();
         matchCollectionType = "";
         uniqueUrls = new Array();
-        for (i = 0, len = jsonResult.length; i < len; i++) {
-          result = jsonResult[i];
+        for (j = 0, len = jsonResult.length; j < len; j++) {
+          result = jsonResult[j];
           if (ref = result.url, indexOf.call(uniqueUrls, ref) >= 0) {
             console.info("Removing duplicate url '" + result.url + "'");
             continue;
@@ -760,8 +760,22 @@
     return false;
   };
 
+  fixSearchHeight = function() {
+    var minHeight;
+    if (!window.hasSetupSizer) {
+      $(window).resize(function() {
+        fixSearchHeight();
+        return false;
+      });
+    }
+    window.hasSetupSizer = true;
+    minHeight = $("nav#toc").outerHeight(true);
+    $("div.nav-container").css("min-heieght", minHeight);
+    return false;
+  };
+
   $(function() {
-    var checkToc, i, len, ref, table;
+    var checkToc, i, j, len, ref, table;
     tabSelect();
     $("#searchsubmit").click(function() {
       return $("#sidebar-search-form").submit();
@@ -799,10 +813,16 @@
     });
     handleSearch(true);
     lightboxImages();
+    i = 0;
     ref = $("table");
-    for (i = 0, len = ref.length; i < len; i++) {
-      table = ref[i];
+    for (j = 0, len = ref.length; j < len; j++) {
+      table = ref[j];
       $(table).addClass("table table-condensed table-hover");
+    }
+    if (i === 0) {
+      console.log("No tables found");
+    } else {
+      console.debug("Added classes to " + i + " tables");
     }
     if ($("nav#toc").exists()) {
       return (checkToc = function() {
@@ -823,9 +843,10 @@
                   $headings = Toc.helpers.getHeadings(opts.$scope, topLevel);
                   Toc.helpers.populateNav($topContext, topLevel, $headings);
                 }
-                return $("body").scrollspy({
+                $("body").scrollspy({
                   target: "#toc"
                 });
+                return fixSearchHeight();
               }
             }
           } else {
