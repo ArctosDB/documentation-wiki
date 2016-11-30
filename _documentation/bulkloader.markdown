@@ -119,6 +119,8 @@ incomplete, cryptic, or otherwise useless.
 |<span class="blrequired">Higher_Geog</span>|text; [pre-existing](http://arctos.database.museum/showLocality.cfm)|[\[ doc \]](/documentation/places/higher-geography/) Higher Geography *exactly* as it appears in table Geog_Auth_Rec. New values must be added to the database prior to bulk-loading. |
 |<span class="blcondreq">Maximum_Elevation</span>|integer &gt; minimum_elevation|[\[ doc \]](/documentation/places/locality/#elevation) Maximum elevation from which the specimen could have come. Used in conjunction with Minimum_Elevation and Orig_Elev_Units.|
 |<span class="blcondreq">Minimum_Elevation</span>|integer &lt; maximum_elevation|[\[ doc \]](/documentation/places/locality/#elevation) Minimum elevation from which the specimen could have come. Used in conjunction with Maximum_Elevation and Orig_Elev_Units.|
+
+
 <span class="blcondreq">Orig_Elev_Units</span>
 text;
 [ctorig_elev_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctorig_elev_units)
