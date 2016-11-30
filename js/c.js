@@ -773,7 +773,11 @@
         return fixSearchHeight();
       });
     }
-    minHeight = $("nav#toc").outerHeight(true);
+    if ($(window).width() <= 1280) {
+      minHeight = $("nav#toc").outerHeight(true);
+    } else {
+      minHeight = 0;
+    }
     $("div.nav-container").css("min-height", minHeight);
     window.hasSetupSizer = true;
     return minHeight;

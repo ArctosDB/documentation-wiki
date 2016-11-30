@@ -174,7 +174,10 @@ fixSearchHeight = ->
       # Run a one-time delayed fix
       fixSearchHeight()
   # Resize!
-  minHeight = $("nav#toc").outerHeight(true)
+  if $(window).width() <= 1280 # 1280 is the breakpoint
+    minHeight = $("nav#toc").outerHeight(true)
+  else
+    minHeight = 0
   $("div.nav-container").css "min-height", minHeight
   window.hasSetupSizer = true
   minHeight
