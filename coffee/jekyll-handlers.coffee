@@ -169,7 +169,7 @@ fixSearchHeight = ->
     $(window).resize ->
       console.debug "Firing search height resizer on window resize"
       fixSearchHeight()
-      false 
+      false
     delay 250, ->
       # Run a one-time delayed fix
       fixSearchHeight()
@@ -182,6 +182,7 @@ fixSearchHeight = ->
         topOffsetNumber += $("header div.wrapper:visible").outerHeight(true)
     topOffset = "#{topOffsetNumber}px"
     console.debug "Scroll offset #{topOffset}"
+    $("nav#toc").css "top", topOffset
     topOffset
   # Resize!
   if $(window).width() <= 1280 # 1280 is the breakpoint

@@ -785,6 +785,7 @@
       }
       topOffset = topOffsetNumber + "px";
       console.debug("Scroll offset " + topOffset);
+      $("nav#toc").css("top", topOffset);
       return topOffset;
     };
     if ($(window).width() <= 1280) {
