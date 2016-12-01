@@ -174,7 +174,7 @@ fixSearchHeight = ->
       # Run a one-time delayed fix
       fixSearchHeight()
   scrollOffsetter = ->
-    topOffsetNumber = $("paper-tabs.affix").outerHeight(true)
+    topOffsetNumber = $("paper-tabs").outerHeight(true)
     topOffset = "#{topOffsetNumber}px"
     console.debug "Scroll offset #{topOffset}"
     topOffset

@@ -775,7 +775,7 @@
     }
     scrollOffsetter = function() {
       var topOffset, topOffsetNumber;
-      topOffsetNumber = $("paper-tabs.affix").outerHeight(true);
+      topOffsetNumber = $("paper-tabs").outerHeight(true);
       topOffset = topOffsetNumber + "px";
       console.debug("Scroll offset " + topOffset);
       return topOffset;
