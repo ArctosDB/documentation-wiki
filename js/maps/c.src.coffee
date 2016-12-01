@@ -544,11 +544,11 @@ fixSearchHeight = ->
   if $(window).width() <= 1280 # 1280 is the breakpoint
     minHeight = $("nav#toc").outerHeight(true)
     topOffset = scrollOffsetter()
-    $("body").scroll scrollOffsetter
+    $(window).scroll scrollOffsetter
   else
     minHeight = 0
     topOffset = "200px"
-    $("body").unbind "scroll", scrollOffsetter
+    $(window).unbind "scroll", scrollOffsetter
   $("div.nav-container").css "min-height", minHeight
   $("nav#toc").css "top", topOffset
   window.hasSetupSizer = true
