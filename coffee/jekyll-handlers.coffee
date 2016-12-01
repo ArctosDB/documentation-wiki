@@ -175,6 +175,11 @@ fixSearchHeight = ->
       fixSearchHeight()
   scrollOffsetter = ->
     topOffsetNumber = $("paper-tabs").outerHeight(true)
+    if isNull topOffsetNumber
+      topOffsetNumber = 200
+    else
+      if $("paper-tabs.affix-top").exists()
+        topOffsetNumber += $("header div.wrapper:visible").outerHeight(true)
     topOffset = "#{topOffsetNumber}px"
     console.debug "Scroll offset #{topOffset}"
     topOffset
@@ -188,7 +193,7 @@ fixSearchHeight = ->
     topOffset = "200px"
     $("body").unbind "scroll", scrollOffsetter
   $("div.nav-container").css "min-height", minHeight
-  $("div.nav-container").css "top", topOffset
+  $("nav#toc").css "top", topOffset
   window.hasSetupSizer = true
   minHeight
 

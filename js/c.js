@@ -776,6 +776,13 @@
     scrollOffsetter = function() {
       var topOffset, topOffsetNumber;
       topOffsetNumber = $("paper-tabs").outerHeight(true);
+      if (isNull(topOffsetNumber)) {
+        topOffsetNumber = 200;
+      } else {
+        if ($("paper-tabs.affix-top").exists()) {
+          topOffsetNumber += $("header div.wrapper:visible").outerHeight(true);
+        }
+      }
       topOffset = topOffsetNumber + "px";
       console.debug("Scroll offset " + topOffset);
       return topOffset;
@@ -790,7 +797,7 @@
       $("body").unbind("scroll", scrollOffsetter);
     }
     $("div.nav-container").css("min-height", minHeight);
-    $("div.nav-container").css("top", topOffset);
+    $("nav#toc").css("top", topOffset);
     window.hasSetupSizer = true;
     return minHeight;
   };
