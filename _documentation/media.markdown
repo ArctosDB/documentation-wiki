@@ -7,7 +7,7 @@ layout: default_toc
 
 
 
-### General Description
+## General Description
 
 Media are any digital objects (such as photographs, sound recordings,
 and three-dimensional renderings of objects) that can be related to data
@@ -60,12 +60,14 @@ will always work, while admins may be less able to help with, for
 example, "protocol://some_domain/my/directory/structure/file name is
 out here.jpg"
 
+
+
+### Mime Type:
+
 `Media . MIME_TYPE VARCHAR2(255) not null`
 
 [`ctmime_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
 
-
-### Mime Type:
 
 The Internet media type. Consists of a type and subtype, such as
 "text/html."
@@ -74,11 +76,13 @@ controlled, described in
 [Wikipedia](http://en.wikipedia.org/wiki/Mime_type).
 
 
-`Media . MEDIA_TYPE VARCHAR2(255) not null`
-[`ctmedia_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type)
 
 
 ### Media Type:
+
+`Media . MEDIA_TYPE VARCHAR2(255) not null`
+[`ctmedia_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type)
+
 
 A description of the kind of media. These values are controlled by a
 [code
@@ -87,20 +91,26 @@ Media Type exists to categorize Media whose MIME type is not
 sufficiently descriptive. A HTML image viewer application would have
 MIME_TYPE of ‘text/html’ and MEDIA_TYPE of ‘image,’ for example.
 
-`Media . PREVIEW_URI VARCHAR2(255) null`
+
 
 ### Preview URI:
+
+`Media . PREVIEW_URI VARCHAR2(255) null`
+
 
 The Uniform Resource Identifier (URI) for a preview of the Media item. A
 preview might be something like a thumb-nail sized version of a larger
 image.
 
 
-`Media_Relations . MEDIA_RELATIONSHIP VARCHAR2(40) not null`
-[`ctmedia_relationship`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship)
 
 
 ### Media Relationship:
+
+`Media_Relations . MEDIA_RELATIONSHIP VARCHAR2(40) not null`
+
+[`ctmedia_relationship`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship)
+
 
 The kind of relationship between the media and the data item.
 Relationships are functional and must be comprised of a string
@@ -108,31 +118,42 @@ containing at least one space and ending with a table name. ColdFusion
 and Oracle both rely on this. Values are controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship).
 
-`Media_Relations . CREATED_BY_AGENT_ID NUMBER not null`
+
 
 ### Created By:
+
+`Media_Relations . CREATED_BY_AGENT_ID NUMBER not null`
+
 
 The agent who created the relationship between a media object and a data
 item. This is a foreign key to the Agent table.
 
 
-`Media_Relations . RELATED_PRIMARY_KEY NUMBER not null`
+
 
 ### Related Data Item:
+
+`Media_Relations . RELATED_PRIMARY_KEY NUMBER not null`
+
 
 The data item to which the Media object is related. This is a foreign
 key.
 
 
-`Media_Labels . MEDIA_LABEL VARCHAR2(255) not null`
-[`ctmedia_label`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label)
 
 
 ### Media Label:
 
+`Media_Labels . MEDIA_LABEL VARCHAR2(255) not null`
+
+[`ctmedia_label`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label)
+
+
 The subject matter of a label describing a Media object. Values are
 controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label).
+
+
 
 
 ### A checksum
@@ -146,23 +167,27 @@ sources can be manually entered as Media Labels.
 
 
 
-`Media_Labels . LABEL_VALUE VARCHAR2(255) not null`
 
 ### Label Value:
+
+`Media_Labels . LABEL_VALUE VARCHAR2(255) not null`
+
 
 The content of a label generally uncontrolled text (excepting some
 dates, which are ISO8601-format).
 
-`Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null`
 
 
-
-`Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null`
 
 ### Assigned By:
 
+`Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null`
+
+
 The agent who assigned the label. This is a foreign key to the Agent
 table.
+
+
 
 
 ### Media Creation Guidelines
@@ -188,6 +213,7 @@ Use reasonable previews; filesize should be under (preferably much
 under!) 10K (previews larger than 48K will NOT be displayed), and scale
 to \~120px. Cropped or otherwise misleading previews should be avoided.
 Leave preview_uri `NULL` if producing a good thumbnail isn’t possible.
+
 
 
 ### Binary Object Creation Guidelines
@@ -219,15 +245,11 @@ click on thumbnails) while still providing easy access to them from the
 derivative.
 
 ![DNG
-view](../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png "DNG view"){.size-full
-.wp-image-910 width="595" height="470"
-sizes="(max-width: 595px) 100vw, 595px"
-srcset="../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png 595w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-300x237.png 300w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-250x197.png 250w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-550x434.png 550w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-228x180.png 228w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am-380x300.png 380w"}
+view](../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png "DNG view")
+
+
 DNG view
-![](../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png "JPG view - what most users find"){.size-full
-.wp-image-911 width="640" height="360"
-sizes="(max-width: 640px) 100vw, 640px"
-srcset="../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png 853w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-300x169.png 300w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-768x433.png 768w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-250x141.png 250w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-550x310.png 550w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-800x451.png 800w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-319x180.png 319w, ../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am-532x300.png 532w"}
+![](../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png "JPG view - what most users find")
 
 
 JPG view – what most users find
@@ -274,13 +296,17 @@ Required fields are:
 
 Use the additional fields as you normally would to add any additional
 information, such as author(s).
+
 <img src="../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png"  width="640" height="81"
 sizes="(max-width: 640px) 100vw, 640px"
 srcset="../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png 809w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-300x38.png 300w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-768x98.png 768w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-250x32.png 250w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-550x70.png 550w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-800x102.png 800w" />
+
 Note that with good organization and clever use of your favorite
 spreadsheet, most of the work should be simple copy/paste/increment.
 
- **Bulkloading Media** This entry describes one process to
+## Bulkloading Media
+
+This entry describes one process to
 create Media on Arctos. It is not the only method possible, and may not
 be most suitable for any given need. [MVZ](http://mvz.berkeley.edu/) has
 developed specialized procedures to fit their workflow, for example.
@@ -298,6 +324,8 @@ developed specialized procedures to fit their workflow, for example.
 3.  Populate the Media Bulkloader using the URI you’ve created in
     loading media, upload the CSV file, and follow the directions until
     you get a "spiffy" message.
+
+
 
 ## Discovery
 
@@ -376,18 +404,13 @@ someone’s mixed some numbers up somewhere along the way." To create a
 link from a comment TAG to a specimen, simply type doubled square
 brackets around the GUID-string. Example:
 
-<div>
 
 \[\[MVZ:Mamm:184092\]\]
 
-</div>
-
-<div>
 
 forms a HTML-link to
 <http://arctos.database.museum/guid/MVZ:Mamm:184092>
 
-</div>
 
 
 ### URLs and Stability
@@ -431,9 +454,9 @@ which to use in any particular situation.
     necessary because Arctos Media may be located anywhere, including
     servers over which we have no control.)
 -   **Media URI
-    (<http://web.corral.tacc.utexas.edu/MVZimages/MVZ_img/cards/jpg/img_card_2242.jpg>)
+    (<http://web.corral.tacc.utexas.edu/MVZimages/MVZ_img/cards/jpg/img_card_2242.jpg>)**
 
-    **The link to the binary. These do NOT fire application-level
+    The link to the binary. These do NOT fire application-level
     logging, come with no stability guarantees, and should not be used
     for most purposes.
 
