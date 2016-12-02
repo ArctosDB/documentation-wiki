@@ -22,97 +22,33 @@ listed under only one higher geography. The [guidelines](#guidelines)
 below are intended to prevent (and even remedy) such inconsistencies.
 
 
+## Continent / Ocean
 
 `Geo_Auth_Rec . Continent_Ocean VARCHAR(50) not null`
 
-**Continent/Ocean:** All records in Higher Geography have a value in
+All records in Higher Geography have a value in
 this field. A record with the value "no higher geography" is applied to
 specimens with no geographic data. Western Russia is in Europe, eastern
 Russia is in Asia. Both are sometimes in Eurasia.
 
-+--------------------------------------+--------------------------------------+
+
 | [Terrestrial](#terrestrial_marine)   | [Marine](#terrestrial_marine)        |
-+======================================+======================================+
-| <div align="center">                 | <div align="center">                 |
-|                                      |                                      |
-| North America                        | North Pacific Ocean ([Area           |
-|                                      | D](http://memory.loc.gov/cgi-bin/ima |
-| </div>                               | ge-services/jp2.py?data=/home/www/da |
-|                                      | ta/gmd/gmd9/g9096/g9096a/ct003193.jp |
-|                                      | 2&res=2 "Chart of the Limits of Seas |
-|                                      |  and Oceans"))                       |
-|                                      |                                      |
-|                                      | </div>                               |
-+--------------------------------------+--------------------------------------+
-| <div align="center">                 | <div align="center">                 |
-|                                      |                                      |
-| Central America                      | South Pacific Ocean ([Area           |
-|                                      | E](http://memory.loc.gov/cgi-bin/ima |
-| </div>                               | ge-services/jp2.py?data=/home/www/da |
-|                                      | ta/gmd/gmd9/g9096/g9096a/ct003193.jp |
-|                                      | 2&res=2 "Chart of the Limits of Seas |
-|                                      |  and Oceans"))                       |
-|                                      |                                      |
-|                                      | </div>                               |
-+--------------------------------------+--------------------------------------+
-| <div align="center">                 | <div align="center">                 |
-|                                      |                                      |
-| South America                        | Arctic Ocean ([Area                  |
-|                                      | A](http://memory.loc.gov/cgi-bin/ima |
-| </div>                               | ge-services/jp2.py?data=/home/www/da |
-|                                      | ta/gmd/gmd9/g9096/g9096a/ct003193.jp |
-|                                      | 2&res=2 "Chart of the Limits of Seas |
-|                                      |  and Oceans"))                       |
-|                                      |                                      |
-|                                      | </div>                               |
-+--------------------------------------+--------------------------------------+
-| <div align="center">                 | <div align="center">                 |
-|                                      |                                      |
-| Europe                               | South Atlantic Ocean ([Area          |
-|                                      | C](http://memory.loc.gov/cgi-bin/ima |
-| </div>                               | ge-services/jp2.py?data=/home/www/da |
-|                                      | ta/gmd/gmd9/g9096/g9096a/ct003193.jp |
-|                                      | 2&res=2 "Chart of the Limits of Seas |
-|                                      |  and Oceans"))                       |
-|                                      |                                      |
-|                                      | </div>                               |
-+--------------------------------------+--------------------------------------+
-| <div align="center">                 | <div align="center">                 |
-|                                      |                                      |
-| Asia                                 | North Atlantic Ocean ([Area          |
-|                                      | B](http://memory.loc.gov/cgi-bin/ima |
-| </div>                               | ge-services/jp2.py?data=/home/www/da |
-|                                      | ta/gmd/gmd9/g9096/g9096a/ct003193.jp |
-|                                      | 2&res=2 "Chart of the Limits of Seas |
-|                                      |  and Oceans"))                       |
-|                                      |                                      |
-|                                      | </div>                               |
-+--------------------------------------+--------------------------------------+
-| <div align="center">                 | Indian Ocean ([Area                  |
-|                                      | F](http://memory.loc.gov/cgi-bin/ima |
-| Africa                               | ge-services/jp2.py?data=/home/www/da |
-|                                      | ta/gmd/gmd9/g9096/g9096a/ct003193.jp |
-| </div>                               | 2&res=2 "Chart of the Limits of Seas |
-|                                      |  and Oceans"))                       |
-+--------------------------------------+--------------------------------------+
-| <div align="center">                 |                                      |
-|                                      |                                      |
+|--------------------------------------|--------------------------------------|
+| North America                        | North Pacific Ocean ([Area D](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans"))       |
+| Central America                      | South Pacific Ocean ([Area E](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans"))       |
+| South America                        | Arctic Ocean ([Area A](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans"))       |
+| Europe                               | South Atlantic Ocean ([Area C](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans"))       |
+| Asia                                 | North Atlantic Ocean ([Area B](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans"))      |
+| Africa                               | Indian Ocean ([Area F](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans")) |
 | Australia                            |                                      |
-|                                      |                                      |
-| </div>                               |                                      |
-+--------------------------------------+--------------------------------------+
-| <div align="center">                 | <div align="center">                 |
-|                                      |                                      |
 | Antarctica                           | missing data: "no higher geography"  |
-|                                      |                                      |
-| </div>                               | </div>                               |
-+--------------------------------------+--------------------------------------+
 
 
 
-`Geo_Auth_Rec . Country VARCHAR(50) null`
 
 ## Country
+
+`Geo_Auth_Rec . Country VARCHAR(50) null`
 
  is the familiar concept of first-level political entity,
 though various territorial claims complicate reality. We currently
@@ -126,13 +62,17 @@ georeferenced specimens "from France."
 
 [![This is
 France](../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png){.wp-image-1542
-.size-full width="640" height="437"
-sizes="(max-width: 640px) 100vw, 640px"
-srcset="../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png 664w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-300x205.png 300w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-250x171.png 250w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-550x376.png 550w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-263x180.png 263w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-439x300.png 439w"}](../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png)
+.size-full width-"640" height-"437"
+sizes-"(max-width: 640px) 100vw, 640px"
+srcset-"../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png 664w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-300x205.png 300w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-250x171.png 250w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-550x376.png 550w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-263x180.png 263w, ../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am-439x300.png 439w"}](../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png)
 France
+
+
+## State / Province
+
 `Geo_Auth_Rec . State_Prov VARCHAR(75) null`
 
-**State/Province:** These are primary subdivisions of a country, be they
+These are primary subdivisions of a country, be they
 states, provinces, departments, or okrugs.
 
 -   **Example:** Magadanskaya oblast
@@ -142,9 +82,10 @@ states, provinces, departments, or okrugs.
 
 
 
-`Geo_Auth_Rec . Sea VARCHAR(50) not null`
 
 ## Seas
+
+`Geo_Auth_Rec . Sea VARCHAR(50) not null`
 
  are defined as divisions of [oceans](#continent_ocean), but for
 a large proportion of open ocean, seas are not applicable. For example,
@@ -153,10 +94,10 @@ in neither the Chukchi nor Bering seas. Similarly, the coastal waters of
 California, and the east coast of Japan can be designated only as North
 Pacific Ocean. There have been efforts to formally delineate seas and
 oceans (e.g., the U. S. Navy’s "[Chart of Seas and
-Oceans](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data=/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res=2 "Chart of the Limits of Seas and Oceans")"
+Oceans](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans")"
 and the U. S. Defense Intelligence Agency’s "Geopolitical Data Elements
 and Related Features," [409-page
-PDF](http://http://oai.dtic.mil/oai/oai?verb=getRecord&metadataPrefix=html&identifier=ADA028803 "Geopolitical Data Elements and Related Features")).
+PDF](http://http://oai.dtic.mil/oai/oai?verb-getRecord&metadataPrefix-html&identifier-ADA028803 "Geopolitical Data Elements and Related Features")).
 These should be consulted for the name of seas, or if there is a
 question about whether a locality is appropriately included in a
 particular sea. (In their effort to be comprehensive and consistent
@@ -164,10 +105,10 @@ within a domain where rigorous definitions are not commonly used, these
 references occasionally offend common sense.)
 
 
+## County
 
 `Geo_Auth_Rec . County VARCHAR(50) null`
 
-## County
 
  County is a second-level political subdivision of a county,
 regardless of local labels. "Primorsky Krai" is a County in the Far
@@ -177,13 +118,13 @@ possible. Note that administrative hierarchy rather than local
 terminology defines County: Montserrado County is a State in Liberia and
 does not belong in the County field.
 
-`Geo_Auth_Rec . Quad VARCHAR(30) null`
-
-
 
 
 
 ## Map Name (Quad)
+
+`Geo_Auth_Rec . Quad VARCHAR(30) null`
+
 
  The name of the U. S. Geological Survey maps in the
 1:250,000 series. Because Alaska lacks anything as inclusive counties,
@@ -193,10 +134,10 @@ Census Area is all-inclusive and mutually exclusive and therefore serves
 as a suitable if large-scale "county substitute.")
 
 
+## Geographic Feature
 
 `Geo_Auth_Rec . Feature VARCHAR(50) null`
 
-## Geographic Feature
 
  Features include named entities such as parks,
 preserves, refuges, and other delineated geo-political features. Feature
@@ -208,31 +149,25 @@ locality is well georeferenced and/or unequivocal in the absence of
 Feature.
 
 
+## Island Group
 
 `Geo_Auth_Rec . Island_Group VARCHAR(50) null`
 
-## Island Group
 
  is defined as the largest island group or Archipelago
 to which an island belongs. Island groups within island groups should be
 indicated in [Geographic Feature](#feature).
 
-+--------------------+--------------------+--------------------+--------------------+
+
 | Sea                | Island Group       | Feature            | Island             |
-+====================+====================+====================+====================+
-| <div               | <div               | <div               | <div               |
-| align="center">    | align="center">    | align="center">    | align="center">    |
-|                    |                    |                    |                    |
+|--------------------|--------------------|--------------------|--------------------|
 | Bering Sea         | Aleutian Islands   | Andreaonof Islands | Adak Island        |
-|                    |                    |                    |                    |
-| </div>             | </div>             | </div>             | </div>             |
-+--------------------+--------------------+--------------------+--------------------+
 
 
+## Island
 
 `Geo_Auth_Rec . Island VARCHAR(50) null`
 
-## Island
 
  When a locality includes an island name, and the locality is
 on or near an island, then the name of the island should be included in
@@ -244,20 +179,10 @@ island. For example, if the Verbatim Locality is "100 yds off of the
 beach, Bay Farm Island, Alameda Co., California", then the Higher
 Geography record should include:
 
-+----------------+----------------+----------------+----------------+----------------+
-| Country        | State          | County         | Island         | Specific       |
-|                |                |                |                | Locality       |
-+================+================+================+================+================+
-| <div           | <div           | <div           | <div           | <div           |
-| align="center" | align="center" | align="center" | align="center" | align="center" |
-| >              | >              | >              | >              | >              |
-|                |                |                |                |                |
-| United States  | California     | Alameda County | Bay Farm       | 100 yds off of |
-|                |                |                | Island         | the beach, Bay |
-| </div>         | </div>         | </div>         |                | Farm Island    |
-|                |                |                | </div>         |                |
-|                |                |                |                | </div>         |
-+----------------+----------------+----------------+----------------+----------------+
+
+| Country        | State          | County         | Island         | Specific Locality       |
+|----------------|----------------|----------------|----------------|----------------|
+| United States  | California     | Alameda County | Bay Farm Island| 100 yds off of the beach, Bay Farm Island    |
 
 On the other hand, a locality description may include an island only as
 a point of reference, *e.g.,*"456 nautical miles SSE of Midway Island."
@@ -265,19 +190,11 @@ In this case, inclusion of data in the island field is inappropriate.
 The island name should be included in the island field even though it
 may be the same as the specific locality, *e.g.,*
 
-+----------------+----------------+----------------+----------------+----------------+
-| Country        | State          | County         | Island         | Specific       |
-|                |                |                |                | Locality       |
-+================+================+================+================+================+
-| <div           | <div           | <div           | <div           | <div           |
-| align="center" | align="center" | align="center" | align="center" | align="center" |
-| >              | >              | >              | >              | >              |
-|                |                |                |                |                |
-| United States  | California     | Alameda County | Pin Head       | Pin Head       |
-|                |                |                | Island         | Island         |
-| </div>         | </div>         | </div>         |                |                |
-|                |                |                | </div>         | </div>         |
-+----------------+----------------+----------------+----------------+----------------+
+| Country        | State          | County         | Island         | Specific Locality       |
+|----------------|----------------|----------------|----------------|----------------|
+| United States  | California     | Alameda County | Pin Head Island| Pin Head Island|
+
+
 
 Names should be spelled out, including the word "island" when it is part
 of the name. Some valid island names:
@@ -294,17 +211,21 @@ instances such a page would be overly redundant or conflict with
 Wikipedia guidelines, in which case the next-most-specific entry is
 appropriate. Examples follow.
 
-  Geography                                                                                    Source                                                               Explanation
-  -------------------------------------------------------------------------------------------- -------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  North America, United States, Alaska                                                         http://en.wikipedia.org/wiki/Alaska                                  Well-defined unambiguous entity – yay us!
-  North America, United States, Alaska, Ambler River Quad                                      http://en.wikipedia.org/wiki/Alaska                                  There is no Wiki page for USGS quad maps. The data are unambiguous (there is or is not an appropriate USGS quad map) and mostly internal, so a general citation is appropriate.
-  North America, Beaufort Sea, United States, Alaska                                           http://en.wikipedia.org/wiki/Beaufort_Sea                           This is "Arctos shorthand" for "Beaufort, probably West of the Canandian border." The relevant Wikipedia article is the Sea. Note also that a geospatial search on this general area finds 7 geography entries; georeferencing is critical when geographic data is ambiguous.
-  North Pacific Ocean, Bering Sea, United States, Alaska                                                                                                            
-  North America, United States, Alaska, Mt. McKinley Quad, Denali National Park and Preserve   http://en.wikipedia.org/wiki/Denali_National_Park_and_Preserve   There is no Wikipedia entry for the area of Alaska that’s within both DNP and a USGS quad
+  | Geography  | Source   | Explanation |
+  |------------|----------|-------------|
+  | North America, United States, Alaska | http://en.wikipedia.org/wiki/Alaska | Well-defined unambiguous entity – yay us! |
+  | North America, United States, Alaska, Ambler River Quad | http://en.wikipedia.org/wiki/Alaska | There is no Wiki page for USGS quad maps. The data are unambiguous (there is or is not an appropriate USGS quad map) and mostly internal, so a general citation is appropriate. |
+  | North America, Beaufort Sea, United States, Alaska | http://en.wikipedia.org/wiki/Beaufort_Sea | This is "Arctos shorthand" for "Beaufort, probably West of the Canandian border." The relevant Wikipedia article is the Sea. Note also that a geospatial search on this general area finds 7 geography entries; georeferencing is critical when geographic data is ambiguous. |
+  | North Pacific Ocean, Bering Sea, United States, Alaska | | |                       
+  | North America, United States, Alaska, Mt. McKinley Quad, Denali National Park and Preserve | http://en.wikipedia.org/wiki/Denali_National_Park_and_Preserve | There is no Wikipedia entry for the area of Alaska that’s within both DNP and a USGS quad |
+
+
+
+
+## Higher Geography
 
 `Geo_Auth_Rec . Higher_Geog VARCHAR(255) not null`
 
-## Higher Geography
 
  (as a specific data field) is a the actual concatenation of the subdivisions described above. This is the value that is displayed in most applications.
 
@@ -312,17 +233,17 @@ appropriate. Examples follow.
 
 ## Field Summary
 
-  Category                              Examples                                                  Short Definition
-  ------------------------------------- --------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [Continent/Ocean](#continent_ocean)   North America, Arctic Ocean                               An all-inclusive set of divisions of the globe.
-  [Country](#country)                   United States, Iraq, Tibet                                **The primary political entity.**
-  [State/Province](#state_province)     Florida, Magadanskaya oblast                              Primary subdivision of a country, whatever its formal rank.
-  [Sea](#sea)                           Bering Sea, Gulf of Mexico                                A subdivision of an ocean. (See [chart](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data=/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res=2 "Chart of the Limits of Seas and Oceans").)
-  [County](#county)                     Lincoln County, Cajun Parish                              County, parish, or equivalent subdivision of a state or province.
-  [Map Name (Quad)](#map_name)          Fairbanks, Beaver                                         Names of quadrangles delineated by USGS 1:250,00 map series.
-  [Feature](#feature)                   Kenai National Wildlife Refuge, Anza Borrego State Park   Miscellaneous named and delineated entities below the level of state.
-  [Island Group](#island_group)         Alexander Archipelago, Franz Joseph Land                  **A named (but sometimes poorly defined) group of islands. These data are often replicated in Feature.**
-  [Island](#island)                     Kodiak Island, Svalbard                                   A single island.
+| Category                            | Examples                | Short Definition |
+|-------------------------------------|-------------------------|------------------|
+| [Continent/Ocean](#continent_ocean) | North America, Arctic Ocean |  An all-inclusive set of divisions of the globe. |
+| [Country](#country)                 | United States, Iraq, Tibet | **The primary political entity.** |
+| [State/Province](#state_province)   | Florida, Magadanskaya oblast | Primary subdivision of a country, whatever its formal rank. |
+| [Sea](#sea)                         | Bering Sea, Gulf of Mexico  | A subdivision of an ocean. (See [chart](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans").) |
+| [County](#county)                   | Lincoln County, Cajun Parish | County, parish, or equivalent subdivision of a state or province. |
+| [Map Name (Quad)](#map_name)        | Fairbanks, Beaver | Names of quadrangles delineated by USGS 1:250,00 map series. |
+| [Feature](#feature)                 | Kenai National Wildlife Refuge, Anza Borrego State Park |  Miscellaneous named and delineated entities below the level of state. |
+| [Island Group](#island_group)       | Alexander Archipelago, Franz Joseph Land | **A named (but sometimes poorly defined) group of islands. These data are often replicated in Feature.** |
+| [Island](#island)                   | Kodiak Island, Svalbard | A single island. |
 
 
 
@@ -350,8 +271,8 @@ to provide guidance and clarification in future geography creation or
 merge events, and is not searchable nor intended for public display.
 
 
-Guidelines for creating and editing geographic terms in Arctos.
----------------------------------------------------------------
+## Guidelines for creating and editing geographic terms in Arctos
+
 
 Geographic terms are difficult to standardize because:
 
@@ -469,11 +390,12 @@ else (and  leaving verbose notes in remarks when necessary).
     procedural information or remarks concerning other data (such as
     specimens or localities).
 -   See
-    [Iran](http://arctos.database.museum/geography.cfm?geog_auth_rec_id=10000319)
+    [Iran](http://arctos.database.museum/geography.cfm?geog_auth_rec_id-10000319)
     for an "complete" example.
 
-Guidelines for assigning geography to specimens.
-------------------------------------------------
+
+## Guidelines for assigning geography to specimens.
+
 
 A primary purpose of Higher Geography is to facilitate finding
 specimens, and so a primary curatorial goal should be to facilitate that
