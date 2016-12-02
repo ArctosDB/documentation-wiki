@@ -34,9 +34,10 @@ media are stored in three tables:
 
 ## Fields in table Media
 
+### Media URI:
+
 `Media . MEDIA_URI VARCHAR2(255) not null`
 
-### Media URI:
 
 The [Uniform Resource
 Identifier](http://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
