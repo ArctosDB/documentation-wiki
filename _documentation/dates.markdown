@@ -6,11 +6,8 @@ layout: default_toc
 # Dates
 
 
-<div class="center-block text-center">
-
 [![](http://imgs.xkcd.com/comics/iso_8601.png)](http://xkcd.com/1179/)
 
-</div>
 
 Only the information on this page defines the ISO8601 standard for
 Arctos.
