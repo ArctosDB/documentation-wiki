@@ -1,5 +1,7 @@
 ---
 title: Accessions
+author: Foobar
+date: 2016-11-30
 layout: default_toc
 ---
 

@@ -38,6 +38,14 @@
       </div>
       <article class="wrapper">
         {{ content }}
+        <div class="post-content-footer">
+          {% if page.date %}
+          last edited {{page.date}}
+          {% endif %}
+          {% if page.author %}
+          by {{page.author}}
+          {% endif %}
+        </div>
       </article>
     </main>
 
