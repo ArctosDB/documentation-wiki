@@ -24,9 +24,9 @@ cataloged at more than one institution. The term "specimen" is uses
 synonymously with "cataloged item" throughout Arctos.
 
 
-`Cataloged_Item . Cat_Num NUMBER not null`
-
 ## Catalog Number
+
+`Cataloged_Item . Cat_Num NUMBER not null`
 
  is the string (sometimes integer) assigned to a
 Cataloged Item. It must be unique (case-insensitive) within a particular
@@ -52,24 +52,24 @@ catalog. Arctos currently supports three formats of catalog number.
 From SpecimenSearch, Catalog Number accepts arguments of several forms.
 The following table is illustrative.
 
-  Input       Matches                                          Why
-  ----------- ------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  12          12                                               No-operator inputs are string matched.
-  12-14       12, 13, or 14                                    Dash-separated smaller–&gt;larger integers specify a range. Note that there is a 1000-item limit on ranges and lists.
-  =12-14      12-14                                            "=" (equals) prefix overrides all other operators and assumptions.
-  12-11       12-11                                            "Second" item is smaller than "first" item; not considered as range.
-  12-0110     12-11                                            "Second" item is zero-padded so not considered an integer; not considered as range.
-  12,13,14    12, 13, or 14                                    Commas are treated as list delimiters unless the value is prefixed with an equals sign. Note that there is a 1000-item limit on ranges and lists.
-  12,13a,14   12, 13a, or 14                                   Commas are treated as list delimiters unless the value is prefixed with an equals sign. Neither catalog numbers nor list elements must be numeric. Note that there is a 1000-item limit on ranges and lists.
-  %12%        <strong>12</strong>, <strong>12</strong>1, <strong>12</strong>a, 9994836<strong>12</strong>345, ….   "%" is "match anything." This matches anything CONTAINING 12.
-  %12         12, 112, AABC-5-a12, ….                          "%" is "match anything." This matches anything ENDING WITH 12.
-  \_12        012, a12, 912, ….                                "\_" is "match any single character."
-  1_2        102, 112, 1A2, ….                                "\_" is "match any single character."
+  |Input     | Matches                                         | Why           |
+  |----------|-------------------------------------------------|---------------|
+  |12        | 12                                              | No-operator inputs are string matched.|
+  |12-14     | 12, 13, or 14                                   | Dash-separated smaller–&gt;larger integers specify a range. Note that there is a 1000-item limit on ranges and lists.|
+  |=12-14    | 12-14                                           | "=" (equals) prefix overrides all other operators and assumptions.|
+  |12-11     | 12-11                                           |  "Second" item is smaller than "first" item; not considered as range.|
+  |12-0110   | 12-11                                            "Second" item is zero-padded so not considered an integer; not considered as range.|
+  |12,13,14  |  12, 13, or 14                                  |  Commas are treated as list delimiters unless the value is prefixed with an equals sign. Note that there is a 1000-item limit on ranges and lists.|
+  |12,13a,14 |  12, 13a, or 14                                 | Commas are treated as list delimiters unless the value is prefixed with an equals sign. Neither catalog numbers nor list elements must be numeric. Note that there is a 1000-item limit on ranges and lists.|
+  |%12%      | <strong>12</strong>, <strong>12</strong>1, <strong>12</strong>a, 9994836<strong>12</strong>345, ….   | "%" is "match anything." This matches anything CONTAINING 12.|
+  |%12       |  12, 112, AABC-5-a12, ….                        |  "%" is "match anything." This matches anything ENDING WITH 12.|
+  |\_12      |  012, a12, 912, ….                              |  "\_" is "match any single character."|
+  |1_2       | 102, 112, 1A2, ….                               | "\_" is "match any single character."|
 
 
 ## Guid Prefix
 
-Catalogs are most usefully defined by way of Collection.Guid_Prefix,
+Catalogs are most usefully defined by way of `Collection.Guid_Prefix`,
 which in conjunction with catalog number forms a unique identifier
 within Arctos, and in conjunction with Arctos’ URI forms a Globally
 Unique Identifier (GUID) for the specimen record. GUIDs, once formed,
@@ -78,9 +78,10 @@ specimens](#delete) for guidelines. All specimen citations should occur
 by way of GUID.
 
 
-`Collection . Collection VARCHAR2(15) not null`
 
 ## Collection
+
+`Collection . Collection VARCHAR2(15) not null`
 
   A short name for a particular collection type. For
 example:
@@ -88,11 +89,12 @@ example:
 -   Mammal Specimens
 
 
-`Collection . Collection_Cde VARCHAR2(4) not null`
 
 ## Collection Code
 
- This is an abbreviation for a collection type, such
+`Collection . Collection_Cde VARCHAR2(4) not null`
+
+This is an abbreviation for a collection type, such
 as "Mamm" or "Bird." ([code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde))
 This field is most importantly used in code tables, which determine the
@@ -102,11 +104,9 @@ using an attribute such as ear length, and you do not have to see
 irrelevant attributes such as beak length.
 
 
-`Collection . Desc VARCHAR2(255) not null`
-
 ## Description
 
-
+`Collection . Desc VARCHAR2(255) not null`
 
 An extended name/description of the collection. For example:
 
@@ -116,9 +116,9 @@ An extended name/description of the collection. For example:
 -   Kenelm W. Philip lepidoptera collection
 
 
-`Collection . Institution_Acronym VARCHAR2(20) not null`
-
 ## Institution Acronym
+
+`Collection . Institution_Acronym VARCHAR2(20) not null`
 
  Abbreviation of the institution that hosts the
 catalog. For example, "MVZ" for Museum of Vertebrate Zoology, "UAM" for
@@ -172,13 +172,12 @@ and the descriptions currently do little to clarify that problem. It is
 therefore possible (and often most practical) to search by the number
 component, entirely ignoring ID Type.
 
-<img src="../images/classic-uploads/2013/06/c8310-screenshot2011-07-12at1-34-13pm.png" width="640"
-height="140" />
+<img src="../images/classic-uploads/2013/06/c8310-screenshot2011-07-12at1-34-13pm.png" width="640" height="140" />
 
 The above example finds all specimens with any type of identifier
 (except catalog number)
 
-containing the string "123." As of this writing, that search returns
+containing the string "`123.`" As of this writing, that search returns
 9330 specimens. Additional criteria, coupled with Arctos’ sorting
 capability, is hopefully enough to find the specimen data of interest.
 
@@ -186,19 +185,17 @@ To get all search options, click Customize (near "Show More Options"),
 select a "My Other Identifier" (which will also then appear in results
 and on various forms), and choose "Show 3-part ID Search."
 
-<img src="../images/classic-uploads/2013/06/d5574-screenshot2011-07-12at10-54-33am.png" width="640"
-height="124" />
+<img src="../images/classic-uploads/2013/06/d5574-screenshot2011-07-12at10-54-33am.png" width="640" height="124" />
 
 Click Close and the form will reload with total of eight search options.
 For this example, we’ll use [Collector
 Number](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type&field=collector%20number).
-The simplest use case is to search for a string, here "1234":
+The simplest use case is to search for a string, here `1234`:
 
-<img src="../images/classic-uploads/2013/06/d77d2-screenshot2011-07-12at11-01-46am.png" width="640"
-height="78" />
+<img src="../images/classic-uploads/2013/06/d77d2-screenshot2011-07-12at11-01-46am.png" width="640" height="78" />
 
-This sends the query upper(customIdentifier.Display_Value) LIKE
-‘%1234%’ (display_value is a concatenation of prefix, number, and
+This sends the query `upper(customIdentifier.Display_Value) LIKE
+‘%1234%’` (`display_value` is a concatenation of prefix, number, and
 suffix). This returns specimens with Collector Numbers of:
 
 -   ABC-1234-X
@@ -218,8 +215,8 @@ The "in list" option accepts a comma-separated list of values.
 <img src="../images/classic-uploads/2013/06/32a29-screenshot2011-07-12at11-13-08am.png" width="640"
 height="76" />
 
-The above example sends SQL upper(customIdentifier.DISPLAY_VALUE) IN
-(‘A’,’B’,’C’), and as of this writing returns three specimens:
+The above example sends SQL `upper(customIdentifier.DISPLAY_VALUE) IN
+(‘A’,’B’,’C’)`, and as of this writing returns three specimens:
 
 <img src="../images/classic-uploads/2013/06/15eba-screenshot2011-07-12at11-15-18am.png" width="400"
 height="146" />
@@ -232,13 +229,12 @@ Three-part search to the rescue! (At
 least in the cases where data are entered correctly.) All of the above
 deal with the concatenation of prefix, number, and suffix. It is also
 possible to search these independently. Search for integer
-component=1234:
+`component=1234`:
 
 <img src="../images/classic-uploads/2013/06/a7771-screenshot2011-07-12at11-26-42am.png" width="640"
 height="116" />
 
-to send SQL customIdentifier.other_id_number = 1234<span
-style="font-family:Arial, Helvetica, sans-serif">. </span>
+to send SQL `customIdentifier.other_id_number = 1234.`
 
 This is a numeric match of the numeric part of other IDs. It will not
 find specimens which have the numeric information entered into prefix.
@@ -253,8 +249,8 @@ Prefix and suffix work similarly. This search:
 <img src="../images/classic-uploads/2013/06/7719a-screenshot2011-07-12at11-37-17am.png" width="640"
 height="90" />
 
-sends SQL AND upper(customIdentifier.other_id_prefix) LIKE ‘%A%’ AND
-customIdentifier.other_id_number = 123 (note prefix is a CONTAINS
+sends SQL `AND upper(customIdentifier.other_id_prefix) LIKE ‘%A%’ AND
+customIdentifier.other_id_number = 123` (note prefix is a `CONTAINS`
 match and is not case-sensitive) and returns these specimens:
 
 ![](../images/classic-uploads/2013/06/7aa78-screenshot2011-07-12at11-39-28am.png){width="320"
