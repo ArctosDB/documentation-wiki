@@ -15,9 +15,11 @@ after they were cited, or that were cited by some other identifier such
 as a field number.  A specimen citation includes:
 
 
-`Citation . Publication_ID (FK) INTEGER not null`
 
 ## Publication
+
+`Citation . Publication_ID (FK) INTEGER not null`
+
 
  There cannot be a Citation until the Publication has
 been included in the database.  Because full citation includes a page
@@ -25,16 +27,21 @@ number, the best practice is to enter citations only when the
 publication is in its final form.
 
 
-`Citation . Identification_ID (FK)INTEGER not null`
 
 ## Specimen
+
+`Citation . Identification_ID (FK)INTEGER not null`
+
 
  Citations link to, and ideally create, Identifications.
 
 
-`Citation . Occurs_Page_Number INTEGER null`
+
 
 ## Publication Page Number
+
+`Citation . Occurs_Page_Number INTEGER null`
+
 
  is the number of the first page on which the
 specific specimen is mentioned.  Referrals to the specimen on subsequent
@@ -42,12 +49,13 @@ pages within the same publication are ignored.
 
 
 
+
+## Basis of Citation
+
 `Citation . Type_Status VARCHAR(20) not null`
 
 [`ctcitation_type_status`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status)
 
-
-## Basis of Citation
 
  describes the context in which the specimen was
 cited.  It is possible that one specimen was cited in more than one
@@ -57,9 +65,12 @@ which the specimen is cited.  Vocabulary is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status).
 
 
-`Citation . identification_id (FK) INTEGER not null`
+
 
 ## Cited As
+
+`Citation . identification_id (FK) INTEGER not null`
+
 
  is the Identification.Scientific_Name to which the
 author(s) applied the specimen in the publication.  Sometimes this must
@@ -72,6 +83,7 @@ species.  In this case, the cited taxonomic identification is the
 family. It is preferable to create Identifications *sensu* the
 publication, even when the publication does not explicitly create names
 or re-identify specimens, as doing so supports more-detailed queries.
+
 
 
 ### Creating Specimen Citations
@@ -96,6 +108,7 @@ Identifier.  The form will automatically fill in the catalog number (if
 an Other_ID was used), and the current taxonomic determination for the
 specimen.  You then select the scientific name by which the publication
 cited the item.
+
 
 
 ### Erroneous Citations

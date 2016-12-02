@@ -28,17 +28,17 @@ might be useful in discovering specimens, it should be included in
 Arctos. (Remarks, annotated taxon relationships, and links to
 publications should be used to clarify.)
 
-Arctos taxonomy consists of two tables: taxon_name is a list of "base
-names" (genera, species, kingdoms) and taxon_term contains metadata
-regarding a taxon_name, optionally organized in various ways. Informal
-terms, such as "Sorex sp." or "Sorex cinereus or Sorex ugyunak" are
+Arctos taxonomy consists of two tables: `taxon_name` is a list of "base
+names" (genera, species, kingdoms) and `taxon_term` contains metadata
+regarding a `taxon_name`, optionally organized in various ways. Informal
+terms, such as "*Sorex sp.*" or "*Sorex cinereus* or *Sorex ugyunak*" are
 Identifications, not taxonomy. (Identifications are generally drawn from
 and linked to taxonomy in various ways.)
 
 
 ## Taxon Name
 
-The names in taxon_name are intended to be a formal taxonomic
+The names in `taxon_name` are intended to be a formal taxonomic
 authority, and should all be drawn from relevant taxonomic publications.
 A name is not linked to any particular classification (rather,
 classifications are linked to names), and may be a homonym or
@@ -91,9 +91,11 @@ family, according to….", for example, and many refer to multiple
 concepts, such as plants and animals.
 
 
-`Common_Name . Common_Name VARCHAR2 (20) null`
 
 ## Common Names
+
+`Common_Name . Common_Name VARCHAR2 (20) null`
+
 
  are intended to help users find what they are looking
 for, and not to propagate any standard or system. A taxon may have
@@ -107,20 +109,25 @@ particular standard such as that of the American Ornithological Union
 (*e.g.*, "Alaska marmot").
 
 
+
+
+## Taxon Relations
+
 `Taxon_Relations . Taxon_Relationship VARCHAR2 (30) not null`
 
 `cttaxon_relation`
 
-## Taxon Relations
 
  are comprised of a relationship type, a related
 taxon, and an authority for the relationship. The related taxon is
 another record in the taxonomy table.
 
 
-`Taxon_Relations . Relationship_Authority VARCHAR2 (45) null`
 
 ## Relationship Authority
+
+`Taxon_Relations . Relationship_Authority VARCHAR2 (45) null`
+
 
  is an open text field, and it may be `null`.
 Presumably the [Source Authority](#source_authority) for an accepted
@@ -164,7 +171,9 @@ plus the infraspecific rank, "subspecies," and author text from the
 There are various "taxonomy-like" search fields on SpecimenSearch, and
 they query different data.
 
-**"Identification"** queries the identification applied to specimens,
+### "Identification"
+
+queries the identification applied to specimens,
 and includes the option to query non-current identifications.
 Identifications are usually based in taxonomy, but are not wholly
 taxonomy. Examples of strings that will currently find specimens
@@ -179,7 +188,9 @@ include:
 -   Iron-rich mudstone (a non-Linnean term identifying a
     non-biological specimen)
 
-**"Taxon Name"** queries all taxonomy classifications, and
+### "Taxon Name"
+
+queries all taxonomy classifications, and
 classifications related to taxa attached to specimens. For example,
 querying MVZ Mammals for Muridae returns *Euryoryzomys nitidus,* even
 though MVZ’s preferred classification uses Cricetidae as the family of
@@ -197,29 +208,30 @@ name, which may be viewed as "Cricetidae according to MVZ."
 Each collection "claims" one taxon term source, and data from that
 source, when available, are stored with the specimen record. For
 example, if CollectionX claims the FAKE classification source, which
-contain the following data for namestring "Sorex cinereus":
+contain the following data for namestring "*Sorex cinereus*":
 
-  Term           Rank
-  -------------- ---------
-  Animalia       kingdom
-  Chordata       phylum
-  Mammalia       class
-  Soricomorpha   order
-  Soricidae      family
-  Sorex          genus
-  cinereus       species
+  | Term            | Rank |
+  |-----------------|------|
+  | Animalia        | kingdom |
+  | Chordata        | phylum |
+  | Mammalia        | class |
+  | Soricomorpha    | order |
+  | Soricidae       | family |
+  | Sorex           | genus |
+  | cinereus        | species |
 
 and CollectionY claims the NORANKS source:
 
-  Term           Rank
-  -------------- ------
-  Animalia       
-  Chordata       
-  Mammalia       
-  Soricomorpha   
-  Soricidae      
-  Sorex          
-  cinereus       
+
+  | Term            | Rank |
+  |-----------------|------|
+  | Animalia        | |
+  | Chordata        | |
+  | Mammalia        | |
+  | Soricomorpha    | |
+  | Soricidae       | |
+  | Sorex           | |
+  | cinereus        | |
 
 then searching for "Mammalia" in the "Class" field from SpecimenSearch
 will find CollectionX specimens but will NOT find CollectionY specimens.
@@ -227,11 +239,11 @@ will find CollectionX specimens but will NOT find CollectionY specimens.
 Searching the "Any taxon term" field will (by way of both example
 classifications above) find specimens from both collections.
 Additionally, if there is an additional BADEXAMPLE classification for
-Sorex cinereus:
+*Sorex cinereus*:
 
-  Term        Rank
-  ----------- --------
-  Shrewidae   family
+| Term            | Rank |
+|-----------------|------|
+| Shrewidae       | family |
 
 then searching the Family field for "Shrewidae" will find no specimens,
 as neither collection prefers the BADEXAMPLE classification, but
@@ -462,13 +474,14 @@ deleted at save).
 order). Ranks are optional; the following mixture of ordered ranked and
 unranked terms is possible (and common):
 
-  Term            Rank
-  --------------- ---------
-  Animalia        Kingdom
-  Cellular Life   
-  Soricidae       Family
-  Soricinae       
-  Sorex           genus
+
+  | Term            | Rank |
+  |-----------------|------|
+  | Animalia        | Kingdom |
+  | Cellular Life   | |
+  | Soricidae       | Family |
+  | Soricinae       | |
+  | Sorex           | genus |
 
 The following ranks are used in building "specimen data" (which is used
 for things like printing labels, locating specimens from the ranked

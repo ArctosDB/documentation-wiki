@@ -25,14 +25,15 @@ attributes.  Similarly, parasites have been recorded as parts of their
 hosts until such time as they might be worked into a separate parasite
 collection.
 
-`Specimen_Part.Part_Name VARCHAR(70) not null`
-
-[`ctspecimen_part_name`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
-
 
 
 
 ## Part Names
+
+`Specimen_Part.Part_Name VARCHAR(70) not null`
+
+[`ctspecimen_part_name`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
+
 
  What we choose to name as a part depends on what we
 define as a part,  and while this is often obvious (*e.g.,* "whole
@@ -93,13 +94,16 @@ thereof, preserved by freezing. Such samples commonly supply DNA for
 sequence analysis, and many researchers want to search for specimens
 from which they can readily obtain subsamples.
 
-`Coll_Object.Disposition VARCHAR(20) not null`
 
-[`ctcoll_obj_disp`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
 
 
 
 ## Disposition
+
+`Coll_Object.Disposition VARCHAR(20) not null`
+
+[`ctcoll_obj_disp`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
+
 
  describes the status of parts and, as an abstract
 generality,
@@ -112,11 +116,13 @@ the status of cataloged items.  Typical values are:
 -   missing
 -   destroyed
 
-`Coll_Object.Condition VARCHAR(255) not null`
 
 
 
 ## Condition
+
+`Coll_Object.Condition VARCHAR(255) not null`
+
 
  is used for entries such as "broken" or "dissected".
 
@@ -134,6 +140,9 @@ the status of cataloged items.  Typical values are:
 -   1 – These tissues are flaccid and thoroughly autolyzed. They
     probably stink.
 
+
+## Lot Count
+
 `Coll_Object.Lot_Count NUMBER not null`
 
 
@@ -147,29 +156,12 @@ time, and stored together in one jar of alcohol would be a cataloged
 item with one part,and that part would have a lot count of 86 whole
 animals.
 
-+--------------------+--------------------+--------------------+--------------------+
-| <div               | <div               | <div               | <div               |
-| align="center">    | align="center">    | align="center">    | align="center">    |
-|                    |                    |                    |                    |
+
 | Catalog \#         | Part Name          | Pres Method        | Lot Cnt            |
-|                    |                    |                    |                    |
-| </div>             | </div>             | </div>             | </div>             |
-+--------------------+--------------------+--------------------+--------------------+
-| <div               | <div               | <div               | <div               |
-| align="center">    | align="center">    | align="center">    | align="center">    |
-|                    |                    |                    |                    |
+|--------------------|--------------------|--------------------|--------------------|
 | 123456             | whole animal       | alcohol            | 85                 |
-|                    |                    |                    |                    |
-| </div>             | </div>             | </div>             | </div>             |
-+--------------------+--------------------+--------------------+--------------------+
-| <div               | <div               | <div               | <div               |
-| align="center">    | align="center">    | align="center">    | align="center">    |
-|                    |                    |                    |                    |
-| 123456             | skeleton           | cleared and        | 1                  |
-|                    |                    | stained            |                    |
-| </div>             | </div>             |                    | </div>             |
-|                    |                    | </div>             |                    |
-+--------------------+--------------------+--------------------+--------------------+
+| 123456             | skeleton           | cleared and stained| 1                  |
+
 
 Lot counts are not static; lots may be split into smaller lots by
 creating a separate part.  If one of those 86 minnows was prepared for
@@ -188,35 +180,23 @@ of 400, at least until such time as someone counts the minnows.
 
 Examples of lot count usage:
 
-+--------------------------------------+--------------------------------------+
-| <div align="center">                 | <div align="center">                 |
-|                                      |                                      |
-| **Material**                         | **Entry**                            |
-|                                      |                                      |
-| </div>                               | </div>                               |
-+--------------------------------------+--------------------------------------+
-| Two embryos stored in the same       | embryo (lot count = 2)               |
-| cryotube                             |                                      |
-+--------------------------------------+--------------------------------------+
-| Two liver samples stored in          | liver (lot count = 1)\               |
-| individual tubes                     | liver (lot count = 1)                |
-+--------------------------------------+--------------------------------------+
-| Three tubes each containing five     | nematode (lot count = 5)\            |
-| nematodes                            | nematode (lot count = 5)\            |
-|                                      | nematode (lot count = 5)             |
-+--------------------------------------+--------------------------------------+
-| Ten vertebrae in a box               | vertebra (lot count = 10)            |
-+--------------------------------------+--------------------------------------+
-| A jar of five salamanders of the     | whole animal (lot count = 5)         |
-| same species from the same           |                                      |
-| collecting event.                    |                                      |
-+--------------------------------------+--------------------------------------+
 
-`Specimen_Part.Sampled_From_Obj_Id NUMBER null`
+| Material                             | Entry                                |
+|--------------------------------------|--------------------------------------|
+| Two embryos stored in the same crytube      | embryo (lot count = 2)               |
+| Two liver samples stored in individual tubes         | liver (lot count = 1)               |
+| Three tubes each containing five nematodes     | nematode (lot count = 5) <br/> nematode (lot count = 5) <br/> nematode (lot count = 5)             |
+| Ten vertebrae in a box               | vertebra (lot count = 10)            |
+| A jar of five salamanders of the same species from the same collecting event.                    | whole animal (lot count = 5)     |
+
 
 
 
 ## Sampled From
+
+
+`Specimen_Part.Sampled_From_Obj_Id NUMBER null`
+
 
  designates a part derived from another part. This is
 intended to be a subsample supplied to an investigator for destructive
