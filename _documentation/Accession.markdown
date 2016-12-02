@@ -1,6 +1,6 @@
 ---
 title: Accessions
-author: Foobar
+author: Random Person Name
 date: 2016-11-30
 layout: default_toc
 ---

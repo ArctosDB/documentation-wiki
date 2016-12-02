@@ -40,7 +40,7 @@
         {{ content }}
         <div class="post-content-footer">
           {% if page.date %}
-          last edited {{page.date}}
+          last edited {{page.date | date_to_long_string }}
           {% endif %}
           {% if page.author %}
           by {{page.author}}
