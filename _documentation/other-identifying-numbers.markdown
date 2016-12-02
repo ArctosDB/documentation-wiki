@@ -31,8 +31,7 @@ ctcoll_other_ID_type
 ## Other Identifier Type
 
  describes the kind of identifier. This field
-uses a [controlled
-vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
+uses a [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
 Users who are logged in can choose one Other ID Type to be their
 "preferred identifier."   Your preferred identifier will then be the
 default displayed in several forms.

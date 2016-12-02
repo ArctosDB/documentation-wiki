@@ -68,9 +68,11 @@ formatting should be handled with HTML tags.
     Pacific pinnipeds.**
 
 
-`Publication . Short_Citation varchar(4000) not null`
 
 ## Short Citation
+
+`Publication . Short_Citation varchar(4000) not null`
+
 
  is typically authorship and year, the way
 publications are cited when included in the text of other publications. 
@@ -82,33 +84,44 @@ formatting.
 -   Welsh 1968
 
 
+
+
+## Publication Type
+
 `Publication . Publication_Type not null VARCHAR2(21)`
 
 [`ctPublication_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE)
 
-
-## Publication Type
 
  describes the nature of the publication, and
 vocabulary is
 [controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPUBLICATION_TYPE).
 
 
-`Publication . Publication_Year number, not null`
 
 ## Published Year
+
+`Publication . Publication_Year number, not null`
+
 
  is the year in which the publication occurred.  It is
 a four-digit integer, *e.g*., 1985.
 
 
-`Publication . Is_Peer_Reviewed_FG number(1), not null`
+
 
 ## Peer Review Flag
+
+`Publication . Is_Peer_Reviewed_FG number(1), not null`
+
 
  should be set to false for publications which have
 not undergone a formal peer review process, such as dissertations.
 
+
+
+
+## DOI
 
 ```
 
@@ -124,7 +137,6 @@ varchar(4000), null
 
 ```
 
-## DOI
 
  ([Digital Object Identifier](http://www.doi.org/)) or **PMID**
 ([PubMed Identifier](http://www.ncbi.nlm.nih.gov/pubmed/)) should be
@@ -142,6 +154,12 @@ The following are examples of formats that **contain** DOIs; they are
 
 -   **dx.doi.org/10.1111/j.1365-294X.2005.02461.x**
 -   **DOI:10.1111/j.1365-294X.2005.02461.x**.
+
+
+
+
+
+## Authors
 
 
 ```
@@ -164,8 +182,6 @@ number, not null (foreign key = Publication . Publication_ID
 
 ```
 
-## Authors
-
 , as
 [Agents](http://arctosdb.org/documentation/agent/ "Agents") can be
 linked to Publications.  Though authorship is expressed in Full
@@ -176,21 +192,26 @@ as publication agents.  Agent Name formatting is unimportant as
 formatted agent names are part of the full citation.
 
 
+
+
+## Author Role
+
 `Publication . Author_Role varchar2(255), not null`
 
 [`ctAuthor_Role`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE)
 
-
-## Author Role
 
  indicates whether the indicated agent is an actual
 author, or an editor of the publication. Vocabulary is
 [controlled](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAUTHOR_ROLE).
 
 
-`Publication.cfm?action=newPub`
+
 
 ## Creating Publications
+
+`Publication.cfm?action=newPub`
+
 
 Publications can be created in Arctos by two methods: (1) The relevant
 data can be keyboarded into the form, and (2) the DOI and/or PMID can be
