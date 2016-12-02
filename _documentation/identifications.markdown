@@ -134,9 +134,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_
 
 <div style="border:1px solid red;margin:2em;padding:2em">
 
-This concept is undergoing modification. Please see [Issue
-515](http://code.google.com/p/arctos/issues/detail?id=515) for
-additional guidance.
+This concept is undergoing modification. Please see [Issue 515](http://code.google.com/p/arctos/issues/detail?id=515) for additional guidance.
 
 </div>
 

@@ -29,43 +29,41 @@ and an accession. This arrangement well reflects the reality of
 incompleted exchanges, and takes advantage of the fact that we are
 dealing with both outgoing specimens and incoming specimens.
 
-`Loans . Loan_Number VARCHAR(20) not null`
-
-
 
 ## Loan Number
+
+`Loans . Loan_Number VARCHAR(20) not null`
+
 
 A Loan "number" is a string identifying the loan. The format usually
 follows local tradition (*e.g.*, YYYY:nnn:Collection) but is
 uncontrolled.
 
-`Loans . Loan_Type VARCHAR not null`
-
-
 
 ## Type
 
-Loan type is a [code-table controlled
-vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE).
+`Loans . Loan_Type VARCHAR not null`
+
+
+Loan type is a [code-table controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE).
 
 If multiple Types apply, consider separate loans for separate Types, or
 enter the most important one (*i.e.*, "returnable").
 
-`Loans . Loan_Status VARCHAR not null`
-
-
 
 ## Status
 
+`Loans . Loan_Status VARCHAR not null`
+
+
  is essentially the degree to which the transaction has been
-completed. The values comes from a [code-table controlled
-vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_STATUS).
-
-`Loans . Loan_Agent_Role VARCHAR not null`
-
+completed. The values comes from a [code-table controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_STATUS).
 
 
 ## Loan Agents
+
+`Loans . Loan_Agent_Role VARCHAR not null`
+
 
  Agents (generally people) are associated with loans in
 various capacities, and these vary among collections. At a minimum, a
@@ -77,99 +75,108 @@ may not be the person physically receiving or using the material.
 Loan Agent Role is a [code-table controlled
 vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTRANS_AGENT_ROLE).
 
-`Loans . Nature_of_Material VARCHAR not null`
-
-
 
 ## Nature of Material
+
+`Loans . Nature_of_Material VARCHAR not null`
+
 
  A description summarizing the overall content of
 the loan. This description will appear on the loan invoice. It should be
 explicit and concise, but it does not need include details on a
 specimen-by-specimen basis.
 
-`Loans . Instructions VARCHAR null`
-
 
 
 ## Instructions
 
+`Loans . Instructions VARCHAR null`
+
+
  Directions to the borrower on such things as storage
 and return of the loaned items.
-
-`Loans . Description VARCHAR null`
 
 
 
 ## Description
 
+`Loans . Description VARCHAR null`
+
+
  I don’t know? Why do we need another text field in
 addition to Nature of Material and Remarks?
-
-`Loans . Loan_Remarks VARCHAR null`
 
 
 
 ## Remarks
 
+`Loans . Loan_Remarks VARCHAR null`
+
+
  Any annotations that will not be included on the Loan
 invoice.
-
-`Loans . Initiated_Date DATE not null`
 
 
 
 ## Initiated Date
 
+`Loans . Initiated_Date DATE not null`
+
+
  is the date on which preparation of the loan began. A
 default value would be the date on which the loan was first recorded in
 the database.
 
-`Loans . Due_Date DATE null`
-
 
 
 ## Due Date
+
+`Loans . Due_Date DATE null`
+
 
  is the date that a loan of the Type Returnable is expected
 to be returned to the lending collection. This date may be used to
 search for overdue loans, and/or to generate automated reminders to the
 appropriate agents.
 
-`Loans . Shipping_Date DATE null`
-
 
 
 ## Shipping Date
+
+`Loans . Shipping_Date DATE null`
+
 
  is the date that the loaned material was shipped from
 the collection issuing the loan. The Shipping Date should be consistent
 with any documentation provided by the carrier, *e.g.,* a waybill, bill
 of lading, etc.
 
-`Loans . Receipt_Acknowledged_Date DATE null`
-
 
 
 ## Receipt Acknowledged
 
+`Loans . Receipt_Acknowledged_Date DATE null`
+
+
  is the date the agent receiving the loan
 submitted acknowledgment of its arrival to lending collection.
-
-`Loans . Returned_Date DATE null`
 
 
 
 ## Returned Date
 
+`Loans . Returned_Date DATE null`
+
+
 is the date that a loan of the type Returnable was received back at the
 collection from which the loan was issued.
-
-`Permit . Permit_ID INTEGER null`
 
 
 
 ## Permits
+
+`Permit . Permit_ID INTEGER null`
+
 
  A loan may be authorized under one or more
 [permits](permit.html), and these may include both the senders and to
@@ -179,11 +186,12 @@ Recording this information may be critical to reporting to the
 permit-issuing authority, and hence a legal requirement for conducting a
 loan.
 
-`Project . Project_ID INTEGER null`
-
 
 
 ## Projects
+
+`Project . Project_ID INTEGER null`
+
 
  A loan is almost always made in support of one or more
 [projects](project.html), and it is in project descriptions that the
