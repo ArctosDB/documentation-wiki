@@ -42,34 +42,27 @@ is merely a specific formatting of the data in Taxonomy.)  The
 explanation of Determination Formula (immediately below) is
 illustrative.
 
+
+## Determination Formula:
+
 `Identification . TAXA_FORMULA VARCHAR2 (25) not null`
 
 [`cttaxa_formula`](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula)
 
 
-## Determination Formula:
-
 A determination can contain more than one taxon, possibly in conjunction
 with modifiers. Taxa are combined with each other, or with modifiers,
 according to a formula. For example:
 
-  -------------------------------------------------------------------------------------------
-  Identification.Scientific_Name            Formula           Taxonomy.Scientific_Name(s)
-  ------------------------------------------ ----------------- ------------------------------
-  *Sorex cinereus*                           one taxon (A)     A = *Sorex cinereus*
-
-  *Sorex cinereus* ?                         taxon (A) + "?"   A = *Sorex cinereus*
-
-  *Sorex cinereus* or *Sorex ugyunak*        A "or" B          A = *Sorex cinereus*
-
-                                                               B = *Sorex ugyunak*
-
-  *Sorex sp.*                                A + "sp."         A= *Sorex*
-
-  *Canis latrans x Canis lupus familiaris*   A "X" B           A = *Canis latrans*
-
-                                                               B = *Canis lupus familiaris*
-  -------------------------------------------------------------------------------------------
+  |`Identification.Scientific_Name`         | Formula          | `Taxonomy.Scientific_Name`(s)|
+  |-----------------------------------------|------------------|------------------------------|
+  |*Sorex cinereus*                         | one taxon (A)    | A = *Sorex cinereus*         |
+  |*Sorex cinereus* ?                       | taxon (A) + "?"  | A = *Sorex cinereus*         |
+  |*Sorex cinereus* or *Sorex ugyunak*      | A "or" B         | A = *Sorex cinereus*         |
+  |                                         |                  | B = *Sorex ugyunak*          |
+  |*Sorex sp.*                              | A + "sp."        | A= *Sorex*                   |
+  |*Canis latrans x Canis lupus familiaris* | A "X" B          | A = *Canis latrans*          |
+  |                                         |                  | B = *Canis lupus familiaris* |
 
 More formulae are documented in the [vocabulary-control
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula).
@@ -80,9 +73,7 @@ do not need to designate a formula for data entry if you intend a simple
 one-taxon determination (formula "A"), and the bulkloader will recognize
 and appropriately parse constructions such as "Canis sp."
 
-###
-
-"A {string}" Formula
+### "A {string}" Formula
 
 The "A {string}" formula links nonformulaic identifications to taxa,
 thereby allowing infinite flexibility in applying identifications to
@@ -97,22 +88,19 @@ purposes of ordering or formulating complex names, and as such there
 exist no restrictions on how many ‘A’s can exist for an identification.
 The following table is illustrative.
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Identification                            Taxa             Why
-  ----------------------------------------- ---------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Sorex n. sp. "funnyfeet"                  Sorex            "Working names" (eg, informal identifiers not yet published as formal names) are perhaps the most common usage of the ‘A {string}’ formula
 
-  Iron-rich mudstone                        unidentifiable   While non-Linnean taxonomies are possbile in Arctos, they do not exist for all material. In this case, a mineral sample has no formal taxonomy.
-
-  Birchbark basket with moosehide lacings   Alces alces\     Artifact collections identify objects using ethnological terminology, but the items are often made from biological material. Adding linkages to Linnean taxonomy makes the material discoverable by attributes of those taxa. With these linkages, a biologist might locate this item and request subsamples of the (often pre-industrial) biological components.
-                                            Betula           
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  |Identification                          | Taxa            | Why             |
+  |----------------------------------------|-----------------|-----------------|
+  | Sorex n. sp. "funnyfeet"               |  Sorex          | "Working names" (eg, informal identifiers not yet published as formal names) are perhaps the most common usage of the ‘A {string}’ formula |
+  | Iron-rich mudstone                     | unidentifiable  | While non-Linnean taxonomies are possbile in Arctos, they do not exist for all material. In this case, a mineral sample has no formal taxonomy. |
+  | Birchbark basket with moosehide lacings| Alces alces     | Artifact collections identify objects using ethnological terminology, but the items are often made from biological material. Adding linkages to Linnean taxonomy makes the material discoverable by attributes of those taxa. With these linkages, a biologist might locate this item and request subsamples of the (often pre-industrial) biological components. |
 
  
 
-`Identification . Made_By_Agent_id NUMBER not null (FK)`
 
 ## Determiner
+
+`Identification . Made_By_Agent_id NUMBER not null (FK)`
 
  The determiner is the [agent](agent) (or agents, usually
 a person) who identified the specimen. More than one agent can be
@@ -122,21 +110,23 @@ change the displayed order, create a new copy of the determination with
 the determiners in the desired order, then delete the old record.
 
 
-`Identification . Made_Date DATE null`
 
 ## Determined Date
 
+`Identification . Made_Date DATE null`
+
+
  [ISO8601](/documentation/dates/) date-type. The
 chronological order of determinations may be the most critical issue.
+
+
+
+## Nature of ID
 
 `Identification . Nature_Of_ID VARCHAR2 (30) not null`
 
 [`ctnature_of_id`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id)
 
-
-
-
-## Nature of ID
 
  The basis of the identification. Vocabulary is defined
 in, and controlled by, a [code
@@ -150,9 +140,11 @@ additional guidance.
 
 </div>
 
-`Identification.Publication_ID NUMBER NOT NULL (FK Publication.Publication_ID)`
 
 ## *Sensu* Publication
+
+`Identification.Publication_ID NUMBER NOT NULL (FK Publication.Publication_ID)`
+
 
 Signifies that a determination is made in the sense of (*sensu*) a
 particular
@@ -163,11 +155,12 @@ documentation ("We’ve determined this to be *Aus bus* using the methods
 provided by Some Author").
 
 
-`Identification . Remarks VARCHAR2 255`
 
 ## Remarks
 
- can elaborate or clarify any signficant aspect of a
+`Identification . Remarks VARCHAR2 255`
+
+can elaborate or clarify any signficant aspect of a
 determination.  This is a good place for recording the verbatim form of
 a [Determined Date](#id_date) if it was not recorded as an exact day.
 
