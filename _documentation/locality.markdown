@@ -6,9 +6,7 @@ layout: default_toc
 # Locality
 
 
-
-A locality is a specific place associated with one or more [Collecting
-Events](collecting-event).  Ultimately, each locality should be a unique
+A locality is a specific place associated with one or more [Collecting Events](collecting-event).  Ultimately, each locality should be a unique
 circle in geographic space.  The center is a point defined by [latitude
 and longitude](coordinates), and the radius is a linear estimate of
 error.  For electronic mapping, we convert such data to decimal degrees
@@ -49,9 +47,11 @@ commonly used to unambiguously associate one or more specimens to a
 locality.
 
 
-`Locality . Spec_Locality VARCHAR2 (255) null`
 
 ## Specific Locality
+
+`Locality . Spec_Locality VARCHAR2 (255) null`
+
 
  refers to the locality from which the specimen was
 collected from the wild, regardless of whether the animal was brought
@@ -150,37 +150,41 @@ Events](collecting-event) for more details).
     -   **Example 2:**  junction of Strawberry Creek with Oxford Ave.
 -   Use only the following abbreviations:
 
-      Word or phrase                        Abbreviation   Comment
-      ------------------------------------- -------------- --------------------------------------------------------------------------------------------
-      yards                                 yds            If space permits, spell out non-metric units. *E.g.,*"yards"
-      feet                                  ft             If space permits, spell out non-metric units. *E.g.,*"feet"
-      meters                                m              
-      miles                                 mi             If space permits, spell out non-metric units. *E.g.,*"miles"
-      kilometers                            km             
-      east (of)                             E              
-      west (of)                             W              
-      north (of)                            N              
-      south (of)                            S              
-      northeast (of)                        NE             
-      northwest (of)                        NW             
-      southeast (of)                        SE             
-      southwest (of)                        SW             
-      approximately, about, near, *circa*   ca.            
-      Highway                               Hwy.           Only as part of a proper noun (e.g., "Hwy. 1", but not "on the highway").
-      Route                                 Rte.           Only as part of a proper noun (e.g., "Rte. 66").
-      Provincia, Province                   Prov.          
-      Departmento                           Depto.         
-      Road                                  Rd.            Only as part of a proper noun (e.g., "Sunset Rd.", but not "on the road" or "by road").
-      Mount                                 Mt.            Only as part of proper noun in which it is spelled out (e.g., "Mount Holyoke").
-      Mountains                             Mts.           Only as part of a proper noun (e.g., Rocky Mts., but not "in the mountains N Lake Tahoe").
-      Number, NÀômero                       No.            
-      Avenue                                Ave.           
-      Boulevard                             Blvd.          
-      United States                         U.S.           e.g., U. S. Forest Service
-      University of California              U.C.           Should be followed by a modifier, e.g., U.C. Berkeley
-      Doctor                                Dr.            e.g., Dr. Pearson’s house. Do not use for "Drive" (e.g., "Sunset Drive").
+      | Word or phrase                      | Abbreviation       | Comment     |
+      |-------------------------------------|--------------------|-------------|
+      | yards                               | yds           | If space permits, spell out non-metric units. *E.g.,*"yards" |
+      | feet                                | ft            | If space permits, spell out non-metric units. *E.g.,*"feet" |
+      | meters                              | m             | |
+      | miles                               | mi            | If space permits, spell out non-metric units. *E.g.,*"miles" |
+      | kilometers                          | km            | |
+      | east (of)                           | E             | |
+      | west (of)                           | W             | |
+      | north (of)                          | N             | |
+      | south (of)                          | S             | |
+      | northeast (of)                      | NE            | |
+      | northwest (of)                      | NW            | |
+      | southeast (of)                      | SE            | |
+      | southwest (of)                      | SW            | |
+      | approximately, about, near, *circa* | ca.           | |
+      | Highway                             | Hwy.          | Only as part of a proper noun (e.g., "Hwy. 1", but not "on the highway").|
+      | Route                               | Rte.          | Only as part of a proper noun (e.g., "Rte. 66"). |
+      | Provincia, Province                 | Prov.         | |
+      | Departmento                         | Depto.        | |
+      | Road                                | Rd.           | Only as part of a proper noun (e.g., "Sunset Rd.", but not "on the road" or "by road"). |
+      | Mount                               | Mt.           | Only as part of proper noun in which it is spelled out (e.g., "Mount Holyoke"). |
+      | Mountains                           | Mts.          | Only as part of a proper noun (e.g., Rocky Mts., but not "in the mountains N Lake Tahoe"). |
+      | Number, NÀômero                     | No.           | |
+      | Avenue                              | Ave.          | |
+      | Boulevard                           | Blvd.         | |
+      | United States                       | U.S.          | e.g., U. S. Forest Service |
+      | University of California            | U.C.          | Should be followed by a modifier, e.g., U.C. Berkeley |
+      | Doctor                              | Dr.           | e.g., Dr. Pearson’s house. Do not use for "Drive" (e.g., "Sunset Drive"). |
 
 
+
+
+
+## Elevations
 
 ```
 
@@ -190,17 +194,13 @@ Locality . Minimum_Elevation
 
 NUMBER null
 
-– – –
 
-Locality . Orig_Elev_Units
 
-VARCHAR2 (2) null
+Locality . Orig_Elev_Units VARCHAR2 (2) null
 
 ctorig_elev_units
 
 ```
-
-## Elevations
 
  are a height above mean sea level.  If elevation data are
 part of the verbatim locality, they should be entered into Minimum
@@ -213,6 +213,10 @@ fields.
 
 
 
+
+## Depths
+
+
 ```
 
 Locality . Max_Depth
@@ -221,17 +225,13 @@ Locality . Min_Depth
 
 NUMBER null
 
-– – –
 
-Locality . Depth_Units
 
-VARCHAR2 (2) null
+Locality . Depth_Units VARCHAR2 (2) null
 
 ctdepth_units
 
 ```
-
-## Depths
 
  are a distance below the surface of a body of water.  The
 body of water may or may not be at sea level, *e.g.,* a mountain lake. 
@@ -275,11 +275,11 @@ to latitude and longitude can be found at the following URL:
 
 [www.esg.montana.edu/gl/trs-data.html](http://www.esg.montana.edu/gl/trs-data.html).
 
-`Locality . NogeorefbecauseVARCHAR2(255) null`
-
-
 
 ## NoGeorefBecause
+
+`Locality . NogeorefbecauseVARCHAR2(255) null`
+
 
  is should always be `NULL` for localities with
 coordinate determinations.  Otherwise, it may be used to indicate
@@ -294,6 +294,7 @@ determinations.
  provides for a [well-known
 text](https://en.wikipedia.org/wiki/Well-known_text) shape associated
 with locality data.
+
 
 ## Edit Locality Form
 
