@@ -58,7 +58,7 @@ The following table is illustrative.
   |12-14     | 12, 13, or 14                                   | Dash-separated smaller–&gt;larger integers specify a range. Note that there is a 1000-item limit on ranges and lists.|
   |=12-14    | 12-14                                           | "=" (equals) prefix overrides all other operators and assumptions.|
   |12-11     | 12-11                                           |  "Second" item is smaller than "first" item; not considered as range.|
-  |12-0110   | 12-11                                            "Second" item is zero-padded so not considered an integer; not considered as range.|
+  |12-0110   | 12-11                                           | "Second" item is zero-padded so not considered an integer; not considered as range.|
   |12,13,14  |  12, 13, or 14                                  |  Commas are treated as list delimiters unless the value is prefixed with an equals sign. Note that there is a 1000-item limit on ranges and lists.|
   |12,13a,14 |  12, 13a, or 14                                 | Commas are treated as list delimiters unless the value is prefixed with an equals sign. Neither catalog numbers nor list elements must be numeric. Note that there is a 1000-item limit on ranges and lists.|
   |%12%      | <strong>12</strong>, <strong>12</strong>1, <strong>12</strong>a, 9994836<strong>12</strong>345, ….   | "%" is "match anything." This matches anything CONTAINING 12.|
@@ -177,7 +177,7 @@ component, entirely ignoring ID Type.
 The above example finds all specimens with any type of identifier
 (except catalog number)
 
-containing the string "`123.`" As of this writing, that search returns
+containing the string `123`. As of this writing, that search returns
 9330 specimens. Additional criteria, coupled with Arctos’ sorting
 capability, is hopefully enough to find the specimen data of interest.
 
@@ -406,5 +406,5 @@ To do this,
 
 
 
-Other ID documentation has moved to[it’s own
+Other ID documentation has moved to [it’s own
 page](http://arctosdb.org/documentation/other-id/#search_other_id).
