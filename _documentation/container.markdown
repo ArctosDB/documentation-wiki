@@ -51,12 +51,12 @@ barcode on the freezer rack and its new parent ID (the barcode on the
 freezer).
 
 
+
+## Container Type
+
 `Container . Container_Type VARCHAR(20) not null`
 
 [`ctcontainer_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcontainer_type)
-
-
-## Container Type
 
  Vials, jars, boxes, shelves, and rooms are all
 Container Types.
@@ -80,9 +80,10 @@ useful.
 
  
 
-`Container . Parent_Container_id NUMBER not null`
 
 ## Parent Container:
+
+`Container . Parent_Container_id NUMBER not null`
 
 This is the value that identifies the container into which another
 (child) Container has been placed. The value is not displayed in
@@ -91,9 +92,9 @@ Labels and entered into forms by their Barcode.
 
 
 
-`Container . Barcode VARCHAR(50) null`
-
 ## Barcode
+
+`Container . Barcode VARCHAR(50) null`
 
  Within the database, a barcode is a string of characters
 unique to a container. Most barcode values are meaningless "dumb
@@ -126,11 +127,11 @@ known barcode values.
 
 
 
-`Container . Label VARCHAR(255) not null`
-
 ## Label
 
- is the descriptive value that is displayed in most of our
+`Container . Label VARCHAR(255) not null`
+
+is the descriptive value that is displayed in most of our
 object-tracking applications. It should usually represent something that
 appears on the container. In many cases, this will be the value of the
 barcode which is displayed in human-readable fonts on most barcode
@@ -152,9 +153,9 @@ in Freezer 6 is "Frzr6 6-B," not just "6-B."
 
 
 
-`Container . Description VARCHAR(255) null`
-
 ## Description
+
+`Container . Description VARCHAR(255) null`
 
  is a useful expansion of Label. "Room 363" is useful as
 a label, but something like "The processing room in the south wing of
@@ -162,9 +163,9 @@ the Biology Annex" may be expeditious.
 
 
 
-`Container_History . Install_Date DATETIME not null`
-
 ## Install Date
+
+`Container_History . Install_Date DATETIME not null`
 
  This is the date on which the Parent Container was last
 changed, *i.e.*, the date on which the Container was placed in its
@@ -172,24 +173,24 @@ parent.
 
 
 
-`Container . container_remarks VARCHAR(255) null`
-
 ## Remarks
+
+`Container . container_remarks VARCHAR(255) null`
 
 is the place to record notes and about the container or its contents.
 Remarks are especially useful in explaining the nature and treatment of
 legacy containers (*i.e.,* containers without barcode labels).
 
 
+## Print Flag
 
 `Container . print_fg NUMBER(1) null`
-
-## Print Flag
 
  is a temporary flag that can be set for the purpose of
 printing container labels.
 
 
+## Width, Height, and Length
 
 ```
 
@@ -203,7 +204,7 @@ NUMBER null
 
 ```
 
-**Width, Height, Length** are dimensions of a container in centimeters.
+are dimensions of a container in centimeters.
 Decimal fractions can be used. Because movement of objects involves two
 barcode scans that relate a child container to a parent container, there
 is a risk of accidentally reversing these two values. These dimensions
@@ -212,18 +213,18 @@ is smaller than itself.
 
 Some common container dimensions:
 
-  Container                      Width   Height   Length
-  ------------------------------ ------- -------- --------
-  13-slot freezer rack           14      73       14
-  slot in freezer rack           13.5    5.5      13.5
-  regular (2 inch) freezer box   13      5        13
-  2-dram shell vial              2       5.6      2
+  |Container                     | Width  | Height | Length |
+  |------------------------------|--------|--------|--------|
+  |13-slot freezer rack          | 14     | 73     | 14     |
+  |slot in freezer rack          | 13.5   | 5.5    | 13.5   |
+  |regular (2 inch) freezer box  | 13     | 5      | 13     |
+  |2-dram shell vial             | 2      | 5.6    | 2      |
 
 
-
-`Container . Number_Positions INTEGER null`
 
 ## Number of Positions
+
+`Container . Number_Positions INTEGER null`
 
  Some containers have immovable subcontainers of
 the Container Type Position. For example, many freezer boxes designed to
@@ -235,9 +236,10 @@ as scanning cryovials into a 100-position freezer box versus an
 
 
 
-`Container . institution_acronym VARCHAR(20) not null`
 
 ## Institution
+
+`Container . institution_acronym VARCHAR(20) not null`
 
  is an abbreviation that indicates which institution’s
 "owns" a container. ("Owns" because containers are in fact shared across
@@ -553,21 +555,7 @@ description of the general qualities of the finished product.
 
 ## Creating position-holding freezer boxes
 
-###### (From MLC 2016-01-19)
-
-<div>
-
-<div>
-
-<div>
-
-<div>
-
-<div>
-
-<div>
-
-<div>
+### (From MLC 2016-01-19)
 
 1.  create a freezer box in object tracking ( or use bulk container edit
     to create a bunch)
@@ -589,22 +577,8 @@ description of the general qualities of the finished product.
     must scan it into a different position first, and then refresh your
     browser to delete it from the old position
 
-</div>
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-Guidelines for barcode-containing labels:
------------------------------------------
+### Guidelines for barcode-containing labels
 
 1.  Barcodes should be clearly replicated in a human-readable format.
     The value read by a scanner should be readable by a human as well.

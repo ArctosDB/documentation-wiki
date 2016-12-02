@@ -6,8 +6,9 @@ layout: default_toc
 # Dates
 
 
-
-[![](http://imgs.xkcd.com/comics/iso_8601.png)](http://xkcd.com/1179/)
+<div class="center-block text-center">
+  [![](http://imgs.xkcd.com/comics/iso_8601.png)](http://xkcd.com/1179/)
+</div>
 
 Only the information on this page defines the ISO8601 standard for
 Arctos.
@@ -30,8 +31,7 @@ Arctos.
     8601 date, which indicates the 5th month of the year 2004. This date
     will never represent the 5th day of some unknown month in 2004.
 
-Supported components:
----------------------
+## Supported components:
 
 -   4-digit positive year. <span class="example">Example:
     1987</span><span class="next">(optionally followed by
@@ -109,24 +109,33 @@ record this information, one could simply enter:
 
 -   Birth_Date: 1927
 
-**Excel hates me. Help!**
+## Excel hates me. Help!
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-26-am.png"  width="131"
 height="84" />
+
 Enter a date into Excel…
+
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png"  width="151" height="91"
 sizes="(max-width: 151px) 100vw, 151px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png 151w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am-150x91.png 150w" />
+
 Leave the field. Evil magic happens. Bill Gates personally hates you.
+
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png"  width="304" height="325"
 sizes="(max-width: 304px) 100vw, 304px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png 304w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am-281x300.png 281w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am-250x267.png 250w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am-168x180.png 168w" />
+
 Format Cells…
+
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am.png"  width="543" height="551"
 sizes="(max-width: 543px) 100vw, 543px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am.png 543w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-296x300.png 296w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-48x48.png 48w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-250x254.png 250w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-177x180.png 177w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-493x500.png 493w" />
+
 custom date format
+
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png"  width="100" height="102"
 sizes="(max-width: 100px) 100vw, 100px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png 100w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am-48x48.png 48w" />
+
 happy!
