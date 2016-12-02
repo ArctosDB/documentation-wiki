@@ -398,13 +398,5 @@ To do this,
 
 
 
-
-
-
-
-
-
-
-
 Other ID documentation has moved to [it’s own
 page](http://arctosdb.org/documentation/other-id/#search_other_id).

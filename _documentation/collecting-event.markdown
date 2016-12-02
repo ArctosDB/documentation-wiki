@@ -14,9 +14,10 @@ the specimens.  **New Collecting Events** are normally created when
 specimen records are bulk-loaded, but may be created manually, cloned
 from existing events, and/or given a nickname for easy identification.
 
-`Collecting_Event . COLLECTING_EVENT_NAME VARCHAR(255) null`
 
 ## Event Nickname
+
+`Collecting_Event . COLLECTING_EVENT_NAME VARCHAR(255) null`
 
  is a human-readable stable "primary key" to
 collecting events. Event Nickname may only be created or added in the
@@ -25,9 +26,11 @@ field is useful for locating pre-created collecting event information,
 and may be useful when specimens share an event but are not entered
 sequentially, such as hosts and parasites.
 
-`Collecting_Event . Verbatim_Locality VARCHAR(255) not null`
+
 
 ## Verbatim Locality
+
+`Collecting_Event . Verbatim_Locality VARCHAR(255) not null`
 
  is the locality description as provided by the
 collector and is specific to the Collecting Event, not to the Locality. 
@@ -49,9 +52,10 @@ dates as they are often recorded by collectors, and to properly record
 the duration of Collecting Events that may have been longer or shorter
 than a single day.
 
-`Collecting_Event . Verbatim_Date VARCHAR(60) not null`
 
 ## Verbatim Date
+
+`Collecting_Event . Verbatim_Date VARCHAR(60) not null`
 
  is a transcription of the date provided by the
 collector. If the collection date is given as "unknown," then a value
@@ -59,13 +63,12 @@ such as "before 14 Jan 2005" should be entered. (The time is never
 completely unknown: We always know that a specimen in hand was collected
 before the present.)
 
-`Collecting_Event . Began_Date`
-
-`ISO8601, not null`
-
-`Collecting_Event . Ended_Date ISO8601, not null`
 
 ## Began Date & Ended Date
+
+`Collecting_Event . Began_Date ISO8601, not null`
+
+`Collecting_Event . Ended_Date ISO8601, not null`
 
 delimit the range of dates encompassed
 by the Verbatim Date.  Unlike Verbatim Date, they are [ISO8601
@@ -80,23 +83,23 @@ life span of the collector, etc.
 
 The following examples are instructive:
 
-Feb 20002000-022000-02This is equivalent to the previous example.
+`Feb 20002000-022000-02` This is equivalent to the previous example.
 
-  Verbatim Date                               Began Date             End Date               Comment
-  ------------------------------------------- ---------------------- ---------------------- --------------------------------------------------------------------------------------------------------------------------------------------------
-  October 14, 1959                            1959-10-14             1959-10-14             
-  1907                                        1907-01-01             1907-12-31             Bracket timespans to some reasonable precision. This is equivalent to the next example.
-  1907                                        1907                   1907                   It is sometimes possible to pick a began and ended date of the same precision as the given timespan. This is equivalent to the previous example.
-  Feb 2000                                    2000-02-01             2000-02-29             This is equivalent to the next example.
-  early March 1999                            1999-03-01             1999-03-15             
-  mid-April 1956                              1956-04-11             1956-04-20             
-  late-May 1942                               1942-05-15             1942-05-31             
-  spring 1906                                 1906-03-21             1906-06-20             Assumes temperate northern hemisphere.
-  summer 1910                                 1910-06-21             1910-09-20             Assumes temperate northern hemisphere.
-  fall 1937                                   1937-09-21             1937-12-20             Assumes temperate northern hemisphere.
-  winter 00/01                                1899-12-21             1900-03-20             Assumes temperate northern hemisphere and beginning of 20th Century.
-  before 2003                                 1900-01-01             2002-12-31             Assumes 20th Century or more recent.
-  between 0100 and 0330 GMT October 30 2012   2012-10-30T01:00:00Z   2012-10-30T03:30:00Z   Always include timezone information when it is available.
+| Verbatim Date          | Began Date        | End Date              | Comment |
+|------------------------|-------------------|-----------------------|---------|
+| October 14, 1959       | 1959-10-14        | 1959-10-14            |         |
+| 1907                   | 1907-01-01        | 1907-12-31            | Bracket timespans to some reasonable precision. This is equivalent to the next example. |
+| 1907                   | 1907              | 1907                  | It is sometimes possible to pick a began and ended date of the same precision as the given timespan. This is equivalent to the previous example. |
+| Feb 2000               | 2000-02-01        | 2000-02-29            | This is equivalent to the next example. |
+| early March 1999       | 1999-03-01        | 1999-03-15            |         |
+| mid-April 1956         | 1956-04-11        | 1956-04-20            |         |
+| late-May 1942          | 1942-05-15        | 1942-05-31            |         |
+| spring 1906            | 1906-03-21        | 1906-06-20            | Assumes temperate northern hemisphere.|
+| summer 1910            | 1910-06-21        | 1910-09-20            | Assumes temperate northern hemisphere.|
+| fall 1937              | 1937-09-21        | 1937-12-20            | Assumes temperate northern hemisphere.|
+| winter 00/01           | 1899-12-21        | 1900-03-20            | Assumes temperate northern hemisphere and beginning of 20th Century.|
+| before 2003            | 1900-01-01        | 2002-12-31            | Assumes 20th Century or more recent.|
+| between 0100 and 0330 GMT October 30 2012 |  2012-10-30T01:00:00Z |  2012-10-30T03:30:00Z   Always include timezone information when it is available. |
 
 Verbatim Coordinates are stored with collecting event in their original
 format with the information supplied by the collector. These are not
@@ -106,8 +109,7 @@ eg, transcription errors).
 
 ## Specimen Search
 
-<span id="year_collected" class="helpLink">"Collected On or
-After</span>" and "Collected on or before" offer two distinct search
+"Collected On or After" and "Collected on or before" offer two distinct search
 possibilities:
 
 -   ISO8601 is a began and ended date search
