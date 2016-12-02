@@ -37,7 +37,7 @@ Arctos users. Additional
 [tutorials](http://arctosdb.wordpress.com/tutorials/) are being
 developed for a more general community of Arctos users.
 
-Downloads and Randomness
+## Downloads and Randomness
 
 [Arctos Air (desktop
 app)](https://drive.google.com/file/d/0B98yCIdkx2YpYlNzNGd5RXVKdkU/edit?usp=sharing)
