@@ -119,111 +119,30 @@ incomplete, cryptic, or otherwise useless.
 |<span class="blrequired">Higher_Geog</span>|text; [pre-existing](http://arctos.database.museum/showLocality.cfm)|[\[ doc \]](/documentation/places/higher-geography/) Higher Geography *exactly* as it appears in table Geog_Auth_Rec. New values must be added to the database prior to bulk-loading. |
 |<span class="blcondreq">Maximum_Elevation</span>|integer &gt; minimum_elevation|[\[ doc \]](/documentation/places/locality/#elevation) Maximum elevation from which the specimen could have come. Used in conjunction with Minimum_Elevation and Orig_Elev_Units.|
 |<span class="blcondreq">Minimum_Elevation</span>|integer &lt; maximum_elevation|[\[ doc \]](/documentation/places/locality/#elevation) Minimum elevation from which the specimen could have come. Used in conjunction with Maximum_Elevation and Orig_Elev_Units.|
-
-
-<span class="blcondreq">Orig_Elev_Units</span>
-text;
-[ctorig_elev_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctorig_elev_units)
-[\[ doc \]](/documentation/places/locality/#elevation) Used in
-conjunction with Maximum_Elevation and Minimum_Elevation. (Code table
-controlled.)
-<span class="blrequired">Spec_Locality</span>
-text; any string
-[\[ doc \]](/documentation/places/locality/#specific_locality) Specific
-locality from which a specimen originates.
-<span class="bloptional">Locality_Remarks</span>
-text; any string
-Remarks associated with Locality.
-Begin coordinate fields. All coordinate data are optional unless
-Orig_Lat_Long_Units is specified, and leaving Orig_Lat_Long_Units
-`NULL` will cause all other coordinate data to be ignored.
-<span class="blrequired">Orig_Lat_Long_Units</span>
-text;
-[ctlat_long_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units)
-[\[ doc \]](/documentation/places/coordinates/#original_units) Lat/Long
-units as given by the determining agent and before any transformations.
-<span class="blrequired">Datum</span>
-text;
-[ctdatum](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum)
-[\[ doc \]](/documentation/places/coordinates/#datum) Map datum used to
-determine Lat/Long. Required if coordinates are given.
- 
- 
- 
- 
- 
- 
-GEOREFERENCE_SOURCE
-text; any string
-[\[ doc \]](/documentation/places/coordinates/#source) A code indicating
-the reference from which a Lat/Long was determined.
-<span class="blrequired">GEOREFERENCE_PROTOCOL</span>
-text;
-[CTGEOREFMETHOD](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFMETHOD)
- 
- 
- 
- 
-<span class="blcondreq">Max_Error_Distance</span>
-number
-[\[ doc \]](/documentation/places/coordinates/#maximum_error) The
-maximum possible error in distance between the recorded Lat_Long and
-the actual Lat_Long of the specific locality. Required if
-Max_Error_Units provided.
-<span class="blcondreq">Max_Error_Units</span>
-text;
-[ctlat_long_error_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_ERROR_UNITS)
-[\[ doc \]](/documentation/places/coordinates/#maximum_error) The units
-in which the Max_Error_Distance are recorded. Required if
-Max_Error_Distance provided.
-*Geographic coordinates may be entered in decimal degrees^1^,
-degrees-minutes-seconds^2^, or in degrees with decimal minutes^3^.*[\[
-doc \]](/documentation/places/coordinatesg/#original_units)
-<span class="blcondreq">Dec_Lat^1^</span>
-number
-Decimal latitude.
-<span class="blcondreq">Dec_Long^1^</span>
-number
-Decimal longitude.
-<span class="blcondreq">LatDeg^2\\ and\\ 3^</span>
-positive number
-Degrees Latitude (Integer, 90 or less.)
-<span class="blcondreq">LatMin^2^</span>
-positive number
-Minutes Latitude (Integer, less than 60.)
-<span class="blcondreq">LatSec^2^</span>
-positive number
-Seconds Latitude (Decimal fraction, less than 60.)
-<span class="blcondreq">LatDir^2\\ and\\ 3^</span>
-text; N or S
-Latitude Direction: "N" or "S" (North or South).
-<span class="blcondreq">LongDeg^2\\ and\\ 3^</span>
-positive number
-Degrees Longitude (Integer, 180 or less.)
-<span class="blcondreq">LongMin^2^</span>
-positive number
-Minutes Longitude (Integer, less than 60.)
-<span class="blcondreq">LongSec^2^</span>
-positive number
-Seconds Longitude (Decimal fraction, less than 60.)
-<span class="blcondreq">LongDir^2\\ and\\ 3^</span>
-text
-Longitude Direction: "E" or "W" (East or West).
-<span class="blcondreq">Dec_Lat_Min^3^</span>
-positive number
-Decimal Latitude Minutes (Used with LatDeg, decimal fraction, less than
-60.)
-<span class="blcondreq">dec_long_min^3^</span>
-positive number
-Decimal Longitude Minutes (Used with LongDeg, decimal fraction, less
-than 60.)
-— end coordinate fields —
-<span class="blrequired">Verbatim_Locality</span>
-text; any string
-[\[ doc \]](/documentation/places/collecting-event/#verbatim_locality)
-The locality, entered as closely as possible to the original text
-provided by the collector. (Not necessarily the same as [specific
-locality](/documentation/places/locality/#specific_locality).)
+|<span class="blcondreq">Orig_Elev_Units</span> | text; [ctorig_elev_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctorig_elev_units) |  Used in conjunction with Maximum_Elevation and Minimum_Elevation. (Code table controlled.)
+| <span class="blrequired">Spec_Locality</span> | text; any string | [ doc ] (/documentation/places/locality/#specific_locality) Specific locality from which a specimen originates.|
+|<span class="bloptional">Locality_Remarks</span> | text; any string | Remarks associated with Locality.
+|Begin coordinate fields.| | All coordinate data are optional unless Orig_Lat_Long_Units is specified, and leaving Orig_Lat_Long_Units `NULL` will cause all other coordinate data to be ignored.|
+| <span class="blrequired">Orig_Lat_Long_Units</span> | text; [ctlat_long_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units) | [doc](/documentation/places/coordinates/#original_units) Lat/Long units as given by the determining agent and before any transformations. |
+|<span class="blrequired">Datum</span> | text; [ctdatum](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum) |  [\[ doc \]](/documentation/places/coordinates/#datum) Map datum used to determine Lat/Long. Required if coordinates are given.
+|<span class="bloptional">GEOREFERENCE_SOURCE</span> | text; any string | [\[ doc \]](/documentation/places/coordinates/#source) A code indicating the reference from which a Lat/Long was determined.|
+|<span class="blrequired">GEOREFERENCE_PROTOCOL</span> | text;[CTGEOREFMETHOD](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFMETHOD) ||
+|<span class="blcondreq">Max_Error_Distance</span>|  number | [\[ doc \]](/documentation/places/coordinates/#maximum_error) The maximum possible error in distance between the recorded Lat_Long and the actual Lat_Long of the specific locality. Required if Max_Error_Units provided.|
+|<span class="blcondreq">Max_Error_Units</span> | text; [ctlat_long_error_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_ERROR_UNITS) | [ doc](/documentation/places/coordinates/#maximum_error) The units in which the Max_Error_Distance are recorded. Required if Max_Error_Distance provided. *Geographic coordinates may be entered in decimal degrees<sup>1</sup>, degrees-minutes-seconds<sup>2</sup>, or in degrees with decimal minutes<sup>3</sup>.* [doc](/documentation/places/coordinatesg/#original_units) | 
+|<span class="blcondreq">Dec_Lat<sup>1</sup></span> | number | Decimal latitude. | 
+|<span class="blcondreq">Dec_Long<sup>1</sup></span> | number | Decimal longitude. | 
+|<span class="blcondreq">LatDeg<sup>2 and 3</sup></span> | positive number| Degrees Latitude (Integer, 90 or less.)|
+|<span class="blcondreq">LatMin<sup>2</sup></span> | positive number | Minutes Latitude (Integer, less than 60.)|
+|<span class="blcondreq">LatSec<sup>2</sup></span> | positive number | Seconds Latitude (Decimal fraction, less than 60.)|
+|<span class="blcondreq">LatDir<sup>2 and 3</sup></span> | text; N or S | Latitude Direction: "N" or "S" (North or South).|
+|<span class="blcondreq">LongDeg<sup>2 and 3</sup></span> | positive number | Degrees Longitude (Integer, 180 or less.)|
+|<span class="blcondreq">LongMin<sup>2</sup></span> | positive number | Minutes Longitude (Integer, less than 60.)|
+|<span class="blcondreq">LongSec<sup>2</sup></span> | positive number | Seconds Longitude (Decimal fraction, less than 60.)|
+|<span class="blcondreq">LongDir<sup>2 and 3</sup></span> | text | Longitude Direction: "E" or "W" (East or West).|
+|<span class="blcondreq">Dec_Lat_Min<sup>3</sup></span> |  positive number | Decimal Latitude Minutes (Used with LatDeg, decimal fraction, less than 60.)|
+|<span class="blcondreq">Dec_Long_Min<sup>3</sup></span> | positive number| Decimal Longitude Minutes (Used with LongDeg, decimal fraction, less than 60.)|
+| | — end coordinate fields — |  |
+|<span class="blrequired">Verbatim_Locality</span> | text; any string | [\[ doc \]](/documentation/places/collecting-event/#verbatim_locality) The locality, entered as closely as possible to the original text provided by the collector. (Not necessarily the same as [specific locality](/documentation/places/locality/#specific_locality).)|
 <span class="blrequired">Collecting_Source</span>
 text;
 [ctcollecting_source](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollecting_source)
