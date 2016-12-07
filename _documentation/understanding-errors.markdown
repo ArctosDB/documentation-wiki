@@ -6,10 +6,12 @@ layout: default_toc
 # Understanding Arctos Errors
 
 Links:
-[check constraint](#ck)
+ - [check constraint](#ck)
+ - [bulk loading: invalid table columnn, etc](#bl_row)
 
 
-<a name="ck"></a>
+---
+<a id="ck"></a>
 >## check constraint (UAM.CK_{tbl}_{col}_NOPRINT) violated
 
 ### Problem
@@ -24,6 +26,7 @@ Find the disallowed characters using Reports/DataServices/FindAndReplaceNonprint
 
 Arctos generally disallows characters which are not in POSIX character class "PRINT" due to limitations in "data consumers" such as GBIF.
 
+<a id="bl_row"></a>
 >## Specimen Bulkloader: invalid user.table.column, table.column, or column specification
 
 ### Problem
