@@ -1,6 +1,6 @@
 ---
 title: Accessions
-author: Random Person Name
+author: ArctosDB
 date: 2016-11-30
 layout: default_toc
 ---
