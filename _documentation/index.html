@@ -2,22 +2,70 @@
 title: "Documentation Index"
 layout: collection_index
 ---
-<h1 class="page-heading">Documentation</h1>
-<ul class="collection-list" data-path="{{page.path}}">
-  {% for collection in site.collections %}
-  <!-- {{ collection.label }} -->
-    {% if page.path contains collection.label %}
-    <!-- {{ page.path }} does contain {{ collection.label }} -->
-    {% assign sorted_docs = (collection.docs | sort: 'title') %}
-      {% for doc in sorted_docs %}
-        <!-- Iterating on {{doc.title}} @ {{doc.url}} -->
-        {% unless doc.url contains "index" %}
-          <li>
-            <a class="collection-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title}}</a>
-            <span class="doc-snippet"></span>
-          </li>
-        {% endunless %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+<h1>Documentation</h1>
+
+<h4>Descriptions of specific database tables and field definitions.
+Also available via info-links from the Arctos Database on pages with permissions.</h4>
+
+<h2>Data</h2>
+<ul class="collection-list">
+    <li><a href="agents.markdown">Agents</a></li>
+    <ul><li><a href="agent-addresses.markdown">Address</a></li></ul>
+    <li><a href="attributes.markdown">Attributes</a></li>
+    <li><a href="authorities.markdown">Authorities</a></li>
+    <li><a href="dates.markdown">Dates</a></li>
+    <li><a href="identifications.markdown">Identifications</a></li>
+    <li><a href="other-identifying-numbers.markdown">Other Identifying Numbers and Relationships</a></li>
+    <li><a href="specimen-parts.markdown">Specimen Parts</a></li>
+
 </ul>
+
+<h2>Data Entry</h2>
+<ul class="collection-list">
+    <li><a href="bulkloader.markdown">Bulkloader</a></li>
+    <li><a href="catalog.markdown">Catalog</a></li>
+    <li><a href="container.markdown">Container</a></li>
+    <li><a href="encumbrance.markdown">Encumbrance</a></li>
+    <li><a href="media.markdown">Media</a></li>
+  
+</ul>
+
+<h2>Place</h2>
+<ul class="collection-list">
+    <li><a href="collecting-event.markdown">Collecting Event</a></li>
+    <li><a href="coordinates.markdown">Coordinates</a></li>
+    <li><a href="higher-geography.markdown">Higher Geography</a></li>
+    <li><a href="locality.markdown">Locality</a></li>
+        <ul><li><a href="geolocate.markdown">Geolocate</a></li>
+            <li><a href="geology.markdown">Geology</a></li></ul>
+    <li><a href="specimen-event.markdown">Specimen Event</a></li>
+        
+</ul>
+
+<h2>Transactions</h2>
+<ul class="collection-list">
+   <li><a href="Accession.markdown">Accessions</a></li>
+   <li><a href="loans.markdown">Loans</a></li>
+   <li><a href="permits.markdown">Permits</a></li>
+      
+</ul>
+
+<h2>Other Resources</h2>
+<ul class="collection-list">
+    <li><a href="projects.markdown">Projects in Arctos</a></li>
+    <li><a href="publications.markdown">Publications in Arctos</a></li>
+        <ul><li><a href="specimen-citations.markdown">Specimen Citations</a></li></ul>
+    <li><a href="genbank.markdown">GenBank Links to Specimens</a></li>
+</ul>
+   
+<h2>Shared Arctos System</h2>    
+   <ul class="collection-list">
+      <li><a href="sharing-data-and-resources.markdown">Sharing Data and Resources</a></li>
+      <li><a href="notifications.markdown">Notifications and Reports</a></li>
+      <li><a href="">Printing Specimen Labels</a></li>
+      <li><a href="understanding-errors.markdown">Understanding Arctos Errors</a></li>
+       
+   </ul>
+    
+
+<hr>
