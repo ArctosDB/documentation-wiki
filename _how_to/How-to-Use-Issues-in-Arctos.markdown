@@ -1,6 +1,8 @@
 ---
 title: Using Github- How To Use Issues in Arctos 
 layout: default_toc
+author: Dusty MacDonald
+date: 2016-06-06
 ---
 
 # The Issue Process: How to Make Arctos Work for You
