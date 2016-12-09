@@ -1,6 +1,8 @@
 ---
 title: How To Batch Update Agents
 layout: default_toc
+author: Carla Cicero
+date: 2016-03-08
 ---
 
 # How to Batch Update Agents
