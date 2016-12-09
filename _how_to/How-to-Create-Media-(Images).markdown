@@ -1,7 +1,11 @@
 ---
 title: How To Create Media
 layout: default_toc
+author: Carla Cicero
+date: 2016-04-24
 ---
+
+# How to Create Media (Images)
 
 Digital images and associated metadata can be related to records in Arctos through the Media function. When processing large volumes of images, it may be more efficient to use the Media Bulkloader rather than manually enter each media record through the Create Media screen.
 
