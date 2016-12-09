@@ -1,6 +1,8 @@
 ---
 title: How To Create Citations
 layout: default_toc
+author: Carla Cicero
+date: 2016-03-08
 ---
 # How To Create Citations
 
