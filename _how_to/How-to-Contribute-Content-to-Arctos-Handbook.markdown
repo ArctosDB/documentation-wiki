@@ -1,6 +1,8 @@
 ---
 title: Using Github- How to Contribute to the Arctos Handbook
 layout: default_toc
+author: Michelle Koo
+date: 2016-08-25
 ---
 # How to Contribute Content to the Arctos Handbook
 
