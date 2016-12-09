@@ -1,12 +1,17 @@
 ---
 title: How To Create Agents
 layout: default_toc
+author: Emily Braker
+date: 2016-02-27
 ---
 
 # How to Create Agents
 
 _(Based on a guide initally developed by April Payne, Northern Michigan University)_
 
+## Making a New Agent
+
+__Manage Data > Agents__
 
 First off, it is important to check if the agent you want to create already exists. Do this by typing in the last name in the “Any part of any name” box and clicking “Search”. If there are no current agents that use that name, you are good to go.
 
