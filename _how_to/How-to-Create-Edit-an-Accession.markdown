@@ -1,10 +1,12 @@
 ---
 title: How To Create and Edit Accessions
 layout: default_toc
+author: Emily Braker
+date: 2016-02-27
 ---
 
 
-# How to Create Accessions
+# How to Create and Update Accessions
 
 _(Based on a guide initally developed by April Payne, Northern Michigan University)_
 
