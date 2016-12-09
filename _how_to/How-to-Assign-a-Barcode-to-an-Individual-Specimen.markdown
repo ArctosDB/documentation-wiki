@@ -1,9 +1,12 @@
 ---
 title: How To Assign a Barcode to an Individual Specimen
 layout: default_toc
+author: Carla Cicero
+date: 2016-03-08
 ---
+# How to Assign a Barcode to an Individual Specimen
 
-# From Specimen Search
+## From Specimen Search
 
 * Search for the specimen record you wish to edit and select the record from the search results.
 
@@ -15,7 +18,7 @@ layout: default_toc
 
 * On the specimen’s detail page, that same label will show under "Label" for that part.
 
-# From Data Entry
+## From Data Entry
 
 * Barcodes can also be assigned from the data entry screen, prior to a record being loaded into Arctos.
 
