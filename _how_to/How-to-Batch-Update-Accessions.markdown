@@ -1,6 +1,8 @@
 ---
 title: How To Batch Update Accessions
 layout: default_toc
+author: Carla Cicero
+date: 2016-03-08
 ---
 
 Batch update Accessions using the Manage Menu to transfer specimen records from one accession into another. The Manage Menu is an efficient alternative to using the "Accn Tab" found in individual specimen records when needing to update multiple records at once. **Note:** Specimen records can only be added _into_ an existing accession. Moving  records _into_ an accession and others _out_ of the same accession is therefore a two-step process (e.g., first transfer any "unwanted" records out of the accession into a different accession before transferring any additional records in).
