@@ -1,6 +1,8 @@
 ---
 title: How To Bulkload Specimen Data
 layout: default_toc
+author: Carla Cicero
+date: 2016-03-08
 ---
 
 # Bulkloading Specimen Data
