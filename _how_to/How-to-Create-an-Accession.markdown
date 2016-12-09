@@ -1,7 +1,10 @@
 ---
 title: How To Create an Accession
 layout: default_toc
+author: Emily Braker
+date: 2016-02-27
 ---
+# How to Create an Accession
 
 (Based on a guide initally developed by April Payne, Northern Michigan University)
 
