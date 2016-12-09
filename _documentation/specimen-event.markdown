@@ -7,8 +7,8 @@ layout: default_toc
 
 
 
-Specimen Events link [Specimens](/documentation/catalog/) to [Collecting
-Events](/documentation/places/collecting-event/).
+Specimen Events link [Specimens](/catalog.html) to [Collecting
+Events](/collecting-event.html).
 
 
 ## Event Determiner
