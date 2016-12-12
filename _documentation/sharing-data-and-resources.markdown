@@ -7,8 +7,8 @@ layout: default_toc
 
 ## Sharing Data
 
-Arctos is a shared system, which means we dictionary and authority
-files, and ideas and development while individual collections
+Arctos is a shared system, which means we share dictionary and authority
+files, as well as ideas and development while individual collections
 exclusively own core specimen data. This page will attempt to summarize
 that. From Arctos’ Manage Users interface, click the red "read this
 before…" link, then the \[def\] link on roles for authoritative
@@ -21,7 +21,7 @@ and others.
 ## What’s not shared
 
 Specimens, and core specimen data such at Attributes, Identifications,
-Collectors, and Citations are wholly owned by collections.
+Collectors, and Citations, are wholly owned by individual collections.
 
 However, Relationships allow users to navigate between related
 (including "same individual as") specimens, and to perform
@@ -33,7 +33,7 @@ reports and alerts exist to facilitate maintaining these relationships.
 Transactions – loans, accessions, and borrows – are not shared, but see
 Projects.
 
-Specimen-events are not shared, but events, localities, and geography
+Specimen-events are not shared, but Events, Localities, and Higher Geography
 are.
 
 ## What is shared
