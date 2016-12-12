@@ -1,8 +1,11 @@
 ---
 title: Addresses
 layout: default_toc
+author: ArctosDB
+date: 2016-12-07
 ---
-#Addresses
+
+# Addresses
 
 <a class="infoLink" name="top"></a>[top](#top)
 
