@@ -1,11 +1,14 @@
 ---
 title: How To Use Complex Identifications
 layout: default_toc
+author: Carla Cicero
+date: 2016-03-08
 ---
+# Complex Identifications
 
 ## Capabilities
 
-Arctos provides for the ability to link identifications (what a thing is called) with taxonomy (a formal naming system) via [http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXA_FORMULA](Identification Formula). This allows curatorial users to assert any amount of precision; a specimen may be exactly representative of a formal taxon name, there may be some ambiguity or mixing involved, or taxonomy may have only tangential relationships to the identification.
+Arctos provides the ability to link identifications (what a thing is called) with taxonomy (a formal naming system) via [http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXA_FORMULA](Identification Formula). This allows curatorial users to assert any amount of precision; a specimen may be exactly representative of a formal taxon name, there may be some ambiguity or mixing involved, or taxonomy may have only tangential relationships to the identification.
 
 ## Taxonomy
 
@@ -75,7 +78,7 @@ This structure supports queries by identification, taxonomy, or any combination 
 * [Cultural items made from Cetartiodactyla](http://arctos.database.museum/SpecimenResults.cfm?taxon_name=Cetartiodactyla&collection_id=76), a [taxon term imported from National Center for Biotechnology Information](http://arctos.database.museum/name/alces%20alces#NCBI)
 * [Mink (by an "unaccepted synonym")](http://goo.gl/ojx5KR)
 
-## HowTo
+## How To
 
 Simply click the Identification tab from any specimen, type a (partial) taxon name in Associated Taxa, click Add a Row and repeat as necessary, then save.
 
