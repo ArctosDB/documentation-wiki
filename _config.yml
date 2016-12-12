@@ -18,10 +18,10 @@ collections:
     output: true
 
 # Site settings
-title: ArctosDB Documentation
+title: Arctos Handbook
 email: arctos.database@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Documentations and How-To's for the Arctos museum database platform
+  Documentations and How-To's for the Arctos Collaborative Collection Management Solution
 baseurl: "/documentation-wiki" # the subpath of your site, e.g. /blog
 #baseurl: ""
 cover: ""
