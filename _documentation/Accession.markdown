@@ -7,6 +7,7 @@ layout: default_toc
 
 # Accessions     
 
+This is an edit.
 
 An accession is a transaction that conveys a specimen, or (commonly) a group of specimens received from one source at one time, to a collection. As an administrative (rather than biological) entity, an accession can be delimited by administrative criteria such as previous title, applicable [permits](../permit), or association with a particular [project](../projects/). In general, accessioning is the first step of incorporating specimens into a collection and indicates that the museum has accepted custody of (if not title to) the accessioned material. Accessioning generally precedes cataloging. Therefore, it is unnecessary to have specimen data in order to create an accession. Nevertheless, the nature and disposition of the specimen data should be recorded in order to assure that the data can eventually be located for purposes of cataloging.
 
