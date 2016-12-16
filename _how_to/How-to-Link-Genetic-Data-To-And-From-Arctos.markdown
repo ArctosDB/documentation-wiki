@@ -28,8 +28,8 @@ Links to GenBank (et al.) are formed immediately, linkouts should appear from Ge
 # Important Notes
 
 1. "Appropriate identifier type" is usually "GenBank," but Arctos supports interaction with other types of genetic data, such as
-	  [NCBI Sequence Read Archive Run ID]((https://www.ncbi.nlm.nih.gov/sra)). 
-	  See the [code table]((http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OTHER_ID_TYPE)) for more information.
+	  [NCBI Sequence Read Archive Run ID](https://www.ncbi.nlm.nih.gov/sra). 
+	  See the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OTHER_ID_TYPE) for more information.
 	  
 2. Arctos constantly monitors GenBank, and will report potential uncited specimens under Reports/genbankMIA. 
 	We recommend working with the submittor to ensure that these records are properly submitted to GenBank 
