@@ -601,13 +601,18 @@ table {
   @extend .table-condensed;
 }
 
+
+$button-height: 8em;
+
+
 .icon-row {
     .img-circle {
-        min-height: 5em;
+        min-height: $button-height;
         div {
             display:flex;
             justify-content:center;
             align-items:center;
+            height: $button-height;
         }
     }
 }
