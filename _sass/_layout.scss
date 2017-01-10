@@ -604,5 +604,10 @@ table {
 .icon-row {
     .img-circle {
         min-height: 5em;
+        div {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
     }
 }
