@@ -607,7 +607,9 @@ $button-height: 8em;
 
 .icon-row {
     .img-circle {
-        min-height: $button-height;
+        height: $button-height;
+        width: $button-height;
+        float: left;
         div {
             display:flex;
             justify-content:center;
