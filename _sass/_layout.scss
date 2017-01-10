@@ -602,7 +602,7 @@ table {
 }
 
 
-$button-height: 8em;
+$button-height: 10em;
 
 
 .icon-row {
@@ -610,6 +610,7 @@ $button-height: 8em;
         height: $button-height;
         width: $button-height;
         float: left;
+        margin: 1em;
         div {
             display:flex;
             justify-content:center;
