@@ -616,6 +616,9 @@ $button-height: 10em;
             justify-content:center;
             align-items:center;
             height: $button-height;
+            .glyphicon {
+                margin-top: -.25em;
+            }
         }
     }
 }
