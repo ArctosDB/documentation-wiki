@@ -36,13 +36,13 @@ $muted: #777;
 $extra-muted: #666;
 
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    //border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
-      background: $arctos-banner-green;
+      background: $arctos-main-blue;
 }
 
 body, main {
