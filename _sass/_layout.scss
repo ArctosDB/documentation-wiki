@@ -42,7 +42,8 @@ $extra-muted: #666;
 
     // Positioning context for the mobile navigation icon
     position: relative;
-      background: $arctos-main-blue;
+    background: $arctos-main-blue;
+    text-shadow: 1px 1px 1px #000;
 }
 
 body, main {
