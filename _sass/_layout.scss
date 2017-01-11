@@ -602,7 +602,7 @@ table {
 }
 
 
-$button-height: 10em;
+$button-height: 12em;
 
 
 .icon-row {
@@ -617,7 +617,7 @@ $button-height: 10em;
             justify-content:center;
             align-items:center;
             height: $button-height;
-            .glyphicon {
+            .glyphicons {
                 margin-top: -.25em;
             }
         }
