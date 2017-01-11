@@ -8,6 +8,10 @@ $berkeley-blue: #003262;
 $cal-gold: #fdb515;
 
 
+// See http://bnhmwp.berkeley.edu/arctos/
+$arctos-banner-green: #98d36d;
+
+
 $arctos-main-blue: $berkeley-blue;
 $arctos-primary-accent: $founders-rock;
 $arctos-accent: #FF6600;
@@ -38,7 +42,7 @@ $extra-muted: #666;
 
     // Positioning context for the mobile navigation icon
     position: relative;
-      background: $arctos-main-blue;
+      background: $arctos-banner-green;
 }
 
 body, main {
