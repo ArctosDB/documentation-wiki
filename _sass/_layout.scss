@@ -12,7 +12,7 @@ $cal-gold: #fdb515;
 $arctos-banner-green: #98d36d;
 
 
-$arctos-main-blue: $arctos-banner-green; //$berkeley-blue;
+$arctos-main-blue: $berkeley-blue;
 $arctos-primary-accent: $founders-rock;
 $arctos-accent: #FF6600;
 $arctos-highlight: #e09319;
@@ -42,7 +42,7 @@ $extra-muted: #666;
 
     // Positioning context for the mobile navigation icon
     position: relative;
-    background: $arctos-main-blue;
+    background: $arctos-banner-green;
     text-shadow: 1px 1px 1px #000;
 }
 
