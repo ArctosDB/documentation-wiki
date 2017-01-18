@@ -540,6 +540,8 @@ fixSearchHeight = ->
     topOffset = "#{topOffsetNumber}px"
     console.debug "Scroll offset #{topOffset}"
     $("nav#toc").css "top", topOffset
+    unless $("nav#toc ul.nav").hasClass "hidden-xs"
+      $("nav#toc ul.nav").addClass "hidden-xs"
     topOffset
   # Resize!
   if $(window).width() <= 1280 # 1280 is the breakpoint

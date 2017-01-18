@@ -786,6 +786,9 @@
       topOffset = topOffsetNumber + "px";
       console.debug("Scroll offset " + topOffset);
       $("nav#toc").css("top", topOffset);
+      if (!$("nav#toc ul.nav").hasClass("hidden-xs")) {
+        $("nav#toc ul.nav").addClass("hidden-xs");
+      }
       return topOffset;
     };
     if ($(window).width() <= 1280) {
