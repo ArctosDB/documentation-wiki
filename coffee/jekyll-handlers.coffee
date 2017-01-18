@@ -256,6 +256,9 @@ $ ->
                 topLevel = Toc.helpers.getTopLevel(opts.$scope)
                 $headings = Toc.helpers.getHeadings(opts.$scope, topLevel)
                 Toc.helpers.populateNav($topContext, topLevel, $headings)
+                # Don't show the contents on an XS screen -- they
+                # can't handle the truth!
+                $("nav#toc ui.nav").addClass "hidden-xs"
               $("body").scrollspy {target: "#toc"}
           fixSearchHeight()
         else
