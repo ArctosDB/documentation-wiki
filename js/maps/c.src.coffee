@@ -615,7 +615,7 @@ $ ->
                 Toc.helpers.populateNav($topContext, topLevel, $headings)
                 # Don't show the contents on an XS screen -- they
                 # can't handle the truth!
-                $("nav#toc ui.nav").addClass "hidden-xs"
+                $("nav#toc ul.nav").addClass "hidden-xs"
               $("body").scrollspy {target: "#toc"}
           fixSearchHeight()
         else
