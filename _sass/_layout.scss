@@ -616,8 +616,8 @@ $button-height: 12em;
     justify-content: center;
     
     
-    a.force-white, a.force-white:hover, a.force-white:link {
-        font-color: #fff;
+    a.force-white, a.force-white:hover, a.force-white:link, a.force-white:visited {
+        font-color: #fff!important;
     }
     
     .img-circle {
