@@ -611,24 +611,34 @@ $button-height: 12em;
 
 
 .icon-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     .img-circle {
         height: $button-height;
         width: $button-height;
         float: left;
         margin: 1em;
         box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+        
         div {
             display:flex;
             justify-content:center;
             align-items:center;
             height: $button-height;
+            
             .glyphicons {
                 margin-top: -.25em;
+                font-size: 2em;
+                display: block;
             }
         }
     }
     
     .img-circle:hover {
         // Rules
+        box-shadow: 1px 1px 1px rgba(0,0,0,.8);
+        transition: all .2s ease-out;
     }
 }
