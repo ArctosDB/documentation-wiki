@@ -616,7 +616,7 @@ $button-height: 12em;
     justify-content: center;
     
     
-    a.force-white, a.force-white:hover {
+    a.force-white, a.force-white:hover, a.force-white:link {
         font-color: #fff;
     }
     
