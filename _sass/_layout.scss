@@ -615,6 +615,11 @@ $button-height: 12em;
     align-items: center;
     justify-content: center;
     
+    
+    a.force-white, a.force-white:hover {
+        font-color: #fff;
+    }
+    
     .img-circle {
         height: $button-height;
         width: $button-height;
