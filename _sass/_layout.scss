@@ -614,25 +614,28 @@ $button-height: 12em;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
-    a.force-white, a.force-white:hover, a.force-white:link, a.force-white:visited {
-        font-color: #fff!important;
+
+
+    a.force-black, a.force-black:hover, a.force-black:link, a.force-black:visited {
+        color: #000 !important;
     }
-    
+    a.force-white, a.force-white:hover, a.force-white:link, a.force-white:visited {
+        color: #fff !important;
+    }
+
     .img-circle {
         height: $button-height;
         width: $button-height;
         float: left;
         margin: 1em;
         box-shadow: 2px 2px 2px rgba(0,0,0,.5);
-        
+
         div {
             display:flex;
             justify-content:center;
             align-items:center;
             height: $button-height;
-            
+
             .glyphicons {
                 margin-top: -.25em;
                 font-size: 2em;
@@ -640,7 +643,7 @@ $button-height: 12em;
             }
         }
     }
-    
+
     .img-circle:hover {
         // Rules
         box-shadow: 1px 1px 1px rgba(0,0,0,.8);
