@@ -2,22 +2,12 @@
 title: "Resources Index"
 layout: collection_index
 ---
-<h1 class="page-heading">How To's</h1>
+<h1 class="page-heading">Resources</h1>
 Learn how to use Arctos better here! Written by Arctos users.
-<ul class="collection-list" data-path="{{page.path}}">
-  {% for collection in site.collections %}
-  <!-- {{ collection.label }} -->
-    {% if page.path contains collection.label %}
-    <!-- {{ page.path }} does contain {{ collection.label }} -->
-    {% assign sorted_docs = (collection.docs | sort: 'title') %}
-      {% for doc in sorted_docs %}
-        <!-- Iterating on {{doc.title}} @ {{doc.url}} -->
-        {% unless doc.url contains "index" %}
-          <li>
-            <a class="collection-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title}}</a>
-          </li>
-        {% endunless %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+
+<ul>
+  <li>MVZ's Curatorial Manual called "[Taming the Bear or: Basic Locality Functions in Arctos: How I Learned to Stop Worrying and Love the Database](https://docs.google.com/document/d/1kUhJnVWnR4GUS8M4L9z1KU1Ut6bxPDuFiIPZSDjTMOg/pub)"</li>
+  
 </ul>
+
+Let us know if you have a useful manual or guidelines from your collection that you would like to share here.
