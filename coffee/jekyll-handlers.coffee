@@ -187,7 +187,7 @@ fixSearchHeight = ->
       $("nav#toc ul.nav").addClass "hidden-xs"
     topOffset
   # Resize!
-  if $(window).width() <= 1280 # 1280 is the breakpoint
+  if $(window).width() <= 992 # 992 is the breakpoint
     minHeight = $("nav#toc").outerHeight(true)
     topOffset = scrollOffsetter()
     $(window).scroll scrollOffsetter

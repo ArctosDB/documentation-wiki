@@ -791,7 +791,7 @@
       }
       return topOffset;
     };
-    if ($(window).width() <= 1280) {
+    if ($(window).width() <= 992) {
       minHeight = $("nav#toc").outerHeight(true);
       topOffset = scrollOffsetter();
       $(window).scroll(scrollOffsetter);
