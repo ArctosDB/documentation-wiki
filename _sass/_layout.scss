@@ -35,6 +35,12 @@ $seafoam-light: rgba(124, 180, 144, 0.05);
 $muted: #777;
 $extra-muted: #666;
 
+
+.berkeley, .arctos-colors {
+    background: $berkeley-blue;
+    color: white;
+}
+
 .site-header {
     //border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
