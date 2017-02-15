@@ -20,10 +20,10 @@ married and now be submitting specimens as collected under her married
 name, for example.
 
 Agents with non-English names may exist in the database under
-alternative transliterations.  (Felix Chernyavski’s name is published in
+alternative transliterations.  (Felix Chernyavski's name is published in
 English as Tchernyavski and Chernyavsky.) In these cases, additional
 Agent Names are required, not additional Agents.  Additional names using
-original alphabet of the agent’s name are an obvious
+original alphabet of the agent's name are an obvious
 clarification.(Cyrillic, in the example above.)
 
 For legacy data, the above is a difficult standard.  Are Robert Smith,
@@ -31,14 +31,14 @@ R. Smith, and Bob Smith three agents or one?  Sometimes, the activities
 already recorded for an agent makes the answer clear, *e.g.*, there were
 probably not two Eleazer Fitzgarrolds collecting grasshoppers in
 northern Madagascar in the 1930s. (If you are viewing a an agent record,
-the "Agent Activity" link will show you all of the agent’s actions that
+the "Agent Activity" link will show you all of the agent's actions that
 are recorded.) Thus, it is useful to provide as much information as
 possible when creating and editing agent records. If you can figure it
 out, the database can usefully handle the information. If you cannot
-figure it out it probably doesn’t matter; having multiple agents
-collecting under the name "J. Smith" doesn’t really affect any
+figure it out it probably doesn't matter; having multiple agents
+collecting under the name "J. Smith" doesn't really affect any
 conceivable use of the data, and if one of the agents distinguishes
-themselves somehow (*e.g.*, through publications), it’s easy to split
+themselves somehow (*e.g.*, through publications), it's easy to split
 the combined agent.
 
 Agent "unknown" should be used where appropriate. Do not create new
@@ -78,7 +78,7 @@ Former concepts **Birth Date** and **Death Date** have now been
 generalized to [Agent
 Status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS).
 In addition to recording singular events about an agent (such as birth
-date), this structure allows "snapshots" – "AgentX was seen at a
+date), this structure allows "snapshots" -- "AgentX was seen at a
 conference on {DATE} and seemed to be living, so things collected before
 that date may still be attributable to AgentX."
 
@@ -169,7 +169,7 @@ rule; use the Contact form at the bottom of any Arctos page to discuss
 these guidelines.
 
 Before creating an agent, **thoroughly** search for existence. Use the
-"clear form" button to ensure that you aren’t accidentally limiting your
+"clear form" button to ensure that you aren't accidentally limiting your
 search. Using **only** the "any part of any name" option, search for
 last name, and especially in the case of "foreign" names, search for the
 substring that might have been transcribed or transliterated in varying
@@ -177,7 +177,7 @@ ways. If you have a "McDonald,"  search for "donald" to include the
 possibility of "Macdonald." Given Чернявских, search for "herny" to
 include C**herny**avski, Tc**herny**avski, and C**herny**avsky. (Please
 flag any "bad duplicate" agents you find as such during this
-exploration.) Consider common variations – a "Robert" might exist as
+exploration.) Consider common variations -- a "Robert" might exist as
 "Bob," for example.
 
 Consider not creating an agent at all. Attribute "verbatim collector"
@@ -204,19 +204,19 @@ Attributes.
     Gutiérrez" should include the nonpreferred name "Raul Gutierrez."
 -   Include symbols and their alternatives where users might search
     by either. For preferred name "Smith & Wesson," also include name
-    "Smith and Wesson." (It doesn’t matter which goes where, as long as
+    "Smith and Wesson." (It doesn't matter which goes where, as long as
     both are included with the agent.)
 -   Use relationships. "John Smith Jr. {is child of} John Smith" helps
     clarify the situation even in the face of suddenly-ambiguous names,
     promotions, marriages, and other name changes or alternatives.
 -   Use Status; associating dates with agent records is extremely useful
     when considering agent ambiguity. Do not simply copy from agent
-    activity; add this information only if there’s an independent source
+    activity; add this information only if there's an independent source
     (and if possible, link to the source  by adding a "URL" address
     or Media).
 -   Use remarks as a last resort, only when more formal data are
     not possible. Relationship "student of" will stop an agent merger;
-    remark "student of …" will be ignored by automation (and
+    remark "student of ..." will be ignored by automation (and
     often, people).
 -   Person agent preferred names should be formatted as "First Middle
     Last" as a matter of standardization. Address concerns or objections
@@ -244,7 +244,7 @@ Attributes.
 -   Include **possible** variations ("Pat" for Patrick) as
     nonpreferred names.
 -   Use Addresses when possible. A partial address ("Ohio") or link to a
-    biography (*e.g.*, Wikipedia – these may be made via Address
+    biography (*e.g.*, Wikipedia -- these may be made via Address
     Type "URL") is very likely to be useful. Avoid using remarks for
     address information.
 
@@ -267,7 +267,7 @@ possible. With some research, it is usually possible to disambiguate the
 agents by adding initials, middle names, or nicknames. If that is not
 possible, it may be necessary to add parenthetical information to the
 preferred name, for example "John Doe (southwest mammals)." When this is
-necessary, it’s usually preferable to similarly annotate all agents that
+necessary, it's usually preferable to similarly annotate all agents that
 share the name to avoid later data entry efforts inadvertently picking
 the wrong agent. Add a "not the same as" relationship and verbose agent
 remarks.
@@ -380,7 +380,7 @@ two or more agent records that mean the same physical entity (THAT
 PARTICULAR John Smith; US Fish and Wildlife Service). It is not
 necessary for duplicate agents to share a name; in fact, they are often
 introduced because of misspellings. The "Agent Activity" link is a good
-place to make sure you’re dealing with real duplicates.
+place to make sure you're dealing with real duplicates.
 
 ## Not Duplicates
 
