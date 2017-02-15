@@ -41,6 +41,11 @@ $extra-muted: #666;
     color: white;
 }
 
+img.fit {
+    max-width: 66%;
+    max-height: 66%;
+}
+
 .site-header {
     //border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
