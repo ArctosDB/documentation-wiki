@@ -3,6 +3,8 @@ title: How To Create Your Arctos Team
 layout: default_toc
 ---
 
+# How To Create Your Arctos Team
+
 If you are organizing users/operators to assist you with data entry and collection data management.  This document provides a workflow for getting your team members on Arctos as Operators with the appropriate roles and permissions to get their share of the work done.  It also offers helpful templates of instructions to your new team members as you guide them through the process.
 
 ### 1.	Have each team member create an Arctos user account
@@ -11,7 +13,7 @@ If you are organizing users/operators to assist you with data entry and collecti
 
 ---
 
-In order to enter or edit data in the Arctos environment, you must first become an Arctos user.  Please go to [How to Create a New User Account for Operators](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-a-New-User-Account-%28for-Operators%29) for instructions on creating your user account.
+In order to enter or edit data in the Arctos environment, you must first become an Arctos user.  Please go to [How to Create a New User Account for Operators](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-a-New-User-Account-(for-Operators).html) for instructions on creating your user account.
 
 Once your account is created, you will be taken directly to the Arctos search screen.  Select “My Stuff”, then “Profile” from the drop down menu at the top of the page.  Enter your First, Last and Middle name in the appropriate fields, “_______________________________(name of your institution)” in the Affiliation Field, and your email address in the email field. **You must have an email address in your Profile in order to become an Arctos Operator and manage data.**
 Select the “Save Profile” button.
@@ -26,7 +28,7 @@ Once a user has created their user account and given you their username, complet
 
  * Go to http://arctos.database.museum/
  * Select Manage Data>Agents from the drop down menu at the top of the page.  
- * Search for the name of the user.  If not found, you must create the Agent (see [How to create an Agent](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-Agents)) and return to this process.
+ * Search for the name of the user.  If not found, you must create the Agent (see [How to create an Agent](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-Agents.html)) and return to this process.
  * Select the correct agent from the list.  The agent record will pop up on the right side of the screen.
  * In the Agent Names box of the Agent record, select the name type “login” and enter the user’s username.
  * Select “Save All Changes” at the bottom of the screen.
@@ -53,7 +55,7 @@ Call me if this doesn’t make sense or if you have any questions during the aut
 
 ### 5.	Assign your Operators Roles and Permissions
 
-* Follow the instructions for [How to assign Operator roles and permissions](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-assign-Operator-roles-and-permissions)
+* Follow the instructions for [How to assign Operator roles and permissions](https://arctosdb.github.io/documentation-wiki/how_to/How-to-assign-Operator-roles-and-permissions.html)
 
 * Send each of the team members you will invite to be Operators the following email, adjusted for the collections and roles that you have assigned them:
 
