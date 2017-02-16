@@ -3,6 +3,8 @@ title: How To Create a New Collecting Event for a Locality
 layout: default_toc
 ---
 
+# How To Create a New Collecting Event for a Locality
+
 If you need to create a new collecting event associated with an already existing locality, or if you want to edit a locality for only some of the specimens currently sharing it, follow these steps.
 
 * In Arctos go to the tab Manage Data > Location > Find Locality (or otherwise navigate to the edit locality form)
@@ -23,7 +25,7 @@ If you need to create a new collecting event associated with an already existing
 
 **What to Enter for Each Collecting Event**
 
-* Verbatim Locality - see guide on [How to Edit Verbatim Locality](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Edit-Verbatim-Locality)
+* Verbatim Locality - see guide on [How to Edit Verbatim Locality](coming)
 
 * Verbatim Date - this is a text field that contains the date as recorded by the collector or observer
 
