@@ -10,8 +10,8 @@ layout: default_toc
 
 ## Other IDs (Identifiers)
 
-**Other IDs** (identifiers) are identifiers applied to specimens. These
-identifiers may make identify specimens (as in the case of collector
+**Other IDs** (identifiers) are unique identifiers applied to specimens. These
+identifiers may allow tracking specimens (as in the case of collector
 numbers), reference other resources (*e.g.*, GenBank numbers), or form
 relationships among specimens (such as hosts of parasites).
 
