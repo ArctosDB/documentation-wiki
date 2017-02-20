@@ -3,6 +3,8 @@ title: How To Choose the Proper Identifier Type
 layout: default_toc
 ---
 
+# How To Choose the Proper Identifier Type
+
 Other IDs in Arctos are functionally of two types: Those which are (or are somewhat likely to become) resolvable, and the rest. Therefore the most important question to ask when selecting an other ID type is, "can this number be used to form a URL?"
 
 The code table for other IDs is [CTCOLL_OTHER_ID_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OTHER_ID_TYPE). Those ID types with a **base_url** are resolvable, and those without are (currently) not. For display purposes, numbers which are associated with an ID type having a base URL become links to the associated resource. For example, the "GenBank" ID "JQ964551"...

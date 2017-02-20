@@ -1,6 +1,7 @@
 ---
 title: Agents
 layout: default_toc
+author: ArctosDB
 date: 2016-12-01
 ---
 
@@ -71,8 +72,8 @@ to one agent:
 -   Some Guy Sr.
 -   Reverend Some Guy Senior, Ph.D
 
-See http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles
-for more information on generational titles.
+See [Wikipedia: Generational Titles](http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles)
+for more information.
 
 Former concepts **Birth Date** and **Death Date** have now been
 generalized to [Agent
@@ -111,7 +112,7 @@ to be.
 Verbatim Collectors as Agents is a failed experiment and should not be
 used for any purpose. Please change verbatim collectors to another type
 of agent or flag them as duplicates when you  encounter them.
-[Attribute](/documentation/attributes/) "verbatim collector" allows
+[Attribute](/documentation/attributes.html) "verbatim collector" allows
 uncontrolled strings to be associated with individual specimens. When
 "bad duplicate of" agents are merged, "verbatim collector" Attributes
 are automatically created for all affected specimens.
@@ -290,7 +291,7 @@ are case-insensitive substring matches. You may also include the special
 characters \_ and % to match any single character or any string,
 respectively.
 
-### [Any part of any name]()
+### Any part of any name
 
 is appropriate for most exploratory
 searching. It matches any name, including preferred, AKAs, name
@@ -308,8 +309,7 @@ integer).
 
 ### Agent Name Type
 
-matches values used in a [code table. Corresponding
-field](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_NAME_TYPE)
+matches values used in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_NAME_TYPE).
 
 ### Agent Name
 
@@ -337,7 +337,7 @@ agent on/before/after a date, or agents created on/before/after a date.
 
 
 
-### Deleting/merging agents
+## Deleting/merging agents
 
 Duplicate agents (&gt;1 agent record referring to the same agent entity)
 prevent accurate answers to questions involving agents. Collector "John
