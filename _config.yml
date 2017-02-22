@@ -27,8 +27,8 @@ baseurl: "/documentation-wiki" # the subpath of your site, e.g. /blog
 cover: ""
 logo: ""
 
-#url: "http://docs.arctosdb.org" # the base hostname & protocol for your site
-url: "https://arctosdb.github.io"
+url: "http://handbook.arctosdb.org" # the base hostname & protocol for your site
+#url: "https://arctosdb.github.io"
 twitter_username: arctosdb
 github_username:  Arctosdb
 
