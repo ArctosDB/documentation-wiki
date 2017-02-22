@@ -649,7 +649,7 @@
   }
 
   handleSearch = function(prepOnly) {
-    var doSearch, search, startTime;
+    var doSearch, search, startTime, targetObject;
     if (prepOnly == null) {
       prepOnly = false;
     }
@@ -712,7 +712,8 @@
       return console.log("Search completed in " + elapsed + "ms");
     };
     if (isNull(_arctos.searchObject)) {
-      $.getJSON("https://arctosdb.github.io/documentation-wiki/search.json").done(function(jsonResult) {
+      targetObject = "http://handbook.arctosdb.org/search.json";
+      $.getJSON(targetObject).done(function(jsonResult) {
         var elapsed, hourToMs, j, len, matchCollectionType, ref, result, uniqueUrls;
         console.info("Search pinged back result", jsonResult);
         _arctos.searchObject = new Array();

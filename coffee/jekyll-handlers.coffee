@@ -122,7 +122,9 @@ handleSearch = (prepOnly = false) ->
     console.log "Search completed in #{elapsed}ms"
   # Get the search object
   if isNull _arctos.searchObject
-    $.getJSON "https://arctosdb.github.io/documentation-wiki/search.json"
+    # targetObject = "https://arctosdb.github.io/documentation-wiki/search.json"
+    targetObject = "http://handbook.arctosdb.org/search.json"
+    $.getJSON targetObject
     .done (jsonResult) ->
       console.info "Search pinged back result", jsonResult
       _arctos.searchObject = new Array()
