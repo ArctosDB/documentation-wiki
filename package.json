@@ -1,6 +1,6 @@
 {
   "name": "arctosdb.org",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Jekyll site and theme for ArctosDB.org",
   "main": "index.html",
   "scripts": {
@@ -33,7 +33,7 @@
     "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-csslint": "^2.0.0",
-    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.0.0",
     "grunt-contrib-htmlmin": "^2.0.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-less": "^1.4.0",
