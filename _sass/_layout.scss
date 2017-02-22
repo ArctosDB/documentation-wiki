@@ -634,6 +634,7 @@ $button-height: 12em;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
 
     a.force-black, a.force-black:hover, a.force-black:link, a.force-black:visited {
