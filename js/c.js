@@ -68,6 +68,25 @@
     return rv;
 };
 
+  Array.closest = function () {
+    function levenshtein(s, t) {
+        if (!s.length) return t.length;
+        if (!t.length) return s.length;
+
+        return Math.min(
+            levenshtein(s.substring(1), t) + 1,
+            levenshtein(t.substring(1), s) + 1,
+            levenshtein(s.substring(1), t.substring(1)) + (s[0] !== t[0] ? 1 : 0)
+        );
+    }
+
+    return function (arr, str) {
+        return arr.sort(function (a, b) {
+            return levenshtein(a, str) - levenshtein(b, str);
+        });
+    };
+};
+
   String.prototype.toBool = function() {
     return this.toString() === 'true';
   };
@@ -667,6 +686,9 @@
     if (isNull(search)) {
       $("#results-container").html("");
     }
+    try {
+      loadJS("https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js");
+    } catch (undefined) {}
     doSearch = function() {
       var cleanupResults, elapsed, rc, searchConfig;
       if (!$("#results-container").exists()) {
@@ -693,23 +715,48 @@
       _arctos.searchConfig = searchConfig;
       SimpleJekyllSearch(searchConfig);
       (cleanupResults = function() {
-        var j, len, result, results, uniqueUrls, url;
+        var e, error1, j, k, len, len1, newHtml, result, results, smartResult, sortKey, thisEntry, title, titles, tmp, uniqueUrls, url;
         results = $("#results-container li");
         uniqueUrls = new Array();
+        smartResult = new Object();
+        titles = new Array();
         for (j = 0, len = results.length; j < len; j++) {
           result = results[j];
           url = $(result).find("a").attr("href");
+          title = $(result).find("a").text();
+          tmp = {
+            title: title,
+            href: url
+          };
           if (indexOf.call(uniqueUrls, url) >= 0) {
             $(result).remove();
           } else {
             uniqueUrls.push(url);
+            smartResult[title] = tmp;
+            titles.push(title);
           }
         }
         console.log("Found " + uniqueUrls.length + " unique URLs matching the search", uniqueUrls);
+        try {
+          sortKey = $("#search-input").val();
+          console.log("Attempting to sort by " + sortKey);
+          Array.closest(titles, sortKey);
+          newHtml = "";
+          for (k = 0, len1 = titles.length; k < len1; k++) {
+            title = titles[k];
+            thisEntry = smartResult[title];
+            newHtml += "<li><a href=\"" + thisEntry.href + "\">" + title + "</a></li>";
+          }
+          $("#results-container").html(newHtml);
+        } catch (error1) {
+          e = error1;
+          console.warn("Unable to sort results -- " + e.message);
+          console.warn(e.stack);
+        }
         return uniqueUrls;
       })();
       delay(100, function() {
-        return cleanupResults.debounce(100);
+        return cleanupResults.debounce(300);
       });
       elapsed = Date.now() - startTime;
       return console.log("Search completed in " + elapsed + "ms");

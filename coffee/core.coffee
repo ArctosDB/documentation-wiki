@@ -38,6 +38,25 @@ window.toInt = (str) ->
     return rv;
 }`
 
+`Array.closest = function () {
+    function levenshtein(s, t) {
+        if (!s.length) return t.length;
+        if (!t.length) return s.length;
+
+        return Math.min(
+            levenshtein(s.substring(1), t) + 1,
+            levenshtein(t.substring(1), s) + 1,
+            levenshtein(s.substring(1), t.substring(1)) + (s[0] !== t[0] ? 1 : 0)
+        );
+    }
+
+    return function (arr, str) {
+        return arr.sort(function (a, b) {
+            return levenshtein(a, str) - levenshtein(b, str);
+        });
+    };
+}`
+
 String::toBool = -> this.toString() is 'true'
 
 Boolean::toBool = -> this.toString() is 'true' # In case lazily tested

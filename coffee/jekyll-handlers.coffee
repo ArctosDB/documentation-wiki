@@ -81,6 +81,9 @@ handleSearch = (prepOnly = false) ->
   search = $("#search-input").val()
   if isNull search
     $("#results-container").html ""
+  try
+    loadJS "https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"
+
   # Set up the search helper function
   doSearch = ->
     unless $("#results-container").exists()
@@ -102,24 +105,48 @@ handleSearch = (prepOnly = false) ->
       resultsContainer: document.getElementById('results-container')
       json: _arctos.searchObject
       searchResultTemplate: "<li><a href='{url}'>{title}</a></li>"
-      fuzzy: true
+      fuzzy: false
       noResultsText: "<strong><em>Sorry, no results found matching '#{search}'</em></strong>"
+      limit: 25
     _arctos.searchConfig = searchConfig
     SimpleJekyllSearch searchConfig
     do cleanupResults = ->
       # Remove duplicates
       results = $("#results-container li")
       uniqueUrls = new Array()
+      smartResult = new Object()
+      titles = new Array()
       for result in results
         url = $(result).find("a").attr "href"
+        title = $(result).find("a").text()
+        tmp =
+          title: title
+          href: url
         if url in uniqueUrls
           $(result).remove()
         else
           uniqueUrls.push url
-      console.log "Found #{uniqueUrls.length} unique URLs matching the search"
+          smartResult[title] = tmp
+          titles.push title
+      console.log "Found #{uniqueUrls.length} unique URLs matching the search", uniqueUrls
+      # Try sorting it
+      try
+        sortKey = $("#search-input").val()
+        console.log "Attempting to sort by #{sortKey}"
+        Array.closest titles, sortKey
+        newHtml = ""
+        for title in titles
+          thisEntry = smartResult[title]
+          newHtml += """
+          <li><a href="#{thisEntry.href}">#{title}</a></li>
+          """
+        $("#results-container").html newHtml
+      catch e
+        console.warn "Unable to sort results -- #{e.message}"
+        console.warn e.stack
       uniqueUrls
     delay 100, ->
-      cleanupResults.debounce(100)
+      cleanupResults.debounce(300)
     elapsed = Date.now() - startTime
     console.log "Search completed in #{elapsed}ms"
   # Get the search object
