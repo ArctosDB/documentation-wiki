@@ -17,10 +17,6 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks('grunt-string-replace')
   grunt.loadNpmTasks('grunt-postcss')
   grunt.loadNpmTasks('grunt-contrib-less')
-  # https://github.com/mpau23/grunt-regex-extract
-  grunt.loadNpmTasks("grunt-regex-extract")
-  # https://github.com/gruntjs/grunt-contrib-clean
-  grunt.loadNpmTasks('grunt-contrib-clean')
   grunt.initConfig
     pkg: grunt.file.readJSON('package.json')
     shell:
@@ -34,7 +30,7 @@ module.exports = (grunt) ->
         command: ["mv js/c.src.coffee js/maps/c.src.coffee"].join("&&")
       vulcanize:
         # Should also use a command to replace js as per uglify:vulcanize
-        command: ["vulcanize --strip-comments --inline-scripts pre-vulcanize.html --out-html vulcanized.html", "vulcanize --strip-comments  pre-vulcanize.html --out-html vulcanized-noscripts.html"].join("&&")
+        command: ["vulcanize --strip-comments --inline-scripts pre-vulcanize.html --out-html vulcanized.html"].join("&&")
     regex_extract:
       default_options:
         options:
@@ -43,7 +39,8 @@ module.exports = (grunt) ->
           includePath: false
           matchPoints: "0"
         files:
-          "_includes/vulcanized-div-and-dom-module.html": ["vulcanized.html"]
+          "vulcanized-div-and-dom-module.html": ["vulcanized.html"]
+    clean: ["vulcanized.html", "vulcanized-parsed.html", "post-vulcanize.html"]
     min:
       dist:
         src:['js/c.js']
@@ -110,6 +107,6 @@ module.exports = (grunt) ->
         tasks: ["coffee:compile","uglify:dist"]
   # Now the tasks
   grunt.registerTask("default",["watch"])
-  grunt.registerTask("vulcanize","Vulcanize web components",["shell:vulcanize","regex_extract"])
+  grunt.registerTask("vulcanize","Vulcanize web components",["shell:vulcanize","regex_extract","clean"])
   grunt.registerTask("compile","Compile coffeescript",["coffee:compile", "shell:movesrc","uglify:dist"])
   grunt.registerTask("compileNoUglify","Compile coffeescript",["coffee:compile","shell:movesrc"])
