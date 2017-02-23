@@ -57,7 +57,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type
 
 `Agent . Agent_Type VARCHAR2(15) not null`
 
-## Persons
+## Person
 
 Data about a person-agent can first, middle, and last names (and must
 include at least one "person name"). Prefix and Suffix (formerly
@@ -112,7 +112,7 @@ to be.
 Verbatim Collectors as Agents is a failed experiment and should not be
 used for any purpose. Please change verbatim collectors to another type
 of agent or flag them as duplicates when you  encounter them.
-[Attribute](/documentation/attributes.html) "verbatim collector" allows
+[Attribute]({{site.baseurl}}/documentation/attributes.html) "verbatim collector" allows
 uncontrolled strings to be associated with individual specimens. When
 "bad duplicate of" agents are merged, "verbatim collector" Attributes
 are automatically created for all affected specimens.

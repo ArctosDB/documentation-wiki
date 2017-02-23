@@ -6,9 +6,9 @@ layout: default_toc
 # Specimen Event
 
 
+Specimen Events link [Specimens]({{site.baseurl}}/documentation/catalog.html) to [Collecting
+Events]({{site.baseurl}}/documentation/collecting-event.html).
 
-Specimen Events link [Specimens](catalog.html) to [Collecting
-Events](/collecting-event.html).
 
 
 ## Event Determiner
