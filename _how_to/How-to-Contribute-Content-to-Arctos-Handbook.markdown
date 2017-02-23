@@ -60,7 +60,7 @@ As an important note, **if you do not include front matter on your page, the pag
         > blah blah new paragraph
         >```
 
-      This is also true when transitioning paragraph types, such as code blocks or blockquotes.
+        This is also true when transitioning paragraph types, such as code blocks or blockquotes.
 
     2. Numbered and bulleted lists are generated automatically. Just start with `1. ` and every subsequent number will iterate (regardless of actual numerical progression, so 1, 1, 1 will become 1, 2, 3). Bullets can be a single asterisk or a dash.
 
