@@ -87,6 +87,48 @@ The default Specimens Result page provides a pretty comprehensive overview of ea
  * You can return to this window later on to remove any unnecessary fields in order to keep your results from becoming too cluttered.
 * One other way to customize your results is to remove specimens from your search that do not require attention or edits. In order to do this, return to the “Add/Remove Data Fields” window and look for the “Row-Removal Option” in the top left corner. Set this option to “Yes” then click “Close and Refresh” in the top right corner. Doing so will add a new column on the left side of your specimen results.
  * All that is left to do is check the boxes for the specimens you want to remove. Once you have made your selection, click the glaring red “Remove Checked Rows” button above the specimen results to refresh the page.
+ 
+# Specimen Search Refine Widget
+*Click [ Show/Hide Search Terms ] to add or remove an inline search form.*
+
+
+
+This tool is extremely network-intensive; use with caution.
+
+The tool uses intensive caching, and changes to documentation or data may not appear for about an hour.
+
+The form consists to 4 columns:
+
+ - Term is values acceptable by SpecimenResults
+ - Value is value of the term
+ - Vocabulary is suggested vocabulary
+ - Controls provides some simple manipulation tools
+ - Term includes
+
+Terms which were included in your current search
+Select terms from your search results, based on your preferences (from “add/remove search terms”)
+The option to add any available search term
+Mouse-over terms for minimal documentation, click for full documentation, links to controlled vocabularies and definitions, etc.
+
+Value is term-specific. Some terms will only accept case-sensitive exact matches, some will accept substrings, and some will accept operators (such as “=” prefix to indicate exact match only). Most term will accept value “_” (underbar) to mean “match anything” or “require this attribute.” (Note that Arctos is highly normalized, and most terms do not exist for most specimens, while some specimens may have multiple values of any term, such as multiple numeric age determinations based on the cementum layers of different teeth.)
+
+Vocabulary includes suggestions from code tables , unique values from some tables (such as Geog_Auth_Rec.Country), and operators from documentation. Data in this column are suggestions only; selecting them will simple push a value to the Value column, which you may then remove, alter, or re-query. Values in the Vocabulary columns are themselves ignored. The Vocabulary column may be incomplete, unused in the current dataset, incompatible with other parameters (e.g., State=Alaska + Country=Somalia should not find anything), or otherwise irrelevant or confusing.
+
+One or two options (depending on current search terms, vocabulary controls, and what’s turned on in your results set) may be available when vocabulary suggestions are available. (Some terms will not provide suggestions due to indirect mapping between the highly-structured database and the “flattened” query view.)
+
+Fetch all will return all available terms, with terms included in results in bold. For example, if you’ve searched for Sorex palustris and United States, fetch all in State will return a few hundred states, and Alaska, California, etc., will be in bold. Selecting any bold value and re-querying will return a subset of the data. Selecting “Yukon Territory” will return nothing, but selecting Yukon Territory and removing United States will produce results. Use this for exploration.
+Fetch from results will return only those values which exist in your search results. Selecting any value from this list (they will all be bold) will return a subset of the search results; this is a way of drilling down from a general search to more specific records.
+Blank Value does not include the term in subsequent searches. _ (underbar) requires the term to exist, but does not filter by value. Underbar will not work for some terms; we’re working on documentation.
+
+### Maps
+
+If you query by coordinates (“Select on Google Map” search), the map will zoom to contain APPROXIMATELY the area you queried. (Exact fit is not implemented due to limitations of the Google Maps API.)
+
+Under the map, click “QueryByViewport” to add the coordinates of the visible map to your search. Note that the results will, as above, zoom to only approximately the area you selected.
+
+### Warnings
+
+This form is in beta development. Some term/value pairs are dependent, and some will be somewhat nonsensical in this format. Please use the Contact link at the bottom of the page if you find something cryptic, nonfunctional, or just have a great idea for improvement.
 
 # Saving Searches
 
