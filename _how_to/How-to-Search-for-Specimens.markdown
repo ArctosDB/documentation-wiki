@@ -91,7 +91,7 @@ The default Specimens Result page provides a pretty comprehensive overview of ea
 # Specimen Search Refine Widget
 *Click [ Show/Hide Search Terms ] to add or remove an inline search form.*
 
-![Search Terms Widget screenshot](https://github.com/ArctosDB/documentation-wiki/raw/master/images/uploads/search-terms-widget-screen.png "Search Terms Widget screenshot")
+![Search Terms Widget screenshot](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/images/uploads/search-terms-widget-screen.png "Search Terms Widget screenshot")
 
 
 This tool is extremely network-intensive; use with caution.
