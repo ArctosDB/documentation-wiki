@@ -291,9 +291,9 @@ are case-insensitive substring matches. You may also include the special
 characters \_ and % to match any single character or any string,
 respectively.
 
-### Any part of any name
+### Any name search
 
-is appropriate for most exploratory
+Any part of a name is appropriate for most exploratory
 searching. It matches any name, including preferred, AKAs, name
 components, and login name.
 
