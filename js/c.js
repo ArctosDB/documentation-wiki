@@ -687,7 +687,8 @@
         json: _arctos.searchObject,
         searchResultTemplate: "<li><a href='{url}'>{title}</a></li>",
         fuzzy: true,
-        noResultsText: "<strong><em>Sorry, no results found matching '" + search + "'</em></strong>"
+        noResultsText: "<strong><em>Sorry, no results found matching '" + search + "'</em></strong>",
+        limit: 50
       };
       _arctos.searchConfig = searchConfig;
       SimpleJekyllSearch(searchConfig);
@@ -704,7 +705,7 @@
             uniqueUrls.push(url);
           }
         }
-        console.log("Found " + uniqueUrls.length + " unique URLs matching the search");
+        console.log("Found " + uniqueUrls.length + " unique URLs matching the search", uniqueUrls);
         return uniqueUrls;
       })();
       delay(100, function() {
