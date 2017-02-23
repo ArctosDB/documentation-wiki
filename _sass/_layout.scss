@@ -674,6 +674,8 @@ $button-height: 12em;
 
 
 @media(max-width: 767px) {
-  max-width: 100%;
-  overflow-x: hidden; // Prevent scroll weirdness
+  body {
+    max-width: 100%;
+    overflow-x: hidden; // Prevent scroll weirdness
+  }
 }
