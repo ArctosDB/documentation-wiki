@@ -14,8 +14,8 @@ occur within states, states within countries, and countries within
 continents, these data are approximately hierarchical, but only
 approximately. For example, a state park or national forest may be
 comprised of segments from two or more counties. Columns in the Higher
-Geography table are concatenated into the column "[higher
-geography](#higher_geog)" which is uniquely indexed. The concatenated
+Geography table are concatenated into the column [`higher geography`](#higher_geog)
+which is uniquely indexed. The concatenated
 string "higher geography" is the only column displayed and used in data
 entry. Unfortunately, you cannot assume that any locality or area is
 listed under only one higher geography. The [guidelines](#guidelines)

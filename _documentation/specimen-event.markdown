@@ -7,7 +7,7 @@ layout: default_toc
 
 
 
-Specimen Events link [Specimens](/catalog.html) to [Collecting
+Specimen Events link [Specimens](catalog.html) to [Collecting
 Events](/collecting-event.html).
 
 
