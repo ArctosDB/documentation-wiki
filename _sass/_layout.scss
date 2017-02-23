@@ -671,3 +671,9 @@ $button-height: 12em;
         transition: all .2s ease-out;
     }
 }
+
+
+@media(max-width: 767px) {
+  max-width: 100%;
+  overflow-x: hidden; // Prevent scroll weirdness
+}
