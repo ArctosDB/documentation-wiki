@@ -423,7 +423,7 @@ linkoutLabels = ->
 
 
 unless _arctos?
-  _arctos = new Object()
+  window._arctos = new Object()
 
 handleSearch = (prepOnly = false) ->
   ###
@@ -459,8 +459,9 @@ handleSearch = (prepOnly = false) ->
       resultsContainer: document.getElementById('results-container')
       json: _arctos.searchObject
       searchResultTemplate: "<li><a href='{url}'>{title}</a></li>"
-      fuzzy: true
+      fuzzy: false
       noResultsText: "<strong><em>Sorry, no results found matching '#{search}'</em></strong>"
+    _arctos.searchConfig = searchConfig
     SimpleJekyllSearch searchConfig
     do cleanupResults = ->
       # Remove duplicates
@@ -472,6 +473,7 @@ handleSearch = (prepOnly = false) ->
           $(result).remove()
         else
           uniqueUrls.push url
+      console.log "Found #{uniqueUrls.length} unique URLs matching the search"
       uniqueUrls
     delay 100, ->
       cleanupResults.debounce(100)

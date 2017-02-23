@@ -1,5 +1,5 @@
 (function() {
-  var _arctos, activityIndicatorOff, activityIndicatorOn, deepJQuery, fixSearchHeight, formatScientificNames, handleSearch, lightboxImages, linkSubmenu, linkoutLabels, overlayOff, overlayOn, p$, tabSelect,
+  var activityIndicatorOff, activityIndicatorOn, deepJQuery, fixSearchHeight, formatScientificNames, handleSearch, lightboxImages, linkSubmenu, linkoutLabels, overlayOff, overlayOn, p$, tabSelect,
     slice = [].slice,
     indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
@@ -645,7 +645,7 @@
   };
 
   if (typeof _arctos === "undefined" || _arctos === null) {
-    _arctos = new Object();
+    window._arctos = new Object();
   }
 
   handleSearch = function(prepOnly) {
@@ -686,9 +686,10 @@
         resultsContainer: document.getElementById('results-container'),
         json: _arctos.searchObject,
         searchResultTemplate: "<li><a href='{url}'>{title}</a></li>",
-        fuzzy: true,
+        fuzzy: false,
         noResultsText: "<strong><em>Sorry, no results found matching '" + search + "'</em></strong>"
       };
+      _arctos.searchConfig = searchConfig;
       SimpleJekyllSearch(searchConfig);
       (cleanupResults = function() {
         var j, len, result, results, uniqueUrls, url;
@@ -703,6 +704,7 @@
             uniqueUrls.push(url);
           }
         }
+        console.log("Found " + uniqueUrls.length + " unique URLs matching the search");
         return uniqueUrls;
       })();
       delay(100, function() {
