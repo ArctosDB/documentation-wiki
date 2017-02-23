@@ -686,9 +686,9 @@
         resultsContainer: document.getElementById('results-container'),
         json: _arctos.searchObject,
         searchResultTemplate: "<li><a href='{url}'>{title}</a></li>",
-        fuzzy: true,
+        fuzzy: false,
         noResultsText: "<strong><em>Sorry, no results found matching '" + search + "'</em></strong>",
-        limit: 50
+        limit: 25
       };
       _arctos.searchConfig = searchConfig;
       SimpleJekyllSearch(searchConfig);
