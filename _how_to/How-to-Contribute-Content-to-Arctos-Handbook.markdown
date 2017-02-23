@@ -101,6 +101,14 @@ As an important note, **if you do not include front matter on your page, the pag
 
 ## General notes
 
+## Relative links
+
+When creating relative links, use good Jekyll practices: write them like
+
+```md
+Link to [this here page]({{ site.baseurl }}/path/to/page.html)
+```
+
 ### Titles
 
 **DO NOT EDIT** an existing title because that will change the URL and thus affect linked pages.
