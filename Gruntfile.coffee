@@ -72,7 +72,7 @@ module.exports = (grunt) ->
             unused: true
             loops: true
             if_return: true
-            drop_console: true # Production! Change to false in dev
+            drop_console: false # Production! Change to false in dev
             warnings: true
             properties: true
             sequences: true
