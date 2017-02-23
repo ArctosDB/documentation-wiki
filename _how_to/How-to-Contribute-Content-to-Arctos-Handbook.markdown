@@ -66,23 +66,23 @@ As an important note, **if you do not include front matter on your page, the pag
 
     3. Table-of-Contents entries are generated at headers. Headers are created by leading with one or more `#`. For example:
 
-      >```md
-      > # Page title
-      >
-      > This is a page about stuff and things
-      >
-      > ## First subheading
-      >
-      > This is actually a really interesting topic.
-      >
-      > ### Sub-subheading
-      >
-      > You see, ....
-      >
-      > ## Second subheading
-      >```
+        >```md
+        > # Page title
+        >
+        > This is a page about stuff and things
+        >
+        > ## First subheading
+        >
+        > This is actually a really interesting topic.
+        >
+        > ### Sub-subheading
+        >
+        > You see, ....
+        >
+        > ## Second subheading
+        >```
 
-      Note that simply *emphasized text* (via `*emphasized text*`) nor **bold text** (via `**bold text**`) will generate either a table of contents entry or an HTML anchor to link to. ***Do not simply use bold text for sections!!***
+        Note that simply *emphasized text* (via `*emphasized text*`) nor **bold text** (via `**bold text**`) will generate either a table of contents entry or an HTML anchor to link to. ***Do not simply use bold text for sections!!***
 
 * To add an image, see below.   
 * Save the page!
