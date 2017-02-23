@@ -28,6 +28,19 @@ module.exports = (grunt) ->
         command: "echo test"
       movesrc:
         command: ["mv js/c.src.coffee js/maps/c.src.coffee"].join("&&")
+      vulcanize:
+        # Should also use a command to replace js as per uglify:vulcanize
+        command: ["vulcanize --strip-comments --inline-scripts pre-vulcanize.html --out-html vulcanized.html"].join("&&")
+    regex_extract:
+      default_options:
+        options:
+          regex: "<div[^>]*by-vulcanize[^>]*><script>[\\s\\S]*<\\/script>\\s*<\\/dom-module>\\s*<\\/div>"
+          modifiers: "mig"
+          includePath: false
+          matchPoints: "0"
+        files:
+          "vulcanized-div-and-dom-module.html": ["vulcanized.html"]
+    clean: ["vulcanized.html", "vulcanized-parsed.html", "post-vulcanize.html"]
     min:
       dist:
         src:['js/c.js']
@@ -94,5 +107,6 @@ module.exports = (grunt) ->
         tasks: ["coffee:compile","uglify:dist"]
   # Now the tasks
   grunt.registerTask("default",["watch"])
+  grunt.registerTask("vulcanize","Vulcanize web components",["shell:vulcanize","regex_extract","clean"])
   grunt.registerTask("compile","Compile coffeescript",["coffee:compile", "shell:movesrc","uglify:dist"])
   grunt.registerTask("compileNoUglify","Compile coffeescript",["coffee:compile","shell:movesrc"])
