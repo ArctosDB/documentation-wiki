@@ -28,6 +28,8 @@ module.exports = (grunt) ->
         command: "echo test"
       movesrc:
         command: ["mv js/c.src.coffee js/maps/c.src.coffee"].join("&&")
+      cpsearch:
+        command: ["cp -r node_modules/simple-jekyll-search/dest bower_components/simple-jekyll-search"].join("&&")
       vulcanize:
         # Should also use a command to replace js as per uglify:vulcanize
         command: ["vulcanize --strip-comments --inline-scripts pre-vulcanize.html --out-html vulcanized.html"].join("&&")
@@ -108,5 +110,5 @@ module.exports = (grunt) ->
   # Now the tasks
   grunt.registerTask("default",["watch"])
   grunt.registerTask("vulcanize","Vulcanize web components",["shell:vulcanize","regex_extract","clean"])
-  grunt.registerTask("compile","Compile coffeescript",["coffee:compile", "shell:movesrc","uglify:dist"])
-  grunt.registerTask("compileNoUglify","Compile coffeescript",["coffee:compile","shell:movesrc"])
+  grunt.registerTask("compile","Compile coffeescript",["coffee:compile", "shell:movesrc","uglify:dist","shell:cpsearch"])
+  grunt.registerTask("compileNoUglify","Compile coffeescript",["coffee:compile","shell:movesrc","shell:cpsearch"])

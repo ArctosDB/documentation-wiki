@@ -59,6 +59,7 @@
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-html": "^8.0.2",
     "grunt-regex-extract": "^0.0.1",
-    "grunt-shell": "^2.1.0"
+    "grunt-shell": "^2.1.0",
+    "simple-jekyll-search": "^1.1.6"
   }
 }
