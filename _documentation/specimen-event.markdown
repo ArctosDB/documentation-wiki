@@ -17,7 +17,7 @@ Events]({{site.baseurl}}/documentation/collecting-event.html).
 has [Event Type](#type) relationship to a collecting event. This person
 has determined or verified coordinates and error, dates, higher
 geography, and everything else in the "[place and time
-stack](/documentation/places/)."
+stack](/documentation/collecting-event/)."
 
 
 ## Event Date
@@ -40,7 +40,7 @@ event are related. Examples:
 -   gill net
 -   hand seine
 -   Otter Trawl
--   salvage, roadkill
+-   salvage, roadkill, DOR
 
 
 ## Collecting Source
@@ -63,4 +63,4 @@ the specimen event. Examples:
 -   limestone outcrops and ledges with dwarf shrub, sedge herbaceous
     tundra, scattered
 -   under spruce bark
--   steep w-facing slopes
+-   steep west-facing slopes
