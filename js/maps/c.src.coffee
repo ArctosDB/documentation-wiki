@@ -459,7 +459,6 @@ handleSearch = (prepOnly = false) ->
     $("#results-container").html ""
   try
     loadJS "https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"
-
   # Set up the search helper function
   doSearch = ->
     unless $("#results-container").exists()
@@ -503,7 +502,7 @@ handleSearch = (prepOnly = false) ->
         else
           uniqueUrls.push url
           smartResult[title] = tmp
-          titles.push title
+          titles.push title.toLowerCase()
       _arctos.searchResult =
         titles: titles
         smart: smartResult
@@ -511,7 +510,7 @@ handleSearch = (prepOnly = false) ->
       console.log "Found #{uniqueUrls.length} unique URLs matching the search", uniqueUrls
       # Try sorting it
       try
-        sortKey = $("#search-input").val()
+        sortKey = $("#search-input").val().toLowerCase()
         console.log "Attempting to sort by #{sortKey}"
         Array.closest titles, sortKey
         newHtml = ""

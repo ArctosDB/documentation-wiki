@@ -733,7 +733,7 @@
           } else {
             uniqueUrls.push(url);
             smartResult[title] = tmp;
-            titles.push(title);
+            titles.push(title.toLowerCase());
           }
         }
         _arctos.searchResult = {
@@ -743,7 +743,7 @@
         };
         console.log("Found " + uniqueUrls.length + " unique URLs matching the search", uniqueUrls);
         try {
-          sortKey = $("#search-input").val();
+          sortKey = $("#search-input").val().toLowerCase();
           console.log("Attempting to sort by " + sortKey);
           Array.closest(titles, sortKey);
           newHtml = "";
