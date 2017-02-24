@@ -38,24 +38,30 @@ window.toInt = (str) ->
     return rv;
 }`
 
-`Array.closest = function () {
-    function levenshtein(s, t) {
+
+# This needs work .... but it'll do for now
+`Array.closest = (function () {
+
+    // http://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#JavaScript
+    function levDist(s, t) {
         if (!s.length) return t.length;
         if (!t.length) return s.length;
 
         return Math.min(
-            levenshtein(s.substring(1), t) + 1,
-            levenshtein(t.substring(1), s) + 1,
-            levenshtein(s.substring(1), t.substring(1)) + (s[0] !== t[0] ? 1 : 0)
+            levDist(s.substring(1), t) + 1,
+            levDist(t.substring(1), s) + 1,
+            levDist(s.substring(1), t.substring(1)) + (s[0] !== t[0] ? 1 : 0)
         );
     }
 
     return function (arr, str) {
+        // http://stackoverflow.com/q/11919065/1250044#comment16113902_11919065
         return arr.sort(function (a, b) {
-            return levenshtein(a, str) - levenshtein(b, str);
+            return levDist(a, str) - levDist(b, str);
         });
     };
-}`
+
+}());`
 
 String::toBool = -> this.toString() is 'true'
 
