@@ -268,7 +268,7 @@ to provide guidance and clarification in future geography creation or
 merge events, and is not searchable nor intended for public display.
 
 
-## Guidelines for creating and editing geographic terms in Arctos
+## Guidelines for Geographic terms in Arctos
 
 
 Geographic terms are difficult to standardize because:
@@ -288,12 +288,12 @@ of Arctos). You may be forced to choose between cleaning up several
 records or creating an outlier; we recommend being consistent above all
 else (and  leaving verbose notes in remarks when necessary).
 
--   Be consistent. At the largest practical scale (usually \~country),
+-   **Be consistent**. At the largest practical scale (usually \~country),
     do the same thing for all records. For island nations, ensure that
     the island data are consistent. Ensure all county-level records
     include qualifiers (County, Parish, etc.) or that none do.
--   Be certain that the term you intend to create does not
-    already exist. Alternative spellings, transliterations, or
+-   **Be certain that the term you intend to create does not
+    already exist**. Alternative spellings, transliterations, or
     abbreviations are probable. If you are creating a new state or
     province, first look carefully at all the unique values for
     State/Province from the relevant country. These values can be
@@ -305,27 +305,27 @@ else (and  leaving verbose notes in remarks when necessary).
     locality, *not* in Higher Geography. If you are editing specimen
     records, append the old higher geography to verbatim locality in the
     following order: verbatim_locality, state, country.~~
--   Try not to mix terms; try to use modern geography. We have no idea
+-   **Try not to mix older terms; use modern geography**. We have no idea
     how to do that when, *e.g.*, one Province of Kenya becomes
     6 Counties. Especially in the case where the "new" shares
     namestrings with the old, confusion is almost certain. (Alternative
     interpretation: Geography is names, not shapes, and it doesn’t
     matter if "Naples" can refer to a dozen THINGS in Italy.)
--   Use the spelling of geographic term that is in the title of the
-    English version of Wikipedia’s entry for that term (but see below).
+-   **Use the spelling of geographic term that is in the title of the
+    English version of Wikipedia’s entry for that term (but see below)**.
     Wikipedia describes most (possibly all) of the world’s current
     politically-delineated geographic units. Do not use something
     transcribed from a label or fieldnotes for a new value in
     Higher Geography. Look it up in Wikipedia. If it doesn’t exist, and
     you are sure it’s valid, create the article in Wikipedia.
--   Enter the full (English strongly preferred) Wikipedia URL under
-    "Authority" of the geography entry; it will be automatically
+-   **Enter the full (English strongly preferred) Wikipedia URL under
+    "Authority" of the geography entry**; it will be automatically
     converted to HTML. Link to the most specific Wikipedia page
     available; do not link to anchors in general articles, lists, maps,
     ../images, or anything except the most specific relevant article
     in Wikipedia. The Wikipedia link must directly describe the
     Arctos record.
--   No accents, umlauts, Cyrillic, Chinese, etc. Do it in ASCII-128.
+-   **No accents, umlauts, Cyrillic, Chinese, etc. Do use ASCII-128.**
     Arctos has bitwise indexes and the specimens from non-US/ASCII
     geography will be invisible in geographic searches. This may require
     that you modify the Wikipedia spelling; for example, Huánuco must
@@ -340,50 +340,50 @@ else (and  leaving verbose notes in remarks when necessary).
     longer amusing. New York City isn’t in Inyo County, Texas, no matter
     what it says on the label. (Label data should be transcribed
     to verbatim_locality.)
--   Do not introduce unnecessary descriptors or ranks, but also do not
-    exclude parts of proper names. "Santiago Metropolitan Region" in
+-   **Do not introduce unnecessary descriptors or ranks, but also do not
+    exclude parts of proper names**. "Santiago Metropolitan Region" in
     state_prov is correct; Maule Region in state_prov is redundant
     and confusing. Use the construction used by Wikipedia.
--   Do not partially translate. "Región de la Araucanía" (disallowed
+-   **Do not partially translate**. "Región de la Araucanía" (disallowed
     under rules "use English Wikipedia" and "use ASCII128") should be
     entered as "Araucania", not "Region de Araucania" or "Region
     Araucania."
--   Do not "promote" entities. Cities, vaguely-described districts,
+-   **Do not "promote" entities**. Cities, vaguely-described districts,
     4th-level administrative entities, and things the collector made up
     are verbatim_locality and should not be stuffed into geography.
     Chilean Communes, for example, are "real" political entities, but as
     sub-county-level divisions are not formal geography.
--   Do "standardize" spelling. Sometimes you’ll have to do something
+-   **Do "standardize" spelling**. Sometimes you’ll have to do something
     arbitrary, and that’s OK as long as you do the same arbitrary thing
     for all versions of the entity. Provincia de Aysén, región Aysén del
     General Carlos Ibáñez del Campo is entered as "South America, Chile,
     Aisen, Aisen," for example, because "Aisen" is a somewhat-common
     transliteration, not because it’s any particular form of "correct."
--   Use only "official" abbreviations. "Wrangell–**St.** Elias National
+-   **Use only "official" abbreviations**. "Wrangell–**St.** Elias National
     Park and Preserve" is correct. "Something **Prov.**" is
     never acceptable.
 -   No parentheticals, cryptic square brackets, inline
     translations, etc.
 -   ~~No unnecessary punctuation or separators. *Kenya, North Eastern
     Province*, never *Kenya, North-Eastern Province.*~~
--   DO include any equivalent data excluded by these "rules" in "search
-    terms." These are becoming increasingly valuable in automated
+-   **DO include any equivalent data excluded by these "rules" in "search
+    terms."** These are becoming increasingly valuable in automated
     mapping to Arctos (and reducing duplicates); please MINIMALLY copy
     all of the "alternate names" (such as Spanish place names containing
     diacritics or "local" names given in Arabic or Thai characters) from
     Wikipedia into individual search terms fields.
--   Do NOT include descriptive text (such as the language in which a
-    term is given) in search terms. Along with facilitating access to
+-   **Do NOT include descriptive text (such as the language in which a
+    term is given) in search terms.** Along with facilitating access to
     data, search terms are also used by data cleanup tools, and things
     which are not search terms in the search terms field will prevent
     those tools from working properly. Do not confound search terms
     with remarks.
--   Do NOT include non-equivalent information, such as island
+-   **Do NOT include non-equivalent information, such as island
     "subgroups" or alternate spellings of "parent" geography (country,
-    state, etc.) data in search terms.
--   Use remarks to describe remarkable things about the geography
+    state, etc.) data in search terms.**
+-   **Use remarks to describe remarkable things about the geography
     itself, such as when the named place existed or how it differs from
-    potentially-confusing other places. Avoid using remarks for
+    potentially-confusing other places.** Avoid using remarks for
     procedural information or remarks concerning other data (such as
     specimens or localities).
 -   See
