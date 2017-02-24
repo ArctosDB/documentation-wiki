@@ -65,10 +65,18 @@ window.toInt = (str) ->
 # This needs work .... but it'll do for now
 Array.closest = (arr, str) ->
   ###
-  # Sort an array based on the closeness to a comparison string, using Levenstein distance
+  # Sort an array based on the closeness to a comparison string,
+  # using Levenshtein distance or substring
   ###
   return arr.sort (a, b) ->
-    return a.levenshtein(str) - b.levenshtein(str)
+    # Prioritize substring matches over Levenshtein distance
+    aDist = if a.search(str) >= 0 then 0 else a.levenshtein(str)
+    bDist = if b.search(str) >= 0 then 0 else b.levenshtein(str)
+    if aDist is 0 and bDist is 0
+      # Both have the string as a substring
+      aDist = a.levenshtein(str)
+      bDist = b.levenshtein(str)
+    return aDist - bDist
 
 
 

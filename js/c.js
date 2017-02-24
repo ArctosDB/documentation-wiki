@@ -92,10 +92,18 @@
   Array.closest = function(arr, str) {
 
     /*
-     * Sort an array based on the closeness to a comparison string, using Levenstein distance
+     * Sort an array based on the closeness to a comparison string,
+     * using Levenshtein distance or substring
      */
     return arr.sort(function(a, b) {
-      return a.levenshtein(str) - b.levenshtein(str);
+      var aDist, bDist;
+      aDist = a.search(str) >= 0 ? 0 : a.levenshtein(str);
+      bDist = b.search(str) >= 0 ? 0 : b.levenshtein(str);
+      if (aDist === 0 && bDist === 0) {
+        aDist = a.levenshtein(str);
+        bDist = b.levenshtein(str);
+      }
+      return aDist - bDist;
     });
   };
 
