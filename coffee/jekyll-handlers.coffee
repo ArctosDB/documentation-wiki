@@ -125,7 +125,7 @@ handleSearch = (prepOnly = false) ->
           $(result).remove()
         else
           uniqueUrls.push url
-          smartResult[title] = tmp
+          smartResult[title.toLowerCase()] = tmp
           titles.push title.toLowerCase()
       _arctos.searchResult =
         titles: titles
@@ -138,11 +138,13 @@ handleSearch = (prepOnly = false) ->
         console.log "Attempting to sort by #{sortKey}"
         Array.closest titles, sortKey
         newHtml = ""
+        i = 0
         for title in titles
           thisEntry = smartResult[title]
           newHtml += """
-          <li><a href="#{thisEntry.href}">#{title}</a></li>
+          <li><a href="#{thisEntry.href}">#{thisEntry.title}</a></li>
           """
+          ++i
         $("#results-container").html newHtml
       catch e
         console.warn "Unable to sort results -- #{e.message}"

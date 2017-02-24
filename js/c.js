@@ -719,7 +719,7 @@
       _arctos.searchConfig = searchConfig;
       SimpleJekyllSearch(searchConfig);
       (cleanupResults = function() {
-        var e, error1, j, k, len, len1, newHtml, result, results, smartResult, sortKey, thisEntry, title, titles, tmp, uniqueUrls, url;
+        var e, error1, i, j, k, len, len1, newHtml, result, results, smartResult, sortKey, thisEntry, title, titles, tmp, uniqueUrls, url;
         results = $("#results-container li");
         uniqueUrls = new Array();
         smartResult = new Object();
@@ -736,7 +736,7 @@
             $(result).remove();
           } else {
             uniqueUrls.push(url);
-            smartResult[title] = tmp;
+            smartResult[title.toLowerCase()] = tmp;
             titles.push(title.toLowerCase());
           }
         }
@@ -751,10 +751,12 @@
           console.log("Attempting to sort by " + sortKey);
           Array.closest(titles, sortKey);
           newHtml = "";
+          i = 0;
           for (k = 0, len1 = titles.length; k < len1; k++) {
             title = titles[k];
             thisEntry = smartResult[title];
-            newHtml += "<li><a href=\"" + thisEntry.href + "\">" + title + "</a></li>";
+            newHtml += "<li><a href=\"" + thisEntry.href + "\">" + thisEntry.title + "</a></li>";
+            ++i;
           }
           $("#results-container").html(newHtml);
         } catch (error1) {
