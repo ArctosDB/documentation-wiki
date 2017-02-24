@@ -787,7 +787,7 @@
         return uniqueUrls;
       })();
       delay(100, function() {
-        return cleanupResults.debounce(300);
+        return cleanupResults.debounce(50);
       });
       elapsed = Date.now() - startTime;
       return console.log("Search completed in " + elapsed + "ms");

@@ -553,7 +553,7 @@ handleSearch = (prepOnly = false) ->
         console.warn e.stack
       uniqueUrls
     delay 100, ->
-      cleanupResults.debounce(300)
+      cleanupResults.debounce(50)
     elapsed = Date.now() - startTime
     console.log "Search completed in #{elapsed}ms"
   # Get the search object
