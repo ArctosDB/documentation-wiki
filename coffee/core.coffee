@@ -39,29 +39,38 @@ window.toInt = (str) ->
 }`
 
 
-# This needs work .... but it'll do for now
-`Array.closest = (function () {
+# https://gist.github.com/andrei-m/982927#gistcomment-1797205
+# TODO integrate with https://gist.github.com/andrei-m/982927#gistcomment-1931258
+`String.prototype.levenshtein = function(string) {
+    var a = this, b = string + "", m = [], i, j, min = Math.min;
 
-    // http://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#JavaScript
-    function levDist(s, t) {
-        if (!s.length) return t.length;
-        if (!t.length) return s.length;
+    if (!(a && b)) return (b || a).length;
 
-        return Math.min(
-            levDist(s.substring(1), t) + 1,
-            levDist(t.substring(1), s) + 1,
-            levDist(s.substring(1), t.substring(1)) + (s[0] !== t[0] ? 1 : 0)
-        );
+    for (i = 0; i <= b.length; m[i] = [i++]);
+    for (j = 0; j <= a.length; m[0][j] = j++);
+
+    for (i = 1; i <= b.length; i++) {
+        for (j = 1; j <= a.length; j++) {
+            m[i][j] = b.charAt(i - 1) == a.charAt(j - 1)
+                ? m[i - 1][j - 1]
+                : m[i][j] = min(
+                    m[i - 1][j - 1] + 1,
+                    min(m[i][j - 1] + 1, m[i - 1 ][j] + 1))
+        }
     }
 
-    return function (arr, str) {
-        // http://stackoverflow.com/q/11919065/1250044#comment16113902_11919065
-        return arr.sort(function (a, b) {
-            return levDist(a, str) - levDist(b, str);
-        });
-    };
+    return m[b.length][a.length];
+}`
 
-}());`
+# This needs work .... but it'll do for now
+Array.closest = (arr, str) ->
+  ###
+  # Sort an array based on the closeness to a comparison string, using Levenstein distance
+  ###
+  return arr.sort (a, b) ->
+    return a.levenshtein(str) - b.levenshtein(str)
+
+
 
 String::toBool = -> this.toString() is 'true'
 

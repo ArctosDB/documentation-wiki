@@ -145,6 +145,9 @@ handleSearch = (prepOnly = false) ->
           <li><a href="#{thisEntry.href}">#{thisEntry.title}</a></li>
           """
           ++i
+          if i > uniqueUrls.length + 1
+            console.warn "Loop detected!"
+            break;
         $("#results-container").html newHtml
       catch e
         console.warn "Unable to sort results -- #{e.message}"
