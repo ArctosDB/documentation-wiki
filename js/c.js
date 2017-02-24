@@ -736,6 +736,11 @@
             titles.push(title);
           }
         }
+        _arctos.searchResult = {
+          titles: titles,
+          smart: smartResult,
+          unique: uniqueUrls
+        };
         console.log("Found " + uniqueUrls.length + " unique URLs matching the search", uniqueUrls);
         try {
           sortKey = $("#search-input").val();

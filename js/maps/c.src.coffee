@@ -504,6 +504,10 @@ handleSearch = (prepOnly = false) ->
           uniqueUrls.push url
           smartResult[title] = tmp
           titles.push title
+      _arctos.searchResult =
+        titles: titles
+        smart: smartResult
+        unique: uniqueUrls
       console.log "Found #{uniqueUrls.length} unique URLs matching the search", uniqueUrls
       # Try sorting it
       try
