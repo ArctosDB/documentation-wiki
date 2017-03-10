@@ -386,8 +386,8 @@ the Guidelines without contacting the AWG.
     state, etc.) data in search terms.**
 -   **Use remarks to describe remarkable things about the geography
     itself, such as when the named place existed or how it differs from
-    potentially-confusing other places.** Do **not** remarks for
-    procedural information or remarks concerning other data (such as
+    potentially-confusing other places.** Do **not** use remarks for
+    procedural information or information concerning other data (such as
     specimens or localities).
 -   See
     [Iran](http://arctos.database.museum/geography.cfm?geog_auth_rec_id-10000319)
