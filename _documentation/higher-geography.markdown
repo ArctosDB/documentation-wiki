@@ -284,10 +284,12 @@ import tools. The primary function of these guidelines is to promote
 consistent, predictable data across Arctos; while proper data in a
 single record is important, more important is being consistent at scale
 (across states, islands or island groups, countries, and ultimately all
-of Arctos). You may be forced to choose between cleaning up several
-records or creating an outlier; we recommend being consistent above all
-else (and  leaving verbose notes in remarks when necessary).
+of Arctos). These guidelines have been developed to facilitate consistency,
+and to allow tools which facilitate consistency to exist. Do not deviate from
+the Guidelines without contacting the AWG.
 
+
+-   Contact us if you encounter any difficulty in following these Guidelines. 
 -   **Be consistent**. At the largest practical scale (usually \~country),
     do the same thing for all records. For island nations, ensure that
     the island data are consistent. Ensure all county-level records
@@ -318,13 +320,14 @@ else (and  leaving verbose notes in remarks when necessary).
     transcribed from a label or fieldnotes for a new value in
     Higher Geography. Look it up in Wikipedia. If it doesn’t exist, and
     you are sure it’s valid, create the article in Wikipedia.
--   **Enter the full (English strongly preferred) Wikipedia URL under
+-   **Enter the full (English strongly preferred; Spanish acceptable) Wikipedia URL under
     "Authority" of the geography entry**; it will be automatically
-    converted to HTML. Link to the most specific Wikipedia page
-    available; do not link to anchors in general articles, lists, maps,
-    ../images, or anything except the most specific relevant article
-    in Wikipedia. The Wikipedia link must directly describe the
+    converted to HTML. The Wikipedia link must directly describe the
     Arctos record.
+    - DO Link to the Wikipedia page which directly describes the resource.
+    - DO NOT link to anchors in general articles, lists, maps,
+    images, vaguely-related entities, or anything except a specific relevant article
+    in Wikipedia. 
 -   **No accents, umlauts, Cyrillic, Chinese, etc. Do use ASCII-128.**
     Arctos has bitwise indexes and the specimens from non-US/ASCII
     geography will be invisible in geographic searches. This may require
@@ -383,13 +386,13 @@ else (and  leaving verbose notes in remarks when necessary).
     state, etc.) data in search terms.**
 -   **Use remarks to describe remarkable things about the geography
     itself, such as when the named place existed or how it differs from
-    potentially-confusing other places.** Avoid using remarks for
+    potentially-confusing other places.** Do **not** remarks for
     procedural information or remarks concerning other data (such as
     specimens or localities).
 -   See
     [Iran](http://arctos.database.museum/geography.cfm?geog_auth_rec_id-10000319)
     for an "complete" example.
-
+-   Contact us if you encounter any difficulty in following these Guidelines. 
 
 ## Guidelines for assigning geography to specimens.
 
