@@ -3,7 +3,7 @@ title: How To Manage Taxonomic Classifications
 layout: default_toc
 ---
 
-# Overview
+# Managing Taxonomic Classifications: Overview
 
 All taxon names live under a unique index, including homonyms and hemihomonyms. "The specimen's taxonomy" comes from the collection's preferred taxonomy source, set under manage collection. It is generally advisable to only alter classifications used by your collection. Do not do anything that might mess with another collections' data without first consulting them (use the Contact link if necessary; the AC can mediate). For example, if you are working in a parasite collection and find an insect homonym, do NOT edit higher taxonomy (which would "edit taxonomy" for the insect specimens) without consulting the relevant collection managers.
 
