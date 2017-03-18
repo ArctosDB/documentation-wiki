@@ -396,3 +396,11 @@ $ ->
     # We don't actually care here, probably hasn't been imported
     console.log("Could not execute picturefill.")
   mapNewWindows()
+  try
+    # Fix old links
+    fragment = $.url().attr("fragment")
+    unless isNull fragment
+      if fragment.match /.*[\_\W].*/
+        replacementSelector = "##{fragment.replace /[\_\W]/g, "-"}"
+        if $(replacementSelector).exists()
+          $(replacementSelector).get(0).scrollIntoView()
