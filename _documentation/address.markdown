@@ -15,6 +15,11 @@ Addresses are ways to locate or contact [Agents](agent.html). There are both phy
 
 ## Fields
 
+### Address Type
+
+Address Type is code-table controlled [CTADDRESS_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTADDRESS_TYPE) and
+data-typed.
+
 ### Address
 
 The address string. Control (*e.g.*, linefeed) characters are
@@ -22,19 +27,19 @@ allowed in mailing addresses, which will display in a textarea on the
 edit agent form. Other address types use HTML5 datatype controls.
 Mailing or shipping addresses should be of the format:
 
+```
 Agent Name, Job Title
-
 Full Mailing Address
-
 Street, State, etc. as required
-
 Zip Code or Equivalent, Country Code
+```
 
 Do not abbreviate except according to postal guidelines. Make no
 assumptions – "local" mailing addresses may be used for returning
 foreign shipments, and should therefore include country code. Phone
 numbers should include country and area codes, URIs should include
 protocol (http://), etc.
+
 
 ### Remarks
 
