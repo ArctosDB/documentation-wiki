@@ -89,3 +89,7 @@ principal investigator would usually be number one followed by
 co-investigators.  In the case of a doctoral thesis or dissertation, the
 student is usually first and the major advisor second, though this could
 be an issue of some delicacy.
+
+## Funded USD
+
+Amount in US Dollars for which a project has been funded. 
