@@ -575,14 +575,25 @@
   };
 
   $(function() {
-    var e, error1;
+    var e, error1, fragment, replacementSelector;
     try {
       window.picturefill();
     } catch (error1) {
       e = error1;
       console.log("Could not execute picturefill.");
     }
-    return mapNewWindows();
+    mapNewWindows();
+    try {
+      fragment = $.url().attr("fragment");
+      if (!isNull(fragment)) {
+        if (fragment.match(/.*[\_\W].*/)) {
+          replacementSelector = "#" + (fragment.replace(/[\_\W]/g, "-"));
+          if ($(replacementSelector).exists()) {
+            return $(replacementSelector).get(0).scrollIntoView();
+          }
+        }
+      }
+    } catch (undefined) {}
   });
 
   tabSelect = function(currentPath) {

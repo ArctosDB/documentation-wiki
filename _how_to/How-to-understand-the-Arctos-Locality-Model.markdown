@@ -5,7 +5,7 @@ layout: default_toc
 
 The core Arctos locality model consists of 4 primary tables. This guide and the following illustration describe their primary function and interaction.
 
-![Arctos Locality Stack Diagram](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/Arctos_locality_stack.png)
+![Arctos Locality Stack Diagram](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/Arctos_locality_stack.png)
 
 **Specimen_Event**
 
