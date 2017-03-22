@@ -191,7 +191,7 @@ table.
 
 
 
-### Media Creation Guidelines
+## Media Creation Guidelines
 
 Create only necessary relationships; allow the relational nature of
 Arctos to work for you. An image showing a specimen should have a
@@ -217,7 +217,7 @@ Leave preview_uri `NULL` if producing a good thumbnail isn’t possible.
 
 
 
-### Binary Object Creation Guidelines
+## Binary Object Creation Guidelines
 
 As a general rule, capture as much information as possible and store it
 in a lossless, archival format. Disk space is cheap and imaging projects
@@ -255,7 +255,7 @@ DNG view
 
 JPG view – what most users find
 
-### Multi-page documents
+## Multi-page documents
 
 Multi-page documents are paginated JPGs, such as [scanned field
 notes](http://arctos.database.museum/document/fieldnotes-grinnell-j-1911-part-1-section-1-san-joaquin-valley-calif).
@@ -381,7 +381,7 @@ by following links from NCBI, Google, content aggregators (such as
 iDigBio), scientific publications, and researcher’s home pages.
 
 
-### TACC Tools
+## TACC Tools
 
 TACC tools include direct SCP access, various wrappers and tools using
 SCP access (such as the [ALA Imaging
@@ -393,7 +393,7 @@ us](http://arctos.database.museum/contact.cfm) for access), and the
 ability to automatically push files uploaded to Arctos to TACC.
 
 
-### TAGs
+## TAGs
 
 TAGs relate a specific area of a JPG image to data objects in Arctos.
 
@@ -414,7 +414,7 @@ forms a HTML-link to
 
 
 
-### URLs and Stability
+## URLs and Stability
 
 Arctos provides several URLs to media objects. It it important to know
 which to use in any particular situation.
@@ -462,7 +462,7 @@ which to use in any particular situation.
     for most purposes.
 
 
-### Tips
+## Tips
 
 Media label **"Made_Date"** requires value to be in [ISO date
 format](http://en.wikipedia.org/wiki/ISO_8601) (e.g. 2014-05-01 for 1
