@@ -5,8 +5,6 @@ layout: default_toc
 
 # Bulkloader
 
-
-
 New specimen records may be created from a single flat (non-relational)
 file, a text file in which all (or most) data for a single cataloged
 item are in a single row. This file can be created with any convenient
@@ -57,6 +55,8 @@ Smith (my project)" and use that namestring in your data. Once loaded,
 the records will display preferred name, and agent name "John Smith (my
 project)" may be removed.
 
+## Taxonomy
+
 Special note primarily for botanists: The bulkloader
 requires taxonomy.scientific_name, not taxonomy.display_name. That is,
 "Carex bigelowii subsp. lugens" rather than "*Carex bigelowii* Torr.
@@ -68,34 +68,36 @@ Any of the following are acceptable taxon name values (current
 
 -   Formula "A": An exact match to any accepted
     taxonomy.scientific_name
-    -   Sorex cinereus
+    -   Sorex cinereus
     -   Soricidae
 -   Formula "A sp.": Any accepted taxonomy.scientific_name where
     scientific name is also genus plus " sp."
-    -   Sorex sp.
+    -   Sorex sp.
 -   Formula "A cf.": Any accepted taxonomy.scientific_name plus " cf."
-    -   Sorex cf.
+    -   Sorex cf.
 -   Formula "A ?": Any accepted taxonomy.scientific_name plus " ?"
-    -   Sorex ?
+    -   Sorex ?
 -   Formula "A x B": Any two accepted taxonomy.scientific_names
     separated by " x "
-    -   Sorex cinereus x Sorex yukonicus
+    -   Sorex cinereus x Sorex yukonicus
 -   Formula "A or B": Any two accepted taxonomy.scientific_names
     separated by " or "
-    -   Sorex cinereus or Sorex yukonicus
+    -   Sorex cinereus or Sorex yukonicus
 -   Formula "A and B": Any two accepted taxonomy.scientific_names
     separated by " and "
     -   Sorex cinereus and Sorex yukonicus
 -   Formula "A {string}": Any valid taxonomy.scientific_name, followed
     by a space, followed by an opening curly bracket, followed by a
     verbatim identification, followed by a closing curly bracket.
-    -   Sorex {Sorex new species "my name"}
-    -   unidentifiable {granite}
+    -   Sorex {Sorex new species "my name"}
+    -   unidentifiable {granite}
 
 Be sure anything coming from other applications
 (especially Microsoft products) has not changed field length, precision,
 or other attributes. Watch dates and non-integer numbers (such as
 decimal latitude) most closely.
+
+## Fields
 
 The following table describes select individual
 fields in BULKLOADER. **Check the Bulkloader Builder for the latest
@@ -112,7 +114,7 @@ know](http://arctos.database.museum/contact.cfm) if it’s out of date, incomple
 | <span class="blrequired">Verbatim_Date</span> | text; any string | [\[ doc \]](/documentation/places/collecting-event/#verbatim_date) Examples: ‘winter 2002’; ‘1 Nov 2002’; ‘Nov 2002’. |
 | <span class="blrequired">VERIFICATIONSTATUS</span> |text; [CTVERIFICATIONSTATUS](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctVERIFICATIONSTATUS) | |
 | <span class="blrequired">SPECIMEN_EVENT_TYPE</span> | text; [CTSPECIMEN_EVENT_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctSPECIMEN_EVENT_TYPE) | Type of specimen-event relationship |
-| <span class="blrequired">Event_Assigned_By_Agent</span> | text; [agent name](#agent) | Agent asserting specimen-to-event relationship; often coordinate determiner. |
+| <span class="blrequired">Event_Assigned_By_Agent</span> | text; [agent name](#agent) | Agent asserting specimen-to-event relationship; often coordinate determiner. |
 | <span class="blrequired">Event_Assigned_Date</span> |date|Date on which the specimen-event relationship is made|
 |<span class="bloptional">Coll_Event_Remarks</span>|text; any string | Remarks about Collecting Event.|
 |<span class="blrequired">Higher_Geog</span>|text; [pre-existing](http://arctos.database.museum/showLocality.cfm)|[\[ doc \]](/documentation/places/higher-geography/) Higher Geography *exactly* as it appears in table Geog_Auth_Rec. New values must be added to the database prior to bulk-loading. |
