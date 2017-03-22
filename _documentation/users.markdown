@@ -5,7 +5,6 @@ layout: default_toc
 
 # Users
 
-
 Terminology
 
 There are three categories of “users” described here:
