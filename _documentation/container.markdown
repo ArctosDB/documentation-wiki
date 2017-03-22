@@ -553,9 +553,7 @@ description of the general qualities of the finished product.
     procedures](#field).)
 -   All other container-related tasks involve only scanning barcodes.
 
-## Creating position-holding freezer boxes
-
-### (From MLC 2016-01-19)
+## Creating position-holding freezer boxes (From MLC 2016-01-19)
 
 1.  create a freezer box in object tracking ( or use bulk container edit
     to create a bunch)
@@ -578,7 +576,7 @@ description of the general qualities of the finished product.
     browser to delete it from the old position
 
 
-### Guidelines for barcode-containing labels
+## Guidelines for barcode-containing labels
 
 1.  Barcodes should be clearly replicated in a human-readable format.
     The value read by a scanner should be readable by a human as well.
