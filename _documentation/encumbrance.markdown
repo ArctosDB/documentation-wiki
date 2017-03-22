@@ -48,6 +48,8 @@ of active Arctos
 encumbrances](http://arctos.database.museum/info/encumbrances) is
 available.
 
+## Encumbrancer
+
 The **Encumbrancer** (encumbering [agent](agent)) is the person or
 organization requiring the restriction. This agent may act in an
 advisory role; final authority to remove encumbrances rests with the
@@ -66,7 +68,7 @@ Really. Don’t.
 
 ## Expiration Date
 
- All encumbrances should be temporary, and
+ All encumbrances are temporary, and
 encumbrances must be periodically reviewed. De-accession should be
 considered for permanently-encumbered specimens.Yearly email
 notifications are provided to collection staff, and encumbrances may be
