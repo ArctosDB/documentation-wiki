@@ -46,6 +46,11 @@ catalog. Arctos currently supports three formats of catalog number.
 3.  **String**: Any unique non-`NULL` string is accepted. No predictive
     tools are available. Search is by the concatenation or
     substrings thereof.
+    
+## Cataloged Item Type
+
+	A (code table)[http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCATALOGED_ITEM_TYPE] is available to
+	explicitly label various types of cataloged material.
 
 ### Searching
 
