@@ -29,6 +29,9 @@ being unpacked prior to storage. For example, "About 300 frozen small
 mammals collected during the summer of 2004 in Denali State Park."
 
 
+## Trans Date
+
+Trans date is an ISO8601 date field describing the date the transaction took place (usually began).
 
 ## Remarks
 
