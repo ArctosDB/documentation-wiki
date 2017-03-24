@@ -58,6 +58,16 @@ Use remarks to document non-standard information pertaining to the specimen.
 Do not use remarks for any information which could be recorded with more structure elsewhere, including
 remarks better stored with a part, event, or any other "piece of the specimen."
 
+
+## Entered By
+
+Agent creating the catalog record.
+
+## Entered Date
+
+Date on which the record was created.
+
+
 ### Searching
 
 From SpecimenSearch, Catalog Number accepts arguments of several forms.
