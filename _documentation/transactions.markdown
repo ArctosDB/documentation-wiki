@@ -38,3 +38,15 @@ mammals collected during the summer of 2004 in Denali State Park."
  is a place for expanding a description of the conditions of
 acceptance, or for instructions in processing the material. For example,
 "Take 50 gram subsamples for fatty-acid analysis."
+
+## Transaction Agents
+
+Agents involved in transactions (
+[Accessions](/documentation/accession.html), 
+[Loans](/documentation/loans.html), and [Borrows](/documentation/borrows.html) ) are stored in table trans_agent.
+
+
+## Transaction Agent Role
+
+A [Code Table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTRANS_AGENT_ROLE) describes the various roles
+Agents have in Transactions.
