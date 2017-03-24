@@ -69,6 +69,23 @@ You do not need to create an account or login to search. However, there are some
 
 * This section allows you to search by specific parts. For example, if you are only interested in study skins or skeletal material, you can narrow down your search by entering a part name here. When you type something into the "Part Name" field, Arctos will search the matching parts in its authority table and you can then choose one of those parts to refine the search.
 
+## Relationships
+
+* This section allows search by relationships to other specimens.
+
+### Relationship
+
+Relationship is applied to found specimens. "Eaten by" will find kangaroo rats eaten by snakes; "ate" will find the snake which consumed the rat.
+
+### Related Identifier Type
+
+Related Identifier Type is the type of ID establishing the relationship, and is drawn from 
+[CTCOLL_OTHER_ID_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OTHER_ID_TYPE)
+
+### Term and Value
+
+Term and Value are key-value pairs drawn from the related specimen's data.
+ 
 ## Usage
 
 * Use this section if you are interested in searching by "Basis of Citation", e.g., for type specimens.
