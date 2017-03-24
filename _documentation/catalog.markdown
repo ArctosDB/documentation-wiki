@@ -68,6 +68,14 @@ Agent creating the catalog record.
 Date on which the record was created.
 
 
+## Edited By
+
+Agent last editing the catalog record.
+
+## Edited Date
+
+Date on which the record was last edited.
+
 ### Searching
 
 From SpecimenSearch, Catalog Number accepts arguments of several forms.
