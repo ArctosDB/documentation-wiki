@@ -64,3 +64,8 @@ the specimen event. Examples:
     tundra, scattered
 -   under spruce bark
 -   steep west-facing slopes
+
+## Remarks
+
+Use only for data which pertains to the relationship between the specimen and the event and which is not appropriate
+for any more-specific fields.
