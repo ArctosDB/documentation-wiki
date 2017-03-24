@@ -42,6 +42,8 @@ determination is routinely displayed.  Some caveats:
     may often be the same.
 
 
+## Locality Nickname
+
 Locality Nickname is a globally-unique human-readable "locality ID"
 commonly used to unambiguously associate one or more specimens to a
 locality.
