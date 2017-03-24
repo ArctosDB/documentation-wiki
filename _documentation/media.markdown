@@ -380,6 +380,9 @@ to relevant data, Arctos encourages links in. Many users discover Arctos
 by following links from NCBI, Google, content aggregators (such as
 iDigBio), scientific publications, and researcher’s home pages.
 
+### Keywords
+
+Media Keywords are select words and phrases pulled from related objects and Media Labels which exist to facilitate discovery.
 
 ## TACC Tools
 
