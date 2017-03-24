@@ -203,3 +203,11 @@ intended to be a subsample supplied to an investigator for destructive
 analysis. therefore it often applies to parts that are no longer in the
 collection, but if the subsamples or extracts thereof are returned,
 these can be tracked.
+
+## Part Remark
+
+
+## Remarks
+
+Use remarks to document non-standard information pertaining to the specimen part. 
+Do not use remarks for any information which could be recorded with more structure elsewhere, including Part Attributes.
