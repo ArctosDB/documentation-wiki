@@ -47,14 +47,13 @@ first letter of the title and proper names.  Punctuate the end of the
 title with a period unless it is otherwise punctuated.)
 
 
-## Descriptions
+## Description
 
- are an abstract of one to about ten sentences.  They
+Description is an abstract of one to about ten sentences.  Description
 should demonstrate the importance of the work and justify the use of
 museum specimens.  Vocabulary and grammar must be suitable for public
 display.  New projects requesting use of specimens should include such
-descriptions as part of their requests.  As in titles, font control and
-special characters are implemented in hypertext markup language. Useless
+descriptions as part of their requests.  Markdown is acceptable. Useless
 or absent descriptions will result in the project being under-exposed –
 include at least 100 meaningful characters for the project to show up in
 search results. Write something meaningful here. Really. Please.
