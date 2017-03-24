@@ -210,7 +210,8 @@ name, which may be viewed as "Cricetidae according to MVZ."
 ### Ranked Terms
 
 Each collection claims a classification, and when appropriate terms (family, order, etc.) are available they are stored in
-the search structure and made available as search fields on the SpecimenSearch form.
+the search structure and made available as search fields on the SpecimenSearch form. Therefore, searching *e.g.*, Family is
+searching "Family, as asserted by each collection's preferred taxonomy source." 
 
 ## Details and more examples
 
