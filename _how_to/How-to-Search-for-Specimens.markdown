@@ -39,6 +39,10 @@ You do not need to create an account or login to search. However, there are some
 
 * “Accession” is another numerical field that you can use to search for a group of specimens. Accessions are typically associated with a specific collection.
 
+### Any ID
+
+* The AnyID search covers other IDs, catalog numbers, barcodes, and GUIDs. Expect slow performance and false positives.
+
 ## Identification and Taxonomy
 
 * The first field in this section is "Identification" which allows you to search by anything in the scientific name (genus, species, subspecies).

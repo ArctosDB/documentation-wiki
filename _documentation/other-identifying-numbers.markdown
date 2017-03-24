@@ -313,4 +313,4 @@ Examples:
   |1-abc-2      |1-abc-2      |`NULL`     |`NULL`      |1-abc-2   | Number is not numeric|
   |v-00001      |v-00001      |`NULL`     |`NULL`      |v-00001   |Above rules would lead to dropped leading zeroes in Number|
 
-See also [Searching Arctos](catalog/#srch2)
+See also [Searching Arctos](/how_to/How-to-Search-for-Specimens.html)
