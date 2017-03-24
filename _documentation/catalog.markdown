@@ -49,8 +49,7 @@ catalog. Arctos currently supports three formats of catalog number.
     
 ## Cataloged Item Type
 
-	A (code table)[http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCATALOGED_ITEM_TYPE] is available to
-	explicitly label various types of cataloged material.
+A [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCATALOGED_ITEM_TYPE) is available to explicitly label various types of cataloged material.
 
 ### Searching
 
