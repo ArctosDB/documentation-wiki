@@ -369,7 +369,7 @@ AM](../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png)
 sizes="(max-width: 640px) 100vw, 640px"
 srcset="../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png 720w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-300x183.png 300w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-250x152.png 250w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-550x335.png 550w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-295x180.png 295w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-492x300.png 492w"}](../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png)
 
-## Coordinates Specime Search terms
+## Coordinates as Specimen Search terms
 
 ### coordinates
 
