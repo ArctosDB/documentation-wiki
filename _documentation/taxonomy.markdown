@@ -207,6 +207,11 @@ return specimens identified as *Euryoryzomys nitidus*; only
 Family=Cricetidae will locate specimens identified using that taxon
 name, which may be viewed as "Cricetidae according to MVZ."
 
+### Ranked Terms
+
+Each collection claims a classification, and when appropriate terms (family, order, etc.) are available they are stored in
+the search structure and made available as search fields on the SpecimenSearch form.
+
 ## Details and more examples
 
 Each collection "claims" one taxon term source, and data from that
