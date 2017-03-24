@@ -51,6 +51,13 @@ catalog. Arctos currently supports three formats of catalog number.
 
 A [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCATALOGED_ITEM_TYPE) is available to explicitly label various types of cataloged material.
 
+
+## Remarks
+
+Use remarks to document non-standard information pertaining to the specimen. 
+Do not use remarks for any information which could be recorded with more structure elsewhere, including
+remarks better stored with a part, event, or any other "piece of the specimen."
+
 ### Searching
 
 From SpecimenSearch, Catalog Number accepts arguments of several forms.
