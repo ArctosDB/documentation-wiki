@@ -29,3 +29,12 @@ Project title or publication title/citation.
 
 4-digit year in which a publication was published, or any year in which a project was active.
 
+## Project Type
+
+Project Type allows filtering projects by their activity.
+
+## Citations
+
+Filter for publications which contain direct citations to specimens or those which do not contain citations and are linked to specimens
+only through Projects.
+
