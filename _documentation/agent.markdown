@@ -157,7 +157,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name
 
 Remarks is a good place to include a one sentence description of the
 agent.  Anything that might helpful to other users in understanding who
-or what the agent is should be included.
+or what the agent is should be included. Never use remarks for data which can be linked or formalized elsewhere.
 
 `Agent . Agent_Remark VARCHAR2(255) null`
 
