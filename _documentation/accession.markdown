@@ -35,7 +35,7 @@ Status indicates whether or not the accession is cataloged or not.  `Complete` i
 
 ### Received From
 
-"Received From" is the name of the agent (person, organization) who or which provided the described material to the museum.  Whenever possible, this should be the name of a person, _i.e.,_ the person within an agency rather than the name of the agency.
+See [Transaction Documentation](/documentation/transactions.html#transaction-agents) for agent information.
 
 ### Received Date  
 
