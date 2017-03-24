@@ -107,7 +107,11 @@ mapped (although locality coordinates are automatically generated from
 them via the bulkloader) and generally should not be changed (except,
 eg, transcription errors).
 
-## Specimen Search
+## Remarks
+
+Use remarks to document non-standard information pertaining to the fields in collecting event. Do not use remarks for any information which could be recorded with more structure elsewhere.
+
+# Specimen Search
 
 "Collected On or After" and "Collected on or before" offer two distinct search
 possibilities:
