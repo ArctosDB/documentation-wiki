@@ -76,6 +76,12 @@ Agent last editing the catalog record.
 
 Date on which the record was last edited.
 
+
+## Flags
+
+Flags mark a specimen as missing information during the entry process. It is sometimes more convenient to bulkload data after the
+specimen record exists than to enter data with the specimen; flags serves as a marker to facilite easily locating those specimens.
+
 ### Searching
 
 From SpecimenSearch, Catalog Number accepts arguments of several forms.
