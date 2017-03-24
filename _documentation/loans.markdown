@@ -62,19 +62,7 @@ completed. The values comes from a [code-table controlled vocabulary](http://arc
 
 ## Loan Agents
 
-`Loans . Loan_Agent_Role VARCHAR not null`
-
-
- Agents (generally people) are associated with loans in
-various capacities, and these vary among collections. At a minimum, a
-loan is authorized by at least one person and received by another
-person. Some collections require multiple authorizations, and at the
-recipient’s end, the person accepting responsibility for the material
-may not be the person physically receiving or using the material.
-
-Loan Agent Role is a [code-table controlled
-vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTRANS_AGENT_ROLE).
-
+See [Transaction Documentation](/documentation/transactions.html#transaction-agents) for agent information.
 
 ## Nature of Material
 
