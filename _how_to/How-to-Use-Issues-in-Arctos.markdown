@@ -16,7 +16,7 @@ date: 2016-06-06
 * Issues that do not require a discussion (bug fixes or broken forms/functions) will be resolved by Arctos programmers. 
 
 
-* An Issue requiring discussion will be considered by the Arctos Workinig Group, the Issue author, and other interested users - Issues and discussions are open to all. The discussion of an Issue is best tracked as comments of the Issue. Each Issue that is created is number is considered active until Closed. You can reply to comment via email if you "Watch" a repository in Github. Read more about using [GitHub Issues](https://guides.github.com/features/issues/).
+* An Issue requiring discussion will be considered by the Arctos Working Group, the Issue author, and other interested users - Issues and discussions are open to all. The discussion of an Issue is best tracked as comments of the Issue. Each Issue that is created is number and considered active until Closed. You can reply to comment via email if you "Watch" a repository in Github. Read more about using [GitHub Issues](https://guides.github.com/features/issues/).
 
 ## How to File an Issue
 
@@ -59,23 +59,23 @@ date: 2016-06-06
 
 ### Guidance on Assigning [Labels](https://github.com/ArctosDB/arctos/labels)
 
-* Priority Labels
+Priority Labels
 
  * _Priority-Critical_: Issue is causing major problems; corrupting data, crashing servers, etc.
 
  * _Priority-High_: Issue is actively preventing progress.
 
- * _Priority-Normal_: Standard Issue
+ * _Priority-Normal_: Standard Issue.
 
- * _Priority-Low_: Needs fixed/implemented/discussed, eventually.
+ * _Priority-Low_: Needs to be fixed/implemented/discussed, eventually.
 
-* Classification Labels
+Classification Labels
 
  * _Type-Form/Function_: Front-end Issue that has to do with either an interface form or specific functionality of Arctos. These types of Issues may include: Bug - defective code (e.g., the "save" button does not save); Enhancement - a request for additional or improved functionality (e.g., an idea for improving efficiency); Performance - a request for tuning (e.g., a query times out).
 
  * _Type-Data/Database_: Back-end Issue that refers either to specific data (e.g., data migration issue, code table spelling error) or the database itself (e.g., data table structure, security, etc.).
 
-* Functional Labels
+Functional Labels
 
  * There are different kinds of "Function-Thing" labels to help categorize Issues. For example, an Issue on how Arctos functions with regard to places or events (including georeferencing) should be assigned a "Function-Locality/Event/Georeferencing" Label.
 
@@ -87,7 +87,7 @@ date: 2016-06-06
     * [High](https://github.com/ArctosDB/arctos/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+milestone%3A%22Next+Task%22++label%3APriority-High)
     * [Normal](https://github.com/ArctosDB/arctos/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+milestone%3A%22Next+Task%22+label%3APriority-Normal)
     * [Low](https://github.com/ArctosDB/arctos/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+milestone%3A%22Next+Task%22+label%3APriority-Low)
-* ["Needs Discussion" Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Needs+Discussion%22) are those which sufficient information to proceed is not available. Please add a comment to the label as a means of discussion.
+* ["Needs Discussion" Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Needs+Discussion%22) are those for which sufficient information to proceed is not available. Please add a comment to the label as a means of discussion.
 * [WishList Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Wish+List%22) are those which, at the time of last evaluation, we don't have resources to develop.
-* [uncategorized Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone) require a Milestone.
+* [Uncategorized Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone) require a Milestone.
  
