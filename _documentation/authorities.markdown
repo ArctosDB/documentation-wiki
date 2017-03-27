@@ -11,8 +11,8 @@ layout: default_toc
 
 All [Code
 Tables](http://arctos.database.museum/info/ctDocumentation.cfm) and code
-table data are the domain of the Advisory Committee. Any proposed new
-values must be submitted to the Advisory Committee for consideration.
+table data are the domain of the Arctos Working Group. Any proposed new
+values must be submitted to the Arctos Working Group for consideration.
 
 Values should:
 
@@ -34,7 +34,7 @@ Values should:
 
 Consistent data provide more-usable pick lists, better provide users
 with what they need, and allow more flexibility in communicating with
-other data.  However, these goals may not be entirely possible due to
+other data. However, these goals may not be entirely possible due to
 curatorial reasons. In any conflict between ‘good data’ (*e.g.*,
 consistent values) and curatorial need, curatorial need should win. (It
 is often possible to revisit the data after some time in use and make
@@ -47,16 +47,16 @@ administrators.
 
 
 
-Taxonomy is included here only for completeness. See [Taxonomy Documentation](/documentation/identification/taxonomy/) for more information.
+Taxonomy is included here only for completeness. See [Taxonomy Documentation](/documentation/taxonomy.html) for more information.
 
 ## Geography
 
 
 
-Geography is included here only for completeness. See [Geography Documentation](/documentation/places/higher-geography/) for more information.
+Geography is included here only for completeness. See [Geography Documentation](/documentation/higher-geography.html) for more information.
 
 ## Agents
 
 
 
-Agents are included here only for completeness. See [Agent Documentation](/documentation/agent/) for more information.
+Agents are included here only for completeness. See [Agent Documentation](/documentation/agent.html) for more information.
