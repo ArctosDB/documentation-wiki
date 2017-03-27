@@ -101,7 +101,7 @@ As an important note, **if you do not include front matter on your page, the pag
 
 ## General notes
 
-## Relative links
+### Relative links
 
 When creating relative links, use good Jekyll practices: write them like
 
