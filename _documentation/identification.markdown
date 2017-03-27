@@ -8,8 +8,8 @@ layout: default_toc
 
 
 Determinations, or "identifications" (IDs), apply taxonomic terms to
-specimens.  In other words, determinations are not necessarily just
-taxonomic terms.  Information about taxonomic names (which are used to
+specimens. In other words, determinations are not necessarily just
+taxonomic terms. Information about taxonomic names (which are used to
 compose determinations) is in [Taxonomy](/documentation/taxonomy).
 
 A taxonomic determination is comprised of:
@@ -19,7 +19,7 @@ A taxonomic determination is comprised of:
 -   the date of the determination
 -   and the nature, or basis of the determination
 
-Arctos maintains a history of determinations for each specimen. 
+Arctos maintains a history of determinations for each specimen.
 Specimens are therefore reidentified by adding a new determination and
 retaining prior determination(s) as "unaccepted." This means that there
 can be only one accepted determination, but not necessarily that prior
@@ -36,9 +36,9 @@ table serving as a taxonomic look-up (or authority). Here, it is a
 character string applied to a specimen by a [determiner](#determiner), though
 it uses terms from the look-up table to create such strings.
 Nevertheless, in the simplest and commonest case ([Determination
-Formula](#id_formula)= "A"), they are identical. (Some forms display a
+Formula](#determination-formula)= "A"), they are identical. (Some forms display a
 third related term called [Display Name](/documentation/taxonomy#editing), which
-is merely a specific formatting of the data in Taxonomy.)  The
+is merely a specific formatting of the data in Taxonomy.) The
 explanation of Determination Formula (immediately below) is
 illustrative.
 
@@ -68,7 +68,7 @@ More formulae are documented in the [vocabulary-control
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula).
 Bulkloader taxa guidelines are [here](/documentation/bulkloader#taxonomy).
 
-You can pick a formula from the editing screen for determinations.  You
+You can pick a formula from the editing screen for determinations. You
 do not need to designate a formula for data entry if you intend a simple
 one-taxon determination (formula "A"), and the bulkloader will recognize
 and appropriately parse constructions such as "Canis sp."
@@ -156,8 +156,8 @@ provided by Some Author").
 `Identification . Remarks VARCHAR2 255`
 
 can elaborate or clarify any signficant aspect of a
-determination.  This is a good place for recording the verbatim form of
-a [Determined Date](#determined-date) if it was not recorded as an exact day.
+determination. This is a good place for recording the verbatim form of
+a [Determined Date](#remarks) if it was not recorded as an exact day.
 
 
 
