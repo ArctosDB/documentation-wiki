@@ -5,28 +5,23 @@ layout: default_toc
 
 # Specimen Parts
 
-
-
-Parts are physical entities, in contrast to[Cataloged
-Items](/documentation/catalog/) (an abstract entity) or binary objects
-(such as Images).  One or many parts may comprise a Cataloged Item, and
+Parts are physical entities, in contrast to [Cataloged
+Items](/documentation/catalog) (an abstract entity) or binary objects
+(such as Images). One or many parts may comprise a Cataloged Item, and
 parts may be defined as the minimal units for which [storage
-location](/documentation/container/), usage, and condition are
+location](/documentation/container), usage, and condition are
 tracked. (*"Parts are things to which you can stick barcodes."*) In many
 collections, parts are nearly always "whole organisms" but in others,
 such as vertebrate paleontology, the variety of parts is huge.
 
-Embryos and parasites may be treated parts of the host organism. 
+Embryos and parasites may be treated parts of the host organism.
 Ideally, embryos should be treated as separate cataloged items because
 they may have, or they may acquire, attributes distinct from those of
-their mothers.  Nevertheless it is often practical to consider them as
+their mothers. Nevertheless it is often practical to consider them as
 parts of the mother until such time as they do acquire separate
-attributes.  Similarly, parasites have been recorded as parts of their
+attributes. Similarly, parasites have been recorded as parts of their
 hosts until such time as they might be worked into a separate parasite
 collection.
-
-
-
 
 ## Part Names
 
@@ -34,30 +29,25 @@ collection.
 
 [`ctspecimen_part_name`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
 
-
  What we choose to name as a part depends on what we
-define as a part,  and while this is often obvious (*e.g.,* "whole
+define as a part, and while this is often obvious (*e.g.,* "whole
 organism"), organisms become separated into parts in ways both
-standardized and not.  Thus, it is difficult to standardize vocabulary
+standardized and not. Thus, it is difficult to standardize vocabulary
 for every fragment worthy of preservation.
 
-Vocabulary is controlled by a[code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name). 
+Vocabulary is controlled by a [code
+table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name).
 Part names should refer to specific anatomical parts or recognized
-groups of parts (*e.g.*, "postcranial skeleton").  With rare exception,
-parts are the singular form of a noun.  In some cases, where the parts
+groups of parts (*e.g.*, "postcranial skeleton"). With rare exception,
+parts are the singular form of a noun. In some cases, where the parts
 may be a batch of indefinite size, the plural is included
 parenthetically (*e.g.,* "endoparasite(s)").
 
 Parts, when separable, should be entered on individual lines of the
-parts grid as individual
-
-collection objects. Distinct parts should be entered on separate lines,
-*e.g*., ***skull*** and ***postcranial skeleton***.  A ***postcranial
-skeleton*** is considered a single part. Parts
-
-already contained in the ***postcranial skeleton*** may be entered on
-separate lines for clarity.  An acceptable entry might be:
+parts grid as individual collection objects. Distinct parts should be entered on separate lines,
+*e.g*., ***skull*** and ***postcranial skeleton***. A ***postcranial
+skeleton*** is considered a single part. Parts already contained in the ***postcranial skeleton*** may be entered on
+separate lines for clarity. An acceptable entry might be:
 
 > skull
 
@@ -65,13 +55,7 @@ separate lines for clarity.  An acceptable entry might be:
 
 > right humerus [part condition: broken]
 
-Such an entry would designate a postcranial skeleton that has a broken
-
-right humerus. Situations like this are typically discovered during
-
-loans, are almost always unique, and should be dealt with on a case by
-
-case basis.
+Such an entry would designate a postcranial skeleton that has a broken right humerus. Situations like this are typically discovered during loans, are almost always unique, and should be dealt with on a case by case basis.
 
 Part name contains information once split out into part modifier, and
 also preservation and storage information. Preservation and storage
@@ -94,21 +78,14 @@ thereof, preserved by freezing. Such samples commonly supply DNA for
 sequence analysis, and many researchers want to search for specimens
 from which they can readily obtain subsamples.
 
-
-
-
-
 ## Disposition
 
 `Coll_Object.Disposition VARCHAR(20) not null`
 
 [`ctcoll_obj_disp`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
 
-
  describes the status of parts and, as an abstract
-generality,
-
-the status of cataloged items.  Typical values are:
+generality, the status of cataloged items. Typical values are:
 
 -   in collection
 -   being processed
@@ -116,15 +93,11 @@ the status of cataloged items.  Typical values are:
 -   missing
 -   destroyed
 
-
-
-
 ## Condition
 
 `Coll_Object.Condition VARCHAR(255) not null`
 
-
- is used for entries such as "broken" or "dissected".
+ is used for entries such as "broken" or "dissected." The following condition ratings apply specifically to parts with the "is_tissue" flag:
 
 -   5 – The best tissues. These have gone from a freshly killed animal
     directly into liquid nitrogen. The animal should not have been dead
@@ -140,37 +113,32 @@ the status of cataloged items.  Typical values are:
 -   1 – These tissues are flaccid and thoroughly autolyzed. They
     probably stink.
 
-
 ## Lot Count
 
 `Coll_Object.Lot_Count NUMBER not null`
 
-
-
 A **Lot Count** is an integer that enumberates how many similar items
-comprise a part.  The value is frequently one (1), but collections of
+comprise a part. The value is frequently one (1), but collections of
 fish and invertebrates usually assign a single catalog number to all of
-the individual organisms of one species from one collecting event. 
+the individual organisms of one species from one collecting event.
 Thus, 86 minnows of one species from one place, collected at the same
 time, and stored together in one jar of alcohol would be a cataloged
-item with one part,and that part would have a lot count of 86 whole
+item with one part, and that part would have a lot count of 86 whole
 animals.
 
+Lot counts are not static; lots may be split into smaller lots by
+creating a separate part. If one of those 86 minnows was prepared for
+skeletal study by clearing and staining, it would be necessary to create
+a second "part" within the catalogued item, *e.g.:*
 
 | Catalog \#         | Part Name          | Pres Method        | Lot Cnt            |
 |--------------------|--------------------|--------------------|--------------------|
 | 123456             | whole animal       | alcohol            | 85                 |
 | 123456             | skeleton           | cleared and stained| 1                  |
 
-
-Lot counts are not static; lots may be split into smaller lots by
-creating a separate part.  If one of those 86 minnows was prepared for
-skeletal study by clearing and staining, it would be necessary to create
-a second "part" within the catalogued item.
-
-A cryotube of embryos or a box of ribs should have a lot count.  In
+A cryotube of embryos or a box of ribs should have a lot count. In
 contrast, three tubes of muscle from an individual will be tracked
-separately;  these should be entered as three collection objects, each
+separately; these should be entered as three collection objects, each
 with a lot count of one.
 
 There must be a value of at least one (1) for each part, and the maximum
@@ -180,7 +148,6 @@ of 400, at least until such time as someone counts the minnows.
 
 Examples of lot count usage:
 
-
 | Material                             | Entry                                |
 |--------------------------------------|--------------------------------------|
 | Two embryos stored in the same crytube      | embryo (lot count = 2)               |
@@ -189,23 +156,15 @@ Examples of lot count usage:
 | Ten vertebrae in a box               | vertebra (lot count = 10)            |
 | A jar of five salamanders of the same species from the same collecting event.                    | whole animal (lot count = 5)     |
 
-
-
-
 ## Sampled From
-
 
 `Specimen_Part.Sampled_From_Obj_Id NUMBER null`
 
-
  designates a part derived from another part. This is
 intended to be a subsample supplied to an investigator for destructive
-analysis. therefore it often applies to parts that are no longer in the
+analysis. Therefore it often applies to parts that are no longer in the
 collection, but if the subsamples or extracts thereof are returned,
 these can be tracked.
-
-## Part Remark
-
 
 ## Remarks
 
