@@ -33,7 +33,7 @@ Arctos.
     8601 date, which indicates the 5th month of the year 2004. This date
     will never represent the 5th day of some unknown month in 2004.
 
-## Supported components:
+## Supported components
 
 -   4-digit positive year. <span class="example">Example:
     1987</span><span class="next">(optionally followed by
