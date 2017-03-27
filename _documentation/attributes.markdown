@@ -8,7 +8,7 @@ layout: default_toc
 
 Attributes are descriptive (usually biological) characteristics of
 cataloged items (which are often biological individuals) such as
-measurements, weight, age, and sex.  Like other determinations
+measurements, weight, age, and sex. Like other determinations
 (opinions) in Arctos, Attributes have a determiner, a determination
 date, and a determination method. Because they are treated as
 determinations, a record may have any number of similar and even
@@ -16,12 +16,11 @@ contradictory Attributes.
 
 Attributes, many of which use controlled vocabularies with many values
 and many individual definitions, are largely documented within tables
-within Arctos, as opposed to being documented here.  The appropriate
+within Arctos, as opposed to being documented here. The appropriate
 units for numeric Attributes, and the appropriate vocabulary for
 Attributes with controlled vocabularies are set by a master "[code table
 of code
-tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)." 
-This can be a useful node for exploring these values outside of the
+tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)." This can be a useful node for exploring these values outside of the
 forms in which the vocabularies are used.
 
 
@@ -29,7 +28,7 @@ forms in which the vocabularies are used.
 
 is the proper name of an Attribute. These should be
 unambiguous and match their usage in scientific literature as closely as
-possible.  These names of Attributes are listed, defined, and linked to
+possible. The names of Attributes are listed, defined, and linked to
 particular types of collections, in an another [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type).
 
@@ -47,13 +46,13 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_
 [`ctAttribute_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
 
 
-## Attribute Value:
+## Attribute Value
 
 Attributes have a Value, and those values are of three types:
 
 -   **numeric** (with [Units](#units)) – These are measurements and
     meristic values that are subject to numeric operators, such as
-    "greater than" (&gt;) and "less than" (&lt;).  Only numbers
+    "greater than" (&gt;) and "less than" (&lt;). Only numbers
     (integers and/or decimal fractions) can be entered.
     ([Convert](#conversion) "1 1/2 inches" to "1.5 inches.")
 -   **controlled vocabulary** – These are Attributes for which there are
@@ -78,28 +77,27 @@ Some examples:
   |Colors         |"reddish feet" (uncontrolled text)   |`null`|
 
 The appropriate units for particular numeric Attributes, and the
-appropriate vocabulary for controlled vocabulary are set by a by a
-"[code table of code
+appropriate vocabulary for controlled vocabulary are set by a "[code table of code
 tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)."
 
 
 ## Conversion of fractional values
 
 Numeric values are sometimes
-reported in the numerator/denominator format.  For example, total length
-= 7 3/16 inches.  Such values must be converted to decimal fractions in
-order to be represented as a numeric data type.  In making such
+reported in the numerator/denominator format. For example, total length
+= 7 3/16 inches. Such values must be converted to decimal fractions in
+order to be represented as a numeric data type. In making such
 conversions, avoid adding unwarranted precision to the value of an
-observation.  For example, simply converting 7 3/16 to 7.1875, a value
+observation. For example, simply converting 7 3/16 to 7.1875, a value
 indicating observation to within a few ten-thousandths of an inch
-implies an improbable degree of precision.  Because the measurement was
+implies an improbable degree of precision. Because the measurement was
 probably made with a ruler (and not a micrometer) graduated, at best, in
 32ths of an inch, the last digits of the value are a spurious artifact
 of the calculation and should be rounded off to reflect actual
-precision.   Both the 16ths and 32ths on our assumed ruler are smaller
+precision. Both the 16ths and 32ths on our assumed ruler are smaller
 (more precise) than tenths, but larger (less precise) than 100ths, so
-there can be no precision beyond the 100ths place.  Therefore we should
-round off to 7.19 inches.  Whenever the value of an attribute is
+there can be no precision beyond the 100ths place. Therefore we should
+round off to 7.19 inches. Whenever the value of an attribute is
 converted (or in any way modified or assumed), the verbatim value should
 be given in the [Attribute Remark](#remark).
 
@@ -110,7 +108,7 @@ be given in the [Attribute Remark](#remark).
 Numeric Attributes have values expressed in units
 such as grams, millimeters, and years. Different Attributes are
 described in different units, so there are code tables for units of
-weight, length, and time.  Numeric Attributes are assigned one of these
+weight, length, and time. Numeric Attributes are assigned one of these
 code tables in the "[code table of code
 tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)."
 
@@ -179,7 +177,7 @@ You may search for only [Attribute Name](#name) (leave Value and Units
 blank) to return specimens that match your other criteria and possess
 data for the specified Attribute. Exercising this option unwisely (For
 example, searching for all specimens with Attribute ‘sex’ and no other
-qualifiers.) can time-out your request.
+qualifiers) can time-out your request.
 
 You can search for Attributes by only value or by only units. For
 example:
@@ -218,13 +216,13 @@ will return specimens for which the attribute "age class" exists.
 
 String attributes – those consisting of uncontrolled text and those
 consisting of code-table controlled vocabularies – will accept two
-prefixes: = and !, meaning "is exactly" and "is not." Unprefixed
+prefixes: = (meaning "is exactly") and ! (meaning "is not"). Unprefixed
 attributes are case-insensitive substring matches, and so "male" will
 match "male" and "fe**male**."
 
 Numeric attributes – those with code-table controlled units – will
 accept prefixes = (exactly), ! (is not), &lt; (less than), &gt; (greater
-than), and appropriate units as suffix.  Arctos will guess at unit
+than), and appropriate units as suffix. Arctos will guess at unit
 suffix, so an exact code-table match is not usually necessary. Units of
 both data and criteria are converted (to meters, days, and grams), and
 so exact matches may be difficult to obtain. Therefore, numeric
@@ -243,7 +241,7 @@ The following examples are illustrative.
   |numeric_ag=3 years      |{value converted to} 1095.726 days|
   |numeric_age=3-5 years   |{value converted to days} BETWEEN 1095.726 and 1826.21 days|
 
-Arctos can convert the  following units to meters:
+Arctos can convert the following units to meters:
 
 -   in
 -   M
@@ -271,7 +269,7 @@ Arctos can convert the  following units to meters:
 -   FATHOM
 -   FATHOMS
 
-Arctos can convert the  following units to grams:
+Arctos can convert the following units to grams:
 
 -   G
 -   GRAMS
@@ -286,7 +284,7 @@ Arctos can convert the  following units to grams:
 -   OUNCE
 -   OUNCES
 
-Arctos can convert the  following units to days:
+Arctos can convert the following units to days:
 
 -   D
 -   DAY
