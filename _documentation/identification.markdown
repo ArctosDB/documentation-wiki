@@ -10,7 +10,7 @@ layout: default_toc
 Determinations, or "identifications" (IDs), apply taxonomic terms to
 specimens.  In other words, determinations are not necessarily just
 taxonomic terms.  Information about taxonomic names (which are used to
-compose determinations) is in [Taxonomy](taxonomy).
+compose determinations) is in [Taxonomy](/documentation/taxonomy).
 
 A taxonomic determination is comprised of:
 
@@ -31,19 +31,19 @@ alternative methods enhance the value of the specimen.
 
  There is a distinction between Scientific Name here
 in determinations, as opposed to [Scientific Name as it is used in the
-taxonomy table](taxonomy/#scientific_name). The latter is a term from a
+taxonomy table](/documentation/taxonomy#taxon-name). The latter is a term from a
 table serving as a taxonomic look-up (or authority). Here, it is a
-character string applied to a specimen by a [determiner](#id_by), though
+character string applied to a specimen by a [determiner](#determiner), though
 it uses terms from the look-up table to create such strings.
 Nevertheless, in the simplest and commonest case ([Determination
 Formula](#id_formula)= "A"), they are identical. (Some forms display a
-third related term called [Display Name](taxonomy/#display_name), which
+third related term called [Display Name](/documentation/taxonomy#editing), which
 is merely a specific formatting of the data in Taxonomy.)  The
 explanation of Determination Formula (immediately below) is
 illustrative.
 
 
-## Determination Formula:
+## Determination Formula
 
 `Identification . TAXA_FORMULA VARCHAR2 (25) not null`
 
@@ -66,7 +66,7 @@ according to a formula. For example:
 
 More formulae are documented in the [vocabulary-control
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula).
-Bulkloader taxa guidelines are [here](/how-to/create/bulkloader/#taxa).
+Bulkloader taxa guidelines are [here](/documentation/bulkloader#taxonomy).
 
 You can pick a formula from the editing screen for determinations.  You
 do not need to designate a formula for data entry if you intend a simple
@@ -116,7 +116,7 @@ the determiners in the desired order, then delete the old record.
 `Identification . Made_Date DATE null`
 
 
- [ISO8601](/documentation/dates/) date-type. The
+ [ISO8601](/documentation/dates) date-type. The
 chronological order of determinations may be the most critical issue.
 
 
@@ -132,7 +132,7 @@ chronological order of determinations may be the most critical issue.
 in, and controlled by, a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id).
 
-> This concept is undergoing modification. Please see [Issue 515](http://code.google.com/p/arctos/issues/detail?id=515) for additional guidance.
+> This concept is undergoing modification. Please see [Issue 515](https://github.com/ArctosDB/arctos/issues/515) for additional guidance.
 
 
 
@@ -143,7 +143,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_
 
 Signifies that a determination is made in the sense of (*sensu*) a
 particular
-[publication](http://arctosdb.wordpress.com/documentation/publications/ "Publications").
+[publication](/documentation/publications).
 This may be used both in the taxonomic sense ("this specimen fits in
 with Some Author’s concept of *Aus bus*") and as supporting
 documentation ("We’ve determined this to be *Aus bus* using the methods
@@ -157,7 +157,7 @@ provided by Some Author").
 
 can elaborate or clarify any signficant aspect of a
 determination.  This is a good place for recording the verbatim form of
-a [Determined Date](#id_date) if it was not recorded as an exact day.
+a [Determined Date](#determined-date) if it was not recorded as an exact day.
 
 
 
