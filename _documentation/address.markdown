@@ -7,7 +7,7 @@ date: 2016-12-07
 
 # Addresses
 
-Addresses are ways to locate or contact [Agents](agent.html). There are both physical addresses and electronic addresses, and various types of each of these. Electronic addresses include phone numbers, e-mail addresses, and web pages. As well as being informational, addresses are used in extensively in transactions such as [loans](loan.html), [permits](permit.html), and [accessions](accession.html). Any one Agent may have any number of addresses of any type.
+Addresses are ways to locate or contact [Agents](agent.html). There are both physical addresses and electronic addresses, and various types of each of these. Electronic addresses include phone numbers, e-mail addresses, and web pages. As well as being informational, addresses are used extensively in transactions such as [loans](loans), [permits](permits), and [accessions](accession.html). Any one Agent may have any number of addresses of any type.
 
 ## Maintenance
 
@@ -50,10 +50,10 @@ include:
 -   Not valid for Federal Express deliveries.
 -   Jones uses home address in June and July.
 
-`addr . valid_addr_fg NUMBER not null`
 
 ### Valid Flag
 
+`addr . valid_addr_fg NUMBER not null`
 
 A flag indicating whether or not the address is still valid.
 Invalid (old, or corrected) addresses are maintained against the
