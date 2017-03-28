@@ -13,7 +13,7 @@ administrator of a catalog.
 In a catalog of mammals or birds, a cataloged item usually coincides
 with a biological individual. A large mammal will be given one catalog
 number even though it may be composed of many [specimen
-parts](/documentation/parts/), *e.g.*, a skin, a skull, frozen tissue
+parts](/documentation/parts), *e.g.*, a skin, a skull, frozen tissue
 samples, fluid-preserved soft parts. In a catalog of fish or parasites,
 a cataloged item often is numerous individuals of one species from the
 same collecting event. There are also situations where parts of the same
@@ -23,16 +23,15 @@ material, or separate parts of the same individual may have been
 cataloged at more than one institution. The term "specimen" is uses
 synonymously with "cataloged item" throughout Arctos.
 
-
 ## Catalog Number
 
-`Cataloged_Item . Cat_Num NUMBER not null`
+`Cataloged_Item.Cat_Num NUMBER not null`
 
  is the string (sometimes integer) assigned to a
 Cataloged Item. It must be unique (case-insensitive) within a particular
 catalog. Arctos currently supports three formats of catalog number.
 
-1.  **Integer**: Catalog number must be positive integers. Arctos
+1.  **Integer**: Catalog numbers must be positive integers. Arctos
     provides tools to predict the next number (e.g., data entry can
     leave catalog number blank), find gaps in sequences, search by
     ranges, and provide GUIDs of the "expected" format. Only this format
@@ -51,13 +50,11 @@ catalog. Arctos currently supports three formats of catalog number.
 
 A [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCATALOGED_ITEM_TYPE) is available to explicitly label various types of cataloged material.
 
-
 ## Remarks
 
 Use remarks to document non-standard information pertaining to the specimen. 
 Do not use remarks for any information which could be recorded with more structure elsewhere, including
 remarks better stored with a part, event, or any other "piece of the specimen."
-
 
 ## Entered By
 
@@ -67,7 +64,6 @@ Agent creating the catalog record.
 
 Date on which the record was created.
 
-
 ## Edited By
 
 Agent last editing the catalog record.
@@ -75,7 +71,6 @@ Agent last editing the catalog record.
 ## Edited Date
 
 Date on which the record was last edited.
-
 
 ## Flags
 
@@ -86,7 +81,64 @@ specimen record exists than to enter data with the specimen; flags serves as a m
 
 Free-text description of species associated with the specimen.
 
-### Searching
+## Guid Prefix
+
+Catalogs are most usefully defined by way of `Collection.Guid_Prefix`,
+which in conjunction with catalog number forms a unique identifier
+within Arctos, and in conjunction with Arctos’ URI forms a Globally
+Unique Identifier (GUID) for the specimen record. GUIDs, once formed,
+must never be allowed to change or expire. See [deleting
+specimens](#deleting-records-from-arctos) for guidelines. All specimen citations should occur
+by way of GUID.
+
+## Collection
+
+`Collection.Collection VARCHAR2(15) not null`
+
+A short name for a particular collection type. For
+example:
+
+-   Mammal Specimens
+
+## Collection Code
+
+`Collection.Collection_Cde VARCHAR2(4) not null`
+
+This is an abbreviation for a collection type, such
+as "Mamm" or "Bird." ([code
+table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde))
+This field is most importantly used in code tables, which determine the
+values provided to drop-downs in specimen-editing applications. Thus, if
+you are editing the record for a mammal specimen, you have the option of
+using an attribute such as ear length, and you do not have to see
+irrelevant attributes such as beak length.
+
+## Description
+
+`Collection.Desc VARCHAR2(255) not null`
+
+An extended name/description of the collection. For example:
+
+-   University of Alaska Museum, Mammal Collection
+-   Parasite Collection at the Museum of Southwestern Biology,
+    Albuquerque, NM
+-   Kenelm W. Philip lepidoptera collection
+
+## Institution Acronym
+
+`Collection.Institution_Acronym VARCHAR2(20) not null`
+
+ Abbreviation of the institution that hosts the
+catalog. For example, "MVZ" for Museum of Vertebrate Zoology, "UAM" for
+University of Alaska Museum (of the North), "MSB" for Museum of
+Southwestern Biology. Generally, these values are the same as those
+traditionally used for specimen citations within discipline-specific
+publications. There is now a demand for globally unique specimen
+identifiers on the Internet, and at least [one
+registry](http://grbio.org) for such abbreviations has been
+established.
+
+## Searching
 
 From SpecimenSearch, Catalog Number accepts arguments of several forms.
 The following table is illustrative.
@@ -104,71 +156,6 @@ The following table is illustrative.
   |%12       |  12, 112, AABC-5-a12, ….                        |  "%" is "match anything." This matches anything ENDING WITH 12.|
   |\_12      |  012, a12, 912, ….                              |  "\_" is "match any single character."|
   |1_2       | 102, 112, 1A2, ….                               | "\_" is "match any single character."|
-
-
-## Guid Prefix
-
-Catalogs are most usefully defined by way of `Collection.Guid_Prefix`,
-which in conjunction with catalog number forms a unique identifier
-within Arctos, and in conjunction with Arctos’ URI forms a Globally
-Unique Identifier (GUID) for the specimen record. GUIDs, once formed,
-must never be allowed to change or expire. See [deleting
-specimens](#delete) for guidelines. All specimen citations should occur
-by way of GUID.
-
-
-
-## Collection
-
-`Collection . Collection VARCHAR2(15) not null`
-
-  A short name for a particular collection type. For
-example:
-
--   Mammal Specimens
-
-
-
-## Collection Code
-
-`Collection . Collection_Cde VARCHAR2(4) not null`
-
-This is an abbreviation for a collection type, such
-as "Mamm" or "Bird." ([code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde))
-This field is most importantly used in code tables, which determine the
-values provided to drop-downs in specimen-editing applications. Thus, if
-you are editing the record for a mammal specimen, you have the option of
-using an attribute such as ear length, and you do not have to see
-irrelevant attributes such as beak length.
-
-
-## Description
-
-`Collection . Desc VARCHAR2(255) not null`
-
-An extended name/description of the collection. For example:
-
--   University of Alaska Museum, Mammal Collection
--   Parasite Collection at the Museum of Southwestern Biology,
-    Albuquerque, NM
--   Kenelm W. Philip lepidoptera collection
-
-
-## Institution Acronym
-
-`Collection . Institution_Acronym VARCHAR2(20) not null`
-
- Abbreviation of the institution that hosts the
-catalog. For example, "MVZ" for Museum of Vertebrate Zoology, "UAM" for
-University of Alaska Museum (of the North), "MSB" for Museum of
-Southwestern Biology.  Generally, these values are the same as those
-traditionally used for specimen citations within discipline-specific
-publications.  There is now a demand for globally unique specimen
-identifiers on the Internet, and at least [one
-registry](http://grbio.org//) for such abbreviations has been
-established.
-
 
 ## Locating Specimens by Identifier
 
@@ -295,7 +282,6 @@ match and is not case-sensitive) and returns these specimens:
 ![](../images/classic-uploads/2013/06/7aa78-screenshot2011-07-12at11-39-28am.png){width="320"
 height="215"}
 
-
 ## Understanding Cataloged Items
 
 We address assigning catalog numbers to material with a few brief
@@ -309,22 +295,22 @@ Any other approach complicates tracking citations and data management.
 We present as example a brief list of things that may be cataloged in
 Arctos.
 
--   A biological individual
+-   A **biological individual**
     -   Standard practice in vertebrate collections, and the method we
         strongly encourage when possible. Biological individuals are
         generally the item of scientific interest, and the thing a
         future researcher will wish to examine if attempting to
         replicate results.
--   A biological individual and their parasites
+-   A **biological individual and their parasites**
     -   Common practice in vertebrate collections, but makes locating or
         citing a parasite more complicated and less reliable than it
         needs to be. Rather, we recommend cataloging the host,
         cataloging the individual parasites (or donating them to someone
         who can), and establishing proper relationships.
--   A lot (*e.g.*, all intestinal parasites from an individual; all
+-   A **lot** (*e.g.*, all intestinal parasites from an individual; all
     members of a taxon from a time and place, or all insects from
     a trap)
-    -   While lots are a convenient and sometimes necessary  "working
+    -   While lots are a convenient and sometimes necessary "working
         group," (*e.g.*, due to the number of individuals involved or
         the available expertise in identification) we strongly
         discourage making lots available for citation. Insect
@@ -333,38 +319,38 @@ Arctos.
         numbers, a situation we find acceptable. Attaching cryptic and
         fragile "individual tags" to members of a lot when someone uses
         a specimen for molecular analysis makes little sense to us.
--   An Occurrence (*e.g.*, each instance of the capture of
+-   An **occurrence** (*e.g.*, each instance of the capture of
     an individual)
     -   This situation inevitably leads to confusing citations and bad
         science when an individual sampled multiple times at multiple
         locations is assumed by users to be multiple
         distinct individuals. Arctos supports cataloging encounters as
-        events under one cataloged item.
--   Your "share" of an individual (*e.g.*, tissues; the bones being
+        [specimen events](/documentation/specimen-events) under one cataloged item.
+-   **Your "share"** of an individual (*e.g.*, tissues; the bones being
     cataloged elsewhere)
-    -   Similar to Occurrences in that this leads to multiple
+    -   Similar to occurrences in that this leads to multiple
         identifiers being assigned to an individual (and potentially the
         two being compared in a study), this should be avoided
         when possible. When unavoidable, both systems should support
         resolvable identifiers and link to each other, and specimen
         downloads should include the relationship. Arctos also adds a
         distinctive style to "same individual as" specimens.
--   Various parts of an individual (*e.g.*, tissues cataloged separately
+-   **Various parts** of an individual (*e.g.*, tissues cataloged separately
     from vouchers)
     -   This denormalization of data inevitable leads to divergence and
-        confusion (not to mention increased Curatorial workload), in
+        confusion (not to mention increased curatorial workload), in
         addition to the aforementioned implications of assigning the
         item of scientific interest multiple primary identifiers. Having
         reconciled the data in similar systems, we cannot possibly be
         vigorous enough in discouraging the continuation of
         such methodology.
--   An entire collection
+-   An **entire collection**
     -   We include this to stress the fact that cataloged items are
         wholly arbitrary concepts assigned to whatever someone wanted
         to catalog. That is, the scientific value of a cataloged number
         is entirely up to the person deciding upon the material
         to catalog.
--   Several of the above
+-   **Several of the above**
     -   An individual or physical item (or anything else) may have any
         number of catalog numbers within or across collections. While
         this is occasionally necessary for various political or
@@ -372,25 +358,22 @@ Arctos.
         proper use of resolvable OtherIDs (in a system which
         supports them) to clearly link all of the components of the item
         of scientific interest together when multiple numbers are for
-        some reason necessary.
-
-Re: <http://mailman.yale.edu/pipermail/nhcoll-l/2016-March/009178.html>
+        some reason necessary. (see <http://mailman.yale.edu/pipermail/nhcoll-l/2016-March/009178.html>)
 
 Collections with "less citable" catalog number schemes are extremely
 unlikely to support actionable citations, and so little is lost if the
 "traditional catalog numbers" are subsumed under a "citable catalog
 number." This approach has been used to unify and disambiguate several
 Arctos collections; we find tradition little excuse to go forward under
-systems which discourage good science
-
+systems which discourage good science.
 
 ## Deleting records from Arctos
 
-1.  [Encumber](https://arctosdb.wordpress.com/documentation/encumbrance/#top)
+1.  [Encumber](/documentation/encumbrance)
     the record(s) to be deleted. Create an appropriate encumbrance
     first, if necessary. Records may be flagged from individual
     specimens, or *en masse* by using the Manage widget
-    from SpecimenResults. Once records are flagged, they may be deleted
+    from Specimen Results of a search. Once records are flagged, they may be deleted
     by users with the appropriate privileges.
 2.  Find the encumbrance (under Tools). Click See Specimens and
     *carefully* review what you’re about to delete.
@@ -402,14 +385,13 @@ systems which discourage good science
 Note that there may be reasons to keep masked records in the database
 instead of deleting them.
 
-
 ## Recataloging Specimens
 
 It is sometimes necessary to move cataloged items from one collection or
 catalog number to another. When doing so, it is important to maintain a
-way of finding the specimen by it’s original identifiers. In this, be as
+way of finding the specimen by its original identifiers. In this, be as
 specific as possible. Use specific identifier types and GUIDs if
-possible. (See more at [Other IDs](other-id))
+possible. (See more at [Other IDs](/documentation/other-identifying-numbers).)
 
 Arctos provides HTTP redirect capability, under which one URL
 (<http://arctos.database.museum/guid/KNWR:Ento:7193>, for example) can
@@ -429,13 +411,10 @@ To do this,
         public users) will then be redirected, while operators will be
         able to continue to access the record.
 
-2.   Insert into table REDIRECT (Manage Data/Tools/Redirects) old and
+2.  Insert into table REDIRECT (Manage Data/Tools/Redirects) old and
     new paths. For example, if DGR:Mamm:123 is recataloged as
     MSB:Mamm:456, enter: old_path=**/guid/DGR:Mamm:123**;
     new_path=**/guid/MSB:Mamm:456**.
 
-
-
-
 Other ID documentation has moved to [it’s own
-page](http://arctosdb.org/documentation/other-id/#search_other_id).
+page](/documentation/other-identifying-numbers).
