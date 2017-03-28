@@ -5,16 +5,11 @@ layout: default_toc
 
 # Media
 
-
-
-## General Description
-
 Media are any digital objects (such as photographs, sound recordings,
-and three-dimensional renderings of objects) that can be related to data
+or three-dimensional renderings of objects) that can be related to data
 items in Arctos. Thus, they are essentially anything that can be
 identified with a Uniform Resource Identifier (URI) and (optionally)
-related to a primary key in a major table. ([some
-examples](http://arctosdb.wordpress.com/2011/11/28/what-are-media/))
+related to a primary key in a major table ([examples](http://arctosdb.wordpress.com/2011/11/28/what-are-media/)).
 This arrangement allows us to relate photographs of anatomical features
 to specimens, sound recordings to collecting events, text files to
 agents, and any number of possibilities. A special class of Media
@@ -22,8 +17,7 @@ paginates multi-page documents (*e.g.*, JPG field notebook scans),
 allowing browsing and PDF creation. TAGs identify user-selected areas of
 image media, and further relate these areas to specimens, places, and
 people. Media may be created autonomously, as part of a specimen record,
-or bulkloaded. Additionally, [specialized
-tools](https://sites.google.com/site/arctosdb/ala/process) exist for
+or bulkloaded. Additionally, [specialized tools](https://sites.google.com/site/arctosdb/ala/process) exist for
 rapid imaging of herbaria and paleontological collections, including
 ancillary data in the form of accession and locality cards. Data about
 media are stored in three tables:
@@ -36,13 +30,12 @@ media are stored in three tables:
 
 ### Media URI:
 
-`Media . MEDIA_URI VARCHAR2(255) not null`
-
+`Media.MEDIA_URI VARCHAR2(255) not null`
 
 The [Uniform Resource
 Identifier](http://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
 (URI) that finds the media object on the Internet. (A URL is a common
-type of URI.) See also [stability](#stability). Media URIs are of very
+type of URI.) See also [stability](#urls-and-stability). Media URIs are of very
 roughly three classes:
 
 -   A binary object which your a web browser natively "knows" how to
@@ -61,57 +54,43 @@ will always work, while admins may be less able to help with, for
 example, "protocol://some_domain/my/directory/structure/file name is
 out here.jpg"
 
-
-
 ### Mime Type:
 
-`Media . MIME_TYPE VARCHAR2(255) not null`
+`Media.MIME_TYPE VARCHAR2(255) not null`
 
 [`ctmime_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
-
 
 The Internet media type. Consists of a type and subtype, such as
 "text/html."
 [Code-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
-controlled, described in
+controlled, as described in
 [Wikipedia](http://en.wikipedia.org/wiki/Mime_type).
-
-
-
 
 ### Media Type:
 
-`Media . MEDIA_TYPE VARCHAR2(255) not null`
+`Media.MEDIA_TYPE VARCHAR2(255) not null`
+
 [`ctmedia_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type)
 
-
 A description of the kind of media. These values are controlled by a
-[code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type).
+[code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type).
 Media Type exists to categorize Media whose MIME type is not
 sufficiently descriptive. A HTML image viewer application would have
 MIME_TYPE of ‘text/html’ and MEDIA_TYPE of ‘image,’ for example.
 
-
-
 ### Preview URI:
 
-`Media . PREVIEW_URI VARCHAR2(255) null`
-
+`Media.PREVIEW_URI VARCHAR2(255) null`
 
 The Uniform Resource Identifier (URI) for a preview of the Media item. A
 preview might be something like a thumb-nail sized version of a larger
 image.
 
-
-
-
 ### Media Relationship:
 
-`Media_Relations . MEDIA_RELATIONSHIP VARCHAR2(40) not null`
+`Media_Relations.MEDIA_RELATIONSHIP VARCHAR2(40) not null`
 
 [`ctmedia_relationship`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship)
-
 
 The kind of relationship between the media and the data item.
 Relationships are functional and must be comprised of a string
@@ -119,43 +98,41 @@ containing at least one space and ending with a table name. ColdFusion
 and Oracle both rely on this. Values are controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship).
 
-
-
 ### Created By:
 
-`Media_Relations . CREATED_BY_AGENT_ID NUMBER not null`
-
+`Media_Relations.CREATED_BY_AGENT_ID NUMBER not null`
 
 The agent who created the relationship between a media object and a data
-item. This is a foreign key to the Agent table.
-
-
-
+item. This is a foreign key to the [Agent](/documentation/agent) table.
 
 ### Related Data Item:
 
-`Media_Relations . RELATED_PRIMARY_KEY NUMBER not null`
-
+`Media_Relations.RELATED_PRIMARY_KEY NUMBER not null`
 
 The data item to which the Media object is related. This is a foreign
 key.
 
-
-
-
 ### Media Label:
 
-`Media_Labels . MEDIA_LABEL VARCHAR2(255) not null`
+`Media_Labels.MEDIA_LABEL VARCHAR2(255) not null`
 
 [`ctmedia_label`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label)
 
-
 The subject matter of a label describing a Media object. Values are
-controlled by a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label).
+controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label).
 
+### Label Value:
 
+`Media_Labels.LABEL_VALUE VARCHAR2(255) not null`
 
+The content of a label. Generally the value is uncontrolled text, with the exception of Media Label = **"Made_Date"**, which requires its values to be in [ISO date format](/documentation/dates) (*e.g.* "2014-05-01" for "1 May 2014"), and will give an error upon saving if not rendered in that format. Try updating the date to the correct format to avoid error messages.
+
+### Assigned By:
+
+`Media_Labels.ASSIGNED_BY_AGENT_ID NUMBER not null`
+
+The agent who assigned the label. This is a foreign key to the [Agent](/documentation/agent)
+table.
 
 ### A checksum
 
@@ -165,31 +142,6 @@ Matching checksum values provide great certainty that the file has not
 changed. Arctos provides a means to generate an MD5 checksum and save
 this value as a Media Label. Checksum values generated by outside
 sources can be manually entered as Media Labels.
-
-
-
-
-### Label Value:
-
-`Media_Labels . LABEL_VALUE VARCHAR2(255) not null`
-
-
-The content of a label generally uncontrolled text (excepting some
-dates, which are ISO8601-format).
-
-
-
-
-### Assigned By:
-
-`Media_Labels . ASSIGNED_BY_AGENT_ID NUMBER not null`
-
-
-The agent who assigned the label. This is a foreign key to the Agent
-table.
-
-
-
 
 ## Media Creation Guidelines
 
@@ -203,7 +155,7 @@ Choose reasonable media formats; use derivatives if necessary.
 
 Primary relationships should be made to reasonably-sized (\~500K
 maximum) JPG derivatives rather than DNG ([Digital
-Negative](https://www.adobe.com/products/photoshop/extend.displayTab2.html),
+Negative](http://en.wikipedia.org/wiki/Digital_Negative),
 the only recommended format for primary images) originals, for
 [example](http://arctos.database.museum/media/10209042). JPG is not an
 appropriate choice for a [text
@@ -214,8 +166,6 @@ Use reasonable previews; filesize should be under (preferably much
 under!) 10K (previews larger than 48K will NOT be displayed), and scale
 to \~120px. Cropped or otherwise misleading previews should be avoided.
 Leave preview_uri `NULL` if producing a good thumbnail isn’t possible.
-
-
 
 ## Binary Object Creation Guidelines
 
@@ -236,7 +186,9 @@ less-than-optimal networks while still preserving most of the
 information available from the original. We’ve had few complaints about
 500K images of herbarium sheets. Users always have access to the
 originals, so it is not necessary for derivatives to facilitate all
-usage. Derivatives can generally be batch-created using ImageMagick on
+usage. 
+
+Derivatives can generally be batch-created using ImageMagick on
 TACC’s servers. We advocate sizing derivatives by filesize rather than
 dimensions, as all modern browsers offer zoom capability. When creating
 Media, it is recommended to create all relationships and labels from the
@@ -245,13 +197,11 @@ derivative. This will eliminate the DNGs from most search results
 click on thumbnails) while still providing easy access to them from the
 derivative.
 
-![DNG
-view](../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png "DNG view")
-
+![DNG view](../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-08-33-am.png "DNG view")
 
 DNG view
-![](../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png "JPG view - what most users find")
 
+![](../images/classic-uploads/2012/01/screen-shot-2012-01-26-at-9-11-22-am.png "JPG view - what most users find")
 
 JPG view – what most users find
 
@@ -263,47 +213,35 @@ Sequential JPGs are used rather than formats such as PDF to support
 further manipulation, such as adding
 [TAGs](http://arctos.database.museum/document/fieldnotes-grinnell-j-1911-part-1-section-1-san-joaquin-valley-calif/72).
 
-To create these, do the following.
+To create these, do the following:
 
-Scan your material. If you can get the page number (starts with one,
-increments by one) in the file name, it will make everything else
-easier. Most scanners support sequential naming, such as
+1. Scan your material. If you can get the page number (starts with one, increments by one) in the file name, it will make everything else easier. Most scanners support sequential naming, *e.g.*
 
--   My_Fieldnotes_1.jpg
--   My_Fieldnotes_2.jpg.
+    -   My_Fieldnotes_1.jpg
+    -   My_Fieldnotes_2.jpg.
 
-Load the scans to a stable, archival, visible server. (As always, we
+1. Load the scans to a stable, archival, visible server (as always, we recommend TACC). After this step, you should have a list of URIs, *e.g.*
 
-recommend TACC.) After this step, you should have a list of URIs
+    -   <http://some.server.somewhere/some/path/information/folders/whatever/My_Fieldnotes_1.jpg>
+    -   <http://some.server.somewhere/some/path/information/folders/whatever/My_Fieldnotes_2.jpg>
 
--   <http://some.server.somewhere/some/path/information/folders/whatever/My_Fieldnotes_1.jpg>
--   <http://some.server.somewhere/some/path/information/folders/whatever/My_Fieldnotes_2.jpg>
+1. Download the Media Bulkloader template and fill in the blanks, or use the "pull from server" option to build a Media bulkloader template using information embedded in URIs. (This requires some knowledge of Regular Expressions.) Required fields are:
 
-Download the Media Bulkloader template and fill in the blanks, or use
-the "pull from server" option to build a Media bulkloader template using
-information embedded in URIs. (This requires some knowledge of Regular
-Expressions.)
-
-Required fields are:
-
--   MEDIA_URI – the location to which you uploaded your scans
--   MIME_TYPE – this must be image/jpeg
--   MEDIA_TYPE – "multi-page document"
--   media_label_1 & media_label_value_1 (some label-plus-value – it
+    -   MEDIA_URI – the location to which you uploaded your scans
+    -   MIME_TYPE – this must be image/jpeg
+    -   MEDIA_TYPE – "multi-page document"
+    -   media_label_1 & media_label_value_1 (some label-plus-value – it
     doesn’t have to be 1) are "page" with sequential integers starting
     with 1 as value.
--   media_label_2 & media_label_value_2 – "title" – this must be
+    -   media_label_2 & media_label_value_2 – "title" – this must be
     EXACTLY the same for all pages in the document.
 
-Use the additional fields as you normally would to add any additional
-information, such as author(s).
+1. Use the additional fields as you normally would to add any additional information, such as author(s).
 
 <img src="../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png"  width="640" height="81"
-sizes="(max-width: 640px) 100vw, 640px"
-srcset="../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png 809w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-300x38.png 300w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-768x98.png 768w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-250x32.png 250w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-550x70.png 550w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-800x102.png 800w" />
+sizes="(max-width: 640px) 100vw, 640px" srcset="../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png 809w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-300x38.png 300w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-768x98.png 768w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-250x32.png 250w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-550x70.png 550w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-800x102.png 800w" />
 
-Note that with good organization and clever use of your favorite
-spreadsheet, most of the work should be simple copy/paste/increment.
+Note that with good organization and clever use of your favorite spreadsheet, most of the work should be simple copy/paste/increment.
 
 ## Bulkloading Media
 
@@ -315,30 +253,28 @@ developed specialized procedures to fit their workflow, for example.
 1.  Get your Media – the binary objects – to a suitable
     web-accessible location. We recommend
     [TACC](http://www.tacc.utexas.edu/), and they’ve provided various
-    tools[\*](#tacctools) to facilitate loading data. You may wish to
+    tools[\*](#tacc-tools) to facilitate loading data. You may wish to
     create a preview of your Media at this time – you’ll need to script
     that, do it manually, or coordinate with whomever is hosting your
-    binary data.
+    binary data (*e.g.* TACC).
 2.  Locate related objects in Arctos. The Media Bulkloader cannot handle
-    all realationships, and how relationships are formed is not
+    all relationships, and how relationships are formed is not
     always intuitive. See the Media Bulkloader for details.
 3.  Populate the Media Bulkloader using the URI you’ve created in
     loading media, upload the CSV file, and follow the directions until
     you get a "spiffy" message.
 
-
-
 ## Discovery
 
-Media Relationships link Media to specimens, agents, places, other
+Media Relationships link Media to [specimens](/documentation/catalog), [agents](/documentation/agent), [places](/documentation/locality), other
 Media, and more (and in turn link those resources together). Data
 objects thereby exchange information through database-key linkages as
 necessary; no information is replicated or otherwise made redundant (the
 process of normalization). An important factor in discoverability is
-having well-Curated data, and our model eliminates any possibility of
+having well-curated data, and our model eliminates any possibility of
 data becoming "stale" (such as updates to specimens not being made also
 to images of specimens) while simultaneously providing an efficient and
-powerful Curatorial toolset which requires no redundant tasks, nor any
+powerful curatorial toolset which requires no redundant tasks, nor any
 knowledge of existing or future relationships in order to maintain data.
 
 A major benefit of normalization is an inherent flexibility in how the
@@ -346,20 +282,20 @@ data may be linked, found, or viewed. Arctos may be equally viewed as a
 Media database (which happens to contain specimens) and a Specimen
 database (which also contains Media); there is no pre-defined starting
 point or pathway through the data, and no fixed bounds on the data for
-any given object. (That is, "specimen data" may be viewed to include
+any given object. "Specimen data" may be viewed to include
 data concerning publications in which the specimen is cited, and "media
 data" may be viewed as including specimen data, including linked data
-such as publications.) Therefore, Media may be linked to and draw
+such as publications. Therefore, Media may be linked to and draw
 information from any information in Arctos, directly or indirectly, and
-those objects may in turn be linked to each other. (For example, a
+those objects may in turn be linked to each other. For example, a
 Specimen may have Media and be cited in a Publication, providing a
 pathway from a citation to the Media; Media are therby discoverable
-across multiple "nodes.") Arctos users are presented with Media from
+across multiple "nodes." Arctos users are presented with Media from
 various pathways; by searching directly for Media, or by encountering
 Specimens, Projects, Publications, Taxonomy, Agents, Places or Events
 with associated Media, or by encountering objects which use those
-things. (For example, Media showing Localities is available from
-Specimens which use those Localities.)
+things. For example, Media showing Localities is available from
+Specimens which use those Localities.
 
 The same mechanism allows relationships among Media, allowing for
 example specimens linked to web-friendly JPGs which are in turn linked
@@ -375,10 +311,10 @@ various resources via IPT and other mechanisms.
 
 Arctos provides a stable URI for Media (and other objects), and the
 capacity to create long-term stable targets via DOI (which are
-themselves discoverability aids). Therebym, in addition to linking out
+themselves discoverability aids). Thereby, in addition to linking out
 to relevant data, Arctos encourages links in. Many users discover Arctos
 by following links from NCBI, Google, content aggregators (such as
-iDigBio), scientific publications, and researcher’s home pages.
+iDigBio), scientific publications, and researchers' home pages.
 
 ### Keywords
 
@@ -386,15 +322,13 @@ Media Keywords are select words and phrases pulled from related objects and Medi
 
 ## TACC Tools
 
-TACC tools include direct SCP access, various wrappers and tools using
-SCP access (such as the [ALA Imaging
-project](https://sites.google.com/site/arctosdb/ala/process), which
+TACC tools include direct Secure Copy Protocol (SCP) access, a WEBDAV dropbox ([contact
+us](https://arctosdb.org/join-arctos/contacts-support/) for access), and the
+ability to automatically push files uploaded to Arctos to TACC. Additionally there are various wrappers and tools using
+SCP access, such as the [ALA Imaging Project](https://sites.google.com/site/arctosdb/ala/process), which
 pushes DNG files from a local computer to TACC, creates thumbnails and
 high-resolution JPGs, and automatically associates images with barcoded
-specimens), a WEBDAV dropbox ([contact
-us](http://arctos.database.museum/contact.cfm) for access), and the
-ability to automatically push files uploaded to Arctos to TACC.
-
+specimens).
 
 ## TAGs
 
@@ -408,14 +342,9 @@ someone’s mixed some numbers up somewhere along the way." To create a
 link from a comment TAG to a specimen, simply type doubled square
 brackets around the GUID-string. Example:
 
-
 \[\[MVZ:Mamm:184092\]\]
 
-
-forms a HTML-link to
-<http://arctos.database.museum/guid/MVZ:Mamm:184092>
-
-
+forms a HTML-link to <http://arctos.database.museum/guid/MVZ:Mamm:184092>
 
 ## URLs and Stability
 
@@ -444,7 +373,7 @@ which to use in any particular situation.
     ([DOI:10.7299/X78050Z6](http://dx.doi.org/10.7299/X78050Z6))**
 
     DOIs should be (50-year-plus) permanent; they (with proper
-    Curatorial commitment) will survive the material moving out of
+    curatorial commitment) will survive the material moving out of
     Arctos, the deprecation of the HTTP protocol, and other
     imaginable changes. Not all material in Arctos has a DOI, but
     Operators may assign DOIs by request.
@@ -463,12 +392,3 @@ which to use in any particular situation.
     The link to the binary. These do NOT fire application-level
     logging, come with no stability guarantees, and should not be used
     for most purposes.
-
-
-## Tips
-
-Media label **"Made_Date"** requires value to be in [ISO date
-format](http://en.wikipedia.org/wiki/ISO_8601) (e.g. 2014-05-01 for 1
-May 2014) and will give an error upon saving if not rendered in that
-format. Try updating the date to the correct format to avoid error
-messages.
