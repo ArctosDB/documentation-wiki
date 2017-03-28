@@ -5,12 +5,16 @@ layout: default_toc
 
 # Other Identifying Numbers (Other IDs) and Relationships
 
+
+
 ## Other IDs (Identifiers)
 
 **Other IDs** (identifiers) are unique identifiers applied to specimens. These
 identifiers may allow tracking specimens (as in the case of collector
 numbers), reference other resources (*e.g.*, GenBank numbers), or form
 relationships among specimens (such as hosts of parasites).
+
+
 
 ## Other Identifier Type
 
@@ -21,7 +25,7 @@ relationships among specimens (such as hosts of parasites).
 This field describes the kind of identifier 
 using a [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
 Users who are logged in can choose one Other ID Type to be their
-"preferred identifier."   Your preferred identifier will then be the
+"preferred identifier." Your preferred identifier will then be the
 default displayed in several forms.
 
 This same vocabulary can be used to systematically form URLs from
@@ -50,6 +54,8 @@ srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-9-51-45-am.p
 returning the link to the GenBank record for that specimen
 
 <http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=nucleotide&doptcmdl=GenBank&term=EU139271>
+
+
 
 ## Other Identifier
 
@@ -124,7 +130,7 @@ resolvable identifiers; ones with a URL in the code table.
 
 Relationships (non-self references) express a
 subject-relationship-object directionality in which the "subject" is the
-current record and the object is the indicated record.  Example, given
+current record and the object is the indicated record. Example, given
 three cataloged items:
 
 -   ABC:123 (a parent of ABC:124 and ABC:125)
@@ -162,7 +168,7 @@ form of attached barcodes, GenBank numbers, "personal numbers," etc.).
 Record all these as Other IDs.
 
 The vast majority of the current 150 (one hundred and fifty!) ID types
-in Arctos are  useless. For example, there are 6 identifier types
+in Arctos are useless. For example, there are 6 identifier types
 referencing MVZ, only one of which has a definition:
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png"  width="640" height="129"
@@ -178,7 +184,7 @@ Term: **MVZ: Museum of Vertebrate Zoology**
 Defintion: **Various inactionable identifiers assigned by the MVZ**
 
 Better than "MVZ" would be the identifier type "MVZ:Bird," which in
-conjunction with a base_url could serve as a [GUID](catalog#guid) to
+conjunction with a base_url could serve as a [GUID](catalog#guid-prefix) to
 specimens. (Note that this example also works from outside the MVZ – for
 example, if the MSB Bird Collection had co-cataloged an MVZ specimen.)
 
