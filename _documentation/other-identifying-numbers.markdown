@@ -5,9 +5,6 @@ layout: default_toc
 
 # Other Identifying Numbers (Other IDs) and Relationships
 
-
-
-
 ## Other IDs (Identifiers)
 
 **Other IDs** (identifiers) are unique identifiers applied to specimens. These
@@ -15,27 +12,17 @@ identifiers may allow tracking specimens (as in the case of collector
 numbers), reference other resources (*e.g.*, GenBank numbers), or form
 relationships among specimens (such as hosts of parasites).
 
-
-```
-
-
-Coll_Obj_Other_ID_Num . Other_ID_Type
-
-VARCHAR2(75) not `null`
-
-ctcoll_other_ID_type
-
-
-```
-
 ## Other Identifier Type
 
- describes the kind of identifier. This field
-uses a [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
+`Coll_Obj_Other_ID_Num.Other_ID_Type VARCHAR2(75) not null`
+
+[`ctcoll_other_ID_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)
+
+This field describes the kind of identifier 
+using a [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
 Users who are logged in can choose one Other ID Type to be their
 "preferred identifier."   Your preferred identifier will then be the
 default displayed in several forms.
-
 
 This same vocabulary can be used to systematically form URLs from
 pre-set strings plus Other ID values. For example, the complete
@@ -64,20 +51,15 @@ returning the link to the GenBank record for that specimen
 
 <http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=nucleotide&doptcmdl=GenBank&term=EU139271>
 
-
-```
-
-Coll_Obj_Other_ID_Num.Other_ID_Prefix VARCHAR2(60)
-
-Coll_Obj_Other_ID_Num.Other_ID_Number NUMBER
-
-Coll_Obj_Other_ID_Num.Other_ID_Suffix VARCHAR2(60)
-
-```
-
 ## Other Identifier
 
- is the value of an Other ID. Data are stored in
+`Coll_Obj_Other_ID_Num.Other_ID_Prefix VARCHAR2(60)`
+
+`Coll_Obj_Other_ID_Num.Other_ID_Number NUMBER`
+
+`Coll_Obj_Other_ID_Num.Other_ID_Suffix VARCHAR2(60)`
+
+This is the value of an Other ID. Data are stored in
 three fields:
 
 -   Prefix (text)
@@ -113,7 +95,7 @@ Examples:
 
   |Desired Result | ID Type         |  Prefix       |  Integer |  Suffix |  Explanation|
   |---------------|-----------------|---------------|--------- |---------|-------------|
-  |ABC123         |GenBank          |ABC123         |`NULL`      |`NULL`     |GenBank number are not usefully sortable; just put them into prefix.|
+  |ABC123         |GenBank          |ABC123         |`NULL`      |`NULL`     |GenBank numbers are not usefully sortable; just put them into prefix.|
   |ABC123XYZ      |collector number |ABC            |123       |XYZ      |Allows sorting by integer component|
   |ABC-123-XYZ    |collector number |ABC-           |123       |-XYZ     |The concatenation character (here, dash) must be included|
   |ABC-0123-XYZ   |collector number |ABC-0          |123       |-XYZ     |The integer component will NOT retain leading zeroes. See next row.|
@@ -196,7 +178,7 @@ Term: **MVZ: Museum of Vertebrate Zoology**
 Defintion: **Various inactionable identifiers assigned by the MVZ**
 
 Better than "MVZ" would be the identifier type "MVZ:Bird," which in
-conjunction with a base_url could serve as a [GUID](catalog/#guid) to
+conjunction with a base_url could serve as a [GUID](catalog#guid) to
 specimens. (Note that this example also works from outside the MVZ – for
 example, if the MSB Bird Collection had co-cataloged an MVZ specimen.)
 
@@ -214,26 +196,22 @@ into the correct fields under Specimen Detail.
 
 The specimen bulk-loader has only one field for (each of several) Other
 IDs. At load, the values provided in this field are parsed into
-individual fields according to the following rules
+individual fields according to the following rules:
 
--   Integers are loaded as Number
+-   Integers are loaded as Number.
 -   Square brackets ( **\[** and **\]** ) may be used to explicitly
-    define the numeric portion of an identifier
--   Curly brackets ( **{** and **}** ) may be used **around the entire Identifier only**
-
-    to force the Identifier into Prefix. This is most useful when
-    leading zeros would otherwise be lost in the numeric portion of
-    the Identifier.
--   Strings consisting on a single alpha character followed by a
-    number (V12345) are split into Prefix and Number (**V** and **12345**, respectively)
+    define the numeric portion of an identifier.
+-   Curly brackets ( **{** and **}** ) may be used **around the entire Identifier only** to force the Identifier into Prefix. This is most useful when leading zeros would otherwise be lost in the numeric portion of the Identifier.
+-   Strings consisting of a single alpha character followed by a
+    number (V12345) are split into Prefix and Number (**V** and **12345**, respectively).
 -   Strings consisting of a number and a single alpha character (12345a)
-    are split, as above, into Number and Suffix
+    are split, as above, into Number and Suffix.
 -   Strings containing one or two "separator characters" ( | – . ; ) are
     split at those characters.
 -   The results of the above are checked to ensure that Number is an
-    integer
+    integer.
 -   Any errors or ambiguities result in the entire input being recorded
-    as Prefix
+    as Prefix.
 
 Examples:
 
@@ -246,7 +224,7 @@ Examples:
   |1-abc-2       |1-abc-2   |`NULL`     |`NULL`      |1-abc-2     |Value not numeric.
   |\[1\]-abc-2   |`NULL`      |1        |-abc-2    |1-abc-2     |Number explicitly defined.
   |v-00001       |v-        |1        |`NULL`      |v-1         |Leading zeros are not stored with NUMBERs.
-  |{v-00001}     |v-00001   |`NULL`     |`NULL`      |v-00001     |{} force to prefix
+  |{v-00001}     |v-00001   |`NULL`     |`NULL`      |v-00001     |{} force to prefix.
   |\[1\]-abc-2   |`NULL`      |1        |-abc-2    |1-abc-2     |Number explicitly defined.
 
 
@@ -262,7 +240,7 @@ Number) of an Other ID:
 2.  Change "Show 3-part ID Search" to "yes" and click "Close."
 3.  In the Number box, enter a range of values, *e.g.*, "50000-50110."
 4.  The submitted SQL is
-    ` ...AND customIdentifier.other_id_type = 'ALAAC' AND customIdentifier.other_id_number between 50000 and 50110 `
+`...AND customIdentifier.other_id_type = 'ALAAC' AND customIdentifier.other_id_number between 50000 and 50110`
 
 Note that this relies on having other IDs entered as a 3-part number.
 Many Other IDs have been entered entirely in Prefix. Note also that you
@@ -272,8 +250,6 @@ SQL like:
 ```
 ...AND customIdentifier.other_id_type = 'ALAAC' AND upper(customIdentifier.other_id_prefix) LIKE '%I TYPED THIS IN THE PREFIX BOX%' AND customIdentifier.other_id_number between 50000 and 50110
 ```
-
-
 The "**contains/is/in list**" option works as follows:
 
 -   ***contains*** matches substrings of the concatenation (display
@@ -286,31 +262,4 @@ The "**contains/is/in list**" option works as follows:
     search can find other ID "1 2" or "1;2"; use one of the other
     options to find such values.
 
-The specimen bulkloader has only one field for (each of several) Other
-Identifiers. At load, the values provided in this field are parsed into
-individual fields according to the following rules.
-
--   Integers are loaded as Number
--   Strings consisting on a single alpha character followed by a
-    number (V12345) are split into Prefix and Number (**V** and **12345**, respectively)
--   Strings consisting of a number and a single alpha character (12345a)
-    are split, as above, into Number and Suffix
--   Strings containing one or two "separator characters" (| – . 😉 are
-    split at those characters.
--   The results of the above are checked to ensure that Number is an
-    integer
--   Finally, the re-concatenated value is checked against the original.
-    If they don’t match, the original becomes Prefix.
-
-Examples:
-
-  |Input        |Prefix       |Number   |Suffix    |Display   |Explanation            |
-  |-------------|-------------|---------|----------|----------|-----------------------|
-  |v12345       |v            |12345    |`NULL`      |v12345    |One character plus number|
-  |v-12345      |v-           |12345    |v-12345   |v-12345   |Split at a separator character|
-  |v-12345-1    |v-           |12345    |-1        |v-12345-1 |Split at separator characters|
-  |1\[12345\]1  |1\[12345\]1  |`NULL`     |`NULL`      |1123451   |Brackets are treated as characters.|
-  |1-abc-2      |1-abc-2      |`NULL`     |`NULL`      |1-abc-2   | Number is not numeric|
-  |v-00001      |v-00001      |`NULL`     |`NULL`      |v-00001   |Above rules would lead to dropped leading zeroes in Number|
-
-See also [Searching Arctos](/how_to/How-to-Search-for-Specimens.html)
+See also [Searching Arctos](/how_to/How-to-Search-for-Specimens.html).
