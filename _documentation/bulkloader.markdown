@@ -142,7 +142,7 @@ know](http://arctos.database.museum/contact.cfm) if it’s out of date, incomple
 |<span class="blcondreq">Dec_Lat_Min<sup>3</sup></span> |  positive number | Decimal Latitude Minutes (Used with LatDeg, decimal fraction, less than 60).|
 |<span class="blcondreq">Dec_Long_Min<sup>3</sup></span> | positive number| Decimal Longitude Minutes (Used with LongDeg, decimal fraction, less than 60).|
 | | — end coordinate fields — |  |
-|<span class="blrequired">Verbatim_Locality</span> | text; any string | [\[ doc \]](/documentation/collecting-event#verbatim-locality) The locality, entered as closely as possible to the original text provided by the collector. (Not necessarily the same as [specific locality](documentation/locality#specific-locality).)|
+|<span class="blrequired">Verbatim_Locality</span> | text; any string | [\[ doc \]](/documentation/collecting-event#verbatim-locality) The locality, entered as closely as possible to the original text provided by the collector. (Not necessarily the same as [specific locality](locality#specific-locality).)|
 |<span class="blrequired">Collecting_Source</span> | text; [ctcollecting_source](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollecting_source) | [\[ doc \]](/documentation/specimen-event#collecting-source) Source from which the specimen was received. Example: "wild caught"|
 |<span class="bloptional">Habitat</span> | text; any string |[\[ doc \]](/documentation/specimen-event#habitat) A description of habitat at the time of the collecting event.|
 |<span class="bloptional">Associated_Species</span> | text; any string | A description of other species occurring at the collecting event. Use relationships to other specimens when possible.|
@@ -155,7 +155,7 @@ know](http://arctos.database.museum/contact.cfm) if it’s out of date, incomple
 |<span class="bloptional">Other_Id_Num_x</span> | text; any string | Other identifying numbers (ie, original field number).|
 |<span class="blcondreq">Other_Id_Num_Type_x</span> | text; [ctcoll_other_id_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)| Used in conjunction with Other_Id_Num. (Code-table controlled.) |
 |<span class="blcondreq">Other_Id_References_x</span> | text; [ctid_references](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTID_REFERENCES)| Establish relationships to other specimens. (Code-table controlled.) |
-|<span class="blrequired">Collector_Agent_x</span> | text; [agent name](#agent) | Collector or preparator name as it appears in Arctos. At least one collector_agent is required. |
+|<span class="blrequired">Collector_Agent_x</span> | text; [agent name](#agent-names) | Collector or preparator name as it appears in Arctos. At least one collector_agent is required. |
 |<span class="blrequired">Collector_Role_x</span> | text; [ ctcollector_role ](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLLECTOR_ROLE) | Collector Role.|
 |<span class="blrequired">Part_Name_x</span> | text; [ctspecimen_part_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name) | [\[ doc \]](/documentation/parts#part-names) At least one part is required.
 |<span class="blrequired">Part_lot_count_x</span> | number | [\[ doc \]](/documentation/parts#lot-count) A part_lot_count is required for all non-`null` parts.|
@@ -164,12 +164,12 @@ know](http://arctos.database.museum/contact.cfm) if it’s out of date, incomple
 |<span class="bloptional">Part_Barcode_x</span> | text; any barcode | [\[ doc \]](/documentation/container#barcode) Barcode on the part as it will be read by a barcode scanner.|
 |<span class="bloptional">Part_Container_Label_x</span> | text; any string | [\[ doc \]](/documentation/container#label) Label on the container (e.g., Nunc tube). The human-readable printing on the container. `NULL` results in no changes to the part container; ignored if Part_Barcode_x is `null`.|
 |<span class="bloptional">Part_Remark_x</span> | text; any string | Remark about the part.|
-|<span class="blrequired">Accn</span> | text; accn number| [\[ doc \]](/documentation/accession#accession-number) Accession Number assigned upon acceptance of specimens. Format is accn number without collection information, but see [cross-collection considerations.](documentation/accession#data-entry-considerations)|
+|<span class="blrequired">Accn</span> | text; accn number| [\[ doc \]](/documentation/accession#accession-number) Accession Number assigned upon acceptance of specimens. Format is accn number without collection information, but see [cross-collection considerations.](/documentation/accession#data-entry-considerations)|
 |<span class="blcondreq">EnteredBy</span> | text; [agent name](#agent-names)| [\[ doc \]](/documentation/agent#names) Agent entering the data into this table. Must match agent_name of type login. `NULL`able if entered_by_agent_id provided.|
 |ENTERED_AGENT_ID | number; [key](#primary-key-warning) | EnterdBy’s agent_id. Increased performance over EnteredBy. |
 |<span class="blcondreq">GUID_Prefix</span>| text; controlled | [\[ doc \]](/documentation/catalog#guid-prefix) Unique-within-Arctos identifier of the collection under which the specimen will be cataloged. Replaces Institution_Acronym + Collection_Cde.|
 |<span class="blcondreq">collection_id</span> | number; [key](#primary-key-warning) | Primary key of table Collection. Alternative to GUID_prefix.
-|<span class="bloptional">Loaded</span>| text; any string | This is where errors are stored after Bulkloader processing. [More Info](https://arctosdb.wordpress.com/how-to/create/#load)|
+|<span class="bloptional">Loaded</span>| text; any string | This is where errors are stored after Bulkloader processing. [More Info](/how_to/How-to-Bulkload-Specimen-Data)|
 |<span class="bloptional">Flags</span> | text; [ctflags](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctflags) | Flag indicating the specimen needs further work.|
 |<span class="bloptional">Attribute</span> | text; [ctattribute_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type) | [\[ doc \]](/documentation/attributes#attribute-name) Attribute name. (Code-table controlled.)|
 |<span class="bloptional">Attribute_value</span> | text; various | [\[ doc \]](/documentation/attributes#attribute-value) Value of the attribute. Leaving this `NULL` will cause the bulkloader to ignore the attribute entry regardless of other values.|
