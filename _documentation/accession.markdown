@@ -19,15 +19,15 @@ Accession Number is a text string assigned to identify the accession for a speci
 
 ### Status
 
-Status indicates whether or not the accession is cataloged or not.  `Complete` indicates that the disposition of specimens can be determined from individual specimen records.  "In process" indicates that at least some of the material is still being stored and labeled by accession number.
+Status indicates whether or not the accession is cataloged.  "Complete" indicates that the disposition of specimens can be determined from individual specimen records.  "In process" indicates that at least some of the material is still being stored and labeled by accession number.
 
 ### How Obtained
 
-`Accn . accn_type VARCHAR2(35) not null`
+`Accn.accn_type VARCHAR2(35) not null`
 
-[ctAccn_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type)
+`[ctAccn_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type)`
 
-"How Obtained?"  is a means of acquiring the specimens, such as "field collection," "gift," "salvaged," and "purchased."
+This describes the means of acquiring the specimens, such as "field collection," "gift," "salvaged," or "purchased."
 
 ### Nature of Material
 
@@ -39,19 +39,19 @@ See [Transaction Documentation](/documentation/transactions.html#transaction-age
 
 ### Received Date  
 
-`Accn . Received_Date DATE not null`
+`Accn.Received_Date DATE not null`
 
-"Received Date" is the day that the accessioned material was received by the museum.  This must be a valid date.  Default could be the system date when the record was created.
+"Received Date" is the day that the accessioned material was received by the museum.  This must be a valid [date](/documentation/dates).  Default could be the system date when the record was created.
 
 ### Entry Date
 
-"Entry Date" is the day that the accession record was created. This must be a valid date. Default could be the system date when the record was created.
+"Entry Date" is the day that the accession record was created. This must be a valid [date](/documentation/dates). Default could be the system date when the record was created.
 
 ### Remarks
 
-`Trans . Trans_Remarks VARCHAR2(4000) null`
+`Trans.Trans_Remarks VARCHAR2(4000) null`
 
-Accession "Remarks" is a place for expanding a description of the conditions of acceptance, or for instructions in processing the material.  For example, "Take 50 gram subsamples for fatty-acid analysis."
+Place for expanding a description of the conditions of acceptance, or for instructions in processing the material.  For example, "Take 50 gram subsamples for fatty-acid analysis."
 
 ### Estimated Count
 
@@ -59,7 +59,7 @@ Estimated Count or "Est. Cnt." is an integer expressing approximately how many s
 
 ### Public Flag
 
-The "Public?" flag allows accession data to be displayed in a public (open to non-operators) page, currently linked to from Specimen Results. This is useful for displaying accession-level Media, such an UAM Earth Science accession and locality card scans.
+The "Public?" flag allows accession data to be displayed in a public (open to non-operators) page, currently linked to from Specimen Results. This is useful for displaying accession-level Media, such as UAM Earth Science accession and locality card scans.
 
 ## Data Entry Considerations
 
