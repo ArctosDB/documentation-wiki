@@ -5,24 +5,24 @@ layout: default_toc
 
 # Container
 
+In a nutshell, Arctos Object Tracking consists of...
 
-
-## Arctos Object Tracking in a nutshell
-
--   "Containers" are of two categories:
+-   "Containers" in one of two categories:
     1.  All Parts are (also) containers.
     2.  User-defined containers are whatever someone says they are –
         tubes, tube positions in freezer boxes, boxes, shelves, ranges,
         buildings, institutions, whatever.
 -   All containers have exactly one parent container.
 
-That is the functional model in its entirety. Physical specimen-bits ARE
+That is the functional model in its entirety. **Physical specimen-bits** ARE
 containers, and they can be put into other containers, which are
 arbitrary curatorial declarations hopefully arranged in some useful
-fashion, such as bones in boxes on shelves. Barcodes ("machine-readable
+fashion, such as bones in boxes on shelves. **Barcodes** ("machine-readable
 code" – 2D codes, RFID, etc.) are just machine-readable proxies to
-container_id. Labels are (less reliable) human-readable proxies to
-container_id. Dimensions, container_type, procedures to disallow
+container_id. **Labels** are (less reliable) human-readable proxies to
+container_id. 
+
+Dimensions, container_type, procedures to disallow
 infinite recursion, etc. – everything else about the model – are
 attempts to prevent human errors or provide useful information about or
 from containers. (All such clues are probably unnecessary in a perfect
@@ -32,7 +32,7 @@ occasionally valuable.)
 
 ## The Model
 
-[Collection Objects](/documentation/parts/) are physically located in
+[Collection Objects](/documentation/parts) are physically located in
 containers, and the concept of Containers reflects that reality. Not
 only are collection objects located in containers, but containers are
 (optionally) located within larger containers and this relationship is
@@ -41,7 +41,7 @@ container has one parent container, except for "Container Zero" (the
 Parentless Void). For example, a tissue sample is typically in a
 **cryovial**, within a **position** in a **freezer box**, within a
 **position** in a **freezer rack**, within a **freezer** in a
-**room**…seven containers.
+**room**… seven containers.
 
 With each container uniquely labeled with a barcode, tracking objects is
 done by scanning a new parent-container ID into the record of a child
@@ -50,11 +50,9 @@ freezer rack can be tracked from one freezer to another by the scanning
 barcode on the freezer rack and its new parent ID (the barcode on the
 freezer).
 
+### Container Type
 
-
-## Container Type
-
-`Container . Container_Type VARCHAR(20) not null`
+`Container.Container_Type VARCHAR(20) not null`
 
 [`ctcontainer_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcontainer_type)
 
@@ -78,23 +76,18 @@ other container type for usage. For example, one might purchase 100,000
 change them to "cryovial" 1,000 at a time. A color-coding system is
 useful.
 
- 
+### Parent Container
 
-
-## Parent Container:
-
-`Container . Parent_Container_id NUMBER not null`
+`Container.Parent_Container_id NUMBER not null`
 
 This is the value that identifies the container into which another
 (child) Container has been placed. The value is not displayed in
 applications because Parent Containers are generally displayed by their
 Labels and entered into forms by their Barcode.
 
+### Barcode
 
-
-## Barcode
-
-`Container . Barcode VARCHAR(50) null`
+`Container.Barcode VARCHAR(50) null`
 
  Within the database, a barcode is a string of characters
 unique to a container. Most barcode values are meaningless "dumb
@@ -125,11 +118,9 @@ time labels are ordered so that the range of values is reserved. This
 practice also allows us to limit the values accepted by the database to
 known barcode values.
 
+### Label
 
-
-## Label
-
-`Container . Label VARCHAR(255) not null`
+`Container.Label VARCHAR(255) not null`
 
 is the descriptive value that is displayed in most of our
 object-tracking applications. It should usually represent something that
@@ -151,60 +142,46 @@ these applications, the Labels of positions might usefully indicate the
 parent container of the position. For example, the Label of position 6-B
 in Freezer 6 is "Frzr6 6-B," not just "6-B."
 
+### Description
 
-
-## Description
-
-`Container . Description VARCHAR(255) null`
+`Container.Description VARCHAR(255) null`
 
  is a useful expansion of Label. "Room 363" is useful as
-a label, but something like "The processing room in the south wing of
+a label, but something like "the processing room in the south wing of
 the Biology Annex" may be expeditious.
 
-
-
-## Install Date
+### Install Date
 
 `Container_History . Install_Date DATETIME not null`
 
- This is the date on which the Parent Container was last
+ is the date on which the Parent Container was last
 changed, *i.e.*, the date on which the Container was placed in its
 parent.
 
+### Remarks
 
-
-## Remarks
-
-`Container . container_remarks VARCHAR(255) null`
+`Container.container_remarks VARCHAR(255) null`
 
 is the place to record notes and about the container or its contents.
 Remarks are especially useful in explaining the nature and treatment of
 legacy containers (*i.e.,* containers without barcode labels).
 
+### Print Flag
 
-## Print Flag
-
-`Container . print_fg NUMBER(1) null`
+`Container.print_fg NUMBER(1) null`
 
  is a temporary flag that can be set for the purpose of
 printing container labels.
 
+### Width, Height, and Length
 
-## Width, Height, and Length
+`Container.width NUMBER null`
 
-```
+`Container.height NUMBER null`
 
-Container . width
+`Container.length NUMBER null`
 
-Container . height
-
-Container . length
-
-NUMBER null
-
-```
-
-are dimensions of a container in centimeters.
+Dimensions of a container in centimeters.
 Decimal fractions can be used. Because movement of objects involves two
 barcode scans that relate a child container to a parent container, there
 is a risk of accidentally reversing these two values. These dimensions
@@ -220,11 +197,9 @@ Some common container dimensions:
   |regular (2 inch) freezer box  | 13     | 5      | 13     |
   |2-dram shell vial             | 2      | 5.6    | 2      |
 
+### Number of Positions
 
-
-## Number of Positions
-
-`Container . Number_Positions INTEGER null`
+`Container.Number_Positions INTEGER null`
 
  Some containers have immovable subcontainers of
 the Container Type Position. For example, many freezer boxes designed to
@@ -234,28 +209,23 @@ positions in a container allows us to make forms specific to tasks such
 as scanning cryovials into a 100-position freezer box versus an
 81-position freezer box.
 
+### Institution
 
-
-
-## Institution
-
-`Container . institution_acronym VARCHAR(20) not null`
+`Container.institution_acronym VARCHAR(20) not null`
 
  is an abbreviation that indicates which institution’s
 "owns" a container. ("Owns" because containers are in fact shared across
 VPD boundaries; this is closer to an indication of creator.)
 
-
-
-## Object Tracking in general
+## Object Tracking in General
 
 This section describes very general guidelines for object tracking with
 machine-readable labels.
 
-### Getting Started
+### Getting started
 
 1.  Claim a barcode series in the [Barcode Series
-    Spreadsheet](https://docs.google.com/spreadsheets/d/1Rmj7NCudfdpo2DWwMHZk4FOYM-_anrElznYnjK4nWtY/edit#gid=0)
+    Spreadsheet](https://docs.google.com/spreadsheets/d/1Rmj7NCudfdpo2DWwMHZk4FOYM-_anrElznYnjK4nWtY/edit#gid=0).
 2.  Purchase or print labels.
 3.  Create the corresponding containers as some type of "label"
     container in Arctos using the Create Container Series app.
@@ -264,7 +234,7 @@ machine-readable labels.
 
 1.  Change some labels to an appropriate usable container type (one not
     containing "label") with the Label&gt;Container app. Mark them
-    appropriately; see [Field Procedures](#field)for one idea.
+    appropriately; see [Field Procedures](#in-the-field) for one idea.
 2.  If the barcodes are meant to directly hold specimen parts (*e.g.*,
     if they are nunc tubes or tags), install the part into the container
     using the data entry form, by editing the specimen part, with the
@@ -273,16 +243,14 @@ machine-readable labels.
     scanning other containers into it using one of the many appropriate
     Arctos forms.
 
-
-
-## Object Tracking in the field
+## Object Tracking in the Field
 
 The best place to begin the process of object tracking is when a part is
 created; for example, when a tissue sample is put into a Nunc tube in
 the field. Here is a brief overview of one implementation of that
-process.
+process...
 
-## As part of system development
+### As part of system development
 
 1.  Acquire a sufficient number of 2-piece barcodes. These are generally
     clear plastic labels with two identical, separable barcodes, one of
@@ -301,7 +269,7 @@ process.
     example, agree that all "cryovial" labels will be green, and all
     "vial" labels red.
 
-## Before collecting
+### Before collecting
 
 1.  Pull out some containers and a corresponding number of labels.
 2.  Use the Arctos tools to change the labels to an appropriate
@@ -311,7 +279,7 @@ process.
     sticky-notes, or anything else that allows a user to identify the
     intended use of the barcodes is acceptable.
 
-## In the field
+### In the field
 
 1.  Using the color coding system, grab an appropriate 2-piece label,
     remove the backing and affix the appropriate half to a container and
@@ -320,23 +288,20 @@ process.
     and a clearly-marked area for affixing the appropriate label-half
     are useful.)
 
-## Back in the collection
+### Back in the collection
 
-1.  Install the barcoded container by scanning it into an appropriate
+-  Install the barcoded container by scanning it into an appropriate
     box, position, etc.
-
-## Also back in the collection
-
-1.  Enter specimen data, scanning attached label-halves into the
+-  Enter specimen data, scanning attached label-halves into the
     appropriate part barcode input area.
 
-Note that the last two steps are independent and may occur in any order
+Note that the two steps above are independent and may occur in any order
 and at any time. Typically tubes are installed immediately upon
 returning from the field, and specimen data entry may occur months or
 even years later. Once both steps have been completed, the specimen,
 part, and object tracking data will automatically consolidate.
 
-## At any time
+### At any time
 
 1.  If, for whatever reason, an un-barcoded container (with contents
     or not) should appear in the collection, simply refer to the
@@ -347,8 +312,6 @@ part, and object tracking data will automatically consolidate.
     tracking system. This immediately allows the container to be tracked
     by scanning it into any other container, and allows it to contain
     any container or specimen part.
-
-
 
 ## Object tracking without barcodes
 
@@ -394,56 +357,54 @@ and a system of handling them is necessary. If data of those
 characteristics are not necessary, or the resources to barcode are not
 currently available, use part attribute "location."
 
-
-
 ## FAQ
 
-Summary: People who use barcodes tend to find them indispensable; they
+**Summary:** People who use barcodes tend to find them indispensable; they
 make producing much better data much simpler.
 
-Q: The only benefit of barcoding is that it provides you with an east
+**Q:** The only benefit of barcoding is that it provides you with an east
 \[sic\] mechanism for processing large loans, doing inventories or
 otherwise creating batches of specimens.
 [(source)](http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007337.html)
 
-A: Barcodes are useful for much more than loans.
+**A:** Barcodes are useful for much more than loans.
 [(source)](http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007341.html)
 
-Q: …reading devices that might go out of production
+**Q:** …reading devices that might go out of production.
 [(source)](http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007339.html)
 
-A: This is an argument that we will soon lose all photodetector, laser,
+**A:** This is an argument that we will soon lose all photodetector, laser,
 and optical devices that may be attached to small computers. Other types
 of "barcodes" (2D codes and RFIDs, for example) require slightly more
 advanced technology, but the argument that very simple methods of
 reading very simple encoded data across very short distances will
 suddenly become impossible just does not make any sense to us.
 
-Q: The scanner read my barcode wrong.
+**Q:** The scanner read my barcode wrong.
 
-A: It probably didn’t. Even the very simplest barcodes have start and
+**A:** It probably didn’t. Even the very simplest barcodes have start and
 stop codons – half of barcode "1234" is not "12," it’s unintelligible
 garbage. Printing useless barcodes, failing to develop useful protocols,
 and scanning the wrong things produce off-by-something-random errors;
 technological failures produce only "it didn’t work" errors.
 
-Q: What should I barcode?
+**Q:** What should I barcode?
 
-A: Barcode physical objects – things you loan, need to find in the
+**A:** Barcode physical objects – things you loan, need to find in the
 collection, or otherwise track. Cataloged items (things to which catalog
 numbers are assigned) are almost never appropriate; insect genitalia are
 separated and stored away from the pinned "voucher," a mammal may have
 multiple organ samples, a plant may be mounted on multiple sheets, etc.
 That is, barcode and GUID are different types of identifiers used to
 represent entirely different types of objects. Please note that this is
-contrary to the  [iDigBio Specimen Barcode and Labeling
+contrary to the [iDigBio Specimen Barcode and Labeling
 Guide](https://www.idigbio.org/wiki/index.php/Specimen_Barcode_and_Labeling_Guide)
 ([archive](https://web.archive.org/web/20151205163004/https://www.idigbio.org/wiki/index.php/Specimen_Barcode_and_Labeling_Guide)),
 which states "A digital specimen GUID is what identifies the specimen
 (part of an individual, an individual, a set of individuals) in the
 digital world, while a barcode label identifies the specimen in the
 physical world. " A GUID/catalog number is assigned to whatever a
-Curator chooses (and traditions vary widely across disciplines and
+curator chooses (and traditions vary widely across disciplines and
 collections), while a barcode is assigned to definable physical objects.
 A barcode may refer to a cataloged item, part of a cataloged item, a
 part cataloged in multiple collections, material referencing a cataloged
@@ -451,16 +412,16 @@ item or parts thereof (../images, field notes, acquisition records), or
 anything else; any 1:1 catalog number:barcode ratio is coincidental and
 likely indicative of data structure problems.
 
-Q: What should I do differently for \["vouchers," "tissues", herbarium
+**Q:** What should I do differently for \["vouchers," "tissues", herbarium
 sheets, slides, whale skeletons, lots, subsamples, etc.\]
 
-A: Nothing. All of the above (and much more) is tracked in Arctos under
+**A:** Nothing. All of the above (and much more) is tracked in Arctos under
 one system. A system which must be modified for "special" situations is
 almost certainly also lacking in "normal" usage.
 
-Q: What "numbers" should I use?
+**Q:** What "numbers" should I use?
 
-A: Anything unique within your "globe" is sufficient; the larger the
+**A:** Anything unique within your "globe" is sufficient; the larger the
 "globe," the more you one can do with the data. Arctos currently has a
 system-wide unique key on barcodes, which allows us to deploy
 Arctos-wide tools which are used to track objects loaned to other Arctos
@@ -478,9 +439,9 @@ globally-unique and resolvable if inadvertently cited), though we have
 so far been unable to procure sufficient DOIs to test this idea at
 scale.
 
-Q: What encoding should I use?
+**Q:** What encoding should I use?
 
-A: Whatever fits on your desired labels and can be reliably read by a
+**A:** Whatever fits on your desired labels and can be reliably read by a
 convenient machine.
 
 ## Usage
@@ -550,7 +511,7 @@ description of the general qualities of the finished product.
     printed or purchased.
 -   Containers should be edited exactly one time, when Labels are
     changed to containers for immediate usage. (See [field
-    procedures](#field).)
+    procedures](#object-tracking-in-the-field).)
 -   All other container-related tasks involve only scanning barcodes.
 
 ## Creating position-holding freezer boxes (From MLC 2016-01-19)
@@ -574,7 +535,6 @@ description of the general qualities of the finished product.
 9.  note that if you scan a tube in place, and then need to move it, you
     must scan it into a different position first, and then refresh your
     browser to delete it from the old position
-
 
 ## Guidelines for barcode-containing labels
 
