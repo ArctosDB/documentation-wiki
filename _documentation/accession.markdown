@@ -25,7 +25,7 @@ Status indicates whether or not the accession is cataloged.  "Complete" indicate
 
 `Accn.accn_type VARCHAR2(35) not null`
 
-`[ctAccn_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type)`
+[`ctAccn_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type)
 
 This describes the means of acquiring the specimens, such as "field collection," "gift," "salvaged," or "purchased."
 
