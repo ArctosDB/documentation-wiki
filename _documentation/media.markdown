@@ -28,7 +28,7 @@ media are stored in three tables:
 
 ## Fields in table Media
 
-### Media URI:
+### Media URI
 
 `Media.MEDIA_URI VARCHAR2(255) not null`
 
@@ -54,7 +54,7 @@ will always work, while admins may be less able to help with, for
 example, "protocol://some_domain/my/directory/structure/file name is
 out here.jpg"
 
-### Mime Type:
+### Mime Type
 
 `Media.MIME_TYPE VARCHAR2(255) not null`
 
@@ -66,7 +66,7 @@ The Internet media type. Consists of a type and subtype, such as
 controlled, as described in
 [Wikipedia](http://en.wikipedia.org/wiki/Mime_type).
 
-### Media Type:
+### Media Type
 
 `Media.MEDIA_TYPE VARCHAR2(255) not null`
 
@@ -78,7 +78,7 @@ Media Type exists to categorize Media whose MIME type is not
 sufficiently descriptive. A HTML image viewer application would have
 MIME_TYPE of ‘text/html’ and MEDIA_TYPE of ‘image,’ for example.
 
-### Preview URI:
+### Preview URI
 
 `Media.PREVIEW_URI VARCHAR2(255) null`
 
@@ -86,7 +86,7 @@ The Uniform Resource Identifier (URI) for a preview of the Media item. A
 preview might be something like a thumb-nail sized version of a larger
 image.
 
-### Media Relationship:
+### Media Relationship
 
 `Media_Relations.MEDIA_RELATIONSHIP VARCHAR2(40) not null`
 
@@ -98,21 +98,21 @@ containing at least one space and ending with a table name. ColdFusion
 and Oracle both rely on this. Values are controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship).
 
-### Created By:
+### Created By
 
 `Media_Relations.CREATED_BY_AGENT_ID NUMBER not null`
 
 The agent who created the relationship between a media object and a data
 item. This is a foreign key to the [Agent](/documentation/agent) table.
 
-### Related Data Item:
+### Related Data Item
 
 `Media_Relations.RELATED_PRIMARY_KEY NUMBER not null`
 
 The data item to which the Media object is related. This is a foreign
 key.
 
-### Media Label:
+### Media Label
 
 `Media_Labels.MEDIA_LABEL VARCHAR2(255) not null`
 
@@ -121,20 +121,20 @@ key.
 The subject matter of a label describing a Media object. Values are
 controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label).
 
-### Label Value:
+### Label Value
 
 `Media_Labels.LABEL_VALUE VARCHAR2(255) not null`
 
 The content of a label. Generally the value is uncontrolled text, with the exception of Media Label = **"Made_Date"**, which requires its values to be in [ISO date format](/documentation/dates) (*e.g.* "2014-05-01" for "1 May 2014"), and will give an error upon saving if not rendered in that format. Try updating the date to the correct format to avoid error messages.
 
-### Assigned By:
+### Assigned By
 
 `Media_Labels.ASSIGNED_BY_AGENT_ID NUMBER not null`
 
 The agent who assigned the label. This is a foreign key to the [Agent](/documentation/agent)
 table.
 
-### A checksum
+### Checksum
 
 is a cryptographic hash, or "digital fingerprint," of a file. At a later
 time, another checksum can be generated and compared to the original.
@@ -220,10 +220,12 @@ To create these, do the following:
     -   My_Fieldnotes_1.jpg
     -   My_Fieldnotes_2.jpg.
 
+
 1. Load the scans to a stable, archival, visible server (as always, we recommend TACC). After this step, you should have a list of URIs, *e.g.*
 
     -   <http://some.server.somewhere/some/path/information/folders/whatever/My_Fieldnotes_1.jpg>
     -   <http://some.server.somewhere/some/path/information/folders/whatever/My_Fieldnotes_2.jpg>
+
 
 1. Download the Media Bulkloader template and fill in the blanks, or use the "pull from server" option to build a Media bulkloader template using information embedded in URIs. (This requires some knowledge of Regular Expressions.) Required fields are:
 
@@ -236,7 +238,9 @@ To create these, do the following:
     -   media_label_2 & media_label_value_2 – "title" – this must be
     EXACTLY the same for all pages in the document.
 
+
 1. Use the additional fields as you normally would to add any additional information, such as author(s).
+
 
 <img src="../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png"  width="640" height="81"
 sizes="(max-width: 640px) 100vw, 640px" srcset="../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am.png 809w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-300x38.png 300w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-768x98.png 768w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-250x32.png 250w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-550x70.png 550w, ../images/classic-uploads/2012/01/screen-shot-2012-01-25-at-10-43-48-am-800x102.png 800w" />
