@@ -187,7 +187,7 @@ might be recorded as
 
 ```original identifier: Albuquerque Biopark 1234```
 
-which will reduce clutter, increase usabillity, and serve the same purposes as the original data.
+which will reduce clutter, increase usability, and serve the same purposes as the original data.
 
 Actionable Other IDs (those that can or could be used to form
 URIs) should always be recorded as specific types. Everything else is
