@@ -9,11 +9,10 @@ layout: default_toc
 
 ## Other IDs (Identifiers)
 
-**Other IDs** (identifiers) are unique identifiers applied to specimens. These
+**Other IDs** (identifiers) are any identifiers applied to specimens. These
 identifiers may allow tracking specimens (as in the case of collector
 numbers), reference other resources (*e.g.*, GenBank numbers), or form
 relationships among specimens (such as hosts of parasites).
-
 
 
 ## Other Identifier Type
@@ -156,7 +155,7 @@ Be as specific and complete as possible in choosing both an Other ID
 Type and assigning an Other ID Number. Everything that follows is an
 elaboration of this simple concept.
 
-Other ID numbers are in a 1:zero-or-one-or-many relationship with
+Other ID numbers are in a zero-or-one-or-many:1 relationship with
 Cataloged Items. There is no limit to the number of Other IDs that may
 be assigned to a catalog item, and there is no implication that IDs must
 be unique, particularly identifying, or even useful. Capture every
@@ -167,28 +166,30 @@ Loaned specimens occasionally return with de-facto other IDs (in the
 form of attached barcodes, GenBank numbers, "personal numbers," etc.).
 Record all these as Other IDs.
 
-The vast majority of the current 150 (one hundred and fifty!) ID types
-in Arctos are useless. For example, there are 6 identifier types
-referencing MVZ, only one of which has a definition:
+There are very roughly three types of OtherIDs in Arctos:
 
-<img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png"  width="640" height="129"
-sizes="(max-width: 640px) 100vw, 640px"
-srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am.png 809w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-300x61.png 300w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-768x156.png 768w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-250x51.png 250w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-550x111.png 550w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-10-01-52-am-800x162.png 800w" />
+1. Those with a base_uri. When the identifier value is appended, these become resolvable and therefore
+actionable - these form links between specimens and GenBank, between specimens (which supports queries such as 
+"what parasites of Canis are in Arctos?"), and to external resources (such as specimen data in other collections
+or non-collection databases).
 
-Considering that the one and only mission of Other Identifiers is to
-serve as a hopefully-unique "name" for specimens, it is hard to imagine
-what of value might be lost if all those were merged into something like
+2. "Internal" IDs, such as AF and NK (former "tissue catalogs" which are still curatorially useful) or collector number. These are not
+resolvable, and are not expected to become resolvable. These vary from fairly specific and well-defined to very generic ("original identifier").
 
-Term: **MVZ: Museum of Vertebrate Zoology**
+3. The Rest, which are somewhat in limbo. For example, if there's some realistic chance that "Albuquerque Biopark" will bring
+online some mechanism for resolving identifiers (at which point these become Category One IDs), then "Albuquerque Biopark"
+should be maintained as an ID type in anticipation. If however "Albuquerque Biopark" is unlikely to become resolvable, moving these to
+Category Two should be considered. For example, current ID
 
-Defintion: **Various inactionable identifiers assigned by the MVZ**
+```Albuquerque Biopark: 1234```
 
-Better than "MVZ" would be the identifier type "MVZ:Bird," which in
-conjunction with a base_url could serve as a [GUID](catalog#guid-prefix) to
-specimens. (Note that this example also works from outside the MVZ – for
-example, if the MSB Bird Collection had co-cataloged an MVZ specimen.)
+might be recorded as 
 
-Actionable Other IDs (at least those that can or could be used to form
+```original identifier: Albuquerque Biopark 1234```
+
+which will reduce clutter, increase usabillity, and serve the same purposes as the original data.
+
+Actionable Other IDs (those that can or could be used to form
 URIs) should always be recorded as specific types. Everything else is
 subject to curatorial discretion.
 
