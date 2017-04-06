@@ -86,29 +86,29 @@ An especially disturbing instance of unique constraint violations.
 
 ### Solution
 
-Do not create or edit individual containers
+Do not create or edit individual containers.
 
 ### More Information
 
-This error is a strong indication of risky behavior, in which one existing container is being replaced by another existing container. Done incorrectly, this has the potential of scrambling the information on both containers (and therefore everything contained in them). We strongly suggest a thorough review of [object tracking documentation](/documentation/container/) and local procedures.<a name="nonull"></a>
+This error is a strong indication of risky behavior, in which one existing container is being replaced by another existing container. Done incorrectly, this has the potential of scrambling the information on both containers (and therefore everything contained in them). We strongly suggest a thorough review of [object tracking documentation](container) and local procedures.<a name="nonull"></a>
 
 <a id="schema"></a>
 >## cannot update _schema.table.column_ to null or cannot insert NULL into _schema.table.column_
 
 ### Problem
 
-You are trying to update a non-nullable value to NULL, or create a NULL value in a non-nullable field
+You are trying to update a non-nullable value to NULL, or create a NULL value in a non-nullable field.
 
 ### Solution
 
-Delete, or choose/supply suitable data
+Delete, or choose/supply suitable data.
 
 ### More Information
 
 Two actions commonly lead here:
 
-1.  A user is trying to make data go away
-2.  A user is trying to assert "we don't know" for a required field
+1.  A user is trying to make data go away.
+2.  A user is trying to assert "we don't know" for a required field.
 
 In the first situation, use the DELETE button. NULL values are NULL values, not a removal of the data object. In the second situation, supply an appropriate value. Required data always have a no-data option, such as Agent "unknown."
 
@@ -119,20 +119,20 @@ In the first situation, use the DELETE button. NULL values are NULL values, not 
 
 ### Problem
 
-You've made Oracle angry
+You've made Oracle angry.
 
 ### Solution
 
-Do not taunt the Oracle
+Do not taunt the Oracle.
 
 ### More Information
 
 Two actions commonly lead here:
 
-1.  Your browser has "helpfully" filled something in, bypassing the actions that get the data needed to save
+1.  Your browser has "helpfully" filled something in, bypassing the actions that get the data needed to save.
 2.  We've failed to properly sanitize input.
 
-In the first situation, most common with Agent Picks, remove a character from the end of the data your browser has so helpfully supplied and hit TAB - a popup window should open (and usually immediately self-close) and the selected data should turn green, indicating it is safe to save. In the second situation, use the contact link at the bottom of the form.
+In the first situation, which is most common with Agent Picks, remove a character from the end of the data your browser has so helpfully supplied and hit TAB - a popup window should open (and usually immediately self-close) and the selected data should turn green, indicating it is safe to save. In the second situation, use the contact link at the bottom of the form.
 
 <a id="fk"></a>
 
@@ -140,11 +140,11 @@ In the first situation, most common with Agent Picks, remove a character from th
 
 ### Problem
 
-You're trying to delete something that's been used elsewhere
+You're trying to delete something that's been used elsewhere.
 
 ### Solution
 
-Delete "child" data
+Delete "child" data.
 
 ### More Information
 
@@ -156,11 +156,11 @@ These errors are most commonly encountered when attempting to delete specimen pa
 
 ### Problem
 
-Something required is NULL or blank
+Something required is NULL or blank.
 
 ### Solution
 
-Provide required data OR remove empty row
+Provide required data OR remove empty row.
 
 ### More Information
 
