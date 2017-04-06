@@ -7,26 +7,26 @@ layout: default_toc
 
 ## Notifications and Reminders by Email
 
-All reminders and notifications rely upon an Agent’s email address; make sure it is current and correct. Some reports (such as loans coming due) are sent directly to Agents, others (such as specimen data annotations) are sent to the collection’s contacts (usually “data quality”). Collection contacts may be managed through the Manage Collection app.
+All reminders and notifications rely upon an Agent’s email address; make sure it is current and correct. Some reports (such as loans coming due) are sent directly to Agents, others (such as specimen data annotations) are sent to the collection’s contacts (usually “data quality”). Collection contacts may be managed through the Manage Collection app. The following notifications and reminders are sent via email:
 
-Loan Reminders for loans where status is not “closed” are sent to:
+**Loan Reminders** for loans where status is not “closed” are sent to:
 
- - The loan’s “notification contact” and “in-house contact” are emailed 30 days before the loan is due, 7 days before the loan is due, and the day the loan is due.
- - The collection’s “loan request” agent(s), along with the loan’s “notification contact” and “in-house contact,” are emailed 7,30,60,129,150,180, and 365 days after the loan was due.
+ - The loan’s “notification contact” and “in-house contact” 30 days before the loan is due, 7 days before the loan is due, and the day the loan is due.
+ - The collection’s “loan request” agent(s), along with the loan’s “notification contact” and “in-house contact,” are emailed 7, 30, 60, 129, 150, 180, and 365 days after the loan was due.
  
-Permit reminders are emailed to the permit’s contact agent 365,180,30, and 0 days before the permit expires.
+**Permit reminders** are emailed to the permit’s contact agent 365, 180, 30, and 0 days before the permit expires.
 
-Accession reminders are emailed to the collection’s data quality contact on every annual anniversary of the received data as long as there are no specimens.
+**Accession reminders** are emailed to the collection’s data quality contact on every annual anniversary of the received data as long as there are no specimens.
 
-Annotations are sent to the collection’s data quality contact upon submission, and may also be accessed under the Reports tab.
+**nnotations** are sent to the collection’s data quality contact upon submission, and may also be accessed under the Reports tab.
 
-Code table updates are sent to all “data quality” contacts.
+**Code table updates** are sent to all “data quality” contacts.
 
-Agent “flagged as duplicate” messages are sent to the “data quality” contacts of affected collections 7 days before the agents are merged.
+**Agent “flagged as duplicate” messages** are sent to the “data quality” contacts of affected collections 7 days before the agents are merged.
 
 ## Reports
 
-Arctos offers several methods by which users may investigate suspect data. None are perfect – black-and-white issues are encoded as database rules, rather than after-the-fact reports.
+Arctos offers several methods by which users may investigate suspect data. None are perfect; black-and-white issues are encoded as database rules, rather than after-the-fact reports.
 
 **Publication Staging** (ManageData/Tools) is a way to quickly capture very basic information about possible Citations in Arctos. Curators should periodically review and update the information in this form.
 
