@@ -5,14 +5,22 @@ layout: default_toc
 
 # Authorities
 
-
+Arctos maintains authorities in order to standardize content that is [shared amongst all collections using Arctos](/documentation/sharing-data-and-resources).
 
 ## Code Tables
 
-All [Code
-Tables](http://arctos.database.museum/info/ctDocumentation.cfm) and code
-table data are the domain of the Arctos Working Group. Any proposed new
+[Code Tables](http://arctos.database.museum/info/ctDocumentation.cfm) enforce data consistency,
+which results in more-usable pick lists to better provide users
+with what they need, and allow more flexibility in communicating with
+other data. However, these goals may not be entirely possible due to
+curatorial reasons. In any conflict between ‘good data’ (*e.g.*,
+consistent values) and curatorial need, curatorial need should win. (It
+is often possible to revisit the data after some time in use and make
+improvements then.) All Code Tables and code table data are the domain 
+of the Arctos Working Group. Any proposed new
 values must be submitted to the Arctos Working Group for consideration.
+Any changes to existing values must be coordinated with the database
+administrators.
 
 Values should:
 
@@ -32,31 +40,14 @@ Values should:
     compromises in terminology.
 -   Be consistent.
 
-Consistent data provide more-usable pick lists, better provide users
-with what they need, and allow more flexibility in communicating with
-other data. However, these goals may not be entirely possible due to
-curatorial reasons. In any conflict between ‘good data’ (*e.g.*,
-consistent values) and curatorial need, curatorial need should win. (It
-is often possible to revisit the data after some time in use and make
-improvements then.)
-
-Any changes to existing values must be coordinated with the database
-administrators.
-
 ## Taxonomy
 
-
-
-Taxonomy is included here only for completeness. See [Taxonomy Documentation](/documentation/taxonomy.html) for more information.
+Taxonomy is included here only for completeness. See [Taxonomy Documentation](/documentation/taxonomy) for more information.
 
 ## Geography
 
-
-
-Geography is included here only for completeness. See [Geography Documentation](/documentation/higher-geography.html) for more information.
+Geography is included here only for completeness. See [Geography Documentation](/documentation/higher-geography) for more information.
 
 ## Agents
 
-
-
-Agents are included here only for completeness. See [Agent Documentation](/documentation/agent.html) for more information.
+Agents are included here only for completeness. See [Agent Documentation](/documentation/agent) for more information.
