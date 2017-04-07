@@ -5,11 +5,9 @@ layout: default_toc
 
 # Specimen Parts
 
-Parts are physical entities, in contrast to [Cataloged
-Items](/documentation/catalog) (an abstract entity) or binary objects
+Parts are physical entities, in contrast to [Cataloged Items](/documentation/catalog) (an abstract entity) or binary objects
 (such as Images). One or many parts may comprise a Cataloged Item, and
-parts may be defined as the minimal units for which [storage
-location](/documentation/container), usage, and condition are
+parts may be defined as the minimal units for which [storage location](/documentation/container), usage, and condition are
 tracked. (*"Parts are things to which you can stick barcodes."*) In many
 collections, parts are nearly always "whole organisms" but in others,
 such as vertebrate paleontology, the variety of parts is huge.
@@ -25,18 +23,15 @@ collection.
 
 ## Part Names
 
-`Specimen_Part.Part_Name VARCHAR(70) not null`
+`Specimen_Part . Part_Name VARCHAR(70) not null`
 
-[`ctspecimen_part_name`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
-
- What we choose to name as a part depends on what we
+What we choose to name as a part depends on what we
 define as a part, and while this is often obvious (*e.g.,* "whole
 organism"), organisms become separated into parts in ways both
 standardized and not. Thus, it is difficult to standardize vocabulary
 for every fragment worthy of preservation.
 
-Vocabulary is controlled by a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name).
+Vocabulary is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name).
 Part names should refer to specific anatomical parts or recognized
 groups of parts (*e.g.*, "postcranial skeleton"). With rare exception,
 parts are the singular form of a noun. In some cases, where the parts
@@ -50,9 +45,7 @@ skeleton*** is considered a single part. Parts already contained in the ***postc
 separate lines for clarity. An acceptable entry might be:
 
 > skull
-
 > postcranial skeleton (partial)
-
 > right humerus [part condition: broken]
 
 Such an entry would designate a postcranial skeleton that has a broken right humerus. Situations like this are typically discovered during loans, are almost always unique, and should be dealt with on a case by case basis.
@@ -80,12 +73,10 @@ from which they can readily obtain subsamples.
 
 ## Disposition
 
-`Coll_Object.Disposition VARCHAR(20) not null`
+`Coll_Object . Disposition VARCHAR(20) not null`
 
-[`ctcoll_obj_disp`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
-
- describes the status of parts and, as an abstract
-generality, the status of cataloged items. Typical values are:
+Disposition describes the status of parts and, as an abstract
+generality, the status of cataloged items. Typical values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp) and include:
 
 -   in collection
 -   being processed
@@ -95,9 +86,9 @@ generality, the status of cataloged items. Typical values are:
 
 ## Condition
 
-`Coll_Object.Condition VARCHAR(255) not null`
+`Coll_Object . Condition VARCHAR(255) not null`
 
- is used for entries such as "broken" or "dissected." The following condition ratings apply specifically to parts with the "is_tissue" flag:
+Condition is used for entries such as "broken" or "dissected." The following condition ratings apply specifically to parts with the "is_tissue" flag:
 
 -   5 – The best tissues. These have gone from a freshly killed animal
     directly into liquid nitrogen. The animal should not have been dead
@@ -115,7 +106,7 @@ generality, the status of cataloged items. Typical values are:
 
 ## Lot Count
 
-`Coll_Object.Lot_Count NUMBER not null`
+`Coll_Object . Lot_Count NUMBER(22) not null`
 
 A **Lot Count** is an integer that enumberates how many similar items
 comprise a part. The value is frequently one (1), but collections of
@@ -158,9 +149,9 @@ Examples of lot count usage:
 
 ## Sampled From
 
-`Specimen_Part.Sampled_From_Obj_Id NUMBER null`
+`Specimen_Part . Sampled_From_Obj_ID NUMBER(22) not null`
 
- designates a part derived from another part. This is
+Sampled From designates a part derived from another part. This is
 intended to be a subsample supplied to an investigator for destructive
 analysis. Therefore it often applies to parts that are no longer in the
 collection, but if the subsamples or extracts thereof are returned,
@@ -169,4 +160,4 @@ these can be tracked.
 ## Remarks
 
 Use remarks to document non-standard information pertaining to the specimen part. 
-Do not use remarks for any information which could be recorded with more structure elsewhere, including Part Attributes.
+Do not use remarks for any information which could be recorded with more structure elsewhere, including [Part Attributes](/documentation/attributes).
