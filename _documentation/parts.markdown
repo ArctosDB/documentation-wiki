@@ -45,7 +45,9 @@ skeleton*** is considered a single part. Parts already contained in the ***postc
 separate lines for clarity. An acceptable entry might be:
 
 > skull
+
 > postcranial skeleton (partial)
+
 > right humerus [part condition: broken]
 
 Such an entry would designate a postcranial skeleton that has a broken right humerus. Situations like this are typically discovered during loans, are almost always unique, and should be dealt with on a case by case basis.
@@ -158,6 +160,8 @@ collection, but if the subsamples or extracts thereof are returned,
 these can be tracked.
 
 ## Remarks
+
+`Coll_Object_Remark . Coll_Object_Remarks VARCHAR2(4000) null`
 
 Use remarks to document non-standard information pertaining to the specimen part. 
 Do not use remarks for any information which could be recorded with more structure elsewhere, including [Part Attributes](/documentation/attributes).
