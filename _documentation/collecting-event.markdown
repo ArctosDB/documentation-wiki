@@ -40,8 +40,8 @@ the collector. Verbatim Locality is not often displayed.
 
 ## Dates
 
-The date of the Collecting Event is expressed in three fields: Verbatim
-Date, Began Date, and Ended Date. The purpose of these three fields is
+The date of the Collecting Event is expressed in three fields: `Verbatim_Date`,
+`Began_Date`, and `Ended_Date`. The purpose of these three fields is
 to encompass the uncertainty and imprecision inherent in collecting
 dates as they are often recorded by collectors, and to properly record
 the duration of Collecting Events that may have been longer or shorter
