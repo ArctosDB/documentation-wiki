@@ -5,12 +5,12 @@ layout: default_toc
 
 # Dates
 
-
 <div class="center-block text-center">
   <a href="http://xkcd.com/1179/">
     <img src="http://imgs.xkcd.com/comics/iso_8601.png" alt="XKCD 1179" />
   </a>
 </div>
+
 
 Only the information on this page defines the ISO8601 standard for
 Arctos.
@@ -35,32 +35,20 @@ Arctos.
 
 ## Supported components
 
--   4-digit positive year. <span class="example">Example:
-    1987</span><span class="next">(optionally followed by
-    dash and…)</span>
--   2-digit month of the year. <span class="example">Example:
-    1987-04</span><span class="next">(optionally followed by
-    dash and…)</span>
--   2-digit day of the month. <span class="example">Example:
-    1987-04-28</span><span class="next">(optionally followed by the
-    character T and…)</span>
--   2-digit hour of the day (days have 24 hours). <span
-    class="example">Example: 1987-04-28T13</span><span
-    class="next">(optionally followed by colon and…)</span>
--   2-digit minute of the hour. <span class="example">Example:
-    1987-04-28T13:34</span><span class="next">(optionally followed by
-    colon and…)</span>
--   2-digit second of the minute. <span class="example">Example:
-    1987-04-28T13:34:17</span><span class="next">(optionally followed by
-    timezone, given by any one of…)</span>
-    -   The letter Z, designating UTC time zone. <span
-        class="example">Example: 1987-04-28T13:34:17Z</span>
-    -   The character + followed by a 2-digit positive offset from UTC.
-        <span class="example">Example: 1987-04-28T13:34:17+03</span>
-    -   The character – followed by a 2-digit negative offset from UTC.
-        <span class="example">Example: 1987-04-28T13:34:17-11</span>
--   4-digit negative year. Example: -1987. By convention 1 BC is
-    labelled +0000, 2 BC is labeled -0001, and so on.
+-   4-digit positive year. *Example:* 1987 *(optionally followed by
+    dash and…)*
+-   2-digit month of the year. *Example:* 1987-04 *(optionally followed by
+    dash and…)*
+-   2-digit day of the month. *Example:* 1987-04-28 *(optionally followed by
+    the character T and…)*
+-   2-digit hour of the day (days have 24 hours). *Example:* 1987-04-28T13 *(optionally followed by colon and…)*
+-   2-digit minute of the hour. *Example:* 1987-04-28T13:34 *(optionally followed by colon and…)*
+-   2-digit second of the minute. *Example:* 1987-04-28T13:34:17 *(optionally followed by
+    timezone, given by any one of…)*
+    -   The letter Z, designating UTC time zone. *Example:* 1987-04-28T13:34:17Z
+    -   The character + followed by a 2-digit positive offset from UTC. *Example:* 1987-04-28T13:34:17+03
+    -   The character – followed by a 2-digit negative offset from UTC. *Example:* 1987-04-28T13:34:17-11
+-   4-digit negative year. *Example:* -1987. By convention 1 BC is labelled +0000, 2 BC is labeled -0001, and so on.
 
 ## Usage Notes
 
