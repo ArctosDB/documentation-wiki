@@ -27,7 +27,7 @@ and an accession. This arrangement well reflects the reality of
 incompleted exchanges, and takes advantage of the fact that we are
 dealing with both outgoing specimens and incoming specimens.
 
-### Loan Fields
+## Loan Fields
 
 ### Loan Number
 
