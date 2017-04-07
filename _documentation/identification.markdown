@@ -5,8 +5,6 @@ layout: default_toc
 
 # Identifications
 
-
-
 Determinations, or "identifications" (IDs), apply taxonomic terms to
 specimens. In other words, determinations are not necessarily just
 taxonomic terms. Information about taxonomic names (which are used to
@@ -26,10 +24,9 @@ can be only one accepted determination, but not necessarily that prior
 identifications are wrong. In fact, complimentary IDs by experts or by
 alternative methods enhance the value of the specimen.
 
-
 ## Scientific Name
 
- There is a distinction between Scientific Name here
+There is a distinction between Scientific Name here
 in determinations, as opposed to [Scientific Name as it is used in the
 taxonomy table](/documentation/taxonomy#taxon-name). The latter is a term from a
 table serving as a taxonomic look-up (or authority). Here, it is a
@@ -42,19 +39,15 @@ is merely a specific formatting of the data in Taxonomy.) The
 explanation of Determination Formula (immediately below) is
 illustrative.
 
-
 ## Determination Formula
 
-`Identification . TAXA_FORMULA VARCHAR2 (25) not null`
-
-[`cttaxa_formula`](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula)
-
+`Identification . Taxa_Formula VARCHAR2(25) not null`
 
 A determination can contain more than one taxon, possibly in conjunction
 with modifiers. Taxa are combined with each other, or with modifiers,
 according to a formula. For example:
 
-  |`Identification.Scientific_Name`         | Formula          | `Taxonomy.Scientific_Name`(s)|
+  |`Identification . Scientific_Name`         | Formula          | `Taxonomy . Scientific_Name`(s)|
   |-----------------------------------------|------------------|------------------------------|
   |*Sorex cinereus*                         | one taxon (A)    | A = *Sorex cinereus*         |
   |*Sorex cinereus* ?                       | taxon (A) + "?"  | A = *Sorex cinereus*         |
@@ -88,78 +81,57 @@ purposes of ordering or formulating complex names, and as such there
 exist no restrictions on how many ‘A’s can exist for an identification.
 The following table is illustrative.
 
-
   |Identification                          | Taxa            | Why             |
   |----------------------------------------|-----------------|-----------------|
   | Sorex n. sp. "funnyfeet"               |  Sorex          | "Working names" (eg, informal identifiers not yet published as formal names) are perhaps the most common usage of the ‘A {string}’ formula |
   | Iron-rich mudstone                     | unidentifiable  | While non-Linnean taxonomies are possbile in Arctos, they do not exist for all material. In this case, a mineral sample has no formal taxonomy. |
   | Birchbark basket with moosehide lacings| Alces alces     | Artifact collections identify objects using ethnological terminology, but the items are often made from biological material. Adding linkages to Linnean taxonomy makes the material discoverable by attributes of those taxa. With these linkages, a biologist might locate this item and request subsamples of the (often pre-industrial) biological components. |
 
- 
-
-
 ## Determiner
 
-`Identification . Made_By_Agent_id NUMBER not null (FK)`
+`Identification_Agent . Agent_ID NUMBER(22) not null`
 
- The determiner is the [agent](agent) (or agents, usually
+The determiner is the [agent](/documentation/agent) (or agents, usually
 a person) who identified the specimen. More than one agent can be
 entered. The order in which such co-determiners are displayed is set in
 the form by the order in which they were added to the determination. To
 change the displayed order, create a new copy of the determination with
 the determiners in the desired order, then delete the old record.
 
-
-
 ## Determined Date
 
-`Identification . Made_Date DATE null`
+`Identification . Made_Date VARCHAR2(22) null`
 
-
- [ISO8601](/documentation/dates) date-type. The
+[ISO8601](/documentation/dates) date-type. The
 chronological order of determinations may be the most critical issue.
-
-
 
 ## Nature of ID
 
-`Identification . Nature_Of_ID VARCHAR2 (30) not null`
+`Identification . Nature_Of_ID VARCHAR2(30) not null`
 
-[`ctnature_of_id`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id)
-
-
- The basis of the identification. Vocabulary is defined
-in, and controlled by, a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id).
+The basis of the identification. Vocabulary is defined
+in, and controlled by, a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id).
 
 > This concept is undergoing modification. Please see [Issue 515](https://github.com/ArctosDB/arctos/issues/515) for additional guidance.
 
-
-
 ## *Sensu* Publication
 
-`Identification.Publication_ID NUMBER NOT NULL (FK Publication.Publication_ID)`
-
+`Identification . Publication_ID NUMBER(22) null`
 
 Signifies that a determination is made in the sense of (*sensu*) a
-particular
-[publication](/documentation/publications).
+particular [publication](/documentation/publications).
 This may be used both in the taxonomic sense ("this specimen fits in
 with Some Author’s concept of *Aus bus*") and as supporting
 documentation ("We’ve determined this to be *Aus bus* using the methods
 provided by Some Author").
 
-
-
 ## Remarks
 
-`Identification . Remarks VARCHAR2 255`
+`Identification . Identification_Remarks VARCHAR2(4000) null`
 
-can elaborate or clarify any signficant aspect of a
+Remarks can elaborate or clarify any signficant aspect of a
 determination. This is a good place for recording the verbatim form of
-a [Determined Date](#remarks) if it was not recorded as an exact day.
-
-
+a [Determined Date](#determined-date) if it was not recorded as an exact day.
 
 SpecimenSearch contains a dropdown list with the following values. All
 searches are case-insensitive. Examples are fictitious and incomplete.
