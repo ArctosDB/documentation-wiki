@@ -30,10 +30,9 @@ media are stored in three tables:
 
 ### Media URI
 
-`Media.MEDIA_URI VARCHAR2(255) not null`
+`Media . Media_URI VARCHAR2(255) not null`
 
-The [Uniform Resource
-Identifier](http://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
+The [Uniform Resource Identifier](http://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
 (URI) that finds the media object on the Internet. (A URL is a common
 type of URI.) See also [stability](#urls-and-stability). Media URIs are of very
 roughly three classes:
@@ -56,21 +55,15 @@ out here.jpg"
 
 ### Mime Type
 
-`Media.MIME_TYPE VARCHAR2(255) not null`
-
-[`ctmime_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
+`Media . Mime_Type VARCHAR2(255) not null`
 
 The Internet media type. Consists of a type and subtype, such as
-"text/html."
-[Code-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
-controlled, as described in
-[Wikipedia](http://en.wikipedia.org/wiki/Mime_type).
+"text/html." [Code-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmime_type)
+controlled, as described in [Wikipedia](http://en.wikipedia.org/wiki/Mime_type).
 
 ### Media Type
 
-`Media.MEDIA_TYPE VARCHAR2(255) not null`
-
-[`ctmedia_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type)
+`Media . Media_Type VARCHAR2(255) not null`
 
 A description of the kind of media. These values are controlled by a
 [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type).
@@ -80,7 +73,7 @@ MIME_TYPE of ‘text/html’ and MEDIA_TYPE of ‘image,’ for example.
 
 ### Preview URI
 
-`Media.PREVIEW_URI VARCHAR2(255) null`
+`Media . Preview_URI VARCHAR2(255) null`
 
 The Uniform Resource Identifier (URI) for a preview of the Media item. A
 preview might be something like a thumb-nail sized version of a larger
@@ -88,55 +81,50 @@ image.
 
 ### Media Relationship
 
-`Media_Relations.MEDIA_RELATIONSHIP VARCHAR2(40) not null`
-
-[`ctmedia_relationship`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship)
+`Media_Relations . Media_Relationship VARCHAR2(40) not null`
 
 The kind of relationship between the media and the data item.
 Relationships are functional and must be comprised of a string
 containing at least one space and ending with a table name. ColdFusion
-and Oracle both rely on this. Values are controlled by a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship).
+and Oracle both rely on this. Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship).
 
 ### Created By
 
-`Media_Relations.CREATED_BY_AGENT_ID NUMBER not null`
+`Media_Relations . Created_By_Agent_ID NUMBER(22) not null`
 
 The agent who created the relationship between a media object and a data
 item. This is a foreign key to the [Agent](/documentation/agent) table.
 
 ### Related Data Item
 
-`Media_Relations.RELATED_PRIMARY_KEY NUMBER not null`
+`Media_Relations . Related_Primary_Key NUMBER(22) not null`
 
 The data item to which the Media object is related. This is a foreign
 key.
 
 ### Media Label
 
-`Media_Labels.MEDIA_LABEL VARCHAR2(255) not null`
-
-[`ctmedia_label`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label)
+`Media_Labels . Media_Label VARCHAR2(255) not null`
 
 The subject matter of a label describing a Media object. Values are
 controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_label).
 
 ### Label Value
 
-`Media_Labels.LABEL_VALUE VARCHAR2(255) not null`
+`Media_Labels . Label_Value VARCHAR2(4000) not null`
 
 The content of a label. Generally the value is uncontrolled text, with the exception of Media Label = **"Made_Date"**, which requires its values to be in [ISO date format](/documentation/dates) (*e.g.* "2014-05-01" for "1 May 2014"), and will give an error upon saving if not rendered in that format. Try updating the date to the correct format to avoid error messages.
 
 ### Assigned By
 
-`Media_Labels.ASSIGNED_BY_AGENT_ID NUMBER not null`
+`Media_Labels . Assigned_By_Agent_ID NUMBER(22) not null`
 
 The agent who assigned the label. This is a foreign key to the [Agent](/documentation/agent)
 table.
 
 ### Checksum
 
-is a cryptographic hash, or "digital fingerprint," of a file. At a later
+Checksum is a cryptographic hash, or "digital fingerprint," of a file. At a later
 time, another checksum can be generated and compared to the original.
 Matching checksum values provide great certainty that the file has not
 changed. Arctos provides a means to generate an MD5 checksum and save
@@ -207,8 +195,7 @@ JPG view – what most users find
 
 ## Multi-page documents
 
-Multi-page documents are paginated JPGs, such as [scanned field
-notes](http://arctos.database.museum/document/fieldnotes-grinnell-j-1911-part-1-section-1-san-joaquin-valley-calif).
+Multi-page documents are paginated JPGs, such as [scanned field notes](http://arctos.database.museum/document/fieldnotes-grinnell-j-1911-part-1-section-1-san-joaquin-valley-calif).
 Sequential JPGs are used rather than formats such as PDF to support
 further manipulation, such as adding
 [TAGs](http://arctos.database.museum/document/fieldnotes-grinnell-j-1911-part-1-section-1-san-joaquin-valley-calif/72).
