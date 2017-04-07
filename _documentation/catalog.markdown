@@ -25,9 +25,9 @@ synonymously with "cataloged item" throughout Arctos.
 
 ## Catalog Number
 
-`Cataloged_Item.Cat_Num NUMBER not null`
+`Cataloged_Item . Cat_Num VARCHAR2(40) not null`
 
- is the string (sometimes integer) assigned to a
+Catalog Number is the string (sometimes integer) assigned to a
 Cataloged Item. It must be unique (case-insensitive) within a particular
 catalog. Arctos currently supports three formats of catalog number.
 
@@ -48,9 +48,13 @@ catalog. Arctos currently supports three formats of catalog number.
     
 ## Cataloged Item Type
 
+`Cataloged_Item . Cataloged_Item_Type VARCHAR2(20) not null`
+
 A [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCATALOGED_ITEM_TYPE) is available to explicitly label various types of cataloged material.
 
 ## Remarks
+
+`Coll_Object_Remark . Coll_Object_Remarks VARCHAR2(4000) null`
 
 Use remarks to document non-standard information pertaining to the specimen. 
 Do not use remarks for any information which could be recorded with more structure elsewhere, including
@@ -58,42 +62,55 @@ remarks better stored with a part, event, or any other "piece of the specimen."
 
 ## Entered By
 
+`Coll_Object . Entered_Person_ID NUMBER(22) not null`
+
 Agent creating the catalog record.
 
 ## Entered Date
+
+`Coll_Object . Coll_Object_Entered_Date NUMBER(7) not null`
 
 Date on which the record was created.
 
 ## Edited By
 
+`Coll_Object . Last_Edited_Person_ID NUMBER(22) null`
+
 Agent last editing the catalog record.
 
 ## Edited Date
 
+`Coll_Object . Last_Edit_Date NUMBER(7) null`
+
 Date on which the record was last edited.
 
 ## Flags
+
+`Coll_Object . Flags VARCHAR2(20) null`
 
 Flags mark a specimen as missing information during the entry process. It is sometimes more convenient to bulkload data after the
 specimen record exists than to enter data with the specimen; flags serves as a marker to facilite easily locating those specimens.
 
 ## Associated Species
 
+`Coll_Object_Remark . Associated_Species VARCHAR2(4000) null`
+
 Free-text description of species associated with the specimen.
 
 ## Guid Prefix
 
-Catalogs are most usefully defined by way of `Collection.Guid_Prefix`,
+`Collection . GUID_Prefix VARCHAR2(20) not null`
+
+Catalogs are most usefully defined by way of a GUID Prefix,
 which in conjunction with catalog number forms a unique identifier
 within Arctos, and in conjunction with Arctos’ URI forms a Globally
 Unique Identifier (GUID) for the specimen record. GUIDs, once formed,
-must never be allowed to change or expire. See [deleting
-specimens](#deleting-records-from-arctos) for guidelines. All specimen citations should occur
-by way of GUID.
+must never be allowed to change or expire. See [deleting specimens](#deleting-records-from-arctos) 
+for guidelines. All specimen citations should occur by way of GUID.
 
 ## Collection
 
-`Collection.Collection VARCHAR2(15) not null`
+`Collection . Collection VARCHAR2(50) not null`
 
 A short name for a particular collection type. For
 example:
@@ -102,11 +119,10 @@ example:
 
 ## Collection Code
 
-`Collection.Collection_Cde VARCHAR2(4) not null`
+`Collection . Collection_Cde VARCHAR2(5) not null`
 
 This is an abbreviation for a collection type, such
-as "Mamm" or "Bird." ([code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde))
+as "Mamm" or "Bird" (see [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde)).
 This field is most importantly used in code tables, which determine the
 values provided to drop-downs in specimen-editing applications. Thus, if
 you are editing the record for a mammal specimen, you have the option of
@@ -115,7 +131,7 @@ irrelevant attributes such as beak length.
 
 ## Description
 
-`Collection.Desc VARCHAR2(255) not null`
+`Collection . Descr VARCHAR2(4000) null`
 
 An extended name/description of the collection. For example:
 
@@ -126,9 +142,9 @@ An extended name/description of the collection. For example:
 
 ## Institution Acronym
 
-`Collection.Institution_Acronym VARCHAR2(20) not null`
+`Collection . Institution_Acronym VARCHAR2(20) null`
 
- Abbreviation of the institution that hosts the
+Abbreviation of the institution that hosts the
 catalog. For example, "MVZ" for Museum of Vertebrate Zoology, "UAM" for
 University of Alaska Museum (of the North), "MSB" for Museum of
 Southwestern Biology. Generally, these values are the same as those
@@ -416,5 +432,4 @@ To do this,
     MSB:Mamm:456, enter: old_path=**/guid/DGR:Mamm:123**;
     new_path=**/guid/MSB:Mamm:456**.
 
-Other ID documentation has moved to [it’s own
-page](/documentation/other-identifying-numbers).
+Other ID documentation has moved to [it’s own page](/documentation/other-identifying-numbers).
