@@ -27,26 +27,26 @@ and an accession. This arrangement well reflects the reality of
 incompleted exchanges, and takes advantage of the fact that we are
 dealing with both outgoing specimens and incoming specimens.
 
-## Loan Number
+### Loan Fields
 
-`Loans.Loan_Number VARCHAR(20) not null`
+### Loan Number
+
+`Loan . Loan_Number VARCHAR2(255) not null`
 
 A Loan "number" is a string identifying the loan. The format usually
 follows local tradition (*e.g.*, YYYY:nnn:Collection) but is
 uncontrolled.
 
-## Type
+### Type
 
-`Loans.Loan_Type VARCHAR not null`
-
-[`ctLoan_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE)
+`Loan . Loan_Type VARCHAR2(25) null`
 
 Loan type is a [code-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE) controlled vocabulary. If multiple Types apply, consider separate loans for separate Types, or
 enter the most important one (*i.e.*, "returnable").
 
-### Data loans
+#### Data loans
 
- document data usage, and are generally used when a
+Data Loans document data usage, and are generally used when a
 project downloads data from Arctos without examining specimens. Data
 loans form a special relationship between a loan and a cataloged item,
 rather than a loan and a specimen part. Data loans are not meant as a
@@ -76,9 +76,9 @@ loan for illustrative purposes.
     publication
     
     <div class="separator" style="clear:both;text-align:center">
-
     <img src="https://sites.google.com/site/arctosdb/_/rsrc/1302031427955/howto/dataloan/screenshot_%202011-04-05%20at%2012.23.05%20PM.png" width="320" height="51" />
-
+    </div>
+    
 Total time: \~10 minutes, mostly spent researching and creating Agents. Result:
 <http://arctos.database.museum/project/different-climatic-envelopes-among-invasive-populations-may-lead-to-underestimations-of-current-and-future-biological-invasions>
 
@@ -92,94 +92,91 @@ Additionally, if current Hieracium specimens are later determined to be
 some other species, those data will remain as part of the loan, perhaps
 explaining yet-undetected anomalies in the publication.
 
+### Status
 
-## Status
+`Loan . Loan_Status VARCHAR2(20) not null`
 
-`Loans.Loan_Status VARCHAR not null`
+Loan Status is essentially the degree to which the transaction has been completed. The values comes from a [code-table controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_STATUS).
 
-[`ctLoan_Status`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_STATUS)
+### Loan Agents
 
- is essentially the degree to which the transaction has been completed. The values comes from a [code-table controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_STATUS).
-
-## Loan Agents
+`Trans_Agent . Trans_Agent_ID NUMBER(22) not null`
 
 See [Transaction Documentation](/documentation/transactions.html#transaction-agents) for agent information.
 
-## Nature of Material
+### Nature of Material
 
-`Loans.Nature_of_Material VARCHAR not null`
+`Trans . Nature_of_Material VARCHAR2(4000) not null`
 
- A description summarizing the overall content of
+A description summarizing the overall content of
 the loan. This description will appear on the loan invoice. It should be
 explicit and concise, but it does not need include details on a
 specimen-by-specimen basis.
 
-## Instructions
+### Instructions
 
-`Loans.Instructions VARCHAR null`
+`Loan . Instructions VARCHAR2(4000) null`
 
- Directions to the borrower on such things as storage
+Directions to the borrower on such things as storage
 and return of the loaned items.
 
-## Description
+### Description
 
-`Loans.Description VARCHAR null`
+`Loan . Description VARCHAR2(4000) null`
 
- I don’t know? Why do we need another text field in
-addition to Nature of Material and Remarks?
+*I don’t know? Why do we need another text field in
+addition to Nature of Material and Remarks?*
 
-## Remarks
+### Remarks
 
-`Loans.Loan_Remarks VARCHAR null`
+`Trans . Trans_Remarks VARCHAR2(4000) null`
 
- Any annotations that will not be included on the Loan
+Any annotations that will not be included on the Loan
 invoice.
 
-## Initiated Date
+### Initiated Date
 
-`Loans.Initiated_Date DATE not null`
+`Trans . Trans_Date DATE(7) null`
 
- is the [date](/documentation/dates) on which preparation of the loan began. A
+Initiated Date is the [date](/documentation/dates) on which preparation of the loan began. A
 default value would be the date on which the loan was first recorded in
 the database.
 
-## Due Date
+### Due Date
 
-`Loans.Due_Date DATE null`
+`Loan . Return_Due_Date DATE(7) null`
 
- is the [date](/documentation/dates) that a loan of the Type Returnable is expected
+Due Date is the [date](/documentation/dates) that a loan of the Type Returnable is expected
 to be returned to the lending collection. This date may be used to
 search for overdue loans, and/or to generate automated reminders to the
 appropriate agents.
 
-## Shipping Date
+### Shipping Date
 
-`Loans.Shipping_Date DATE null`
+`Shipment . Shipped_Date DATE(7) null`
 
- is the [date](/documentation/dates) that the loaned material was shipped from
+Shipping Date is the [date](/documentation/dates) that the loaned material was shipped from
 the collection issuing the loan. The Shipping Date should be consistent
 with any documentation provided by the carrier, *e.g.,* a waybill, bill
 of lading, etc.
 
-## Receipt Acknowledged
+### Receipt Acknowledged
 
-`Loans.Receipt_Acknowledged_Date DATE null`
+`Borrow . Received_Date DATE(7) null`
 
- is the [date](/documentation/dates) the agent receiving the loan
+Receipt Acknowledged is the [date](/documentation/dates) the agent receiving the loan
 submitted acknowledgment of its arrival to lending collection.
 
-## Returned Date
+### Returned Date
 
-`Loans.Returned_Date DATE null`
+`Loan . Closed_Date DATE(7) null`
 
-is the [date](/documentation/dates) that a loan of the type Returnable was received back at the
+Returned, or Closed, Date is the [date](/documentation/dates) that a loan of the type Returnable was received back at the
 collection from which the loan was issued.
 
 ## Permits
 
-`Permit.Permit_ID INTEGER null`
-
- A loan may be authorized under one or more
+A loan may be authorized under one or more
 [permits](/documentation/permits), and these may include both the senders and to
 the recipients. Such authorizations should be recorded by associating
 the loan with a permit that must be already be in the database.
@@ -189,9 +186,7 @@ loan.
 
 ## Projects
 
-`Project.Project_ID INTEGER null`
-
- A loan is almost always made in support of one or more
+A loan is almost always made in support of one or more
 [projects](/documentation/projects), and it is in project descriptions that the
 scientific justification for the loan should be described.
 
@@ -201,7 +196,7 @@ In general, an item which has gone out on loan should never be removed
 from the loan. Delete functionality exists only to correct mistakes –
 when an item was added to a loan but not shipped, for example. Loan
 items (parts) may not be deleted from the database. Item Disposition
-and/or Container information is used to signify that an item has been
+and/or [Container](/documentation/container) information is used to signify that an item has been
 returned (or sent out on another loan). Maintaining this history is
 vital to recording collection activity, and for building Projects, which
 are transaction-based.
