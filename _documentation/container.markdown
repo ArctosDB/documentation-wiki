@@ -52,12 +52,9 @@ freezer).
 
 ### Container Type
 
-`Container.Container_Type VARCHAR(20) not null`
+`Container . Container_Type VARCHAR(20) not null`
 
-[`ctcontainer_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcontainer_type)
-
- Vials, jars, boxes, shelves, and rooms are all
-Container Types.
+Vials, jars, boxes, shelves, and rooms are all Container Types.
 [Vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)
 is controlled, and should be limited to unambiguous and mutually
 exclusive kinds of containers.
@@ -78,7 +75,7 @@ useful.
 
 ### Parent Container
 
-`Container.Parent_Container_id NUMBER not null`
+`Container . Parent_Container_ID NUMBER(22) not null`
 
 This is the value that identifies the container into which another
 (child) Container has been placed. The value is not displayed in
@@ -87,7 +84,7 @@ Labels and entered into forms by their Barcode.
 
 ### Barcode
 
-`Container.Barcode VARCHAR(50) null`
+`Container . Barcode VARCHAR(50) null`
 
  Within the database, a barcode is a string of characters
 unique to a container. Most barcode values are meaningless "dumb
@@ -120,9 +117,9 @@ known barcode values.
 
 ### Label
 
-`Container.Label VARCHAR(255) not null`
+`Container . Label VARCHAR(255) not null`
 
-is the descriptive value that is displayed in most of our
+Label is the descriptive value that is displayed in most of our
 object-tracking applications. It should usually represent something that
 appears on the container. In many cases, this will be the value of the
 barcode which is displayed in human-readable fonts on most barcode
@@ -144,44 +141,44 @@ in Freezer 6 is "Frzr6 6-B," not just "6-B."
 
 ### Description
 
-`Container.Description VARCHAR(255) null`
+`Container . Description VARCHAR(255) null`
 
- is a useful expansion of Label. "Room 363" is useful as
+Description is a useful expansion of Label. "Room 363" is useful as
 a label, but something like "the processing room in the south wing of
 the Biology Annex" may be expeditious.
 
 ### Install Date
 
-`Container_History . Install_Date DATETIME not null`
+`Container_History . Install_Date DATE(7) not null`
 
- is the date on which the Parent Container was last
+Install Date is the date on which the Parent Container was last
 changed, *i.e.*, the date on which the Container was placed in its
 parent.
 
 ### Remarks
 
-`Container.container_remarks VARCHAR(255) null`
+`Container . Container_Remarks VARCHAR(255) null`
 
-is the place to record notes and about the container or its contents.
+This is the place to record notes and about the container or its contents.
 Remarks are especially useful in explaining the nature and treatment of
 legacy containers (*i.e.,* containers without barcode labels).
 
 ### Print Flag
 
-`Container.print_fg NUMBER(1) null`
+`Container . Print_Fg NUMBER(22) null`
 
- is a temporary flag that can be set for the purpose of
+Print Flag is a temporary flag that can be set for the purpose of
 printing container labels.
 
 ### Width, Height, and Length
 
-`Container.width NUMBER null`
+`Container . width NUMBER(22) null`
 
-`Container.height NUMBER null`
+`Container . height NUMBER(22) null`
+ 
+`Container . length NUMBER(22) null`
 
-`Container.length NUMBER null`
-
-Dimensions of a container in centimeters.
+These are the dimensions of a container in centimeters.
 Decimal fractions can be used. Because movement of objects involves two
 barcode scans that relate a child container to a parent container, there
 is a risk of accidentally reversing these two values. These dimensions
@@ -199,9 +196,9 @@ Some common container dimensions:
 
 ### Number of Positions
 
-`Container.Number_Positions INTEGER null`
+`Container . Number_Positions NUMBER(22) null`
 
- Some containers have immovable subcontainers of
+Some containers have immovable subcontainers of
 the Container Type Position. For example, many freezer boxes designed to
 contain cryovials have either 81 (9 X 9 rows) or 100 (10 X 10 rows)
 subdivisions, or fixed positions, for cryovials. Recording the number of
@@ -211,9 +208,9 @@ as scanning cryovials into a 100-position freezer box versus an
 
 ### Institution
 
-`Container.institution_acronym VARCHAR(20) not null`
+`Container . Institution_Acronym VARCHAR2(20) not null`
 
- is an abbreviation that indicates which institution’s
+Institution is an abbreviation that indicates which institution’s
 "owns" a container. ("Owns" because containers are in fact shared across
 VPD boundaries; this is closer to an indication of creator.)
 
