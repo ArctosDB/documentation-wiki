@@ -24,8 +24,8 @@ non-current data which will be rejected.**
 There is no standard method for moving data into table Bulkloader. You
 may import data from any file format, type the data into the table,
 write your own data entry screen, or use any other method you choose. We
-appreciate documentation, even for specialized datasets – [contact
-us](https://arctosdb.org/join-arctos/contacts-support) if you wish to contribute.
+appreciate documentation, even for specialized datasets – [contact us](https://arctosdb.org/join-arctos/contacts-support) 
+if you wish to contribute.
 
 You may mix accessions, collections, or anything else in a single load.
 
@@ -36,8 +36,8 @@ to other bulkloaders with UUIDs, or talk to your friendly local Arctos
 development team BEFORE you make a mess.
 
 Error messages should include more than enough information to allow you
-to locate and correct the problem. If that isn’t the case, [contact
-us](https://arctosdb.org/join-arctos/contacts-support) with the error message and a description of
+to locate and correct the problem. If that isn’t the case, [contact us](https://arctosdb.org/join-arctos/contacts-support) 
+with the error message and a description of
 the action that caused the error message.
 
 Arctos is case-sensitive. JOHN DOE is not the same value as John Doe.
@@ -46,9 +46,9 @@ Leading and trailing spaces and other non-printing characters matter.
 The web-based applications may not work well for very large loads.
 [Contact us](https://arctosdb.org/join-arctos/contacts-support) if you’re having problems.
 
-## Agent names
+## Agent Names
 
-must match a unique namestring, not
+[Agent](/documentation/agent) Names must match a unique namestring, not
 necessarily the preferred name. If you are loading "John Smith" and
 there are three John Smiths in Arctos, you might create a new name "John
 Smith (my project)" and use that namestring in your data. Once loaded,
@@ -63,7 +63,7 @@ requires `taxonomy.scientific_name`, not `taxonomy.display_name`. That is,
 subsp. *lugens* (Holm) T.V. Egorova".
 
 Any of the following are acceptable taxon name values (current
-23 Aug 2011, see [cttaxa_formula](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula) for most current formulas):
+23 Aug 2011, see [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula) for most current formulas):
 
 -   Formula "A": An exact match to any accepted
     `taxonomy.scientific_name`
@@ -108,11 +108,11 @@ know](http://arctos.database.museum/contact.cfm) if it’s out of date, incomple
 | <span class="blrequired">required</span><br/><span class="blcondreq">conditionally required</span><br/><span class="bloptional">not required</span> | | |
 |<span class="bloptional">Collection_Object_Id</span>| any unique number | Temporary record identifier; Does NOT carry over to any internal primary keys.|
 | <span class="bloptional">Cat_Num</span> | set by collection | Existing catalog number, or leave blank to assign sequential numbers on upload. |
-| <span class="blrequired">Began_Date</span> | ISO8601 date |[\[ doc \]](collecting-event#began-date--ended-date) Earliest date the specimen could have been collected. |
-| <span class="blrequired">Ended_Date</span> | ISO8601 date | [\[ doc \]](collecting-event#began-date--ended-date) Latest date the specimen could have been collected. |
-| <span class="blrequired">Verbatim_Date</span> | text; any string | [\[ doc \]](collecting-event#verbatim-date) Examples: ‘winter 2002’; ‘1 Nov 2002’; ‘Nov 2002’. |
-| <span class="blrequired">VERIFICATIONSTATUS</span> |text; [CTVERIFICATIONSTATUS](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctVERIFICATIONSTATUS) | |
-| <span class="blrequired">SPECIMEN_EVENT_TYPE</span> | text; [CTSPECIMEN_EVENT_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctSPECIMEN_EVENT_TYPE) | Type of specimen-event relationship |
+| <span class="blrequired">Began_Date</span> | ISO8601 date |[\[ doc \]](/documentation/collecting-event#began-date--ended-date) Earliest date the specimen could have been collected. |
+| <span class="blrequired">Ended_Date</span> | ISO8601 date | [\[ doc \]](/documentation/collecting-event#began-date--ended-date) Latest date the specimen could have been collected. |
+| <span class="blrequired">Verbatim_Date</span> | text; any string | [\[ doc \]](/documentation/collecting-event#verbatim-date) Examples: ‘winter 2002’; ‘1 Nov 2002’; ‘Nov 2002’. |
+| <span class="blrequired">VERIFICATIONSTATUS</span> |text; [ctverificationstatus](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctVERIFICATIONSTATUS) | |
+| <span class="blrequired">SPECIMEN_EVENT_TYPE</span> | text; [ctspecimen_event_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctSPECIMEN_EVENT_TYPE) | Type of specimen-event relationship |
 | <span class="blrequired">Event_Assigned_By_Agent</span> | text; [agent name](#agent-names) | Agent asserting specimen-to-event relationship; often coordinate determiner. |
 | <span class="blrequired">Event_Assigned_Date</span> |date|Date on which the specimen-event relationship is made|
 |<span class="bloptional">Coll_Event_Remarks</span>|text; any string | Remarks about Collecting Event.|
@@ -126,7 +126,7 @@ know](http://arctos.database.museum/contact.cfm) if it’s out of date, incomple
 |<span class="blrequired">Orig_Lat_Long_Units</span> | text; [ctlat_long_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units) | [\[ doc \]](/documentation/coordinates#original-units) Lat/Long units as given by the determining agent and before any transformations. |
 |<span class="blrequired">Datum</span> | text; [ctdatum](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum) |  [\[ doc \]](/documentation/coordinates#geodetic-datum) Map datum used to determine Lat/Long. Required if coordinates are given.
 |<span class="bloptional">GEOREFERENCE_SOURCE</span> | text; any string | [\[ doc \]](/documentation/coordinates#reference-sources) A code indicating the reference from which a Lat/Long was determined.|
-|<span class="blrequired">GEOREFERENCE_PROTOCOL</span> | text;[ CTGEOREFMETHOD](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFMETHOD) ||
+|<span class="blrequired">GEOREFERENCE_PROTOCOL</span> | text;[ ctgeorefmethod](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFMETHOD) ||
 |<span class="blcondreq">Max_Error_Distance</span>|  number | [\[ doc \]](/documentation/coordinates#maximum-uncertainty-distance) The maximum possible error in distance between the recorded Lat_Long and the actual Lat_Long of the specific locality. Required if Max_Error_Units provided.|
 |<span class="blcondreq">Max_Error_Units</span> | text; [ctlat_long_error_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_ERROR_UNITS) | [\[ doc \]](/documentation/coordinates#maximum-uncertainty-distance) The units in which the Max_Error_Distance are recorded. Required if Max_Error_Distance provided. *Geographic coordinates may be entered in decimal degrees<sup>1</sup>, degrees-minutes-seconds<sup>2</sup>, or in degrees with decimal minutes<sup>3</sup>* [\[ doc \]](/documentation/coordinates#original-units). | 
 |<span class="blcondreq">Dec_Lat<sup>1</sup></span> | number | Decimal latitude. | 
@@ -180,8 +180,6 @@ know](http://arctos.database.museum/contact.cfm) if it’s out of date, incomple
 |<span class="bloptional">attribute_determiner</span>| text; [agent name](#agent-names)| [\[ doc \]](/documentation/attributes#determiner) Agent who determined the attribute.|
 |<span class="bloptional">locality_id</span>|  number; [key](#primary-key-warning) | A primary key from table locality may be used in place of locality information. A value here will over-ride anything entered into higher_geog, spec_locality, coordinates, etc.|
 |<span class="bloptional">collecting_event_id</span> | number; [key](#primary-key-warning) | A primary key from table collecting_event may be used in place of collecting_event information. A value here will over-ride anything entered into higher_geog, spec_locality, coordinates, dates, method, etc. \* All date fields should be formatted as ISO 8601, *e.g.*, 2006-12-31.
-
-
 
 ## Primary Key Warning
 
