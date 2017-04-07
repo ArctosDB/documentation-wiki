@@ -7,53 +7,61 @@ layout: default_toc
 
 # Accessions
 
-An accession is a transaction that conveys a specimen, or (commonly) a group of specimens received from one source at one time, to a collection.  As an administrative (rather than biological) entity, an accession can be delimited by administrative criteria such as previous title, applicable [permits](permits.html), or association with a particular [project](projects.html).  In general, accessioning is the first step of incorporating specimens into a collection and indicates that the museum has accepted custody of (if not title to) the accessioned material. Accessioning generally precedes cataloging. Therefore, it is unnecessary to have specimen data in order to create an accession.  Nevertheless, the nature and disposition of the specimen data should be recorded in order to assure that the data can eventually be located for purposes of cataloging.
+An accession is a transaction that conveys a specimen, or (commonly) a group of specimens received from one source at one time, to a collection. As an administrative (rather than biological) entity, an accession can be delimited by administrative criteria such as previous title, applicable [permits](/documentation/permits.html), or association with a particular [project](/documentation/projects.html). In general, accessioning is the first step of incorporating specimens into a collection and indicates that the museum has accepted custody of (if not title to) the accessioned material. Accessioning generally precedes cataloging. Therefore, it is unnecessary to have specimen data in order to create an accession. Nevertheless, the nature and disposition of the specimen data should be recorded in order to assure that the data can eventually be located for purposes of cataloging.
 
 ## Accession Fields
 
 ### Accession Number
 
-`Accn.accn_number VARCHAR2(60) not null`
+`Accn . Accn_Number VARCHAR2(60) not null`
 
 Accession Number is a text string assigned to identify the accession for a specific collection.
 
 ### Status
 
-Status indicates whether or not the accession is cataloged.  "Complete" indicates that the disposition of specimens can be determined from individual specimen records.  "In process" indicates that at least some of the material is still being stored and labeled by accession number.
+`Accn . Accn_Status VARCHAR2(20) not null`
+
+Status indicates whether or not the accession is cataloged. "Complete" indicates that the disposition of specimens can be determined from individual specimen records. "In process" indicates that at least some of the material is still being stored and labeled by accession number.
 
 ### How Obtained
 
-`Accn.accn_type VARCHAR2(35) not null`
+`Accn . Accn_Type VARCHAR2(35) not null`
 
-[`ctAccn_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type)
-
-This describes the means of acquiring the specimens, such as "field collection," "gift," "salvaged," or "purchased."
+This describes the means of acquiring the specimens, such as "field collection," "gift," "salvaged," or "purchased." Vocabulary is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type).
 
 ### Nature of Material
 
-"Nature of Material" describes the contents of the accession, including identifications of specimens, specimen parts, geographic origin of the material, etc.
+`Trans . Nature_of_Material VARCHAR2(4000) null`
+
+Nature of Material describes the contents of the accession, including identifications of specimens, specimen parts, geographic origin of the material, etc.
 
 ### Received From
+
+`Trans_Agent . Agent_ID NUMBER(22) not null`
 
 See [Transaction Documentation](/documentation/transactions.html#transaction-agents) for agent information.
 
 ### Received Date  
 
-`Accn.Received_Date DATE not null`
+`Accn . Received_Date VARCHAR2(22) null`
 
-"Received Date" is the day that the accessioned material was received by the museum.  This must be a valid [date](/documentation/dates).  Default could be the system date when the record was created.
+Received Date is the day that the accessioned material was received by the museum.  This must be a valid [date](/documentation/dates).  Default could be the system date when the record was created.
 
 ### Entry Date
 
-"Entry Date" is the day that the accession record was created. This must be a valid [date](/documentation/dates). Default could be the system date when the record was created.
+`Trans . Trans_Date VARCHAR2(22) null`
+
+Entry Date is the day that the accession record was created. This must be a valid [date](/documentation/dates). Default could be the system date when the record was created.
 
 ### Remarks
 
-`Trans.Trans_Remarks VARCHAR2(4000) null`
+`Trans . Trans_Remarks VARCHAR2(4000) null`
 
 Place for expanding a description of the conditions of acceptance, or for instructions in processing the material.  For example, "Take 50 gram subsamples for fatty-acid analysis."
 
 ### Estimated Count
+
+`Accn . Estimated_Count NUMBER(22) null`
 
 Estimated Count or "Est. Cnt." is an integer expressing approximately how many specimens can be expected as part of an accession. Accession Containers are Containers which hold unprocessed material, e.g., bags of frozen mice can be made Containers and scanned into freezers. Email is sent on every annual anniversary of Transaction Data for accessions which are not "closed" but contain no specimens.
 
@@ -69,7 +77,7 @@ You can catalog records in "your collection" that have been accessioned by anoth
 *   An MVZ Bird being entered into an MVZ Mammal accession
 *   An MSB parasite host being entered into an MSB parasite accession
 
-### Example Usage is follows.
+### Example Usage
 
 *   Desired accession: 1234.123.Mamm
 *   New Specimen: UAMObs:Mamm 9876
