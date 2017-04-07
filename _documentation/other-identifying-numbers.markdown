@@ -5,21 +5,14 @@ layout: default_toc
 
 # Other Identifying Numbers (Other IDs) and Relationships
 
-
-
-## Other IDs (Identifiers)
-
 **Other IDs** (identifiers) are any identifiers applied to specimens. These
 identifiers may allow tracking specimens (as in the case of collector
 numbers), reference other resources (*e.g.*, GenBank numbers), or form
 relationships among specimens (such as hosts of parasites).
 
-
 ## Other Identifier Type
 
-`Coll_Obj_Other_ID_Num.Other_ID_Type VARCHAR2(75) not null`
-
-[`ctcoll_other_ID_type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)
+`Coll_Obj_Other_ID_Num . Other_ID_Type VARCHAR2(75) not null`
 
 This field describes the kind of identifier 
 using a [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
@@ -54,15 +47,13 @@ returning the link to the GenBank record for that specimen
 
 <http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=nucleotide&doptcmdl=GenBank&term=EU139271>
 
-
-
 ## Other Identifier
 
-`Coll_Obj_Other_ID_Num.Other_ID_Prefix VARCHAR2(60)`
+`Coll_Obj_Other_ID_Num . Other_ID_Prefix VARCHAR2(255) null`
 
-`Coll_Obj_Other_ID_Num.Other_ID_Number NUMBER`
+`Coll_Obj_Other_ID_Num . Other_ID_Number NUMBER(22) null `
 
-`Coll_Obj_Other_ID_Num.Other_ID_Suffix VARCHAR2(60)`
+`Coll_Obj_Other_ID_Num . Other_ID_Suffix VARCHAR2(60) null`
 
 This is the value of an Other ID. Data are stored in
 three fields:
@@ -106,12 +97,9 @@ Examples:
   |ABC-0123-XYZ   |collector number |ABC-0          |123       |-XYZ     |The integer component will NOT retain leading zeroes. See next row.|
   |ABC-0123-XYZ   |collector number |ABC-0123-XYZ   |`NULL`      |`NULL`     |It may not be worthwhile to try to separate a cryptic "integer component," especially if the number is not part of a large series|
 
-
-
 ## ID References
 
-ID References is a [controlled
-vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references)
+ID References is a [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references)
 defining the item to which the other ID was originally applied. "Self"
 is the value used when an ID was applied to the current item; all other
 values create a (sometimes-resolvable) relationship to another item.
@@ -147,8 +135,6 @@ the following Other IDs would be appropriate for the listed items:
   |ABC:125  |ABC:124  |sibling of|
   |ABC:124  |ABC:125  |sibling of|
 
-
-
 ## General Guidelines
 
 Be as specific and complete as possible in choosing both an Other ID
@@ -181,11 +167,11 @@ online some mechanism for resolving identifiers (at which point these become Cat
 should be maintained as an ID type in anticipation. If however "Albuquerque Biopark" is unlikely to become resolvable, moving these to
 Category Two should be considered. For example, current ID
 
-```Albuquerque Biopark: 1234```
+`Albuquerque Biopark: 1234`
 
 might be recorded as 
 
-```original identifier: Albuquerque Biopark 1234```
+`original identifier: Albuquerque Biopark 1234`
 
 which will reduce clutter, increase usability, and serve the same purposes as the original data.
 
@@ -193,9 +179,7 @@ Actionable Other IDs (those that can or could be used to form
 URIs) should always be recorded as specific types. Everything else is
 subject to curatorial discretion.
 
-
-
-## Bulk-loading Rules:
+## Bulk-loading Rules
 
 The bulk-loader accepts a single string which is parsed out into three
 fields at runtime. Strangely formatted strings may be manually entered
@@ -234,8 +218,6 @@ Examples:
   |{v-00001}     |v-00001   |`NULL`     |`NULL`      |v-00001     |{} force to prefix.
   |\[1\]-abc-2   |`NULL`      |1        |-abc-2    |1-abc-2     |Number explicitly defined.
 
-
-
 ## Searching by Other ID
 
  Most searches by Other ID match text strings
@@ -269,4 +251,4 @@ The "**contains/is/in list**" option works as follows:
     search can find other ID "1 2" or "1;2"; use one of the other
     options to find such values.
 
-See also [Searching Arctos](/how_to/How-to-Search-for-Specimens.html).
+See also [Searching Arctos](/how_to/How-to-Search-for-Specimens).
