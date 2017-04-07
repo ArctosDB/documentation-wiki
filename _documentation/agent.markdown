@@ -7,7 +7,6 @@ date: 2016-12-01
 
 # Agents
 
-
 Agents are people, organizations, or groups that perform actions.
 Collectors are agents, authors of publications are agents, users of
 specimens are agents, and, if you enter or edit data, you are an agent.
@@ -49,15 +48,14 @@ uselessly cryptic agents. Is "unknown" really functionally different
 from "ABC"? (There is no definitive answer, but cryptic abbreviations
 are seldom useful.)
 
-
 ## Agent Type
+
+`Agent . Agent_Type VARCHAR2(15) not null`
 
 Agent Type is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type).
 
-`Agent . Agent_Type VARCHAR2(15) not null`
-
-## Person
+### Person
 
 Data about a person-agent can include first, middle, and last names (and must
 include at least one "person name"). Prefix and Suffix (formerly
@@ -83,9 +81,7 @@ date), this structure allows "snapshots" -- "AgentX was seen at a
 conference on {DATE} and seemed to be living, so things collected before
 that date may still be attributable to AgentX."
 
-
-
-## Organizations
+### Organizations
 
 Examples of organizations include:
 
@@ -105,21 +101,7 @@ next to useless. Nevertheless within a hierarchy of agencies, the more
 explicit the designation, the more ephemeral the designation is likely
 to be.
 
-
-
-## Verbatim Collectors
-
-Verbatim Collectors as Agents is a failed experiment and should not be
-used for any purpose. Please change verbatim collectors to another type
-of agent or flag them as duplicates when you encounter them.
-[Attribute]({{site.baseurl}}/documentation/attributes.html) "verbatim collector" allows
-uncontrolled strings to be associated with individual specimens. When
-"bad duplicate of" agents are merged, "verbatim collector" Attributes
-are automatically created for all affected specimens.
-
-
-
-## Groups
+### Groups
 
 A group is two or more agents functioning in some named capacity. So,
 instead of listing several collectors on an expedition, one might make
@@ -129,40 +111,43 @@ Tundra Ecology Expedition."
 Agent Groups consists of:
 
 1.  An agent of type=group, and optionally
-2.  agents as group members
+2.  person agents as group members
 
 Groups may be useful for things like collecting expeditions.
 
+### Verbatim Collectors
 
+Verbatim Collectors as Agents is a failed experiment and should not be
+used for any purpose. Please change verbatim collectors to another type
+of agent or flag them as duplicates when you encounter them.
+[Attribute](/documentation/attributes) "verbatim collector" allows
+uncontrolled strings to be associated with individual specimens. When
+"bad duplicate of" agents are merged, "verbatim collector" Attributes
+are automatically created for all affected specimens.
 
 ## Names
+
+`Agent_Name . Agent_Name VARCHAR2(184) not null`
 
 All agents must have one and only one "preferred name". An agent can
 have any number of other names.
 
-`Agent_Name . Agent_Name VARCHAR2(184) not null`
-
-
-
 ## Name Type
-
-Agent Name Type is controlled by a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
 
 `Agent_Name . Agent_Name_Type VARCHAR2(18) not null`
 
-
+Agent Name Type, e.g. "preferred," is controlled by a [code
+table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
 
 ## Remarks
+
+`Agent . Agent_Remark VARCHAR2(255) null`
 
 Remarks is a good place to include a one sentence description of the
 agent. Anything that might helpful to other users in understanding who
 or what the agent is should be included. Never use remarks for data which can be linked or formalized elsewhere.
 
-`Agent . Agent_Remark VARCHAR2(255) null`
-
-
-## General Agent Creation and Maintenance Guidelines
+## Creating & Maintaining Agents
 
 These are general guidelines to prevent the creation of
 [duplicate](#duplicate) agents. Nothing here should be considered a hard
@@ -249,7 +234,7 @@ Attributes.
     Type "URL") is very likely to be useful. Avoid using remarks for
     address information.
 
-## Relationships
+## Agent Relationships
 
 Relationships between agents can be recorded. Like date of birth and
 date of death, relationships can be critical to understanding
@@ -282,8 +267,6 @@ the alternative, both in getting students to choose the correct agent
 and in avoiding duplicate agent creation, but neither method is ideal.
 Address any suggestions or concerns to the Arctos discussion group.
 
-
-
 ## Searching Agents
 
 The search form contains several fields and options, detailed below. All
@@ -299,31 +282,30 @@ components, and login name.
 
 ### Agent Type
 
-matches values used in the [code
+Agent Type matches values used in the [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE).
 
 ### Agent ID
 
-matches the (internal, primary key) `agent_id` (an
-integer).
+Agent ID matches the (internal, primary key) `agent_id` (an integer).
 
 ### Agent Name Type
 
-matches values used in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_NAME_TYPE).
+Agent Name Type matches values used in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_NAME_TYPE).
 
 ### Agent Name
 
-matches names of the chosen type.
+Agent Name matches names of the chosen type.
 
 ### Address
 
-matches any part of [any
+Address matches any part of [any
 address](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTADDRESS_TYPE),
 including mailing addresses, telephone numbers, and email addresses.
 
 ### Agent Status
 
-matches values from a [code
+Agent Status matches values from a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS).
 This may be combined with "**Match**" and **Status Date** to locate
 agents reported in an event, agents having an event on a date, or events
@@ -331,11 +313,9 @@ happening on, before, or after a given date.
 
 ### Created By
 
-(and corresponding **match** types and **Created Date**)
+Created By (and corresponding **match** types and **Created Date**)
 may be used to find agents created by an agent, agents created by an
 agent on/before/after a date, or agents created on/before/after a date.
-
-
 
 ## Deleting/merging agents
 
@@ -347,7 +327,7 @@ agent "J. Smith."
 ### How To
 
 To delete an agent, create a "bad duplicate of" relationship to another
-agent. All collections will receive a warning email, and if no action is
+agent. All collections will receive a [warning email](/documentation/notifications), and if no action is
 taken the agent will be automatically deleted in 14 days (previously 7).
 
 Check collection contacts and their email addresses if you are not
