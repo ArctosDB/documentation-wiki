@@ -6,7 +6,7 @@ layout: default_toc
 # Encumbrance
 
 Encumbrances restrict the use of specimens or specimen data.
-Encumbrances are applied to [Cataloged Items](catalog). Attributes of an
+Encumbrances are applied to [Cataloged Items](/documentation/catalog). Attributes of an
 encumbrance include an encumbrancer, a name for the encumbrance, an
 expiration date and/or event, and an encumbering action.
 
@@ -41,21 +41,24 @@ Encumbrances should NOT be used to:
     credit card information.
 
 Encumbrances are often used to block arbitrary information such as
-collectors, preparators, field numbers, attributes, and remarks. A [list
-of active Arctos
-encumbrances](http://arctos.database.museum/info/encumbrances) is
-available.
+collectors, preparators, field numbers, attributes, and remarks. A 
+[list of active Arctos encumbrances](http://arctos.database.museum/info/encumbrances) 
+is available.
 
 ## Encumbrancer
 
-The **Encumbrancer** (encumbering [agent](agent)) is the person or
+`Encumbrance . Encumbering_Agent_ID NUMBER(22) not null`
+
+The **Encumbrancer** (encumbering [agent](/documentation/agent)) is the person or
 organization requiring the restriction. This agent may act in an
 advisory role; final authority to remove encumbrances rests with the
 collection.
 
 ## Encumbrance Name
 
- Encumbrances are described with a name. This name
+`Encumbrance . Encumbrance VARCHAR2(60) not null`
+
+Encumbrances are described with a name. This name
 should be as general as possible with the aim of avoiding separate
 encumbrances when the encumbrancer and the encumbering action are the
 same. (If possible, additional specimens should be added to existing
@@ -64,7 +67,9 @@ Really. Don’t.
 
 ## Expiration Date
 
- All encumbrances are temporary, and
+`Encumbrance . Expiration_Date DATE(7) not null`
+
+All encumbrances are temporary, and
 encumbrances must be periodically reviewed. De-accession should be
 considered for permanently-encumbered specimens. Yearly email
 notifications are provided to collection staff, and encumbrances may be
