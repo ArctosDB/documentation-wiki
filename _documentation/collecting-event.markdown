@@ -9,7 +9,7 @@ A collecting event is a place and time where collecting occurred. A
 collecting event often applies to more than one catalogued specimen, so
 be careful that changes you make to a collecting event apply to all of
 the specimens. **New Collecting Events** are normally created when
-specimen records are [bulk-loaded](bulkloader), but may be created manually, cloned
+specimen records are [bulk-loaded](/documentation/bulkloader), but may be created manually, cloned
 from existing events, and/or given a nickname for easy identification.
 
 ## Event Nickname
@@ -28,7 +28,7 @@ sequentially, such as hosts and parasites.
 `Collecting_Event . Verbatim_Locality VARCHAR(255) null`
 
 Verbatim Locality is the locality description as provided by the
-collector and is specific to the Collecting Event, not to the [Locality](locality). 
+collector and is specific to the Collecting Event, not to the [Locality](/documentation/locality). 
 The same Locality may have been described differently at different
 times, and this distinction allows us to incorporate assumptions about
 the locality into Specific Locality while maintaining the original
@@ -65,7 +65,7 @@ before the present.)
 
 Began and End Dates delimit the range of dates encompassed
 by the Verbatim Date. Unlike Verbatim Date, they are [ISO8601
-date](dates) values, not an indeterminate character string. If the
+date](/documentation/dates) values, not an indeterminate character string. If the
 Verbatim Date is a valid date, then both the Began Date and the End Date
 should be the same as the Verbatim Date. If the Verbatim Date is
 unknown or vague, put the latest possible date in the End Date field
@@ -99,8 +99,8 @@ The following examples are instructive:
 
 Verbatim coordinates are stored with collecting event in their original
 format with the information supplied by the collector. These are not
-mapped (although [locality](locality) coordinates are automatically generated from
-them via the [bulkloader](bulkloader)) and generally should not be changed (except,
+mapped (although [locality](/documentation/locality) coordinates are automatically generated from
+them via the [bulkloader](/documentation/bulkloader)) and generally should not be changed (except,
 eg, transcription errors).
 
 ## Remarks
