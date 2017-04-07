@@ -5,7 +5,6 @@ layout: default_toc
 
 # Attributes
 
-
 Attributes are descriptive (usually biological) characteristics of
 cataloged items (which are often biological individuals) such as
 measurements, weight, age, and sex. Like other determinations
@@ -19,34 +18,23 @@ and many individual definitions, are largely documented within tables
 within Arctos, as opposed to being documented here. The appropriate
 units for numeric Attributes, and the appropriate vocabulary for
 Attributes with controlled vocabularies are set by a master "[code table
-of code
-tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)." This can be a useful node for exploring these values outside of the
+of code tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)." 
+This can be a useful node for exploring these values outside of the
 forms in which the vocabularies are used.
-
 
 ## Attribute Name
 
-is the proper name of an Attribute. These should be
+`Attributes . Attribute_Type VARCHAR2(60) not null`
+
+Attribute Name is the proper name of an Attribute. These should be
 unambiguous and match their usage in scientific literature as closely as
 possible. The names of Attributes are listed, defined, and linked to
 particular types of collections, in an another [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type).
 
--   [ctAttribute_Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
-    lists all Attribute names, collection types, and definitions of what
-    the Attributes are.
--   [ctAttribute_Code_Tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
-    ("code table of code tables) lists all Attributes that have
-    controlled vocabulary and associates them with specific tables that
-    control their specific vocabularies.
-
-
-`Attributes . Attribute_Type VARCHAR(60) not null`
-
-[`ctAttribute_Type`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)
-
-
 ## Attribute Value
+
+`Attributes . Attribute_Value VARCHAR2(4000) not null`
 
 Attributes have a Value, and those values are of three types:
 
@@ -63,11 +51,6 @@ Attributes have a Value, and those values are of three types:
     in text. Examples include the Attributes "Colors" and "Body
     Condition."
 
-`Attributes . Attribute_Value VARCHAR(255) not null`
-
-[`ct_Attribute_Code_Tables`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)
-
-
 Some examples:
 
   |Attribute Name |  Value                              |Units|
@@ -80,8 +63,7 @@ The appropriate units for particular numeric Attributes, and the
 appropriate vocabulary for controlled vocabulary are set by a "[code table of code
 tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)."
 
-
-## Conversion of fractional values
+### Conversion of fractional values
 
 Numeric values are sometimes
 reported in the numerator/denominator format. For example, total length
@@ -101,65 +83,57 @@ round off to 7.19 inches. Whenever the value of an attribute is
 converted (or in any way modified or assumed), the verbatim value should
 be given in the [Attribute Remark](#remark).
 
-
-
 ## Attribute Units
+
+`Attributes . Attribute_Units VARCHAR2(60) null`
 
 Numeric Attributes have values expressed in units
 such as grams, millimeters, and years. Different Attributes are
 described in different units, so there are code tables for units of
 weight, length, and time. Numeric Attributes are assigned one of these
 code tables in the "[code table of code
-tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES)."
+tables](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_CODE_TABLES):"
 
-
-`Attributes.Attribute_Units VARCHAR(60) null`
-
-[`ctLength_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
-
-[`ctNumeric_Age_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)
-
-[`ctWeight_Units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
-
-
+1. Code table for [length_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
+1. Code table for [numeric_age_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctNumeric_Age_Units)
+1. Code table for [weight_units](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctWeight_Units)
 
 ## Method
 
-is how the Attribute was determined. If the Method can be
+`Attributes . Determination_Method VARCHAR2(255) null`
+
+Method is how the Attribute was determined. If the Method can be
 logically inferred, it is usually unspecified. Thus, Attributes such as
 length measurements are assumed to have been taken with rulers,
 calipers, or another standard tool. In such cases, no value is recorded
 for Method.
 
-`Attributes.Determination_Method VARCHAR(255) null`
-
-
 ## Remark
 
-is a comment about the Attribute. For example:
+`Attributes . Attribute_Remark VARCHAR2(4000) null`
+
+Remark is a place for comments about the Attribute. For example:
 
 -   "Transcribed from collector’s journal."
 -   "Weighed after substantial loss of blood."
 -   "verbatim: 7 3/16 inches"
 
-`Attributes.Attribute_Remark VARCHAR(255) null`
-
-
 ## Determiner
 
-is the agent that determined the Value of the Attribute.
+`Attributes . Determined_By_Agent_ID NUMBER(22) not null`
+
+Determiner is the agent that determined the Value of the Attribute.
 Many Attributes are determined by either the collector or preparator of
 the specimen, but often Attributes are determined at a later time by an
 investigator using the specimen. In the many specimen records for which
 this data was not recorded, the institution contributing the record has
 been used as a default value for Determiner.
 
-`Attributes.Determined_By_Agent_id integer, not null`
-
-
 ## Determined Date
 
-is the [ISO8601](/documentation/dates/) date that
+`Attributes . Determined_Date VARCHAR2(22) null`
+
+Determined Date is the [ISO8601](/documentation/dates/) date that
 the determination was made. Where this is unknown, the date that the
 specimen record was moved into the database has been used as a default
 value, meaning essentially that the determination was made before this
@@ -168,8 +142,6 @@ date of collection (or, if known, the date of preparation) as a default.
 For Attributes which can be re-determined from the existing specimen,
 even an imprecise date will provide a chronological order to successive
 determinations.
-
-`Attributes . Determined_Date datetime, null`
 
 ## Searching with Attributes
 
@@ -187,7 +159,6 @@ example:
     in years.)
 
 
-
 -   Attribute: Numeric Age
 -   Value = "5" (Returns all specimens with a numeric age of 6 years, 6
     days, etc.
@@ -202,7 +173,6 @@ You may set the search operator for Attributes to:
 `Equals` will find only exact matches. `Contains` will find substring
 matches. For example, sex `equals` ‘male’ will find only *male*
 specimens; sex `contains` ‘male’ will find both *male* and *fe**male***.
-
 
 ## Searching by Attribute Type
 
