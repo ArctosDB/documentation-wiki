@@ -311,14 +311,8 @@ srcset="../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.
 
 ### Coordinates as Specimen Search terms
 
-#### coordinates
+Search term "**coordinates**" matches a full-precision dec_lat,dec_long concatenation.
 
-Search term "coordinates" matches a full-precision dec_lat,dec_long concatenation.
+Search term "**rcoords**" matches a round(dec_lat,1),round(dec_long,1) concatenation.
 
-#### rcoords
-
-Search term "coordinates" matches a round(dec_lat,1),round(dec_long,1) concatenation.
-
-#### rcoordslist
-
-Search term "rcoordslist" accepts a pipe-delimited list of rcoords.
+Search term "**rcoordslist**" accepts a pipe-delimited list of rcoords.
