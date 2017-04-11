@@ -229,8 +229,8 @@ the method referred to in [Georeference Method](#georeference-method).
 ### Spatial Query
 
 -   Click the select icon
-    ([![](../images/classic-uploads/2011/09/selector.png "selector"){.alignnone
-    .size-full .wp-image-667 width="18" height="18"}]) to
+    (![](../images/classic-uploads/2011/09/selector.png "selector")<!--{.alignnone
+    .size-full .wp-image-667 width="18" height="18"}]-->) to
     add a spatial query box to the map. Click the X to start over. Click
     and drag the box to select an area on the map. The northeast and
     southwest corner coordinates of the selected area are indicated on
