@@ -5,76 +5,59 @@ layout: default_toc
 
 # Coordinates
 
-
-
 The application of latitudes and longitudes to verbal
-[locality](locality) data is called georeferencing. Latitude describes a
+[locality](/documentation/locality) data is called georeferencing. Latitude describes a
 position in degrees north or south of the equator. Longitude describes a
 position in degrees east or west of the Greenwich meridian. However,
 coordinates alone are of limited use without information on uncertainty
 and the coordinate frame of reference (datum).
 
 Protocols for georeferencing natural history collections are described
-in the [MaNIS Georeferencing
-Guidelines](http://manisnet.org/GeorefGuide.html).  Tools that automate
-these protocols include the [Georeferencing
-Calculator](http://manisnet.org/gc.html),
-[BioGeomancer](http://bg.berkeley.edu/latest/), and
-[GeoLocate](http://www.museum.tulane.edu/geolocate/ "GeoLocate at Tulane"). 
-GeoLocate is called as a web service by applications within Arctos.
+in the [MaNIS Georeferencing Guidelines](http://manisnet.org/GeorefGuide.html). Tools that automate
+these protocols include the [Georeferencing Calculator](http://manisnet.org/gc.html),
+[BioGeomancer](http://www.gbif.org/resource/80536), and
+[GeoLocate](http://www.museum.tulane.edu/geolocate). GeoLocate is called as a web service by applications within Arctos.
 
-Coordinates are stored with collecting events and with locality, both
-optional. Collecting event coordinates are "verbatim" and should reflect
+Coordinates are optionally stored *both* with [collecting events](/documentation/collecting-event) and with [locality](/documentation/locality). Collecting event coordinates are "verbatim" and should reflect
 some data associated with specimen events. Locality coordinates are part
 of georeferences, and may be standardizations or corrections of, or
-additions to verbatim coordinates.
+additions to, verbatim coordinates.
 
 Any locality has zero or one coordinate assertions. "Unaccepted
 coordinates" are handled by having multiple specimen events referencing
 multiple localities.
 
-Data Entry has (for brevity) one place for coordinate information, and
-these data are stored as both verbatim and locality coordinates. Events
+[Data Entry](/how_to/How-to-Enter-Data-for-a-Single-Record.html) has (for brevity) one place for coordinate information, and
+these data are stored as both verbatim (in the collecting event) and locality coordinates. Events
 and localities may be pre-made and selected when these limitations
 prevent accurately representing the data.
 
-
-
 ## Original Units
 
-`collecting_event . Orig_Lat_long_Units VARCHAR(20) null`
+`Collecting_Event . Orig_Lat_Long_Units VARCHAR(20) null`
 
-[`ctlat_long_units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS)
+<!--`DarwinCore2=VerbatimCoordinateSystem`-->
 
-`DarwinCore2=VerbatimCoordinateSystem`
-
- for geographic coordinates vary with the source of
-the data.  Classically, latitude and longitude have been recorded in
-degrees, minute and seconds.  Now, modern GIS applications generally use
-degrees only, including decimal fractions for all levels of precision. 
-In Arctos, coordinates are stored and displayed in their original
-format.  Except for UTMs, coordinates are also translated to, and stored
-as, decimal degrees for standardization and mapping.  There is not yet
-programming to convert UTMs to decimal degrees. Include as many digits
-of precision as are provided in the original data.  Forms in Arctos are
-customized according to which format is chosen, and the vocabulary and
-formats are defined and described by a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS).
+Geographic coordinates vary with the source of
+the data. Classically, latitude and longitude have been recorded in
+degrees, minute and seconds. Now, modern GIS applications generally use
+degrees only, including decimal fractions for all levels of precision. In Arctos, coordinates are stored and displayed in their original
+format. Except for UTMs, coordinates are also translated to, and stored
+as, decimal degrees for standardization and mapping. There is not yet
+programming to convert UTMs to decimal degrees. Forms in Arctos are
+customized according to which format is chosen. The vocabulary and
+formats for Original Units are defined by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLAT_LONG_UNITS).
 
 In all formats, include as many digits of precision as are provided in
 the original data.
 
-
-## (Geodetic) Datum
+## Geodetic Datum
 
 `Collecting_Event . Datum VARCHAR(40) null`
 
-[`ctdatum`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum)
+<!--`DarwinCore2=GeodeticDatum`-->
 
-`DarwinCore2=GeodeticDatum`
-
-
- The geodetic datum to which the latitude and longitude refer.
+The geodetic datum to which the latitude and longitude refer, with values controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum).
 A geodetic datum describes the size, shape, origin, and orientation of a
 coordinate system for mapping the earth. Latitude and longitude data
 referenced to the wrong datum can result in positional errors of
@@ -85,18 +68,14 @@ coordinates will be determined (default usually set to WGS84, but this
 should be checked in the field). Maps and gazetteers generally provide
 this information as well.
 
-
 ## Reference Source(s)
 
 `Locality . GEOREFERENCE_SOURCE VARCHAR(255) not null`
 
-[`ctGEOREFERENCE_SOURCE`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_SOURCE "Georefrence Source")
+<!--`DarwinCore2=GeoreferenceSources`-->
 
-`DarwinCore2=GeoreferenceSources`
-
-
- refers to the source of the coordinates and not
-to the source of the error. Coordinates may be original data collected
+Reference Source(s) refers to the source of the coordinates and not
+to the source of the error. Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_SOURCE). Coordinates may be original data collected
 with the specimen, or they may be provided by after-the-fact
 georeferencing efforts. In the latter situation, data in Source(s)
 should be specific enough to allow anyone in the future to use the same
@@ -121,41 +100,31 @@ with the specimen. Examples:
 -   global positioning system (download)
 -   global positioning system (transcription)
 
-
-
 ## Georeference Method
 
-`Locality.GEOREFERENCE_PROTOCOL VARCHAR(40) not null`
+`Locality . Georeference_Protocol VARCHAR(40) not null`
 
-[`ctGEOREFERENCE_PROTOCOL`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_PROTOCOL "GEOREFERENCE_PROTOCOL")
-
-
- is the protocol used to obtain the values for
+Georeference Method is the protocol used to obtain values for
 the coordinates and the measure of precision. Different methods and
 tools have been produced, and are sometimes revised, and these
-differences can produce different results.  The
-[vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctgeorefmethod "Georeference Method")
+differences can produce different results. The
+[vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_PROTOCOL)
 for this field is controlled.
 
-
-## Maximum Uncertainty Distance
+## Maximum Uncertainty
 
 `Lat_Long . Max_Error_Distance NUMBER null`
 
-`DarwinCore2=CoordinateUncertaintyInMeters`
-
-
 `Lat_Long . Max_Error_Units VARCHAR2(2) null`
 
-[`ctlat_long_error_units`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_error_units "Distance Units")
+<!--`DarwinCore2=CoordinateUncertaintyInMeters`-->
 
-
- is the upper limit of the horizontal
+This is the upper limit of the horizontal
 (as opposed to elevational) distance from the reported latitude and
 longitude. It describes a circle within which the whole of the described
 locality lies. Leave the value empty if the uncertainty is unknown,
 cannot be estimated, or is not applicable (because there are no
-coordinates). Zero is not a valid value. Maximum Uncertainty is the sum
+coordinates). Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_error_units). Zero is not a valid value. Maximum Uncertainty is the sum
 of GPSAccuracy, Extent, and all other sources of error or imprecision.
 
 This is a simple concept, but there are several sources of error which,
@@ -185,17 +154,14 @@ For most usage, including exportation to federated portals, the value
 for Maximum Uncertainty is converted from the original units (recorded
 here) to the value in meters.
 
-
 ## Determiner
 
-`Lat_Long . Determined_By_Agent_id INT not null`
+`Lat_Long . Determined_By_Agent_ID INT not null`
 
-
- is the
-[agent](http://arctosdb.wordpress.com/documentation/agent/ "Agents")
+The Determiner is the [agent](/documentation/agent)
 (usually a person) who determined that these coordinates and measures of
 uncertainty apply to this locality. Often, this is the collector or,
-dear reader, you.  The form will load with the currently logged-in user
+dear reader, you. The form will load with the currently logged-in user
 as the default Determiner for new records.
 
 Sometimes, a determination is developed by two or more successive
@@ -214,30 +180,23 @@ If the collector offered a determination in the original data, this
 determination should not be modified even if it is no longer the
 accepted determination.
 
-
 ## Determination Date
 
 `Lat_Long . Determined_Date DATETIME null`
 
-
- is the [ISO8601](/documentation/dates/) date that
+This is the [ISO8601](/documentation/dates) date that
 the determination was made. Entry/editing forms load with the current
 date as a default for new records.
-
 
 ## Verification Status
 
 `Lat_Long . VerificationStatus VARCHAR(40) not null`
 
-[`ctverificationstatus`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")
+<!--`DarwinCore2=GeoreferenceVerificationStatus`-->
 
-`DarwinCore2=GeoreferenceVerificationStatus`
-
-
- A categorical description of the extent to
+A categorical description of the extent to
 which the georeference has been verified to represent the location where
-the specimen or observation was collected. 
-[Vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")
+the specimen or observation was collected. [Vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus)
 is controlled.
 
 "Verified by collector" indicates that the person who removed the
@@ -246,38 +205,32 @@ represented on an appropriately scaled map, and believes that these data
 are accurate and that the represented uncertainty is as small as
 possible.
 
-
-
 ## Accepted?
 
-`Lat_Long . Accepted_Lat_Long_fg TINYINT not null`
+`Lat_Long . Accepted_Lat_Long_FG TINYINT not null`
 
 There can be more than one georeferencing determination
 per locality but only the accepted determination is routinely displayed.
 You can revert to an earlier determination by changing its *accepted*
 flag from "no" to "yes."
 
-
 ## Remarks
 
 `Lat_Long . Lat_Long_Remarks VARCHAR2(4000) null`
 
-`DarwinCore2=GeoreferenceRemarks`
+<!--`DarwinCore2=GeoreferenceRemarks`-->
 
-
- about the spatial description determination, explaining
+Remarks are about the spatial description determination, explaining
 assumptions made in addition or opposition to the those formalized in
-the method referred to in [Georeference Method](#georefmethod).
+the method referred to in [Georeference Method](#georeference-method).
 
+## Searching with Coordinates
 
-# Search
-
-## Spatial Query
+### Spatial Query
 
 -   Click the select icon
     ([![](../images/classic-uploads/2011/09/selector.png "selector"){.alignnone
-    .size-full .wp-image-667 width="18"
-    height="18"}](../images/classic-uploads/2011/09/selector.png)) to
+    .size-full .wp-image-667 width="18" height="18"}]) to
     add a spatial query box to the map. Click the X to start over. Click
     and drag the box to select an area on the map. The northeast and
     southwest corner coordinates of the selected area are indicated on
@@ -369,17 +322,16 @@ AM](../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png)
 sizes="(max-width: 640px) 100vw, 640px"
 srcset="../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png 720w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-300x183.png 300w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-250x152.png 250w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-550x335.png 550w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-295x180.png 295w, ../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am-492x300.png 492w"}](../images/classic-uploads/2013/05/screen-shot-2013-05-20-at-10-32-33-am.png)
 
-## Coordinates as Specimen Search terms
+### Coordinates as Specimen Search terms
 
-### coordinates
+#### coordinates
 
 Search term "coordinates" matches a full-precision dec_lat,dec_long concatenation.
 
-### rcoords
+#### rcoords
 
 Search term "coordinates" matches a round(dec_lat,1),round(dec_long,1) concatenation.
 
-### rcoordslist
+#### rcoordslist
 
 Search term rcoordslist accepts a pipe-delimited list of rcoords.
- 
