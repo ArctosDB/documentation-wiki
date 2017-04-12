@@ -566,7 +566,7 @@ description of the general qualities of the finished product.
     all Arctos collections.
 8.  Talk to the Arctos folks before doing anything else. Really. It’s
     free, and we’re here to help. Ordering unusable barcodes is not
-    free, and we’ll make fun of you for doing that.
+    free.
 9.  Enter the series of barcodes into Arctos and update the Barcode
     Series Spreadsheet (Arctos: ObjectTracking tab) before placing an
     order or printing your barcodes.
