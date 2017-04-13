@@ -90,11 +90,17 @@ the waters north of Point Barrow, Alaska are in the Arctic Ocean but are
 in neither the Chukchi nor Bering seas. Similarly, the coastal waters of
 California, and the east coast of Japan can be designated only as North
 Pacific Ocean. There have been efforts to formally delineate seas and
-oceans (e.g., the U. S. Navy’s "[Chart of Seas and
-Oceans](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans")"
-and the U. S. Defense Intelligence Agency’s "Geopolitical Data Elements
-and Related Features," [409-page
-PDF](http://http://oai.dtic.mil/oai/oai?verb-getRecord&metadataPrefix-html&identifier-ADA028803 "Geopolitical Data Elements and Related Features")).
+oceans (e.g., the U. S. Navy’s "Chart of Seas and
+Oceans" and the U. S. Defense Intelligence Agency’s "Geopolitical Data Elements
+and Related Features,").
+
+<!---
+these links are broken:
+(http://http://oai.dtic.mil/oai/oai?verb-getRecord&metadataPrefix-html&identifier-ADA028803 "Geopolitical Data Elements and Related Features")
+(http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans")
+--->
+
+
 These should be consulted for the name of seas, or if there is a
 question about whether a locality is appropriately included in a
 particular sea. (In their effort to be comprehensive and consistent
