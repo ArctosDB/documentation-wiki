@@ -208,7 +208,8 @@ of the name. Some valid island names:
 
 ## Source
 
-Source is limited to the URL of a page on English Wikipedia. If such a
+Source is limited to the URL of a page on Wikipedia. English is strongly preferred; Spanish is acceptable. (Contact us 
+with other needs.) If such a
 page does not exist, it should usually be created. However, in some
 instances such a page would be overly redundant or conflict with
 Wikipedia guidelines, in which case the next-most-specific entry is
@@ -217,10 +218,9 @@ appropriate. Examples follow.
   | Geography  | Source   | Explanation |
   |------------|----------|-------------|
   | North America, United States, Alaska | http://en.wikipedia.org/wiki/Alaska | Well-defined unambiguous entity – yay us! |
-  | North America, United States, Alaska, Ambler River Quad | http://en.wikipedia.org/wiki/Alaska | There is no Wiki page for USGS quad maps. The data are unambiguous (there is or is not an appropriate USGS quad map) and mostly internal, so a general citation is appropriate. |
-  | North America, Beaufort Sea, United States, Alaska | http://en.wikipedia.org/wiki/Beaufort_Sea | This is "Arctos shorthand" for "Beaufort, probably West of the Canandian border." The relevant Wikipedia article is the Sea. Note also that a geospatial search on this general area finds 7 geography entries; georeferencing is critical when geographic data is ambiguous. |
-  | North Pacific Ocean, Bering Sea, United States, Alaska | | |                       
-  | North America, United States, Alaska, Mt. McKinley Quad, Denali National Park and Preserve | http://en.wikipedia.org/wiki/Denali_National_Park_and_Preserve | There is no Wikipedia entry for the area of Alaska that’s within both DNP and a USGS quad |
+  | North America, United States, Alaska, Ambler River Quad | http://en.wikipedia.org/wiki/Alaska | There is no Wiki page for USGS quad maps. The data are unambiguous (there is or is not an appropriate USGS quad map) and mostly internal, so a general citation is tolerable, if not entirely appropriate. |
+  | North America, Beaufort Sea, United States, Alaska | http://en.wikipedia.org/wiki/Beaufort_Sea | This is "Arctos shorthand" for "Beaufort, probably West of the Canandian border." The relevant Wikipedia article is the Sea. Note also that a geospatial search on this general area finds 7 geography entries; georeferencing is critical when geographic data is ambiguous. Best practice would be to avoid this sort of undefinable geography altogether.|
+  | North America, United States, Alaska, Mt. McKinley Quad, Denali National Park and Preserve | http://en.wikipedia.org/wiki/Denali_National_Park_and_Preserve | There is no Wikipedia entry for the area of Alaska that’s within both DNP and a USGS quad, so pick the most specific available. |
 
 
 
@@ -332,7 +332,8 @@ the Guidelines without contacting the AWG.
     Arctos record.
     - DO Link to the Wikipedia page which directly describes the resource.
     - DO NOT link to anchors in general articles, lists, maps,
-    images, vaguely-related entities, or anything except a specific relevant article
+    images, vaguely-related entities, "parent" entities (except in cases described under [source documentation](#source) or anything 
+    other than the specific relevant article
     in Wikipedia. 
 -   **No accents, umlauts, Cyrillic, Chinese, etc. Do use ASCII-128.**
     Arctos has bitwise indexes and the specimens from non-US/ASCII
