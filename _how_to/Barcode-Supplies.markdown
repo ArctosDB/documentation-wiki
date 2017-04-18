@@ -4,25 +4,23 @@ layout: default_toc
 ---
 # Machine-based object tracking equipment and supplies
  
-## Barcodes
-
 ## Barcode material:
 Label durability depends on the material of the barcode and the barcode adhesive. CryoLabel® plastic labels are recommended for use in liquid nitrogen and ultracold freezers. XyResist® Plastic or Chemical Resistant Polyester Labels can be used with alcohol though unsure if tested for long term submersion. Customer service can answer further questions and send barcode samples.
 
-## Barcode Types:
+## Barcode types:
 
 1D Barcode: ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/a1ce861873b396bc36fa2a8035d58baa7491f3ae/images/uploads/1D-barcode.jpg)
 
 2D Barcode: ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/a1ce861873b396bc36fa2a8035d58baa7491f3ae/images/uploads/2D.jpg)
 
-#### Suppliers
+## Suppliers:
 
 University of Alaska Museum of the North and Museum of Southwestern Biology use [Electronic Imaging Materials](http://barcode-labels.com/) for their barcoding needs. A few other options are [BarcodesInc](http://www.barcodesinc.com/), [Barcode Giant](http://www.barcodegiant.com/), [CILS International](http://www.cils-international.com/us/), or [eBarcode](http://www.ebarcode.com/).
 
 ## There are two options to generating physical barcodes. 
 As with both options, be aware of possible duplicates whether ordering duplicated numbers or printer error. 
 
-## Option 1) Purchasing Pre-printed barcodes:
+## Option 1) Purchasing Pre-printed Barcodes:
 
 Preprinted barcode labels can be purchased from [Electronic Imaging Materials(EIM)](http://barcode-labels.com/). Contact customer service for help to design and customize your barcodes.
 
@@ -30,7 +28,7 @@ Pros: Not set-up cost, no staff time needed except for ordering barcodes.
 
 Cons: Expensive.
 
-## Option 2) Printing barcodes in-house
+## Option 2) Printing Barcodes In-House
 
 From [Electronic Imaging Materials](http://barcode-labels.com/), UAM purchased a [TSC TC300 (300 dpi) Desktop Label Printer](http://barcode-labels.com/shop/printers/tsc-tc300/) that comes with BarTender Lite software for designing and printing barcodes. The program allows you to create barcode series and remembers the last barcode printed to reduce printing of duplicate barcodes. 
 
