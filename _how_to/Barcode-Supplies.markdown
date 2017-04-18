@@ -9,9 +9,9 @@ Label durability depends on the material of the barcode and the barcode adhesive
 
 ## Barcode types:
 
-1D Barcode: ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/a1ce861873b396bc36fa2a8035d58baa7491f3ae/images/uploads/1D-barcode.jpg)
+1D Barcode: ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/1D_2.png)
 
-2D Barcode: ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/a1ce861873b396bc36fa2a8035d58baa7491f3ae/images/uploads/2D.jpg)
+2D Barcode: ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/2D_2.png)
 
 ## Suppliers:
 
