@@ -34,7 +34,7 @@ For each contact, specify their [Contact Agent Role](http://arctos.database.muse
 * **Header Options:** Collections may customize the header that appears at the top of a collection record or when searching a collection portal.
 
   * HEADER_COLOR: Background color; click the label for a color picker
-  * HEADER_IMAGE: 60x60 px image which will replace the Arctos Bear
+  * HEADER_IMAGE: 60x60 px image which will replace the Arctos Bear; load to /images/
   * HEADER_CREDIT: Image attribution, displayed near the header image
   * COLLECTION_URL: URL at which more collection information may be found
   * COLLECTION_LINK_TEXT: text to display with COLLECTION_URL
@@ -42,5 +42,5 @@ For each contact, specify their [Contact Agent Role](http://arctos.database.muse
   * INSTITUTION_LINK_TEXT: text to display with INSTITUTION_URL
   * META_DESCRIPTION: HTML header; for bots, probably no longer useful.
   * META_KEYWORDS: HTML header; for bots, probably no longer useful.
-  * STYLESHEET: CSS stylesheet. Load css to /includes/css or coordinate with a DBA.
+  * STYLESHEET: CSS stylesheet. Load css to /includes/css/ or coordinate with a DBA.
   
