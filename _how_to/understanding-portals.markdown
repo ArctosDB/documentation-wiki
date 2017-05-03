@@ -31,7 +31,7 @@ without a permission role.
 * A user who has UPDATE permission on "sometable" *and* "some_collection" VPD access can update the rows in "sometable" which are 
 owned by "some_collection." (Which would be awkward, because they can't SEE those data without also having SELECT explicitly granted!)
 
-That is, user access is defined as the intersection of a user's permissions and access.
+That is, what a users can see and do is defined by the intersection of their permissions and access.
 
 
 ### Portals
