@@ -22,7 +22,7 @@ a specific account.
 ## Roles
 
 Arctos has two "types" of roles: access and permission. Access roles grant a user access to a VPD. Permission roles grant a user specific 
-operations on the data to which they have access. (Examples:
+operations on the data to which they have access. Examples:
 
 * A user who has only UPDATE permission on "sometable" can update the records in "sometable." 
 However, without VP access, "sometable" does not exist for them.
