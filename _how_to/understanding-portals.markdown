@@ -25,7 +25,7 @@ Arctos has two "types" of roles: access and permission. Access roles grant a use
 operations on the data to which they have access. Examples:
 
 * A user who has only UPDATE permission on "sometable" can update the records in "sometable." 
-However, without VP access, "sometable" does not exist for them.
+However, without VPD access, "sometable" does not exist for them.
 * A user who has only "some_collection" access can access the "some_collection" VPD partition - in which nothing will exist for them 
 without a permission role.
 * A user who has UPDATE permission on "sometable" *and* "some_collection" VPD access can update the rows owned by "sometable" which are 
