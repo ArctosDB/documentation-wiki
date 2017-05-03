@@ -6,6 +6,7 @@ layout: default_toc
 # Portals
 
 Portals provide specific types of access to specific datasets (generally collections) in Arctos.
+
 ## Background
 
 Arctos uses Virtual Private Databases (VPDs) to partition collections. A VPD is a virtual container around rows in a table to which
