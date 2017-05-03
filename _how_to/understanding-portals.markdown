@@ -33,7 +33,6 @@ owned by "some_collection." (Which would be awkward, because they can't SEE thos
 
 That is, what a users can see and do is defined by the intersection of their permissions and access.
 
-
 ### Portals
 
 Portals are simply public-access shared users. The default account is "public" which has SELECT access on selected tables. For example,
