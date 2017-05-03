@@ -63,8 +63,8 @@ Operators are explicitly assigned roles by their supervisors. These roles have b
  
 ## Links
 
-Links to portals may be found at http://arctos.database.museum/home.cfm
+Links to portals may be found at [http://arctos.database.museum/home.cfm](http://arctos.database.museum/home.cfm)
 
 ## Escaping Portals
 
-You may switch from a portal user to the generic public user by going to http://arctos.database.museum/all_all
+You may switch from a portal user to the generic public user by going to [http://arctos.database.museum/all_all](http://arctos.database.museum/all_all)
