@@ -61,3 +61,11 @@ click a link to a portal (which would log them in as the portal's associated pub
 Operators are explicitly assigned roles by their supervisors. These roles have been bundled for convenience - for example, the MANAGE_SPECIMENS
  role allows INSERT and UPDATE and DELETE on table ATTRIBUTES, but only INSERT and UPDATE on IDENTIFICATION. (That is, students can create and
  manage identifications, but they cannot remove them.) Operator roles include PUBLIC, which provides read access to assigned collection's data.
+ 
+## Links
+
+Links to portals may be found at http://arctos.database.museum/home.cfm
+
+## Escaping Portals
+
+You may switch from a portal user to the generic public user by going to http://arctos.database.museum/all_all
