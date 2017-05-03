@@ -28,7 +28,7 @@ operations on the data to which they have access. Examples:
 However, without VPD access, "sometable" contains nothing from their perspective.
 * A user who has only "some_collection" access can access the "some_collection" VPD partition - in which nothing will exist for them 
 without a permission role.
-* A user who has UPDATE permission on "sometable" *and* "some_collection" VPD access can update the rows owned by "sometable" which are 
+* A user who has UPDATE permission on "sometable" *and* "some_collection" VPD access can update the rows in "sometable" which are 
 owned by "some_collection." (Which would be awkward, because they can't SEE those data without also having SELECT explicitly granted!)
 
 That is, user access is defined as the intersection of a user's permissions and access.
