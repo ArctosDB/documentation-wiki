@@ -25,12 +25,22 @@ The Manage Collection form in Arctos allows new or existing collections to creat
 
 * **License:** A dropdown that contains options for licensing _data_ (not media) from that collection. Choices included Creative Commons licenses or specific institutional "licenses" that describe authorized uses of the data. Any data published to GBIF must have a [Creative Commons](http://creativecommons.org) license, which is machine-readable and downloaded with every record. The same license chosen for Arctos data is used when publishing records to data aggregators. For guidance on licensing data, read the [VertNet Guide to Copyright and Licenses for Data Publication](http://vertnet.org/resources/datalicensingguide.html).
 
-* **Taxonomy Source:** A dropdown list for the source of the taxonomic classification used for the collection (default is Arctos).
+* **Taxonomy Source:** A dropdown list for the source of the taxonomic classification used for the collection.
 
-* **Contacts:** Anyone who is a contact for the collection must first be entered into Arctos as an agent, with a valid email address (see "[How to Create Agents](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-Agents)"). Add the name of each person who is a contact for the collection: type their last name and hit the tab key to bring up the list of agents with that name, then select the correct agent. For each contact, specify their role through the dropdown:
+* **Contacts:** Anyone who is a contact for the collection must first be entered into Arctos as an agent, with a valid email address (see "[How to Create Agents](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-Agents)"). Add the name of each person who is a contact for the collection: type their last name and hit the tab key to bring up the list of agents with that name, then select the correct agent. 
+For each contact, specify their [Contact Agent Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_CONTACT_ROLE) through the dropdown:
 
- * data quality (for questions about data, 'bad data' submissions, annotations, etc.)
- * loan request (for loan requests and notifications about overdue loans)
- * technical support (if the collection has a person who can help with technical issues such as programming)
 
-* **Header Options:** Collections may customize the header that appears at the top of a collection record or when searching a collection portal. Options for customization include color, image, text, and URL.
+* **Header Options:** Collections may customize the header that appears at the top of a collection record or when searching a collection portal.
+
+  * HEADER_COLOR: Background color; click the label for a color picker
+  * HEADER_IMAGE: 60x60 px image which will replace the Arctos Bear
+  * HEADER_CREDIT: Image attribution, displayed near the header image
+  * COLLECTION_URL: URL at which more collection information may be found
+  * COLLECTION_LINK_TEXT: text to display with COLLECTION_URL
+  * INSTITUTION_URL: URL at which more institution information may be found
+  * INSTITUTION_LINK_TEXT: text to display with INSTITUTION_URL
+  * META_DESCRIPTION: HTML header; for bots, probably no longer useful.
+  * META_KEYWORDS: HTML header; for bots, probably no longer useful.
+  * STYLESHEET: CSS stylesheet. Load css to /includes/css or coordinate with a DBA.
+  
