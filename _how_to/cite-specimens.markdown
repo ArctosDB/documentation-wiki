@@ -97,8 +97,9 @@ current specimens may have little to do with the used specimens.
 * Human Resolvability is poor; some resolution is possible, but results must be uncertain.
 
 
-### Random “local” identifiers – AF, NK, ALAAC, collector numbers, etc.; Bare catalog numbers (“12”), or catalog number with nonstandard prefix
- (“UAM 12”; “Alaska 12”)
+### Random “local” identifiers
+
+These include AF, NK, ALAAC, collector numbers, bare catalog numbers (“12”), or catalog number with nonstandard prefix ("Alaska 12")
  
  
 * Uniqueness is extremely unlikely
