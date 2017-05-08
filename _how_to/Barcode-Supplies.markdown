@@ -45,3 +45,4 @@ Cordless (Bluetooth) 1&2D Scanner: [Socket CHS 7Xi 1&2D Cordless Bluetooth® Sca
 
 Wired 1D Scanner: [Symbol LS2208 Economical Handheld Scanner & Stand Kit](http://barcode-labels.com/shop/scanners/zebra-ls2208/) $155
 
+For used barcode scanners and other supplies at a discount, check out eBay. You can find these scanners used for a significant discount. 
