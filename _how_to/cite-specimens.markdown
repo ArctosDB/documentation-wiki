@@ -40,6 +40,7 @@ A good identifier  will be easy for humans to recognize; it should probably be p
 
 
 
+
 Random “local” identifiers – AF, NK, ALAAC, collector numbers, etc.; Bare catalog numbers (“12”), or catalog number with nonstandard prefix (“UAM 12”; “Alaska 12”)
 
 In short, avoid these things. They’re sometimes handy for limited-scope “local” projects (such as helping a person find their way from a Nunc tube to a datasheet, or “softlinking” collectors and field notebooks), but should not be published anywhere that context (without which they are invariably meaningless) cannot be guaranteed. These are seldom (never?) unique, so use with caution.
