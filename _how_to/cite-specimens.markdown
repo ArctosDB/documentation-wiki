@@ -103,6 +103,6 @@ These include AF, NK, ALAAC, collector numbers, bare catalog numbers (“12”),
  
  
 * Uniqueness is extremely unlikely
-* Persistence is lacking
+* Persistence is poor
 * Machine Resolvability is nonexistent. 
 * Human Resolvability is very poor; someone familiar with the specimens can possibly figure it out, sometimes, with low certainty.
