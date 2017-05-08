@@ -30,39 +30,78 @@ A good identifier  will be easy for humans to recognize; it should probably be p
 
 ## Possibilities
 
+These are presented roughly in order of preference
+
 ### Full specimen GUID
 
 #### Uniqueness is guaranteed.
 #### Persistence is excellent
-#### Machine Resolvability is inherent
+#### Machine Resolvability is inherent, but reliant upon Arctos and the HTTP protocol. 
 #### Human Resolvability is excellent; the GUID contains the primary specimen identifier (catalog number)
 
 
+### DOI (for specimen GUID)
 
 
+#### Uniqueness is guaranteed.
+#### Persistence is very good, although an update to EZID may be required if the specimen is removed from Arctos.
+#### Machine Resolvability is inherent and has no dependencies.
+#### Human Resolvability is poor; most specimen labels do not include DOIs.
 
-Random “local” identifiers – AF, NK, ALAAC, collector numbers, etc.; Bare catalog numbers (“12”), or catalog number with nonstandard prefix (“UAM 12”; “Alaska 12”)
+### Locked Archives
 
-In short, avoid these things. They’re sometimes handy for limited-scope “local” projects (such as helping a person find their way from a Nunc tube to a datasheet, or “softlinking” collectors and field notebooks), but should not be published anywhere that context (without which they are invariably meaningless) cannot be guaranteed. These are seldom (never?) unique, so use with caution.
-Arctos-issued “GUID” (eg, UAM:Mamm:12)
+#### Uniqueness is guaranteed.
+#### Persistence is very good, although Arctos is required to resolve to specimens.
+#### Machine Resolvability is inherent, but reliant upon Arctos and the HTTP protocol. 
+#### Human Resolvability is poor; specimen labels do not include Archive Name.
 
-This may be the most-precise allowable format for things like print publications. GenBank requires this format, but note that GenBank’s registration system (1) ensures uniqueness, and (2) does not necessarily match what’s in Arctos. (Arctos “COA” is “COA<USA>” in GenBank, for example.) These are not necessarily globally unique (the University of Arkansas at Monticello may have a UAM:Mamm:12) so have limited utility for automated comparison. People will probably be able to figure them out, from both publications and specimen labels.
-Arctos-issued “GUID-bearing” URLs (eg, http://arctos.database.museum/guid/UAM:Mamm:12)
+### DOI (for locked archives)
 
-These are globally unique, but aren’t very nice for things like printing. Computers can use them – Arctos will respond with HTML or RDF. They are not truly persistent, but will probably be functional for a few more decades – the example will not survive the deprecation of the http protocol or the UAM Mammal Collection moving to a new collection management system. These are preferred for limited-term online “publications” and data repackaging such as GBIF (which is periodically refreshed).
-DOIs
+#### Uniqueness is guaranteed.
+#### Persistence is excellent, although Arctos is required to resolve to specimens.
+#### Machine Resolvability is inherent, but reliant upon Arctos. 
+#### Human Resolvability is poor; specimen labels do not include DOI.
 
-These are globally unique, and designed to survive domain and protocol changes (with adequate curatorial commitment). They make no sense in the context of specimen labels – computers are required to resolve them. Do not include resolvers (eg, dx.doi.org) and do not wrap the DOI in HTML (eg, <a href=”http://dx.doi.org/mydoi“>http://dx.doi.org/mydoi</a> or http://dx.doi.org/mydoi), but simply prefix them with “doi:” (doi:mydoi).
-Saved Searches
 
-Arctos provide the ability to save a search, and provides actionable unique identifiers in the form of URLs for saved searches. These are dynamic, and always reflect the data at the time they’re used, NOT at the time they’re created. Saved searches may be created by anyone with an Arctos account.
-Projects
+### Unlocked Archives
 
-Project provide a means for (indirectly) linking to many  specimens, and also provide a mechanism for examining specimen usage, “softlinking” publications in the absence of useful citations, or grouping multiple related loans. Projects may be changed by altering name or URL, or by adding or removing specimens by persons with proper Curatorial access. That is, they are as stable as Curators make them.
-Archives
+#### Uniqueness is guaranteed.
+#### Persistence is intermediate. Arctos is required to resolve to specimens, there is little to prevent the Archive from being modified
+or specimens being encumbered or deleted.
+#### Machine Resolvability is inherent, but reliant upon Arctos and the HTTP protocol. 
+#### Human Resolvability is poor; specimen labels do not include Archive Name.
 
-Archives are much like saved searches, except they are not dynamic. (They are specimen-based, not criteria-based.) A specimen will remain in an Archive despite re-identifications, etc., which might cause it to no longer appear in a saved search. Archives may be further divided into two classes:
+### "DWC Triplet" (UAM:Mamm:12)
 
-Unlocked Archives may be created by any user. These should be viewed as “static saved searches.”
 
-Operators with high-level administrative access may create Locked Archives. Locked archives cannot be unlocked, altered, or changed, cannot contain “mask record” encumbered specimens, and specimens in locked archives are protected from deletion or “mask record” encumbering. This functionality guarantees the indefinite persistence and integrity of the Archive.
+#### Uniqueness is extremely unlikely; there are at least 4 "UAM:Mamm" collections.
+#### Persistence is lacking
+#### Machine Resolvability is extremely unlikely. 
+#### Human Resolvability is mediocre; someone familiar with the specimens will probably figure it out.
+
+
+### Saved Searches
+
+#### Uniqueness is inherent.
+#### Persistence is nonexistent; results change as data are added or altered
+#### Machine Resolvability is dependent upon persistence, of which there is none. That is, these are machine-discoverable but the 
+current specimens may have little to do with the used specimens. 
+#### Human Resolvability is nonexistent.
+
+### Projects
+
+#### Uniqueness is inherent.
+#### Persistence is nonexistent; results change as data are added or altered
+#### Machine Resolvability is dependent upon persistence, of which there is none. That is, these are machine-discoverable but the 
+current specimens may have little to do with the used specimens. 
+#### Human Resolvability is poor; some resolution is possible, but results must be uncertain.
+
+
+### Random “local” identifiers – AF, NK, ALAAC, collector numbers, etc.; Bare catalog numbers (“12”), or catalog number with nonstandard prefix
+ (“UAM 12”; “Alaska 12”)
+ 
+ 
+#### Uniqueness is extremely unlikely
+#### Persistence is lacking
+#### Machine Resolvability is nonexistent. 
+#### Human Resolvability is very poor; someone familiar with the specimens can possibly figure it out, sometimes, with low certainty.
