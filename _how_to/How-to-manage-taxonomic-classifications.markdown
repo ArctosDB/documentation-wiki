@@ -36,5 +36,5 @@ If there are no classifications, or no suitable classifications, you may click "
 
 # Editing non-classification data
 
-* Non-classification data include the scientific name, common name, and relationships to other taxa. Taxon relationship types are managed in the code table [TAXON_RELATIONSHIP](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_RELATION){:target="_blank"}
+* Non-classification data include the scientific name, common name, and relationships to other taxa. Taxon relationship types are managed in the code table <a href="http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_RELATION" target="_blank">TAXON_RELATIONSHIP</a>
 * When a taxon gets merged (i.e., synonymized) into another taxon, you want to create a relationship between these two names. The old name becomes the 'synonym of' the new name, and the new name becomes the 'accepted synonym of'
