@@ -15,7 +15,7 @@ layout: default_toc
 
 ## For Users
 
-* It is strongly preferred to cite specimens individually. To do so, use the information in the "cite_this_as" field in the Arctos download.
+* It is strongly recommended to cite specimens individually. To do so, use the information in the "cite_this_as" field in the Arctos download.
 
 ```
 AWG: What should we put in that field?
@@ -42,7 +42,7 @@ identifiers then Arctos can find them, even if there are no other clues that the
 
 These are presented roughly in order of preference.
 
-#### Full specimen GUID
+#### Full specimen GUID (http://arctos.database.museum/guid/UAM:Ento:145576)
 
 * Uniqueness is guaranteed.
 * Persistence is excellent
@@ -50,7 +50,7 @@ These are presented roughly in order of preference.
 * Human Resolvability is excellent; the GUID contains the primary specimen identifier (catalog number)
 
 
-#### DOI (for specimen GUID)
+#### DOI (for specimen GUID - https://doi.org/10.7299/X75Q4W7G)
 
 
 * Uniqueness is guaranteed.
@@ -58,14 +58,14 @@ These are presented roughly in order of preference.
 * Machine Resolvability is inherent and has no dependencies.
 * Human Resolvability is poor; most specimen labels do not include DOIs.
 
-#### Locked Archives
+#### Locked Archives (http://arctos.database.museum/archive/ak-liogluta)
 
 * Uniqueness is guaranteed.
 * Persistence is very good, although data in Arctos is required to resolve to specimens.
 * Machine Resolvability is inherent, but reliant upon Arctos and the HTTP protocol. 
 * Human Resolvability is poor; specimen labels do not include Archive Name.
 
-#### DOI (for locked archives)
+#### DOI (for locked archives - https://doi.org/10.7299/X7JH3M91)
 
 * Uniqueness is guaranteed.
 * Persistence is excellent, although Arctos is required to resolve to specimens.
@@ -73,7 +73,7 @@ These are presented roughly in order of preference.
 * Human Resolvability is poor; specimen labels do not include DOI.
 
 
-#### Unlocked Archives
+#### Unlocked Archives (http://arctos.database.museum/archive/catnum12)
 
 * Uniqueness is guaranteed.
 * Persistence is intermediate. Arctos is required to resolve to specimens, there is nothing to prevent the Archive from being modified
@@ -90,7 +90,7 @@ or specimens being encumbered or deleted.
 * Human Resolvability is poor; someone familiar with the specimens and publication might figure it out.
 
 
-#### Saved Searches
+#### Saved Searches (http://arctos.database.museum/saved/catnum12)
 
 * Uniqueness is inherent.
 * Persistence is nonexistent; results change as data are added or altered
@@ -98,7 +98,7 @@ or specimens being encumbered or deleted.
 current specimens may have little to do with the used specimens. 
 * Human Resolvability is nonexistent.
 
-#### Projects
+#### Projects (http://arctos.database.museum/project/beringian-coevolution-project-bcp)
 
 * Uniqueness is inherent.
 * Persistence is nonexistent; results change as data are added or altered
@@ -107,9 +107,9 @@ current specimens may have little to do with the used specimens.
 * Human Resolvability is poor; some resolution is possible, but results must be uncertain.
 
 
-#### Random “local” identifiers
+#### Random “local” identifiers ("12")
 
-These include AF, NK, ALAAC, collector numbers, bare catalog numbers (“12”), or catalog number with nonstandard prefix ("Alaska 12")
+These include AF, NK, ALAAC, collector numbers, bare catalog numbers, or catalog number with nonstandard prefix ("Alaska 12")
  
  
 * Uniqueness is extremely unlikely
