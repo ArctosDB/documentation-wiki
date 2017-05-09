@@ -26,7 +26,11 @@ guidance.
 --- 
 ## For Curators
 
-Unfortunately, there are no clear universal guidelines for citing specimens, and there are potential problems for all specimen identifiers. 
+Unfortunately, there are no clear universal guidelines for citing specimens, and there are potential problems for all specimen identifiers.
+When providing guidance for citing multiple specimens, the following should be considered in addition to the nature of the material (or data)
+being used, the nature of the work being done, and anything else which might effect how data and specimens (or samples) are ultimately accessed,
+both digitally and physically. The Arctos Working Group is available discuss specifics.
+  
 
 ### Considerations 
 
