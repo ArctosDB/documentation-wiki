@@ -4,7 +4,7 @@ layout: default_toc
 ---
 
 
-# *This is a draft document.*
+# *This is a draft document; recommendations have not been finalized.*
 
 
 
