@@ -6,7 +6,24 @@ layout: default_toc
 
 # ** This is a draft document. **
 
+
+
+
 # How to cite specimens
+
+
+
+# For Users
+
+* It is strongly preferred to cite specimens individually. To do so, use the information in the "cite_this_as" field in the Arctos download.
+
+```
+AWG: What should we put in that field?
+```
+* If citing individual specimens is not possible or practical, contact the Curator(s) of the collection(s) with which you are working for 
+guidance. 
+
+# For Curators
 
 Unfortunately, there are no clear universal guidelines for citing specimens, and there are potential problems for all specimen identifiers. 
 
