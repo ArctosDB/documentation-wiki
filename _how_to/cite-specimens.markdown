@@ -46,7 +46,7 @@ identifiers then Arctos can find them, even if there are no other clues that the
 
 These are presented roughly in order of preference.
 
-#### Full specimen GUID ([http://arctos.database.museum/guid/UAM:Ento:145576])
+#### Full specimen GUID ([http://arctos.database.museum/guid/UAM:Ento:145576](http://arctos.database.museum/guid/UAM:Ento:145576))
 
 * Uniqueness is guaranteed.
 * Persistence is excellent
