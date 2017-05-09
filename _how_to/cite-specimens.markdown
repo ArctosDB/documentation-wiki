@@ -54,7 +54,7 @@ These are presented roughly in order of preference.
 * Human Resolvability is excellent; the GUID contains the primary specimen identifier (catalog number)
 
 
-#### DOI (for specimen GUID - https://doi.org/10.7299/X75Q4W7G)
+#### DOI (for specimen GUID - [https://doi.org/10.7299/X75Q4W7G](https://doi.org/10.7299/X75Q4W7G))
 
 
 * Uniqueness is guaranteed.
@@ -62,14 +62,14 @@ These are presented roughly in order of preference.
 * Machine Resolvability is inherent and has no dependencies.
 * Human Resolvability is poor; most specimen labels do not include DOIs.
 
-#### Locked Archives (http://arctos.database.museum/archive/ak-liogluta)
+#### Locked Archives ([http://arctos.database.museum/archive/ak-liogluta](http://arctos.database.museum/archive/ak-liogluta))
 
 * Uniqueness is guaranteed.
 * Persistence is very good, although data in Arctos is required to resolve to specimens.
 * Machine Resolvability is inherent, but reliant upon Arctos and the HTTP protocol. 
 * Human Resolvability is poor; specimen labels do not include Archive Name.
 
-#### DOI (for locked archives - https://doi.org/10.7299/X7JH3M91)
+#### DOI (for locked archives - [https://doi.org/10.7299/X7JH3M91](https://doi.org/10.7299/X7JH3M91))
 
 * Uniqueness is guaranteed.
 * Persistence is excellent, although Arctos is required to resolve to specimens.
@@ -77,7 +77,7 @@ These are presented roughly in order of preference.
 * Human Resolvability is poor; specimen labels do not include DOI.
 
 
-#### Unlocked Archives (http://arctos.database.museum/archive/catnum12)
+#### Unlocked Archives ([http://arctos.database.museum/archive/catnum12](http://arctos.database.museum/archive/catnum12))
 
 * Uniqueness is guaranteed.
 * Persistence is intermediate. Arctos is required to resolve to specimens, there is nothing to prevent the Archive from being modified
@@ -94,7 +94,7 @@ or specimens being encumbered or deleted.
 * Human Resolvability is poor; someone familiar with the specimens and publication might figure it out.
 
 
-#### Saved Searches (http://arctos.database.museum/saved/catnum12)
+#### Saved Searches ([http://arctos.database.museum/saved/catnum12](http://arctos.database.museum/saved/catnum12))
 
 * Uniqueness is inherent.
 * Persistence is nonexistent; results change as data are added or altered
@@ -102,7 +102,7 @@ or specimens being encumbered or deleted.
 current specimens may have little to do with the used specimens. 
 * Human Resolvability is nonexistent.
 
-#### Projects (http://arctos.database.museum/project/beringian-coevolution-project-bcp)
+#### Projects ([http://arctos.database.museum/project/beringian-coevolution-project-bcp](http://arctos.database.museum/project/beringian-coevolution-project-bcp))
 
 * Uniqueness is inherent.
 * Persistence is nonexistent; results change as data are added or altered
