@@ -13,7 +13,7 @@ Try to include "common" ranked terms for searchability - kingdom, phylum, order,
 
 # Common Problems
 
-## The name I want to use exists, there's no classification in "my" preferred taxonomy.
+## The name I want to use exists, there's no classification in "my" preferred taxonomy
 
 * Find a similar classification; there's usually one from GlobalNames.
 * Click Clone Classification.
@@ -22,7 +22,7 @@ Try to include "common" ranked terms for searchability - kingdom, phylum, order,
 
 If there are no classifications, or no suitable classifications, you may click "create classification" to start from scratch. Please carefully follow all editing guidelines.
 
-## The name I want to use does not exist.
+## The name I want to use does not exist
 
 * Find a similar name
 * Click "clone classification as new name"
@@ -33,3 +33,8 @@ If there are no classifications, or no suitable classifications, you may click "
 
 * If there's no classification in your collection's preferred classification, see **The name I want to use exists, there's no classification in "my" preferred taxonomy**. Names may have multiple "definitions" in multiple classifications.
 * If there's a homonym among collections using a shared classification, us the contact button on the bottom of any Arctos page for help. Example: Philometra is a lepidopteran under the Arctos classification, you also use the Arctos classification and need to catalog Philometra-the-nematode.
+
+# Editing non-classification data
+
+* Non-classification data include the scientific name, common name, and relationships to other taxa. Taxon relationship types are managed in the code table [TAXON_RELATIONSHIP](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_RELATION)
+* When a taxon gets merged (i.e., synonymized) into another taxon, you want to create a relationship between these two names. The old name becomes the 'synonym of' the new name, and the new name becomes the 'accepted synonym of'
