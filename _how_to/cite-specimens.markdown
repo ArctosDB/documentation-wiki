@@ -3,6 +3,9 @@ title: How To Cite Specimens
 layout: default_toc
 ---
 
+
+# ** This is a draft document. **
+
 # How to cite specimens
 
 Unfortunately, there are no clear universal guidelines for citing specimens, and there are potential problems for all specimen identifiers. 
