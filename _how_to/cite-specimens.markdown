@@ -21,22 +21,23 @@ A good identifier is easy to keep forever, and has no mechanism for becoming non
 
 ### Machine Resolvability
 
-A good identifier will be easy for machines to recognize. This facilitates automated discovery.
+A good identifier will be easy for machines to recognize. If users cite machine-resolvable 
+identifiers then Arctos can find them, even if there are no other clues that the data were used and the user fails to report the publication. 
 
 ### Human Resolvability
 
-A good identifier  will be easy for humans to recognize; it should probably be printed on specimen labels.
+A good identifier will be easy for humans to recognize, and use to locate specimens; it should probably be printed on specimen labels.
 
 
 ## Possibilities
 
-These are presented roughly in order of preference
+These are presented roughly in order of preference.
 
 ### Full specimen GUID
 
 * Uniqueness is guaranteed.
 * Persistence is excellent
-* Machine Resolvability is inherent, but reliant upon Arctos and the HTTP protocol. 
+* Machine Resolvability is inherent, but reliant upon Arctos and the HTTP protocol. (It'll probably work for a few more decades.)
 * Human Resolvability is excellent; the GUID contains the primary specimen identifier (catalog number)
 
 
@@ -44,14 +45,14 @@ These are presented roughly in order of preference
 
 
 * Uniqueness is guaranteed.
-* Persistence is very good, although an update to EZID may be required if the specimen is removed from Arctos.
+* Persistence is excellent; the identifier can survive the deprecation of Arctos and the HTTP protocol.
 * Machine Resolvability is inherent and has no dependencies.
 * Human Resolvability is poor; most specimen labels do not include DOIs.
 
 ### Locked Archives
 
 * Uniqueness is guaranteed.
-* Persistence is very good, although Arctos is required to resolve to specimens.
+* Persistence is very good, although data in Arctos is required to resolve to specimens.
 * Machine Resolvability is inherent, but reliant upon Arctos and the HTTP protocol. 
 * Human Resolvability is poor; specimen labels do not include Archive Name.
 
@@ -66,7 +67,7 @@ These are presented roughly in order of preference
 ### Unlocked Archives
 
 * Uniqueness is guaranteed.
-* Persistence is intermediate. Arctos is required to resolve to specimens, there is little to prevent the Archive from being modified
+* Persistence is intermediate. Arctos is required to resolve to specimens, there is nothing to prevent the Archive from being modified
 or specimens being encumbered or deleted.
 * Machine Resolvability is inherent, but reliant upon Arctos and the HTTP protocol. 
 * Human Resolvability is poor; specimen labels do not include Archive Name.
@@ -76,8 +77,8 @@ or specimens being encumbered or deleted.
 
 * Uniqueness is extremely unlikely; there are at least 4 "UAM:Mamm" collections.
 * Persistence is lacking
-* Machine Resolvability is extremely unlikely. 
-* Human Resolvability is mediocre; someone familiar with the specimens will probably figure it out.
+* Machine Resolvability is extremely unlikely.
+* Human Resolvability is poor; someone familiar with the specimens and publication might figure it out.
 
 
 ### Saved Searches
