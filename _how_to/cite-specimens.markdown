@@ -26,7 +26,7 @@ guidance.
 --- 
 ## For Curators
 
-Unfortunately, there are no clear universal guidelines for citing specimens, and there are potential problems for all specimen identifiers.
+Unfortunately, there are no clear universal guidelines for citing specimens, and there are potential complications for all specimen identifiers.
 When providing guidance for citing multiple specimens, the following should be considered in addition to the nature of the material (or data)
 being used, the nature of the work being done, and anything else which might effect how data and specimens (or samples) are ultimately accessed,
 both digitally and physically. The Arctos Working Group is available discuss specifics.
@@ -46,7 +46,7 @@ identifiers then Arctos can find them, even if there are no other clues that the
 
 These are presented roughly in order of preference.
 
-#### Full specimen GUID (http://arctos.database.museum/guid/UAM:Ento:145576)
+#### Full specimen GUID ([http://arctos.database.museum/guid/UAM:Ento:145576])
 
 * Uniqueness is guaranteed.
 * Persistence is excellent
