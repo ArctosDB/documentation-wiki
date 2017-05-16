@@ -56,7 +56,7 @@ Some objects (taxonomy, media, agents, places) are shared amongst collections. P
 
 Once a user has an account and an agent name type of “login,” do not attempt to delete or alter the account or the login agent name. Additionally, do not revoke collection access roles from a former user. To revoke a user’s permissions, simply click the “lock account” link from manage users (not manage agents).
 
-User accounts automatically lock after 6 months of inactivity.
+User accounts automatically lock after 6 months of inactivity. 
 
 Users whose accounts have been locked will not be able to log into Arctos, and must create a new (public) account if they wish to access Arctos.
 
@@ -64,7 +64,9 @@ Users who have their account locked and are subsequently re-granted access must 
 
 **_DO NOT UNDER ANY CIRCUMSTANCES CREATE A NEW OPERATOR ACCOUNT FOR USERS WHO HAVE EVER HAD AN OPERATOR ACCOUNT IN ARCTOS!_**
 
-Users may sign up for the Arctos Group mailing list at https://groups.google.com/forum/#!forum/arctos. Any users not receiving emails should be provided relevant information by their supervisor.
+All users should participate in the development process at GitHub; instructions are at
+[https://doi.org/10.7299/X75B02M5](https://doi.org/10.7299/X75B02M5)
+
 
 Users should have a valid email address in their Agent record; without, they will not receive proper notifications for proposed agent mergers, transaction events, etc.
 
