@@ -83,3 +83,12 @@ be an issue of some delicacy.
 ## Funded USD
 
 Amount in US Dollars for which a project has been funded. 
+
+## Deleting
+
+To delete a project, first delete all dependencies then a delete button will appear.
+
+## Changing Title
+
+Changing a project title will change the project detail page URL, which may disrupt incoming links. Consider using 
+[redirects](/documentation/redirect.html).
