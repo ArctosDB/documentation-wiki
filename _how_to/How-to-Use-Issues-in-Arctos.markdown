@@ -49,7 +49,7 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
 
 * Anyone can submit a new Issue or comment on an existing Issue. Github Issues are the preferred user-developer communication channel.
 * Everyone with an interest in the development of Arctos should be participating in the Issue process. Your comments, however brief,
-help us understand and prioritize development.
+help us understand concerns and prioritize development.
 * Please stay on track. Open new Issues for new subjects.
 * Close Issues when they've served their purpose. 
 * Re-open Issues if necessary, and leave a comment when you do. Sometimes unresolved Issues are closed, usually due to misunderstandings. 
