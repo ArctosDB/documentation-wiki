@@ -7,33 +7,54 @@ date: 2016-06-06
 
 # The Issue Process: How to Make Arctos Work for You
 
-* Improvements to Arctos can come from any Arctos user. Suggested improvements can include simple coding bug fixes, the addition/deletion of data fields or menu items, new forms/buttons/functions to streamline collection processes - anything that will help Arctos users better manage and access Arctos data/specimens/objects.
+* Improvements to Arctos can come from any Arctos user. Suggested improvements can include simple coding bug fixes, the addition/deletion of 
+data fields or menu items, new forms/buttons/functions to streamline collection processes - anything that will help Arctos users better 
+manage and access Arctos data/specimens/objects.
 
 
-* Changes to Arctos are submitted, discussed, prioritized, and tracked to completion using [Issues in GitHub](https://github.com/ArctosDB/arctos/issues). Once an Issue is created it will be reviewed by the Arctos Working Group. 
+* Changes to Arctos are submitted, discussed, prioritized, and tracked to completion 
+using [Issues in GitHub](https://github.com/ArctosDB/arctos/issues). Once an Issue is created it will be reviewed by the Arctos Working Group. 
 
 
 * Issues that do not require a discussion (bug fixes or broken forms/functions) will be resolved by Arctos programmers. 
 
 
-* An Issue requiring discussion will be considered by the Arctos Working Group, the Issue author, and other interested users - Issues and discussions are open to all. The discussion of an Issue is best tracked as comments of the Issue. Each Issue that is created is number and considered active until Closed. You can reply to comment via email if you "Watch" a repository in Github. Read more about using [GitHub Issues](https://guides.github.com/features/issues/).
+* An Issue requiring discussion will be considered by the Arctos Working Group, the Issue author, and other interested users - 
+Issues and discussions are open to all. The discussion of an Issue is best tracked as comments of the Issue. 
+Each Issue that is created is number and considered active until Closed. You can reply to comment via email if you "Watch" a 
+repository in Github. Read more about using [GitHub Issues](https://guides.github.com/features/issues/).
 
 ## How to File an Issue
 
-* You need to create a username and password to log into Github (see "[How to Use GitHub for Arctos](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Use-Github-for-Arctos)") before you can file an Issue. 
+* You need to create a username and password to log into Github 
+(see "[How to Use GitHub for Arctos](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Use-Github-for-Arctos)") before you 
+can file an Issue. 
 
 
 * Use this link <https://github.com/ArctosDB/arctos/issues/> to access Arctos Issues.
 
 
-* ALWAYS FIRST Search for existing Issues to be certain your Issue does not already exist. If a similar Issue already exists, you can comment on it.
+* ALWAYS FIRST Search for existing Issues to be certain your Issue does not already exist. If a similar Issue already exists, 
+you can comment on it.
 
 
-* If you want to create a new Issue, click the green "New Issue" button in the upper right of the Issues list. Enter a short but clear title, and a description of the Issue in the text box where it says "Leave a comment." Click "Submit new issue" to assign the new Issue a number. Be clear and verbose in explaining the need and intended goals; provide specific examples, screenshots, or anything else which might help us understand what you wish to accomplish.
+* If you want to create a new Issue, click the green "New Issue" button in the upper right of the Issues list. Enter a short 
+but clear title, and a description of the Issue in the text box where it says "Leave a comment." Click "Submit new issue" 
+to assign the new Issue a number. Be clear and verbose in explaining the need and intended goals; provide specific examples,
+ screenshots, or anything else which might help us understand what you wish to accomplish.
 
 ## Managing Issues
 
-* Anyone can submit a new Issue or comment on an existing Issue, but that's about all that they can do.
+### For Anyone
+
+* Anyone can submit a new Issue or comment on an existing Issue. Github Issues are the preferred user-developer communication channel.
+* Everyone with an interest in the development of Arctos should be participating in the Issue process. Your comments, however brief,
+help us understand and prioritize development.
+* Please stay on track. Open new Issues for new subjects.
+* Close Issues when they've served their purpose. 
+* Re-open Issues if necessary, and leave a comment when you do. Sometimes unresolved Issues are closed, usually due to misunderstandings. 
+
+### For ArctosDB Admin
 
 * Owners of the ArctosDB organization can manage Issues, meaning that they can do one of several things: 
 
