@@ -42,7 +42,7 @@ catalog. Arctos currently supports three formats of catalog number.
     accompanied by a prefix and/or suffix. The concatenation of
     prefix-integer-suffix must be unique. No predictive tools
     are available. Search is by the concatenation or substrings thereof.
-3.  **String**: Any unique non-`NULL` string is accepted. No predictive
+3.  **String**: Any unique non-NULL string is accepted. No predictive
     tools are available. Search is by the concatenation or
     substrings thereof.
     
@@ -121,13 +121,11 @@ example:
 
 `Collection . Collection_Cde VARCHAR2(5) not null`
 
-This is an abbreviation for a collection type, such
-as "Mamm" or "Bird" (see [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde)).
-This field is most importantly used in code tables, which determine the
-values provided to drop-downs in specimen-editing applications. Thus, if
-you are editing the record for a mammal specimen, you have the option of
-using an attribute such as ear length, and you do not have to see
-irrelevant attributes such as beak length.
+Collection Code links catalogs to collection-type-specific code tables. Values are generally descriptive ("Mamm" or "Bird"), but
+no deeper meaning exists.
+Existing collection_cde values are in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde).
+Exploring the "filter" option of [Attribute Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE)
+will provide an idea of how a colleciton type has been used.
 
 ## Description
 
