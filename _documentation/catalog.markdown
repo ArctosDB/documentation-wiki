@@ -387,7 +387,7 @@ number." This approach has been used to unify and disambiguate several
 Arctos collections; we find tradition little excuse to go forward under
 systems which discourage good science.
 
-## Deleting records from Arctos
+# Deleting records from Arctos
 
 1.  [Encumber](/documentation/encumbrance)
     the record(s) to be deleted. Create an appropriate encumbrance
@@ -405,7 +405,7 @@ systems which discourage good science.
 Note that there may be reasons to keep masked records in the database
 instead of deleting them.
 
-## Recataloging Specimens
+# Recataloging Specimens
 
 It is sometimes necessary to move cataloged items from one collection or
 catalog number to another. When doing so, it is important to maintain a
