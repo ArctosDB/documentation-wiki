@@ -96,9 +96,10 @@ which in conjunction with catalog number forms a unique identifier
 within Arctos, and in conjunction with Arctos’ URI forms a Globally
 Unique Identifier (GUID) for the specimen record. GUIDs, once formed,
 must never be allowed to change or expire. See [deleting specimens](#deleting-records-from-arctos) 
-for guidelines. All specimen citations should occur by way of GUID. Note that while GUID Prefix is 
+for guidelines. All specimen citations should occur by way of GUID. Note that while GUID Prefix 
 generally appears to be a concatenation of institution and collection code, it is in fact an independent
-concept; several collections from an institution may use the 'Herb' collection_cde, for example.
+concept; several collections from an institution may use the 'Herb' collection_cde 
+(*e.g.* for vascular plants, cryptogams, and marine algae collections, for example).
 
 ## Collection
 
