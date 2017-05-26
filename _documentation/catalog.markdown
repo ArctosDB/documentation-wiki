@@ -5,29 +5,18 @@ layout: default_toc
 
 # Catalog
 
-Catalogs are administrative lists with inconsistent relationships to
+Catalogs or Collections are administrative lists with inconsistent relationships to
 physical items. Therefore, a Cataloged Item is an abstraction, *i.e.*,
 it is an item that has been cataloged, and hence defined, by the
-administrator of a catalog.
+administrator of a catalog. 
 
-In a catalog of mammals or birds, a cataloged item usually coincides
-with a biological individual. A large mammal will be given one catalog
-number even though it may be composed of many [specimen
-parts](/documentation/parts), *e.g.*, a skin, a skull, frozen tissue
-samples, fluid-preserved soft parts. In a catalog of fish or parasites,
-a cataloged item often is numerous individuals of one species from the
-same collecting event. There are also situations where parts of the same
-biological individual may occur in more than one catalog. For example,
-some museums maintain one catalog for skins and another for skeletal
-material, or separate parts of the same individual may have been
-cataloged at more than one institution. The term "specimen" is uses
-synonymously with "cataloged item" throughout Arctos.
+The term "specimen" is used synonymously with "cataloged item" throughout Arctos.
 
 ## Catalog Number
 
 `Cataloged_Item . Cat_Num VARCHAR2(40) not null`
 
-Catalog Number is the string (sometimes integer) assigned to a
+Catalog Number is the identifier assigned to a
 Cataloged Item. It must be unique (case-insensitive) within a particular
 catalog. Arctos currently supports three formats of catalog number.
 
@@ -43,8 +32,9 @@ catalog. Arctos currently supports three formats of catalog number.
     prefix-integer-suffix must be unique. No predictive tools
     are available. Search is by the concatenation or substrings thereof.
 3.  **String**: Any unique non-NULL string is accepted. No predictive
-    tools are available. Search is by the concatenation or
+    tools are available. Search is by the string or
     substrings thereof.
+    
     
 ## Cataloged Item Type
 
@@ -166,9 +156,9 @@ The following table is illustrative.
   |=12-14    | 12-14                                           | "=" (equals) prefix overrides all other operators and assumptions.|
   |12-11     | 12-11                                           |  "Second" item is smaller than "first" item; not considered as range.|
   |12-0110   | 12-11                                           | "Second" item is zero-padded so not considered an integer; not considered as range.|
-  |12,13,14  |  12, 13, or 14                                  |  Commas are treated as list delimiters unless the value is prefixed with an equals sign. Note that there is a 1000-item limit on ranges and lists.|
-  |12,13a,14 |  12, 13a, or 14                                 | Commas are treated as list delimiters unless the value is prefixed with an equals sign. Neither catalog numbers nor list elements must be numeric. Note that there is a 1000-item limit on ranges and lists.|
-  |%12%      | <strong>12</strong>, <strong>12</strong>1, <strong>12</strong>a, 9994836<strong>12</strong>345, ….   | "%" is "match anything." This matches anything CONTAINING 12.|
+  |12,13,14  | 12, 13, or 14                                  |  Commas are treated as list delimiters unless the value is prefixed with an equals sign. Note that there is a 1000-item limit on ranges and lists.|
+  |12,13a,14 | 12, 13a, or 14                                 | Commas are treated as list delimiters unless the value is prefixed with an equals sign. Neither catalog numbers nor list elements must be numeric. Note that there is a 1000-item limit on ranges and lists.|
+  |%12%      | *12*, *12*1, *12*a, 9994836*12*345, ….      | "%" is "match anything." This matches anything CONTAINING 12.|
   |%12       |  12, 112, AABC-5-a12, ….                        |  "%" is "match anything." This matches anything ENDING WITH 12.|
   |\_12      |  012, a12, 912, ….                              |  "\_" is "match any single character."|
   |1_2       | 102, 112, 1A2, ….                               | "\_" is "match any single character."|
@@ -376,7 +366,21 @@ Arctos.
         of scientific interest together when multiple numbers are for
         some reason necessary. (see <http://mailman.yale.edu/pipermail/nhcoll-l/2016-March/009178.html>)
 
-Collections with "less citable" catalog number schemes are extremely
+
+
+# Defining Collections
+
+Collections in Arctos are wholly administrative. Collections may be comprised of similar taxa (*e.g.* mammals), of
+various taxa organized for some purpose (such at the [Hildebrandt Collection at MVZ](http://mvz.berkeley.edu/Other_Collections.html)),
+by legacy usage, or anything else. The sole functional or technical consideration is code tables, which are tied to collection type
+ (collection_cde). For example, contrast Attributes available to a 
+[Mamm collection](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE&coln=Mamm)
+versus a [Para collection](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE&coln=Para).
+
+Legacy collections often exist for various reasons, and these may have duplicate catalog numbers, unpredictable formats which may
+confuse users, or contain arbitrary divides which no longer make sense. Combining these into a unified collection in Arctos is generally
+trivial, and Arctos provides various mechanisms (such as [actionable identifiers](other-identifying-numbers.html) and 
+[redirects](/redirect.html)) to ensure that no functionality is lost. Collections with "less citable" catalog number schemes are
 unlikely to support actionable citations, and so little is lost if the
 "traditional catalog numbers" are subsumed under a "citable catalog
 number." This approach has been used to unify and disambiguate several
