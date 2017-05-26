@@ -54,7 +54,7 @@ remarks better stored with a part, event, or any other "piece of the specimen."
 
 `Coll_Object . Entered_Person_ID NUMBER(22) not null`
 
-Agent creating the catalog record.
+Agent creating the catalog record in Arctos.
 
 ## Entered Date
 
@@ -79,7 +79,7 @@ Date on which the record was last edited.
 `Coll_Object . Flags VARCHAR2(20) null`
 
 Flags mark a specimen as missing information during the entry process. It is sometimes more convenient to bulkload data after the
-specimen record exists than to enter data with the specimen; flags serves as a marker to facilite easily locating those specimens.
+specimen record exists than to enter data with the specimen; flags serves as a marker to facilitate easily locating those specimens.
 
 ## Associated Species
 
@@ -118,7 +118,7 @@ Collection Code links catalogs to collection-type-specific code tables. Values a
 no deeper meaning exists.
 Existing collection_cde values are in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde).
 Exploring the "filter" option of [Attribute Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE)
-will provide an idea of how a colleciton type has been used.
+will provide an idea of how a collection type has been used.
 
 ## Description
 
@@ -141,8 +141,7 @@ University of Alaska Museum (of the North), "MSB" for Museum of
 Southwestern Biology. Generally, these values are the same as those
 traditionally used for specimen citations within discipline-specific
 publications. There is now a demand for globally unique specimen
-identifiers on the Internet, and at least [one
-registry](http://grbio.org) for such abbreviations has been
+identifiers on the Internet, and at least [one registry](http://grbio.org) for such abbreviations has been
 established.
 
 ## Searching
@@ -152,11 +151,11 @@ The following table is illustrative.
 
   |Input     | Matches                                         | Why           |
   |----------|-------------------------------------------------|---------------|
-  |12        | 12                                              | No-operator inputs are string matched.|
+  |12        | ```12```                                              | No-operator inputs are string matched.|
   |12-14     | 12, 13, or 14                                   | Dash-separated smaller–&gt;larger integers specify a range. Note that there is a 1000-item limit on ranges and lists.|
   |=12-14    | 12-14                                           | "=" (equals) prefix overrides all other operators and assumptions.|
   |12-11     | 12-11                                           |  "Second" item is smaller than "first" item; not considered as range.|
-  |12-0110   | 12-11                                           | "Second" item is zero-padded so not considered an integer; not considered as range.|
+  |12-0110   | 12-0110                                           | "Second" item is zero-padded so not considered an integer; not considered as range.|
   |12,13,14  | 12, 13, or 14                                  |  Commas are treated as list delimiters unless the value is prefixed with an equals sign. Note that there is a 1000-item limit on ranges and lists.|
   |12,13a,14 | 12, 13a, or 14                                 | Commas are treated as list delimiters unless the value is prefixed with an equals sign. Neither catalog numbers nor list elements must be numeric. Note that there is a 1000-item limit on ranges and lists.|
   |%12%      | *12*, *12*1, *12*a, 9994836*12*345, ….      | "%" is "match anything." This matches anything CONTAINING 12.|
