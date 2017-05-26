@@ -152,13 +152,13 @@ The following table is illustrative.
   |Input     | Matches                                         | Why           |
   |----------|-------------------------------------------------|---------------|
   |12        | ```12```                                              | No-operator inputs are string matched.|
-  |12-14     | 12, 13, or 14                                   | Dash-separated smaller–&gt;larger integers specify a range. Note that there is a 1000-item limit on ranges and lists.|
+  |12-14     | ```12```, ```13```, or ```14```                                   | Dash-separated smaller–&gt;larger integers specify a range. Note that there is a 1000-item limit on ranges and lists.|
   |=12-14    | 12-14                                           | "=" (equals) prefix overrides all other operators and assumptions.|
   |12-11     | 12-11                                           |  "Second" item is smaller than "first" item; not considered as range.|
   |12-0110   | 12-0110                                           | "Second" item is zero-padded so not considered an integer; not considered as range.|
   |12,13,14  | 12, 13, or 14                                  |  Commas are treated as list delimiters unless the value is prefixed with an equals sign. Note that there is a 1000-item limit on ranges and lists.|
   |12,13a,14 | 12, 13a, or 14                                 | Commas are treated as list delimiters unless the value is prefixed with an equals sign. Neither catalog numbers nor list elements must be numeric. Note that there is a 1000-item limit on ranges and lists.|
-  |%12%      | _12_, *12*1, *12*a, 9994836*12*345, ….      | "%" is "match anything." This matches anything CONTAINING 12.|
+  |%12%      |```12```, ```12```1, ```12```a, 9994836*12*345, ….      | "%" is "match anything." This matches anything CONTAINING 12.|
   |%12       |  12, 112, AABC-5-a12, ….                        |  "%" is "match anything." This matches anything ENDING WITH 12.|
   |\_12      |  012, a12, 912, ….                              |  "\_" is "match any single character."|
   |1_2       | 102, 112, 1A2, ….                               | "\_" is "match any single character."|
