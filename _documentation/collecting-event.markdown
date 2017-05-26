@@ -5,7 +5,7 @@ layout: default_toc
 
 # Collecting Event
 
-A collecting event is a place and time where collecting occurred. A
+A collecting event is a place and time (both of any precision) where collecting occurred. A
 collecting event often applies to more than one catalogued specimen, so
 be careful that changes you make to a collecting event apply to all of
 the specimens. **New Collecting Events** are normally created when
