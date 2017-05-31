@@ -23,17 +23,17 @@ catalog. Arctos currently supports three formats of catalog number.
 1.  **Integer**: Catalog numbers must be positive integers. Arctos
     provides tools to predict the next number (e.g., data entry can
     leave catalog number blank), find gaps in sequences, search by
-    ranges, and provide GUIDs of the "expected" format. Only this format
+    ranges, and provide GUIDs of the "expected" format. Sort may be numeric (1,2,,3...20). Only this format
     comes with these tools and abilities, and it is often worthwhile to
     convert existing mixed-string catalog "series" to Integer catalog
     numbers and store the old numbers as other IDs.
 2.  **Prefix-Integer-Suffix**: An integer is required, and may be
     accompanied by a prefix and/or suffix. The concatenation of
     prefix-integer-suffix must be unique. No predictive tools
-    are available. Search is by the concatenation or substrings thereof.
+    are available. Search is by the concatenation or substrings thereof. Sort will be character (1,2,...20...3).
 3.  **String**: Any unique non-NULL string is accepted. No predictive
     tools are available. Search is by the string or
-    substrings thereof.
+    substrings thereof. Sort will be character (1,2,...20...3).
     
     
 ## Cataloged Item Type
