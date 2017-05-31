@@ -165,7 +165,7 @@ The following table is illustrative.
 
 ## Locating Specimens by Identifier
 
-Each specimen in Arctos receives a single catalog number, along with any
+Each specimen in Arctos receives (and is define by) a single catalog number, along with any
 number of identifying numbers, often referred to as "Other IDs." There
 are several ways, each with their own limitations, to search these
 numbers. The data available for searching vary wildly based on what
@@ -331,7 +331,7 @@ Arctos.
         science when an individual sampled multiple times at multiple
         locations is assumed by users to be multiple
         distinct individuals. Arctos supports cataloging encounters as
-        [specimen events](/documentation/specimen-events) under one cataloged item.
+        [specimen events](/specimen-event.html) under one cataloged item.
 -   **Your "share"** of an individual (*e.g.*, tissues; the bones being
     cataloged elsewhere)
     -   Similar to occurrences in that this leads to multiple

@@ -5,7 +5,7 @@ author: Dusty MacDonald
 date: 2016-05-09
 ---
 
-_Stable link to this page: http://dx.doi.org/10.7299/X75B02M5_
+_Stable link to this page: https://doi.org/10.7299/X75B02M5_
 
 # Why Use GitHub for Arctos?
 
