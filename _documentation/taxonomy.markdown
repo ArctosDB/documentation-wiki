@@ -85,7 +85,7 @@ A rank is required.
 
 ## Taxonomy as a Hierarchy
 
-While single classifications are hierarchical, taxonomy as a body of 
+While single classifications may be hierarchical, taxonomy as a body of 
 literature is anything but: Most name have a long history of "current
 family, according to….", for example, and many refer to multiple
 concepts, such as plants and animals.
