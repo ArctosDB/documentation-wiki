@@ -461,19 +461,17 @@ for Maximum Uncertainty is converted from the original units (recorded
 here) to the value in meters.
 
 
-~~## Determiner
+~~## Determiner~~
 
-`Lat_Long . Determined_By_Agent_id INT not null`
+~~`Lat_Long . Determined_By_Agent_id INT not null`~~
 
 
- is the
-[agent](../documentation/agent)
-(usually a person) who determined that these coordinates and measures of
+~~is the [agent](../documentation/agent) (usually a person) who determined that these coordinates and measures of
 uncertainty apply to this locality. Often, this is the collector or,
 dear reader, you.  The form will load with the currently logged-in user
-as the default Determiner for new records.
+as the default Determiner for new records.~~
 
-Sometimes, a determination is developed by two or more successive
+~~Sometimes, a determination is developed by two or more successive
 agents. For example, one agent might locate a named place and provide
 the coordinates, but little or no information about the uncertainty. A
 second agent might then evaluate the determination (mapping it and
@@ -483,9 +481,7 @@ re-evaluated the coordinates, and the determination is considered to
 have been made by the second agent (*i.e.,* the agent who last modified
 the determination). If there is a need to maintain the identity of the
 first agent, then the second agent should create a second (separate)
-determination.
-
-If the collector offered a determination in the original data, this
+determination.If the collector offered a determination in the original data, this
 determination should not be modified even if it is no longer the
 accepted determination.~~
 
