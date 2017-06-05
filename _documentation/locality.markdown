@@ -487,7 +487,7 @@ determination.
 
 If the collector offered a determination in the original data, this
 determination should not be modified even if it is no longer the
-accepted determination.
+accepted determination.~~
 
 ## Determination Date
 
