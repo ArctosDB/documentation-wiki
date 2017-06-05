@@ -67,7 +67,9 @@ field notes of hosts and parasites are another.
 e.g., parasites and "part parasites" belonging to vertebrate
 collections.
 
-**Higher Geography** is shared globally. **Localities** are optionally shared,
-and are locked when shared; only users with access to all collections
-using a shared locality may edit it. **Events** are shared similar to
-localities.
+**Higher Geography** is shared globally. 
+
+**Localities** are shared. Changes are logged and reported.
+
+**Events** are partially shared; only users with access to all collections
+using a shared event may edit it. (Please comment on [#1017](https://github.com/ArctosDB/arctos/issues/1017).)
