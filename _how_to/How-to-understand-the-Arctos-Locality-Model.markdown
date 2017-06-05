@@ -2,6 +2,8 @@
 title: How To Understand the Arctos Locality Model
 layout: default_toc
 ---
+# Understanding the Arctos Locality Model
+
 
 The core Arctos locality model consists of 4 primary tables. This guide and the following illustration describe their primary function and interaction.
 
