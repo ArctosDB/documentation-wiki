@@ -588,7 +588,9 @@ three of them
 - _"{1,3}" is "1,2,or three occurrences" "{,3}" would include zero in that, "{3,4}" is "three or four of the preceding" etc._
 
 
-```$```
+```
+$
+```
 
 nothing follows
 
@@ -609,13 +611,13 @@ From the  9th character of the barcode to the end...
 
 `(substr(barcode,9,3)` would be "three characters after the 9th character" 
 
-``` to_number```
+``` to_number ```
 
 convert datatype
 
-```between 1 and 299```
+``` between 1 and 299 ```
 
-and check that the number we've extracted is *between* a range (identical to ```(>=0 AND <=299)```)
+and check that the number we've extracted is *between* a range (identical to ``` (>=0 AND <=299) ``` )
 
 ## Guidelines for barcode-containing labels
 
