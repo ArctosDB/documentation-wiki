@@ -928,7 +928,11 @@
     $("#search-input").keyup(function(e) {
       var code;
       code = e.keyCode || e.which;
-      return handleSearch();
+      if (code === 13) {
+        return handleSearch();
+      } else {
+        return handleSearch.debounce(150);
+      }
     });
     $("#arctos-search-form").submit(function(e) {
       var searchQuery, url;

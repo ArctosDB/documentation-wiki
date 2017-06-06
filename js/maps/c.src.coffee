@@ -667,8 +667,8 @@ $ ->
     $("#arctos-search-form").submit()
   $("#search-input").keyup (e) ->
     code = e.keyCode || e.which
-    # if code is 13 then handleSearch() else handleSearch.debounce()
-    handleSearch()
+    if code is 13 then handleSearch() else handleSearch.debounce 150
+    #handleSearch()
   $("#arctos-search-form").submit (e) ->
     e.preventDefault()
     url = $("#arctos-search-form").attr("action")
