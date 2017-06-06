@@ -548,11 +548,12 @@ similar to what you're trying to accomplish.
 ### Example
 
 Desired series: 
-```UTEPROOM100-UTEPROOM299```
+
+``` UTEPROOM100-UTEPROOM299 ```
 
 SQL to claim: 
 
-```regexp_like(barcode,'^UTEPROOM[0-9]{3}$') and to_number(substr(barcode,9)) between 1 and 299```
+``` regexp_like(barcode,'^UTEPROOM[0-9]{3}$') and to_number(substr(barcode,9)) between 1 and 299 ```
 
 Explanation:
 
