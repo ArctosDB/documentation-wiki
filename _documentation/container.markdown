@@ -563,7 +563,7 @@ Use regular expressions in SQL
 
 ``` barcode ```
 
-the thing against which the reqex will run
+the thing against which the regex will run
 
 
 ``` ^ ```
