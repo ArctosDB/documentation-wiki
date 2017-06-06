@@ -592,19 +592,15 @@ nothing follows
 That establishes the pattern, but we also wish to exclude `UTEPROOM099` and `UTEPROOM300`; we need to define the numerical part of the series.
 To do so, we add the "and" portion, which is processed only after the regular expression has been successful
 
-```
- and to_number(substr(barcode,9))
-```
+``` and to_number(substr(barcode,9)) ```
 
 
-```
- substr(barcode,9)
-```
+``` substr(barcode,9) ```
 
 
 From the  9th character of the barcode to the end... 
 
-`(substr(barcode,9,3)` would be "three characters after the 9th character" 
+* `(substr(barcode,9,3)` would be "three characters after the 9th character" 
 
 ``` to_number ```
 
