@@ -589,7 +589,7 @@ three of them
 
 nothing follows
 
-That establishes the pattern, but we also wish to exclude `UTEPROOM099` and `UTEPROOM300`; we need to define the numberical part of the series.
+That establishes the pattern, but we also wish to exclude `UTEPROOM099` and `UTEPROOM300`; we need to define the numerical part of the series.
 To do so, we add the "and" portion, which is processed only after the regular expression has been successful
 
 ```
