@@ -687,3 +687,15 @@ $button-height: 12em;
     overflow-x: hidden; // Prevent scroll weirdness
   }
 }
+
+  
+  
+/////////////////////////// Print
+
+@media print {
+  header, 
+    icon-row,
+    footer .wrapper *:not(.footer-heading){
+    display: none;
+  }
+}
