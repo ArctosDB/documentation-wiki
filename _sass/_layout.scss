@@ -696,6 +696,6 @@ $button-height: 12em;
   header, 
     icon-row,
     footer .wrapper *:not(.footer-heading){
-    display: none;
+    display: none !important;
   }
 }
