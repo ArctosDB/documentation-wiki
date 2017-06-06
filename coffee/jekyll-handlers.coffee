@@ -3,7 +3,7 @@
 tabSelect = (currentPath = window.currentPagePath) ->
   index = 0
   for tab in $("nav paper-tabs paper-tab")
-    console.log "Tab iteration"
+    #console.log "Tab iteration"
     try
       thisCollection = $(tab).attr("data-label") ? "NO_LABEL"
       console.log "Search #{currentPath} for #{thisCollection}", currentPath.search(thisCollection)

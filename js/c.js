@@ -256,12 +256,10 @@
       return false;
     }
     if (key != null) {
-      console.log("Debouncing '" + key + "' for " + threshold + " ms");
       return core.debouncers[key] = delay(threshold, function() {
         return delayed();
       });
     } else {
-      console.log("Delaying '" + key + "' for " + threshold + " ms");
       return window.debounce_timer = delay(threshold, function() {
         return delayed();
       });
@@ -605,7 +603,6 @@
     ref = $("nav paper-tabs paper-tab");
     for (j = 0, len = ref.length; j < len; j++) {
       tab = ref[j];
-      console.log("Tab iteration");
       try {
         thisCollection = (ref1 = $(tab).attr("data-label")) != null ? ref1 : "NO_LABEL";
         console.log("Search " + currentPath + " for " + thisCollection, currentPath.search(thisCollection));

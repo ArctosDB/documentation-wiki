@@ -165,11 +165,11 @@ Function::debounce = (threshold = 300, execAsap = false, timeout = window.deboun
     console.log("Executed #{key} immediately")
     return false
   if key?
-    console.log "Debouncing '#{key}' for #{threshold} ms"
+    #console.log "Debouncing '#{key}' for #{threshold} ms"
     core.debouncers[key] = delay threshold, ->
       delayed()
   else
-    console.log "Delaying '#{key}' for #{threshold} ms"
+    #console.log "Delaying '#{key}' for #{threshold} ms"
     window.debounce_timer = delay threshold, ->
       delayed()
 
