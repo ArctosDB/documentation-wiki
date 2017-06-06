@@ -25,7 +25,7 @@ layout: default_toc
 
 At the top of the edit locality page, you should see a red box with a summary of what's using the locality (specimens and media). 
 Any edits will affect ALL of those things. If that is not intended, STOP and find a different pathway.
-[/how_to/How-to-Reassign-Specimens-to-Another-Locality.html](/how_to/How-to-Reassign-Specimens-to-Another-Locality.html)
+[/how_to/How-to-Reassign-Specimens-to-Another-Locality.html](/how_to/How-to-Reassign-Specimens-to-Another-Locality.html) may be useful.
 
 
 ### Change the Higher Geography
