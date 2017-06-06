@@ -532,6 +532,89 @@ description of the general qualities of the finished product.
 9.  note that if you scan a tube in place, and then need to move it, you
     must scan it into a different position first, and then refresh your
     browser to delete it from the old position
+    
+## Barcode Series
+
+Before being used in Arctos, barcodes must be "claimed" ("Barcode Series" under the Object Tracking tab).
+Claims should strive to include everything that will ever be used from a "series" and nothing that should
+not be in Arctos. This pre-claim prevents the creation of unintended barcodes, clarifies why a barcode exists
+(e.g., when encountered by another collection, perhaps while on loan), and provides a check for unintended data 
+(e.g., when someone scans something that probably should not have been scanned, or types rather than scanning).
+
+While anything that Oracle can process will be accepted, the easiest way to define a "series" is often through
+regular expressions. Oracle's regexp_like function accepts fairly standard regex; a search engine will likely find a situation
+similar to what you're trying to accomplish.
+
+### Example
+
+Desired series: 
+```UTEPROOM100-UTEPROOM299```
+
+SQL to claim: 
+
+```regexp_like(barcode,'^UTEPROOM[0-9]{3}$') and to_number(substr(barcode,9)) between 1 and 299```
+
+Explanation:
+
+```regexp_like```
+
+Use regular expressions in SQL
+
+```barcode```
+
+the thing against which the reqex will run
+
+
+```^```
+
+"starts with"
+
+```
+UTEPROOM
+```
+just a string - anything that's not "UTEPROOM" won't make it through
+
+```[0-9]```
+
+then some number-character
+
+```
+{3}
+```
+
+three of them 
+
+- _"{1,3}" is "1,2,or three occurrences" "{,3}" would include zero in that, "{3,4}" is "three or four of the preceding" etc._
+
+
+```$```
+
+nothing follows
+
+That establishes the pattern, but we also wish to exclude `UTEPROOM099` and `UTEPROOM300`; we need to define the numberical part of the series.
+To do so, we add the "and" portion, which is processed only after the regular expression has been successful
+
+```
+ and to_number(substr(barcode,9))
+```
+
+
+```
+ substr(barcode,9)
+```
+
+
+From the  9th character of the barcode to the end... 
+
+`(substr(barcode,9,3)` would be "three characters after the 9th character" 
+
+``` to_number```
+
+convert datatype
+
+```between 1 and 299```
+
+and check that the number we've extracted is *between* a range (identical to ```(>=0 AND <=299)```)
 
 ## Guidelines for barcode-containing labels
 
