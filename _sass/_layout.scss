@@ -111,7 +111,8 @@ nav {
         background-color: $arctos-accent !important;
     }
 }
-
+  
+  
 nav.collection-toc {
     li {
         a::before,
@@ -131,6 +132,13 @@ nav#toc {
 }
 
 
+aside > #search-container.form {
+  .input-group-addon {
+    padding: 0 12px;
+  }
+}
+  
+  
 .site-title {
     font-size: 26px;
     font-weight: 300;
