@@ -570,27 +570,22 @@ the thing against which the reqex will run
 
 "starts with"
 
-```
-UTEPROOM
-```
+``` UTEPROOM ```
+
 just a string - anything that's not "UTEPROOM" won't make it through
 
 ``` [0-9] ```
 
 then some number-character
 
-```
-{3}
-```
+``` {3} ```
 
 three of them 
 
 - _"{1,3}" is "1,2,or three occurrences" "{,3}" would include zero in that, "{3,4}" is "three or four of the preceding" etc._
 
 
-```
-$
-```
+``` $ ```
 
 nothing follows
 
