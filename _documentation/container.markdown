@@ -557,16 +557,16 @@ SQL to claim:
 
 Explanation:
 
-```regexp_like```
+``` regexp_like ```
 
 Use regular expressions in SQL
 
-```barcode```
+``` barcode ```
 
 the thing against which the reqex will run
 
 
-```^```
+``` ^ ```
 
 "starts with"
 
@@ -575,7 +575,7 @@ UTEPROOM
 ```
 just a string - anything that's not "UTEPROOM" won't make it through
 
-```[0-9]```
+``` [0-9] ```
 
 then some number-character
 
