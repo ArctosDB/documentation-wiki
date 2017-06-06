@@ -21,11 +21,18 @@ layout: default_toc
 
 * In the Locality column, click on "Edit [Locality_ID]" to change that Specific Locality.
 
+## _Understand what's being edited_
+
+At the top of the edit locality page, you should see a red box with a summary of what's using the locality (specimens and media). 
+Any edits will affect ALL of those things. If that is not intended, STOP and find a different pathway.
+[/how_to/How-to-Reassign-Specimens-to-Another-Locality.html](/how_to/How-to-Reassign-Specimens-to-Another-Locality.html)
+
+
 ### Change the Higher Geography
 
 Higher Geography is used to describe the larger geography (county level and above) under which a Specific Locality falls. To change the Higher Geography for a Specific Locality (and all records tied to that Locality_ID), in the Edit Locality window:
 
-* Click on the gray-green “Change for this Locality” button under "Higer [sic] Geography" to open up a new window.
+* Click on the gray-green “Change for this Locality” button under "Higher Geography" to open up a new window.
 
 * Type in a search term and click “Find Matches” to bring up a list of results. It is helpful to search for the most specific geographic level you can (e.g., state or county).
 
