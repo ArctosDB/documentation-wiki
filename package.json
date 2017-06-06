@@ -17,12 +17,12 @@
   },
   "homepage": "https://arctosdb.github.io/documentation-wiki",
   "devDependencies": {
-    "autoprefixer": "^6.4.0",
+    "autoprefixer": "^7.1.1",
     "autoprefixer-core": "^6.0.1",
     "bootlint": "^0.14.2",
     "bower": "^1.7.9",
     "btoa": "^1.1.2",
-    "coffee-script": "^1.10.0",
+    "coffee-script": "^1.12.6",
     "grunt": "^1.0.1",
     "grunt-autoprefixer": "^3.0.4",
     "grunt-bootlint": "^0.10.1",
@@ -52,14 +52,13 @@
     "less": "^2.7.1",
     "load-grunt-tasks": "^3.5.2",
     "markdown-it": "^8.1.0",
-    "npm-check-updates": "^2.6.7",
     "time-grunt": "^1.4.0"
   },
   "dependencies": {
-    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
     "grunt-html": "^8.0.2",
     "grunt-regex-extract": "^0.0.1",
     "grunt-shell": "^2.1.0",
-    "simple-jekyll-search": "^1.1.6"
+    "simple-jekyll-search": "^1.2.0"
   }
 }

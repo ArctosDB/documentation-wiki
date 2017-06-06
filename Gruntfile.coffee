@@ -55,9 +55,6 @@ module.exports = (grunt) ->
         files:
           "style.min.css":["style.css"]
     uglify:
-      options:
-        mangle:
-          except:['jQuery']
       dist:
         options:
           sourceMap:true
