@@ -694,8 +694,12 @@ $button-height: 12em;
 
 @media print {
   header, 
-    icon-row,
+    .icon-row,
+    .nav-container,
     footer .wrapper *:not(.footer-heading){
     display: none !important;
+  }
+  .wrapper {
+    max-width: 100% !important;
   }
 }
