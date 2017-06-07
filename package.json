@@ -39,7 +39,6 @@
     "grunt-contrib-less": "^1.4.0",
     "grunt-contrib-pug": "^1.0.0",
     "grunt-contrib-qunit": "^1.2.0",
-    "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-csscomb": "^3.1.1",
     "grunt-exec": "^1.0.1",
@@ -59,6 +58,6 @@
     "grunt-html": "^8.0.2",
     "grunt-regex-extract": "^0.0.1",
     "grunt-shell": "^2.1.0",
-    "simple-jekyll-search": "^1.2.0"
+    "simple-jekyll-search": "https://github.com/tigerhawkvok/Simple-Jekyll-Search.git"
   }
 }
