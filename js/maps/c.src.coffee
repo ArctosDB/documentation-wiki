@@ -154,12 +154,10 @@ Function::debounce = (threshold = 300, execAsap = false, timeout = window.deboun
       clearTimeout timeout
       delete core.debouncers[key]
     func.apply(func, args) unless execAsap
-    console.info("Debounce applied")
+    #console.info("Debounce applied")
   if timeout?
     try
       clearTimeout timeout
-    catch e
-      # just do nothing
   if execAsap
     func.apply(obj, args)
     console.log("Executed #{key} immediately")

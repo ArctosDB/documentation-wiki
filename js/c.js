@@ -198,7 +198,7 @@
   };
 
   Function.prototype.debounce = function() {
-    var args, delayed, e, error1, execAsap, func, key, ref, threshold, timeout;
+    var args, delayed, execAsap, func, key, ref, threshold, timeout;
     threshold = arguments[0], execAsap = arguments[1], timeout = arguments[2], args = 4 <= arguments.length ? slice.call(arguments, 3) : [];
     if (threshold == null) {
       threshold = 300;
@@ -239,16 +239,13 @@
         delete core.debouncers[key];
       }
       if (!execAsap) {
-        func.apply(func, args);
+        return func.apply(func, args);
       }
-      return console.info("Debounce applied");
     };
     if (timeout != null) {
       try {
         clearTimeout(timeout);
-      } catch (error1) {
-        e = error1;
-      }
+      } catch (undefined) {}
     }
     if (execAsap) {
       func.apply(obj, args);
