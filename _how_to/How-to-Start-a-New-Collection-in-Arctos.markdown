@@ -1,5 +1,5 @@
 ---
-title: How to start as a new collection in Arctos
+title: How to Start as a New Collection in Arctos
 layout: default_toc
 author: Carla Cicero
 date: 2016-06-30
