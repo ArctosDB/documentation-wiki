@@ -4,7 +4,7 @@ layout: default_toc
 author: Carla Cicero
 date: 2016-06-30
 ---
-# How to start as a new collection in Arctos
+# How to Start as a New Collection in Arctos
 
 If you are joining Arctos, welcome! 
 
