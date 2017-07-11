@@ -1,5 +1,5 @@
 ---
-title: How To Do Anything in Arctos
+title: How To Document Collection Usage
 layout: default_toc
 author: Arthur H. Harris
 date: 2017-07-11
