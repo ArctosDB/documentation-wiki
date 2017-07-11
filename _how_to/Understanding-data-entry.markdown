@@ -15,8 +15,8 @@ table which contains columns for "normal" specimen data.
 ## Other Bulkloaders
 
 In addition to the "core" specimen bulkloader, Arctos provides many bulkloaders for various ancillary data, such as parts and attributes.
-These bulkloaders are typically less-denormalized than the specimen bulkloader, and as such will deal with any number of additional
-items. 
+These bulkloaders are typically less-denormalized (_e.g._, one part or agent or attribute per row)
+ than the specimen bulkloader, and as such will deal with any number of additional items. 
 These tools may be leveraged to handle anything which won't fit into the core specimen bulkloader. Arctos forms will generate
 unique identifiers (UUIDs) to link data which has not yet been assigned a GUID with ancillary data in other bulkloaders.
 
