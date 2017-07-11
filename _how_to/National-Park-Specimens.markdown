@@ -31,5 +31,5 @@ These may be typed (usually as integer) by coordinating with Arctos staff.
 
 ### Geography
 
-Geography is problematic as DOI land changes over time. A specimen may have been collected on what is now National Park land before the 
+Geography (geog_auth_rec: "higher_geog" in most Arctos forms) is problematic as DOI land changes over time. A specimen may have been collected on what is now National Park land before the 
 Park was formed or expanded, and as such would NOT be the property of NPS, for example.
