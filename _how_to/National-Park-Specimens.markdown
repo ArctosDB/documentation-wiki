@@ -21,7 +21,7 @@ and provide results in a more integrated and accessible format.
 
 ### Generic Identifiers
 
-Assigning specimens identifiers such as "U. S. National Park Service catalog" provides course-grained origin information, and may
+Assigning specimens identifiers such as "U. S. National Park Service catalog" provides coarse-grained origin information, and may
 be somewhat useful for DOI personnel in comparing museum specimen data with records in their local databases.
 
 ### Specific Identifiers
