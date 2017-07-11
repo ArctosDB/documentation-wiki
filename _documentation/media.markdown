@@ -383,3 +383,10 @@ which to use in any particular situation.
     The link to the binary. These do NOT fire application-level
     logging, come with no stability guarantees, and should not be used
     for most purposes.
+
+    
+## Accessibility
+
+	All Media stored at TACC is publicly available, and may appear in various search engines or linked from various places in Arctos.
+	TACC will not host restricted-access Media. Media may be made private by controlling access to the content;
+	use a private password-protected server, a password-protected Google document, archived in a password-protected ZIP file, etc.  
