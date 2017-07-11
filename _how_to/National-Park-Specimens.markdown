@@ -33,3 +33,8 @@ These may be typed (usually as integer) by coordinating with Arctos staff.
 
 [Geography](/documentation/higher-geography.html) is problematic as DOI land changes over time. A specimen may have been collected on what is now National Park land before the 
 Park was formed or expanded, and as such would NOT be the property of NPS, for example.
+
+## More Information
+
+* [iDigBio webinar](https://idigbio.adobeconnect.com/_a1130716096/p4hcf8is01h/?launcher=false&fcsContent=true&pbMode=normal)
+* [BLM Fact Sheet](https://www.blm.gov/sites/blm.gov/files/programs_cultural%20heritage%20and%20paleontology_paleontology_quick%20links_prpa%20fact%20sheet%20II.pdf)
