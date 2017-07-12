@@ -332,7 +332,7 @@ the Guidelines without contacting the AWG.
     Arctos record.
     - DO Link to the Wikipedia page which directly describes the resource.
     - DO NOT link to anchors in general articles, lists, maps,
-    images, vaguely-related entities, "parent" entities (except in cases described under [source documentation](#source) or anything 
+    images, vaguely-related entities, "parent" entities (except in cases described under [source documentation](#source)) or anything 
     other than the specific relevant article
     in Wikipedia. 
 -   **No accents, umlauts, Cyrillic, Chinese, etc. Do use ASCII-128.**
