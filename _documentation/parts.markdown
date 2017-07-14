@@ -164,4 +164,78 @@ these can be tracked.
 `Coll_Object_Remark . Coll_Object_Remarks VARCHAR2(4000) null`
 
 Use remarks to document non-standard information pertaining to the specimen part. 
-Do not use remarks for any information which could be recorded with more structure elsewhere, including [Part Attributes](/documentation/attributes).
+Do not use remarks for any information which could be recorded with more structure elsewhere, 
+including [Part Attributes](/documentation/attributes).
+
+# Specimen Results
+
+Specimen Results column "partdetail" contains "core" part information formatted as JSON (JavaScript Object Notation). JSON is a 
+lightweight data exchange format capable of representing complex data as simple text strings. Most browsers will "pretty print" 
+JSON data, making these data very human-readable.
+
+The most simple data will be one part and it's direct metadata:
+
+```
+[
+  {
+    "part_name": "skull",
+    "lot_count": "1",
+    "disposition": "in collection",
+    "condition": "unchecked",
+    "barcode": "",
+    "container_path": "",
+    "remark": "",
+    "attributes": []
+  } 
+]
+```
+
+Many specimens will contain data for multiple parts:
+```
+[
+  {
+    "part_name": "skull",
+    "lot_count": "1",
+    "disposition": "in collection",
+    "condition": "unchecked",
+    "barcode": "",
+    "container_path": "",
+    "remark": "",
+    "attributes": []
+  },
+  {
+    "part_name": "study skin",
+    "lot_count": "1",
+    "disposition": "in collection",
+    "condition": "unchecked",
+    "barcode": "",
+    "container_path": "",
+    "remark": "",
+    "attributes": []
+  }
+]
+```
+And some specimens will also contain part attribute data for one of more of the parts:
+```
+[
+  {
+    "part_name": "study skin",
+    "lot_count": "1",
+    "disposition": "in collection",
+    "condition": "unchecked",
+    "barcode": "",
+    "container_path": "",
+    "remark": "",
+    "attributes": [
+      {
+        "attribute_type": "location",
+        "attribute_value": "Cabinet 12; Drawer 5",
+        "attribute_units": "",
+        "determined_date": "",
+        "determiner": "",
+        "attribute_remark": ""
+      }
+    ]
+  }
+]
+```
