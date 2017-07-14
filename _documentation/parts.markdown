@@ -170,7 +170,8 @@ including [Part Attributes](/documentation/attributes).
 # Specimen Results
 
 Specimen Results column "partdetail" contains "core" part information formatted as [JSON (JavaScript Object Notation)](https://en.wikipedia.org/wiki/JSON). JSON is a 
-lightweight data exchange format capable of representing complex data as simple text strings. Most browsers will "pretty print" 
+lightweight data exchange format capable of representing complex data (_e.g._, multiple parts each with multiple child attributes)
+as simple text strings. Most browsers will "pretty print" 
 JSON data, making these data very human-readable.
 
 The most simple data will be one part and it's direct metadata:
