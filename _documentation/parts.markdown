@@ -216,7 +216,7 @@ Many specimens will contain data for multiple parts:
   }
 ]
 ```
-And some specimens will also contain part attribute data for one of more of the parts:
+And some specimens will also contain part attribute data for one or more of the parts:
 ```
 [
   {
