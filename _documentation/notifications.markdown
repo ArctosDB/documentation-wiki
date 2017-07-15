@@ -18,7 +18,7 @@ All reminders and notifications rely upon an Agent’s email address; make sure 
 
 **Accession reminders** are emailed to the collection’s data quality contact on every annual anniversary of the received data as long as there are no specimens.
 
-**nnotations** are sent to the collection’s data quality contact upon submission, and may also be accessed under the Reports tab.
+**Annotations** are sent to the collection’s data quality contact upon submission, and may also be accessed under the Reports tab.
 
 **Code table updates** are sent to all “data quality” contacts.
 
