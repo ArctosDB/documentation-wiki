@@ -41,3 +41,5 @@ and using it even when the skull is stored with the postcranial skeleton may may
  
 5. Be explicit in definitions. Make no assumptions; ensure that all terms are well-defined and make sense in any context.
 Definitions should be given as complete sentences.
+
+1. Use mutually-exclusive terminology. Users (especially Operators) should never have an arbitrary choice.
