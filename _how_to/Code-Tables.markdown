@@ -25,7 +25,6 @@ certain material; "adult" (an age class) must be consistent across bird, mammal,
 >Sexually mature. Mammals: all adult teeth in wear; all epiphyses solidly fused; surface of bones with no sponginess; sutures fused. 
 >Birds: all bone surfaces well formed and hard surfaced; adult sized for the species.
 >Cestodes: use mature/immature.
-```
 
 2. Put the important stuff first. As of this writing there are about 800 parts; having all of the "whole organisms" together 
 (with modifiers and preservation information being parenthetical or comma-separated) makes the data much more usable than having 
