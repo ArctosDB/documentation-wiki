@@ -22,11 +22,9 @@ often do not follow taxonomic boundaries. Terminology and accompanying definitio
 certain material; "adult" (an age class) must be consistent across bird, mammal, insect, and archeology collections, for example.
 
 1. If you must provide discipline- or taxon-specific information, do so parenthetically. For example, age class "adult" is currently:
-
-```
-Sexually mature. Mammals: all adult teeth in wear; all epiphyses solidly fused; surface of bones with no sponginess;
-sutures fused. Birds: all bone surfaces well formed and hard surfaced; adult sized for the species.
-Cestodes: use mature/immature.
+>Sexually mature. Mammals: all adult teeth in wear; all epiphyses solidly fused; surface of bones with no sponginess; sutures fused. 
+>Birds: all bone surfaces well formed and hard surfaced; adult sized for the species.
+>Cestodes: use mature/immature.
 ```
 
 2. Put the important stuff first. As of this writing there are about 800 parts; having all of the "whole organisms" together 
