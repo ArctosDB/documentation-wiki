@@ -49,3 +49,6 @@ with explanatory remarks. This will need evaluated on a case by case basis.
 Definitions should be given as complete sentences.
 
 1. Use mutually-exclusive terminology. Users (especially Operators) should never have an arbitrary choice.
+
+1. Do not include both "thing (modifier)" and "thing" in the code table. Avoid creating new "bare" terms ("thing") in order
+to avoid this problem in the future. Parts of unknown preservation/preparation should be explicit: "thing (unknown)."
