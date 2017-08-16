@@ -15,7 +15,11 @@ Once you’ve found a suitable template, remember the name of it and click Mange
 
 ![screen-shot-2013-11-13-at-1-39-38-pm](https://cloud.githubusercontent.com/assets/5720791/24221729/c41f9b5e-0f0c-11e7-9fee-99fa8e299407.png)
 
-First, note the Pre-Function, which is used to manipulate data before it’s passed to the report. This functionality is somewhat cryptic – contact a developer if you wish to borrow a report that uses a pre-function. (Or see https://github.com/ArctosDB/arctos/blob/master/Reports/functions/label_functions.cfm.) In this case it’s NULL, so there should be no surprises.
+First, note the Pre-Function, which is used to manipulate data before it’s passed to the report. 
+This functionality is somewhat cryptic – contact a developer if you wish to borrow a report that uses a pre-function, or
+see the inline documentation in the source code at 
+[https://github.com/ArctosDB/arctos/blob/master/Reports/functions/label_functions.cfm](https://github.com/ArctosDB/arctos/blob/master/Reports/functions/label_functions.cfm).
+In this case it’s NULL, so there should be no surprises.
 
 Note the variable #collection_object_id# in the SQL – this is a specimen (rather than container, which accepts #container_id#, or transaction, which accepts #transaction_id#) label, so we’re still good.
 
