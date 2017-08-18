@@ -192,6 +192,6 @@ Find and eliminate the ambiguous pointer.
 
 This is most commonly encountered in bulkloaders, when insufficient information to locate a single object has been provided. Examples include:
 
-1. When trying to locate a part (_e.g._, to bulk-add barcodes), multiple parts of the same type exist for the specimen.
+1. When trying to locate a part by name (_e.g._, to bulk-add barcodes), multiple parts of the same type exist for the specimen.
 2. When trying to locate a part by barcode (_e.g._, to bulkload loan items), multiple parts are in the container (_e.g._, cryovial).
 
