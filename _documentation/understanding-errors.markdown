@@ -173,3 +173,25 @@ Typical INSERT statement. Notice the data (last line) are all NULL.
 ![Screen Shot 2016-02-03 at 10.32.55 AM](https://arctosdb.files.wordpress.com/2014/09/screen-shot-2016-02-03-at-10-32-55-am.png) 
 
 Data viewed in plain-text editor. Note Line #168. Please use the contact link at the bottom of any Arctos page if you know how to prevent this behavior by Excel!
+
+
+
+<a id="nr"></a>
+>## single-row subquery returns more than one row
+
+
+### Problem
+
+Something that should find one record returns multiple
+
+### Solution
+
+Find and eliminate the ambiguous pointer.
+
+### More Information
+
+This is most commonly encountered in bulkloaders, when insufficient information to locate a single object has been provided. Examples include:
+
+1. When trying to locate a part (_e.g._, to bulk-add barcodes), multiple parts of the same type exist for the specimen.
+2. When trying to locate a part by barcode (_e.g._, to bulkload loan items), multiple parts are in the container (_e.g._, cryovial).
+
