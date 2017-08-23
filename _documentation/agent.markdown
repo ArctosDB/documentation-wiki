@@ -176,7 +176,7 @@ Attributes.
 -   When possible, do not abbreviate. "Co." might mean anything;
     "Company" is unambiguous. "John J. Smith" is much more ambiguous
     than "John Johnsson Smith." If you do abbreviate, include an
-    unabbreviated equivalent (*e.g.*, "aka") name
+    unabbreviated equivalent (*e.g.*, "aka") name.  [Abbreviation Exemptions](#Abbreviation-Exemptions)
 -   Consider pushing prefix, suffix, title, etc., to nonpreferred names;
     limit preferred name to things that do not change in confusing ways.
     John Smith has a son and becomes John Smith Senior; John Smith
@@ -211,6 +211,7 @@ Attributes.
     Smith,", never "JJ Smith" or "J J Smith." If nonstandard data are
     important search terms, include them as non-preferred names.
 -   Periods should be followed by spaces. See above.
+-   Jr. and Sr. should _not_ be prefixed by a comma; "Larry Amox Jr." _not_ "Larry Amox, Jr."
 -   Do not orphan unused names; flag them as "bad duplicate of" the good
     name so that they will be reviewed and deleted. (Use "unknown" as
     the good name if there is no acceptable alternative.)
@@ -233,6 +234,20 @@ Attributes.
     biography (*e.g.*, Wikipedia -- these may be made via Address
     Type "URL") is very likely to be useful. Avoid using remarks for
     address information.
+
+## Abbreviation Exemptions
+
+-  "Mrs." is acceptable at the beginning of preferred name, unsupported by an 
+	unabbreviated variation, when no further information is available.
+-   "Jr." is acceptable at the end of preferred name, unsupported by an 
+	unabbreviated variation. Include a relationship.
+-	"Sr." is acceptable at the end of preferred name, unsupported by an 
+	unabbreviated variation. Include a relationship.
+-   "St." is acceptable as part of a preferred name, unsupported by an 
+	unabbreviated variation. Do not abbreviate "Saint" - use "St."
+	only when it is part of a given name. 
+
+
 
 ## Agent Relationships
 
