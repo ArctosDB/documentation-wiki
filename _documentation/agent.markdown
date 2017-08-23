@@ -176,7 +176,7 @@ Attributes.
 -   When possible, do not abbreviate. "Co." might mean anything;
     "Company" is unambiguous. "John J. Smith" is much more ambiguous
     than "John Johnsson Smith." If you do abbreviate, include an
-    unabbreviated equivalent (*e.g.*, "aka") name.  [Abbreviation Exemptions](#Abbreviation-Exemptions)
+    unabbreviated equivalent (*e.g.*, "aka") name.  [Abbreviation Exemptions](#abbreviation-exemptions)
 -   Consider pushing prefix, suffix, title, etc., to nonpreferred names;
     limit preferred name to things that do not change in confusing ways.
     John Smith has a son and becomes John Smith Senior; John Smith
