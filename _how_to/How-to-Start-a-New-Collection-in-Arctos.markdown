@@ -64,10 +64,23 @@ The metadata you enter here should match your entries in GRBIO. **Required field
 
 * **Contact Name for Collection Loans**: The primary person responsible for managing loans for this collection. If there is more than one contact, you will need to add any additional people under the [Manage Collection](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Manage-a-Collection-in-Arctos) function once the collection is created in Arctos.
 
-* Contact Email for Collection Data: A valid email address for the primary contact for collection loans.
+* **Contact Email for Collection Data**: A valid email address for the primary contact for collection loans.
 
-* Web Link: A http(s) link to the main collection web page.
+* **Web Link**: A http(s) link to the main collection web page.
 
-* Web Link Text:
+* **Web Link Text**: Text you want displayed for the link, e.g. "Museum of Natural History Website"
 
-* After your collections are added to Arctos, you will need to add metadata about each collection in Arctos. Follow the instructions on [How to Manage a Collection in Arctos](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Manage-a-Collection-in-Arctos).
+After your collections are added to Arctos, you will need to add metadata about each collection in Arctos. Follow the instructions on [How to Manage a Collection in Arctos](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Manage-a-Collection-in-Arctos).
+
+## Joining the Actos community listserv
+
+Arctos uses Google Groups to manage its email lists. Anyone who is a collection contact (data, loan, etc.) or a regular Arctos user should join the main Arctos Google Group. To do so, go to https://groups.google.com/forum/#!forum/arctos. You should see a blue button in the top bar that says "Apply to join group." Click on this button, and in the dialog box that appears make sure to edit your display name so that it's your actual name, and check that you would like to receive email updates, as shown in the screenshot below.
+
+![](https://github.com/ArctosDB/documentation-wiki/raw/gh-pages/images/uploads/googlegroups-signup.png)
+
+If you go to the Google Groups site above and do not see the "Apply to join group" button it means one of two things:
+
+1. You are already a member of the group but may not be receiving emails. To fix this, go to the upper right corner of the browser window where you will see "My Settings," and under that is "Membership and email settings." Edit your email preferences (and display name if it's not your real name).
+2. You are not logged into your browser with a Google account. For better or worse Google Groups requires a Google account to use. If you already have a Google account you can sign in by clicking the blue "Sign in" button in the upper right corner of the browser. If you do not have a Google account you can make one with any email, even an institutional email, and benefit from functions like Google Drive and Google Groups without using Gmail.
+
+If you have any trouble signing up for the Arctos community listserv, please contact the Arctos Working Group by emailing arctos-working-group@googlegroups.com for help, as it is important for you to be part of this communication channel.
