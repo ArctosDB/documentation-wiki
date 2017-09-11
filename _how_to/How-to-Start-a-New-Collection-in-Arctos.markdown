@@ -74,7 +74,10 @@ After your collections are added to Arctos, you will need to add metadata about 
 
 ## Joining the Actos community listserv
 
-Arctos uses Google Groups to manage its email lists. Anyone who is a collection contact (data, loan, etc.) or a regular Arctos user should join the main Arctos Google Group. To do so, go to https://groups.google.com/forum/#!forum/arctos. You should see a blue button in the top bar that says "Apply to join group." Click on this button, and in the dialog box that appears make sure to edit your display name so that it's your actual name, and check that you would like to receive email updates, as shown in the screenshot below.
+Arctos uses Google Groups to manage its email lists. Anyone who is a collection contact (data, loan, etc.) or a regular Arctos user 
+should join the main Arctos Google Group. To do so, go to https://groups.google.com/forum/#!forum/arctos. You should see a blue button
+ in the top bar that says "Apply to join group." Click on this button, and in the dialog box that appears make sure to edit your
+  display name so that it's your actual name, and check that you would like to receive email updates, as shown in the screenshot below.
 
 ![](https://github.com/ArctosDB/documentation-wiki/raw/gh-pages/images/uploads/googlegroups-signup.png)
 
@@ -84,3 +87,9 @@ If you go to the Google Groups site above and do not see the "Apply to join grou
 2. You are not logged into your browser with a Google account. For better or worse Google Groups requires a Google account to use. If you already have a Google account you can sign in by clicking the blue "Sign in" button in the upper right corner of the browser. If you do not have a Google account you can make one with any email, even an institutional email, and benefit from functions like Google Drive and Google Groups without using Gmail.
 
 If you have any trouble signing up for the Arctos community listserv, please contact the Arctos Working Group by emailing arctos-working-group@googlegroups.com for help, as it is important for you to be part of this communication channel.
+
+## Joining the Actos GitHub platform
+
+Arctos uses GitHub Issues to communicate development. Everyone with an interest in Arctos data should minimally monitor Issues in the Arctos 
+repository. Instructions are [https://doi.org/10.7299/X75B02M5](https://doi.org/10.7299/X75B02M5).
+
