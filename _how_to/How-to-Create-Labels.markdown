@@ -25,7 +25,17 @@ Note the variable #collection_object_id# in the SQL – this is a specimen (rath
 
 Note round(dec_lat,5) DEC_LAT in the SQL – coordinates are being rounded off.
 
-Note  decode(trim(ConcatAttributeValue(flat.collection_object_id,’sex’)), ‘male’,’Male’, ‘female’,’Female’, ‘?’) sex, – sex is being manipulated (in this case, into Proper Case with all variations of “not male or female” being lumped into “?”).
+Note 
+```
+decode(trim(ConcatAttributeValue(flat.collection_object_id,’sex’)), ‘male’,’Male’, ‘female’,’Female’, ‘?’) sex
+```
+
+Sex is being manipulated (in this case, into Proper Case with all variations of “not male or female” being lumped into “?”).
+
+Note that all Oracle functions, including built-in (such as ROUND()) and Arctos-specific (such as ConcatAttributeValue()) 
+may be used in the SQL. Built-in functions are
+[https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions001.htm](https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions001.htm)
+and Arctos functions are [https://github.com/ArctosDB/DDL/tree/master/functions](https://github.com/ArctosDB/DDL/tree/master/functions).
 
 All data are being drawn from FLAT (the giant reporting and query table in Arctos). Note that FLAT does not include encumbrances, does contain many concatenations and mergers, and is sometimes not current (but usually catches up within 60 seconds of specimen data being changed). It exists for things like reporting, and using it in reports (rather than making joins to base tables and dealing with cardinality of relational data) is usually a good choice, but be aware of the limitations.
 
