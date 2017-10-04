@@ -41,12 +41,7 @@ conceivable use of the data, and if one of the agents distinguishes
 themselves somehow (*e.g.*, through publications), it's easy to split
 the combined agent.
 
-Agent "unknown" should be used where appropriate. Do not create new
-agents for "Collector unknown," "Determiner unknown," etc. Consider
-using "unknown" (and perhaps specimen remarks) rather than creating
-uselessly cryptic agents. Is "unknown" really functionally different
-from "ABC"? (There is no definitive answer, but cryptic abbreviations
-are seldom useful.)
+Use the Agent “unknown” when the person or organization doing the collecting, identifying, borrowing, etc. is unknown or unclear. Please do not create new Agents such as “Collector unknown” or “Determiner unknown”. Consider using “unknown” along with the verbatim collector [attribute](http://handbook.arctosdb.org/documentation/attributes.html) rather than creating cryptic agents such as A.B.C. or S. Smith. If at some point in the future the full name of collector, determiner, or borrower S. Smith is determined to be Susan B. Smith for a specific set of records, add the full Agent name to Arctos and assign the records appropriately.
 
 ## Agent Type
 
