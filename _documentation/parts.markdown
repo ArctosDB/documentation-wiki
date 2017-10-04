@@ -69,10 +69,9 @@ Each part name may be flagged as representing "tissue."
 that was collected and/or preserved for molecular studies, and is intended for consumptive use.
 
 While we have been unable to produce a functional definition, tissues are generally samples intended for
-subsampling and distribution, generally for purposes of destructive
-analysis, or simply a part with readily-available tissue from which DNA
-may be extracted. In general, these parts are soft organs, or parts
-thereof, preserved by freezing. Such samples commonly supply DNA for
+subsampling and distribution, generally for purposes of destructive analysis, or simply a part with 
+readily-available tissue from which DNA
+may be extracted. In general, these parts are soft organs, or parts thereof, preserved by freezing. Such samples commonly supply DNA for
 sequence analysis, and many researchers want to search for specimens
 from which they can readily obtain subsamples.
 
