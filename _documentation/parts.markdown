@@ -65,8 +65,8 @@ bones stored at room temperature, for example.
 
 Each part name may be flagged as representing "tissue." 
 
->A tissue in Arctos is defined as a specimen part 
-that was collected and/or preserved for molecular studies, and is intended for consumptive use.
+>A tissue in Arctos is defined as a specimen part that was collected and/or preserved for molecular or chemical studies, 
+and is intended for consumptive use.
 
 While we have been unable to produce a functional definition, tissues are generally samples intended for
 subsampling and distribution, generally for purposes of destructive analysis, or simply a part with 
@@ -74,6 +74,11 @@ readily-available tissue from which DNA
 may be extracted. In general, these parts are soft organs, or parts thereof, preserved by freezing. Such samples commonly supply DNA for
 sequence analysis, and many researchers want to search for specimens
 from which they can readily obtain subsamples.
+
+Tissues are not necessarily biological productions of the cataloged item.
+For example, parasites may be cataloged as parts and flagged as tissues.
+
+Tissues are not necessarily suitable for any particular usage, and may include products such as venom.
 
 ## Disposition
 
