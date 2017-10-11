@@ -5,6 +5,7 @@ layout: default_toc
 # How To Delete a Specimen Record
 
 In order to delete a specimen record(s) in Arctos, you must first create an **Encumbrance**
+
 Note that you can only delete a maximum of 1000 specimen records at a time.
 
 ##### NAVIGATION: Manage Date Menu → Metadata Menu → Encumbrances**
