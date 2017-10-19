@@ -23,7 +23,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 * Set up a transfer protocol:
  * Open Connection
  * Select “SFTP” from dropdown
- * Server:  login1.corral.tacc.utexas.edu
+ * Server Host Name:  data.tacc.utexas.edu
  * Username: enter your TACC portal username
  * Password: enter your TACC portal account password
  * Port number is 22
