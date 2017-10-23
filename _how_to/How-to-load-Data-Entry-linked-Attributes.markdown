@@ -34,5 +34,3 @@ Similar tools and pathways exist for Parts, Specimen-Events, etc.
 <img width="138" alt="screen shot 2017-10-23 at 7 50 24 am" src="https://user-images.githubusercontent.com/5720791/31895751-da3c147c-b7c6-11e7-9ae7-115eb9efe4e8.png">
 
 <img width="200" alt="screen shot 2017-10-23 at 7 51 36 am" src="https://user-images.githubusercontent.com/5720791/31895815-06811d98-b7c7-11e7-8379-717e8bea772b.png">
-
-
