@@ -504,10 +504,11 @@ description of the general qualities of the finished product.
 -   A ***system*** is critical. Scattering some barcodes around and
     occasionally beeping at them with a scanner does not somehow lead to
     knowing where things are.
--   Containers should be created (as labels) in large batches, when
+-   Containers should be created (as container type "% label" - currently "container label", "cryovial label", and "specimen label") 
+	in large batches, when
     printed or purchased.
--   Containers should be edited exactly one time, when Labels are
-    changed to containers for immediate usage. (See [field
+-   Containers should be edited exactly one time, when containers of type "% label" are
+    changed to containers of usable types for immediate usage. (See [field
     procedures](#object-tracking-in-the-field).)
 -   All other container-related tasks involve only scanning barcodes.
 
