@@ -221,8 +221,8 @@ machine-readable labels.
 
 ### Getting started
 
-1.  Claim a barcode series in the [Barcode Series
-    Spreadsheet](https://docs.google.com/spreadsheets/d/1Rmj7NCudfdpo2DWwMHZk4FOYM-_anrElznYnjK4nWtY/edit#gid=0).
+1.  Claim a barcode series in the Barcode Series
+    Spreadsheet (Arctos: ObjectTracking tab).
 2.  Purchase or print labels.
 3.  Create the corresponding containers as some type of "label"
     container in Arctos using the Create Container Series app.
