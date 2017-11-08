@@ -225,6 +225,8 @@ Attributes.
     name instead.
 -   Include **possible** variations ("Pat" for Patrick) as
     nonpreferred names.
+-   "Assemble" namestrings when possible. "A. Lincoln" is an acceptable (if not very good) preferred name, but also include AKA name
+"Abraham Lincoln." The existence of name components (eg, "first name") is not sufficient to prevent the creation of duplicates.     
 -   Use Addresses when possible. A partial address ("Ohio") or link to a
     biography (*e.g.*, Wikipedia -- these may be made via Address
     Type "URL") is very likely to be useful. Avoid using remarks for
