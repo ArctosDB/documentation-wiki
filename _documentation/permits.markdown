@@ -53,7 +53,7 @@ The [agent](/documentation/agent) who issued the permit. This could be either a 
 
 `Permit . Contact_Agent_ID NUMBER(22) null`
 
-Assuming that the Permit was issued by an organization, this would be a person within the organization who administers the permit. This should always be a person, not an organization.
+Person who will receive email notifications of permit events.
 
 ## Issued Date
 
