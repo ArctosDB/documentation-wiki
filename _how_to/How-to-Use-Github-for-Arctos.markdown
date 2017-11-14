@@ -38,6 +38,10 @@ ccicero@berkeley.edu.
 See [instructions](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-or-Edit-Content-on-the-Arctos-Wiki) on how to 
 create and/or edit content in the documentation-wiki repository.
 
+* Users may request AWG Task Force Meetings to finalize Issues, or groups of related Issues.
+ Start a Doodle poll and paste the link into the Issue(s) you wish to address.
+
+
 * Only people with administrative permissions can add new members. To do that, go to [https://github.com/ArctosDB](https://github.com/ArctosDB) and click on "Invite someone" at the bottom of the People pane on the right of the window. Search by the person's GitHub username and enter it where prompted. Select the person to add. He/she will need to accept the membership invitation in order to become a member. When you invite someone, the default role is 'member' versus 'owner' which has more administrative privileges. 
 
 * Members who are assigned to the 'Users' team have access to the documentation code where they can create and 
