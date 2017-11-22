@@ -37,6 +37,8 @@ A Loan "number" is a string identifying the loan. The format usually
 follows local tradition (*e.g.*, YYYY:nnn:Collection) but is
 uncontrolled.
 
+Arctos offers "next loan number" suggestions when a collection's data can support them. File an Issue to activate this functionality.
+
 ### Type
 
 `Loan . Loan_Type VARCHAR2(25) null`
