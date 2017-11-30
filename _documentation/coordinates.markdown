@@ -75,7 +75,8 @@ this information as well.
 <!--`DarwinCore2=GeoreferenceSources`-->
 
 Reference Source(s) refers to the source of the coordinates and not
-to the source of the error. Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctGEOREFERENCE_SOURCE). Coordinates may be original data collected
+to the source of the error. 
+ Coordinates may be original data collected
 with the specimen, or they may be provided by after-the-fact
 georeferencing efforts. In the latter situation, data in Source(s)
 should be specific enough to allow anyone in the future to use the same
