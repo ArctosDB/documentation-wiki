@@ -17,64 +17,54 @@ Permits can can authorize any number of transactions, and any number of permits 
 
 ## Permit Number
 
-`Permit . Permit_Num VARCHAR2(25) null`
+`Permit . Permit_Num VARCHAR2(25) NOT NULL`
 
-Permit Number is an identifying text string assigned by the agency issuing the
-permit. Not all permits have such a number.
+Permit Number or Identifier is an identifying text string. This is often assigned by the agency issuing the
+permit. Permit number is a required field; enter any suitable value which will help in locating the permit when such an 
+identifier has not been provided by the issuer.
 
 ## Permit Type
 
-`Permit . Permit_Type VARCHAR(50) not null`
+`Permit_Type . Permit_Type VARCHAR(50) null`
 
-The kind of activity authorized by the permit. There are now four values are controlled by a [look-up table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPERMIT_TYPE). These are:
+The kind of activity authorized by the permit. Values are controlled by a 
+[look-up table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPERMIT_TYPE). 
+Permits may have any number of permit_types associated, optionally associated with a permit_regulation.
 
--   scientific collecting
--   import/export
--   import
--   collector’s hunt/fish/trap
+## Permit Regulation
 
-There is room for improvement here.
+`Permit_Type . Permit_Regulation VARCHAR(50) null`
 
-In some cases, permits may authorize collecting, importation, and exportation.
+The regulation under which the permit was issued. Values are controlled by a 
+[look-up table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPERMIT_REGULATION). 
+Permits may have any number of Permit_Regulations associated, optionally associated with a permit_regulation.
 
-## Issued To
+## Permit Roles and Agents
 
-`Permit . Issued_To_Agent_ID NUMBER(22) not null`
+Permits may have any number of agents associated via roles. Roles are controlled by a
+[look-up table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPERMIT_AGENT_ROLE). 
 
-The [agent](/documentation/agent) to whom the permit was issued. This could be either a person or organization.
-
-## Issued By
-
-`Permit . Issued_By_Agent_ID NUMBER(22) not null`
-
-The [agent](/documentation/agent) who issued the permit. This could be either a person or organization.
-
-## Contact Person
-
-`Permit . Contact_Agent_ID NUMBER(22) null`
-
-Person who will receive email notifications of permit events.
 
 ## Issued Date
 
 `Permit . Issued_Date DATE(7) null`
 
-The day the permit was issued. (We assume this to be the same as the day on which the permitted activities become legal. This might not always be the case. We might need a separate date to indicate the time period for which the permit is effective.) A valid [date](/documentation/dates) is required.
-
-## Renewed Date
-
-`Permit . Renewed_Date DATE(7) null`
-
-Rather than expiring, and requiring a new permit for continued activity, some permits may be renewed. A valid [date](/documentation/dates) is required.
+The day the permit was issued. This is an Oracle DATE datatype, not ISO8601; only day-precision is allowed.
 
 ## Expiration Date
 
 `Permit . Exp_Date DATE(7) null`
 
-The day on which the permit is no longer valid. This [date](/documentation/dates) might be used to automatically notify the permittees of the approaching expiration.
+The day on which the permit is no longer valid. 
+This is an Oracle DATE datatype, not ISO8601; only day-precision is allowed.
+Used to automatically notify the permittees of the approaching expiration.
 
 ## Remarks
 
 `Permit . Permit_Remarks VARCHAR2(300) null`
 
 These can be anything that extends the definition of the permit or the conditions under which it applies.
+
+## Renewals
+
+Renewals should be entered as a new permit. A clarifying remark may be useful.
