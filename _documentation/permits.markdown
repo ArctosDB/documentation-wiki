@@ -61,7 +61,7 @@ Used to automatically notify the permittees of the approaching expiration.
 
 ## Remarks
 
-`Permit . Permit_Remarks VARCHAR2(300) null`
+`Permit . Permit_Remarks VARCHAR2(4000) null`
 
 These can be anything that extends the definition of the permit or the conditions under which it applies.
 
