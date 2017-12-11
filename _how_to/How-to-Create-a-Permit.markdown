@@ -1,5 +1,5 @@
 ---
-title: How To Create a Permits
+title: How To Create a Permit
 layout: default_toc
 ---
 # How to Create and Edit Permits
