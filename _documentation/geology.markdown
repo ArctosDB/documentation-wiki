@@ -31,6 +31,6 @@ UAM@ARCTOS&gt; desc geology_attributes
 ### Searching
 
 While individual geology attributes are asserted, the [hierachical code
-table](http://arctos-test.tacc.utexas.edu/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE)
+table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE)
 structure allows locating specimens attributed to geology which is more
 specific than the search term.
