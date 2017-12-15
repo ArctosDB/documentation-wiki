@@ -3,9 +3,6 @@ title: Code Tables
 layout: default_toc
 ---
 
-```
-THIS IS A DRAFT DOCUMENT; PLEASE ADDRESS ANY QUESTIONS OR CONCERNS TO THE ARCTOS WORKING GROUP. INPUT IS WELCOME.
-```
  
 # How to use code tables
 
