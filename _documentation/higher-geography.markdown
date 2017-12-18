@@ -369,6 +369,7 @@ the Guidelines without contacting the AWG.
     General Carlos Ibáñez del Campo is entered as "South America, Chile,
     Aisen, Aisen," for example, because "Aisen" is a somewhat-common
     transliteration, not because it’s any particular form of "correct."
+    ** Do not use Arctos fields for inappropriate data. Do not use island for an island sub-group, for example.
 -   **Use only "official" abbreviations**. "Wrangell–**St.** Elias National
     Park and Preserve" is correct. "Something **Prov.**" is
     never acceptable.
