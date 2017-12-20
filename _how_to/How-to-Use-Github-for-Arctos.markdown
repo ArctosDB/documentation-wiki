@@ -1,7 +1,7 @@
 ---
 title: Using Github- Why Use GitHub for Arctos?
 layout: default_toc
-author: Dusty MacDonald
+author: Dusty McDonald
 date: 2016-05-09
 ---
 
