@@ -73,7 +73,7 @@ While we have been unable to produce a functional definition, tissues are genera
 Tissues are not necessarily biological productions of the cataloged item.
 For example, parasites may be cataloged as parts and flagged as tissues.
 
-Parts flagged as Tissues are not necessarily suitable for every usage, and may include products such as venom.
+Parts flagged as tissues are not necessarily suitable for every usage, and may include products such as venom.
 
 ## Disposition
 
