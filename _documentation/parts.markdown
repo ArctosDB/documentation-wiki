@@ -155,11 +155,10 @@ Examples of lot count usage:
 
 `Specimen_Part . Sampled_From_Obj_ID NUMBER(22) not null`
 
-Sampled From designates a part derived from another part. This is
-intended to be a subsample supplied to an investigator for destructive
-analysis. Therefore it often applies to parts that are no longer in the
-collection, but if the subsamples or extracts thereof are returned,
-these can be tracked.
+Sampled From designates a part derived from another part. This functionality may be used to 
+create tissue subsamples for destructive analysis, split particularly valuable samples into multiple freezers to
+eliminate single-point failure risk, to better track a specific bone (_e.g._, for loan), or for any other situation
+which results in one part being split into multiple parts or altered into a new type of part.
 
 ## Remarks
 
