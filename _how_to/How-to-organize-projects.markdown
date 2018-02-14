@@ -14,7 +14,7 @@ serve as a prescription, but rather as an overview of some viable approaches.
 ## Mega-Projects
 
 
-### Example: http://arctos.database.museum/project/beringian-coevolution-project-bcp
+Example: http://arctos.database.museum/project/beringian-coevolution-project-bcp
 
 Many activities are captured under one project umbrella in this example (primarily due to the structure
 of funding). The project supports collecting (Accessions), the specimens collected support research (Loans),
@@ -23,7 +23,8 @@ specimens collected are made availale for general usage ("Projects using contrib
 
 ## Related Projects
 
-Instead of one large project, the data could be organized into several smaller projects, related by transactions.
+Instead of one large project, the data could be organized into several smaller projects related by transactions.
 For example, one project which supports general collecting,
 and several focused (_e.g._, taxon-specific) projects (possibly involving the same agents) which borrow from the 
-collecting project.
+collecting project. This may be necessary to support local practices (_e.g._, accessions<-->field expeditions), 
+while a mega-project may make more sense in an institution with more flexible accessioning practices.
