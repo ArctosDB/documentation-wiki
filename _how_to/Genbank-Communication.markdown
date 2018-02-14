@@ -31,5 +31,6 @@ links to Arctos, even without a resolvable specimen_voucher, and serves as a ver
 
 ## GenBank MIA tool
 
-Arctos provides a service which crawls GenBank looking for un-linked specimens nightly. 
+Arctos provides a reporting service which monitors GenBank for un-linked specimens.
+
  
