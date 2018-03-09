@@ -38,4 +38,4 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 * TACC must ingest those files in order for them to appear on the web server: [http://web.corral.tacc.utexas.edu](http://web.corral.tacc.utexas.edu) - files are also processed during this stage (e.g., from dng or tiff to jpeg, wav to mp3, etc.)
  * Contact [Chris Jordan](https://www.tacc.utexas.edu/about/directory/chris-jordan) when your file are ready for processing and ingestion
 
-*If you have uploaded images, a directory of thumbnail images will also be created. You need to use those thumbnail URIs in your bulkload media template (in the PREVIEW_URI column, http://arctos.database.museum/tools/BulkloadMedia.cfm) when you bulkload the image URIs.
+If you have uploaded images, a directory of thumbnail images will also be created. You need to use those thumbnail URIs in your bulkload media template (in the PREVIEW_URI column, http://arctos.database.museum/tools/BulkloadMedia.cfm) when you bulkload the image URIs.
