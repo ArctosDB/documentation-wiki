@@ -243,6 +243,8 @@ Attributes.
 -   "St." is acceptable as part of a preferred name, unsupported by an 
 	unabbreviated variation. Do not abbreviate "Saint" - use "St."
 	only when it is part of a given name. 
+-   "Dr." is acceptable  at the beginning of preferred name, unsupported by an 
+	unabbreviated variation. An unabbreviated variant is encouraged.
 
 
 
