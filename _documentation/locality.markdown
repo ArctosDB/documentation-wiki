@@ -461,70 +461,6 @@ for Maximum Uncertainty is converted from the original units (recorded
 here) to the value in meters.
 
 
-~~## Determiner~~
-
-~~`Lat_Long . Determined_By_Agent_id INT not null`~~
-
-
-~~is the [agent](../documentation/agent) (usually a person) who determined that these coordinates and measures of
-uncertainty apply to this locality. Often, this is the collector or,
-dear reader, you.  The form will load with the currently logged-in user
-as the default Determiner for new records.~~
-
-~~Sometimes, a determination is developed by two or more successive
-agents. For example, one agent might locate a named place and provide
-the coordinates, but little or no information about the uncertainty. A
-second agent might then evaluate the determination (mapping it and
-comparing it to the Verbatim Locality) and then develop a Maximum
-Uncertainty. In this case, we assume that the second agent has
-re-evaluated the coordinates, and the determination is considered to
-have been made by the second agent (*i.e.,* the agent who last modified
-the determination). If there is a need to maintain the identity of the
-first agent, then the second agent should create a second (separate)
-determination.If the collector offered a determination in the original data, this
-determination should not be modified even if it is no longer the
-accepted determination.~~
-
-## Determination Date
-
-`Lat_Long . Determined_Date DATETIME null`
-
- is the [ISO8601](../documentation/dates/) date that
-the determination was made. Entry/editing forms load with the current
-date as a default for new records.
-~~
-
-## Verification Status
-
-`Lat_Long . VerificationStatus VARCHAR(40) not null`
-
-[`ctverificationstatus`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")
-
-`DarwinCore2=GeoreferenceVerificationStatus`
-
-
- A categorical description of the extent to
-which the georeference has been verified to represent the location where
-the specimen or observation was collected. 
-[Vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus "Verification Status")
-is controlled.
-
-"Verified by collector" indicates that the person who removed the
-specimen from nature has looked at the coordinates and uncertainty
-represented on an appropriately scaled map, and believes that these data
-are accurate and that the represented uncertainty is as small as
-possible.
-
-
-
-~~## Accepted?
-
-`Lat_Long . Accepted_Lat_Long_fg TINYINT not null`
-
-There can be more than one georeferencing determination
-per locality but only the accepted determination is routinely displayed.
-You can revert to an earlier determination by changing its *accepted*
-flag from "no" to "yes."~~
 
 ## Remarks
 
@@ -538,17 +474,6 @@ assumptions made in addition or opposition to the those formalized in
 the method referred to in [Georeference Method](#georefmethod).
 
 
-## NoGeorefBecause
-
-`Locality . NogeorefbecauseVARCHAR2(255) null`
-
- is should always be `NULL` for localities with
-coordinate determinations.  Otherwise, it may be used to indicate
-problems with georeferencing the locality, resources needed to
-georeference, or anything else about the lack of coordinate
-determinations.
-
-
 
 ## WKT Polygon
 
@@ -557,7 +482,7 @@ text](https://en.wikipedia.org/wiki/Well-known_text) shape associated
 with locality data.
 
 
-## Edit Locality Form
+# Edit Locality Form
 
 Localities used by "verified by…." verificationstatus values may not be
 edited. If you don’t understand the giant bright red box, please use a
@@ -573,3 +498,7 @@ All coordinates are stored as DD.ddd format. (Verbatim Coordinates are
 an attribute of Collecting Events.) The form will make conversions.
 
 The webservice data pane has documentation inline. Read it.
+
+# Maintenance
+
+Duplicate localities are automatically merged, and unused localities are automatically deleted. A Locality Nickname will prevent both of these actions and should be used in pre-created localities. Please remove nickname from any localities which you no longer intend to use.
