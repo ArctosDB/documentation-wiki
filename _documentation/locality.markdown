@@ -46,7 +46,10 @@ determination is routinely displayed.  Some caveats:
 
 Locality Nickname is a globally-unique human-readable "locality ID"
 commonly used to unambiguously associate one or more specimens to a
-locality.
+locality. Named Localities:
+
+1. Will not be auto-deleted when not used
+2. Will always be unique, so will not be auto-merged
 
 
 
