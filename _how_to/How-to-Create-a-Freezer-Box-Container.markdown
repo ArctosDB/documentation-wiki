@@ -5,9 +5,27 @@ author: Emily Braker
 date: 2016-02-27
 ---
 
-# How To Create a Freeze Box Container
+# How To Create an Individual Container in Arctos Object Tracking (e.g. Freezer Box with Positions)
 
-There are many types of containers possible in Arctos. This guide walks you through the steps of creating a freezer box as a new container. This is the first step before you can scan barcoded tissues into Arctos.
+There are many types of containers possible in Arctos. This guide walks you through the steps of creating a freezer box or another container type as a new container. This is the first step before you can scan barcoded parts such as tissues into positions in Arctos.
+
+* Go to Manage: Object Tracking: Find Container tab and enter the barcode you will use for the container under Barcode. 
+* Click Search
+* The barcode should show up as a Container Label in the Universe. This assumes the barcode series has already been created in Arctos.
+* Click on the square box next to the barcode in the center panel. This should bring up an edit box at right.
+* Click Edit Container.
+* Go to the Container Type dropdown and select "Freezer Box" or the appropriate container type for your usage.
+* If freezer box has been selected, the dimensions should autopopulate. For any other container type, enter dimensions and number of positions as appropriate.
+* Click Update.
+* To create the container positions, if relevant, go back to the Edit Container Tab under Find Container. This time, click Positions.
+* You will get a pop up asking for the go ahead to creat all new positions for this container. Click Yes.
+* You should now see a form with positions that allows you to scan objects. In the case of a freezer box, this is a 10x10 grid. 
+* Tissues can be scanned into position using a scanner programmed to TAB. For a 9x9 box in a freezer box with 100 positions, leave the last row and column blank.
+* Parts may not be deleted from a positions form. To delete or reposition, the part must be moved elsewhere and then back into the correct position. On moving a part, hit the Refresh on your browser to see the new position and eliminate the old postion.
+
+
+# Alternate Method
+* This is not recommended, as it is preferable to create all barcodes as labels first and then convert them as needed. But if you have to create a container de novo, it is possible to use this form. The barcode used cannot currently be in use for another container. 
 
 * In Arctos, go to Manage Data > Object Tracking > Create Container.
 
