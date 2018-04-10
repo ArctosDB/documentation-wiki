@@ -1,6 +1,8 @@
 ---
 title: Barcode Supplies
 layout: default_toc
+author: Kyndall Hildebrandt
+date: 2017-05-05
 ---
 # Machine-based object tracking equipment and supplies
  
