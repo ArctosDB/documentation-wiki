@@ -249,32 +249,10 @@ locality, put that value in both the minimum and maximum elevation
 fields.
 
 
+## TRS
 
-Deprecated:~~**Township, Range, and Section (TRS)** information is sometimes given
-for localities.  If TRS data are part of the Verbatim Locality, they
-should be entered into the TRS fields associated with Specific Locality
-in the database.  Legal descriptions to 1 mile square sections have 4
-parts: the Meridian, Range, Township and Section.  Note that an official
-legal description is always written from the smallest scale to the
-largest.  For example, the NW1/4 SE1/4, sec. 12, T11N, R15E, San
-Bernardino Meridian is the northwest quarter of the southeast quarter of
-section 12, Township 11 North, Range 15 East, San Bernardino Meridian. 
-This example describes a square 1/16th of a mile on each side. 
-Collectors often neglect the Meridian in TRS data, and we do not store
-this information in the database because it can usually be inferred from
-the state and county.  There are 6 fields in the database to accommodate
-TRS data: 1) Township, 2) Township Direction, 3) Range, 4) Range
-Direction, 5) Section, and 6) Part.  In the above example, the data
-would be entered as:~~
-
-1.  ~~Township = 11~~
-2.  ~~Township Direction = N~~
-3.  ~~Range = 15~~
-4.  ~~Range Direction = E~~
-5.  ~~Section = 12~~
-6.  ~~NW1/4 SE1/4 (variations on section part may be: SE 1/4, "western
-    half," NW corner, etc.)~~
-
+Township, Range, and Section (TRS) information is sometimes given
+for localities.  TRS data should be entered as (part of) Specific Locality, and optionally converted to coordinates.
 A thorough description of TRS data, along with a tool to translate them
 to latitude and longitude can be found at the following URL:
 
