@@ -1,3 +1,8 @@
+---
+title: How To Start Object Tracking in Arctos
+layout: default_toc
+---
+
 ##How To Start Object Tracking in Arctos
 
 #### We are in the process of making this a google doc into a How-To guide but for now, visit the following google drive document:
