@@ -21,7 +21,7 @@ collecting events. Event Nickname may only be created or added in the
 edit forms; it may not be created during the data entry process. This
 field is useful for locating pre-created collecting event information,
 and may be useful when specimens share an event but are not entered
-sequentially, such as hosts and parasites.
+sequentially, such as hosts and parasites. The existence of an event nickname will prevent automated merger and deletion.
 
 ## Verbatim Locality
 
@@ -142,3 +142,8 @@ will search for specimens which meet ALL of the listed requirements:
 Specimens from August 31 will not be included (31 is not between 1 and
 30), and specimens from January will not be included (1 is not between 6
 and 7).
+
+# Maintenance
+
+Duplicate Collecting Events are automatically merged, and unused Collecting Events are automatically deleted. A Collecting Event Nickname will prevent both of these actions and should be used in pre-created Collecting Events. Please remove nickname from any Collecting Events which you no longer intend to use.
+
