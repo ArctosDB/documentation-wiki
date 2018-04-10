@@ -32,7 +32,7 @@ date: 2016-03-08
 
 * The record will now have a barcode when it is loaded into Arctos.
 
-## From Object Tracking: Object+Barcode->Container
+## From Object Tracking: Object+BC->Container
 
 * Barcodes can be added to already cataloged records using the Object+BC->Container tool in the Manage: Object Tracking tab.
 
