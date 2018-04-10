@@ -13,18 +13,22 @@ error.  For electronic mapping, we convert such data to decimal degrees
 with estimates of error in meters.  Interfaces to the data are more
 flexible.
 
-A locality has these related elements:
 
--   a description of [higher geography](higher-geography)
--   one or more [georeferencing determinations](coordinates)
+A locality is a specific place associated with one or more [Collecting Events](collecting-event).  Ultimately, each locality should be a unique
+circle in geographic space.  The center is a point defined by [latitude
+and longitude](coordinates), and the radius is a linear estimate of
+error.  For electronic mapping, we convert such data to decimal degrees
+with estimates of error in meters.  Interfaces to the data are more
+flexible.
 
-Unfortunately, not all localities are even crudely georeferenced.  Thus
-much of the descriptive data is hierarchical (e.g., continent, country,
-state, county, specific locality).  Applying coordinates and errors
-(georeferencing) to such descriptions is error-prone and even
-subjective.  Therefore, multiple georeferencing determinations can be
-applied to a single locality even though only the "accepted"
-determination is routinely displayed.  Some caveats:
+A locality includes three types of data
+
+-   [Higher geography](higher-geography) is controlled "authority data" and is included via key relationships.
+-   [Georeferencing determinations](coordinates) are spatial data; they define a shape on a map. Localities may include point-radius data and/or
+WKT (polygon) data.
+-   Descriptive data, most importantly Specific Locality.
+
+ Some caveats:
 
 -   A locality documents one *or more* collecting events.
 -   Separate but similar localities may differ only in the extent of
@@ -76,12 +80,8 @@ Events](collecting-event) for more details).
 
 -   **Example:** 10 mi below Ehrenberg (Arizona), Colorado River
 -   There some situations in which no Specific Locality is given, or no
-    Specific
-
-    Locality would be appropriate. For example, collecting events on the
-    high seas
-
-    which are specified by geographic latitude and longitude.
+    Specific Locality would be appropriate. For example, collecting events on the
+    high seas which are specified by geographic latitude and longitude.
 
     -   **Example:** North Pacific Ocean, 45 52′ 24″ N, 165 21′ 48″ W
 
@@ -505,3 +505,4 @@ The webservice data pane has documentation inline. Read it.
 # Maintenance
 
 Duplicate localities are automatically merged, and unused localities are automatically deleted. A Locality Nickname will prevent both of these actions and should be used in pre-created localities. Please remove nickname from any localities which you no longer intend to use.
+
