@@ -146,4 +146,3 @@ and 7).
 # Maintenance
 
 Duplicate Collecting Events are automatically merged, and unused Collecting Events are automatically deleted. A Collecting Event Nickname will prevent both of these actions and should be used in pre-created Collecting Events. Please remove nickname from any Collecting Events which you no longer intend to use.
-
