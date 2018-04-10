@@ -41,6 +41,9 @@ date: 2016-03-08
 * Make sure that the chosen identifier category, e.g. Catalog Number, is correct, and that the part chosen is the part associated with the barcode.
 
 * The "Parent Cont Type" of the part is the container type of the barcode to be added. If the part is a frozen liver, the "Parent Cont Type" is a cryovial, and the barcode added is attached to the cryovial.
+* Click "Move It" when finished.
+
+* If a new part required, click "New Part" and use the pop up to enter the new part information and barcode.
 
 
 
