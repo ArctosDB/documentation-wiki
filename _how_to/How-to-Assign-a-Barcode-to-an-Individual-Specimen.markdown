@@ -1,5 +1,5 @@
 ---
-title: How To Assign a Barcode to an Individual Specimen
+title: How To Assign a Barcode to an Individual Cataloged Specimen Part
 layout: default_toc
 author: Carla Cicero
 date: 2016-03-08
@@ -31,3 +31,17 @@ date: 2016-03-08
 * Click "Save Edits" to save your change.
 
 * The record will now have a barcode when it is loaded into Arctos.
+
+## From Object Tracking: Object+Barcode->Container
+
+* Barcodes can be added to already cataloged records using the Object+BC->Container tool in the Manage: Object Tracking tab.
+
+* This tool can also be used to add new parts to a record at the same time.
+
+* Make sure that the chosen identifier category, e.g. Catalog Number, is correct, and that the part chosen is the part associated with the barcode.
+
+* The "Parent Cont Type" of the part is the container type of the barcode to be added. If the part is a frozen liver, the "Parent Cont Type" is a cryovial, and the barcode added is attached to the cryovial.
+
+
+
+
