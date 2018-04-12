@@ -8,9 +8,9 @@ layout: default_toc
 
 Transactions are actions that effect the coming and going of Cataloged
 Items, and parts thereof. 
-[Accessions](http://arctosdb.org/documentation/accession/ "Accessions")
+[Accessions](/documentation/accession.html)
 permanently bring cataloged items into a collection,
-[Loans](http://arctosdb.org/documentation/loans/ "Loans") record
+[Loans](/documentation/loans/) record
 movement and usage of cataloged items, and Borrows record items from
 other collections lent, and in your collection’s temporary custody. 
 These three types of transactions share several fields in common, and
