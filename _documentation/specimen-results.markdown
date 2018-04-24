@@ -7,7 +7,7 @@ layout: default_toc
 
 # Specimen Results
 
-Specimen results presents summary specimen data in a tabular format.
+Specimen results presents summary specimen data in a tabular format. 
 
 ## Features
 
@@ -21,8 +21,25 @@ Click "show map" near the top of the page to view a map. Note that the map shows
 
 The size of the map is customizable, and may be used to limit results to the bounding box defined by the map viewport.
 
-## Limitation
+### Customize
+
+Open the Tools: Map, Customize, or Download option for customization.
+
+
+
+## Limitations
+
+Specimen data are often much more complex than can readily be represented in a tabular format. Arctos provides embedded data object
+to address the most common situations. 
 
 ### Locality
 
 Many specimens have multiple locality associations. Only one is generally available. Turn on "JSON Locality" to see all locality data.
+
+### Parts
+
+Specimen Parts are presented as concatenated strings. Turn on "partdetail" to see individual parts (as JSON).
+
+### Identifications
+
+Only the current accepted identifications is shown by default. Turn on "ID History (JSON)" to see all identifications.
