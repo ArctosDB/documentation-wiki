@@ -20,3 +20,9 @@ Click "show/hide search terms" near the top of the page to alter your query term
 Click "show map" near the top of the page to view a map. Note that the map shows only "preferred" events.
 
 The size of the map is customizable, and may be used to limit results to the bounding box defined by the map viewport.
+
+## Limitation
+
+### Locality
+
+Many specimens have multiple locality associations. Only one is generally available. Turn on "JSON Locality" to see all locality data.
