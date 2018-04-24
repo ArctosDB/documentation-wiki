@@ -32,6 +32,8 @@ Open the Tools: Map, Customize, or Download option for customization.
 Specimen data are often much more complex than can readily be represented in a tabular format. Arctos provides embedded data object
 to address the most common situations. 
 
+Many queries also consider only "preferred" or "most important" data (often an arbitrary distinction). Contact us for more information.
+
 ### Locality
 
 Many specimens have multiple locality associations. Only one is generally available. Turn on "JSON Locality" to see all locality data.
