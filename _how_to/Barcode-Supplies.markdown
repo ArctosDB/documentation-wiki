@@ -1,6 +1,8 @@
 ---
 title: Barcode Supplies
 layout: default_toc
+author: Kyndall Hildebrandt
+date: 2017-05-05
 ---
 # Machine-based object tracking equipment and supplies
  
@@ -11,7 +13,7 @@ Label durability depends on the material of the barcode and the barcode adhesive
 
 1D Barcode: ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/1D_2.png)
 
-2D Barcode: ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/2D_2.png)
+2D Barcode: <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/2D_2.png" width="100">
 
 ## Suppliers:
 
