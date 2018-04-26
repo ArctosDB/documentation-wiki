@@ -36,7 +36,8 @@ Many queries also consider only "preferred" or "most important" data (often an a
 
 ### Locality
 
-Many specimens have multiple locality associations. Only one is generally available. Turn on "JSON Locality" to see all locality data.
+Many specimens have multiple locality associations. Only one is generally available, although specimens with multiple events 
+display even count in small gree text in the GUID column. Turn on "JSON Locality" to see all locality data.
 
 ### Parts
 
