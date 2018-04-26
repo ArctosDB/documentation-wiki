@@ -86,3 +86,8 @@ Someone with admin access will see a scary red box with an override link.
 Click it, if there are no remaining errors the data should load.
 
 <img width="163" alt="screen shot 2018-04-26 at 9 04 59 am" src="https://user-images.githubusercontent.com/5720791/39317628-f1b72abe-4930-11e8-817e-251362902aea.png">
+
+# Related Links
+
+[Bulkloader Results howto](http://handbook.arctosdb.org/how_to/How-to-deal-with-Agent-Bulkloader-results.html)
+
