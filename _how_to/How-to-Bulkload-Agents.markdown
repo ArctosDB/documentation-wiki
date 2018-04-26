@@ -31,6 +31,10 @@ If you have a list of names....
 <img width="213" alt="screen shot 2018-04-26 at 8 54 55 am" src="https://user-images.githubusercontent.com/5720791/39317058-884d16f2-492f-11e8-9297-b920e433275b.png">
 
 
+Format is given at the top:
+
+<img width="98" alt="screen shot 2018-04-26 at 8 55 46 am" src="https://user-images.githubusercontent.com/5720791/39320205-3e432e4e-4938-11e8-84e8-3053e41dbea5.png">
+
 
 Upload, follow the link
 
