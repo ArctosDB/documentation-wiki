@@ -24,7 +24,9 @@ Curators/Collection Managers who want the ability to create or edit Documentatio
 * Enter the directory `_how_to` in the repository
   * if you get lost in the repo, be sure to click on "< > Code " tab to navigate back to the main section
 * Press "**Create new file**" in the upper right.
-* Give it a name and end it with the extension `.markdown`.  All "How-to Guide" titles should start with "How to .." to distinguish tutorials from other Arctos documentation. Keep titles short and avoid punctuation or special characters (e.g., commas, colons, dashes, slashes, etc.) because the page title is used to format the URL.
+* Give it a name and end it with the extension `.markdown`.  All "How-to Guide" titles should start with "How to .." to distinguish tutorials from other Arctos documentation. 
+  - Keep titles short 
+  - Avoid punctuation or special characters (e.g., parentheses, commas, colons, dashes, slashes, etc.) because the page title is used to format the URL.
   - **Remember to give your page the `.markdown` extension when naming it!** The extension will automatically place the web editor and most local clients in the right edit mode to assist you.
 * In the text box, create your new content. The first lines need to be the front matter which must look like this:
 

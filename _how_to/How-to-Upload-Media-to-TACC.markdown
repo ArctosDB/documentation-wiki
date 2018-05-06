@@ -5,7 +5,7 @@ date: 2018-05-04
 ---
 
 The Texas Advanced Computing Center (TACC) offers media hosting for Arctos users through an Arctos Project allocation. If you are using TACC to store media, the files must be uploaded to TACC and accessible on the web server before creating media in Arctos
- * See [How to Create Media in Arctos](https://handbook.arctosdb.org/how_to/How-to-Create-Media-(Images).html)
+ * See [How to Create Media in Arctos](https://handbook.arctosdb.org/how_to/How-to-Create-Media-Images.html)
 
 If you want to upload a lot of large media files (e.g., 100s or 1000s of images, audio, video), and/or if you have specific processing needs, you should first contact [Chris Jordan](https://www.tacc.utexas.edu/about/directory/chris-jordan) and an Arctos administrator to discuss space allocations. However, most users can follow these instructions:
 
