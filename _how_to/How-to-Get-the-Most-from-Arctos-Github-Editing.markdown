@@ -61,7 +61,7 @@ Now you're ready to start editing or creating a new markdown page in your cloned
  - Open a file you want to edit (any file with *.markdown extension). Right-click and choose to open with _Brackets_. Once the file is open, click on the blue Markdown icon on the right to enable preview as you code.    
  
 
- <img src=https://raw.githubusercontent.com/gruehle/MarkdownPreview/master/screenshots/markdown-preview.png>
+ ![markdown preview](https://raw.githubusercontent.com/gruehle/MarkdownPreview/master/screenshots/markdown-preview.png)
  
  Try it out! As you type and add formatting, the preview will show how the rendered page will look. Caveats: it will NOT show you the final rendering on the Handbook site as _Bracket_ cannot render the entire website's framework such as the author and date that are added at the bottom of each page based on the front matter fields.
  
