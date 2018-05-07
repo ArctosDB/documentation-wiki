@@ -10,7 +10,7 @@ There are three kinds of content on the Arctos Handbook:
 
 * **Documentation**, which describes specific data tables and/or types and defines data fields
 * **How-to Guides**, step-by-step instructions on how to do specific tasks in Arctos
-* **Educational Resources**, for tutorials and teaching guides which use Arctos
+* **Resources**, for tutorials by the Arctos community and teaching guides that use Arctos
 
 Arctos Handbook content can be created or edited by anyone who is a member of the ArctosDB "Users" team (see "[How to Use GitHub for Arctos](/how_to/How-to-Use-Github-for-Arctos)"). That team has "write" access to the ArctosDB/documentation-wiki repository in GitHub. Anyone can view the content, but you need to be added to the "Users" team by an ArctosDB administrator in order to make changes.
 
@@ -147,8 +147,9 @@ In the page where you want to insert a table, follow the guide for [Organizing D
 If you want to work on markdown content offline or just not in a browser, there are a number of great text editors to use. Here are some FREE favorites:    
 
 * [Atom](https://atom.io/) (PC, MacOS, Linux, free)
+* [Brackets](http://brackets.io/) (MacOS, PC, free from Adobe)
 * [Notepad ++](https://notepad-plus-plus.org/) (PC, free)
 * [Text Wrangler](http://www.barebones.com/products/textwrangler/) (MacOS, free)
-* [Brackets](http://brackets.io/) (MacOS, PC, free from Adobe)
 
-You can work on the repository locally by using [Github Desktop](https://desktop.github.com/)
+
+Try using [Github Desktop](https://desktop.github.com/) if you want to sync your work with the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/) locally. For more details, consult [_How to Get the Most Out of Arctos-Github Editing_]({{site.baseurl}}/how_to/How).
