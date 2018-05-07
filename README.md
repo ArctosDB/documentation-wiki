@@ -3,7 +3,7 @@
 Based off the initial Wordpress redesign visible [here](http://velociraptorsystems.com/samples/mvz_tests/arctosdb/) (repo: https://github.com/museum-of-vertebrate-zoology/wp-arctos-theme )
 
 
-View this at https://arctosdb.github.io/documentation-wiki/
+View this at **https://handbook.arctosdb.org**
 
 # Creating new files
 
