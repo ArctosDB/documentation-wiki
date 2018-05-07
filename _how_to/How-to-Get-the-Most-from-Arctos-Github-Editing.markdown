@@ -102,9 +102,9 @@ This may be too large for your page so we can reduce the width by 50% using the 
 
 Example in HTML:
 ````html
-<img alt="Arctos logo" width=128 src=https://handbook.arctosdb.org/images/favicon256.png>
+<img alt="Arctos logo" width=128 src="https://handbook.arctosdb.org/images/favicon256.png">
 ````
-<img alt="Arctos logo" width=128 src=https://handbook.arctosdb.org/images/favicon256.png>
+<img alt="Arctos logo" width=128 src="https://handbook.arctosdb.org/images/favicon256.png">
 
 
 
