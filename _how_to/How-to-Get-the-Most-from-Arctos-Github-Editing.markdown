@@ -30,6 +30,9 @@ Relevant Markdown links:
 [Word to Markdown converter](https://word-to-markdown.herokuapp.com/) - Upload as Word doc, get back Markdown
 
 
+[Convert a Google Doc to Markdown](https://github.com/lmmx/gdocs2md-html) -  a little bit of setup via Google Script and then you'll have a handy tool
+
+
 ## How to Get the Most out of Arctos-Github!
 Editing and creating pages for the Arctos Handbook in the online Github interface is easy and straightforward. However, at some point, you may need to do more, such as move and edit more than one file at a time. Or perhaps a new page needs more time to complete. This is a step-by-step introduction to working with the Arctos Handbook Github repository.
 
