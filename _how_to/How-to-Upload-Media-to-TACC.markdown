@@ -1,10 +1,11 @@
 ---
 title: How To Upload Media to TACC
 layout: default_toc
+date: 2018-05-04
 ---
 
 The Texas Advanced Computing Center (TACC) offers media hosting for Arctos users through an Arctos Project allocation. If you are using TACC to store media, the files must be uploaded to TACC and accessible on the web server before creating media in Arctos
- * See [How to Create Media in Arctos](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-Media-(Images))
+ * See [How to Create Media in Arctos](/how_to/How-to-Create-Media-Images.html)
 
 If you want to upload a lot of large media files (e.g., 100s or 1000s of images, audio, video), and/or if you have specific processing needs, you should first contact [Chris Jordan](https://www.tacc.utexas.edu/about/directory/chris-jordan) and an Arctos administrator to discuss space allocations. However, most users can follow these instructions:
 
@@ -28,7 +29,8 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
  * Password: enter your TACC portal account password
  * Port number is 22
 
-![TACC Corral Login Screen](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/TACC_corral_login_screenshot.jpg)
+![TACC Corral Login Screen](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/TACC_corral_login_screenshot.jpg)
+
 
 * Once you are connected, go up to the root directory and then select corral-tacc ---> tacc ---> arctos
 

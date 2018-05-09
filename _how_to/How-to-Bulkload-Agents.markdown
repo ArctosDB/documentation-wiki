@@ -10,45 +10,45 @@ date: 2018-04-26
 
 First open the agent bulkloader. This may take a while as it refreshes some cached data.
 
-<img width="322" alt="screen shot 2018-04-26 at 8 54 33 am" src="https://user-images.githubusercontent.com/5720791/39317022-76b17cda-492f-11e8-822d-b04463e2714d.png">
+<img width="322px" alt="screen shot 2018-04-26 at 8 54 33 am" src="https://user-images.githubusercontent.com/5720791/39317022-76b17cda-492f-11e8-822d-b04463e2714d.png">
 
 
 
 Click Agent Loader Home to access more tools
 
-<img width="160" alt="screen shot 2018-04-26 at 8 54 48 am" src="https://user-images.githubusercontent.com/5720791/39317050-83a64132-492f-11e8-84bf-794046819087.png">
+<img width="160px" alt="screen shot 2018-04-26 at 8 54 48 am" src="https://user-images.githubusercontent.com/5720791/39317050-83a64132-492f-11e8-84bf-794046819087.png">
 
 
 
-If you have a list of names....
+If you have a list of names
 
-<img width="198" alt="screen shot 2018-04-26 at 8 55 23 am" src="https://user-images.githubusercontent.com/5720791/39317105-a4742a14-492f-11e8-87f7-fa6c9b9ed89f.png">
+<img width="198px" alt="screen shot 2018-04-26 at 8 55 23 am" src="https://user-images.githubusercontent.com/5720791/39317105-a4742a14-492f-11e8-87f7-fa6c9b9ed89f.png">
 
 
 
-...you can split them with the Agent Name Splitter.
+you can split them with the Agent Name Splitter.
 
-<img width="213" alt="screen shot 2018-04-26 at 8 54 55 am" src="https://user-images.githubusercontent.com/5720791/39317058-884d16f2-492f-11e8-9297-b920e433275b.png">
+<img width="213px" border="1" alt="screen shot 2018-04-26 at 8 54 55 am" src="https://user-images.githubusercontent.com/5720791/39317058-884d16f2-492f-11e8-9297-b920e433275b.png">
 
 
 Format is given at the top:
 
-<img width="98" alt="screen shot 2018-04-26 at 8 55 46 am" src="https://user-images.githubusercontent.com/5720791/39320205-3e432e4e-4938-11e8-84e8-3053e41dbea5.png">
+<img width="98px" alt="screen shot 2018-04-26 at 8 55 46 am" src="https://user-images.githubusercontent.com/5720791/39320205-3e432e4e-4938-11e8-84e8-3053e41dbea5.png">
 
 
 Upload, follow the link
 
-<img width="98" alt="screen shot 2018-04-26 at 8 55 46 am" src="https://user-images.githubusercontent.com/5720791/39317112-a7ebb32e-492f-11e8-92bd-0544e390b2a0.png">
+<img width="98px" alt="screen shot 2018-04-26 at 8 55 46 am" src="https://user-images.githubusercontent.com/5720791/39317112-a7ebb32e-492f-11e8-92bd-0544e390b2a0.png">
 
 
 
 This will run the agent checker function, and it will ALWAYS fail - agent type is not provided to this application in the interest of simplicity. Note any "fatal errors" - they will continue to cause problems.
 
-<img width="1391" alt="screen shot 2018-04-26 at 8 56 50 am" src="https://user-images.githubusercontent.com/5720791/39317159-c8c3f926-492f-11e8-8a13-3cb8096b3759.png">
+<img width="100%" alt="screen shot 2018-04-26 at 8 56 50 am" src="https://user-images.githubusercontent.com/5720791/39317159-c8c3f926-492f-11e8-8a13-3cb8096b3759.png">
 
 
 
-The Agent Name Splitter injects a "formatted name." You may wish to replace preferred_name with this standardization; you will need to keep data synchronized. In this case the preferred names were already formatted according to the [Guidelines](http://handbook.arctosdb.org/documentation/agent.html#creating--maintaining-agents), there is nothing of value in "formatted name," and it can simply be deleted. 
+The Agent Name Splitter injects a "formatted name." You may wish to replace preferred_name with this standardization; you will need to keep data synchronized. In this case the preferred names were already formatted according to the [Guidelines](/documentation/agent.html#creating--maintaining-agents), there is nothing of value in "formatted name," and it can simply be deleted. 
 
 <img width="462" alt="screen shot 2018-04-26 at 8 58 43 am" src="https://user-images.githubusercontent.com/5720791/39317286-0dc3cdbc-4930-11e8-821e-c7fe31676a73.png">
 
@@ -56,7 +56,6 @@ The Agent Name Splitter injects a "formatted name." You may wish to replace pref
 The Agent Loader Home page provides a list of required and optional columns. We need to add agent_type - they're probably all "person" if we successfully used the agent name splitter.
 
 <img width="660" alt="screen shot 2018-04-26 at 9 12 41 am" src="https://user-images.githubusercontent.com/5720791/39318122-23a5f28e-4932-11e8-9907-ca99fa944b23.png">
-
 
 
 This is a good time to delete full duplicates as well; these agents exist and your data will already load against them.
@@ -116,5 +115,5 @@ Click it, if there are no remaining errors the data should load.
 
 # Related Links
 
-[Bulkloader Results howto](http://handbook.arctosdb.org/how_to/How-to-deal-with-Agent-Bulkloader-results.html)
+[How to Understand Bulkloader Results](/how_to/How-to-deal-with-Agent-Bulkloader-results.html)
 
