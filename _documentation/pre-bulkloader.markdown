@@ -31,6 +31,15 @@ Once each AGENT_NAME represents a single entity, a "translation" should be enter
 | S. Guy      | Some Guy  |  Merging alternate names now will save some work later on. If there's reason to suspect that this is NOT "Some Guy" it may be best to pre-create the agents with a "not the same as" relationship. |
 | Some Guy | Some Guy      |   Most records will probably be as good as they can be made at this point, and just need copy/pasted from AGENT_NAME to SHOULDBE, which will result in no changes. |
 
+
+Agents must ultimately match agents in Arctos. After the cleanup here, they will be tested against existing agents. Some will likely resolve (and are therefore done), some will need to be created. Note that only a unique string match is required to load specimen data. If preferred_name "Some Random Guy" exists in Arctos with alternate names "S. R. Guy," "Guy, R.," "S. Guy," "Some Guy," "Guy, Some" then the "bad" examples above would all load UNLESS some other agent (Stanley perhaps) also carries agent name "S. Guy."
+
+
+
+
+
+
+
 ## Taxa
 
 pre_bulk_taxa will contain two columns: TAXON_NAME and SHOULDBE. These data come from unique values in all agent columns. Data appear here when the bulkloader cannot resolve them to names according to the [handled formulae](http://handbook.arctosdb.org/documentation/bulkloader.html#taxonomy). Common situations:
