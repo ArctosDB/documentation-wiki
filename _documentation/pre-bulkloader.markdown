@@ -45,54 +45,54 @@ A blank value in TAXON_NAME must be addressed. "unidentifiable" is available if 
 
 {need documentation here}
 
-##OtherIDs
+## OtherIDs
 
 
 {need documentation here}
 
-##Dates
+## Dates
 
 Date data must meet the [Arctos Date Standard](http://handbook.arctosdb.org/documentation/dates.html)
 
-##Parts
+## Parts
 
 {need documentation here}
 
-##Disposition
+## Disposition
 
 {need documentation here}
 
 ## Collector Role
 {need documentation here}
 
-##Accn
+## Accn
 {need documentation here}
 
-##Geography
+## Geography
 {need documentation here}
 
-##NatureOfID
+## NatureOfID
 {need documentation here}
 
-##CoordinateUnits
+## CoordinateUnits
 {need documentation here}
 
-##GeoreferenceProtocol
+## GeoreferenceProtocol
 {need documentation here}
 
-##VerificationStatus
+## VerificationStatus
 {need documentation here}
 
-##CoordinateErrorUnits
+## CoordinateErrorUnits
 {need documentation here}
 
-##CollectingSource
+## CollectingSource
 {need documentation here}
 
-##DepthUnits
+## DepthUnits
 {need documentation here}
 
-##Datum
+## Datum
 {need documentation here}
 
 
