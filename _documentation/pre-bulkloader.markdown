@@ -39,4 +39,61 @@ pre_bulk_taxa will contain two columns: TAXON_NAME and SHOULDBE. These data come
 * The name is misspelled. This is by far the most common situation. The corrected named should be entered in SHOULDBE.
 * A formula is not formatted correctly. See [handled formulae](http://handbook.arctosdb.org/documentation/bulkloader.html#taxonomy).
 
+A blank value in TAXON_NAME must be addressed. "unidentifiable" is available if no information is available. Often more precision can be inferred - bird collections tend to catalog Aves, for example. ("unidentifiable" has no implicit limitations in scope.)
+
+## Attributes
+
+{need documentation here}
+
+##OtherIDs
+
+
+{need documentation here}
+
+##Dates
+
+Date data must meet the [Arctos Date Standard](http://handbook.arctosdb.org/documentation/dates.html)
+
+##Parts
+
+{need documentation here}
+
+##Disposition
+
+{need documentation here}
+
+## Collector Role
+{need documentation here}
+
+##Accn
+{need documentation here}
+
+##Geography
+{need documentation here}
+
+##NatureOfID
+{need documentation here}
+
+##CoordinateUnits
+{need documentation here}
+
+##GeoreferenceProtocol
+{need documentation here}
+
+##VerificationStatus
+{need documentation here}
+
+##CoordinateErrorUnits
+{need documentation here}
+
+##CollectingSource
+{need documentation here}
+
+##DepthUnits
+{need documentation here}
+
+##Datum
+{need documentation here}
+
+
 
