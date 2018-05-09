@@ -42,7 +42,7 @@ Agents must ultimately match agents in Arctos. After the cleanup here, they will
 
 ## Taxa
 
-pre_bulk_taxa will contain two columns: TAXON_NAME and SHOULDBE. These data come from unique values in all agent columns. Data appear here when the bulkloader cannot resolve them to names according to the [handled formulae](http://handbook.arctosdb.org/documentation/bulkloader.html#taxonomy). Common situations:
+pre_bulk_taxa will contain two columns: TAXON_NAME and SHOULDBE. Data appear here when the bulkloader cannot resolve them to names according to the [handled formulae](http://handbook.arctosdb.org/documentation/bulkloader.html#taxonomy). Common situations:
 
 * The name is valid and correctly formatted, just not in Arctos. This situation should be relatively rare, particular for species-and-above names. This must be resolved by creating the name in Arctos. A DBA can bulkload confirmed names, or they can be created individually in Arctos. The name should be copied to  SHOULDBE in conjunction with being added to Arctos.
 * The name is misspelled. This is by far the most common situation. The corrected named should be entered in SHOULDBE.
