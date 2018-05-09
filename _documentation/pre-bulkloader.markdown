@@ -30,3 +30,4 @@ Once each AGENT_NAME represents a single entity, a "translation" should be enter
 | Guy, Some      | Some Guy | Formatting Agents according to the [Agent Creation Guidelines]http://handbook.arctosdb.org/documentation/agent.html#creating--maintaining-agents) now will save some work later on. |
 | S. Guy      | Some Guy  |  Merging alternate names now will save some work later on. If there's reason to suspect that this is NOT "Some Guy" it may be best to pre-create the agents with a "not the same as" relationship. |
 | Some Guy | Some Guy      |   Most records will probably be as good as they can be made at this point, and just need copy/pasted from AGENT_NAME to SHOULDBE, which will result in no changes. |
+
