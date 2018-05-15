@@ -41,3 +41,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
  * Contact [Chris Jordan](https://www.tacc.utexas.edu/about/directory/chris-jordan) when your file are ready for processing and ingestion
 
 If you have uploaded images, a directory of thumbnail images will also be created. You need to use those thumbnail URIs in your bulkload media template (in the PREVIEW_URI column, http://arctos.database.museum/tools/BulkloadMedia.cfm) when you bulkload the image URIs.
+
+## Tools
+
+* [namechanger](https://mrrsoftware.com/namechanger/) is useful for renaming files on Mac.
