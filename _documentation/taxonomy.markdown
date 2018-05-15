@@ -324,9 +324,9 @@ necessary.
 
 ## Source "Arctos"
 
-The pre-migration Arctos data have been pushed to source "Arctos." These
-data are the default classification for all collections, and generally
-represent a ranked singular taxonomic viewpoint.
+"Local" sources - those used in asserting taxonomy by collections - are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE). As of this writing, the split is "plants" and "everything else." It is important to choose the
+intended collection's preferred source when creating classification data. Local sources are often limited to hierarchical data and managed through 
+the [hierarchical data editor](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html).
 
 ## Taxonomy search examples
 
