@@ -55,6 +55,12 @@ pre_bulk_taxa will contain two columns: TAXON_NAME and SHOULDBE. Data appear her
 
 A blank value in TAXON_NAME must be addressed. "unidentifiable" is available if no information is available. Often more precision can be inferred - bird collections tend to catalog Aves, for example. ("unidentifiable" has no implicit limitations in scope.)
 
+### Taxa Tools
+
+* Reports/DataServices/ScientificNameChecker will try to correct formulaic scientific names
+* Reports/DataServices/TaxonNameValidator will check validity of taxon names, and must be used before new taxa may be created.
+
+ 
 ## Attributes
 
 {need documentation here}
