@@ -21,7 +21,7 @@ After the status has changed to init_pull_complete, several tables will be avail
 
 pre_bulk_agent will contain two columns: AGENT_NAME and SHOULDBE. These data come from unique values in all agent columns.
 
-Multi-agent strings ("You and Me") must be dealt with using other tools.
+Multi-agent strings ("You and Me") must be dealt with using other tools. 
 
 Once each AGENT_NAME represents a single entity, a "translation" should be entered in the SHOULDBE column.
 
@@ -35,6 +35,11 @@ Once each AGENT_NAME represents a single entity, a "translation" should be enter
 Agents must ultimately match agents in Arctos. After the cleanup here, they will be tested against existing agents. Some will likely resolve (and are therefore done), some will need to be created. Note that only a unique string match is required to load specimen data. If preferred_name "Some Random Guy" exists in Arctos with alternate names "S. R. Guy," "Guy, R.," "S. Guy," "Some Guy," "Guy, Some" then the "bad" examples above would all load UNLESS some other agent (Stanley perhaps) also carries agent name "S. Guy."
 
 
+### Agent Tools
+* Reports/DataServices/AgentNameDeconcatenator can help with "you and me" type agent data.
+* Reports/DataServices/AgentNamestringFormatter can help with "Guy, S." type agent data.
+* EnterData/BatchTools/BulkloadAgents can load Agent data to Arctos, and the "agent loader home" page includes links to more cleanup tools
+    * AgentNameSplitter will extract name components from "preferred name"
 
 
 
