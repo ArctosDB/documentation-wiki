@@ -32,7 +32,7 @@ it is possible to instead load the original verbatim strings to Attribute "verba
 Multi-agent strings ("You and Me") can be deconcatenated using Reports/DataServices/AgentNameDeconcatenator. Data in this format are almost always
  messy; the tool should properly extract most agents, but careful review of the results is critical. The results will contain columns
  ORIGINAL and AGENTn. Do not alter ORIGINAL in any way; it contains the path back to specimens. Populate the AGENTn columns with distinct entities
- from ORIGINAL. Some cleanup at this stage may be useful. For example, "A & C PETERSON" should be split into "A. Peterson" and "C. Peterson" - the 
+ from ORIGINAL. Some cleanup at this stage may be useful. For example, "A & C PETERSON" (assuming it represents two people and not a company or similar) should be split into "A. Peterson" and "C. Peterson" - the 
  tool will probably split that into "A" and "C Peterson" and data will be lost if this is not corrected. Data from this step should be repatriated to the 
  bulkloader, then re-extracted for cleanup. There are no repatriation tools available; this will need individual consideration, and may require using 
  additional bulkloaders or the creation of group-agent (for example, if there are multiple agents in ID Determinations, for which the specimen bulkloader
