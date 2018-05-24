@@ -35,7 +35,7 @@ Multi-agent strings ("You and Me") can be deconcatenated using Reports/DataServi
  from ORIGINAL. Some cleanup at this stage may be useful. For example, "A & C PETERSON" (assuming it represents two people and not a company or similar) should be split into "A. Peterson" and "C. Peterson" - the 
  tool will probably split that into "A" and "C Peterson" and data will be lost if this is not corrected. Data from this step should be repatriated to the 
  bulkloader, then re-extracted for cleanup. There are no repatriation tools available; this will need individual consideration, and may require using 
- additional bulkloaders or the creation of group-agent (for example, if there are multiple agents in ID Determinations, for which the specimen bulkloader
+ additional bulkloaders or the creation of group agents (for example, if there are multiple agents in ID Determinations, for which the specimen bulkloader
  offers only a single column).
  
 ### Reconciling Duplicates
