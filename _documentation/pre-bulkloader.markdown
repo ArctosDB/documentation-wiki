@@ -38,7 +38,7 @@ Multi-agent strings ("You and Me") can be deconcatenated using Reports/DataServi
  additional bulkloaders or the creation of group-agent (for example, if there are multiple agents in ID Determinations, for which the specimen bulkloader
  offers only a single column).
  
- ### Reconciling Duplicates
+### Reconciling Duplicates
 
 Once each AGENT_NAME represents a single entity, a "translation" should be entered in the SHOULDBE column.
 
