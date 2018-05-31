@@ -106,7 +106,23 @@ Date data must meet the [Arctos Date Standard](http://handbook.arctosdb.org/docu
 {need documentation here}
 
 ## Geography
+
+A geog_lookup file containing two columns will be produced. A "Higher Geog" value is required in the "shouldbe" column. Arctos geography
+is searchable from Search/Geography.
+
+### Reports/DataServices/HigherGeographyLookup may be used to transform various geography into Arctos-compatible higher_geog strings.
+
+#### From Components
+
+This option is most common on data which have been through VertNet migrators.
+
+#### From Concatenation
+
 {need documentation here}
+
+### Reports/DataServices/HigherGeographyFromSpeclog may be used to extract geography from specific locality.
+{need documentation here}
+
 
 ## NatureOfID
 {need documentation here}
