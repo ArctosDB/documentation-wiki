@@ -110,18 +110,24 @@ Date data must meet the [Arctos Date Standard](http://handbook.arctosdb.org/docu
 A geog_lookup file containing two columns will be produced. A "Higher Geog" value is required in the "shouldbe" column. Arctos geography
 is searchable from Search/Geography.
 
-### Reports/DataServices/HigherGeographyLookup may be used to transform various geography into Arctos-compatible higher_geog strings.
+### Geography Tools
 
-#### From Components
+#### Reports/DataServices/HigherGeographyLookup 
 
-This option is most common on data which have been through VertNet migrators.
+This tool may be used to transform various geography into Arctos-compatible higher_geog strings. The tool can work from components or from a 
+higher-geography-like concatenation. The "components" option will produce a spreadsheet with Arctos-named columns of original (often "original from VertNet") data, and a higher_geog column. The components columns (continent_ocean, county, etc.) MUST NOT be manipulated; they collectively provide
+a path back to specimens. A value from Arctos Higher Geography will be provided in higher_geog when it can be determined from the components; any blanks must be dealt with manually, and any provided values should be reviewed for accuracy. Arctos geography is searchable through Search/Geography, the search results will contain a "higher geog" column which is suitable to copy and paste into the spreadsheet. New geography entries will need to be created; file an Issue or use the Contact link at the bottom of any form; please include the desired geography and a link to Wikipedia. 
 
-#### From Concatenation
 
-{need documentation here}
 
-### Reports/DataServices/HigherGeographyFromSpeclog may be used to extract geography from specific locality.
-{need documentation here}
+Links:
+
+* [Arctos Geography Search](https://arctos.database.museum/geography.cfm)
+* [Geography Creation Guidelines](http://handbook.arctosdb.org/documentation/higher-geography.html#guidelines-for-geographic-terms-in-arctos)
+
+#### Reports/DataServices/HigherGeographyFromSpeclog 
+
+This tool may be used to extract geography from specific locality.
 
 
 ## NatureOfID
