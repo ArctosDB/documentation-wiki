@@ -116,7 +116,7 @@ is searchable from Search/Geography.
 
 This tool may be used to transform various geography into Arctos-compatible higher_geog strings. The tool can work from components or from a 
 higher-geography-like concatenation. The "components" option will produce a spreadsheet with Arctos-named columns of original (often "original from VertNet") data, and a higher_geog column. The components columns (continent_ocean, county, etc.) MUST NOT be manipulated; they collectively provide
-a path back to specimens. A value from Arctos Higher Geography will be provided in higher_geog when it can be determined from the components; any blanks must be dealt with manually, and any provided values should be reviewed for accuracy. Arctos geography is searchable through Search/Geography, the search results will contain a "higher geog" column which is suitable to copy and paste into the spreadsheet. New geography entries will need to be created; file an Issue or use the Contact link at the bottom of any form; please include the desired geography and a link to Wikipedia. 
+a path back to specimens. Higher Geog should be an Arctos-formatted representation of the original data. The tool will "suggest" higher_geography values; these should be reviewed for accuracy. Any blank values will need populated from Arctos Higher Geography. Arctos geography is searchable through Search/Geography; the search results contain a "higher geog" column which is suitable to copy and paste into the spreadsheet. New geography entries will need to be created: file an Issue or use the Contact link at the bottom of any form, and please include the desired geography and a link to Wikipedia. 
 
 
 
