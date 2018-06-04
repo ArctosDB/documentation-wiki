@@ -74,8 +74,11 @@ A blank value in TAXON_NAME must be addressed. "unidentifiable" is available if 
 
 ### Taxa Tools
 
-* Reports/DataServices/ScientificNameChecker will try to correct formulaic scientific names
-* Reports/DataServices/TaxonNameValidator will check validity of taxon names, and must be used before new taxa may be created.
+#### Reports/DataServices/ScientificNameChecker will try to correct formulaic scientific names
+
+#### Reports/DataServices/TaxonNameValidator 
+
+This tool will check validity of taxon names, and must be used before new taxa are created. While the tool is useful, it pulls from several very sloppy "authorities" and summarizes in the most optimistic way possible. Any sizable dataset will contain terms which are not taxonomy flagged as "might be valid." Most datasets will also contain a few names which are taxnoomy but are flagged as "probably_not_valid." Proceed carefully.
 
  
 ## Attributes
