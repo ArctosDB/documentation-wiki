@@ -33,7 +33,7 @@ catalog. Arctos currently supports three formats of catalog number.
     are available. Search is by the concatenation or substrings thereof. Sort will be character (1,2,...20...3).
 3.  **String**: Any unique non-NULL string is accepted. No predictive
     tools are available. Search is by the string or
-    substrings thereof. Sort will be character (1,2,...20...3).
+    substrings thereof. Sort will be character (1,2,...20...3). Characters "/" (forward slash) and " " (space) are currently prohibited.
     
     
 ## Cataloged Item Type
