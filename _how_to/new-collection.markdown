@@ -16,35 +16,7 @@ You will need an Arctos account to access the form; you may create one at the to
 
 
 ## For Arctos
-
-
-
-
-				Next Steps:
-				<ol>
-					<li>Do administrative stuff; approve the request</li>
-					<li>
-						Coordinate any changes to INSTITUTION or INSTITUTION_ACRONYM with someone who has SQL access;
-						these will be used in collection creation and must be finalized before collections are created.
-					</li>
-					<li>Assign a Mentor. http://arctos.database.museum/info/mentor.cfm</li>
-					<li>Discuss GUID_Prefix with the new collection; FIRMLY establish these values now.</li>
-					<li>
-						As a user with global_admin access, visit
-						#application.serverRootURL#/new_collection.cfm?action=manage&id=#hash(srs.nid)#,
-						change status to approve_tp_pre-create_collection,
-						then provide guid_prefix on the form which will approve after changing status. You
-						can pre-create any number of collections.
-					</li>
-					<li>
-						Create Agent record(s) for at least one user, who will manage collections and invite additional users.
-						Get them through the Operator Creation process.
-						You do not need to assign them any roles or collections.
-					</li>
-				</ol>
-			</p>
-			
-			
+		
 			
 You will receive an email on form submission. The submitter should be contacted as soon as possible to ensure a good communications channel is established.
 
