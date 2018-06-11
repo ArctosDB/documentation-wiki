@@ -11,8 +11,6 @@ date: 2018-06-08
 Fill out the form at [http://arctos.database.museum/new_collection.cfm](http://arctos.database.museum/new_collection.cfm) and we will contact you.
 You will need an Arctos account to access the form; you may create one at the top of any page. Following the guidelines at the [http://handbook.arctosdb.org/documentation/users.html](Users Documentation) will streamline things later.
 
-<p>
-<p>
 
 
 ## For Arctos
