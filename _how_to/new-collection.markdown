@@ -31,7 +31,7 @@ A list of volunteer Mentors is available at
 The Mentor(s) are responsible for the following:
 
 
-* Facilitate communication between the incoming institution, the Arctos Working Group, and Arctos staff during this entire process.
+* Facilitate communication between the incoming institution, the Arctos Working Group, and Arctos staff during this entire process, work with the Arctos Treasures to complete an MOU.
 
 * The link in the initial contact email has an administrative section. The institutional mentor should change status to "administrative approval granted" and add their name and email address to the form. Set Status to "approve_to_pre-create_collections," save.
 
