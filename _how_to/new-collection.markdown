@@ -30,7 +30,7 @@ The Mentor(s) are responsible for the following:
 
 * Facilitate communication between the incoming institution, the Arctos Working Group, and Arctos staff during this entire process.
 * Define collections. Incoming collections are often merged or split, for example - this should be understood and agreed upon by all involved parties very early in the process. Documentation is available at [http://handbook.arctosdb.org/documentation/catalog.html](http://handbook.arctosdb.org/documentation/catalog.html).
-* The institutional mentor should change status to "administrative approval granted" and add themselves to the form. 
+* The institutional mentor should change status to "administrative approval granted" and add their name and email address to the form. 
 * Create a GUID_PREFIX for all collections in the institution. This is a permanent value which is used in links to specimens and should never be changed. Please take great care to ensure that the collections understand the importance of stability in this value before proceeding. Documentation is available at [http://handbook.arctosdb.org/documentation/catalog.html](http://handbook.arctosdb.org/documentation/catalog.html).
 * Pre-create collections. The link in the initial contact email has an administrative section. Set Status to "approve_to_pre-create_collections," save, then provide GUID_PREFIX in the form which will appear to "seed" collections. Any number of collections may be pre-created for an Institution.
 * Work with the incoming Institution to provide collection data for each collection.
