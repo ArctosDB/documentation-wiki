@@ -18,9 +18,8 @@ The submitted form will go to the Arctos Working Group. Someone from the Arctos 
 Once the prospective partner has committed to Arctos, the Arctos Treasurer will being the process of developing a Memorandum of Understanding (MOU) between the institution and Arctos.
 
 ## For Arctos
-		
 			
-The Arctos Working Group will receive an email when a form is submitted. The AWG Vice-Chair should establish contact with the submittor as soon as possible.
+The Arctos Working Group will receive an email when a form is submitted. The AWG Vice-Chair should establish contact with the submitter as soon as possible.
 
 
 This process relies on mentorship. An institutional Mentor should be assigned as part of the administration process. Each collection in the institution will need a Mentor as well; this may all be the same person, or they may all be different, or any combination. Each collection needs at least one Mentor; any arrangement which satisfies this requirement is suitable.
