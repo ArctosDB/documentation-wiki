@@ -48,6 +48,8 @@ The Mentor(s) are responsible for the following:
 
 * Create an Operator for each collection. Documentation is [http://handbook.arctosdb.org/documentation/users.html](http://handbook.arctosdb.org/documentation/users.html) and a How-To is available at [http://handbook.arctosdb.org/how_to/How-to-Create-a-New-User-Account-for-Operators.html](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-User-Account-for-Operators.html). These new Operators do not need any roles or collections; this will be assigned when the collections are created.
 
+* Assist with publishing collection data to VertNet Integrated Publishing Toolkit (IPT).
+
 
 Once collection metadata are provided and reviewed _for all collections in the institution_, the Mentor should change the status to "approve_to_create_collections" and ensure that the database administrators have received the notification of new collections. Collections will not be created until an MOU has been signed by all parties. The Arctos Steering Committee Chair will sign the MOU on behalf of Arctos.
 
