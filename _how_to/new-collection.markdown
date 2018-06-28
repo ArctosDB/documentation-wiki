@@ -53,7 +53,7 @@ Once collection metadata are provided and reviewed _for all collections in the i
 
 ## For DBAs
 
-You'll get email from new_collections@arctos.database.museum when a Mentor flags an institution as approve_to_create_collections. Sufficient data to create new collections should be in tables pre_new_institution (pkey: niid) and pre_new_collection (fkey: niid). 
+The Arctos DBA Team will get email from new_collections@arctos.database.museum when a Mentor flags an institution as approve_to_create_collections. Sufficient data to create new collections should be in tables pre_new_institution (pkey: niid) and pre_new_collection (fkey: niid). 
 
 All communication should be addressed to pre_new_collection.contact_email and copied to pre_new_collection.mentor_contact.
 
