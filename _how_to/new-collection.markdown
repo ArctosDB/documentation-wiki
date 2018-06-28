@@ -24,7 +24,7 @@ The Arctos Working Group will receive an email when a form is submitted. An AWG 
 
 This process relies on mentorship. An institutional Mentor should be assigned as part of the administration process. Each collection in the institution will need a Mentor as well; this may all be the same person, or they may all be different, or any combination. Each collection needs at least one Mentor; any arrangement which satisfies this requirement is suitable.
 
-
+Do not proceed until an MOU has been signed by all parties.
 
 
 A list of volunteer Mentors is available at
