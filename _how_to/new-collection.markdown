@@ -4,12 +4,12 @@ layout: default_toc
 author: DLM
 date: 2018-06-08
 ---
-# New Collections in Arctos
+# Prospective Collections in Arctos
  
 ## For prospective partners
 
 
-Fill out the form at [http://arctos.database.museum/new_collection.cfm](http://arctos.database.museum/new_collection.cfm) and we will contact you.
+Fill out the Prospective Collection Form at [http://arctos.database.museum/new_collection.cfm](http://arctos.database.museum/new_collection.cfm) and we will contact you.
 You will need an Arctos account to access the form; you may create one at the top of any page. Following the guidelines at the [http://handbook.arctosdb.org/documentation/users.html](http://handbook.arctosdb.org/documentation/users.html) will streamline things later.
 
 
