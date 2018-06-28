@@ -8,6 +8,7 @@ date: 2018-06-08
  
 ## For prospective partners
 
+
 Fill out the form at [http://arctos.database.museum/new_collection.cfm](http://arctos.database.museum/new_collection.cfm) and we will contact you.
 You will need an Arctos account to access the form; you may create one at the top of any page. Following the guidelines at the [http://handbook.arctosdb.org/documentation/users.html](http://handbook.arctosdb.org/documentation/users.html) will streamline things later.
 
@@ -21,7 +22,8 @@ Once the prospective partner has committed to Arctos, the Arctos Treasurer will 
 			
 The Arctos Working Group will receive an email when a form is submitted. An AWG representative should establish contact with the submitter as soon as possible. A template is available at https://docs.google.com/document/d/1m-lq77WnQpT_6-ClCQfwfqjxP4ETlGAhqh_YXGS0vys/edit. The chair of hte Arcots Working Group will forward the submitted form to the Arctos Steering Committee.
 
-That representative should create an issue in the new-collections repository (https://github.com/ArctosDB/new-collections)[https://github.com/ArctosDB/new-collections] at Github at this time.
+That representative should create an issue in the new-collections repository [https://github.com/ArctosDB/new-collections](https://github.com/ArctosDB/new-collections} at Github at this time. All steps in this document should also be updated in new-collections Githut.
+
 
 
 This process relies on mentorship. An institutional Mentor should be assigned as the first part of the administration process. Each collection in the institution will need a Mentor as well; this may all be the same person, or they may all be different, or any combination. Each collection needs at least one Mentor; any arrangement which satisfies this requirement is suitable. 
