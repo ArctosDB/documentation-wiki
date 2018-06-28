@@ -22,7 +22,7 @@ This process relies on mentorship. An institutional Mentor should be assigned as
 
 
 A list of volunteer Mentors is available at
-[http://arctos.database.museum/info/mentor.cfm](http://arctos.database.museum/info/mentor.cfm). Mentors will need global_admin, or someone with global_admin to act on their behalf.
+[http://arctos.database.museum/info/mentor.cfm](http://arctos.database.museum/info/mentor.cfm). Mentors will need global_admin, or someone with global_admin to act on their behalf. To become a Mentor, add a role under Manage Collection.
 
 
 The Mentor(s) are responsible for the following:
