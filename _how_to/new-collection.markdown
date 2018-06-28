@@ -27,8 +27,6 @@ This process relies on mentorship. An institutional Mentor should be assigned as
 A list of volunteer Mentors is available at
 [http://arctos.database.museum/info/mentor.cfm](http://arctos.database.museum/info/mentor.cfm). Mentors will need global_admin, or someone with global_admin to act on their behalf. To become a Mentor, add a role under Manage Collection.
 
-The final step of the administrative process should result in a MOU. Do not proceed until an MOU has been signed by all parties.
-
 
 The Mentor(s) are responsible for the following:
 
@@ -47,7 +45,9 @@ The Mentor(s) are responsible for the following:
 * Create an Operator for each collection. Documentation is [http://handbook.arctosdb.org/documentation/users.html](http://handbook.arctosdb.org/documentation/users.html) and a How-To is available at [http://handbook.arctosdb.org/how_to/How-to-Create-a-New-User-Account-for-Operators.html](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-User-Account-for-Operators.html). These new Operators do not need any roles or collections; this will be assigned when the collections are created.
 
 
-Once collection metadata are provided and reviewed _for all collections in the institution_, the Mentor should change the status to "approve_to_create_collections" and ensure that the database administrators have received the notification of new collections. 
+Once collection metadata are provided and reviewed _for all collections in the institution_, the Mentor should change the status to "approve_to_create_collections" and ensure that the database administrators have received the notification of new collections. Collections will not be created until an MOU has been signed by all parties.
+
+
 
 ## For DBAs
 
