@@ -19,7 +19,7 @@ Once the prospective partner has committed to Arctos, the Arctos Treasurer will 
 
 ## For Arctos
 			
-The Arctos Working Group will receive an email when a form is submitted. An AWG representative should establish contact with the submitter as soon as possible.
+The Arctos Working Group will receive an email when a form is submitted. An AWG representative should establish contact with the submitter as soon as possible. That representative should create an issue in the new-collections repository [LINK] at Github at this time.
 
 
 This process relies on mentorship. An institutional Mentor should be assigned as part of the administration process. Each collection in the institution will need a Mentor as well; this may all be the same person, or they may all be different, or any combination. Each collection needs at least one Mentor; any arrangement which satisfies this requirement is suitable.
