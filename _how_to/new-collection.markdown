@@ -12,7 +12,7 @@ Fill out the form at [http://arctos.database.museum/new_collection.cfm](http://a
 You will need an Arctos account to access the form; you may create one at the top of any page. Following the guidelines at the [http://handbook.arctosdb.org/documentation/users.html](http://handbook.arctosdb.org/documentation/users.html) will streamline things later.
 
 
-The submitted for will go to the Arctos Working Group. Someone from the Arctos Working Group will contact the submittor as soon as possible to ensure a good communication channel. Please email arctos.treasurer@gmail.com if you have not received a response within one week.  
+The submitted form will go to the Arctos Working Group. Someone from the Arctos Working Group will contact the submittor as soon as possible to ensure a good communication channel. Please email arctos.treasurer@gmail.com if you have not received a response within one week.  
 
 
 ## For Arctos
