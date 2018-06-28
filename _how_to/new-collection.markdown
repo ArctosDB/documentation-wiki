@@ -12,13 +12,15 @@ Fill out the form at [http://arctos.database.museum/new_collection.cfm](http://a
 You will need an Arctos account to access the form; you may create one at the top of any page. Following the guidelines at the [http://handbook.arctosdb.org/documentation/users.html](http://handbook.arctosdb.org/documentation/users.html) will streamline things later.
 
 
-The submitted form will go to the Arctos Working Group. Someone from the Arctos Working Group will contact the submittor as soon as possible to ensure a good communication channel. Please email arctos.treasurer@gmail.com if you have not received a response within one week.  
+The submitted form will go to the Arctos Working Group. Someone from the Arctos Working Group will contact the submitter as soon as possible to ensure a good communication channel. Please email arctos.treasurer@gmail.com if you have not received a response within one week.  
 
+
+Once the prospective partner has committed to Arctos, the Arctos Treasurer will being the process of developing a Memorandum of Understanding (MOU) between the institution and Arctos.
 
 ## For Arctos
 		
 			
-The sArctos Working Group will receive an email when a form is submitted. The AWG Vice-Chair should establish contact with the submittor as soon as possible.
+The Arctos Working Group will receive an email when a form is submitted. The AWG Vice-Chair should establish contact with the submittor as soon as possible.
 
 
 This process relies on mentorship. An institutional Mentor should be assigned as part of the administration process. Each collection in the institution will need a Mentor as well; this may all be the same person, or they may all be different, or any combination. Each collection needs at least one Mentor; any arrangement which satisfies this requirement is suitable.
