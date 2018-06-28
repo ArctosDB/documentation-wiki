@@ -16,7 +16,7 @@ You will need an Arctos account to access the form; you may create one at the to
 ## For Arctos
 		
 			
-You will receive an email on form submission. The submitter should be contacted as soon as possible to ensure a good communications channel is established.
+The Arctos Working Group will receive an email when a form is submitted. The submitter should be contacted as soon as possible to ensure a good communications channel is established.
 
 This process relies on mentorship. An institutional Mentor should be assigned as part of the administration process. Each collection in the institution will need a Mentor as well; this may all be the same person, or they may all be different, or any combination. Each collection needs at least one Mentor; any arrangement which satisfies this requirement is suitable.
 
