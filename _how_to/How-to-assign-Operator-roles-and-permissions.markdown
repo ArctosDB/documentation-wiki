@@ -11,7 +11,7 @@ To assign your Operator roles and permissions take the following steps:
 
 ## Caution
 
-Before you can assign Permissions/Roles to a user, they MUST be an Operator.  Follow the instructions for [How to Create a New User Account (for Operators)](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-a-New-User-Account-(for-Operators).html) if you need to make your user an Operator.
+Before you can assign Permissions/Roles to a user, they MUST be an Operator.  Follow the instructions for [How to Create a New User Account for Operators](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-a-New-User-Account-for-Operators.html) if you need to make your user an Operator.
 
 There are two types of “roles” in Arctos: Collection roles and access roles. Collection roles provide access to specific collections, and access roles provide access to specific tables.  Actual access is at the intersection of roles. A user with UAM:MAMM collection role and DATA_ENTRY access role can only enter data for the UAM:Mamm collection.
 
