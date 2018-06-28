@@ -19,16 +19,15 @@ Once the prospective partner has committed to Arctos, the Arctos Treasurer will 
 
 ## For Arctos
 			
-The Arctos Working Group will receive an email when a form is submitted. An AWG representative should establish contact with the submitter as soon as possible. That representative should create an issue in the new-collections repository [LINK] at Github at this time.
+The Arctos Working Group will receive an email when a form is submitted. An AWG representative should establish contact with the submitter as soon as possible. That representative should create an issue in the new-collections repository (https://github.com/ArctosDB/new-collections)[https://github.com/ArctosDB/new-collections] at Github at this time.
 
 
-This process relies on mentorship. An institutional Mentor should be assigned as part of the administration process. Each collection in the institution will need a Mentor as well; this may all be the same person, or they may all be different, or any combination. Each collection needs at least one Mentor; any arrangement which satisfies this requirement is suitable.
-
-Do not proceed until an MOU has been signed by all parties.
-
+This process relies on mentorship. An institutional Mentor should be assigned as the first part of the administration process. Each collection in the institution will need a Mentor as well; this may all be the same person, or they may all be different, or any combination. Each collection needs at least one Mentor; any arrangement which satisfies this requirement is suitable. 
 
 A list of volunteer Mentors is available at
 [http://arctos.database.museum/info/mentor.cfm](http://arctos.database.museum/info/mentor.cfm). Mentors will need global_admin, or someone with global_admin to act on their behalf. To become a Mentor, add a role under Manage Collection.
+
+The final step of the administrative process should result in a MOU. Do not proceed until an MOU has been signed by all parties.
 
 
 The Mentor(s) are responsible for the following:
