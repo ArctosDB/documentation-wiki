@@ -51,7 +51,7 @@ The Mentor(s) are responsible for the following:
 * Assist with publishing collection data to VertNet Integrated Publishing Toolkit (IPT).
 
 
-Once collection metadata are provided and reviewed _for all collections in the institution_, the Mentor should change the status to "approve_to_create_collections" and ensure that the database administrators have received the notification of new collections. Collections will not be created until an MOU has been signed by all parties. The Arctos Steering Committee Chair will sign the MOU on behalf of Arctos.
+Once collection metadata are provided and reviewed _for all collections in the institution_, the Mentor should change the status to "approve_to_create_collections" and ensure that the database administrators have received the notification of new collections. Collections will not be created until an MOU (see [https://bnhmwp.berkeley.edu/arctos/wp-content/uploads/sites/19/2018/06/Arctos_MOU_template_2018.doc](draft template)) has been signed by all parties. The Arctos Steering Committee Chair will sign the MOU on behalf of Arctos.
 
 
 
