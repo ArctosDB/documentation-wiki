@@ -1,5 +1,5 @@
 ---
-title: How To Create Your Arctos Team: Users and Operators
+title: How To Create Your Arctos Team (Users and Operators)
 layout: default_toc
 ---
 
