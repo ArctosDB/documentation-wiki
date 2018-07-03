@@ -14,7 +14,7 @@ Some objects (taxonomy, media, agents, places) are shared among collections. Peo
 * Go to [http://arctos.database.museum](http://arctos.database.museum) and enter a username and password, then hit "Create Account" (do not hit the return key or it will think you are trying to login with an account that doesn't exist yet).
  * Do not hit "Create Account" before entering a username and password.
  * DO NOT INCLUDE periods in your username (e.g., carla.cicero is not a valid username).
- * Passwords should be at least six characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*+,-/:;?_., not contain the username, and consist of at least one letter, number, and special character.
+ * Passwords should be at least eight characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*+,-/:;?_., not contain the username, and consist of at least one letter, number, and special character.
 * Once you have created an account and are logged in, go to the "My Stuff" tab at the top, then click on "Profile."
 * Enter your First, Middle (if applicable,, initial ok), and Last names in the appropriate fields.
 * Enter your Affiliation (name of your institution).
@@ -61,9 +61,10 @@ Once a user has created their user account and given you their username, complet
 * Select the correct username from the list; the user record will pop up on the screen.
 * Choose the collection that you want to grant the Operator access to and select the “Grant Access” button. The collection you selected and “Revoke” will appear below the choice fields. To grant access to another collection, simply repeat the process.
 * Select the [roles](http://arctos.database.museum/Admin/user_roles.cfm) you want this Operator to have by selecting from the dropdown list and selecting "Grant Role." If you want to grant more than one role, simply repeat the process. ALL Operators should be assigned the "PUBLIC" and "COLDFUSION_USER" roles in order for them to be able to function in their other roles.
- * Once you have assigned the Operator all of the collections and roles they need, exit the form.
+* Once you have assigned the Operator all of the collections and roles they need, exit the form.
+* Operators will only see the collections to which they have access, when they are logged in. To search on data for more than those collections, they will need to search while logged out.
 
 ---
 
 ### Congratulations!
-You now have a team of Operators who can assist you with data entry and management.  Next up, get them trained!
+You now have a team of Operators who can assist you with data entry and management. Next up, get them trained!
