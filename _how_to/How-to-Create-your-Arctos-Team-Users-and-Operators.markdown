@@ -37,22 +37,24 @@ Once a user has created their user account and given you their username, complet
 
 ### 4.	Invite your user to become an Operator
 
-* Send each of the team members you will invite to be Operators the following email:
-
----
-
-Now that you are an Arctos user, I am going to invite you to become an Arctos Operator.  You will receive an email from Arctos with instructions for authenticating your account for Operator status.  PLEASE NOTE: After you select the link in the email, you will need to log in to Arctos, then select “My Stuff” and “Profile” from the main Arctos menu in order to see the Authentication form.  Once you have completed the authentication, I will get a notification and then I will add some permissions to your profile so that you will be able to enter and edit data for the __________ collection.
-
-Call me if this doesn’t make sense or if you have any questions during the authentication process.
-
----
-
 * Complete the following to invite your new team member to be an Operator:
     * Select Manage Arctos > Roles/Permissions > Arctos Users from the drop down menu at the top of the page
     * Search by the Arctos username
     * Click Invite
     * An E-mail will be sent to the user inviting them to become an Operator
     * The user should follow the instructions and links in the email to accept responsibilities
+
+* Send each team member who needs Operator permissions the following email:
+
+---
+
+Now that you are an Arctos user, I am going to invite you to become an Arctos Operator. You will receive an email from Arctos with instructions for authenticating your account for Operator status. To authenticate, PLEASE NOTE: After you select the link in the email, you will need to log in to Arctos, then select “My Stuff” and “Profile” from the main Arctos menu in order to see the Authentication form.  Once you have completed the authentication, I will get a notification and then I will add some permissions to your profile so that you will be able to enter and edit data for the __________ collection.
+
+Call me if this doesn’t make sense or if you have any questions during the authentication process.
+
+---
+
+
 
 ### 5.	Assign your Operators Roles and Permissions
 
