@@ -15,27 +15,13 @@ This guide provides a workflow for how to organize users and operators to assist
  * Passwords should be at least six characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*+,-/:;?_., not contain the username, and consist of at least one letter, number, and special character
 * Once you have created an account and are logged in, go to the "My Stuff" tab at the top, then click on "Profile"
 * Enter your First, Middle (if applicable,, initial ok), and Last names in the appropriate fields
-* Enter your Affiliation (e.g., "MVZ" or "MSB")
-* Enter a valid email address.
- * This is important because you cannot be invited as an Operator without a valid email address.
-* Save your Profile and you are done. However, there are other options that you can set here, including:
- * Preferred file format for downloading data
- * Preferred other identifier (e.g., "collector number") - if you select something here, it will always show up on your Specimen Search page when you are logged in.
+* Enter your Affiliation (name of your institution)
+* Enter a valid email address. This is important because you cannot be invited as an Operator without a valid email address.
+* Hit "Save Profile" button and you are done. However, there are other options that you can set here, including:
+* Preferred file format for downloading data
+* Preferred other identifier (e.g., "collector number") - if you select something here, it will always show up on your Specimen Search page when you are logged in.
 
-
-* Send each of your new team members the following email:
-
----
-
-In order to enter or edit data in the Arctos environment, you must first become an Arctos user.  
-
-
-Please go to [How to Create a New User Account for Operators](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-a-New-User-Account-(for-Operators).html) for instructions on creating your user account.
-
-Once your account is created, you will be taken directly to the Arctos search screen.  Select “My Stuff”, then “Profile” from the drop down menu at the top of the page.  Enter your First, Last and Middle name in the appropriate fields, “_______________________________(name of your institution)” in the Affiliation Field, and your email address in the email field. **You must have an email address in your Profile in order to become an Arctos Operator and manage data.**
-Select the “Save Profile” button.
-
-You are now an official Arctos User.  Welcome to the community!  Now email ______________________ (your name and email address) with your username.  You will soon be contacted with instructions for authenticating your account as an Arctos Operator.
+You are now an official Arctos User.  Welcome to the community!  Now email your username to the person authorized to grant you operator permissions.  You will soon be contacted with instructions for authenticating your account as an Arctos Operator.
 
 ---
 
