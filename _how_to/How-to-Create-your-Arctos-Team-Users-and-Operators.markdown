@@ -5,15 +5,32 @@ layout: default_toc
 
 # How To Create Your Arctos Team: Users and Operators
 
-If you are organizing users/operators to assist you with data entry and collection data management.  This document provides a workflow for getting your team members on Arctos as Operators with the appropriate roles and permissions to get their share of the work done.  It also offers helpful templates of instructions to your new team members as you guide them through the process.
+This guide provides a workflow for how to organize users and operators to assist with data entry and collection data management. Anyone can have an Arctos user account, which is needed for downloading data. Operators are users who are granted appropriate permissions. There are two levels of permissions: (1) Permission to work with data for specific collections. (2) Permission to work with specific types of data for the granted collection(s) - e.g., data entry, transactions, localities, etc. This document also offers helpful templates of instructions to your new team members as you guide them through the process.
 
 ### 1.	Have each team member create an Arctos user account
+
+* Go to [http://arctos.database.museum](http://arctos.database.museum) and enter a username and password, then hit "Create Account" (do not hit the return key or it will think you are trying to login with an account that doesn't exist yet)
+ * Do not hit "Create Account" before entering a username and password.
+ * DO NOT INCLUDE periods in your username (e.g., carla.cicero is not a valid username)
+ * Passwords should be at least six characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*+,-/:;?_., not contain the username, and consist of at least one letter, number, and special character
+* Once you have created an account and are logged in, go to the "My Stuff" tab at the top, then click on "Profile"
+* Enter your First, Middle (if applicable,, initial ok), and Last names in the appropriate fields
+* Enter your Affiliation (e.g., "MVZ" or "MSB")
+* Enter a valid email address.
+ * This is important because you cannot be invited as an Operator without a valid email address.
+* Save your Profile and you are done. However, there are other options that you can set here, including:
+ * Preferred file format for downloading data
+ * Preferred other identifier (e.g., "collector number") - if you select something here, it will always show up on your Specimen Search page when you are logged in.
+
 
 * Send each of your new team members the following email:
 
 ---
 
-In order to enter or edit data in the Arctos environment, you must first become an Arctos user.  Please go to [How to Create a New User Account for Operators](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-a-New-User-Account-(for-Operators).html) for instructions on creating your user account.
+In order to enter or edit data in the Arctos environment, you must first become an Arctos user.  
+
+
+Please go to [How to Create a New User Account for Operators](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-a-New-User-Account-(for-Operators).html) for instructions on creating your user account.
 
 Once your account is created, you will be taken directly to the Arctos search screen.  Select “My Stuff”, then “Profile” from the drop down menu at the top of the page.  Enter your First, Last and Middle name in the appropriate fields, “_______________________________(name of your institution)” in the Affiliation Field, and your email address in the email field. **You must have an email address in your Profile in order to become an Arctos Operator and manage data.**
 Select the “Save Profile” button.
