@@ -17,9 +17,7 @@ This guide provides a workflow for how to organize users and operators to assist
 * Enter your First, Middle (if applicable,, initial ok), and Last names in the appropriate fields
 * Enter your Affiliation (name of your institution)
 * Enter a valid email address. This is important because you cannot be invited as an Operator without a valid email address.
-* Hit "Save Profile" button and you are done. However, there are other options that you can set here, including:
-* Preferred file format for downloading data
-* Preferred other identifier (e.g., "collector number") - if you select something here, it will always show up on your Specimen Search page when you are logged in.
+* Hit "Save Profile" button and you are done. However, there are other options that you can set here, including: preferred file format for downloading data; preferred other identifier (e.g., "collector number") - if you select something here, it will always show up on your Specimen Search page when you are logged in.
 
 You are now an official Arctos User.  Welcome to the community!  Now email your username to the person authorized to grant you operator permissions.  You will soon be contacted with instructions for authenticating your account as an Arctos Operator.
 
