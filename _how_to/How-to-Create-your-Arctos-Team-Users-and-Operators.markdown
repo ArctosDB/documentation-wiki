@@ -5,7 +5,7 @@ layout: default_toc
 
 # How To Create Your Arctos Team: Users and Operators
 
-This guide provides a workflow for how to organize users and operators to assist with data entry and collection data management. Anyone can have an Arctos user account, which is needed for downloading data. Operators are users who are granted appropriate permissions. There are two levels of permissions: (1) Permission to work with data for specific collections. (2) Permission to work with specific types of data for the granted collection(s) - e.g., data entry, transactions, localities, etc. This document also offers helpful templates of instructions to your new team members as you guide them through the process.
+This guide provides a workflow for how to organize users and operators to assist with data entry and collection data management. Anyone can have an Arctos user account, which is needed for downloading data. Operators are users who are granted appropriate permissions. There are two levels of permissions: (1) Permission to work with data for specific collections. (2) Permission to work with specific types of data for the granted collection(s) - e.g., data entry, transactions, localities, etc.
 
 ### 1.	Have each team member create an Arctos user account
 
