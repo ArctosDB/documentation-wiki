@@ -35,7 +35,7 @@ Once a user has created their user account and given you their username, complet
  * Select “Save All Changes” at the bottom of the screen.
  * You may now exit the Agent's record, your changes have been saved.
 
-### 4.	Invite your user to become an Operator
+### 3.	Invite your user to become an Operator
 
 * Complete the following to invite your new team member to be an Operator:
     * Select Manage Arctos > Roles/Permissions > Arctos Users from the drop down menu at the top of the page
