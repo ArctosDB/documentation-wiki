@@ -3,7 +3,7 @@ title: How To Create Your Arctos Team
 layout: default_toc
 ---
 
-# How To Create Your Arctos Team
+# How To Create Your Arctos Team: Users and Operators
 
 If you are organizing users/operators to assist you with data entry and collection data management.  This document provides a workflow for getting your team members on Arctos as Operators with the appropriate roles and permissions to get their share of the work done.  It also offers helpful templates of instructions to your new team members as you guide them through the process.
 
