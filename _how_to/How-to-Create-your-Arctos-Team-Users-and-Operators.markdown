@@ -5,17 +5,19 @@ layout: default_toc
 
 # How To Create Your Arctos Team: Users and Operators
 
-This guide provides a workflow for how to organize users and operators to assist with data entry and collection data management. Anyone can have an Arctos user account, which is needed for downloading data. Operators are users who are granted appropriate permissions. There are two levels of permissions: (1) Permission to work with data for specific collections. (2) Permission to work with specific types of data for the granted collection(s) - e.g., data entry, transactions, localities, etc.
+This guide provides a workflow for how to organize users and operators to assist with data entry and collection data management. Anyone can have an Arctos user account, which is needed for downloading data. Operators are users who are granted appropriate permissions. There are two levels of permissions: (1) Permission to work with data for specific collections. (2) Permission to work with specific types of data for the granted collection(s) - e.g., data entry, specimens, transactions, localities, etc. For example, a user with the roles UAM:Mamm and DATA_ENTRY can only enter data for the UAM:Mamm collection.
+
+Some objects (taxonomy, media, agents, places) are shared among collections. People who have access to these types of data must fully understand that Arctos is a shared system, and must always consider the implications of working in a shared system. So be careful when assigning roles to shared data types.
 
 ### 1.	Have each team member create an Arctos user account
 
-* Go to [http://arctos.database.museum](http://arctos.database.museum) and enter a username and password, then hit "Create Account" (do not hit the return key or it will think you are trying to login with an account that doesn't exist yet)
+* Go to [http://arctos.database.museum](http://arctos.database.museum) and enter a username and password, then hit "Create Account" (do not hit the return key or it will think you are trying to login with an account that doesn't exist yet).
  * Do not hit "Create Account" before entering a username and password.
- * DO NOT INCLUDE periods in your username (e.g., carla.cicero is not a valid username)
- * Passwords should be at least six characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*+,-/:;?_., not contain the username, and consist of at least one letter, number, and special character
-* Once you have created an account and are logged in, go to the "My Stuff" tab at the top, then click on "Profile"
-* Enter your First, Middle (if applicable,, initial ok), and Last names in the appropriate fields
-* Enter your Affiliation (name of your institution)
+ * DO NOT INCLUDE periods in your username (e.g., carla.cicero is not a valid username).
+ * Passwords should be at least six characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*+,-/:;?_., not contain the username, and consist of at least one letter, number, and special character.
+* Once you have created an account and are logged in, go to the "My Stuff" tab at the top, then click on "Profile."
+* Enter your First, Middle (if applicable,, initial ok), and Last names in the appropriate fields.
+* Enter your Affiliation (name of your institution).
 * Enter a valid email address. This is important because you cannot be invited as an Operator without a valid email address.
 * Hit "Save Profile" button and you are done. However, there are other options that you can set here, including: preferred file format for downloading data; preferred other identifier (e.g., "collector number") - if you select something here, it will always show up on your Specimen Search page when you are logged in.
 
@@ -39,44 +41,27 @@ Once a user has created their user account and given you their username, complet
 
 ### 3.	Invite your user to become an Operator
 
-* Select Manage Arctos > Roles/Permissions > Arctos Users from the drop down menu at the top of the page
-* Search by the Arctos username
-* Click Invite
-* An E-mail will be sent to the user inviting them to become an Operator
+* Select Manage Arctos > Roles/Permissions > Arctos Users from the drop down menu at the top of the page.
+* Search by the Arctos username.
+* Click Invite.
+* An E-mail will be sent to the user inviting them to become an Operator.
 * The user should follow the instructions and links in the email in order to authenticate their account:
   * Log in to Arctos, then select “My Stuff” and “Profile” from the main Arctos menu
-  * Enter your password where requested
+  * Enter the user's password where requested
   * If the password is acceptable (Oracle rules), a button will pop up to authenticate - click that
   * If the password is not acceptable, change the password and try again
 
 ---
 
-### 4.	Assign your Operators Roles and Permissions
+### 4.	Assign Operator Roles and Permissions
 
-* Follow the instructions for [How to assign Operator roles and permissions](https://arctosdb.github.io/documentation-wiki/how_to/How-to-assign-Operator-roles-and-permissions.html)
-
-* Send each of the team members you will invite to be Operators the following email, adjusted for the collections and roles that you have assigned them:
-
----
-
-You have been given access to the Arctos ____________ Collection and assigned the following roles:
-
-DATA_ENTRY – allows access to Data Entry
-MANAGE_SPECIMENS – allows access to most “one-per-specimen” forms.
-MANAGE_COLLECTION – allows setting bulkloader.loaded to NULL, updating collection and collection agents, deleting Identifications, managing Annotations
-MANAGE_TRANSACTIONS – allows access to create/edit/delete loans, accessions, and borrows, rank agents, manage permits, manage shipments.
-
-**PLEASE NOTE:  The following are shared roles.**  The changes that you make in any of these areas can affect other collections, so always proceed with caution when working in them and follow the instructions which can be found at https://arctosdb.org/documentation/ and https://github.com/ArctosDB/documentation-wiki/wiki.  Do not hesitate to contact me if you have questions.
-
-MANAGE_MEDIA – allows create/update/delete of Media.
-MANAGE_GEOGRAPHY – full access to geog_auth_rec.
-MANAGE_CONTAINER – full access to containers. Not necessary to “barcode specimens.”
-MANAGE_AGENTS – full access to agents and agent names
-MANAGE_LOCALITY – allows full access to Locality, Collecting Event, and Coordinates data.
-MANAGE_PUBLICATIONS – allows full access to publications, projects, and citations.
-MANAGE_TAXONOMY – full access to taxonomy and common names.
-
-I will get back to you with further instruction when we get ready to work on the data.
+* Go to [http://arctos.database.museum](http://arctos.database.museum) and login.
+* Select Manage Arctos > Roles/Permissions > Arctos Users from the drop down menu at the top of the page.
+* Search for the username of the team member to which you want to assign roles and permissions.
+* Select the correct username from the list; the user record will pop up on the screen.
+* Choose the collection that you want to grant the Operator access to and select the “Grant Access” button. The collection you selected and “Revoke” will appear below the choice fields. To grant access to another collection, simply repeat the process.
+* Select the [roles](http://arctos.database.museum/Admin/user_roles.cfm) you want this Operator to have by selecting from the dropdown list and selecting "Grant Role." If you want to grant more than one role, simply repeat the process. ALL Operators should be assigned the "PUBLIC" and "COLDFUSION_USER" roles in order for them to be able to function in their other roles.
+ * Once you have assigned the Operator all of the collections and roles they need, exit the form.
 
 ---
 
