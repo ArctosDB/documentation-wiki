@@ -798,7 +798,7 @@
       return console.log("Search completed in " + elapsed + "ms");
     };
     if (isNull(_arctos.searchObject)) {
-      targetObject = "http://handbook.arctosdb.org/search.json";
+      targetObject = "https://handbook.arctosdb.org/search.json";
       $.getJSON(targetObject).done(function(jsonResult) {
         var elapsed, hourToMs, j, len, matchCollectionType, ref, result, uniqueUrls;
         console.info("Search pinged back result", jsonResult);
