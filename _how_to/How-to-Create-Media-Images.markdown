@@ -22,6 +22,7 @@ Enter the Uniform Resource Identifier (URI) that finds the media object on the I
 ## Preview URI
 
 Enter the URI for a thumbnail preview of the Media object in this field. If you are in the "Upload" window, browse your computer for a thumbnail file, or leave the **Preview URI** field blank in order to auto-generate a thumbnail preview of the large format image - If your files are at TACC and processed into thumbnails there, enter the TACC url here. Preview filesize should be well under 10K and scale to ~1200x, previews larger than 48K will NOT be displayed.
+**TIP:** If you have difficulty creating an appropriately sized thumbnail you might try http://makethumbnails.com/#dropzone.
 
 ## MIME Type
 
