@@ -63,8 +63,7 @@ classification, and hierarchical terms may optionally be ranked.
 Non-hierarchical terms must be ranked. Terms are further divided as:
 
 -   "Local data" is Curated from within Arctos and may be edited. A
-    [controlled
-    vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM)
+    [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM)
     is required for "local" data.
 -   "Webservice data" is drawn from various sources via GlobalNames.org
     and is used primarily for locating specimens.
@@ -517,3 +516,8 @@ cinereus**, never only **cinereus**.
 <http://arctos.database.museum/name/Carex%20brunnescens%20subsp.%20alaskana#Arctos>
 is an example of a botanical name which includes a subspecific epithet
 and two authors.
+
+## Validation Service
+
+Arctos checks taxon names against various services on creation and edit. This check is a tool, not an authority; all services have significant problems as of this writing. "Valid" names will occasionally be flagged as invalid, and erroneous names will occasionally pass (one of the services contains data from Arctos, so the check is a bit circular). Users remain fully responsible for the content of Arctos taxonomy. "Valid for Arctos" taxonomy is described in the     [Overview](#overview) section of this document.
+

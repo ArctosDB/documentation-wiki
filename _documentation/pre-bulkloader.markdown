@@ -74,12 +74,18 @@ A blank value in TAXON_NAME must be addressed. "unidentifiable" is available if 
 
 ### Taxa Tools
 
-#### Reports/DataServices/ScientificNameChecker will try to correct formulaic scientific names
+#### Reports/DataServices/ScientificNameChecker 
+
+This tool will try to correct formulaic scientific names.
 
 #### Reports/DataServices/TaxonNameValidator 
 
 This tool will check validity of taxon names, and must be used before new taxa are created. While the tool is useful, it pulls from several very sloppy "authorities" and summarizes in the most optimistic way possible. Any sizable dataset will contain terms which are not taxonomy flagged as "might be valid." Most datasets will also contain a few names which are taxnoomy but are flagged as "probably_not_valid." Proceed carefully.
 
+### Links
+
+* [Arctos Taxonomy](https://arctos.database.museum/taxonomy.cfm)
+* [Arctos Taxonomy Documentation](http://handbook.arctosdb.org/documentation/taxonomy.html)
  
 ## Attributes
 
