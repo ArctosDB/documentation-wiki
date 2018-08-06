@@ -47,6 +47,8 @@ with explanatory remarks. This will need evaluated on a case by case basis.
 1. Be explicit in definitions. Make no assumptions; ensure that all terms are well-defined and make sense in any context.
 Definitions should be given as complete sentences.
 
+1. Ensure that definitions are functional. HOW is {thing} measured? Include links (preferably via the DOI system) to publications if possible.
+
 1. Use mutually-exclusive terminology. Users (especially Operators) should never have an arbitrary choice.
 
 1. Do not include both "thing (modifier)" and "thing" in the code table. Avoid creating new "bare" terms ("thing") in order
