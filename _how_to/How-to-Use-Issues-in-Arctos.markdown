@@ -35,7 +35,7 @@ can file an Issue.
 
 
 * ALWAYS FIRST Search for existing Issues to be certain your Issue does not already exist. If a similar Issue already exists, 
-you can comment on it.
+you can comment on it, but please do not change the subject of an Issue in a comment.
 
 
 * If you want to create a new Issue, click the green "New Issue" button in the upper right of the Issues list. Enter a short 
@@ -44,6 +44,10 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
  screenshots, or anything else which might help us understand what you wish to accomplish.
 
 ## Managing Issues
+
+```
+Developers sort Issues by Milestone, then Priority label and upvotes. Properly categorized (via Milestone) and labeled Issues help us understand development priorities. Please use these tools if you have access to them, and communicate with your local AWG representative if you don't. 
+```
 
 ### For Anyone
 
