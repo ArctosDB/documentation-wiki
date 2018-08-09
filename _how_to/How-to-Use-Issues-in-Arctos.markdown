@@ -115,4 +115,3 @@ Functional Labels
 * ["Needs Discussion" Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Needs+Discussion%22) are those for which sufficient information to proceed is not available. Please add a comment to the label as a means of discussion.
 * [WishList Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Wish+List%22) are those which, at the time of last evaluation, we don't have resources to develop.
 * [Uncategorized Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+no%3Amilestone) require a Milestone.
- 
