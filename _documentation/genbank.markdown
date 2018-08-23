@@ -3,27 +3,20 @@ title: GenBank
 layout: default_toc
 ---
 
-# GenBank
+# Registration
 
-Curators of Arctos collections should encourage researchers using their
+Curators of Arctos collections should ~~encourage~~ require researchers using their
 specimens for DNA sequences to submit GenBank accessions that cite the
-specimens by catalog number. At a meeting (report attached) in early
-January, the Database Working Group of the Barcode of Life and GenBank
-agreed to use essentially our current three-part format for specimen
-citations. For example:
+specimens by ~~catalog number~~ GUID. GenBank will register Arctos institutions' GUID ("DWC Triplet" format).
 
-UAM:Mamm:123456
-
-MVZ:Herp:78910
-
-etc. (Definition at TDWG:
-<http://wiki.tdwg.org/twiki/bin/view/DarwinCore/GlobalUniqueIdentifier>)
-
-If the correct term is entered by the owner of the GenBank accession
+If the correct and registered term is entered by the owner of the GenBank accession
 under "source/specimen_voucher," then the catalog number will appear on
 the GenBank sequence page as a link to the specimen record. An example
 in GenBank:
 <http://www.ncbi.nlm.nih.gov/nuccore/157058307?report=GenBank>
+
+A definition of the specimen_voucher field and a link to registered collections is available at <http://www.insdc.org/controlled-vocabulary-specimenvoucher-qualifier>
+
 
 If the record is not cited this way, and the owner of the GenBank
 accession won’t change it, then it can still be linked by including the
@@ -34,6 +27,12 @@ the LinkOut drop-down in GenBank accession records.
 In any case, the GenBank accession numbers should be entered into Arctos
 and Other IDs of type GenBank, and doing so will form HTTP links to
 GenBank from the specimen detail page.
+
+# Arctos Tools
+
+Arctos provides tools to compile data for GenBank submission. Selecting specimens by barcode will send <code>source_material_id</code> in addition to the GUID, providing a link to the specific material used. 
+
+# Historical Document
 
 In an effort to lock down the abbreviations with which we are familiar,
 I have registered "UAM" and "MSB" with Biorepositories.org
@@ -53,8 +52,7 @@ process.
 By including an Other ID Type of "BoLD barcode ID," Arctos records can
 be also linked to records in the Barcode of Life Database (BoLD), but
 please note that BoLD has no reciprocal capabilities and occasionally
-changes the format of their URLs, breaking all links. Barcode IDs in
-Arctos: <http://arctos.database.museum/go.cfm?id=3104>.
+changes the format of their URLs, breaking all links. 
 
 [Chicago Workshop
 Report](http://arctosdb.files.wordpress.com/2011/08/dbwgchicagoworkshopreport-final.pdf)
