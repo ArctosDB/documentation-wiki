@@ -9,7 +9,7 @@ date: 2016-04-24
 
 Digital images and associated metadata can be related to records in Arctos through the Media function. When processing large volumes of images, it may be more efficient to use the Media Bulkloader rather than manually enter each media record through the Create Media screen.
 
-Media should be uploaded first to TACC where they are accessible on a web server (see [How to Upload Media to TACC](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Upload-Media-to-TACC))
+Media should be uploaded first to TACC where they are accessible on a web server (see [How to Upload Media to TACC](http://handbook.arctosdb.org/how_to/How-to-Upload-Media-to-TACC.html))
 
 **NAVIGATION: Search Menu → Media → "Create Media" hypertext**
 
