@@ -46,21 +46,23 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
 ## Managing Issues
 
 ```
-Developers sort Issues by Milestone, then Priority label and upvotes. Properly categorized (via Milestone) and labeled Issues help us understand development priorities. Please use these tools if you have access to them, and communicate with your local AWG representative if you don't. 
+Developers sort Issues by Milestone, then Priority label and upvotes. 
+Properly categorized (via Milestone) and labeled Issues help us understand development priorities. Please use these tools if you have access to them, 
+or communicate with your local AWG representative if you do not. 
 ```
 
 ### For Anyone
 
 * Anyone can submit a new Issue or comment on an existing Issue. Github Issues are the preferred user-developer communication channel.
-* Everyone with an interest in the development of Arctos should be participating in the Issue process. Your comments, however brief,
-help us understand concerns and prioritize development.
+* Everyone with an interest in the development of Arctos should be participating in the Issue process. Your comments, however brief, and upvotes 
+(👍) help us understand concerns and prioritize development.
 * Please stay on track. Open new Issues for new subjects.
 * Close Issues when they've served their purpose. 
 * Re-open Issues if necessary, and leave a comment when you do. Sometimes unresolved Issues are closed, usually due to misunderstandings. 
 
 ### For ArctosDB Admin
 
-* Owners of the ArctosDB organization can manage Issues, meaning that they can do one of several things: 
+* "Users" of the ArctosDB organization can manage Issues, meaning that they can do one of several things: 
 
  * Assign an "Assignee" - When filing an issue, leave Assignee blank. It's fair game for everyone to ignore "assigned" issues.
 
@@ -69,6 +71,7 @@ help us understand concerns and prioritize development.
  * Assign a [Label](https://github.com/ArctosDB/arctos/labels) to an Issue (see Guidance below).
 
  * Change the Status of an Issue. All resolved Issues should be marked as Closed.
+ * Upvote (use the 👍 option) Issues for prioritization.
 
 ### Guidance on Assigning [Milestones](https://github.com/ArctosDB/arctos/milestones)
 
@@ -86,7 +89,7 @@ help us understand concerns and prioritize development.
 
 Priority Labels
 
- * _Priority-Critical_: Issue is causing major problems; corrupting data, crashing servers, etc.
+ * _Priority-Critical_: Issue is causing major problems; corrupting data, crashing servers, making specimens un-findable, etc.
 
  * _Priority-High_: Issue is actively preventing progress.
 
@@ -107,7 +110,7 @@ Functional Labels
 ### Useful Filters
 
 * ["Active Development" Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Active+Development%22) are those which we're working on right now. This should be assigned only by the person who intends to address the Issue.
-* ["Next Task" Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Next+Task%22) are those which are ready for implementation. GitHub has no voting system, but please leave a comment to help us prioritize.
+* ["Next Task" Issues](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Next+Task%22) are those which are ready for implementation. Please leave a comment or thumbs-up (👍) to help us prioritize.
     * [Critical](https://github.com/ArctosDB/arctos/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Next+Task%22+label%3APriority-Critical)
     * [High](https://github.com/ArctosDB/arctos/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+milestone%3A%22Next+Task%22++label%3APriority-High)
     * [Normal](https://github.com/ArctosDB/arctos/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+milestone%3A%22Next+Task%22+label%3APriority-Normal)
