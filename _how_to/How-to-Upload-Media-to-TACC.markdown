@@ -1,12 +1,42 @@
 ---
 title: How To Upload Media to TACC
 layout: default_toc
+author: Carla Cicero, Teresa Mayfield-Meyer
 date: 2018-05-04
 ---
 
-The Texas Advanced Computing Center (TACC) offers media hosting for Arctos users through an Arctos Project allocation. If you are using TACC to store media, the files must be uploaded to TACC and accessible on the web server before creating media in Arctos
- * See [How to Create Media in Arctos](/how_to/How-to-Create-Media-Images.html)
+The [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) offers media hosting for Arctos users through an Arctos Project allocation. If you are using TACC to store media, the files must be uploaded to TACC and accessible on the web server before [creating media in Arctos](/how_to/How-to-Create-Media-Images.html). There are three ways to upload media to TACC: Single file uploads, small batch uploads, and large batch uploads. This document covers all three.
 
+## Single File Uploads
+If you have a single media file to upload, you can upload it through the **attach/upload** media link found on any specimen or agent page which will automatically create an association between the media and the specimen or agent you are viewing. You can also upload a single file from the main Arctos menu through [Search>Media/Documents>](http://arctos.database.museum/MediaSearch.cfm) and selecting the **Attach/Upload Media** link at the top of the search form. **Note that when using this method, no relationships are created to the media, so the only way you will be able to find it is with the information you provide during the upload.** You will need to [edit the media](/how_to/How-to-Edit-Media) to add relationships after the upload is complete. Any media can have additional relationships added after initial upload, so if your media represents a collecting event, project, or loan, you may want to upload it to the agent who created it, then edit it to add those relationships.
+
+## Small Batch Uploads
+If you have a small batch of images (less than 50 photos) you can use the [Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm) tool in Arctos, which you can access from the Arctos main menu at [Enter Data>Batch Tools>Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm). Done properly, this tool can make uploading a small number of images fairly easy, however some preparation before upload is required.
+
+### Media File Preparation
+  * Only .jpg, .jpeg, and .png (case-insensitive) files will be accepted. If you would like to see this tool expanded for other file types, please [file an Issue](/blob/gh-pages/_how_to/How-to-Use-Issues-in-Arctos/how-to-file-an-issue) with expansion requests.
+  * Ensure that your file names either contain enough information so that you will be able to add relationships after they are uploaded or pre-create your bulkload media file with the filenames.
+  * Files which start with _ (underbar) or . (dot) will be ignored so be sure none of your file names begin with these characters.
+  * File names containing characters other than A-Z, a-z, and 0-9 will be changed. If you plan on using information in the file names to ensure your media bulkload makes appropriate associations make sure you aren't relying on any characters other than these.
+  * [ZIP](https://support.microsoft.com/en-us/help/14200/windows-compress-uncompress-zip-files) up the files. The ZIP must contain only image files, do not ZIP a folder or the batch will be ignored.
+  * Make sure you know where the ZIP file is stored so that you can find it when uploading to the Upload Images tool.
+
+### Upload Images
+Once your ZIP file is prepared, go to the [Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm) tool in Arctos.
+
+  * Review the username and email address in the form to ensure they are correct.
+  * Either copy the reference name that is auto-generated or create one that you will remember. You will need the job name if any problems occur in the upload process.
+  * Use the **Browse** button to locate the ZIP file you created and select **Upload this file** to get the process started.
+
+The upload process usually completes within hours, but backlog is possible.  You will receive an email containing a link to a file when the process is done. If you do not receive an email within 24 hours, use the  [Report a bug or request support](http://arctos.database.museum/contact.cfm?ref=/tools/uploadMedia.cfm) link at the bottom of the [Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm) page to inquire about your upload. Be sure to include your user name, email address, and the job name in your inquiry.
+
+### Modify Media Metadata Bulkload File
+
+The file that you receive once your image upload is complete contains much of the information required to bulkload media.  Remember that although your media are now stored at TACC, they are not associated with any data in Arctos. The [Bulkload Media Metadata](http://arctos.database.museum/tools/BulkloadMedia.cfm) tool will allow you to complete this process. See [Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata) for instructions on creating the bulkload file.
+
+This file will be deleted 3 days after the message is sent, but may be regenerated from the "existing jobs" link on the [Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm) tool page. 
+
+## Large Batch Uploads
 If you want to upload a lot of large media files (e.g., 100s or 1000s of images, audio, video), and/or if you have specific processing needs, you should first contact [Chris Jordan](https://www.tacc.utexas.edu/about/directory/chris-jordan) and an Arctos administrator to discuss space allocations. However, most users can follow these instructions:
 
 * Create a TACC User account through the [TACC User Portal](http://portal.tacc.utexas.edu)
@@ -86,4 +116,16 @@ The bulkloader will accept a part's barcode as a proxy to cataloged items. We've
 <img width="759" alt="screen shot 2018-05-23 at 1 12 21 pm" src="https://user-images.githubusercontent.com/5720791/40448644-fc399ca0-5e8a-11e8-9cda-a32bda279b55.png">
 
 Scroll down, click "build/rebuild," confirm that everything worked as expected, download CSV, fill in any remaining blanks (or use the tool to do so before downloading), load to the media bulkloader, wait for email.
+
+## Related Links
+### Documentaion
+[Media](documentation-wiki/documentation/media)
+
+### Other How-Tos
+[How to Create Media](/how_to/How-to-Create-Media-Images)
+
+[How to Edit Media](/how_to/How-to-Edit-Media)
+
+[How to Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata)
+
 
