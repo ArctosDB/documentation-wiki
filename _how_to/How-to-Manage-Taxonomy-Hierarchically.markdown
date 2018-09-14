@@ -18,7 +18,7 @@ Taxonomy (as a body of literature) is not hierarchical. The "parent" of Echidna 
 
 ## Structure of Arctos
 
-The core taxonomy structure of Arctos is built to hold all of the above data and anything else which might have been considered "taxonomy" at some point. Arctos taxonomy consists of grouped, sometimes named, sometimes ordered terms. There is no enforced consistency across taxon names; the structure which allows varying taxon concepts also allows inconsistent data.
+The core taxonomy structure of Arctos is built to hold all of the above data and anything else which might have been considered "taxonomy" at some point. Arctos taxonomy consists of grouped, sometimes named, sometimes ordered terms. There is no enforced consistency across or within taxon names; the structure which allows varying taxon concepts also allows inconsistent data (which are programmatically indistinguishable from taxon concept assertions).
 
 ## Hierarchical data in Arctos
 
