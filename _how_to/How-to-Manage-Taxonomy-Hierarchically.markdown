@@ -116,6 +116,3 @@ missing a root term - genus-->{no species}-->scientific_name for a binomial, for
 
 A taxonomic import filter is seldom sufficient to find all taxa in use by a collection, often because a collection is using taxa with 
 incomplete, missing, or mis-placed classifications. Work with a DBA to get these into the hierarchical editor as early as possible. 
-
-
-
