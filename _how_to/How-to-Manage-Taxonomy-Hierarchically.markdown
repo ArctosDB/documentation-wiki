@@ -44,6 +44,24 @@ In this example, the processor encountered subfamily "Neotominae" first and so "
 
 Dealing with these inconsistencies is a very large proportion of the work involved, and the source of all data lost in the hierarchical editor. For collections which can manage specimen data under a hierarchical taxonomy, we highly recommend avoiding sources which are edited with tools which allow the existence of inconsistent data.
 
+## Impacts
+
+Changing the subfamily of Neotoma in the Arctos single-record editor is a hit-or-miss prospect. A user would have to find all records which are their idea of Neotoma (e.g., exlude those which are homonyms or hemihomonyms), update each individually, and hope that the process of editing 145 records has somehow not introduced other inconsistencies.
+
+A request for DBA update would involve a non-taxonomist attempting to match strings in a system with tens of thousands of know homonyms. This has not worked well in the past.
+
+The classification bulkloaer can work, but runs the same risk of encountering [hemi]homonyms as the DBA update. Finding the records to update becomes increasingly difficult when the names do not share strings - finding Neotoma is straightforward, but finding all genera which should be under Neotominae is effectively impossible due to variations in the data.
+
+Importing data to the classification bulkloader comes with all of the above difficulties in finding data, but unlike other tools the editor provides reports for missed or inconsistent data. 
+
+Importing clean data - that which has not been edited by non-hierarchical tools - to the hierarchical editor involves only providing a "seed" (eg, "Neotoma" or "Cricetidae") and clicking a button.
+
+Changing the family of Neotoma in the hierarchical editor involves only dragging the term "Neotoma" to a new parent.
+
+A user attempting to find specimens amongst inconsistent data will almost certainly fail without knowing they've failed. For example, a search for "Neotominae" against the classification data above will find Neotoma devia but not Neotoma devia monstrabilis. Most users will not realize that they're missing a subspecies, but instead will assume that what they've found is all that's available from Arctos and move on. 
+
+A user attempting to find specimens amongst consistent data will find all or nothing. A search for "Neotominae" against consistent data will find either all Neotoma or none. A user finding no specimens will generally realize that their result is unlikely and continue looking (perhaps by visiting a taxonomy page before performing another search). 
+
 # Using
 
 ## Overview
