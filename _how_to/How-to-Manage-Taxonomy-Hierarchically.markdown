@@ -42,7 +42,7 @@ This inconsistency is not possible in hierarchical data, so the import process w
 
 In this example, the processor encountered subfamily "Neotominae" first and so "Sigmodontinae" has been ignored. It is necessary to reconcile these discrepancies before exporting the data back to Arctos. 
 
-Dealing with these inconsistencies is a very large proportion of the work involved, and the source of all data lost in the hierarchical editor. For collections which can manage specimen data under a hierarchical taxonomy, we highly recommend avoiding sources which are edited with tools which allow the existence of inconsistent data.
+Dealing with these inconsistencies is a very large proportion of the work involved, and the source of all data lost in the hierarchical editor. For collections which can manage specimen data under a hierarchical taxonomy, we highly recommend avoiding sources which are edited with tools that allow the existence of inconsistent data.
 
 ## Impacts
 
