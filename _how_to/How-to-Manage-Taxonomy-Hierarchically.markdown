@@ -50,9 +50,9 @@ Changing the subfamily of Neotoma in the Arctos single-record editor is a hit-or
 
 A request for DBA update would involve a non-taxonomist attempting to match strings in a system with tens of thousands of know homonyms. This has not worked well in the past.
 
-The classification bulkloaer can work, but runs the same risk of encountering [hemi]homonyms as the DBA update. Finding the records to update becomes increasingly difficult when the names do not share strings - finding Neotoma is straightforward, but finding all genera which should be under Neotominae is effectively impossible due to variations in the data.
+The classification bulkloader can work, but runs the same risk of encountering [hemi]homonyms as the DBA update. Finding the records to update becomes increasingly difficult when the names do not share strings - finding Neotoma is straightforward, but finding all genera which should be under Neotominae is effectively impossible due to variations in the data.
 
-Importing data to the classification bulkloader comes with all of the above difficulties in finding data, but unlike other tools the editor provides reports for missed or inconsistent data. 
+Importing data to the classification bulkloader comes with all of the above difficulties in finding data, but unlike other tools the editor provides reports for missed or inconsistent data. Orphaned terms provide another strong indication of inconsistency. For example, finding "Arachnida" somewhere in the Neotoma data might indicate that a homonym has been used for identifications in unexpected ways. (The classification bulkloader would simply over-write the spider classifications, potentially altering specimens in unrelated collections.)
 
 Importing clean data - that which has not been edited by non-hierarchical tools - to the hierarchical editor involves only providing a "seed" (eg, "Neotoma" or "Cricetidae") and clicking a button.
 
