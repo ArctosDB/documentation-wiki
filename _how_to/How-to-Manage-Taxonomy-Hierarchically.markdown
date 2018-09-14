@@ -26,11 +26,11 @@ Arctos provides a hierarchical taxonomy management tool suitable for consistentl
 
 ## Finding consistency
 
-Data in Arctos are seldom consistent even at very small scales. For example, the Arctos classifications for Neotoma devia (http://arctos.database.museum/name/Neotoma%20devia):
+Data in Arctos are seldom consistent even at very small scales. For example, the Arctos classifications for Neotoma devia ([http://arctos.database.museum/name/Neotoma%20devia](http://arctos.database.museum/name/Neotoma%20devia)):
 
 <img width="344" alt="screen shot 2018-09-14 at 9 33 06 am" src="https://user-images.githubusercontent.com/5720791/45563109-36e11980-b801-11e8-907b-2015ac019676.png">
 
-and Neotoma devia monstrabilis (http://arctos.database.museum/name/Neotoma%20devia%20monstrabilis):
+and Neotoma devia monstrabilis ([http://arctos.database.museum/name/Neotoma%20devia%20monstrabilis](http://arctos.database.museum/name/Neotoma%20devia%20monstrabilis)):
 
 <img width="465" alt="screen shot 2018-09-14 at 9 33 52 am" src="https://user-images.githubusercontent.com/5720791/45563137-52e4bb00-b801-11e8-9d59-0d58a5744223.png">
 
