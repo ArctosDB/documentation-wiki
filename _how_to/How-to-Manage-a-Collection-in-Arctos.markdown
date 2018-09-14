@@ -34,7 +34,7 @@ For each contact, specify their [Contact Agent Role](http://arctos.database.muse
 * **Header Options:** Collections may customize the header that appears at the top of a collection record or when searching a collection portal.
 
   * HEADER_COLOR: Background color; click the label for a color picker
-  * HEADER_IMAGE: 60x60 px image which will replace the Arctos Bear; load to /images/
+  * HEADER_IMAGE: 60x60 px image which will replace the Arctos Bear; load to /images/ or email it to The Arctos programmer and let them know when/if it should be pulled from the server(s).
   * HEADER_CREDIT: Image attribution, displayed near the header image
   * COLLECTION_URL: URL at which more collection information may be found
   * COLLECTION_LINK_TEXT: text to display with COLLECTION_URL

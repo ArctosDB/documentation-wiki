@@ -113,13 +113,12 @@ references occasionally offend common sense.)
 `Geo_Auth_Rec . County VARCHAR(50) null`
 
 
- County is a second-level political subdivision of a county,
-regardless of local labels. "Primorsky Krai" is a County in the Far
-Eastern Federal District (a State) of Russia. Localities should be
-referenced to county, parish or equivalent political subdivision when
-possible. Note that administrative hierarchy rather than local
-terminology defines County: Montserrado County is a State in Liberia and
-does not belong in the County field.
+ **County** is a second-level political subdivision of a country,
+regardless of local labels. For example, "Primorsky Krai" is 
+a **County** in the Far Eastern Federal District (a State) of Russia.
+Note that administrative hierarchy rather than local terminology
+defines **County**: Montserrado County is a State in Liberia and
+does not belong in the **County** field.
 
 
 
@@ -429,7 +428,9 @@ value of the specimens and their associated data.
 4.  The Edit Locality form will detect variation of geography used in
     nearby georeferences and in identical specific locality strings.
     Unify these data when possible.
-
+5.  Localities should include Higher Geography that includes at least
+    **County** (county, parish, or equivalent political subdivision)
+    when possible.
 
 
 ## Searching Guidelines
