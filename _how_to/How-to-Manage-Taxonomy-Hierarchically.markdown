@@ -6,8 +6,45 @@ date: 2017-08-28
 ---
 # How to manage taxonomy hierarchically
 
+# Background
 
-Arctos provides a hierarchical taxonomy management tool suitable for consistently managing large groups of taxa as hierarchical data.
+## Hierarchical data
+
+Hierarchical data are those in which each term is unique and each term has zero or one parent terms.
+
+## Structure of taxonomy
+
+Taxonomy (as a body of literature) is not hierarchical. The "parent" of Echidna (a homonym) varies according to usage, and includes "Muraeninae" (eels) and "Viperidae" (snakes). The "parent" of the "Neotoma" has changed with our understanding of evolutionary history, and has at times and according to various authors included "Cricetidae" and "Muridae."
+
+## Structure of Arctos
+
+The core taxonomy structure of Arctos is built to hold all of the above data and anything else which might have been considered "taxonomy" at some point. Arctos taxonomy consists of grouped, sometimes named, sometimes ordered terms. There is no enforced consistency across taxon names; the structure which allows varying taxon concepts also allows inconsistent data.
+
+## Hierarchical data in Arctos
+
+Arctos provides a hierarchical taxonomy management tool suitable for consistently managing large groups of taxa as hierarchical data. Hierarchical data are those in which each term is unique and has zero or one parent terms. That is, the term "Neotoma" can exist precisely one time in a hierarchy. A term can have any number of children ("Neotoma albigua", "Neotoma cinerea", etc.), and those terms may have children of their own ("Neotoma albigula albiglua"). "Neotoma" must have zero or one parent terms - "Cricetidae" or "Muridae." There is no possibility of Neotoma having two parent terms within the same hierarchy.
+
+## Finding consistency
+
+Data in Arctos are seldom consistent even at very small scales. For example, the Arctos classifications for Neotoma devia (http://arctos.database.museum/name/Neotoma%20devia):
+
+<img width="344" alt="screen shot 2018-09-14 at 9 33 06 am" src="https://user-images.githubusercontent.com/5720791/45563109-36e11980-b801-11e8-907b-2015ac019676.png">
+
+and Neotoma devia monstrabilis (http://arctos.database.museum/name/Neotoma%20devia%20monstrabilis):
+
+<img width="465" alt="screen shot 2018-09-14 at 9 33 52 am" src="https://user-images.githubusercontent.com/5720791/45563137-52e4bb00-b801-11e8-9d59-0d58a5744223.png">
+
+diverge at the level of subfamily.
+
+This inconsistency is not possible in hierarchical data, so the import process will attempt reconciliation. This will very likely result in orphaned ranks.
+
+<img width="282" alt="screen shot 2018-09-14 at 9 35 28 am" src="https://user-images.githubusercontent.com/5720791/45563225-94756600-b801-11e8-9ce0-2328e3fbdadd.png">
+
+In this example, the processor encountered subfamily "Neotominae" first and so "Sigmodontinae" has been ignored. It is necessary to reconcile these discrepancies before exporting the data back to Arctos. 
+
+Dealing with these inconsistencies is a very large proportion of the work involved, and the source of all data lost in the hierarchical editor. For collections which can manage specimen data under a hierarchical taxonomy, we highly recommend avoiding sources which are edited with tools which allow the existence of inconsistent data.
+
+# Using
 
 ## Overview
 
