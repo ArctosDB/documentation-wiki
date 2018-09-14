@@ -14,7 +14,7 @@ Hierarchical data are those in which each term is unique and each term has zero 
 
 ## Structure of taxonomy
 
-Taxonomy (as a body of literature) is not hierarchical. The "parent" of Echidna (a homonym) varies according to usage, and includes "Muraeninae" (eels) and "Viperidae" (snakes). The "parent" of the "Neotoma" has changed with our understanding of evolutionary history, and has at times and according to various authors included "Cricetidae" and "Muridae."
+Taxonomy (as a body of literature) is not hierarchical. The "parent" of Echidna (a homonym) varies according to usage, and includes "Muraeninae" (eels) and "Viperidae" (snakes). The "parent" of "Neotoma" has changed with our understanding of evolutionary history, and has at times and according to various authors included "Cricetidae" and "Muridae."
 
 ## Structure of Arctos
 
