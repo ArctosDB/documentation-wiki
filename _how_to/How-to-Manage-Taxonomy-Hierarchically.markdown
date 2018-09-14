@@ -48,7 +48,7 @@ Dealing with these inconsistencies is a very large proportion of the work involv
 
 Changing the subfamily of Neotoma in the Arctos single-record editor is a hit-or-miss prospect. A user would have to find all records which are their idea of Neotoma (e.g., exlude those which are homonyms or hemihomonyms), update each individually, and hope that the process of editing 145 records has somehow not introduced other inconsistencies.
 
-A request for DBA update would involve a non-taxonomist attempting to match strings in a system with tens of thousands of know homonyms. This has not worked well in the past.
+A request for DBA update would involve a non-taxonomist attempting to match strings in a system with tens of thousands of known homonyms. This has not worked well in the past.
 
 The classification bulkloader can work, but runs the same risk of encountering [hemi]homonyms as the DBA update. Finding the records to update becomes increasingly difficult when the names do not share strings - finding Neotoma is straightforward, but finding all genera which should be under Neotominae is effectively impossible due to variations in the data.
 
