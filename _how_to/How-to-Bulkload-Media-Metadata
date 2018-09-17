@@ -44,6 +44,11 @@ Select a license, media type, and mime type.
 The bulkloader will accept a part's barcode as a proxy to cataloged items. We've extracted that from the filename with the regex above,
 so all that's necessary is to include the variable in relationship term.
 
+<img width="759" alt="screen shot 2018-05-23 at 1 12 21 pm"
+src="https://user-images.githubusercontent.com/5720791/40448644-fc399ca0-5e8a-11e8-9cda-a32bda279b55.png">
+
+Scroll down, click "build/rebuild," confirm that everything worked as expected, download CSV, fill in any remaining blanks (or use the
+tool to do so before downloading), load to the media bulkloader, wait for email.
 
 
 # Related Links
