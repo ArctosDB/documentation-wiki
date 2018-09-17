@@ -41,6 +41,8 @@ Preview extension (eg, ".jpg") - enter ".jpg" for jpg previews
 
 Select a license, media type, and mime type.
 
+The bulkloader will accept a part's barcode as a proxy to cataloged items. We've extracted that from the filename with the regex above,
+so all that's necessary is to include the variable in relationship term.
 
 
 
