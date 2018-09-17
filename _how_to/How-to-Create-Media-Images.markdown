@@ -26,19 +26,19 @@ Enter the URI for a thumbnail preview of the Media object in this field. If you 
 
 ## MIME Type
 
-Specify the [MIME TYPE](https://en.wikipedia.org/wiki/Media_type), which consists of a type and subtype, (e.g., "image/jpeg"). Values are controlled by a code table.
+Specify the [MIME TYPE](https://en.wikipedia.org/wiki/Media_type), which consists of a type and subtype, (e.g., "image/jpeg"). Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMIME_TYPE).
 
 ## Media Type
 
-Select the kind of media you are creating from the code table (e.g., audio, image, video). The Media Type field exists to categorize media whose MIME type is not sufficiently descriptive (e.g., an HTML image viewer application would have MIME_TYPE of `text/html` and MEDIA_TYPE of `image`).
+Select the kind of media you are creating from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_TYPE). The Media Type field exists to categorize media whose MIME type is not sufficiently descriptive (e.g., an HTML image viewer application would have MIME_TYPE of `text/html` and MEDIA_TYPE of `image`).
 
 ## License
 
-Select a value from the code table that describes permissions regarding copyright, use and distribution of related media. Code table includes Creative Commons licenses, institutional policies, and an Arctos Data Ownership and Use Policy.
+Select a value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LICENSE) that describes permissions regarding copyright, use and distribution of related media. Code table includes Creative Commons licenses, institutional policies, and an Arctos Data Ownership and Use Policy.
 
 ## Media Relationships
 
-Link the media to specimens, agents, projects, accessions, publications, etc. by selecting the relevant **Media Relationship** from the code table. This action will bring up a search box so that you may query the specific specimen record, agent, project, accession, publication etc. in which the media will display. **For example, to link media to a Specimen Record:**
+Link the media to specimens, agents, projects, accessions, publications, etc. by selecting the relevant **Media Relationship** from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_RELATIONSHIP). This action will bring up a search box so that you may query the specific specimen record, agent, project, accession, publication etc. in which the media will display. **For example, to link media to a Specimen Record:**
 
 * select "shows cataloged_item" from the Media Relationships code table
 * In the search window that appears, enter and select the catalog number of the specimen record to be linked to the media and it will automatically populate the Media Relationships field.
@@ -60,7 +60,7 @@ Relationship values:
 
 ## Media Labels
 
-Summarize media through the Media Labels menu (e.g., aspect, subject, made date). Values are controlled by a code table. Note that text entered into the **Description** label field will be displayed below the image/media object as a title.
+Summarize media through the Media Labels menu (e.g., aspect, subject, made date). Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LABEL). Note that text entered into the **Description** label field will be displayed below the image/media object as a title.
 
 Click the "Create Media" button. The image will now be available in the record(s) specified in **Media Relationships** fields (you may have to refresh the relevant page/wait a few minutes before the media displays).
 
