@@ -11,9 +11,9 @@ Digital images and associated metadata can be related to records in Arctos throu
 
 Media should be uploaded first to TACC where they are accessible on a web server (see [How to Upload Media to TACC](http://handbook.arctosdb.org/how_to/How-to-Upload-Media-to-TACC.html))
 
-**NAVIGATION: Search Menu → Media → "Create Media" hypertext**
+**NAVIGATION: Search Menu → Media/Documents → "Attach/Upload Media" hypertext**
 
-![](../tutorial_images/create_media.JPG)
+![](../tutorial_images/attach_upload_media.JPG)
 
 ## Media URI
 
