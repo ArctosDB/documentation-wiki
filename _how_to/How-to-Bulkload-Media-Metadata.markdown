@@ -1,7 +1,7 @@
 ---
 title: How to Bulkload Media Metadata
 layout: default_toc
-author: TBA
+author: Teresa Mayfield-Meyer
 date: 2018-09-13
 ---
 
@@ -54,5 +54,6 @@ tool to do so before downloading), load to the media bulkloader, wait for email.
 # Related Links
 
 [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
+
 [How to Create Media/Images](How-to-Create-Media-Images)
 
