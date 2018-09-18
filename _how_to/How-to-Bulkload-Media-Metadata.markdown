@@ -6,7 +6,7 @@ date: 2018-09-13
 ---
 
 
-# How to Bulkload Media
+# How to Bulkload Media Metadata
 
 After uploading, the directory can be used to build a media bulkloader file which creates media objects using the uploaded files in Arctos.
 
