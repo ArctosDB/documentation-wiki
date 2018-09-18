@@ -1,5 +1,5 @@
 ---
-title: Bulkload Media Metadata
+title: How to Bulkload Media Metadata
 layout: default_toc
 author: TBA
 date: 2018-09-13
