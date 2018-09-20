@@ -10,9 +10,9 @@ date: 2018-09-20
  
  This service works ONLY for publications with DOIs recorded in Arctos.
  
- ```
+ ``
  NOTE: The initial load may be slow; many webservice requests are required to compile these data. Data are cached (for 6 months) and subsequent requests should be fast. The spinning wheel at the top of the page will disappear when the load is complete.
- ```
+ ``
 
 ## Arctos Publication
 
