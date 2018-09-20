@@ -48,6 +48,9 @@ A list of references is displayed when provided. Note that minimal data ("1984")
 
 When a DOI is provided, CrossRef data are pulled and displayed, a link to the resource is provided, and the 'more information' link reloads teh page with that publication as the subject. A link to the Arctos publication is provided when available.
 
+The "Auto Create" link will create Arctos publications. These are created entirely from CrossRef data, so expect formatting errors and misinterpreted data. This should be used to create publications which are likely relevant to Arctos collections (e.g., cite specimens). These are findable by the auto-inserted remark "Auto-created as suspected relevant to Arctos collections". 
+[Or just click here.](https://arctos.database.museum/SpecimenUsage.cfm?action=search&publication_remarks=Auto-created%20as%20suspected%20relevant%20to%20Arctos%20collections)
+
 ## Cited By
 
 These data are pulled from OpenCitations.net, and may not always match perfectly with the CrossRef data. Formattings, tools, and links are similar to References.
