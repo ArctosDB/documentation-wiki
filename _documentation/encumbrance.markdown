@@ -54,7 +54,7 @@ All encumbrances are temporary, and encumbrances must be periodically reviewed. 
 
 ## Encumbering Specimens
 
-[See How to Create an Encumberance](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Create-an-Encumbrance.markdown)
+See [How to Create an Encumberance](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Create-an-Encumbrance.markdown)
        
 ## Un-Encumbering Specimens
 
