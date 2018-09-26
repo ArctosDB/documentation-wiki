@@ -10,7 +10,7 @@ layout: default_toc
 
 ## Create an Encumbrance
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/tutorial_images/Encumbrances.JPG)
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/Encumbrances.JPG)
 
 * From the Encumbrance screen, click on the “Create an Encumbrance” hyperlink at the top of the page.
 * Enter the person or organization requesting an Encumbrance into the **Encumbering Agent** field (required).
