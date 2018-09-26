@@ -9,7 +9,6 @@ layout: default_toc
 #### NAVIGATION: Manage Data → Metadata → Encumbrances
 
 ## Create an Encumbrance
----
 
 ![](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/tutorial_images/Encumbrances.JPG)
 
@@ -25,7 +24,6 @@ layout: default_toc
 * Click “Create New Encumbrance.”
 
 ## Attach Specimen Record(s) to an Encumbrance
----
 
 In order to link records to a newly created or existing Encumbrance, perform a Specimen Search for the record(s).  
       **TIP:** If multiple records are to be Encumbered, enter catalog number ranges into the search field so that these records can be encumbered at the same time rather than individually.
@@ -38,7 +36,6 @@ In order to link records to a newly created or existing Encumbrance, perform a S
 * A message noting that "All items listed below have been encumbered" will appear as well as an orange button used to "Remove the Encumbrance." The Encumbrance is now saved.
 
 ## Review Encumbrance
----
 
 Use the Encumbrance Search Results page to access several management tools to modify or review an Encumbrance:
 
