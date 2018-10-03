@@ -214,6 +214,30 @@ Institution is an abbreviation that indicates which institution’s
 "owns" a container. ("Owns" because containers are in fact shared across
 VPD boundaries; this is closer to an indication of creator.)
 
+### Display Format
+
+Containers are displayed as a string for various purposes in Arctos, and sometimes these strings are concatenated to represent a container hierarchy as a string. The standard format is 
+``[ barcode ] label (container_type)``
+
+Note that barcode is a NULLable field. A container with a barcode (which is the same as label in this case) will appear as
+
+`[ DGR16202 ] DGR16202 (freezer rack)`
+
+while a container without a barcode will appear as
+
+`[ ] 8 (position)`
+
+When multiple flattened containers are concatenated, colons are used for separators.
+
+`
+[ MSB ] Museum of Southwestern Biology (institution):[ DGR ] MSB Division of Genomic Resources, DGR (room):[ DGR12648 ]
+DGR-13 (freezer):[ DGR12574 ] Rack 8 (position):[ DGR16202 ] DGR16202 (freezer rack):[ DGR16219 ] Box position 12 (position):[ DGR16341 ] DGR16341 (freezer box):[  ] 8 (position):[ A44TT ] A44TT (cryovial)
+`
+
+A tree view of the above data:
+
+<img width="317" alt="screen shot 2018-10-03 at 2 00 06 pm" src="https://user-images.githubusercontent.com/5720791/46439152-a9fcf200-c714-11e8-976c-2c2d27f8d243.png">
+
 ## Object Tracking in General
 
 This section describes very general guidelines for object tracking with
