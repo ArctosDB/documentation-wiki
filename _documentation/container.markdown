@@ -240,6 +240,7 @@ A tree view of the above data:
 
 <img width="317" alt="screen shot 2018-10-03 at 2 00 06 pm" src="https://user-images.githubusercontent.com/5720791/46439152-a9fcf200-c714-11e8-976c-2c2d27f8d243.png">
 
+
 ## Object Tracking in General
 
 This section describes very general guidelines for object tracking with
