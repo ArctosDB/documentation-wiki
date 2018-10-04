@@ -219,7 +219,8 @@ VPD boundaries; this is closer to an indication of creator.)
 ## Display Format
 
 Containers are displayed as a string for various purposes in Arctos, and sometimes these strings are concatenated to represent a container hierarchy as a string. The standard format is 
-``[ barcode ] label (container_type)``
+
+`[ barcode ] label (container_type)`
 
 Note that barcode is a NULLable field. A container with a barcode (which is the same as label in this case) will appear as
 

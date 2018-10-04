@@ -53,3 +53,5 @@ Definitions should be given as complete sentences.
 
 1. Do not include both "thing (modifier)" and "thing" in the code table. Avoid creating new "bare" terms ("thing") in order
 to avoid this problem in the future. Parts of unknown preservation/preparation should be explicit: "thing (unknown)."
+
+1. Do no use unnecessary characters in authority values, particularly Attributes. Letters, dash, and space are generally acceptable. 
