@@ -20,7 +20,7 @@ Once the prospective partner has committed to Arctos, the Arctos Treasurer will 
 
 ## For Arctos
 			
-The Arctos Working Group will receive an email when a form is submitted. An AWG representative should establish contact with the submitter as soon as possible. A template is available at https://docs.google.com/document/d/1m-lq77WnQpT_6-ClCQfwfqjxP4ETlGAhqh_YXGS0vys/edit. The chair of hte Arcots Working Group will forward the submitted form to the Arctos Steering Committee.
+The Arctos Working Group will receive an email when a form is submitted. An AWG representative should establish contact with the submitter as soon as possible. A template is available at https://docs.google.com/document/d/1m-lq77WnQpT_6-ClCQfwfqjxP4ETlGAhqh_YXGS0vys/edit. The chair of the Arctos Working Group will forward the submitted form to the Arctos Steering Committee.
 
 That representative should create an issue in the new-collections repository [https://github.com/ArctosDB/new-collections](https://github.com/ArctosDB/new-collections} at Github at this time. All steps in this document should also be updated in new-collections Githut.
 
