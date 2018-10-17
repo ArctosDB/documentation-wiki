@@ -134,18 +134,7 @@ As you answer the questions above, document your decisions and review everything
 
 Draft written processes for barcoding items already in the collection as well as how new items coming in will be added to the locator system. This process will help you work through all of the decisions above and will prevent surprises that require you to re-print barcodes, order additional copies, or re-start the process from the beginning.  Consider presenting your plan and process drafts to experienced users of barcodes and object tracking in Arctos. You may get excellent feedback (and you may teach them something!).
 
-**Searching for Barcodes and viewing locations in Arctos**
-
-1. a)From Search Screen
-  1. i)Search Results page: Manage… → Part Location
-    1. 1)Hierarchical view to flatten parts
-
-ii) Specimen page: Parts: PLPath, Barcode edit, and Part Locn. button
-
-1. b)From Manage Data→ Object Tracking → Find Container
-  1. i)Barcode vs. IN Barcode
-  2. ii)Has Children
-    1. 1)Explain parent/child
+# Start Barcoding!
 
 ## **Claiming Barcode Series**
 
@@ -333,6 +322,19 @@ BarTender is a software package that comes with barcode label printers. UAM runs
   2. ii)To serialize: Select data source, your barcode number and go to tab Transforms
     1. 1)Click on button to the right of serialization field
     2. 2)In dialog box, set it up
+    
+**Searching for Barcodes and viewing locations in Arctos**
+
+1. a)From Search Screen
+  1. i)Search Results page: Manage… → Part Location
+    1. 1)Hierarchical view to flatten parts
+
+ii) Specimen page: Parts: PLPath, Barcode edit, and Part Locn. button
+
+1. b)From Manage Data→ Object Tracking → Find Container
+  1. i)Barcode vs. IN Barcode
+  2. ii)Has Children
+    1. 1)Explain parent/child
 
 # Resources
 
