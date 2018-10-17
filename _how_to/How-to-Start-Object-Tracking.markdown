@@ -53,7 +53,7 @@ Some important features of object tracking in Arctos include:
 
 Before beginning the process of ordering barcodes or barcoding supplies consider the structure of the container tree that you will be using. A standard use of barcodes is to track the location of cryovials of tissue. A nesting tree for such a system might look like this:
 
-![IMAGE WON'T LOAD](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/Container_tree.jpg)
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/Container_tree.jpg)
 
 Trees in Arctos appear with the root at the top and the leaves are the specimens in the final container ( the “leaf container”).
 This tree shows the location of the liver tissue from MSB:Mamm:285469
@@ -82,20 +82,57 @@ Creating a count of containers to which you will need to add each barcode type, 
 
 [Read the Documentation on Barcode Series](http://handbook.arctosdb.org/documentation/container.html#barcode-series) 
 
-e.Barcodes must be unique values across all collections 
-  6. Because Object Tracking is a shared system, barcodes must be claimed in advance to avoid duplicates across collections (see below).
-2. Example record: [https://arctos.database.museum/guid/MSB:Mamm:284963](https://arctos.database.museum/guid/MSB:Mamm:284963)
-3. Description of Features:
-  1. Specimen results from the Arctos search page can link directly to part locations for review or download.
-  2. Part locations can be downloaded into a flat file.
-  3. Part locations and barcodes can be used to track accessions,and add parts to loans.
-  4. A csv list of barcodes or labels can be used to search for the positions of multiple objects simultaneously.
-  5. All &quot;children&quot; of a container can be moved at once to another &quot;parent&quot;, without having to scan individually.
-  6. Scanning or moving an object or container into another object or container automatically deletes the object from its previous position
-  7. Objects cannot be deleted from a position; they can only be moved to a different position, which keeps track of position history.
-  8. Dimensions on containers provide constraints so that a large object cannot be scanned or moved into a smaller object.
-  9. Label info can be searched with a wildcard character (%) to locate a partial text string, (e.g. find &quot;Shelf\_1\_A\_%&quot;)
-  10. While barcodes are constrained to be unique across all Arctos institutions, each institution can only move or edit their own containers/parts.
+## Select your Digital Barcode Format(s)
+
+Barcodes come in two formats
+
+  1D Barcode: ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/1D_2.png)
+  2D Barcode: <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/2D_2.png" width="100">
+
+1D Barcodes are well-suited for larger barcode series while 2D Barcodes can be used for any size.  For any situation where printed barcodes will be small (cryovials, insect pins) 2D Barcodes are preferable. You will likely find that you can either use 2D Barcodes for everything or you will use 2D for smaller containers and 1D for larger.
+
+## Select your Barcode Scanner
+
+Barcode scanners come in many shapes and sizes. The main thing to remember when purchasing a scanner is that some scanners will not read 2D Barcodes, so if you plan to use 2D Barcodes, make sure the scanner you choose will be able to read them.  A list of suppliers used by Arctos Collections can be found in the RESOURCES section of this document. Also, be aware that some scanners may be specific to an operating system, so also check to make sure the scanner you choose will work with the operating system of the computer that will be used with the scanner.
+
+## Select your Physical Barcode Medium
+
+# Adhesive or Non-Adhesive
+
+Barcodes can be printed on adhesive or non-adhesive media.  It is important to consider the container on which the barcode will be placed when selecting a medium.  Some containers require an adhesive label (cryovials, freezer boxes, freezer racks) while others work better when printed on a non-adhesive medium which can then be placed in a container (fluid storage jars) or in a label holder on a container (sign on a room or magnetic label holder on a shelving unit). Remember that adhesive medium durability depends on the material and the adhesive.
+
+# Submerged Barcodes
+
+XyResist® Plastic or Chemical Resistant Polyester Labels can be used with alcohol although we have not tested it for long term submersion. 
+
+# Frozen Barcodes
+
+CryoLabel® plastic labels are recommended for use in liquid nitrogen and ultracold freezers.
+
+If you are unsure about any medium that you are considering, consult with the supplier and if they are unable to make a recommendation, post an issue to the [Arctos GitHub](https://github.com/ArctosDB/arctos/issues) to seek advice before you buy.
+
+# How Many and What Size and Shape?
+As part of this decision, you will also need to consider the size and quantity of each barcode you expect to need.
+
+**Quantity**
+
+In general, it is good practice to print at least two labels with each barcode that will be placed on the “leaf containers” of the nested tree. This allows you to place a barcode on the container and another on a page of a paper catalog or an inventory of specimens to be cataloged.  Some collections print three adhesive labels for cryovials; one circular label for the cryovial lid, one circular label for the paper catalog, and one wrap-around label for the cryovial.  Duplicate labels can be problematic if you don’t have a planned use for them, so make this decision with care and ensure that placement of all copies of any given barcode are written into your barcoding procedures so that two different leaf containers don’t end up with the same barcode. This generality may not be applicable in some situations, such as with leaf containers that house more than one specimen (a jar of frogs).
+
+**Size and Shape**
+
+When thinking about label size, consider whether containers are of uniform size. When containers that will use the same barcode series are of variable sizes it might be important to order media that is sized to fit the smallest container (skeleton boxes may be 1” x 1” x 3” or 1’ x 1’ x 3’). This will allow you to use a single, printed series on all of the containers of a given type.  For most applications, rectangular or square barcodes work fine, but for cryovials you may want a circle that fits the lid of the vial.
+
+## Select your Barcode Printing Method
+
+Barcodes can be pre-printed by a vendor or you can print them yourself. As with selecting a medium, it is important to consider the container on which the barcode will be placed when selecting a printing method.  For containers that require an adhesive medium, a small barcode label, or where the printed barcode will be immersed in fluid, pre-printing by a vendor may be preferable as special printers, ink, software, and medium may be required to print them in-house.  For barcodes that will be larger and do not require adhesive, in-house printing is much less expensive and allows multiple copies of a barcode to be printed (as when a printed barcode is mutilated or destroyed or if it is assigned to a new container).
+
+With both options, be aware of possible duplicates whether through ordering duplicate barcodes or through printer error.
+
+## Document Your Plan
+
+As you answer the questions above, document your decisions and review everything before you place orders with vendors.  Have others who will use the locator system in Arcos review the plan as well to make sure you haven’t missed some detail about how those in your museum expect to use the barcode/locator system.
+
+Draft written processes for barcoding items already in the collection as well as how new items coming in will be added to the locator system. This process will help you work through all of the decisions above and will prevent surprises that require you to re-print barcodes, order additional copies, or re-start the process from the beginning.  Consider presenting your plan and process drafts to experienced users of barcodes and object tracking in Arctos. You may get excellent feedback (and you may teach them something!).
 
 **Searching for Barcodes and viewing locations in Arctos**
 
@@ -110,7 +147,7 @@ ii) Specimen page: Parts: PLPath, Barcode edit, and Part Locn. button
   2. ii)Has Children
     1. 1)Explain parent/child
 
-## **Cl**** aiming Barcode Series**
+## **Claiming Barcode Series**
 
 _Barcodes are shared between institutions and departments therefore we need to make sure they are unique. These steps allow you to see you the barcode series you want is already used, and if it is not, how to claim that series._
 
@@ -299,21 +336,52 @@ BarTender is a software package that comes with barcode label printers. UAM runs
 
 **Resources:**
 
-[http://handbook.arctosdb.org/how\_to/start-object-tracking.html](http://handbook.arctosdb.org/how_to/start-object-tracking.html)
+## Vendors
 
-[http://handbook.arctosdb.org/documentation/container.html](http://handbook.arctosdb.org/documentation/container.html)
+[Electronic Imaging Materials](http://barcode-labels.com/) used by University of Alaska Museum of the North and Museum of Southwestern Biology for their barcoding needs.
+[BarcodesInc](http://www.barcodesinc.com/)
+[Barcode Giant](http://www.barcodegiant.com/)
+[CILS International](http://www.cils-international.com/us/)
+[eBarcode](http://www.ebarcode.com/)
 
-[http://handbook.arctosdb.org/how\_to/Barcode-Supplies.html](http://handbook.arctosdb.org/how_to/Barcode-Supplies.html)
+## Scanners
 
-[http://handbook.arctosdb.org/how\_to/How-to-Assign-a-Barcode-to-an-Individual-Specimen.html](http://handbook.arctosdb.org/how_to/How-to-Assign-a-Barcode-to-an-Individual-Specimen.html)
+Wired 1&2D Scanner: [Zebra DS6708-SR Handheld 1&2D Digital Imager](http://barcode-labels.com/shop/scanners/zebra-ds6708-sr/) $380
+Cordless (Bluetooth) 1&2D Scanner: [Socket CHS 7Xi 1&2D Cordless Bluetooth® Scanner](http://barcode-labels.com/shop/scanners/socket-chs-7xi-cordless-97071/) $540
+Wired 1D Scanner: [Symbol LS2208 Economical Handheld Scanner & Stand Kit](http://barcode-labels.com/shop/scanners/zebra-ls2208/) $155
+For used barcode scanners and other supplies at a discount, check out eBay. You can find these scanners used for a significant discount. You may also want to check with your IT department as they may have scanners available for you to borrow.
 
-[http://handbook.arctosdb.org/how\_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html](http://handbook.arctosdb.org/how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html)
+## Preprinted Labels
 
-[http://handbook.arctosdb.org/how\_to/How-to-Create-a-Freezer-Box-Container.html](http://handbook.arctosdb.org/how_to/How-to-Create-a-Freezer-Box-Container.html)
+Preprinted barcode labels can be purchased from [Electronic Imaging Materials(EIM)](http://barcode-labels.com/). Contact customer service for help to design and customize your barcodes.
 
-[http://handbook.arctosdb.org/how\_to/How-to-Create-and-Edit-Parts.html](http://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html)
+##In-House Printing Equipment
 
-[http://handbook.arctosdb.org/how\_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box.html](http://handbook.arctosdb.org/how_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box.html)
+From [Electronic Imaging Materials](http://barcode-labels.com/), UAM purchased a [TSC TC300 (300 dpi) Desktop Label Printer](http://barcode-labels.com/shop/printers/tsc-tc300/) that comes with BarTender Lite software for designing and printing barcodes. The program allows you to create barcode series and remembers the last barcode printed to reduce printing of duplicate barcodes.  When purchasing barcode rolls, select Thermal Transfer print method. More information on Direct Thermal and Thermal Transfer Labels can be found on the [EIM webpage](http://barcode-labels.com/products/blank-labels/). The TC300 printer takes a 1” core size. For different sizes of barcodes than found on the website and for more information on getting setup to print, contact EIM customer service.
+
+## In-House Barcode Generation
+
+Barcodes can be generated from text in several different ways using readily available software.
+Microsoft Word has barcode creation capability built in: https://msdn.microsoft.com/en-us/library/hh745903(v=office.12).aspx and a tutorial (Arctos is not responsible for the content – it is a bit sarcastic) is also available https://www.clearlyinventory.com/how-to-print-barcodes-with-excel-and-word
+Or you can download a barcode font, add it to your font list, and type up whatever barcodes you want. 
+<img width="484" alt="screen shot 2018-06-11 at 1 14 26 pm" src="https://user-images.githubusercontent.com/16887896/41257471-70485760-6d79-11e8-83df-a0ae72d05e30.png">
+To find a barcode font, Google Barcode font for office or something along those lines. You can also find them at http://www.fontspace.com/category/barcode.  Select a Code39, works best with most barcode scanners.  To add barcode font to your Microsoft Office Word, follow the instructions at PC: https://www.wikihow.com/Add-Font-in-Microsoft-Word or Mac: https://www.popsugar.com/tech/How-Install-Fonts-29788862
+
+## More Related Arctos Documentation
+
+[Arctos Documentation: Containers](http://handbook.arctosdb.org/documentation/container.html)
+
+[Barcode Supplies](http://handbook.arctosdb.org/how_to/Barcode-Supplies.html)
+
+[How to Assign a Barcode to an Individual-Specimen Part](http://handbook.arctosdb.org/how_to/How-to-Assign-a-Barcode-to-an-Individual-Specimen.html)
+
+[How to Bulkload Barcodes to Specimen Parts](http://handbook.arctosdb.org/how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html)
+
+[How to Create a Freezer Box Container](http://handbook.arctosdb.org/how_to/How-to-Create-a-Freezer-Box-Container.html)
+
+[How to Create and Edit Parts](http://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html)
+
+[How to Install Tissue Cryovials Into a Freezer Box](http://handbook.arctosdb.org/how_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box.html)
 
 [Examples of Barcodes and Containers in Arctos](https://docs.google.com/presentation/d/1bCjTw_u6y4WVI6A2QT3UKp83FE4cH1rE8Vr2H_QsrNU/edit#slide=id.g380af9deff_0_87)
 
