@@ -1,5 +1,5 @@
 ---
-title: How To Create a Freeze Box Container
+title: How To Create a Freezer Box Container
 layout: default_toc
 author: Emily Braker
 date: 2016-02-27
