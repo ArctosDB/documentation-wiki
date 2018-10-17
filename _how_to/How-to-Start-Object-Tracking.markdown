@@ -334,7 +334,7 @@ BarTender is a software package that comes with barcode label printers. UAM runs
     1. 1)Click on button to the right of serialization field
     2. 2)In dialog box, set it up
 
-**Resources:**
+# Resources
 
 ## Vendors
 
@@ -351,11 +351,11 @@ Cordless (Bluetooth) 1&2D Scanner: [Socket CHS 7Xi 1&2D Cordless Bluetooth® Sca
 Wired 1D Scanner: [Symbol LS2208 Economical Handheld Scanner & Stand Kit](http://barcode-labels.com/shop/scanners/zebra-ls2208/) $155
 For used barcode scanners and other supplies at a discount, check out eBay. You can find these scanners used for a significant discount. You may also want to check with your IT department as they may have scanners available for you to borrow.
 
-## Preprinted Labels
+###Preprinted Labels
 
 Preprinted barcode labels can be purchased from [Electronic Imaging Materials(EIM)](http://barcode-labels.com/). Contact customer service for help to design and customize your barcodes.
 
-##In-House Printing Equipment
+## In-House Printing Equipment
 
 From [Electronic Imaging Materials](http://barcode-labels.com/), UAM purchased a [TSC TC300 (300 dpi) Desktop Label Printer](http://barcode-labels.com/shop/printers/tsc-tc300/) that comes with BarTender Lite software for designing and printing barcodes. The program allows you to create barcode series and remembers the last barcode printed to reduce printing of duplicate barcodes.  When purchasing barcode rolls, select Thermal Transfer print method. More information on Direct Thermal and Thermal Transfer Labels can be found on the [EIM webpage](http://barcode-labels.com/products/blank-labels/). The TC300 printer takes a 1” core size. For different sizes of barcodes than found on the website and for more information on getting setup to print, contact EIM customer service.
 
