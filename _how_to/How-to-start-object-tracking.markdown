@@ -1,6 +1,7 @@
 ---
 title: How To Start Object Tracking in Arctos
 layout: default_toc
+author(s): Kyndall Hildebrandt, Mariel Campbell
 date: 2018-04-10
 ---
 
