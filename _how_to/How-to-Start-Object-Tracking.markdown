@@ -307,7 +307,7 @@ From [Electronic Imaging Materials](http://barcode-labels.com/), UAM purchased a
 Barcodes can be generated from text in several different ways using readily available software.
 
 **Microsoft Word**  
-Microsoft Word has [barcode creation capability built in](https://msdn.microsoft.com/en-us/library/hh745903(v=office.12).aspx) and a [tutorial](https://www.clearlyinventory.com/how-to-print-barcodes-with-excel-and-word) (Arctos is not responsible for the content – it is a bit sarcastic) is also available. 
+Microsoft Word has [barcode creation capability built in](https://msdn.microsoft.com/en-us/library/hh745903(v=office.12).aspx) and a [tutorial](https://www.clearlyinventory.com/how-to-print-barcodes-with-excel-and-word) is also available (Arctos is not responsible for the content – it is a bit sarcastic). 
 
 Or you can download a barcode font, add it to your Microsoft Word font list, and type up whatever barcodes you want.  
 <img width="484" alt="screen shot 2018-06-11 at 1 14 26 pm" src="https://user-images.githubusercontent.com/16887896/41257471-70485760-6d79-11e8-83df-a0ae72d05e30.png">
