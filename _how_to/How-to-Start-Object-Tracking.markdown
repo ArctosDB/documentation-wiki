@@ -92,12 +92,12 @@ These steps allow you to see if the barcode series you want is already used in A
 1. From the Arctos main menu select Arctos → Manage Data → Object Tracking → Barcode Series 
 2. Test the barcode that you want to use before staking a claim. If a row highlights in green, that barcode is already in use and you will need to come up with a different barcode series. 
 3. If nothing turns green, you can claim that series. BEFORE you click &quot;stake a claim&quot;, if you have no experience writing SQL, we suggest you find a barcode series that is similar to the one you want to claim and copy the SQL code. You can then edit that SQL to write what you need to claim your series. 
-4. Clicking on &quot;stake a claim&quot;, you will be taken to a page where you will create your barcode series 
-    a. Paste in your copied SQL and edit it in the top box 
-    b. Using text, describe what these barcodes are going to be used for 
-    c. Select your institution from the drop down menu
-    d. Notes are optional but it is helpful to provide what department, type of barcode (2D, 1D), in-house or vendor printing, etc. You can look at notes others have added on the previous screen to get an idea
-    e. Hit CREATE!
+4. Clicking on &quot;stake a claim&quot;, you will be taken to a page where you will create your barcode series  
+    a. Paste in your copied SQL and edit it in the top box  
+    b. Using text, describe what these barcodes are going to be used for  
+    c. Select your institution from the drop down menu  
+    d. Notes are optional but it is helpful to provide what department, type of barcode (2D, 1D), in-house or vendor printing, etc. You can look at notes others have added on the previous screen to get an idea  
+    e. Hit CREATE! 
 5. Repeat steps 1 and 2. Hopefully, your entry will now turn green. If it does not, the SQL is not correct and you&#39;ll need to correct it. If it turns green, proceed on!
 
 ## Select your Digital Barcode Format(s)
@@ -308,8 +308,9 @@ Barcodes can be generated from text in several different ways using readily avai
 
 **Microsoft Word** 
 Microsoft Word has barcode creation capability built in: https://msdn.microsoft.com/en-us/library/hh745903(v=office.12).aspx and a tutorial (Arctos is not responsible for the content – it is a bit sarcastic) is also available https://www.clearlyinventory.com/how-to-print-barcodes-with-excel-and-word 
-Or you can download a barcode font, add it to your Microsoft Word font list, and type up whatever barcodes you want. 
-<img width="484" alt="screen shot 2018-06-11 at 1 14 26 pm" src="https://user-images.githubusercontent.com/16887896/41257471-70485760-6d79-11e8-83df-a0ae72d05e30.png"> 
+Or you can download a barcode font, add it to your Microsoft Word font list, and type up whatever barcodes you want.  
+<img width="484" alt="screen shot 2018-06-11 at 1 14 26 pm" src="https://user-images.githubusercontent.com/16887896/41257471-70485760-6d79-11e8-83df-a0ae72d05e30.png">
+
 To find a barcode font, Google Barcode font for office or something along those lines. You can also find them at http://www.fontspace.com/category/barcode.  Select a Code39 as it works best with most barcode scanners.  To add barcode font to your Microsoft Office Word, follow the instructions at PC: https://www.wikihow.com/Add-Font-in-Microsoft-Word for PS or https://www.popsugar.com/tech/How-Install-Fonts-29788862 for Mac.
 
 **Creating a Barcode in BarTender if you are using a barcode printer**
