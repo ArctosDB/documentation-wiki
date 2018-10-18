@@ -151,10 +151,12 @@ As you answer the questions above, document your decisions and review everything
 
 Draft written processes for barcoding items already in the collection as well as how new items coming in will be added to the locator system. This process will help you work through all of the decisions above and will prevent surprises that require you to re-print barcodes, order additional copies, or re-start the process from the beginning.  Consider presenting your plan and process drafts to experienced users of barcodes and object tracking in Arctos. You may get excellent feedback (and you may teach them something!).
 
-# Start Barcoding!
+# Purchase, Print, and Prepare
 
-You have created your object tracking in Arctos plan and claimed your barcodes in Arctos, now you are ready to purchase and process. Before you actually print or purchase any barcodes, you need to make sure that you have a unique series to work with.  As stated above, 
- 
+You have created your object tracking in Arctos plan and claimed your barcodes in Arctos, now you are ready to purchase, print, and prepare for adding barcodes to your containers. 
+If you are ordering pre-printed barcodes be sure to test one as soon as they arrive. You can test both your scanner and barcodes by scanning a barcode into a cell of an Excel spreadsheet. Make sure the barcodes are part of the series you have claimed in Arctos! 
+If you are printing barcodes in-house, you should also test them with your scanner. There are several ways that you can generate and print your own barcodes. See the Resources section of this How-To to find out more about them.
+
    
 ## **Create Containers**
 
@@ -267,59 +269,7 @@ Alternately, you can add a part from the Specimen Record under Edit Parts:
 
 
 
-## **Printing barcodes using Microsoft Office Word**
 
-1. Download a barcode font
-  1. Google Barcode font for office or something along those lines
-    1. One place you can find them is at: [http://www.fontspace.com/category/barcode](http://www.fontspace.com/category/barcode)
-      1. Select a Code39, works best with most barcode scanners
-
-1. Add barcode font to your Microsoft Office Word:
-  1. PC: [https://www.wikihow.com/Add-Font-in-Microsoft-Word](https://www.wikihow.com/Add-Font-in-Microsoft-Word)
-  2. Mac: [https://www.popsugar.com/tech/How-Install-Fonts-29788862](https://www.popsugar.com/tech/How-Install-Fonts-29788862)
-
-
-
-## **Creating a Barcode in BarTender if you are using a barcode printer**
-
-\*\*This section is a work in progress.
-
-BarTender is a software package that comes with barcode label printers. UAM runs the UltraLite version that comes free with the barcode printer whereas MSB runs an upgraded version. This is basic how-to is for the UltraLite version and is a work in progress as we learn how to use the program ourselves. When I have questions about using this program, I have found that the online how-to videos I google have been very helpful.
-
-1. 1)Open BarTender UltraLIte on computer
-2. 2)Select &quot;start a new BarTender document&quot;
-3. 3)Select Blank Template and hit next.
-4. 4)Select printer, default is currently TSC TC300 (the barcode printer)
-5. 5)Stock Selection, select specify custom settings
-  1. a)Rows= 1 Columns=1, once you click next there will be a image to show to check if the setup looks correct
-
-6) Side Edges: use a ruler to measure the space on the edges of your roll. Enter the value for the left and right. For current selection of barcodes it is about 1/16&quot; or 0.062&quot;.
-
-7) Printed item shape: select shape that best describes your barcode. Most are rounded rectangle.
-
-8) Template size
-
-1. a)Enter the width and height of your barcode. For height, this is the barcode plus the space on top and bottom of the barcode.
-2. b)Select the orientation you want to print your barcode.
-3. c)Select effect if you are using it.
-
-9) Template background - leave blank unless you want to get fancy.
-
-10) Select the 123 Barcode from the top menu
-
-1. a)Select barcode font Code 39
-2. b)Draw your barcode
-
-10) To edit barcode
-
-1. a)To edit barcode number, right click and select edit
-2. b)Right click on barcode and select properties
-
-1.
-  1. i) **To change the width** of the barcode, go into Symbology and Size. Edit X Dimension
-  2. ii)To serialize: Select data source, your barcode number and go to tab Transforms
-    1. 1)Click on button to the right of serialization field
-    2. 2)In dialog box, set it up
     
 **Searching for Barcodes and viewing locations in Arctos**
 
@@ -362,10 +312,42 @@ From [Electronic Imaging Materials](http://barcode-labels.com/), UAM purchased a
 ## In-House Barcode Generation
 
 Barcodes can be generated from text in several different ways using readily available software.
-Microsoft Word has barcode creation capability built in: https://msdn.microsoft.com/en-us/library/hh745903(v=office.12).aspx and a tutorial (Arctos is not responsible for the content – it is a bit sarcastic) is also available https://www.clearlyinventory.com/how-to-print-barcodes-with-excel-and-word
-Or you can download a barcode font, add it to your font list, and type up whatever barcodes you want. 
+
+**Microsoft Word** 
+Microsoft Word has barcode creation capability built in: https://msdn.microsoft.com/en-us/library/hh745903(v=office.12).aspx and a tutorial (Arctos is not responsible for the content – it is a bit sarcastic) is also available https://www.clearlyinventory.com/how-to-print-barcodes-with-excel-and-word 
+Or you can download a barcode font, add it to your Microsoft Word font list, and type up whatever barcodes you want. 
 <img width="484" alt="screen shot 2018-06-11 at 1 14 26 pm" src="https://user-images.githubusercontent.com/16887896/41257471-70485760-6d79-11e8-83df-a0ae72d05e30.png">
-To find a barcode font, Google Barcode font for office or something along those lines. You can also find them at http://www.fontspace.com/category/barcode.  Select a Code39, works best with most barcode scanners.  To add barcode font to your Microsoft Office Word, follow the instructions at PC: https://www.wikihow.com/Add-Font-in-Microsoft-Word or Mac: https://www.popsugar.com/tech/How-Install-Fonts-29788862
+To find a barcode font, Google Barcode font for office or something along those lines. You can also find them at http://www.fontspace.com/category/barcode.  Select a Code39 as it works best with most barcode scanners.  To add barcode font to your Microsoft Office Word, follow the instructions at PC: https://www.wikihow.com/Add-Font-in-Microsoft-Word for PS or https://www.popsugar.com/tech/How-Install-Fonts-29788862 for Mac.
+
+**Creating a Barcode in BarTender if you are using a barcode printer**
+
+\*\*This section is a work in progress.
+
+BarTender is a software package that comes with barcode label printers. UAM runs the UltraLite version that comes free with the barcode printer whereas MSB runs an upgraded version. This is basic how-to is for the UltraLite version and is a work in progress as we learn how to use the program ourselves. When I have questions about using this program, I have found that the online how-to videos I google have been very helpful.
+
+  1.  Open BarTender UltraLIte on computer 
+  2.  Select &quot;start a new BarTender document&quot; 
+  3.  Select Blank Template and hit next. 
+  4.  Select printer, default is currently TSC TC300 (the barcode printer) 
+  5.  Stock Selection, select specify custom settings 
+     a. Rows= 1 Columns=1, once you click next there will be a image to show to check if the setup looks correct 
+  6.  Side Edges: use a ruler to measure the space on the edges of your roll. Enter the value for the left and right. For current selection of barcodes it is about 1/16&quot; or 0.062&quot;. 
+  7.  Printed item shape: select shape that best describes your barcode. Most are rounded rectangle.
+  8.  Template size 
+     a. Enter the width and height of your barcode. For height, this is the barcode plus the space on top and bottom of the barcode.
+     b. Select the orientation you want to print your barcode.
+     c. Select effect if you are using it. 
+  9.  Template background - leave blank unless you want to get fancy. 
+  10. Select the 123 Barcode from the top menu 
+     a. Select barcode font Code 39 
+     b. Draw your barcode 
+  11. To edit barcode 
+     a. To edit barcode number, right click and select edit 
+     b. Right click on barcode and select properties 
+        i) **To change the width** of the barcode, go into Symbology and Size. Edit X Dimension 
+        ii)To serialize: Select data source, your barcode number and go to tab Transforms 
+      c. Click on button to the right of serialization field 
+      d. In dialog box, set it up
 
 ## More Related Arctos Documentation
 
