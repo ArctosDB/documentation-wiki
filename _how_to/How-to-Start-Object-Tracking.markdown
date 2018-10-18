@@ -306,7 +306,7 @@ From [Electronic Imaging Materials](http://barcode-labels.com/), UAM purchased a
 
 Barcodes can be generated from text in several different ways using readily available software.
 
-**Microsoft Word** 
+**Microsoft Word**  
 Microsoft Word has barcode creation capability built in: https://msdn.microsoft.com/en-us/library/hh745903(v=office.12).aspx and a tutorial (Arctos is not responsible for the content – it is a bit sarcastic) is also available https://www.clearlyinventory.com/how-to-print-barcodes-with-excel-and-word 
 Or you can download a barcode font, add it to your Microsoft Word font list, and type up whatever barcodes you want.  
 <img width="484" alt="screen shot 2018-06-11 at 1 14 26 pm" src="https://user-images.githubusercontent.com/16887896/41257471-70485760-6d79-11e8-83df-a0ae72d05e30.png">
@@ -314,8 +314,7 @@ Or you can download a barcode font, add it to your Microsoft Word font list, and
 To find a barcode font, Google Barcode font for office or something along those lines. You can also find them at http://www.fontspace.com/category/barcode.  Select a Code39 as it works best with most barcode scanners.  
 To add a barcode font to your Microsoft Office Word, follow the instructions at PC: https://www.wikihow.com/Add-Font-in-Microsoft-Word for PS or https://www.popsugar.com/tech/How-Install-Fonts-29788862 for Mac.
 
-**Creating a Barcode in BarTender if you are using a barcode printer**
-
+**Creating a Barcode in BarTender if you are using a barcode printer**  
 \*\*This section is a work in progress.
 
 BarTender is a software package that comes with barcode label printers. UAM runs the UltraLite version that comes free with the barcode printer whereas MSB runs an upgraded version. This is basic how-to is for the UltraLite version and is a work in progress as we learn how to use the program ourselves. When I have questions about using this program, I have found that the online how-to videos I google have been very helpful.
