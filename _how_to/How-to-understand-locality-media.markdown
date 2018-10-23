@@ -3,7 +3,8 @@ title: How To Understand Locality Media
 layout: default_toc
 ---
 
-Arctos provides for linking Media directly to Localities, but this is almost always undesirable - minimally, you know the Media was not created tomorrow, for example, and so linking to Localities is a form of discarding potentially valuable information. Linking Media to Collecting Events is preferred but, from the specimen, it is often useful to access the media taken at the place the specimen was collected regardless of time. This page demonstrates how Arctos follows relationships among the relevant data objects to present "derived locality media" - media linked to a collecting event which shares the locality of the current specimen - on specimen records.
+# How to Understand Media Localities
+Arctos allows linking Media directly to Localities, but this is almost always undesirable - minimally, you know the Media was not created tomorrow, for example, and so linking to Localities is a form of discarding potentially valuable information. Linking Media to Collecting Events is preferred but, from the specimen, it is often useful to access the media taken at the place the specimen was collected regardless of time. This page demonstrates how Arctos follows relationships among the relevant data objects to present "derived locality media" - media linked to a collecting event which shares the locality of the current specimen - on specimen records.
 
 (Note that the following examples use demo "data" on test servers.)
 
