@@ -477,6 +477,17 @@ The ordering of these terms is unimportant, and un-paired terms (e.g.,
 display_name=`NULL` or `NULL`="Sorex cinereus") will be ignored (that is,
 deleted at save).
 
+## Deleting
+
+Taxon names should be deleted only when they are identified as "not taxonomy." 
+The [overview section of this document](http://handbook.arctosdb.org/documentation/taxonomy.html#overview) describes the scope of 
+"taxonomy." Generally, names which pass "The Google Test" (_e. g._, those which are in use outside of Arctos) should not be deleted.
+To perform "The Google Test," search for the name in double-quotes; if no results, ore results only referencing Arctos, are found, it
+is probably safe to delete the name. Results which include only sources which draw from Arctos (such as GBIF) should be carefully scritinized
+to determine if the results are in fact an indirect reflection of Arctos data.
+
+_Do not_ delete names which are not "current" or "accepted," or those which you do not agree with, or won't use for some particular use case. Delete only names which do not meet the Arctos definition of "taxonomy." 
+
 ## Classification terms
 
  are ordered taxonomic data (drag rows to
