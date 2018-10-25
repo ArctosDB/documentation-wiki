@@ -482,7 +482,7 @@ deleted at save).
 Taxon names should be deleted only when they are identified as "not taxonomy." 
 The [overview section of this document](http://handbook.arctosdb.org/documentation/taxonomy.html#overview) describes the scope of 
 "taxonomy." Generally, names which pass "The Google Test" (_e. g._, those which are in use outside of Arctos) should not be deleted.
-To perform "The Google Test," search for the name in double-quotes; if no results, ore results only referencing Arctos, are found, it
+To perform "The Google Test," search for the name in double-quotes; if no results, or results only referencing Arctos, are found, it
 is probably safe to delete the name. Results which include only sources which draw from Arctos (such as GBIF) should be carefully scritinized
 to determine if the results are in fact an indirect reflection of Arctos data.
 
