@@ -161,91 +161,64 @@ If you are printing barcodes in-house, you should also test them with your scann
    
 ## **Create Containers**
 
-_This step enters enters your claimed barcode series into Arctos so they can be used. More information on containers and barcodes can be found at:_ [_https://arctosdb.org/documentation/container/#number\_of\_positions_](https://arctosdb.org/documentation/container/#number_of_positions)
+_This step enters enters your claimed barcode series into Arctos so they can be used. More information on containers and barcodes can be found in the [documentation](https://arctosdb.org/documentation/container/#number_of_positions)
 
-1.
-  1.
-e)Arctos → Manage Data → Object Tracking → Create Container Series 
-  2.
-f) Download a template.
-Download a template.
-  3. g)Fill in the Excel sheet
-    1.
-i)CONTAINER\_TYPE: A list of container types can be found here: [http://arctos.database.museum/findContainer.cfm](http://arctos.database.museum/findContainer.cfm) 
+1. From the Arctos main menu select Arctos → Manage Data → Object Tracking → Create Container Series
+2. Download a template
+3. Complete the fields in the template using the following information
 
-OR by visiting the code table at: [http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER\_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)
+    A) CONTAINER\_TYPE: A list of container types can be found here [here](http://arctos.database.museum/findContainer.cfm): OR by visiting the code table [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)  If you cannot find a container type that works for you, submit an issue in GitHub to ask the community for guidance or request a new container type. Do not use POSITIONS as a container, they are a very unique container (see documentation).
 
-If you cannot find a container type that works for you, talk to Dusty to have it added. Do not use POSITIONS - they are a very unique container (see documentation).
+    B) LABEL: A human readable label for the barcode such as "Freezer 1, Range 5". If you don't know what your barcodes will be labeling at the moment, it is best to make the lable the same as the barcode
+    C) BARCODE: The text of the barcode
+    D) INSTITUTION\_ACRONYM: Your institutional acronym (UAM for University of Alaska for example)
+    E) DESCRIPTION: Describe the container if needs further explanation. Examples: 13-slot freezer rack, Freezer room on the south side of the UA Museum basement. Room number 20., 100 slot plastic freezer, box, etc
+    F) CONTAINER\_REMARKS: A free text field, it is not readily searchable
+    G) PARENT\_INSTALL\_DATE: The date written as yyyy-mm-dd
 
-1.
-  1.
-    1. ii)LABEL: Human readable id. Example: Freezer 1, Range 5, etc. It can also be the barcode.
-    2. iii)BARCODE: Machine readable id
-    3. iv)INSTITUTION\_ACRONYM: UAM
-    4. v)DESCRIPTION: Describe the container if needs further explanation. Examples: 13-slot freezer rack, Freezer room on the south side of the UA Museum basement. Room number 20., 100 slot plastic freezer, box, etc.
-    5. vi)CONTAINER\_REMARKS: Not heavily used and not searchable.
-    6. vii)PARENT\_INSTALL\_DATE: The date written as yyyy-mm-dd.
-
-d) Once bulkload file is completed, save as a CSV. Go back to Arctos → Object Tracking → Create Container Series.
-
-
-e) Choose the saved CSV file and upload it.
-
-f) If it loads correctly, you will get the message 
-
-Click on &quot;loaded - proceed to validate&quot;
-
-g) Click on validate.
-
-i) If there are errors, they will have a column that says invalid and what is invalid. Delete everything from bulkload stager, make corrections, and start at step 2d.
-
-ii) If everything is valid, click proceed to upload. You are done-ish!
+4. Once bulkload file is completed, save it as a CSV
+5. Return to Arctos → Object Tracking → Create Container Series
+6. Choose the saved CSV file and upload it
+7. If it loads correctly, you will get the message &quot;loaded - proceed to validate&quot;
+8. Click on validate
+9. If there are errors, you will see them in a column with error messages. You will need to delete everything from the bulkload stager, make corrections in your spreadsheet, and return to step 5.
+10. If everything is valid, click proceed to upload. You are done-ish!
 
 ## **Move Containers**
 
-_Currently all of the barcodes you created are in the &quot;Universe&quot;. This step allows you to give them more concrete locations and creates the relationships between barcodes in Arctos._ 
-BULK MOVE: BULKLOADER
+Currently all of the barcodes you created are in the &quot;Universe&quot;. It is perfectly fine to leave your barcodes here until you apply them to a container, but you may want to move them to your Institution or some other location (The room or cabinet where they are stored might be logical choices).  To accomplish this in bulk, you will use **Move Container Batch Scan** which requires that you prepare a CSV file with the appropriate relationship information.
 
-_Used mostly for initial set-up of barcode relationships such as placing the self in a row and range._
+1. In excel, create a document with the headers BARCODE and PARENT\_BARCODE
+2. Fill in the columns with information as follows:
+    A) BARCODE is the child barcode - it is underneath/nested in the parent barcode
+    B) PARENT\_BARCODE is the barcode directly above the child barcode
 
-1.
-a)Arctos → Manage Data → Object Tracking → Move Container 
-2.
-b)Click on &quot;Batch Scan&quot; at the top. 
-3. c)Click on &quot;Upload a CSV file&quot;
-
-
-
-1. d)In excel, create a document with the headers BARCODE and PARENT\_BARCODE.
-  1. i)Fill in the columns
-    1. 1)BARCODE is the child barcode - it is underneath/nested in the parent barcode.
-    2. 2)PARENT\_BARCODE is the barcode directly above the child barcode.
-
-EXAMPLE:  Universe is the parent barcode to the child barcode University of Alaska Museum.
-
-However, University of Alaska of Alaska Museum is parent barcode to UAM Genomic Resources rm 20.
-
+      EXAMPLE: Universe is the parent barcode to the child barcode University of Alaska Museum. However, University of Alaska of Alaska Museum is parent barcode to UAM Genomic Resources Room 20
+      NOTE: Both the child and parent barcodes must exist in Arctos for this process to work
  
+ 3. Save file as CSV
+ 
+ Now you are ready to load the information into Arctos
+ 
+ 1. From the Arctos main menu select Arctos → Manage Data → Object Tracking → Move Container 
+ 2. Click on &quot;Batch Scan&quot; at the top
+ 3. Click on &quot;Upload CSV file&quot;
+ 4. Select the file you created above
+ 5. Click the Upload this file button
 
-e) Save file as CSV and load.
+Alternatively you can move barcodes one at a time or in batches by scanning them into the appropriate parent barcode using the NON-BULK WITH BARCODE SCANNERS function which is generally used to scan objects into their location when only a few objects at a time are being moved.
 
-NON-BULK WITH BARCODE SCANNERS
+NOTE: Before scanning barcodes, set your scanner to tab after scan so that you can moreeasily move to the next field when scanning.
 
-_Used to scan objects into their location._
+ 1. From the Arctos main menu select Arctos → Manage Data → Object Tracking → Move Container
+ 2. Click on &quot;Batch Scan&quot; at the top
+ 3. Place your cursor in the Parent Barcode field and using a scanner, scan in the Parent Barcode (shelf, tray, etc.)
+ 4. Place your cursor in the first &quot;scan barcode&quot; field and scan the first object barcode you want to move into the parent (shelf, tray, etc.). Continue the process until you have all of the children scanned in. The scanner will automatically move you to the next blank field if it is set on Tab.
+  5. When you are done, click the tan box to SAVE
+  
+## **Placing Parts in Containers**
 
-1.
-a)Arctos → Manage Data → Object Tracking → Move Container 
-
-2. b)Click on &quot;Batch Scan&quot; at the top.
-
-c) Using barcode reader, scan in Parent Barcode (shelf, tray, etc.)
-
-d) Click in &quot;scan barcode&quot;, scan the object barcodes going into the parent (shelf, tray, etc.).
-
-Barcode reader will automatically move you to the next blank field if it is set on Tab (reprogram it if it is set on Return)
-
-e)When you are done, click the tan box to SAVE 
-## **Assigning Barcodes to Parts**
+Barcodes are placed on containers and designate only the container. In order to track object parts, they must be placed in a barcoded container. There are several methods for placing an object part in one of your barcoded containers. The method you choose will likely depend upon the number of parts you want to place in containers
 
 1. a)From specimen page
 2. b)Faster to use Manage Data→ Object Tracking → Object+BC\&gt;\&gt;Container
@@ -255,15 +228,6 @@ e)When you are done, click the tan box to SAVE
   
 Alternately, you can add a part from the Specimen Record under Edit Parts:
 
-## **Setup &amp; Supplies**
-
-1.
-  1. [http://handbook.arctosdb.org/how\_to/Barcode-Supplies.html](http://handbook.arctosdb.org/how_to/Barcode-Supplies.html)
-
-
-
-
-    
 **Searching for Barcodes and viewing locations in Arctos**
 
 1. a)From Search Screen
