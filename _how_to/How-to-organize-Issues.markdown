@@ -1,5 +1,5 @@
 ---
-title: How To Organize Issues
+title: How To GitHub - Organizing Issues
 layout: default_toc
 ---
 
