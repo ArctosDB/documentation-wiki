@@ -1,5 +1,6 @@
 ---
-title: Understanding Portals
+title: How To Understand Portals
+author: DLM
 layout: default_toc
 ---
 
