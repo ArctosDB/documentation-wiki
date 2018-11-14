@@ -1,5 +1,5 @@
 ---
-title: Barcode Supplies
+title: How To Create And Acquire Barcode Supplies
 layout: default_toc
 author: Kyndall Hildebrandt
 date: 2017-05-05
