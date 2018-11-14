@@ -1,5 +1,5 @@
 ---
-title: Using Github- How To Use Issues in Arctos 
+title: How To Github - Using Github Issues to Improve Arctos 
 layout: default_toc
 author: Dusty McDonald
 date: 2016-06-06
