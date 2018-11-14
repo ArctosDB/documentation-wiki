@@ -1,5 +1,5 @@
 ---
-title: Create a collection in Arctos
+title: How To Join Arctos
 layout: default_toc
 author: DLM
 date: 2018-06-08
@@ -9,8 +9,8 @@ date: 2018-06-08
 ## For prospective partners
 
 
-Fill out the Prospective Collection Form at [http://arctos.database.museum/new_collection.cfm](http://arctos.database.museum/new_collection.cfm) and we will contact you.
-You will need an Arctos account to access the form; you may create one at the top of any page. Following the guidelines at the [http://handbook.arctosdb.org/documentation/users.html](http://handbook.arctosdb.org/documentation/users.html) will streamline things later.
+Fill out the [Prospective Collection Form](http://arctos.database.museum/new_collection.cfm) and we will contact you.
+You will need an Arctos account to access the form; you may create one at the top of any page. Following the [user guidelines](http://handbook.arctosdb.org/documentation/users.html) will streamline things later.
 
 
 The submitted form will go to the Arctos Working Group. Someone from the Arctos Working Group (AWG) will contact the submitter as soon as possible to ensure a good communication channel. Please email arctos.treasurer@gmail.com if you have not received a response within one week.  
