@@ -1,5 +1,6 @@
 ---
-title: Understanding Data Entry
+title: How To Understand Data Entry
+author: DLM
 layout: default_toc
 ---
 
