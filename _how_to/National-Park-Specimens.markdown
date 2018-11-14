@@ -1,8 +1,8 @@
 ---
-title: Identifying National Park Specimens
+title: How To Identify National Park Specimens
 layout: default_toc
 ---
-# Identifying National Park Specimens
+# How To Identify National Park Specimens
 
 Many collections have been tasked with identifying specimens from US National Parks and various other Department of the Interior (DoI)
 agencies. There are several possible ways of doing this.
