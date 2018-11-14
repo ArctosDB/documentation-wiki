@@ -1,5 +1,5 @@
 ---
-title: How to Get the Most Out of Arctos-Github Editing
+title: How To Get the Most Out of Arctos-Github Editing
 layout: default_toc
 author: Michelle Koo
 date: 2018-05-07
