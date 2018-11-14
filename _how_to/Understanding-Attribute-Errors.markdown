@@ -1,5 +1,6 @@
 ---
-title: Understanding Attribute Errors
+title: How To Understand Attribute Errors
+author: unknown
 layout: default_toc
 ---
 # Understanding Attribute Errors
