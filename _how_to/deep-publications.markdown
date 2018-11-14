@@ -1,5 +1,5 @@
 ---
-title: Deep Publication Data
+title: How To Understand Deep Publication Data in Arctos
 layout: default_toc
 author: DLM
 date: 2018-09-20
