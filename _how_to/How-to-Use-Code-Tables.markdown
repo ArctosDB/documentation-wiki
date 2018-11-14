@@ -1,12 +1,12 @@
 ---
-title: Code Tables
+title: How To Create and Maintain Code Table Values
 layout: default_toc
 author: Dusty McDonald
 date: 2017-12-15
 ---
 
  
-# How to use code tables
+# How To Create and Maintain Code Table Values
 
 Much of Arctos is controlled by code tables. This document serves as a guide to creating and maintaining values.
  
