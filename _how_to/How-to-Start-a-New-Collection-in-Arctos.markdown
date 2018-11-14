@@ -1,5 +1,5 @@
 ---
-title: How to Start as a New Collection in Arctos
+title: How To Start as a New Collection in Arctos
 layout: default_toc
 author: Carla Cicero
 date: 2016-06-30
@@ -10,7 +10,7 @@ If you are joining Arctos, welcome!
 
 Now that you've decided to join Arctos, there are a few steps before you can actually do anything in Arctos. First, ensure that your institution and collection(s) are registered in the Global Registry of Biological Repositories (GRBIO), and then you can create new institution/collection(s) in Arctos.
 
-**_All of this assumes that you have already completed the [initial questionnaire](http://form.jotform.us/form/23446995137161), been in contact with Arctos about joining, and have a signed Memorandum of Understanding between your institution and Arctos._**
+**_All of this assumes that you have already completed the [Prospective Collection Form](http://arctos.database.museum/new_collection.cfm), been in contact with Arctos about joining, and have a signed Memorandum of Understanding between your institution and Arctos._**
 
 ## Registering your Institution/ Collection(s) at GRBIO
 
