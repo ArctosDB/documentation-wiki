@@ -1,10 +1,10 @@
 ---
-title: How to manage taxonomy hierarchically
+title: How To Manage Taxonomy Hierarchically
 layout: default_toc
 author: DLM
 date: 2017-08-28
 ---
-# How to manage taxonomy hierarchically
+# How To Manage Taxonomy Hierarchically
 
 # Background
 
