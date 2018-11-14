@@ -1,12 +1,12 @@
 ---
-title: Bulkload Agents
+title: How To Bulkload Agents
 layout: default_toc
 author: DLM
 date: 2018-04-26
 ---
 
 
-# How to bulkload Agents
+# How To Bulkload Agents
 
 First open the agent bulkloader. This may take a while as it refreshes some cached data.
 
