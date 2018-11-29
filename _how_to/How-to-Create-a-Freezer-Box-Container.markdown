@@ -11,11 +11,20 @@ There are many types of containers possible in Arctos. This guide walks you thro
 
 * Go to Manage: Object Tracking: Find Container tab and enter the barcode you will use for the container under Barcode. 
 * Click Search
-* The barcode should show up as a Container Label in the Universe. This assumes the barcode series has already been created in Arctos.
+* The barcode should show up as a Container Label in the Universe. This assumes the [barcode series has already been created in Arctos](/how_to/How-to-Start-Object-Tracking.html).
 * Click on the square box next to the barcode in the center panel. This should bring up an edit box at right.
 * Click Edit Container.
 * Go to the Container Type dropdown and select "Freezer Box" or the appropriate container type for your usage.
 * If freezer box has been selected, the dimensions should autopopulate. For any other container type, enter dimensions and number of positions as appropriate.
+* Create the positions in your container by entering the number of rows and columns and selecting an either vertical or horizontal layout.
+  Note: vertical layouts will appear like this:
+  
+  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Vertical_orientation.JPG)
+  
+  and horizontal layouts like this:
+  
+  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Horizontal_orientation.JPG)
+  
 * Click Update.
 * To create the container positions, if relevant, go back to the Edit Container Tab under Find Container. This time, click Positions.
 * You will get a pop up asking for the go ahead to creat all new positions for this container. Click Yes.
