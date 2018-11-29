@@ -9,8 +9,8 @@ date: 2016-02-27
 
 There are many types of containers possible in Arctos. This guide walks you through the steps of creating a freezer box or another container type as a new container. This is the first step before you can scan barcoded parts such as tissues into positions in Arctos.
 
-* Go to Manage: Object Tracking: Find Container tab and enter the barcode you will use for the container under Barcode. 
-* Click Search
+* From the Arctos main menu select Manage Data>Object Tracking>Find Container and enter the barcode you will use for the container under Barcode. 
+* Click Search at the bottom of the form.
 * The barcode should show up as a Container Label in the Universe. This assumes the [barcode series has already been created in Arctos](/how_to/How-to-Start-Object-Tracking.html).
 * Click on the square box next to the barcode in the center panel. This should bring up an edit box at right.
 * Click Edit Container.
