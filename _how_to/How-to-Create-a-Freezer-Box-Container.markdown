@@ -1,8 +1,8 @@
 ---
-title: How To Create a Freezer Box Container
+title: How To Create a an Individual Container in Arctos Object Tracking
 layout: default_toc
-author: Emily Braker
-date: 2016-02-27
+author: Emily Braker, Teresa Mayfield-Meyer
+date: 2016-02-27, 2018-11-29
 ---
 
 # How To Create an Individual Container in Arctos Object Tracking (e.g. Freezer Box with Positions)
