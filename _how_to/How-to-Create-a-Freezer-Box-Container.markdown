@@ -14,9 +14,10 @@ There are many types of containers possible in Arctos. This guide walks you thro
 * The barcode should show up as a Container Label in the Universe. This assumes the [barcode series has already been created in Arctos](/how_to/How-to-Start-Object-Tracking.html).
 * Click on the square box next to the barcode in the center panel. This should bring up an edit box at right.
 * Click Edit Container.
-* Go to the Container Type dropdown and select "Freezer Box" or the appropriate container type for your usage.
-* If freezer box has been selected, the dimensions should autopopulate. For any other container type, enter dimensions and number of positions as appropriate.
+* Go to the Container Type dropdown and select the appropriate container type for your usage.
+* If freezer box has been selected, the dimensions should autopopulate. For any other container type, enter dimensions as appropriate. **caution!** make sure the dimensions will accomodate the containers that will be placed in the individual positions within this container.
 * Create the positions in your container by entering the number of rows and columns and selecting an either vertical or horizontal layout.
+  
   Note: vertical layouts will appear like this:
   
   ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Vertical_orientation.JPG)
@@ -25,12 +26,11 @@ There are many types of containers possible in Arctos. This guide walks you thro
   
   ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Horizontal_orientation.JPG)
   
-* Click Update.
-* To create the container positions, if relevant, go back to the Edit Container Tab under Find Container. This time, click Positions.
-* You will get a pop up asking for the go ahead to creat all new positions for this container. Click Yes.
-* You should now see a form with positions that allows you to scan objects. In the case of a freezer box, this is a 10x10 grid. 
-* Tissues can be scanned into position using a scanner programmed to TAB. For a 9x9 box in a freezer box with 100 positions, leave the last row and column blank.
-* Parts may not be deleted from a positions form. To delete or reposition, the part must be moved elsewhere and then back into the correct position. On moving a part, hit the Refresh on your browser to see the new position and eliminate the old postion.
+* Click Save Container Edits.
+* You should now see "positions" at the top of the edit form. Click it.
+* Enter the dimensions of the positions **caution!** make sure the sum of the position dimensions will fit into the container you just created AND the position dimensions will accomodate the containers that will be placed in the individual positions.
+* Containers can be scanned into position using a scanner programmed to TAB.
+* Containers may not be deleted from a position. To delete or reposition, the container must be moved elsewhere and then back into the correct position.  After moving a container, hit the Refresh on your browser to see the changes in position.
 
 
 # Alternate Method
