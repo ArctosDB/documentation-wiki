@@ -1,5 +1,5 @@
 ---
-title: How To Create a an Individual Container in Arctos Object Tracking
+title: How To Create an Individual Container in Arctos Object Tracking
 layout: default_toc
 author: Emily Braker, Teresa Mayfield-Meyer
 date: 2016-02-27, 2018-11-29
