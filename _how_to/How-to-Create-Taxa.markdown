@@ -56,9 +56,9 @@ The first step in creating a taxon is to create the name. Always search Arctos b
   The order of these terms is unimportant, and un-paired terms will be ignored and deleted when you save the record.
 
 7. Review the uploaded Classification terms for accuracy.  
-  • The order of these terms is important, more inclusive terms (eg, kingdom) should be at the top and progress through more specific terms (eg, subspecies) at the bottom.
-  • Drag the rows to sort them.
-  • Term Type will be ignored if the associated Term field is empty.
+  • The order of these terms is important, more inclusive terms (eg, kingdom) should be at the top and progress through more specific terms (eg, subspecies) at the bottom.  
+  • Drag the rows to sort them.  
+  • Term Type will be ignored if the associated Term field is empty.  
   • Term will be saved regardless of Term Type; unranked terms are accepted.You can drag rows to reorder.  
   
   The classification for our example imported through GlobalNames appears below.  
