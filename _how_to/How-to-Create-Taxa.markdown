@@ -66,6 +66,21 @@ The first step in creating a taxon is to create the name. Always search Arctos b
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/taxonomy_classification_terms.png)
 
 8. Click “Save Edits” to save all data for your taxon.
+
+    **Additional notes about classification terms**
+    
+    Term Types are optional but may help users locate your specimens.  The following mixture of ordered Term Types and Terms without Term Types is possible (and common).
+
+    Term Type|Term  
+    Kingdom|Animalia  
+    |Cellular Life	 
+    Family|Soricidae    
+    |Soricinae  
+    Genus|Sorex
+    
+    Infrageneric terms (species, sub-species, variety, etc.) should be supplied as multinomials: species=*Sorex cinereus*, never only *cinereus*.
+    
+    [Carex brunnescens subsp. alaskana](http://arctos.database.museum/name/Carex%20brunnescens%20subsp.%20alaskana#Arctos) is an example of a botanical name which includes a subspecific epithet and two authors.
   
 The [View Taxon Page] allows you to check everthing you entered for accuracy and to see how the taxon will appear to Arctos users.
 
