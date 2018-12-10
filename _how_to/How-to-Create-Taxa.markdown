@@ -72,13 +72,13 @@ Click “Save Edits” to save all data for your taxon.
     
   Term Types are optional but may help users locate your specimens.  The following mixture of ordered Term Types and Terms without Term Types is possible (and common).
 
-    | **Term Type** | **Term** |
-    | --- | --- |
-    | Kingdom | Animalia |
-    |  | Cellular Life |
-    | Family | Soricidae |
-    |  | Soricinae |
-    | Genus | Sorex |
+  | Term Type | Term |
+  | --- | --- |
+  | Kingdom | Animalia |
+  |  | Cellular Life |
+  | Family | Soricidae |
+  |  | Soricinae |
+  | Genus | Sorex |
     
   Infrageneric terms (species, sub-species, variety, etc.) should be supplied as multinomials: species=*Sorex cinereus*, never only *cinereus*.
   
