@@ -43,13 +43,13 @@ The list of External Links at the bottom of the page indicates the external Webs
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/taxonomy_create_clone.png) 
 
 5. After selecting the Source, click “Create cloned classification.” 
-6. Enter the Non-Classification Terms (these are not cloned and must be entered manually). The following terms are created by the user and are selected from the drop-down in the "Item Type" field.
-  •	nomenclatural_code controls how display_name is suggested and helps format display. Most common values are “ICZN” and “ICNB.”  This is a mandatory field.
+6. Enter the Non-Classification Terms (these are not cloned and must be entered manually). The following terms are created by the user and are selected from the drop-down in the "Item Type" field.  
+  •	nomenclatural_code controls how display_name is suggested and helps format display. Most common values are “ICZN” and “ICNB.”  This is a mandatory field.  
   •	author_text is the author of ICZN names, or the species author of ICBN names.  Always include the author (with or without parentheses as appropriate) unless no author is given.  It will be added to the display_name.  
-  •	infraspecific_author is the author of the infraspecific epithet in ICBN names
-  •	taxon-status is controlled by a code table.  While this is not mandatory, it is extremely helpful to users to know if the taxon is valid or not.
-  •	source_authority should list the publication, website or other authority for the taxon.  When classifications are cloned from a Webservice, listing the Webservice name is appropriate.  The taxon authority table lists authorities recommended and used by current Arctos collection managers.
-  •	remark is an open field for any comment that will be helpful to Arctos users.
+  •	infraspecific_author is the author of the infraspecific epithet in ICBN names.  
+  •	taxon-status is controlled by a code table.  While this is not mandatory, it is extremely helpful to users to know if the taxon is valid or not.  
+  •	source_authority should list the publication, website or other authority for the taxon.  When classifications are cloned from a Webservice, listing the Webservice name is appropriate.  The taxon authority table lists authorities recommended and used by current Arctos collection managers.  
+  •	remark is an open field for any comment that will be helpful to Arctos users.  
 
 
 
