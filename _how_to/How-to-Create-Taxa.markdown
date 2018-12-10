@@ -38,7 +38,7 @@ The first step in creating a taxon is to create the name. Always search Arctos b
 
   ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/taxonomy_preferred_webservice.png) 
 
-4. Select the preferred local Source: Arctos, Arctos Plants, or WoRMS (via Arctos).  Note the cautions about the taxon cloning process in the red box.  Only the listed ranks will transfer from the selected source to the local classification.  These ranks are used to build “specimen data” which are used to create labels, locate specimens, etc.  If any are missing, you can add them on the next screen.
+4. Select the preferred local Source: Arctos, Arctos Plants, or WoRMS (via Arctos).  Note the cautions about the taxon cloning process in the red box.  Only the listed ranks will transfer from the selected source to the local classification.  These ranks are used to build the classification for the name created and are important tools for discovery of objects.  If any are missing, you can add them on the next screen.
 
   ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/taxonomy_create_clone.png) 
 
