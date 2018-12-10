@@ -50,7 +50,25 @@ The list of External Links at the bottom of the page indicates the external Webs
   •	taxon-status is controlled by a code table.  While this is not mandatory, it is extremely helpful to users to know if the taxon is valid or not.  
   •	source_authority should list the publication, website or other authority for the taxon.  When classifications are cloned from a Webservice, listing the Webservice name is appropriate.  The taxon authority table lists authorities recommended and used by current Arctos collection managers.  
   •	remark is an open field for any comment that will be helpful to Arctos users.  
+  
+  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/taxonomy_non_classification_terms.png)
 
+  The order of these terms is unimportant, and un-paired terms will be ignored and deleted when you save the record.
 
+7. Review the uploaded Classification terms for accuracy.  
+  • The order of these terms is important, more inclusive terms (eg, kingdom) should be at the top and progress through more specific terms (eg, subspecies) at the bottom.
+  • Drag the rows to sort them.
+  • Term Type will be ignored if the associated Term field is empty.
+  • Term will be saved regardless of Term Type; unranked terms are accepted.You can drag rows to reorder.  
+  
+  The classification for our example imported through GlobalNames appears below.  
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/taxonomy_classification_terms.png)
+
+8. Click “Save Edits” to save all data for your taxon.
+  
+The [View Taxon Page] allows you to check everthing you entered for accuracy and to see how the taxon will appear to Arctos users.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/taxonomy_taxon_page.png)
 
 ### Method 2 - Name With Related classification
