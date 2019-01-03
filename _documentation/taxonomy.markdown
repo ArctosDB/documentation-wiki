@@ -321,11 +321,15 @@ local source.
 There is currently no classification bulkloader. One can be created if
 necessary.
 
-## Source "Arctos"
+## Local Sources
 
-"Local" sources - those used in asserting taxonomy by collections - are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE). As of this writing, the split is "plants" and "everything else." It is important to choose the
-intended collection's preferred source when creating classification data. Local sources are often limited to hierarchical data and managed through 
-the [hierarchical data editor](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html).
+"Local" sources - those used in asserting taxonomy by collections - are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE). As of this writing, there are three local classifications:
+
+* _Arctos_ is a locally-managed "not plants" classification (which contains many plant classifications for use in paleontological collections).
+* _Arctos Plants_ is a locally-managed "plants" (~"things controlled by ICBN") classification.
+* _WoRMS (via Arctos)_ contains automatically-maintained data from http://www.marinespecies.org, in addition to some locally-maintained data (for taxa not in WoRMS but cataloged in collections which use this classification). To manage or create classifications in this source, simply provide an "aphiaid" non-classification term and click the "refresh" link. 
+ 
+It is important to choose the intended collection's preferred source when creating classification data. Local sources are often limited to hierarchical data and managed through the [hierarchical data editor](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html).
 
 ## Taxonomy search examples
 
