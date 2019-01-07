@@ -25,3 +25,7 @@ Arctos disallows characters not in POSIX character class PRINT, but things like 
 ## Similar Characters
 
 Many characters, or combinations of characters, are visually similar. For example, see the [Wikipedia entry on the degree symbol](https://en.wikipedia.org/wiki/Degree_symbol).
+
+# Field Length
+
+Some programs or editors silently truncate text. Arctos never will; some text length limitations exist, and violating them will always result in an error, never string manipulation.
