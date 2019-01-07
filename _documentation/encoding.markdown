@@ -20,7 +20,7 @@ Some data are encoded with HTML escape characters rather than Unicode. These wil
 
 ## Non-printing characters
 
-Arctos disallows characters not in POSIX character class PRINT, but things like doubled or trailing spaces can still appear in data and will make searching difficult.
+Arctos disallows characters not in POSIX character class PRINT for most fields, but things like doubled or trailing spaces can still appear in data and will make searching difficult.
 
 ## Similar Characters
 
