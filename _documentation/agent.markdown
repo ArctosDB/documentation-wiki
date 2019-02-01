@@ -182,7 +182,9 @@ Attributes.
 -   Include common ASCII-128 (A-Z, no accents or foreign characters)
     variants. "Николай Е. Докучаев" is an acceptable Preferred Name, but
     include as a nonpreferred name "Nikolai E. Dokuchaev." Agent "Raúl
-    Gutiérrez" should include the nonpreferred name "Raul Gutierrez."
+    Gutiérrez" should include the nonpreferred name "Raul Gutierrez." ASCII variants must 
+    be character-for-character replacements; 
+    include alternative translitertations ("oe" for "ö," for example) as additional names.
 -   Include symbols and their alternatives where users might search
     by either. For preferred name "Smith & Wesson," also include name
     "Smith and Wesson." (It doesn't matter which goes where, as long as
