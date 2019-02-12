@@ -45,12 +45,12 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 * You will need an SFTP (Secure File Transfer Protocol) program in order to access the Corral system on TACC where Arctos media are stored - see the [TACC Corral User Guide](https://portal.tacc.utexas.edu/user-guides/corral)
  * On the left you’ll see [Transferring Files Using Cyberduck](https://portal.tacc.utexas.edu/user-guides/corral#cyberduck) - download Cyberduck or use another SFTP program
 * Set up a transfer protocol:
- * Open Connection
- * Select “SFTP” from dropdown
- * Server Host Name:  data.tacc.utexas.edu
- * Username: enter your TACC portal username
- * Password: enter your TACC portal account password
- * Port number is 22
+    * Open Connection
+    * Select “SFTP” from dropdown
+    * Server Host Name:  data.tacc.utexas.edu
+    * Username: enter your TACC portal username
+    * Password: enter your TACC portal account password
+    * Port number is 22
 
 ![TACC User Portal Connection](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/tutorial_images/TACC_user_portal_connection.png)
 
