@@ -59,12 +59,13 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
  * Password: enter your TACC portal account password
  * Port number is 22
 
-![TACC Corral Login Screen](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/TACC_corral_login_screenshot.jpg)
+![TACC Corral Login Screen](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/TACC_user_portal_connection.png)
 
+* Once you connect, you will be prompted to enter a TACC Token Code. In order to do this, you will need to install the TACC Token app for multi-factor authentication. Read the [TACC instructions](https://portal.tacc.utexas.edu/tutorials/multifactor-authentication) on this process. After you are set up for authentication, enter the TACC Token at the prompt.
 
-* Once you are connected, go up to the root directory and then select corral-tacc ---> tacc ---> arctos
+* If you have successfully entered the TACC Token, you will be taken to your directory. Go up to the root directory and then select corral-tacc ---> projets ---> arctos
 
-* Each institution should have a directory for their media, e.g, /corral-tacc/tacc/arctos/mvz
+* Each institution should have a directory for their media, e.g, /corral-tacc/projects/arctos/mvz
  * Within that directory, you can organize your media files however you want
 
 * TACC must ingest those files in order for them to appear on the web server: [http://web.corral.tacc.utexas.edu](http://web.corral.tacc.utexas.edu) - files are also processed during this stage (e.g., from dng or tiff to jpeg, wav to mp3, etc.)
