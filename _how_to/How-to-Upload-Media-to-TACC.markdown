@@ -52,7 +52,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
     * Password: enter your TACC portal account password
     * Port number is 22
 
-![TACC User Portal Connection](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/tutorial_images/TACC_user_portal_connection.png)
+![TACC User Portal Connection](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/TACC_user_portal_connection.png)
 
 * Once you connect, you will be prompted to enter a TACC Token Code. In order to do this, you will need to install the TACC Token app for multi-factor authentication. Read the [TACC instructions](https://portal.tacc.utexas.edu/tutorials/multifactor-authentication) on this process. After you are set up for authentication, enter the TACC Token at the prompt.
 * If you have successfully entered the TACC Token, you will be taken to your directory. Go up to the root directory and then select corral-tacc ---> projects ---> arctos
