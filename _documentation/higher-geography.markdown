@@ -415,6 +415,9 @@ suitable specimens assigned to another geography entry, thereby failing
 to provide the user with an accurate answer and decreasing the overall
 value of the specimens and their associated data.
 
+Specimens should be linked to their geographical origin. Do NOT use geography as a reference. A specimen with specific locality "20 miles west of Monterey, CA" should
+be linked to Pacific Ocean, not California.
+
 1.  Geography is not a replacement for Agents. Use accession roles,
     projects, etc., to *e.g.*, recognize contributions from the National
     Park Service.
@@ -428,9 +431,7 @@ value of the specimens and their associated data.
 4.  The Edit Locality form will detect variation of geography used in
     nearby georeferences and in identical specific locality strings.
     Unify these data when possible.
-5.  Localities should include Higher Geography that includes at least
-    **County** (county, parish, or equivalent political subdivision)
-    when possible.
+5.  Localities should link to the most specific Higher Geography possible.
 
 
 ## Searching Guidelines
