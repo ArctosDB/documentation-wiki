@@ -5,11 +5,11 @@ layout: default_toc
 # Understanding the Arctos Locality Model
 
 
-The core Arctos locality model consists of 4 primary tables. This guide and the following illustration describe their primary function and interaction.
+The core Arctos locality model consists of 4 primary tables plus an edit archive. This guide and the following illustration describe their primary function and interaction.
 
 ![Arctos Locality Stack Diagram](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/Arctos_locality_stack.png)
 
-**Specimen_Event**
+## Specimen_Event
 
 Specimen-Event is the link from specimens to localities. Specimen-Event is not shared; a unique instance exists for and establishes every specimen<--->locality link, so a specimen with multiple encounters or unaccepted coordinates will have multiple specimen-events.
 
@@ -25,7 +25,7 @@ Specimen-Event is the link from specimens to localities. Specimen-Event is not s
 *  VERIFICATIONSTATUS is documented in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTVERIFICATIONSTATUS)
 *  HABITAT is a description of the specimen's habitat
 
-**Collecting_Event**
+## Collecting_Event
 
 Collecting Event adds verbatim data plus dates. Collecting events are shared; one collecting_event may be parent to any number of specimen_events. In the case of co-collected specimens (_e.g._, hosts and parasites) maintaining one collecting event for multiple specimen-events is doubly critical.
 
@@ -40,7 +40,7 @@ Collecting Event adds verbatim data plus dates. Collecting events are shared; on
 * DATUM is the horizontal datum in which the original coordinates were provided, and is documented in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTDATUM)
 * COLLECTING_EVENT_NAME is a "human-readable primary key" allowing the unambiguous sharing of events among specimens, and adding stability to the event
 
-**Locality**
+##Locality
 
 Locality adds formality and vertical spatial data to collecting events. Localities are shared; one locality may be parent to any number of collecting_events.
 
@@ -64,8 +64,11 @@ Locality adds formality and vertical spatial data to collecting events. Localiti
 * LOCALITY_NAME is a "human-readable primary key" allowing the unambiguous sharing of localities among specimens, and adding stability to the locality
 * WKT_POLYGON is the [well-known text](https://en.wikipedia.org/wiki/Well-known_text) polygon of the locality
 
+## Locality_Archive
 
-**Geography**
+* Locality plus when and who, automatically maintained by an INSERT or UPDATE trigger.
+
+##Geography
 
 Geography adds formalized descriptive data to locality. Geography is shared; one geography may be parent to any number of localities.
 
@@ -75,15 +78,15 @@ Geography adds formalized descriptive data to locality. Geography is shared; one
 * GEOG_REMARK is any remark regarding the geography
 * WKT_POLYGON is the [well-known text](https://en.wikipedia.org/wiki/Well-known_text) polygon of the geography. Note that the introduction of this field changes the nature of the data; it is now possible to have "Alaska" defined as "things someone felt like calling 'Alaska'" (_e.g._, hundreds of miles offshore, but somehow doesn't feel like Russia!) OR as a spatial polygon (which might stop at mean high tide).
 
-**Not Included**
+## Not Included
 
 In addition to the primary tables listed above, [geology_attributes](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE) adds any number of hierarchical geology determinations to localities, table GEOG_SEARCH_TERM adds discovery data (such as old or local placenames, or placenamess in local charactersets) to geography, and several service-populate fields in Locality add automated georeference and reverse-georeference data which aids in discoverability and provides editing suggestions.
 
-**The Locality Stack**
+## The Locality Stack
 
 "A specimen's locality" or can be viewed as everything from one record in collecting_event, locality (potentially including geology), and geog_auth_rec, while specimen_event is the glue which attaches "the locality" to specimens. Note that all Arctos keys are bit-wise, and very minor differences in the data (error distance or units, punctuation in remarks, etc.) can force into existence new and (slightly) different data objects. (Arctos provides "fuzzy" merger tools.) In addition to inconsequential differences, localities (which are simultaneously descriptive and/or spatial) often differ from similar localities by specific locality, coordinate point, coordinate error distance, elevation, depth, or the choice of higher geography. That is, there is not necessarily one correct interpretation of "Fairbanks, Alaska." Collecting events often differ by the format of verbatim date or locality. Finally, the choice of higher geography is often somewhat arbitrary. All of these factors must be considered when attempting to ensure that a specimen shares a locality stack with other specimens. Collecting_event_id and collecting_event_name serve as proxies to the locality stack and may be used in the bulkloader or data entry screens to select existing "places."
 
-**Hierarchy**
+## Hierarchy
 
 The core data model is hierarchical; an example as a hierarchical "tree" is given below.
 
@@ -112,3 +115,15 @@ There are two localities given; we will focus only on Locality 1, which contains
 Note that the specimen<-->specimen_event relationship is always 1:1; all other relationships in this model are 1:∞. One geography may contain two (or zero or two million) localities, one locality may contain two (or zero or two million) events, and one event may contain two (or zero or two million) specimen-events.
 
 (Note also that the possibility of 1:0 relationships is in the context of specimens; "unused" data objects may exist in support of other nodes, such as Media.)
+
+## History
+
+### Origins
+
+"The Old Model" consisted of two tables in a one:many relationship. "Locality" contained textual data, and "coordinates" contained spatial data. Zero or one coordinate determinations could be "accepted" for any locality. In this model, the "locality" data are structurally primary data and coordinates are structurally data about the locality, or metadata. Coordinates contained metadata (agent, method, date, reference, etc.) allowing precise tracking of their origin. There was no capacity to treat coordinates (eg, those downloaded from a GPS) as primary data. There was no history of the locality component; it was possible to edit a locality after it had been used to determine coordinates, which often lead to a partial and confusing "history" from the perspective of specimens. It was exceedingly difficult to find duplicates and "almost duplicates" (e.g., those records that differ by a few unimportant characters in the many free-text metadata fields). Localities are "facts" in this model and coordinates are "determinations." There was no additional "determination node" between localities and specimens.
+
+### New Model
+
+"The New Model" consists of a single table in which coordinates and string-data (such as specific locality) are treated as parts of the same place or data object. The entire object is a "fact" - there are no determiners involved. The determination is inserted between the specimen and the entire locality stack; the determiner is asserting the the locality as a whole applies to the specimen. Bare coordinates, bare specific locality, specific locality determined from coordinates, and coordinates determined from specific locality are all possible. The model is much more normalized, although multiple denormalizers (locality remarks, datum, various distance units) remain. A specimen may have any number of localities, each containing a determiner and date, verificationstatus, and specimen-event type. Changes (INSERT and UPDATE) are logged, and these may be used to discover the agents who georeferenced, reverse-georeferenced, changed geography, make corrections (or introduced errors), etc. A full history of locality data may be maintained from the perspective of specimens by "verifying" erroneous data as unaccepted and adding a new locality stack with a not-unaccepted VerificationStatus.
+
+
