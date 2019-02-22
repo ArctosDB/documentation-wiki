@@ -18,7 +18,7 @@ You have claimed your barcodes in Arctos and ordered or printed them, now you ar
     
    and corresponds to the final box like this:
     
-   ![](../tutorial_images/freezer_box_with_barcodes.jpg)
+   ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/freezer%20box%20with%20barcodes.jpg)
     
 ### 2.	Create a freezer box in Arctos:
    a.	Go to Manage Data > Object Tracking > Find Container
