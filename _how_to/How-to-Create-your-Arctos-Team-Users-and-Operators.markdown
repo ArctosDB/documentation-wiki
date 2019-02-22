@@ -77,7 +77,7 @@ You now have a team of Operators who can assist you with data entry and manageme
 
 ---
 
-# How To Manage Your Arctos Team: Users and Operators
+## How To Manage Your Arctos Team: Users and Operators
 
 ### 1. Managing and Reviewing Operator Roles and Permissions
 
