@@ -14,11 +14,11 @@ You have claimed your barcodes in Arctos and ordered or printed them, now you ar
 ### 1.	Attach a box barcode to the freezer box
    You may need to scrape off ice with a Kimwipe or the back-end of tweezers so that the label will adhere to a cold box. At MSB, we always attach the barcode label to the side of the box that corresponds with the “bottom” of the positions grid printed from Arctos, which would look like this:
     
-    ![](../tutorial_images/freezer_box_template.jpg)
+   ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/freezer%20box%20template.jpg)
     
-    and corresponds to the final box like this:
+   and corresponds to the final box like this:
     
-    ![](../tutorial_images/freezer_box_with_barcodes.jpg)
+   ![](../tutorial_images/freezer_box_with_barcodes.jpg)
     
 ### 2.	Create a freezer box in Arctos:
    a.	Go to Manage Data > Object Tracking > Find Container
