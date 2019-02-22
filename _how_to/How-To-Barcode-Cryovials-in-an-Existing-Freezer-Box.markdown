@@ -20,7 +20,7 @@ You have claimed your barcodes in Arctos and ordered or printed them, now you ar
     
    ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/freezer%20box%20with%20barcodes.jpg)
     
-### Create a freezer box in Arctos:  
+### Create the freezer box in Arctos:  
   * Go to Manage Data > Object Tracking > Find Container  
   * Scan in the new Barcode label in the barcode field at left and select search, the barcode should be a container label in the Universe  
   * Check the box next to the Barcode label in the tree view  
@@ -33,7 +33,7 @@ You have claimed your barcodes in Arctos and ordered or printed them, now you ar
     * Add a remark if you have additionali nformation you would like to remain with the box. Pre-Arctos freezer history or notes about the box itself (lid torn) are some of the remarks we have used  
   * Select "Save Container Edits"  
   
-### Move Freezer Box to Correct Location in Arctos
+### Move the freezer box to the correct location in Arctos
    If you have already set up your freezer, now is the time to move the new freezer box to the correct location in Arctos. If this is not the case, you can perform these steps later when your freezer has been set up.  
   * Enter the barcode of the freezer rack position on which you are working; e.g. DGR2_33_1 into the Move to Barcode box  
   * Select "Save Container Edits"  
@@ -43,12 +43,12 @@ You have claimed your barcodes in Arctos and ordered or printed them, now you ar
     
 ## Barcode Cryovials
 
-You are now ready to barcode the cryovials. At MSB, we have the information for each freezer box in an Excel sheet. We use this sheet to record the position of each cryovial in the freezer box, the type of identifier used to match the sample with a specimen, the catalog or other identifier number that matches the sample in the vial with a specimen, the tissue that is in the cryovial, and the barcode that is placed on the cryovial. This spreadsheet can be used later to create custom labels for the cryovials and to associate the barcodes with the appropriate specimen parts in bulk.
+You are now ready to barcode the cryovials. At MSB, we have the information for each freezer box in an Excel sheet. We use this sheet to record the position of each cryovial in the freezer box, the type of identifier used to match the sample with a specimen, the catalog or other identifier number that matches the sample in the vial with a specimen, the tissue that is in the cryovial, and the barcode that is placed on the cryovial. This spreadsheet can be used later to create custom labels for the cryovials and to associate the barcodes with the appropriate specimen parts in bulk rather than one-by-one.
 
-### Prepare the Physical Freezer Box
+### Prepare the physical freezer box
   Pull the box out of the freezer and place it in a cooler with ice packs frozen at the same temperature as the freezer from which your freezer box was removed for barcoding. At MSB we stress that the box of tissues must always be on ice and if the tissues have been out too long (more than 30 minutes), we ask students to put the box away and allow it to re-cool for an hour. We also use gloves and/or tweezers to reduce handling and warming of the vials.
   
-### Prepare the Arctos Freezer Box
+### Prepare the Arctos freezer box
   * Go to Manage Data > Object Tracking > Find Container  
   * Scan the box Barcode label into the barcode field at left and select search  
   * Check the box next to the Barcode label in the tree view  
@@ -71,4 +71,9 @@ You are now ready to barcode the cryovials. At MSB, we have the information for 
     * Scan the barcode into the appropriate cell in the Barcode column of the Excel worksheet  
     * Scan the barcode into the appropriate cell of the box position "map" in Arctos (note: set your scanner to tab after scan and the cursor will move to the next cell in the box, otherwise you will need to place the cursor yourself)  
     * If you have any comments about the writing on the tube or the tube itself, enter them into the Remarks cell of the Excel workbook  
-
+  
+  Refreshing the freezer box "map" will allow you to see what has been scanned into the box. When you are finished barcoding all of the vials, refresh the freezer box "map" to be sure that the virtual box in Arctos matches the physical box.  
+  
+  Return the box to the freezer and save the Excel Workbook.  You are now ready to:
+  
+  Create Cryovial Labels and Associate Barcodes with Specimen Parts
