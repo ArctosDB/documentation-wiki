@@ -74,4 +74,4 @@ You are now ready to barcode the cryovials. At MSB, we have the information for 
   
   Return the box to the freezer and save the Excel Workbook.  You are now ready to:
   
-  Create Cryovial Labels and Associate Barcodes with [Specimen Parts](http://handbook.arctosdb.org/how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html)
+  Create Cryovial Labels and [Associate Barcodes with Specimen Parts](http://handbook.arctosdb.org/how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html)
