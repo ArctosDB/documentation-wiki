@@ -1,5 +1,5 @@
 ---
-title: How To Merge Duplicate Localities
+title: How To Merge Duplicate Localities (needs update)
 layout: default_toc
 ---
 
@@ -9,8 +9,8 @@ If you notice that there are many localities that have the same specific localit
 
 * Input the criteria you want to find your locality, such as Specific Locality, Locality ID, etc., and click "Search"
 
-* Under one of the localities you want to merge, click "check for duplicates"
+<s>* Under one of the localities you want to merge, click "check for duplicates"
 
 * Scroll down until you see the "merge checked localities with this locality" button.
 
-* Check the ones you want merged (which is typically all of them unless you have some specific reason not to) and click "merge checked localities with this locality"
+* Check the ones you want merged (which is typically all of them unless you have some specific reason not to) and click "merge checked localities with this locality"</s>
