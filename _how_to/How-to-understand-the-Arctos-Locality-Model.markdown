@@ -40,7 +40,7 @@ Collecting Event adds verbatim data plus dates. Collecting events are shared; on
 * DATUM is the horizontal datum in which the original coordinates were provided, and is documented in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTDATUM)
 * COLLECTING_EVENT_NAME is a "human-readable primary key" allowing the unambiguous sharing of events among specimens, and adding stability to the event
 
-##Locality
+## Locality
 
 Locality adds formality and vertical spatial data to collecting events. Localities are shared; one locality may be parent to any number of collecting_events.
 
