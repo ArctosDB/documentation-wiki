@@ -1,31 +1,32 @@
 ---
+Author: Dusty McDonald, Teresa J. Mayfield-Meyer
 title: Container
 layout: default_toc
+date: unknown, 2019-02-22
 ---
 
-# Container
+# Object Tracking
 
 In a nutshell, Arctos Object Tracking consists of...
 
 -   "Containers" in one of two categories:
-    1.  All Parts are (also) containers.
+    1.  Specimen Parts are (also) containers 
     2.  User-defined containers are whatever someone says they are –
         tubes, tube positions in freezer boxes, boxes, shelves, ranges,
-        buildings, institutions, whatever.
--   All containers have exactly one parent container.
+        buildings, institutions, etc.
+-   All containers have exactly one "parent" container, but may hold more than one "child"
 
-That is the functional model in its entirety. **Physical specimen-bits** ARE
+That is the functional model in its entirety. **Physical specimen parts** ARE
 containers, and they can be put into other containers, which are
 arbitrary curatorial declarations hopefully arranged in some useful
-fashion, such as bones in boxes on shelves. **Barcodes** ("machine-readable
-code" – 2D codes, RFID, etc.) are just machine-readable proxies to
-container_id. **Labels** are (less reliable) human-readable proxies to
-container_id. 
+fashion, such as bones in boxes on shelves. **Barcodes** (2D codes, RFID, etc.)
+are reliable machine-readable proxies for container_id. 
+**Labels** (text) are less reliable human-readable proxies for container_id. 
 
 Dimensions, container_type, procedures to disallow
 infinite recursion, etc. – everything else about the model – are
 attempts to prevent human errors or provide useful information about or
-from containers. (All such clues are probably unnecessary in a perfect
+from containers. (All such clues may be unnecessary in a perfect
 and uniform system, but with the great diversity present in Arctos a
 remark indicating the color of a box or location of a room is
 occasionally valuable.)
@@ -40,15 +41,17 @@ reflected in a recursive, parent-child relationship. Thus, every
 container has one parent container, except for "Container Zero" (the
 Parentless Void). For example, a tissue sample is typically in a
 **cryovial**, within a **position** in a **freezer box**, within a
-**position** in a **freezer rack**, within a **freezer** in a
-**room**… seven containers.
+**position** in a **freezer rack**, within a **position** in a **freezer** in a
+**room**… eight nesting containers.
 
 With each container uniquely labeled with a barcode, tracking objects is
-done by scanning a new parent-container ID into the record of a child
-container. In the example above, the approximately 1,300 samples in a
+done by scanning a child container child container barcode into the appropriate
+parent container position(s). In the example above, the approximately 1,300 samples in a
 freezer rack can be tracked from one freezer to another by the scanning
-barcode on the freezer rack and its new parent ID (the barcode on the
-freezer).
+barcode on the freezer rack into the appropriate position in its new parent 
+(the barcode on the freezer).
+
+## Important Terms
 
 ### Container Type
 
@@ -86,18 +89,18 @@ Labels and entered into forms by their Barcode.
 
 `Container . Barcode VARCHAR(50) null`
 
- Within the database, a barcode is a string of characters
+Within the database, a barcode is a string of characters
 unique to a container. Most barcode values are meaningless "dumb
 numbers" that serve simply to associate a physical container with the
 information about the container.
 
-On labels, these characters are typically represented in one of several
+On printed container labels, these characters are typically represented in one of several
 possible machine-readable fonts. Code Three of Nine (usually called Code
 39), Code 128, and the two-dimensional DataMatrix codes are being used
 at this time. Most modern one-dimensional scanners will automatically
 recognize most one-dimensional codes, and most two-dimensional scanners
 will recognize both one-dimensional and two-dimensional codes. RFID,
-NFC, or any other method by which a machine may interrogate a tag, are
+NFC, or any other method by which a machine may interrogate a label, are
 also acceptable "fonts."
 
 Many barcode labels are preprinted, purchased in lots, and made in
@@ -194,7 +197,7 @@ Some common container dimensions:
   |regular (2 inch) freezer box  | 13     | 5      | 13     |
   |2-dram shell vial             | 2      | 5.6    | 2      |
 
-### Number of Positions
+<s>### Number of Positions
 
 `Container . Number_Positions NUMBER(22) null`
 
@@ -204,16 +207,15 @@ contain cryovials have either 81 (9 X 9 rows) or 100 (10 X 10 rows)
 subdivisions, or fixed positions, for cryovials. Recording the number of
 positions in a container allows us to make forms specific to tasks such
 as scanning cryovials into a 100-position freezer box versus an
-81-position freezer box.
+81-position freezer box.</s>
 
 ### Institution
 
 `Container . Institution_Acronym VARCHAR2(20) not null`
 
-Institution is an abbreviation that indicates which institution’s
+Institution is an abbreviation that indicates which institution
 "owns" a container. ("Owns" because containers are in fact shared across
 VPD boundaries; this is closer to an indication of creator.)
-
 
 
 ## Display Format
