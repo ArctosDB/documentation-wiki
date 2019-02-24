@@ -68,7 +68,7 @@ Locality adds formality and vertical spatial data to collecting events. Localiti
 
 * Locality plus when and who, automatically maintained by an INSERT or UPDATE trigger.
 
-##Geography
+## Geography
 
 Geography adds formalized descriptive data to locality. Geography is shared; one geography may be parent to any number of localities.
 
