@@ -5,9 +5,12 @@ author: Teresa Mayfield-Meyer
 date: 2019-02-27
 ---
 
+*UNDER CONSTRUCTION*
+
 This document will use a portion of a Museum of Southwestern Biology loan request as an example. Items were requested as follows:
 
 MSB ID:	| TISSUE TYPE
+--|--
 MSB:Mamm:285698	| liver
 MSB:Mamm:285772	| liver
 MSB:Mamm:285773	| liver
