@@ -27,7 +27,7 @@ baseurl: ""
 cover: ""
 logo: ""
 
-url: "http://handbook.arctosdb.org" # the base hostname & protocol for your site
+url: "https://handbook.arctosdb.org" # the base hostname & protocol for your site
 #url: "https://arctosdb.github.io"
 twitter_username: arctosdb
 github_username:  Arctosdb
