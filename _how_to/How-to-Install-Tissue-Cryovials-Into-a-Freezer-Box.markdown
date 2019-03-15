@@ -17,7 +17,7 @@ Before installing cryovials into positions in a freezer box you must have comple
  
      **Tip** Because cryovial barcodes are small and very densely packed, adjacent barcodes are easily scanned by mistake; you can prevent this problem by using a piece of paper with a barcode-sized hole to block all neighboring barcodes except the one that you intend to scan
 
-<a href="url"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/cryovial_scanning_tool.JPG" align="center" width="250" ></a>
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/cryovial_scanning_tool.JPG){: .center-image, width="250px"}
   
 ### Recommended Preparation
 
