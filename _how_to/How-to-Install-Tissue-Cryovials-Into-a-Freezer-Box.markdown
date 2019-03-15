@@ -4,6 +4,7 @@ layout: default_toc
 date created: 2019-03-15
 authors:April Payne, Northern Michigan University; Michelle Koo, MVZ; Teresa Mayfield-Meyer
 ---
+# How To Install Cryovials into a Freezer Box
 
 This guide provides the steps needed to install (i.e., scan) barcoded vials into a freezer box.
 
