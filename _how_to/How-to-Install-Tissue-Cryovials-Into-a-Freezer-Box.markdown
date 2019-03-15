@@ -1,28 +1,46 @@
 ---
 title: How To Install Cryovials into a Freezer Box
 layout: default_toc
+authors:April Payne, Northern Michigan University; Teresa Mayfield-Meyer
 ---
 
-(Based on a guide initally developed by April Payne, Northern Michigan University)
+This guide provides the steps needed to install (i.e., scan) barcoded vials into a freezer box.
 
-Every cryovial must have its own unique barcode before assigning them to a position in a freezer box. This guide provides the steps needed to install (i.e., scan) barcoded vials into a freezer box.
+### Required Preparation
 
-* The freezer box must already exist with a barcode in Arctos (see [How to Create a Freezer Box Container](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-a-Freezer-Box-Container)).
+Before installing cryovials into positions in a freezer box you must have completed the following:
 
-* In Arctos, go to Manage Data > Object tracking > Find Container.
+ * Every cryovial must have its own unique barcode in Arctos (see (NEEDS DOCUMENTAION)). 
 
-* Scan the freezer box's barcode into the Barcode field. Click Search.
+ * The freezer box must already exist with a barcode in Arctos (see [How to Create a Freezer Box Container](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-a-Freezer-Box-Container)).
+ 
+### Completing the Installation
 
-* Click on the little box next to your container, and a list of details will pop up in the right of the page.
+Once the steps above are complete, you are ready to install the cryovials into the freezer box.
 
-* Click on "Positions". This is equal to the number of positions in the box, usually 81 or 100. If the positions were not created when the freezer box was made, then you will be prompted to create them at this time.
+ * Log in to Arctos
+ 
+ * From the Arctos main menu select Manage Data > Object tracking > Find Container
 
-* You are now ready to scan the barcodes into the box positions.
+ * Scan the freezer box's barcode into the Barcode field and then select Search
 
-* Put your cursor in the position where you want to install a cryovial, and scan the barcode. Make sure that the correct barcode is scanned (sometimes the scanner misreads the barcode). The scanner also may scan adjacent barcodes by mistake, if you are scanning from something that has multiple barcodes; you can prevent this problem by using a piece of paper with a barcode-sized hole to block all neighboring barcodes except the one that you intend to scan.
+ * Select the little box next to your container and a list of details will pop up in the right of the page
 
-* Click the tab key to save and move to the next position. The user may need to highlight the target slot by clicking the "Tab" or positioning the cursor in it.
+ * From this list, select "Positions" and you will see a "map" of the freezer box with the positions in the format that was selected when positions were created for the box; if the positions were not created at the time the freezer box was created in Arctos, then you will be prompted to create them at this time (see NEEDS DOCUMENTAION)
 
-* Once scanned, the position will show both the scanned barcode and the associated label for the cryovial, which may or may not be the same as the barcode (e.g., the label may also be the collector's initials and number as written on the vial).
+* Ensure that you scanner is correctly programmed:  
+   * set it to Tab after scan otherwise the cursor will not automatically move to the next cell in the box
+   * scanners may not scan correctly if Caps Lock is on, be sure you know how the scanner will operate before starting to scan cryovials into position
+   * test scan a vial into MS Word or Excel to see if the results are what you expect
+
+* Place your cursor in the position where you want to install a cryovial and scan the barcode
+
+  * Check to be ssure that the correct barcode is scanned because cryovial barcodes are small and very densely packed, adjacent barcodes are easily scanned by mistake; you can prevent this problem by using a piece of paper with a barcode-sized hole to block all neighboring barcodes except the one that you intend to scan
+
+  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/cryovial_scanning_tool.JPG)
+
+  * Selecting the tab key saves the barcode in the position to which it was scanned if you have not programmed the scanner to tab after scan, you will need to select the next position for scanning either by selecting "Tab" on the computer keyboard or placing the cursor in the appropriate position
+
+ * Once scanned, the position will show both the scanned barcode and the associated label for the cryovial, which may or may not be the same as the barcode (e.g., the label may also be the collector's initials and number as written on the vial).
 
 ![Barcoded Box  Positions](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/barcoded_box_positions.PNG)
