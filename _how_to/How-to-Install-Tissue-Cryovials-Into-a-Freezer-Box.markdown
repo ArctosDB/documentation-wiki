@@ -1,8 +1,8 @@
 ---
 title: How To Install Cryovials into a Freezer Box
-layout: default_toc
-date created: 2019-03-15
 authors:April Payne, Northern Michigan University; Michelle Koo, MVZ; Teresa Mayfield-Meyer
+date created: 2019-03-15
+layout: default_toc
 ---
 # How To Install Cryovials into a Freezer Box
 
