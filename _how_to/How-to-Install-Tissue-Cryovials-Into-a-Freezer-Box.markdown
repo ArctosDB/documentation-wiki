@@ -17,6 +17,15 @@ Before installing cryovials into positions in a freezer box you must have comple
      **Tip** Because cryovial barcodes are small and very densely packed, adjacent barcodes are easily scanned by mistake; you can prevent this problem by using a piece of paper with a barcode-sized hole to block all neighboring barcodes except the one that you intend to scan
 
   ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/cryovial_scanning_tool.JPG)
+  
+### Recommended Preparation
+
+* Ensure that the scanner is correctly programmed:  
+   * set the scanner to Tab after scan otherwise the cursor will not automatically move to the next cell in the box
+   
+   * scanners may not scan correctly if Caps Lock is on, be sure you know how the scanner will operate before starting to scan cryovials into position
+   
+   **Tip** Test scan a vial into MS Word or Excel to see if the results are what you expect
  
 ### Completing the Installation
 
@@ -33,11 +42,6 @@ Once the steps above are complete, you are ready to install the cryovials into t
 
  * From this list, select "Positions" and you will see a "map" of the freezer box with the positions in the format that was selected when positions were created for the box; if the positions were not created at the time the freezer box was created in Arctos, then you will be prompted to create them at this time (see NEEDS DOCUMENTAION)
    ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/See%20Container%20Positions.jpg)
-
-* Ensure that the scanner is correctly programmed:  
-   * set the scanner to Tab after scan otherwise the cursor will not automatically move to the next cell in the box
-   * scanners may not scan correctly if Caps Lock is on, be sure you know how the scanner will operate before starting to scan cryovials into position
-   * test scan a vial into MS Word or Excel to see if the results are what you expect
 
 * Place your cursor in the position where you want to install a cryovial and scan the barcode
 
