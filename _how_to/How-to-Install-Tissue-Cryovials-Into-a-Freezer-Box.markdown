@@ -36,9 +36,9 @@ Once the steps above are complete, you are ready to install the cryovials into t
  
  * From the Arctos main menu select Manage Data > Object tracking > Find Container
 
- * Scan the freezer box barcode into the Barcode field and then select Search 
- 
- <a href="url"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Find%20Container.jpg" align="center" width="250" ></a>
+ * Scan the freezer box barcode into the Barcode field and then select Search
+
+<a href="url"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Find%20Container.jpg" align="center" width="250" ></a>
 
  * Select the little box next to your container and a list of details will pop up in the right of the page
  
@@ -60,4 +60,4 @@ Once the steps above are complete, you are ready to install the cryovials into t
 
 <a href="url"><img src="https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/barcoded_box_positions.PNG" align="center" width="500" ></a>
 
-**Congratulations! You have successfully installed cryovials into a freezer box!**
+<center>**Congratulations! You have successfully installed cryovials into a freezer box!**</center>
