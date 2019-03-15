@@ -60,4 +60,4 @@ Once the steps above are complete, you are ready to install the cryovials into t
 
 <a href="url"><img src="https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/barcoded_box_positions.PNG" align="center" width="500" ></a>
 
-**Congratualtions! You have successfully installed cryovials into a freezer box!**
+**Congratulations! You have successfully installed cryovials into a freezer box!**
