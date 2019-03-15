@@ -41,7 +41,7 @@ Once the steps above are complete, you are ready to install the cryovials into t
 <a href="url"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Find%20Container.jpg" align="center" width="250" ></a>
 
  * Select the little box next to your container and a list of details will pop up in the right of the page
- 
+
 <a href="url"><img src="(https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/See%20Container%20Positions.jpg" align="center" width="250" ></a>
 
  * From this list, select "Positions" and you will see a "map" of the freezer box with the positions in the format that was selected when positions were created for the box; if the positions were not created at the time the freezer box was created in Arctos, then you will be prompted to create them at this time (see NEEDS DOCUMENTAION)
@@ -60,4 +60,4 @@ Once the steps above are complete, you are ready to install the cryovials into t
 
 <a href="url"><img src="https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/barcoded_box_positions.PNG" align="center" width="500" ></a>
 
-<center>**Congratulations! You have successfully installed cryovials into a freezer box!**</center>
+**Congratulations! You have successfully installed cryovials into a freezer box!**
