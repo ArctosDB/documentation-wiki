@@ -46,7 +46,7 @@ Once the steps above are complete, you are ready to install the cryovials into t
 
  * From this list, select "Positions" and you will see a "map" of the freezer box with the positions in the format that was selected when positions were created for the box; if the positions were not created at the time the freezer box was created in Arctos, then you will be prompted to create them at this time (see NEEDS DOCUMENTAION)
  
-<a href="url"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/empty%20freezer%20box%20map.JPG" align="center" width="250" ></a>
+<a href="url"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/empty%20freezer%20box%20map.JPG" align="center" width="500" ></a>
 
  * Place your cursor in the position where you want to install a cryovial and scan the barcode
 
@@ -58,6 +58,6 @@ Once the steps above are complete, you are ready to install the cryovials into t
 
  * Repeat the scanning process until all the vials are scanned into position, a freezer box filled with cryovials will appear like this:
 
-<a href="url"><img src="https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/barcoded_box_positions.PNG" align="center" width="250" ></a>
+<a href="url"><img src="https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/barcoded_box_positions.PNG" align="center" width="500" ></a>
 
 **Congratualtions! You have successfully installed cryovials into a freezer box!**
