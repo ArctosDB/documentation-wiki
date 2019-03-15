@@ -59,6 +59,6 @@ Once the steps above are complete, you are ready to install the cryovials into t
 
  * Repeat the scanning process until all the vials are scanned into position, a freezer box filled with cryovials will appear like this:
 
-<a href="url"><img src="https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/barcoded_box_positions.PNG" align="center" width="500" ></a>
+<a href="url"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/barcoded_box_positions.PNG" align="center" width="500" ></a>
 
 **Congratulations! You have successfully installed cryovials into a freezer box!**
