@@ -38,7 +38,7 @@ Once the steps above are complete, you are ready to install the cryovials into t
 
  * Scan the freezer box barcode into the Barcode field and then select Search 
  
- <a href="url"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Find%20Container.jpg" align="center" width="250" ></a>
+ <center><a href="url"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Find%20Container.jpg" align="center" width="250" ></a></center>
 
  * Select the little box next to your container and a list of details will pop up in the right of the page
  
@@ -50,7 +50,7 @@ Once the steps above are complete, you are ready to install the cryovials into t
 
  * Place your cursor in the position where you want to install a cryovial and scan the barcode
 
- * Check that the correct barcode is scanned 
+ * Check that the correct barcode is scanned
 
  * Once scanned, the position will show both the scanned barcode and the associated label for the cryovial, which may or may not be the same as the barcode (e.g., the label may also be the collector's initials and number as written on the vial)
     
