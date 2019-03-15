@@ -3,6 +3,8 @@ title: How To Create and Edit Containers
 layout: default_toc
 ---
 
+# How To Create and Edit Containers
+
 **To create containers, barcodes must be uploaded FIRST.  In this proces you will associate barcodes with a temporary container type. This is accomplished as described in “Creating a Container Series” below. Once the barcodes have been uploaded into Arctos, the containers that they represent can be edited as described in "Editing an Individual Container" and "Bulk Editing Containers".**
 
 ### Creating a Container Series
