@@ -45,7 +45,7 @@ If the label still looks acceptable, return to the Manage Reports page and re-lo
 
 Seriously, be paranoid about this.
 
-Locate the latest copy of “ColdFusion 10 Report Builder” (currently available from http://www.adobe.com/support/coldfusion/downloads.html, but Adobe URLs are notoriously unstable). Install it on a Windows machine or virtual machine – there are no non-exe versions.
+Locate the latest copy of “ColdFusion Report Builder” (currently available from https://www.adobe.com/support/coldfusion/downloads.html#cf2018devtools, but Adobe URLs are notoriously unstable). Install it on a Windows machine or virtual machine – there are no non-exe versions.
 
 Open the CFR in report builder and manipulate the report as necessary.
 
