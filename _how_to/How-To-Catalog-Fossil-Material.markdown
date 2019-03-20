@@ -9,7 +9,7 @@ layout: default_toc
 
 # How To Catalog Fossil Material
 
-This guide provides advice on the best method for cataloging fossil material in Arctos.
+This guide provides advice for cataloging fossil material in Arctos.
 
 ### Trace Fossils
 
