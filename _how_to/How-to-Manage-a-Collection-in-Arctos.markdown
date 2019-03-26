@@ -28,7 +28,8 @@ The Manage Collection form in Arctos allows new or existing collections to creat
 * **Taxonomy Source:** A dropdown list for the source of the taxonomic classification used for the collection.
 
 * **Contacts:** Anyone who is a contact for the collection must first be entered into Arctos as an agent, with a valid email address (see "[How to Create Agents](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-Agents)"). Add the name of each person who is a contact for the collection: type their last name and hit the tab key to bring up the list of agents with that name, then select the correct agent. 
-For each contact, specify their [Contact Agent Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_CONTACT_ROLE) through the dropdown:
+For each contact, specify their [Contact Agent Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_CONTACT_ROLE) through the dropdown.  
+It is recommended that every collection have at least one Data Quality and one Loan Request contact. Technical Support contact should be given as Dusty L. McDonald unless otherwise advised.
 
 
 * **Header Options:** Collections may customize the header that appears at the top of a collection record or when searching a collection portal.
