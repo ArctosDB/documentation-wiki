@@ -5,7 +5,9 @@ layout: default_toc
 
 # How to Manage a Collection
 
-The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created). Users will need to have Manage_Collection permission for that collection in order to do this. Access this form through the following steps in the Arctos dropdown menu: **Manage Data -> Metadata -> Manage Collection -> Find Collection.**
+The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created). Users will need to have Manage_Collection permission for a collection in order to use this tool. Access this form through the following steps in the Arctos main menu: **Manage Data -> Metadata -> Manage Collection -> Find Collection.**
+
+## Managing a Collection for the First Time
 
 * **Description:** Enter a description for the collection. This information should be sufficiently detailed that it provides a user with information about the size and scope of the collection, as well as any special holdings. The Arctos description should match the collection description in the [GRBIO](http://grbio.org) registry of the collection.
 
@@ -45,3 +47,13 @@ It is recommended that every collection have at least one Data Quality and one L
   * META_KEYWORDS: HTML header; for bots, probably no longer useful.
   * STYLESHEET: CSS stylesheet. Load css to /includes/css/ or coordinate with a DBA.
   
+## Managing a Collection Over Time
+  
+It is recommended that each collection's metadata be reviewed at least annually to ensure that contact and web link information is up to date. It is important to check the following for accuracy:
+
+ * collection contacts and associated emails to ensure that someone will receive alerts
+ * links to loan forms, collection web pages, etc. to ensure there are no dead links
+ * update collection description if necessary
+ * update citation if necessary
+
+To accomplish this, from the Arctos main menus select **Manage Data -> Metadata -> Manage Collection -> Find Collection.** and select the collection you wish to update from the dropdown list. Make the necessary edits and select **Save Changes** at the bottom of the page.
