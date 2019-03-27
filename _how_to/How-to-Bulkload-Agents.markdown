@@ -17,7 +17,7 @@ If you have a list of the most complete names for the Agents you need to add:
 
 ### Use the Agent Namestring Formatter
 
-This tool will split complete names into first, middle, and last and provide information about whether an Agent name exists in Arctos. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter
+This tool will split complete names into first, middle, and last and provide information about whether an Agent name exists in Arctos. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter** 
 
 <img width="213px" border="1" alt="screen shot 2018-04-26 at 8 54 55 am" src="https://user-images.githubusercontent.com/5720791/39317058-884d16f2-492f-11e8-9297-b920e433275b.png">
 
