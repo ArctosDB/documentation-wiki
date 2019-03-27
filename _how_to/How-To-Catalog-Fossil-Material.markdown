@@ -15,7 +15,7 @@ This guide provides advice for cataloging fossil material in Arctos. A fossil is
 
 Fossils formed by replacement of living tissue with mineral or chemical components appear as preserved remains of an organism. These items should be cataloged with a part name that describes the body part or parts preserved. Additionally, an appropriate part preservation should be applied to describe the method of fossilization.
 
- **Part Preservation Attributes**
+ **Part Preservation Attributes**  
  Appropriate part preservation attributes for body fossils include:
 
   * original tissue: fossil material which has not been mineralized and the original tissue has not been significantly chemically altered
@@ -23,7 +23,7 @@ Fossils formed by replacement of living tissue with mineral or chemical componen
   * recrystallization:	original minerals in the skeletal tissues are converted into a new crystal structure
   * replacement:	original tissue is replaced with minerals from the surrounding water and sediment
 
- **Body Fossil Example**
+ **Body Fossil Example**  
  As an example, the British Museum's Archaeopteryx catalog record in Arctos would include the following:
 
  Identification = Archaeopteryx
