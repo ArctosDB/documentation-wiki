@@ -34,7 +34,7 @@ Fossils formed by replacement of living tissue with mineral or chemical componen
 
  Trace fossils are indirect evidence of life in the past, such as the footprints, tracks, burrows, borings, and feces left behind by animals, rather than the preserved remains of the body of the actual animal itself.
 
- **Coprolites**
+ **Coprolites**  
   Coprolites are fossilized feces, a special kind of trace fossil and rather than using the part "trace fossil" for these, we recommend the use of the part "coprolite".
 
 When cataloging trace fossils, the part in Arctos is generally "trace fossil". Because there are so many methods of trace fossil creation, the part preservation attribute is an important component for trace fossils as it describes the method of fossilization. Part preservation attributes cannot be entered or bulkloaded as part of the original specimen record, but are easily added using the Bulkload Part Attributes Tool (NEED DOCUMENTATION).
@@ -51,7 +51,7 @@ When cataloging trace fossils, the part in Arctos is generally "trace fossil". B
 
 Replicas of fossil material are often made for public exhibit, teaching, or sharing with other institutions. We recommend that such items be cataloged using the part name appropriate to the anatomy of the item replicated with the part preservation attribute "reproduction".
 
-  **Replica Example**
+  **Replica Example**  
   As an example, the object record for a replica of the British Museum's Archaeopteryx would include the following:
 
   Identification = Archaeopteryx  
