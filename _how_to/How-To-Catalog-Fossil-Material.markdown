@@ -29,8 +29,8 @@ Fossils formed by replacement of living tissue with mineral or chemical componen
  Identification = Archaeopteryx  
  part name = skeleton  
  part preservation = permineralization  
-  
- ### Trace Fossils
+
+### Trace Fossils
 
  Trace fossils are indirect evidence of life in the past, such as the footprints, tracks, burrows, borings, and feces left behind by animals, rather than the preserved remains of the body of the actual animal itself.
 
