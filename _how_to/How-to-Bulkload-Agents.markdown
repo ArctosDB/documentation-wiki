@@ -19,7 +19,11 @@ If you have a list of the most complete names for the Agents you need to add:
 
 This tool will split complete names into first, middle, and last and provide information about whether an Agent name exists in Arctos. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter** 
 
-This tool requires upload of a CSV file with the single column header "preferred_name"
+This tool requires upload of a CSV file with the single column header "preferred_name" which should include a list of names for Agents you intend to use. Review the list for alternate spellings and versions of "unknown" (names that are only initials or include only initials plus last name). Try to make each name as complete as possible and to ensure that there are no duplicates. Don't lose the original spellings/abbreviations as you will need to ensure they are either part of an Agent or are modified in your data to match an Agent name before you load your data.
+
+An example of what a completed CSV would look like:
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agent_splitter_template.JPG)
 
 
 <img width="213px" border="1" alt="screen shot 2018-04-26 at 8 54 55 am" src="https://user-images.githubusercontent.com/5720791/39317058-884d16f2-492f-11e8-9297-b920e433275b.png">
