@@ -10,43 +10,21 @@ date: 2018-04-26
 
 Please keep in mind that Agents are shared across all Arctos collections. Read the [Agent Documentation](http://handbook.arctosdb.org/documentation/agent.html) before proceeding. 
 
+## Check to see if Agents Exist in Arctos
+
+
+
 This tool is most often used as part of data migration by incoming collections but it may also be useful when a group of new Agents needs to be entered for other reasons such as members of an expedition or group of students working on a project. 
 
-To access the Bulkload Agents tool, from the Arctos main menu select **Enter Data > Batch Tools > Bulkload Agents** 
+### Use the Agent Name Splitter to create your CSV
 
-<img width="322px" alt="screen shot 2018-04-26 at 8 54 33 am" src="https://user-images.githubusercontent.com/5720791/39317022-76b17cda-492f-11e8-822d-b04463e2714d.png">
-
-
-## Prepare a Bulkload File
-
-The Agent Bulkload tool requires a CSV file with the following column headers:
-
- * agent_type: items entered in this column fall under a controlled vocabulary which can be found at	[CTAGENT_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE)  
- * preferred_name: items entered in this column should be the full name of the Agents you wish to add. **NOTE** It is best to enter the most complete version of a person or organization's name here. (i.e. John Boy Jones, City Park Service, Jane G. Jones, etc.)
- 
-The Agent Bulkload tool will also accept alternate names for the same Agent in optional column headers:
-
- * other_name_n: items entered in this column may be part of an Agent's name, an alternate spelling of the Agent's name, or an alternate name for the same Agent.  
- * other_name_type_n: **REQUIRED if other_name_n is given** items entered in this column describe the alternate name given in **other_name_n** and are controlled by vocabulary which can be found at [CTAGENT_NAME_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_NAME_TYPE)   
- * agent_status_n: items entered in this column provide information about the life status of an Agent and are controlled by vocabulary found at [CTAGENT_STATUS](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS)  
- * agent_status_date_n: **REQUIRED if agent_Status_n is given**	items in this column are dates that correspond to the life status given in **agent_status_n** and must be in the format YYYY-MM-DD  
- * agent_remark: items in this column might include a one sentence description of the agent or anything that might helpful to other users in understanding who or what the agent is **Never use remarks for data which can be linked or formalized elsewhere** 
-
-  **NOTE** The "n" in the column headers above should be replaced with a number so that there may be multiple alternate names and associated name types added for a given Agent (up to 6 other_name_n and associated other_name_type_n, up to 2 agent_status_n and related agent_stats_date_n)
-
-If you have not prepared a CSV file for this tool, it is easy to start one by downloading a template. To get the template, just select **get CSV template** at the top of the Bulkload Agents tool page.
-
-An example of what a completed CSV would look like:
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agent_Bulk_Template.JPG)
-
-
-If you have a list of names
+If you have a list of the most complete names for the Agents you need to add:
 
 <img width="198px" alt="screen shot 2018-04-26 at 8 55 23 am" src="https://user-images.githubusercontent.com/5720791/39317105-a4742a14-492f-11e8-87f7-fa6c9b9ed89f.png">
 
 
 
-you can split them with the Agent Name Splitter.
+you can split them with the Agent Namestring Formatter tool. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter
 
 <img width="213px" border="1" alt="screen shot 2018-04-26 at 8 54 55 am" src="https://user-images.githubusercontent.com/5720791/39317058-884d16f2-492f-11e8-9297-b920e433275b.png">
 
@@ -128,6 +106,33 @@ Someone with admin access will see a scary red box with an override link.
 
 
 Click it, if there are no remaining errors the data should load.
+
+To access the Bulkload Agents tool, from the Arctos main menu select **Enter Data > Batch Tools > Bulkload Agents** 
+
+<img width="322px" alt="screen shot 2018-04-26 at 8 54 33 am" src="https://user-images.githubusercontent.com/5720791/39317022-76b17cda-492f-11e8-822d-b04463e2714d.png">
+
+
+## Prepare a Bulkload File
+
+The Agent Bulkload tool requires a CSV file with the following column headers:
+
+ * agent_type: items entered in this column fall under a controlled vocabulary which can be found at	[CTAGENT_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE)  
+ * preferred_name: items entered in this column should be the full name of the Agents you wish to add. **NOTE** It is best to enter the most complete version of a person or organization's name here. (i.e. John Boy Jones, City Park Service, Jane G. Jones, etc.)
+ 
+The Agent Bulkload tool will also accept alternate names for the same Agent in optional column headers:
+
+ * other_name_n: items entered in this column may be part of an Agent's name, an alternate spelling of the Agent's name, or an alternate name for the same Agent.  
+ * other_name_type_n: **REQUIRED if other_name_n is given** items entered in this column describe the alternate name given in **other_name_n** and are controlled by vocabulary which can be found at [CTAGENT_NAME_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_NAME_TYPE)   
+ * agent_status_n: items entered in this column provide information about the life status of an Agent and are controlled by vocabulary found at [CTAGENT_STATUS](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS)  
+ * agent_status_date_n: **REQUIRED if agent_Status_n is given**	items in this column are dates that correspond to the life status given in **agent_status_n** and must be in the format YYYY-MM-DD  
+ * agent_remark: items in this column might include a one sentence description of the agent or anything that might helpful to other users in understanding who or what the agent is **Never use remarks for data which can be linked or formalized elsewhere** 
+
+  **NOTE** The "n" in the column headers above should be replaced with a number so that there may be multiple alternate names and associated name types added for a given Agent (up to 6 other_name_n and associated other_name_type_n, up to 2 agent_status_n and related agent_stats_date_n)
+
+If you have not prepared a CSV file for this tool, it is easy to start one by downloading a template. To get the template, just select **get CSV template** at the top of the Bulkload Agents tool page.
+
+An example of what a completed CSV would look like:
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agent_Bulk_Template.JPG)
 
 <img width="163" alt="screen shot 2018-04-26 at 9 04 59 am" src="https://user-images.githubusercontent.com/5720791/39317628-f1b72abe-4930-11e8-817e-251362902aea.png">
 
