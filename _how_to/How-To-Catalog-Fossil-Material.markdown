@@ -13,7 +13,7 @@ This guide provides advice for cataloging fossil material in Arctos. A fossil is
 
 ### Body Fossils
 
-Fossils formed by replacement of living tissue with mineral or chemical components appear as preserved remains of an organism. These items should be cataloged with a part name that describes the body part or parts preserved. Additionally, an appropriate part preservation should be applied to describe the method of fossilization.
+Fossils formed by replacement of living tissue with mineral or chemical components appear as preserved remains of an organism. These items should be cataloged with a part name that describes the body part or parts preserved. Additionally, an appropriate part preservation should be applied to describe the method of fossilization. Part preservation attributes cannot be entered or bulkloaded as part of the original specimen record, but are easily added using the Bulkload Part Attributes Tool (NEED DOCUMENTATION).
 
  **Part Preservation Attributes**  
  Appropriate part preservation attributes for body fossils include:
@@ -39,7 +39,7 @@ Fossils formed by replacement of living tissue with mineral or chemical componen
 
 When cataloging trace fossils, the part in Arctos is generally "trace fossil". Because there are so many methods of trace fossil creation, the part preservation attribute is an important component for trace fossils as it describes the method of fossilization. Part preservation attributes cannot be entered or bulkloaded as part of the original specimen record, but are easily added using the Bulkload Part Attributes Tool (NEED DOCUMENTATION).
 
- **Part Preservation Attributes**
+ **Part Preservation Attributes**  
  Appropriate part preservation attributes for the part "trace fossil" include:
 
   * fossil cast:	formed by mineral deposits into the mold left by rotting organic material, resulting in a three-dimensional replica of the hard structures of a plant or animal
