@@ -5,26 +5,19 @@ author: DLM, Teresa Mayfield-Meyer
 date: 2018-04-26
 ---
 
-
 # How To Bulkload Agents
 
 Please keep in mind that Agents are shared across all Arctos collections. Read the [Agent Documentation](http://handbook.arctosdb.org/documentation/agent.html) before proceeding. 
 
 ## Check to see if Agents Exist in Arctos
 
-
-
-This tool is most often used as part of data migration by incoming collections but it may also be useful when a group of new Agents needs to be entered for other reasons such as members of an expedition or group of students working on a project. 
-
-### Use the Agent Name Splitter to create your CSV
-
 If you have a list of the most complete names for the Agents you need to add:
 
 <img width="198px" alt="screen shot 2018-04-26 at 8 55 23 am" src="https://user-images.githubusercontent.com/5720791/39317105-a4742a14-492f-11e8-87f7-fa6c9b9ed89f.png">
 
+### Use the Agent Namestring Formatter
 
-
-you can split them with the Agent Namestring Formatter tool. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter
+This tool will split complete names into first, middle, and last and provide information about whether an Agent name exists in Arctos. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter
 
 <img width="213px" border="1" alt="screen shot 2018-04-26 at 8 54 55 am" src="https://user-images.githubusercontent.com/5720791/39317058-884d16f2-492f-11e8-9297-b920e433275b.png">
 
@@ -111,6 +104,7 @@ To access the Bulkload Agents tool, from the Arctos main menu select **Enter Dat
 
 <img width="322px" alt="screen shot 2018-04-26 at 8 54 33 am" src="https://user-images.githubusercontent.com/5720791/39317022-76b17cda-492f-11e8-822d-b04463e2714d.png">
 
+This tool is most often used as part of data migration by incoming collections but it may also be useful when a group of new Agents needs to be entered for other reasons such as members of an expedition or group of students working on a project. 
 
 ## Prepare a Bulkload File
 
