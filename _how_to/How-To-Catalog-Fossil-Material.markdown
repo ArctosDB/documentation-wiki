@@ -34,10 +34,7 @@ Fossils formed by replacement of living tissue with mineral or chemical componen
 
  Trace fossils are indirect evidence of life in the past, such as the footprints, tracks, burrows, borings, and feces left behind by animals, rather than the preserved remains of the body of the actual animal itself.
 
- **Coprolites**  
-  Coprolites are fossilized feces, a special kind of trace fossil and rather than using the part "trace fossil" for these, we recommend the use of the part "coprolite".
-
-When cataloging trace fossils, the part in Arctos is generally "trace fossil". Because there are so many methods of trace fossil creation, the part preservation attribute is an important component for trace fossils as it describes the method of fossilization. Part preservation attributes cannot be entered or bulkloaded as part of the original specimen record, but are easily added using the Bulkload Part Attributes Tool (NEED DOCUMENTATION).
+ When cataloging trace fossils, the part in Arctos is generally "trace fossil". Because there are so many methods of trace fossil creation, the part preservation attribute is an important component for trace fossils as it describes the method of fossilization. Part preservation attributes cannot be entered or bulkloaded as part of the original specimen record, but are easily added using the Bulkload Part Attributes Tool (NEED DOCUMENTATION).
 
  **Part Preservation Attributes**  
  Appropriate part preservation attributes for the part "trace fossil" include:
@@ -46,6 +43,9 @@ When cataloging trace fossils, the part in Arctos is generally "trace fossil". B
   * fossil imprint:	found in silt or clay, like the mold or impression fossils, but they leave behind just a two-dimensional imprint
   * fossil mold, external:	formed when a plant or animal decays completely but leaves behind an external impression of itself, like a hollow mold; no organic material is present and the organism itself is not copied
   * fossil mold, internal: formed when a plant or animal is filled in with sediment and then decays completely, leaving behind an internal impression of itself; no organic material is present and the organism itself is not copied
+  
+  **Coprolites**  
+  Coprolites are fossilized feces, a special kind of trace fossil. Rather than using the part "trace fossil" for these, we recommend the use of the part "coprolite". 
  
 ### Replicas
 
