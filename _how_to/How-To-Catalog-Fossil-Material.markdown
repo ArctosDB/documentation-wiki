@@ -49,7 +49,7 @@ Fossils formed by replacement of living tissue with mineral or chemical componen
  
 ### Replicas
 
-Replicas of fossil material are often made for public exhibit, teaching, or sharing with other institutions. We recommend that such items be cataloged using the part name appropriate to the anatomy of the item replicated (for body fossils) or the appropriate term (trace fossil or coprolite) for trace fossils with the part preservation attribute "reproduction".
+Replicas of fossil material are often made for public exhibit, teaching, or sharing with other institutions. We recommend that such items be cataloged using the part name appropriate to the anatomy of the item replicated for body fossils or with the part name trace fossil or coprolite for trace fossils with the part preservation attribute "reproduction".
 
   **Replica Example**  
   As an example, the object record for a replica of the British Museum's Archaeopteryx would include the following:
