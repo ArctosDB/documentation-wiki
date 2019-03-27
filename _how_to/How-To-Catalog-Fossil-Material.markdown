@@ -26,9 +26,9 @@ Fossils formed by replacement of living tissue with mineral or chemical componen
  **Body Fossil Example**  
  As an example, the British Museum's Archaeopteryx catalog record in Arctos would include the following:
 
- Identification = Archaeopteryx 
- part name = skeleton 
- part preservation = permineralization 
+ Identification = Archaeopteryx  
+ part name = skeleton  
+ part preservation = permineralization  
   
  ### Trace Fossils
 
@@ -54,6 +54,6 @@ Replicas of fossil material are often made for public exhibit, teaching, or shar
   **Replica Example**
   As an example, the object record for a replica of the British Museum's Archaeopteryx would include the following:
 
-  Identification = Archaeopteryx 
-  part name = skeleton 
+  Identification = Archaeopteryx  
+  part name = skeleton  
   part preservation = reproduction
