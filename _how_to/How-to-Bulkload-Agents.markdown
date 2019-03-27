@@ -8,9 +8,11 @@ date: 2018-04-26
 
 # How To Bulkload Agents
 
-This tool is most often used as part of data migration by incoming collections but it may also be useful when a group of new Agents needs to be entered for other reasons such as members of an expedition or group of students working on a project.
+Please keep in mind that Agents are shared across all Arctos collections. Read the [Agent Documentation](http://handbook.arctosdb.org/documentation/agent.html) before proceeding. 
 
-To access the tool used to Bulkload Agents, from the Arctos main menu select **Enter Data > Batch Tools > Bulkload Agents**.
+This tool is most often used as part of data migration by incoming collections but it may also be useful when a group of new Agents needs to be entered for other reasons such as members of an expedition or group of students working on a project. 
+
+To access the Bulkload Agents tool, from the Arctos main menu select **Enter Data > Batch Tools > Bulkload Agents** 
 
 <img width="322px" alt="screen shot 2018-04-26 at 8 54 33 am" src="https://user-images.githubusercontent.com/5720791/39317022-76b17cda-492f-11e8-822d-b04463e2714d.png">
 
@@ -30,10 +32,12 @@ The Agent Bulkload tool will also accept alternate names for the same Agent in o
  * agent_status_date_n: **REQUIRED if agent_Status_n is given**	items in this column are dates that correspond to the life status given in **agent_status_n** and must be in the format YYYY-MM-DD  
  * agent_remark: items in this column might include a one sentence description of the agent or anything that might helpful to other users in understanding who or what the agent is **Never use remarks for data which can be linked or formalized elsewhere** 
 
-**NOTE** The "n" in the column headers above should be replaced with a number so that there may be multiple alternate names and associated name types added for a given Agent (other_name_type_1, other_name_type_2, other_name_type_3, etc.)
+  **NOTE** The "n" in the column headers above should be replaced with a number so that there may be multiple alternate names and associated name types added for a given Agent (up to 6 other_name_n and associated other_name_type_n, up to 2 agent_status_n and related agent_stats_date_n)
 
 If you have not prepared a CSV file for this tool, it is easy to start one by downloading a template. To get the template, just select **get CSV template** at the top of the Bulkload Agents tool page.
 
+An example of what a completed CSV would look like:
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agent_Bulk_Template.JPG)
 
 
 If you have a list of names
