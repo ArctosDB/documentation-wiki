@@ -28,7 +28,7 @@ Fossils formed by replacement of living tissue with mineral or chemical componen
 
  Identification = Archaeopteryx  
  part name = skeleton  
- part preservation = permineralization  
+ part preservation = permineralization
 
 ### Trace Fossils
 
