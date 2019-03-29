@@ -21,7 +21,7 @@ An example of what a completed CSV would look like:
  
 ### Use the Agent Namestring Formatter
 
-This tool will split complete names into first, middle, and last and provide information about whether an Agent name exists in Arctos. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter** 
+This tool will format names into "first middle last" and provide information about whether an Agent name appears proper, may have invalid characters, or be missing information. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter** 
 
 Use the preferred_name file created above to upload to this tool. 
 
