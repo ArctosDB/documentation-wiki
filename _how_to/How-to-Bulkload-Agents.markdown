@@ -34,6 +34,11 @@ comment: remarks about the name indicating that you may need to correct it in or
 
 To download the results, select "get CSV" at the top of the results page. The manipulated names can be corrrected as necessary and used in the Agent bulkload tool.
 
+**Comment Help**
+Comments can be cryptic, they may mean the following:
+
+ * spaces - There are more than two spaces in the name as would be expected from a "first middle last" configuration. This may be correct such as in the case of "Jr." or "III" and can be ignored, but they should be reviewed to ensure that they are what is expected. 
+ * weirdchars - There may be non-printing characters in the name, if so a version of the name without them should be created and added to the Agent record as an aka. This may also indicate that non-alphabetic but printable characters are present, "-" is one of the most common. This does not require a change to the name, but they should be reviewed to ensure that they are what is expected. 
 
 Format is given at the top:
 
