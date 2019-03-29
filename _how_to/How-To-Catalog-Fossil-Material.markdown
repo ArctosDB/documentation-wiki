@@ -29,21 +29,21 @@ Trace fossils are indirect evidence of life in the past, such as the footprints,
 When cataloging trace fossils, the part in Arctos is generally "trace fossil". Because there are so many methods of trace fossil creation, the part preservation attribute is an important component for trace fossils as it describes the method of fossilization. For this reason, an appropriate part preservation (see Part Preservation below) should be applied to describe the method of fossilization.
   
  **Trace Fossil Example**  
- As an example, (NEED DOCUMENTAION) catalog record in Arctos would include the following:
+ As an example, a record of a sauropod track (in this case one that is a natural mold, i.e. a convex track that represents an infilling of the original track) in Arctos would include the following:
 
- Identification = (NEED DOCUMENTAION)  
- part name = trace fossil  
- part preservation = (NEED DOCUMENTAION)
+ Identification = Otozoum
+ part name = trace fossil
+ part preservation = fossil mold, external
  
   **Coprolites**  
   Coprolites are fossilized feces, a special kind of trace fossil. Rather than using the part "trace fossil" for these, we recommend the use of the part "coprolite". 
   
  **Coprolite Example**  
- As an example, (NEED DOCUMENTAION) catalog record in Arctos would include the following:
+ As an example, a shark coprolite catalog record in Arctos would include the following:
 
- Identification = (NEED DOCUMENTAION)  
- part name = coprolite  
- part preservation = (NEED DOCUMENTAION)
+ Identification = Chondrichthyes
+ part name = coprolite
+ part preservation = replacement
 
 ### Replicas
 
