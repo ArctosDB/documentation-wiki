@@ -30,6 +30,20 @@ When cataloging trace fossils, the part in Arctos is generally "trace fossil". B
 
   **Coprolites**  
   Coprolites are fossilized feces, a special kind of trace fossil. Rather than using the part "trace fossil" for these, we recommend the use of the part "coprolite". 
+  
+ **Trace Fossil Example**  
+ As an example, (NEED DOCUMENTAION) catalog record in Arctos would include the following:
+
+ Identification = (NEED DOCUMENTAION)
+ part name = trace fossil  
+ part preservation = (NEED DOCUMENTAION)
+ 
+ **Coprolite Example**  
+ As an example, (NEED DOCUMENTAION) catalog record in Arctos would include the following:
+
+ Identification = (NEED DOCUMENTAION)
+ part name = coprolite  
+ part preservation = (NEED DOCUMENTAION)
 
 ### Replicas
 
