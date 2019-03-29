@@ -58,7 +58,7 @@ Replicas of fossil material are often made for public exhibit, teaching, or shar
 
 
 ### Part Preservation  
-Part preservation attributes cannot be entered or bulkloaded as part of the original specimen record, but are easily added using the Bulkload Part Attributes Tool (NEED DOCUMENTATION).
+Part preservation attributes cannot be entered or bulkloaded as part of the original specimen record, but are easily added using the Bulkload Part Attributes Tool (NEED DOCUMENTATION). Part preservation attributes are controlled by vocabulary found at [CTPART_PRESERVATION](http://arctos.database.museum/Admin/CodeTableEditor.cfm?action=editNoCollectionCode&tbl=CTPART_PRESERVATION#carbonization)
 
 Appropriate part preservation attributes for fossils include, but are not limited to:
 
