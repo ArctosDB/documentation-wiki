@@ -31,7 +31,9 @@ There are two types of “roles” in Arctos: Collection roles and access roles.
 
 Some objects (taxonomy, media, agents, places) are shared amongst collections. People who have access to these data must fully understand that Arctos is a shared system, and must always consider the implications of working in a shared system.
 
-**IMPORTANT**: The following information is a summary believed accurate at the time of writing. The ONLY authoritative role documentation is available from the “manage users” page within Arctos, which is dynamically built from the database administrative environment.
+**IMPORTANT: The following information is a summary believed accurate at the time of writing. The ONLY authoritative role documentation is available from the “manage users” page within Arctos, which is dynamically built from the database administrative environment.**
+
+**NOTE**: Environment is set at login; users whose account has changed will need to log out and back in to receive changes.
 
 - PUBLIC – some crazy Oracle thing; just give it to everybody
 - COLDFUSION_USER – the basic “one of us” role – give it to anyone who will do anything
