@@ -68,6 +68,7 @@ Once a user has created their user account and given you their username, complet
 * Choose the collection that you want to grant the Operator access to and select the “Grant Access” button. The collection you selected and “Revoke” will appear below the choice fields. To grant access to another collection, simply repeat the process.
 * Select the [roles](http://arctos.database.museum/Admin/user_roles.cfm) you want this Operator to have by selecting from the dropdown list and selecting "Grant Role." If you want to grant more than one role, simply repeat the process. ALL Operators should be assigned the "PUBLIC" and "COLDFUSION_USER" roles in order for them to be able to function in their other roles.
 * Once you have assigned the Operator all of the collections and roles they need, exit the form.
+* Before the Operator can make full use of Arctos as you have assigned, they will need to log out of Arctos and log in again.
 * When Operators are logged in, they will only see the collections to which they have access. To view data for more than those collections, they will need to search while logged out.
 
 ---
