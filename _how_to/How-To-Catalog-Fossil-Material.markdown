@@ -31,7 +31,7 @@ When cataloging trace fossils, the part in Arctos is generally "trace fossil". B
  **Trace Fossil Example**  
  As an example, (NEED DOCUMENTAION) catalog record in Arctos would include the following:
 
- Identification = (NEED DOCUMENTAION)
+ Identification = (NEED DOCUMENTAION)  
  part name = trace fossil  
  part preservation = (NEED DOCUMENTAION)
  
