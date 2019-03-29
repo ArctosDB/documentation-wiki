@@ -51,24 +51,20 @@ The process may take a while. When it is complete, you will see a list of the na
 
 <img width="98px" alt="screen shot 2018-04-26 at 8 55 46 am" src="https://user-images.githubusercontent.com/5720791/39317112-a7ebb32e-492f-11e8-92bd-0544e390b2a0.png">
 
-
-This will run the agent checker function, and it will ALWAYS fail - agent type is not provided to this application in the interest of simplicity. Note any "fatal errors" - they will continue to cause problems.
+This will run the agent checker function, and it will ALWAYS fail - agent type is not provided to this application in the interest of simplicity. Scroll to the bottom of the data table that is generated and select **Download**
 
 <img width="100%" alt="screen shot 2018-04-26 at 8 56 50 am" src="https://user-images.githubusercontent.com/5720791/39317159-c8c3f926-492f-11e8-8a13-3cb8096b3759.png">
 
-
-
-The Agent Name Splitter injects a "formatted name." You may wish to replace preferred_name with this standardization; you will need to keep data synchronized. In this case the preferred names were already formatted according to the [Guidelines](/documentation/agent.html#creating--maintaining-agents), there is nothing of value in "formatted name," and it can simply be deleted. 
+The downloaded results can be used to correct names and remove names that are already in Arctos. The **Agent Name Splitter** injects a "formatted name." You may wish to replace preferred_name with this standardization. If the preferred names were already formatted according to the [Guidelines](/documentation/agent.html#creating--maintaining-agents), there is nothing of value in "formatted name," and both the Other_Name_1 and Other_Name_Type_1 columns can be deleted. 
 
 <img width="462" alt="screen shot 2018-04-26 at 8 58 43 am" src="https://user-images.githubusercontent.com/5720791/39317286-0dc3cdbc-4930-11e8-821e-c7fe31676a73.png">
 
-
-The Agent Loader Home page provides a list of required and optional columns. We need to add agent_type - they're probably all "person" if we successfully used the agent name splitter.
+The {Agent Bulkload Tool Home page](http://arctos.database.museum/DataServices/agents.cfm) provides a list of required and optional columns. The agent_type must be added to the results of the **Agent Name Splitter** and should all be "person" if the **Agent Name Splitter** was successfully used.
 
 <img width="660" alt="screen shot 2018-04-26 at 9 12 41 am" src="https://user-images.githubusercontent.com/5720791/39318122-23a5f28e-4932-11e8-9907-ca99fa944b23.png">
 
 
-This is a good time to delete full duplicates as well; these agents exist and your data will already load against them.
+This is a good time to delete full duplicates as well; these agents exist.
 
 <img width="813" alt="screen shot 2018-04-26 at 9 02 16 am" src="https://user-images.githubusercontent.com/5720791/39317514-9a7958ee-4930-11e8-8f68-78a4d20d84f6.png">
 
