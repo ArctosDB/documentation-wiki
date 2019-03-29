@@ -47,7 +47,31 @@ This tool will help build the file needed for the Agent Bulkload Tool and requir
 
 Select your file, then "Upload This File"
 
-The process may take a while.
+The process may take a while. When it is complete, you will see a list of the names on your screen. Scroll to the bottom and follow the "move on" link
+
+<img width="98px" alt="screen shot 2018-04-26 at 8 55 46 am" src="https://user-images.githubusercontent.com/5720791/39317112-a7ebb32e-492f-11e8-92bd-0544e390b2a0.png">
+
+
+This will run the agent checker function, and it will ALWAYS fail - agent type is not provided to this application in the interest of simplicity. Note any "fatal errors" - they will continue to cause problems.
+
+<img width="100%" alt="screen shot 2018-04-26 at 8 56 50 am" src="https://user-images.githubusercontent.com/5720791/39317159-c8c3f926-492f-11e8-8a13-3cb8096b3759.png">
+
+
+
+The Agent Name Splitter injects a "formatted name." You may wish to replace preferred_name with this standardization; you will need to keep data synchronized. In this case the preferred names were already formatted according to the [Guidelines](/documentation/agent.html#creating--maintaining-agents), there is nothing of value in "formatted name," and it can simply be deleted. 
+
+<img width="462" alt="screen shot 2018-04-26 at 8 58 43 am" src="https://user-images.githubusercontent.com/5720791/39317286-0dc3cdbc-4930-11e8-821e-c7fe31676a73.png">
+
+
+The Agent Loader Home page provides a list of required and optional columns. We need to add agent_type - they're probably all "person" if we successfully used the agent name splitter.
+
+<img width="660" alt="screen shot 2018-04-26 at 9 12 41 am" src="https://user-images.githubusercontent.com/5720791/39318122-23a5f28e-4932-11e8-9907-ca99fa944b23.png">
+
+
+This is a good time to delete full duplicates as well; these agents exist and your data will already load against them.
+
+<img width="813" alt="screen shot 2018-04-26 at 9 02 16 am" src="https://user-images.githubusercontent.com/5720791/39317514-9a7958ee-4930-11e8-8f68-78a4d20d84f6.png">
+
 
 ### Use the Bulkload Agents Tool
 
@@ -84,33 +108,6 @@ An example of what a completed CSV would look like:
 Format is given at the top:
 
 <img width="98px" alt="screen shot 2018-04-26 at 8 55 46 am" src="https://user-images.githubusercontent.com/5720791/39320205-3e432e4e-4938-11e8-84e8-3053e41dbea5.png">
-
-
-Upload, follow the link
-
-<img width="98px" alt="screen shot 2018-04-26 at 8 55 46 am" src="https://user-images.githubusercontent.com/5720791/39317112-a7ebb32e-492f-11e8-92bd-0544e390b2a0.png">
-
-
-
-This will run the agent checker function, and it will ALWAYS fail - agent type is not provided to this application in the interest of simplicity. Note any "fatal errors" - they will continue to cause problems.
-
-<img width="100%" alt="screen shot 2018-04-26 at 8 56 50 am" src="https://user-images.githubusercontent.com/5720791/39317159-c8c3f926-492f-11e8-8a13-3cb8096b3759.png">
-
-
-
-The Agent Name Splitter injects a "formatted name." You may wish to replace preferred_name with this standardization; you will need to keep data synchronized. In this case the preferred names were already formatted according to the [Guidelines](/documentation/agent.html#creating--maintaining-agents), there is nothing of value in "formatted name," and it can simply be deleted. 
-
-<img width="462" alt="screen shot 2018-04-26 at 8 58 43 am" src="https://user-images.githubusercontent.com/5720791/39317286-0dc3cdbc-4930-11e8-821e-c7fe31676a73.png">
-
-
-The Agent Loader Home page provides a list of required and optional columns. We need to add agent_type - they're probably all "person" if we successfully used the agent name splitter.
-
-<img width="660" alt="screen shot 2018-04-26 at 9 12 41 am" src="https://user-images.githubusercontent.com/5720791/39318122-23a5f28e-4932-11e8-9907-ca99fa944b23.png">
-
-
-This is a good time to delete full duplicates as well; these agents exist and your data will already load against them.
-
-<img width="813" alt="screen shot 2018-04-26 at 9 02 16 am" src="https://user-images.githubusercontent.com/5720791/39317514-9a7958ee-4930-11e8-8f68-78a4d20d84f6.png">
 
 
 
