@@ -22,7 +22,7 @@ An example of what a completed CSV would look like:
  
 ### Use the Agent Namestring Formatter
 
-This tool will format names into "first middle last" and provide information about whether an Agent name appears proper, may have invalid characters, or be missing information. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter** 
+This tool will format names into "first middle last" and provide information about whether an Agent name appears proper, may have invalid characters, or be missing information and requires a CSV with a single column header of **preferred_names**. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter** 
 
 Use the preferred_name file created above to upload to this tool. Selecting "Upload This File" will provide results that include three colums:
 
@@ -41,6 +41,14 @@ Comments can be cryptic, they may mean the following:
  * spaces - There are more than two spaces in the name as would be expected from a "first middle last" configuration. This may be correct such as in the case of "Jr." or "III" and can be ignored, but they should be reviewed to ensure that they are what is expected. 
  * weirdchars - There may be non-printing characters in the name, if so a version of the name without them should be created and added to the Agent record as an aka. This may also indicate that non-alphabetic but printable characters are present, "-" is one of the most common. This does not require a change to the name, but they should be reviewed to ensure that they are what is expected. 
 
+### Use the Agent Name Splitter
+
+This tool will help build the file needed for the Agent Bulkload Tool and requires a CSV with a single column header of **preferred_names**. Create the CSV for this tool using the cleaned names from the **Agent Namestrin Formatter** results as the values for **preferred_names**. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Name Splitter**
+
+Select your file, then "Upload This File"
+
+The process may take a while.
+
 ### Use the Bulkload Agents Tool
 
 This tool is most often used as part of data migration by incoming collections but it may also be useful when a group of new Agents needs to be entered for other reasons such as members of an expedition or group of students working on a project. 
@@ -50,7 +58,7 @@ This tool is most often used as part of data migration by incoming collections b
 The Agent Bulkload tool requires a CSV file with the following column headers:
 
  * agent_type: items entered in this column fall under a controlled vocabulary which can be found at	[CTAGENT_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE)  
- * preferred_name: items entered in this column should be the full name of the Agents you wish to add. **NOTE** It is best to enter the most complete version of a person or organization's name here. (i.e. John Boy Jones, City Park Service, Jane G. Jones, etc.)
+ * preferred_name: items entered in this column should be the full name of the Agents you wish to add. **NOTE** It is best to enter the most complete version of a person or organization's name here. (i.e. John Boy Jones, City Park Service, Jane G. Jones, etc.) This information can be taken from the "manipulated" column of the **Agent Namestring Formatter** results.
  
 The Agent Bulkload tool will also accept alternate names for the same Agent in optional column headers:
 
@@ -62,7 +70,7 @@ The Agent Bulkload tool will also accept alternate names for the same Agent in o
 
   **NOTE** The "n" in the column headers above should be replaced with a number so that there may be multiple alternate names and associated name types added for a given Agent (up to 6 other_name_n and associated other_name_type_n, up to 2 agent_status_n and related agent_stats_date_n)
 
-If you have not prepared a CSV file for this tool, it is easy to start one by downloading a template. To get the template, just select **get CSV template** at the top of the Bulkload Agents tool page.
+If you have not prepared a CSV file for this tool, it is easy to start one by downloading a template. To get the template, just select **get CSV template** at the top of the data fields list on the Bulkload Agents Tool page.
 
 An example of what a completed CSV would look like:
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agent_Bulk_Template.JPG)
