@@ -143,12 +143,7 @@ they are seeking under one name, they may find the name that they are
 using and its accepted synonym, or they may use a query which returns
 records from unaccepted synonyms.
 
-Any number of taxa may be synonymous, but only one of these should have
-the value "accepted synonym of," and it should have this value for each
-of its synonyms. Accepted synonyms should have a [Valid Catalog
-Term](#valid_term) flag of "yes." The other synonyms should have the
-value "synonym of," for each synonym, and their Valid Catalog Term flag
-should be "no."
+Any number of taxa may be synonymous, but only one should have the Taxon Status of “valid.” The other synonyms should have the Taxon Status “invalid.”
 
 [Named hybrids](#named_hybrid) have a unique relationship to their
 parent taxa, and this is expressed by "hybrid offspring of." Each named
