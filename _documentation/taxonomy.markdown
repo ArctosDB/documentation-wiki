@@ -212,25 +212,21 @@ _____________
 _____________
 
 ![Screen Shot 2019-04-13 at 1 16 16 PM](https://user-images.githubusercontent.com/15368365/56084296-8bc42d00-5dee-11e9-8ca6-b43cfab55c53.png)
-
 _____________
 
 ![Screen Shot 2019-04-13 at 1 16 34 PM](https://user-images.githubusercontent.com/15368365/56084304-a5657480-5dee-11e9-83a1-a367c8359dec.png)
-
 _____________
-
 
 ##  Examples of model taxa
 
 The taxonomic model in Arctos conveys more than just the classification of each taxon.  As displayed in the examples below, each taxon entry integrates media and the geolocation of specimens in Arctos identified with that taxon name.  This can be a highly useful tool for researchers and the general public.  Here are links to various taxa that show these features.
 
-https://arctos.database.museum/name/Canis%20lupus    
-http://arctos.database.museum/name/Amazona%20amazonica   
-http://arctos.database.museum/name/Chamaesaracha%20sordida  
-http://arctos.database.museum/name/Thera%20otisi  
-https://arctos.database.museum/name/Achatinella%20lorata  
-http://arctos.database.museum/name/Mus%20musculus   
-
+[https://arctos.database.museum/name/Canis%20lupus](https://arctos.database.museum/name/Canis%20lupus)    
+[http://arctos.database.museum/name/Amazona%20amazonica](http://arctos.database.museum/name/Amazona%20amazonica)   
+[http://arctos.database.museum/name/Chamaesaracha%20sordida](http://arctos.database.museum/name/Chamaesaracha%20sordida)  
+[http://arctos.database.museum/name/Thera%20otisi](http://arctos.database.museum/name/Thera%20otisi) 
+[https://arctos.database.museum/name/Achatinella%20lorata](https://arctos.database.museum/name/Achatinella%20lorata)  
+[http://arctos.database.museum/name/Mus%20musculus](http://arctos.database.museum/name/Mus%20musculus)
 
 ## FAQ
 
