@@ -4,7 +4,7 @@ layout: default_toc
 ---
 
 
-# How to Edit Taxonomy
+# How to Edit Taxa
 
 Users with taxonomic authority can edit taxonomy by altering an individual taxonomic record or by using the Hierarchical tool to manage multiple records.  These instructions cover the editing of individual records.  See [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html) to manage multiple taxa.  
 
