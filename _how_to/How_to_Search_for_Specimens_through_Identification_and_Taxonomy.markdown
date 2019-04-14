@@ -4,7 +4,7 @@ layout: default_toc
 ---
 
 
-# Search with Identification and Taxonomy
+# How to Search with Identification and Taxonomy
 
 There are various search fields on SpecimenSearch under **Identification and Taxonomy**, and
 they query and return very different data.
