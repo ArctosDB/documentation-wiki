@@ -44,7 +44,7 @@ After making the changes, click “Save Edits” then [View Taxon Page] to see t
 
 ![Screen Shot 2019-04-14 at 9 12 02 AM](https://user-images.githubusercontent.com/15368365/56095037-e95f8480-5e95-11e9-84c5-76edb7f9531e.png)
 
-## Editing Taxon Relationships
+### Editing Taxon Relationships
 
 Since we have changed the taxon status to “invalid,” we need to link to the valid taxon.  In this case, WoRMS shows the valid taxon to be *Haliotis mariae*.  This is additional Non-Classification Data that is entered on a separate screen by clicking [Edit Name + Related Data]. 
 
@@ -56,9 +56,7 @@ When we return to the taxon pages, we see that the taxon relationship has been a
 
 ![image](https://user-images.githubusercontent.com/15368365/56095067-42c7b380-5e96-11e9-97ac-09117d08c4af.png)
 
-## Editing Taxon classifications
-
-### Editing each field in a Taxon Record
+### Editing Taxon classifications by Editing each Field in a Taxon Record
 
 We can edit a taxonomic classification several ways.  One option is to can edit each field in an existing record.  In this example, *Erronea subviridis dorsalis*, we need to correct the classification and add non-classification data such as the taxon status and author.
 
@@ -95,7 +93,7 @@ Here is the final record on the Taxon Page.
 ![image](https://user-images.githubusercontent.com/15368365/56095542-4d387c00-5e9b-11e9-8317-5da471e376c9.png)
 
 
-### Editing a Taxon Record with a Webservice Source
+### Editing Taxon classifications using a Webservice Source
 
 Alternatively, we can edit a record by selecting a webservice source, deleting the erroneous classification and creating a new classification.  In this case, we are updating the classification for *Erronea subviridis dorsalis*.  We open the taxon record and clone the classification from the World Register of Marine Species by clicking “Clone Classification.”  
 
