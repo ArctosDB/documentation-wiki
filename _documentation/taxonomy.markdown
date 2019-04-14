@@ -204,6 +204,8 @@ _____________
 ![Screen Shot 2019-04-13 at 1 16 34 PM](https://user-images.githubusercontent.com/15368365/56084304-a5657480-5dee-11e9-83a1-a367c8359dec.png)
 _____________
 
+Through GlobalNames webservice, Arctos users can access multiple remote classifications for taxa.  These are automatically maintained and cannot be edited by Arctos users.  They are provided as a resource and Arctos users frequently clone them into the local source used by the collection.  Arctos users may wish to collaborate with the remote sources to edit taxa before they are pushed to GlobalNames and then to Arctos.  
+
 ##  Examples of model taxa
 
 The taxonomic model in Arctos conveys more than just the classification of each taxon.  As displayed in the examples below, each taxon entry integrates media and the geolocation of specimens in Arctos identified with that taxon name.  This can be a highly useful tool for researchers and the general public.  Here are links to various taxa that show these features.
