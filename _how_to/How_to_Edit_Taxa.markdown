@@ -1,5 +1,5 @@
 ---
-title: How to Edit Taxonomy
+title: How to Edit Taxa
 layout: default_toc
 ---
 
