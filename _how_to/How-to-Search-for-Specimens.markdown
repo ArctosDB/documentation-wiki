@@ -49,6 +49,8 @@ You do not need to create an account or login to search. However, there are some
 
 * Once you hit "Show More Options" to the right in the gray section header, you will see a number of other search fields. These allow you to search by higher taxonomy or other types of data in Arctos.
 
+* For more detailed instructions, see [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_through_Identification_and_Taxonomy.html)
+
 ## Locality
 
 * As with taxonomy, this section provides a number of fields for searching (if you select "Show More Options"). However, take heart in the fact that you will not have to fill them all out. The field that you will likely use the most is "Any Geographic Element", which performs a broad search incorporating the other fields in this section. If for any reason, you need to be more specific, you can search in the appropriate category.
