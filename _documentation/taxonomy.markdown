@@ -9,6 +9,10 @@ layout: default_toc
 
 ## Overview
 
+The taxonomic model in Arctos is designed to provide both a controlled table
+to reduce errors and the flexibility to accommodate each collection’s
+preferred taxonomic structure and ongoing changes in taxonomic classifications.   
+
 "Taxonomy" for the purposes of this document and Arctos in general is
 "some formal naming system." Arctos taxonomy is not necessarily
 hierarchical, it is not limited to biological taxonomies, we follow no
@@ -19,84 +23,113 @@ optionally metadata regarding those names) is accepted or endorsed by
 some user group, it’s acceptable for Arctos. If publication "A new
 species of critter" declares, however informally, that "*Some critter*"
 is a distinct "species" (in the loosest possible sense of the word),
-then "Some critter" may be a useful taxon in Arctos. If another
-publication declares "*Some critterrrrr* is obviously not a valid
-[taxon, biological distinction, etc.]," then "Some critterrrrr" may be
-a useful taxon name to include in Arctos for discovery purposes, even
-though it’s an obvious misspelling rejecting a name. In short, if a name
-might be useful in discovering specimens, it should be included in
-Arctos. (Remarks, annotated taxon relationships, and links to
-publications should be used to clarify.)
+then "Some critter" may be a useful taxon in Arctos. 
 
-Arctos taxonomy consists of two tables: `taxon_name` is a list of "base
-names" (genera, species, kingdoms) and `taxon_term` contains metadata
-regarding a `taxon_name`, optionally organized in various ways. Informal
-terms, such as "*Sorex sp.*" or "*Sorex cinereus* or *Sorex ugyunak*" are
-Identifications, not taxonomy. (Identifications are generally drawn from
-and linked to taxonomy in various ways.)
+If another publication declares "*Some critterrrr*" is not a valid
+taxon, biological distinction, etc., then "Some critterrrr" may still be
+a useful taxon name to include in Arctos for discovery purposes, even
+though it’s an obvious misspelling of a name. In short, if a name
+might be useful in discovering specimens, it should be included in
+Arctos. Remarks, annotated taxon relationships, [taxon status](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS) and links to
+publications should be used to clarify.
+
+Arctos taxonomy consists of two tables: 
+-  taxon names are the "base names" such as Animalia, Aves, *Canis lupus* or nonbiological "granite" 
+-  taxon terms are non-classification metadata regarding a taxon name such as author, taxon status, or nomenclatural code.
+
+Informal terms, such as "*Sorex sp.*" or "*Sorex cinereus* or *Sorex ugyunak*" are
+identifications, not taxonomy. Identifications are, however, generally drawn from
+and linked to taxonomy in various ways.
 
 
 ## Taxon Name
 
-The names in `taxon_name` are intended to be a formal taxonomic
-authority, and should all be drawn from relevant taxonomic publications.
+
+Taxon names are intended to be a formal taxonomic
+authority and should all be drawn from relevant taxonomic publications.
 A name is not linked to any particular classification (rather,
-classifications are linked to names), and may be a homonym or
-hemihomonym. The namestring "Diptera" CORRECTLY includes classifications
-for flies and plants; this is not a mistake and should not be
-"corrected" to any particular point of view. Taxon names may be
-disambiguated at the specimen level via identification publications ("ID
+classifications are linked to taxon names) and may be a homonym or
+hemihomonym. The name ["Diptera"](https://arctos.database.museum/name/Diptera) correctly includes classifications
+for flies and plants, and the taxon has both an Arctos and an Arctos Plants classification.  This is not a mistake and should not be
+"corrected" to any particular point of view. Another example is [Ficus gracilis](https://arctos.database.museum/name/Ficus%20gracilis) which is both a plant and an animal taxon.  Adding the author as non-classification data can ensure that the correct term is selected by users.
+
+Taxon names may be disambiguated at the specimen level via identification publications ("ID
 sensu"), and at the collection level by choosing and curating a
 classification. Database rules prevent change of used names. Names may
 be higher taxon terms, such as "Animalia," ICZN-type
 genus-species-subspecies concatenations, ICBN-type
 genus-species-infraspecific rank-infraspecific epithet concatenations,
 or nonbiological taxonomy terms ("Granite"). The sole distinguishing
-feature of this field is that a Curator, usually a taxonomist, considers
-the values here formal taxonomy.
-
-## Taxon Term
-
-Taxon Term contains metadata regarding taxon names and a system for
-organizing such data. Every term may be arranged hierarchically within a
-classification, and hierarchical terms may optionally be ranked.
-Non-hierarchical terms must be ranked. Terms are further divided as:
-
--   "Local data" is Curated from within Arctos and may be edited. A
-    [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM)
-    is required for "local" data.
--   "Webservice data" is drawn from various sources via GlobalNames.org
-    and is used primarily for locating specimens.
-
-### Hierarchical Terms
-
-Terms which are organized hierarchically are "classification data"
-intended to be part of a classification system. These terms may be
-ranked or unranked.
-
-### Non-Hierarchical Terms
-
-Terms which are not organized hierarchically are intended for
-clarification, and are linked to but not part of classifications. These
-consist of things like HTML-formatted "display name" and author strings.
-A rank is required.
-
-
-## Taxonomy as a Hierarchy
+feature of this field is that a curator, usually a taxonomist, considers
+the name to be formal taxonomy.
 
 While single classifications may be hierarchical, taxonomy as a body of 
 literature is anything but: Most names have a long history of "current
 family, according to….", for example, and many refer to multiple
 concepts, such as plants and animals.
 
+## Validation Service
 
+Arctos checks taxon names against various services on creation and edit. This check is a tool, not an authority; all services have significant problems as of this writing. "Valid" names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy.  
+
+## Taxon Term
+
+[Taxon Term](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM) contains metadata regarding taxon names and a system for organizing such data. Every term may be arranged hierarchically within a
+classification, and hierarchical terms may optionally be ranked. Terms are further divided as:
+
+-   "Local data" are curated from within Arctos and may be edited. A
+    [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM)
+    is required for "local" data.
+-   “Webservice data” are drawn from various sources via GlobalNames.org and is used primarily for locating specimens.  The specific sources vary with the taxon a user is searching for.  These webservices are frequently cloned to create a classification for a new taxon name in a local source.  
+
+______________
+
+![Screen Shot 2019-04-13 at 10 15 54 AM](https://user-images.githubusercontent.com/15368365/56082355-37608380-5dd5-11e9-8424-0633fb2c9ced.png)
+
+______________
+
+
+### Hierarchical Classification Terms
+
+Terms which are organized hierarchically are "classification data"
+intended to be part of a classification system. These terms may be
+ranked or unranked but unranked terms may make it difficult for users to
+find your specimens. Here is the classification for the mollusk *Ficus gracilis*.
+
+_________________
+    
+![Screen Shot 2019-04-13 at 9 30 35 AM](https://user-images.githubusercontent.com/15368365/56081830-d2a22a80-5dce-11e9-96f6-c90973b783e0.png)
+
+_________________
+    
+    
+
+### Non-Classification Terms
+
+Terms which are not part of the classification are intended for 
+clarification and are linked to but not part of the taxon classification. 
+There are currently eight Term Types which may be completed to augment the taxon classification.
+
+•	**[nomenclatural_code](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTNOMENCLATURAL_CODE)** is controlled by the code table.  Most common values are “ICZN” and “ICNB.”  This is a mandatory field.  
+•	**author_text** is the author of ICZN names, or the species author of ICBN names.  Always include the author (with or without parenthensis as appropriate) unless no author is given.     
+•	**infraspecific_author** is the author of the infraspecific epithet in ICBN names  
+•	**[taxon-status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS)** is controlled by a code table.   
+•	**source_authority** should list the publication, website or other authority for the taxon.     
+•	**remark** is an open field for any comment that will be helpful to Arctos users.  
+•   **aphiaid** is the taxon identification assigned by the World Register of Marine Species  
+•   **preferred name** may be used to reference the related accepted or preferred taxon  
+
+The Display Name and Scientific Name are autogenerated by Arctos.
+
+__________________
+
+![Screen Shot 2019-04-13 at 9 27 34 AM](https://user-images.githubusercontent.com/15368365/56081784-6c1d0c80-5dce-11e9-8044-2495ac3dc0da.png)
+__________________
+    
 
 ## Common Names
 
-`Common_Name . Common_Name VARCHAR2 (20) null`
-
-
- are intended to help users find what they are looking
+Common Names are intended to help users find what they are looking
 for, and not to propagate any standard or system. A taxon may have
 several common names, in several languages and using several types of
 characters, or nothing. The same common name may apply to more than one
@@ -107,29 +140,30 @@ particular standard such as that of the American Ornithological Union
 (AOU Checklist).  Adjectival forms of proper names are capitalized
 (*e.g.*, "Alaska marmot").
 
-
+Common Names are added to the taxon record as non-classification metadata.
 
 
 ## Taxon Relations
 
-`Taxon_Relations . Taxon_Relationship VARCHAR2 (30) not null`
-
-`cttaxon_relation`
-
-
- are comprised of a relationship type, a related
+[Taxon Relations](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_RELATION)
+are comprised of a relationship type, a related
 taxon, and an authority for the relationship. The related taxon is
 another record in the taxonomy table.
 
+__________________
+    
+![Screen Shot 2019-04-13 at 9 45 24 AM](https://user-images.githubusercontent.com/15368365/56082005-e9e21780-5dd0-11e9-9462-dc874fad53ce.png)
+__________________
+    
+    
+The [taxon status](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS) is used to clarify which synonym is preferred by entering "valid" for the accepted or preferred name and "invalid" for the unaccepted name.
 
 
-## Relationship Authority
-
-`Taxon_Relations . Relationship_Authority VARCHAR2 (45) null`
+## Taxon Relation Authority
 
 
- is an open text field, and it may be `null`.
-Presumably the [Source Authority](#source_authority) for an accepted
+Taxon Relation Authority is an open text field, and it may be `null`.
+Presumably the Authority for an accepted
 taxon is adequate documentation, but if not, then Relationship Authority
 could cite a publication or the name of an expert to whom the
 relationship is attributed.
@@ -143,7 +177,7 @@ they are seeking under one name, they may find the name that they are
 using and its accepted synonym, or they may use a query which returns
 records from unaccepted synonyms.
 
-Any number of taxa may be synonymous, but only one should have the Taxon Status of “valid.” The other synonyms should have the Taxon Status “invalid.”
+Any number of taxa may be synonymous, but only one should have the [Taxon Status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS) of “valid.” The other synonyms should have the Taxon Status “invalid.”
 
 [Named hybrids](#named_hybrid) have a unique relationship to their
 parent taxa, and this is expressed by "hybrid offspring of." Each named
@@ -163,108 +197,40 @@ plus the infraspecific rank, "subspecies," and author text from the
 Taxon names may be linked to any number of Publications. These publications should
 directly support the name.
 
+## Taxon Classification Sources
 
-## Searching
+There are currently three [local sources](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) of taxonomic data that can be used by a collection for specimen identification.  Each collection selects its preferred source and the classifications from that source are used in their records for specimen identification.  Taxon names and classifications of "Local" sources are added, deleted and modified with Arctos.  A [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM) is required for local data.  
 
-There are various "taxonomy-like" search fields on SpecimenSearch, and
-they query different data.
+Collections may elect to use an independent taxonomic database that suits their specimens.  They remain responsible to curate the taxa.
 
-### "Identification"
+-  **Arctos Plants** includes ICBN-regulated Arctos classification of "plants" (="things curated by herbaria").  Classifications are added, deleted and maintained by Arctos curators.
+-  **Arctos** includes all non-plant taxa from legacy data migrated from Arctos flat tables.  Classifications are added, deleted and maintained by Arctos curators.
+-  **WoRMS (via Arctos)** contains data primarily from http://www.marinespecies.org/. The taxa classificaitons are continually updated via WoRMS webservice.  Each taxon has a unique aphiaID.  Taxa that are not in WoRMS may be added by authorized Arctos members who use the WoRMS (via Arctos) as their taxonomy source.
+_____________
 
-queries the identification applied to specimens,
-and includes the option to query non-current identifications.
-Identifications are usually based in taxonomy, but are not wholly
-taxonomy. Examples of strings that will currently find specimens
-include:
+![Screen Shot 2019-04-13 at 1 16 09 PM](https://user-images.githubusercontent.com/15368365/56084289-6f27f500-5dee-11e9-9b87-f8f37e9c09d8.png)
+_____________
 
--   Sorex yukonicus (a taxon name)
--   Sorex cinereus or Sorex ugyunak (an indeterminate identification)
--   Monticola rufiventris and Cuculus optatus (a cataloged item
-    consisting of multiple taxa)
--   Diadocidia sp. nov. cf. borealis (a "working name" not yet
-    formalized as taxonomy)
--   Iron-rich mudstone (a non-Linnean term identifying a
-    non-biological specimen)
+![Screen Shot 2019-04-13 at 1 16 16 PM](https://user-images.githubusercontent.com/15368365/56084296-8bc42d00-5dee-11e9-8ca6-b43cfab55c53.png)
 
-### "Taxon Name"
+_____________
 
-queries all taxonomy classifications, and
-classifications related to taxa attached to specimens. For example,
-querying MVZ Mammals for Muridae returns *Euryoryzomys nitidus,* even
-though MVZ’s preferred classification uses Cricetidae as the family of
-that name, because Freebase asserts that the unranked term "Muridae" is
-between "Muroidea" and "Sigmodontinae."
+![Screen Shot 2019-04-13 at 1 16 34 PM](https://user-images.githubusercontent.com/15368365/56084304-a5657480-5dee-11e9-83a1-a367c8359dec.png)
 
-Each ranked term – **Kingdom**, **Family**, etc., – query only the
-collection’s preferred classification. "Muridae" in Family will NOT
-return specimens identified as *Euryoryzomys nitidus*; only
-Family=Cricetidae will locate specimens identified using that taxon
-name, which may be viewed as "Cricetidae according to MVZ."
-
-### Ranked Terms
-
-Each collection claims a classification, and when appropriate terms (family, order, etc.) are available they are stored in
-the search structure and made available as search fields on the SpecimenSearch form. Therefore, searching *e.g.*, Family is
-searching "Family, as asserted by each collection's preferred taxonomy source." 
-
-## Details and more examples
-
-Each collection "claims" one taxon term source, and data from that
-source, when available, are stored with the specimen record. For
-example, if CollectionX claims the FAKE classification source, which
-contain the following data for namestring "*Sorex cinereus*":
-
-  | Term            | Rank |
-  |-----------------|------|
-  | Animalia        | kingdom |
-  | Chordata        | phylum |
-  | Mammalia        | class |
-  | Soricomorpha    | order |
-  | Soricidae       | family |
-  | Sorex           | genus |
-  | cinereus        | species |
-
-and CollectionY claims the NORANKS source:
+_____________
 
 
-  | Term            | Rank |
-  |-----------------|------|
-  | Animalia        | |
-  | Chordata        | |
-  | Mammalia        | |
-  | Soricomorpha    | |
-  | Soricidae       | |
-  | Sorex           | |
-  | cinereus        | |
+##  Examples of model taxa
 
-then searching for "Mammalia" in the "Class" field from SpecimenSearch
-will find CollectionX specimens but will NOT find CollectionY specimens.
+The taxonomic model in Arctos conveys more than just the classification of each taxon.  As displayed in the examples below, each taxon entry integrates media and the geolocation of specimens in Arctos identified with that taxon name.  This can be a highly useful tool for researchers and the general public.  Here are links to various taxa that show these features.
 
-Searching the "Any taxon term" field will (by way of both example
-classifications above) find specimens from both collections.
-Additionally, if there is an additional BADEXAMPLE classification for
-*Sorex cinereus*:
+https://arctos.database.museum/name/Canis%20lupus    
+http://arctos.database.museum/name/Amazona%20amazonica   
+http://arctos.database.museum/name/Chamaesaracha%20sordida  
+http://arctos.database.museum/name/Thera%20otisi  
+https://arctos.database.museum/name/Achatinella%20lorata  
+http://arctos.database.museum/name/Mus%20musculus   
 
-| Term            | Rank |
-|-----------------|------|
-| Shrewidae       | family |
-
-then searching the Family field for "Shrewidae" will find no specimens,
-as neither collection prefers the BADEXAMPLE classification, but
-searching the "any taxon term" field for Shrewidae will find Sorex
-cinereus from both collections, based on the assertions made by the
-BADEXAMPLE classification.
-
-In other words, the individual ranked fields (Family, Kingdom, etc.)
-represent the current assertions of the collections; current taxonomy as
-defined by taxonomists. These fields are appropriate for asking pointed
-questions: "how many shrews does the XYZ collection hold?" The "any
-taxon term" field represents classifications according to some provider
-of GlobalNames.org. This field is a very large net, and most queries
-using it will return false positives; specimens that do not fit with
-modern, consensus ideas of the term searched. This field is appropriate
-for exploratory searching: "what genera did someone at some point
-consider to be members of taxon BLA?"
 
 ## FAQ
 
@@ -294,240 +260,17 @@ A: All names exist because someone with the proper credentials loaded
 them, and presumably because there exists "appropriate" (a term which
 varies by discipline, tradition, and time) literature creating or
 supporting them. Collections choose a classification, which asserts
-"classification according to this collection."
+"classification according to this collection."   Many classifications
+are historic and no longer accepted but may be helpful in searching
+for specimens.  They should be marked "invalid" and linked to the currently 
+valid taxon.
 
-## Create a Name
-
-There are two ways by which taxon names may be created:
-
-1.  Click the "create name" link and enter a namestring.
-2.  Click the "cloning classification as a new new name" link.
-
-Search Arctos before creating names. Do not try to create duplicate
-namestrings, even in the case of homonyms, hemihomonyms, committee
-rulings, or for any other reason.
-
-## Create a Classification
-
-Classifications may be created by pulling from globalnames, cloning an
-existing classification into a local source, or manually creating a
-local source.
-
-There is currently no classification bulkloader. One can be created if
-necessary.
-
-## Local Sources
-
-"Local" sources - those used in asserting taxonomy by collections - are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE). As of this writing, there are three local classifications:
-
-* _Arctos_ is a locally-managed "not plants" classification (which contains many plant classifications for use in paleontological collections).
-* _Arctos Plants_ is a locally-managed "plants" (~"things controlled by ICBN") classification.
-* _WoRMS (via Arctos)_ contains automatically-maintained data from http://www.marinespecies.org, in addition to some locally-maintained data (for taxa not in WoRMS but cataloged in collections which use this classification). To manage or create classifications in this source, simply provide an "aphiaid" non-classification term and click the "refresh" link. 
- 
-It is important to choose the intended collection's preferred source when creating classification data. Local sources are often limited to hierarchical data and managed through the [hierarchical data editor](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html).
-
-## Taxonomy search examples
-
-Note values that pop into search form.
-
-Names that contain the string "microtus"
-
-<http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus>
-
-Names that ARE Microtus:
-
-<http://arctos.database.museum/taxonomy.cfm?taxon_name==microtus>
-
-Names that contain microtus AND have an attribute of "mammalia":
-
-<http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus&taxon_term=mammalia>
-
-Names that contain microtus AND have an attribute of value "mammalia"
-and rank (=term type) "phylclass"
-
-<http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus&taxon_term=mammalia&term_type=phylclass>
-
-Names that contain microtus AND have an unranked attribute of value
-"mammalia"
-
-<http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus&taxon_term=mammalia&term_type=NULL>
-
-Microtus according to Arctos
-
-<http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus&taxon_term=&term_type=&source=Arctos>
-
-Genus microtus according to Arctos
-
-<http://arctos.database.museum/taxonomy.cfm?taxon_name=&taxon_term=%3Dmicrotus&term_type=genus&source=Arctos>
-
-## Relationship of taxonomy to specimens
-
-The link between taxonomy and specimens is through Identification and
-Identification_Taxonomy. However, Taxonomy no longer resolves to a
-single set of ranked assertions (eg, row in table). Collections chose a
-single preferred source (in manage collection), and the data in that
-classification become available for various "specimen-taxonomy" purposes
-(such as asserting ranked terms via DWC exports, searching for
-specimens, and printing labels). Some taxonomy searches may produce
-unexpected results for the naive user. For example,  given the
-following:
-
--   Collection1 prefers Source1
--   Collection2 prefers Source2
--   Source1 places NameN in Family1
--   Source2 places NameN in Family2
--   Source3 places NameN in Family3
--   Collecton1 and Collection2 both have specimens identified as NameN.
-
-the following are true:
-
--   Searching Identification (scientific name) for NameN will find NameN
-    specimens from Collection1 and Collection2
--   Searching Identification for Family1 will find nothing; the
-    Identification is to a name (string), not a "taxon concept" (data
-    object including metadata).
--   Searching Taxon Name (any taxon name) for Family1, Family2, or
-    Family3 will find NameN specimens from Collection1 and Collection2
--   Searching Family for Family1 will find only specimens from
-    Collection1
--   Searching Family for Family2 will find only specimens from
-    Collection2
--   Searching Family for Family3 will find nothing
-
-That is,
-
--   Collection1 is asserting that "the Family of NameN is Family1."
--   Collection2 is asserting that "the Family of NameN is Family2."
--   Something else (via GlobalNames, perhaps) is asserting that "the
-    Family of NameN is Family3."
-
-Possible reasons for this include but are not limited to the following:
-
--   NameN is a hemihomonym. Collection1 is a vertebrate collection, and
-    Collection2 is an invertebrate collection.
--   One collection has accepted a new taxonomic opinion, and the other
-    simply hasn’t got around to updating their classifications.
--   One collection has accepted a controversial taxonomic hypothesis
-    with which the other collection disagrees.
--   One collection has confounded taxonomy and storage location, and
-    cannot update their classification until shelves are relabeled and
-    specimens are moved.
-
-Note that the sums of the family-according-to-collection searches do NOT
-necessarily add up to the "family-according-to-someone" search total; a
-collection may use a classification that does not include a term ranked
-"family," and doing so will return no specimens with queries which
-include family-according-to-collection.
-
-## Editing
-
-### Names
-
-Names should generally not be edited. Do not create garbage names, and
-contact the Advisory Committee if you find a garbage name.
-
-### Classifications
-
-It is generally not possible to edit remote (*e.g.*, pulled from
-GlobalNames) classifications; they are automatically maintained, and
-edits would be lost with the next update. Please note that this does not
-preclude using those classifications as preferred, nor from editing them
-via any tools (including collaboration with sources such as ITIS) before
-they are pushed to GlobalName and then Arctos. This is in fact our
-(unfortunately theoretical and untested) preferred approach: Manage data
-in specialized (*e.g.*, mammals), collaborative, and funded tools, where
-things like homonyms and alternate classifications are easily dealt with
-(often by exclusion), and push those data to Arctos via GlobalNames.
-
-There are no "batch" tools in Arctos, because the data scope and
-structure does not support them. "UPDATE….WHERE GENUS=’Philometra’…."
-cannot do what is probably intended; *Philometra* is a homonym, and may
-additionally be recorded as a subgenus, unranked term, etc., and so the
-update is very likely to both miss intended data and update unintended
-and unrelated data. (This is one reason we encourage external,
-limited-scope tools or collaborations to manage taxonomy; *Philometra*
-will likely mean exactly one thing in "Lepidoptera of Europe" or
-"Parasites of North America," but both of those things and much more are
-included in Arctos.)
-
-### The Form
-
-The classification editing form is in two parts.
-
-**"Non-classification terms"** are data which is not part of the
-classification but which are important for various curatorial tasks or
-for understanding why a specimen has been assigned to a name, or why a
-name has been assigned to a classification. Some terms are especially
-important:
-
--   **display_name** is the HTML-formatted namestring. This is included
-    in various places on Arctos forms, and in FLAT and DWC
-    as FORMATTED_SCIENTIFIC_NAME. The form will suggest values for
-    display_name; click to accept the suggestions, or type your own,
-    including any necessary HTML markup.
--   **nomenclatural_code** controls how display_name is suggested, and
-    helps format display. Actionable values are "ICZN" and "ICNB."
--   **author_text** is the author of ICZN names, or the species author
-    of ICBN names
--   **infraspecific_author** is the author of the infraspecific epithet
-    in ICBN names
-
-The ordering of these terms is unimportant, and un-paired terms (e.g.,
-display_name=`NULL` or `NULL`="Sorex cinereus") will be ignored (that is,
-deleted at save).
-
-## Deleting
-
-Taxon names should be deleted only when they are identified as "not taxonomy." 
-The [overview section of this document](http://handbook.arctosdb.org/documentation/taxonomy.html#overview) describes the scope of 
-"taxonomy." Generally, names which pass "The Google Test" (_e. g._, those which are in use outside of Arctos) should not be deleted.
-To perform "The Google Test," search for the name in double-quotes; if no results, or results only referencing Arctos, are found, it
-is probably safe to delete the name. Results which include only sources which draw from Arctos (such as GBIF) should be carefully scritinized
-to determine if the results are in fact an indirect reflection of Arctos data.
-
-_Do not_ delete names which are not "current" or "accepted," or those which you do not agree with, or won't use for some particular use case. Delete only names which do not meet the Arctos definition of "taxonomy." 
-
-## Classification terms
-
- are ordered taxonomic data (drag rows to
-order). Ranks are optional; the following mixture of ordered ranked and
-unranked terms is possible (and common):
+For further instructions, consult the following "How to" documents.
+-  [How to create taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html)
+-  [How to manage taxonomic classifications](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html)
+-  [How to manage taxonomy hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
+-  [How to edit taxa](http://handbook.arctosdb.org/how_to/How-to-edit-taxa.html)
+-  [How to search for specimens through taxonomy](http//handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_through_Taxonomy)
 
 
-  | Term            | Rank |
-  |-----------------|------|
-  | Animalia        | Kingdom |
-  | Cellular Life   | |
-  | Soricidae       | Family |
-  | Soricinae       | |
-  | Sorex           | genus |
-
-The following ranks are used in building "specimen data" (which is used
-for things like printing labels, locating specimens from the ranked
-search terms such as Family, and as terms in specimen summary):
-
--   kingdom
--   phylum
--   class (in FLAT as "phylclass" due to RDBMS reserved words)
--   order (in FLAT as "phylorder" due to RDBMS reserved words)
--   family
--   subfamily
--   tribe
--   subtribe
--   genus
--   species
--   "subspecies" (for ICBN data, this is "infraspecific term" and ranked
-    as "infraspecific rank" which includes subspecies, subsp., variety,
-    var., varietas, subvar., etc.)
-
-Infrageneric terms should be supplied as multinomials: species=**Sorex
-cinereus**, never only **cinereus**.
-
-<http://arctos.database.museum/name/Carex%20brunnescens%20subsp.%20alaskana#Arctos>
-is an example of a botanical name which includes a subspecific epithet
-and two authors.
-
-## Validation Service
-
-Arctos checks taxon names against various services on creation and edit. This check is a tool, not an authority; all services have significant problems as of this writing. "Valid" names will occasionally be flagged as invalid, and erroneous names will occasionally pass (one of the services contains data from Arctos, so the check is a bit circular). Users remain fully responsible for the content of Arctos taxonomy. "Valid for Arctos" taxonomy is described in the     [Overview](#overview) section of this document.
 
