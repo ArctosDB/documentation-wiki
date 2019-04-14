@@ -16,7 +16,7 @@ and includes the option to query previous identifications as well as the
 current identification.  
 _______________
 
-![Screen Shot 2019-04-13 at 2 27 57 PM](https://user-images.githubusercontent.com/15368365/56084948-650af400-5df8-11e9-8f9b-dfc15871719b.png)
+![image](https://user-images.githubusercontent.com/15368365/56099976-12513b00-5ed1-11e9-8468-87048f6f5c47.png)
 _______________
 
 Identifications are usually based in taxonomy, but are not wholly
@@ -34,11 +34,14 @@ include:
 
 ## Any taxon, ID, common name
 
-This field queries all taxonomy classifications, and
-classifications related to taxa attached to specimens. For example,
-querying MVZ Mammals for Muridae returns *Euryoryzomys nitidus,* even
+This field queries all taxonomy classifications and all
+classifications related to taxa attached to specimens. 
+
+![image](https://user-images.githubusercontent.com/15368365/56100256-a6240680-5ed3-11e9-81a3-d80c47620e0a.png)
+
+For example, querying MVZ Mammals for Muridae returns *Euryoryzomys nitidus,* even
 though MVZ’s preferred classification uses Cricetidae as the family of
-that name, because Freebase asserts that the unranked term "Muridae" is
+that name, because Freebase (accessed through GlobalNames) asserts that the unranked term "Muridae" is
 between "Muroidea" and "Sigmodontinae."  Results will take longer to return
 in this field because of the wider net it casts.
 
@@ -55,17 +58,15 @@ searching "Family, as asserted by each collection's preferred taxonomy source."
 
 For example, whether a species is assigned to the family Muridae or Cricetidae may depend on what classification authority is selected by the collection.  Searching at the family level may not return all the expected specimens.  
 
-In this example, a search for Oryzomys returned almost all records in the family Cricetidae, but a search for all specimens in that family would have missed two specimens in a collection that uses a classification with the family Muridae.
+In this example, a search for the genus Oryzomys returned mostly records in the family Cricetidae.  
 
-_______________
+![image](https://user-images.githubusercontent.com/15368365/56099927-b981a280-5ed0-11e9-8bda-4b25eced7c6f.png)
 
-![Screen Shot 2019-04-13 at 3 05 37 PM](https://user-images.githubusercontent.com/15368365/56085274-b073d100-5dfd-11e9-9295-b9812148578f.png)
+If we had searched for just the specimens of Oryzomys in Cricetidae, we would have missed two specimens in a collection that uses a classification with the family Muridae.
 
-_______________
+![Screen Shot 2019-04-14 at 4 31 09 PM](https://user-images.githubusercontent.com/15368365/56100177-c0111980-5ed2-11e9-9c7c-1e7dae8c7c65.png)
 
-![Screen Shot 2019-04-13 at 3 03 08 PM](https://user-images.githubusercontent.com/15368365/56085237-465b2c00-5dfd-11e9-9c95-410a4d54057f.png)
-_______________
-
+If the two specimens classified in the family Muridae are in your collection, users may not find them depending on how they structure their search for the genus Oryzomys.  We can't control which fields users will select to search for specimens, but keeping your taxonomy as complete and current as possible will help users to find your specimens.
 
 ## Additional Examples
 
@@ -133,7 +134,7 @@ There are multiple ways to search for a taxon from the Search/Taxonomy screen an
 
 _________________
 
-![Screen Shot 2019-04-13 at 3 30 52 PM](https://user-images.githubusercontent.com/15368365/56085478-3fceb380-5e01-11e9-8d8f-77454ef96ab2.png)
+![Screen Shot 2019-04-14 at 4 20 50 PM](https://user-images.githubusercontent.com/15368365/56099993-57756d00-5ed1-11e9-8c5a-961d0d975b6b.png)
 
 _________________
 
@@ -143,7 +144,7 @@ Names that contain the string "microtus"
 _________________
 <http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus>
 
-![Screen Shot 2019-04-13 at 3 33 51 PM](https://user-images.githubusercontent.com/15368365/56085500-94722e80-5e01-11e9-8a6e-4915be540f9a.png)
+![Screen Shot 2019-04-14 at 4 22 53 PM](https://user-images.githubusercontent.com/15368365/56100029-99061800-5ed1-11e9-8881-6f4c4961e064.png)
 _________________
 
 Names that ARE Microtus:
@@ -151,7 +152,7 @@ Names that ARE Microtus:
 <http://arctos.database.museum/taxonomy.cfm?taxon_name==microtus>
 _________________
 
-![Screen Shot 2019-04-13 at 3 34 57 PM](https://user-images.githubusercontent.com/15368365/56085514-c1264600-5e01-11e9-92f7-c5d1e02f5c64.png)
+![Screen Shot 2019-04-14 at 4 24 40 PM](https://user-images.githubusercontent.com/15368365/56100050-d2d71e80-5ed1-11e9-8ee2-e549d0adda07.png)
 _________________
 
 Names that contain microtus AND have an attribute of "mammalia":
@@ -159,7 +160,7 @@ Names that contain microtus AND have an attribute of "mammalia":
 <http://arctos.database.museum/taxonomy.cfm?taxon_name=microtus&taxon_term=mammalia>
 _________________
 
-![Screen Shot 2019-04-13 at 3 36 34 PM](https://user-images.githubusercontent.com/15368365/56085520-f59a0200-5e01-11e9-9593-1d4f33753d89.png)
+![Screen Shot 2019-04-14 at 4 26 00 PM](https://user-images.githubusercontent.com/15368365/56100065-04e88080-5ed2-11e9-8799-d721de9ca509.png)
 _________________
 
 Microtus taxon page
@@ -169,7 +170,7 @@ http://arctos.database.museum/name/Microtus
 One you have reached the taxon page, you can access the specimens identified with that taxon.  
 _____________
 
-![Screen Shot 2019-04-13 at 4 22 54 PM](https://user-images.githubusercontent.com/15368365/56085866-7b20b080-5e08-11e9-846f-67557d1158cb.png)
+![Screen Shot 2019-04-14 at 4 27 14 PM](https://user-images.githubusercontent.com/15368365/56100089-2ea1a780-5ed2-11e9-9f76-0c0dd062dcda.png)
 ________________
 
 You can request specimens with a current ID as Microtus or a previous (possibly unaccepted) identification of Microtus. Results can be limited to specimens with media and exact matches (in this case, specimens identified only to the genus Microtus).  Note that if you are logged in with access to a specific collection, you will only see the results within your collection.  Log out or create a separate profile without access to any collection to see results for all collections in Arctos.
@@ -210,20 +211,16 @@ the following are true:
 
 Note that we can search for Cymatium under Identification (or Genus) and "See Results as" Specimen Summary by family.
 
-
-![Screen Shot 2019-04-13 at 4 50 52 PM](https://user-images.githubusercontent.com/15368365/56086094-a0172280-5e0c-11e9-83fc-311b3e4a4d64.png)
-
+![Screen Shot 2019-04-14 at 4 28 29 PM](https://user-images.githubusercontent.com/15368365/56100105-5b55bf00-5ed2-11e9-88fb-e94b3bb9fe0e.png)
 
 The results will show that Arctos has specimens identified as Cymatium in two families.  This is an excellent way to check for taxon names with inconsistent higher classification.
 
-
-![Screen Shot 2019-04-13 at 4 45 46 PM](https://user-images.githubusercontent.com/15368365/56086082-78c05580-5e0c-11e9-9adf-549a64377b87.png)
-
+![Screen Shot 2019-04-14 at 4 29 39 PM](https://user-images.githubusercontent.com/15368365/56100125-85a77c80-5ed2-11e9-9328-0c758e5fb9ea.png)
 
 This shows that 
 
 -   Collection1 is asserting that "the Family of Cymatium is Ranellidae" (1 specimen record)
--   Collection2 is asserting that "the Family of Cymatium is Cymatiidae" (25 specimen record)
+-   Collection2 is asserting that "the Family of Cymatium is Cymatiidae" (25 specimen records)
 -   Something else (via GlobalNames, perhaps) is asserting that "the
     Family of Cymatium is Fasciolariidae" but no Arctos collections are using that classification
 
