@@ -9,9 +9,17 @@ date: 2018-12-09
 
 The instructions in this How To are also given on each screen in Arctos as you create a new taxon.  Suggestions and clarifications to improve the instructions here and on the screens are always welcome.  Depending on the computer (PC or Mac) you are using and your browser, your images may differ slightly from what you see here.
 
+## Terms
+
+The completed Arctos taxon page for *Laubierina peregrinator* identifies the key elements of each taxon.
+
+![image](https://user-images.githubusercontent.com/15368365/56138943-1de64580-5f55-11e9-9ec7-7a47cd1c92c8.png)
+
 ## Create Taxon Name
 
-The first step in creating a taxon is to create the name. Always search Arctos before creating taxon names.  Arctos will not let you create a name that already exists.  Do not try to create duplicate namestrings, even in the case of homonyms, hemihomonyms, committee rulings, or for any other reason.  There are two ways that taxon names are created.
+The first step in creating a taxon is to create the name. Always search Arctos before creating taxon names.  Arctos will not let you create a name that already exists.  Do not try to create duplicate namestrings, even in the case of homonyms, hemihomonyms, committee rulings, or for any other reason.  
+
+There are two ways that taxon names are created.
 For users with assigned taxonomic authority, under the main menu Search/Taxonomy appears a link “Create a new name.”
 
 ![image](https://user-images.githubusercontent.com/15368365/56133952-cb079080-5f4a-11e9-8575-714f9701a73b.png)
@@ -20,24 +28,27 @@ Alternatively, within the taxon page with the desired higher classification, cli
 
 ![image](https://user-images.githubusercontent.com/15368365/56133980-dce93380-5f4a-11e9-8070-922f97243b7b.png)
 
+Both approaches take you to the next screen where you will enter the new taxon name.
+
+![image](https://user-images.githubusercontent.com/15368365/56136478-1bcdb800-5f50-11e9-92ee-65af42970952.png)
+
 ### Validation Service
 
 When taxon names are created or edited, Arctos checks them against various external services. This check is a tool, not an authority; all services have significant problems as of this writing. “Valid” names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy. “Valid for Arctos” taxonomy is described in [Taxonomy](http://handbook.arctosdb.org/documentation/) in Documentation.  
 
 ### Taxonomy Source
 
-As described in Taxonomy in Documentation, there are two types of taxonomic classifications: local and webservices.  
+There are two types of taxonomic classifications: local and webservices.  
 It is generally not possible to edit webservice classifications.  These are pulled from GlobalNames and they are automatically maintained, so edits would be lost with the next update.  This does not preclude using those webservice classifications as the preferred source for your collection, nor from editing them via any tools or collaborating with sources such as ITIS before they are pushed to GlobalNames and then Arctos. 
 
 Each collection chooses one source as its preferred source.  There are three [Local Sources](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) currently available: 
-Arctos is a locally-managed classification for everything but plants.  It does contains some paleontological plant classifications.
-Arctos Plants is a locally-managed classification for plants which are controlled by ICBN code.
-
-WoRMS (via Arctos) contains automatically-maintained data from http://www.marinespecies.org, in addition to some locally-maintained data (for taxa not in WoRMS but cataloged in collections which use this classification). To manage or create classifications in this source, simply provide an "aphiaid" non-classification term and click the "refresh" link. 
+- Arctos is a locally-managed classification for everything but plants.  It does contains some paleontological plant classifications.
+- Arctos Plants is a locally-managed classification for plants which are controlled by ICBN code.
+- WoRMS (via Arctos) contains automatically-maintained data from http://www.marinespecies.org, in addition to some locally-maintained data (for taxa not in WoRMS but cataloged in collections which use this classification). To manage or create classifications in this source, simply provide an "aphiaid" non-classification term and click the "refresh" link. 
 
 It is important to choose the intended collection's preferred source when creating classification data. Local sources are often limited to hierarchical data and managed through the [hierarchical data editor](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html).
 
-Classifications may be created one of three ways:
+**Classifications** may be created one of three ways:
 1.	cloning one from a webservice through Globalnames, 
 2.	cloning an existing classification 
 3.	manually creating a local source classification.  
@@ -66,7 +77,7 @@ After selecting the Source, click “Create cloned classification.”
 
 ![image](https://user-images.githubusercontent.com/15368365/56134472-ddce9500-5f4b-11e9-8126-f09f0b1b5a1a.png)
 
-Enter the Non-Classification Terms appropriate to your taxon.  Add as many rows as needed.  Two terms will be created automatically from the taxon name and classification.  These are the display_name (an HTML-formatted namestring) and the scientific_name. 
+Enter the Non-Classification Metadata appropriate to your taxon.  Add as many rows as needed.  Two terms will be created automatically from the taxon name and classification.  These are the display_name (an HTML-formatted namestring) and the scientific_name. 
 The following terms are created by the user and are selected from the drop-down menu:
 •	nomenclatural_code controls how display_name is suggested, and helps format display. Most common values are “ICZN” and “ICNB.”  This is a mandatory field.
 •	author_text is the author of ICZN names, or the species author of ICBN names.  Always include the author (with or without parentheses as appropriate) unless no author is given.  It will be added to the display_name.  
