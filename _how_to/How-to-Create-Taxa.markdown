@@ -13,7 +13,7 @@ The instructions in this How To are also given on each screen in Arctos as you c
 
 The completed Arctos taxon page for *Laubierina peregrinator* identifies the key elements of each taxon.
 
-![image](https://user-images.githubusercontent.com/15368365/56138943-1de64580-5f55-11e9-9ec7-7a47cd1c92c8.png)
+![image](https://user-images.githubusercontent.com/15368365/56143548-fa73c880-5f5d-11e9-9db7-35f829b649ec.png)
 
 ## Create Taxon Name
 
@@ -76,7 +76,7 @@ After selecting the Source, click “Create cloned classification.”
 
 ![image](https://user-images.githubusercontent.com/15368365/56134472-ddce9500-5f4b-11e9-8126-f09f0b1b5a1a.png)
 
-Enter the Non-Classification Metadata appropriate to your taxon.  Add as many rows as needed.  Two terms will be created automatically from the taxon name and classification.  These are the display_name (an HTML-formatted namestring) and the scientific_name.
+Enter the Classification Metadata appropriate to your taxon.  Add as many rows as needed.  Two terms will be created automatically from the taxon name and classification.  These are the display_name (an HTML-formatted namestring) and the scientific_name.
 
 The following terms are created by the user and are selected from the drop-down menu:
 -	**nomenclatural_code** controls how display_name is suggested, and helps format display. Most common values are “ICZN” and “ICNB.”  This is a mandatory field.
@@ -137,7 +137,7 @@ On the following screen, the nomenclatural code has already been entered by Arct
 
 ![image](https://user-images.githubusercontent.com/15368365/56135263-93e6ae80-5f4d-11e9-9ae0-66890187b0cd.png)
 
-We will need to add rows to the Non-Classifications Terms table for the 1) author 2) taxon status 3) source and 4) any other remarks. 
+We will need to add rows to the Classifications Metadata table for the 1) author 2) taxon status 3) source and 4) any other remarks. 
 
 ![image](https://user-images.githubusercontent.com/15368365/56135312-ae208c80-5f4d-11e9-82d4-db94ce79bd8a.png)
 
