@@ -255,7 +255,7 @@ For further instructions, consult the following "How to" documents.
 -  [How to manage taxonomic classifications](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html)
 -  [How to manage taxonomy hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
 -  [How to edit taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxonomy.html)
--  [How to search for specimens through Identification and taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_through_Identification_and_Taxonomy.html)
+-  [How to search for specimens with Identification and taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
 
 
 
