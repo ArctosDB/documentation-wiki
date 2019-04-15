@@ -35,7 +35,7 @@ publications should be used to clarify.
 
 Arctos taxonomy consists of two tables: 
 -  taxon names are the "base names" such as Animalia, Aves, *Canis lupus* or nonbiological "granite" 
--  taxon terms are non-classification metadata regarding a taxon name such as author, taxon status, or nomenclatural code.
+-  taxon terms are classification metadata regarding a taxon name such as author, taxon status, or nomenclatural code.
 
 Informal terms, such as "*Sorex sp.*" or "*Sorex cinereus* or *Sorex ugyunak*" are
 identifications, not taxonomy. Identifications are, however, generally drawn from
@@ -132,7 +132,7 @@ particular standard such as that of the American Ornithological Union
 (AOU Checklist).  Adjectival forms of proper names are capitalized
 (*e.g.*, "Alaska marmot").
 
-Common Names are added to the taxon record as non-classification metadata.
+Common Names are added to the taxon record as classification metadata.
 
 ## Taxon Relations
 
