@@ -11,7 +11,7 @@ It is generally advisable to only alter classifications used by your collection.
 
 Taxonomy only works properly when there is one named term for each "rank" pulled into Flat. Avoid having two (or more) terms ranked "family" in the same classifiction and avoid unranked family-level terms.
 
-To better understand how to make your specimens appear in a researcher query, see [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_through_Identification_and_Taxonomy.html) which shows the different results that can be achieved by using the different search fields.  It also shows the importance of having the most complete classification possible for each taxon name.  Try to include common ranked terms for searchability - kingdom, phylum, order, family, etc.
+To better understand how to make your specimens appear in a researcher query, see [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html) which shows the different results that can be achieved by using the different search fields.  It also shows the importance of having the most complete classification possible for each taxon name.  Try to include common ranked terms for searchability - kingdom, phylum, order, family, etc.
 
 The quality of the taxonomy you use is very important to the accessibility of your specimens.  Arctos provides a number of tools to manage your taxonomic tables.  Because these tables are a shared resource, you can benefit from the knowledge of other curators but also need to be mindful that your actions may impact their data as well.  
 
