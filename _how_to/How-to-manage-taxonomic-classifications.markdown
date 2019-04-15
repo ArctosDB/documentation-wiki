@@ -3,7 +3,7 @@ title: How To Manage Taxonomic Classifications
 layout: default_toc
 ---
 
-# Managing Taxonomic Classifications: Overview
+# Managing Taxonomic Classifications
 
 All taxon names live in a unique index including homonyms and hemihomonyms. "The specimen's taxonomy" comes from the collection's preferred [taxonomy source](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) selected under Manage Data/Metadata/Manage Collection. 
 
@@ -17,9 +17,9 @@ The quality of the taxonomy you use is very important to the accessibility of yo
 
 If you are using WoRMS (via Arctos), management of the taxonomic table is reduced but not eliminated.  WoRMS (via Arctos) taxa with an aphiaid are automatically maintained.  Taxa without an aphiaid (which are not in WoRMS) must be maintained by the users.
 
-# Common Problems
+## Common Problems
 
-## The Taxon Name I want to use exists, but there's no classification in my preferred source
+### The Taxon Name I want to use exists, but there's no classification in my preferred source
 
 [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html) shows step-by-step how to edit a taxon. Briefly, 
 * open the taxon name
@@ -32,7 +32,7 @@ You can also clone an existing record with a suitable classification into your p
 
 If there are no classifications or no suitable classifications to clone, you may click "create classification" to start from scratch. Please carefully follow all editing guidelines.
 
-## The Taxon Name I want to use does not exist
+### The Taxon Name I want to use does not exist
 
 Steo-by-step instructions for adding taxa are given in [How to create taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html).  Briefly,
 * find a similar name with a suitable classification.  For example, the same genus as the species you need to add.
@@ -42,18 +42,18 @@ Steo-by-step instructions for adding taxa are given in [How to create taxa](http
 * edit as needed  
 Note that names are published strings accepted as taxonomy by the scientific community (but not necessarily current or valid).
 
-## There's a homonym or hemi-homonym (two names spelled the same but not sharing higher taxonomy)
+### There's a homonym or hemi-homonym (two names spelled the same but not sharing higher taxonomy)
 
 Taxon names may have multiple "definitions" in multiple classifications.  
 The same taxon name can exist in Arctos and Arctos Plants.  If the name is in Arctos and you need it to be in your source Arctos Plants, clone the record, select Arctos Plants as the source, and edit as needed.  
 
 If there's a homonym among collections using the same source, use the Contact button (Report a bug or request support) on the bottom of any Arctos page for help. Example: Philometra is a lepidopteran under the Arctos classification, but you also use the Arctos classification and need to catalog Philometra-the-nematode.
 
-## Species in the same genus are assigned to multiple families
+### Species in the same genus are assigned to multiple families
 
 This can occur because various collections add new taxa that may not share the same higher classification.  You can edit each taxon record to have the same higher classification, but it is faster to use the [Hierarchical Classification Editor](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html).  This tool enables you to more quickly adjust all the species or other classification level into the identical higher classification and save it back into your preferred source.  The Editor helps to maintain consistent higher classification and is recommended whenever possible.  Inconsistent (or nonexistent) higher classification may make it difficult for users to find your specimens.
 
-# Editing non-classification data
+## Editing non-classification data
 
 [Non-classification metadata](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM) include the author, common name, source authority, relationships to other taxa and other data.  It augments and clarifies the taxon classification.
 
