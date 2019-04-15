@@ -251,11 +251,11 @@ for specimens.  They should be marked "invalid" and linked to the currently
 valid taxon.
 
 For further instructions, consult the following "How to" documents.
--  [How to create taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html)
--  [How to manage taxonomic classifications](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html)
--  [How to manage taxonomy hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
--  [How to edit taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxonomy.html)
--  [How to search for specimens with Identification and taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
+-  [How to Create Taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html)
+-  [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxonomy.html)
+-  [How to Manage Taxonomic Classifications](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html)
+-  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
+-  [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
 
 
 
