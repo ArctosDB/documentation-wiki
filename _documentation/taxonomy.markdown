@@ -252,7 +252,7 @@ valid taxon.
 
 For further instructions, consult the following "How to" documents.
 -  [How to Create Taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html)
--  [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxonomy.html)
+-  [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html)
 -  [How to Manage Taxonomic Classifications](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html)
 -  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
 -  [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
