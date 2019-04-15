@@ -2,7 +2,7 @@
 title: How To Create Taxa
 layout: default_toc
 author: Phyllis Sharp, Teresa J. Mayfield-Meyer
-date: 2018-12-09
+date: 2019-04-15
 ---
 
 # How To Create Taxa
@@ -34,17 +34,16 @@ Both approaches take you to the next screen where you will enter the new taxon n
 
 ### Validation Service
 
-When taxon names are created or edited, Arctos checks them against various external services. This check is a tool, not an authority; all services have significant problems as of this writing. “Valid” names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy. “Valid for Arctos” taxonomy is described in [Taxonomy](http://handbook.arctosdb.org/documentation/) in Documentation.  
+When taxon names are created or edited, Arctos checks them against various external services. This check is a tool, not an authority; all services have significant problems as of this writing. “Valid” names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy. “Valid for Arctos” taxonomy is described in [Taxonomy](http://handbook.arctosdb.org/documentation/taxonomy.html) in Documentation.  
 
 ### Taxonomy Source
 
-There are two types of taxonomic classifications: local and webservices.  
-It is generally not possible to edit webservice classifications.  These are pulled from GlobalNames and they are automatically maintained, so edits would be lost with the next update.  This does not preclude using those webservice classifications as the preferred source for your collection, nor from editing them via any tools or collaborating with sources such as ITIS before they are pushed to GlobalNames and then Arctos. 
+There are two types of taxonomic classifications: local and webservices.  It is generally not possible to edit webservice classifications.  These are pulled from GlobalNames and they are automatically maintained, so edits would be lost with the next update.  This does not preclude using those webservice classifications as the preferred source for your collection, nor from editing them via any tools or collaborating with sources such as ITIS before they are pushed to GlobalNames and then Arctos. 
 
 Each collection chooses one source as its preferred source.  There are three [Local Sources](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) currently available: 
 - Arctos is a locally-managed classification for everything but plants.  It does contains some paleontological plant classifications.
 - Arctos Plants is a locally-managed classification for plants which are controlled by ICBN code.
-- WoRMS (via Arctos) contains automatically-maintained data from http://www.marinespecies.org, in addition to some locally-maintained data (for taxa not in WoRMS but cataloged in collections which use this classification). To manage or create classifications in this source, simply provide an "aphiaid" non-classification term and click the "refresh" link. 
+- WoRMS (via Arctos) contains automatically-maintained data from [http://www.marinespecies.org](http://www.marinespecies.org), in addition to some locally-maintained data (for taxa not in WoRMS but cataloged in collections which use this classification). To manage or create classifications in this source, simply provide an "aphiaid" as non-classification metadata and click the "refresh" link. 
 
 It is important to choose the intended collection's preferred source when creating classification data. Local sources are often limited to hierarchical data and managed through the [hierarchical data editor](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html).
 
@@ -77,22 +76,23 @@ After selecting the Source, click “Create cloned classification.”
 
 ![image](https://user-images.githubusercontent.com/15368365/56134472-ddce9500-5f4b-11e9-8126-f09f0b1b5a1a.png)
 
-Enter the Non-Classification Metadata appropriate to your taxon.  Add as many rows as needed.  Two terms will be created automatically from the taxon name and classification.  These are the display_name (an HTML-formatted namestring) and the scientific_name. 
+Enter the Non-Classification Metadata appropriate to your taxon.  Add as many rows as needed.  Two terms will be created automatically from the taxon name and classification.  These are the display_name (an HTML-formatted namestring) and the scientific_name.
+
 The following terms are created by the user and are selected from the drop-down menu:
-•	nomenclatural_code controls how display_name is suggested, and helps format display. Most common values are “ICZN” and “ICNB.”  This is a mandatory field.
-•	author_text is the author of ICZN names, or the species author of ICBN names.  Always include the author (with or without parentheses as appropriate) unless no author is given.  It will be added to the display_name.  
-•	infraspecific_author is the author of the infraspecific epithet in ICBN names
-•	taxon-status is controlled by a code table.  While this is not mandatory, it is extremely helpful to users to know if the taxon is valid or invalid, extant or extinct.
-•	source_authority should list the publication, website or other authority for the taxon.  
-•	remark is an open field for any comment that will be helpful to Arctos users.
-•	preferred name is the taxon that is preferred by whatever source your collection references
-•	aphiaID is the unique number assigned to that taxon by the [World Register of Marine Species](http://www.marinespecies.org/)
+-	**nomenclatural_code** controls how display_name is suggested, and helps format display. Most common values are “ICZN” and “ICNB.”  This is a mandatory field.
+-	**author_text** is the author of ICZN names, or the species author of ICBN names.  Always include the author (with or without parentheses as appropriate) unless no author is given.  It will be added to the display_name.  
+-	**infraspecific_author** is the author of the infraspecific epithet in ICBN names
+-	**taxon-status** is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS).  While this is not mandatory, it is extremely helpful to users to know if the taxon is valid or invalid, extant or extinct, etc.
+-	**source_authority** should list the publication, website or other authority for the taxon.  
+-	**remark** is an open field for any comment that will be helpful to Arctos users.
+-	**preferred name** is the taxon that is preferred by whatever source your collection references
+-	**aphiaID** is the unique number assigned to that taxon by the [World Register of Marine Species](http://www.marinespecies.org/)
 
 ![image](https://user-images.githubusercontent.com/15368365/56134562-140c1480-5f4c-11e9-887e-ffdea57c73c0.png)
 
 ### Classification Terms 
 
-Ranks listed under TermType in classifications are used to build "specimen data," create labels, locate specimens from the ranked search term (such as Family) and sort search results in “specimen summary.”  Ranks are controlled by a [code table]( https://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM)
+Ranks listed under TermType in classifications are used to build "specimen data," create labels, locate specimens from the ranked search term (such as family) and sort search results in “specimen summary.”  Ranks are controlled by a [code table]( https://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM)
 
 The ordering of these terms is unimportant, and un-paired terms will be ignored and deleted when you save the record.
 
@@ -113,7 +113,7 @@ At [View Taxon Page] you can check for accuracy and see how the taxon will appea
 
 ### Possible inconsistencies from webservices
 
-If you create an invalid taxon, webservices may create the taxon with the accepted taxon causing a difference between the SCIENTIFIC_NAME based on your Taxon Name and the Species or other ranked term based on the webservice name.
+If you create an invalid taxon, webservices may create the taxon with the accepted taxon causing a difference between the SCIENTIFIC_NAME based on your Taxon Name and the species or other ranked term based on the webservice name.
 
 In this example, the taxon name entered was *Charonia tritonis variegata*.  The website World Register of Marine Species accepts *Charonia variegata* and not *Charonia tritonis variegata*.  When cloning a webservice taxon, always check that there are no ranks in red indicating a discrepancy.  In this case, the matching species and subspecies must be selected, even if the taxon status is “invalid.”  The taxon can then be linked as a synonym to the accepted taxon *Charonia variegata*. 
 
@@ -121,13 +121,11 @@ In this example, the taxon name entered was *Charonia tritonis variegata*.  The 
 
 In the second, but similar example, the webservice accepts *Charonia variegata* for *Charonia sequenzae*.  Saving the taxon without selecting the matching species will create a species in the classification that does not match the taxon name, which will make it difficult for users to find specimens.
 
-In this example, the taxon name entered was Charonia tritonis variegata.  The website World Register of Marine Species accepts *Charonia variegata* and not *Charonia tritonis variegata*.  When cloning a webservice taxon, always check that there are no ranks in red indicating a discrepancy.  In this case, the matching species and subspecies must be selected, even if the taxon status is “invalid.”  The taxon can then be linked to the accepted taxon *Charonia variegata*. 
-
 ![image](https://user-images.githubusercontent.com/15368365/56135037-20dd3800-5f4d-11e9-98e6-caa23270c00f.png)
 
 ## Create Classification by Cloning Local Source
 
-Often it is convenient to clone an existing classification into a new taxon.  From the main menu select Search/Taxonomy and search for the Taxon Name you want to clone.  In this case, we want to add the taxon *Astele stenomphala* E. A. Smith, 1898, and we know that the classification for the genus Astele is accurate.  We will click on [Clone Classification as new name].  
+Often it is convenient to clone an existing classification into a new taxon.  From the main menu select Search/Taxonomy and search for the Taxon Name you want to clone.  In this case, we want to add the taxon *Astele stenomphala* E. A. Smith, 1898, and we know that the higher classification for the genus Astele is accurate.  We will click on [Clone Classification as new name].  
 
 ![image](https://user-images.githubusercontent.com/15368365/56135183-67329700-5f4d-11e9-9adf-b664966e3220.png)
 
