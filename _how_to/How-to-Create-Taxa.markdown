@@ -85,7 +85,7 @@ The following terms are created by the user and are selected from the drop-down 
 -	**taxon-status** is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS).  While this is not mandatory, it is extremely helpful to users to know if the taxon is valid or invalid, extant or extinct, etc.
 -	**source_authority** should list the publication, website or other authority for the taxon.  
 -	**remark** is an open field for any comment that will be helpful to Arctos users.
--	**preferred name** is the taxon that is preferred by whatever source your collection references
+-	**preferred name** is completed for for "invalid" taxa to identify the synonym that is the valid taxon name.  This is especially helpful when there are multiple synonyms listed.
 -	**aphiaID** is the unique number assigned to that taxon by the [World Register of Marine Species](http://www.marinespecies.org/)
 
 ![image](https://user-images.githubusercontent.com/15368365/56134562-140c1480-5f4c-11e9-887e-ffdea57c73c0.png)
