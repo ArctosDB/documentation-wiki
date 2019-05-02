@@ -12,3 +12,5 @@ date: 2019-05-02
 * On the Results page, navigate to the Manage Menu --> Print Any Report. 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/print_any_report.JPG)
 * From the drop-down menu, select the report you want (usually your insitution's standard label template). Click the "Print Report" button to generate a PDF of the labels. From there, print away!
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/how_to_print_labels.mp4)
