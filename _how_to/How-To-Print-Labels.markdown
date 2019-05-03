@@ -13,4 +13,6 @@ date: 2019-05-02
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/print_any_report.JPG)
 * From the drop-down menu, select the report you want (usually your insitution's standard label template). Click the "Print Report" button to generate a PDF of the labels. From there, print away!
 
+# Tutorial Video
+
 [![YouTube: How To Print Labels](https://i.ytimg.com/vi/BlOi5XwJHas/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDs6SmrmIySQ1Ug67eex-Z6WS1Hnw)](https://www.youtube.com/watch?v=BlOi5XwJHas)
