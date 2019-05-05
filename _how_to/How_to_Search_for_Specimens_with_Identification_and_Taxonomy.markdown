@@ -1,6 +1,8 @@
 ---
-title: How to Search for Specimens with Identification and Taxonomy
+title: How To Search for Specimens with Identification and Taxonomy
 layout: default_toc
+author: Phyllis Sharp
+date: 2019-04-14
 ---
 
 
