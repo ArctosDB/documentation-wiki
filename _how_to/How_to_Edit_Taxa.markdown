@@ -1,5 +1,5 @@
 ---
-title: How to Edit Taxa
+title: How To Edit Taxa
 layout: default_toc
 author: Phyllis Sharp
 date: 2019-04-15
