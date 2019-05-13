@@ -42,7 +42,7 @@ WKT (polygon) data.
     both cases, the latitude, longitude, specific locality, and higher
     geography are potentially identical.
 -   There are important differences between a Locality and a [Verbatim
-    Locality](collecting-event/#verbatim_locality), though the verbiage
+    Locality](collecting-event.html#verbatim_locality), though the verbiage
     may often be the same.
 
 
