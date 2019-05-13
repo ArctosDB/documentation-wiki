@@ -107,9 +107,7 @@ Events](collecting-event) for more details).
     This standard challenges the flexibility of input methods, but
     increasingly foreign data can be received in Unicode, and for many
     editing needs one can cut and paste.
--   Enter Township, Range, Section (TRS), Lat/Long, and elevation data
-    in the separate fields provided for them (see below). Do not enter
-    TRS data in the Specific Locality field.
+
 -   If an obsolete name for a geographic place is given in Verbatim
     Locality, put the current name in Specific Locality, followed
     immediately by the obsolete name in parentheses after an "=".
@@ -251,8 +249,8 @@ fields.
 
 ## TRS
 
-Township, Range, and Section (TRS) information is sometimes given
-for localities.  TRS data should be entered as (part of) Specific Locality, and optionally converted to coordinates.
+"Verbatim" Township, Range, and Section (TRS) information should, like all verbatim locality data, be 
+entered in verbatim locality. Non-verbatim legacy TRS data may be entered in locality remarks.
 A thorough description of TRS data, along with a tool to translate them
 to latitude and longitude can be found at the following URL:
 
