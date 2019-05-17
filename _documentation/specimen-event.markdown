@@ -45,8 +45,9 @@ event are related. Examples:
 
 ## Collecting Source
 
+Collecting Source is a broad categorization of how the specimen came to be at the associated event. 
  See
-[CTCOLLECTING_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLLECTING_SOURCE)
+[CTCOLLECTING_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLLECTING_SOURCE) for values.
 
 
 ## Verification Status
