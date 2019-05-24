@@ -251,7 +251,7 @@ Attributes.
 
 ## Ambiguity
 
-Often when managing Agents, limited information will be available. Is "J. Smith" the "John Smith" I'm looking for? The Agent Activity report will
+Often when managing Agents, often only limited information will be available. 'Is "J. Smith" the "John Smith" I'm looking for?' may have no clear answer. The Agent Activity report will
 provide a summary of all that's known; often dates or places can be vital clues. (A different browser or private tab may be used to query collections to which one does
  not have Operator access.) An email to anyone using the existing or suspect agents may turn up more information. 
 
