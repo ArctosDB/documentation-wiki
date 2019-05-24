@@ -249,6 +249,22 @@ Attributes.
 	unabbreviated variation. An unabbreviated variant is encouraged.
 
 
+## Ambiguity
+
+Often when managing Agents, limited information will be available. Is "J. Smith" the "John Smith" I'm looking for? The Agent Activity report will
+provide a summary of all that's known; often dates or places can be vital clues. (A different browser or private tab may be used to query collections to which one does
+ not have Operator access.) An email to anyone using the existing or suspect agents may turn up more information. 
+
+Sometimes the data in Arctos cannot provide a clear answer, and a somewhat arbitrary choice becomes necessary. We suggest the choice between creating potential duplicates and "overloading" Agents is not as arbitrary as it may first appear; the "correct" choice among no truly correct choices is generally to create fewer Agents rather than more. 
+
+
+### Duplicates
+
+Duplicates - multiple Agent records which in fact refer to the same entity - can be difficult to discover; they are almost always based in partial or incorrect data, so any search that should find all seldom will. A search for specimens using one of the duplicates will fail to find everything desired, and will provide no clues to this situation. Finding something will most often lead users to believe they've found everything, and they will not investigate further. We see this as the worst possible situation; the data are actively masking the presence of desired information.
+
+### Overloaded Agents
+
+Overloaded Agents - Agent records which in fact represent multiple entities - are easy to discover. A search for the proper spelling will not find records linked to a mis-spelled Agent, and users will often continue to explore. (Users searching by agents generally know something of the agent in which they are interested.) When attached records are found, they will often contain information leading to the correct interpretation of the data: The alleged entity collected before they were born, or were collecting fossil molluscs in Alaska and extant grasshoppers in Madagascar at the same time. This information can easily and immediately be used to exclude the records which are not of interest or, for curatorial users, to split the agent and create a 'not the same as' relationship to prevent subsequent confusion.  
 
 ## Agent Relationships
 
