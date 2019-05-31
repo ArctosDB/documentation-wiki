@@ -13,23 +13,36 @@ Events]({{site.baseurl}}/documentation/collecting-event.html).
 
 ## Event Determiner
 
- refers to the agent who asserts that the specimen
-has [Event Type](#type) relationship to a collecting event. This person
-has determined or verified coordinates and error, dates, higher
+Agent asserting that the specimen
+has [Event Type](#type) relationship to a collecting event (including locality, geography, geology, etc.). This person
+has determined coordinates and error, dates, higher
 geography, and everything else in the "[place and time
 stack](/documentation/collecting-event/)."
 
 
 ## Event Date
 
- is the date on which the specimen was assigned to the
-place/time.
+ is the date on which the specimen was assigned to the place/time.
 
 
 ## Event Type
 
  See
 [CTSPECIMEN_EVENT_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSPECIMEN_EVENT_TYPE)
+
+## Verification Status
+
+ See
+[CTVERIFICATIONSTATUS](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTVERIFICATIONSTATUS)
+
+## Verified By
+
+Person who set Verification Status
+
+
+## Verified Date
+
+Date on which Verification Status was set
 
 
 ## Collecting Method
@@ -50,10 +63,6 @@ Collecting Source is a broad categorization of how the specimen came to be at th
 [CTCOLLECTING_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLLECTING_SOURCE) for values.
 
 
-## Verification Status
-
- See
-[CTVERIFICATIONSTATUS](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTVERIFICATIONSTATUS)
 
 
 ## Habitat
