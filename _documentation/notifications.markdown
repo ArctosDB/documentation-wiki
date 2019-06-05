@@ -22,7 +22,13 @@ All reminders and notifications rely upon an Agent’s email address; make sure 
 
 **Code table updates** are sent to all “data quality” contacts.
 
-**Agent “flagged as duplicate” messages** are sent to the “data quality” contacts of affected collections 7 days before the agents are merged.
+**Agent “flagged as duplicate” messages** are sent to the “data quality” contacts of affected collections 14 days before the agents are merged.
+
+**Arctos Pending Data Notification** are daily reminders of "Data Entry Extras" - specimen data pushed to part, identifier, etc. bulkloaders from specimen data entry.
+
+**Arctos Locality Change Notification** and **Arctos Collecting Event Change Notification** are daily notifications of changed Localities or Events. 
+
+**Reciprocal Relationship Notification** is a daily notification of unreciprocated interspecimen relationships. 
 
 ## Reports
 
