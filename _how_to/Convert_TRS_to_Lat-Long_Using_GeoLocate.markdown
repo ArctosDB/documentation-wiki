@@ -6,7 +6,7 @@ date: 2019-06-01
 ---
 # How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate
 
-## Township/Range/Section data can be converted to latitude/longitude coordinates using the following method.
+**Township/Range/Section data can be converted to latitude/longitude coordinates using the following method.**
 
 **1.**	Open [GeoLocate](https://www.geo-locate.org/web/WebGeoref.aspx)  
   
