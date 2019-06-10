@@ -1,7 +1,7 @@
 ---
 title: How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate
 layout: default_toc
-author: Nicole Ridgwell
+author: Nicole Ridgwell, Teresa J. Mayfield-Meyer
 date: 2019-06-01
 ---
 
@@ -19,13 +19,14 @@ Minimize the menu.
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate4.JPG)  
 5.	If your TRS coordinate does not have any quarter section data:  
   a.	Select “Draw polygon”.  
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate5.JPG)  
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate4a.JPG)  
   b.	Click on the four corners of the section square to draw a matching polygon. Double click on the last corner to release.
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate6.JPG)  
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate5.JPG)   
   c.	Click on the center point of the circle and then click “Resize uncertainty to polygon”.  
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate7.JPG)  
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate6.JPG)  
   d.	If the edges of the circle do not match up to the square, move the center point slightly and resize again.  
   e.	Use the latitude, longitude, and uncertainty of the circle for your locality.  
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate6.JPG)  
 6.	If your TRS coordinates do have quarter section data:  
   a.	How to read quarter sections, an example:  
     	If the data has a string of letters after it like this – NW SW SE – you should read it as – the northwest corner of the southwest corner of the southeast corner of section 22. Imagine the grid below is section 22, the x marks the correct quarter section: 
