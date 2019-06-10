@@ -252,8 +252,7 @@ fields.
 "Verbatim" Township, Range, and Section (TRS) information should, like all verbatim locality data, be 
 entered in verbatim locality. Non-verbatim legacy TRS data may be entered in locality remarks.
 A thorough description of TRS data, along with a tool to translate them
-to latitude and longitude can be found in [How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate]
-(https://handbook.arctosdb.org/how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.html).
+to latitude and longitude can be found in [https://handbook.arctosdb.org/how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.html](How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate).
 
 
 # Coordinates
