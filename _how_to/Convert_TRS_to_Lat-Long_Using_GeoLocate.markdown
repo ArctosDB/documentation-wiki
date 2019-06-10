@@ -19,7 +19,7 @@ Minimize the menu.
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate4.JPG)  
 5.	If your TRS coordinate does not have any quarter section data:  
   a.	Select “Draw polygon”.  
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate4a.JPG)  
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate4a.jpg)  
   b.	Click on the four corners of the section square to draw a matching polygon. Double click on the last corner to release.
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate5.JPG)   
   c.	Click on the center point of the circle and then click “Resize uncertainty to polygon”.  
