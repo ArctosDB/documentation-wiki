@@ -26,7 +26,7 @@ Minimize the menu.
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate6.JPG)  
   d.	If the edges of the circle do not match up to the square, move the center point slightly and resize again.  
   e.	Use the latitude, longitude, and uncertainty of the circle for your locality.  
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate6.JPG)  
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate7.JPG)  
 6.	If your TRS coordinates do have quarter section data:  
   a.	How to read quarter sections, an example:  
     	If the data has a string of letters after it like this – NW SW SE – you should read it as – the northwest corner of the southwest corner of the southeast corner of section 22. Imagine the grid below is section 22, the x marks the correct quarter section: 
