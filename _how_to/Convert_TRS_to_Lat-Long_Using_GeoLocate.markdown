@@ -37,8 +37,7 @@ date: 2019-06-01
   ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate7.JPG)  
 
 **6.**	If your TRS coordinates do have quarter section data:  
-  * How to read quarter sections, an example:  
-    	If the data has a string of letters after it like this – NW SW SE – you should read it as – the northwest corner of the southwest corner of the southeast corner of section 22. Imagine the grid below is section 22, the x marks the correct quarter section: 
+  * How to read quarter sections, an example: If the data has a string of letters after it like this – NW SW SE – you should read it as – the northwest corner of the southwest corner of the southeast corner of section 22. Imagine the grid below is section 22, the x marks the correct quarter section:  
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/TRS%20table.JPG)  
   * Select “Draw polygon”.    
   * Approximate the position of the quarter section within the section square. Draw a square at this position. Double click on the last corner to release.    
