@@ -1,8 +1,8 @@
 ---
-title: How To Github - Why Use Github for Arctos?
+title: How To Github - Getting Started with Github for Arctos
 layout: default_toc
-author: Dusty McDonald
-date: 2016-05-09
+author: Dusty McDonald, Teresa J. Mayfield-Meyer
+date: revised 2019-06-14; 2016-05-09
 ---
 
 _Stable link to this page: https://doi.org/10.7299/X75B02M5_
@@ -11,7 +11,7 @@ _Stable link to this page: https://doi.org/10.7299/X75B02M5_
 
 * GitHub serves as the primary means of communication between Arctos developers and users.
 
-* GitHub is the place to go for the [Arctos Handbook](https://arctosdb.github.io/documentation-wiki/) that will help you function as an Arctos user or operator. 
+* GitHub is where Arctos users can contribute to the [Arctos Handbook](http://handbook.arctosdb.org/) via the [Arctos Documentation-wiki Repository](https://arctosdb.github.io/documentation-wiki/). 
 
 * If you have an Arctos Issue, post it on the [Issues](https://github.com/ArctosDB/arctos/issues) site. There you can also view and comment on issues.
 
@@ -25,29 +25,51 @@ _Stable link to this page: https://doi.org/10.7299/X75B02M5_
 
 * Click the big green button to "Sign up for GitHub."
 
-## What You Can Do in GitHub
+* Edit your GitHub profile to include your name and Arctos Institution. This helps other Arctos users know who they are developing with when discussing Arctos Issues. To do this select "Profile" from the drop down in the top right corner of the GitHub page.
 
-* Anyone can view, post, or comment on an Issue (<https://github.com/ArctosDB/arctos/issues>). 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Profile.jpg)
+
+Then select the "Edit profile" button on the left side of your profile page.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Edit%20Profile.jpg)
+
+You can add a photo to replace the GitHub generated avatar, but it isn't completely necessary. The most helpful thing you can do here is to add your name and institution so that everyone working with you in Arctos will know who you are.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Edit%20Profile2.png)
+
+Be sure to save your edits! Now you are ready to get to know GitHub!
+
+
+## GitHub Membership Levels and Permissions
+
+Anyone can view, post, or comment on an [Arctos Issue](<https://github.com/ArctosDB/arctos/issues>). 
 You do not need special permissions to do this. Without special permissions, however, you cannot label an issue, close an issue, assign an issue to another person, or assign a milestone to an issue.
 
-* Any active Arctos user may request permission to become a member of the "Users" team. 
-"Users" may create and/or edit Arctos Handbook and organize (assign labels and milestone or vote by reacting) Issues. To become a member of this team, send an email with your GitHub username to dustymc@gmail.com and ccicero@berkeley.edu or mkoo@berkeley.edu. 
-See [instructions](/how_to/How-to-Create-or-Edit-Content-on-the-Arctos-Wiki) on how to 
-create and/or edit content in the documentation-wiki repository.
+### Arctos Users Team
+Any active Arctos user may request permission to become a member of the "Users" team. 
 
-* Users may request AWG Task Force Meetings to finalize Issues, or groups of related Issues.
- Start a Doodle poll and paste the link into the Issue(s) you wish to address.
+* "Users" may create and/or edit Arctos Handbook pages and organize (assign labels and milestone or vote by reacting) Issues. To become a member of this team, send an email with your GitHub username to dustymc@gmail.com and ccicero@berkeley.edu or mkoo@berkeley.edu. 
+See [instructions](/how_to/How-to-Create-or-Edit-Content-on-the-Arctos-Wiki) on how to create and/or edit content in the documentation-wiki repository.
 
+* Users may request AWG Task Force Meetings to finalize Issues, or groups of related Issues. Start a Doodle poll and paste the link into the Issue(s) you wish to address.
+
+* Members who are assigned to the 'Users' team have access to the documentation code where they can create and edit pages for the Arctos Handbook [Documentation and How-to Guides](https://handbook.arctosdb.org). They cannot invite other members, however, without additional administrative privileges.
+
+### Arctos Owner Team
+Arctos Owners have administrative permissions.
 
 * Only people with administrative permissions can add new members. To do that, go to [https://github.com/ArctosDB](https://github.com/ArctosDB) and click on "Invite someone" at the bottom of the People pane on the right of the window. Search by the person's GitHub username and enter it where prompted. Select the person to add. He/she will need to accept the membership invitation in order to become a member. When you invite someone, the default role is 'member' versus 'owner' which has more administrative privileges. 
 
-* Members who are assigned to the 'Users' team have access to the documentation code where they can create and edit pages for the Arctos Handbook 
-[Documentation and How-to Guides](https://handbook.arctosdb.org).
- They cannot invite other members, however, without additional administrative privileges.
+### VertNet, TDWG, and other GitHub Repositories
+If you want to receive notifications (e.g., data issues) from VertNet, TDWG, or any other GitHub repository, your GitHub account needs to be added to them.
 
-* If you want to receive notifications (e.g., data issues) from VertNet, your GitHub account needs to be added to the VertNet 
-repository for your collection. For more information, read 
-the [VertNet Guide to Issue Tracking](http://vertnet.org/resources/issuetrackingguide.html).
+* VertNet
+For more information, read the [VertNet Guide to Issue Tracking](http://vertnet.org/resources/issuetrackingguide.html).
+
+## Managing GitHub Notifications
+
+
+Does the stuff below belong here or elsewhere?
 
 **TIP**: Documentation pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/), which is dead simple 
 to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
