@@ -49,18 +49,24 @@ You do not need special permissions to do this. Without special permissions, how
 Any active Arctos user may request permission to become a member of the "Users" team. 
 
 * "Users" may create and/or edit Arctos Handbook pages and organize (assign labels and milestone or vote by reacting) Issues. To become a member of this team, send an email with your GitHub username to dustymc@gmail.com and ccicero@berkeley.edu or mkoo@berkeley.edu. 
-See [instructions](/how_to/How-to-Create-or-Edit-Content-on-the-Arctos-Wiki) on how to create and/or edit content in the documentation-wiki repository.
 
 * Users may request AWG Task Force Meetings to finalize Issues, or groups of related Issues. Start a Doodle poll and paste the link into the Issue(s) you wish to address.
 
-* Members who are assigned to the 'Users' team have access to the documentation code where they can create and edit pages for the Arctos Handbook [Documentation and How-to Guides](https://handbook.arctosdb.org). They cannot invite other members, however, without additional administrative privileges.
+* Users have access to the documentation code where they can create and edit pages for the Arctos Handbook [Documentation and How-to Guides](https://handbook.arctosdb.org). See [instructions](/how_to/How-to-Create-or-Edit-Content-on-the-Arctos-Wiki) on how to create and/or edit content in the documentation-wiki repository.
+
+>**TIP**: Documentation pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/), which is dead simple 
+to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+>
+>Start here for [basic steps to writing guides for the Arctos Handbook](http://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
+
+* Users cannot invite other members.
 
 ### Arctos Owner Team
 Arctos Owners have administrative permissions.
 
 * Only people with administrative permissions can add new members. To do that, go to [https://github.com/ArctosDB](https://github.com/ArctosDB) and click on "Invite someone" at the bottom of the People pane on the right of the window. Search by the person's GitHub username and enter it where prompted. Select the person to add. He/she will need to accept the membership invitation in order to become a member. When you invite someone, the default role is 'member' versus 'owner' which has more administrative privileges. 
 
-### VertNet, TDWG, and other GitHub Repositories
+## VertNet, TDWG, and other GitHub Repositories
 If you want to receive notifications (e.g., data issues) from VertNet, TDWG, or any other GitHub repository, your GitHub account needs to be added to them.
 
 * VertNet
@@ -69,11 +75,5 @@ For more information, read the [VertNet Guide to Issue Tracking](http://vertnet.
 ## Managing GitHub Notifications
 
 
-Does the stuff below belong here or elsewhere?
-
-**TIP**: Documentation pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/), which is dead simple 
-to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Start here for [basic steps to writing guides for the Arctos Handbook](http://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
 
 More advanced users can check out [How to get the most out of Arctos-Github](/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.html)
