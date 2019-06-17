@@ -77,12 +77,12 @@ You can manage email notifications in your GitHub settings, which you can access
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Settings.png)
 
 To learn about GitHub Notifications and how to manage your GitHub experience in general, we suggest you read **[Managing your notifications](https://help.github.com/en/articles/managing-your-notifications)**
-
+ 
 ### Watching vs Participating
-
+ 
 >So, the most confusing part is knowing when I am part of the conversation or just receiving comments from various issues that don't involve me.
 
-For each repository in GitHub you can select a participation setting. The setting you choose helps determine what kinds of notifications you receive. To see your watch settings for your GitHub repositories in your GitHub profile select settings > Notifications and the linked text "things you are watching" at the top right of the page.
+For each repository in GitHub you can select a participation setting. The setting you choose helps determine what kinds of notifications you receive. To see your watch settings for your GitHub repositories: in your GitHub profile select settings > Notifications and the linked text "things you are watching" at the top right of the page.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Settings%20Watching.jpg)
 
