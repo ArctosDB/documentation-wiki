@@ -9,7 +9,7 @@ _Stable link to this page: https://doi.org/10.7299/X75B02M5_
 
 # Why Use GitHub for Arctos?
 
->>I'd also like to echo the value of the community from a development perspective. A broader perspective seems to make EVERYTHING better. I can often build stuff that just works out of the box because a bunch of people with very different perspectives looked at it before we started writing code. The key to an extremely robust locality model seems to have been getting parasitologists and ethnologists in the same conversation. Rapid digitization of a paleo collection drew heavily from stuff developed for a herbarium. Etc ad nauseum. I don't think there's any remote possibility that any "traditional" group of collections or developers could have built anything like Arctos; it's a synthesis of the community. ~ Dusty McDonald, Arctos Programmer
+>>I'd also like to echo the value of the community from a development perspective. A broader perspective seems to make EVERYTHING better. I can often build stuff that just works out of the box because a bunch of people with very different perspectives looked at it before we started writing code. The key to an extremely robust locality model seems to have been getting parasitologists and ethnologists in the same conversation. Rapid digitization of a paleo collection drew heavily from stuff developed for a herbarium. Etc ad nauseum. I don't think there's any remote possibility that any "traditional" group of collections or developers could have built anything like Arctos; **it's a synthesis of the community**. ~ Dusty McDonald, Arctos Programmer
 
 The tool we use to accomplish what Dusty describes above is GitHub.
 
