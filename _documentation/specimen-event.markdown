@@ -82,8 +82,6 @@ for any more-specific fields.
 
 # Edit Form
 
-## Below this line is draft documentation which applies to a form currently under development. Use it and the form with caution.
-
 There are two ways to edit specimen-events and associated place/time data.
 
 1.  old/normal way
