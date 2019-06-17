@@ -38,8 +38,7 @@ You can add a photo to replace the GitHub generated avatar, but it isn't complet
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Edit%20Profile2.png)
 
 Be sure to save your edits! Now you are ready to get to know GitHub!
-
-
+ 
 ## GitHub Membership Levels and Permissions
 
 Anyone can view, post, or comment on an [Arctos Issue](<https://github.com/ArctosDB/arctos/issues>). 
@@ -74,23 +73,25 @@ For more information, read the [VertNet Guide to Issue Tracking](http://vertnet.
 
 ## Managing GitHub Notifications
 
-Once you have created your GitHub account and joined the Arctos repository, you will begin to get email from GitHub. Because our GitHub is very active, the amount of email can be overwhelming. So, how do you avoid 100 emails a day but still stay in touch? Here are some suggestions:
+Once you have created your GitHub account and joined the Arctos repository, you will begin to get email from GitHub. Because our GitHub is very active, the amount of email can be overwhelming. So, how do you avoid 100 emails a day but still stay in touch? 
 
-### Digest Notifications
+You can manage email notifications in your GitHub settings, which you can access from your account profile or directly from the dropdown next to your GitHub avatar on any GitHub page when you are signed in.
 
-### Web Notifications - Don't get any email from GitHub
- 
-With a bit of discipline, you can avoid receiving any email from GitHub and still follow the conversation. In your GitHub profile, select settings > Notifications and change "watching" and "Participating" to "Web". 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Settings.png)
 
-![image](https://user-images.githubusercontent.com/5725767/55844860-a2236d80-5afc-11e9-9d3f-a7fde126b868.png)
- 
-THEN set a reminder in your personal calendar to review GitHub issues. To do this, select the little blue bell next to your avatar.
+To learn about GitHub Notifications and how to manage your GitHub experience in general, we suggest you read **[Managing your notifications](https://help.github.com/en/articles/managing-your-notifications)**
 
-![image](https://user-images.githubusercontent.com/5725767/55844913-d565fc80-5afc-11e9-89aa-27894468ca47.png)
+>**TIP** Web Notifications - Don't get any email from GitHub
+> 
+>With a bit of discipline, you can avoid receiving any email from GitHub and still follow the conversation. In your GitHub profile, select settings > Notifications and change "watching" and "Participating" to "Web". 
+>
+>![image](https://user-images.githubusercontent.com/5725767/55844860-a2236d80-5afc-11e9-9d3f-a7fde126b868.png)
+> 
+>THEN set a reminder in your personal calendar to review GitHub issues. To do this, select the little blue bell next to your avatar.
+>
+>![image](https://user-images.githubusercontent.com/5725767/55844913-d565fc80-5afc-11e9-89aa-27894468ca47.png)
+>
+>You will be rewarded with a list of unread notifications. You can peruse the list, read the issues that interest you and mark those that don't as "read". Depending upon the level you wish to participate, you might check once or twice a day or once a week, but less than that might mean missing out on contributing to an important conversation.
 
-You will be rewarded with a list of unread notifications. You can peruse the list, read the issues that interest you and mark those that don't as "read". Depending upon the level you wish to participate, you might check once or twice a day or once a week, but less than that might mean missing out on contributing to an important conversation.
-
-
-### No Notifications
 
 More advanced users can check out [How to get the most out of Arctos-Github](/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.html)
