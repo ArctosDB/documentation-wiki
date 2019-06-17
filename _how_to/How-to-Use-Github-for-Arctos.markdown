@@ -53,11 +53,6 @@ Any active Arctos user may request permission to become a member of the "[Users]
 
 * Users have access to the documentation code where they can create and edit pages for the Arctos Handbook [Documentation and How-to Guides](https://handbook.arctosdb.org). See [instructions](/how_to/How-to-Create-or-Edit-Content-on-the-Arctos-Wiki) on how to create and/or edit content in the documentation-wiki repository.
 
->**TIP**: Documentation pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/), which is dead simple 
-to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
->
->Start here for [basic steps to writing guides for the Arctos Handbook](http://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
-
 * Users cannot invite other members.
 
 ### Arctos Owner Team
