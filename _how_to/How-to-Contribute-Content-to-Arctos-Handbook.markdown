@@ -16,6 +16,11 @@ Arctos Handbook content can be created or edited by anyone who is a member of th
 
 Arctos users who want the ability to create or edit Documentation and "How-to Guides" should contact dustymc@gmail.com or mkoo@berkeley.edu or ccicero@berkeley.edu in order to be added to the "Users" team. We encourage Curators/Collection Managers to engage students in writing "How-to Guides." However, students will not be able to post them to the wiki site; instead, they will need to submit the content to a member of the ArctosDB "Users" team (e.g., their supervisor) who can then post the content.
 
+>**TIP**: Documentation pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/), which is dead simple 
+to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+>
+>Start here for [basic steps to writing guides for the Arctos Handbook](http://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
+
 ## Create New Content
 
 * First, login to GitHub.
