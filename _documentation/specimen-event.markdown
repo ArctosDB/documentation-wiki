@@ -108,7 +108,7 @@ There are two ways to edit specimen-events and associated place/time data.
 This creates a new locality and event with every save. There are two save modes:
 
 * edit ("Edit the current specimen_event") should be used when changes have not affected the fundamental nature of the space-time data.
-Fixing a type in a remarks field, verifying an event, making minor georeference adjsutments, etc. can safely use this approach. When
+Fixing a typo in a remarks field, verifying an event, making minor georeference adjsutments, etc. can safely use this approach. When
 this option is used, the specimen-event is moved out of the "old" event and locality; it becomes detached from any history those objects
 may have had, and if other specimens are not using the event/locality they will be purged by the cleanup scripts.
 
