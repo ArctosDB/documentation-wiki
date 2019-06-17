@@ -78,6 +78,27 @@ You can manage email notifications in your GitHub settings, which you can access
 
 To learn about GitHub Notifications and how to manage your GitHub experience in general, we suggest you read **[Managing your notifications](https://help.github.com/en/articles/managing-your-notifications)**
 
+### Watching vs Participating
+
+>So, the most confusing part is knowing when I am part of the conversation or just receiving comments from various issues that don't involve me.
+
+For each repository in GitHub you can select a participation setting. The setting you choose helps determine what kinds of notifications you receive. To see your watch settings for your GitHub repositories in your GitHub profile select settings > Notifications and the linked text "things you are watching" at the top right of the page.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Settings%20Watching.jpg)
+
+You will see a list of all of the GitHub repositories to which you have subscribed. For each one, you can choose the types of notifications you receive or not based upon the watch status you assign.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Watching.jpg)
+
+* **Watching** is the default. You will be notified of all conversations.
+
+* **Not Watching** is not the best choice for the community, but a good choice for managing notifications when you don't want to stumble upon issues that might interest you. You will only recieve notifications if you are participating (you started an issue or commented on one) or are mentioned (someone assigns an issue to you or uses your GitHub username in the text of an issue).
+
+* **Releases Only** is effectively the same as Not Watching for Arctos Users.
+
+* **Ignoring** is not recommended. You will never receive notifications.
+
+
 >**TIP** Web Notifications - Don't get any email from GitHub
 > 
 >With a bit of discipline, you can avoid receiving any email from GitHub and still follow the conversation. In your GitHub profile, select settings > Notifications and change "watching" and "Participating" to "Web". 
