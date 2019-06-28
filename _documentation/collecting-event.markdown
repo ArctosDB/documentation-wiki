@@ -109,6 +109,31 @@ eg, transcription errors).
 
 Use Remarks to document non-standard information pertaining to the fields in collecting event. Do not use remarks for any information which could be recorded with more structure elsewhere.
 
+## Attributes
+
+Any collecting event may carry any number of Event Attributes. Structure is similar to [Specimen Attributes](http://handbook.arctosdb.org/documentation/attributes.html).
+
+* [Event Attribute Type code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_EVENT_ATTR_TYPE)
+* [Event Attribute DataType code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_EVENT_ATT_ATT)
+
+### Event Attribute Search
+
+Expand the Date/Collector pane to search for specimen by Event Attribute. Various search parameters are possible.
+
+* Pick an attribute type to find specimens with that "field."
+* For free-text attributes (those not in the Event Attribute DataType code table)
+    * Enter a string for a LIKE search ("Some" will match "Some Thing"), or 
+    * Enter a string prefixed with "=" for an exact match ("=Some" will match only "Some")
+* For categorical attributes (those with a Value Code Table in the Event Attribute DataType code table), choose a value from the pick list that appears when a categorical type is chosen.
+* For number-plus-units attributes  (those with a Units Code Table in the Event Attribute DataType code table)
+    * Choose units in the pick list if desired, and if desired
+    * Enter a number in value for a substring match ("12" will match "123"), or
+    * Enter a number prefixed with "=" for an exact match ("12" will match only "12"), or
+    * Enter a number prefixed with "<" for a lower limit ("<12" will match -18000, 1, 11,...), or
+    * Enter a number prefixed with ">" for an upper limit (">12" will match 12, 13, 18000, ...)
+    
+
+
 ## Specimen Search
 
 "Collected on or after" and "Collected on or before" offer two distinct search
