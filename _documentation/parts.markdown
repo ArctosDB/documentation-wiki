@@ -75,6 +75,21 @@ For example, parasites may be cataloged as parts and flagged as tissues.
 
 Parts flagged as tissues are not necessarily suitable for every usage, and may include products such as venom.
 
+## Preservation
+
+<div style="margin:1em;padding:1em;border:2px solid red; background-color:rgb(249, 242, 244);">
+NOTE: The definition of Tissue above is being deprecated, and embedded preservation information is being removed from part names. The following will become definitive as the migration is completed.
+</div>
+
+Part Preservation is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPART_PRESERVATION). Any part may have any number of preservation events, and like all Part Attributes they may include date and determiner information. "Tissueness" is an attribute of preservation.
+
+* A part with no preservation attributes is not a tissue
+* A part with one or more preservation attributes having a NULL preservation flag is not a tissue
+* A part with one or more preservation attributes having a TRUE preservation flag may be a tissue, except
+* A part with one or more preservation attributes having a FALSE preservation flag cannot be a tissue
+
+For example, a part preserved in "90% ethanol" would be a tissue, unless it also has an additional (probably earlier) "formalin" attribute.
+
 ## Disposition
 
 `Coll_Object . Disposition VARCHAR(20) not null`
