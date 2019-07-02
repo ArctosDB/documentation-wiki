@@ -12,13 +12,17 @@ layout: default_toc
 	Do not modify this file without modifying the functions which compile the JSON
 	
 	Do not remove this comment.
+	
+	TABS eat the tick-tick-tick-json thing, and the 'format' should be valid JSON - use a validator to format for this doc
 
 	::::::::::::::::IMPORTANT::::::::::::::::
 
 -->
 
 
-``NOTE: "Field names" as given in this document are intended to be descriptive and may not map to actual concepts in Arctos.``
+``
+	NOTE: "Field names" as given in this document are intended to be descriptive and may not map to actual concepts in Arctos.
+``
 
 
 # JSON
