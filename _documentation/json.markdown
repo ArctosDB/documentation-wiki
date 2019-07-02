@@ -13,9 +13,12 @@ layout: default_toc
 	
 	Do not remove this comment.
 	
-	TABS eat the tick-tick-tick-json thing, and the 'format' should be valid JSON - use a validator to format for this doc
+	TABS eat the tick-tick-tick-json thing, and the 'format' should be valid JSON - use a validator to format for this doc.
 
 	::::::::::::::::IMPORTANT::::::::::::::::
+	
+	This could be more correctly done as JSON schemas, but those are harder for many users to read. For now at least,
+	this is just a verbose example intended to get the idea across.
 
 -->
 
