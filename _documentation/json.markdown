@@ -3,14 +3,23 @@ title: JSON
 layout: default_toc
 ---
 
+
+
+
 <!--
 	::::::::::::::::IMPORTANT::::::::::::::::
 	
 	Do not modify this file without modifying the functions which compile the JSON
+	
+	Do not remove this comment.
 
 	::::::::::::::::IMPORTANT::::::::::::::::
 
 -->
+
+
+
+
 # JSON
 
 [JSON](https://en.wikipedia.org/wiki/JSON) is "an open-standard file format that uses human-readable text to transmit data objects." In Arctos, JSON is a way for us to share complex data with both humans (the data is easily understandable by humans) and machines (the data is easily read by a very wide variety of programs) in otherwise simple formats, such as the ubiquitous table.
@@ -53,7 +62,7 @@ Any specimen may have any number of specimen-events, and each may have any numbe
 		"EL":"LOCALITY.ELEVATION",
 		"DP":"LOCALITY.DEPTH",
 		"DM":"LOCALITY.DATUM",
-		"HG":"GEOGRAPHY.HIGHER_GEOG",
+		"HG":"GEOGRAPHY.HIGHER_GEOGRAPHY",
 		"GY": [
 			{
 				"TY":"GEOLOGY.GEOLOGY_ATTRIBUTE",
