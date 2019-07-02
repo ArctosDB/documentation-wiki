@@ -44,6 +44,8 @@ We generally limit JSON to 4000 bytes. Data which would exceed that are delivere
 [{"STATUS":"ERROR CREATING JSON"}]
 ```
 
+Please [Contact Us](https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=contact&template=contact-arctos.md&title=%5BCONTACT%5D) with any issues, needs, or concerns.
+
 ## Locality
 
 Any specimen may have any number of specimen-events, and each may have any number of collecting event attributes and/or geology determinations. These data are available in specimenresults as "JSON Locality" in the following format.
