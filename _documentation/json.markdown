@@ -112,6 +112,7 @@ Any specimen may have any number of specimen-events, and each may have any numbe
 		       "DR" : "PART_ATTRIBUTE.DETERMINED_BY_AGENT",
 		       "AR" : "PART_ATTRIBUTE.ATTRIBUTE_REMARK"
 		   }
+		]
 	}
 ]
 ```   
