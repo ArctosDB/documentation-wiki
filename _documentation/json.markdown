@@ -41,7 +41,7 @@ We generally limit JSON to 4000 bytes. Data which would exceed that are delivere
 
 Any specimen may have any number of specimen-events, and each may have any number of collecting event attributes and/or geology determinations. These data are available in specimenresults as "JSON Locality" in the following format.
 
-```json
+```javascript
 [
 	{
 		"ST":"SPECIMEN_EVENT.SPECIMEN_EVENT_TYPE",
