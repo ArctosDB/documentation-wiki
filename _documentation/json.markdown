@@ -127,5 +127,25 @@ Any specimen may have any number of specimen-events, and each may have any numbe
    }
 ]
 ```   
-	   
+
+## Media
+
+"Media" in SpecimenResults download is media metadata as JSON. The format is as follows.
+
+* MEDIA.MEDIA_ID can be used to form Media Detail URLs of the format http://arctos.database.museum/{MEDIA.MEDIA_ID}
+* MEDIA.MEDIA_ID can be used to form URLs which GET the Media object as  http://arctos.database.museum/{MEDIA.MEDIA_ID}?open
+
+```json
+[
+   {
+      "MI":"MEDIA.MEDIA_ID",
+      "MT":"MEDIA.MEDIA_TYPE",
+      "PU":"MEDIA.PREVIEW_URL",
+      "MU":"MEDIA.MEDIA_URI",
+      "ME":"MEDIA.MIME_TYPE"
+   }
+]
+```   
+	 
+		
 	   
