@@ -142,7 +142,7 @@ Any specimen may have any number of specimen-events, and each may have any numbe
       "MT":"MEDIA.MEDIA_TYPE",
       "PU":"MEDIA.PREVIEW_URL",
       "MU":"MEDIA.MEDIA_URI",
-      "ME":"MEDIA.MIME_TYPE"
+      "MC":"MEDIA.MIME_CATEGORY"
    }
 ]
 ```   
