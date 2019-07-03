@@ -139,10 +139,10 @@ Any specimen may have any number of specimen-events, and each may have any numbe
 [
    {
       "MI":"MEDIA.MEDIA_ID",
-      "MT":"MEDIA.MEDIA_TYPE",
+      "MT":"MEDIA.MIME_TYPE",
       "PU":"MEDIA.PREVIEW_URL",
       "MU":"MEDIA.MEDIA_URI",
-      "MC":"MEDIA.MIME_CATEGORY"
+      "MC":"MEDIA.MEDIA_CATEGORY"
    }
 ]
 ```   
