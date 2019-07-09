@@ -97,11 +97,12 @@ The following examples are instructive:
 
 `Collecting_Event . Verbatim_Coordinates VARCHAR(255), null`
 
-Verbatim coordinates are stored with collecting event in their original
-format with the information supplied by the collector. These are not
-mapped (although [locality](/documentation/locality) coordinates are automatically generated from
-them via the [bulkloader](/documentation/bulkloader)) and generally should not be changed (except,
-eg, transcription errors).
+Verbatim coordinates are coordinates as entered into Arctos. They are stored with collecting event in their original
+format with the information supplied at the time of entry. These are not
+mapped; [locality](/documentation/locality) coordinates are automatically generated from
+them via the [bulkloader](/documentation/bulkloader)). Verbatim coordinates should generally should not be changed.
+Do not confuse verbatim coordinates with verbatim locality data (which may be in the form of coordinates or coordinate-like data) as supplied by the collector.
+The former are intended to track things like conversion errors; the latter are verbatim specimen data.
 
 ## Remarks
 
