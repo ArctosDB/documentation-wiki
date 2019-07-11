@@ -101,11 +101,11 @@ generally appears to be a concatenation of institution and collection code, it i
 concept; several collections from an institution may use the 'Herb' collection_cde 
 (*e.g.* for vascular plants, cryptogams, and marine algae collections, for example).
 
-### Choosing a new GUID_PREFIX
+#### Choosing a new GUID_PREFIX
 
-We require GUID_PREFIX to be 20 or fewer characters, and contain exactly one colon `:` not at the beginning or end of the string.
+We **require** GUID_PREFIX to be 20 or fewer characters, and contain exactly one colon `:` not at the beginning or end of the string.
 
-We recommend choosing a GUID_PREFIX that will survive being transferred through various mechanisms, displayed in web pages that might use "fancy" formatting, or typed by users with many kinds of input devices in many languages. We recommend only upper and lower-case ASCII letters (A-Z,a-z), other than the required colon.
+We **recommend** choosing a GUID_PREFIX that will survive being transferred through various mechanisms, displayed in web pages that might use "fancy" formatting, or typed by users with many kinds of input devices in many languages. We recommend only upper and lower-case ASCII letters (A-Z,a-z), other than the required colon.
 
 ## Collection
 
