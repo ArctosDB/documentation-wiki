@@ -129,3 +129,7 @@ sizes="(max-width: 100px) 100vw, 100px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png 100w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am-48x48.png 48w" />
 
 happy!
+
+## Restricted Data
+
+For some records, the year of collection is withheld by the collection. For these records, the year-component of ISO8601 dates is given as "8888."
