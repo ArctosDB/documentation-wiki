@@ -7,7 +7,10 @@ layout: default_toc
 
 ## Notifications and Reminders by Email
 
-All reminders and notifications rely upon an Agent’s email address; make sure it is current and correct. Some reports (such as loans coming due) are sent directly to Agents, others (such as specimen data annotations) are sent to the collection’s contacts (usually “data quality”). Collection contacts may be managed through the Manage Collection app. The following notifications and reminders are sent via email:
+
+Reminders and Notifications are sent to Agents who are an active Operator with at least one "accepted" email address in their Agent profile. Please ensure that all notification agents have an active Arctos Operator account and a valid email address. You may check this via Reports/Services--->View Statistics--->Collection Contact/Operator Report. Some reports (such as loans coming due) are sent directly to Agents, others (such as specimen data annotations) are sent to the collection’s contacts (usually “data quality”). Collection contacts may be managed through the Manage Collection app. 
+
+The following notifications and reminders are sent via email:
 
 **Loan Reminders** for loans where status is not “closed” are sent to:
 
