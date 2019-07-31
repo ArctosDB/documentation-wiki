@@ -5,12 +5,6 @@ layout: default_toc
 
 # Frequently Asked Questions
 
-<a name="session">
-**Q: What's a session**
-
-A: Arctos will automatically log users out after a pre-determined timespan, currently 90 minutes. A time is provided in the header; this is a lightweight 
-client-side approximation, and may be incorrect particularly in pages which communicate with the server without reloading, or inactive tabs if other tabs have
-been active.
 
 **Q: How is taxonomy managed in a shared system?**
 
@@ -136,3 +130,11 @@ security package controls access to forms, while Oracle partitions data
 by user, roles, and context, and provides auditing. Incremental backup
 logs are maintained on mirrored disks, and daily backups are maintained
 in 3 geographically separate secure locations.
+
+
+<a name="session">
+**Q: What's a session**
+
+A: Arctos will automatically log users out after a pre-determined timespan, currently 90 minutes. A time is provided in the header; this is a lightweight 
+client-side approximation, and may be incorrect particularly in pages which communicate with the server without reloading, or inactive tabs if other tabs have
+been active.
