@@ -133,8 +133,7 @@ in 3 geographically separate secure locations.
 
 
 <a name="session"></a>
-**Q: What's a session**
+**Q: What's up with the session timer?**
 
 A: Arctos will automatically log users out after a pre-determined timespan, currently 90 minutes. A timer is provided in the header; this is a lightweight 
-client-side approximation, and may be incorrect particularly in pages which communicate with the server without reloading, or inactive tabs if other tabs have
-been active.
+client-side approximation, and may be incorrect particularly in pages which communicate with the server without reloading. It is meant to be informative, not authoritative.

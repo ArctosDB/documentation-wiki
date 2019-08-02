@@ -317,3 +317,8 @@ Search term "**coordinates**" matches a full-precision dec_lat,dec_long concaten
 Search term "**rcoords**" matches a round(dec_lat,1),round(dec_long,1) concatenation.
 
 Search term "**rcoordslist**" accepts a pipe-delimited list of rcoords.
+
+## Tools
+
+https://www.engineeringtoolbox.com/utm-latitude-longitude-d_1370.html will batch-convert northern hemisphere UTM to DD.dd format.
+
