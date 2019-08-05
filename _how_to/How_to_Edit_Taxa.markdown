@@ -22,7 +22,7 @@ Arctos checks taxon names against various services when they are created or edit
 
 ## To edit an existing record
 
-### Editing Non-Classification data
+### Editing Classification Metadata data
 
 Search for the taxon you need to edit in Search/Taxonomy.  In this case, we need to make a change of the taxon status from valid to invalid.  The authority for this change is the World Register of Marine Species.  
 
@@ -32,19 +32,19 @@ We open the Arctos record for *Haliotis mariae dentata*.
 
 ![image](https://user-images.githubusercontent.com/15368365/56094807-be743100-5e93-11e9-9471-a6f39d072ede.png)
 
-Click [Edit Classification] which links to a screen with the classification and non-classification terms.  
+Click [Edit Classification] which links to a screen with the classification and classification metadata terms.  
 
-![image](https://user-images.githubusercontent.com/15368365/56094809-cfbd3d80-5e93-11e9-9123-19994346bb6d.png)
+![Screen Shot 2019-08-05 at 10 06 29 AM](https://user-images.githubusercontent.com/15368365/62478618-bf91dc80-b768-11e9-8890-3a6cc6326b38.png)
 
-We want to change the non-classification data.  We change the taxon status from “valid” to “invalid.”  We add the source of the change to the “source_authority” field.  
+We want to change the classification metadata.  We change the taxon status from “valid” to “invalid.”  We add the source of the change to the “source_authority” field.  
 
-![image](https://user-images.githubusercontent.com/15368365/56094818-dfd51d00-5e93-11e9-9da8-4a3b0b65d49a.png)
+![Screen Shot 2019-08-05 at 10 04 12 AM](https://user-images.githubusercontent.com/15368365/62478471-69bd3480-b768-11e9-99ed-17c222463b36.png)
 
 Alternatively, this could be placed in a “remark” field.
 
 After making the changes, click “Save Edits” then [View Taxon Page] to see the edits as they will appear on the taxon page.
 
-![Screen Shot 2019-04-14 at 9 12 02 AM](https://user-images.githubusercontent.com/15368365/56095037-e95f8480-5e95-11e9-84c5-76edb7f9531e.png)
+![Screen Shot 2019-08-05 at 10 04 12 AM](https://user-images.githubusercontent.com/15368365/62478471-69bd3480-b768-11e9-99ed-17c222463b36.png)
 
 ### Editing Taxon Relationships
 
