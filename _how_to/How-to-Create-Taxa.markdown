@@ -43,7 +43,7 @@ There are two types of taxonomic classifications: local and webservices.  It is 
 Each collection chooses one source as its preferred source.  There are three [Local Sources](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) currently available: 
 - Arctos is a locally-managed classification for everything but plants.  It does contains some paleontological plant classifications.
 - Arctos Plants is a locally-managed classification for plants which are controlled by ICBN code.
-- WoRMS (via Arctos) contains automatically-maintained data from [http://www.marinespecies.org](http://www.marinespecies.org), in addition to some locally-maintained data (for taxa not in WoRMS but cataloged in collections which use this classification). To manage or create classifications in this source, simply provide an "aphiaid" as non-classification metadata and click the "refresh" link. 
+- WoRMS (via Arctos) contains automatically-maintained data from [http://www.marinespecies.org](http://www.marinespecies.org), in addition to some locally-maintained data (for taxa not in WoRMS but cataloged in collections which use this classification). To manage or create classifications in this source, simply provide an "aphiaid" as classification and click the "refresh" link. 
 
 It is important to choose the intended collection's preferred source when creating classification data. Local sources are often limited to hierarchical data and managed through the [hierarchical data editor](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html).
 
@@ -88,7 +88,7 @@ The following terms are created by the user and are selected from the drop-down 
 -	**preferred name** is completed for "invalid" taxa to identify the synonym that is the valid taxon name.  This is especially helpful when there are multiple synonyms listed.
 -	**aphiaID** is the unique number assigned to that taxon by the [World Register of Marine Species](http://www.marinespecies.org/)
 
-![Screen Shot 2019-08-05 at 9 49 25 AM](https://user-images.githubusercontent.com/15368365/62477514-64f78100-b766-11e9-9705-b7f0e50bbb8a.png)
+![Screen Shot 2019-08-05 at 9 56 56 AM](https://user-images.githubusercontent.com/15368365/62479581-07196800-b76b-11e9-8be7-8a5a971e7622.png)
 
 ### Classification Terms 
 
