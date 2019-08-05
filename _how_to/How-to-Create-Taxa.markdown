@@ -88,7 +88,7 @@ The following terms are created by the user and are selected from the drop-down 
 -	**preferred name** is completed for "invalid" taxa to identify the synonym that is the valid taxon name.  This is especially helpful when there are multiple synonyms listed.
 -	**aphiaID** is the unique number assigned to that taxon by the [World Register of Marine Species](http://www.marinespecies.org/)
 
-![image](https://user-images.githubusercontent.com/15368365/56134562-140c1480-5f4c-11e9-887e-ffdea57c73c0.png)
+![Screen Shot 2019-08-05 at 9 49 25 AM](https://user-images.githubusercontent.com/15368365/62477514-64f78100-b766-11e9-9705-b7f0e50bbb8a.png)
 
 ### Classification Terms 
 
