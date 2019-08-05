@@ -66,7 +66,7 @@ Here is the list of all webservices with a classification for that taxon.
 
 ![image](https://user-images.githubusercontent.com/15368365/56134368-abbd3300-5f4b-11e9-82aa-ac47edfe5139.png)
 
-Select the preferred webservice and click [Clone Classification].  Note that the Author is a non-classification term and will not upload.  It is recommended that you copy it from the source and paste it into the next screen.
+Select the preferred webservice and click [Clone Classification].  Note that the Author is classification metadata and will not upload.  It is recommended that you copy it from the source and paste it into the next screen.
 
 ![image](https://user-images.githubusercontent.com/15368365/56134403-c1caf380-5f4b-11e9-9da2-d4dcc43a60d6.png)
 
