@@ -48,7 +48,7 @@ After making the changes, click “Save Edits” then [View Taxon Page] to see t
 
 ### Editing Taxon Relationships
 
-Since we have changed the taxon status to “invalid,” we need to link to the valid taxon.  In this case, WoRMS shows the valid taxon to be *Haliotis mariae*.  This is additional Non-Classification Data that is entered on a separate screen by clicking [Edit Name + Related Data]. 
+Since we have changed the taxon status to “invalid,” we need to link to the valid taxon.  In this case, WoRMS shows the valid taxon to be *Haliotis mariae*.  This is classification metadata that is entered on a separate screen by clicking [Edit Name + Related Data]. 
 
 In this case, we want to create a link between the valid taxon *Haliotis mariae* and this invalid taxon *Haliotis mariae dentata*.  This can be done from either taxon page.  Under Related Taxa, we choose “synonym of” and enter the related taxon *Haliotis mariae dentata*.  Our Authority is WoRMS and, if we want, we can enter a URL, a WoRMS AphiaID, an LSID identifier or any other appropriate authority.  
 
