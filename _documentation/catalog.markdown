@@ -391,7 +391,7 @@ The "full specimen record" consists of the core data and all data linked to thos
 * In addition to the direct link through Collectors, most "nodes" employ to Agents in various capacities - as publication authors, identifiers, attribute determiners, verifiers of specimen-events, etc. Agents in turn may contain:
   * Any number of names
   * Any number of status reports
-  * Any number of addresses, including any data which resides at dereferencable addresses (such as publications from ORCID, funding information through Projects, linked data from WikiMedia, etc.)
+  * Any number of addresses, including any data which resides at dereferencable addresses (such as publications from ORCID, funding information through Projects, linked data from WikiData, etc.)
   * Any number of Media, which may contain anything - images, text, videos, static or linked data, etc.
   * The context of activity within Arctos, which often includes thousands of other specimens which may include everything mentioned here
   * Any number of related Agents, including all similar information from them and the agents to whom they're related
