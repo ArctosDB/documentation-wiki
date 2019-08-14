@@ -396,7 +396,7 @@ The "full specimen record" consists of the core data and all data linked to thos
   * The context of activity within Arctos, which often includes thousands of other specimens which may include everything mentioned here
   * Any number of related Agents, including all similar information from them and the agents to whom they're related
   
-Any of these data - and those not mentioned here - may be critical to answering some questions involving a specimen, and should therefore be considered "the specimen record." It is unlikely that any question requires all of these data, and assembling them into one view would be, at best, difficult. Arctos links to related data when possible, and we are always receptive to adding more or different data to "default views." 
+Any of these data - and those not mentioned here - may be critical to answering some questions involving a specimen, and should therefore be considered "the specimen record." It is unlikely that any question requires all of these data, and assembling them into one view would be, at best, difficult. Arctos links to related data when possible, and we are always receptive to adding more or different data to "default views," adding pathways to specimens through any of these data, or otherwise providing tools to access various data in the context of other data. 
   
    
 
