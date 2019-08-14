@@ -373,6 +373,32 @@ Arctos.
         some reason necessary. (see <http://mailman.yale.edu/pipermail/nhcoll-l/2016-March/009178.html>)
 
 
+## Understanding Specimen Records
+
+As a highly normalized system, there is no real meaning to the term "the specimen record" in Arctos. Most views of the data provide information somewhat equivalent to [Simple DarwinCore](https://dwc.tdwg.org/simple/). No view contains everything that might be considered the entire specimen record. The available information varies wildly across records.
+
+### Minimum Data
+
+The minimum possible specimen record is a catalog number, although "core" data such as Identifications and Accessions are difficult or impossible to avoid in the interfaces. There are "we don't know" values for all "required" fields and concepts; "unidentifiable" is a valid taxon which may be used in identifications, for example. 
+
+### All Data
+
+The "full specimen record" consists of the core data and all data linked to those data at any depth. The full specimen record should not be viewed as something that resides entirely within Arctos. There are currently no views which could be considered "the full specimen record." A specimen record may contain any number of Attributes, Collectors, Citations, Specimen-Events, Identifications, Media, Identifiers, Parts, Transactions, etc. Many of these objects are linked to other objects, which are in turn linked to more. Some incomplete examples:
+
+* Identifications may be linked to any number of taxa. Taxa may have any number of classifications, including those in external systems (such as [WoRMS](http://www.marinespecies.org/)).
+* Citations are linked to Publications. Publications may be linked to CrossRef, which may link to other publications (references and referenced by), author data in the ORCID system, funding data in FundRef, etc. Additionally, the context of other specimens - and therefore everything they are linked to, including more specimens - cited from publications may be critical to understanding the current specimen.
+* Other Identifiers may form links to various sources of data including GenBank, UCMP's Locality Database, specimens in other collections in and out of Arctos, etc.
+* In addition to the direct link through Collectors, most "nodes" employ to Agents in various capacities - as publication authors, identifiers, attribute determiners, verifiers of specimen-events, etc. Agents in turn may contain:
+  * Any number of names
+  * Any number of status reports
+  * Any number of addresses, including any data which resides at dereferencable addresses (such as publications from ORCID, funding information through Projects, linked data from WikiMedia, etc.)
+  * Any number of Media, which may contain anything - images, text, videos, static or linked data, etc.
+  * The context of activity within Arctos, which often includes thousands of other specimens which may include everything mentioned here
+  * Any number of related Agents, including all similar information from them and the agents to whom they're related
+  
+Any of these data - and those not mentioned here - may be critical to answering some questions involving a specimen, and should therefore be considered "the specimen record." It is unlikely that any question requires all of these data, and assembling them into one view would be, at best, difficult. Arctos links to related data when possible, and we are always receptive to adding more or different data to "default views." 
+  
+   
 
 # Defining Collections
 
