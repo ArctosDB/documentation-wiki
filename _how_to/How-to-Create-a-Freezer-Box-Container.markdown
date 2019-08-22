@@ -32,9 +32,17 @@ There are many types of containers possible in Arctos. This guide walks you thro
 
 ## Create the Container Positions
   * You should now see "positions" at the top of the edit form, Select it  
+  
+  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/Positions.jpg)
+  
   * Enter the dimensions of the positions **caution!** make sure the sum of the position dimensions will fit into the container you just created AND the position dimensions will accomodate the containers that will be placed in the individual positions  
+  
+  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Container_position_dimensions.JPG)
+  
   * Select "Create all new positions" at the bottom of the page
   * You should now see a "map" of the container's positions
+  
+  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/empty%20freezer%20box%20map.JPG)
   
 ## Scan Containers Into the Positions
   * Containers can be scanned into position using a scanner programmed to TAB  
