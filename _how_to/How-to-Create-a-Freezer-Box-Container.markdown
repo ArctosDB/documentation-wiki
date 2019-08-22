@@ -9,6 +9,7 @@ date: 2016-02-27, 2018-11-29, 2019-02-22
 
 There are many types of containers possible in Arctos. This guide walks you through the steps of creating a freezer box or another container type as a new container. This is the first step before you can scan barcoded parts such as tissues into positions in Arctos.
 
+## Create the Container
   * From the Arctos main menu select Manage Data > Object Tracking > Find Container and enter the barcode you will use for the container under Barcode 
   * Select Search at the bottom of the form
   * The barcode should show up as a Container Label in the Universe. This assumes the [barcode series has already been created in Arctos](/how_to/How-to-Start-Object-Tracking.html)
@@ -27,9 +28,15 @@ There are many types of containers possible in Arctos. This guide walks you thro
   
   ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Horizontal_orientation.JPG)
   
-  * Select Save Container Edits  
+  * Select Save Container Edits
+
+## Create the Container Positions
   * You should now see "positions" at the top of the edit form, Select it  
   * Enter the dimensions of the positions **caution!** make sure the sum of the position dimensions will fit into the container you just created AND the position dimensions will accomodate the containers that will be placed in the individual positions  
+  * Select "Create all new positions" at the bottom of the page
+  * You should now see a "map" of the container's positions
+  
+## Scan Containers Into the Positions
   * Containers can be scanned into position using a scanner programmed to TAB  
   * Containers may not be deleted from a position. To delete or reposition, the container must be moved elsewhere and then back into the correct position  
   * After moving a container, hit the Refresh on your browser to see the changes in position  
