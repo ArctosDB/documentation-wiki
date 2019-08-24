@@ -306,12 +306,12 @@ the Guidelines without contacting the AWG.
     State/Province from the relevant country. These values can be
     especially confusing if the term refers to an area where the Roman
     alphabet is not used.
--   ~~Use current definitions. Yugoslavia no longer exists, so use
-    Slovenia, Croatia, or whichever country the locality is *now* in. If
+-   **Use current definitions, where possible.** For example: Yugoslavia no longer exists, so use
+    Slovenia, Croatia, or whichever country the locality is *now* in, especially if cataloging current material. If
     Yugoslavia was used in the original data, it now belongs in verbatim
     locality, *not* in Higher Geography. If you are editing specimen
     records, append the old higher geography to verbatim locality in the
-    following order: verbatim_locality, state, country.~~
+    following order: verbatim_locality, state, country. We will support Higher Geography of deprecated countries, state/provinces for     legacy materials but STRONGLY urge curators to view this as a short-term solution and re-assign as appropriate. Any Geography term can have synonyms and alternate names to maximize discoverability. We will support WKT footprints for modern geography only.
 -   **Try not to mix older terms; use modern geography**. We have no idea
     how to do that when, *e.g.*, one Province of Kenya becomes
     6 Counties. Especially in the case where the "new" shares
