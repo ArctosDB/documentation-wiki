@@ -20,7 +20,10 @@ Create Accession is a page where you can enter information required to create a 
 * Choose from the drop-down menu the collection that the accession will be associated with.
 
 **Accn Number:**
-* Choose a number to identify the accession.  Since accessions are specific to individual collections, their format is customizable.  NMU:Mamm uses “year.number” (eg, 2013.02).  For example, if this will be the first (or only) accession from the year 2013, the accession number would be 2013.01. If this is the second, third, or fourth accession the numbers would be 2013.02, 2013.03, or 2013.04.
+* Choose a number to identify the accession.  Since accessions are specific to individual collections, their format is customizable.  NMU:Mamm uses “year.number” (eg, 2013.02).  For example, if this will be the first (or only) accession from the year 2013, the accession number would be 2013.01. If this is the second, third, or fourth accession the numbers would be 2013.02, 2013.03, or 2013.04. 
+
+Note: Accession Number is a **required** field, but if opting to forgo individual accessions or accession information is unavailable, create a placeholder or legacy accession (e.g. 0000.00.Herp). Groups of specimens may be moved out of the placeholder accession at a later point in time if desired.
+
 
 **Status:**
 * Always choose “In Process” if you are creating a new accession that will be added to in the future. Choose “Complete” if you do not expect to be adding specimens or data to this accession in the future.
