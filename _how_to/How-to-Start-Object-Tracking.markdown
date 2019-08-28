@@ -19,13 +19,18 @@ Object Tracking in Arctos is a system that allows collections to track the locat
 Important things to keep in mind when designing your barcode system include:
 
   1. A single cataloged item may contain multiple parts, depending on the type of specimen; e.g dried or fluid preserved material, microscope slides, photographs, frozen tissues, etc that may be stored in different locations or even different facilities
-  2. The catalog number and the barcode should not be the same.  Barcodes track the containers that hold the physical parts of specimens and because a single specimen have multiple parts, individual barcodes are required for EACH part.
+  2. The catalog number and the barcode should not be the same.  Barcodes track the containers that hold the physical parts of specimens and because a single specimen can have multiple parts, individual barcodes are required for EACH part. 
+   
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">  Why can't I place a barcode on my herbarium sheet that is the catalog number?</p>  
+
+You can do that. You can create barcodes that correspond to the web address of the specimen to make it easy for anyone to get to the specimen data, but if you want to use a barcode to track the location of your specimen, we recommend something other than the catalog number because object tracking barcodes need to be unique for each container. As soon as you come to a herbarium specimen that is prepared on two or more sheets (the sheets are the containers), using the catalog number for object tracking becomes problematic. 
+   
   3. Arctos Object Tracking is a parallel, integrated tracking system in Arctos. It can track any part or container independently of whether the item has been cataloged. As such, it can be set up at any point during the history of a specimen to track containers and specimen part locations from the moment of collection through accessioning, preparation, curation, cataloging, and loans.
   4. Arctos object tracking can be used to track anything that can be assigned a label or a barcode including:
     a. Specimens and specimen parts installed in the collection or in preparation prior to data entry and cataloging
     b. Uncataloged items
     c. Media (non-digital), or devices containing digital media
-    d. Types of containers include rooms, cabinets, freezers, ranges, bays, jars, slide boxes, vials etc., as specified in the [controlled vocabulary for container types](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)
+    d. Types of containers including rooms, cabinets, freezers, ranges, bays, jars, slide boxes, vials etc., as specified in the [controlled vocabulary for container types](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)
   5. When an item is cataloged and the part labels and barcodes are entered into the catalog record the specimen record will be linked with all corresponding part locations and places the object(s) within their container tree
   6. Labels and/or Barcodes can be used to track part locations
     a. Labels AND barcodes are mandatory if the object tracking system is to be used as designed
