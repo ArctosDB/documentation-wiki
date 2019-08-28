@@ -10,9 +10,14 @@ date: 2016-02-27
 
 An accession provides a way to organize specimens into related sets. Accessions can be created for any convenient purpose, but the most common use is to make one accession that encompasses the specimens collected through a specific project or source (e.g., a single collecting expedition, all salvaged specimens acquired during a given year, specimens received from an agency, all specimens associated with a single PhD project). This allows sets of specimens to be tracked easily (e.g., for reporting). NOTE: Some institutions use Accession Number in place of Catalog Number for a specific cataloged item. In Arctos, these numbers are not the same. There may be multiple cataloged items in a single accession.
 
-**From the Arctos drop-down menus select Manage Data > Transaction > Create Accession**
+<p style="text-align: center;"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">Is an accession number required for all specimen records?</p>
 
-Create Accession is a page where you can enter information required to create a new accession.
+Yes, an accession number is required, but if you choose not to create individual accessions or do not have that info available, you can create a legacy accession (e.g. 0000.00.Herp). You can later move groups of specimens to other accessions as you find the documentation or discover reasons to create them. Some institutions use Accession Number in place of Catalog Number for a specific cataloged item. In Arctos, these numbers are not the same and there may be multiple cataloged items in a single accession.
+
+
+**To create an accession, from the Arctos main menu select Manage Data > Transaction > Create Accession**
+
+You will be directed to a page where you can enter information required to create a new accession.
 
 ###  Fields within the Create Accession include the following:
 
@@ -20,10 +25,7 @@ Create Accession is a page where you can enter information required to create a 
 * Choose from the drop-down menu the collection that the accession will be associated with.
 
 **Accn Number:**
-* Choose a number to identify the accession.  Since accessions are specific to individual collections, their format is customizable.  NMU:Mamm uses “year.number” (eg, 2013.02).  For example, if this will be the first (or only) accession from the year 2013, the accession number would be 2013.01. If this is the second, third, or fourth accession the numbers would be 2013.02, 2013.03, or 2013.04. 
-
-Note: Accession Number is a **required** field, but if opting to forgo individual accessions or accession information is unavailable, create a placeholder or legacy accession (e.g. 0000.00.Herp). Groups of specimens may be moved out of the placeholder accession at a later point in time if desired.
-
+* Choose a number to identify the accession.  Since accessions are specific to individual collections, their format is customizable.  NMU:Mamm uses “year.number” (eg, 2013.02).  For example, if this will be the first (or only) accession from the year 2013, the accession number would be 2013.01. If this is the second, third, or fourth accession the numbers would be 2013.02, 2013.03, or 2013.04.
 
 **Status:**
 * Always choose “In Process” if you are creating a new accession that will be added to in the future. Choose “Complete” if you do not expect to be adding specimens or data to this accession in the future.
