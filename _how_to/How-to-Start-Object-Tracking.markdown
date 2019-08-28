@@ -31,6 +31,11 @@ You can do that. You can create barcodes that correspond to the web address of t
     b. Uncataloged items
     c. Media (non-digital), or devices containing digital media
     d. Types of containers including rooms, cabinets, freezers, ranges, bays, jars, slide boxes, vials etc., as specified in the [controlled vocabulary for container types](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)
+    
+    <p style="text-align: center;"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">  How do I change the labels on positions?  Every time I try it says positions aren’t editable.  So in Freezer 2 I have position 1 and then under that I have freezer rack 1.  Why the redundancy?  Why isn’t position 1 just freezer rack 1?</p>  
+    
+    The positions are empty spaces. "Freezer rack 1" is what goes into the space that is position 1 in the freezer. It seems redundant for the larger stuff, but the cryovial that goes into position 1 of a freezer box probaly won't be labeled "cryovial 1" and really, the rack that goes into position 1 in a freezer doesn't HAVE to be called "rack 1", you could label it "woodrat tragedy tissues" if you want! Arctos object tracking owns the positions, you own what goes into them.  
+    
   5. When an item is cataloged and the part labels and barcodes are entered into the catalog record the specimen record will be linked with all corresponding part locations and places the object(s) within their container tree
   6. Labels and/or Barcodes can be used to track part locations
     a. Labels AND barcodes are mandatory if the object tracking system is to be used as designed
