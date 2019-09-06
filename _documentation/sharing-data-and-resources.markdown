@@ -75,7 +75,7 @@ collections.
 
 ## When to Edit
 
-Some data a (taxonomy, for example) are structurally locked and cannot be edited when used; the view is that ANY change might be a fundamental change to the nature of the data, and so no changes may safely be allowed. (Taxonomic Classifications are **not** locked, however.) Other data (geography, for example) may be changed by Operators with appropriate access, and the safety of the data is left to careful operators. The general question to ask is, "Am I changing the fundamental nature of the data?" If the answer is "yes," the data should not be changed. Examples:
+Some data (taxonomy, for example) are structurally locked and cannot be edited when used; the view is that ANY change might be a fundamental change to the nature of the data, and so no changes may safely be allowed. (Taxonomic Classifications are **not** locked, however.) Other data (geography, for example) may be changed by Operators with appropriate access, and the safety of the data is left to careful operators. The general question to ask is, "Am I changing the fundamental nature of the data?" If the answer is "yes," the data should not be changed. Examples:
 
 |Current Data|Desired Data|Considerations|
 |------------|------------|--------------|
