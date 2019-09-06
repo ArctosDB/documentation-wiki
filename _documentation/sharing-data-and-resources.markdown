@@ -71,8 +71,7 @@ collections.
 
 **Localities** are shared. Changes are logged and reported.
 
-**Events** are partially shared; only users with access to all collections
-using a shared event may edit it. (Please comment on [#1017](https://github.com/ArctosDB/arctos/issues/1017).)
+**Events** are shared; Changes are logged and reported.
 
 ## When to Edit
 
