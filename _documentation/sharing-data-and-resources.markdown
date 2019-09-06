@@ -73,3 +73,14 @@ collections.
 
 **Events** are partially shared; only users with access to all collections
 using a shared event may edit it. (Please comment on [#1017](https://github.com/ArctosDB/arctos/issues/1017).)
+
+## When to Edit
+
+Some data a (taxonomy, for example) are structurally locked and cannot be edited when used; the view is that ANY change might be a fundamental change to the nature of the data, and so no changes may safely be allowed. (Taxonomic Classifications are **not** locked, however.) Other data (geography, for example) may be changed by Operators with appropriate access, and the safety of the data is left to careful operators. The general question is, "Am I changing the fundamental nature of the data?" If the answer is "yes," the data should not be changed. Examples:
+
+|Current Data|Desired Data|Considerations|
+|------------|------------|--------------|
+|A county-level geography term is missing a qualifier such as "Province"|Consistent Data|If the new term is clearly an alternate spelling of the existing term, the change is probably safe. Make very sure that you are not inadvertently "promoting" a lower-level term or similar.|
+|A general locality has no coordinates|A georeference which encompasses the entire locality as defined by all geography and specific locality.|Adding a georeference is safe and will improve the usability of all linked specimens.|
+|A general locality has no coordinates|A georeference which is more precise than the entire locality as defined by all geography and specific locality.|Adding a georeference will alter the fundamental nature of the data; specimens with more precise data must be moved to a new locality.|
+
