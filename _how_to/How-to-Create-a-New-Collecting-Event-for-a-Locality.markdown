@@ -25,7 +25,7 @@ If you need to create a new collecting event associated with an already existing
 
 **What to Enter for Each Collecting Event**
 
-* Verbatim Locality - see guide on [How to Edit Verbatim Locality](coming)
+* Verbatim Locality - see guide on [How to Edit Verbatim Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Specific-Locality.html)
 
 * Verbatim Date - this is a text field that contains the date as recorded by the collector or observer
 
