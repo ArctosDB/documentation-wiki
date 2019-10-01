@@ -58,7 +58,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 * If you have successfully entered the TACC Token, you will be taken to your directory. Go up to the root directory and then select corral-tacc ---> projects ---> arctos
 * Each institution should have a directory for their media, e.g, /corral-tacc/projects/arctos/mvz
 * Within that directory, you can organize your media files however you want
-* TACC must ingest those files in order for them to appear on the web server: [http://web.corral.tacc.utexas.edu](http://web.corral.tacc.utexas.edu) - files are also processed during this stage (e.g., from dng or tiff to jpeg, wav to mp3, etc.)
+* TACC must ingest those files in order for them to appear on the web server - files are also processed during this stage (e.g., from dng or tiff to jpeg, wav to mp3, etc.)
     * File extensions are case-sensitive during processing. To make processing faster (and easier for TACC staff), the letter case for all file extensions should be consistent (e.g., all files that use jpeg extensions are spelled consistently using lowercase .jpg, rather than a mix of .jpg and .JPG).
  * Contact [Chris Jordan](https://www.tacc.utexas.edu/about/directory/chris-jordan) when your file are ready for processing and ingestion
 
