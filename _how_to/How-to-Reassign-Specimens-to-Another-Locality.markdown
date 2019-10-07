@@ -1,5 +1,5 @@
 ---
-title: How To Reassign Cataloged Items to Another Locality
+title: How To Assign a New Locality to a Catalog Record
 layout: default_toc
 ---
 
