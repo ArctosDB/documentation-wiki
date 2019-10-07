@@ -1,5 +1,5 @@
 ---
-title: How To Reassign Specimens to Another Locality
+title: How To Reassign Cataloged Items to Another Locality
 layout: default_toc
 ---
 
