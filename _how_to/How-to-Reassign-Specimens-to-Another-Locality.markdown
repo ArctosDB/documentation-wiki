@@ -3,6 +3,8 @@ title: How To Assign a New Locality to a Catalog Record
 layout: default_toc
 ---
 
+# How To Assign a New Locality to a Catalog Record
+
 In some cases, editing a locality for a specimen may not be the best course of action. This may be because the locality itself is correct and the specimen has been improperly attributed to it. Alternatively, you may wish to clean up duplicate entries by consolidating them. In these situations, it is more efficient to reassign these specimens to a preexisting or a new locality. The first half of this tutorial will teach you how to reassign specimens to a new locality, if your specimen(s) is/are assigned to one collecting event only. If you only want to reassign one specimen that is part of a collecting events with other specimens into a new locality, please refer to the second half of this tutorial.
 
 * From the specimen page, click on the “Locality” link as previously done to edit localities. Instead of focusing on the Locality information, look at the section on the bottom left titled Collecting Event.
