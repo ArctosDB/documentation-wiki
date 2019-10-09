@@ -70,6 +70,32 @@ When you are satisfied with your entries in all fields, select "Insert Term" to 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **CAUTION**  
 Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship. (See [Create Term Relationships](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html#create-term-relationships))
 
+## Manage Terms
+
+Geology terms can be edited if they have not yet been attached to any locality. 
+
+To create a new parent/child relationship, from the Arctos main menu select Manage Data > Metadata > Code Tables 
+
+  <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.22.32.png" width="400" align="middle">
+
+Scroll down the list of Code Tables to CTGEOLOGY_ATTRIBUTE and select that table by clicking the link (or go directly to [CTGEOLOGY_ATTRIBUTE](http://arctos.database.museum/Admin/CodeTableEditor.cfm?action=editGeologyTree))
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.23.01.png" width="400" align="middle">
+
+You will see the data entry form for a new geology attribute
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.23.43.png" width="400" align="middle">
+
+Scroll down to the code table and find the term that you wish to edit:
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Geol%20Code%20Table.JPG" width="400" align="middle"
+
+Select "more" next to the term and use the fields which correspond to those discussed in [Create a New Term](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html#create-a-new-term).
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Edit%20Term.JPG" width="400" align="middle">
+
+Once your edits are complete, select "Save Edits" or "Delete" if you wish to remove the term from the code table.
+
 ## Create Term Relationships
 
 To create hierarchies in the geology code table, use the "Create Hierarchies" section to select parent and child terms. To create a new parent/child relationship, from the Arctos main menu select Manage Data > Metadata > Code Tables 
@@ -88,16 +114,26 @@ Scroll down to see the "Create Hierarchies" section:
 
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Hierarchies.jpg" width="400" align="middle">
 
+Both a parent and child term must be entered in the form in order to create a relationship.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **CAUTION**  
+
+  Take care when selecting both parent and child terms and review your choices before creating the relationship. 
+
 ### Parent Term
 
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Parent%20Term.jpg" width="300">
 
+The "higher" term in the hierarchy. This can also be a "not valid for data entry" term.
 
 ### Child Term
 
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Child%20Term.jpg" width="300">
 
+The "lower" term in the hierarchy. This can also be a "not valid for data entry" term. Any terms that are currently children of the term chosen here will move along with this child term to the parent.
 
 ### Create Relationship
 
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Relationship.jpg" width="300">
+
+After you have made and reviewed your parent and child terms, select the "Create Relationship" button. Your child term should now appear below the parent term in the code table.
