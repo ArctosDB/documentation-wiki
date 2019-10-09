@@ -38,3 +38,18 @@ The Attribute term is a category to which the term you are adding belongs. If yo
   Take care when entering an attribute that you don't misspell an attribute that already exists or create an attribute that is a synonym for existing attributes. 
 
 It may help to peruse the code table to see if the attribute you want to use already exists. Think cautiously and critically about new attributes being added to ensure they will be useful to the Arctos Community. Any attributes that will only serve a single collection may belong elsewhere. Please consult with Arctos Community by creating a new [GitHub Issue](https://github.com/ArctosDB/arctos/issues) is you are unsure about adding a new attribute.
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="300">  
+Note that Attribute and Value are always required and value is used in building hierarchies for searching, so " " (a blank space) should be entered in the attribute field for values that are not valid for data entry. (See  
+
+### Value
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Value.jpg" width="300">
+
+The Value is the term you are adding. This is what will be visible in searches and on specimen pages. For some values, the term includes its related attribute. For example, when entering a value for attribute "formation" you would enter "Value Formation". A review of existing code table terms is a good idea to ensure that the value entered will be consistent with other code table values with the same attribute.
+
+### Attribute valid for data entry?
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/valid%20data%20entry.jpg" width="300">
+
+This field allows you to designate some terms in the code table that will only be used for organization of the code table hierarchy to facilitate searching. For example, "Lithostratigraphy" might be a useful term as the start of a set of hierarchies, but it's not something that can have a meaning in Geology Attributes so should not be "valid." Select "no" for "Attribute valid for Data Entry" for terms of that nature. Note that Attribute and Value are always required and value is used in building hierarchies for searching, so " " (a blank space) should be entered in the attribute field for values that are not valid for data entry. 
