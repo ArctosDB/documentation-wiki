@@ -15,15 +15,15 @@ This guide provides step-by-step instructions for creating and managing geology 
 
 To create a new geology term, from the Arctos main menu select Manage Data > Metadata > Code Tables 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.22.32.png)
+  <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.22.32.png" width="400" align="middle">
 
 Scroll down the list of Code Tables to CTGEOLOGY_ATTRIBUTE and select that table by clicking the link (or go directly to [CTGEOLOGY_ATTRIBUTE](http://arctos.database.museum/Admin/CodeTableEditor.cfm?action=editGeologyTree))
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.23.01.png)
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.23.01.png" width="400" align="middle">
 
 You will see the data entry form for a new geology attribute
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.23.43.png) 
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.23.43.png" width="400" align="middle"> 
 
 In order to create a new term, all fields must be completed
 
