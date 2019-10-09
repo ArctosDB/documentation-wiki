@@ -10,7 +10,7 @@ date: 2016-02-27
 
 An accession provides a way to organize specimens into related sets. Accessions can be created for any convenient purpose, but the most common use is to make one accession that encompasses the specimens collected through a specific project or source (e.g., a single collecting expedition, all salvaged specimens acquired during a given year, specimens received from an agency, all specimens associated with a single PhD project). This allows sets of specimens to be tracked easily (e.g., for reporting). NOTE: Some institutions use Accession Number in place of Catalog Number for a specific cataloged item. In Arctos, these numbers are not the same. There may be multiple cataloged items in a single accession.
 
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> ->**Is an accession number required for all specimen records?**<-
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Is an accession number required for all specimen records?**
 
 Yes, an accession number is required, but if you choose not to create individual accessions or do not have that info available, you can create a legacy accession (e.g. 0000.00.Herp). You can later move groups of specimens to other accessions as you find the documentation or discover reasons to create them. Some institutions use Accession Number in place of Catalog Number for a specific cataloged item. In Arctos, these numbers are not the same and there may be multiple cataloged items in a single accession.
 
