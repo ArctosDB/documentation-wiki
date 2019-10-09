@@ -28,6 +28,9 @@ You will see the data entry form for a new geology attribute
 In order to create a new term, all fields must be completed
 
 ### Attribute
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Attribute.jpg" width="300">
+
 The Attribute term is a category to which the term you are adding belongs. If you begin typing in this field, a list of attributes that already exist in the table and closely match what you are typing will appear.
 
   ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **CAUTION**
