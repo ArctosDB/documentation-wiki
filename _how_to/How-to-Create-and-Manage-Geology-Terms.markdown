@@ -41,7 +41,7 @@ It may help to peruse the code table to see if the attribute you want to use alr
 
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">**What do I enter in the Attribute field when creating a term for search/code table organization purposes?**
 
-Attribute and Value are always required and value is used in building hierarchies for searching, so " " (a blank space) should be entered in the attribute field for values that are not valid for data entry. (See [Attribute valid for data entry?](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html#attribute-valid-for-data-entry?)
+Attribute and Value are always required and value is used in building hierarchies for searching, so " " (a blank space) should be entered in the attribute field for values that are not valid for data entry. (See [Attribute valid for data entry?](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html#attribute-valid-for-data-entry))
 
 ### Value
 
@@ -68,6 +68,22 @@ The description should be a detailed definition of the term or a link to a websi
 When you are satisfied with your entries in all fields, select "Insert Term" to create the new code table term.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **CAUTION**  
-Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship.
+Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship. (See [Create Term Relationships](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html#create-term-relationships))
 
 ## Create Term Relationships
+
+To create hierarchies in the geology code table, use the "Create Hierarchies" section to select parent and child terms. To create a new parent/child relationship, from the Arctos main menu select Manage Data > Metadata > Code Tables 
+
+  <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.22.32.png" width="400" align="middle">
+
+Scroll down the list of Code Tables to CTGEOLOGY_ATTRIBUTE and select that table by clicking the link (or go directly to [CTGEOLOGY_ATTRIBUTE](http://arctos.database.museum/Admin/CodeTableEditor.cfm?action=editGeologyTree))
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.23.01.png" width="400" align="middle">
+
+You will see the data entry form for a new geology attribute
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Screenshot%202019-10-09%2010.23.43.png" width="400" align="middle">
+
+Scroll down to see the "Create Hierarchies" section:
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Hierarchies.jpg" width="400" align="middle">
