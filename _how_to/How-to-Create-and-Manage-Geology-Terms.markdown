@@ -87,3 +87,17 @@ You will see the data entry form for a new geology attribute
 Scroll down to see the "Create Hierarchies" section:
 
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Hierarchies.jpg" width="400" align="middle">
+
+### Parent Term
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Parent%20Term.jpg" width="300">
+
+
+### Child Term
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Child%20Term.jpg" width="300">
+
+
+### Create Relationship
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Relationship.jpg" width="300">
