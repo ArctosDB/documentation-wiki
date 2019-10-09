@@ -39,8 +39,9 @@ The Attribute term is a category to which the term you are adding belongs. If yo
 
 It may help to peruse the code table to see if the attribute you want to use already exists. Think cautiously and critically about new attributes being added to ensure they will be useful to the Arctos Community. Any attributes that will only serve a single collection may belong elsewhere. Please consult with Arctos Community by creating a new [GitHub Issue](https://github.com/ArctosDB/arctos/issues) is you are unsure about adding a new attribute.
 
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="300">  
-Note that Attribute and Value are always required and value is used in building hierarchies for searching, so " " (a blank space) should be entered in the attribute field for values that are not valid for data entry. (See  
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">**What do I enter in the Attribute field when creating a term for search/code table organization purposes?**
+
+Attribute and Value are always required and value is used in building hierarchies for searching, so " " (a blank space) should be entered in the attribute field for values that are not valid for data entry. (See [Attribute valid for data entry?](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html#attribute-valid-for-data-entry?)
 
 ### Value
 
