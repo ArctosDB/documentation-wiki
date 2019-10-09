@@ -54,3 +54,20 @@ The Value is the term you are adding. This is what will be visible in searches a
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/valid%20data%20entry.jpg" width="300">
 
 This field allows you to designate some terms in the code table that will only be used for organization of the code table hierarchy to facilitate searching. For example, "Lithostratigraphy" might be a useful term as the start of a set of hierarchies, but it's not something that can have a meaning in Geology Attributes so should not be "valid." Select "no" for "Attribute valid for Data Entry" for terms of that nature. Note that Attribute and Value are always required and value is used in building hierarchies for searching, so " " (a blank space) should be entered in the attribute field for values that are not valid for data entry. 
+
+### Description
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Description.jpg" width="300">
+
+The description should be a detailed definition of the term or a link to a website with the definition. It is important to properly document terms in the code table so that users can select appropriate terms.
+
+### Insert Term
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Insert%20Term.jpg" width="300">
+
+When you are satisfied with your entries in all fields, select "Insert Term" to create the new code table term.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **CAUTION**  
+Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship.
+
+## Create Term Relationships
