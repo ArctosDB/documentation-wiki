@@ -33,7 +33,8 @@ In order to create a new term, all fields must be completed
 
 The Attribute term is a category to which the term you are adding belongs. If you begin typing in this field, a list of attributes that already exist in the table and closely match what you are typing will appear.
 
-  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **CAUTION**
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **CAUTION**  
+
   Take care when entering an attribute that you don't misspell an attribute that already exists or create an attribute that is a synonym for existing attributes. 
 
 It may help to peruse the code table to see if the attribute you want to use already exists. Think cautiously and critically about new attributes being added to ensure they will be useful to the Arctos Community. Any attributes that will only serve a single collection may belong elsewhere. Please consult with Arctos Community by creating a new [GitHub Issue](https://github.com/ArctosDB/arctos/issues) is you are unsure about adding a new attribute.
