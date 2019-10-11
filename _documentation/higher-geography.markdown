@@ -128,12 +128,7 @@ does not belong in the **County** field.
 `Geo_Auth_Rec . Quad VARCHAR(30) null`
 
 
- The name of the U. S. Geological Survey maps in the
-1:250,000 series. Because Alaska lacks anything as inclusive counties,
-"quads" have been used extensively in organizing collections and
-interrogating data. (Although note that a combination of Borough and
-Census Area is all-inclusive and mutually exclusive and therefore serves
-as a suitable if large-scale "county substitute.")
+ The name of the U. S. Geological Survey topographic map quadrangle. The name of the quad should include the map scale. Ex. 'Ambler River 1:250,000'. The 1:250,000 series has been used because Alaska lacks anything as inclusive counties; “quads” have been used extensively in organizing collections and interrogating data (Although note that a combination of Borough and Census Area is all-inclusive and mutually exclusive and therefore serves as a suitable if large-scale “county substitute.”). Finer scale quads are used by other collections as sub-county level geography.
 
 
 ## Geographic Feature
