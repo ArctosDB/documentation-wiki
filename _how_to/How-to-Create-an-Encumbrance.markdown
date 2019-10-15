@@ -19,7 +19,7 @@ layout: default_toc
      **NOTE:** Encumbrances MUST have an Expiration Date that is within five years of the **Made Date**. While some encumbrances may be intended to be permanent, a review every five years is reasonable. Notification via email to the person(s) with manage collection authority for the collection(s) to which the encumbrance applies will be notified prior to expiration and will then be able to extend the expiration.
 * **Name** the Encumbrance (required). This name should be as general as possible with the aim of avoiding separate encumbrances when the encumbrancer and/or the encumbering action are the same.
 * Select an **Encumbrance Action** from the drop-down menu to initiate the restriction of specimen/lot data from the public view in Arctos (required). The "Restrict Usage" option masks the entire record from public view. The other menu options restrict partial data from public view.  
-      **NOTE:** A locality encumbrance (i.e. "Mask Coordinates") will mask data below the County level only. If a higher degree of discretion is necessary, an encumbrance must be created for the entire record.
+     [Encumrance Actions currently available in Arctos](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTENCUMBRANCE_ACTION)
 * Enter any **Remarks** regarding the Encumbrance amd/or specimen/lots to be encumbered.
 * Click “Create New Encumbrance.”
 
