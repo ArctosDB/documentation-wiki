@@ -23,3 +23,4 @@ Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_M
 * when possible, use /includes/style.css for styling. (Directions for minimizing are inline.)
 * for one-off use, in-page CSS (``<style></style>`` tags) is acceptable but less preferred
 * avoid inline styling (``<div style="...."></div>``); this makes it very difficult to change things and keep a consistent look and feel
+
