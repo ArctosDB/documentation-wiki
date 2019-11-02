@@ -1,5 +1,5 @@
 ---
-title: How to Handle Paleontology in Arctos 
+title: How To Handle Paleontology in Arctos 
 layout: default_toc
 author: Teresa J. Mayfield-Meyer
 date: 2019-11-02
