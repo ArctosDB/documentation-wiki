@@ -9,7 +9,11 @@ layout: default_toc
 
 # How To Catalog Fossil Material
 
-This guide provides advice for cataloging fossil material in Arctos. A fossil is any preserved remains, impression, or trace of any once-living thing from a past geological age. Examples include bones, shells, exoskeletons, stone imprints of animals or microbes, objects preserved in amber, hair, petrified wood, oil, coal, and DNA remnants.
+Paleonotological data can be challenging, but it can also be very rewarding to work with in Arctos. This How-To documents some of the common issues confronted when entering paleontology data in Arctos and offers solutions developed by the collections who have already addressed them. As always, if a solution appears less-than-optimal, [file an issue](https://github.com/ArctosDB/arctos/issues/new/choose) and help make Arctos better for everyone!
+
+For the purposes of this guide, a fossil is any preserved remains, impression, or trace of any once-living thing from a past geological age. Examples include bones, shells, exoskeletons, stone imprints of animals or microbes, objects preserved in amber, hair, petrified wood, oil, coal, and DNA remnants.
+
+## Parts
 
 ### Body Fossils
 
@@ -55,6 +59,10 @@ Replicas of fossil material are often made for public exhibit, teaching, or shar
   Identification = Archaeopteryx  
   part name = skeleton  
   part preservation = reproduction
+
+## Identification (Taxonomy)
+
+Identification of paleontological material is often less precise than for extant taxa and there are special cases where a common name may be more useful than the scientific name when searching for object records. This section documents some of the special identification cases encountered by incoming collections and the methodology for recording them.
 
 ### Petrified Wood
 
