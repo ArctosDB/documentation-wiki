@@ -56,6 +56,22 @@ Replicas of fossil material are often made for public exhibit, teaching, or shar
   part name = skeleton  
   part preservation = reproduction
 
+### Petrified Wood
+
+When ALMNH paleobotany data was migrated to Arctos, all records identified as "petrified wood" in their Access database were migrated to Arctos with the identification Trachyophyta and the part name "unknown". Somewhere along the way, the common name "Petrified Wood" was been added to Trachyophyta.
+
+While the addition of "Petrified Wood" as a common name for Trachyophyta means that ALMNH could find all of their petrified wood using a common name search, it also means that they and others might get unexpected results because there will be a lot of Trachyophyta that are not "petrified" and potentially some "petrified wood" that isn't identified as Tracheophyta in Arctos. While common names can be problematic, they are also the path that may be used to interact with our collections, so they need to be useful somehow. In this case using the common name attached to the TAXON_NAME did not seem useful.
+
+As a result, the community suggests the following treatment for "petrified wood" in Arctos:
+
+ **Petrified Wood Example**  
+  As an example, the object record for an unknown species of petrified wood would include the following:
+
+  Identification = Trachyophyta {Petrified Wood}
+  part name = wood  
+  part preservation = petrifaction
+ 
+For object identification, use of the [A {string} formula](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXA_FORMULA) "Trachyophyta {Petrified Wood}" allows flexibility between the more genrally used common name while allowing for identification of the biological taxon preseved in this way (if a more refined taxon name can be presented, then change Trachyophyta to whatever that name is).
 
 ### Part Preservation  
 Part preservation attributes cannot be entered or bulkloaded as part of the original specimen record, but are easily added using the Bulkload Part Attributes Tool (NEED DOCUMENTATION). Part preservation attributes are controlled by vocabulary found at [CTPART_PRESERVATION](http://arctos.database.museum/Admin/CodeTableEditor.cfm?action=editNoCollectionCode&tbl=CTPART_PRESERVATION#carbonization)
