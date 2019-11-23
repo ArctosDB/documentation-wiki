@@ -12,4 +12,11 @@ date: 2019-11-22
 
 If the only locality data that needs to be encumbered are coordinates, using the encumbrance funcionality in Arctos may be the best option. See [How to Create an Encumberance](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Create-an-Encumbrance.markdown)
 
+Some items to be aware of when using this option:
+
+ - Encumbrances expire, so if no one renews an encumbrance upon its expiration, the data will become publicly available when the encumbrance expires.
+ - Coordinates can often be inferred from other locality data.
+
 ## Encumbering Locality
+
+When it is necessary to encumber specific locality or to more permanently encumber locality information, another option is avaialable.  Adding the geology attribute "access" with the value of "private" to any locality will hide the locality both in catalog records and in locality searches. When using this option, it is adviseable to create two specimen events for any affected catalog records, one with the detailed locality information and the private access geology attribute, and a second with a the most general locality information that can be made available that does not include the private access geology attribute.
