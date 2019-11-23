@@ -29,10 +29,10 @@ The New Mexico Museum of Natural History and Science (NMMNH) Paleontology collec
 
 The public view of this record appears as follows:
 
-![]https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/encumber_locality/NMMNH_Paleo_1_public.JPG
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/encumber_locality/NMMNH_Paleo_1_public.JPG)
 
 The "private" view of this record appears as follows (sensitive information has been blacked out):
 
-![]https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/encumber_locality/NMMNH_Paleo_1_private.jpg
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/encumber_locality/NMMNH_Paleo_1_private.jpg)
 
 Note the access: private geolgoy attribute in the purple box. This attribute encumbers the locality. For instructions on adding geology attributes, see **NEED HOW TO**
