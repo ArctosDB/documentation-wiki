@@ -19,4 +19,20 @@ Some items to be aware of when using this option:
 
 ## Encumbering Locality
 
-When it is necessary to encumber specific locality or to more permanently encumber locality information, another option is avaialable.  Adding the geology attribute "access" with the value of "private" to any locality will hide the locality both in catalog records and in locality searches. When using this option, it is adviseable to create two specimen events for any affected catalog records, one with the detailed locality information and the private access geology attribute, and a second with a the most general locality information that can be made available that does not include the private access geology attribute.
+When it is necessary to encumber specific locality or to more permanently encumber locality information, another option is avaialable.  Adding the geology attribute "access" with the value of "private" to any locality will hide the locality both in catalog records and in locality searches. It will also hide collecting and record events that use the locality. When using this option, it is adviseable to create two catalog record events for any affected catalog records, one with the detailed locality information and the private access geology attribute, and a second with a the most general locality information that can be made available that does not include the private access geology attribute.
+
+### Access - Private Example
+
+The New Mexico Museum of Natural History and Science (NMMNH) Paleontology collection includes fossils collected from federally protected sites as well as private property. As such, the museum is required to withhold information about these collection sites unless requested and approved for specific research. The museum is also a state-funded institution with the mission to "preserve and interpret the distinctive natural and scientific heritage of New Mexico through extraordinary collections, research, exhibits and programs designed to ignite a passion for lifelong learning." In placing the collection data into Arctos, the museum is fostering this mission, but may also be violating agreements with federal and private lands to keep locality information encumbered even if no coordinates are provided as specific locality could provide enough information to allow the sites to be discovered by fossil poachers or other unauthorized collectors. For this reason, each NMMNH Paleo record contains two catalog record events: a research event which includes all known locality information and is hidden from public view and a public event, which includes higher geography only. Only those with administrative access to the collection in Arctos can view, edit, or download the research event information.
+
+#### NMMNH:Paleo:1
+
+The public view of this record appears as follows:
+
+![]https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/encumber_locality/NMMNH_Paleo_1_public.JPG
+
+The "private" view of this record appears as follows (sensitive information has been blacked out):
+
+![]https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/encumber_locality/NMMNH_Paleo_1_private.jpg
+
+Note the access: private geolgoy attribute in the purple box. This attribute encumbers the locality. For instructions on adding geology attributes, see **NEED HOW TO**
