@@ -26,7 +26,7 @@ Localities are created as part of [Single Record Data Entry](http://handbook.arc
 ### Why create a locality without an associated catalog record?
 When collections are made from a single locality, data entry can be easier if the locality is created in advance. Providing a Locality Nickname allows anyone entering new catalog records from the locality to complete all locality information simply by inserting the locality nickname. This is accomplished with the "Pick Locality" option. 
 
-![](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/tutorial_images/locality/locality%20nickname.jpg)
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/locality%20nickname.jpg)
 
 Then the Locality Nickname is inserted into the "Locality Nickname" field of the pop-up window
 
