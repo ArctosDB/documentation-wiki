@@ -13,7 +13,7 @@ A locality includes three types of data
 -   [Higher geography](higher-geography) is controlled "authority data" and is included via key relationships.
 -   [Georeferencing determinations](coordinates) are spatial data; they define a shape on a map. Localities may include point-radius data and/or
 WKT (polygon) data.
--   Descriptive data, most importantly Specific Locality.
+-   Descriptive data, most importantly Specific Locality. Also includes locality attributes such as [Geology](http://handbook.arctosdb.org/documentation/geology.html)
 
  Some caveats:
 
