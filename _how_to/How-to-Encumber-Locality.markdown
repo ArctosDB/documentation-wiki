@@ -4,7 +4,7 @@ layout: default_toc
 author: Teresa J. Mayfield-Meyer
 date: 2019-11-22
 ---
-# How to Encumber Locality Information
+# How to Encumber Locality Data
 
 [Encumbrances](/documentation/encumbrance) restrict certain aspects of specimen/lot records from the public view, usually to protect personal identity, proprietary data, or the provenance of a vulnerable population/habitat. Many encumbrances are temporary and may be reversed when specified conditions change (publication of research, expiration or retraction of encumbering legislation, eradication of critical habitat where specimen/lots were collected, etc.). This document describes the various ways that locality information may be encumbered in Arctos.
 
@@ -23,7 +23,7 @@ When it is necessary to encumber specific locality or to more permanently encumb
 
 ### Access - Private Example
 
-The New Mexico Museum of Natural History and Science (NMMNH) Paleontology collection includes fossils collected from federally protected sites as well as private property. As such, the museum is required to withhold information about these collection sites unless requested and approved for specific research. The museum is also a state-funded institution with the mission to "preserve and interpret the distinctive natural and scientific heritage of New Mexico through extraordinary collections, research, exhibits and programs designed to ignite a passion for lifelong learning." In placing the collection data into Arctos, the museum is fostering this mission, but may also be violating agreements with federal and private lands to keep locality information encumbered even if no coordinates are provided as specific locality could provide enough information to allow the sites to be discovered by fossil poachers or other unauthorized collectors. For this reason, each NMMNH Paleo record contains two catalog record events: a research event which includes all known locality information and is hidden from public view and a public event, which includes higher geography only. Only those with administrative access to the collection in Arctos can view, edit, or download the research event information.
+The New Mexico Museum of Natural History and Science (NMMNH) Paleontology collection includes fossils collected from federally protected sites as well as private property. As such, the museum is required to withhold information about these collection sites unless requested and approved for specific research. The museum is also a state-funded institution with the mission to "preserve and interpret the distinctive natural and scientific heritage of New Mexico through extraordinary collections, research, exhibits and programs designed to ignite a passion for lifelong learning." In placing the collection data into Arctos, the museum is fostering this mission, but may also be violating agreements with federal and private lands to keep locality information encumbered because even if no coordinates are provided, specific locality could provide enough information to allow the sites to be discovered by fossil poachers or other unauthorized collectors. For this reason, each NMMNH Paleo record contains two catalog record events: 1) one which includes all known locality information and is hidden from public view and 2) one which includes higher geography only. Only those with administrative access to the collection in Arctos can view, edit, or download the research event information.
 
 #### NMMNH:Paleo:1
 
