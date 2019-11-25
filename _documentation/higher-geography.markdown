@@ -41,8 +41,7 @@ Russia is in Asia. Both are sometimes in Eurasia.
 | Asia                                 | North Atlantic Ocean ([Area B](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans"))      |
 | Africa                               | Indian Ocean ([Area F](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans")) |
 | Australia                            |                                      |
-| Antarctica                           | missing data: "no higher geography"  |
-
+| Antarctica                           | missing data: "no higher geography recorded"  |
 
 
 
