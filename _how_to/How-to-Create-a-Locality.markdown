@@ -47,7 +47,7 @@ In order to create a locality for use as described above, complete the following
 
  - Log in to Arctos **You must have MANAGE_LOCALITY privileges in order to complete any of the following tasks.**
  
- - From the Arctos Main Menu select Manage Data > Location > Create Locality.
+ - From the Arctos Main Menu select Manage Data > Location > Create Locality. You will be directed to the "Create Locality" form.
  
  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/create%20locality%20form.jpg)
  
@@ -59,7 +59,7 @@ In order to create a locality for use as described above, complete the following
  
  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/higher%20geog%20pick%20list.jpg)
  
- - You will be returned to the Create Locality Form, bit the higher geography you selected will appear in the "pick geography" field.
+ - You will be returned to the Create Locality Form, but now, the higher geography you selected will appear in the "pick geography" field.
  
  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/create%20locality%20with%20HG.jpg)
  
