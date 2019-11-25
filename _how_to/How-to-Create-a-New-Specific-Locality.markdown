@@ -5,7 +5,10 @@ author: Michelle Koo
 date: 2016-11-30
 ---
 
-# How To Create a New Specific Locality
+# DEPRECATED - See [How To Create a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-Locality.html)
+
+
+## How To Create a New Specific Locality
 
 Most locality tasks consists of editing localities that have been previously created. Occasionally, however, you will need to create a new locality, whether to assign new events or to clean up messy data. Fortunately, the process is straightforward.
 
