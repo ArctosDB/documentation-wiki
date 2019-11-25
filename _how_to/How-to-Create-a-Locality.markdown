@@ -28,7 +28,6 @@ When collections are made from a single locality, data entry can be easier if th
 
 ![](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/tutorial_images/locality/locality%20nickname.jpg)
 
-
 Then the Locality Nickname is inserted into the "Locality Nickname" field of the pop-up window
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/locality%20nickname%20pick.jpg)
