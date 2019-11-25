@@ -6,20 +6,7 @@ layout: default_toc
 # Locality
 
 
-A locality is a specific place associated with one or more [Collecting Events](collecting-event).  Ultimately, each locality should be a unique
-circle in geographic space.  The center is a point defined by [latitude
-and longitude](coordinates), and the radius is a linear estimate of
-error.  For electronic mapping, we convert such data to decimal degrees
-with estimates of error in meters.  Interfaces to the data are more
-flexible.
-
-
-A locality is a specific place associated with one or more [Collecting Events](collecting-event).  Ultimately, each locality should be a unique
-circle in geographic space.  The center is a point defined by [latitude
-and longitude](coordinates), and the radius is a linear estimate of
-error.  For electronic mapping, we convert such data to decimal degrees
-with estimates of error in meters.  Interfaces to the data are more
-flexible.
+A locality is a specific place associated with one or more [Collecting Events](collecting-event).  Ultimately, each locality should be a unique polygon in geographic space.  Often, the polygon is a circular estimate with the center as a point defined by [latitude and longitude](coordinates), and the radius as a linear estimate of error.  For electronic mapping, we convert such data to decimal degrees with estimates of error in meters.  Interfaces to the data are more flexible. 
 
 A locality includes three types of data
 
