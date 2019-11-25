@@ -27,7 +27,7 @@ below are intended to prevent (and even remedy) such inconsistencies.
 `Geo_Auth_Rec . Continent_Ocean VARCHAR(50) not null`
 
 All records in Higher Geography have a value in
-this field. A record with the value "no higher geography" is applied to
+this field. A record with the value "no higher geography recorded" is applied to
 specimens with no geographic data. Western Russia is in Europe, eastern
 Russia is in Asia. Both are sometimes in Eurasia.
 
