@@ -7,14 +7,12 @@ layout: default_toc
 
 Geology in Arctos is used to add descriptive terms to a [Locality](http://handbook.arctosdb.org/documentation/locality.html) using [Geology Attributes](#geology-attributes). These terms are controlled by the vocabulary contained in the [CTGEOLOGY_ATTRIBUTE code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE). For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
 
-The terms applied using Geology can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), Public Land Survey System, land site status, and a locality encumbrance attribute for loclaities that need to be excluded from public view.
+The terms applied using Geology can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), [Biochronology](#biochronology), [Public Land Survey System](#public-land-survey-system), land site status, and a locality encumbrance attribute for loclaities that need to be excluded from public view.
 
 ## Stratigraphic Information
 
-Geologic strata may be classified according to many different properties. Each classification has its own distinctive nomenclature and some also include a hierarchical structure. The following kinds of strata are currently represented in Arctos:
+Geologic strata may be classified according to many different properties. Each classification has its own distinctive nomenclature and some also include a hierarchical structure. The following kinds of strata are currently represented in Arctos: 
 
- - <a href="https://en.wikipedia.org/wiki/Biochronology">Biochronology</a> - strata based on the use of assemblages of fossils that are not tied to stratigraphic sections (in contrast to biostratigraphy, where they are). 
- 
  - <a href="https://en.wikipedia.org/wiki/Biostratigraphy">Biostratigraphy</a> - strata based on the fossil content of the rock bodies. 
 
  - <a href="https://en.wikipedia.org/wiki/Chronostratigraphy">Chronostratigraphy</a> - strata based on the time of formation of the rock bodies. 
@@ -24,6 +22,10 @@ Geologic strata may be classified according to many different properties. Each c
  ## Petrology
 
 <a href="https://en.wikipedia.org/wiki/Petrology">Petrology</a> is the branch of geology that studies rocks and the conditions under which they form and Petrology terms describe the composition and texture of rocks. 
+
+## Biochronology
+
+In paleontology, <a href="https://en.wikipedia.org/wiki/Biochronology">biochronology</a> is the correlation in time of biological events using fossils. In its strict sense, it refers to the use of assemblages of fossils that are not tied to stratigraphic sections (in contrast to biostratigraphy, where they are). The basic unit of biochronology is the biostratigraphic zone, or biozone, a collection of fossils found together in a rock unit. 
 
 ## Public Land Survey System
 
