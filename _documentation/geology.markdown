@@ -5,9 +5,9 @@ layout: default_toc
 
 # Geology
 
-Geology in Arctos is used to record stratigraphic information through the addition of stratigraphic terms to a [Locality](http://handbook.arctosdb.org/documentation/locality.html) using [Geology Attributes](#geology-attributes). These terms are controlled by the vocabulary contained in the [CTGEOLOGY_ATTRIBUTE code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE). For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
+Geology in Arctos is used to add descriptive terms to a [Locality](http://handbook.arctosdb.org/documentation/locality.html) using [Geology Attributes](#geology-attributes). These terms are controlled by the vocabulary contained in the [CTGEOLOGY_ATTRIBUTE code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE). For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
 
-Geology is also used to record other attributes of locality including [Petrology](#petrology), Township-Section-Range, land site status, and a locality encumbrance attribute for loclaities that need to be excluded from public view.
+The terms applied using Geology can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), Public Land Survey System, land site status, and a locality encumbrance attribute for loclaities that need to be excluded from public view.
 
 ## Stratigraphic Information
 
@@ -23,7 +23,19 @@ Geologic strata may be classified according to many different properties. Each c
 
  ## Petrology
 
-<a href="https://en.wikipedia.org/wiki/Petrology">Petrology</a> is the branch of geology that studies rocks and the conditions under which they form and utilizes the fields of mineralogy, petrography, optical mineralogy, and chemical analysis to describe the composition and texture of rocks.
+<a href="https://en.wikipedia.org/wiki/Petrology">Petrology</a> is the branch of geology that studies rocks and the conditions under which they form and Petrology terms describe the composition and texture of rocks. 
+
+## Public Land Survey System
+
+The <a href="https://en.wikipedia.org/wiki/Public_Land_Survey_System">Public Land Survey System</a> (PLSS) is the surveying method developed and used in the United States to plat, or divide, real property for sale and settling. Terms included for this group include:
+
+ - Section - An approximately one-square-mile block of land. There are 36 sections in a survey township. 
+ 
+ - Township - A measure of the distance north or south from a referenced baseline, in units of six miles. 
+ 
+ - Range - A measure of the distance east or west from a referenced principal meridian, in units of six miles. 
+ 
+Aliquots, a terse, hierarchical reference to a piece of land, in which successive subdivisions of some larger area are appended to the beginning of the reference. For example, SW1/4 NW1/4 S13, T1SR20E refers to the southwest quarter of the northwest quarter of section 13 of Township 1 South Range 20 East (a 40-acre parcel). may be added, but this requires coordination with the Arctos DBA. 
 
 ## Geology Attributes
 
