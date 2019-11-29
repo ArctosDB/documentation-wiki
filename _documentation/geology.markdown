@@ -1,5 +1,6 @@
 ---
 title: Geology
+author: Dusty McDonald, Teresa Mayfield-Meyer
 layout: default_toc
 ---
 
@@ -25,7 +26,11 @@ Geologic strata may be classified according to many different properties. Each c
 
 ## Biochronology
 
-In paleontology, <a href="https://en.wikipedia.org/wiki/Biochronology">biochronology</a> is the correlation in time of biological events using fossils. In its strict sense, it refers to the use of assemblages of fossils that are not tied to stratigraphic sections (in contrast to biostratigraphy, where they are). The basic unit of biochronology is the biostratigraphic zone, or biozone, a collection of fossils found together in a rock unit. 
+In paleontology, <a href="https://en.wikipedia.org/wiki/Biochronology">biochronology</a> is the correlation in time of biological events using fossils. In its strict sense, it refers to the use of assemblages of fossils that are not tied to stratigraphic sections (in contrast to biostratigraphy, where they are). The basic unit of biochronology is the biostratigraphic zone, or biozone, a collection of fossils found together in a rock unit. The following biozone groups are available in Arctos:
+
+ - <a href="https://en.wikipedia.org/wiki/Biochronology#Land_mammal_ages">Land Mammal Ages</a> - A chronology based on mammal taxa has been defined on all the continents except Antarctica. Most of the units are based on assemblage zones, layers of strata that contain three or more distinctive fossils.
+ 
+ - <a href="https://en.wikipedia.org/wiki/Biochronology#Land-vertebrate_ages">Land Vertebrate Faunachrons</a> - Land-vertebrate "ages" (LVAs) or faunachrons have been proposed that use other vertebrates such as dinosaurs. 
 
 ## Public Land Survey System
 
