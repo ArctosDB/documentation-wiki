@@ -15,13 +15,13 @@ Geologic strata may be classified according to many different properties. Each c
 
  - <a href="https://en.wikipedia.org/wiki/Chronostratigraphy">Chronostratigraphy</a> - strata based on the time of formation of the rock bodies.
 
- - <a href="https://en.wikipedia.org/wiki/Lithostratigraphy">Lithostratigraphy</a> - stata based on the lithologic properties of the rock bodies.
+ - <a href="https://en.wikipedia.org/wiki/Lithostratigraphy">Lithostratigraphy</a> - stata based on the lithologic properties of the rock. Lithostratigraphic units are defined and recognized by observable physical features and not by their inferred age, the time span they represent, inferred geologic history, or manner of formation. 
 
  - <a href="https://en.wikipedia.org/wiki/Biochronology">Biochronology</a> - strata based on the use of assemblages of fossils that are not tied to stratigraphic sections (in contrast to biostratigraphy, where they are).
 
 ## Geology Attributes
 
-Geology Attributes attach geology information to Locality. Each locality may contain any number of geology attributes, each with a determiner and method.
+[Geology Attributes](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE) attach geology information to [Locality](http://handbook.arctosdb.org/documentation/locality.html). Each locality may contain any number of geology attributes. Each Geology Attribute may be accompanied by a determiner (an [Arctos Agent](http://handbook.arctosdb.org/documentation/agent.html)), determination date, determination method, and a remark.
 
 ### Structure
 
