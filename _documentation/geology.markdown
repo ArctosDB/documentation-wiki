@@ -8,7 +8,7 @@ layout: default_toc
 
 Geology in Arctos is used to add descriptive terms to a [Locality](http://handbook.arctosdb.org/documentation/locality.html) using [Geology Attributes](#geology-attributes). These terms are controlled by the vocabulary contained in the [CTGEOLOGY_ATTRIBUTE code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE). For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
 
-The terms applied using Geology can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), [Biochronology](#biochronology), [Public Land Survey System](#public-land-survey-system), [site land status](#site-land-status), and a locality encumbrance attribute for loclaities that need to be excluded from public view.
+The terms applied using Geology can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), [Biochronology](#biochronology), [Public Land Survey System](#public-land-survey-system), [site land status](#site-land-status), and a [locality encumbrance](#locality-encumbrance) attribute for localities that need to be excluded from public view.
 
 ## Stratigraphic Information
 
@@ -46,7 +46,11 @@ Aliquots, a terse, hierarchical reference to a piece of land, in which successiv
 
 ## Site Land Status
 
-Site land status is meant to designate private lands through the use of ownership terms. Lands can be designated as private with the "private" Site Land Status" attribute and property ownership can be recorded in the attribute remark.
+Site land status is meant to designate private lands through the use of ownership terms. Lands can be designated as private with the "private" Site Land Status" attribute and property ownership can be recorded in the attribute remark. 
+
+## Locality Encumbrance
+
+When it is necessary to hide a locality from public view, use the private (access) attribute. For more on this attribute, see [Encumbering Locality](http://handbook.arctosdb.org/how_to/How-to-Encumber-Locality.html#encumbering-locality).
 
 ## Geology Attributes
 
