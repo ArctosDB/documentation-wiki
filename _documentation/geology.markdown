@@ -5,6 +5,20 @@ layout: default_toc
 
 # Geology
 
+Geology is recorded in Arctos through the addition of stratigraphic terms to a [Locality](http://handbook.arctosdb.org/documentation/locality.html) using [Geology Attributes](#geology-attributes). These terms are controlled by the vocabulary contained in the [CTGEOLOGY_ATTRIBUTE code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE). 
+
+## Categories of Stratigraphic Classification
+
+Geologic strata may be classified according to many different properties. Each classification has its own distinctive nomenclature. The following kinds of strata are currently represented in Arctos:
+
+ - <a href="https://en.wikipedia.org/wiki/Biostratigraphy">Biostratigraphy</a> — strata based on the fossil content of the rock bodies. 
+
+ - <a href="https://en.wikipedia.org/wiki/Chronostratigraphy">Chronostratigraphy</a> — strata based on the time of formation of the rock bodies.
+
+ - <a href="https://en.wikipedia.org/wiki/Lithostratigraphy">Lithostratigraphy</a> — stata based on the lithologic properties of the rock bodies.
+
+ - <a href="https://en.wikipedia.org/wiki/Biochronology">Biochronology</a> - strata based on the use of assemblages of fossils that are not tied to stratigraphic sections (in contrast to biostratigraphy, where they are).
+
 ## Geology Attributes
 
 Geology Attributes attach geology information to Locality. Each locality
