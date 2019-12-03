@@ -25,8 +25,10 @@ Curators/Collection Managers who want the ability to create or edit Documentatio
 ### Edit Existing Content
 
 * Login to GitHub.
-* Go to the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/wiki).
-* Find the page you want to edit.
+* Go to the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/wiki)., main Code tab
+* Find the page you want to edit by clicking on Find File next to the Clone or Download button. Type key words next to the documentation-wiki prompt. IMPORTANT: separate words with hyphens for the search to find titles correctly, e.g.
+  "how-to-edit-documentation"
+*Select the file you have chosen
 * Click on "Edit" in the upper right.
 * Make your changes on the page. DO NOT EDIT a title because that will change the URL and thus affect linked pages.
 * Save the page!
