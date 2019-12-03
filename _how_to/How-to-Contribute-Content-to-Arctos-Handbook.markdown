@@ -160,3 +160,9 @@ If you want to work on markdown content offline or just not in a browser, there 
 
 
 Try using [Github Desktop](https://desktop.github.com/) if you want to sync your work with the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/) locally. For more details, consult [_How to Get the Most Out of Arctos-Github Editing_](/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.markdown).
+
+#### Search Terms
+create documetnation  
+edit documentation  
+create How To  
+edit How To  
