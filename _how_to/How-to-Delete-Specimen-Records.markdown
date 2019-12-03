@@ -15,7 +15,7 @@ Note that you can only delete a maximum of 1000 specimen records at a time throu
 Go to Manage Data -> Metadata -> Encumbrances from the main Tools menu (If you do not see this menu, you will need to request access). From the Encumbrances screen, click on the “Create an Encumbrance” hyperlink at the top of the page. Fill in the required fields with generic information so that you can reuse this encumbrance any time you would like to delete a specimen record now or in the future:
 * **Encumbering Agent** - in most cases will be you, the operator
 * **Made Date** - select today's date
-* Select an **Expiration Date**: the maximum is five years ahead of the made date
+* **Expiration Date**: choose a date up to the maximum of five years ahead of the made date. All encumbrances will expire on the expiration date or 5 years from the made date unless they are renewed - the collection contact will receive an email warning of expiration. Pay attention to these emails.
 * **Encumbrance** - title with a generic name (e.g."delete records" or "duplicate records for deletion"); choose something that you will be able to search on and find later. Remember that you can create many different encumbrances, so it is OK to create one for a specific project.
 * **Encumbrance Action** - For deletion purposes, you will want to choose "maks record", which will hide the record from public view. However, other options for encumbrances found at the code table controlled vocabulary here:
 ctos.database.museum/info/ctDocumentation.cfm?table=CTENCUMBRANCE_ACTION
