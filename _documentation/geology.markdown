@@ -20,7 +20,7 @@ Geologic strata may be classified according to many different properties. Each c
 
  - <a href="https://en.wikipedia.org/wiki/Lithostratigraphy">Lithostratigraphy</a> - stata based on the lithologic properties of the rock. 
 
- ## Petrology
+## Petrology
 
 <a href="https://en.wikipedia.org/wiki/Petrology">Petrology</a> is the branch of geology that studies rocks and the conditions under which they form and Petrology terms describe the composition and texture of rocks. 
 
