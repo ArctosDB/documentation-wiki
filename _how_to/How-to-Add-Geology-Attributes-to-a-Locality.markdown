@@ -24,6 +24,14 @@ Once you have the locality ready to edit, you can add the geology attributes.
 Scroll to the bottom of the locality edit page and you will find the Create Geology Determination form.
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Create_Geol.jpg)
 
-Complete the required fields plus any of the other fields for which you have information and select "Create Determination". If you have more than one geology attribute to add, simply repeat this process until all of the geology attributes have been added. There is no need to save locality edits, creating a determination adds the geology attribute to the locality.
+Complete the required fields plus any of the other fields for which you have information and select "Create Determination". If you have more than one geology attribute to add, simply repeat this process until all of the geology attributes have been added. There is no need to save locality edits, creating a determination adds the geology attribute to the locality. 
 
-## Edit Geology Attributes
+For more information about Geology Attributes and the data format or code table controls for the geology attribute fields see the [documentation](http://handbook.arctosdb.org/documentation/geology.html).
+
+## Edit Geology Attributes 
+
+If you need to edit a geology attribute, edit the locality, find the geology attribute, make the appropriate changes, and select "Save Changes" at the bottom of the list of Geology Attributes. 
+
+## Delete Geology Attributes
+
+If you need to delete a geology attribute, edit the locality, find the attribute, select "Delete this" next to the Geology Attribute, then select "Save Changes" at the bottom of the list of Geology Attributes. 
