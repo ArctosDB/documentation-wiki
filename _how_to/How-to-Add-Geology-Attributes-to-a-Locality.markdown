@@ -8,13 +8,13 @@ date: 2019-11-25
 
 [Geology Attributes](http://handbook.arctosdb.org/documentation/geology.html) attach geology information to Locality. Each locality may contain any number of geology attributes, each with a determiner and method. This How-To documents the process for adding Geology Attributes to a Locality.
 
-## Bulkload
+## Bulkload Geology Attributes
 
-Geology attributes can be added as part of a normal specimen bulkload. Add Geology to your bulkload builder:  
+There is no tool for bulkloading geology attributes to existing localities. This is by design as this could result in incorrect locality data. (see **Caution** below). However, geology attributes can be added as part of a normal specimen bulkload which creates new localities. To use this methog, just add Geology to your bulkload builder:  
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Bulkload_builder.jpg)
 
-Then complete the required fields (GEOLOGY_ATTRIBUTE and GEOL_ATT_VALUE) along with any other fields for which you have data for up to 6 geology attributes for any specimen in the bulkload file. **NOTE** Geology attributes and values must conform to terms in the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE).
+Then complete the required fields (GEOLOGY_ATTRIBUTE and GEOL_ATT_VALUE) along with any other fields for which you have data. Up to 6 geology attributes can be added for any single record locality in the bulkload file. **NOTE** Geology attributes and values must conform to terms in the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE).
 
 ## Create or Edit the Locality 
 
