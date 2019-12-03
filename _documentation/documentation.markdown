@@ -5,7 +5,8 @@ layout: default_toc
 
 # Documentation
 
-Documentation of how to use and operate Arctos is constantly evolving.  
+Documentation of how to use and operate Arctos is constantly evolving.  This form has been deprecated. For info on how to create and edit documentation, please search on the following file: How-to-Contribute-Content-to-Arctos-Handbook.markdown (https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Contribute-Content-to-Arctos-Handbook.markdown)
+
 There are four levels of documentation:
 
 1.  Procedures, *i.e*., how-to documents.
