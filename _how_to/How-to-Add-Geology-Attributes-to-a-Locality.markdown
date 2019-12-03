@@ -10,7 +10,7 @@ date: 2019-11-25
 
 ## Bulkload Geology Attributes
 
-There is no tool for bulkloading geology attributes to existing localities. This is by design as this could result in incorrect locality data. (see **Caution** below). However, geology attributes can be added as part of a normal specimen bulkload which creates new localities. To use this methog, just add Geology to your bulkload builder:  
+There is no tool for bulkloading geology attributes to existing localities. This is by design as this could result in incorrect locality data. (see [Caution](#Caution) below). However, geology attributes can be added as part of a normal specimen bulkload which creates new localities. To use this method, just add Geology to your bulkload builder:  
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Bulkload_builder.jpg)
 
@@ -21,7 +21,8 @@ Then complete the required fields (GEOLOGY_ATTRIBUTE and GEOL_ATT_VALUE) along w
 If the locality already exists, you can edit the locality following the instructions in [How to Edit a Specific Locality](http://handbook.arctosdb.org/how_to/How-to-Edit-a-Specific-Locality.html).  
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg)  
-**Caution** be sure that the geology you plan to add to the locality applies to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the geology attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html) to reflect the new locality.
+#### Caution
+be sure that the geology you plan to add to the locality applies to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the geology attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html) to reflect the new locality.
 
 Otherwise, create the locality from scratch following the instructions in [How To Create a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-Locality.html).
 
