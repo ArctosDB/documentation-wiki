@@ -20,9 +20,9 @@ Then complete the required fields (GEOLOGY_ATTRIBUTE and GEOL_ATT_VALUE) along w
 
 If the locality already exists, you can edit the locality following the instructions in [How to Edit a Specific Locality](http://handbook.arctosdb.org/how_to/How-to-Edit-a-Specific-Locality.html).  
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg)  
-#### Caution
-be sure that the geology you plan to add to the locality applies to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the geology attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html) to reflect the new locality.
+#### Caution  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg)  
+
+Be sure that the geology you plan to add to the locality applies to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the geology attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html) to reflect the new locality.
 
 Otherwise, create the locality from scratch following the instructions in [How To Create a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-Locality.html).
 
