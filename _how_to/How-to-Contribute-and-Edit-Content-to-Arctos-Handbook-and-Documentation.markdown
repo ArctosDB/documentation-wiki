@@ -100,12 +100,14 @@ As an important note, **if you do not include front matter on your page, the pag
 * Pages will dynamically appear on the How to Index page and be searchable on the Arctos Handbook site now.
   - If you edited a documentation page, the update will not be automatic; if you're comfortable editing HTML directly, you can insert it into the appropriate index page (eg, for a page in `_documentation`, the `_documentation/index.html` file), or otherwise ask dustymc@gmail.com, mkoo@berkeley.edu, or ccicero@berkeley.edu to take care of it for you.
 
-## Edit Existing Content
+### Edit Existing Content
 
 * Login to GitHub.
-* Go to the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/).
-* Find the page you want to edit.
-* Click on the page. Click on the pencil icon in the upper right.
+* Go to the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/wiki)., main Code tab
+* Find the page you want to edit by clicking on Find File next to the Clone or Download button. Type key words next to the documentation-wiki prompt. IMPORTANT: separate words with hyphens for the search to find titles correctly, e.g.
+  "how-to-edit-documentation"
+*Select the file you have chosen
+* Click on "Edit" in the upper right.
 * Make your changes on the page. DO NOT EDIT a title because that will change the URL and thus affect linked pages.
 * Save the page!
 
