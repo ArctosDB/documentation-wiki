@@ -4,7 +4,7 @@ layout: default_toc
 ---
 This file has been deprecated. See instead: How-to-Contribute-and-Edit-Content-to-Arctos-Handbook-and-Documentation.markdown
 
-##There are two kinds of content on the Arctos wiki site:
+There are two kinds of content on the Arctos wiki site:
 * Documentation, which describes specific data tables and/or types and defines data fields
 * "How-to Guides," which provide step-by-step instructions on how to do specific tasks in Arctos.
 
