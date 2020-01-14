@@ -59,7 +59,7 @@ Once a user has created their user account and given you their username, complet
 
 ---
 
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg" width="60"> **PRO TIP**
+#### PRO TIP <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg" width="60"> 
 
 Don't want to make your new operators suffer the back and forth of setting up an Arctos user account then authenticating? Do it for them!
 
