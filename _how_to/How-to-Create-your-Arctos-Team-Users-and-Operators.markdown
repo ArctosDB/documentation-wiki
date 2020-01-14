@@ -59,6 +59,20 @@ Once a user has created their user account and given you their username, complet
 
 ---
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **PRO TIP**
+
+Don't want to make your new operators suffer the back and forth of setting up an Arctos user account then authenticating? Do it for them!
+
+ - Create an Arctos user account with a username and password that meet the criteria set out above
+ - Complete the user account profile with the new operator's name and **your email address** 
+ - Create an Agent for your new operator and add the username you just created to it
+ - Invite the new user to become an operator
+ - The invitation email will come to you, open it and authenticate the operator account
+ - Change the email in the user's profile to their email address
+ - Give your new operator their Arctos username and password with instructions to log in and **change their password**
+
+---
+
 ### 4.	Assign Operator Roles and Permissions
 
 * Go to [http://arctos.database.museum](http://arctos.database.museum) and login.
