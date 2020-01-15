@@ -1,17 +1,17 @@
 ---
-title: How To Bulkload Specimen Data
+title: How To Bulkload Catalog Records
 layout: default_toc
 author: Carla Cicero
 date: 2016-03-08
 ---
 
-# Bulkloading Specimen Data
+# Bulkloading Catalog Records
 
 **Enter Data > Bulkloader > Bulkload Builder**
 
-If you do not have a Bulkload Specimen Data sheet, begin with the Bulkload Builder.
+If you do not have a Bulkload Catalog Record Data sheet, begin with the [Bulkload Builder](https://arctos.database.museum/Bulkloader/bulkloaderBuilder.cfm).
 
-**Bulkload Builder:** The first small table is the groups of fields available to use.
+## Bulkload Builder: The first small table is the groups of fields available to use.
 
 Select which ones you want to save time on selecting individual fields in the larger table below.
 The following are the groups most relevant to our collection:
