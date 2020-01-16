@@ -113,43 +113,43 @@ Generally a 60x60 pixel image can be used to replace the Arctos Bear in the cata
 
     EXAMPLE: [NMMNH Logo](https://arctos.database.museum/media/10605393)
 
- ### Header Credit
- Image attribution, displayed near the header image.
+### Header Credit
+Image attribution, displayed near the header image.
  
-     EXAMPLE: "NM Museum of Natural History"
+    EXAMPLE: "NM Museum of Natural History"
  
- ### Collection URL
- URL at which more collection information may be found.
+### Collection URL
+URL at which more collection information may be found.
  
-     EXAMPLE: http://www.nmnaturalhistory.org/bioscience/bioscience-collections
+    EXAMPLE: http://www.nmnaturalhistory.org/bioscience/bioscience-collections
  
- ### Collection Link Text
- Text to display in place of Collection URL.
+### Collection Link Text
+Text to display in place of Collection URL.
  
-     EXAMPLE: "Bird Collection"
+    EXAMPLE: "Bird Collection"
  
- ### Institution URL
- URL at which more institution information may be found.
+### Institution URL
+URL at which more institution information may be found.
  
-     EXAMPLE: http://www.nmnaturalhistory.org/science
+    EXAMPLE: http://www.nmnaturalhistory.org/science
  
- ### Institution Link Text
- Text to display in place of Institution URL.
+### Institution Link Text
+Text to display in place of Institution URL.
  
-     EXAMPLE: "Collections Home Page"
+    EXAMPLE: "Collections Home Page"
  
- ### META_DESCRIPTION
- HTML header; for bots, probably no longer useful.
+### META_DESCRIPTION
+HTML header; for bots, probably no longer useful.
  
- ### META_KEYWORDS
- HTML header; for bots, probably no longer useful.
+### META_KEYWORDS
+HTML header; for bots, probably no longer useful.
  
- ### STYLESHEET
- If you have developed a CSS stylesheet, load the css to /includes/css/ or coordinate with a DBA.
+### STYLESHEET
+If you have developed a CSS stylesheet, load the css to /includes/css/ or coordinate with a DBA.
  
  The examples used above result in a record header that looks like this:
  
- ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Sample%20Header.jpg)
+     ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Sample%20Header.jpg)
   
 ## Managing a Collection Over Time
   
