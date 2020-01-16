@@ -1,6 +1,6 @@
 ---
 title: How To Manage a Collection
-author: Teresa J. Mayfield-Meyer
+author: Teresa J. Mayfield-Meyer, Michelle Koo, Philip Khan, Dusty McDonald
 date: 2020-01-16
 layout: default_toc
 ---
