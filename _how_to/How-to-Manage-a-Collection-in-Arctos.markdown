@@ -147,9 +147,11 @@ HTML header; for bots, probably no longer useful.
 ### Stylesheet
 If you have developed a CSS stylesheet, load the css to /includes/css/ or coordinate with a DBA.
  
- The examples used above result in a record header that looks like this:
+The examples used above result in a record header that looks like this:
  
-     ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Sample%20Header.jpg)
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Sample%20Header.jpg)
+
+---
   
 ## Managing a Collection Over Time
   
