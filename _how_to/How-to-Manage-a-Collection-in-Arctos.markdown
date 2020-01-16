@@ -138,13 +138,13 @@ Text to display in place of Institution URL.
  
     EXAMPLE: "Collections Home Page"
  
-### META_DESCRIPTION
+### Meta Description
 HTML header; for bots, probably no longer useful.
  
-### META_KEYWORDS
+### Meta Keyworkds
 HTML header; for bots, probably no longer useful.
  
-### STYLESHEET
+### Stylesheet
 If you have developed a CSS stylesheet, load the css to /includes/css/ or coordinate with a DBA.
  
  The examples used above result in a record header that looks like this:
