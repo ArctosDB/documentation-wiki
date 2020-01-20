@@ -3,7 +3,7 @@ title: How To Create and Edit Parts
 layout: default_toc
 author: Emily Braker
 ---
-# How To Create and Edit Parts to specimen records
+# How To Create and Edit Parts
 
 ### NAVIGATION: 
 **From the specimen record, click on the Parts Tab OR the "Edit" hypertext in the corner of the Parts detail**
