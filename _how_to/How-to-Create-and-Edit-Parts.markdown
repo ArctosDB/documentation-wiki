@@ -6,7 +6,7 @@ author: Emily Braker
 # How To Create and Edit Parts
 
 ### NAVIGATION: 
-**From the specimen record, click on the Parts Tab OR the "Edit" hypertext in the corner of the Parts detail**
+**From the catalog record, click on the Parts Tab OR the "Edit" hypertext in the corner of the Parts detail**
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/edit_parts.jpg)
 
