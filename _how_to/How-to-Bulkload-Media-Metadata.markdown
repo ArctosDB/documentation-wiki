@@ -52,7 +52,7 @@ tool to do so before downloading), load to the media bulkloader, wait for email.
 
 ## Alternative Method ##
 
-For use with small batch media uploader tool or building a bulkloader file from scratch - see full documentation at [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
+For use with small batch media uploader tool - see full documentation at [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
 
 ### Modify Media Metadata Bulkload File
 
@@ -63,9 +63,6 @@ This file will be deleted 3 days after the message is sent, but may be regenerat
 #### Media Metadata Bulkload Video Tutorial ####
 
 [![YouTube: How to Bulkload Media Metadata in Arctos](https://i9.ytimg.com/vi/JkiRIH-JgYg/mq2.jpg?sqp=CPb5p_EF&rs=AOn4CLDXNJizQ4dIml0cRIwFts7fEgtVFQ)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
-
-
-#### Media Metadata Bulkload Video Tutorial ####
 
 # Related Links
 
