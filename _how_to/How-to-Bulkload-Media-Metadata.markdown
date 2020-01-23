@@ -52,7 +52,7 @@ tool to do so before downloading), load to the media bulkloader, wait for email.
 
 ## Alternative Method ##
 
-For use with small batch media uploader tool - see full documentation at [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
+For use with small batch media uploader tool or building a bulkloader file from scratch - see full documentation at [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
 
 ### Modify Media Metadata Bulkload File
 
