@@ -43,3 +43,6 @@ If the upload was not successful, you will need to troubleshoot the problem. Sea
   * The container type might need to be changed to conform with existing types defined in Arctos. You can only use a container type category that exists within Arctos such as vial, tag, cryovial, etc.
 
 Once you have corrected any errors, attempt to re-upload the file.
+
+### Bulkload Parts > Containers Tutorial Video ###
+[![How to Bulkload Parts into a Container in Arctos](https://i9.ytimg.com/vi/4_bY4DMgOkE/mq2.jpg?sqp=CMybqPEF&rs=AOn4CLBZXoCmsdhlTwWKg5C-AD9i4CJ9JQ)](https://www.youtube.com/watch?v=4_bY4DMgOkE)
