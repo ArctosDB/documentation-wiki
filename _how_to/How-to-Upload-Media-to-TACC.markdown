@@ -38,6 +38,10 @@ The file that you receive once your image upload is complete contains much of th
 
 This file will be deleted 3 days after the message is sent, but may be regenerated from the "existing jobs" link on the [Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm) tool page. 
 
+[![YouTube: How To Create Agents](https://img.youtube.com/vi/s3Rxk2LhY9E/0.jpg)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
+Media Metadata Bulkload Tutorial
+[!YouTube: How to Bulkload Media Metadata in Arctos](https://i9.ytimg.com/vi/JkiRIH-JgYg/mq2.jpg?sqp=CPb5p_EF&rs=AOn4CLDXNJizQ4dIml0cRIwFts7fEgtVFQ)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
+
 ## Large Batch Uploads
 If you want to upload a lot of large media files (e.g., 100s or 1000s of images, audio, video), and/or if you have specific processing needs, you should first contact [Chris Jordan](https://www.tacc.utexas.edu/about/directory/chris-jordan) and an Arctos administrator to discuss space allocations. However, most users can follow these instructions:
 
