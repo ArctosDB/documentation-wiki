@@ -70,6 +70,7 @@ This file will be deleted 3 days after the message is sent, but may be regenerat
 # Related Links
 
 [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC.markdown)
+[How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
 
 [How to Create Media/Images](/how_to/How-to-Create-Media-Images)
 
