@@ -32,6 +32,10 @@ Once your ZIP file is prepared, go to the [Upload Images](http://arctos.database
 
 The upload process usually completes within hours, but backlog is possible.  You will receive an email containing a link to a file when the process is done. If you do not receive an email within 24 hours, use the  [Report a bug or request support](http://arctos.database.museum/contact.cfm?ref=/tools/uploadMedia.cfm) link at the bottom of the [Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm) page to inquire about your upload. Be sure to include your user name, email address, and the job name in your inquiry.
 
+#### Upload Images Bulkloader Video Tutorial ####
+
+[![YouTube: How to Upload Images in Small Batches in Arctos](https://i9.ytimg.com/vi/8TInZ6EWRWI/mq3.jpg?sqp=COaTqPEF&rs=AOn4CLCCrRi7-8U-QX12NqWWYqm94Kheeg)](https://www.youtube.com/watch?v=8TInZ6EWRWI&t=3s)
+
 ### Modify Media Metadata Bulkload File
 
 The file that you receive once your image upload is complete contains much of the information required to bulkload media.  Remember that although your media are now stored at TACC, they are not associated with any data in Arctos. The [Bulkload Media Metadata](http://arctos.database.museum/tools/BulkloadMedia.cfm) tool will allow you to complete this process. See [Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata) for instructions on creating the bulkload file.
