@@ -37,7 +37,8 @@ The upload process usually completes within hours, but backlog is possible.  You
 The file that you receive once your image upload is complete contains much of the information required to bulkload media.  Remember that although your media are now stored at TACC, they are not associated with any data in Arctos. The [Bulkload Media Metadata](http://arctos.database.museum/tools/BulkloadMedia.cfm) tool will allow you to complete this process. See [Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata) for instructions on creating the bulkload file.
 
 This file will be deleted 3 days after the message is sent, but may be regenerated from the "existing jobs" link on the [Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm) tool page. 
-
+  
+  
 #### Media Metadata Bulkload Video Tutorial ####
 
 [![YouTube: How to Bulkload Media Metadata in Arctos](https://i9.ytimg.com/vi/JkiRIH-JgYg/mq2.jpg?sqp=CPb5p_EF&rs=AOn4CLDXNJizQ4dIml0cRIwFts7fEgtVFQ)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
