@@ -50,7 +50,24 @@ src="https://user-images.githubusercontent.com/5720791/40448644-fc399ca0-5e8a-11
 Scroll down, click "build/rebuild," confirm that everything worked as expected, download CSV, fill in any remaining blanks (or use the
 tool to do so before downloading), load to the media bulkloader, wait for email.
 
+## Alternative Method ##
 
+For use with small batch media uploader tool - see full documentation at ([How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
+
+### Modify Media Metadata Bulkload File
+
+The file that you receive once your image upload is complete contains much of the information required to bulkload media.  Remember that although your media are now stored at TACC, they are not associated with any data in Arctos. The [Bulkload Media Metadata](http://arctos.database.museum/tools/BulkloadMedia.cfm) tool will allow you to complete this process. See [Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata) for instructions on creating the bulkload file.
+
+This file will be deleted 3 days after the message is sent, but may be regenerated from the "existing jobs" link on the [Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm) tool page. 
+
+#### Media Metadata Bulkload Video Tutorial ####
+
+[![YouTube: How to Bulkload Media Metadata in Arctos](https://i9.ytimg.com/vi/JkiRIH-JgYg/mq2.jpg?sqp=CPb5p_EF&rs=AOn4CLDXNJizQ4dIml0cRIwFts7fEgtVFQ)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
+
+
+#### Media Metadata Bulkload Video Tutorial ####
+
+[![YouTube: How to Bulkload Media Metadata in Arctos](https://i9.ytimg.com/vi/JkiRIH-JgYg/mq2.jpg?sqp=CPb5p_EF&rs=AOn4CLDXNJizQ4dIml0cRIwFts7fEgtVFQ)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
 # Related Links
 
 [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
