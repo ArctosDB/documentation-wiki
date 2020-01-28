@@ -41,5 +41,17 @@ The citation is now created and listed at the bottom of the screen under "Existi
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/citation_specimen_record.png)
 
+# How To Bulkload Citations
+
+## NAVIGATION: Enter Data Menu → Batch Tools → Bulkload Citations 
+
+Use the the "Get a Template" hyperlink to download the citations bulkloader spreadsheet (.csv)
+* Populate the spreadsheet fields following the conventions outlined by the bulkload citations screen. The summary indicates what fields are required. Tip: From the Publication record, open the Manage Citations screen to see the fields that map to the bulkloader spreadsheet. From this screen you can view controlled vocabulary as well as get a sense of what values each bulkloader field will require.
+* Delete any unused columns from the bulkloader template and save as a csv file.
+* Upload the file using the upload button found on the Bulkload Citations screen.
+* Once your spreadsheet formatting has completed validation, click on the 'view in table' link to see that your bulkloader records have validated (if your data does not validate and you receive an error message, check that your spreadsheet column headings are correct).
+* In the table view, any errors with your citation data will be returned in the 'Status' column. Common errors include missing data (e.g., required fields) or specimen numbers that are not found. Rectify these erros and reload the spreadsheet, it will simply overwrite the existing version.
+* If all looks correct in the table, click on the 'proceed to load' text. Citations will be immediately linked. Generally an insert error at this stage refers to duplicate values in your spreadsheet.
+
 ### Bulkload Citations Tutorial Video ###
 [![How to Bulkload Citations](https://i9.ytimg.com/vi/xCWrNJk7iVM/mq1.jpg?sqp=CPfKwvEF&rs=AOn4CLBiEMhQZ3Mei8Mvwv1ZfM4QG9CF2w)](https://youtu.be/xCWrNJk7iVM)
