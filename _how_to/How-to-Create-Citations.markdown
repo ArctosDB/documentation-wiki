@@ -40,3 +40,6 @@ Use the fields to search for the specimen record to be cited (GUID or catalog nu
 The citation is now created and listed at the bottom of the screen under "Existing Citations" where it can be managed (deleted, edited, cloned). After refreshing/waiting a few minutes, you should see the citation and publication information in the associated specimen record(s).
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/citation_specimen_record.png)
+
+### Bulkload Citations Tutorial Video ###
+[![How to Bulkload Citations](https://i9.ytimg.com/vi/xCWrNJk7iVM/mq1.jpg?sqp=CPfKwvEF&rs=AOn4CLBiEMhQZ3Mei8Mvwv1ZfM4QG9CF2w)](https://youtu.be/xCWrNJk7iVM)
