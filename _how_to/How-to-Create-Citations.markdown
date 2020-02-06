@@ -54,4 +54,4 @@ Use the the "Get a Template" hyperlink to download the citations bulkloader spre
 * If all looks correct in the table, click on the 'proceed to load' text. Citations will be immediately linked. Generally an insert error at this stage refers to duplicate values in your spreadsheet.
 
 ### Bulkload Citations Tutorial Video ###
-[![How to Bulkload Citations](https://i9.ytimg.com/vi/xCWrNJk7iVM/mq1.jpg?sqp=CPfKwvEF&rs=AOn4CLBiEMhQZ3Mei8Mvwv1ZfM4QG9CF2w)](https://youtu.be/xCWrNJk7iVM)
+[![How to Bulkload Citations](https://i9.ytimg.com/vi/xCWrNJk7iVM/mq1.jpg?sqp=CLWO8fEF&rs=AOn4CLBHWPnRi94J7QZF_5gTTM45fGst_A)](https://youtu.be/xCWrNJk7iVM)
