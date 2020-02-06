@@ -34,7 +34,7 @@ The upload process usually completes within hours, but backlog is possible.  You
 
 #### Upload Images Bulkloader Video Tutorial ####
 
-[![YouTube: How to Upload Images in Small Batches in Arctos](https://i9.ytimg.com/vi/8TInZ6EWRWI/mq3.jpg?sqp=COaTqPEF&rs=AOn4CLCCrRi7-8U-QX12NqWWYqm94Kheeg)](https://www.youtube.com/watch?v=8TInZ6EWRWI&t=3s)
+[![YouTube: How to Upload Images in Small Batches in Arctos](https://i9.ytimg.com/vi/8TInZ6EWRWI/mq3.jpg?sqp=CN2N8fEF&rs=AOn4CLBJzHqM-JkUrDx6zgULWjYCOzPVFg)](https://www.youtube.com/watch?v=8TInZ6EWRWI&t=3s)
 
 ### Modify Media Metadata Bulkload File
 
