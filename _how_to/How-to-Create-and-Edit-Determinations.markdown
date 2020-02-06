@@ -29,6 +29,6 @@ Edit or Add an identification to a specimen record. A specimen record can hold m
 * Use the "Accepted?" drop-down menu to order the determination history for a specimen record. "Yes" indicates that the current determination is the accepted taxon name, and will prioritize the "accepted" name as the display name for the record. As there can only be one valid ID for a specimen record, the other determination(s) will default to "accepted?" = "no." You may need to play around with deleting and adding identifications to achieve the desired determination history order.
 * To delete an erroneous determination, change the "accepted?" status to "no" and click the red-highlighted "Delete" hypertext. Click the "Save Changes" button to commit edits. It is appropriate to include previous, incomplete, and/or now-obsolete references for record-keeping purposes rather than deleting/overwriting these IDs with current nomenclature.
 
-## How to Edit an Identifications Tutorial Video
+## How to Edit an Identification Tutorial Video
 
 [![YouTube: How Edit an Identification](https://i9.ytimg.com/vi/nITb0Z6ot4Q/mq3.jpg?sqp=CO-P8fEF&rs=AOn4CLCE4W7Wz_KxxzZJa-j5b9f8rWmWEA)](https://www.youtube.com/watch?v=nITb0Z6ot4Q)
