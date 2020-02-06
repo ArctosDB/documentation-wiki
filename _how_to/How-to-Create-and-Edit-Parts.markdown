@@ -27,3 +27,7 @@ Use the blue "Add Specimen Part" box at the bottom of the screen to create new s
 * Edit any existing information saved in the Parts fields and click the "Save All Changes" button at the bottom of the table to commit edits.
 * Click on the "Delete" button to remove Parts.
 * Scan or type in the relevant barcode to place a Part in an existing Container (see [How to Create and Edit Containers](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-and-Edit-Containers.html) for more details). After saving, the container location can be confirmed by clicking on the Part Location Tab.
+
+## Parts Table Overview Tutorial Video
+
+[![YouTube: How To Batch Update Identifications](https://i9.ytimg.com/vi/eVEZHAtyQs0/mq1.jpg?sqp=CP6Q8fEF&rs=AOn4CLDKYbG32yiPa5XYyqD_Ly-DpJuZNQ)](https://youtu.be/eVEZHAtyQs0)
