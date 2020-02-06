@@ -30,4 +30,8 @@ Use the blue "Add Specimen Part" box at the bottom of the screen to create new s
 
 ## Parts Table Overview Tutorial Video
 
-[![YouTube: How To Batch Update Identifications](https://i9.ytimg.com/vi/eVEZHAtyQs0/mq1.jpg?sqp=CP6Q8fEF&rs=AOn4CLDKYbG32yiPa5XYyqD_Ly-DpJuZNQ)](https://youtu.be/eVEZHAtyQs0)
+[![YouTube: Parts Table Overview](https://i9.ytimg.com/vi/eVEZHAtyQs0/mq1.jpg?sqp=CP6Q8fEF&rs=AOn4CLDKYbG32yiPa5XYyqD_Ly-DpJuZNQ)](https://youtu.be/eVEZHAtyQs0)
+
+## How to Create & Edit Parts Tutorial Video
+
+[![YouTube: How To Create and Edit Parts](https://i9.ytimg.com/vi/Neb9Jcz75uw/mq3.jpg?sqp=CIyc8fEF&rs=AOn4CLDHs416I40yajvGpSB0eAeh58uFGA)](https://youtu.be/Neb9Jcz75uw)
