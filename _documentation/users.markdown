@@ -19,6 +19,8 @@ There are three categories of “users” described here:
 New operators must first become users. Their account name must use only letters and numbers (ASCII characters A-Z, a-z, and 0-9), and cannot begin with a number. (Public users can use any characters.) They must have an email address in their Profile. A password of at least six characters, starting with a letter, containing only A-Z, a-z, 0-9, and !$%&()`*+,-/:;?_., not containing the username, and consisting of at least one letter, number, and special character will make the invitation process slightly less cryptic.
     
 New operators must be agents. Under the Agents tab, locate them if they are an existing agent or, after carefully checking, create them as a new agent. Make sure they have a name-type of “login,” and that their login name exactly matches their Arctos username. These are case sensitive.
+
+Operators must be agents of type "person." Group accounts or shared logins are not permitted.
     
 From Management/Arctos/Arctos Users, click Invite to allow them to create an internal user account. This will send email to you and to them. They will have to ensure that their username is valid, pass certain password checks, etc. to become users.
     
