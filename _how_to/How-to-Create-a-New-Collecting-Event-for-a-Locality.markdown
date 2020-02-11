@@ -36,3 +36,16 @@ If you need to create a new collecting event associated with an already existing
 * Verbatim Coordinates - enter them if you have them, along with the Coordinate Units and the Datum
 
 More information on the specifics of how to input collecting event data into Arctos can be found in the documentation (e.g., what to do when the verbatim date says “Spring 1996”).
+
+# Fork-Edit method
+This creates a new locality and event with every save. There are two save modes:
+
+* edit (“Edit the current specimen_event”) should be used when changes have not affected the fundamental nature of the space-time data. Fixing a typo in a remarks field, verifying an event, making minor georeference adjustments, etc. can safely use this approach. When this option is used, the specimen-event is moved out of the “old” event and locality; it becomes detached from any history those objects may have had, and if other specimens are not using the event/locality they will be purged by the cleanup scripts.
+
+* add (“unaccept current specimen_event; add Event with these data”) creates a new specimen event, and preserves the old. This maintains the history of the specimen being attached to now-unaccepted events, and the edit history of those events and the localities to which they are attached; it is a purely additive action. This option should be used for major or fundamental changes to the locality.
+
+In both cases “save” clones the entire event/locality/geology stack; edits apply only to the single specimen-event being used by the single specimen. It is not possible to alter data used by any other specimen from this form.
+
+## How to Fork-Edit Tutorial Video
+
+[![YouTube: How to Fork-Edit](https://i9.ytimg.com/vi/XScI6HpIB5E/mq2.jpg?sqp=COj3i_IF&rs=AOn4CLAmJpsJNdPRsT4JhcThzN_5ZEZM4Q)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
