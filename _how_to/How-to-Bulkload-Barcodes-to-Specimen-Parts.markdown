@@ -45,4 +45,4 @@ If the upload was not successful, you will need to troubleshoot the problem. Sea
 Once you have corrected any errors, attempt to re-upload the file.
 
 ### Bulkload Parts > Containers Tutorial Video ###
-[![How to Bulkload Parts into a Container in Arctos](https://i9.ytimg.com/vi/4_bY4DMgOkE/mq2.jpg?sqp=CMybqPEF&rs=AOn4CLBZXoCmsdhlTwWKg5C-AD9i4CJ9JQ)](https://www.youtube.com/watch?v=4_bY4DMgOkE)
+[![How to Bulkload Parts into a Container in Arctos](https://i9.ytimg.com/vi/4_bY4DMgOkE/mq2.jpg?sqp=CPqZlvIF&rs=AOn4CLCyMJlKZjzvQUh_Ufe9rjG5k0_D2w](https://www.youtube.com/watch?v=4_bY4DMgOkE)
