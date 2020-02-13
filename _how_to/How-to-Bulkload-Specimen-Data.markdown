@@ -236,3 +236,7 @@ At the bulkloading page, just above where you will click to choose your file to 
 * Your data should now be in your institution’s (?) bulkloader awaiting approval.
 
  ***IMPORTANT: DELETE YOUR DATA FROM THE STAGING TABLE***
+
+## How to Bulkload Data Tutorial Video
+
+[![YouTube: How to Bulkload Data](https://i9.ytimg.com/vi/2ehyZqS_C3Q/mq1.jpg?sqp=CKKBlvIF&rs=AOn4CLB6ESzGBa6yIdPOU1NxHeBHtuOhOA)](https://youtu.be/2ehyZqS_C3Q)
