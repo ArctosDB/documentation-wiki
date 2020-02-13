@@ -48,4 +48,4 @@ In both cases “save” clones the entire event/locality/geology stack; edits a
 
 ## How to Fork-Edit Tutorial Video
 
-[![YouTube: How to Fork-Edit](https://i9.ytimg.com/vi/XScI6HpIB5E/mq2.jpg?sqp=COj3i_IF&rs=AOn4CLAmJpsJNdPRsT4JhcThzN_5ZEZM4Q)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
+[![YouTube: How to Fork-Edit](https://i9.ytimg.com/vi/XScI6HpIB5E/mq2.jpg?sqp=CLuklvIF&rs=AOn4CLDLxg7gz1a8-9W3ybGj1vH6hTdN8Q)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
