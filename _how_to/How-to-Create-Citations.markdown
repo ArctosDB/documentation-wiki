@@ -54,4 +54,4 @@ Use the the "Get a Template" hyperlink to download the citations bulkloader spre
 * If all looks correct in the table, click on the 'proceed to load' text. Citations will be immediately linked. Generally an insert error at this stage refers to duplicate values in your spreadsheet.
 
 ### Bulkload Citations Tutorial Video ###
-[![How to Bulkload Citations](https://i9.ytimg.com/vi/xCWrNJk7iVM/mq1.jpg?sqp=CKiZlvIF&rs=AOn4CLCpTMlIjEnRrK0bBmYuSvtaPwGZLA)](https://youtu.be/xCWrNJk7iVM)
+[![YouTube: How to Bulkload Citations](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Bulkload_Citations_in_Arctos_thumb.jpg)](https://youtu.be/xCWrNJk7iVM)
