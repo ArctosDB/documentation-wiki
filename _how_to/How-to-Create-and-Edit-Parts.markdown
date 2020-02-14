@@ -30,11 +30,11 @@ Use the blue "Add Specimen Part" box at the bottom of the screen to create new s
 
 ## Parts Table Overview Tutorial Video
 
-[![YouTube: Parts Table Overview](https://i9.ytimg.com/vi/eVEZHAtyQs0/mq1.jpg?sqp=CM6DlvIF&rs=AOn4CLA2v6UWwei0whbg5Zd3hRXoEkMzZQ)](https://youtu.be/eVEZHAtyQs0)
+[![YouTube: Parts Table Overview](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Arctos_Parts_Table_Overview_thumb.jpg)](https://youtu.be/eVEZHAtyQs0)
 
 ## How to Create & Edit Parts Tutorial Video
 
-[![YouTube: How To Create and Edit Parts](https://i9.ytimg.com/vi/Neb9Jcz75uw/mq3.jpg?sqp=CLyElvIF&rs=AOn4CLBpoZqsX1Z5SD2lI-rGep7TGhsdhQ)](https://youtu.be/Neb9Jcz75uw)
+[![YouTube: How To Create and Edit Parts](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_&_Edit_Parts_in_Arctos_thumb.jpg)](https://youtu.be/Neb9Jcz75uw)
 
 ## Parts Code Table Overview Tutorial Video
 
