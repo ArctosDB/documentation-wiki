@@ -53,4 +53,4 @@ Once you have entered all the information about the Agent click â€œSave Changesâ
 
 ## How to Create & Edit Agents Tutorial Video
 
-[![YouTube: How To Create Agents](https://img.youtube.com/vi/s3Rxk2LhY9E/0.jpg)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
+[![YouTube: How To Create Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_and_Edit_Arctos_Agents_thumb.jpg)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
