@@ -83,3 +83,7 @@ Click the "Add Media" hypertext to link a URL or pdf of the publication to the r
 Click the "Create Publication" button. Now you can Search Publications to call up the publication details page to edit the publication or cite specimens (e.g., Manage Citations).
 
 ![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/publication_detail.JPG)
+
+### How to Create a Publication Tutorial Video ###
+
+[![YouTube: How to Create a Publication](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_a_Publication_in_Arctos.jpg)](https://youtu.be/B7XbUVjqdZk)
