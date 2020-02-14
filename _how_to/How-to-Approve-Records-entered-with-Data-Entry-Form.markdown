@@ -43,3 +43,6 @@ NEED DIRECTIONS
 ## CSV
 
 NEED MORE INFORMATION
+
+### How to Approve and Load Records Tutorial Video ###
+[![How to Approve and Load Records](https://i9.ytimg.com/vi/QHS_eA3d030/mq2.jpg?sqp=COLMl_IF&rs=AOn4CLCg__EtnKADaLoODlYazeg22wH-Rg)](https://youtu.be/QHS_eA3d030)
