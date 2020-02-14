@@ -62,7 +62,7 @@ This file will be deleted 3 days after the message is sent, but may be regenerat
 
 #### Media Metadata Bulkload Video Tutorial ####
 
-[![YouTube: How to Bulkload Media Metadata in Arctos](https://i9.ytimg.com/vi/JkiRIH-JgYg/mq2.jpg?sqp=CNmM8fEF&rs=AOn4CLBs3tzzi68hAVqPQtgbiQAO53gvfg)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
+[![YouTube: How to Bulkload Media Metadata in Arctos](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Bulkload_Media_Metadata_in_Arctos_thumb.jpg)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
 
 # Related Links
 
