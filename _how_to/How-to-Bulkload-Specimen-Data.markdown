@@ -239,4 +239,4 @@ At the bulkloading page, just above where you will click to choose your file to 
 
 ## How to Bulkload Data Tutorial Video
 
-[![YouTube: How to Bulkload Data](https://i9.ytimg.com/vi/2ehyZqS_C3Q/mq1.jpg?sqp=CKKBlvIF&rs=AOn4CLB6ESzGBa6yIdPOU1NxHeBHtuOhOA)](https://youtu.be/2ehyZqS_C3Q)
+[![YouTube: How to Bulkload Data](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Bulkload_Data_thumb.jpg)](https://youtu.be/2ehyZqS_C3Q)
