@@ -45,4 +45,4 @@ NEED DIRECTIONS
 NEED MORE INFORMATION
 
 ### How to Approve and Load Records Tutorial Video ###
-[![How to Approve and Load Records](https://i9.ytimg.com/vi/QHS_eA3d030/mq2.jpg?sqp=COLMl_IF&rs=AOn4CLCg__EtnKADaLoODlYazeg22wH-Rg)](https://youtu.be/QHS_eA3d030)
+[![How to Approve and Load Records](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Load_Entered_Arctos_Records_thumb.jpg)](https://youtu.be/QHS_eA3d030)
