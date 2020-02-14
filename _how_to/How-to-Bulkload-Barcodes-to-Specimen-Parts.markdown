@@ -45,4 +45,4 @@ If the upload was not successful, you will need to troubleshoot the problem. Sea
 Once you have corrected any errors, attempt to re-upload the file.
 
 ### Bulkload Parts > Containers Tutorial Video ###
-[![How to Bulkload Parts into Containers](https://i9.ytimg.com/vi/4_bY4DMgOkE/mq2.jpg?sqp=CL2hlvIF&rs=AOn4CLBdd_Ji-zc6ng2i0zPOvQLifmgVYw)](https://youtu.be/4_bY4DMgOkE)
+[![How to Bulkload Parts into Containers](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Bulkload_Parts_into_a_Container_in_Arctos_thumb.jpg)](https://youtu.be/4_bY4DMgOkE)
