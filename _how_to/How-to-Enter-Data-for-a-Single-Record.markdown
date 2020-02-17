@@ -93,3 +93,7 @@ Data Entry Breakdown…
 * Now you will want to click on “Save This As A New Record” in the bottom left hand side of the page in the blue box.
 * Your data sheet will then be put into the bulkloader and await approval.
 * To approve the records for upload to Arctos see [How to approve records entered with Data Entry form](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-approve-records-entered-with-Data-Entry-form)
+
+### Data Entry Tutorial Video ###
+[![Data Entry Example](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Arctos_Data_Entry_Example.jpg)](https://youtu.be/IOJP1M_Lu_E)
+
