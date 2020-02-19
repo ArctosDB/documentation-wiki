@@ -50,7 +50,6 @@ In both cases “save” clones the entire event/locality/geology stack; edits a
 
 [![How to Safely Edit Collecting Event](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Edit_a_Collecting_Event_without_Changing_Shared_Data.jpg)](https://youtu.be/Gt4WamxFTkM)
 
-
 ### How to Fork-Edit Tutorial Video ###
 
 [![How to Fork-Edit](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_use_the Arctos_Fork_Edit_Tool_thumb.jpg)](https://youtu.be/XScI6HpIB5E)
