@@ -46,6 +46,11 @@ This creates a new locality and event with every save. There are two save modes:
 
 In both cases “save” clones the entire event/locality/geology stack; edits apply only to the single specimen-event being used by the single specimen. It is not possible to alter data used by any other specimen from this form.
 
+## How to Edit Collecting Event Without Changing Shared Data Tutorial Video
+
+[![YouTube: How To Safely Edit Collecting Event](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Edit_a_Collecting_Event_without_Changing_Shared_Data.jpg)](https://youtu.be/Gt4WamxFTkM)
+
 ## How to Fork-Edit Tutorial Video
 
-[![YouTube: How to Fork-Edit](https://i9.ytimg.com/vi/XScI6HpIB5E/mq2.jpg?sqp=CLuklvIF&rs=AOn4CLDLxg7gz1a8-9W3ybGj1vH6hTdN8Q)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
+[![YouTube: How to Fork-Edit](How to use the Arctos Fork Edit Tool_thumb.jpg)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
+
