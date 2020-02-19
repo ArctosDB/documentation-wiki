@@ -26,3 +26,7 @@ Collectors may make mistakes in their field notes, such as typos, coordinates, n
 * Edit the "Verbatim Locality" field here. You may also edit other data such as Verbatim Date, Verbatim Coordinates, etc.
 
 * Save your changes.
+
+### How to Safely Edit Collecting Event Tutorial Video ###
+
+[![How to Safely Edit Collecting Event](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Edit_a_Collecting_Event_without_Changing_Shared_Data.jpg)](https://youtu.be/Gt4WamxFTkM)
