@@ -60,5 +60,9 @@ Navigate to the "Find Permit" screen **(Manage Data Menu â†’ Transactions Menu â
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/permit_table.JPG)
 
+### How to Create Permit Tutorial Video ###
+
+[![How to Create a Permit](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_a_Permit_in_Arctos.jpg)](https://youtu.be/Wu0ij7VoiEE)
+
 
 
