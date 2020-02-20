@@ -52,4 +52,4 @@ In both cases “save” clones the entire event/locality/geology stack; edits a
 
 ### How to Fork-Edit Tutorial Video ###
 
-[![How to Fork-Edit](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_use_the Arctos_Fork_Edit_Tool_thumb.jpg)](https://youtu.be/XScI6HpIB5E)
+[![How to Fork-Edit](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_use_the_Arctos_Fork_Edit_Tool_thumb.jpg)](https://youtu.be/XScI6HpIB5E)
