@@ -39,6 +39,8 @@ More information on the specifics of how to input collecting event data into Arc
 
 ### How to Safely Edit Collecting Event Tutorial Video ###
 
+[![How to Safely Edit Collecting Event](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Edit_a_Collecting_Event_without_Changing_Shared_Data.jpg)](https://youtu.be/Gt4WamxFTkM)
+
 # Fork-Edit method
 This creates a new locality and event with every save. There are two save modes:
 
