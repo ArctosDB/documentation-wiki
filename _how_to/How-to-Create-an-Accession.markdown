@@ -69,4 +69,4 @@ Be sure to click “save changes” at the bottom of the page before leaving the
 
 ### How to Create an Accession Tutorial Video ###
 
-[![How to Create am Accession](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_an_Accession_in_Arctos.jpg)](https://youtu.be/FmWU1iWl6NA)
+[![How to Create an Accession](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_an_Accession_in_Arctos.jpg)](https://youtu.be/FmWU1iWl6NA)
