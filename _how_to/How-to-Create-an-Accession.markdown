@@ -66,3 +66,7 @@ Once you are satisfied with all the information you have entered about your new 
 After saving, the page will refresh and show you an updated layout for your accession documentation. At this time you can associate permits or projects with the accession or link barcoded containers to the accession.
 
 Be sure to click “save changes” at the bottom of the page before leaving the page.
+
+### How to Create an Accession Tutorial Video ###
+
+[![How to Create am Accession](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_an_Accession_in_Arctos.jpg)](https://youtu.be/FmWU1iWl6NA)
