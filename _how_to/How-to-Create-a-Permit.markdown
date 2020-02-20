@@ -48,6 +48,10 @@ Enter any applicable remarks regarding the permit (e.g., restrictions, when annu
 
 **Click the "Save This Permit" button to create the permit in Arctos.**
 
+### How to Create Permit Tutorial Video ###
+
+[![How to Create a Permit](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_a_Permit_in_Arctos.jpg)](https://youtu.be/Wu0ij7VoiEE)
+
 ## Add Permits to Accession or Loan Transactions
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/add.a.permit.button.JPG)
@@ -59,9 +63,6 @@ When you create or edit a Loan or Accession in Arctos, you will have the option 
 Navigate to the "Find Permit" screen **(Manage Data Menu → Transactions Menu → Find Permit)** and query an existing permit using the fields provided. A table will appear that allows you to view the transactions linked to the permit in list format.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/permit_table.JPG)
-### How to Create Permit Tutorial Video ###
-
-[![How to Create a Permit](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_a_Permit_in_Arctos.jpg)](https://youtu.be/Wu0ij7VoiEE)
 
 
 
