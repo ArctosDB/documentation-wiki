@@ -37,6 +37,8 @@ If you need to create a new collecting event associated with an already existing
 
 More information on the specifics of how to input collecting event data into Arctos can be found in the documentation (e.g., what to do when the verbatim date says “Spring 1996”).
 
+### How to Safely Edit Collecting Event Tutorial Video ###
+
 # Fork-Edit method
 This creates a new locality and event with every save. There are two save modes:
 
@@ -45,10 +47,6 @@ This creates a new locality and event with every save. There are two save modes:
 * add (“unaccept current specimen_event; add Event with these data”) creates a new specimen event, and preserves the old. This maintains the history of the specimen being attached to now-unaccepted events, and the edit history of those events and the localities to which they are attached; it is a purely additive action. This option should be used for major or fundamental changes to the locality.
 
 In both cases “save” clones the entire event/locality/geology stack; edits apply only to the single specimen-event being used by the single specimen. It is not possible to alter data used by any other specimen from this form.
-
-### How to Safely Edit Collecting Event Tutorial Video ###
-
-[![How to Safely Edit Collecting Event](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Edit_a_Collecting_Event_without_Changing_Shared_Data.jpg)](https://youtu.be/Gt4WamxFTkM)
 
 ### How to Fork-Edit Tutorial Video ###
 
