@@ -1,0 +1,25 @@
+---
+title: How To Create Taxa in Externally Managed Sources
+layout: default_toc
+author: Phyllis Sharp, Teresa J. Mayfield-Meyer
+date: 2020-02-29
+---
+
+# How To Create Taxa in Externally Managed Sources
+
+There are currently three taxonomic sources:  Arctos, Arctos Plants and WoRMS (via Arctos).  Arctos and Arctos Plants are managed by Arctos users.  WoRMS (via Arctos) is managed by the World Register of Marine Species.  Arctos uploads all taxon names, classifications and metadata from WoRMS and refreshes continually using the WoRMS aphiaID.  Here is an example of a WoRMS (via Arctos) classification as it appears in WoRMS and in Arctos.
+
+![image](https://user-images.githubusercontent.com/15368365/75610598-e4b4b680-5acf-11ea-9ead-d646ae0a597a.png)
+
+![Screen Shot 2020-02-29 at 8 51 55 AM](https://user-images.githubusercontent.com/15368365/75610715-dfa43700-5ad0-11ea-9485-c9cbf0048e17.png)
+
+Before adding any taxa to WoRMS (via Arctos) read through [How to Create Taxa](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-Taxa.markdown).  The procedure is not significantly different, but to maintain the integrity of the externally managed source, users are asked, if at all possible, to not deviate from recommended procedures for creating the name, classification and metadata.
+
+
+
+
+
+
+
+
+
