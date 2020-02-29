@@ -62,12 +62,14 @@ A user attempting to find specimens amongst inconsistent data will almost certai
 
 A user attempting to find specimens amongst consistent data will find all or nothing. A search for "Neotominae" against consistent data will find either all Neotoma or none. A user finding no specimens will generally realize that their result is unlikely and continue looking (perhaps by visiting a taxonomy page before performing another search). 
 
-# Using
+# Using the Hierarchial Editor
 
 ## Overview
 
+Note that the Hierarchical tool can only be used to structure classifications in Arctos and Arctos Plants.  It cannot be used to clean up classifications in the source WoRMS (via Arctos) which is managed externally by the World Register of Marine Species. 
+
 1. Create a dataset. This is a group of names which are managed together. Datasets are wholly arbitrary temporary "working groups" of
-names which may be created for any reason and deleted at any time without affecting any "read" data.
+names which may be created for any reason and deleted at any time without affecting any "read" data.  
 
 2. "Seed" taxa. Select taxa with which to populate a dataset. This is generally done at the level of a taxon rank (e.g., Phylum). A dataset
 may be seeded any number of times; you may add records incrementally.
