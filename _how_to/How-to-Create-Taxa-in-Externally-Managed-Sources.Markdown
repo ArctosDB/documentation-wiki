@@ -7,8 +7,9 @@ date: 2020-02-29
 
 # How To Create Taxa in Externally Managed Sources
 
-There are currently three taxonomic sources: Arctos, Arctos Plants and WoRMS (via Arctos).  Arctos and Arctos Plants are managed by Arctos users.  WoRMS (via Arctos) is managed by the [World Register of Marine Species](http://www.marinespecies.org/).  Arctos uploads all taxon names, classifications and metadata from WoRMS and refreshes continually using the WoRMS 
-ID.  Here is an example of a WoRMS (via Arctos) classification as it appears in WoRMS and in Arctos.
+There are currently three taxonomic sources: Arctos, Arctos Plants and WoRMS (via Arctos).  To better understand the reason for each source and select the one best for your collection, read the descriptions in [this table](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE).
+
+Arctos and Arctos Plants are managed by Arctos users.  WoRMS (via Arctos) is managed by the [World Register of Marine Species](http://www.marinespecies.org/).  Arctos uploads all taxon names, classifications and metadata from WoRMS and refreshes continually using the WoRMS ID.  Here is an example of a WoRMS (via Arctos) classification as it appears in WoRMS and in Arctos.
 
 ![image](https://user-images.githubusercontent.com/15368365/75610598-e4b4b680-5acf-11ea-9ead-d646ae0a597a.png)
 
