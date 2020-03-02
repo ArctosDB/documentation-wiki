@@ -72,7 +72,8 @@ Click the "Create Publication" button to save. If you have not entered a DOI or 
 
 Click the "Add Media" hypertext to link a URL or pdf of the publication to the record. Several Media fields will appear.
 
-<img width="60" src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg"> **Pro Tip**
+<img width="60" src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg">
+### Pro Tip
 
 Did you know that you don't need to upload media to TACC for linking with publications if it already exists elsewhere?
 
@@ -97,6 +98,7 @@ The best part is that I didn't have to create a multi-page document and UNM Libr
 So the next time you are about to scan a document for upload to TACC, make sure you aren't duplicating effort and make use of existing documents if possible. Look for stable resources such as libraries, BHL, etc.
 
 Happy Linking!!!
+
 **OR**
 * Click the "Upload" hypertext to browse for a PDF of the publication on your computer (be careful not to violate any copyright infringements)
 *Specify file type by using the **MIME Type** menu (i.e., "text/html")
