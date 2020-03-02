@@ -72,7 +72,8 @@ Click the "Create Publication" button to save. If you have not entered a DOI or 
 
 Click the "Add Media" hypertext to link a URL or pdf of the publication to the record. Several Media fields will appear.
 
-![image](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+<img width="128" src="https://handbook.arctosdb.org/images/favicon256.png"/>
+https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg"> **Pro Tip**
 
 Did you know that you don't need to upload media to TACC for linking with publications if it already exists elsewhere?
 
