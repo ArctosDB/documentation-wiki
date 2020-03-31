@@ -1,3 +1,10 @@
+---
+title: How To Arctos While Social Distancing
+authors: Teresa Mayfield-Meyer
+date created: 2020-03-31
+layout: default_toc
+---
+
 # How To Arctos While Social Distancing
 
 If anyone is trying to keep a student intern working during social distancing, here are some things a student (or you!) could help with:
