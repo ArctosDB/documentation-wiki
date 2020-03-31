@@ -18,3 +18,5 @@ If anyone is trying to keep a student intern (or themselves) working during soci
 
 4. Make a short Arctos Tutorial. See what is needed [here](https://docs.google.com/spreadsheets/d/1BESoZ0mgRgONfSNziHpeumIIlnAWtoOnXxPISgQy2mU/edit#gid=0). Note: this Google Sheet also includes instructions for making tutorials!
 
+5. Georeference! Students don't need access to shared localities to georeference. See [how Dianna Krejsa at Angelo State is doing it](https://github.com/ArctosDB/data-migration/issues/149#issuecomment-606052089).
+
