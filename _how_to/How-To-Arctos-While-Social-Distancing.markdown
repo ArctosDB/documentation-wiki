@@ -7,7 +7,7 @@ layout: default_toc
 
 # How To Arctos While Social Distancing
 
-If anyone is trying to keep a student intern working during social distancing, here are some things a student (or you!) could help with:
+If anyone is trying to keep a student intern (or themselves) working during social distancing, here are some things a student (or you!) could help with:
 
 
 1. Testing Arctos PG - there are all kinds of needed testing spelled out in the [PG data migration testing GitHub repository issues](https://github.com/ArctosDB/PG-migration-testing/issues). For more information see the [ReadMe](https://github.com/ArctosDB/PG-migration-testing).
