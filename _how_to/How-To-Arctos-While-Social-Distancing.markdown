@@ -20,3 +20,5 @@ If anyone is trying to keep a student intern (or themselves) working during soci
 
 5. Georeference! Students don't need access to shared localities to georeference. See [how Dianna Krejsa at Angelo State is doing it](https://github.com/ArctosDB/data-migration/issues/149#issuecomment-606052089).
 
+6. Social Media: We need someone to help Arctos up its social media presence. Use the "Something Random" stuff to start off with and provide links to Arctos records, projects, agent pages, etc.
+
