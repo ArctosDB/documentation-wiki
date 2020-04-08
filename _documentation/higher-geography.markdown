@@ -74,7 +74,7 @@ states, provinces, departments, or okrugs.
 -   **Example:** Magadanskaya oblast
     -   **Not:** Magadan district
     -   **Not:** Madanskaya Oblast
--   **Example:** Baja California Norte
+-   **Example:** Baja California Sur
 
 
 
