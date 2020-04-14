@@ -114,7 +114,7 @@ Generally a 60x60 pixel image can be used to replace the Arctos Bear in the cata
     EXAMPLE: [NMMNH Logo](https://arctos.database.museum/media/10605393)
 
 ### Header Credit
-Image attribution, displayed near the header image.
+Image attribution, displayed near the header image. (60 character maximum)
  
     EXAMPLE: "NM Museum of Natural History"
  
@@ -124,7 +124,7 @@ URL at which more collection information may be found.
     EXAMPLE: http://www.nmnaturalhistory.org/bioscience/bioscience-collections
  
 ### Collection Link Text
-Text to display in place of Collection URL.
+Text to display in place of Collection URL. (60 character maximum)
  
     EXAMPLE: "Bird Collection"
  
@@ -134,14 +134,14 @@ URL at which more institution information may be found.
     EXAMPLE: http://www.nmnaturalhistory.org/science
  
 ### Institution Link Text
-Text to display in place of Institution URL.
+Text to display in place of Institution URL. (60 character maximum)
  
     EXAMPLE: "Collections Home Page"
  
 ### Meta Description
 HTML header; for bots, probably no longer useful.
  
-### Meta Keyworkds
+### Meta Keywords
 HTML header; for bots, probably no longer useful.
  
 ### Stylesheet
