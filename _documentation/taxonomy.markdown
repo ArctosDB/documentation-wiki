@@ -192,7 +192,7 @@ Collections may elect to use an independent taxonomic database that suits their 
 
 -  **Arctos Plants** includes ICBN-regulated Arctos classification of "plants" (="things curated by herbaria").  Classifications are added, deleted and maintained by Arctos curators.
 -  **Arctos** includes all non-plant taxa from legacy data migrated from Arctos flat tables.  Classifications are added, deleted and maintained by Arctos curators.
--  **WoRMS (via Arctos)** contains data primarily from http://www.marinespecies.org/. The taxa classificaitons are continually updated via WoRMS webservice.  Each taxon has a unique aphiaID.  Taxa that are not in WoRMS may be added by authorized Arctos members who use the WoRMS (via Arctos) as their taxonomy source.
+-  **WoRMS (via Arctos)** contains data primarily from http://www.marinespecies.org/. The taxa classifications are continually updated via WoRMS webservice.  Each taxon has a unique aphiaID.  Taxa that are not in WoRMS may be added by authorized Arctos members who use WoRMS (via Arctos) as their taxonomy source.  See [How To Create Taxa in Externally Managed Sources](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Externally-Managed-Sources.html) for recommended procedures.
 _____________
 
 ![Screen Shot 2019-04-13 at 1 16 09 PM](https://user-images.githubusercontent.com/15368365/56084289-6f27f500-5dee-11e9-9b87-f8f37e9c09d8.png)
