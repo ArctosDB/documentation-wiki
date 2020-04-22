@@ -33,7 +33,7 @@ Of course, it's best to compare images of the revised taxonomy to your specimen 
 
 If it is a very recent name that has not yet been uploaded to WoRMS (via Arctos), you have only to create the taxon name, then add the aphiaID in the metadata.  Save the record and go to the taxon page.  Click on the "refresh" button in the WoRMS (via Arctos) classification and all the data from WoRMS will be added to the taxon record.
 
-Before adding any taxa to WoRMS (via Arctos) read through [How to Create Taxa](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-Taxa.markdown).  The procedure below is not significantly different and is ideal for taxa added to all sources.  To maintain the integrity of the externally managed source, users are asked, if at all possible, to not deviate from these recommended procedures for creating the name, classification and metadata.
+Before adding any taxa to WoRMS (via Arctos) read through [How to Create Taxa](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html).  The procedure below is not significantly different and is ideal for taxa added to all sources.  To maintain the integrity of the externally managed source, users are asked, if at all possible, to not deviate from these recommended procedures for creating the name, classification and metadata.
 
 ## Create Taxon Names
 
