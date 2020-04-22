@@ -64,7 +64,7 @@ We enter the new taxon name and select WoRMS (via Arctos) as the preferred sourc
 - The nomenclatural code is not changed
 - We add the two source authorities.  On the first, we enter the title and the URL.  The second is a GBIF entry with multiple images and collection records
 - We leave the taxon status as "valid" unless we are entering an invalid taxon with a link to the valid name.  
-- Entered your name in the "managed by" field.  Your name will also show at the top of the record as the person who entered it 
+- Enter your name in the "managed by" field.  Your name will also show at the top of the record as the person who entered it 
 
 ![Screen Shot 2020-03-01 at 4 45 55 PM](https://user-images.githubusercontent.com/15368365/75636454-377b9480-5bdc-11ea-96e4-429c4910cdc2.png)
 
