@@ -10,7 +10,7 @@ date: 2019-04-15
 
 Users with taxonomic authority can edit taxonomy by altering an individual taxonomic record or by using the Hierarchical tool to manage multiple records.  These instructions cover the editing of individual records.  See [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html) to manage multiple taxa.  
 
-These instructions apply to all three Taxonomic Sources: Arctos, Arctos Plants, and WoRMS (via Arctos).  You should only modify taxa in the source that you use for your collection.  The taxa in WoRMS (via Arctos) are created and continually maintained through a webservice.  Taxa should not be added to WoRMS (via Arctos) without a complete classification and a valid source authority.  
+These instructions apply to all three Taxonomic Classification Sources: Arctos, Arctos Plants, and WoRMS (via Arctos).  You should only modify taxa in the source that you use for your collection.  The taxa in WoRMS (via Arctos) are created and continually maintained per the aphiaID through a webservice. Any changes you make will be overwritten with the next update. Taxa should not be added to WoRMS (via Arctos) without a complete classification and a valid source authority.  See recommended procedures in [How To Create Taxa in Externally Managed Sources](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Externally-Managed-Sources.html).
 
 ## Taxon Names
 
