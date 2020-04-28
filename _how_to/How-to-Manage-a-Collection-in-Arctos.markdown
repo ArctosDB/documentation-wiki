@@ -9,7 +9,7 @@ layout: default_toc
 
 The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created) and to modify the header presented with individual catalog records. Users will need to have Manage_Collection permission for a collection in order to use this tool. Access this form through the following steps in the Arctos main menu: **[Manage Data -> Metadata -> Manage Collection](http://arctos.database.museum/Admin/Collection.cfm)**
 
-It is important to fill out as many fields in Manage Collection as practical. Much of this information will eventually be used to complete the collection profile for aggregators and is also useful for those using your data to ensure that the colelction is properly cited. The form for managing a collection is divided into three parts; Collection Information, Contacts and Header Options.
+It is important to fill out as many fields in Manage Collection as practical. Much of this information will eventually be used to complete the collection profile for aggregators and is also useful for those using your data to ensure that the collection is properly cited. The form for managing a collection is divided into three parts; Collection Information, Contacts and Header Options.
 
 ## Collection Information
 The fields for collection information are in the box on the left half of the manage collection page. Fields at the top cannot be edited without the assistance of a DBA as changes may affect the way data is published and create issues with locating your data. Below are descriptions and examples of what should go in the individual fields. 
