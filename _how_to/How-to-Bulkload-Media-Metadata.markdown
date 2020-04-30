@@ -33,7 +33,7 @@ Select the information you want to include in the template, then select "get tem
 
 Open the file with Excel and you will have a worksheet with all of the headers needed to bulkload your media metadata.
 
-### Complete the Media Metadata Bulkload File ###
+### Complete the Media Metadata Bulkload Template ###
 
 Using the downloaded template, fill in the appropriate fields.
 
@@ -81,8 +81,28 @@ Up to 10 labels can be added using this tool and label types are controlled by a
 Up to 5 relationships can be made between the media and Arctos data objects and relationships are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_RELATIONSHIP). Adding at least one relationship is recommended as this is how displayed media makes Arctos awesome! The most used relationship is with a cataloged item (shows cataloged_item). The value for this relationship should be the GUID for the related cataloged item.
 
   **Pro Tip** Naming files so that they include the GUID makes this task easier. With a few strategic find/replace moves in Excel the file name can be tranformed into the GUID. Also, the bulkloader will accept a part's barcode as a proxy to cataloged items. Barcodes can also be incorporated into the filename so that it can be extracted from the filename.
+  
+### Upload Media Metadata Bulkload File to the Tool ###
 
-### Bulkload Media Metadata with Small Batch Media Upload Tool File ###
+Once the required and any optional fields are complete in the template, save the file as a .csv
+
+  **Pro Tip** .csv is the format required for upload to Arctos, however, opening a previously saved .csv in Excel will remove formatting included in the .csv, particularly for dates. Before saving the completed template as a .csv, safe the file first as .xlxs in case you need to make any modifications so that you will retain any formatting.
+  
+From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm). You will see this
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Tool_Page.jpg)
+
+Scroll to the bottom of the page and select "Browse". Navigate to your .csv and select open. You will now see the file name next to the "Browse" button. Select "Upload this File". You will then see this message:
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Loaded.jpg)
+
+Depending upon the size of your file, you may be able to see your media immediately, or it may take a day or two. You can see the progress by selecting "[My Stuff](https://arctos.database.museum/tools/BulkloadMedia.cfm?action=mystuff)".
+
+Any errors, will need to be corrected by correcting and re-loading the file. In this case, the cataloged items do not yet exist in Arctos. If they are added, the media metadata should load.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Errors.jpg)
+
+## Bulkload Media Metadata with Small Batch Media Upload Tool File ##
 
 For use with small batch media uploader tool - see full documentation at [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
 
