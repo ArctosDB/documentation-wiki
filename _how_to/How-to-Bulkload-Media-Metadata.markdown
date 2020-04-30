@@ -1,7 +1,7 @@
 ---
 title: How To Bulkload Media Metadata
 layout: default_toc
-author: Teresa Mayfield-Meyer
+author: Dusty McDonald, Teresa Mayfield-Meyer
 date: 2020-04-30
 ---
 
