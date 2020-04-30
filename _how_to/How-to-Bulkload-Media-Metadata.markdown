@@ -2,7 +2,7 @@
 title: How To Bulkload Media Metadata
 layout: default_toc
 author: Teresa Mayfield-Meyer
-date: 2018-09-13
+date: 2020-04-30
 ---
 
 
