@@ -12,7 +12,7 @@ After uploading, the directory can be used to build a media bulkloader file whic
 
 We'll use this directory to demonstrate.
 
-Index of /arctos-s3/jegelewicz/2020-04-02/
+https://web.corral.tacc.utexas.edu/arctos-s3/jegelewicz/2020-04-02/
 
 Thumbnails are:
 
