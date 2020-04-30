@@ -42,10 +42,10 @@ You can use the resulting form to help standardize information from the image fi
 Use these filters to select specific files. *If you leave these blank, all files will be added*
 
 #### regexfind and regexreplace ####
-Use these fields to find and replace information in the filename. Results can be used to create relationship itdentifiers.
+Use these fields to find and replace information in the filename. *Results can be used to create relationship itdentifiers.*
 
 #### Preview Directory URL ####
-Enter the URL for the directory where the thumbnails are stored.
+Enter the URL for the directory where the thumbnails are stored. *this doesn't seem to work*
 
 #### Preview prefix and Preview extension ####
 *What are these doing?*
