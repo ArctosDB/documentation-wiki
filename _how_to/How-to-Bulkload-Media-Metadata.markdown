@@ -8,26 +8,32 @@ date: 2018-09-13
 
 # How To Bulkload Media Metadata
 
-After uploading, the directory can be used to build a media bulkloader file which creates media objects using the uploaded files in Arctos.
-
+After uploading, the directory can be used to build a media bulkloader file which creates media objects using the uploaded files in Arctos. Media uploaded using any of the tools available in Arctos will be stored at https://web.corral.tacc.utexas.edu/arctos-s3/
 
 We'll use this directory to demonstrate.
 
-https://web.corral.tacc.utexas.edu/UAF/uam_ento/2018_05_22/
+Index of /arctos-s3/jegelewicz/2020-04-02/
 
 Thumbnails are:
 
-https://web.corral.tacc.utexas.edu/UAF/uam_ento/2018_05_22/tb/
+https://web.corral.tacc.utexas.edu/arctos-s3/jegelewicz/2020-04-02/tn/
 
 and are prefixed with "tn_"
 
-Open the bulkloader
+## Get a Media Metadata Bulkload Template
 
-<img width="363" alt="screen shot 2018-05-23 at 1 06 39 pm" src="https://user-images.githubusercontent.com/5720791/40448362-2ae1fc92-5e8a-11e8-83d2-b6bdd84acfef.png">
+From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm). You will see this
 
-and paste the directory URL in to the "Directory URL" box and click the accompanying button.
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Tool_Page.jpg)
 
-The pattern of these filenames is {barcode}{sometimes underbar}{dot}{jpg}
+Select the information you want to include in the template, then select "get template". You will be asked what you want to do with the file.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Template_Create.jpg)
+
+Open the file with Excel and you will have a worksheet with all of the headers needed to bulkload your media metadata.
+
+## Complete the Media Metadata Bulkload File
+
 
 ignore folders with "Filter for extension (eg, ".jpg")"
 
