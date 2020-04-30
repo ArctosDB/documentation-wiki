@@ -19,6 +19,56 @@ Thumbnails are found at:
 
 https://web.corral.tacc.utexas.edu/arctos-s3/jegelewicz/2020-04-02/tn/ and are prefixed with "tn_".
 
+## Bulkload Media Metadata Using the TACC Directory Tool ##
+
+A template for bulkloading media Metadata can be created from the TACC directory. **Note** This process will be facilitated byt the use of filenames that include a standard use of GUIDs or barcodes.
+
+From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm). You will see this
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Tool_Page.jpg)
+
+Scroll down to "Upload Media to TACC (or anywhere with an XML directory structure listing) and use a directory to build a bulkloader template" and enter the root directory for the images at TACC
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Create_from_TACC.jpg)
+
+Select "go".
+
+### Seed Media Metadata Bulkload Template ###
+You can use the resulting form to help standardize information from the image filenames that will seed your media metadata bulkload template.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Create_from_TACC_1.jpg)
+
+#### Filter for extension, Require file to start with, Ignore files that start with ####
+Use these filters to select specific files. *If you leave these blank, all files will be added*
+
+#### regexfind and regexreplace ####
+Use these fields to find and replace information in the filename. Results can be used to create relationship itdentifiers.
+
+#### Preview Directory URL ####
+Enter the URL for the directory where the thumbnails are stored.
+
+#### Preview prefix and Preview extension ####
+*What are these doing?*
+
+**NOTE** the following fields will be applied to ALL media in the template and may require some adjustment if there are varying types of media in the directory
+
+#### MEDIA_LICENSE ####
+Enter the appropriate value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LICENSE).
+
+#### MIME_TYPE ####
+Enter the appropriate value from the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTMIME_TYPE).
+
+#### MEDIA_TYPE ####
+Enter the appropriate value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type).
+
+#### MEDIA_RELATIONSHIP ####
+Up to 5 relationships can be made between the media and Arctos data objects and relationships are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_RELATIONSHIP). Adding at least one relationship is recommended as this is how displayed media makes Arctos awesome! The most used relationship is with a cataloged item (shows cataloged_item). The value for this relationship should be the GUID for the related cataloged item.
+
+#### MEDIA_LABEL ####
+Up to 10 labels can be added using this tool and label types are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LABEL). Adding **description** and **made date** labels, while not required, will help in locating media via media search.
+
+Select build/rebuild the table to see the results of what is entered in the form. When the table appears as expected, download a .csv for further manuipulation, then proceed to [Upload Media Metadata Bulkload File to the Tool]
+
 ## Bulkload Media Metadata From Scratch ##
 
 ### Get a Media Metadata Bulkload Template ###
