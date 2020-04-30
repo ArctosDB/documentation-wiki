@@ -21,7 +21,7 @@ https://web.corral.tacc.utexas.edu/arctos-s3/jegelewicz/2020-04-02/tn/ and are p
 
 ## Bulkload Media Metadata Using the TACC Directory Tool ##
 
-A template for bulkloading media Metadata can be created from the TACC directory. **Note** This process will be facilitated byt the use of filenames that include a standard use of GUIDs or barcodes.
+A template for bulkloading media Metadata can be created from the TACC directory. **Note** This process will be facilitated by the use of filenames that include a standard use of GUIDs or barcodes.
 
 From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm). You will see this
 
