@@ -34,21 +34,48 @@ Open the file with Excel and you will have a worksheet with all of the headers n
 
 ## Complete the Media Metadata Bulkload File
 
+### MEDIA_URI
+This field should hold the URI for the media itself. From our example. The directory appears as follows:
 
-ignore folders with "Filter for extension (eg, ".jpg")"
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_To_Bulkload_Metadata_1.jpg)
 
-regexfind=_.*$ captures the information before the first underbar for variable "[filename]." (This common situation is documented in the inline documentation at the top of the page.)
+The URI for each of the three images is the root directory which appears in the search bar of your browser (red box), plus the filename that appears in the list (purple box).
 
-Preview Directory URL is the folder containing the thumbnails
+You can use the CONCATENATE function in Excel to create the URIs. Copy the root directory and paste it into the first column of a blank Excel worksheet, copy the filenames and place them into the next column to the right, then use the CONCATENATE function to put them together.
 
-Preview prefix (eg, "tn_") - enter "tn_" to prepend to the image filenames
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_CONCATENATE_URI.jpg)
 
-Preview extension (eg, ".jpg") - enter ".jpg" for jpg previews
+Select enter and you have it! Copy the CONCATENATE formula down for all files in the batch.
 
-Select a license, media type, and mime type.
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_CONCATENATE_URI_1.jpg)
 
-The bulkloader will accept a part's barcode as a proxy to cataloged items. We've extracted that from the filename with the regex above,
-so all that's necessary is to include the variable in relationship term.
+Use the Copy/Paste Special Values Only to put the complete URIs into your MEdia Metadata Bulkload Template.
+
+## MIME_TYPE
+Enter the appropriate value from the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTMIME_TYPE).
+
+## MEDIA_TYPE
+Enter the appropriate value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type).
+
+## PREVIEW_URI
+This field should hold the URI for the media thumbnail. From our example, the directory of thumbnail images can be found in the tn/ folder of the MEDIA_URI folder above. Double click the tn/ (red box) to view the directory.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_To_Bulkload_Metadata_tn.jpg)
+
+The URI for each of the three images is the root directory which appears in the search bar of your browser (red box), plus the filename that appears in the list (purple box). Note - in this example, only two thumbnails were created during image upload. See **NEED INSTRUCTIONS** for creating thumbnails if you need to create a thumbnail manually. Metadata can be created without a thumbnail.
+
+You can use the CONCATENATE function in Excel to create the URIs. Copy the root directory and paste it into the first column of a blank Excel worksheet, copy the filenames and place them into the next column to the right, then use the CONCATENATE function to put them together (see directions above).
+
+## MEDIA_LICENSE
+Enter the appropriate value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LICENSE).
+
+## MEDIA_LABEL
+Up to 10 labels can be added using this tool and label types are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LABEL). Adding description and made date labels, while not required, will help in locating media via media search.
+
+## MEDIA_RELATIONSHIP
+Up to 5 relationships can be made between the media and Arctos data objects. Relationships are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_RELATIONSHIP). Adding at least one relationship is recommended, this is how media is displayed in Arctos. The most used relationship is with a cataloged item (shows cataloged_item). The value for this relationship should be the GUID for the related cataloged item.
+
+**Pro Tip** Naming files so that they include the GUID makes this task easier. With a few strategic find/replace moves in Excel the file name can be tranformed into the GUID. Also, the bulkloader will accept a part's barcode as a proxy to cataloged items this can also be incorporated into the filename so that it can be extracted from the filename.
 
 <img width="759" alt="screen shot 2018-05-23 at 1 12 21 pm"
 src="https://user-images.githubusercontent.com/5720791/40448644-fc399ca0-5e8a-11e8-9cda-a32bda279b55.png">
