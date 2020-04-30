@@ -5,20 +5,19 @@ author: Teresa Mayfield-Meyer
 date: 2020-04-30
 ---
 
-
 # How To Bulkload Media Metadata
 
-After uploading, the directory can be used to build a media bulkloader file which creates media objects using the uploaded files in Arctos. Media uploaded using any of the tools available in Arctos will be stored at https://web.corral.tacc.utexas.edu/arctos-s3/
+If you have used the CyberDuck method to upload large amounts of media, or your media has otherwise been added at TACC, but never "created" in Arctos, this tutorial can help you create the metadata in bulk.
 
-We'll use this directory to demonstrate.
+The TACC directory to which your media was loaded can be used to build a media metadata bulkload file which creates media objects in Arctos. Most media uploaded using any of the tools available in Arctos will be stored at https://web.corral.tacc.utexas.edu/arctos-s3/ sub directories are generally created with Arctos usernames of the person who uploaded media.
+
+We'll use this directory to demonstrate:
 
 https://web.corral.tacc.utexas.edu/arctos-s3/jegelewicz/2020-04-02/
 
-Thumbnails are:
+Thumbnails are found at:
 
-https://web.corral.tacc.utexas.edu/arctos-s3/jegelewicz/2020-04-02/tn/
-
-and are prefixed with "tn_"
+https://web.corral.tacc.utexas.edu/arctos-s3/jegelewicz/2020-04-02/tn/ and are prefixed with "tn_".
 
 ### Get a Media Metadata Bulkload Template
 
@@ -49,7 +48,7 @@ Select enter and you have it! Copy the CONCATENATE formula down for all files in
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_CONCATENATE_URI_1.jpg)
 
-Use the Copy/Paste Special Values Only to put the complete URIs into your MEdia Metadata Bulkload Template.
+Use Copy/Paste Special Values Only to put the complete URIs into your Media Metadata Bulkload Template.
 
 #### MIME_TYPE
 Enter the appropriate value from the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTMIME_TYPE).
@@ -64,18 +63,20 @@ This field should hold the URI for the media thumbnail. From our example, the di
 
 The URI for each of the three images is the root directory which appears in the search bar of your browser (red box), plus the filename that appears in the list (purple box). Note - in this example, only two thumbnails were created during image upload. See **NEED INSTRUCTIONS** for creating thumbnails if you need to create a thumbnail manually. Metadata can be created without a thumbnail.
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_To_Bulkload_Metadata_tn_1.jpg)
+
 You can use the CONCATENATE function in Excel to create the URIs. Copy the root directory and paste it into the first column of a blank Excel worksheet, copy the filenames and place them into the next column to the right, then use the CONCATENATE function to put them together (see directions above).
 
 #### MEDIA_LICENSE
 Enter the appropriate value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LICENSE).
 
 #### MEDIA_LABEL
-Up to 10 labels can be added using this tool and label types are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LABEL). Adding description and made date labels, while not required, will help in locating media via media search.
+Up to 10 labels can be added using this tool and label types are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LABEL). Adding **description** and **made date** labels, while not required, will help in locating media via media search.
 
 #### MEDIA_RELATIONSHIP
-Up to 5 relationships can be made between the media and Arctos data objects. Relationships are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_RELATIONSHIP). Adding at least one relationship is recommended, this is how media is displayed in Arctos. The most used relationship is with a cataloged item (shows cataloged_item). The value for this relationship should be the GUID for the related cataloged item.
+Up to 5 relationships can be made between the media and Arctos data objects and relationships are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_RELATIONSHIP). Adding at least one relationship is recommended as this is how displayed media makes Arctos awesome! The most used relationship is with a cataloged item (shows cataloged_item). The value for this relationship should be the GUID for the related cataloged item.
 
-**Pro Tip** Naming files so that they include the GUID makes this task easier. With a few strategic find/replace moves in Excel the file name can be tranformed into the GUID. Also, the bulkloader will accept a part's barcode as a proxy to cataloged items this can also be incorporated into the filename so that it can be extracted from the filename.
+  **Pro Tip** Naming files so that they include the GUID makes this task easier. With a few strategic find/replace moves in Excel the file name can be tranformed into the GUID. Also, the bulkloader will accept a part's barcode as a proxy to cataloged items. Barcodes can also be incorporated into the filename so that it can be extracted from the filename.
 
 ### Small Batch Media Upload Tool Modification
 
@@ -83,7 +84,7 @@ For use with small batch media uploader tool - see full documentation at [How to
 
 #### Modify Media Metadata Bulkload File
 
-The file that you receive once your image upload is complete contains much of the information required to bulkload media.  Remember that although your media are now stored at TACC, they are not associated with any data in Arctos. The [Bulkload Media Metadata](http://arctos.database.museum/tools/BulkloadMedia.cfm) tool will allow you to complete this process.
+The file that you receive once your image upload is complete contains much of the information required to bulkload media.  Remember that although your media are now stored at TACC, they are not associated with any data in Arctos. The [Bulkload Media Metadata](http://arctos.database.museum/tools/BulkloadMedia.cfm) tool will allow you to complete this process. Use the instructions above to help you modify this file for use in the tool.
 
 This file will be deleted 3 days after the message is sent, but may be regenerated from the "existing jobs" link on the [Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm) tool page. 
 
