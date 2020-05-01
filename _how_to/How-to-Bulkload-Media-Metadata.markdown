@@ -36,19 +36,23 @@ Select "go".
 ### Seed Media Metadata Bulkload Template ###
 You can use the resulting form to help standardize information from the image filenames that will seed your media metadata bulkload template.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Create_from_TACC_1.jpg)
+![](https://user-images.githubusercontent.com/5720791/80765348-acdde580-8af7-11ea-9498-7d8f6e394c3e.png)
 
 #### Filter for extension, Require file to start with, Ignore files that start with ####
-Use these filters to select specific files. *If you leave these blank, all files will be added*
+Use these filters to select specific files. If you leave these blank, all files will be added, including directory links. Entering .jpg will exclude directories and such.
 
 #### regexfind and regexreplace ####
-Use these fields to find and replace information in the filename. *Results can be used to create relationship itdentifiers.*
+Use these fields to find and replace information in the filename. Results can be used to create relationship itdentifiers.  A variable [filename] is created from the string between the last slash and the last dot (eg, "bob" in "http://someserver/somedirectory/bob.jpg") of each item in the directory you specify.
+
+You may manipulate this variable by specifying values in regexfind and (optionally) regexreplace. 
+
+build some "between the second and third underbar" regex: ``^[^_]+_[^_]+_([^_]+)_.*$``and appended it (``\1``) to a string (``ABC:ZYX:``) to build a relationship (assuming the stuff between second and third underbars is a catnum in this case).
 
 #### Preview Directory URL ####
-Enter the URL for the directory where the thumbnails are stored. *this doesn't seem to work*
+Enter the URL for the directory where the thumbnails are stored.
 
 #### Preview prefix and Preview extension ####
-*What are these doing?*
+Enter the prefix and extension for the preview files. This is tn_ and .jpg respectively for all thumbnails created by TACC.
 
 **NOTE** the following fields will be applied to ALL media in the template and may require some adjustment if there are varying types of media in the directory
 
@@ -68,6 +72,8 @@ Up to 5 relationships can be made between the media and Arctos data objects and 
 Up to 10 labels can be added using this tool and label types are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LABEL). Adding **description** and **made date** labels, while not required, will help in locating media via media search.
 
 Select build/rebuild the table to see the results of what is entered in the form. When the table appears as expected, download a .csv for further manuipulation, then proceed to [Upload Media Metadata Bulkload File to the Tool]
+
+![](https://user-images.githubusercontent.com/5720791/80765539-21188900-8af8-11ea-91f9-f9a586d29e8a.png)
 
 ## Bulkload Media Metadata From Scratch ##
 
