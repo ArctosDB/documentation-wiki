@@ -47,13 +47,15 @@ Anyone can view, post, or comment on an [Arctos Issue](<https://github.com/Arcto
 You do not need special permissions to do this. Without special permissions, however, you cannot label an issue, close an issue, assign an issue to another person, or assign a milestone to an issue.
 
 ### Arctos Users Team
-Any active Arctos user may request permission to become a member of the "[Users](https://github.com/orgs/ArctosDB/teams/users)" team. 
+Any active Arctos user may request permission to become a member of the "[Users](https://github.com/orgs/ArctosDB/teams/arctos-users/members)" team. 
 
-* "Users" may create and/or edit Arctos Handbook pages and organize (assign labels and milestone or vote by reacting) Issues. To become a member of this team, send an email with your GitHub username to dustymc@gmail.com and ccicero@berkeley.edu or mkoo@berkeley.edu. 
+* "Users" may create and/or edit Arctos Handbook pages and organize (assign labels and milestone or vote by reacting) Issues. To become a member of this team, send an email with your name, institution, Arctos username and GitHub username to arctos-working-group-officers@googlegroups.com. 
 
-* Users may request AWG Task Force Meetings to finalize Issues, or groups of related Issues. Start a Doodle poll and paste the link into the Issue(s) you wish to address.
+* Look for an invitation in your email folder from GitHub for the Arctos Repositories, and use the invitation to sign in to GitHub. Make sure you sign in to Github prior to attempting access Arctos repositories.
 
-* Users have access to the documentation code where they can create and edit pages for the Arctos Handbook [Documentation and How-to Guides](https://handbook.arctosdb.org). See [instructions](/how_to/How-to-Create-or-Edit-Content-on-the-Arctos-Wiki) on how to create and/or edit content in the documentation-wiki repository.
+* Arctos Users may request AWG Task Force Meetings to finalize Issues, or groups of related Issues. Start a Doodle poll and paste the link into the Issue(s) you wish to address.
+
+* Users have access to the documentation code where they can create and edit pages for the Arctos Handbook [Documentation and How-to Guides](https://handbook.arctosdb.org). See [instructions](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Contribute-Content-to-Arctos-Handbook.markdown) on how to create and/or edit content in the documentation-wiki repository.
 
 * Users cannot invite other members.
 
