@@ -47,7 +47,7 @@ Anyone can view, post, or comment on an [Arctos Issue](<https://github.com/Arcto
 You do not need special permissions to do this. Without special permissions, however, you cannot label an issue, close an issue, assign an issue to another person, or assign a milestone to an issue.
 
 ### Arctos Users Team
-Any active Arctos user may request permission to become a member of the Arctos Users team. 
+Any active Arctos user may request permission to become a member of the [Arctos Users](https://github.com/orgs/ArctosDB/teams/arctos-users/members) team. 
 
 * "Users" may create and/or edit Arctos Handbook pages and organize (assign labels and milestone or vote by reacting) Issues. To become a member of this team, send an email with your name, institution, Arctos username and GitHub username to arctos-working-group-officers@googlegroups.com. 
 
