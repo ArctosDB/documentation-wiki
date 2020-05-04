@@ -47,7 +47,7 @@ Anyone can view, post, or comment on an [Arctos Issue](<https://github.com/Arcto
 You do not need special permissions to do this. Without special permissions, however, you cannot label an issue, close an issue, assign an issue to another person, or assign a milestone to an issue.
 
 ### Arctos Users Team
-Any active Arctos user may request permission to become a member of the "[Users](https://github.com/orgs/ArctosDB/teams/arctos-users/members)" team. 
+Any active Arctos user may request permission to become a member of the Arctos Users team. 
 
 * "Users" may create and/or edit Arctos Handbook pages and organize (assign labels and milestone or vote by reacting) Issues. To become a member of this team, send an email with your name, institution, Arctos username and GitHub username to arctos-working-group-officers@googlegroups.com. 
 
@@ -60,7 +60,7 @@ Any active Arctos user may request permission to become a member of the "[Users]
 * Users cannot invite other members.
 
 ### Arctos Owner Team
-Arctos [Owners](https://github.com/orgs/ArctosDB/teams/dba/members) have administrative permissions.
+Arctos Owners have administrative permissions.
 
 * Only people with administrative permissions can add new members. To do that, go to [https://github.com/ArctosDB](https://github.com/ArctosDB) and click on "Invite someone" at the bottom of the People pane on the right of the window. Search by the person's GitHub username and enter it where prompted. Select the person to add. He/she will need to accept the membership invitation in order to become a member. When you invite someone, the default role is 'member' versus 'owner' which has more administrative privileges. 
 
