@@ -60,7 +60,7 @@ Any active Arctos user may request permission to become a member of the "[Users]
 * Users cannot invite other members.
 
 ### Arctos Owner Team
-Arctos [Owners](https://github.com/orgs/ArctosDB/teams/db-team) have administrative permissions.
+Arctos [Owners](https://github.com/orgs/ArctosDB/teams/dba/members) have administrative permissions.
 
 * Only people with administrative permissions can add new members. To do that, go to [https://github.com/ArctosDB](https://github.com/ArctosDB) and click on "Invite someone" at the bottom of the People pane on the right of the window. Search by the person's GitHub username and enter it where prompted. Select the person to add. He/she will need to accept the membership invitation in order to become a member. When you invite someone, the default role is 'member' versus 'owner' which has more administrative privileges. 
 
