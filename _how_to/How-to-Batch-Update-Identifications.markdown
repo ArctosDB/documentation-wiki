@@ -38,5 +38,5 @@ As noted on the page, "Add Identification For All specimens listed below":
 
 [![YouTube: How To Batch Update Identifications](https://i9.ytimg.com/vi/KpUhQtO5vYg/mq3.jpg?sqp=COWHlvIF&rs=AOn4CLALCkfzOTayP4srItGzQdTky-2DlQ)](https://www.youtube.com/watch?v=KpUhQtO5vYg)
 
-[![YouTube: How To Find and Update Specimen Records with Invalid Scientific Names (Invertebrate focus](https://youtu.be/81jhENbgaBU)
+[![YouTube: How To Find and Update Specimen Records with Invalid Scientific Names](Invertebrate focus](https://youtu.be/81jhENbgaBU)
 
