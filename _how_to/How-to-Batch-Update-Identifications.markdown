@@ -34,9 +34,9 @@ As noted on the page, "Add Identification For All specimens listed below":
 
 **NOTE:** For specimen records with ID histories numbering greater than two determinations, the order of identifications can be modified via the "Taxa Tab" in individual specimen records if necessary. Determinations are displayed in the order in which they are added (most recent listed first, oldest determination at the bottom).
 
-## How to Batch Update Identifications Tutorial Video
+## Tutorial Videos
 
-[![YouTube: How To Batch Update Identifications](https://i9.ytimg.com/vi/KpUhQtO5vYg/mq3.jpg?sqp=COWHlvIF&rs=AOn4CLALCkfzOTayP4srItGzQdTky-2DlQ)](https://www.youtube.com/watch?v=KpUhQtO5vYg)
+[![YouTube: How To Batch Update Identifications](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/youtube_logo.png)](https://www.youtube.com/watch?v=KpUhQtO5vYg)
 
 [![YouTube: How To Find and Update Specimen Records with Invalid Scientific Names - Invertebrate Focus)](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/youtube_logo.png)](https://youtu.be/81jhENbgaBU)
 
