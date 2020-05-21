@@ -31,9 +31,12 @@ As noted on the page, "Add Identification For All specimens listed below":
 **TIP:** Use the tools in the "Special Magic Sauce" box to carry over data from previous determinations (taxon names, determiners, determination dates, and nature of identification).
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_identification_3.jpg)
+
 **NOTE:** For specimen records with ID histories numbering greater than two determinations, the order of identifications can be modified via the "Taxa Tab" in individual specimen records if necessary. Determinations are displayed in the order in which they are added (most recent listed first, oldest determination at the bottom).
 
 ## How to Batch Update Identifications Tutorial Video
 
 [![YouTube: How To Batch Update Identifications](https://i9.ytimg.com/vi/KpUhQtO5vYg/mq3.jpg?sqp=COWHlvIF&rs=AOn4CLALCkfzOTayP4srItGzQdTky-2DlQ)](https://www.youtube.com/watch?v=KpUhQtO5vYg)
+
+[![YouTube: How To Find and Update Specimen Records with Invalid Scientific Names (Invertebrate focus](https://youtu.be/81jhENbgaBU)
 
