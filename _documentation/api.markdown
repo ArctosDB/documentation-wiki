@@ -50,13 +50,16 @@ soon be possible via the `cols=...` key-value pair.
 ## Examples: 
 ```
 Single specimen by GUID:
-http://test.arctos.database.museum/api/v1/cat/record?api_key=...&q=guid%3DUAM%3AHerb%3A10043
+http://test.arctos.database.museum/api/v1/cat/record?\
+  api_key=...&q=guid%3DUAM%3AHerb%3A10043
 
 Several specimens by GUID:
-http://test.arctos.database.museum/api/v1/cat/record?api_key=...&q=guid%3DUAM%3AHerb%3A10043,UAM%3AHerb%3A10442
+http://test.arctos.database.museum/api/v1/cat/record?\
+  api_key=...&q=guid%3DUAM%3AHerb%3A10043,UAM%3AHerb%3A10442
 
 Specimens by name:
-http://test.arctos.database.museum/api/v1/cat/record?api_key=...&q=genus%3DClaytonia%26species%3Darctica
+http://test.arctos.database.museum/api/v1/cat/record?\
+  api_key=...&q=genus%3DClaytonia%26species%3Darctica
 ```
 
 ## Interacting with the API
@@ -69,6 +72,4 @@ must then be uncompressed:
 curl -s -H "Accept-Encoding: gzip" \
    http://test.arctos.database.museum/api/v1/about | gunzip > output.json
 ```
-
-
 
