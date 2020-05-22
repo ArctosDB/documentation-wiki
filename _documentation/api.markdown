@@ -12,32 +12,35 @@ page](https://arctos.database.museum/info/api.cfm).
 ## Usage
 
  * Endpoint: <http://test.arctos.database.museum/api/v1/>, currently
-   only accepts HTTP GET requests, so be careful no to exceed the
-   `QUERY_STRING` length.
- * API key: all API requests (other than to `about`) must be
-   accompanied by the HTTP key-value pair `api_key=...`. To obtain a
-   key, ask anyone with Arctos `global_admin` access. They should look
-   under the menus ‘Manage Arctos -> Developer Tools -> Manage API
-   Keys’
+   only accepts HTTP GET requests, so be careful not to exceed the
+   `QUERY_STRING` length (possibly only 8,000 characters).
+ * API key: all API requests (other than to `.../about`) must be
+   accompanied by the key-value pair `api_key=...` in the query
+   string. To obtain a key, ask anyone with Arctos `global_admin`
+   access. They should look under the menus: ‘Manage Arctos ->
+   Developer Tools -> Manage API Keys’
  * Services:
-    * `about`: Info about the API
-    * `cat/vars`: List of variables for querying and requesting in results.
-    * `auth/ct`: List code tables. With parameter `tbl=...` see
+    * `about`: Info about the API.
+    * `cat/vars`: List of variables for queries, and for requesting in
+      results.
+    * `auth/ct`: List code tables. With parameter `tbl=...` request
       contents of a code table.
     * `cat/record`: Main specimen search.  With no extra parameters,
       information about the allowable parameters is returned. The `q`
       parameter is the query term (see below).
 
-## Query terms
+## Specimen query terms
 
  * The API uses the same code that `specimenresults` uses, so
    documentation for a search field can be found by clicking on the
    field name in the standard Arctos Specimen form.
- * The `q=` value must be URL encoded. E.g., `q=genus%3DClaytonia`.
- * Fields can be combined to form ‘AND’ requests, using a (URL
-   encoded) `&` character. E.g., `q=genus%3DClaytonia%26species%3Darctica`
- * Sets of specimens can be requested via a comma-delimited (URL
-   encoded `,`, _or not_) list of GUIDs (see example below)
+ * The `q=...` value must be URL encoded. E.g., `q=genus%3DClaytonia`.
+ * Fields can be combined to form ‘AND’ requests, using a `&`
+   character (URL encoded: `%26`) . E.g.,
+   `q=genus%3DClaytonia%26species%3Darctica`
+ * Sets of specimens can be requested via a comma-delimited list of
+   GUIDs. The commma may be either URL encoded or not. See example
+   below.
 
 ## Results
 
