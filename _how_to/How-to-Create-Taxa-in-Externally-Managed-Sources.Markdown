@@ -37,7 +37,7 @@ Before adding any taxa to WoRMS (via Arctos) read through [How to Create Taxa](h
 
 ## Create Taxon Names
 
-Preferably, all new taxon names should have a **taxon status** of VALID.  **Taxon status** is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS).  If you must add a taxon name with a taxon status of INVALID, be sure to link it to the VALID taxon name. Click on [Edit Name + Related Data] to access this form.
+Preferably, all new taxon names should have a **taxon status** of VALID.  **Taxon status** is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS).  If you must add a taxon name with a taxon status of INVALID, be sure to link it to the VALID taxon name. Click on [Edit Name + Related Data] to access this form. It is preferable to use the A {string} identification for invalid taxon names that do not have a valid synonym than to add that invalid taxon name to an externally-managed source.  
 
 ![Screen Shot 2020-02-29 at 10 45 26 AM](https://user-images.githubusercontent.com/15368365/75612460-d15e1700-5ae0-11ea-907b-407dbb61f3d4.png)
 
