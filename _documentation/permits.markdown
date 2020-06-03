@@ -46,7 +46,7 @@ Permits may have any number of agents associated via roles. Roles are controlled
 
 `Permit . Issued_Date DATE(7) null`
 
-The day the permit was issued. This is an Oracle DATE datatype, not ISO8601; only day-precision is allowed.
+The day the permit was issued, or the first day that it is valid. This is a DATE datatype, not ISO8601; only day-precision is allowed.
 
 ## Expiration Date
 
