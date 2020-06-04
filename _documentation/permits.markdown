@@ -53,7 +53,7 @@ The day the permit was issued, or the first day that it is valid. This is a DATE
 `Permit . Exp_Date DATE(7) null`
 
 The day on which the permit is no longer valid. 
-This is an Oracle DATE datatype, not ISO8601; only day-precision is allowed.
+This is a DATE datatype, not ISO8601; only day-precision is allowed.
 Used to automatically notify the permittees of the approaching expiration.
 
 ## Remarks
