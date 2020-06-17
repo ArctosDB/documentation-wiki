@@ -81,7 +81,7 @@ Your file will automatically be put into your computer’s downloads.
 The following is a complete breakdown of all fields and what data they should include:
 
 * COLLECTION_OBJECT_ID
- * A temporary number for the excel list only. It will not be included in the specimen data.
+  * A temporary number for the excel list only. It will not be included in the specimen data.
 * ENTEREDBY
  * Your Arctos user name
 * CAT_NUM
