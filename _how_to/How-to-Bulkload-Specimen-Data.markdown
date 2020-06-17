@@ -11,10 +11,11 @@ date: 2016-03-08
 
 If you do not have a Bulkload Catalog Record Data sheet, begin with the [Bulkload Builder](https://arctos.database.museum/Bulkloader/bulkloaderBuilder.cfm).
 
-## Bulkload Builder: The first small table is the groups of fields available to use.
+## Bulkload Builder
 
-Select which ones you want to save time on selecting individual fields in the larger table below.
-The following are the groups most relevant to our collection:
+The first small table includes groups of fields available to use. Select which ones you want to save time on selecting individual fields in the larger table below.
+
+The following are the groups most often used:
 
 * Required
 * Coordinate Meta
@@ -26,33 +27,11 @@ The following are the groups most relevant to our collection:
 * Attributes
 * The Rest
 
-From the larger table, you will see the fields that were selected as part of the group selected above.
-Those that were not selected and need to be are as follows:
+From the larger table, you will see the fields that were selected as part of the groups selected above. 
 
-* DEC_LAT
-* DEC_LONG
+If there are fields that will never be used by your colelction and therefore do not need to be in your file. **Unselect** them. You will want to keep the format in CSV. That is the type of file Arctos works with.
 
-There are some fields that will never be used four our collection’s purposes and therefore do not need to be in your file. So, **unselect** the following:
-
-* LOADED
-* LATMIN
-* LATSEC
-* LATDIR
-* LONGMIN
-* LONGSEC
-* LONGDIR
-* MAXIMUM_ELEVATION
-* MINIMUM_ELEVATION
-* ORIG_ELEV_UNITS
-* FLAGS
-* MIN_DEPTH
-* MAX_DEPTH
-* DEPTH_UNITS
-* LOCALITY_NAME
-* COLLECTING_EVENT_NAME You will want to keep the format in CSV. That is the type of file Arctos works with.
-
-Now click on “Download Template” located below the small table and above the large table.
-Your file will automatically be put into your computer’s downloads.
+Now click on “Download Template” located below the small table and above the large table. Your file will automatically be put into your computer’s downloads.
 
 ## Helpful Hints:
 
@@ -64,8 +43,8 @@ Your file will automatically be put into your computer’s downloads.
  * Much of the bulkloader works off of the single data sheet and many things are “text sensitive”, meaning Arctos will not accept your file if something does not already exist within Arctos (ie; agents, parts, attributes, etc) OR if something is spelled incorrectly.
 * Agents can be listed as “unknown” if it is absolutely necessary.
 * If no Catalog Number has been previously assigned;
- * Leave the CAT_NUM blank if you want Arctos to automatically assign the next available catalog number.
- * **WARNING!** This does not always work. When trying to fill a gap in the available catalog numbers, it is wise to view what is available and enter them manually. Otherwise you will have to either email the head janitor of Arctos to ask for the records to be deleted, or do each one manually via the “Other ID” tab in edit mode.
+  * Leave the CAT_NUM blank if you want Arctos to automatically assign the next available catalog number.
+  * **WARNING!** This does not always work. When trying to fill a gap in the available catalog numbers, it is wise to view what is available and enter them manually. Otherwise you will have to either email the head janitor of Arctos to ask for the records to be deleted, or do each one manually via the “Other ID” tab in edit mode.
 
 ## Excel Helpful Hints:
 
@@ -226,12 +205,12 @@ At the bulkloading page, just above where you will click to choose your file to 
 ### Ready to Bulkload    
 
 * Choose your file and click “Upload this file”. **!MAKE SURE TO EDIT THE FILE IN “NOTE” FIRST!**
- * Open the file in “note” and delete the empty space at the bottom of your data, save and your good to go.
+  * Open the file in “note” and delete the empty space at the bottom of your data, save and your good to go.
 * You will be brought to a page that says “There are (#) records in the staging table. They have not been checked or processed yet”. (#- the number of records you are trying to upload).
 * From here you will choose from the following choices; Check and load these records, just load these records, or cleanup.
- * **“Check and load these records”** - By-passes the need for the records to go into the bulkloader where they would normally be looked over by an administrator.
- * **“Just load these records”** - Moves the records to the “personal” bulkloader where your administrator can approve them like any other single data entry.
- * **“Cleanup”** – If you have last minute data that needs to be added or changed. Once you do that, go back and choose one of the two other choices. For practical purposes, choose “Just load these records”.
+  * **“Check and load these records”** - By-passes the need for the records to go into the bulkloader where they would normally be looked over by an administrator.
+  * **“Just load these records”** - Moves the records to the “personal” bulkloader where your administrator can approve them like any other single data entry.
+  * **“Cleanup”** – If you have last minute data that needs to be added or changed. Once you do that, go back and choose one of the two other choices. For practical purposes, choose “Just load these records”.
 * You will be brought to a new page that says, “Your records have been checked and are now in the table bulkloader and flagged as loaded=’BULKOADED RECORD’. A data administrator can un-flag and load them.” After that it will say in blue “please delete from the staging table”, click that then click “yep, delete away” and you are all set.
 * Your data should now be in your institution’s (?) bulkloader awaiting approval.
 
