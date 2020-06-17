@@ -83,138 +83,138 @@ The following is a complete breakdown of all fields and what data they should in
 * COLLECTION_OBJECT_ID
   * A temporary number for the excel list only. It will not be included in the specimen data.
 * ENTEREDBY
- * Your Arctos user name
+  * Your Arctos user name
 * CAT_NUM
- * Arctos will automatically assign the next available catalog number if this field is left blank.
- * If the specimen already has an existing catalog number, put it here.
+  * Arctos will automatically assign the next available catalog number if this field is left blank.
+  * If the specimen already has an existing catalog number, put it here.
 * OTHER_ID_NUM_5
- * Don’t ask why 5 is first, but this is used if there are any other useful ID’s connected with the specimen, e.g., wolf – WDL # AND KG #
+  * Don’t ask why 5 is first, but this is used if there are any other useful ID’s connected with the specimen, e.g., wolf – WDL # AND KG #
 * OTHER_ID_NUM_TYPE_5
- * Again, if there is another useful ID connected with the specimen, put the type here.
- * e.g., wolf- WDL # “original identifier” / KG # “collector number”
- * Make sure to use a type that Arctos offers, do not make up your own!
+  * Again, if there is another useful ID connected with the specimen, put the type here.
+  * e.g., wolf- WDL # “original identifier” / KG # “collector number”
+  * Make sure to use a type that Arctos offers, do not make up your own!
 * OTHER_ID_NUM_1
- * This is typically used more often in conjunction with one ID that is connected with the specimen.
- * e.g., just the KG, or any other number previously assigned to the specimen.
- * NOT THE NMZ #!. NMZ numbers are catalog numbers and have their own column.
+  * This is typically used more often in conjunction with one ID that is connected with the specimen.
+  * e.g., just the KG, or any other number previously assigned to the specimen.
+  * NOT THE NMZ #!. NMZ numbers are catalog numbers and have their own column.
 * OTHER_ID_NUM_TYPE_1
- * Describes what the other ID number is. KG for instance is a “collector number”.
+  * Describes what the other ID number is. KG for instance is a “collector number”.
 * ACCN
- * Accession
- * Format example:
- * [NMU:Mamm]2015.02
+  * Accession
+  * Format example: [NMU:Mamm]2015.02
 * TAXON_NAME
- * The specimen’s taxonomic name.
- * Make sure it is spelled correctly!
+  * The specimen’s taxonomic name.
+  * Make sure it is spelled correctly!
+  * You can use any of the taxon formulas allowed in Arctos. Just enter the name(s) in the format shown in the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula).
 * NATURE_OF_ID
- * If it was caught then use “field”. If it is a specimen that has already existed in the museum, use “legacy”.
+  * If it was caught then use “field”. If it is a specimen that has already existed in the museum, use “legacy”.
 * ID_MADE_BY_AGENT
- * Choose an existing agent such as Kurt E. Galbreath, or make a new agent in Arctos.
+  * Choose an existing agent such as Kurt E. Galbreath, or make a new agent in Arctos.
 * MADE_DATE
- * The date the specimen was identified
+  * The date the specimen was identified
 * IDENTIFICATION_REMARKS
- * Any remarks made about the identification
+  * Any remarks made about the identification
 * VERBATUM_DATE
- * The date on the id tag or data sheet
+  * The date on the id tag or data sheet
 * BEGAN_DATE
 * ENDED_DATE
- * If a date is not exact or there is some uncertainty about it, use a sufficient range.
- * e.g, Date on tag = 1978, Range = 1, Jan. 1978 – 1, Jan. 1979
+  * If a date is not exact or there is some uncertainty about it, use a sufficient range.
+  * e.g, Date on tag = 1978, Range = 1, Jan. 1978 – 1, Jan. 1979
 * HIGHER_GEOG
- * Continent, country, state, county
+  * Continent, country, state, county
 * SPEC_LOCALITY
- * Verbatim locality + state & country
+  * Verbatim locality + state & country
 * VERBATIM_LOCALITY
- * The locality on the specimen tag or data page
+  * The locality on the specimen tag or data page
 * ORIG_LAT_LONG_UNITS
- * decimal degrees
+  * decimal degrees
 * DEC_LAT
- * Decimal latitude
+  * Decimal latitude
 * DEC_LONG
- * Decimal longitude
+  * Decimal longitude
 * LATDEG
- * N or S
+  * N or S
 * LONGDEG
- * E or W
+  * E or W
 * DATUM
- * World Geodetic System 1984
+  * World Geodetic System 1984
 * GEOREFERENCE_SOURCE
- * Global positioning system (transcription)
+  * Global positioning system (transcription)
 * MAX_ERROR_DISTANCE
- * The max error for distance
+  * The max error for distance
 * MAX_ERROR_UNITS
- * The units for max error; meters (m)
+  * The units for max error; meters (m)
 * GEOREFERENCE_PROTOCOL
- * Not recorded
+  * Not recorded
 * EVENT_ASSIGNED_BY_AGENT
- * Event determiner which is usually the same as the collector and identifier unless indicated otherwise.
+  * Event determiner which is usually the same as the collector and identifier unless indicated otherwise.
 * EVENT_ASSIGNED_DATE
- * Determination date
+  * Determination date
 * VERIFICATIONSTATUS
- * Unverified
- * Anything else will lock this section and cannot be changed.
+  * Unverified
+  * Anything else will lock this section and cannot be changed.
 * LOCALITY_REMARKS
- * Any remarks about the locality. If none, it can be left blank.
+  * Any remarks about the locality. If none, it can be left blank.
 * HABITAT
- * Not required by Arctos but it is there if someone decides to include the habitat.
- * Can be left blank.
+  * Not required by Arctos but it is there if someone decides to include the habitat.
+  * Can be left blank.
 * COLL_EVENT_REMARKS
- * Any remarks about the collection event.
+  * Any remarks about the collection event.
 * COLLECTOR_AGENT_1
- * The collector agent
+  * The collector agent
 * COLLECTOR_ROLE_1
- * “Collector”
+  * “Collector”
 * GUID_PREFIX
- * Choose for your collection (NMU:Mamm, MLZ:Bird)
+  * Choose for your collection (NMU:Mamm, MLZ:Bird)
 * COLL_OBJECT_REMARKS
- * Any remarks about the collection object
+  * Any remarks about the collection object
 * PART_NAME_1
- * One of the parts being put into the collection, ie; tissue, skeleton, skull, skin, etc o This is TEXT SPECIFIC, must spell exactly how arctos spells it.
+  * One of the parts being put into the collection, ie; tissue, skeleton, skull, skin, etc o This is TEXT SPECIFIC, must spell exactly how arctos spells it.
 * PART_CONDITION_1
- * The condition of the part, ie; good, fair, bad, excellent.
+  * The condition of the part, ie; good, fair, bad, excellent.
 * PART_BARCODE_1
- * You can assign barcodes to new or old specimens here if so desired. Otherwise it can also be done through the “Bulkload Barcodes to Specimen Parts”.
+  * You can assign barcodes to new or old specimens here if so desired. Otherwise it can also be done through the “Bulkload Barcodes to Specimen Parts”.
 * PART_CONTAINER_LABEL_1
- * This also has to do with barcoding. If using a barcode use the barcode verbatim for the label.
+  * This also has to do with barcoding. If using a barcode use the barcode verbatim for the label.
 * PART_LOT_COUNT_1
- * How many of that specimen you have. Usually just one (1) for skeletons, skins and skulls. May be two (2) if there was more than one tissue sample taken.
+  * How many of that specimen you have. Usually just one (1) for skeletons, skins and skulls. May be two (2) if there was more than one tissue sample taken.
 * PART_DISPOSITION_1
- * In collection
+  * In collection
 * PART_REMARK_1
- * Any remarks regarding the part. Can be left blank.
+  * Any remarks regarding the part. Can be left blank.
 * ATTRIBUTE_1
- * Sex, total length, tail, hind foot, ear, or weight.
+  * Sex, total length, tail, hind foot, ear, or weight.
 * ATTRIBUTE_VALUE_1
- * Male or female, measurement #
+  * Male or female, measurement #
 * ATTRIBUTE_UNITS_1
- * No units for male or female, measurement = cm and g unless specified otherwise.
+  * No units for male or female, measurement = cm and g unless specified otherwise.
 * ATTRIBUTE_REMARKS_1
- * Remarks
+  * Remarks
 * ATTRIBUTE_DATE_1
- * Same as collection or id date
+  * Same as collection or id date
 * ATTRIBUTE_DET_METH_1
- * Method of finding the attribute, usually left blank.
+  * Method of finding the attribute, usually left blank.
 * ATTRIBUTE_DETERMINER_1
- * Collector or identifier agent
+  * Collector or identifier agent
 * COLLECTING_METHOD
- * Usually left blank unless told otherwise.
+  * Usually left blank unless told otherwise.
 * COLLECTING_SOURCE
- * Wild caught
+  * Wild caught
 * ASSOCIATED_SPECIES
- * Not really needed
+  * Not really needed
 * LOCALITY_ID
- * Not yet utilized;
- * Use if returning to the same location a number of times.
+  * Not yet utilized;
+  * Use if returning to the same location a number of times.
 * COLLECTING_EVENT_ID
- * Not yet utilized;
- * Use if returning to the same location a number of times.
- * (similar to accession and agent)
+  * Not yet utilized;
+  * Use if returning to the same location a number of times.
+  * (similar to accession and agent)
 * SPECIMEN_EVENT_REMARK
- * Any remarks about the trapping event.
+  * Any remarks about the trapping event.
 * SPECIMEN_EVENT_TYPE
- * Accepted place of collection
+  * Accepted place of collection
 * OTHER_ID_REFERENCES_1
- * Any other id references
+  * Any other id references
 
 ### Before Bulkloading    
 
