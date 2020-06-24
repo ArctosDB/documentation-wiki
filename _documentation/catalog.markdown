@@ -29,9 +29,9 @@ catalog. Arctos currently supports three formats of catalog number.
     numbers and store the old numbers as other IDs.
 2.  **Prefix-Integer-Suffix**: An integer is required, and may be
     accompanied by a prefix and/or suffix. The concatenation of
-    prefix-integer-suffix must be unique. No predictive tools
+    prefix-integer-suffix must be unique. No non-explicit (predictive, series- or range-based, etc.) tools
     are available. Search is by the concatenation or substrings thereof. Sort will be character (1,2,...20...3).
-3.  **String**: Any unique non-NULL string is accepted. No predictive
+3.  **String**: Any unique non-NULL string is accepted. No non-explicit (predictive, series- or range-based, etc.)
     tools are available. Search is by the string or
     substrings thereof. Sort will be character (1,2,...20...3). Characters "/" (forward slash) and " " (space) are currently prohibited.
     
