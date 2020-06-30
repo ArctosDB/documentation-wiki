@@ -9,12 +9,29 @@ layout: default_toc
 
 The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created) and to modify the header presented with individual catalog records. Users will need to have Manage_Collection permission for a collection in order to use this tool. Access this form through the following steps in the Arctos main menu: **[Manage Data -> Metadata -> Manage Collection](http://arctos.database.museum/Admin/Collection.cfm)**
 
-It is important to fill out as many fields in Manage Collection as practical. Much of this information will eventually be used to complete the collection profile for aggregators and is also useful for those using your data to ensure that the collection is properly cited. The form for managing a collection is divided into three parts; Collection Information, Contacts and Header Options.
+It is important to fill out as many fields in Manage Collection as practical. Much of this information will be used to complete the collection profile for aggregators and is also useful for those using your data to ensure that the collection is properly cited. The form for managing a collection is divided into three parts; Collection Information, Contacts and Header Options.
 
 ## Collection Information
 The fields for collection information are in the box on the left half of the manage collection page. Fields at the top cannot be edited without the assistance of a DBA as changes may affect the way data is published and create issues with locating your data. Below are descriptions and examples of what should go in the individual fields. 
 
 **NOTE** In order to save any changes made to this section you must select the **Save Changes** button at the bottom of the section.
+
+### Collection Type
+Collection Type is set at collection creation, and controls code table access.
+
+### Institution Acronym
+Institution Acronym is set at collection creation, and is changeable only by the DBA team to encourage standardization.
+
+
+### Institution
+Institution is set at collection creation, and is changeable only by the DBA team to encourage standardization.
+
+### Collection
+Collection is set at collection creation, controls the Collection pick on the search form and is changeable only by the DBA team to encourage standardization.
+
+### GUID Prefix
+GUID Prefix is set at collection creation, and is used to form GUIDs (URLs).
+
 
 ### Description  
 This field will be populated from the process of creating your collection. You can modify it as necessary. It should contain a description of the collection that is sufficiently detailed to provide a user with information about the size and scope of the collection, as well as any special holdings.
@@ -55,7 +72,7 @@ Describe why the collection was made or continues to grow and for what purpose i
     EXAMPLE: "The bird collection preserves and interprets the distinctive natural and scientific heritage of ornithology in New Mexico and is held for research, exhibits and programs designed to ignite a passion for lifelong learning."
 
 ### Alternate identifiers 1 and 2
-If a collection has been cited under other catalog numbering systems, describe them in these fields.
+If a collection has been cited under other catalog numbering systems, describe them in these fields. The DOI assigned to the collection by GBIF can be entered here.
 
 ### Specimen Preservation Method
 A general description of the method(s) by which items in the collection are preserved.
@@ -71,20 +88,31 @@ A general description of the period of time covered in the collection.
 A direct link to the web site for the collection (or institution if the collection itself doesn't have a separate web site).
 
 ### Link Text
-The text that is linked to the list of institutional collections through the [Arctos collections portal](http://arctos.database.museum/home.cfm).
+The text that is linked to the list of institutional collections through the [Arctos collections portal](http://arctos.database.museum/home.cfm) and at various other places.
 
 ### Loan Policy URL
 A direct link to the loan policy for that collection or institution.
 
 ### Catnum Format
-Select from the dropdown of choices. This specifies the format of catalog numbers for the collection. NOTE: Catalog numbers in integer format are preferred for ease of data discovery. There are three options:
+Select from the dropdown of choices. This specifies the format of catalog numbers for the collection. NOTE: Catalog numbers in integer format are preferred for ease of data discovery; see also [Catalog documentation](http://handbook.arctosdb.org/documentation/catalog.html). There are three options:
 
  * integer
  * prefix-integer-suffix
  * string
 
-### License
-Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection. Choices included Creative Commons licenses or specific institutional "licenses" that describe authorized uses of the data. Any data published to GBIF must have a [Creative Commons](http://creativecommons.org) license, which is machine-readable and downloaded with every record. The same license chosen for Arctos data is used when publishing records to data aggregators. For guidance on licensing data, read the [VertNet Guide to Copyright and Licenses for Data Publication](http://vertnet.org/resources/datalicensingguide.html).
+### Internal License
+Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection for use in, and as downloaded from, Arctos. 
+
+
+### External License
+Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection to external sources, such as GBIF and iDigBio. 
+
+### Collection Terms
+Collection Terms accompanies the licenses, and provides a method by which collections may describe how they wish their data to be used, cited, etc., above and beyond the legal requirements specified in the license.
+
+#### Special Note on licenses
+
+The External License is used by the Arctos EML Generator and included in DarwinCore data made available to aggregators. Note that GBIF will not accept data which isn't licensed according to their standards - [link](https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg). The Internal License (which may be the same as the External License) accompanies the richer data in Arctos. Both are accompanied by Collection Terms; the [VertNet Guide to Copyright and Licenses for Data Publication](http://vertnet.org/resources/datalicensingguide.html) is a good place to start.
 
 ### Taxonomy Source
 Select from the dropdown of choices. The designates the source of taxonomic classifications used for the collection.
@@ -99,6 +127,11 @@ Anyone who is a contact for the collection must first be entered into Arctos as 
 
 ### Contact Role
 For each contact, specify their [Contact Agent Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_CONTACT_ROLE) through the dropdown of choices. It is recommended that every collection have at least one contact for each role with the exception of mentor, which is optional. Technical Support contact should be given as Dusty L. McDonald unless otherwise advised.
+
+
+#### Special Note on Contacts
+
+Selected contacts, including associated address information, are used for EML creation. The Formatted JSON address is used for mailing address.
 
 ## Header Options
 Collections may customize the header that appears at the top of a collection record or when searching a collection portal.
