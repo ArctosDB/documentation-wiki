@@ -117,6 +117,9 @@ The External License is used by the Arctos EML Generator and included in DarwinC
 ### Taxonomy Source
 Select from the dropdown of choices. The designates the source of taxonomic classifications used for the collection.
 
+### Genbank Collection
+Genbank Collection is the collection identifier provided by GenBank. Only collections properly registered with GenBank, and with their assigned identifier entered into Arctos, may access all Arctos-to-GenBank tools.
+
 ## Contacts
 The contacts section is the top section on the right side of the manage collection page.
 
