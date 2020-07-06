@@ -4,7 +4,7 @@ layout: default_toc
 author: Carla Cicero
 date: 2020-07-06
 ---
-# How to Apply Licensing and Terms to Data and Media
+# How to Apply Licensing and Terms
 
 ## Data
 
