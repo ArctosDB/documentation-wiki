@@ -20,11 +20,11 @@ date: 2020-07-06
 
 - An additional option in the data_license table is CC0. This is a Creative Commons waiver that puts a dataset or object in the public domain with no rights reserved. A CC0 waiver means that the licensor (e.g., Arctos collection) waives all rights to how the data or object are used.  
 
-- Collections that publish their data from Arctos to the Global Biodiversity Information Facility (GBIF) are required by GBIF to select one of three Creative Commons license options for their dataset (see GBIF data licensing terms): CC0, CC BY, or CC BY-NC. Other external data aggregators may have the same or different requirements. This selection is made in the external_license field under Manage_Collection (see below).  
+- Collections that publish their data from Arctos to the Global Biodiversity Information Facility (GBIF) are required by GBIF to select one of three Creative Commons license options for their dataset (see GBIF data licensing terms): CC0, CC BY, or CC BY-NC. Other external data aggregators may have the same or different requirements. This selection is made in the external_license field under Manage_Collection (see below). 
 
      - Data aggregators such as GBIF and VertNet provide options for both licensing and collection terms/norms in the eml file of collection metadata. The license is entered in the Rights field (<intellectualRights> in the eml file). The terms/norms are entered as access rights (<accessRights> in the eml file).  
 &nbsp;
-    
+
 - Operators with permissions to “Manage_Collection” in Arctos (see documentation) have the authority to select licenses and terms for their collection(s). Each collection in Arctos has three options for licensing and terms:  
 
      - **Internal_license**: Licensing for data downloaded with every record from Arctos. This field can be left NULL, although Arctos recommends choosing a license to include with data downloads. Operators must select their license from the data_license code table. If in doubt, we recommend CC-BY-NC as default to ask users to provide attribution and discourage commercial use. However, VertNet recommends CC0.
