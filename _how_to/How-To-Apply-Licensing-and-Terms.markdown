@@ -11,7 +11,8 @@ date: 2020-07-06
 - Arctos distinguishes between data license and collection terms. Both of these apply to entire collections.  
 
     - **Data License** is a legal arrangement between the creator/depositor of the data set and the data repository, signifying what a user is allowed to do with the data. A data license may be either a Creative Commons license or a license created by an institution or it’s legal representative. Arctos has options for assigning both an internal data license (for Arctos use) and an external data license (for data aggregators), see details below.
-     - **Collection Terms** are not a legal document or contract, but rather  a well-considered code of conduct that anyone who uses data downloaded from your collection is expected to uphold. These terms should model a set of ethical behaviors and help us to build a vibrant community intended to support efforts to make biodiversity data as complete, discoverable, and accessible as possible.
+     - **Collection Terms** are not a legal document or contract, but rather  a well-considered code of conduct that anyone who uses data downloaded from your collection is expected to uphold. These terms should model a set of ethical behaviors and help us to build a vibrant community intended to support efforts to make biodiversity data as complete, discoverable, and accessible as possible.  
+
 &nbsp;
 
 - Values for both the Data License and Collection Terms are selected from values in the respective code tables "data_license" and "collection_terms." Data License values will include all options for Creative Commons licenses as well as institutional legal documents. Collection Terms values will not include Creative Commons licenses, but can include any institutional document whether it’s been vetted legally or not.  
@@ -42,4 +43,8 @@ date: 2020-07-06
 
 - Creative Commons designations for datasets published to external aggregators (e.g., CC0, CC BY, or CC BY-NC for GBIF) do not apply to linked or associated media objects. Media published to these aggregators can be protected (or not) by any Creative Commons designation or by a custom terms of use for the institution/collection.  
 
-- Operators with permissions to Manage_Media have the authority to select or edit the license or custom terms for media records.  
+- Operators with permissions to Manage_Media have the authority to select or edit the license or custom terms for media records.
+
+## Arctos Flow Chart for Licensing and Terms
+
+
