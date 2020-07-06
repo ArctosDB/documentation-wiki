@@ -6,7 +6,7 @@ date: 2020-07-06
 ---
 # How to Apply Licensing and Terms
 
-## Data
+### Data
 
 - Arctos distinguishes between data license and collection terms. Both of these apply to entire collections.  
 
@@ -34,7 +34,7 @@ date: 2020-07-06
 
 - Collections may have additional licensing or copyrights that may be associated with a creator of cultural objects on a record by record basis.  The internal_license field for each collection can include a statement that users contact the collection for more information on specific rules of use for each record download.  
 
-## Media
+### Media
 
 - Media licensing is controlled by a separate code table (media_license) from data licensing.  
 
@@ -44,6 +44,6 @@ date: 2020-07-06
 
 - Operators with permissions to Manage_Media have the authority to select or edit the license or custom terms for media records.
 
-## Arctos Flow Chart for Licensing and Terms
+### Arctos Flow Chart for Licensing and Terms
 
 
