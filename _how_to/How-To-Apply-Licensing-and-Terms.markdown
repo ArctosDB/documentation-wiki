@@ -45,4 +45,4 @@ date: 2020-07-06
 
 ### Arctos Flow Chart for Licensing and Terms
 
-
+![arctos-licensing-flowchart](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/Arctos%20licensing%20flowchart.png)
