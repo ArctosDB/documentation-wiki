@@ -17,7 +17,16 @@ Geologic strata may be classified according to many different properties. Each c
 ### Biostratigraphy 
 <a href="https://en.wikipedia.org/wiki/Biostratigraphy">Biostratigraphy</a> is the branch of geologic stratigraphy in which strata are based on the fossil content of the rock bodies.  Biostrata can be added to localities using the biostratigraphic zone locality attribute. Biostratigraphic zone is controlled by the [ctbiostratigraphic_zone](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctbiostratigraphic_zone) code table.
 
- - <a href="https://en.wikipedia.org/wiki/Chronostratigraphy">Chronostratigraphy</a> - strata based on the time of formation of the rock bodies. 
+### Chronostratigraphy 
+<a href="https://en.wikipedia.org/wiki/Chronostratigraphy">Chronostratigraphy</a> is the branch of geologic stratigraphy in which strata are based on the time of formation of the rock bodies. [International Commission on Stratigraphy](https://stratigraphy.org/timescale/) chronostrata can be added to localities using the following locality attributes: 
+
+ - Eon/Eonothem - (definition to come) Eon/Eonothem values are controlled by the [ctchronostrat_eon_eonothem](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_eon_eonothem) code table.
+ - Era/Erathem - (defintion to come) Era/Erathem values are controlled by the [ctchronostrat_era_erathem](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_era_erathem) code table.
+ - System/Period - (defintion to come) System/Period values are controlled by the [ctchronostrat_system_period](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_system_period) code table.
+ - Series/Epoch - (defintion to come) Series/Epoch values are controlled by the [ctchronostrat_series_epoch](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_series_epoch) code table.
+ - Stage/Age - (defintion to come) Stage/Age values are controlled by the [ctchronostrat_stage_age](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_stage_age) code table. 
+
+Informal chronostrata can be added to localities using the informal chronostratigraphy attribute. Informal chronostratigraphy (defintion to come) informal chronostratigraphy values are controlled by the [ctchronostrat_informal](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_informal) code table. 
 
  - <a href="https://en.wikipedia.org/wiki/Lithostratigraphy">Lithostratigraphy</a> - stata based on the lithologic properties of the rock. 
 
