@@ -1,14 +1,14 @@
 ---
-title: Geology
+title: Locality Attributes
 author: Dusty McDonald, Teresa Mayfield-Meyer
 layout: default_toc
 ---
 
-# Geology
+# Locality Attributes
 
-Geology in Arctos is used to add descriptive terms to a [Locality](http://handbook.arctosdb.org/documentation/locality.html) using [Geology Attributes](#geology-attributes). These terms are controlled by the vocabulary contained in the [CTGEOLOGY_ATTRIBUTE code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE). For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
+Locality Attributes in Arctos are used to add descriptive terms to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). These terms are controlled by the vocabulary contained in the [ctlocality_attribute_type code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type). For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
 
-The terms applied using Geology can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), [Biochronology](#biochronology), [Public Land Survey System](#public-land-survey-system), [site land status](#site-land-status), and a [locality encumbrance](#locality-encumbrance) attribute for localities that need to be excluded from public view.  **NOTE** Some of these terms (Public Land Survey System, site land stauts, locality encumbrance) are planned for transition to a new Locality Attributes code table in the future but are currently managed under Geology for the time being.
+The terms applied using Locality Attributes can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), [Biochronology](#biochronology), [Public Land Survey System](#public-land-survey-system), [site land status](#site-land-status), and a [locality encumbrance](#locality-encumbrance) attribute for localities that need to be excluded from public view.  **NOTE** Some of these terms (Public Land Survey System, site land stauts, locality encumbrance) are planned for transition to a new Locality Attributes code table in the future but are currently managed under Geology for the time being.
 
 ## Stratigraphic Information
 
@@ -52,27 +52,23 @@ Site land status is meant to designate private lands through the use of ownershi
 
 When it is necessary to hide a locality from public view, use the private (access) attribute. For more on this attribute, see [Encumbering Locality](http://handbook.arctosdb.org/how_to/How-to-Encumber-Locality.html#encumbering-locality).
 
-## Geology Attributes
-
-[Geology Attributes](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE) attach geology information to [Locality](http://handbook.arctosdb.org/documentation/locality.html). Each locality may contain any number of geology attributes. Each Geology Attribute may be accompanied by a determiner (an [Arctos Agent](http://handbook.arctosdb.org/documentation/agent.html)), determination date, determination method, and a remark.
-
 ### Structure
 
-UAM@ARCTOS&gt; desc geology_attributes
+[Locality Attributes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) attach information to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). Each locality may contain any number of locality attributes. Each Locality Attribute may be accompanied by a determiner (an [Arctos Agent](http://handbook.arctosdb.org/documentation/agent.html)), determination date, determination method, units if required, and a remark. 
 
 |Name                                  |`Null`?    |Type|
 |--------------------------------------|-----------|----|
-|`GEOLOGY_ATTRIBUTE_ID`                  |`NOT NULL`   |`NUMBER`|
-|`LOCALITY_ID`                           |`NOT NULL`   |`NUMBER`|
-|`GEOLOGY_ATTRIBUTE`                     |`NOT NULL`   |`VARCHAR2(255)`|
-|`GEO_ATT_VALUE`                         |`NOT NULL`   |`VARCHAR2(255)`|
-|`GEO_ATT_DETERMINER_ID`                 |           |`NUMBER`|
-|`GEO_ATT_DETERMINED_DATE`               |           |`DATE`|
-|`GEO_ATT_DETERMINED_METHOD`             |           |`VARCHAR2(255)`|
-|`GEO_ATT_REMARK`                        |           |`VARCHAR2(4000)`|
-
+|`LOCALITY_ATTRIBUTE_ID`               |`NOT NULL` |`NUMBER`|
+|`LOCALITY_ID`                         |`NOT NULL` |`NUMBER`|
+|`LOCALITY_ATTRIBUTE_TYPE`             |`NOT NULL` |`VARCHAR2(255)`|
+|`LOCALITY_ATTRIBUTE_VALUE`            |`NOT NULL` |`VARCHAR2(255)`|
+|`LOCALITY_ATTRIBUTE_UNITS`            |           |`VARCHAR2(255)`|
+|`LOCALITY_ATTRIBUTE_DETERMINER`       |           |`VARCHAR2(255)`|
+|`LOCALITY_ATTRIBUTE_DETR_DATE`        |           |`DATE`|
+|`LOCALITY_ATTRIBUTE_DETR_METHOD`      |           |`VARCHAR2(255)`|
+|`LOCALITY_ATTRIBUTE_REMARK`           |           |`VARCHAR2(4000)`|
  
 
 ### Searching
 
-Geology attributes are asserted individually, however, portions of the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTGEOLOGY_ATTRIBUTE) include a hierarchical structure which makes it possible to locate cataloged items attributed to strata which is more specific than the search term.
+Locality attributes are asserted individually, however, chronostratigraphic terms (Eon/Eonothem, Era/Erathem, System/Period, Series/Epoch, Stage/Age, Substage/Subage) include a hierarchical structure which makes it possible to locate cataloged items attributed to strata which is more specific than the search term.
