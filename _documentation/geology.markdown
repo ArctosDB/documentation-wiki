@@ -8,7 +8,7 @@ layout: default_toc
 
 Locality Attributes in Arctos are used to add descriptive terms to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). These terms are controlled by the vocabulary contained in the [ctlocality_attribute_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) code table. For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
 
-The terms applied using Locality Attributes can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), [Biochronology](#biochronology), [Public Land Survey System](#public-land-survey-system), [site land status](#site-land-status), and a [locality encumbrance](#locality-encumbrance) attribute for localities that need to be excluded from public view. 
+The terms applied using Locality Attributes can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), [Biochronology](#biochronology), [Public Land Survey System](#public-land-survey-system), [landholder](#site-land-status), and a [locality encumbrance](#locality-encumbrance) attribute for localities that need to be excluded from public view. 
 
 ## Stratigraphic Information
 
@@ -58,9 +58,9 @@ The <a href="https://en.wikipedia.org/wiki/Public_Land_Survey_System">Public Lan
 - TRS range - A measure of the distance east or west from a referenced principal meridian, in units of six miles. TRS range values are controlled by the [cttrs_range](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttrs_range) code table. 
 - TRS aliquot - A terse, hierarchical reference to a piece of land, in which successive subdivisions of some larger area are appended to the beginning of the reference. For example, SW1/4 NW1/4 S13, T1SR20E refers to the southwest quarter of the northwest quarter of section 13 of Township 1 South Range 20 East (a 40-acre parcel). TRS aliquot is a free text attribute, but it is recommended that the format shown above be followed in order to allow for more accurate search results when using the TRS aliquot attribute.
 
-## Site Land Status
+## Landholder
 
-Site land status is meant to designate private lands through the use of ownership terms. Lands can be designated as private with the "private" Site Land Status" attribute and property ownership can be recorded in the attribute remark. 
+The landholder attribute is meant to designate public and private lands through the use of ownership terms. Landholder values are controlled by the [ctlandholder](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlandholder) code table. Provate property should be designated as private with the "private" landholder attribute and property ownership can be recorded in the attribute remark.
 
 ## Locality Encumbrance
 
