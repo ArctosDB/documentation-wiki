@@ -62,7 +62,7 @@ The <a href="https://en.wikipedia.org/wiki/Public_Land_Survey_System">Public Lan
 
 ## Landholder
 
-The landholder is the legal landowner or government land administration agency. Landholder values are controlled by the [ctlandholder](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlandholder) code table. Provate property should be designated as private with the "private" landholder attribute and property ownership can be recorded in the attribute remark.
+The landholder is the legal landowner or government land administration agency. Landholder values are controlled by the [ctlandholder](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlandholder) code table. Private property should be designated as private with the "private" landholder attribute and property ownership can be recorded in the attribute remark.
 
 ## Locality Encumbrance
 
