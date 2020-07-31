@@ -51,15 +51,12 @@ In paleontology, <a href="https://en.wikipedia.org/wiki/Biochronology">biochrono
 
 ## Public Land Survey System
 
-The <a href="https://en.wikipedia.org/wiki/Public_Land_Survey_System">Public Land Survey System</a> (PLSS) is the surveying method developed and used in the United States to plat, or divide, real property for sale and settling. Terms included for this group include:
+The <a href="https://en.wikipedia.org/wiki/Public_Land_Survey_System">Public Land Survey System</a> (PLSS) is the surveying method developed and used in the United States to plat, or divide, real property for sale and settling. Public Land Survey System information can be added to localities using the following locality attributes:
 
- - Section - An approximately one-square-mile block of land. There are 36 sections in a survey township. 
- 
- - Township - A measure of the distance north or south from a referenced baseline, in units of six miles. 
- 
- - Range - A measure of the distance east or west from a referenced principal meridian, in units of six miles. 
- 
-Aliquots, a terse, hierarchical reference to a piece of land, in which successive subdivisions of some larger area are appended to the beginning of the reference. For example, SW1/4 NW1/4 S13, T1SR20E refers to the southwest quarter of the northwest quarter of section 13 of Township 1 South Range 20 East (a 40-acre parcel). may be added, but this requires coordination with the Arctos DBA. 
+- TRS section - An approximately one-square-mile block of land. There are 36 sections in a survey township. TRS section values are controlled by the [cttrs_section](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttrs_section) code table.  
+- TRS township - A measure of the distance north or south from a referenced baseline, in units of six miles. TRS township values are controlled by the [cttrs_township](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttrs_township) code table. 
+- TRS range - A measure of the distance east or west from a referenced principal meridian, in units of six miles. TRS range values are controlled by the [cttrs_range](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttrs_range) code table. 
+- TRS aliquot - A terse, hierarchical reference to a piece of land, in which successive subdivisions of some larger area are appended to the beginning of the reference. For example, SW1/4 NW1/4 S13, T1SR20E refers to the southwest quarter of the northwest quarter of section 13 of Township 1 South Range 20 East (a 40-acre parcel). TRS aliquot is a free text attribute, but it is recommended that the format shown above be followed in order to allow for more accurate search results when using the TRS aliquot attribute.
 
 ## Site Land Status
 
