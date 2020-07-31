@@ -28,22 +28,24 @@ In paleontology, <a href="https://en.wikipedia.org/wiki/Biochronology">biochrono
 ### Chronostratigraphy 
 <a href="https://en.wikipedia.org/wiki/Chronostratigraphy">Chronostratigraphy</a> is the branch of geologic stratigraphy in which strata are based on the time of formation of the rock bodies. [International Commission on Stratigraphy](https://stratigraphy.org/timescale/) chronostrata can be added to localities using the following locality attributes: 
 
- - Eon/Eonothem - (definition to come) Eon/Eonothem values are controlled by the [ctchronostrat_eon_eonothem](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_eon_eonothem) code table.
- - Era/Erathem - (defintion to come) Era/Erathem values are controlled by the [ctchronostrat_era_erathem](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_era_erathem) code table.
- - System/Period - (defintion to come) System/Period values are controlled by the [ctchronostrat_system_period](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_system_period) code table.
- - Series/Epoch - (defintion to come) Series/Epoch values are controlled by the [ctchronostrat_series_epoch](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_series_epoch) code table.
- - Stage/Age - (defintion to come) Stage/Age values are controlled by the [ctchronostrat_stage_age](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_stage_age) code table. 
+ - Eon/Eonothem - chronostratigraphic units in the International Chronostratigraphic Chart [https://stratigraphy.org/chart](https://stratigraphy.org/chart). Eon/Eonothem values are controlled by the [ctchronostrat_eon_eonothem](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_eon_eonothem) code table.
+ - Era/Erathem - chronostratigraphic units in the International Chronostratigraphic Chart [https://stratigraphy.org/chart](https://stratigraphy.org/chart) Era/Erathem values are controlled by the [ctchronostrat_era_erathem](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_era_erathem) code table.
+ - System/Period - chronostratigraphic units in the International Chronostratigraphic Chart [https://stratigraphy.org/chart](https://stratigraphy.org/chart). System/Period values are controlled by the [ctchronostrat_system_period](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_system_period) code table.
+ - Series/Epoch - chronostratigraphic units in the International Chronostratigraphic Chart [https://stratigraphy.org/chart](https://stratigraphy.org/chart). Series/Epoch values are controlled by the [ctchronostrat_series_epoch](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_series_epoch) code table.
+ - Stage/Age - chronostratigraphic units in the International Chronostratigraphic Chart [https://stratigraphy.org/chart](https://stratigraphy.org/chart).
+ Stage/Age values are controlled by the [ctchronostrat_stage_age](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_stage_age) code table. 
+ - Substage/Subage - chronostratigraphic units in the International Chronostratigraphic Chart [https://stratigraphy.org/chart](https://stratigraphy.org/chart). Substage/Subage values are controlled by the [ctchronostrat_substage_subage](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_substage_subage) code table. 
 
-Informal chronostrata can be added to localities using the informal chronostratigraphy attribute. Informal chronostratigraphy (defintion to come). Informal chronostratigraphy values are controlled by the [ctchronostrat_informal](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_informal) code table. 
+Informal chronostrata can be added to localities using the informal chronostratigraphy attribute. Informal chronostratigraphy are published chronostratigraphic units that are not in the International Chronostratigraphic Chart, for example, regional chronostratigraphies. Informal chronostratigraphy values are controlled by the [ctchronostrat_informal](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_informal) code table. 
 
 ### Lithostratigraphy 
 <a href="https://en.wikipedia.org/wiki/Lithostratigraphy">Lithostratigraphy</a> is the branch of geologic stratigraphy in which stata are based on the lithologic properties of the rock. Lihtostrata can be added to localities using the following locality attributes: 
 
- - lithodemic suite - (definition to come) Lithodemic suite values are controlled by the [ctlithodemic_suite](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithodemic_suite) code table.
- - lithostratigraphic group - (definition to come) Lithostratigraphic group values are controlled by the [ctlithostratigraphic_group](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_group) code table.
- - lithostratigraphic formation - (definition to come) Lithostratigraphic formation values are controlled by the [ctlithostratigraphic_formation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_formation) code table.
- - lithostratigraphic member - (definition to come) Lithostratigraphic member values are controlled by the [ctlithostratigraphic_member](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_member) code table.
- - lithostratigraphic bed - (definition to come) Lithostratigraphic bed values are controlled by the [ctlithostratigraphic_bed](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_bed) code table.  
+ - lithodemic suite - a unit of lithodemic stratigraphy (describes bodies of rock which do not conform to the law of superposition). Lithodemic suite values are controlled by the [ctlithodemic_suite](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithodemic_suite) code table.
+ - lithostratigraphic group - [Wikipedia](https://en.wikipedia.org/wiki/Group_(stratigraphy)). Lithostratigraphic group values are controlled by the [ctlithostratigraphic_group](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_group) code table.
+ - lithostratigraphic formation - [Wikipedia](https://en.wikipedia.org/wiki/Geological_formation). Lithostratigraphic formation values are controlled by the [ctlithostratigraphic_formation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_formation) code table.
+ - lithostratigraphic member -  [Wikipedia](https://en.wikipedia.org/wiki/Stratigraphic_unit#Member). Lithostratigraphic member values are controlled by the [ctlithostratigraphic_member](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_member) code table.
+ - lithostratigraphic bed - a named lithostratigraphic bed [https://en.wikipedia.org/wiki/Bed_(geology)](https://en.wikipedia.org/wiki/Bed_(geology)). Lithostratigraphic bed values are controlled by the [ctlithostratigraphic_bed](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_bed) code table.  
 
 ## Petrology
 
@@ -60,7 +62,7 @@ The <a href="https://en.wikipedia.org/wiki/Public_Land_Survey_System">Public Lan
 
 ## Landholder
 
-The landholder attribute is meant to designate public and private lands through the use of ownership terms. Landholder values are controlled by the [ctlandholder](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlandholder) code table. Provate property should be designated as private with the "private" landholder attribute and property ownership can be recorded in the attribute remark.
+The landholder is the legal landowner or government land administration agency. Landholder values are controlled by the [ctlandholder](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlandholder) code table. Provate property should be designated as private with the "private" landholder attribute and property ownership can be recorded in the attribute remark.
 
 ## Locality Encumbrance
 
