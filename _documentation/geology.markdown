@@ -8,7 +8,7 @@ layout: default_toc
 
 Locality Attributes in Arctos are used to add descriptive terms to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). These terms are controlled by the vocabulary contained in the [ctlocality_attribute_type code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type). For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
 
-The terms applied using Locality Attributes can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), [Biochronology](#biochronology), [Public Land Survey System](#public-land-survey-system), [site land status](#site-land-status), and a [locality encumbrance](#locality-encumbrance) attribute for localities that need to be excluded from public view.  **NOTE** Some of these terms (Public Land Survey System, site land stauts, locality encumbrance) are planned for transition to a new Locality Attributes code table in the future but are currently managed under Geology for the time being.
+The terms applied using Locality Attributes can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), [Biochronology](#biochronology), [Public Land Survey System](#public-land-survey-system), [site land status](#site-land-status), and a [locality encumbrance](#locality-encumbrance) attribute for localities that need to be excluded from public view. 
 
 ## Stratigraphic Information
 
