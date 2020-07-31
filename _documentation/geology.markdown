@@ -15,7 +15,7 @@ The terms applied using Locality Attributes can generally be summarized in the f
 Geologic strata may be classified according to many different properties. Each classification has its own distinctive nomenclature and some also include a hierarchical structure. The following kinds of strata are currently represented in Arctos: 
 
 ### Biostratigraphy 
-<a href="https://en.wikipedia.org/wiki/Biostratigraphy">Biostratigraphy</a> is the branch of geologic stratigraphy in which strata are based on the fossil content of the rock bodies.  Biostrata can be added to localities using the biostratigraphic zone locality attribute. Biostratigraphic zone is controlled by the [ctbiostratigraphic_zone](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctbiostratigraphic_zone) code table.
+<a href="https://en.wikipedia.org/wiki/Biostratigraphy">Biostratigraphy</a> is the branch of geologic stratigraphy in which strata are based on the fossil content of the rock bodies.  Biostrata can be added to localities using the biostratigraphic zone locality attribute. Biostratigraphic zone values are controlled by the [ctbiostratigraphic_zone](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctbiostratigraphic_zone) code table.
 
 ### Chronostratigraphy 
 <a href="https://en.wikipedia.org/wiki/Chronostratigraphy">Chronostratigraphy</a> is the branch of geologic stratigraphy in which strata are based on the time of formation of the rock bodies. [International Commission on Stratigraphy](https://stratigraphy.org/timescale/) chronostrata can be added to localities using the following locality attributes: 
@@ -26,9 +26,16 @@ Geologic strata may be classified according to many different properties. Each c
  - Series/Epoch - (defintion to come) Series/Epoch values are controlled by the [ctchronostrat_series_epoch](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_series_epoch) code table.
  - Stage/Age - (defintion to come) Stage/Age values are controlled by the [ctchronostrat_stage_age](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_stage_age) code table. 
 
-Informal chronostrata can be added to localities using the informal chronostratigraphy attribute. Informal chronostratigraphy (defintion to come) informal chronostratigraphy values are controlled by the [ctchronostrat_informal](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_informal) code table. 
+Informal chronostrata can be added to localities using the informal chronostratigraphy attribute. Informal chronostratigraphy (defintion to come). Informal chronostratigraphy values are controlled by the [ctchronostrat_informal](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_informal) code table. 
 
- - <a href="https://en.wikipedia.org/wiki/Lithostratigraphy">Lithostratigraphy</a> - stata based on the lithologic properties of the rock. 
+### Lithostratigraphy 
+<a href="https://en.wikipedia.org/wiki/Lithostratigraphy">Lithostratigraphy</a> is the branch of geologic stratigraphy in which stata are based on the lithologic properties of the rock. Lihtostrata can be added to localities using the following locality attributes: 
+
+ - lithodemic suite - (definition to come) Lithodemic suite values are controlled by the [ctlithodemic_suite](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithodemic_suite) code table.
+ - lithostratigraphic group - (definition to come) Lithostratigraphic group values are controlled by the [ctlithostratigraphic_group](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_group) code table.
+ - lithostratigraphic formation - (definition to come) Lithostratigraphic formation values are controlled by the [ctlithostratigraphic_formation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_formation) code table.
+ - lithostratigraphic member - (definition to come) Lithostratigraphic member values are controlled by the [ctlithostratigraphic_member](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_member) code table.
+ - lithostratigraphic bed - (definition to come) Lithostratigraphic bed values are controlled by the [ctlithostratigraphic_bed](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_bed) code table.  
 
 ## Petrology
 
