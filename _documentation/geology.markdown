@@ -39,10 +39,6 @@ Informal chronostrata can be added to localities using the informal chronostrati
  - lithostratigraphic member -  [Wikipedia](https://en.wikipedia.org/wiki/Stratigraphic_unit#Member). Lithostratigraphic member values are controlled by the [ctlithostratigraphic_member](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_member) code table.
  - lithostratigraphic bed - a named lithostratigraphic bed [https://en.wikipedia.org/wiki/Bed_(geology)](https://en.wikipedia.org/wiki/Bed_(geology)). Lithostratigraphic bed values are controlled by the [ctlithostratigraphic_bed](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_bed) code table.  
 
-## Petrology
-
-<a href="https://en.wikipedia.org/wiki/Petrology">Petrology</a> is the branch of geology that studies rocks and the conditions under which they form and Petrology terms describe the composition and texture of rocks. 
-
 ## Biochronology
 
 In paleontology, <a href="https://en.wikipedia.org/wiki/Biochronology">biochronology</a> is the correlation in time of biological events using fossils. In its strict sense, it refers to the use of assemblages of fossils that are not tied to stratigraphic sections (in contrast to biostratigraphy, where they are). The basic unit of biochronology is the biochron, a collection of fossils found together in a rock unit. The following biochron groups are available in Arctos:
