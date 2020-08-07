@@ -191,3 +191,17 @@ database identifiers that exist only for convenience, and may be
 updated, transferred to another data object, or removed for seemingly
 arbitrary reasons and without warning. They’ll probably work over short
 time-periods, but we offer no guarantees.
+
+
+## Processing
+
+Once a record is marked to load by making ``loaded`` NULL, a script periodically attempts to parse the record into the normalized core Arctos structure. This may result in two things:
+    * the record is created and marked for cache refresh, or
+    * an error is returned in the ``loaded`` column
+   
+Records which successfully load must be refreshed in the cache before appearing in the user interfaces. Records are refreshed in the order they enter the queue. This process often takes 
+less than one minute, but in the case of many thousands of records being queued can take up to several days. Reports/Services--->View Statistics--->FLAT status provides a summary of the state
+of the cache, and may be useful in estimating processing time.
+
+Note that there is a period of time between successful loading and the cache being refreshed where records are not visible in any user interface.
+
