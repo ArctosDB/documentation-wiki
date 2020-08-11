@@ -147,5 +147,23 @@ Any specimen may have any number of specimen-events, and each may have any numbe
 ]
 ```   
 	 
+	 
+## Attributes
+
+```json
+[
+   {
+      "ID":"attributes.attribute_id",
+      "CID":"cataloged_item.collection_object_id",
+      "AT":"attributes.attribute_type",
+      "AV":"attributes.attribute_value",
+      "AU":"attributes.attribute_units",
+      "AA":"attributes.determined_by_agent",
+      "AR":"attributes.attribute_remark",
+      "AM":"attributes.determination_method",
+      "AD":"attributes.determined_date"
+   }
+]
 		
+```   
 	   
