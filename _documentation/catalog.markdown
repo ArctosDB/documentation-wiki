@@ -150,6 +150,12 @@ publications. There is now a demand for globally unique specimen
 identifiers on the Internet, and at least [one registry](http://grbio.org) for such abbreviations has been
 established.
 
+
+## Taxonomy Source
+
+Collections may choose and order any number of [cttaxonomy_source](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source). Classifications are applied to records from the first source which includes data for all taxa used in an identification.
+
+
 ## Searching
 
 From SpecimenSearch, Catalog Number accepts arguments of several forms.
