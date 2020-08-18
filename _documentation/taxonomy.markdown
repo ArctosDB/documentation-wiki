@@ -69,6 +69,10 @@ concepts, such as plants and animals.
 
 Arctos users with taxonomic authority may create, edit and delete taxonomic names and classifications.  Complete instructions are given in the How-to Section of the Handbook.
 
+## Name Type
+
+Taxon Names are typed using [ttaxon_name_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_name_type). Name type is functional; different types of names have different rules and may be used for different purposes.
+
 ## Validation Service
 
 Arctos checks taxon names against various services on creation and edit. This check is a tool, not an authority; all services have significant problems as of this writing. "Valid" names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy.  
