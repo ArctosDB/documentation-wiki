@@ -1,5 +1,5 @@
 ---
-title: How To Create Taxa
+title: How To Create Linnean Taxa
 layout: default_toc
 author: Phyllis Sharp, Teresa J. Mayfield-Meyer
 date: 2019-04-15
