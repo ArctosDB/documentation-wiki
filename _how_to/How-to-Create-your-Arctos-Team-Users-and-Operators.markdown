@@ -98,7 +98,7 @@ You now have a team of Operators who can assist you with data entry and manageme
 
 It is a good idea to periodically review who has access to manage and edit your collections. Please revoke access for anyone who is no longer working with you to avoid the possibility of accidental or intentional data errors. To review the list of those who have access to manage an edit your collection(s) perform the following:
 
-* From the Arctos main menu select Reports/Services > View Statistics > Collection Contact/Operator Report
+* From the Arctos main menu select [Reports/Services > View Statistics > Collection Contact/Operator Report](https://arctos.database.museum/info/collection_report.cfm)
 * Select your collection in the GUID prefix drop down then select the go button
 * Review the report of operators and assigned roles
 * From this page you can manage user accounts and add/remove permissions
