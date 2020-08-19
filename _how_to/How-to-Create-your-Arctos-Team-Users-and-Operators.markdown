@@ -37,7 +37,7 @@ Once a user has created their user account and given you their username, complet
 
  * Go to https://arctos.database.museum/
  * From the Arctos main menu select Manage Data > Agents
- * Search for the name of the user.  If not found, you must create the Agent (see [How to create an Agent](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-Agents.html)) and return to this process
+ * Search for the name of the user.  If not found, you must create the Agent (see [How to create an Agent](https://handbook.arctosdb.org/how_to/How-to-Create-Agents.html)) and return to this process
  * Select the correct agent from the list, the agent record will pop up on the right side of the screen
  * In the Agent Names box of the Agent record, select the name type “login” and enter the user’s username
  * Select “Save All Changes” at the bottom of the screen
