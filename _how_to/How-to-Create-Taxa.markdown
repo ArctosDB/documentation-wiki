@@ -1,11 +1,11 @@
 ---
-title: How To Create Linnean Taxa
+title: How To Create Taxa
 layout: default_toc
 author: Phyllis Sharp, Teresa J. Mayfield-Meyer
 date: 2019-04-15
 ---
 
-# How To Create Taxa
+# How To Create Linnean Taxa
 
 The instructions in this How To are also given on each screen in Arctos as you create a new taxon.  Suggestions and clarifications to improve the instructions here and on the screens are always welcome.  Depending on the computer (PC or Mac) you are using and your browser, your images may differ slightly from what you see here.
 
