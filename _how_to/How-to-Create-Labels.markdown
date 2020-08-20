@@ -1,6 +1,8 @@
 ---
 title: How To Create Labels
 layout: default_toc
+author: Teresa Mayfield-Meyer
+date: 2019-03-19
 ---
 
 # How To Create Labels
