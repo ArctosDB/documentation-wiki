@@ -23,7 +23,7 @@ Review [open Active Development Issues](https://github.com/ArctosDB/arctos/issue
 
 ## Development
 
-Developers encounter Issues in the following order
+Developers encounter Issues in the following order, and will not encounter any Issue which is not found by one of these links.
 
 *  [Active Development](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Active+Development%22+)
 * [Next Task, Priority Critical](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22+label%3APriority-Critical+-label%3A"Blocked%3A+Needs+Discussion"+-label%3A"Blocked+-+Need+Test+Environment"+-label%3A"Blocked+-+Needs+Documentation"+-label%3ABlocker)
