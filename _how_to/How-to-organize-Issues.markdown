@@ -26,7 +26,7 @@ Review [open Active Development Issues](https://github.com/ArctosDB/arctos/issue
 Developers encounter Issues in the following order
 
 *  [Active Development](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Active+Development%22+)
-* [Next Task, Priority Critical](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22+label%3APriority-Critical)
-* [Next Task, Priority High](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22++label%3APriority-High+)
-* [Next Task, Priority Normal](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22++label%3APriority-Normal+)
-* [Next Task, Priority Low](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22++label%3APriority-Low+)
+* [Next Task, Priority Critical](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22+label%3APriority-Critical+-label%3A"Blocked%3A+Needs+Discussion"+-label%3A"Blocked+-+Need+Test+Environment"+-label%3A"Blocked+-+Needs+Documentation"+-label%3ABlocker)
+* [Next Task, Priority High](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22++label%3APriority-High+-label%3A"Blocked%3A+Needs+Discussion"+-label%3A"Blocked+-+Need+Test+Environment"+-label%3A"Blocked+-+Needs+Documentation"+-label%3ABlocker)
+* [Next Task, Priority Normal](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22++label%3APriority-Normal+-label%3A"Blocked%3A+Needs+Discussion"+-label%3A"Blocked+-+Need+Test+Environment"+-label%3A"Blocked+-+Needs+Documentation"+-label%3ABlocker)
+* [Next Task, Priority Low](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22++label%3APriority-Low+-label%3A"Blocked%3A+Needs+Discussion"+-label%3A"Blocked+-+Need+Test+Environment"+-label%3A"Blocked+-+Needs+Documentation"+-label%3ABlocker)
