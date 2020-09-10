@@ -190,23 +190,10 @@ directly support the name.
 
 ## Taxon Classification Sources
 
-There are currently three [local sources](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) of taxonomic data that can be used by a collection for specimen identification.  Each collection selects its preferred source and the classifications from that source are used in their records for specimen identification.  Taxon names and classifications of "Local" sources are added, deleted and modified with Arctos.  A [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM) is required for local data.  
+There are several [local sources](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) of taxonomic data that can be used by a collection for specimen identification.  Each collection selects any number of sources and specifies an order of preference; the classification(s) from the first encountered source with relevant data are used in their records for specimen identification.  Taxon names and classifications of "Local" sources are added, deleted and modified with Arctos.  A [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM) is required for local data.  
 
-Collections may elect to use an independent taxonomic database that suits their specimens.  They remain responsible to curate the taxa.
+Collections may elect to use an independent taxonomic database that suits their specimens. They remain responsible to curate the taxa.
 
--  **Arctos Plants** includes ICBN-regulated Arctos classification of "plants" (="things curated by herbaria").  Classifications are added, deleted and maintained by Arctos curators.
--  **Arctos** includes all non-plant taxa from legacy data migrated from Arctos flat tables.  Classifications are added, deleted and maintained by Arctos curators.
--  **WoRMS (via Arctos)** contains data primarily from http://www.marinespecies.org/. The taxa classifications are continually updated via WoRMS webservice.  Each taxon has a unique aphiaID.  Taxa that are not in WoRMS may be added by authorized Arctos members who use WoRMS (via Arctos) as their taxonomy source.  See [How To Create Taxa in Externally Managed Sources](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Externally-Managed-Sources.html) for recommended procedures.
-_____________
-
-![Screen Shot 2019-04-13 at 1 16 09 PM](https://user-images.githubusercontent.com/15368365/56084289-6f27f500-5dee-11e9-9b87-f8f37e9c09d8.png)
-_____________
-
-![Screen Shot 2019-04-13 at 1 16 16 PM](https://user-images.githubusercontent.com/15368365/56084296-8bc42d00-5dee-11e9-8ca6-b43cfab55c53.png)
-_____________
-
-![Screen Shot 2019-04-13 at 1 16 34 PM](https://user-images.githubusercontent.com/15368365/56084304-a5657480-5dee-11e9-83a1-a367c8359dec.png)
-_____________
 
 Through GlobalNames webservice, Arctos users can access multiple remote classifications for taxa.  These are automatically maintained and cannot be edited by Arctos users.  They are provided as a resource and Arctos users frequently clone them into the local source used by the collection.  Arctos users may wish to collaborate with the remote sources to edit taxa before they are pushed to GlobalNames and then to Arctos.  
 
