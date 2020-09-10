@@ -71,7 +71,7 @@ Arctos users with taxonomic authority may create, edit and delete taxonomic name
 
 ## Name Type
 
-Taxon Names are typed using [ttaxon_name_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_name_type). Name type is functional; different types of names have different rules and may be used for different purposes.
+Taxon Names are typed using [ttaxon_name_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_name_type). Name type is functional; different types of names have different rules and may be used for different purposes. Note that many homonyms exist, so this classification is somewhat arbitrary. For example, "Oar" may refer to a device used to propel a watercraft or a genus of Lepidopteran.
 
 ## Validation Service
 
