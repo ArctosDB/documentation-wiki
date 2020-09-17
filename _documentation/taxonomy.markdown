@@ -215,7 +215,7 @@ and for those collections, a shrew would draw classification data from *Shrews b
 
 *Shrews by UserA* might be managed in local software and periodically exported to Arctos, *Bats of North America (UserB)* might be managed in a specialized part of Arctos (eg, the hierarchical editor), and *Arctos*  is managed by many users via the Arctos single-record classification editor.
 
-If CollectionD, who has their own shrew expert who doesn't entirely agree with UserA comes along, they can simply manage the conflicting data (perhaps a single genus) in "Myosorex by CollectionD" using the tool of their choice, and prefer
+If CollectionD, who has their own shrew expert who doesn't entirely agree with UserA, comes along, they can simply manage the conflicting data (perhaps a single genus) in "Myosorex by CollectionD" using the tool of their choice, and prefer
 
 1. Myosorex by CollectionD
 1. Shrews by UserA
