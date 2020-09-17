@@ -220,7 +220,7 @@ If CollectionD, who has their own shrew expert who doesn't entirely agree with U
 1. Myosorex by CollectionD
 1. Shrews by UserA
 1. Bats of North America (UserB)
-1. Arctos (a legacy ICZN-centric mess of ~1.8 million inconsistently-classified names)
+1. Arctos
 
 which will result in a Myosorex drawing from *Myosorex by CollectionD*, a Sorex drawing from *Shrews by UserA*, a bat from *Bats of North America (UserB)*, and so on.
 
