@@ -170,7 +170,7 @@ records from unaccepted synonyms.
 
 Any number of taxa may be synonymous, but only one should have the [Taxon Status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS) of “valid.” The other synonyms should have the Taxon Status “invalid.”
 
-[Named hybrids](#named_hybrid) have a unique relationship to their
+Named hybrids have a unique relationship to their
 parent taxa, and this is expressed by "hybrid offspring of." Each named
 hybrid should have two such relationships.
 
@@ -195,7 +195,34 @@ There are several [local sources](http://arctos.database.museum/info/ctDocumenta
 Collections may elect to use an independent taxonomic database that suits their specimens. They remain responsible to curate the taxa.
 
 
-Through GlobalNames webservice, Arctos users can access multiple remote classifications for taxa.  These are automatically maintained and cannot be edited by Arctos users.  They are provided as a resource and Arctos users frequently clone them into the local source used by the collection.  Arctos users may wish to collaborate with the remote sources to edit taxa before they are pushed to GlobalNames and then to Arctos.  
+Through GlobalNames webservice, Arctos users can access multiple remote classifications for taxa.  These are automatically maintained and cannot be edited by Arctos users.  They are provided as a resource and Arctos users frequently clone them into the local source used by the collection.  Arctos users may wish to collaborate with the remote sources to edit taxa before they are pushed to GlobalNames and then to Arctos.
+
+### Usage of Sources
+
+Taxonomy in general does not scale well; there are very many homonyms (intra-Code shared names; "Echidna" may refer to mammals, reptiles, fish, etc.) and hemihomonyms (cross-Code shared names; Adesmia muricata is a beetle and a legume). These are simply ignored in many taxonomy resources, but this situation is not possible in Arctos which may for example hold type material for both Echidna-the-mammal and Echidna-the-eel. We recommend taxonomy be managed at about the same scales as which it's created, and the ability of a collection to prefer multiple Sources provides a mechanism by which to do so. Taken to extremes, this approach also provides a mechanism by which taxonomists may curate only those names which are of special importance to them, and share those with other collections. For example, if:
+
+* CollectionA has a shrew expert who manages soricid data in "Shrews by UserA"
+* CollectionB has a bat expert who manages some chiropteran data in "Bats of North America (UserB)"
+* CollectionC has no relevant expertise to share at all
+
+then all three collections might prefer
+
+1. Shrews by UserA
+1. Bats of North America (UserB)
+1. Arctos (a legacy ICZN-centric mess of ~1.8 million inconsistently-classified names)
+
+and for those collections, a shrew would draw classification data from *Shrews by UserA*, a bat would draw from *Bats of North America (UserB)*, and a moose would fall back to *Arctos* for classification data.
+
+*Shrews by UserA* might be managed in local software and periodically exported to Arctos, *Bats of North America (UserB)* might be managed in a specialized part of Arctos (eg, the hierarchical editor), and *Arctos*  is managed by many users via the Arctos single-record classification editor.
+
+If CollectionD, who has their own shrew expert who doesn't entirely agree with UserA comes along, they can simply manage the conflicting data (perhaps a single genus) in "Myosorex by CollectionD" using the tool of their choice, and prefer
+
+1. Myosorex by CollectionD
+1. Shrews by UserA
+1. Bats of North America (UserB)
+1. Arctos (a legacy ICZN-centric mess of ~1.8 million inconsistently-classified names)
+
+which will result in a Myosorex drawing from *Myosorex by CollectionD*, a Sorex drawing from *Shrews by UserA*, a bat from *Bats of North America (UserB)*, and so on.
 
 ##  Examples of model taxa
 
