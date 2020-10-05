@@ -235,6 +235,55 @@ The taxonomic model in Arctos conveys more than just the classification of each 
 [https://arctos.database.museum/name/Achatinella%20lorata](https://arctos.database.museum/name/Achatinella%20lorata)  
 [http://arctos.database.museum/name/Mus%20musculus](http://arctos.database.museum/name/Mus%20musculus)
 
+## Taxonomic Concepts
+
+Despite their ubiquitous use in biology, taxonomic names on their own
+can be ambiguous identifiers for communicating the taxonomic concept
+intended by a taxonomist, where “taxonomic concept” refers to an
+understanding of the range of variation in a taxon, and its
+boundaries, i.e., a taxon’s circumscription. As taxa are revised, and
+sometimes merged with or split from other taxa, the circumscription
+associated with an unchanging type specimen’s name may change
+greatly. In order to overcome this ambiguity, it is recommended that
+the usage of a name is always specified: name X _according to_
+publication Y; this is the ‘taxon concept’ of biodiversity informatics
+(Franz, N., Peet, R. K., and Weakley, A. 2008. On the use of taxonomic
+concepts in support of biodiversity research and taxonomy. In `The New
+Taxonomy` ed. Q. D. Wheeler). 
+
+Since 2020, the Arctos data model allows for i) associating taxon
+concepts with names, ii) mapping taxon concepts to other taxon
+concepts (using terms from set theory), and iii) giving a taxonomic
+concept in an identification as well as just a name.
+
+### Managing taxon concepts
+
+To create a concept:
+
+ 1. First make sure the publication that is the ‘according to’ for a
+ taxon concept exists in Arctos,
+ 2. In a taxonomy page for a name, click on `[Manage Concepts]`,
+ 3. Enter the author’s name and hit RETURN, and choose from the
+ available publications in the pop-up window,
+ 4. Enter the taxon author as used in the publication (e.g., “L.”),
+ 5. Click the `generate label` button, to automatically create a taxon
+ concept label of the form `<i>name</i> author <i>sensu</i> ref`,
+ 6. Click the `create taxon concept` button to accept the label and
+ create the concept linking a name with a publication.
+ 
+(Delete and recreate a taxon concept to edit it)
+
+To create a mapping between two concepts:
+
+ 1. In the same `[Manage Concepts]` page, find the `concept_label` for
+ the concept you want to map,
+ 2. Pick the publication that documents this mapping,
+ 3. Choose the RCC-5 set mapping relationship,
+ 4. Pick the concept label for the other taxon concept,
+ 5. Hit `create`.
+
+(Delete and recreate a taxon concept mapping to edit it)
+
 ## FAQ
 
 **Q: Why not hierarchies/thesauri/some other model?**

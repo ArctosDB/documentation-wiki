@@ -125,6 +125,20 @@ with Some Author’s concept of *Aus bus*") and as supporting
 documentation ("We’ve determined this to be *Aus bus* using the methods
 provided by Some Author").
 
+## Taxon Concept
+
+As well as specifying a name during an identification, an (optional)
+link can be made to a particular _taxonomic concept_: a ‘name plus its
+accordingTo’. This is very valuable when a name has changed its
+circumscription during subsequent revisions. See the
+[Taxonomic Concepts](https://handbook.arctosdb.org/documentation/taxonomy.html#taxonomic-concepts)
+section of the Taxonomy page for more background.
+
+To enter a taxon concept in the Identification pane, type part of the
+taxon concept’s label and hit TAB, to pull up a pop-up window of
+options. The label is of the form `<i>name</i> author <i>sensu</i>
+ref`.
+
 ## Remarks
 
 `Identification . Identification_Remarks VARCHAR2(4000) null`
