@@ -224,7 +224,7 @@ If CollectionD, who has their own shrew expert who doesn't entirely agree with U
 
 which will result in a Myosorex drawing from *Myosorex by CollectionD*, a Sorex drawing from *Shrews by UserA*, a bat from *Bats of North America (UserB)*, and so on.
 
-## Managing Sources
+### Managing Sources
 
 Arctos taxonomy may be managed in about any tool, but "saves" will ultimately need to go through one of three pathways.
 
