@@ -190,7 +190,7 @@ directly support the name.
 
 ## Taxon Classification Sources
 
-There are several [local sources](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) of taxonomic data that can be used by a collection for specimen identification.  Each collection selects any number of sources and specifies an order of preference; the classification(s) from the first encountered source with relevant data are used in their records for specimen identification.  Taxon names and classifications of "Local" sources are added, deleted and modified with Arctos.  A [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM) is required for local data.  
+There are several [local sources](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) of taxonomic data that can be used by a collection for specimen identification.  Each collection selects any number of sources and specifies an order of preference; the classification(s) from the first encountered source with relevant data are used in their records for specimen identification.  Taxon names and classifications of "Local" sources are added, deleted and modified via Arctos.  A [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM) is required for local data.  
 
 Collections may elect to use an independent taxonomic database that suits their specimens. They remain responsible to curate the taxa.
 
@@ -223,6 +223,17 @@ If CollectionD, who has their own shrew expert who doesn't entirely agree with U
 1. Arctos
 
 which will result in a Myosorex drawing from *Myosorex by CollectionD*, a Sorex drawing from *Shrews by UserA*, a bat from *Bats of North America (UserB)*, and so on.
+
+## Managing Sources
+
+Arctos taxonomy may be managed in about any tool, but "saves" will ultimately need to go through one of three pathways.
+
+1. The built-in "single record edit screen" may be used to alter any aspect of a single classification. The Arctos data model - and therefore the tool built directly upon it - are not
+interested in consistency, but rather in being capable of losslessly accepting any data which might be considered "taxonomy." It is near-inevitable that edits using this tool will produce increasingly inconsistent data. This may be a valuable trait when managing particularly heterogeneous data, but is best avoided when consistency between records (_e.g._, if all _Canis_ should be children of _Canidae_) is desirable.
+
+2. The classification bulkloader is essentially a "flat" file format, but tools which write to it need not be entirely flat. (The Arctos hierarchical tools ultimately converts to this format, for example.) Most (perhaps all) checklists or exports from tools should be capable of being munged into this format. This makes it possible to manage taxonomy in a desktop tool (including something as simple as a spreadsheet) and periodically save to a Source in Arctos, or to push products of virtually any tool to an Arctos source.
+
+3. The hierarchical classification bulkloader is a parent-child file format, into which most hierarchical data should be transformable. The built-in hierarchical taxonomy editor can import from and export to this format, and using this format rather than the flatter CSV option in eg, spreadsheets greatly reduces the possibility of introducing inconsistencies.
 
 ##  Examples of model taxa
 
