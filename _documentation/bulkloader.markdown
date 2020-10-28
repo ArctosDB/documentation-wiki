@@ -165,7 +165,7 @@ know](http://arctos.database.museum/contact.cfm) if it’s out of date, incomple
 |<span class="bloptional">Part_Container_Label_x</span> | text; any string | [\[ doc \]](/documentation/container#label) Label on the container (e.g., Nunc tube). The human-readable printing on the container. `NULL` results in no changes to the part container; ignored if Part_Barcode_x is `null`.|
 |<span class="bloptional">Part_Remark_x</span> | text; any string | Remark about the part.|
 
-|<span class="bloptional">Part_preservation_x</span> | text; [ctpart_preservation](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctpart_preservation) | [\[ doc \]](/documentation/parts#preservation) | This is a shortcut to creating a part attribute of type ``preservation``. Attribute date will default to ``current_date`` and determiner will default to ``enteredAgent``|
+|<span class="bloptional">Part_preservation_x</span> | text; [ctpart_preservation](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctpart_preservation) | [\[ doc \]](/documentation/parts#preservation) This is a shortcut to creating a part attribute of type ``preservation``. Attribute date will default to ``current_date`` and determiner will default to ``enteredAgent``|
 
 
 
