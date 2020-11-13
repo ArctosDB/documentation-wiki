@@ -7,6 +7,11 @@ date: 2020-04-30
 
 # How To Bulkload Media Metadata #
 
+------------------
+# IMPORTANT: This tool is no longer functional against TACC. We will update this is TACC can provide XML directory listings in the future.
+------------------
+
+
 If you have used the CyberDuck method to upload large amounts of media, or your media has otherwise been added at TACC, but never "created" in Arctos, this tutorial can help you create the metadata in bulk.
 
 The TACC directory to which your media was loaded can be used to build a media metadata bulkload file which creates media objects in Arctos. Most media uploaded using any of the tools available in Arctos will be stored at https://web.corral.tacc.utexas.edu/arctos-s3/ sub directories are generally created with Arctos usernames of the person who uploaded media.
