@@ -8,7 +8,7 @@ date: 2020-04-30
 # How To Bulkload Media Metadata #
 
 ------------------
-## IMPORTANT: The tool to extract information from the directory listing is no longer functional against TACC. We will update this is TACC can provide XML directory listings in the future.
+## IMPORTANT: The tool to extract information from the directory listing is no longer functional against TACC. We will update this if TACC can provide XML directory listings in the future.
 ------------------
 
 
