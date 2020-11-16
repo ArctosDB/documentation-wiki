@@ -42,7 +42,30 @@ you can comment on it, but please do not change the subject of an Issue in a com
 but clear title, and a description of the Issue in the text box where it says "Leave a comment." Click "Submit new issue" 
 to assign the new Issue a number. Be clear and verbose in explaining the need and intended goals; provide specific examples,
  screenshots, or anything else which might help us understand what you wish to accomplish.
+ 
+ 
+ ### Issue Protips
+ 
+ Use these pointers to streamline getting the solution you need.
+ 
+ * Tell us your overall goals. We can help only if we understand what you're trying to accomplish in sufficient detail. "Make that button blue" is unlikely to lead directly to a productive solution. "Blue is a standard color for inputs which do **thing**, like that button" is much more likely to help us understand the core problem, and come to a solution which addresses the entire problem rather than an isolated instance of it.
+ 
+ * Use templates. We have templates for common tasks, they specify the most common information we need. (Issues regarding how to make them better are always welcome.)
+ 
+ * Include enough information for us to fully understand and replicate the problem or request. This includes but is not limited to
+     * Data as uploaded (ZIPped to attach)
+     * URLs
+     * Specific sequence of clicks to get to a point of interest
+     * Copy-paste of error messages (particularly the ErrorID - a UUID like ``795B1D17-0461-4A03-B6DC1314448ED77F``)
+     * Screenshots
+     * Arctos usernames of involved persons
+     
+ * Make sure you're in the right place. Most Issues should be filed in the "Arctos" repository, https://github.com/ArctosDB/arctos/issues.
+ 
+ 
+ 
 
+ 
 ## Managing Issues
 
 ```
