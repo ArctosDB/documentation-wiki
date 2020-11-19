@@ -44,7 +44,7 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
  screenshots, or anything else which might help us understand what you wish to accomplish.
  
  
- ### Issue Protips
+### Issue Protips
  
  Use these pointers to streamline getting the solution you need.
  
