@@ -63,7 +63,6 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
  * Make sure you're in the right place. Most Issues should be filed in the "Arctos" repository, https://github.com/ArctosDB/arctos/issues.
  
  
- 
 
  
 ## Managing Issues
