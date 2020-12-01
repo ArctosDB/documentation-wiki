@@ -27,3 +27,5 @@ Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_M
 * for one-off use, in-page CSS (``<style></style>`` tags) is acceptable but less preferred
 * avoid inline styling (``<div style="...."></div>``); this makes it very difficult to change things and keep a consistent look and feel
 
+### Recommended Code Editor
+The recommended code editor can be obtained by following the instructions at <a href="https://github.com/cfeclipse/cfeclipse/wiki/Installing-CFEclipse" target="_blank" class="external">Installing CFEclipse</a>. We suggest using the <a href="https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2020-09/R/eclipse-inst-jre-win64.exeEclipse" target="_blank" class="external">IDE for Web and JavaScript Developers</a> as recommended in the instructions.
