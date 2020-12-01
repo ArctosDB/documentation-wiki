@@ -17,7 +17,10 @@ Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_M
 ### URLS
 
 * make internal URLs relative - ``/somePage`` never ``http://....somePage``
-* style external URLs like this: ``<a href="http:://...somePage" target="_blank" class="external">linktext</a>``
+* use DataServices/Linkerizer to build URLs. There are currently three classes of URL supported:
+    * no class-->default browser behavior
+    * external-->"pop out" image appended, open in new window
+    * newWinLocal-->open in new window
 
 ### CSS
 * when possible, use /includes/style.css for styling. (Directions for minimizing are inline.)
