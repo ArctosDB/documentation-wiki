@@ -133,11 +133,16 @@ sources can be manually entered as Media Labels.
 
 ## Media Creation Guidelines
 
+
+### Relationships
+
 Create only necessary relationships; allow the relational nature of
 Arctos to work for you. An image showing a specimen should have a
 relationship of "shows cataloged_item" but not "shows
 collecting_event" or "shows locality" or "documents accn," all of which
 can be derived from the relationship to the cataloged item.
+
+### Format
 
 Choose reasonable media formats; use derivatives if necessary.
 
@@ -150,10 +155,17 @@ appropriate choice for a [text
 document](http://arctos.database.museum/media/10187294), especially if
 the resultant file is 2MB!
 
-Use reasonable previews; filesize should be under (preferably much
-under!) 10K (previews larger than 48K will NOT be displayed), and scale
+### Preview
+
+Arctos will automatically create and attach previews where possible; this generally works for "normal" 
+image media, such as JPG and PNG. Simply leave preview_uri NULL to let Arctos attempt preview creation.
+
+If previews are created, filesize should be under (preferably much
+under!) 10K; previews larger than 48K will NOT be displayed. Scale
 to \~120px. Cropped or otherwise misleading previews should be avoided.
-Leave preview_uri `NULL` if producing a good thumbnail isn’t possible.
+
+No preview is generally better than bad previews. 
+
 
 ## Binary Object Creation Guidelines
 
