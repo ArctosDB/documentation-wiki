@@ -50,6 +50,8 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
  
  * Tell us your overall goals. We can help only if we understand what you're trying to accomplish in sufficient detail. "Make that button blue" is unlikely to lead directly to a productive solution. "Blue is a standard color for inputs which do **thing**, like that button" is much more likely to help us understand the core problem, and come to a solution which addresses the entire problem rather than an isolated instance of it.
  
+ * Separate goals from pathways. We are as susceptible to [target fixation](https://en.wikipedia.org/wiki/Target_fixation) as anyone; it can take a great deal of effort to see past overly-specific incorrect suggestions. "We need to link THIS and THAT" is much more likely to lead to a solution than "add THIS to MECHANISM," particularly when MECHANISM turns out to be an inappropriate solution.
+ 
  * Use templates. We have templates for common tasks, they specify the most common information we need. (Issues regarding how to make them better are always welcome.)
  
  * Include enough information for us to fully understand and replicate the problem or request. This includes but is not limited to
