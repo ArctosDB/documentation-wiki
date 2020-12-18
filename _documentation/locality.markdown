@@ -325,7 +325,7 @@ should be checked in the field). Maps and gazetteers generally provide
 this information as well.
 
 
-## Reference Source
+## Georeference Source
 
 `Locality . GEOREFERENCE_SOURCE VARCHAR(255) not null`
 
