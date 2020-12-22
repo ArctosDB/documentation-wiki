@@ -20,7 +20,7 @@ Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_M
 * use DataServices/Linkerizer to build URLs. There are currently three classes of URL supported:
     * no class-->default browser behavior
     * external-->"pop out" image appended, open in new window
-    * newWinLocal-->open in new window
+    * newWinLocal-->"info" image appended, open in new window (use for links to arctos.museum information pages such as code tables)
 
 ### CSS
 * when possible, use /includes/style.css for styling. (Directions for minimizing are inline.)
