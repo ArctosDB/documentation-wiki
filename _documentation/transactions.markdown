@@ -57,3 +57,7 @@ Agents involved in transactions (
 
 A [Code Table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTRANS_AGENT_ROLE) describes the various roles
 Agents have in Transactions.
+
+## Next Number
+
+Arctos can by request suggest the "next" transaction identifier (eg, loan number) if the existing data support such a calculation. File an Issue to request this functionality. Minimum requirements are the transaction type, format of the suggestion, and collection(s) to which the suggestion applies.
