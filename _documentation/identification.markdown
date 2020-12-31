@@ -53,7 +53,6 @@ according to a formula. For example:
   |*Sorex cinereus* ?                       | taxon (A) + "?"  | A = *Sorex cinereus*         |
   |*Sorex cinereus* or *Sorex ugyunak*      | A "or" B         | A = *Sorex cinereus*         |
   |                                         |                  | B = *Sorex ugyunak*          |
-  |*Sorex sp.*                              | A + "sp."        | A= *Sorex*                   |
   |*Canis latrans x Canis lupus familiaris* | A "X" B          | A = *Canis latrans*          |
   |                                         |                  | B = *Canis lupus familiaris* |
 
@@ -64,7 +63,7 @@ Bulkloader taxa guidelines are [here](/documentation/bulkloader#taxonomy).
 You can pick a formula from the editing screen for determinations. You
 do not need to designate a formula for data entry if you intend a simple
 one-taxon determination (formula "A"), and the bulkloader will recognize
-and appropriately parse constructions such as "Canis sp."
+and appropriately parse construction.
 
 ### "A {string}" Formula
 
