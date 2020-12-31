@@ -69,9 +69,6 @@ Any of the following are acceptable taxon name values (current
     `taxonomy.scientific_name`
     -   Sorex cinereus
     -   Soricidae
--   Formula "A sp.": Any accepted `taxonomy.scientific_name` where
-    scientific name is also genus plus " sp."
-    -   Sorex sp.
 -   Formula "A cf.": Any accepted `taxonomy.scientific_name` plus " cf."
     -   Sorex cf.
 -   Formula "A ?": Any accepted `taxonomy.scientific_name` plus " ?"
