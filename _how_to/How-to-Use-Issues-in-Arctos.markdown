@@ -72,7 +72,7 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
 ### Overview
 
 
-Development tasks are encountered in the order listed on [https://handbook.arctosdb.org/how_to/How-to-organize-Issues.html](https://handbook.arctosdb.org/how_to/How-to-organize-Issues.html); if your Issue is not in one of those lists, we're probably not seeing it. Upvotes may be used to prioritize within a priority label. Note that text within the body of an Issue DOES NOT assign labels or milestones; these much be specifically selected using the tools on the Issue management page. All Arctos users should have a local AWG representative who can help properly categorize Issues.
+Development tasks are encountered in the order listed on [https://handbook.arctosdb.org/how_to/How-to-organize-Issues.html](https://handbook.arctosdb.org/how_to/How-to-organize-Issues.html); if your Issue is not in one of those lists, we're probably not seeing it. Upvotes may be used to prioritize within a priority label. Note that text within the body of an Issue DOES NOT assign labels or milestones; these must be specifically selected using the tools on the Issue management page. All Arctos users should have a local AWG representative who can help properly categorize Issues.
 
 
 ### For Anyone
