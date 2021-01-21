@@ -69,11 +69,11 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
  
 ## Managing Issues
 
-```
-Developers sort Issues by Milestone, then Priority label and upvotes. 
-Properly categorized (via Milestone) and labeled Issues help us understand development priorities. Please use these tools if you have access to them, 
-or communicate with your local AWG representative if you do not. 
-```
+### Overview
+
+
+Development tasks are encountered in the order listed on [https://handbook.arctosdb.org/how_to/How-to-organize-Issues.html](https://handbook.arctosdb.org/how_to/How-to-organize-Issues.html); if your Issue is not in one of those lists, we're probably not seeing it. Upvotes may be used to prioritize within a priority label. Note that text within the body of an Issue DOES NOT assign labels or milestones; these much be specifically selected using the tools on the Issue management page. All Arctos users should have a local AWG representative who can help properly categorize Issues.
+
 
 ### For Anyone
 
