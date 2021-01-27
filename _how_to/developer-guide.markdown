@@ -36,3 +36,11 @@ A CFML Support - ColdFusion 11 extension is available for <a href="http://bracke
 #### Eclipse
 The CFEclipse plugin is currently not supported and older versions may not be from reliable sources.
 The Eclipse and CFEclipse can be downloaded by following the instructions at <a href="https://github.com/cfeclipse/cfeclipse/wiki/Installing-CFEclipse" target="_blank" class="external">Installing CFEclipse</a>. We suggest using the <a href="https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2020-09/R/eclipse-inst-jre-win64.exeEclipse" target="_blank" class="external">IDE for Web and JavaScript Developers</a> as recommended in the instructions. **NOTE** this was not functioning properly as of December 1, 2020.
+
+
+## Datasource
+
+Arctos uses various datasources for various reasons. Most queries should be one of two entries:
+
+* Datasource ``user_login`` logs in to the database as the Arctos user. This connection must be supplied with valid credentials.
+* Datasource ``cf_codetables`` is a special pre-authenticated user who has SELECT on ct* tables. This user should be used for all possible connections which SELECT from codetables, for performance reasons, and these queries should always be set to cache.
