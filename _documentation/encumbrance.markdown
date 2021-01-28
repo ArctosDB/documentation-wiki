@@ -5,10 +5,11 @@ layout: default_toc
 
 # Encumbrance
 
-Encumbrances restrict the use of specimens or specimen data.
-Encumbrances are applied to [Cataloged Items](/documentation/catalog). Attributes of an
-encumbrance include an encumbering [agent](/documentation/agent), an encumbrance name, an
-expiration date, and an encumbrance action.
+Encumbrances restrict the use of specimens or specimen data and are often used to mask information such as collectors, preparators, field numbers, attributes, and remarks.
+
+[List of active Arctos encumbrances](http://arctos.database.museum/info/encumbrances)
+
+Encumbrances are applied to [Cataloged Items](/documentation/catalog). Attributes of an encumbrance include an encumbering [agent](/documentation/agent), an encumbrance name, an expiration date, and an encumbrance action.
 
 Encumbrances should be used to:
 
@@ -21,7 +22,7 @@ Encumbrances should be used to:
     events or where required by law. Removing coordinate data
     removes much of the "discoverability" of specimens, and will exclude
     those specimens from many searches. Use this encumbrance with
-    great caution. **TIP** For sensitive localities, Arctos provides an alternate method with more flexibility. For information, read [Encumbering Locality](/how_to/How-to-Encumber-Locality.html#encumbering-locality)
+    great caution. **TIP** For sensitive localities, Arctos provides an alternate method with more flexibility. For information, read [Encumbering Locality](/how_to/How-to-Encumber-Locality.html#encumbering-locality).
 
 Encumbrances should NOT be used to:
 
@@ -29,9 +30,6 @@ Encumbrances should NOT be used to:
 -   Mask illegal activity, including a lack of permits.
 -   Mask "sensitive" records such as those records on CITES lists or records which have been tested for disease.
 -   Mask truly sensitive data. While we strive to effectively implement Encumbrances, Arctos has no security staff and should not be considered a secure system. Don’t use Encumbrances to protect extremely sensitive information.
-
-Encumbrances are often used to mask information such as collectors, preparators, field numbers, attributes, and remarks. A 
-[list of active Arctos encumbrances](http://arctos.database.museum/info/encumbrances) is available.
 
 ## Encumbering Agent
 
