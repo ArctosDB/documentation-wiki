@@ -44,6 +44,7 @@ Arctos uses various datasources for various reasons. Most queries should be one 
 
 * Datasource ``user_login`` logs in to the database as the Arctos user. This connection must be supplied with valid credentials.
 * Datasource ``cf_codetables`` is a special pre-authenticated user who has SELECT on ct* tables. This user should be used for all possible connections which SELECT from codetables, for performance reasons, and these queries should always be set to cache. The query name should always be the name of the code table to further support caching. For example:
+
 ``` 
 <cfquery name="ctdatum" datasource="cf_codetables" cachedwithin="#createtimespan(0,0,60,0)#">
    select datum from ctdatum order by datum
