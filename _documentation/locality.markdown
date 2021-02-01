@@ -445,6 +445,9 @@ the method referred to in [Georeference Method](#georefmethod).
 text](https://en.wikipedia.org/wiki/Well-known_text) shape associated
 with locality data.
 
+# Service-Derived Data
+
+Locality data are pulled from various sources and used in various ways. The most visible of these are "place terms" which may be searched in the catalog record Locality pane, and a summary of which is displayed as "Standardized Place Name" on Catalog Record Detail (GUID) pages. These data provide a mechanism by which all records at or near a point may be discovered by a single search term, regardless of often-inconsistent Curatorial assertions.
 
 # Edit Locality Form
 
