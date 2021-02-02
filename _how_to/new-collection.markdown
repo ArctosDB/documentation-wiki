@@ -53,14 +53,22 @@ The Mentor(s) are responsible for the following:
 Once collection metadata are provided and reviewed _for all collections in the institution_, the Mentor should change the status to "approve_to_create_collections" and ensure that the database administrators have received the notification of new collections. Collections will not be created until an MOU - see [draft template](https://bnhmwp.berkeley.edu/arctos/wp-content/uploads/sites/19/2018/06/Arctos_MOU_template_2018.doc) - has been signed by all parties. The Arctos Steering Committee Chair will sign the MOU on behalf of Arctos.
 
 
+## Existing Institutions
+
+Existing institutions in good standing can skip some steps.
+
+* A Prospective Collection Request **is not** required
+* The finalize creation form **is** required
+* GUID_Prefix **does** need discussed with the DBAs
+* You may mentor yourself, although we do recommend reaching out to similar collections at other institutions.
+
 
 ## For DBAs
 
-The Arctos DBA Team will get email from new_collections@arctos.database.museum when a Mentor flags an institution as approve_to_create_collections. Sufficient data to create new collections should be in tables pre_new_institution (pkey: niid) and pre_new_collection (fkey: niid). 
+You will be contacted via GitHub by the new collection or their mentor. Data will be in table pre_collection. All subsequent communication should be through GitHub.
 
-All communication should be addressed to pre_new_collection.contact_email and copied to pre_new_collection.mentor_contact.
-
-
+1. Ensure GUID_prefix is familiar, users exists, etc.
 1. Create collections
-2. Grant collection access, manage_collection, and global_admin to pre_new_collection.admin_username (it may be a list).
-3. Set pre_new_institution.status to "complete".
+1. Grant collection access, manage_collection, and global_admin to admin_user (it may be a list).
+1. If a request is denied or revoked, change guid_prefix to "INVALID:{former guid_prefix}"
+1. Find pending requests: ``select guid_prefix from pre_collection where guid_prefix not in (select guid_prefix from collection);``
