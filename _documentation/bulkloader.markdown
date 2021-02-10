@@ -182,9 +182,8 @@ know](http://arctos.database.museum/contact.cfm) if it’s out of date, incomple
 |<span class="bloptional">attribute_determiner</span>| text; [agent name](#agent-names)| [\[ doc \]](/documentation/attributes#determiner) Agent who determined the attribute.|
 |<span class="bloptional">locality_id</span>|  number; [key](#primary-key-warning) | A primary key from table locality may be used in place of locality information. A value here will over-ride anything entered into higher_geog, spec_locality, coordinates, etc.|
 |<span class="bloptional">locality_name</span>|  string; Exact:locality.locality_name | A persistent locality identifier which may be used in place of locality information. A value here will over-ride anything entered into higher_geog, spec_locality, coordinates, geology, etc.|
-
-|<span class="bloptional">collecting_event_id</span> | number; [key](#primary-key-warning) | A primary key from table collecting_event may be used in place of collecting_event information. A value here will over-ride anything entered into higher_geog, spec_locality, coordinates, dates, method, etc. \* All date fields should be formatted as ISO 8601, *e.g.*, 2006-12-31.
-|<span class="bloptional">cataloged_item_type</span>span> | text: [ctcataloged_item_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type) | Designates the type of material held, passed to biodiversity data aggregators as BasisOfRecord. A value here will over-ride anything entered into Default Cataloged Item Type in Manage Collection.
+|<span class="bloptional">collecting_event_id</span> | number; [key](#primary-key-warning) | A primary key from table collecting_event may be used in place of collecting_event information. A value here will over-ride anything entered into higher_geog, spec_locality, coordinates, dates, method, etc. \* All date fields should be formatted as ISO 8601, *e.g.*, 2006-12-31. |
+|<span class="bloptional">cataloged_item_type</span>span> | text: [ctcataloged_item_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type) | Designates the type of material held, passed to biodiversity data aggregators as BasisOfRecord. A value here will over-ride anything entered into Default Cataloged Item Type in Manage Collection. |
 
 ## Primary Key Warning
 
