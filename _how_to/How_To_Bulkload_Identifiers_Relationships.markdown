@@ -7,7 +7,7 @@ date: 2021-02-10
 
 # How To Bulkload Identifiers and Relationships
 
-This document describes how to bulkload other identifiers with or without relationships to exisiting catalog records. You may also find [How To Choose the Proper Identifier Type](_how_to/How-to-choose-the-proper-other-identifier-type.markdown) useful in preparing a file for upload to this tool.
+This document describes how to bulkload other identifiers with or without relationships to exisiting catalog records. You may also find [How To Choose the Proper Identifier Type](/how_to/How-to-choose-the-proper-other-identifier-type.html) useful in preparing a file for upload to this tool.
 
 - **Other Identifiers** are other numbers (e.g. collector number) for that specimen
 - **Other Identifier Types** are controlled by the vocabulary in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type" class="external">coll_other_id_type</a> code table.
