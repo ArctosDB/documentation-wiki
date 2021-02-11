@@ -68,3 +68,11 @@ Other query types are various guesses, and may or may not accurately resolve to 
 **Funky Data/Catalog Number Gaps** finds unused catalog numbers. There are no technical problems with nonsequential catalog numbers; this is purely an informational form.
 
 **Funky Data/Duplicate Agents** dynamically searches for agents which may be duplicates (that is, an individual with two or more agent_id entries). Curators are encouraged to inspect these reports regularly, track down any recently-created duplicates, and offer additional training to operators who create duplicate agents.
+
+## Why am I getting this?
+
+Many notifications are sent to users who share roles, often manage_collection. You may check who has access to collections via Reports/Services-->View Statistics-->Collection Contact/Operator Report
+
+<img width="429" alt="Screen Shot 2021-02-11 at 11 43 32 AM" src="https://user-images.githubusercontent.com/5720791/107690280-cb643600-6c5e-11eb-9347-04ce2d9f659c.png">
+
+From this report it should be possible to match up users who have access to your collections with users in the notification.
