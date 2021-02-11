@@ -32,6 +32,8 @@ Collection is set at collection creation, controls the Collection pick on the se
 ### GUID Prefix
 GUID Prefix is set at collection creation, and is used to form GUIDs (URLs).
 
+### Default Cataloged Item Type
+The term selected in this field will be the default for all catalog records in the collection and is passed to biodiversity data aggregators as BasisOfRecord. Individual catalog records can be modified to use a different term if required. Terms available can be found in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type" class="external">CATALOG_ITEM_TYPE code table</a>.
 
 ### Description  
 This field will be populated from the process of creating your collection. You can modify it as necessary. It should contain a description of the collection that is sufficiently detailed to provide a user with information about the size and scope of the collection, as well as any special holdings.

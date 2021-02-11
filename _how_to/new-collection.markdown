@@ -55,12 +55,18 @@ Once collection metadata are provided and reviewed _for all collections in the i
 
 ## Existing Institutions
 
-Existing institutions in good standing can skip some steps.
+Existing institutions in good standing do not need to complete a Prospective Collection Request. Established Arctos database institutions that just want to add a collection should proceed to "<a href="https://arctos.database.museum/Admin/pre_collection.cfm" class="external">Finalize collection creation request</a>" under "Join Arctos."
 
-* A Prospective Collection Request **is not** required
-* The finalize creation form **is** required
-* GUID_Prefix **does** need discussed with the DBAs
-* You may mentor yourself, although we do recommend reaching out to similar collections at other institutions.
+1. Read through the "<a href="https://arctos.database.museum/Admin/pre_collection.cfm" class="external">Prerequisites</a>" and if anything there isn't clear or hasn't been discussed with your institution, then don't proceed. If you believe you know what you're doing,* check all the boxes to affirm.
+    *Note: the "admin_user" is the admin's login name NOT their Agent name.
+2. Your new GUID_prefix should be confirmed with your institution and the DBA team.
+3. Your "preferred taxonomy source" should be decided ahead of creating the new collection. (There is a wide variety of taxonomy resources to choose from.) 
+4. Have your Loan Policy URL copied from menu item "Manage Data," "Metadata," "Manage Collection."
+5. After you've checked all the boxes, proceed.
+6. Fill in the information on the form.  Sign it with your login name and your mentor's login name if you know it, or simply sign your login name in the mentor's field as well if you are comfortable without a mentor.
+     *You may mentor yourself, although we do recommend reaching out to similar collections at other institutions. See options at "<a href="https://arctos.database.museum/info/mentor.cfm" class="external">Find a Mentor</a>."
+7. Voila!  A new collection REQUEST has been created.
+8. <a href="https://github.com/ArctosDB/new-collections/issues/new?assignees=lkvoong&labels=&template=9--set-up-new-collection-portal-s-.md&title=Org+name+-+Set+up+Collection+Portal%2528s%2529" class="external">Create a new issue in the new collections Github repository</a> and add the guid_prefix(s) you've submitted.
 
 
 ## For DBAs
@@ -68,7 +74,7 @@ Existing institutions in good standing can skip some steps.
 You will be contacted via GitHub by the new collection or their mentor. Data will be in table pre_collection. All subsequent communication should be through GitHub.
 
 1. Ensure GUID_prefix is familiar, users exists, etc.
-1. Create collections
-1. Grant collection access, manage_collection, and global_admin to admin_user (it may be a list).
-1. If a request is denied or revoked, change guid_prefix to "INVALID:{former guid_prefix}"
-1. Find pending requests: ``select guid_prefix from pre_collection where guid_prefix not in (select guid_prefix from collection);``
+2. Create collections
+3. Grant collection access, manage_collection, and global_admin to admin_user (it may be a list).
+4. If a request is denied or revoked, change guid_prefix to "INVALID:{former guid_prefix}"
+5. Find pending requests: ``select guid_prefix from pre_collection where guid_prefix not in (select guid_prefix from collection);``

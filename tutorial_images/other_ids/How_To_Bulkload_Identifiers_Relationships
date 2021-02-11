@@ -1,0 +1,18 @@
+---
+title: How To Bulkload Legacy Loans
+layout: default_toc
+author: Toni Androski, Teresa J. Mayfield-Meyer
+date: 2019-04-04
+---
+
+# How To Bulkload Legacy Loans
+
+Bulkloading loan information created prior to migration into Arctos is a two step process. The first step involves creating loan metadata in Arctos with a bulkload tool.  The second step populates the loan with specimen data and anything else that is missing from the metadata. Before beginning this process, it may help to read [How to Create a New Loan](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html) as the process for bulkloading is comleting the same steps in bulk.
+
+## Create Loan Metadata ([Initiating a Loan](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html#initiating-a-loan))
+
+### Create the Loan Metadata Bulkload file
+
+ * Log into Arctos and from the main menu select [Enter Data > Batch Tools > Bulkload Loans](http://arctos.database.museum/tools/BulkloadLoan.cfm)  
+ * Select “get CSV template,” then open the file that downloads **Tip** The tool works best with no more than 15-20 loans at a time  
+ * Formatting is very important, so make sure you are typing things into the spreadsheet exactly as they appear when you pull up a loan in Arctos. **Tip** When entering agent names, the easiest way to make sure that 1) the agent exists in Arctos and 2) you have the name spelled and formatted correctly, is to search in Arctos fo
