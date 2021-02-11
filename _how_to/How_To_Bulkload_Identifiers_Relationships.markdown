@@ -39,7 +39,7 @@ If errors are present, you have options:<br>
 This will separate them from the rest of the entries and they can then be downloaded or deleted on the ‘Review and Load’ page.<br>
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6b.jpg)
 
-7. Once you have set the status to autoload, just wait for the bulkloader to process the records.
+7. Once you have set the status to autoload, just wait for the bulkloader to process the records.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**TIP** If you return to the ‘Review and Load’ page and refresh it periodically, you should see the Count number decrease (it can be slow, maybe 10 entries/minute)
 
 8. When everything is loaded, the table on the ‘Review and Load’ page will be empty:
