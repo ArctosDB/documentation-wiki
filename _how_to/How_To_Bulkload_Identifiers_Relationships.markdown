@@ -30,14 +30,14 @@ This document describes how to bulkload other identifiers with or without relati
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture5.jpg)
 
 6. If everything looks correct, click the ‘Check All and Change Status to autoload’ button: 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6.jpg)
-If errors are present, you have options:
-- Click the ‘Return to Review and Load’ link, click ‘Delete’ to remove everything you just loaded, fix your .csv and reload. 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6a.jpg)
-- Check individual rows and change their status to ‘delete’. 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6b2.jpg)
-This will separate them from the rest of the entries and they can then be downloaded or deleted on the ‘Review and Load’ page.
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6b.jpg)</div>
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6.jpg)<br>
+If errors are present, you have options:<br>
+- Click the ‘Return to Review and Load’ link, click ‘Delete’ to remove everything you just loaded, fix your .csv and reload.<br> 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6a.jpg)<br>
+- Check individual rows and change their status to ‘delete’.<br>
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6b2.jpg)<br>
+This will separate them from the rest of the entries and they can then be downloaded or deleted on the ‘Review and Load’ page.<br>
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6b.jpg)
 
 7. Once you have set the status to autoload, just wait for the bulkloader to process the records.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**TIP** If you return to the ‘Review and Load’ page and refresh it periodically, you should see the Count number decrease (it can be slow, maybe 10 entries/minute)
