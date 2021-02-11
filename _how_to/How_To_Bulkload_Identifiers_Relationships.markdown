@@ -32,20 +32,20 @@ This document describes how to bulkload other identifiers with or without relati
 6. If everything looks correct, click the ‘Check All and Change Status to autoload’ button:
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6.jpg)
 
-If errors are present, you have options:
+<div style=text-indent: 20px;>If errors are present, you have options:
 
-&nbsp;&nbsp;6a. Click the ‘Return to Review and Load’ link, click ‘Delete’ to remove everything you just loaded, fix your .csv and reload.
-&nbsp;&nbsp;![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6a.jpg)
+a. Click the ‘Return to Review and Load’ link, click ‘Delete’ to remove everything you just loaded, fix your .csv and reload.
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6a.jpg)
 
-&nbsp;&nbsp;6b. Check individual rows and change their status to ‘delete’.
-&nbsp;&nbsp;![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6b2.jpg)
+b. Check individual rows and change their status to ‘delete’.
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6b2.jpg)
 
-&nbsp;&nbsp;This will separate them from the rest of the entries and they can then be downloaded or deleted on the ‘Review and Load’ page.
-&nbsp;&nbsp;![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6b.jpg)
+This will separate them from the rest of the entries and they can then be downloaded or deleted on the ‘Review and Load’ page.
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6b.jpg)</div>
 
 7. Once you have set the status to autoload, just wait for the bulkloader to process the records.
 
-**TIP** If you return to the ‘Review and Load’ page and refresh it periodically, you should see the Count number decrease (it can be slow, maybe 10 entries/minute)
+&nbsp;&nbsp;&nbsp;&nbsp;**TIP** If you return to the ‘Review and Load’ page and refresh it periodically, you should see the Count number decrease (it can be slow, maybe 10 entries/minute)
 
 8. When everything is loaded, the table on the ‘Review and Load’ page will be empty:
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture8.jpg)
