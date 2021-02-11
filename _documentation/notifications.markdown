@@ -69,6 +69,7 @@ Other query types are various guesses, and may or may not accurately resolve to 
 
 **Funky Data/Duplicate Agents** dynamically searches for agents which may be duplicates (that is, an individual with two or more agent_id entries). Curators are encouraged to inspect these reports regularly, track down any recently-created duplicates, and offer additional training to operators who create duplicate agents.
 
+
 ## Why am I getting this?
 
 Many notifications are sent to users who share roles, often manage_collection. You may check who has access to collections via Reports/Services-->View Statistics-->Collection Contact/Operator Report
