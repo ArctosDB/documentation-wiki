@@ -18,23 +18,8 @@ The term "specimen" is used synonymously with "cataloged item" throughout Arctos
 
 Catalog Number is the identifier assigned to a
 Cataloged Item. It must be unique (case-insensitive) within a particular
-catalog. Arctos currently supports three formats of catalog number.
-
-1.  **Integer**: Catalog numbers must be positive integers. Arctos
-    provides tools to predict the next number (e.g., data entry can
-    leave catalog number blank), find gaps in sequences, search by
-    ranges, clone full records, and provide GUIDs of the "expected" format. Sort may be numeric (1,2,,3...20). Only this format
-    comes with these tools and abilities, and it is often worthwhile to
-    convert existing mixed-string catalog "series" to Integer catalog
-    numbers and store the old numbers as other IDs.
-2.  **Prefix-Integer-Suffix**: An integer is required, and may be
-    accompanied by a prefix and/or suffix. The concatenation of
-    prefix-integer-suffix must be unique. No non-explicit (predictive, series- or range-based, etc.) tools
-    are available. Search is by the concatenation or substrings thereof. Sort will be character (1,2,...20...3).
-3.  **String**: Any unique non-NULL string is accepted. No non-explicit (predictive, series- or range-based, etc.)
-    tools are available. Search is by the string or
-    substrings thereof. Sort will be character (1,2,...20...3). Characters "/" (forward slash) and " " (space) are currently prohibited.
-    
+catalog. Varoius formats are supported and bring various functional limitations with them.
+The [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcatalog_number_format) provides more information.
     
 ## Cataloged Item Type
 
