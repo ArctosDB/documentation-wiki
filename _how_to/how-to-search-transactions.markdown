@@ -21,7 +21,7 @@ Search terms are generally ANDed. The provides the possibility to search only ag
 
 The vertical ellipsis by some SELECT controls allows multiple terms, in which case the terms are ORed together. Find loans of status "closed" OR "returned," for example.
 
-Most free-text search terms are by default substing case-insensitive matches. Prefixing with = where specified in the labels performs a fully-string match.
+Most free-text search terms are by default substring case-insensitive matches. Prefixing with = where specified in the labels performs a fully-string match.
 
 Loaned part name has a special handler to deal with both comma-lists ("any of these parts") and parts which contain commas.
 * ``skull, skin`` matches ``skull`` or ``skin``
