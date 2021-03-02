@@ -50,3 +50,19 @@ Arctos uses various datasources for various reasons. Most queries should be one 
    select datum from ctdatum order by datum
 </cfquery> 
 ```
+
+## Expand Select
+
+This toggles MULTIPLE for a SELECT of id "accn_status":
+
+```
+<span data-ctl="accn_status" class="ui-icon ui-icon-arrow-4-diag expandoSelect"></span>
+```
+
+## Button-Links
+
+Button + HREF
+
+```
+<a href="somepage.cfm"><input type="button" class="lnkBtn" value="Some Text"></a>
+```
