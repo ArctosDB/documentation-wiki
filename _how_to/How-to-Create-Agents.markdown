@@ -33,6 +33,12 @@ The additional fields described below can assist Arctos users in determining tha
 
 It is a good idea to add variations of the Agent name for which Arctos users might search. Someone may type in Kurt Galbreath, Kurt G., or K. Galbreath but the preferred name is Kurt E. Galbreath. It is especially helpful to add the full middle name if known and any suffixes (e.g., Jr., Sr.) or maiden names.
 
+### Name Type login
+The login name should be the Arctos user name for any agent who is an Arctos operator.
+
+**TIP**
+An agent should never have more than one name of type "login". For Arctos operators who also wish to use a public search username, only the operator username should be associated with their Arctos agent.
+
 ## Agent Status
 
 Agent status applies to person Agents. Use with caution and only if you are certain that the information you choose is correct. 
