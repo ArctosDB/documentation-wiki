@@ -124,8 +124,7 @@ are automatically created for all affected specimens.
 
 `Agent_Name . Agent_Name VARCHAR2(184) not null`
 
-All agents must have one and only one "preferred name". An agent can
-have any number of other names.
+All agents must have one and only one "preferred name" and one and only one "login". An agent can have any number of other names.
 
 ## Name Type
 
