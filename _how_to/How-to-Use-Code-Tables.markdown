@@ -55,3 +55,10 @@ Definitions should be given as complete sentences.
 to avoid this problem in the future. Parts of unknown preservation/preparation should be explicit: "thing (unknown)."
 
 1. Do no use unnecessary characters in authority values, particularly Attributes. Letters, dash, and space are generally acceptable. 
+
+
+## Specific Considerations
+
+### ctcoll_other_id_type
+
+For Other ID Types, attempt to evaluate whether there might realistically be a base_url available at some time in the future. For identifiers that are deemed unlikely to have this, strongly consider using a generic type (such as "other identifier" or "institutional catalog number") rather than creating a new type. 
