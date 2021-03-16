@@ -116,7 +116,7 @@ to avoid this problem in the future. Parts of unknown preservation/preparation s
 
 1. Do no use unnecessary characters in authority values, particularly Attributes. Letters, dash, and space are generally acceptable. 
 
-1. Include the GitHub discussion in the definition. (Reports/DataServices includes a link-builder tool.)
+1. Include the GitHub discussion link/URL in the definition. (Reports/DataServices includes a link-builder tool.)
 
 
 ### Specific Values Considerations
