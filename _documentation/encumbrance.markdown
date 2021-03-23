@@ -2,7 +2,6 @@
 title: Encumbrance
 layout: default_toc
 ---
-
 # Encumbrance
 
 Encumbrances restrict the use of specimens or specimen data and are often used to mask information such as collectors, preparators, field numbers, attributes, and remarks.
