@@ -123,7 +123,14 @@ to avoid this problem in the future. Parts of unknown preservation/preparation s
 
 #### ctcoll_other_id_type
 
-For Other ID Types, attempt to evaluate whether there might realistically be a base_url available at some time in the future. For identifiers that are deemed unlikely to have this, strongly consider using a generic type (such as "other identifier" or "institutional catalog number") rather than creating a new type. 
+For Other ID Types, attempt to evaluate whether there might realistically be **functionality** at some time in the future. For identifiers that are deemed unlikely to have this, strongly consider using a generic type (such as "other identifier" or "institutional catalog number") rather than creating a new type. The goal should be for all identifier types to have a functional base_url (which equates to functionality for both humans and machines); this is not a necessary element of the data, but should be a significant consideration in deciding if the identifier needs a dedicated type or could be equally useful as a more generic type.
 
+Example Considerations:
 
-Guidelines
+| Requested Identifier      | Description | Considerations |
+| ----------- | ----------- |---|
+| GenBank      | Unique identifier supplied by an known entity, when appended to a base_url the identifier leads to data  | Create; this is the ideal situation. |
+| UCB: University of California Berkeley   | Identifier supplied by some unknown department of a large heterogeneous organization.  | Encourage ``other identifier``==>``UCB: University of California, Berkeley {the_number}`` rather than a new type. Such a generic identifier is extremely unlikely to be useful for discovery, and is sufficient for humans looking at the catalog record.|
+| MVZ: Museum of Vertebrate Zoology   | Identifier supplied by some unknown department of a (more or less) homogeneous organization.       | Discuss in depth before creation. Can the identifier be resolved to an assigning entity (_e.g._, MVZ:Mamm)? If so, direct the requestor to use that. In some cases, while the identifier is unlikely to ever be useful by itself, some future effort might be able to use the identifier type plus some associated data (_e.g._, taxonomy) to create better identifiers and this potential use case **may** be sufficient justification to create.|
+| TU:Fish   | A specific entity which holds (or held) material, not currently discoverable online. "Official" acronym may be in question.   | Create; while this is not currently useful, it it reasonable to believe that at some point the collection may become more accessible and the identifier will become resolvable.|
+| EBRPD: East Bay Regional Park District | Identifier of unknown uniqueness supplied by an entity which probably does not have material but may have additional data. Deemed unlikely to have a base_url at any time, but correspondence is likely to produce data. | Create; "correspondence is likely to produce data" is sufficient evidence of usefulness.  |
