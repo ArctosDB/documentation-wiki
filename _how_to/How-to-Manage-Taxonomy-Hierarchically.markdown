@@ -135,4 +135,80 @@ missing a root term - genus-->{no species}-->scientific_name for a binomial, for
 ### Nowhere to be found
 
 A taxonomic import filter is seldom sufficient to find all taxa in use by a collection, often because a collection is using taxa with 
-incomplete, missing, or mis-placed classifications. Work with a DBA to get these into the hierarchical editor as early as possible. 
+incomplete, missing, or mis-placed classifications. Work with a DBA to get these into the hierarchical editor as early as possible.
+
+## Example: Import from Arctos, export to new collection
+
+Open the hierarchical editor and create a source if you haven't already.
+
+<img width="470" alt="Screen Shot 2021-04-05 at 8 23 02 AM" src="https://user-images.githubusercontent.com/5720791/113590976-32abc000-95e8-11eb-8c8c-db922972e282.png">
+
+
+Find some taxon and click download
+
+
+<img width="640" alt="Screen Shot 2021-04-05 at 8 19 21 AM" src="https://user-images.githubusercontent.com/5720791/113590674-c7fa8480-95e7-11eb-8f63-669e7d85e78d.png">
+
+Use Option Two with your Source
+
+<img width="773" alt="Screen Shot 2021-04-05 at 11 23 08 AM" src="https://user-images.githubusercontent.com/5720791/113609947-56c7cb00-9601-11eb-8aa6-5bf3b27d88cb.png">
+
+Back to the hierarchical editor, click...
+
+<img width="149" alt="Screen Shot 2021-04-05 at 11 27 41 AM" src="https://user-images.githubusercontent.com/5720791/113610462-03a24800-9602-11eb-85f1-0df27a6fb4eb.png">
+
+First option, choose file
+
+<img width="771" alt="Screen Shot 2021-04-05 at 11 28 38 AM" src="https://user-images.githubusercontent.com/5720791/113610521-1caaf900-9602-11eb-8361-4f04e8d1b54c.png">
+
+continue
+
+<img width="227" alt="Screen Shot 2021-04-05 at 11 29 09 AM" src="https://user-images.githubusercontent.com/5720791/113610568-2a607e80-9602-11eb-8347-fd2d29a0de04.png">
+
+
+It did stuff
+
+<img width="94" alt="Screen Shot 2021-04-05 at 11 29 36 AM" src="https://user-images.githubusercontent.com/5720791/113610646-42d09900-9602-11eb-919b-65da2f6d857d.png">
+
+Manage
+
+<img width="239" alt="Screen Shot 2021-04-05 at 11 30 15 AM" src="https://user-images.githubusercontent.com/5720791/113610709-55e36900-9602-11eb-9b09-76366974ccfb.png">
+
+Data. Note the outliers - this should be expected, it's just a reflection of the inconsistent data in the Arctos classification, drag stuff around to rearrange
+
+<img width="386" alt="Screen Shot 2021-04-05 at 11 24 43 AM" src="https://user-images.githubusercontent.com/5720791/113610127-91c9fe80-9601-11eb-9467-9ef411cf856e.png">
+
+To save/repatriate back to "core Arctos", first navigate back to hierarchical editor home screen, then select a target source and save.
+
+<img width="401" alt="Screen Shot 2021-04-05 at 11 34 14 AM" src="https://user-images.githubusercontent.com/5720791/113611128-f20d7000-9602-11eb-9253-eef123c95187.png">
+
+
+Export:
+
+<img width="158" alt="Screen Shot 2021-04-05 at 11 35 08 AM" src="https://user-images.githubusercontent.com/5720791/113611179-03ef1300-9603-11eb-84c0-ce67b893493a.png">
+
+Status will change
+
+<img width="213" alt="Screen Shot 2021-04-05 at 11 50 14 AM" src="https://user-images.githubusercontent.com/5720791/113612807-271ac200-9605-11eb-872f-206cfe67cbe4.png">
+
+Wait a while (on production, on test run ScheduledTasks/hier_to_bulk.cfm), when status has fully changed again....
+
+<img width="477" alt="Screen Shot 2021-04-05 at 11 51 41 AM" src="https://user-images.githubusercontent.com/5720791/113612926-4f0a2580-9605-11eb-9a0a-87430d847ba1.png">
+
+....check classification bulkloader
+
+<img width="504" alt="Screen Shot 2021-04-05 at 11 35 42 AM" src="https://user-images.githubusercontent.com/5720791/113611293-2aad4980-9603-11eb-82cf-2e53793e6d6a.png">
+
+It works like other Component Loaders
+
+<img width="574" alt="Screen Shot 2021-04-05 at 11 52 34 AM" src="https://user-images.githubusercontent.com/5720791/113613023-77921f80-9605-11eb-9516-ae632be4e297.png">
+
+Change to autoload....
+
+<img width="474" alt="Screen Shot 2021-04-05 at 11 53 32 AM" src="https://user-images.githubusercontent.com/5720791/113613139-9db7bf80-9605-11eb-8aab-6794f22cd367.png">
+
+...and hang out a while (or on test, run component_loader). When the classification loader has been cleared, the data will be available in the normal place
+
+<img width="1119" alt="Screen Shot 2021-04-05 at 11 55 23 AM" src="https://user-images.githubusercontent.com/5720791/113613309-e40d1e80-9605-11eb-98f8-ab3fd51d2e80.png">
+
+ 
