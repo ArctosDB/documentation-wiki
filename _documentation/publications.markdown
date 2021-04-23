@@ -103,7 +103,6 @@ not undergone a formal peer review process, such as dissertations.
 
 `Publication.DOI VARCHAR(4000), null`
 
-`Publication.PMID VARCHAR(4000), null`
 
 **DOIs** ([Digital Object Identifiers](http://www.doi.org/)) are CrossRef-issued DOIs which are applied to publications by publishers. These are capable of pulling data for use in creating the publication, and should be recorded with a publication when they are available. Including these identifiers will automatically create resolvable links to the publication, and will provide access to CrossRef's very powerful ecosystem.
 
@@ -119,9 +118,15 @@ The following are examples of formats that **contain** DOIs, but are **not** DOI
 
 ## PMID
 
+
+`Publication.PMID VARCHAR(4000), null`
+
 **PMIDs** ([PubMed Identifiers](http://www.ncbi.nlm.nih.gov/pubmed/)) should be recorded with a publication when they are available if a CrossRef DOI is not available. Including these identifiers will automatically create resolvable links to the publication, but are not useful in creating publications and cannot serve as a bridge to more information.
 
 ## DataCite DOI
+
+
+`Publication.DATACITE_DOI VARCHAR(4000), null`
 
 **DataCite DOIs** ([Digital Object Identifiers](http://www.doi.org/)) are DataCite-issued DOIs which are applied to various data by various organizations. Including these identifiers will automatically create resolvable links to the whatever was assigned a DOI (often some representation of the publication), but are not useful in creating publications and cannot serve as a bridge to more information.
 
