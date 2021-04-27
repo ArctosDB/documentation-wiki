@@ -18,11 +18,12 @@ Links:
 
 ---
 <a id="ck"></a>
->## check constraint (UAM.CK_{tbl}_{col}_NOPRINT) violated
+>## ERROR: row for relation "{table}" violates check constraint "ck_{column}_noprint" 
+
 
 ### Problem
 
-Column {col} (often cryptically abbreviated due to Oracle object name constraints) in table {tab} has nonprinting characters.
+Column {column} (often cryptically abbreviated) in table {table} has nonprinting characters.
 
 ### Solution
 
@@ -119,11 +120,11 @@ In the first situation, use the DELETE button. NULL values are NULL values, not 
 
 ### Problem
 
-You've made Oracle angry.
+Something is missing.
 
 ### Solution
 
-Do not taunt the Oracle.
+Provide required information.
 
 ### More Information
 
@@ -164,7 +165,7 @@ Provide required data OR remove empty row.
 
 ### More Information
 
-The most common cause of this error is Excel adding a "blank" row to the end of CSV files intended for various bulkloaders. _schema.table.column_ will be the first NOT NULL column encountered by Oracle. Simply open the CSV in any PLAIN text editor and remove the blank line. Special caution: Some text editors (TextPad) are known to mess with character encoding. We use Sublime Text. 
+The most common cause of this error is Excel adding a "blank" row to the end of CSV files intended for various bulkloaders. _schema.table.column_ will be the first NOT NULL column encountered. Simply open the CSV in any PLAIN text editor and remove the blank line. Special caution: Some text editors (TextPad) are known to mess with character encoding. We use Sublime Text. 
 
 ![Screen Shot 2016-02-03 at 10.29.59 AM](https://arctosdb.files.wordpress.com/2014/09/screen-shot-2016-02-03-at-10-29-59-am.png)
 
