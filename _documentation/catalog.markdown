@@ -369,8 +369,6 @@ Arctos.
 
 As a highly normalized system, there is no real meaning to the term "the specimen record" in Arctos. Most views of the data provide information somewhat equivalent to [Simple DarwinCore](https://dwc.tdwg.org/simple/). No view contains everything that might be considered the entire specimen record. The available information varies wildly across records.
 
-## Understanding DarwinCore views
-
 ## Understanding DarwinCore mapping
 
 The primary entity in DarwinCore (DWC) is the Occurrence ([https://dwc.tdwg.org/terms/#occurrence](https://dwc.tdwg.org/terms/#occurrence)). Mapping Arctos records to Occurrences is not straightforward; new OccurrenceIDs must be minted for DWC transfer by appending "seid" (Specimen Event ID, although identifiers should be viewed only as identifiers). A GUID + SEID URI will highlight the relevant Event determination in Arctos records (example below). A few examples follow; these are not the only complex situations possible in Arctos, but are the most common. (Data in Arctos change frequently; please [let us know](https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=contact&template=contact-arctos.md&title=%5BCONTACT%5D) if an example does not make sense or function as described.)
