@@ -369,6 +369,23 @@ Arctos.
 
 As a highly normalized system, there is no real meaning to the term "the specimen record" in Arctos. Most views of the data provide information somewhat equivalent to [Simple DarwinCore](https://dwc.tdwg.org/simple/). No view contains everything that might be considered the entire specimen record. The available information varies wildly across records.
 
+## Understanding DarwinCore mapping
+
+The primary entity in DarwinCore (DWC) is the Occurrence ([https://dwc.tdwg.org/terms/#occurrence](https://dwc.tdwg.org/terms/#occurrence)). Mapping Arctos records to Occurrences is not straightforward; new OccurrenceIDs must be minted for DWC transfer by appending "seid" (Specimen Event ID, although identifiers should be viewed only as identifiers). A GUID + SEID URI will highlight the relevant Event determination in Arctos records (example below). A few examples follow; these are not the only complex situations possible in Arctos, but are the most common. (Data in Arctos change frequently; please [let us know](https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=contact&template=contact-arctos.md&title=%5BCONTACT%5D) if an example does not make sense or function as described.)
+
+* [https://arctos.database.museum/guid/MSB:Mamm:55245](https://arctos.database.museum/guid/MSB:Mamm:55245) is a "simple" record with one Event determination in Arctos, and is sent to DWC as a single Occurrence.
+* [https://arctos.database.museum/guid/DMNS:Mamm:12344](https://arctos.database.museum/guid/DMNS:Mamm:12344) and [https://arctos.database.museum/guid/MSB:Mamm:233616](https://arctos.database.museum/guid/MSB:Mamm:233616) together represent one Occurrence, with parts in different collections. These are provided to DWC as two Occurrences; we make no attempt to merge them.
+* [https://arctos.database.museum/guid/MVZ:Egg:10460](https://arctos.database.museum/guid/MVZ:Egg:10460) represents at least two Occurrences (the thrush and the cuckoo, although individual eggs could be considered Occurrences as well). We provide this to DWC as a single Occurrence.
+* [https://arctos.database.museum/guid/MSB:Mamm:193703](https://arctos.database.museum/guid/MSB:Mamm:193703) represents two Occurrences, and is provided via DWC as two Occurrences. In this case a single individual was sampled multiple times, and the samples were cataloged as one record. (The improbable use of event type "[collection](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_event_type)" for both events makes this record difficult to interpret.)
+* [https://arctos.database.museum/guid/UAMb:Herb:26709](https://arctos.database.museum/guid/UAMb:Herb:26709) represents two Occurrences, and is provided via DWC as two Occurrences. In this case there is uncertainty as to which "interpretation" of the original data is most appropriate; the data as provided have no spatial information, the spatial information (from automation) are occasionally wildly wrong, and the collection simply does not have the resources to review each record and choose the best at this time, so both are made available. 
+
+### DWC Example
+
+<img width="648" alt="Screen Shot 2021-05-14 at 7 33 38 AM" src="https://user-images.githubusercontent.com/5720791/118285916-cd6ca980-b486-11eb-8307-c801d5c4de10.png">
+
+A view of [https://arctos.database.museum/guid/UAMb:Herb:26709?seid=1986294](https://arctos.database.museum/guid/UAMb:Herb:26709?seid=1986294), one of the two Occurrences of [https://arctos.database.museum/guid/UAMb:Herb:26709](https://arctos.database.museum/guid/UAMb:Herb:26709)
+
+
 ### Minimum Data
 
 The minimum possible specimen record is a catalog number, although "core" data such as Identifications and Accessions are difficult or impossible to avoid in the interfaces. There are "we don't know" values for all "required" fields and concepts; "unidentifiable" is a valid taxon which may be used in identifications, for example. 

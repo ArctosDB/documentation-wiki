@@ -2,7 +2,6 @@
 title: Encumbrance
 layout: default_toc
 ---
-
 # Encumbrance
 
 Encumbrances restrict the use of specimens or specimen data and are often used to mask information such as collectors, preparators, field numbers, attributes, and remarks.
@@ -29,6 +28,7 @@ Encumbrances should NOT be used to:
 -   Mask the entire record of specimens under active research. **Restrict usage** is sufficient to protect any existing interests in the specimen, and the specimen remains available, upon approval of the encumbering agent, for other non-conflicting research.
 -   Mask illegal activity, including a lack of permits.
 -   Mask "sensitive" records such as those records on CITES lists or records which have been tested for disease.
+-   Hide "messy" data of any sort.
 -   Mask truly sensitive data. While we strive to effectively implement Encumbrances, Arctos has no security staff and should not be considered a secure system. Don’t use Encumbrances to protect extremely sensitive information.
 
 ## Encumbering Agent

@@ -295,6 +295,21 @@ To create a mapping between two concepts:
 
 (Delete and recreate a taxon concept mapping to edit it)
 
+
+## Editors
+
+### Built-in single-record editor
+
+The single-record editor has limited control of data within a record, and no control of consistency across records. We do not recommend using this tool if those attributes are important.
+
+### Built-in hierarchical editor
+
+Arctos provides a hierarchical editor which is capable of producing consistent data. Import and export tools are built into Arctos.
+
+### CSV
+
+Arctos provides a full-features CSV upload option. Data may be managed in anything which will export CSV, and that CSV may be imported into Arctos.
+
 ## FAQ
 
 **Q: Why not hierarchies/thesauri/some other model?**
