@@ -70,17 +70,17 @@ Catalog records bearing an Entity ID as Organism ID will link to the Entity, and
 
 ### The Process
 
-1. Find some "components." We'll use http://test.arctos.database.museum/guid/MSB:Mamm:269648 and http://test.arctos.database.museum/guid/DMNS:Mamm:13708.
+Find some "components." We'll use http://test.arctos.database.museum/guid/MSB:Mamm:269648 and http://test.arctos.database.museum/guid/DMNS:Mamm:13708.
 
-2. Search for an Entity; make sure this doesn't exist. Click Create.
+Search for an Entity; make sure this doesn't exist. Click Create.
 
 <img width="255" alt="Screen Shot 2021-05-19 at 4 34 17 PM" src="https://user-images.githubusercontent.com/5720791/118897889-16c25c00-b8c0-11eb-99ec-f86178c5cf39.png">
 
-3. Provide a name, pick a type, click. 
+Provide a name, pick a type, click. 
 
 <img width="803" alt="Screen Shot 2021-05-19 at 4 35 03 PM" src="https://user-images.githubusercontent.com/5720791/118897923-322d6700-b8c0-11eb-8cae-04e828b71382.png">
 
-4. You'll get dumped on the edit screen. Enter the "components" as components, save. Value needs sorted out and documented; URL is the critical part of this.
+You'll get dumped on the edit screen. Enter the "components" as components, save. Value needs sorted out and documented; URL is the critical part of this.
 
 <img width="994" alt="Screen Shot 2021-05-19 at 4 36 05 PM" src="https://user-images.githubusercontent.com/5720791/118897985-630d9c00-b8c0-11eb-8035-f2cd83144b6d.png">
 
