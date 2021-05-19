@@ -2,7 +2,7 @@
 title: How To Create Taxa
 layout: default_toc
 author: Phyllis Sharp, Teresa J. Mayfield-Meyer
-date: 2019-04-15
+date: 2019-04-15, 2021-05-19
 ---
 
 # How To Create Linnean Taxa
@@ -40,17 +40,14 @@ When taxon names are created or edited, Arctos checks them against various exter
 
 There are two types of taxonomic classifications: local and webservices.  It is generally not possible to edit webservice classifications.  These are pulled from GlobalNames and they are automatically maintained, so edits would be lost with the next update.  This does not preclude using those webservice classifications as the preferred source for your collection, nor from editing them via any tools or collaborating with sources such as ITIS before they are pushed to GlobalNames and then Arctos. 
 
-Each collection chooses one source as its preferred source.  There are three [Local Sources](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) currently available: 
-- Arctos is a locally-managed classification for everything but plants.  It does contains some paleontological plant classifications.
-- Arctos Plants is a locally-managed classification for plants which are controlled by ICBN code.
-- WoRMS (via Arctos) contains automatically-maintained data from [http://www.marinespecies.org](http://www.marinespecies.org), in addition to some locally-maintained data (for taxa not in WoRMS but cataloged in collections which use this classification). To manage or create classifications in this source, simply provide an "aphiaid" as classification and click the "refresh" link. 
+Each collection chooses one source as its preferred source.  There are many [Local Sources](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) currently available and new sources can be added upon request.
 
-It is important to choose the intended collection's preferred source when creating classification data. Local sources are often limited to hierarchical data and managed through the [hierarchical data editor](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html).
+It is important to choose the intended collection's preferred source when creating classification data. Local sources may be limited to hierarchical data and managed through the [hierarchical data editor](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html). **Before changing a local classification, please contact any editors listed in the source description.** 
 
 **Classifications** may be created one of three ways:
-1.	cloning one from a webservice through Globalnames, 
-2.	cloning an existing classification 
-3.	manually creating a local source classification.  
+1.	cloning one from a webservice through Globalnames
+2.	cloning an existing local classification 
+3.	manually creating a local classification  
 
 ## Create Classification from webservice
 
