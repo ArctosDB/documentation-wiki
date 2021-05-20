@@ -7,6 +7,8 @@ date: 2021-05-19
 
 # How To Create Taxa in the Arctos Ichnology Taxonomy Source
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
+
 [Arctos Ichnology](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source#arctos_ichnology) is currently the preferred taxonomic source for ichnofossils. While ichnotaxa classifications can be added to other sources, it is preferable that all ichnotaxa classification remain in Arctos Ichnology for ease of maintenance. Collections with any trace fossil identifications should add Arctos Ichnology to their list of preferred taxonomy sources.
 
 Before adding any taxa to Arctos Ichnology read through [How to Create Taxa](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html).  The procedure below is not significantly different but there are a few special steps required for ichnotaxa.  To maintain the integrity of the locally managed source, users are asked, if at all possible, to not deviate from these recommended procedures for creating the name, classification and metadata.
@@ -23,7 +25,20 @@ Complete the **preferred name** to identify the synonym that is the valid taxon 
 
 ## Create Classification
 
-To maintain consistency of the classification hierarchy in Arctos Ichnology it is easiest to clone a new classification from an existing related classification in Arctos Ichnology.  For example, we need to add the taxon name _Need name_.  We have researched the taxon name and found two reputable sources that confirm that it is a valid taxon. Arctos has the genus Chiliborus but not our species.  
+To maintain consistency of the classification hierarchy in Arctos Ichnology it is easiest to clone a new classification from an existing related classification in Arctos Ichnology.  If a classification is created from scratch, please follow these guidelines. 
+
+### Ichnotaxa Classification Guidelines
+
+Ichnotaxa are governed by the International Code of Zoological Nomenclature (ICZN). According to the ICZN, "a name proposed for an ichnotaxon is a family-group name, or genus-group name, or species-group name, according to the way in which it is first established." Every classification in Arctos Ichnology should include at least one of the following taxon term types:
+
+[Ichnogenus](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_term#ichnogenus)
+[Ichnospecies](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_term#ichnospecies)
+[Ichnofamily](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_term#ichnofamily) **note:** ichnofamilies are not widely accepted - use with caution 
+
+Higher classification can be added to indicate the identity of the animal that left the trace. For example Batrachichnus, which is an Amphibian track.
+
+
+For example, we need to add the taxon name _Need name_.  We have researched the taxon name and found two reputable sources that confirm that it is a valid taxon. Arctos has the genus Chiliborus but not our species.  
 
 ![Screen Shot 2020-03-01 at 3 46 08 PM](https://user-images.githubusercontent.com/15368365/75635682-4a3e9b00-5bd5-11ea-9451-14eafc44f9ae.png)
 
