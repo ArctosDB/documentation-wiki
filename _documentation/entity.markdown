@@ -67,6 +67,59 @@ Catalog records bearing an Entity ID as Organism ID will link to the Entity, and
 
 <img width="412" alt="Screen Shot 2021-05-12 at 8 56 11 AM" src="https://user-images.githubusercontent.com/5720791/118006218-edbe2c00-b2ff-11eb-8078-d5f0bbebb308.png">
 
+
+### The Process
+
+Find some "components." We'll use http://test.arctos.database.museum/guid/MSB:Mamm:269648 and http://test.arctos.database.museum/guid/DMNS:Mamm:13708.
+
+Search for an Entity; make sure this doesn't exist. Click Create.
+
+<img width="255" alt="Screen Shot 2021-05-19 at 4 34 17 PM" src="https://user-images.githubusercontent.com/5720791/118897889-16c25c00-b8c0-11eb-99ec-f86178c5cf39.png">
+
+Provide a name, pick a type, click. 
+
+<img width="803" alt="Screen Shot 2021-05-19 at 4 35 03 PM" src="https://user-images.githubusercontent.com/5720791/118897923-322d6700-b8c0-11eb-8cae-04e828b71382.png">
+
+You'll get dumped on the edit screen. Enter the "components" as components, save. Value needs sorted out and documented; URL is the critical part of this.
+
+<img width="994" alt="Screen Shot 2021-05-19 at 4 36 05 PM" src="https://user-images.githubusercontent.com/5720791/118897985-630d9c00-b8c0-11eb-8035-f2cd83144b6d.png">
+
+Save
+
+<img width="219" alt="Screen Shot 2021-05-19 at 4 37 35 PM" src="https://user-images.githubusercontent.com/5720791/118898068-93553a80-b8c0-11eb-970c-1244b2176591.png">
+
+Scroll down, click pull
+
+<img width="226" alt="Screen Shot 2021-05-19 at 4 38 09 PM" src="https://user-images.githubusercontent.com/5720791/118898107-a23bed00-b8c0-11eb-992c-47c2ed644c80.png">
+
+accept
+
+<img width="461" alt="Screen Shot 2021-05-19 at 4 38 32 PM" src="https://user-images.githubusercontent.com/5720791/118898122-ae27af00-b8c0-11eb-9a29-1bc1730c7f5a.png">
+
+
+You now have a workable "entity" and can be done. Optionally, provide more data.
+
+<img width="1332" alt="Screen Shot 2021-05-19 at 4 40 30 PM" src="https://user-images.githubusercontent.com/5720791/118898235-f515a480-b8c0-11eb-879d-63a4434a6a4d.png">
+
+Don't forget to save, then return to the "detail page"
+
+<img width="440" alt="Screen Shot 2021-05-19 at 4 41 17 PM" src="https://user-images.githubusercontent.com/5720791/118898287-0f4f8280-b8c1-11eb-8310-a98765fe9cc1.png">
+
+Click "copy" to get the ID into your clipboard.
+
+<img width="585" alt="Screen Shot 2021-05-19 at 4 41 57 PM" src="https://user-images.githubusercontent.com/5720791/118898332-268e7000-b8c1-11eb-98e7-609be8063809.png">
+
+Click the two "component" links to open the catalog records, add Organism ID
+
+<img width="640" alt="Screen Shot 2021-05-19 at 4 42 56 PM" src="https://user-images.githubusercontent.com/5720791/118898410-550c4b00-b8c1-11eb-8df8-d29792962355.png">
+
+<img width="713" alt="Screen Shot 2021-05-19 at 4 43 14 PM" src="https://user-images.githubusercontent.com/5720791/118898415-5a699580-b8c1-11eb-9278-5b0023385589.png">
+
+The process is now complete, and the edit entity form will provide comforting messages.
+
+<img width="1365" alt="Screen Shot 2021-05-19 at 4 44 11 PM" src="https://user-images.githubusercontent.com/5720791/118898479-7a995480-b8c1-11eb-9ec1-587b5fcdb292.png">
+
+
 ## Choosing Organism ID
 
 [ Consider moving this to Other ID documentation ]
