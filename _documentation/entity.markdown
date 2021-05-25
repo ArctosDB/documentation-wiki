@@ -119,6 +119,9 @@ The process is now complete, and the edit entity form will provide comforting me
 
 <img width="1365" alt="Screen Shot 2021-05-19 at 4 44 11 PM" src="https://user-images.githubusercontent.com/5720791/118898479-7a995480-b8c1-11eb-9ec1-587b5fcdb292.png">
 
+
+
+
 ### The Process: V2
 
 Open Entities
