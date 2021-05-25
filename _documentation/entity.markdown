@@ -119,6 +119,44 @@ The process is now complete, and the edit entity form will provide comforting me
 
 <img width="1365" alt="Screen Shot 2021-05-19 at 4 44 11 PM" src="https://user-images.githubusercontent.com/5720791/118898479-7a995480-b8c1-11eb-9ec1-587b5fcdb292.png">
 
+### The Process: V2
+
+Open Entities
+<img width="125" alt="Screen Shot 2021-05-25 at 7 26 47 AM" src="https://user-images.githubusercontent.com/5720791/119515371-a46fd280-bd2a-11eb-8647-200ce53e4809.png">
+
+Follow the directions
+<img width="654" alt="Screen Shot 2021-05-25 at 7 26 59 AM" src="https://user-images.githubusercontent.com/5720791/119515397-a89bf000-bd2a-11eb-9a7b-31038e161146.png">
+
+click
+<img width="185" alt="Screen Shot 2021-05-25 at 7 27 08 AM" src="https://user-images.githubusercontent.com/5720791/119515412-aafe4a00-bd2a-11eb-9aa3-0b0dc03ca421.png">
+
+pick, type, click
+<img width="685" alt="Screen Shot 2021-05-25 at 7 28 57 AM" src="https://user-images.githubusercontent.com/5720791/119515661-e7ca4100-bd2a-11eb-9e48-4d638868597f.png">
+
+paste in components
+<img width="1253" alt="Screen Shot 2021-05-25 at 7 30 12 AM" src="https://user-images.githubusercontent.com/5720791/119515899-1c3dfd00-bd2b-11eb-8081-2a87d9542a26.png">
+
+save
+
+<img width="339" alt="Screen Shot 2021-05-25 at 7 30 29 AM" src="https://user-images.githubusercontent.com/5720791/119515920-206a1a80-bd2b-11eb-9f5c-868a7791efb3.png">
+
+export
+<img width="378" alt="Screen Shot 2021-05-25 at 7 31 48 AM" src="https://user-images.githubusercontent.com/5720791/119516087-4d1e3200-bd2b-11eb-9d19-f0f5bde4d349.png">
+
+import
+<img width="431" alt="Screen Shot 2021-05-25 at 7 32 24 AM" src="https://user-images.githubusercontent.com/5720791/119516282-7d65d080-bd2b-11eb-966f-fd40016e0853.png">
+<img width="139" alt="Screen Shot 2021-05-25 at 7 32 34 AM" src="https://user-images.githubusercontent.com/5720791/119516289-8060c100-bd2b-11eb-9c0a-6c6066466639.png">
+<img width="302" alt="Screen Shot 2021-05-25 at 7 32 47 AM" src="https://user-images.githubusercontent.com/5720791/119516302-82c31b00-bd2b-11eb-882c-82998ee21dfb.png">
+<img width="136" alt="Screen Shot 2021-05-25 at 7 32 59 AM" src="https://user-images.githubusercontent.com/5720791/119516313-848cde80-bd2b-11eb-8921-814f8d51f99b.png">
+<img width="336" alt="Screen Shot 2021-05-25 at 7 33 07 AM" src="https://user-images.githubusercontent.com/5720791/119516336-8787cf00-bd2b-11eb-9c02-f6d83862ca9d.png">
+
+let it run, confirm
+<img width="103" alt="Screen Shot 2021-05-25 at 7 34 08 AM" src="https://user-images.githubusercontent.com/5720791/119516529-b00fc900-bd2b-11eb-898f-7c25ef317aec.png">
+<img width="669" alt="Screen Shot 2021-05-25 at 7 34 35 AM" src="https://user-images.githubusercontent.com/5720791/119516547-b30ab980-bd2b-11eb-9d58-49043c40d259.png">
+<img width="276" alt="Screen Shot 2021-05-25 at 7 36 06 AM" src="https://user-images.githubusercontent.com/5720791/119516804-e77e7580-bd2b-11eb-9bee-37abb2859c51.png">
+<img width="1065" alt="Screen Shot 2021-05-25 at 7 36 29 AM" src="https://user-images.githubusercontent.com/5720791/119516844-f2d1a100-bd2b-11eb-9e46-e14357cb3cb5.png">
+<img width="672" alt="Screen Shot 2021-05-25 at 7 36 52 AM" src="https://user-images.githubusercontent.com/5720791/119516910-00872680-bd2c-11eb-8ad8-a9525f3a3604.png">
+
 
 ## Choosing Organism ID
 
