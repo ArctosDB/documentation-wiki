@@ -48,9 +48,9 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
  
  Use these pointers to streamline getting the solution you need.
  
- * Tell us your overall goals. We can help only if we understand what you're trying to accomplish in sufficient detail. "Make that button blue" is unlikely to lead directly to a productive solution. "Blue is a standard color for inputs which do **thing**, like that button" is much more likely to help us understand the core problem, and come to a solution which addresses the entire problem rather than an isolated instance of it.
+ * Tell us your overall goals. We can help only if we understand what you're trying to accomplish in sufficient detail. This will often involve an explanation of why the goal is important - "we want to record *_data_* because researchers need it for *_purpose_*."
  
- * Separate goals from pathways. We are as susceptible to [target fixation](https://en.wikipedia.org/wiki/Target_fixation) as anyone; it can take a great deal of effort to see past overly-specific incorrect suggestions. "We need to link THIS and THAT" is much more likely to lead to a solution than "add THIS to MECHANISM," particularly when MECHANISM turns out to be an inappropriate solution.
+ * Tell us *what* you hope to accomplish, not (only) *how* you hope to do so. We will get to how, but beginning the conversation with something like a [https://en.wikipedia.org/wiki/Product_requirements_document](Product requirements document) will generally lead to more robust solutions and avoid  [target fixation](https://en.wikipedia.org/wiki/Target_fixation).
  
  * Use templates. We have templates for common tasks, they specify the most common information we need. (Issues regarding how to make them better are always welcome.)
  
