@@ -50,7 +50,7 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
  
  * Tell us your overall goals. We can help only if we understand what you're trying to accomplish in sufficient detail. This will often involve an explanation of why the goal is important - "we want to record *_data_* because researchers need it for *_purpose_*."
  
- * Tell us *what* you hope to accomplish, not (only) *how* you hope to do so. We will get to how, but beginning the conversation with something like a [https://en.wikipedia.org/wiki/Product_requirements_document](Product requirements document) will generally lead to more robust solutions and avoid  [target fixation](https://en.wikipedia.org/wiki/Target_fixation).
+ * Tell us *what* you hope to accomplish, not (only) *how* you hope to do so. We will get to how, but beginning the conversation with something like a [Product requirements document](https://en.wikipedia.org/wiki/Product_requirements_document) will generally lead to more robust solutions and avoid  [target fixation](https://en.wikipedia.org/wiki/Target_fixation).
  
  * Use templates. We have templates for common tasks, they specify the most common information we need. (Issues regarding how to make them better are always welcome.)
  
