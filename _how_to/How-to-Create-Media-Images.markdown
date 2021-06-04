@@ -65,3 +65,19 @@ Summarize media through the Media Labels menu (e.g., aspect, subject, made date)
 Click the "Create Media" button. The image will now be available in the record(s) specified in **Media Relationships** fields (you may have to refresh the relevant page/wait a few minutes before the media displays).
 
 ![](../tutorial_images/media_examples.JPG)
+
+# Examples
+
+## Attach anything with a URL to any "Media Node."
+
+Find the Arctos record of interest. If it's eligible there should be an 'attach media' link somewhere. (File an Issue if you can't find the link.) The link is in the menu for catalog records.
+
+<img width="316" alt="Screen Shot 2021-06-04 at 7 09 03 AM" src="https://user-images.githubusercontent.com/5720791/120814518-cf64de00-c503-11eb-9a47-7cf4cdb47935.png">
+
+Scroll to Option Two, fill in relevant information, click save.
+
+<img width="718" alt="Screen Shot 2021-06-04 at 7 10 47 AM" src="https://user-images.githubusercontent.com/5720791/120814881-28347680-c504-11eb-8eb3-3ffee62afc40.png">
+
+Done.
+
+ 
