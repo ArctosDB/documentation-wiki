@@ -1,5 +1,5 @@
 ---
-title: How to Batch Download Images.markdown
+title: How To Batch Download Images
 layout: default_toc
 ---
 
