@@ -3,6 +3,8 @@ title: How To Batch Download Images
 layout: default_toc
 ---
 
+# How To Batch Download Images
+
 _This is a guide to automatically downloading multiple image files
 from TACC based on a query to the standard search interface, and using
 a Spreadsheet program (e.g., Excel) and Windows Powershell. Note that
@@ -17,7 +19,7 @@ The steps are:
  3. Run the script in Powershell
 
 
-# 1. Query Arctos
+## 1. Query Arctos
 
  * Using the main specimen search
    [page](https://arctos.database.museum/SpecimenSearch.cfm), enter
@@ -36,7 +38,7 @@ The steps are:
  * In the ‘Tools: Map, Customize, or Download’ menu of the Results
    page, select ‘Download’, and save the CSV file on your Desktop.
    
-# 2. Manipulate text in Excel
+## 2. Manipulate text in Excel
    
  * Rename the file to give it a suffix of `.txt`, not `.csv`. This is
    impossible in Windows unless have first gone into the Settings and
@@ -70,7 +72,7 @@ The steps are:
    as `arctos.ps1` on your Desktop. However, Windows will probably add
    `.txt` to the file name.
  
-# 3. Run the script in Powershell
+## 3. Run the script in Powershell
 
  * In the Start Menu, find and run Windows Powershell. You will now be
    in a command line environment.
