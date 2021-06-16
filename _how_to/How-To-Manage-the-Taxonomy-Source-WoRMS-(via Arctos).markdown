@@ -1,7 +1,9 @@
+---
 title: How To Manage the Taxonomy Source WoRMS (via Arctos)
 layout: default_toc
 author: Phyllis Sharp
 date: 2021-06-15
+---
 
 # How to Manage the Taxonomy Source WoRMS (via Arctos)
 
