@@ -1,5 +1,5 @@
 ---
-title: How To Manage the Taxonomy Source WoRMS (via Arctos)
+title: How To Manage Taxonomy in the WoRMS (via Arctos) Source
 layout: default_toc
 author: Phyllis Sharp
 date: 2021-06-15
