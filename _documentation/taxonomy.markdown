@@ -28,7 +28,7 @@ then "Some critter" may be a useful taxon in Arctos.
 If another publication declares "*Some critterrrr*" is not a valid
 taxon, biological distinction, etc., then "Some critterrrr" may still be
 a useful taxon name to include in Arctos for discovery purposes, even
-though it’s an obvious misspelling of a name. In short, if a name
+though it’s an obvious misspelling of a rejected name. In short, if a name
 might be useful in discovering specimens, it should be included in
 Arctos. Remarks, annotated taxon relationships, [taxon status](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS) and links to
 publications should be used to clarify.
@@ -58,7 +58,7 @@ classification. Database rules prevent change of used names. Names may
 be higher taxon terms, such as "Animalia," ICZN-type
 genus-species-subspecies concatenations, ICBN-type
 genus-species-infraspecific rank-infraspecific epithet concatenations,
-or nonbiological taxonomy terms ("Granite"). The sole distinguishing
+or nonbiological taxonomy terms ("Granite"). A distinguishing
 feature of this field is that a curator, usually a taxonomist, considers
 the name to be formal taxonomy.
 
@@ -71,7 +71,7 @@ Arctos users with taxonomic authority may create, edit and delete taxonomic name
 
 ## Name Type
 
-Taxon Names are typed using [ttaxon_name_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_name_type). Name type is functional; different types of names have different rules and may be used for different purposes. Note that many homonyms exist, so this classification is somewhat arbitrary. For example, "Oar" may refer to a device used to propel a watercraft or a genus of Lepidopteran.
+Taxon Names are typed using [taxon_name_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_name_type). Name type is functional; different types of names have different rules and may be used for different purposes. Note that many homonyms exist, so this classification is somewhat arbitrary. For example, "Oar" may refer to a device used to propel a watercraft or a genus of Lepidopteran.
 
 ## Validation Service
 
