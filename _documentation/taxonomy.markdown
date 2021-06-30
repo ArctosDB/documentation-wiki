@@ -267,35 +267,6 @@ concepts with names, ii) mapping taxon concepts to other taxon
 concepts (using terms from set theory), and iii) giving a taxonomic
 concept in an identification as well as just a name.
 
-### Managing taxon concepts
-
-To create a concept:
-
- 1. First make sure the publication that is the ‘according to’ for a
- taxon concept exists in Arctos,
- 2. In a taxonomy page for a name, click on `[Manage Concepts]`,
- 3. Enter the author’s name and hit RETURN, and choose from the
- available publications in the pop-up window,
- 4. Enter the taxon author as used in the publication (e.g., “L.”),
- 5. Click the `generate label` button, to automatically create a taxon
- concept label of the form `<i>name</i> author <i>sensu</i> ref`,
- 6. Click the `create taxon concept` button to accept the label and
- create the concept linking a name with a publication.
- 
-(Delete and recreate a taxon concept to edit it)
-
-To create a mapping between two concepts:
-
- 1. In the same `[Manage Concepts]` page, find the `concept_label` for
- the concept you want to map,
- 2. Pick the publication that documents this mapping,
- 3. Choose the RCC-5 set mapping relationship,
- 4. Pick the concept label for the other taxon concept,
- 5. Hit `create`.
-
-(Delete and recreate a taxon concept mapping to edit it)
-
-
 ## Editors
 
 ### Built-in single-record editor
