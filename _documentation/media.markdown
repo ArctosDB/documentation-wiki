@@ -46,12 +46,7 @@ roughly three classes:
     this category (although some users employ browser extensions which
     can process these types of files).
 
-Try to avoid characters other than A-Z/a-z/0-9 in URLs. This is not
-always possible, but scripting
-"protocol://some_domain/my/directory/structure/file_name_is_out_here.jpg"
-will always work, while admins may be less able to help with, for
-example, "protocol://some_domain/my/directory/structure/file name is
-out here.jpg"
+Files containing characters other than A-Z, a-z, 0-9, and _ are not eligible for scripting. Please sanitize any file names before uploading.
 
 ### Mime Type
 
