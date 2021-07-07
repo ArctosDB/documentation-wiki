@@ -5,6 +5,8 @@ layout: default_toc
 
 # Users
 
+``Do not perform any user administration actions before reading and understanding this entire document.``
+
 Terminology
 
 There are three categories of “users” described here:
@@ -65,6 +67,13 @@ User accounts automatically lock after 6 months of inactivity.
 Users whose accounts have been locked will not be able to log into Arctos, and must create a new (public) account if they wish to access Arctos.
 
 Users who have their account locked and are subsequently re-granted access must use their original account. Operators with global_admin access may unlock accounts from the “manage Arctos user” page.
+
+## Unlocking
+
+Accounts are locked for a variety of reasons, including by automation. **Do Not** unlock an account unless you are fully aware of the circumstances under which it was locked
+and are, or are in communication with, the "supervisor" of all collections to which the user has access. Assume all unlock requests are 
+[phishing attacks]](https://en.wikipedia.org/wiki/Phishing) until proven otherwise.
+
 
 **_DO NOT UNDER ANY CIRCUMSTANCES CREATE A NEW OPERATOR ACCOUNT FOR USERS WHO HAVE EVER HAD AN OPERATOR ACCOUNT IN ARCTOS!_**
 
