@@ -333,6 +333,7 @@ the Guidelines without contacting the AWG.
     geography will be invisible in geographic searches. This may require
     that you modify the Wikipedia spelling; for example, Huánuco must
     become Huanuco.
+-   **Avoid punctuation. Spell it out.** Avoid terms like "Turks & Caicos" - "Turks and Caicos" is much less likely to cause confusion or become part of a duplicate situation. 
 -   The overriding goal is to have exactly one set of terms describing
     the most precise (NOT necessarily the smallest) formally named and
     delineated geographic term that is applicable to localities. There
