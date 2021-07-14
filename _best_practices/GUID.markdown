@@ -16,9 +16,9 @@ What is a GUID Prefix? Before you make any decisions about one, you should know 
 We recommend choosing a GUID_PREFIX that will survive being transferred through various mechanisms, displayed in web pages that might use “fancy” formatting, or typed by users with many kinds of input devices in many languages. This means using only upper and lower-case ASCII letters (A-Z,a-z), other than the required colon. 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) 
-<p style="text-align: center;">**Caution**  
+**Caution**  
 
-Think of the GUID Prefix as something you will need to live with forever. Make sure that the GUID Prefix you choose is as simple as possible, but reflects the nature of the cataloged items.</p>
+Think of the GUID Prefix as something you will need to live with forever. Make sure that the GUID Prefix you choose is as simple as possible, but reflects the nature of the cataloged items.
 
 Remember, the only real limitation on GUID Prefix is that it be no longer than 20 characters and include a colon that is neither the first nor the last character. It will be most useful if the remaining characters consist of upper and/or lower-case ASCII letters (A-Z,a-z).
 
