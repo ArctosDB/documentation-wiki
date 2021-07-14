@@ -102,14 +102,14 @@ example:
 
 -   Mammal Specimens
 
-## Collection Code
+## Collection Type
 
 `Collection . Collection_Cde VARCHAR2(5) not null`
 
-Collection Code links catalogs to collection-type-specific code tables. Values are generally descriptive ("Mamm" or "Bird"), but
+Collection Type links catalogs to collection-type-specific code tables. Values are generally descriptive ("Mamm" or "Bird"), but
 no deeper meaning exists.
 Existing collection_cde values are in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde).
-Exploring the "filter" option of [Attribute Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE)
+Exploring the "filter" option of [Attribute Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE) or [Part Name](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
 will provide an idea of how a collection type has been used.
 
 ## Description
@@ -132,9 +132,15 @@ catalog. For example, "MVZ" for Museum of Vertebrate Zoology, "UAM" for
 University of Alaska Museum (of the North), "MSB" for Museum of
 Southwestern Biology. Generally, these values are the same as those
 traditionally used for specimen citations within discipline-specific
-publications. There is now a demand for globally unique specimen
-identifiers on the Internet, and at least [one registry](http://grbio.org) for such abbreviations has been
-established.
+publications. 
+
+There are some global collections registries, including:
+ - <a href="https://www.gbif.org/grscicoll">Global Biodiversity Information Facility (GBIF) Registry of Scientific Collections (GRSciColl)</a>
+ - <a href="http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=123984" class="external">Index Herbariorum</a>
+ 
+### What it does
+
+The Institution Acronym is linked to barcode series and provides a method for sorting collections by institution. It is not visible to the public.
 
 
 ## Taxonomy Source
