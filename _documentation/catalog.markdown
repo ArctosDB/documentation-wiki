@@ -106,11 +106,12 @@ example:
 
 `Collection . Collection_Cde VARCHAR2(5) not null`
 
-Collection Type links catalogs to collection-type-specific code tables. Values are generally descriptive ("Mamm" or "Bird"), but
-no deeper meaning exists.
-Existing collection_cde values are in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde).
-Exploring the "filter" option of [Attribute Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE) or [Part Name](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
+Code applied to a collection that provides context for types of parts and attributes that the collection will use. Exploring the "filter" option of [Attribute Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE) or [Part Name](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
 will provide an idea of how a collection type has been used.
+
+Public? | Required? | Editable? | Max Length | Value Code Table | What it does 
+ -- | -- | -- | -- | -- | -- 
+No | Yes | No | 5 | [ctcollection_cde](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde) | Links collection catalogs to collection-type-specific code tables.
 
 ## Description
 
