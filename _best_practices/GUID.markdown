@@ -19,6 +19,6 @@ We recommend choosing a GUID_PREFIX that will survive being transferred through 
 
 We recommend that the characters before the colon match an existing institutional acronym if one has already been in use, especially if it is recorded in a directory such as the <a href="http://sweetgum.nybg.org/science/ih/" class="external">Index Herbariorum</a>. This makes finding legacy collection use and publication easier and also helps those who have worked with your colelction in the past find your newly published records in Arctos.
 
-### After the Colon - Colletion Acronym
+### After the Colon - Collection Information
 
 We recommend that the characters after the colon provide a briedescription of the colletion.
