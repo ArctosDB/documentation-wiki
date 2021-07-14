@@ -39,10 +39,10 @@ We recommend that the characters after the colon provide a brief description of 
  - MVZ:Herp
  - UAM:Art
  
-However, use of the Collection Type is not a requirement. One reason to deviate from the collection types for Collection is when an institution holds more than one collection for which they would use a single collection type. For example, the New Mexico Museum of Natural History and Science has two Earth science or "<a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde#es" class="external">ES</a>" collections - Fossils and Minerals. These are set up as follows:
+However, use of the Collection Type is not a requirement. One reason to deviate from the collection types for Collection is when an institution holds more than one collection for which they would use a single collection type. For example, the New Mexico Museum of Natural History and Science has two Earth Science or "<a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde#es" class="external">ES</a>" collections - Fossils and Minerals. These are set up as follows:
 
 Collection | Collection Type | GUID Prefix 
-  -- | -- | -- | -- 
+  -- | -- | -- 
 Fossils | ES | NMMNH:Paleo 
 Minerals | ES | NMMNH:Geol 
 
