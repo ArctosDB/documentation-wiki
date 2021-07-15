@@ -7,6 +7,100 @@ date: 2020-04-30
 
 # How To Bulkload Media Metadata #
 
+## Bulkload Media Metadata From Scratch ##
+
+The Media Bulkloader is in the standard "component loader" format.
+
+From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm). A template is available, 
+download and fill in the appropriate fields.
+
+#### MEDIA_URI ####
+This field should hold the URI for the media itself. From our example. The directory appears as follows:
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_To_Bulkload_Metadata_1.jpg)
+
+The URI for each of the three images is the root directory which appears in the search bar of your browser (red box), plus the filename that appears in the list (purple box).
+
+You can use the CONCATENATE function in Excel to create the URIs. Copy the root directory and paste it into the first column of a blank Excel worksheet, copy the filenames and place them into the next column to the right, then use the CONCATENATE function to put them together.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_CONCATENATE_URI.jpg)
+
+Select enter and you have it! Copy the CONCATENATE formula down for all files in the batch.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_CONCATENATE_URI_1.jpg)
+
+Use Copy/Paste Special Values Only to put the complete URIs into your Media Metadata Bulkload Template.
+
+#### MIME_TYPE ####
+Enter the appropriate value from the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTMIME_TYPE).
+
+#### MEDIA_TYPE ####
+Enter the appropriate value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type).
+
+#### PREVIEW_URI ####
+This field should hold the URI for the media thumbnail. From our example, the directory of thumbnail images can be found in the tn/ folder of the MEDIA_URI folder above. Double click the tn/ (red box) to view the directory.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_To_Bulkload_Metadata_tn.jpg)
+
+The URI for each of the three images is the root directory which appears in the search bar of your browser (red box), plus the filename that appears in the list (purple box). Note - in this example, only two thumbnails were created during image upload. See **NEED INSTRUCTIONS** for creating thumbnails if you need to create a thumbnail manually. Metadata can be created without a thumbnail.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_To_Bulkload_Metadata_tn_1.jpg)
+
+You can use the CONCATENATE function in Excel to create the URIs. Copy the root directory and paste it into the first column of a blank Excel worksheet, copy the filenames and place them into the next column to the right, then use the CONCATENATE function to put them together (see directions above).
+
+#### MEDIA_LICENSE ####
+Enter the appropriate value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LICENSE).
+
+#### MEDIA_LABEL ####
+Up to 10 labels can be added using this tool and label types are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LABEL). Adding **description** and **made date** labels, while not required, will help in locating media via media search.
+
+#### MEDIA_RELATIONSHIP ####
+Up to 5 relationships can be made between the media and Arctos data objects and relationships are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_RELATIONSHIP). Adding at least one relationship is recommended as this is how displayed media makes Arctos awesome! The most used relationship is with a cataloged item (shows cataloged_item). The value for this relationship should be the GUID for the related cataloged item.
+
+  **Pro Tip** Naming files so that they include the GUID makes this task easier. With a few strategic find/replace moves in Excel the file name can be tranformed into the GUID. Also, the bulkloader will accept a part's barcode as a proxy to cataloged items. Barcodes can also be incorporated into the filename so that it can be extracted from the filename.
+  
+### Upload Media Metadata Bulkload File to the Tool ###
+
+Once the required and any optional fields are complete in the template, save the file as a .csv
+
+  **Pro Tip** .csv is the format required for upload to Arctos, however, opening a previously saved .csv in Excel will remove formatting included in the .csv, particularly for dates. Before saving the completed template as a .csv, safe the file first as .xlxs in case you need to make any modifications so that you will retain any formatting.
+  
+From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm).
+
+
+## Tools
+
+Several built-in Arctos tools may make loading Media easier.
+
+### Get Media_ID from URI
+
+When Media is created an ID is assigned, and various post-load processes require media_id. The Component Loader ecosystem deletes records as they are loaded, so these IDs are not readily available as in previous loaders. ``Reports/Services-->Data Services-->get MediaID from URI`` will accept Media_URIs (eg, those loaded to the Media Bulkloader) and return corresponding Media_IDs.
+
+### Get GUID from Barcode
+
+Files are often named using barcodes, but the current loader requires DWC GUID to location catalog records. ``Reports/Services-->Data Services-->Find GUID from Barcode`` will accept barcodes and return corresponding GUIDs (when containers are arranged appropriately).
+
+### Collecting Events
+
+The Media Bulkloader requires collecting event name to link Media to collecting events. (This is the only way to stabilize events.) Named collecting events may be bulkloaded, or existing collecting events may be temporarily named via ``Search-->Places`` then ``Manage Event Names``. (Temporary collecting event names automatically send notifications.)
+
+### Thumbnail Creation
+
+Arctos will automatically attempt to create thumbnails for image Media without them. Simply leave preview_uri NULL (empty) to utilize this functionality.
+
+## Bulkload Media Metadata with Small Batch Media Upload Tool File ##
+
+For use with small batch media uploader tool - see full documentation at [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
+
+
+
+
+
+
+
+
+
+
 ------------------
 ## IMPORTANT: The tool to extract information from the directory listing is no longer functional against TACC. We will update this if TACC can provide XML directory listings in the future.
 ------------------
@@ -80,92 +174,10 @@ Select build/rebuild the table to see the results of what is entered in the form
 
 ![](https://user-images.githubusercontent.com/5720791/80765539-21188900-8af8-11ea-91f9-f9a586d29e8a.png)
 
-## Bulkload Media Metadata From Scratch ##
 
-### Get a Media Metadata Bulkload Template ###
 
-From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm). You will see this
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Tool_Page.jpg)
 
-Select the information you want to include in the template, then select "get template". You will be asked what you want to do with the file.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Template_Create.jpg)
-
-Open the file with Excel and you will have a worksheet with all of the headers needed to bulkload your media metadata.
-
-### Complete the Media Metadata Bulkload Template ###
-
-Using the downloaded template, fill in the appropriate fields.
-
-#### MEDIA_URI ####
-This field should hold the URI for the media itself. From our example. The directory appears as follows:
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_To_Bulkload_Metadata_1.jpg)
-
-The URI for each of the three images is the root directory which appears in the search bar of your browser (red box), plus the filename that appears in the list (purple box).
-
-You can use the CONCATENATE function in Excel to create the URIs. Copy the root directory and paste it into the first column of a blank Excel worksheet, copy the filenames and place them into the next column to the right, then use the CONCATENATE function to put them together.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_CONCATENATE_URI.jpg)
-
-Select enter and you have it! Copy the CONCATENATE formula down for all files in the batch.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_CONCATENATE_URI_1.jpg)
-
-Use Copy/Paste Special Values Only to put the complete URIs into your Media Metadata Bulkload Template.
-
-#### MIME_TYPE ####
-Enter the appropriate value from the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTMIME_TYPE).
-
-#### MEDIA_TYPE ####
-Enter the appropriate value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_type).
-
-#### PREVIEW_URI ####
-This field should hold the URI for the media thumbnail. From our example, the directory of thumbnail images can be found in the tn/ folder of the MEDIA_URI folder above. Double click the tn/ (red box) to view the directory.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_To_Bulkload_Metadata_tn.jpg)
-
-The URI for each of the three images is the root directory which appears in the search bar of your browser (red box), plus the filename that appears in the list (purple box). Note - in this example, only two thumbnails were created during image upload. See **NEED INSTRUCTIONS** for creating thumbnails if you need to create a thumbnail manually. Metadata can be created without a thumbnail.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_To_Bulkload_Metadata_tn_1.jpg)
-
-You can use the CONCATENATE function in Excel to create the URIs. Copy the root directory and paste it into the first column of a blank Excel worksheet, copy the filenames and place them into the next column to the right, then use the CONCATENATE function to put them together (see directions above).
-
-#### MEDIA_LICENSE ####
-Enter the appropriate value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LICENSE).
-
-#### MEDIA_LABEL ####
-Up to 10 labels can be added using this tool and label types are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LABEL). Adding **description** and **made date** labels, while not required, will help in locating media via media search.
-
-#### MEDIA_RELATIONSHIP ####
-Up to 5 relationships can be made between the media and Arctos data objects and relationships are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_RELATIONSHIP). Adding at least one relationship is recommended as this is how displayed media makes Arctos awesome! The most used relationship is with a cataloged item (shows cataloged_item). The value for this relationship should be the GUID for the related cataloged item.
-
-  **Pro Tip** Naming files so that they include the GUID makes this task easier. With a few strategic find/replace moves in Excel the file name can be tranformed into the GUID. Also, the bulkloader will accept a part's barcode as a proxy to cataloged items. Barcodes can also be incorporated into the filename so that it can be extracted from the filename.
-  
-### Upload Media Metadata Bulkload File to the Tool ###
-
-Once the required and any optional fields are complete in the template, save the file as a .csv
-
-  **Pro Tip** .csv is the format required for upload to Arctos, however, opening a previously saved .csv in Excel will remove formatting included in the .csv, particularly for dates. Before saving the completed template as a .csv, safe the file first as .xlxs in case you need to make any modifications so that you will retain any formatting.
-  
-From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm). You will see this
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Tool_Page.jpg)
-
-Scroll to the bottom of the page and select "Browse". Navigate to your .csv and select open. You will now see the file name next to the "Browse" button. Select "Upload this File". You will then see this message:
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Loaded.jpg)
-
-Depending upon the size of your file, you may be able to see your media immediately, or it may take a day or two. You can see the progress by selecting "[My Stuff](https://arctos.database.museum/tools/BulkloadMedia.cfm?action=mystuff)".
-
-Any errors, will need to be corrected by correcting and re-loading the file. In this case, the cataloged items do not yet exist in Arctos. If they are added, the media metadata should load.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Errors.jpg)
-
-## Bulkload Media Metadata with Small Batch Media Upload Tool File ##
-
-For use with small batch media uploader tool - see full documentation at [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
 
 #### Modify Media Metadata Bulkload File ####
 
@@ -182,4 +194,9 @@ This file will be deleted 3 days after the message is sent, but may be regenerat
 [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
 
 [How to Create Media/Images](/how_to/How-to-Create-Media-Images)
+
+
+
+
+
 
