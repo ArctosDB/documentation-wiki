@@ -7,31 +7,13 @@ date: 2021-07-15
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
-# How to Bulkload Parts
+# [How to Bulkload Parts](#how-to-bulkload-parts)
 
-**Enter Data > Bulkload Tools > Parts > Bulkload Parts**
+**[Enter Data > Bulkload Tools > Parts > Bulkload Parts]()**
+
+## [Bulkload Parts Template](#bulkload-parts-template)
 
 If you do not have a Bulkload Parts Data sheet, begin with the [Bulkload Parts Template]().
-
-## Bulkload Parts Template
-
-The first small table includes groups of fields available to use. Select which ones you want to save time on selecting individual fields in the larger table below.
-
-The following are the groups most often used:
-
-* Required
-* Coordinate Meta
-* DMS Coordinates
-* D.d Coordinates
-* Identifiers
-* Agents
-* Parts
-* Attributes
-* The Rest
-
-From the larger table, you will see the fields that were selected as part of the groups selected above. 
-
-If there are fields that will never be used by your colelction and therefore do not need to be in your file. **Unselect** them. You will want to keep the format in CSV. That is the type of file Arctos works with.
 
 Now click on “Download Template” located below the small table and above the large table. Your file will automatically be put into your computer’s downloads.
 
@@ -187,7 +169,7 @@ The following is a complete breakdown of all fields and what data they should in
 * OTHER_ID_REFERENCES_1
   * Any other id references
 
-### Before Bulkloading    
+### [Before Bulkloading](#this-is-a-test)
 
 At the bulkloading page, just above where you will click to choose your file to upload
 
@@ -205,4 +187,4 @@ At the bulkloading page, just above where you will click to choose your file to 
 
 ## How to Bulkload Parts Tutorial Video
 
-[![YouTube: How to Bulkload Parts]()
+[//]: # ([![YouTube: How to Bulkload Parts](need thumbnail)](need tutorial))
