@@ -75,11 +75,10 @@ Free-text description of species associated with the specimen.
 
 ## Guid Prefix
 
-
 Public | Required | Editable | Max Length | Value Code Table | What it does 
- -- | -- | -- | -- | -- | -- 
+ --- | --- | --- | --- | --- | --- 
 Yes | Yes | No | 20 | None | In conjunction with catalog number it forms a unique identifier
-within Arctos, and in conjunction with Arctos’ URI forms a Globally Unique Identifier (GUID) for the specimen record.
+within Arctos, and in conjunction with Arctos’ URI forms a Globally Unique Identifier (GUID) for the specimen record. 
 
 * Although not controlled by a code table, GUID_PREFIX is required to be 20 or fewer characters, and contain exactly one colon `:` not at the beginning or end of the string. 
 
