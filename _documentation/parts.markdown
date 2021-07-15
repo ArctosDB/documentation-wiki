@@ -1,5 +1,7 @@
 ---
-title: Specimen Parts
+title: Parts
+author: unknown, Teresa J Mayfield-Meyer
+date: unknown, 2021-07-15
 layout: default_toc
 ---
 
