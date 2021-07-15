@@ -1,11 +1,11 @@
 ---
 title: How To Bulkload Catalog Records
 layout: default_toc
-author: Carla Cicero
-date: 2016-03-08
+author: Carla Cicero, Teresa J. Mayfield-Meyer
+date: 2016-03-08, 2021-07-15
 ---
 
-# Bulkloading Catalog Records
+# How to Bulkload Catalog Records
 
 **Enter Data > Bulkloader > Bulkload Builder**
 
@@ -35,16 +35,28 @@ Now click on “Download Template” located below the small table and above the
 
 ## Helpful Hints:
 
-* Any header can be deleted, added, or rearranged in the excel sheet manually.
-* **BUT BE CAREFUL!** Be sure edited cells do not have an invisible lead or end, otherwise Arctos will reject it.
-* Open your new Bulkloader template and review the headers.
-* You may notice it has a large number of fields for parts, attributes, collector, etc. These are there only if you need them. You may or may not use them all and that is ok. They can be left blank.
-* **IT IS VERY HELPFUL TO HAVE THE SINGLE DATA ENTRY PAGE OPEN WHILE ENTERING DATA INTO THE BULKLOAD DATA SHEET.**
- * Much of the bulkloader works off of the single data sheet and many things are “text sensitive”, meaning Arctos will not accept your file if something does not already exist within Arctos (ie; agents, parts, attributes, etc) OR if something is spelled incorrectly.
-* Agents can be listed as “unknown” if it is absolutely necessary.
-* If no Catalog Number has been previously assigned;
-  * Leave the CAT_NUM blank if you want Arctos to automatically assign the next available catalog number.
-  * **WARNING!** This does not always work. When trying to fill a gap in the available catalog numbers, it is wise to view what is available and enter them manually. Otherwise you will have to either email the head janitor of Arctos to ask for the records to be deleted, or do each one manually via the “Other ID” tab in edit mode.
+* Any header can be deleted, added, or rearranged in the excel sheet manually. 
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Be sure edited cells do not have an invisible lead or end, otherwise Arctos will reject it. 
+
+* You may notice the bulkload template has a large number of fields for parts, attributes, collector, etc. These are there only if you need them. You may or may not use them all and that is ok. They can be left blank.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
+
+* The bulkloader only allows for one part attribute per part. If you need to add more attributes, consider bulkloading the records without parts and then bulkloading parts with the Part Bulkload Tool. 
+
+* **IT IS VERY HELPFUL TO HAVE THE SINGLE DATA ENTRY PAGE OPEN WHILE ENTERING DATA INTO THE BULKLOAD DATA SHEET.** 
+Much of the bulkloader works off of the single data sheet and many things are “text sensitive”, meaning Arctos will not accept your file if something does not already exist within Arctos (ie; agents, parts, attributes, etc) OR if something is spelled incorrectly. 
+
+* Agents can be entered as “unknown”. 
+
+* If no Catalog Number has been previously assigned you can leave the CAT_NUM blank if you want Arctos to automatically assign the next available catalog number.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
+
+When trying to fill a gap in the available catalog numbers, it is wise to view what is available and enter them manually. Only allow Arctos to assign numbers if you have no gaps in your assigned catalog numbers and are using an integer catalog number format.
 
 ## Excel Helpful Hints:
 
