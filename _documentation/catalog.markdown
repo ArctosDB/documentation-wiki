@@ -75,7 +75,7 @@ Free-text description of species associated with the specimen.
 
 ## Guid Prefix
 
-Public? | Required? | Editable? | Max Length | Value Code Table | What it does 
+Public | Required | Editable | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
 Yes | Yes | No | 20 | None | In conjunction with catalog number it forms a unique identifier
 within Arctos, and in conjunction with Arctos’ URI forms a Globally Unique Identifier (GUID) for the specimen record.
@@ -95,7 +95,7 @@ example:
 
 ## Collection Type
 
-Public? | Required? | Editable? | Max Length | Value Code Table | What it does 
+Public | Required | Editable | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
 No | Yes | No | 5 | [ctcollection_cde](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde) | Links collection catalogs to collection-type-specific code tables.
 
@@ -117,7 +117,7 @@ An extended name/description of the collection. For example:
 
 ## Institution Acronym
 
-Public? | Required? | Editable? | Max Length | Value Code Table | What it does 
+Public | Required | Editable | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
 No | Yes | No | 20 | None | Linked to barcode series and provides a method for sorting collections by institution.
 
