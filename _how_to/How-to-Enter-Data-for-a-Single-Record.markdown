@@ -14,6 +14,8 @@ You should be brought to the page that lets you enter data.
 Note that the background should be green. If it is not, for some reason Arctos will not let you save your data.
 To get a green screen try using different browsers. For instance, I can only enter data when using Google Chrome while the lab computer works using Internet Explorer.
 
+# Core
+
 Data Entry Breakdown…
 
 **Cat Item IDs**
@@ -88,6 +90,36 @@ Data Entry Breakdown…
 * “Condition” correlates to the circled number on the data sheet for “Tissue Condition”.
 * “Disposition” is another drop down menu from which you will always select “in collection” unless indicated otherwise.
 * “#” is the number of samples kept of the part. This will almost always be a 1 unless of course indicated otherwise.
+
+# Extras
+
+### Option One: Flags
+
+Occasionally data which has no place in the default screen will be available. This may be handled by flagging the record....
+
+<img width="320" alt="Screen Shot 2021-07-15 at 6 50 22 AM" src="https://user-images.githubusercontent.com/5720791/125799282-cb6916d8-ee48-4840-8ab3-c3754e1e93ad.png">
+
+... and then, after the record has been loaded, locating it by searching flags....
+
+<img width="581" alt="Screen Shot 2021-07-15 at 6 50 59 AM" src="https://user-images.githubusercontent.com/5720791/125799492-1871e7a9-42c0-4d67-a51b-443b198111e5.png">
+
+
+... and resolving any issues. This approach requires reliable procedures.
+
+<img width="599" alt="Screen Shot 2021-07-15 at 6 48 03 AM" src="https://user-images.githubusercontent.com/5720791/125798953-a1d4fc09-8fae-4341-a7eb-1f8134396321.png">
+
+### Option Two: Extras
+
+The most common "extras" are available from the bottom of the data entry screen....
+
+<img width="599" alt="Screen Shot 2021-07-15 at 6 48 03 AM" src="https://user-images.githubusercontent.com/5720791/125799814-ee689b91-361f-4da7-8014-4fdff05bc7fd.png">
+
+These options allow, for example, adding parts with multiple attributes.
+
+<img width="981" alt="Screen Shot 2021-07-15 at 6 56 37 AM" src="https://user-images.githubusercontent.com/5720791/125800281-d5c768cc-b8c8-4a7f-a974-28ab8b813a75.png">
+
+These data are written to the Component Loader system, which generated a weekly report.
+
 
 **All finished!**
 * Now you will want to click on “Save This As A New Record” in the bottom left hand side of the page in the blue box.
