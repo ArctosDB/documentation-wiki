@@ -117,7 +117,6 @@ An extended name/description of the collection. For example:
 
 ## Institution Acronym
 
-`Collection . Institution_Acronym VARCHAR2(20) null`
 Public? | Required? | Editable? | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
  No | Yes | No | 20 | None | Linked to barcode series and provides a method for sorting collections by institution.
