@@ -85,21 +85,25 @@ Data Entry Breakdown…
 * To edit max error, click on the green dot marker and a box will pop up where you can choose “edit uncertainty”
 
 **Parts**
+
 * List all the parts collected from the specimen.
 * Again, you can press the Tab key and a small window will pop up with a list to select from. Choose the most appropriate one, ie; h,k,lu,spl (frozen) instead of just h,k,lu,spl
 * “Condition” correlates to the circled number on the data sheet for “Tissue Condition”.
 * “Disposition” is another drop down menu from which you will always select “in collection” unless indicated otherwise.
 * “#” is the number of samples kept of the part. This will almost always be a 1 unless of course indicated otherwise.
 
+
 # Extras
+
+Occasionally data which has no place in the default screen will be available. This may be handled in two ways.
 
 ### Option One: Flags
 
-Occasionally data which has no place in the default screen will be available. This may be handled by flagging the record....
+A flag may be added to the record during entry ...
 
 <img width="320" alt="Screen Shot 2021-07-15 at 6 50 22 AM" src="https://user-images.githubusercontent.com/5720791/125799282-cb6916d8-ee48-4840-8ab3-c3754e1e93ad.png">
 
-... and then, after the record has been loaded, locating it by searching flags....
+... and then, after the record has been loaded, it may be located by searching flags ...
 
 <img width="581" alt="Screen Shot 2021-07-15 at 6 50 59 AM" src="https://user-images.githubusercontent.com/5720791/125799492-1871e7a9-42c0-4d67-a51b-443b198111e5.png">
 
@@ -118,7 +122,7 @@ These options allow, for example, adding parts with multiple attributes.
 
 <img width="981" alt="Screen Shot 2021-07-15 at 6 56 37 AM" src="https://user-images.githubusercontent.com/5720791/125800281-d5c768cc-b8c8-4a7f-a974-28ab8b813a75.png">
 
-These data are written to the Component Loader system, which generated a weekly report.
+These data are written to the Component Loader system, which generates a weekly report.
 
 
 **All finished!**
