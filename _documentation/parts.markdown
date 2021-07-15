@@ -3,7 +3,10 @@ title: Specimen Parts
 layout: default_toc
 ---
 
-# Specimen Parts
+<h1 id="#specimen-parts">
+  Parts
+</h1>
+
 
 Parts are physical entities, in contrast to [Cataloged Items](/documentation/catalog) (an abstract entity) or binary objects
 (such as Images). One or many parts may comprise a Cataloged Item, and
