@@ -11,89 +11,26 @@ layout: default_toc
 
 
 Parts are physical entities, in contrast to [Cataloged Items](/documentation/catalog) (an abstract entity) or binary objects
-(such as Images). One or many parts may comprise a Cataloged Item, and
-parts may be defined as the minimal units for which [storage location](/documentation/container), usage, and condition are
-tracked. (*"Parts are things to which you can stick barcodes."*) In many
-collections, parts are nearly always "whole organisms" but in others,
-such as vertebrate paleontology, the variety of parts is huge.
+(such as Images). One or many parts may comprise a Cataloged Item, and parts may be defined as the minimal units for which [storage location](/documentation/container), usage, and condition are tracked. (*"Parts are things to which you can stick barcodes."*) 
 
-Embryos and parasites may be treated parts of the host organism.
-Ideally, embryos should be treated as separate cataloged items because
-they may have, or they may acquire, attributes distinct from those of
-their mothers. Nevertheless it is often practical to consider them as
-parts of the mother until such time as they do acquire separate
-attributes. Similarly, parasites have been recorded as parts of their
-hosts until such time as they might be worked into a separate parasite
-collection.
+<h2 id="part-names">
+    Part Names
+</h2>
 
-## Part Names
+Public | Required | Editable | Max Length | Value Code Table | What it does 
+ -- | -- | -- | -- | -- | -- 
+Yes | No | Yes | 70 | [ctspecimen_part_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name) | Part names provide information about the physical objects associated with the catalog record. They can be subsampled, loaned, and have one or more attributes associated with them.
 
-`Specimen_Part . Part_Name VARCHAR(70) not null`
+Part names should refer to specific anatomical parts or recognized groups of parts (*e.g.*, "postcranial skeleton"). With rare exception, part names are the singular form of a noun. There is no requirement to include a part in a catalog record.
 
-What we choose to name as a part depends on what we
-define as a part, and while this is often obvious (*e.g.,* "whole
-organism"), organisms become separated into parts in ways both
-standardized and not. Thus, it is difficult to standardize vocabulary
-for every fragment worthy of preservation.
-
-Vocabulary is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name).
-Part names should refer to specific anatomical parts or recognized
-groups of parts (*e.g.*, "postcranial skeleton"). With rare exception,
-parts are the singular form of a noun. 
-
-Parts, when separable, should be entered on individual lines of the
-parts grid as individual collection objects. Distinct parts should be entered on separate lines,
-*e.g*., ***skull*** and ***postcranial skeleton***. A ***postcranial
-skeleton*** is considered a single part. Parts already contained in the ***postcranial skeleton*** may be entered on
-separate lines for clarity. An acceptable entry might be:
+A part name should be entered for each distinct physical object associated with the catalog record *e.g*., ***skull*** and ***postcranial skeleton***. Parts already contained in the ***postcranial skeleton*** may be entered on separate lines for clarity when necessary. An acceptable list of part names in a catalog record might be:
 
 * skull
-* postcranial skeleton (partial)
-* right humerus [part condition: broken]
+* postcranial skeleton
+* right humerus
 
-Such an entry would designate a postcranial skeleton that has a broken right humerus. Situations like this are 
-typically discovered during loans, are almost always unique, and should be dealt with on a case by case basis.
-
-Part name contains information once split out into part modifier, and
-also preservation and storage information. Preservation and storage
-information (eg, "reproductive tract (formalin-fixed, 70% ethanol)") is
-not meant to replace container condition information (e.g.,
-"checked-by-on-date" and environmental history), but simply to
-facilitate searching.
-
-"Traditional" (a concept which varies wildly by discipline and
-collection) part names are often stored without "modifiers." A
-"skeleton" in a mammal collection probably consists of cleaned, dried
-bones stored at room temperature, for example.
-
-## Tissue
-
-Each part name may be flagged as representing "tissue." 
-
->A tissue in Arctos is defined as a specimen part that was collected and/or preserved for molecular or chemical studies, 
-and is intended for consumptive use.
-
-While we have been unable to produce a functional definition, tissues are generally samples intended for subsampling and distribution, generally for purposes of destructive analysis, or simply a part with readily-available tissue from which DNA or RNA may be extracted. Typically, these parts are soft organs, or parts thereof, preserved by freezing, drying, or preservation in buffer or alcohol. However, tissue parts may include whole organisms or other body parts collected and preserved for the purpose of genetic, molecular, or chemical sampling. Such samples commonly supply DNA for sequence analysis, and flagging these parts as tissues allows researchers to search for specimens from which they can readily obtain subsamples. 
-
-Tissues are not necessarily biological productions of the cataloged item.
-For example, parasites may be cataloged as parts and flagged as tissues.
-
-Parts flagged as tissues are not necessarily suitable for every usage, and may include products such as venom.
-
-## Preservation
-
-<div style="margin:1em;padding:1em;border:2px solid red; background-color:rgb(249, 242, 244);">
-NOTE: The definition of Tissue above is being deprecated, and embedded preservation information is being removed from part names. The following will become definitive as the migration is completed.
-</div>
-
-Part Preservation is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPART_PRESERVATION). Any part may have any number of preservation events, and like all Part Attributes they may include date and determiner information. "Tissueness" is an attribute of preservation.
-
-* A part with no preservation attributes is not a tissue
-* A part with one or more preservation attributes having a NULL preservation flag is not a tissue
-* A part with one or more preservation attributes having a TRUE preservation flag may be a tissue, except
-* A part with one or more preservation attributes having a FALSE preservation flag cannot be a tissue
-
-For example, a part preserved in "90% ethanol" would be a tissue, unless it also has an additional (probably earlier) "formalin" attribute.
+Such an entry would designate a postcranial skeleton that has a disarticulated right humerus. Situations like this are 
+typically created when a subsample is removed for a loan. The addition of appropriate part condition, disposition, remark, and/or attribute are used to clarify.
 
 ## Disposition
 
@@ -187,6 +124,35 @@ which results in one part being split into multiple parts or altered into a new 
 Use remarks to document non-standard information pertaining to the specimen part. 
 Do not use remarks for any information which could be recorded with more structure elsewhere, 
 including [Part Attributes](/documentation/attributes).
+
+## Preservation
+
+<div style="margin:1em;padding:1em;border:2px solid red; background-color:rgb(249, 242, 244);">
+NOTE: The definition of Tissue above is being deprecated, and embedded preservation information is being removed from part names. The following will become definitive as the migration is completed.
+</div>
+
+Part Preservation is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTPART_PRESERVATION). Any part may have any number of preservation events, and like all Part Attributes they may include date and determiner information. "Tissueness" is an attribute of preservation.
+
+* A part with no preservation attributes is not a tissue
+* A part with one or more preservation attributes having a NULL preservation flag is not a tissue
+* A part with one or more preservation attributes having a TRUE preservation flag may be a tissue, except
+* A part with one or more preservation attributes having a FALSE preservation flag cannot be a tissue
+
+For example, a part preserved in "90% ethanol" would be a tissue, unless it also has an additional (probably earlier) "formalin" attribute.
+
+## Tissue
+
+Each part name may be flagged as representing "tissue." 
+
+>A tissue in Arctos is defined as a specimen part that was collected and/or preserved for molecular or chemical studies, 
+and is intended for consumptive use.
+
+While we have been unable to produce a functional definition, tissues are generally samples intended for subsampling and distribution, generally for purposes of destructive analysis, or simply a part with readily-available tissue from which DNA or RNA may be extracted. Typically, these parts are soft organs, or parts thereof, preserved by freezing, drying, or preservation in buffer or alcohol. However, tissue parts may include whole organisms or other body parts collected and preserved for the purpose of genetic, molecular, or chemical sampling. Such samples commonly supply DNA for sequence analysis, and flagging these parts as tissues allows researchers to search for specimens from which they can readily obtain subsamples. 
+
+Tissues are not necessarily biological productions of the cataloged item.
+For example, parasites may be cataloged as parts and flagged as tissues.
+
+Parts flagged as tissues are not necessarily suitable for every usage, and may include products such as venom.
 
 # Specimen Results
 
