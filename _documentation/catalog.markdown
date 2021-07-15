@@ -113,7 +113,7 @@ Public? | Required? | Editable? | Max Length | Value Code Table | What it does
  -- | -- | -- | -- | -- | -- 
 No | Yes | No | 5 | [ctcollection_cde](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde) | Links collection catalogs to collection-type-specific code tables.
 
-<! ---See https://github.com/ArctosDB/documentation-wiki/issues/209--- >
+[//]: # (See https://github.com/ArctosDB/documentation-wiki/issues/209)
 
 ## Description
 
