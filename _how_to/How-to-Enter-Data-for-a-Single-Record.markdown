@@ -110,15 +110,17 @@ A flag may be added to the record during entry ...
 
 ... and resolving any issues. This approach requires reliable procedures.
 
-<img width="599" alt="Screen Shot 2021-07-15 at 6 48 03 AM" src="https://user-images.githubusercontent.com/5720791/125798953-a1d4fc09-8fae-4341-a7eb-1f8134396321.png">
 
 ### Option Two: Extras
 
 The most common "extras" are available from the bottom of the data entry screen....
 
+
+These options allow, for example, adding parts with multiple attributes. Simply select the appropriate type ...
+
 <img width="599" alt="Screen Shot 2021-07-15 at 6 48 03 AM" src="https://user-images.githubusercontent.com/5720791/125799814-ee689b91-361f-4da7-8014-4fdff05bc7fd.png">
 
-These options allow, for example, adding parts with multiple attributes.
+... provide whatever's requested by the form, and save.
 
 <img width="981" alt="Screen Shot 2021-07-15 at 6 56 37 AM" src="https://user-images.githubusercontent.com/5720791/125800281-d5c768cc-b8c8-4a7f-a974-28ab8b813a75.png">
 
