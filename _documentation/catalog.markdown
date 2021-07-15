@@ -92,7 +92,9 @@ example:
 
 -   Mammal Specimens
 
-## [Collection Type](#collection-code)
+<h2 id="collection-code">
+  Collection Type
+</h2>
 
 Public | Required | Editable | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
