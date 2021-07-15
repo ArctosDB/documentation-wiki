@@ -9,21 +9,10 @@ date: 2020-04-30
 
 ## Bulkload Media Metadata From Scratch ##
 
-### Get a Media Metadata Bulkload Template ###
+The Media Bulkloader is in the standard "component loader" format.
 
-From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm). You will see this
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Tool_Page.jpg)
-
-Select the information you want to include in the template, then select "get template". You will be asked what you want to do with the file.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Template_Create.jpg)
-
-Open the file with Excel and you will have a worksheet with all of the headers needed to bulkload your media metadata.
-
-### Complete the Media Metadata Bulkload Template ###
-
-Using the downloaded template, fill in the appropriate fields.
+From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm). A template is available, 
+download and fill in the appropriate fields.
 
 #### MEDIA_URI ####
 This field should hold the URI for the media itself. From our example. The directory appears as follows:
@@ -76,19 +65,28 @@ Once the required and any optional fields are complete in the template, save the
 
   **Pro Tip** .csv is the format required for upload to Arctos, however, opening a previously saved .csv in Excel will remove formatting included in the .csv, particularly for dates. Before saving the completed template as a .csv, safe the file first as .xlxs in case you need to make any modifications so that you will retain any formatting.
   
-From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm). You will see this
+From the Arctos main menu select [Enter Data > Batch Tools > Bulkload Media Metadata](https://arctos.database.museum/tools/BulkloadMedia.cfm).
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Tool_Page.jpg)
 
-Scroll to the bottom of the page and select "Browse". Navigate to your .csv and select open. You will now see the file name next to the "Browse" button. Select "Upload this File". You will then see this message:
+## Tools
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Loaded.jpg)
+Several built-in Arctos tools may make loading Media easier.
 
-Depending upon the size of your file, you may be able to see your media immediately, or it may take a day or two. You can see the progress by selecting "[My Stuff](https://arctos.database.museum/tools/BulkloadMedia.cfm?action=mystuff)".
+### Get Media_ID from URI
 
-Any errors, will need to be corrected by correcting and re-loading the file. In this case, the cataloged items do not yet exist in Arctos. If they are added, the media metadata should load.
+When Media is created an ID is assigned, and various post-load processes require media_id. The Component Loader ecosystem deletes records as they are loaded, so these IDs are not readily available as in previous loaders. ``Reports/Services-->Data Services-->get MediaID from URI`` will accept Media_URIs (eg, those loaded to the Media Bulkloader) and return corresponding Media_IDs.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/media/Media_Metadata_Bulkload_Errors.jpg)
+### Get GUID from Barcode
+
+Files are often named using barcodes, but the current loader requires DWC GUID to location catalog records. ``Reports/Services-->Data Services-->Find GUID from Barcode`` will accept barcodes and return corresponding GUIDs (when containers are arranged appropriately).
+
+### Collecting Events
+
+The Media Bulkloader requires collecting event name to link Media to collecting events. (This is the only way to stabilize events.) Named collecting events may be bulkloaded, or existing collecting events may be temporarily named via ``Search-->Places`` then ``Manage Event Names``. (Temporary collecting event names automatically send notifications.)
+
+### Thumbnail Creation
+
+Arctos will automatically attempt to create thumbnails for image Media without them. Simply leave preview_uri NULL (empty) to utilize this functionality.
 
 ## Bulkload Media Metadata with Small Batch Media Upload Tool File ##
 
