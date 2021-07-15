@@ -77,7 +77,7 @@ Free-text description of species associated with the specimen.
 
 Public? | Required? | Editable? | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
-Yes | Yes | No | 20 | None* | In conjunction with catalog number it forms a unique identifier
+Yes | Yes | No | 20 | None | In conjunction with catalog number it forms a unique identifier
 within Arctos, and in conjunction with Arctos’ URI forms a Globally Unique Identifier (GUID) for the specimen record.
 
 GUIDs, once formed, must never be allowed to change or expire, so selection of GUID Prefix is an important task in new collection set-up. See [deleting specimens](#deleting-records-from-arctos) for guidelines. All specimen citations should occur by way of GUID. Note that while GUID Prefix generally appears to be a concatenation of institution and collection code, it is in fact an independent concept; several collections from an institution may use the 'Herb' collection_cde (*e.g.* for vascular plants, cryptogams, and marine algae collections, for example).
