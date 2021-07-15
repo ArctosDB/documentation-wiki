@@ -169,7 +169,9 @@ The following is a complete breakdown of all fields and what data they should in
 * OTHER_ID_REFERENCES_1
   * Any other id references
 
-### [Before Bulkloading](#this-is-a-test)
+<h3 id="this-is-a-test">
+  Before Bulkloading
+</h3>
 
 At the bulkloading page, just above where you will click to choose your file to upload
 
