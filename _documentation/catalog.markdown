@@ -75,23 +75,14 @@ Free-text description of species associated with the specimen.
 
 ## Guid Prefix
 
-`Collection . GUID_Prefix VARCHAR2(20) not null`
+Public? | Required? | Editable? | Max Length | Value Code Table | What it does 
+ -- | -- | -- | -- | -- | -- 
+ Yes | Yes | No | 20 | None* | In conjunction with catalog number it forms a unique identifier
+within Arctos, and in conjunction with Arctos’ URI forms a Globally Unique Identifier (GUID) for the specimen record.
 
-Catalogs are most usefully defined by way of a GUID Prefix,
-which in conjunction with catalog number forms a unique identifier
-within Arctos, and in conjunction with Arctos’ URI forms a Globally
-Unique Identifier (GUID) for the specimen record. GUIDs, once formed,
-must never be allowed to change or expire. See [deleting specimens](#deleting-records-from-arctos) 
-for guidelines. All specimen citations should occur by way of GUID. Note that while GUID Prefix 
-generally appears to be a concatenation of institution and collection code, it is in fact an independent
-concept; several collections from an institution may use the 'Herb' collection_cde 
-(*e.g.* for vascular plants, cryptogams, and marine algae collections, for example).
+GUIDs, once formed, must never be allowed to change or expire, so selection of GUID Prefix is an important task in new collection set-up. See [deleting specimens](#deleting-records-from-arctos) for guidelines. All specimen citations should occur by way of GUID. Note that while GUID Prefix generally appears to be a concatenation of institution and collection code, it is in fact an independent concept; several collections from an institution may use the 'Herb' collection_cde (*e.g.* for vascular plants, cryptogams, and marine algae collections, for example).
 
-#### Choosing a new GUID_PREFIX
-
-We **require** GUID_PREFIX to be 20 or fewer characters, and contain exactly one colon `:` not at the beginning or end of the string.
-
-We **recommend** choosing a GUID_PREFIX that will survive being transferred through various mechanisms, displayed in web pages that might use "fancy" formatting, or typed by users with many kinds of input devices in many languages. We recommend only upper and lower-case ASCII letters (A-Z,a-z), other than the required colon.
+* Although not controlled by a code table, GUID_PREFIX is required to be 20 or fewer characters, and contain exactly one colon `:` not at the beginning or end of the string.
 
 ## Collection
 
@@ -104,14 +95,12 @@ example:
 
 ## Collection Type
 
-`Collection . Collection_Cde VARCHAR2(5) not null`
-
-Code applied to a collection that provides context for types of parts and attributes that the collection will use. Exploring the "filter" option of [Attribute Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE) or [Part Name](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
-will provide an idea of how a collection type has been used.
-
 Public? | Required? | Editable? | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
 No | Yes | No | 5 | [ctcollection_cde](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde) | Links collection catalogs to collection-type-specific code tables.
+
+Code applied to a collection that provides context for types of parts and attributes that the collection will use. Exploring the "filter" option of [Attribute Type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE) or [Part Name](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
+will provide an idea of how a collection type has been used.
 
 [//]: # (See https://github.com/ArctosDB/documentation-wiki/issues/209)
 
@@ -129,23 +118,17 @@ An extended name/description of the collection. For example:
 ## Institution Acronym
 
 `Collection . Institution_Acronym VARCHAR2(20) null`
+Public? | Required? | Editable? | Max Length | Value Code Table | What it does 
+ -- | -- | -- | -- | -- | -- 
+ No | Yes | No | 20 | None | Linked to barcode series and provides a method for sorting collections by institution.
 
-Abbreviation of the institution that hosts the
-catalog. For example, "MVZ" for Museum of Vertebrate Zoology, "UAM" for
-University of Alaska Museum (of the North), "MSB" for Museum of
-Southwestern Biology. Generally, these values are the same as those
-traditionally used for specimen citations within discipline-specific
-publications. 
+Acronym of the institution that hosts the catalog. For example, "MVZ" for Museum of Vertebrate Zoology, "UAM" for
+University of Alaska Museum (of the North) and "MSB" for Museum of Southwestern Biology. 
 
-There are some global collections registries, including:
+There are some global collections registries that include institution acronyms including:
  - <a href="https://www.gbif.org/grscicoll">Global Biodiversity Information Facility (GBIF) Registry of Scientific Collections (GRSciColl)</a>
  - <a href="http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=123984" class="external">Index Herbariorum</a>
  
-### What it does
-
-The Institution Acronym is linked to barcode series and provides a method for sorting collections by institution. It is not visible to the public.
-
-
 ## Taxonomy Source
 
 Collections may choose and order any number of [cttaxonomy_source](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source). Classifications are applied to records from the first source which includes data for all taxa used in an identification.
