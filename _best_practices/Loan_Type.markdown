@@ -21,7 +21,7 @@ We recommend choosing a Loan Type that indicates whether or not objects were han
 
 The following Flowchart should help you select an appropriate Loan Type.
 
-Enter flowchart from https://docs.google.com/drawings/d/1Zs4IoCzJJ2ymbSrm3NIC6ZzWdmw421mIMTO4HlSpxHY/edit
+<a href="https://docs.google.com/drawings/d/1Zs4IoCzJJ2ymbSrm3NIC6ZzWdmw421mIMTO4HlSpxHY" class="external">Link to Flowchart</a>
 
 ### A Note on Data Loans
 
