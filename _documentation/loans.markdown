@@ -7,10 +7,6 @@ layout: default_toc
 
 Loans are transcations that document any removal of objects from a collection, temporary or permanent, including objects that are loaned with the intention of being destroyed or permanently transferred to another institution or collection, as well as the use of object information (data loan). When objects are recieved, a Borrow should be created.
 
-In order to associate objects with in-house projects or the projects of visiting researchers, the concept of loans can be further extended to include in-house usage. When users of objects fail to cite these objects in their publications, a degree of documentation, albeit indirect, exists in that the objects are associated with a loan, which is associated with a project, which can be associated with the publication.
-
-An object "exchange" between collections is two transactions: A loan and an accession. This arrangement well reflects the reality of incompleted exchanges, and takes advantage of the fact that we are dealing with both outgoing objects and incoming objects.
-
 ## Loan Fields
 
 ### Loan Number
@@ -27,7 +23,9 @@ Arctos offers "next loan number" suggestions when a collection's data can suppor
 
 Public | Required | Editable | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
-No | Yes | yes | 25 | [ctloan_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE) | Provides information about collection usage.
+No | Yes | Yes | 25 | [ctloan_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE) | Provides information about collection usage.
+
+Loan transactions can be made public at the collection level, but generally are not.
 
 ### Status
 

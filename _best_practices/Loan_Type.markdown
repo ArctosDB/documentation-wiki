@@ -23,12 +23,22 @@ The following Flowchart should help you select an appropriate Loan Type.
 
 <a href="https://docs.google.com/drawings/d/1Zs4IoCzJJ2ymbSrm3NIC6ZzWdmw421mIMTO4HlSpxHY/edit"></a>
 
-### A Note on Data loans
+### A Note on Data Loans
 
 Data Loans document data usage, and are generally applicable when no objects are handled, but information in Arctos about an object has been used in research. Data loans form a special relationship between a loan and a cataloged item. Data loans are not meant as a replacement for "digitization" loans, in which a part is imaged (or otherwise digitized), as "digitization" loans involve handling physical objects. Subsequent usage of digital media (including that generated in "digitization" loans) may best be recorded as data loans. Curators may wish to create a new loan number series for data loans, although this is not required. Data loans are useful in instances where you discover a publication that cites an Arctos record or an Arctos data download, and you have never loaned objects to any of the authors.
+
+### A Note on "in house" Loans
+
+In order to associate objects with in-house projects or the projects of visiting researchers, the concept of loans can be further extended to include in-house usage. In house usage should be recorded as consumable or not and designated as "in house" through use of the institution's own address as the shipping address. It is NOT recommended to use the "in house" loan type, which we are working to remove from the code table. See [GitHub Issue #3741](https://github.com/ArctosDB/arctos/issues/3741).
+
+### A Note on Exchanges
+
+An object "exchange" between Arctos collections should be recorded as two transactions: a loan and an accession or a loan and a borrow, depending upon the nature of the exchange. This arrangement reflects the reality of incompleted exchanges, and takes advantage of the fact that we are dealing with both outgoing objects and incoming objects. 
 
 ## Summary
 
  - Loan Type is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE).
- - The choice of loan type depends upon whether objects were handled and expectations about their return.
-
+ - The choice of loan type depends upon whether objects were handled and expectations about their return. 
+ - Data Loans should be used when no objects were handled.
+ - "In house" loans are indicated by using the shipping address of the loaning institution
+ - Exchanges between two Arctos collections involve two transactions, a loan and an accession or a loan and a borrow, depending upon the nature of the exchange.
