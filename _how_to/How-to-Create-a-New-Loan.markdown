@@ -24,15 +24,7 @@ The following fields will be visible on the Initiate a Loan page:
 
 * **Outside Contact** - This field will automatically population with the same name identified in “To” after the loan is created. Alternatively, a different contact (e.g., collection manager) could be identified.
 
-* **Loan Type** - Here you will indicate the nature of the material that is to be loaned. Commonly used options include:
-
-   - Returnable: Standard loan. Used when specimens leaving your institution will eventually be returned.
-
-   - Consumable: Used when specimens will not be returned, for example in the case of tissues loaned for DNA extraction.
-
-   - In House: Used when specimens are being loaned out to other individuals within your institution (e.g., for a class).
-
-   - Transfer of Custody: Used when specimens are being permanently transferred to another institution.
+* **Loan Type** - Indicate the nature loan. For information on selection of loan type, see [Best Practice - Selecting a Loan Type](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_best_practices/Loan_Type.markdown).
 
 * **Loan Status** - Here you will indicate the current status of the loan.  
 
