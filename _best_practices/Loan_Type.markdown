@@ -9,7 +9,7 @@ layout: default_toc
 
 # Best Practice - Selecting a Loan Type 
 
-What is a Loan Type? Before you make any decisions about one, you should know what it is. Start by reading the [Loan Type](https://handbook.arctosdb.org/documentation/loans.html#type).
+What is a Loan Type? Before you make any decisions about one, you should know what it is. Start by reading the [Loan Type Documentation](https://handbook.arctosdb.org/documentation/loans.html#type).
 
 ## Loan Type Definitions
 
