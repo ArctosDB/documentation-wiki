@@ -21,7 +21,7 @@ We recommend choosing a Loan Type that indicates whether or not objects were han
 
 The following Flowchart should help you select an appropriate Loan Type.
 
-<a href="https://docs.google.com/drawings/d/1Zs4IoCzJJ2ymbSrm3NIC6ZzWdmw421mIMTO4HlSpxHY/edit"></a>
+![](https://docs.google.com/drawings/d/1Zs4IoCzJJ2ymbSrm3NIC6ZzWdmw421mIMTO4HlSpxHY/edit)
 
 ### A Note on Data Loans
 
@@ -42,3 +42,5 @@ An object "exchange" between Arctos collections should be recorded as two transa
  - Data Loans should be used when no objects were handled.
  - "In house" loans are indicated by using the shipping address of the loaning institution
  - Exchanges between two Arctos collections involve two transactions, a loan and an accession or a loan and a borrow, depending upon the nature of the exchange.
+ 
+ [//]: # (See https://github.com/ArctosDB/documentation-wiki/issues/214)

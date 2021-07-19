@@ -27,6 +27,8 @@ No | Yes | Yes | 25 | [ctloan_type](http://arctos.database.museum/info/ctDocumen
 
 Loan transactions can be made public at the collection level, but generally are not.
 
+For information on selections of loan type, see [Best Practice - Selecting a Loan Type](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_best_practices/Loan_Type.markdown).
+
 ### Status
 
 `Loan . Loan_Status VARCHAR2(20) not null`
