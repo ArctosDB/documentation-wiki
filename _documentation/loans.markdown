@@ -5,27 +5,11 @@ layout: default_toc
 
 # Loans
 
-The concept of a specimen loan is broad and includes any removal of
-specimens from a collection, temporary or permanent, with the exception
-of specimens that are destroyed. ("Discarded" is a specimen
-disposition.) Specimens which are permanently transferred to another
-collection or institution are loans of the type, "transfer of
-custody" (in place of the oxymoron, "permanent loan"). The type
-"transfer of title" could be added when and if we include collections
-that are willing to release title to cataloged specimens.
+Loans are transcations that document any removal of objects from a collection, temporary or permanent, including objects that are loaned with the intention of being destroyed or permanently transferred to another institution or collection, as well as the use of object information (data loan). When objects are recieved, a Borrow should be created.
 
-In order to associate specimens with in-house projects or the projects
-of visiting researchers, the concept of loans can be further extended to
-include in-house usage. When users of specimens fail to cite these
-specimens in their publications, a degree of documentation, albeit
-indirect, exists in that the specimens are associated with a loan, which
-is associated with a project, which can be associated with the
-publication.
+In order to associate objects with in-house projects or the projects of visiting researchers, the concept of loans can be further extended to include in-house usage. When users of objects fail to cite these objects in their publications, a degree of documentation, albeit indirect, exists in that the objects are associated with a loan, which is associated with a project, which can be associated with the publication.
 
-A specimen "exchange" between collections is two transactions: A loan
-and an accession. This arrangement well reflects the reality of
-incompleted exchanges, and takes advantage of the fact that we are
-dealing with both outgoing specimens and incoming specimens.
+An object "exchange" between collections is two transactions: A loan and an accession. This arrangement well reflects the reality of incompleted exchanges, and takes advantage of the fact that we are dealing with both outgoing objects and incoming objects.
 
 ## Loan Fields
 
@@ -41,58 +25,9 @@ Arctos offers "next loan number" suggestions when a collection's data can suppor
 
 ### Type
 
-`Loan . Loan_Type VARCHAR2(25) null`
-
-Loan type is a [code-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE) controlled vocabulary. If multiple Types apply, consider separate loans for separate Types, or
-enter the most important one (*i.e.*, "returnable").
-
-#### Data loans
-
-Data Loans document data usage, and are generally used when a
-project downloads data from Arctos without examining specimens. Data
-loans form a special relationship between a loan and a cataloged item,
-rather than a loan and a specimen part. Data loans are not meant as a
-replacement for "digital" loans, in which a specimen part is imaged (or
-otherwise digitized), as "digital" loans concern physical objects and
-handling specimens. Subsequent usage of digital media (including that
-generated in "digital" loans) may best be recorded as data loans.
-Curators may wish to create a new loan number series for data loans,
-although this is not required. This entry documents creation of a data
-loan for illustrative purposes.
-
-1.  Found publication vaguely citing Arctos
-2.  Created publication agents in Arctos
-3.  Since the available PDF was a reprint, used the DOI to look up
-    original publication information
-    (<http://www.google.com/search?q=DOI%3A+10.1111%2Fj.1472-4642.2008.00547.x>)
-4.  Created Publication in Arctos
-5.  Added Media to the publication
-6.  Created Arctos loan of type "data"
-7.  Downloaded data loan template
-8.  Searched Arctos for scientific names cited in publication
-9.  Downloaded results, copied catalog numbers to data loan template.
-10. Filled in rest of values in data loan template, copy/paste to
-    all cells. Saved as CSV.
-11. Uploaded to data loan loader, clicked OK a couple times.
-12. Created project, added loan, publication, and media created for
-    publication
-    
-    <div class="separator" style="clear:both;text-align:center">
-    <img src="https://sites.google.com/site/arctosdb/_/rsrc/1302031427955/howto/dataloan/screenshot_%202011-04-05%20at%2012.23.05%20PM.png" width="320" height="51" />
-    </div>
-    
-Total time: \~10 minutes, mostly spent researching and creating Agents. Result:
-<http://arctos.database.museum/project/different-climatic-envelopes-among-invasive-populations-may-lead-to-underestimations-of-current-and-future-biological-invasions>
-
-The collections used, even though there was no formal loan request and
-no physical specimen usage, receive quantifiable credit for specimen
-data used. Future Hieracium added to Arctos will not be included in this
-loan, so it will be possible to quickly identify specimens which could
-not have been used, even though the lack of citations in the paper makes
-it impossible to determine which specimens were actually used.
-Additionally, if current Hieracium specimens are later determined to be
-some other species, those data will remain as part of the loan, perhaps
-explaining yet-undetected anomalies in the publication.
+Public | Required | Editable | Max Length | Value Code Table | What it does 
+ -- | -- | -- | -- | -- | -- 
+No | Yes | yes | 25 | [ctloan_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE) | Provides information about collection usage.
 
 ### Status
 
