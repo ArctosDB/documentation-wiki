@@ -9,7 +9,7 @@ date: 2021-07-15
 
 # How to Bulkload Parts
 
-**<a href="https://arctos.database.museum/tools/BulkloadParts.cfm" class="external">Enter Data > Bulkload Tools > Parts > Bulkload Parts</a>**
+From the Arctos main menu select **<a href="https://arctos.database.museum/tools/BulkloadParts.cfm" class="external">Enter Data > Bulkload Tools > Parts > Bulkload Parts</a>**
 
 ## Bulkload Parts Template
 
