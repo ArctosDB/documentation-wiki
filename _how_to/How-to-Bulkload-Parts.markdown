@@ -19,25 +19,25 @@ Information about the fields in the template can be found on the <a href="https:
 
 ## Bulkload Parts File Preparation
 
-Any header can be deleted, added, or rearranged in the excel sheet manually. 
+Any header in the template can be deleted, added, or rearranged. 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-* Be sure edited cells do not have an invisible lead or end these will cause your bulkload file to be rejected. 
+* Be sure edited headers do not have an invisible lead or end as these will cause your bulkload file to be rejected. 
 
-* DO NOT remove required field headers or your bulkload file will be rejected. 
+* **DO NOT** remove required field headers or your bulkload file will be rejected. 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
 
 * The Part Bulkload Tool accepts one part associated with one catalog record identifier per row.
 
-* The bulkloader allows for six part attributes per part. These are there only if you need them. You may or may not use them all and that is ok. They can be left blank. If you need to add more than six attributes, you may add them using the <a href="https://arctos.database.museum/tools/BulkloadSpecimenPartAttribute.cfm" class="external">Part Attribute Bulkload Tool</a>. 
+* The bulkloader allows for six part attributes per part. These are there only if you need them. They can be left blank or removed from the file if you do not need them. If you need to add more than six attributes for any given part, you may add them using the <a href="https://arctos.database.museum/tools/BulkloadSpecimenPartAttribute.cfm" class="external">Part Attribute Bulkload Tool</a> after the part is loaded. 
 
 * Setting status to **autoload** in your bulkload file will automatically load the part as long as no errors occur. If you would like to review parts before they load to catalog records, leave status blank or enter anything other than **autoload** to group parts for review if that would be useful. 
 
 ## Bulkload Parts 
 
-On the <a href="https://arctos.database.museum/tools/BulkloadParts.cfm?action=ld" class="external">Upload csv page of the Bulkload Parts Tool</a> select the Browse button and navigate to your file. Select open and then Upload this file. If you set status to **autoload** in your bulkload file the parts will load automatically, but this may not be an instantaneous process especially if you have loaded a lot of parts. You can always see the progress of your part bulkload by visiting the <a href="https://arctos.database.museum/tools/BulkloadParts.cfm" class="external">Review and Load page of the Bulkload Parts Tool</a>. 
+On the <a href="https://arctos.database.museum/tools/BulkloadParts.cfm?action=ld" class="external">Upload csv page of the Bulkload Parts Tool</a> select the **Browse** button and navigate to your file. Select open and then **Upload this file**. If you set status to **autoload** in your bulkload file the parts will load automatically, but this may not be an instantaneous process especially if you have loaded a lot of parts. You can always see the progress of your part bulkload by visiting the <a href="https://arctos.database.museum/tools/BulkloadParts.cfm" class="external">Review and Load page of the Bulkload Parts Tool</a>. 
 
 ### Bulkload Status
 
