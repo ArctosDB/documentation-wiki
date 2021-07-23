@@ -4,12 +4,16 @@ author: unknown, Teresa J Mayfield-Meyer
 date: 2021-07-23
 layout: default_toc
 ---
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
+
 # How to Create a New Loan
 
 To create a new loan, from the Arctos main menu select [Manage Data -> Transactions -> Create Loan](https://arctos.database.museum/Loan.cfm?Action=newLoan)
 
+[Documenation](https://handbook.arctosdb.org/documentation/loans.html)
+
 ### Collection
-Indicate the collection from which specimens will be loaned by selecting the appropriate colelction from the drop-down menu.
+Indicate the collection from which specimens will be loaned by selecting the appropriate collection from the drop-down menu.
 
 ### Loan Number
 Assign a unique identifier to the loan. On the right side of the screen there should be a box that provides the last number used by the selected collection, this can help insure there are no gaps in loan numbers. 
@@ -45,7 +49,7 @@ Indicates the current status of the loan.
 Enter the date on which preparation of the loan began. The default value is the date on which the loan was first recorded in the database.
 
 ### Return Due Date
-Enter the date thatthe loan is expected to be returned to the lending collection. This date may be used to search for overdue loans, and/or to generate automated reminders to the appropriate agents.
+Enter the date that the loan is expected to be returned to the lending collection. This date may be used to search for overdue loans, and/or to generate automated reminders to the appropriate agents.
 
 ### Nature of Material
 A description summarizing the overall content of the loan. This description will appear on the loan invoice. It should be explicit and concise, but it does not need include details on a specimen-by-specimen basis.
@@ -66,6 +70,10 @@ After the loan has been created, you will be directed to the loan edit page, whe
 
 **Needs documentation**
 
+## Adding Permits
+
+**Needs documentation**
+
 ## Adding Objects to the Loan
 From the edit page, click the “Add Items” button at the bottom of the page.
 
@@ -74,8 +82,6 @@ The standard Arctos search page will appear, but with red letters saying:  **You
 Search for catalog records as you normally would. When the results are displayed, there will be an option next to each catalog record’s parts that will allow you to add it to the loan. Select the relevant parts and then click “Back to Loan” at the top of the page (above the line that indicates the number of specimens that were found).
 
 ## Adding Shipments
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 **Needs documentation**
 
