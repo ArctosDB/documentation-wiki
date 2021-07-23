@@ -21,7 +21,7 @@ We recommend choosing a Loan Type that indicates whether or not objects were han
 
 The following Flowchart should help you select an appropriate Loan Type.
 
-<a href="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/best_practices/Guide%20to%20Arctos%20Loan%20Types.jpg" class="external"></a>
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/best_practices/Guide%20to%20Arctos%20Loan%20Types.jpg)
 
 ### A Note on Data Loans
 
