@@ -137,3 +137,7 @@ and/or [Container](/documentation/container) information is used to signify that
 returned (or sent out on another loan). Maintaining this history is
 vital to recording collection activity, and for building Projects, which
 are transaction-based.
+
+## Related Documentation
+
+[How To Create a Loan](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html)

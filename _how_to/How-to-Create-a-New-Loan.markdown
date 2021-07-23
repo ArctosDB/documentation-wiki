@@ -1,53 +1,87 @@
 ---
 title: How To Create a New Loan
+author: unknown, Teresa J Mayfield-Meyer
+date: 2021-07-23
 layout: default_toc
 ---
 # How to Create a New Loan
 
-Before initiating a loan you must ensure that the recipient of the loan is an Agent within Arctos.  If they are not already an Agent (use Manage Data > Agents to search for them in the Agents database) then you will need to create an Agent for them.
+To create a new loan, from the Arctos main menu select [Manage Data -> Transactions -> Create Loan](https://arctos.database.museum/Loan.cfm?Action=newLoan)
 
-### Initiating a Loan
+### Collection
+Indicate the collection from which specimens will be loaned by selecting the appropriate colelction from the drop-down menu.
 
-To initiate the loan, use the Arctos drop-down menus to select **Manage Data > Transactions > Create Loan**
+### Loan Number
+Assign a unique identifier to the loan. On the right side of the screen there should be a box that provides the last number used by the selected collection, this can help insure there are no gaps in loan numbers. 
+* [Documentation](https://handbook.arctosdb.org/documentation/loans.html#loan-number)
 
-The following fields will be visible on the Initiate a Loan page:
+## Loan Agents
+People associated with loans are selected from Arctos Agents. If a person associated with a loan is not in the Arctos Agent table, they can be added at the time the loan is created.
 
-* **Collection**- Here you will indicate the collection from which specimens will be loaned. Select this from the drop-down menu.
+### Authorized By
+Enter the Agent name for the curator or other individual who is responsible for authorizing the loan.
 
-* **Loan Number** - Here you will assign a unique identifier to the loan. On the right side of the screen there should be a box titled “Next Available Loan Number” that provides a list of loan identifiers by collection. To populate the Loan Number field, click on the identifier that corresponds to the relevant collection. The result should be an identifier in the following format: year..collection (e.g., 2016..Mamm). To complete the Loan Number you will need to enter an appropriate value between the two periods (year.#.collection).  For example, the first loan of 2016 from the mammal collection would be denoted 2016.1.Mamm.
+### To
+Enter the Agent name of the recipient of the loan.  
 
-* **Authorized By** - Indicate the Agent name for the curator or other individual who is responsible for authorizing the loan.
+### In-House Contact
+If no In-house contact is entered, this field will automatically populate with the same name identified in “Authorized By” after the loan is created. 
 
-* **To** - Indicate the Agent name of the recipient of the loan.  
+### Outside Contact
+If no outside contact is entered, this field will automatically populate with the same name identified in “To” after the loan is created.
 
-* **In-House Contact** - This field will automatically populate with the same name identified in “Authorized By” after the loan is created.  Alternatively, a different contact (e.g., collection manager) could be identified.
+### Loan Type
+Indicates the nature of the loan.
+* [Documentation](https://handbook.arctosdb.org/documentation/loans.html#type)
+* [Code Table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctloan_type)
+* [Best Practice - Selecting a Loan Type](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_best_practices/Loan_Type.markdown).
 
-* **Outside Contact** - This field will automatically population with the same name identified in “To” after the loan is created. Alternatively, a different contact (e.g., collection manager) could be identified.
+### Loan Status
+Indicates the current status of the loan.  
+* [Documentation](https://handbook.arctosdb.org/documentation/loans.html#status)
+* [Code Table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctloan_status)
 
-* **Loan Type** - Indicate the nature loan. For information on selection of loan type, see [Best Practice - Selecting a Loan Type](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_best_practices/Loan_Type.markdown).
+### Transaction Date
+Enter the date on which preparation of the loan began. The default value is the date on which the loan was first recorded in the database.
 
-* **Loan Status** - Here you will indicate the current status of the loan.  
+### Return Due Date
+Enter the date thatthe loan is expected to be returned to the lending collection. This date may be used to search for overdue loans, and/or to generate automated reminders to the appropriate agents.
 
-   - In process: This is appropriate after you initiate the loan, but before you ship it.
+### Nature of Material
+A description summarizing the overall content of the loan. This description will appear on the loan invoice. It should be explicit and concise, but it does not need include details on a specimen-by-specimen basis.
 
-   - Open: This is the appropriate status for the period during which the loan is still out.
+### Instructions
+Directions to the borrower on such things as storage and return of the loaned items. These directions will appear on the loan invoice.
 
-   - Closed: It is appropriate to close the loan after all specimens are returned and re-installed in your collection.
+### Description
+**Needs Documentation**
 
-* **Transaction Date** - This field should automatically populate with the date on which the loan was initiated.
+### Remarks
+Any annotations that you would like to keep about the loan. These will not be included on the Loan invoice. 
 
-* **Return Due Date** - Click the box and a mini-calendar will drop down. Select the date by which the loan should be returned.
+Once all of the required fields (in yellow) are completed, click the “Create Loan” button at the bottom of the page.
 
-* **Nature of Material** - Provide a description of the loan material: how many specimens, what will be done with them, where they are going, etc. This is also a good place to enter the catalog numbers of the specimens being loaned.
+## Adding Projects
+After the loan has been created, you will be directed to the loan edit page, where you can add or create projects associated with the loan.
 
-Once all of these fields are completed, click the “Create Loan” button at the bottom of the page.
+**Needs documentation**
 
-A new page will pop up in which you can edit the loan to provide specific information about projects associated with the loan.
+## Adding Objects to the Loan
+From the edit page, click the “Add Items” button at the bottom of the page.
 
-### Adding Specimens to the Loan
+The standard Arctos search page will appear, but with red letters saying:  **You are searching for items to add to a loan**
 
-After you create the loan and the edit page pops up, click the “Add Items” link found at the bottom of the "Edit Loan" box in the menu just below the “Save Edits” button.
+Search for catalog records as you normally would. When the results are displayed, there will be an option next to each catalog record’s parts that will allow you to add it to the loan. Select the relevant parts and then click “Back to Loan” at the top of the page (above the line that indicates the number of specimens that were found).
 
-The standard specimen search page will appear, but with red letters saying:  **You are searching for items to add to a loan**
+## Adding Shipments
 
-Search for specimens as you normally would. When Arctos finds your searched specimens, there will be an option next to each specimen’s parts that will allow you to add it to the loan. Select the relevant specimens/parts and then click “Back to Loan” at the top of the page (above the line that indicates the number of specimens that were found).
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
+
+**Needs documentation**
+
+## How to Create a New Loan Tutorial Video
+
+### Need video tutorial
+[//]: # ([![YouTube: How to Create a New Loan](need thumbnail)](need tutorial))
+
+[Github Issue requesting updates](https://github.com/ArctosDB/documentation-wiki/issues/217)
