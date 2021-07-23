@@ -12,6 +12,8 @@ gems:
 collections:
   documentation:
     output: true
+  best_practices:
+    output: true
   how_to:
     output: true
   resources:
@@ -21,7 +23,7 @@ collections:
 title: Arctos Handbook
 email: arctos.database@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Documentations and How-To's for the Arctos Collaborative Collection Management Solution
+  Handbook for the Arctos Collaborative Collection Management Solution
 #baseurl: "/documentation-wiki" # the subpath of your site, e.g. /blog
 baseurl: ""
 cover: ""

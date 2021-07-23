@@ -1,5 +1,5 @@
 ---
-title: Best Practice: Creating a Meaningful GUID Prefix
+title: Best Practice - Creating a Meaningful GUID Prefix 
 authors: Teresa Mayfield-Meyer
 date created: 2021-07-13
 layout: default_toc
