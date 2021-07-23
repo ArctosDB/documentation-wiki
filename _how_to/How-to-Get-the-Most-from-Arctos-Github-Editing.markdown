@@ -32,7 +32,8 @@ Relevant Markdown links:
 
 * [Convert a Google Doc to Markdown](https://github.com/lmmx/gdocs2md-html) -  a little bit of setup via Google Script and then you'll have a handy tool
 
-* Add a hidden comment to a document - want to keep a note in a document that you don't want to show up to handbook readers? Prefix it with  [//]: # **Note** - this will only work for an entire line, it cannot be used "in line" to hide a few words in a block of text.)
+* Add a hidden comment to a document - want to keep a note in a document that you don't want to show up to handbook readers? Prefix it with  [//]: # **Note** - this will only work for an entire line, it cannot be used "in line" to hide a few words in a block of text.
+ [//]: #test
 
 ## How to Get the Most out of Arctos-Github!
 Editing and creating pages for the Arctos Handbook in the online Github interface is easy and straightforward. However, at some point, you may need to do more, such as move and edit more than one file at a time. Or perhaps a new page needs more time to complete. This is a step-by-step introduction to working with the Arctos Handbook Github repository.
