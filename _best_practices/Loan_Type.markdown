@@ -34,7 +34,6 @@ An object "exchange" between Arctos collections should be recorded as two transa
  - Loan Type is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTLOAN_TYPE).
  - The choice of loan type depends upon whether objects were handled and expectations about their return. 
  - Data Loans should be used when no objects were handled.
- - "In house" loans are indicated by using the shipping address of the loaning institution
  - Exchanges between two Arctos collections involve two transactions, a loan and an accession or a loan and a borrow, depending upon the nature of the exchange.
  
  [//]: # (See https://github.com/ArctosDB/documentation-wiki/issues/214)
