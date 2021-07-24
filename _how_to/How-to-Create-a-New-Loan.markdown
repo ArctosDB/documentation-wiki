@@ -77,11 +77,8 @@ After the loan has been created, you will be directed to the loan edit page, whe
 **Needs documentation**
 
 ## Adding Objects to the Loan
-From the edit page, click the “Add Items” button at the bottom of the page.
 
-The standard Arctos search page will appear, but with red letters saying:  **You are searching for items to add to a loan**
-
-Search for catalog records as you normally would. When the results are displayed, there will be an option next to each catalog record’s parts that will allow you to add it to the loan. Select the relevant parts and then click “Back to Loan” at the top of the page (above the line that indicates the number of specimens that were found).
+[How To Add Loan Items](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html)
 
 ## Adding Shipments
 
