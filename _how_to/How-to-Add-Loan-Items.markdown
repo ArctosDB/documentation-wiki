@@ -18,7 +18,7 @@ The standard Arctos search page will appear, but with red letters saying:  **You
 
 Search for catalog records as you normally would. When the results are displayed, there will be an option next to each catalog record’s parts that will allow you to add it to the loan. Select the relevant parts and then click “Back to Loan” at the top of the page (above the line that indicates the number of specimens that were found).
 
-## Standard Loans
+## Object Loans
 
 Standard loans loan specimen parts.
 
