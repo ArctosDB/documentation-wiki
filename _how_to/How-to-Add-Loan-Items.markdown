@@ -1,13 +1,22 @@
 ---
 title: How To Add Loan Items
 layout: default_toc
-author: DLM
-date: 2021-01-15
+author: DLM, Teresa J Mayfield-Meyer
+date: 2021-01-15, 2021-07-24
 ---
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
 [Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
 
 # How To Add Items to a Loan
+
+## From the Edit Loan Page
+
+Click the “Add Items” button at the bottom of the page.
+
+The standard Arctos search page will appear, but with red letters saying:  **You are searching for items to add to a loan**
+
+Search for catalog records as you normally would. When the results are displayed, there will be an option next to each catalog record’s parts that will allow you to add it to the loan. Select the relevant parts and then click “Back to Loan” at the top of the page (above the line that indicates the number of specimens that were found).
 
 ## Standard Loans
 
@@ -35,9 +44,9 @@ A tool to bulkload loan items is available.
 
 ### Container Leaf Nodes
 
+[How To Find Parts for a Loan Using Object Tracking (Barcodes)](https://handbook.arctosdb.org/how_to/How-To-Find-Parts%20for-a-Loan-Using%20Object%20Tracking-Existing-Freezer-Box.html
+
 Find any container, view leaf nodes
-
-
 
 ## Data Loans 
 
@@ -52,5 +61,7 @@ A tool to bulkload data loan items is available. A bulk unloader is also availab
 ### Loan-->SpecimenSearch-->SpecimenResults (bulk)
 
 Click one of the various "add items" links from the loan search results or edit pages, perform a search, add the results to the loan.
+
+[Github issue # 186](https://github.com/ArctosDB/documentation-wiki/issues/186)
 
 [Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
