@@ -6,8 +6,9 @@ layout: default_toc
 ---
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
-# How To Unlock an Arctos User Account
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
 
+# How To Unlock an Arctos User Account
 
 
 <img width="381" alt="Screen Shot 2020-04-14 at 8 42 58 AM" src="https://user-images.githubusercontent.com/5720791/79244753-1ab5bc00-7e2c-11ea-9129-42aa1ec3f12c.png">
@@ -19,3 +20,6 @@ layout: default_toc
 <img width="200" alt="Screen Shot 2020-04-14 at 8 43 17 AM" src="https://user-images.githubusercontent.com/5720791/79244791-21dcca00-7e2c-11ea-85c6-a0bb828a2515.png">
 
 <img width="453" alt="Screen Shot 2020-04-14 at 8 43 24 AM" src="https://user-images.githubusercontent.com/5720791/79244795-243f2400-7e2c-11ea-90fb-cbe165215280.png">
+
+
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
