@@ -6,7 +6,11 @@ date: 2021-01-15, 2021-07-24
 ---
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
+[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/186)
+
+{% comment %}
 [Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
+{% endcomment %}
 
 # How To Add Items to a Loan
 
@@ -62,6 +66,6 @@ A tool to bulkload data loan items is available. A bulk unloader is also availab
 
 Click one of the various "add items" links from the loan search results or edit pages, perform a search, add the results to the loan.
 
-[Github issue # 186](https://github.com/ArctosDB/documentation-wiki/issues/186)
+[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/186)
 
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
+ [//]: #[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
