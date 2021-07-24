@@ -6,6 +6,8 @@ layout: default_toc
 ---
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
+
 # How to Create a New Loan
 
 To create a new loan, from the Arctos main menu select [Manage Data -> Transactions -> Create Loan](https://arctos.database.museum/Loan.cfm?Action=newLoan)
@@ -90,4 +92,8 @@ Search for catalog records as you normally would. When the results are displayed
 ### Need video tutorial
 [//]: # ([![YouTube: How to Create a New Loan](need thumbnail)](need tutorial))
 
-[Github Issue requesting updates](https://github.com/ArctosDB/documentation-wiki/issues/217)
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
+
+## Background
+[Github Issue #217](https://github.com/ArctosDB/documentation-wiki/issues/217)
+
