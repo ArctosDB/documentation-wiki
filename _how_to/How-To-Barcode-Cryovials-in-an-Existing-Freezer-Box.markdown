@@ -4,6 +4,7 @@ layout: default_toc
 author: Teresa J. Mayfield-Meyer
 date: 2019-02-22
 ---
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
 
 # How To Barcode Cryovials in an Existing Freezer Box
 
@@ -77,3 +78,5 @@ You are now ready to barcode the cryovials. At MSB, we have the information for 
   Return the box to the freezer and save the Excel Workbook.  You are now ready to:
   
   Create Cryovial Labels and [Associate Barcodes with Specimen Parts](http://handbook.arctosdb.org/how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html)
+  
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
