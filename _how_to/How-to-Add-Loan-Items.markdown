@@ -4,6 +4,9 @@ layout: default_toc
 author: DLM
 date: 2021-01-15
 ---
+
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
+
 # How To Add Items to a Loan
 
 ## Standard Loans
@@ -49,3 +52,5 @@ A tool to bulkload data loan items is available. A bulk unloader is also availab
 ### Loan-->SpecimenSearch-->SpecimenResults (bulk)
 
 Click one of the various "add items" links from the loan search results or edit pages, perform a search, add the results to the loan.
+
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
