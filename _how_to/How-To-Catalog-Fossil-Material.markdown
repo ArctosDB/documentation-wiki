@@ -7,6 +7,8 @@ layout: default_toc
  
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
+
 # How To Catalog Fossil Material
 
 Paleonotological data can be challenging, but it can also be very rewarding to work with in Arctos. This How-To documents some of the common issues confronted when entering paleontology data in Arctos and offers solutions developed by the collections who have already addressed them. As always, if a solution appears less-than-optimal, [file an issue](https://github.com/ArctosDB/arctos/issues/new/choose) and help make Arctos better for everyone!
@@ -95,3 +97,5 @@ Appropriate part preservation attributes for fossils include, but are not limite
   * recrystallization:	original minerals in the skeletal tissues are converted into a new crystal structure
   * replacement:	original tissue is replaced with minerals from the surrounding water and sediment
   * reproduction: an imitation, transcript, or copy of an original object (such as a fossil, letter, or painting) not to be confused with an image (photograph)
+
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
