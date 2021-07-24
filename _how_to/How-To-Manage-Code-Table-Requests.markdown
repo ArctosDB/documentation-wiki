@@ -4,6 +4,7 @@ authors: Teresa Mayfield-Meyer, Dusty McDonald
 date created: 2020-05-21
 layout: default_toc
 ---
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
 
 # How To Manage Code Table Addition or Change Requests (for Code Table Administrators)
 
@@ -71,7 +72,6 @@ If rejected, a member of the Code Table Administrators will perform the followin
 
 ## General Values Considerations 
 
-
 1. Be consistent in terminology. Consistency is of the utmost importance, and when there is a conflict consistency should over-ride all
 other considerations. For example, part "whole organism (partial)" exists for consistency; even though "whole" and "partial" in the 
 same part name is somewhat nonsensical, this format preserves sort order (making choosing the correct part easier for 
@@ -119,9 +119,9 @@ to avoid this problem in the future. Parts of unknown preservation/preparation s
 14. Include the GitHub discussion link/URL in the definition. (Reports/DataServices includes a <a href="https://arctos.database.museum/DataServices/linkerizer.cfm" class="external">link-builder tool</a>.)
 
 
-### Specific Values Considerations
+## Specific Values Considerations
 
-#### ctcoll_other_id_type
+### ctcoll_other_id_type
 
 For Other ID Types, attempt to evaluate whether there might realistically be **functionality** at some time in the future. For identifiers that are deemed unlikely to have this, strongly consider using a generic type (such as "other identifier" or "institutional catalog number") rather than creating a new type. The goal should be for all identifier types to have a functional base_url (which equates to functionality for both humans and machines); this is not a necessary element of the data, but should be a significant consideration in deciding if the identifier needs a dedicated type or could be equally useful as a more generic type.
 
@@ -134,3 +134,5 @@ Example Considerations:
 | MVZ: Museum of Vertebrate Zoology   | Identifier supplied by some unknown department of a (more or less) homogeneous organization.       | Discuss in depth before creation. Can the identifier be resolved to an assigning entity (_e.g._, MVZ:Mamm)? If so, direct the requestor to use that. In some cases, while the identifier is unlikely to ever be useful by itself, some future effort might be able to use the identifier type plus some associated data (_e.g._, taxonomy) to create better identifiers and this potential use case **may** be sufficient justification to create.|
 | TU:Fish   | A specific entity which holds (or held) material, not currently discoverable online. "Official" acronym may be in question.   | Create; while this is not currently useful, it it reasonable to believe that at some point the collection may become more accessible and the identifier will become resolvable.|
 | EBRPD: East Bay Regional Park District | Identifier of unknown uniqueness supplied by an entity which probably does not have material but may have additional data. Deemed unlikely to have a base_url at any time, but correspondence is likely to produce data. | Create; "correspondence is likely to produce data" is sufficient evidence of usefulness.  |
+
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
