@@ -4,8 +4,9 @@ layout: default_toc
 author: Teresa Mayfield-Meyer
 date: 2019-02-27
 ---
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
-*UNDER CONSTRUCTION*
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
 
 This document will use a portion of a Museum of Southwestern Biology loan request as an example. Items were requested as follows:
 
@@ -37,3 +38,5 @@ USe the filters to pare the list down to the parts you need for your loan.
 Download the results.
 
 You may have to repeat filtering and downloading if the part you need is combined with more than two other parts. (For example, you need heart tissue - there are more than three "parts" that contain heart and you may need to filter for every possibility to find all of the part locations you need.)
+
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
