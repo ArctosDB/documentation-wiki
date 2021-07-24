@@ -10,7 +10,7 @@ author: Emily Braker
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/edit_parts.jpg)
 
-**Add Parts to a specimen record**
+## Add Parts to a catalog record
 
 Use the blue "Add Specimen Part" box at the bottom of the screen to create new specimen parts:
 * Begin to type desired part name in the Parts field and click "TAB". A pop-up menu will appear with value options. Click on the appropriate part name. **TIP:** Click on the "Define Values" hypertext in the Part field above to view a full listing of value options.
@@ -23,10 +23,15 @@ Use the blue "Add Specimen Part" box at the bottom of the screen to create new s
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/edit_parts_detail.jpg)
 
-**EDIT Parts**
+## EDIT Parts in a catalog record
 * Edit any existing information saved in the Parts fields and click the "Save All Changes" button at the bottom of the table to commit edits.
-* Click on the "Delete" button to remove Parts.
 * Scan or type in the relevant barcode to place a Part in an existing Container (see [How to Create and Edit Containers](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Create-and-Edit-Containers.html) for more details). After saving, the container location can be confirmed by clicking on the Part Location Tab.
+
+## DELETE Parts from a catalog record
+
+* Delete any attributes associated with the part to be deleted. Parts that have an associated part attribute, such as preservation cannot be deleted without first removing the attribute(s).
+ [//]: #From https://github.com/ArctosDB/documentation-wiki/issues/215
+* Click on the "Delete" button to remove Parts.
 
 ## Parts Table Overview Tutorial Video
 
