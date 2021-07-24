@@ -4,6 +4,7 @@ authors: Teresa Mayfield-Meyer
 date created: 2020-05-21
 layout: default_toc
 ---
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
 
 # How To Request a Code Table Addition or Change
 
@@ -35,3 +36,5 @@ Occasionally, an issue requires multiple rounds of discussion and a notification
 
 ### Rejected 
 If rejected, a member of the Code Table Administrators will perform the steps required to ensure that the issue documentation is archived appropriately should a duplicate or similar issue arise in the future.
+
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
