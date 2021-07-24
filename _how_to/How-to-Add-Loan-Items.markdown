@@ -8,9 +8,7 @@ date: 2021-01-15, 2021-07-24
 
 [Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/186)
 
-{% comment %}
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
-{% endcomment %}
+[//]: #[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
 
 # How To Add Items to a Loan
 
