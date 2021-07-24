@@ -4,6 +4,8 @@ layout: default_toc
 author: Teresa J. Mayfield-Meyer
 date: 2019-11-25
 ---
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
+
 # How To Add Geology Attributes to a Locality
 
 [Geology Attributes](http://handbook.arctosdb.org/documentation/geology.html) attach geology information to Locality. Each locality may contain any number of geology attributes, each with a determiner and method. This How-To documents the process for adding Geology Attributes to a Locality.
@@ -46,3 +48,5 @@ If you need to edit a geology attribute, edit the locality, find the geology att
 ## Delete Geology Attributes
 
 If you need to delete a geology attribute, edit the locality, find the attribute, select "Delete this" next to the Geology Attribute, then select "Save Changes" at the bottom of the list of Geology Attributes. 
+
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
