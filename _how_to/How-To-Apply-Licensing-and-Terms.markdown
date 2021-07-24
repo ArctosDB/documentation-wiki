@@ -4,6 +4,8 @@ layout: default_toc
 author: Carla Cicero
 date: 2020-07-06
 ---
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
+
 # How to Apply Licensing and Terms
 
 ### Data
@@ -46,3 +48,5 @@ date: 2020-07-06
 ### Arctos Flow Chart for Licensing and Terms
 
 ![arctos-licensing-flowchart](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/Arctos%20licensing%20flowchart.png)
+    
+[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
