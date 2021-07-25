@@ -6,7 +6,7 @@ layout: default_toc
 ---
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
-<a href="https://github.com/ArctosDB/documentation-wiki/issues/77" target="_blank";>Current Github Update Issue</a>
+[Current Github Update Issue](https://github.com/ArctosDB/documentation-wiki/issues/77)
 
 # How To Catalog Fossil Material
 
