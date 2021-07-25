@@ -4,8 +4,6 @@ authors: Teresa Mayfield-Meyer, Dusty McDonald
 date created: 2020-05-21
 layout: default_toc
 ---
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
-
 # How To Manage Code Table Addition or Change Requests (for Code Table Administrators)
 
 [Code Tables in Arctos](http://arctos.database.museum/info/ctDocumentation.cfm) are maintained by the Arctos Community. [Arctos Code Table Administrators](http://arctos.database.museum/agent.cfm?agent_id=21327088&agent_name=Arctos%20Code%20Table%20Administrators) are community members with code table access who are able to add, edit or delete code table terms. The process for requesting a new code table term or making a change to an existing term is as follows:
@@ -134,5 +132,3 @@ Example Considerations:
 | MVZ: Museum of Vertebrate Zoology   | Identifier supplied by some unknown department of a (more or less) homogeneous organization.       | Discuss in depth before creation. Can the identifier be resolved to an assigning entity (_e.g._, MVZ:Mamm)? If so, direct the requestor to use that. In some cases, while the identifier is unlikely to ever be useful by itself, some future effort might be able to use the identifier type plus some associated data (_e.g._, taxonomy) to create better identifiers and this potential use case **may** be sufficient justification to create.|
 | TU:Fish   | A specific entity which holds (or held) material, not currently discoverable online. "Official" acronym may be in question.   | Create; while this is not currently useful, it it reasonable to believe that at some point the collection may become more accessible and the identifier will become resolvable.|
 | EBRPD: East Bay Regional Park District | Identifier of unknown uniqueness supplied by an entity which probably does not have material but may have additional data. Deemed unlikely to have a base_url at any time, but correspondence is likely to produce data. | Create; "correspondence is likely to produce data" is sufficient evidence of usefulness.  |
-
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
