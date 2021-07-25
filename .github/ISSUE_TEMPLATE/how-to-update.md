@@ -1,7 +1,7 @@
 ---
 name: How To Update
 about: Use this template to request an update to an Arctos How To
-title: How To [add title] update
+title: How To *add title* update
 labels: How To Update
 assignees: ''
 
