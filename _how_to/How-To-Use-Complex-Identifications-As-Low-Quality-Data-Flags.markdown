@@ -4,8 +4,6 @@ layout: default_toc
 author: Anna Chinn
 date: 2019-10-15
 ---
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
-
 # How to use complex identifications as low-quality data flags
 
 ## What are complex identifications?
@@ -57,5 +55,3 @@ The following [SQL](https://docs.google.com/document/d/15e3b8WNErFPqg1SW-QNq0nI_
 
 
 Catalog records that use A{string} identifications as low-quality data flags should be revisited following the initial catalog record bulkload. When possible, curators should add new determinations to the catalog record using real/contemporary scientific names, adding names and classifications to Arctos taxonomy tables when necessary. For large projects of this nature, identifications can be [bulkloaded](https://arctos.database.museum/tools/BulkloadIdentification.cfm) and [classifications should be managed hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html).
-
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
