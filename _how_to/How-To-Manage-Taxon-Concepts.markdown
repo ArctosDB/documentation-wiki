@@ -4,8 +4,6 @@ layout: default_toc
 author: Cam Webb, Teresa J. Mayfield-Meyer
 date: 2021-05-19
 ---
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
-
 # How To Manage Taxon Concepts in Arctos
 
 ## Create a Taxon Concept
@@ -31,5 +29,3 @@ Concepts are not editable. If an edit is required, delete and recreate the taxon
 
 ## Edit Taxon Concept Mapping
 Concept mappings are not editable. To edit a taxon concept mapping, delete and create a new taxon concept mapping.
-
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
