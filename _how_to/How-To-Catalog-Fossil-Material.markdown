@@ -4,10 +4,9 @@ authors: Teresa Mayfield-Meyer, Dustin Perriguey, Nicole Ridgwell, Katherine And
 date created: 2019-03-20
 layout: default_toc
 ---
- 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
+<a href="https://github.com/ArctosDB/documentation-wiki/issues/77" target="_blank";>Current Github Update Request - Issue #77</a>
 
 # How To Catalog Fossil Material
 
@@ -97,5 +96,3 @@ Appropriate part preservation attributes for fossils include, but are not limite
   * recrystallization:	original minerals in the skeletal tissues are converted into a new crystal structure
   * replacement:	original tissue is replaced with minerals from the surrounding water and sediment
   * reproduction: an imitation, transcript, or copy of an original object (such as a fossil, letter, or painting) not to be confused with an image (photograph)
-
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
