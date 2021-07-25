@@ -5,12 +5,9 @@ date: 2021-07-21
 layout: default_toc
 ---
 
-<span align="right"><a href="https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%255Badd+title%255D+update" class="external">Request an Update to this How To</a></span>
-
 # How To Approve Records Created With Data Entry Form
 
-## Navigation: 
-<a href="https://arctos.database.museum/Bulkloader/browseBulk.cfm" class="external">Enter Data > Bulkloader > Browse and Edit</a>
+#### Navigation: <a href="https://arctos.database.museum/Bulkloader/browseBulk.cfm" class="external">Enter Data > Bulkloader > Browse and Edit</a>
 
  Select the user, accession and collection you wish to approve from the options offered in the "Entered By", "Accession" and "Collection" columns. Now choose the option you wish to use to review and edit the data.
 
