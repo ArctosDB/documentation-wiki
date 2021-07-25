@@ -5,9 +5,7 @@ date: 2021-07-21
 layout: default_toc
 ---
 
-div<class="btnupdate">
-<a href="https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%255Badd+title%255D+update" class="external">Request an Update to this How To</a>
-</div>
+<a href="https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%255Badd+title%255D+update" class="external" align="right">Request an Update to this How To</a>
 
 # How To Approve Records Created With Data Entry Form
 
