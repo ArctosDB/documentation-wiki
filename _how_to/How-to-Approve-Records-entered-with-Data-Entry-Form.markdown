@@ -1,19 +1,17 @@
 ---
 title: How To Approve Records Entered With Data Entry Form
+author: unknown, Teresa J Mayfield-Meyer
+date: 2021-07-21
 layout: default_toc
 ---
 
+<a href="https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%255Badd+title%255D+update" class="external">Request an Update to this How To</a>
+
 # How To Approve Records Created With Data Entry Form
 
-First go to:
+## Navigation: div<class="btnupdate"><a href="https://arctos.database.museum/Bulkloader/browseBulk.cfm" class="external">Enter Data > Bulkloader > Browse and Edit</a></div>
 
-```
-Enter Data > Bulkloader > Browse and Edit
-```
-
-It will bring you to a page where you can choose what user, accession, and collection's entries to approve.
-
-Select the user, accession and collection you wish to approve from the options offered in the "Entered By", "Accession" and "Collection" columns. Now choose the option you wish to use to review and edit the data.
+ Select the user, accession and collection you wish to approve from the options offered in the "Entered By", "Accession" and "Collection" columns. Now choose the option you wish to use to review and edit the data.
 
 ## SQL
 
