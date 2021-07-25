@@ -4,8 +4,6 @@ layout: default_toc
 author: Phyllis Sharp
 date: 2021-06-15
 ---
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
-
 # How to Manage Taxonomy in the WoRMS (via Arctos) Source
 
 WoRMS (via Arctos) is an externally managed taxonomic resource.  Whereas Arctos and Arctos Plants are managed by Arctos users, WoRMS (via Arctos) is 
@@ -75,5 +73,3 @@ If you add a taxon name with a WoRMS (via Arctos) taxon status of INVALID, be su
 <img width="888" alt="image" src="https://user-images.githubusercontent.com/15368365/122129685-b0aff280-cdf3-11eb-8428-11784ed30e78.png">
 
 Most names with a subgenus in WoRMS are invalid.  Exceptions are those in echinodermata, cnidaria, and other non-molluscan phyla.
-
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
