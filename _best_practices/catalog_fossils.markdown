@@ -4,9 +4,7 @@ authors: Teresa Mayfield-Meyer, Dustin Perriguey, Nicole Ridgwell, Katherine And
 date created: 2019-03-20
 layout: default_toc
 ---
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
-
-#### [Add to Current Update Request](https://github.com/ArctosDB/documentation-wiki/issues/77)
+ [//]: # [Previous Update Request](https://github.com/ArctosDB/documentation-wiki/issues/77)
 
 # Best Practice - Cataloging Fossil Material
 
