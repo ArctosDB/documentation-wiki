@@ -4,8 +4,6 @@ author: Dusty McDonald, Teresa J. Mayfield-Meyer
 date: 2020-04-14
 layout: default_toc
 ---
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
-
 # How To Unlock an Arctos User Account
 
 [Documentation](https://handbook.arctosdb.org/documentation/users.html#unlocking)
@@ -34,6 +32,3 @@ layout: default_toc
 This will generate an email to the user who must respond and reset their password.
 
 <img width="453" alt="Screen Shot 2020-04-14 at 8 43 24 AM" src="https://user-images.githubusercontent.com/5720791/79244795-243f2400-7e2c-11ea-90fb-cbe165215280.png">
-
-
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
