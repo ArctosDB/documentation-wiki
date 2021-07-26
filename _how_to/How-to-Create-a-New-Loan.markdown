@@ -10,7 +10,7 @@ layout: default_toc
 
 # How to Create a New Loan
 
-To create a new loan, from the Arctos main menu select [Manage Data -> Transactions -> Create Loan](https://arctos.database.museum/Loan.cfm?Action=newLoan)
+#### Navigation: <a href="https://arctos.database.museum/Loan.cfm?Action=newLoan" target="_blank">Manage Data -> Transactions -> Create Loan</a>
 
 [Documenation](https://handbook.arctosdb.org/documentation/loans.html)
 
