@@ -6,8 +6,9 @@ date: 2018-05-04
 ---
 # How to Contribute and Edit Content for the Arctos Handbook and Arctos Documentation
 
-There are three kinds of content on the Arctos Handbook:
+There are four kinds of content on the Arctos Handbook:
 
+* **Best Practices**, which offer details on how experienced collections handle data and workflow decisions
 * **Documentation**, which describes specific data tables and/or types and defines data fields
 * **How-to Guides**, step-by-step instructions on how to do specific tasks in Arctos
 * **Resources**, for tutorials by the Arctos community and teaching guides that use Arctos
@@ -16,7 +17,9 @@ Arctos Handbook content can be created or edited by anyone who is a member of th
 
 We encourage Curators/Collection Managers to engage students in writing "How-to Guides." However, students will not be able to post them to the wiki site; instead, they will need to submit the content to a member of the ArctosDB "Users" team (e.g., their supervisor) who can then post the content.
 
->**TIP**: Documentation pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/), which is dead simple 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
+
+>Documentation pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/), which is dead simple 
 to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 >
 >Start here for [basic steps to writing guides for the Arctos Handbook](http://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
@@ -149,7 +152,8 @@ In the page where you want to insert a table, follow the guide for [Organizing D
 * Email the database administrator for the password.
 * Add the link to the page.
 
-## Pro tip: Text editors
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+## Text editors
 
 If you want to work on markdown content offline or just not in a browser, there are a number of great text editors to use. Here are some FREE favorites:    
 
