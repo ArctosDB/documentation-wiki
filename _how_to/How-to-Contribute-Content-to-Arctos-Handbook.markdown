@@ -21,8 +21,6 @@ We encourage Curators/Collection Managers to engage students in writing "How-to 
 
 >Documentation pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/), which is dead simple 
 to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
->
->Start here for [basic steps to writing guides for the Arctos Handbook](http://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
 
 ## Create New Content
 
@@ -31,7 +29,7 @@ to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mar
 
 Majority of users will be adding to the _How-to_ pages since Documentation is usually reserved for the Arctos Programmers to define the data tables. Below will cover editing and creating content online within your browser (we're using _Chrome_).
 
-To edit offline and more advanced editing, consult [_How to Get the Most Out of Arctos-Github Editing_]({{site.baseurl}}/how_to/How)
+To edit offline and more advanced editing, consult [_How to Get the Most Out of Arctos-Github Editing_](https://handbook.arctosdb.org/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.html#how-to-get-the-most-out-of-arctos-github)
 
 * Enter the directory `_how_to` in the repository
   * if you get lost in the repo, be sure to click on "< > Code " tab to navigate back to the main section
