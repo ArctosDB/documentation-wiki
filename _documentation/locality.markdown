@@ -223,16 +223,16 @@ ctdepth_units
 
 ```
 
- are a distance below the surface of a body of water.  The
-body of water may or may not be at sea level, *e.g.,* a mountain lake. 
-If depth data are part of the verbatim locality, they should be entered
-three fields for elevation: Minimum Depth, Maximum Depth, and Depth
+ are a distance below the local surface (such as a body of water or soil surface).  The
+surface may or may not be at sea level, *e.g.,* a mountain lake. 
+If depth data are part of the verbatim locality, they should be entered as
+three fields: Minimum Depth, Maximum Depth, and Depth
 Units (ft, m).  If the verbatim locality contains a depth range, e.g.,
 500-600 ft, these values should be entered into the minimum and maximum
 depth fields, respectively.  If a single depth is given in the verbatim
 locality, put that value in both the minimum and maximum elevation
 fields.
-
+ [//]: # Github issue:https://github.com/ArctosDB/documentation-wiki/issues/117
 
 ## TRS
 
