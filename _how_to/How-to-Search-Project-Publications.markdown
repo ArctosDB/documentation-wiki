@@ -3,9 +3,11 @@ title: How To Search Projects and Publications
 layout: default_toc
 ---
 
-# Publication / Project Search
+# How To Search Publications and Projects
 
 Search Publications and Project to explore how specimens are used, how projects support other projects, how Publications are produced, and much more.
+
+#### Navigation <a href="https://arctos.database.museum/SpecimenUsage.cfm" target="_blank">Search > Publications/Projects</a>
 
 ## Remark
 
