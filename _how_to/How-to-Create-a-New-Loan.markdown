@@ -6,8 +6,6 @@ layout: default_toc
 ---
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
-
 # How to Create a New Loan
 
 #### Navigation: <a href="https://arctos.database.museum/Loan.cfm?Action=newLoan" target="_blank">Manage Data -> Transactions -> Create Loan</a>
@@ -84,13 +82,16 @@ After the loan has been created, you will be directed to the loan edit page, whe
 
 **Needs documentation**
 
-## How to Create a New Loan Tutorial Video
+## Video Tutorial
 
-### Need video tutorial
-[//]: # ([![YouTube: How to Create a New Loan](need thumbnail)](need tutorial))
+**Video tutorial needed**  
+ [//]: # [![YouTube: How To Create Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)]()
 
-[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
+## Edit this How To
 
-## Background
-[Github Issue #217](https://github.com/ArctosDB/documentation-wiki/issues/217)
+If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Create-Agents.markdown).
+
+
+## Community Discussion
+- [Github Issue #217](https://github.com/ArctosDB/documentation-wiki/issues/217)
 
