@@ -11,6 +11,8 @@ date: 2021-07-27
 
 ## Before Creating a New Agent
 
+- <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Documentation</a>
+
 Before creating any new Agent, it is important to check if the Agent already exists in Arctos. Do this by typing in the person's last name or the organization's name in the “Any part of any name” box and clicking “Search”. If there are no current Agents that use that name, you are good to go. If you discover Agents with a similar name, make sure that they are different people so that you don't create a duplicate Agent. Use the Agent “unknown” when the person or organization doing the collecting, identifying, borrowing, etc. is unknown or unclear. Please do not create new Agents such as “Collector unknown” or “Determiner unknown”. Consider using “unknown” along with the verbatim collector [attribute](http://handbook.arctosdb.org/documentation/attributes.html) rather than creating cryptic agents such as A.B.C. or S. Smith. If at some point in the future the full name of collector, determiner, or borrower S. Smith is determined to be Susan B. Smith for a specific set of records, add the full Agent name to Arctos and assign the records appropriately.
 
 ## Create a New Agent
@@ -29,6 +31,8 @@ The additional fields described below can assist Arctos users in determining tha
 
 ## Agent Names
 
+- <a href="https://handbook.arctosdb.org/documentation/agent.html#names" target="_blank">Documentation</a>
+
 It is a good idea to add variations of the Agent name for which Arctos users might search. Someone may type in Kurt Galbreath, Kurt G., or K. Galbreath but the preferred name is Kurt E. Galbreath. It is especially helpful to add the full middle name if known and any suffixes (e.g., Jr., Sr.) or maiden names.
 
 ### Name Type login
@@ -39,9 +43,14 @@ An agent should never have more than one name of type "login". For Arctos operat
 
 ## Agent Status
 
+- <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_status" target="_blank">Code Table</a>
+
 Agent status applies to person Agents. Use with caution and only if you are certain that the information you choose is correct. 
 
 ## Relationships
+
+- <a href="https://handbook.arctosdb.org/documentation/agent.html#agent-relationships" target="_blank">Documentation</a>
+- <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type" target="_blank">Code Table</a>
 
 Relationships are useful to connect students to instructors, spouses to each other, children to parents, people to organizations they worked for or were associated with, etc.
 
