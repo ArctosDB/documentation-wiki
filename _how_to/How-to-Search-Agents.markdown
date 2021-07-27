@@ -21,7 +21,7 @@ Enter the name of the person or organization you want to find in Arctos.
 
 ## Video Tutorial
 
-[![YouTube: How To Create Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)](https://youtu.be/MfXTtQ2A5hY%20%09)
+[![YouTube: How To Search Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)](https://youtu.be/MfXTtQ2A5hY)
 
 ## Edit this How To
 
