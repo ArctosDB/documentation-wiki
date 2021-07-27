@@ -10,39 +10,11 @@ date: 2016-12-01
 Agents are people, organizations, or groups that perform actions.
 Collectors are agents, authors of publications are agents, users of
 specimens are agents, and, if you enter or edit data, you are an agent.
-A single agent can have many roles and many names.
+A single agent can have many roles and many names. No matter how many roles or names an agent has, a single person (or
+agency) should be in the database only once. 
 
-No matter how many roles or names an agent has, a single person (or
-agency) should be in the database only once. Before new agent records
-are created, the database should be carefully queried to check that the
-"new" agent is not already in the database. A collector may have
-married and now be submitting specimens as collected under her married
-name, for example.
-
-Agents with non-English names may exist in the database under
-alternative transliterations. (Felix Chernyavski's name is published in
-English as Tchernyavski and Chernyavsky.) In these cases, additional
-Agent Names are required, not additional Agents. Additional names using
-original alphabet of the agent's name are an obvious
-clarification. (Cyrillic, in the example above.)
-
-For legacy data, the above is a difficult standard. Are Robert Smith,
-R. Smith, and Bob Smith three agents or one? Sometimes, the activities
-already recorded for an agent makes the answer clear, *e.g.*, there were
-probably not two Eleazer Fitzgarrolds collecting grasshoppers in
-northern Madagascar in the 1930s. (If you are viewing a an agent record,
-the "Agent Activity" link will show you all of the agent's actions that
-are recorded.) Thus, it is useful to provide as much information as
-possible when creating and editing agent records. If you can figure it
-out, the database can usefully handle the information. If you cannot
-figure it out it probably doesn't matter; having multiple agents
-collecting under the name "J. Smith" doesn't really affect any
-conceivable use of the data, and if one of the agents distinguishes
-themselves somehow (*e.g.*, through publications), it's easy to split
-the combined agent.
-
-Use the Agent “unknown” when the person or organization doing the collecting, identifying, borrowing, etc. is unknown or unclear. Please do not create new Agents such as “Collector unknown” or “Determiner unknown”. Consider using “unknown” along with the verbatim collector [attribute](http://handbook.arctosdb.org/documentation/attributes.html) rather than creating cryptic agents such as A.B.C. or S. Smith. If at some point in the future the full name of collector, determiner, or borrower S. Smith is determined to be Susan B. Smith for a specific set of records, add the full Agent name to Arctos and assign the records appropriately.
-
+ - Best Practice - Creating Meaningful Agents need link
+ - 
 ## Agent Type
 
 `Agent . Agent_Type VARCHAR2(15) not null`
