@@ -85,7 +85,6 @@ After the loan has been created, you will be directed to the loan edit page, whe
 ## Video Tutorial
 
 **Video tutorial needed**  
- [//]: # [![YouTube: How To Create Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)]()
 
 ## Edit this How To
 
