@@ -1,8 +1,8 @@
 ---
 title: Agents
 layout: default_toc
-author: ArctosDB
-date: 2016-12-01
+author: Teresa J. Mayfield-Meyer, ArctosDB
+date: 2021-07-27, 2016-12-01
 ---
 
 # Agents
