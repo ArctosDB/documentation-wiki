@@ -1,15 +1,12 @@
 ---
 title: How To Create Agents
 layout: default_toc
-author: Emily Braker
+author: April Payne, Emily Braker
 date: 2016-02-27
 ---
-
 # How to Create Agents
 
-_(Based on a guide initally developed by April Payne, Northern Michigan University)_
-
-__Manage Data > Agents__
+#### Navigation: <a href="https://arctos.database.museum/agents.cfm" target="_blank">Manage Data > Agents</a>
 
 ## Before Creating a New Agent
 
@@ -59,4 +56,4 @@ Once you have entered all the information about the Agent click â€œSave Changesâ
 
 ## How to Create & Edit Agents Tutorial Video
 
-[![YouTube: How To Create Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_and_Edit_Arctos_Agents_thumb.jpg)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
+[![YouTube: How To Create Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
