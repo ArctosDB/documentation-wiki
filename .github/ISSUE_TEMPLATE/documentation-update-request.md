@@ -2,7 +2,7 @@
 name: Documentation Update Request
 about: Use this template to request an update to Arctos Documentation
 title: Documentation update - ADD DOCUMENT TITLE
-labels: How To Update
+labels: Documentation Update
 assignees: ''
 
 ---
@@ -25,11 +25,13 @@ The following could use some more work
 
 **No need to complete below this point - these are reminders for the person working on the update**
 
- - [ ] Add a link to this issue on the document (use "Add to current update request" as the text for the link)
+ - [ ] Add a link to this issue at the top of the document (use "Add to current update request" as the text for the link)
+ - [ ] Add a link to this issue in the Community discussion section of the document (use "Github Issue #X" as the text for the link.)
 
 When the above are complete:
 
- - [ ] Comment the link created above. (use  [//]: # before the link so it will not display on the page, but will remain in the code)
+ - [ ] Comment the link created at the top of the document. (use  [//]: # before the link so it will not display on the page, but will remain in the code)
+- [ ] Remove the under construction bear banner if it is there
 
 Notify the Arctos Community of the update:
 
