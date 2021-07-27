@@ -13,8 +13,8 @@ specimens are agents, and, if you enter or edit data, you are an agent.
 A single agent can have many roles and many names. No matter how many roles or names an agent has, a single person (or
 agency) should be in the database only once. 
 
- - Best Practice - Creating Meaningful Agents need link
- - 
+ - <a href="https://handbook.arctosdb.org/best_practices/Agents.html" target="_blank">Best Practice - Creating Meaningful Agents</a>
+
 ## Agent Type
 
 `Agent . Agent_Type VARCHAR2(15) not null`
