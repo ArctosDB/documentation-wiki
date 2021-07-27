@@ -7,6 +7,8 @@ layout: default_toc
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
+[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/224)
+
 # Best Practice - Creating Meaningful Agents 
 
 What is an Agent? Before you make any decisions about one, you should know what it is. Start by reading the [Agent Documentation](https://handbook.arctosdb.org/documentation/agent.html).
@@ -50,3 +52,10 @@ Use the Agent “unknown” when the person or organization doing the collecting
  - Every Agent should represent an individual person or organization.
  - Make every effort possible to avoid creating duplicate Agents.
  
+## Edit this Best Practice
+
+If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/Agents.markdown).
+
+
+## Community Discussion
+- [Github Issue #224](https://github.com/ArctosDB/documentation-wiki/issues/224)
