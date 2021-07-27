@@ -54,6 +54,10 @@ Addresses and other contact information are useful for all Agents as they can pr
 
 Once you have entered all the information about the Agent click “Save Changes” at the bottom of the screen to save your new Agent or any edits you have made to an existing Agent.
 
-## How to Create & Edit Agents Tutorial Video
+## Video Tutorial
 
 [![YouTube: How To Create Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
+
+## Edit this How To
+
+If you see something that needs to be edited in this How To, you can create an issue using the link at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Create-Agents.markdown).
