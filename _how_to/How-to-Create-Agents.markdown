@@ -60,4 +60,4 @@ Once you have entered all the information about the Agent click â€œSave Changesâ
 
 ## Edit this How To
 
-If you see something that needs to be edited in this How To, you can create an issue using the link at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Create-Agents.markdown).
+If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Create-Agents.markdown).
