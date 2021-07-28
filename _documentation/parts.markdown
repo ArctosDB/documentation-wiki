@@ -17,7 +17,10 @@ Parts are physical entities, in contrast to [Cataloged Items](/documentation/cat
     Part Names
 </h2>
 
-<embed src="http://test.arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name" width=50 height=50 />
+<div> 
+    <object type="text/html" data="http://test.arctos.database.museum/tblbrowse.cfm?action=tbldetail&tbl=specimen_part" width="100px" height="100px" style="overflow:auto;border:5px ridge blue">
+    </object>
+ </div>
 
 Public | Required | Editable | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
