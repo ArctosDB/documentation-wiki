@@ -17,11 +17,11 @@ Parts are physical entities, in contrast to [Cataloged Items](/documentation/cat
     Part Names
 </h2>
 
-<a href="http://test.arctos.database.museum/tblbrowse.cfm?action=tbldetail&tbl=coll_object" target="_blank">table browser</a>
+`specimen_part . part_name VARCHAR(255) not null`
 
-Public | Required | Editable | Value Code Table | What it does 
- -- | -- | -- | -- | -- 
-Yes | No | Yes | [ctspecimen_part_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name) | Part names provide information about the physical objects associated with the catalog record. They can be subsampled, loaned, and have one or more attributes associated with them.
+ - [Value Code Table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name)
+
+Part names provide information about the physical objects associated with the catalog record. They can be subsampled, loaned, and have one or more attributes associated with them.
 
 Part names should refer to specific anatomical parts or recognized groups of parts (*e.g.*, "postcranial skeleton"). With rare exception, part names are the singular form of a noun. There is no requirement to include a part in a catalog record.
 
