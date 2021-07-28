@@ -22,6 +22,8 @@ Parts are physical entities, in contrast to [Cataloged Items](/documentation/cat
     </object>
  </div>
 
+<a href="%22http://test.arctos.database.museum/tblbrowse.cfm?action=tbldetail&tbl=specimen_part" target="_blank">table browser</a>
+
 Public | Required | Editable | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
 Yes | No | Yes | 70 | [ctspecimen_part_name](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name) | Part names provide information about the physical objects associated with the catalog record. They can be subsampled, loaned, and have one or more attributes associated with them.
