@@ -45,8 +45,8 @@ Some values may be replaced by or require primary keys: `locality_id`, `entered_
 
 Once a component loader record is marked to load by making ``status`` autoload, a script periodically attempts to parse the record into the normalized core Arctos structure. This may result in two things: 
 
-    * the record is added to the associated catalog record and marked for cache refresh, or
-    * an error is returned in the ``status`` column
+ - the record is added to the associated catalog record and marked for cache refresh, or
+ - an error is returned in the ``status`` column
    
 Records which successfully load must be refreshed in the cache before appearing in the user interfaces. Records are  refreshed in the order they enter the queue. This process often takes less than one minute, but in the case of many thousands of records being queued can take up to several days. <a href="https://arctos.database.museum/info/flat_status.cfm" target="_blank">Reports/Services >View Statistics >FLAT</a> status provides a summary of the state of the cache, and may be useful in estimating processing time.
 
