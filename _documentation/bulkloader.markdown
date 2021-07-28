@@ -5,6 +5,8 @@ layout: default_toc
 
 # Bulkloader
 
+#### Navigation: <a href="https://arctos.database.museum/Bulkloader/BulkloadSpecimens.cfm" target="_blank">Enter Data > Bulkloader > Bulkload Catalog Records</a>
+
 New specimen records may be created from a single flat (non-relational)
 file, a text file in which all (or most) data for a single cataloged
 item are in a single row. This file can be created with any convenient
