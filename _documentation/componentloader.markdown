@@ -37,9 +37,13 @@ All component loaders include a status field that is NOT part of the component l
 #### autoload
 Entering "autoload" in the status field sets the record to load.
 
-## Primary Key Warning
+### Primary Key Warning
 
 Some values may be replaced by or require primary keys: `locality_id`, `entered_by_agent_id`, `collecting_event_id`, etc. These are internal database identifiers that exist only for convenience, and may be updated, transferred to another data object, or removed for seemingly arbitrary reasons and without warning. They’ll probably work over short time-periods, but we offer no guarantees.
+
+## Permissions
+
+An Arctos operator with Data Entry permissions can upload records to a component loader. Arctos operators with Manage Collection can delete and change the status of records in the component loaders (including setting status to autoload)
 
 ## Processing
 
