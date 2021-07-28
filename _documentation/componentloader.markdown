@@ -16,7 +16,7 @@ Data can be added to and in some cases removed from existing catalog records fro
 
  - You may mix accessions, collections, or anything  else in a single component load.
 
- - The component loaders may not handle every eventuality that may ever occur while entering additional data. Use [stauts](#status) to mark records for further review,  records in any component loader that were populated from the bulkloader will be tied to the bulkloader recordss with UUIDs.
+ - The component loaders may not handle every eventuality that may ever occur while entering additional data. Use [status](#status) to mark records for further review,  records in any component loader that were populated from the bulkloader will be tied to the bulkloader recordss with UUIDs.
 
  - Error messages should include more than enough information to allow you to locate and correct the problem. If that isn’t the case, [contact us](https://arctosdb.org/join-arctos/contacts-support) with the error message and a description of the action that caused the error message.
 
