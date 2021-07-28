@@ -202,7 +202,7 @@ Once a record is marked to load by making ``loaded`` NULL, a script periodically
     * an error is returned in the ``loaded`` column
    
 Records which successfully load must be refreshed in the cache before appearing in the user interfaces. Records are refreshed in the order they enter the queue. This process often takes 
-less than one minute, but in the case of many thousands of records being queued can take up to several days. Reports/Services--->View Statistics--->FLAT status provides a summary of the state
+less than one minute, but in the case of many thousands of records being queued can take up to several days. <a href="https://arctos.database.museum/info/flat_status.cfm" target="_blank">Reports/Services >View Statistics >FLAT</a> status provides a summary of the state
 of the cache, and may be useful in estimating processing time.
 
 Note that there is a period of time between successful loading and the cache being refreshed where records are not visible in any user interface.
