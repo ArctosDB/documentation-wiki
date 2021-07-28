@@ -16,7 +16,7 @@ Data can be added to and in some cases removed from existing catalog records fro
 
  - You may mix accessions, collections, or anything  else in a single component load.
 
- - The component loaders may not handle every eventuality that may ever occur while entering additional data. Use [status](#status) to mark records for further review,  records in any component loader that were populated from the bulkloader will be tied to the bulkloader recordss with UUIDs.
+ - The component loaders may not handle every eventuality that may ever occur while entering additional data. Use [status](#status) to mark records for further review. Records in any component loader that were populated from the bulkloader will be tied to the bulkloader records with UUIDs.
 
  - Error messages should include more than enough information to allow you to locate and correct the problem. If that isn’t the case, [contact us](https://arctosdb.org/join-arctos/contacts-support) with the error message and a description of the action that caused the error message.
 
@@ -43,7 +43,8 @@ Some values may be replaced by or require primary keys: `locality_id`, `entered_
 
 ## Processing
 
-Once a component loader record is marked to load by making ``status`` autoload, a script periodically attempts to parse the record into the normalized core Arctos structure. This may result in two things:
+Once a component loader record is marked to load by making ``status`` autoload, a script periodically attempts to parse the record into the normalized core Arctos structure. This may result in two things: 
+
     * the record is added to the associated catalog record and marked for cache refresh, or
     * an error is returned in the ``status`` column
    
