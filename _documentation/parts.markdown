@@ -18,7 +18,7 @@ Parts are physical entities, in contrast to [Cataloged Items](/documentation/cat
 </h2>
 
 <div> 
-    <object type="text/html" data="http://test.arctos.database.museum/tblbrowse.cfm?action=tbldetail&tbl=specimen_part" width="100px" height="100px" style="overflow:auto;border:5px ridge blue">
+    <object type="text/html" data="http://test.arctos.database.museum/tblbrowse.cfm?action=tbldetail&tbl=specimen_part" width="500px" height="500px" style="overflow:auto;border:5px ridge blue">
     </object>
  </div>
 
