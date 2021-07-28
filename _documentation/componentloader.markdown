@@ -6,7 +6,7 @@ layout: default_toc
 ---
 # Component Loaders and Unloaders
 
-#### Navigation: Enter Data > Batch Tools **select the component loader**
+#### Navigation: Enter Data > Batch Tools (select a component loader)
 
 Data can be added to and in some cases removed from existing catalog records from a single flat (non-relational) file, a text file in which all data for an individual concept to be added to or removed from a single cataloged item are in a single row. This file can be created with any convenient client-side application. The file is then loaded into a similarly structured table on the server, and a server-side application (the component loader) parses the columns from each row into the relational structure of the database. The process provides an independent layer of data checking before new information is incorporated into the database proper. Original data that are received in electronic format may require minimal manipulation; you can sometimes merely add the necessary columns to build a file in the component-loading format.
 
@@ -14,7 +14,7 @@ Data can be added to and in some cases removed from existing catalog records fro
 
  - The standard method for moving data into any component loader is by importing data from csv directly into the component loader tools. However, component loaders may be populated as part of bulkloading. 
 
- - You may mix accessions, collections, or anything else in a single component load.
+ - You may mix accessions, collections, or anything  else in a single component load.
 
  - The component loaders may not handle every eventuality that may ever occur while entering additional data. Use [stauts](#status) to mark records for further review,  records in any component loader that were populated from the bulkloader will be tied to the bulkloader recordss with UUIDs.
 
@@ -55,4 +55,4 @@ Records that do not successfully load remain in the component loader. They must 
 
 ## Edit this Documentation
 
-If you see something that needs to be edited in this Documentation, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](). ** need link **
+If you see something that needs to be edited in this Documentation, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/componentloader.markdown).
