@@ -71,7 +71,7 @@ Condition is used for entries such as "broken" or "dissected." The following con
 
 `Coll_Object . Lot_Count NUMBER(22) not null`
 
-A **Lot Count** is an integer that enumberates how many similar items
+A **Lot Count** is an integer that enumerates how many similar items
 comprise a part. The value is frequently one (1), but collections of
 fish and invertebrates usually assign a single catalog number to all of
 the individual organisms of one species from one collecting event.
