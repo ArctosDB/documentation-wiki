@@ -4,7 +4,7 @@ layout: default_toc
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
 date: 2021-07-29
 ---
-# Collections with no Active Data Quality Contact
+# Collections with No Active Data Quality Contact
 
 This query provides a list of the colelction(s) in Arctos that do not have an active data quality contact.
 
