@@ -1,38 +1,25 @@
 ---
 title: Sharing Data and Resources
+author: Dusty McDonald, Teresa J Mayfield-Meyer
+date: 2021-07-29
 layout: default_toc
 ---
 
 # Sharing Data and Resources
 
-Arctos is a shared system, which means we share dictionary and authority
-files, as well as ideas and development, while individual collections
-exclusively own core specimen data. This page will attempt to summarize
-how this works. From Arctos’ Manage Users interface, click the red "read this
-before…" link, then the \[def\] link on roles for authoritative
-definitions and rules (link [here](http://arctos.database.museum/Admin/user_roles.cfm), if you are logged into Arctos).
+Arctos is a shared system, which means we share dictionary and authority files, as well as ideas and development, while individual collections exclusively own core catalog record data. This page will attempt to summarize how this works. Any user with access to shared nodes should have a thorough understanding of this information, and how it affects their collection and others.
 
-Any user with access to shared nodes should have a thorough
-understanding of this information, and how it affects their collection
-and others.
+#### Navigation: <a href="https://arctos.database.museum/Admin/user_roles.cfm" target="_blank">Manage Arctos > Roles/Permissions > Database Roles</a>
 
 ## What is not shared
 
-Specimens, and core specimen data such at Attributes, Identifications,
-Collectors, and Citations, are wholly owned by individual collections.
+Catalog records, and core catalog record data such at Attributes, Identifications, Collectors, and Citations, are wholly owned by individual collections.
 
-However, Relationships allow users to navigate between related
-(including "same individual as") specimens, and to perform
-cross-collection queries (such as those involving hosts and parasites).
-The Data Entry application allows related specimen data (events, places,
-collectors, etc.) to be "seeded" into new specimen records. Various
-reports and alerts exist to facilitate maintaining these relationships.
+However, relationships allow users to navigate between related (including "same individual as") catalog records, and to perform cross-collection queries (such as those involving hosts and parasites). The Data Entry application allows related catalog record data (events, places, collectors, etc.) to be "seeded" into new catalog records. Various reports and alerts exist to facilitate maintaining these relationships. 
 
-[Transactions](transactions)—loans, accessions, and borrows—are not shared, but see
-[Projects](projects).
+<a href="https://handbook.arctosdb.org/documentation/loans.html" target="_blank">Loans</a>, <a href="https://handbook.arctosdb.org/documentation/accession.html" target="_blank">accessions</a>, and borrows are not shared, but can include objects from more than one collection. Also see [Projects](projects).
 
-[Specimen-events](specimen-event) are not shared, but [Events](collecting-event), [Localities](locality), and [Higher Geography](higher-geography)
-are.
+[Specimen-events](specimen-event) are not shared, but some of their underlying information ([Events](collecting-event), [Localities](locality), and [Higher Geography](higher-geography)) are.
 
 ## What is shared
 
@@ -57,7 +44,7 @@ Major changes (such as mergers) prompt notifications and have a waiting
 period.
 
 **Publications** and **Projects** are shared globally. Researchers borrowing
-specimens from several collections may create shared Projects which
+objects from several collections may create shared Projects which
 produce shared Publications citing multiple collections.
 
 **Media** are shared globally. PDFs of shared publications are one use case;
@@ -80,6 +67,8 @@ Some data (taxonomy, for example) are structurally locked and cannot be edited w
 |Current Data|Desired Data|Considerations|
 |------------|------------|--------------|
 |A county-level geography term is missing a qualifier such as "Province"|Consistent Data|If the new term is clearly an alternate spelling of the existing term, the change is probably safe. Make very sure that you are not inadvertently "promoting" a lower-level term or similar.|
-|A general locality has no coordinates|A georeference which encompasses the entire locality as defined by all geography and specific locality.|Adding a georeference is safe and will improve the usability of all linked specimens.|
-|A general locality has no coordinates|A georeference which is more precise than the entire locality as defined by all geography and specific locality.|Adding a georeference will alter the fundamental nature of the data; specimens with more precise data must be moved to a new locality.|
+|A general locality has no coordinates|A georeference which encompasses the entire locality as defined by all geography and specific locality.|Adding a georeference is safe and will improve the usability of all linked catalog records.|
+|A general locality has no coordinates|A georeference which is more precise than the entire locality as defined by all geography and specific locality.|Adding a georeference will alter the fundamental nature of the data; catalog records with more precise data must be moved to a new locality.|
 
+## Community Discussion
+ - <a href="https://github.com/ArctosDB/documentation-wiki/issues/123"><Github Issue #123</a>
