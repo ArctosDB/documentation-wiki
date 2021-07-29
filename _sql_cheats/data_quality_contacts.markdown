@@ -8,6 +8,14 @@ date: 2021-07-29
 
 This query provides a list of the collection(s) in Arctos and the email address of their active data quality contact (no email means no data quality contact).
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**  
+
+For collections wanting to check their status and users, there's a report at <a href="https://arctos.database.museum/tools/access_report.cfm" target="_blank">Reports/Services > Labels and Reports > Database Roles</a>
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
+
+All users will get a different answer. If you want a list of all collections, please coordinate with the Database Administrator.
+
 ## GitHub Issue
 This query was created as a response to this Github Issue - <a href="https://github.com/ArctosDB/internal/issues/105" target="_blank">Inernal Issue #105</a>
 
