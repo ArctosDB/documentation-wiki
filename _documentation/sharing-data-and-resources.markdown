@@ -71,4 +71,4 @@ Some data (taxonomy, for example) are structurally locked and cannot be edited w
 |A general locality has no coordinates|A georeference which is more precise than the entire locality as defined by all geography and specific locality.|Adding a georeference will alter the fundamental nature of the data; catalog records with more precise data must be moved to a new locality.|
 
 ## Community Discussion
- - <a href="https://github.com/ArctosDB/documentation-wiki/issues/123"><Github Issue #123</a>
+ - <a href="https://github.com/ArctosDB/documentation-wiki/issues/123">Github Issue #123</a>
