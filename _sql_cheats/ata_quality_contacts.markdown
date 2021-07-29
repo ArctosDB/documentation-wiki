@@ -1,12 +1,12 @@
 ---
-title: Collections with no Active Data Quality Contact
+title: List of Data Quality Contacts by Collection
 layout: default_toc
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
 date: 2021-07-29
 ---
-# Collections with No Active Data Quality Contact
+# List of Data Quality Contacts by Collection
 
-This query provides a list of the colelction(s) in Arctos that do not have an active data quality contact.
+This query provides a list of the collection(s) in Arctos and the email address of their active data quality contact (no email means no data quality contact).
 
 ## GitHub Issue
 This query was created as a response to this Github Issue - <a href="https://github.com/ArctosDB/internal/issues/105" target="_blank">Inernal Issue #105</a>
