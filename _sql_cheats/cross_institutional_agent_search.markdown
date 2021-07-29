@@ -1,7 +1,7 @@
 ---
 title: Cross Institutional Agent Search
 layout: default_toc
-author: Dusty Mc Donald, Emily Braker, Teresa J. Mayfield-Meyer
+author: Dusty McDonald, Emily Braker, Teresa J. Mayfield-Meyer
 date: 2021-07-29
 ---
 # Cross-institutional Agent Search
