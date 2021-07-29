@@ -4,7 +4,7 @@ layout: default_toc
 author: Dusty Mc Donald, Emily Braker, Teresa J. Mayfield-Meyer
 date: 2021-07-27, 2021-07-29
 ---
-# Cross-institutional Agent search
+# Cross-institutional Agent Search
 
 This query provides a list of the agent(s) associated with more than 20 GUID Prefixes in Arctos.
 
