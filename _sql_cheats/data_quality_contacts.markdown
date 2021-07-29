@@ -24,4 +24,4 @@ order by guid_prefix
 
 ## Edit this Documentation
 
-If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_sql_cheats/no_data_quality_contact.markdown" target="_blank">here</a>. 
+If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_sql_cheats/data_quality_contacts.markdown" target="_blank">here</a>. 
