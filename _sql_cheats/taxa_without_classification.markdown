@@ -17,7 +17,8 @@ Copy the code below and paste it into <a href="https://arctos.database.museum/to
 ### Edit Required
 Be sure to change **GUID Prefix** text to the GUID Prefix of the collection of interest (e.g. for MSB Birds change to MSB:Bird)
 
-```select distinct
+```
+select distinct
  taxon_name.scientific_name
 from
   identification_taxonomy,
