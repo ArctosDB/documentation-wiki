@@ -18,21 +18,19 @@ Copy the code below and paste it into <a href="https://arctos.database.museum/to
 Be sure to change **GUID Prefix** text to the GUID Prefix of the collection of interest (e.g. for MSB Birds change to MSB:Bird)
 
 ```
-select distinct
- taxon_name.scientific_name
-from
-  identification_taxonomy,
-  identification,
-  cataloged_item,
-  collection,
-  taxon_name
-where
-  identification_taxonomy.identification_id=identification.identification_id and
-  identification.collection_object_id=cataloged_item.collection_object_id and 
-  cataloged_item.collection_id=collection.collection_id and
-  identification_taxonomy.taxon_name_id=taxon_name.taxon_name_id and
-  collection.guid_prefix='GUID Prefix' and
-  taxon_name.taxon_name_id not in 
-  (select taxon_name_id from taxon_term where 
-    taxon_term.taxon_name_id = taxon_name.taxon_name_id)
+select distinct scientific_name from flat where guid_prefix='GUID Prefix' and
+phylclass is null and
+kingdom is null and
+phylum is null and
+phylorder is null and
+family is null and
+genus is null and
+species is null and
+subspecies is null and
+author_text is null and
+nomenclatural_code is null and
+infraspecific_rank is null and
+subfamily is null and
+tribe is null and
+subtribe is null
 ```
