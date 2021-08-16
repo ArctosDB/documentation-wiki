@@ -19,7 +19,7 @@ date: 2019-06-01
 
   * Minimize the menu.  
 
-**3.**	Next to “Locality String” type in the coordinates in this format: T10N R33E Sec. 22. Enter the state (in this example, the state is New Mexico). Select "Georeference" 
+**3.**	Next to “Locality String” type in the coordinates in this format: T10N R33E Sec. 22. Enter the country, state and county (in this example, the state is New Mexico). Select "Georeference" 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GeoLocate3.jpg)  
 
 **4.**	Zoom in on the map until the uncertainty circle fills the screen. The center of the circle should be at the center of a square on the map. This square is the section boundary. 
