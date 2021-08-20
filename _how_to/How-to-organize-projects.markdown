@@ -1,6 +1,7 @@
 ---
 title: How To Organize Projects
 layout: default_toc
+date: updated 2021-08-20
 ---
 
 # How To Organize Projects
