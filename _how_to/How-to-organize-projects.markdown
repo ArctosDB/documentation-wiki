@@ -1,6 +1,7 @@
 ---
 title: How To Organize Projects
 layout: default_toc
+date: updated 2021-08-20
 ---
 
 # How To Organize Projects
@@ -14,7 +15,7 @@ serve as a prescription, but rather as an overview of some viable approaches.
 ## Mega-Projects
 
 
-Example: http://arctos.database.museum/project/beringian-coevolution-project-bcp
+Example: Beringian Coevolution Project (BCP) https://arctos.database.museum/project/51
 
 Many activities are captured under one project umbrella in this example (primarily due to the structure
 of funding). The project supports collecting (Accessions), the specimens collected support research (Loans),

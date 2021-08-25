@@ -1,6 +1,8 @@
 ---
 title: Projects
 layout: default_toc
+author: ArctosDB, Michelle Koo
+date: updated 2021-08-19
 ---
 
 # Projects
@@ -88,7 +90,6 @@ Amount in US Dollars for which a project has been funded.
 
 To delete a project, first delete all dependencies then a delete button will appear.
 
-## Changing Title
+## Links
 
-Changing a project title will change the project detail page URL, which may disrupt incoming links. Consider using 
-[redirects](/documentation/redirect.html).
+Each project generates a unique hyperlink comprised of its internal project ID. Example: {base URL}/project/{projectID} such as: https://arctos.database.museum/project/10000298
