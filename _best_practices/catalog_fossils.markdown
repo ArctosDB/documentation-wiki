@@ -74,9 +74,9 @@ As a result, the community suggests the following treatment for "petrified wood"
  **Petrified Wood Example**  
   As an example, the object record for an unknown species of petrified wood would include the following:
 
-  Identification = Trachyophyta {Petrified Wood}
+  Identification = Trachyophyta {Petrified Wood} 
   part name = wood  
-  part preservation = petrifaction
+  part preservation = petrifaction 
  
 For object identification, use of the [A {string} formula](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXA_FORMULA) "Trachyophyta {Petrified Wood}" allows flexibility between the more genrally used common name while allowing for identification of the biological taxon preseved in this way (if a more refined taxon name can be presented, then change Trachyophyta to whatever that name is).
 
