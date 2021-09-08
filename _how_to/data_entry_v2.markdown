@@ -1,5 +1,5 @@
 ---
-title: How To Understand Deep Publication Data in Arctos
+title: Data Entry: Version Two
 layout: default_toc
 ---
 
