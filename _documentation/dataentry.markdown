@@ -5,7 +5,47 @@ date: 2017-09-11
 layout: default_toc
 ---
 
-# Data Entry form
+
+# Data Entry Version Two
+
+## About
+
+The form is highly customizable. It is almost always worth spending some time customizing before entering any data.
+
+## Modes
+
+Two modes are available:
+
+1. Table View is a two-column-plus-bottom layout. Elements may be customized, but no positioning customization is available.
+2. Dynamic View is a fully customizable layout. Drag any element wherever you want it; it will stay there until you move it.
+
+## Customizing
+
+Click 'customize' by any element; set behavior. Inline help is available. It is generally possible to set the behavior of individual elements, set the behavior of 
+groups of elements, and to control how many rows are visible when applicable.
+
+* Show makes elements visible (unless they're otherwise hidden). A successful save resets the value.
+* Carry causes values to persist after save.
+* Hide removes values (or rows, etc.) from the form.
+
+## Getting Started
+
+1. You may "seed" a new record from the grid view; this simply imports saved values, which may then be changed.
+2. You may pick a collection; this sets code tables without importing any values.
+
+## How-To
+
+### Enter lots of parts, or parts with attributes
+
+1. Customize Parts; hide all rows
+2. Customize "Extras" Parts; turn on whatever you want to see.
+
+
+
+
+
+
+# Data Entry Version One
 
 This document applies to the built-in single-record data entry form.
 
