@@ -24,7 +24,7 @@ Two modes are available:
 Click 'customize' by any element; set behavior. Inline help is available. It is generally possible to set the behavior of individual elements, set the behavior of 
 groups of elements, and to control how many rows are visible when applicable.
 
-* Show makes elements visible (unless they're otherwise hidden). A successful save resets the value.
+* Show makes elements visible (unless they're otherwise hidden, eg by being in a hidden row). A successful save resets the value.
 * Carry causes values to persist after save.
 * Hide removes values (or rows, etc.) from the form.
 
@@ -39,6 +39,14 @@ groups of elements, and to control how many rows are visible when applicable.
 
 1. Customize Parts; hide all rows
 2. Customize "Extras" Parts; turn on whatever you want to see.
+
+### Use GeoLocate
+
+1. Customize Place/Time
+2. Click the 'geolocate' shortcut, save
+3. Use Geolocate
+
+
 
 
 
