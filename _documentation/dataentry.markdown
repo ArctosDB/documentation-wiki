@@ -58,7 +58,9 @@ records is not problematic.
 
 Select an appropriate "helper" under customize. Note that these simply push values to the standard form; "standard" values can be further enhanced individually before saving.
 
+### Enter Coordinates
 
+Customize, turn on coordinate metadata and the necessary format(s).
 
 
 # Data Entry Version One
