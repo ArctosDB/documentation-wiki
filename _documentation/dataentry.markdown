@@ -54,6 +54,9 @@ groups of elements, and to control how many rows are visible when applicable.
 Simply set one ID type to "carry." The accompanying value can be set to behave as desired. Other_ids are only loaded when value is not empty; leaving an unaccompanied type for some 
 records is not problematic.
 
+### Enter discipline-specific attributes
+
+Select an appropriate "helper" under customize. Note that these simply push values to the standard form; "standard" values can be further enhanced individually before saving.
 
 
 
