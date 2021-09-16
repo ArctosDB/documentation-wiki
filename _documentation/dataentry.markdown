@@ -10,7 +10,9 @@ layout: default_toc
 
 ## About
 
-The form is highly customizable. It is almost always worth spending some time customizing before entering any data.
+The form is highly customizable, and it is almost always worth spending some time customizing before entering data.
+
+It is possible to customize in ways that cannot save successfully. (For example, all place-time data may be removed from the form.) The user is expected to follow documentation, have a basic understanding of data and dependencies, and act accordingly.
 
 ## Modes
 
@@ -47,7 +49,10 @@ groups of elements, and to control how many rows are visible when applicable.
 3. Use Geolocate
 
 
+### Have a "Custom ID"
 
+Simply set one ID type to "carry." The accompanying value can be set to behave as desired. Other_ids are only loaded when value is not empty; leaving an unaccompanied type for some 
+records is not problematic.
 
 
 
