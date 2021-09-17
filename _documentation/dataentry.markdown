@@ -62,6 +62,10 @@ Select an appropriate "helper" under customize. Note that these simply push valu
 
 Customize, turn on coordinate metadata and the necessary format(s).
 
+### Use Profiles
+
+By default, settings will be "remembered," profiles allow maintaining multiple states. This may be handy for getting a student started or working on different kinds of data. To save a profile, just click Save Profile and provide a name. To switch, click switch. Profiles can't be edited, but may be deleted by the user who created them. 
+
 
 # Data Entry Version One
 
