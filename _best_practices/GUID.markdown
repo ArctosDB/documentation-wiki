@@ -11,7 +11,7 @@ What is a GUID Prefix? Before you make any decisions about one, you should know 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**  
 
-In conjunction with catalog number the GUID Prefix forms a unique identifier within Arctos, and in conjunction with Arctos’ URI (https://arctos.database.museum/guid/) forms a Globally Unique Identifier (GUID) for the specimen record. For example: The Museum of Vertebrate Zoology's catalog record 134762 has a GUID Prefix of MVZ:Bird which forms the GUID https://arctos.database.museum/guid/MVZ:Bird:134762.
+In conjunction with catalog number the GUID Prefix forms a unique identifier within Arctos, and in conjunction with Arctos’ URI (https://arctos.database.museum/guid/) forms a Globally Unique Identifier (GUID) for the catalog record. For example: The Museum of Vertebrate Zoology's catalog record 134762 has a GUID Prefix of MVZ:Bird which forms the GUID https://arctos.database.museum/guid/MVZ:Bird:134762.
 
 ## General Recommendations for GUID Prefix 
 
