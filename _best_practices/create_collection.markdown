@@ -12,13 +12,16 @@ Creating a collection in Arctos requires thoughtful consideration because it pro
 ## GUID Prefix
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-GUID Prefix cannot be changed without Database Administrator assistance
+Database Administrators will actively oppose any efforts to change this. For information on why change is discouraged, please see <a href="https://en.wikipedia.org/wiki/Replication_crisis" target="-blank">Replication Crisis</a>
 
 This is one of the most important decisions in creating a new collection. In conjunction with catalog number the GUID Prefix forms a unique identifier within Arctos, and in conjunction with Arctos’ URI (https://arctos.database.museum/guid/) forms a Globally Unique Identifier (GUID) for the catalog record. For example: The Museum of Vertebrate Zoology's bird catalog record 134762 has a GUID Prefix of MVZ:Bird which forms the GUID https://arctos.database.museum/guid/MVZ:Bird:134762.
 
 <a href="https://handbook.arctosdb.org/best_practices/GUID.html" target="_blank">Find out how to create a meaningful GUID Prefix</a>
 
 ## Catalog Number Format
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+Catalog Number Format can be changed without Database Administrator assistance, but it is not recommended.
 
 Catalog number format is selected from a <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcatalog_number_format" target="_blank">code table</a>. We generally encourage the use of the integer format for catalog numbers. This makes sorting, review for number gaps, and determining the last catalog number used an easy task. The other options do not allow for predictive, series- or range-based tools.
 
@@ -46,7 +49,7 @@ The <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcol
 ## Collection Contents
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-Collection Contacts cannot be changed without Database Administrator assistance
+Collection Contents cannot be changed without Database Administrator assistance
 
 This is a very brief description of what comprises the collection.
 
@@ -65,7 +68,6 @@ All collections are required to supply a URL for their collection policy.
 <a href="https://handbook.arctosdb.org/how_to/How-To-Apply-Licensing-and-Terms.html" target="_blank">Find out about Collection Terms and Licenses</a>
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
-
 By signing the Arctos MOU, collections agree that they have read the Arctos policy and accept it for their collection if they do not provide an alternate.
 
 ## Cataloged Item Type
@@ -82,9 +84,6 @@ The Arctos username of the person who will mentor the Collection Manager through
 
 ## Summary
 
- - Arctos GUIDs are expected to be permanent, so choose GUID Prefix carefully.
+ - Arctos GUIDs are expected to be permanent, so choose GUID Prefix and Catalog Number Format carefully.
  - Integer catalog numbers are the most flexible and easiest to manage.
- - The GUID Prefix must be no longer than 20 characters and include a colon that is neither the first nor the last character.
- - The GUID Prefix should consist of upper and/or lower-case ASCII letters (A-Z,a-z) other than the requisite colon.
- - A review of <a href="https://arctos.database.museum/home.cfm" class="external">GUID Prefixes currently in use</a> may be helpful!
-  - Check <a href="https://www.gbif.org/grscicoll">Global Biodiversity Information Facility Registry of Scientific Collections</a> and the <a href="http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=123984" class="external">Index Herbariorum</a> to see if your collections have legacy Institutional Acronyms.
+ - Collection Type should also be carefully considered. Change is not impossible, but might be difficult.
