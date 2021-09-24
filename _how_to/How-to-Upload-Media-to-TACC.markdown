@@ -48,7 +48,7 @@ This file will be deleted 3 days after the message is sent, but may be regenerat
 [![YouTube: How to Bulkload Media Metadata in Arctos](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Bulkload_Media_Metadata_in_Arctos_thumb.jpg)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
 
 ## Large Batch Uploads
-If you want to upload a lot of large media files (e.g., 100s or 1000s of images, audio, video), and/or if you have specific processing needs, you should first contact [Chris Jordan](https://www.tacc.utexas.edu/about/directory/chris-jordan) and an Arctos administrator to discuss space allocations. However, most users can follow these instructions:
+If you want to upload a lot of large media files (e.g., 100s or 1000s of images, audio, video), and/or if you have specific processing needs, you should first contact an Arctos administrator to discuss space allocations. However, most users can follow these instructions:
 
 * Create a TACC User account through the [TACC User Portal](http://portal.tacc.utexas.edu). Direct link: [https://portal.tacc.utexas.edu/account-request](https://portal.tacc.utexas.edu/account-request)
 * Once you have created a new account, it may take 24 hours or so for the account to become active. You should receive an email when your account is approved and ready
@@ -67,29 +67,27 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 
 * Once you connect, you will be prompted to enter a TACC Token Code. In order to do this, you will need to install the TACC Token app for multi-factor authentication. Read the [TACC instructions](https://portal.tacc.utexas.edu/tutorials/multifactor-authentication) on this process. After you are set up for authentication, enter the TACC Token at the prompt.
 * If you have successfully entered the TACC Token, you will be taken to your directory. Go up to the root directory and then select corral-tacc ---> projects ---> arctos
-* Each institution should have a directory for their media, e.g, /corral-tacc/projects/arctos/mvz
-* Within that directory, you can organize your media files however you want
-* TACC must ingest those files in order for them to appear on the web server - files are also processed during this stage (e.g., from dng or tiff to jpeg, wav to mp3, etc.)
-    * File extensions are case-sensitive during processing. To make processing faster (and easier for TACC staff), the letter case for all file extensions should be consistent (e.g., all files that use jpeg extensions are spelled consistently using lowercase .jpg, rather than a mix of .jpg and .JPG).
- * Contact [Chris Jordan](https://www.tacc.utexas.edu/about/directory/chris-jordan) when your file are ready for processing and ingestion
+* Each institution should have a directory for their media, e.g, /corral-tacc/projects/arctos/web/msb
+* Within that directory, you can organize your media files however you want 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
+Directories created by a user other than the Arctos DBA may only be written to or edited by the user who created them. 
+* File loaded to TACC in this manner are immediately available on the web, but there are currently no postload processing tools in place.
 
-If you have uploaded images, a directory of thumbnail images will also be created. You need to use those thumbnail URIs in your bulkload media template (in the PREVIEW_URI column, http://arctos.database.museum/tools/BulkloadMedia.cfm) when you bulkload the image URIs.
+Once you have crteated media for the files in Arctos, thumbnail images will also be created when possible by scripts in Arctos. If you want to ensure thumbnails are available, create them and upload them along with the originals. You will need to use those thumbnail URIs in your bulkload media template (in the PREVIEW_URI column, http://arctos.database.museum/tools/BulkloadMedia.cfm) when you bulkload the image URIs. 
 
-### Modify Media Metadata Bulkload File
-
-The file that you receive once your image upload is complete contains much of the information required to bulkload media.  Remember that although your media are now stored at TACC, they are not associated with any data in Arctos. The [Bulkload Media Metadata](http://arctos.database.museum/tools/BulkloadMedia.cfm) tool will allow you to complete this process. See [Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata) for instructions on creating the bulkload file..
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
+A media bulkload file is not created when loading large batches through SFTP. Be sure that you have files named so that you can easily relate them to catalog records, events, agent, taxa or whatever you wish them to appear with in Arctos and that you can include appropriate descriptions and lables in the media metadata.
 
 ## Related Links
 ### Documentaion
 [Media](documentation-wiki/documentation/media)
 
 ### Other How-Tos
-[How to Create Media](/how_to/How-to-Create-Media-Images)
-
-[How to Edit Media](/how_to/How-to-Edit-Media)
+* [How to Create Media](/how_to/How-to-Create-Media-Images)
+* [How to Edit Media](/how_to/How-to-Edit-Media)
 
 ## Tools
 * [namechanger](https://mrrsoftware.com/namechanger/) is useful for renaming files on Mac.
-[How to Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata)
+* [How to Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata)
 
 
