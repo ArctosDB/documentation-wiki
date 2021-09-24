@@ -69,6 +69,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 * If you have successfully entered the TACC Token, you will be taken to your directory. Go up to the root directory and then select corral-tacc ---> projects ---> arctos
 * Each institution should have a directory for their media, e.g, /corral-tacc/projects/arctos/web/msb
 * Within that directory, you can organize your media files however you want 
+
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
 Directories created by a user other than the Arctos DBA may only be written to or edited by the user who created them. 
 * File loaded to TACC in this manner are immediately available on the web, but there are currently no postload processing tools in place.
