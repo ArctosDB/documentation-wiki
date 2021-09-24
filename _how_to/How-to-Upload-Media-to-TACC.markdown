@@ -48,7 +48,7 @@ This file will be deleted 3 days after the message is sent, but may be regenerat
 [![YouTube: How to Bulkload Media Metadata in Arctos](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Bulkload_Media_Metadata_in_Arctos_thumb.jpg)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
 
 ## Large Batch Uploads
-If you want to upload a lot of large media files (e.g., 100s or 1000s of images, audio, video), and/or if you have specific processing needs, you should first contact an Arctos administrator to discuss space allocations. However, most users can follow these instructions:
+If you want to upload a lot of large media files (e.g., 100s or 1000s of images, audio, video), and/or if you have specific processing needs, you should first contact an Arctos administrator to discuss space allocations. Begin by completing a [request in Github](https://github.com/ArctosDB/internal/issues/new?assignees=&labels=&template=arctos-digital-media-storage-request.md&title=Arctos+Digital+Media+Storage+Request). If you already have a dedicated directory in the Arctos allocation, follow these instructions:
 
 * Create a TACC User account through the [TACC User Portal](http://portal.tacc.utexas.edu). Direct link: [https://portal.tacc.utexas.edu/account-request](https://portal.tacc.utexas.edu/account-request)
 * Once you have created a new account, it may take 24 hours or so for the account to become active. You should receive an email when your account is approved and ready
