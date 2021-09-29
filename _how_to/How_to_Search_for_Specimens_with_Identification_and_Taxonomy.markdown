@@ -134,6 +134,10 @@ questions: "how many shrews does the XYZ collection hold?"
 
 There are multiple ways to search for a taxon from the Search/Taxonomy screen and from there to specimens identified with that taxon.  
 
+## Video Tutorial
+
+[![YouTube: How To Create Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)](https://www.youtube.com/watch?v=kHUJHa48m5E)
+
 _________________
 
 ![Screen Shot 2019-04-14 at 4 20 50 PM](https://user-images.githubusercontent.com/15368365/56099993-57756d00-5ed1-11e9-8c5a-961d0d975b6b.png)
