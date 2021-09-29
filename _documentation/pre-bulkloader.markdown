@@ -1,11 +1,17 @@
 ---
 title: Pre-Bulkloader
+author: unknown, Teresa J Mayfield-Meyer
+date: 2021-09-29
 layout: default_toc
 ---
 
-The pre-bulkloader is a specimen data cleanup tool.
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
-Data must first be transformed into Arctos Specimen Bulkloader format with [proper column names](http://handbook.arctosdb.org/documentation/bulkloader.html).
+# Pre-Bulkloader
+
+The pre-bulkloader is a data cleanup tool for catalog records to be bulkloaded.
+
+Data must first be transformed into Arctos Catalog Record Bulkloader format with [proper column names](http://handbook.arctosdb.org/documentation/bulkloader.html).
 
 ....
 
@@ -13,7 +19,7 @@ Data must first be transformed into Arctos Specimen Bulkloader format with [prop
 
 ...
 
-# Correction and Repatriation
+## Correction and Repatriation
 
 After the status has changed to init_pull_complete, several tables will be available for download and correction.
 
@@ -23,19 +29,18 @@ pre_bulk_agent will contain two columns: AGENT_NAME and SHOULDBE. These data com
 
 ### Verbatim Collector
 
-Agents are often the most labor-intensive part of data cleanup. Rather than resolving all problems before bulkloading specimen, 
-it is possible to instead load the original verbatim strings to Attribute "verbatim collector." If you choose that approach, the specimens will not be findable by agent data until it is cleaned up and added as Agents. The original string data would be searchable through Attributes. Arctos does have a collector bulkloader, which may be useful in future data improvement efforts.
+Agents are often the most labor-intensive part of data cleanup. Rather than resolving all problems before bulkloading catalog records, it is possible to instead load the original verbatim strings to Attribute "verbatim collector." If you choose that approach, the catalog records will not be discoverable by agent data until it is cleaned up and added as Agents. The original string data would be searchable through Attributes. Arctos does have a collector bulkloader, which may be useful in future data improvement efforts.
 
 
 ### Multi-agent strings
 
 Multi-agent strings ("You and Me") can be deconcatenated using Reports/DataServices/AgentNameDeconcatenator. Data in this format are almost always
  messy; the tool should properly extract most agents, but careful review of the results is critical. The results will contain columns
- ORIGINAL and AGENTn. Do not alter ORIGINAL in any way; it contains the path back to specimens. Populate the AGENTn columns with distinct entities
+ ORIGINAL and AGENTn. Do not alter ORIGINAL in any way; it contains the path back to catalog records. Populate the AGENTn columns with distinct entities
  from ORIGINAL. Some cleanup at this stage may be useful. For example, "A & C PETERSON" (assuming it represents two people and not a company or similar) should be split into "A. Peterson" and "C. Peterson" - the 
  tool will probably split that into "A" and "C Peterson" and data will be lost if this is not corrected. Data from this step should be repatriated to the 
  bulkloader, then re-extracted for cleanup. There are no repatriation tools available; this will need individual consideration, and may require using 
- additional bulkloaders or the creation of group agents (for example, if there are multiple agents in ID Determinations, for which the specimen bulkloader
+ additional bulkloaders or the creation of group agents (for example, if there are multiple agents in ID Determinations, for which the catalog record bulkloader
  offers only a single column).
  
 ### Reconciling Duplicates
@@ -49,7 +54,7 @@ Once each AGENT_NAME represents a single entity, a "translation" should be enter
 | Some Guy | Some Guy      |   Most records will probably be as good as they can be made at this point, and just need copy/pasted from AGENT_NAME to SHOULDBE, which will result in no changes. |
 
 
-Agents must ultimately match agents in Arctos. After the cleanup here, they will be tested against existing agents. Some will likely resolve (and are therefore done), some will need to be created. Note that only a unique string match is required to load specimen data. If preferred_name "Some Random Guy" exists in Arctos with alternate names "S. R. Guy," "Guy, R.," "S. Guy," "Some Guy," "Guy, Some" then the "bad" examples above would all load UNLESS some other agent (Stanley perhaps) also carries agent name "S. Guy."
+Agents must ultimately match agents in Arctos. After the cleanup here, they will be tested against existing agents. Some will likely resolve (and are therefore done), some will need to be created. Note that only a unique string match is required to load catalog records. If preferred_name "Some Random Guy" exists in Arctos with alternate names "S. R. Guy," "Guy, R.," "S. Guy," "Some Guy," "Guy, Some" then the "bad" examples above would all load UNLESS some other agent (Stanley perhaps) also carries agent name "S. Guy."
 
 
 ### Agent Tools
@@ -125,8 +130,7 @@ is searchable from Search/Geography.
 
 This tool may be used to transform various geography into Arctos-compatible higher_geog strings. The tool can work from components or from a 
 higher-geography-like concatenation. The "components" option will produce a spreadsheet with Arctos-named columns of original (often "original from VertNet") data, and a higher_geog column. The components columns (continent_ocean, county, etc.) MUST NOT be manipulated; they collectively provide
-a path back to specimens. Higher Geog should be an Arctos-formatted representation of the original data. The tool will "suggest" higher_geography values; these should be reviewed for accuracy. Any blank values will need populated from Arctos Higher Geography. Arctos geography is searchable through Search/Geography; the search results contain a "higher geog" column which is suitable to copy and paste into the spreadsheet. New geography entries will need to be created: file an Issue or use the Contact link at the bottom of any form, please include the desired geography and a link to Wikipedia. 
-
+a path back to catalog records. Higher Geog should be an Arctos-formatted representation of the original data. The tool will "suggest" higher_geography values; these should be reviewed for accuracy. Any blank values will need populated from Arctos Higher Geography. Arctos geography is searchable through Search/Geography; the search results contain a "higher geog" column which is suitable to copy and paste into the spreadsheet. New geography entries will need to be created: file an Issue or use the Contact link at the bottom of any form, please include the desired geography and a link to Wikipedia. 
 
 
 Links:
