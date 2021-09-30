@@ -104,6 +104,10 @@ Select from the dropdown of choices. This specifies the format of catalog number
 
 Changing to a value that conflicts with existing data may cause significant, widespread problems. Consult with the DBA team before changing.
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
+
+Before selecting your terms and licenses, read <a href="https://handbook.arctosdb.org/how_to/How-To-Apply-Licensing-and-Terms.html" target="_blank">How to Apply Licensing and Terms</a>
+
 ### Internal License
 Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection for use in, and as downloaded from, Arctos. 
 
