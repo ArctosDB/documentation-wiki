@@ -71,12 +71,14 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 * Within that directory, you can organize your media files however you want 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
-Directories created by a user other than the Arctos DBA may only be written to or edited by the user who created them. 
-* File loaded to TACC in this manner are immediately available on the web, but there are currently no postload processing tools in place.
+
+* Directories created by a user other than the Arctos DBA may only be written to or edited by the user who created them. 
+* Files loaded to TACC in this manner are immediately available on the web, but there are currently no postload processing tools in place.
 
 Once you have crteated media for the files in Arctos, thumbnail images will also be created when possible by scripts in Arctos. If you want to ensure thumbnails are available, create them and upload them along with the originals. You will need to use those thumbnail URIs in your bulkload media template (in the PREVIEW_URI column, http://arctos.database.museum/tools/BulkloadMedia.cfm) when you bulkload the image URIs. 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
+
 A media bulkload file is not created when loading large batches through SFTP. Be sure that you have files named so that you can easily relate them to catalog records, events, agent, taxa or whatever you wish them to appear with in Arctos and that you can include appropriate descriptions and lables in the media metadata.
 
 ## Related Links
