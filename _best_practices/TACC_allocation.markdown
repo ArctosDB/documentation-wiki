@@ -11,12 +11,14 @@ layout: default_toc
 
 # Best Practice - Managing Directory Structures in the Arctos Project Allocation at TACC 
 
-What is the Arctos Project Allocation at TACC? Start by reading the [Arctos TACC Project Allocation Digital Media Policy](https://docs.google.com/document/d/1unq0N5bKDCVznnbHpe21Xiy4K4spW4b7g-YqqcDd2nQ/edit?usp=sharing).
+What is the Arctos Project Allocation at TACC? Start by reading the [Arctos TACC Project Allocation Digital Media Policy](https://docs.google.com/document/d/1unq0N5bKDCVznnbHpe21Xiy4K4spW4b7g-YqqcDd2nQ/edit?usp=sharing). 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
 
 * The Arctos Project Allocation at TACC is shared by all Arctos members. Always use caution when creating or editing a shared resource and make sure that others who might be affected by a change are notified beforehand. 
 * Files stored in the Arctos Project Allocation at TACC are publicly accessible through their created URLs immediately upon upload.
+* Files loaded to the Arctos Project Allocation at TACC and linked to Arctos records should be considered to be **archived in perpetuity**.
+* 
 
 ## Who Manages the Arctos Project Allocation at TACC?
 Only a TACC-authorized manager can provide acces to and create shared directories in the Arctos Project Allocation at TACC.
@@ -47,13 +49,17 @@ institution_acronym (for Arctos accounting) and the dailies (for everyone's sani
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
 
 * Directories created by TACC users are only accessible to the TACC user who created them but directories created by the TACC-authorized manager can be made accessible to any authorized TACC user. 
-* Once loaded, files may only be removed by a TACC user with write permissions to the folder in which the files is stored.
+* Once loaded, files may only be removed by the TACC user who uploaded them.
+
+## General Recommendations for Naming Files in the Arctos Project Allocation at TACC
+* Follow standard file naming practices such as those in [Arctos Media: Media URI Documentation](documentation/media.html#media-uri). Specifically, name files using ony A-Z, a-z, 0-9, and _ 
 
 ## Summary
 
  - The Arctos Project Allocation at TACC shared by all Arctos collections.
  - Creating folders in The Arctos Project Allocation at TACC should be carefully considered.
- - Files stored in the Arctos Project Allocation at TACC are publicly accessible through their created URLs immediately upon upload and can only be removed byt those with appropriate acces to the folder in which they are stored.
+ - Files stored in the Arctos Project Allocation at TACC are publicly accessible through their created URLs immediately upon upload and can only be removed by those with appropriate acces to the folder in which they are stored.
+ - Files stored in the Arctos Project Allocation at TACC should be considered to be **archived in perpetuity**. The intent of this service is to provide "forever-resources" and changing that is a pretty big deal!
  - Carefully consider all uploads to this shared resource. Misuse or overuse may result in additional financial contributions.
  
 ## Edit this Best Practice
