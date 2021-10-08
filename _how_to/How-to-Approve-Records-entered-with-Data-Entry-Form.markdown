@@ -13,6 +13,10 @@ layout: default_toc
 
 ## SQL
 
+
+** see https://github.com/ArctosDB/arctos/issues/3436 for current values **
+
+
 * Allows mass updates based on existing values.
 * Will only load 500 records at one time.
 * Not for the timid.
