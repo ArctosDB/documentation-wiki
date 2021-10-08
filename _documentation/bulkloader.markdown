@@ -170,7 +170,7 @@ know](http://arctos.database.museum/contact.cfm) if it’s out of date, incomple
 |ENTERED_AGENT_ID | number; [key](#primary-key-warning) | EnterdBy’s agent_id. Increased performance over EnteredBy. |
 |<span class="blcondreq">GUID_Prefix</span>| text; controlled | [\[ doc \]](/documentation/catalog#guid-prefix) Unique-within-Arctos identifier of the collection under which the specimen will be cataloged. Replaces Institution_Acronym + Collection_Cde.|
 |<span class="blcondreq">collection_id</span> | number; [key](#primary-key-warning) | Primary key of table Collection. Alternative to GUID_prefix.
-|<span class="bloptional">Loaded</span>| text; any string | This is where errors are stored after Bulkloader processing. [More Info](/how_to/How-to-Bulkload-Specimen-Data)|
+|<span class="bloptional">Status</span>| text; any string | This is where errors are stored after Bulkloader processing. [More Info](/how_to/How-to-Bulkload-Specimen-Data)|
 |<span class="bloptional">Flags</span> | text; [ctflags](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctflags) | Flag indicating the specimen needs further work.|
 |<span class="bloptional">Attribute</span> | text; [ctattribute_type](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type) | [\[ doc \]](/documentation/attributes#attribute-name) Attribute name. (Code-table controlled.)|
 |<span class="bloptional">Attribute_value</span> | text; various | [\[ doc \]](/documentation/attributes#attribute-value) Value of the attribute. Leaving this `NULL` will cause the bulkloader to ignore the attribute entry regardless of other values.|
@@ -196,9 +196,9 @@ time-periods, but we offer no guarantees.
 
 ## Processing
 
-Once a record is marked to load by making ``loaded`` NULL, a script periodically attempts to parse the record into the normalized core Arctos structure. This may result in two things:
+Once a record is marked to load by making ``status`` "autoload_core" (loads data from table bulkloader) or "autoload_extras" (also marks UUID-linked records in "component loaders" to autoload), a script periodically attempts to parse the record into the normalized core Arctos structure. This may result in two things:
     * the record is created and marked for cache refresh, or
-    * an error is returned in the ``loaded`` column
+    * an error is returned in the ``status`` column
    
 Records which successfully load must be refreshed in the cache before appearing in the user interfaces. Records are refreshed in the order they enter the queue. This process often takes 
 less than one minute, but in the case of many thousands of records being queued can take up to several days. <a href="https://arctos.database.museum/info/flat_status.cfm" target="_blank">Reports/Services >View Statistics >FLAT</a> status provides a summary of the state
