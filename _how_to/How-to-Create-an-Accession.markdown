@@ -9,6 +9,7 @@ date: 2021-10-11
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
 > Accessioning is the formal act of legally accepting an object or objects to the category of material that a museum holds in the public trust, or in other words those in the museum’s permanent collection. Because it commits staff time, space and other resources to the proper care of this material, it is important that acquiring material for the collections be done in a thoughtful, inclusive way that reflects the best interests of the museum and its audiences, and can be sustained by the available resources. 
+
 - <a href="https://www.aam-us.org/wp-content/uploads/2018/01/acquisitions-activity.pdf">American Alliance of Museums</a>
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
