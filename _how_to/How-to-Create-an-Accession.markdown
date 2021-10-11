@@ -1,19 +1,23 @@
 ---
 title: How To Create an Accession
 layout: default_toc
-author: Emily Braker
-date: 2016-02-27
+author: April Payne, Emily Braker, Teresa J Mayfield-Meyer
+date: 2021-10-11
 ---
 # How to Create an Accession
 
-(Based on a guide initally developed by April Payne, Northern Michigan University)
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
-An accession provides a way to organize specimens into related sets. Accessions can be created for any convenient purpose, but the most common use is to make one accession that encompasses the specimens collected through a specific project or source (e.g., a single collecting expedition, all salvaged specimens acquired during a given year, specimens received from an agency, all specimens associated with a single PhD project). This allows sets of specimens to be tracked easily (e.g., for reporting). NOTE: Some institutions use Accession Number in place of Catalog Number for a specific cataloged item. In Arctos, these numbers are not the same. There may be multiple cataloged items in a single accession.
+Accessioning is the formal act of legally accepting an object or objects to the category of material that a museum holds in the public trust, or in other words those in the museum’s permanent collection. Because it commits staff time, space and other resources to the proper care of this material, it is important that acquiring material for the collections be done in a thoughtful, inclusive way that reflects the best interests of the museum and its audiences, and can be sustained by the available resources. 
+- <a href="https://www.aam-us.org/wp-content/uploads/2018/01/acquisitions-activity.pdf">American Alliance of Museums</a>
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
+
+Some institutions use Accession Number in place of Catalog Number for a specific cataloged item. In Arctos, these numbers are not the same. There may be multiple cataloged items in a single accession.
 
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Is an accession number required for all specimen records?**
 
-Yes, an accession number is required, but if you choose not to create individual accessions or do not have that info available, you can create a legacy accession (e.g. 0000.00.Herp). You can later move groups of specimens to other accessions as you find the documentation or discover reasons to create them. Some institutions use Accession Number in place of Catalog Number for a specific cataloged item. In Arctos, these numbers are not the same and there may be multiple cataloged items in a single accession.
-
+Yes, an accession number is required, but if you choose not to create individual accessions or do not have that info available, you can create a legacy accession (e.g. 0000.00.Herp). You can later move groups of specimens to other accessions as you find the documentation or discover reasons to create them. 
 
 **To create an accession, from the Arctos main menu select Manage Data > Transaction > Create Accession**
 
