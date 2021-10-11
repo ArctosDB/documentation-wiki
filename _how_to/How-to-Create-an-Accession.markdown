@@ -6,7 +6,7 @@ date: 2021-10-11
 ---
 # How to Create an Accession
 
-What is an Accession?  Before you make any decisions about one, you should know what it is. Start by reading the [Accession Documentation](/_documentation/accession.html). 
+What is an Accession?  Before you make any decisions about one, you should know what it is. Start by reading the [Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html). 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
