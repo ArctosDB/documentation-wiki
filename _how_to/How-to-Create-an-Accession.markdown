@@ -6,7 +6,7 @@ date: 2021-10-11
 ---
 # How to Create an Accession
 
-What is an Accession? Before you create one, read the [documentation](/_documentation/accession.html). 
+What is an Accession?  Before you make any decisions about one, you should know what it is. Start by reading the [Accession Documentation](/_documentation/accession.html). 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
@@ -22,7 +22,7 @@ Yes, an accession number is required, but if you choose not to create individual
 
 You will be directed to a page where you can enter information required to create a new accession.
 
-###  Fields within the Create Accession include the following:
+##  Fields within the Create Accession include the following:
 
 **Collection:**
 * Choose from the drop-down menu the collection that the accession will be associated with.
@@ -68,7 +68,7 @@ Some institutions use Accession Number in place of Catalog Number for a specific
 **Public?:**
 * If you want this accession to be seen publicly, choose “public”, if not, choose “private”.  Generally it is best to choose “private” as accession documents are primarily for internal purposes.  Also, this would protect contact information of individuals that is included in the accession documentation.
 
-### Completing your accession
+## Completing your accession
 Once you are satisfied with all the information you have entered about your new accession, click “Save this Accession” in the pink box at the bottom of the page.
 
 After saving, the page will refresh and show you an updated layout for your accession documentation. At this time you can associate permits or projects with the accession or link barcoded containers to the accession.
