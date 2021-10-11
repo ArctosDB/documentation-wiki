@@ -22,7 +22,7 @@ Yes, an accession number is required, but if you choose not to create individual
 
 You will be directed to a page where you can enter information required to create a new accession.
 
-##  Fields within the Create Accession include the following:
+##  Create Accession Recommendations:
 
 **Collection:**
 * Choose from the drop-down menu the collection that the accession will be associated with.
