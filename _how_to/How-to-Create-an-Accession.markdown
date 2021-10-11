@@ -1,7 +1,7 @@
 ---
 title: How To Create an Accession
 layout: default_toc
-author: Teresa J Mayfield-Meyer previous contributors: Emily Braker, April Payne
+author: Teresa J Mayfield-Meyer previous contributors Emily Braker, April Payne
 date: 2021-10-11
 ---
 # How to Create an Accession
