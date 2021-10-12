@@ -16,7 +16,10 @@ It also may be useful to consider community terms. For biological collections, t
 
 > A bibliographic reference for the resource as a statement indicating how this record should be cited (attributed) when used.
 
-    From Dublin Core, "Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible." The intended usage of this term in Darwin Core is to provide the preferred way to cite the resource itself - "how to cite this record". 
+    From Dublin Core, "Recommended practice is to include sufficient bibliographic detail to 
+    identify the resource as unambiguously as possible." The intended usage of this term in 
+    Darwin Core is to provide the preferred way to cite the resource itself -     "how to cite 
+    this record". 
 
 Given that, what should an Arctos collection require of those who borrow and make use of collection objects or data in research and how can we get users to follow instructions?
 
@@ -26,11 +29,11 @@ This document will offer up recommendations for all collections with data in Arc
 
 When choosing an identifier to be cited, the following should be considered:
 
-* Uniqueness: The best identifier cannot be ambiguous (there must be only one object to which is refers) and has no mechanism for becoming non-unique.
-* Persistence: The best identifier is easy to sustain over long periods of time (in perpetuity!).
-* Machine Resolvability: The best identifier will be easy for machines to recognize. If users cite machine-resolvable 
+* **Uniqueness**: The best identifier cannot be ambiguous (there must be only one object to which is refers) and has no mechanism for becoming non-unique.
+* **Persistence**: The best identifier is easy to sustain over long periods of time (in perpetuity!).
+* **Machine Resolvability**: The best identifier will be easy for machines to recognize. If users cite machine-resolvable 
 identifiers then Arctos can find them, even if there are no other clues that the data were used and the user fails to report the publication. 
-* Human Resolvability: The best identifier will also be easy for humans to recognize and use to locate objects. It should probably be printed on object labels.
+* **Human Resolvability**: The best identifier will also be easy for humans to recognize and use to locate objects. It should probably be printed on object labels.
 
 With the above in mind, the Arctos Working Group recommends requesting citations in the form of the full Arctos catalog record or stable part identifier <a href="https://en.wikipedia.org/wiki/URL" target="_blank">Uniform Resource Locator (URL)</a>, however, collections may choose other options and we have listed them roughly in order of preference below. 
 
