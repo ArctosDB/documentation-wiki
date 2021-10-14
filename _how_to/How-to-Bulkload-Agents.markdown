@@ -20,6 +20,12 @@ An example of what a completed CSV would look like:
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agent_splitter_template.JPG)
  
+
+### Use the Agent Deconcatenator
+
+This tool will attemp to separate multi-agent strings ("Jim Smith and John Doe") into individual Agents.
+
+
 ### Use the Agent Namestring Formatter
 
 This tool will format names into "first middle last" and provide information about whether an Agent name appears proper, may have invalid characters, or be missing information and requires a CSV with a single column header of **preferred_names**. To access this tool, from the Arctos main menu select **Reports/Services > Data Services > Agent Namestring Formatter** 
@@ -67,6 +73,8 @@ The {Agent Bulkload Tool Home page](http://arctos.database.museum/DataServices/a
 This is a good time to delete full duplicates as well; these agents exist.
 
 <img width="813" alt="screen shot 2018-04-26 at 9 02 16 am" src="https://user-images.githubusercontent.com/5720791/39317514-9a7958ee-4930-11e8-8f68-78a4d20d84f6.png">
+
+
 
 
 ### Use the Bulkload Agents Tool
