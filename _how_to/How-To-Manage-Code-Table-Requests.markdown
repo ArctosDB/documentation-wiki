@@ -133,6 +133,21 @@ Example Considerations:
 | TU:Fish   | A specific entity which holds (or held) material, not currently discoverable online. "Official" acronym may be in question.   | Create; while this is not currently useful, it it reasonable to believe that at some point the collection may become more accessible and the identifier will become resolvable.|
 | EBRPD: East Bay Regional Park District | Identifier of unknown uniqueness supplied by an entity which probably does not have material but may have additional data. Deemed unlikely to have a base_url at any time, but correspondence is likely to produce data. | Create; "correspondence is likely to produce data" is sufficient evidence of usefulness.  |
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
+
+Include a link to the agent related to the other identifier in the defintition. Links can be formatted as follows:
+
+```<a href="https://arctos.database.museum/info/agentActivity.cfm?agent_id=21335082" class="newWinLocal">Arctos Agent</a>```
+
+Replace the id number in the code above with the number of the correct Arctos agent and add it to your other identifier defintition.
+
+If the issuing institution does not have an organization agent in Arctos, one should be created to facilitate the link.
+
+In addition - add the link to the Github Issue in which the code table request was approved. For example:
+
+```<a href="https://github.com/ArctosDB/arctos/issues/4016" class="newWinLocal">Github Issue</a>```
+
+
 ### Media Relationships
 
 New media relationships to new nodes require adjustments in table ``media_relations`` and trigger ``tr_mediarelations_biu_requireonekey``; these must be coordinated with the DBA team.
