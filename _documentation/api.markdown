@@ -67,18 +67,15 @@ is no longer functional.
 ```
 Single specimen by GUID, with additional columns:
 
-  https://arctos.database.museum/component/api/v1/catalog.cfc?method=getCatalogData?\
-    api_key=...&guid=UAM:Herb:34746&cols=partdetail,phylum
+  https://arctos.database.museum/component/api/v1/catalog.cfc?method=getCatalogData?api_key=...&guid=UAM:Herb:34746&cols=partdetail,phylum
 
 Several specimens by GUID:
 
-  https://arctos.database.museum/component/api/v1/catalog.cfc?method=getCatalogData?\
-    api_key=...&guid=UAM:Herb:34746,UAM:Herb:34745
+  https://arctos.database.museum/component/api/v1/catalog.cfc?method=getCatalogData?api_key=...&guid=UAM:Herb:34746,UAM:Herb:34745
 
 Specimens by name:
 
-  https://arctos.database.museum/component/api/v1/catalog.cfc?method=getCatalogData?\
-    api_key=...&genus=Claytonia&species=arctica
+  https://arctos.database.museum/component/api/v1/catalog.cfc?method=getCatalogData?api_key=...&genus=Claytonia&species=arctica
 ```
 
 [1]: https://web.archive.org/web/20200928123759/https://handbook.arctosdb.org/documentation/api.html
