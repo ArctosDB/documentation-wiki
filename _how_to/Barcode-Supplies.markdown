@@ -22,7 +22,7 @@ University of Alaska Museum of the North and Museum of Southwestern Biology use 
 ## There are two options to generating physical barcodes. 
 As with both options, be aware of possible duplicates whether ordering duplicated numbers or printer error. 
 
-## Option 1) Purchasing Pre-printed Barcodes:
+### Option 1) Purchasing Pre-printed Barcodes:
 
 Preprinted barcode labels can be purchased from [Electronic Imaging Materials(EIM)](http://barcode-labels.com/). Contact customer service for help to design and customize your barcodes.
 
@@ -30,7 +30,7 @@ Pros: Not set-up cost, no staff time needed except for ordering barcodes.
 
 Cons: Expensive.
 
-## Option 2) Printing Barcodes In-House
+### Option 2) Printing Barcodes In-House
 
 From [Electronic Imaging Materials](http://barcode-labels.com/), UAM purchased a [TSC TC300 (300 dpi) Desktop Label Printer](http://barcode-labels.com/shop/printers/tsc-tc300/) that comes with BarTender Lite software for designing and printing barcodes. The program allows you to create barcode series and remembers the last barcode printed to reduce printing of duplicate barcodes. 
 
@@ -38,6 +38,17 @@ When purchasing barcode rolls, select Thermal Transfer print method. More inform
 
 Pros: Cost: About 1/3 the cost of purchasing pre-printed barcodes
 Cons: Initial set-up costs (cost of the printer which is about $500), requires staff time to create and print barcodes.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
+
+You can use Microsoft Word to print barcodes. There are several methods for doing so.
+
+ - <a href="https://msdn.microsoft.com/en-us/library/hh745903(v=office.12).aspx" target="_blank">Microsoft Tutorial</a>
+
+ - <a href="https://www.clearlyinventory.com/how-to-print-barcodes-with-excel-and-word" target="_blank">Sarcastic tutorial</a>
+ 
+ - <a href="https://github.com/ArctosDB/arctos/issues/1560#issuecomment-396389903" target ="_blank">Barcode Font</a>
+
 
 ## Scanners
 
