@@ -49,7 +49,7 @@ You do not need to create an account or login to search. However, there are some
 
 * Once you hit "Show More Options" to the right in the gray section header, you will see a number of other search fields. These allow you to search by higher taxonomy or other types of data in Arctos.
 
-* For more detailed instructions, see [How to Search for Specimens with Identification and Taxonomy](/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
+* For more detailed instructions, see [How to Search for Specimens with Identification and Taxonomy](/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
 
 ## Locality
 
