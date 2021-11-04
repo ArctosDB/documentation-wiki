@@ -4,7 +4,7 @@ layout: default_toc
 ---
 
 
-# *This is a draft document; recommendations have not been finalized.*
+# *This is a draft; recommendations have not been finalized.*
 
 
 
@@ -15,21 +15,21 @@ layout: default_toc
 
 ## For Users
 
-* It is strongly recommended to cite specimens individually. To do so, use the information in the "cite_this_as" field in the Arctos download.
+* To make it easier to cite specimens individually, which is critical for tracking usage, reproducible scientific methods, and provenance, Arctos has several recommendations and strongly urge users to use the information in the "cite_this_as" field in the Arctos download.
 
-```
+<!--
 AWG: What should we put in that field?
-```
-* If citing individual specimens is not possible or practical, contact the Curator(s) of the collection(s) with which you are working for 
-guidance. 
+-->
+
+* If citing individual specimens is not possible or practical, contact the Curator(s) of the collection(s) with which you are working for guidance. 
 
 --- 
 ## For Curators
 
-Unfortunately, there are no clear universal guidelines for citing specimens, and there are potential complications for all specimen identifiers.
+At the moment, there are no clear universal guidelines for citing specimens, and there are potential complications for all specimen identifiers.
 When providing guidance for citing multiple specimens, the following should be considered in addition to the nature of the material (or data)
 being used, the nature of the work being done, and anything else which might effect how data and specimens (or samples) are ultimately accessed,
-both digitally and physically. The Arctos Working Group is available discuss specifics.
+both digitally and physically. The Arctos Working Group is available discuss specific use cases and problem-solve with you.
   
 
 ### Considerations 
@@ -42,7 +42,7 @@ When choosing an identifier, the following should be considered:
 identifiers then Arctos can find them, even if there are no other clues that the data were used and the user fails to report the publication. 
 * Human Resolvability: A good identifier will be easy for humans to recognize, and use to locate specimens; it should probably be printed on specimen labels.
 
-### Possibilities
+### Possible Solutions
 
 These are presented roughly in order of preference.
 
@@ -102,12 +102,11 @@ or specimens being encumbered or deleted.
 current specimens may have little to do with the used specimens. 
 * Human Resolvability is nonexistent.
 
-#### Projects ([http://arctos.database.museum/project/beringian-coevolution-project-bcp](http://arctos.database.museum/project/beringian-coevolution-project-bcp))
+#### Projects ([Beringian Coevolution Project (BCP); https://arctos.database.museum/project/51](https://arctos.database.museum/project/51))
 
 * Uniqueness is inherent.
 * Persistence is nonexistent; results change as data are added or altered
-* Machine Resolvability is dependent upon persistence, of which there is none. That is, these are machine-discoverable but the 
-current specimens may have little to do with the used specimens. 
+* Machine Resolvability is dependent upon persistence, of which there is none. That is, these are machine-discoverable but the current specimens list may change.
 * Human Resolvability is poor; some resolution is possible, but results must be uncertain.
 
 

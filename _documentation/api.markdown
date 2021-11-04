@@ -5,74 +5,77 @@ layout: default_toc
 
 # Arctos API
 
-**Note: this documentation refers to the new API (beginning 2020).**
-For information about the old API, please see [this
-page](https://arctos.database.museum/info/api.cfm).
+**Note: this documentation refers to the 2021 API (since Jan 2021).**
+A REST-style API existed in 2020 ([old documentation][1]).  The
+original JSON/CSV API (of the form
+`https://arctos.database.museum/SpecimenResultsJSON.cfm?accn_number=...`)
+is no longer functional.
 
-## Usage
+## Request format
 
- * Endpoint: <http://test.arctos.database.museum/api/v1/>, currently
-   only accepts HTTP GET requests, so be careful not to exceed the
-   `QUERY_STRING` length (possibly only 8,000 characters).
- * API key: all API requests (other than to `.../about`) must be
-   accompanied by the key-value pair `api_key=...` in the query
-   string. To obtain a key, ask anyone with Arctos `global_admin`
-   access. They should look under the menus: ‘Manage Arctos ->
-   Developer Tools -> Manage API Keys’
- * Services:
-    * `about`: Info about the API.
-    * `cat/vars`: List of variables for queries, and for requesting in
-      results.
-    * `auth/ct`: List code tables. With parameter `tbl=...` request
-      contents of a code table.
-    * `cat/record`: Main specimen search.  With no extra parameters,
-      information about the allowable parameters is returned. The `q`
-      parameter is the query term (see below).
+ * **Endpoint**: <https://arctos.database.museum/component/api/v1/>.
+   Accepts both HTTP GET and POST. Use POST for long query strings
+ * **API key**: most API requests must be accompanied by the key-value
+   pair `api_key=...` in the query string. To obtain a key:
+     * Ask anyone with Arctos `global_admin` access. They should look
+       under the menus: ‘Manage Arctos -> Developer Tools -> Manage
+       API Keys’
+     * Or file a request as an Issue at
+       <https://github.com/ArctosDB/arctos/issues>
+ * **Services** (append these to the endpoint URL above):
+    * `about.cfc?method=api_map`: Basic info about the API (no API key required)
+    * `catalog.cfc?method=about`: **API usage documentation** and list of 
+       variables for catalog queries, and fields for requesting in results (no
+       API key required)
+    * `authority.cfc?method=code_tables`: List code tables. With parameter 
+      `tbl=...` request contents of a code table (_requires API key_)
+    * `catalog.cfc?method=getCatalogData`: **Main specimen search**
+      (_requires API key_)
 
 ## Specimen query terms
 
- * The API uses the same code that `specimenresults` uses, so
+ * The API uses the same underlying code that `SpecimenResults.cfm` uses, so
    documentation for a search field can be found by clicking on the
    field name in the standard Arctos Specimen form.
- * The `q=...` value must be URL encoded. E.g., `q=genus%3DClaytonia`.
- * Fields can be combined to form ‘AND’ requests, using a `&`
-   character (URL encoded: `%26`) . E.g.,
-   `q=genus%3DClaytonia%26species%3Darctica`
+ * Search terms are added as key-value pairs using the terms listed in
+   `catalog.cfc?method=about`. When two or more search terms are used
+   a logical ‘AND’ is assumed.
  * Sets of specimens can be requested via a comma-delimited list of
-   GUIDs. The commma may be either URL encoded or not. See example
-   below.
+   GUIDs.
 
 ## Results
 
-Only JSON-formatted results are currently available.  The default
-fields returned for a specimen search are: `guid`, `scientific_name`,
-`country`, `state_prov`, `spec_locality`, `verbatim_date`, `dec_lat`,
-`dec_long`, `coordinateuncertaintyinmeters`. More field control should
-soon be possible via the `cols=...` key-value pair.
+ * Only JSON results are currently available.  
+ * The default fields returned for a specimen search are: `guid`,
+   `scientific_name`, `country`, `state_prov`, `spec_locality`,
+   `verbatim_date`, `dec_lat`, `dec_long`,
+   `coordinateuncertaintyinmeters`. To add additional fields use the
+   `cols=...` key-value pair, with field names separated by commas.
+ * By default, a maximum of 10 records are returned. Sending
+   `pgsz=...` can be used to ask for more records (tested up to
+   20,000). If a page size limit is reached, the results will need to
+   be collected via multiple calls to the API, paging with the
+   `pg=...` variable until `"TotalRecordCount":"..."` (in the JSON) is
+   reached. Note that in the original query, a `"tbl":"..."` value is
+   returned - this is an identifier for the temporary results
+   set. During pagination, calling `tbl=...&pgsz=...&pg=...` will be
+   faster than requesting paginated results via original query
+   parameters.
 
 ## Examples: 
+
 ```
-Single specimen by GUID:
-http://test.arctos.database.museum/api/v1/cat/record?\
-  api_key=...&q=guid%3DUAM%3AHerb%3A10043
+Single specimen by GUID, with additional columns:
+
+  https://arctos.database.museum/component/api/v1/catalog.cfc?method=getCatalogData?api_key=...&guid=UAM:Herb:34746&cols=partdetail,phylum
 
 Several specimens by GUID:
-http://test.arctos.database.museum/api/v1/cat/record?\
-  api_key=...&q=guid%3DUAM%3AHerb%3A10043,UAM%3AHerb%3A10442
+
+  https://arctos.database.museum/component/api/v1/catalog.cfc?method=getCatalogData?api_key=...&guid=UAM:Herb:34746,UAM:Herb:34745
 
 Specimens by name:
-http://test.arctos.database.museum/api/v1/cat/record?\
-  api_key=...&q=genus%3DClaytonia%26species%3Darctica
+
+  https://arctos.database.museum/component/api/v1/catalog.cfc?method=getCatalogData?api_key=...&genus=Claytonia&species=arctica
 ```
 
-## Interacting with the API
-
-In order to get a non-zero `Content-Length` from the API, the HTTP
-header `Accept-Encoding: gzip` must be set. This is set by default on
-web browsers and `wget`, but not with `curl`.  The output from `curl`
-must then be uncompressed:
-```
-curl -s -H "Accept-Encoding: gzip" \
-   http://test.arctos.database.museum/api/v1/about | gunzip > output.json
-```
-
+[1]: https://web.archive.org/web/20200928123759/https://handbook.arctosdb.org/documentation/api.html
