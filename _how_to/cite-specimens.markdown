@@ -102,12 +102,11 @@ or specimens being encumbered or deleted.
 current specimens may have little to do with the used specimens. 
 * Human Resolvability is nonexistent.
 
-#### Projects ([http://arctos.database.museum/project/beringian-coevolution-project-bcp](http://arctos.database.museum/project/beringian-coevolution-project-bcp))
+#### Projects ([Beringian Coevolution Project (BCP); https://arctos.database.museum/project/51](https://arctos.database.museum/project/51))
 
 * Uniqueness is inherent.
 * Persistence is nonexistent; results change as data are added or altered
-* Machine Resolvability is dependent upon persistence, of which there is none. That is, these are machine-discoverable but the 
-current specimens may have little to do with the used specimens. 
+* Machine Resolvability is dependent upon persistence, of which there is none. That is, these are machine-discoverable but the current specimens list may change.
 * Human Resolvability is poor; some resolution is possible, but results must be uncertain.
 
 
