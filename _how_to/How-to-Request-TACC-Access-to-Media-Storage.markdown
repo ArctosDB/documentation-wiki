@@ -11,7 +11,7 @@ The [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) offer
 
 To request access and an institution specific directory on TACC, create a special [Github Issue called *Arctos Digital Media Storage Request*](https://github.com/ArctosDB/internal/issues/new/choose). The steps are listed below for reference.
 
-<blockquote>
+```
  Please read all items and check off boxes as completed.
 
 - [ ] Approval for access granted by Arctos Member Institution indicated through comments to this issue by the person who signed the MOU or person with administrative contact role in Manage Collection.
@@ -33,7 +33,7 @@ To request access and an institution specific directory on TACC, create a specia
 - [ ] @dustymc has created the requested directories. 
 **When this issue is closed, your request is complete. It is your responsibility to pay attention to this issue, and if you are requesting on behalf of others, please notify your local users directly or add their github user names to this issue for automatic email notification.**
 
-</blockquote>
+```
 
 ## Related Links
 ### Documentation
