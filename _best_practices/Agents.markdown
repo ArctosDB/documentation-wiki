@@ -35,9 +35,20 @@ To check for names already in Arctos, you can search for them individually or if
  - <a href="https://handbook.arctosdb.org/how_to/How-to-Search-Agents.html" target="_blank">How to Search Agents</a>
  - <a href="https://handbook.arctosdb.org/how_to/How-to-Bulkload-Agents.html#use-the-agent-name-splitter" target="_blank">Use the Agent Name Splitter</a>
 
+### Robust Agents 
+Creating an agent only requires a name, but robust agents include much more. Add as much information as possible to the agent information to allow others to disambiguate this agent from all others and to use the agent to the fullest extent possible. Addresses are used in transactions and can provide unique identifiers (ORCiD and Wikidata) that help identify each Agent as a unique individual. Relationships create a network of Agents useful in determining who ambiguous names may belong to. Aka and other name variants make the Agent more discoverable. Agent remarks allow for free text descriptive information and can also include HTML to make text more readable on the Agent page.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
+
+You can use an HTML cheat sheet to help with the code. Try <a href="https://htmlcheatsheet.com/" target="_blank">HTML Cheatsheet</a> or <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" target="_blank">Stanford HTML Cheatsheet</a>
+
 ### A Note on Preferred Name 
 
-**need to add** 
+Preferred name should be the name preferred by the person. If this isn't known, using the most complete name availabale is a good choice.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
+
+If a preferred name includes any special characters, include an aka that excludes them. See <a href="https://arctos.database.museum/agent/1008945" target="_blank">András Gubányi</a> for an example.
 
 ### A Note on aka 
 
@@ -54,7 +65,7 @@ Use the Agent “unknown” when the person or organization doing the collecting
  
 ## Edit this Best Practice
 
-If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/Agents.markdown).
+If you see something that needs to be edited in this Best Practice, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/Agents.markdown).
 
 
 ## Community Discussion
