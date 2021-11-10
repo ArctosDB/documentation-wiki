@@ -134,7 +134,7 @@ The contacts section is the top section on the right side of the manage collecti
 **NOTE** Changes to this section are saved by selecting the **Save** button next to the contact that has been edited.
 
 ### Contact Name
-Anyone who is a contact for the collection must first be entered into Arctos as an agent, with a valid email address (see "[How to Create Agents](_how_to/How-to-Create-Agents)"). Add the name of each person who is a contact for the collection: type their last name and hit the tab key to bring up the list of agents with that name, then select the correct agent. 
+Anyone who is a contact for the collection must first be entered into Arctos as an agent, with a valid email address (see "[How to Create Agents](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Create-Agents)"). Add the name of each person who is a contact for the collection: type their last name and hit the tab key to bring up the list of agents with that name, then select the correct agent. 
 
 ### Contact Role
 For each contact, specify their [Contact Agent Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_CONTACT_ROLE) through the dropdown of choices.
