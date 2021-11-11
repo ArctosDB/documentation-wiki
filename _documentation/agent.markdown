@@ -48,7 +48,7 @@ Agencies can have hierarchical relationships, *e.g.*:
 
 For catalog record roles person agents are more explicit and preferable to organizations. Organizations are generally more useful in transaction and project roles.
 
-### Groups
+### Group
 
 A group is two or more agents functioning in some named capacity. So, instead of listing several collectors on an expedition, one might make all the collectors members of something like the "1994 Swedish-Russian Tundra Ecology Expedition."
 
@@ -59,9 +59,9 @@ Agent Groups consists of:
 
 Groups may be useful for things like collecting expeditions and classes.
 
-### Verbatim Collectors (not Agents)
+### Verbatim Collector (not an Agent)
 
-The catalog record [attribute](/documentation/attributes) "[verbatim collector](https://handbook.arctosdb.org/documentation/agent.html#verbatim-collectors-not-agents)" allows uncontrolled strings to be associated with individual catalog records. 
+The catalog record [attribute](/documentation/attributes) "[verbatim collector](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_collector)" allows uncontrolled strings to be associated with individual catalog records. 
 
 This is preferable to creating low-data Agents when possible, and puts any necessary cleanup in the context of the catalog record data. For example, when working with bare agent names (as is often the case when importing data to Arctos), deciding if "J. Smith" and "J. D. Smith" are the same Agent is often impossible or impractical. Determining whether similar strings represent one entity is a much more robust exercise in the context of multiple catalog records, where it's relatively straightforward to determine if the potential agents are conducting similar activity (in which case they probably are the same, and it's easy to "upgrade" them to Agents using Arctos tools) of if they are probably different (in which case more research may be necessary, or multiple agents with differentiating relationships and addresses may be created and used). We recommend this approach for most incoming string-based "collector" information.
 
