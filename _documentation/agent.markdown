@@ -59,7 +59,7 @@ Agent Groups consists of:
 
 Groups may be useful for things like collecting expeditions and classes.
 
-#### Verbatim Collectors (not Agents)
+### Verbatim Collectors (not Agents)
 
 The catalog record [attribute](/documentation/attributes) "[verbatim collector](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_collector)" allows uncontrolled strings to be associated with individual catalog records. 
 
