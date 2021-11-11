@@ -71,64 +71,33 @@ When "bad duplicate of" agents are merged, "verbatim collector" Attributes are a
 
 ## Names
 
-`Agent_Name . Agent_Name VARCHAR2(184) not null`
-
 All agents must have one and only one "preferred name" and one and only one "login". An agent can have any number of other names.
 
 ## Name Type
 
-`Agent_Name . Agent_Name_Type VARCHAR2(18) not null`
-
 Agent Name Type, e.g. "preferred," is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
 
-## Remarks
+## Address
 
-`Agent . Agent_Remark VARCHAR2(255) null`
+Address matches any part of [any address](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTADDRESS_TYPE),
+including mailing addresses, telephone numbers, and email addresses.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
+
+ORCiD and Wikidata urls are found in the addresses section of the agent table.
+
+### Agent Status
+
+Agent Status matches values from a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS). This may be combined with "**Match**" and **Status Date** to locate agents reported in an event, agents having an event on a date, or events happening on, before, or after a given date.
+
+## Remarks
 
 Remarks is a good place to include a one sentence description of the agent. Anything that might be helpful to other users in understanding who or what the agent is should be included. Never use remarks for data which can be linked or formalized elsewhere. Agent remarks allow for free text descriptive information and can also include HTML to make text more readable on the Agent page.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
 You can use an HTML cheat sheet to help with the code. Try <a href="https://htmlcheatsheet.com/" target="_blank">HTML Cheatsheet</a> or <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" target="_blank">Stanford HTML Cheatsheet</a>
-
-## Searching Agents
-
-The search form contains several fields and options, detailed below. All are case-insensitive substring matches. You may also include the special characters \_ and % to match any single character or any string, respectively.
-
-### Any name search
-
-Any part of a name is appropriate for most exploratory searching. It matches any name, including preferred, AKAs, name
-components, and login name.
-
-### Agent Type
-
-Agent Type matches values used in the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_TYPE).
-
-### Agent ID
-
-Agent ID matches the (internal, primary key) `agent_id` (an integer).
-
-### Agent Name Type
-
-Agent Name Type matches values used in a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_NAME_TYPE).
-
-### Agent Name
-
-Agent Name matches names of the chosen type.
-
-### Address
-
-Address matches any part of [any address](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTADDRESS_TYPE),
-including mailing addresses, telephone numbers, and email addresses.
-
-### Agent Status
-
-Agent Status matches values from a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS). This may be combined with "**Match**" and **Status Date** to locate agents reported in an event, agents having an event on a date, or events happening on, before, or after a given date.
-
-### Created By
-
-Created By (and corresponding **match** types and **Created Date**) may be used to find agents created by an agent, agents created by an agent on/before/after a date, or agents created on/before/after a date.
 
 ## Deleting/merging agents
 
