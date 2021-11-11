@@ -13,8 +13,6 @@ Agents are people, organizations, or groups that perform actions. Collectors are
 
 ## Agent Type
 
-`Agent . Agent_Type VARCHAR2(15) not null`
-
 Agent Type is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type).
 
