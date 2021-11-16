@@ -135,7 +135,7 @@ Example Considerations:
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
-Include a link to the agent related to the other identifier in the defintition. Links can be formatted as follows:
+ - Include a link to the agent related to the other identifier in the definition. Links can be formatted as follows:
 
 ```<a href="https://arctos.database.museum/info/agentActivity.cfm?agent_id=21335082" class="newWinLocal">Arctos Agent</a>```
 
@@ -146,6 +146,8 @@ If the issuing institution does not have an organization agent in Arctos, one sh
 In addition - add the link to the Github Issue in which the code table request was approved. For example:
 
 ```<a href="https://github.com/ArctosDB/arctos/issues/4016" class="newWinLocal">Github Issue</a>```
+
+ - **Available for Public View** is part of the request template and directs the developer to have the values part of the public display, such as Agent profile in the case of ```ctaddress_type```. This also should be part of its definition. Not all address types are viewable publicly such as email addresses but authority links to Wikidata or Library of Congress are.
 
 
 ### Media Relationships
