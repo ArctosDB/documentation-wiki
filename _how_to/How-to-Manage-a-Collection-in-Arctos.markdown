@@ -180,7 +180,7 @@ Text to display in place of Collection URL. (60 character maximum) This text wil
  
     EXAMPLE: "Bird Collection"
     
-    ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/collection_name.jpg) 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/collection_name.jpg) 
  
 ### Institution URL
 URL at which more institution information may be found. This text will also appear at the top of every catalog record in the collection. 
@@ -192,7 +192,7 @@ Text to display in place of Institution URL. (60 character maximum)
  
     EXAMPLE: "Abilene Chrisitan University"
     
-    ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/institution_name.jpg) 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/institution_name.jpg) 
  
 ### Meta Description
 HTML header; for bots, probably no longer useful.
