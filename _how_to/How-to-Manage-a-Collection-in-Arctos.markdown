@@ -59,7 +59,7 @@ A general description of the taxonomic coverage of the collection.
     EXAMPLE: "Birds of New Mexico and the Southwestern United States and Northwestern Mexico"
     
 ### Taxon Name Value
-Taxon name associated with the collection, be as specific as possible. Most biological collections will be at the level of class or higher. Cultural and art colelctions can leave this blank if they wish.
+Taxon name associated with the collection, be as specific as possible. Most biological collections will be at the level of class or higher. Cultural and art collections can leave this blank if they wish.
 
     EXAMPLE: "Aves"
 
