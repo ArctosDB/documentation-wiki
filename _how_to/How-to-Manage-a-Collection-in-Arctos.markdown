@@ -171,7 +171,7 @@ URL at which more collection information may be found.
  
     EXAMPLE: http://www.nmnaturalhistory.org/bioscience/bioscience-collections
 
-If a colelction does not have an external website, you may want to use the Arctos details page for the collection here.
+If a collection does not have an external website, you may want to use the Arctos details page for the collection here.
 
     EXAMPLE: https://arctos.database.museum/collection/NMMNH:Paleo 
  
@@ -179,16 +179,20 @@ If a colelction does not have an external website, you may want to use the Arcto
 Text to display in place of Collection URL. (60 character maximum) This text will also appear at the top of every catalog record in the collection.
  
     EXAMPLE: "Bird Collection"
+    
+    ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/collection_name.jpg) 
  
 ### Institution URL
 URL at which more institution information may be found. This text will also appear at the top of every catalog record in the collection. 
  
     EXAMPLE: http://www.nmnaturalhistory.org/science
- 
+    
 ### Institution Link Text
 Text to display in place of Institution URL. (60 character maximum)
  
-    EXAMPLE: "Collections Home Page"
+    EXAMPLE: "Abilene Chrisitan University"
+    
+    ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/institution_name.jpg) 
  
 ### Meta Description
 HTML header; for bots, probably no longer useful.
