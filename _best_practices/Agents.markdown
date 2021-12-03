@@ -86,7 +86,7 @@ Sometimes the data in Arctos cannot provide a clear answer, and a somewhat arbit
 
 Overloaded Agents - Agent records which in fact represent multiple entities - are easy to discover. A search for the proper spelling will not find records linked to a mis-spelled Agent, and users will often continue to explore. (Users searching by agents generally know something of the agent in which they are interested.) When attached records are found, they will often contain information leading to the correct interpretation of the data: The alleged entity collected before they were born, or were collecting fossil molluscs in Alaska and extant grasshoppers in Madagascar at the same time. This information can easily and immediately be used to exclude the records which are not of interest or, for curatorial users, to split the agent and create a 'not the same as' relationship to prevent subsequent confusion.  
 
-#### Different Agent, Same Name
+### Different Agent, Same Name
 
 Occasionally, two distinct agents will share a name, but there exists a unique key on `preferred_name` so duplicate preferred names are not possible. With some research, it is usually possible to disambiguate the agents by adding initials, middle names, or nicknames. If that is not possible, it may be necessary to add parenthetical information to the
 preferred name, for example "John Doe (southwest mammals)." When this is necessary, it's usually preferable to similarly annotate all agents that share the name to avoid later data entry efforts inadvertently picking the wrong agent. Add a "not the same as" relationship and verbose agent remarks.

@@ -43,7 +43,7 @@ This field will be populated from the process of creating your collection. You c
 ### Citation  
 Indicate how the collection should be cited. It is a good idea to include both a general citation for the collection as well as information about citing individual cataloged items.
 
-    EXAMPLE: "New Mexico Museum of Natural History and Science Bird Collection. Individual specimens should be cited as NMMNH:Bird: followed by the integer catalog number."
+    EXAMPLE: "New Mexico Museum of Natural History and Science Bird Collection. Individual catalog records should be cited by the catalog record url: https://arctos.database.museum/guid/NMMNH:Bird:1."
 
 ### Geography Description  
 A general description of the geographic coverage of the collection.
@@ -111,19 +111,18 @@ Before selecting your terms and licenses, read <a href="https://handbook.arctosd
 ### Internal License
 Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection for use in, and as downloaded from, Arctos. 
 
-
 ### External License
 Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection to external sources, such as GBIF and iDigBio. 
 
 ### Collection Terms
 Collection Terms accompanies the licenses, and provides a method by which collections may describe how they wish their data to be used, cited, etc., above and beyond the legal requirements specified in the license.
 
-#### Special Note on licenses
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
 The External License is used by the Arctos EML Generator and included in DarwinCore data made available to aggregators. Note that GBIF will not accept data which isn't licensed according to their standards - [link](https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg). The Internal License (which may be the same as the External License) accompanies the richer data in Arctos. Both are accompanied by Collection Terms; the [VertNet Guide to Copyright and Licenses for Data Publication](http://vertnet.org/resources/datalicensingguide.html) is a good place to start.
 
 ### Taxonomy Source
-Select from the dropdown of choices. The designates the source of taxonomic classifications used for the collection.
+Select from the dropdown of choices. The designates the source(s) of taxonomic classifications used for the collection. Order is important. PLace your preferred source first. If a classification for a name used in an identification is not found in the first selection the one in the second will be used and so on. 
 
 ### Genbank Collection
 Genbank Collection is the collection identifier provided by GenBank. Only collections properly registered with GenBank, and with their assigned identifier entered into Arctos, may access all Arctos-to-GenBank tools.
@@ -141,8 +140,7 @@ For each contact, specify their [Contact Agent Role](http://arctos.database.muse
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
-It is recommended that every collection have at least one contact for each role with the exception of mentor, which is optional. Technical Support contact should be given as Dusty L. McDonald unless otherwise advised.
-
+It is recommended that every collection have at least one contact for each role with the exception of mentor, which is optional. Technical Support contact should be given as Dusty L. McDonald unless otherwise advised. 
 
 #### Special Note on Contacts
 
@@ -155,6 +153,8 @@ Collections may customize the header that appears at the top of a collection rec
 
 ### Header Color
 This is the background color of the header. Enter an HTML color code. Clicking the "HEADER_COLOR" label will provide you with a list of options for selecting HTML colors. 
+
+**NOTE** If the header color is dark, you will need to create a stylesheet to lighten the text.
 
 ### Header Image
 Generally a 60x60 pixel image can be used to replace the Arctos Bear in the catalog record header. The image should be [loaded to media in Arctos](http://handbook.arctosdb.org/how_to/How-to-Upload-Media-to-TACC.html#single-file-uploads), then the media url can be placed in this field.
@@ -170,14 +170,18 @@ Image attribution, displayed near the header image. (60 character maximum)
 URL at which more collection information may be found.
  
     EXAMPLE: http://www.nmnaturalhistory.org/bioscience/bioscience-collections
+
+If a colelction does not have an external website, you may want to use the Arctos details page for the collection here.
+
+    EXAMPLE: https://arctos.database.museum/collection/NMMNH:Paleo 
  
 ### Collection Link Text
-Text to display in place of Collection URL. (60 character maximum)
+Text to display in place of Collection URL. (60 character maximum) This text will also appear at the top of every catalog record in the collection.
  
     EXAMPLE: "Bird Collection"
  
 ### Institution URL
-URL at which more institution information may be found.
+URL at which more institution information may be found. This text will also appear at the top of every catalog record in the collection. 
  
     EXAMPLE: http://www.nmnaturalhistory.org/science
  

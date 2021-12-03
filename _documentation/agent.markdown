@@ -7,7 +7,7 @@ date: 2021-11-11, 2016-12-01
 
 # Agents
 
-Agents are people, organizations, or groups that perform actions. Collectors are agents, authors of publications are agents, users of objectss are agents, and, if you enter or edit data, you are an agent. A single agent can have many roles and many names. No matter how many roles or names an agent has, a single person (or agency) should be in the database only once. 
+Agents are people, organizations, or groups that perform actions. Collectors are agents, authors of publications are agents, users of objects are agents, and, if you enter or edit data, you are an agent. A single agent can have many roles and many names. No matter how many roles or names an agent has, a single person (or agency) should be in the database only once. 
 
  - <a href="https://handbook.arctosdb.org/best_practices/Agents.html" target="_blank">Best Practice - Creating Meaningful Agents</a>
 
