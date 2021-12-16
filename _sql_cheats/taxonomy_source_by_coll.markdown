@@ -1,0 +1,1 @@
+select guid_prefix,string_agg(source,'|' order by preference_order) from collection left outer join collection_taxonomy_source on collection.collection_id=collection_taxonomy_source.collection_id group by guid_prefix order by guid_prefix
