@@ -9,7 +9,7 @@ date: 2021-12-16
 This query provides a list of the collections in Arctos and their taxonomic sources in order of preference.
 
 ## GitHub Issue
-This query was created as a response to this Github Issue - <a href="https://github.com/ArctosDB/arctos/issues/3781" target="_blank">Issue #3781</a>
+This query was created as a response to this Github Issue - <a href="https://github.com/ArctosDB/arctos/issues/4201" target="_blank">Issue #4201</a>
 
 ## Code
 Copy the code below and paste it into <a href="https://arctos.database.museum/tools/userSQL.cfm" target="_blank">Reports/Services > Write SQL</a> in Arctos to repeat this query
