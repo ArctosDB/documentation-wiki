@@ -20,7 +20,7 @@ Provide each of your team members with these instructions to create their Arctos
 * Go to [https://arctos.database.museum](https://arctos.database.museum) and enter a username and password, then select "Create Account" (do not hit the return key or it will think you are trying to login with an account that doesn't exist yet).
  * Do not select "Create Account" before entering a username and password
  * Username must inlcude only letters and numbers (ASCII characters A-Z, a-z, and 0-9), and cannot begin with a number. **Do not include periods in your username (e.g., carla.cicero is not a valid username)**
- * Passwords should be at least eight characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*+,-/:;?_., not contain the username, and consist of at least one letter, number, and special character
+ * Passwords should be at least eight characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*,-/:;?_., not contain the username, and consist of at least one letter, number, and special character
 * Once you have created an account and are logged in, from the Arctos main menu select "My Stuff", then select "Profile"
 * Enter your First, Middle (if applicable, initial ok), and Last names in the appropriate fields
 * Enter your Affiliation (name of your institution)
