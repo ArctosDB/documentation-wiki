@@ -19,7 +19,7 @@ Some items to be aware of when using this option:
 
 ## Encumbering Locality
 
-When it is necessary to encumber specific locality or to more permanently encumber locality information, another option is avaialable.  Adding the geology attribute "access" with the value of "private" to any locality will hide the locality both in catalog records and in locality searches. It will also hide collecting and record events that use the locality. When using this option, it is adviseable to create two catalog record events for any affected catalog records, one with the detailed locality information and the private access geology attribute, and a second with a the most general locality information that can be made available that does not include the private access geology attribute.
+When it is necessary to encumber specific locality or to more permanently encumber locality information, another option is avaialable.  Adding the locality attribute "access" with the value of "private" to any locality will hide the locality both in catalog records and in locality searches. It will also hide collecting and record events that use the locality. When using this option, it is adviseable to create two catalog record events for any affected catalog records, one with the detailed locality information and the private access locality attribute, and a second with a the most general locality information that can be made available that does not include the private access locality attribute.
 
 ### Access - Private Example
 
@@ -35,4 +35,4 @@ The "private" view of this record appears as follows (sensitive information has 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/encumber_locality/NMMNH_Paleo_1_private.jpg)
 
-Note the access: private geolgoy attribute in the purple box. This attribute encumbers the locality. For instructions on adding geology attributes, see [How to Add Geology Attributes to a Locality](http://handbook.arctosdb.org/how_to/How-to-Add-Geology-Attributes-to-a-Locality.html)
+Note the access: private locality attribute in the purple box. This attribute encumbers the locality. For instructions on adding locality attributes, see [How to Add Geology Attributes to a Locality](http://handbook.arctosdb.org/how_to/How-to-Add-Geology-Attributes-to-a-Locality.html)
