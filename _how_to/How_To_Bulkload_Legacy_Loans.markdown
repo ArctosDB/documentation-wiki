@@ -51,8 +51,8 @@ Now that the loans have been created in Arctos, specimen parts that were include
 
 How to Bulkload Loans (Step 1):
 
-[![How to Bulkload Loans](https://i9.ytimg.com/vi/pN40CkKAbgw/mq2.jpg?sqp=CJCU8I8G&rs=AOn4CLCgvG7IypQyOLtWLJ3jqMzZHZ6e7A](https://youtu.be/pN40CkKAbgw)
+[![How to Bulkload Loans](https://i9.ytimg.com/vi/pN40CkKAbgw/mq2.jpg?sqp=CJCU8I8G&rs=AOn4CLCgvG7IypQyOLtWLJ3jqMzZHZ6e7A)](https://youtu.be/pN40CkKAbgw)
 
 How to Bulkload Loan Items (Step 2):
 
-[![How to Bulkload Loan Items](https://i9.ytimg.com/vi/h4QKUb2cQgs/mq1.jpg?sqp=CJCU8I8G&rs=AOn4CLBVntj4GzENC48neloo6sYTX2GUTg](https://youtu.be/h4QKUb2cQgs)
+[![How to Bulkload Loan Items](https://i9.ytimg.com/vi/h4QKUb2cQgs/mq1.jpg?sqp=CJCU8I8G&rs=AOn4CLBVntj4GzENC48neloo6sYTX2GUTg)](https://youtu.be/h4QKUb2cQgs)
