@@ -156,7 +156,11 @@ All fields will be blank.  Follow the instructions to create the classification 
 
 # Tutorial Videos ↗️
 
+How to Add a Taxon Name and Classification to Arctos:
+
 [![How to Add a Taxon Name and Classification to Arctos](https://i9.ytimg.com/vi/yVWsCY3z46A/mq3.jpg?sqp=CNyD8I8G&rs=AOn4CLDrRAUTrVefAADQpHVCYr9xjnqiRg)](https://youtu.be/yVWsCY3z46A)
+
+Adding WoRMS via Arctos classification names:
 
 [![Adding WoRMS via Arctos classification names](https://i9.ytimg.com/vi/9g3sEFqdzko/mq2.jpg?sqp=CNyD8I8G&rs=AOn4CLBoeuS1t0dBrZgAIKXLcV8dxzfIrw)](https://youtu.be/9g3sEFqdzko)
 
