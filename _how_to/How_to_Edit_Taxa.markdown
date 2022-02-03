@@ -147,6 +147,17 @@ Arctos will confirm the deletion.  You cannot reverse this but you can recreate 
 
 ![image](https://user-images.githubusercontent.com/15368365/56095734-0186d200-5e9d-11e9-98db-eb65ffe48838.png)
 
+# Tutorial Videos ↗️
+
+Hierarchical Editor Tool/Taxonomy Manager Overview:
+
+[![Review of Hierarchical Editor Tool/Taxonomy Manager](https://i9.ytimg.com/vi/mtUDXqtlc9I/mq2.jpg?sqp=CLSI8I8G&rs=AOn4CLDuZfBmlJX5vecEl6mcL2usTE4-Sg)]
+(https://youtu.be/mtUDXqtlc9I)
+
+How to add family and classification metadata to an existing taxon name:
+
+[![How to add family and classification metadata to an existing taxon name](https://i9.ytimg.com/vi/-lNFRL4a8hs/mq1.jpg?sqp=CIiG8I8G&rs=AOn4CLDqh-Yi3G3QCQPEejgQs4Z7HX4QpA)](https://youtu.be/-lNFRL4a8hs)
+
 
 
 
