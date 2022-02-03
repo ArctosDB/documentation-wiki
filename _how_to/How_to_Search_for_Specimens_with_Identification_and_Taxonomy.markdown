@@ -134,10 +134,6 @@ questions: "how many shrews does the XYZ collection hold?"
 
 There are multiple ways to search for a taxon from the Search/Taxonomy screen and from there to specimens identified with that taxon.  
 
-## Video Tutorial
-
-[![YouTube: How To Create Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)](https://www.youtube.com/watch?v=kHUJHa48m5E)
-
 _________________
 
 ![Screen Shot 2019-04-14 at 4 20 50 PM](https://user-images.githubusercontent.com/15368365/56099993-57756d00-5ed1-11e9-8c5a-961d0d975b6b.png)
@@ -247,4 +243,14 @@ necessarily add up to the "family-according-to-someone" search total.  A
 collection may use a classification that does not include a term ranked
 "family," and doing so will return no specimens with queries which
 include family-according-to-collection.
+
+# Tutorial Videos ↗️
+
+Taxonomy Search in Arctos:
+
+[![Taxonomy Search in Arctos](https://i9.ytimg.com/vi/yssCCBMqySQ/mq2.jpg?sqp=CIyN8I8G&rs=AOn4CLDcQ0IC0WkKffNS40fXo4g6dvVjXg)](https://youtu.be/yssCCBMqySQ)
+
+How to Find Invalid Taxon Names in use as Identifications:
+
+[![How to Find Invalid Taxon Names in use as Identifications](https://i9.ytimg.com/vi/_Io4v286Nss/mq1.jpg?sqp=CIyN8I8G&rs=AOn4CLDuXlasovhxV6CfG1p1ej6cwujzqg)](https://youtu.be/_Io4v286Nss)
 
