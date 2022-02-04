@@ -2,7 +2,7 @@
 title: How To Create and Manage Your Arctos Team (Users and Operators)
 layout: default_toc
 author: Teresa J. Mayfield-Meyer, Shannen Robson, Michelle Koo
-date: 2020-08-15
+date: 2022-02-04
 ---
 
 # How To Create and Manage Your Arctos Team: Users and Operators
