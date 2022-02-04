@@ -154,4 +154,10 @@ All fields will be blank.  Follow the instructions to create the classification 
 
 ![image](https://user-images.githubusercontent.com/15368365/56135452-035c9e00-5f4e-11e9-928c-f33248ae79c6.png)
 
+# Tutorial Videos ↗️
+
+How to Add a Taxon Name and Classification to Arctos:
+
+[![How to Add a Taxon Name and Classification to Arctos](https://i9.ytimg.com/vi/yVWsCY3z46A/mq3.jpg?sqp=CNyD8I8G&rs=AOn4CLDrRAUTrVefAADQpHVCYr9xjnqiRg)](https://youtu.be/yVWsCY3z46A)
+
 

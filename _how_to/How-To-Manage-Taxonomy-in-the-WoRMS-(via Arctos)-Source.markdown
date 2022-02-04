@@ -73,3 +73,10 @@ If you add a taxon name with a WoRMS (via Arctos) taxon status of INVALID, be su
 <img width="888" alt="image" src="https://user-images.githubusercontent.com/15368365/122129685-b0aff280-cdf3-11eb-8428-11784ed30e78.png">
 
 Most names with a subgenus in WoRMS are invalid.  Exceptions are those in echinodermata, cnidaria, and other non-molluscan phyla.
+
+# Tutorial Video ↗️
+
+Adding a WoRMS (via Arctos) classification:
+
+[![Adding a WoRMS (via Arctos) classification](https://i9.ytimg.com/vi/9g3sEFqdzko/mq2.jpg?sqp=COSR8I8G&rs=AOn4CLC97rOElKnQ3PKrQtb4QGCKYHEg-A)](https://youtu.be/9g3sEFqdzko)
+

@@ -321,5 +321,12 @@ For further instructions, consult the following "How to" documents.
 -  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
 -  [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
 
+# Tutorial Video ↗️
+
+Taxonomy Overview:
+
+[![Taxonomy Overview](https://i9.ytimg.com/vi/WGkO1NCIhsI/mq2.jpg?sqp=CLiP8I8G&rs=AOn4CLB1ska_OpPyx_70WuTT5Boc7LdlZw)](https://youtu.be/WGkO1NCIhsI)
+
+
 
 

@@ -46,3 +46,13 @@ Now that the loans have been created in Arctos, specimen parts that were include
  * If there are remarks about the condition of each specimen, you can also add these to the “condition” field on this page 
  * After all parts have been recorded appropriately, select **Back to Loan** at the top of the page (above the line that indicates the number of specimens that were found) 
  * Items borrowed from other institutions outside of Arctos cannot be entered in the loan. In this case, enter all of the specimen details (species, catalog number, specimen type) in the Nature of Material section.
+
+# Tutorial Videos ↗️
+
+How to Bulkload Loans (Step 1):
+
+[![How to Bulkload Loans](https://i9.ytimg.com/vi/pN40CkKAbgw/mq2.jpg?sqp=CJCU8I8G&rs=AOn4CLCgvG7IypQyOLtWLJ3jqMzZHZ6e7A)](https://youtu.be/pN40CkKAbgw)
+
+How to Bulkload Loan Items (Step 2):
+
+[![How to Bulkload Loan Items](https://i9.ytimg.com/vi/h4QKUb2cQgs/mq1.jpg?sqp=CJCU8I8G&rs=AOn4CLBVntj4GzENC48neloo6sYTX2GUTg)](https://youtu.be/h4QKUb2cQgs)
