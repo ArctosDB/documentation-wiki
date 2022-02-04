@@ -102,3 +102,9 @@ It is a good idea to periodically review who has access to manage and edit your 
 * Select your collection in the GUID prefix drop down then select the go button
 * Review the report of operators and assigned roles
 * From this page you can manage user accounts and add/remove permissions
+
+### 2. Managing Operator Roles and Permissions for Exiting Team Members
+
+When a member of your Arctos team leaves, **DO NOT** delete or alter the account or the user's agent login name. The preferred method of removing operator access from your data is to use the “lock account” link from their operator user management page (not manage agents). Note that user accounts automatically lock after 6 months of inactivity and users whose accounts have been locked will not be able to log into Arctos. Previous operators must create a new (public) account if they wish to access Arctos.
+
+Users who have their account locked and are subsequently re-granted access must use their original operator account and they will again have access to any collections to which they were previously granted access. Operators with global_admin access may unlock accounts from the “manage Arctos user” page.
