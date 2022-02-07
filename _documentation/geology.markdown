@@ -84,3 +84,11 @@ When it is necessary to hide a locality from public view, use the private (acces
 ### Searching
 
 Locality attributes are asserted individually, however, chronostratigraphic terms (Eon/Eonothem, Era/Erathem, System/Period, Series/Epoch, Stage/Age, Substage/Subage) include a hierarchical structure which makes it possible to locate cataloged items attributed to strata which is more specific than the search term.
+
+## Site Identifier
+
+Identifiers may be local or come from external resources. When possible, supply an identifier that is persistent and globally unique.
+
+### Mindat
+
+<a href="https://www.mindat.org/countrylist.php">Mindat localities</a> may be represented in Arctos with the url for the Mindat location. Add the site identifier attribute to the locality, enter the Mindat url for the location in the attribute value and enter "Mindat" as the locality attribute determiner.
