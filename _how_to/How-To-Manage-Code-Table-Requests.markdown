@@ -149,6 +149,9 @@ In addition - add the link to the Github Issue in which the code table request w
 
  - **Available for Public View** is part of the request template and directs the developer to have the values part of the public display, such as Agent profile in the case of ```ctaddress_type```. This also should be part of its definition. Not all address types are viewable publicly such as email addresses but authority links to Wikidata or Library of Congress are.
 
+#### base_url
+
+Base URL should be used *only* when it is part of an identifier. Do not use base_url to form search links.
 
 ### Media Relationships
 
