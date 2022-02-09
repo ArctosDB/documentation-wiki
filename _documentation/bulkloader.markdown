@@ -206,3 +206,5 @@ of the cache, and may be useful in estimating processing time.
 
 Note that there is a period of time between successful loading and the cache being refreshed where records are not visible in any user interface.
 
+Additionally, status DELETE (case-sensitive) can be used to mark records for deletion. This process generally takes about 30 minutes.
+
