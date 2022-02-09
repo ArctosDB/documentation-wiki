@@ -30,7 +30,7 @@ Operators must be agents of type "person." Group accounts or shared logins are n
     
 From Management/Arctos/Arctos Users, click Invite to allow them to create an internal user account. This will send email to you and to them. They will have to ensure that their username is valid, pass certain password checks, etc. to become users.
     
-After the user has completed Step 3, you will receive a notification email. You may then assign them appropriate data and collection roles. Include the COLDFUSION_USER and DATA_ENTRY roles to enable data entry. Provide documentation, which can be found from the big red box on the manage users page.
+After the user has completed Step 3, you will receive a notification email. You may then assign them appropriate data and collection roles. The COLDFUSION_USER role must be provided for the user to log in. DATA_ENTRY is the minimum additional role to enable data entry. Provide documentation, which can be found from the big red box on the manage users page.
 
 ## User Roles
 
