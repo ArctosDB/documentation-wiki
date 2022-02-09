@@ -133,6 +133,12 @@ Example Considerations:
 | TU:Fish   | A specific entity which holds (or held) material, not currently discoverable online. "Official" acronym may be in question.   | Create; while this is not currently useful, it it reasonable to believe that at some point the collection may become more accessible and the identifier will become resolvable.|
 | EBRPD: East Bay Regional Park District | Identifier of unknown uniqueness supplied by an entity which probably does not have material but may have additional data. Deemed unlikely to have a base_url at any time, but correspondence is likely to produce data. | Create; "correspondence is likely to produce data" is sufficient evidence of usefulness.  |
 
+
+#### base_url
+
+Base URL should be used *only* when it is part of an identifier. Do not use base_url to form search links.
+
+
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
  - Include a link to the agent related to the other identifier in the definition. Links can be formatted as follows:
@@ -148,10 +154,6 @@ In addition - add the link to the Github Issue in which the code table request w
 ```<a href="https://github.com/ArctosDB/arctos/issues/4016" class="newWinLocal">Github Issue</a>```
 
  - **Available for Public View** is part of the request template and directs the developer to have the values part of the public display, such as Agent profile in the case of ```ctaddress_type```. This also should be part of its definition. Not all address types are viewable publicly such as email addresses but authority links to Wikidata or Library of Congress are.
-
-#### base_url
-
-Base URL should be used *only* when it is part of an identifier. Do not use base_url to form search links.
 
 ### Media Relationships
 
