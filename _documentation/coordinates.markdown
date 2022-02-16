@@ -145,6 +145,8 @@ interpretation demands large values for Maximum Uncertainty. To avoid
 ambiguous or misleading locality descriptions, see [MVZ’s
 guidelines](http://mvz.berkeley.edu/Locality_Field_Recording.html).
 
+There is no "maxumum maximum certainty," and something is almost always more useful than nothing. Do not hesitate to provide uncertainty which encapsulates a continent or ocean if that is what the data are capable of supporting.
+
 Note that there is no error inherent to coordinates.
 {Dec_Lat=12,Dec_Long=34} is precisely the same point as
 {Dec_Lat=12.000000000000000000000000000000,Dec_Long=34.000000000000000000000000000000}.
