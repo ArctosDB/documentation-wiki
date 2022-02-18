@@ -5,17 +5,13 @@ date: unknown, 2021-07-15
 layout: default_toc
 ---
 
-<h1 id="#specimen-parts">
-  Parts
-</h1>
+#Parts
 
 
 Parts are physical entities, in contrast to [Cataloged Items](/documentation/catalog) (an abstract entity) or binary objects
 (such as Images). One or many parts may comprise a Cataloged Item, and parts may be defined as the minimal units for which [storage location](/documentation/container), usage, and condition are tracked. (*"Parts are things to which you can stick barcodes."*) 
 
-<h2 id="part-names">
-    Part Names
-</h2>
+##Part Names
 
 `specimen_part . part_name VARCHAR(255) not null`
 
