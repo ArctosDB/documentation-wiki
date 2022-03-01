@@ -78,3 +78,11 @@ Button + HREF
 ```
 
 where ``cttaxon_name_type`` is the relevant code table and ``taxon_name_type`` is the ID of the element being defined.
+
+Or as a label
+
+```
+<label class="likeLink" onclick="getCtDocVal('ctcataloged_item_type','cataloged_item_type');" for="cataloged_item_type">
+   Catalog Item Type
+</label>
+```
