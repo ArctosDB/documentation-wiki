@@ -29,6 +29,10 @@ Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_M
 
 ### Recommended Code Editors
  
+#### sublime text
+
+#### Atom
+
 #### Brackets
 A CFML Support - ColdFusion 11 extension is available for <a href="http://brackets.io/" target="_blank" class="external">Brackets</a>. 
 
@@ -66,3 +70,11 @@ Button + HREF
 ```
 <a href="somepage.cfm"><input type="button" class="lnkBtn" value="Some Text"></a>
 ```
+
+## Code Table Definer
+
+```
+<span class="infoLink" onclick="getCtDocVal('cttaxon_name_type','taxon_name_type');">Define</span>
+```
+
+where ``cttaxon_name_type`` is the relevant code table and ``taxon_name_type`` is the ID of the element being defined.
