@@ -17,15 +17,13 @@ Some objects (taxonomy, media, agents, places) are shared among collections. Peo
 
 Provide each of your team members with these instructions to create their Arctos user account.
 
-* Go to [https://arctos.database.museum](https://arctos.database.museum) and enter a username and password, then select "Create Account" (do not hit the return key or it will think you are trying to login with an account that doesn't exist yet).
- * Do not select "Create Account" before entering a username and password
- * Username must inlcude only letters and numbers (ASCII characters A-Z, a-z, and 0-9), and cannot begin with a number. **Do not include periods in your username (e.g., carla.cicero is not a valid username)**
- * Passwords should be at least eight characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*,-/:;?_., not contain the username, and consist of at least one letter, number, and special character
-* Once you have created an account and are logged in, from the Arctos main menu select "My Stuff", then select "Profile"
+* Go to [https://arctos.database.museum](https://arctos.database.museum) and select Log In, then select "Create an Account".
+* Username must inlcude only letters and numbers (ASCII characters A-Z, a-z, and 0-9), and cannot begin with a number. **Do not include periods in your username (e.g., carla.cicero is not a valid username)**
+* Passwords should be at least eight characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*,-/:;?_., not contain the username, and consist of at least one letter, number, and special character
 * Enter your First, Middle (if applicable, initial ok), and Last names in the appropriate fields
 * Enter your Affiliation (name of your institution)
 * Enter a valid email address. This is important because you cannot be invited as an Operator without a valid email address
-* Select the "Save Profile" button and you are done. However, there are other options that you can set here, including: preferred file format for downloading data; preferred other identifier (e.g., "collector number") - if you select something here, it will always show up on your Specimen Search page when you are logged in.
+* Select the "Create an Account" button and you are done.
 
 You are now an official Arctos User.  Welcome to the community!  Now email your username to the person authorized to grant you operator permissions.  You will soon be contacted with instructions for authenticating your account as an Arctos Operator.
 
