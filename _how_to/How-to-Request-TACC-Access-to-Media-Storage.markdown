@@ -51,4 +51,7 @@ To request access and an institution specific directory on TACC, create a specia
 * [namechanger](https://mrrsoftware.com/namechanger/) is useful for renaming files on Mac.
 * [How to Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata)
 
+# Tutorial Videos ↗️
+
+[How to Transfer Media to TACC (Bulk Media Loads)](https://youtu.be/6OJZOiEjH7A)
 
