@@ -185,15 +185,19 @@ The file that you receive once your image upload is complete contains much of th
 
 This file will be deleted 3 days after the message is sent, but may be regenerated from the "existing jobs" link on the [Upload Images](http://arctos.database.museum/tools/uploadMedia.cfm) tool page. 
 
-## Media Metadata Bulkload Video Tutorial  ##
+# Tutorial Videos ↗️
 
 [![YouTube: How to Bulkload Media Metadata in Arctos](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Bulkload_Media_Metadata_in_Arctos_thumb.jpg)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
+
+[How to Transfer Media to TACC (Bulk Media Loads)](https://youtu.be/6OJZOiEjH7A)
 
 ## Related Links ##
 
 [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
 
 [How to Create Media/Images](/how_to/How-to-Create-Media-Images)
+
+
 
 
 
