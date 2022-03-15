@@ -91,4 +91,7 @@ Once you have created media for the files in Arctos, thumbnail images will also 
 * [namechanger](https://mrrsoftware.com/namechanger/) is useful for renaming files on Mac.
 * [How to Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata)
 
+# Tutorial Videos ↗️
+
+[How to Transfer Media to TACC (Bulk Media Loads)](https://youtu.be/6OJZOiEjH7A)
 
