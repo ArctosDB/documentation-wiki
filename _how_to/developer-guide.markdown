@@ -29,7 +29,8 @@ Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_M
 
 ### Recommended Code Editors
  
-#### sublime text
+#### Sublime Text
+
 
 #### Atom
 
