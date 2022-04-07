@@ -7,6 +7,8 @@ layout: default_toc
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
+[Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/262)
+
 # Entities
 
 Entities in Arctos are assemblages of catalog records related in some particular way.
@@ -43,9 +45,13 @@ Adding identifiers that are not Arctos catalog record urls to the Arctos Entity 
 
 Catalog records bearing an Entity ID as Organism ID will link to the Entity, and provide a link to locate all other records which share the ID.
 
-## Choosing Organism ID
+## Community Discussion
+
+[Github Issue #262](https://github.com/ArctosDB/documentation-wiki/issues/262)
 
 [ Consider moving this to Other ID documentation ]
+
+## Choosing Organism ID
 
 Any string may be used as Organism ID. Some possibilities and their implications include:
 
