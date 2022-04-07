@@ -5,6 +5,8 @@ date: 2021-05-12
 layout: default_toc
 ---
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
+
 # Entities
 
 Entities in Arctos are assemblages of catalog records related in some particular way.
