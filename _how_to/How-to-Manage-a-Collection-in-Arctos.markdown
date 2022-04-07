@@ -127,6 +127,13 @@ Select from the dropdown of choices. The designates the source(s) of taxonomic c
 ### Genbank Collection
 Genbank Collection is the collection identifier provided by GenBank. Only collections properly registered with GenBank, and with their assigned identifier entered into Arctos, may access all Arctos-to-GenBank tools.
 
+To register a collection with Genbank or to make institutional updates, please contact:
+
+Shobha Sharma, PhD
+Staff Scientist
+GenBank Taxonomy
+NCBI/NLM/NIH
+
 ## Contacts
 The contacts section is the top section on the right side of the manage collection page.
 
