@@ -8,9 +8,11 @@ date: 2019-04-15
 
 # How to Edit Taxa
 
-Users with taxonomic authority can edit taxonomy by altering an individual taxonomic record or by using the Hierarchical tool to manage multiple records.  These instructions cover the editing of individual records.  See [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html) to manage multiple taxa.  
+Users with taxonomic authority can edit individual taxonomic records or use the Hierarchical tool to manage multiple records.  These instructions cover the editing of individual records.  See [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html) to manage multiple taxa.  
 
-These instructions apply to all three Taxonomic Classification Sources: Arctos, Arctos Plants, and WoRMS (via Arctos).  You should only modify taxa in the source that you use for your collection.  The taxa in WoRMS (via Arctos) are created and continually maintained per the aphiaID through a webservice. Any changes you make will be overwritten with the next update. Taxa should not be added to WoRMS (via Arctos) without a complete classification and a valid source authority.  See recommended procedures in [How To Create Taxa in Externally Managed Sources](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Externally-Managed-Sources.html).
+These instructions apply to [Taxonomic Classification Sources](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source) that are managed by Arctos users.  You should only modify taxa in the source that you use for your collection.
+
+The taxa in WoRMS (via Arctos) are created and maintained using the aphiaID through a webservice. Any changes you make will be overwritten with the next refresh. Taxa should not be added to WoRMS (via Arctos) without an aphiaID.  See recommended procedures in [How To Create Taxa in Externally Managed Sources](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Externally-Managed-Sources.html).
 
 ## Taxon Names
 
@@ -18,7 +20,7 @@ Taxon Names cannot be edited.  They can be added and deleted (see below).  Do no
 
 ### Validation Service
 
-Arctos checks taxon names against various services when they are created or edited. This check is a tool, not an authority; all services have significant problems as of this writing. “Valid” names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy. “Valid for Arctos” taxonomy is described in [Taxonomy](http://handbook.arctosdb.org/documentation/taxonomy.html) in Documentation. 
+Arctos checks taxon names against various services when they are created or edited. This check is a tool, not an authority; all services have significant problems as of this writing. Valid names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy. “Valid for Arctos” taxonomy is described in [Taxonomy](http://handbook.arctosdb.org/documentation/taxonomy.html) in Documentation. 
 
 ## To edit an existing record
 
@@ -60,7 +62,7 @@ When we return to the taxon pages, we see that the taxon relationship has been a
 
 ### Editing Taxon classifications by Editing each Field in a Taxon Record
 
-We can edit a taxonomic classification several ways.  One option is to can edit each field in an existing record.  In this example, *Erronea subviridis dorsalis*, we need to correct the classification and add non-classification data such as the taxon status and author.
+We can edit a taxonomic classification several ways.  One option is to edit each field in an existing record.  In this example, *Erronea subviridis dorsalis*, we need to correct the classification and add non-classification data such as the taxon status and author.
 
 ![image](https://user-images.githubusercontent.com/15368365/56095090-77d40600-5e96-11e9-852b-ef36ba1c7749.png)
 
@@ -105,7 +107,7 @@ Just as when creating a new taxon, we would complete the non-classification data
 
 ![image](https://user-images.githubusercontent.com/15368365/56095590-a2748d80-5e9b-11e9-9289-f1a22bffae3e.png)
 
-If you did not delete the erroneous classification before cloning a new one, it is very important that you return to the Taxon Page and delete it.  Otherwise, there will two classifications and you will not be able to search for specimens or manage the taxonomy in the Hierarchical Classification Editor.  
+If you did not delete the erroneous classification before cloning a new one, it is very important that you return to the Taxon Page and delete it.  Otherwise, there will be two classifications and you will not be able to search for specimens or manage the taxonomy in the Hierarchical Classification Editor.  
 
 ![image](https://user-images.githubusercontent.com/15368365/56095608-c7690080-5e9b-11e9-9e0c-d6b22b1c63e4.png)
 
@@ -115,7 +117,8 @@ Note that deleting a classification for a taxon is different from deleting the t
 
 Users with taxonomic authority can delete taxon names that are without any validity or value to the Arctos users and to researchers.  Some “invalid” taxa are retained for legacy identifications.  But taxa that do not pass the Google test and are obviously without value may be deleted. 
 
-To perform “The Google Test,” search for the name (it’s best in double quotes).  If there are no results or results only referencing Arctos, it is probably safe to delete the name. Results which include only sources that draw from Arctos (such as GBIF) should be carefully scrutinized to determine if the results are in fact a circular reflection of Arctos data. 
+To perform “The Google Test,” search for the name (it’s best in double quotes).  If there are no results or results only referencing Arctos, it is probably safe to delete the name. Results which include only sources that draw from Arctos (such as GBIF) should be carefully scrutinized to determine if the results are in fact a circular reflection of Arctos data. If you are uncertain, it's safer to 
+quarantine the taxon name.
 
 Here the taxon *Calliostoma fronkii* fails the Google test bcause the only result is from Arctos. 
 
