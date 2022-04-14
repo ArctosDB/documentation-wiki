@@ -55,7 +55,6 @@ Use the Agent “unknown” when the person or organization doing the collecting
 -   Do add [relationships](#agent-relationships). "John Smith Jr. {is child of} John Smith" helps clarify the situation even in the face of suddenly-ambiguous names, promotions, marriages, and other name changes or alternatives.    
 -   Do add Status; associating dates with agent records is extremely useful when considering agent ambiguity. Do not simply copy from agent activity; add this information only if there's an independent source (and if possible, link to the source by adding a "URL" address or Media).   
 -   Do add addresses when possible. A partial address ("Ohio") or link to a biography (*e.g.*, Wikipedia -- these may be made via Address Type "URL") is very likely to be useful. Avoid using remarks for address information.
--   Do use remarks when more formal data are not possible. Relationship "student of" will stop an agent merger; remark "student of ..." will be ignored by automation (and often, people). Also see [Agent Remarks](https://handbook.arctosdb.org/documentation/agent.html#remarks)   
 -   Do "assemble" namestrings when possible. "A. Lincoln" is an acceptable (if not very good) preferred name, but also include AKA name "Abraham Lincoln." The existence of name components (eg, "first name") is not sufficient to prevent the creation of duplicates.
 -   Do follow Wikipedia for preferred agent name, especially for non-person Agents. See for example https://en.wikipedia.org/wiki/United_States_Fish_and_Wildlife_Service, which should be entered in Arctos as "United States Fish and Wildlife Service."  
 -   Do consider pushing prefix, suffix, title, etc., to nonpreferred names; limit preferred name to things that do not change in confusing ways. John Smith has a son and becomes John Smith Senior; John Smith Junior has a son and becomes John Smith II; Captain John Smith gets promoted to Major John Smith: avoid potential confusion when possible. If you must create a preferred name with a prefix or suffix, ensure there also exists a "bare" alternate name.   
@@ -66,6 +65,7 @@ Use the Agent “unknown” when the person or organization doing the collecting
 -   Don't orphan unused names; flag them as "bad duplicate of" the good name so that they will be reviewed and deleted. (Use "unknown" as the good name if there is no acceptable alternative.)
 -   Don't include anything other than agent entity information in agent names. "John Smith?" is a remark; use agent "unknown" or "John Smith" and clarify in an appropriate remarks field
 -   Don't include parenthetical information in names; create a new name instead. But see [Different Agent, Same Name](#different-agent,-same-name)
+-   Don't use remarks when more formal data are possible. Relationship "student of" will stop an agent merger; remark "student of ..." will be ignored by automation (and often, people). Also see [Agent Remarks](https://handbook.arctosdb.org/documentation/agent.html#remarks)
 
 #### Abbreviation Exemptions
 Abbreviations are to be avoided, but there are a few exemptions:
