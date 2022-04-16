@@ -19,7 +19,7 @@ Entities can serve many purposes. Examples include:
 
  - Providing a resolvable identifier for use as dwc:Organism ID as in <a href="https://arctos.database.museum/guid/Arctos:Entity:1">Arctos:Entity:1</a>
  - Three parts of a dress that are cataloged separately as in <a href="https://arctos.database.museum/guid/Arctos:Entity:2">Arctos:Entity:2</a>
- - All squirrels stored in a jar from which ectoparasites were extracted when it is not known which particular squirrel the ectoparasites fell from as in **Awaiting example**
+ - All shrews stored in a jar from which ectoparasites were extracted when it is not known which particular shrew the ectoparasites fell from as in <a href="https://arctos.database.museum/guid/Arctos:Entity:38">Arctos:Entity:38</a>
 
 ## Model
 
