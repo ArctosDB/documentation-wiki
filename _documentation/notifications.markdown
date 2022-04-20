@@ -59,15 +59,15 @@ Code table updates are sent daily.
 
  A weekly report of data in component loaders is send.
 
- ##### Taxa
+##### Taxa
 
  A report of quarantined taxa with no relationships is generated daily.
 
- #### Collection Report
+#### Collection Report
 
  A report of collection data is delivered quarterly.
 
- #### Usage
+#### Usage
 
  Various reports regarding citations, loans, and external identifiers are sent monthly.
 
