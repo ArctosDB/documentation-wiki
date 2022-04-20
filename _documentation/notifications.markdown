@@ -5,33 +5,80 @@ layout: default_toc
 
 # Notifications and Reports
 
-## Notifications and Reminders by Email
+## Notifications
+
+Various Notifications regarding data quality problems and upcoming events are delivered to the Notifications tab of Arctos Operators.
+
+Notifications apply to the state of the data at the time they are generated. Many notifications are delivered somewhat asynchronously, so it is even possible that a problem has been fixed before the notification is sent. Fixing a problem does not change existing notifications, and changing notifications cannot fix the data which generated them.
+
+### Structure
+
+**Status** provides a convenient means to sort and filter notifications. Some values change the look of the interface. A status of "delete" deletes the user-link portion of the notification; other Operators can still see notifications which you have deleted.
+    
+**Date** is timestamp at which the notification was delivered.
+    
+**Subject** provides a means to sort and filter.
+    
+**Content** is the body of the notification. This will generally include links to the data which generated the notification.
+    
+**Shared** provides a place for shared notes regarding the notification. These are editable by anyone who received the notification.
+
+**CC** is a list of usernames who received the notification. Note that notifications are delivered to relevant (at the time of delivery) users, including those with locked accounts.
+
+### Examples
+
+The following notifications and reminders are generated. This list is not all-inclusive; scheduled tasks are the only complete and authoritative source of this information.
+
+#### Loan Reminders
+
+Loans where status is not “closed” generate notifications 30 and 7 days before the loan is due, the every 30 days up to 300 days overdue, then daily.
+
+#### Permit reminders
+
+Permit notifications are delivered 365,180,30, and 0 days before the permit expires.
+
+#### Accession reminders
+
+Accession reminders are delivered on every annual anniversary of the received data as long as there are no records in the accession.
+
+#### Annotations
+
+Annotations where reviewer_comment is null generated monthly.
+
+#### Code table updates
+
+Code table updates are sent daily.
 
 
-Reminders and Notifications are sent to Agents who are an active Operator with at least one "accepted" email address in their Agent profile. Please ensure that all notification agents have an active Arctos Operator account and a valid email address. You may check this via ``Reports/Services--->View Statistics--->Collection Contact/Operator Report``. Some reports (such as loans coming due) are sent directly to Agents, others (such as specimen data annotations) are sent to the collection’s contacts (usually “data quality”). Collection contacts may be managed through the Manage Collection app. 
+#### Agents
 
-The following notifications and reminders are sent via email:
+- Agents flagged as duplicates generate daily noification and completion notifications.
+- Agents not meeting the creation guidelines generate daily notifications
 
-**Loan Reminders** for loans where status is not “closed” are sent to:
+#### Component Loaders
 
- - The loan’s “notification contact” and “in-house contact” 30 days before the loan is due, 7 days before the loan is due, and the day the loan is due.
- - The collection’s “loan request” agent(s), along with the loan’s “notification contact” and “in-house contact,” are emailed 7, 30, 60, 129, 150, 180, and 365 days after the loan was due.
- 
-**Permit reminders** are emailed to the permit’s contact agent 365, 180, 30, and 0 days before the permit expires.
+ A weekly report of data in component loaders is send.
 
-**Accession reminders** are emailed to the collection’s data quality contact on every annual anniversary of the received data as long as there are no specimens.
+ ##### Taxa
 
-**Annotations** are sent to the collection’s data quality contact upon submission, and may also be accessed under the Reports tab.
+ A report of quarantined taxa with no relationships is generated daily.
 
-**Code table updates** are sent to all “data quality” contacts.
+ #### Collection Report
 
-**Agent “flagged as duplicate” messages** are sent to the “data quality” contacts of affected collections 14 days before the agents are merged.
+ A report of collection data is delivered quarterly.
 
-**Arctos Pending Data Notification** are daily reminders of "Data Entry Extras" - specimen data pushed to part, identifier, etc. bulkloaders from specimen data entry.
+ #### Usage
 
-**Arctos Locality Change Notification** and **Arctos Collecting Event Change Notification** are daily notifications of changed Localities or Events. 
+ Various reports regarding citations, loans, and external identifiers are sent monthly.
 
-**Reciprocal Relationship Notification** is a daily notification of unreciprocated interspecimen relationships. 
+#### Reciprocal Relationships
+
+A report of unreciprocated relationships is sent weekly.
+
+## Email
+
+A daily "notification notification" is delivered to active Operators with at least one accepted 'notification email' address in their Agent profile.
+
 
 ## Reports
 
