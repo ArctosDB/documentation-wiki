@@ -1,7 +1,7 @@
 ---
 title: How To Record Prior Inclusion in Another Collection
-author: ArctosDB
-date: 2021-05-12
+author: Teresa Mayfield-Meyer
+date: 2022-04-21
 layout: default_toc
 ---
 
