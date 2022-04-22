@@ -52,3 +52,7 @@ More often than not, you will be working with individual or small numbers of spe
 * The last thing to be done within the GeoLocate app is to set the max error. Clicking on the green marker will bring up a dialog window with the current latitude, longitude, and uncertainty. Below uncertainty, there is an option called “Edit uncertainty”.  This option brings up an arrowhead which can be dragged to set an error radius around the marker.
 
 * Once your coordinates and error are assigned, click the “Save To Your Application” button at the bottom of the applet. Doing so will bring you back to the Edit Locality page with the Decimal Latitude, Decimal Longitude, Max Error, Datum, Georeference Source, and Georeference Protocol all filled in. Finalize these changes, update the associated events, and set the verification status as outlined in the previous section.
+
+# Tutorial Videos ↗️
+
+[How to fix locality coordinates in a catalog record](https://youtu.be/MM5lgfACD9k)
