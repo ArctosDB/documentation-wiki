@@ -131,3 +131,8 @@ IF the collecting event contains more than 1 specimen
 
 time per specimen: 3-­8 minutes
 ***
+
+# Tutorial Videos ↗️
+
+[How to fix locality coordinates in a catalog record](https://youtu.be/MM5lgfACD9k)
+[How to use GeoLocate](https://youtu.be/3j9gM4sSooI)
