@@ -429,6 +429,10 @@ be linked to Pacific Ocean, not California.
 5.  Localities should link to the most specific Higher Geography possible.
 
 
+## Special Use Cases
+There are two special use cases where assigning a single administrative geography to a record is not possible. For example, legacy records may not have complete or have missing locality information, in which case the locality is simply "no specific locality". For those records, **"no higher geography recorded"** is appropriate.  The second example is for records which do have locality information but are not limited to a single site and single administrative geography. For example, an archival or cultural record may be an item with entries or components spanning several locations on more than one continent, in which case, using **"no specific higher geography"** is appropriate. (We do assume it's from planet Earth.)
+
+
 ## Searching Guidelines
 
 Higher Geography should be viewed as "semi-arbitrary
