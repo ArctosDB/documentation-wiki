@@ -80,7 +80,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 Once you have created media for the files in Arctos, thumbnail images will also be generated when possible by scripts in Arctos. If you want to ensure thumbnails are available, create them and upload them along with the originals. You will need to use those thumbnail URIs in your bulkload media template (in the PREVIEW_URI column, http://arctos.database.museum/tools/BulkloadMedia.cfm) when you bulkload the image URIs. 
 
 ## Related Links
-### Documentaion
+### Documentation
 [Media](documentation-wiki/documentation/media)
 
 ### Other How-Tos
