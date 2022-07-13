@@ -19,23 +19,23 @@ If you are not sure whether a collection has already been published to GBIF, you
 
 If the collection has already been publishing data to GBIF, there will be a GBIF dataset page and an Institution Publisher Page.  Once a dataset page is found:
 
-- [ ] Add the url of the dataset page and the institution publisher page to the Github issue.
-- [ ] review the information on the GBIF publisher page. If any changes are required, email them to David Bloom
-- [ ] Create a resource relationship file that matches the records currently published at GBIF to those that will be published from Arctos (see instructions below).
-- [ ] Ensure that all fields are complete in Manage Collection so that the EML file can be generated. For Instructions on Manage Collection - see [How to Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html)
-- [ ] Task [David Bloom](https://arctos.database.museum/agent/21314879) with publishing to the VertNet IPT; schedule for monthly updates
+- Add the url of the dataset page and the institution publisher page to the Github issue.
+- review the information on the GBIF publisher page. If any changes are required, email them to David Bloom
+- Create a resource relationship file that matches the records currently published at GBIF to those that will be published from Arctos (see instructions below).
+- Ensure that all fields are complete in Manage Collection so that the EML file can be generated. For Instructions on Manage Collection - see [How to Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html)
+- Task [David Bloom](https://arctos.database.museum/agent/21314879) with publishing to the VertNet IPT; schedule for monthly updates
 
 ### No
 
 Read [How To Choose a Data set](https://discourse.gbif.org/t/how-to-choose-a-dataset-class-on-gbif-gbif-data-blog/1513)
 
-- [ ] register as a publisher at [Become a GBIF publisher](https://www.gbif.org/become-a-publisher)
+- register as a publisher at [Become a GBIF publisher](https://www.gbif.org/become-a-publisher)
 Select "My org is not already registered", THEN, agree to the Terms and conditions, THEN complete the form, AND at the end select Yes, No, and No. **NOTE:** The Description section in the form is about the publisher as a whole, not just the individual collections ready to publish right now. 
 
 After your institution has been endorsed by the US Node, you will receive an email with an IPT Key.
-- [ ]  Email the key to [David Bloom](https://arctos.database.museum/agent/21314879) who will add the institution as a publisher to the IPT 
-- [ ] Ensure that all fields are complete in Manage Collection so that the EML file can be generated. For Instructions on Manage Collection - see [How to Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html)
-- [ ] Task [David Bloom](https://arctos.database.museum/agent/21314879) with publishing to VertNet IPT; schedule for monthly updates
+-  Email the key to [David Bloom](https://arctos.database.museum/agent/21314879) who will add the institution as a publisher to the IPT 
+- Ensure that all fields are complete in Manage Collection so that the EML file can be generated. For Instructions on Manage Collection - see [How to Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html)
+- Task [David Bloom](https://arctos.database.museum/agent/21314879) with publishing to VertNet IPT; schedule for monthly updates
 
 **NOTE** In order to save any changes made to this section you must select the **Save Changes** button at the bottom of the section.
 
