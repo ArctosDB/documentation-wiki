@@ -39,6 +39,19 @@ After your institution has been endorsed by the US Node, you will receive an ema
 
 **NOTE** In order to save any changes made to this section you must select the **Save Changes** button at the bottom of the section.
 
-## Create a Resource Relationship File
+## How To Create a Resource Relationship File
 
-If data from a collection has already been published to GBIF, republishing from Arctos will create probalems for anyone who has downloaded previous records from the dataset. In order to help everyone maintain continuity, a resource relationship file matches the previously published occurence ids with the new Arctos occurence ids. A sample template for creating this file can be found here.
+If data from a collection has already been published to GBIF, republishing from Arctos will create probalems for anyone who has downloaded previous records from the dataset. In order to help everyone maintain continuity, a resource relationship file matches the previously published occurence ids with the new Arctos occurence ids. A sample template for creating this file can be found [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/files/resource.reference.BYU.Herp.xlsx). The steps to complete this template are as follows:
+
+ - Download the dataset from GBIF 
+ - Delete all data in the GBIF tab of the Excel file, then place the dowloaded data in the GBIF tab 
+ - Use the following SQL in the WriteSQL tool in Arctos, but replace "BYU:Herp" with the GUID prefix of the collection you are creating the resource for. 
+ ```select catalognumber,occurrenceid from ipt_cache.occurrence where collectionid=(select collection_id from collection where guid_prefix ='BYU:Herp')``` 
+ - Delete all data in the Arctos tab of the Excel file, then place the csv results of that SQL into the tab 
+ - Copy the catalogNumber number column from the GBIF tab to the catalogNumber column in the Reference Resource tab 
+ - Ensure that the formulas in both the GBIF Occurrence ID column and the Arctos Occurrence ID column of the Reference Resource tab are present for all rows that include a catalogNumber 
+ - Delete any rows in the Reference Resource tab that do not include a catalogNumber 
+ - Highlight the entire Reference Resource tab by clicking in the top left corner, select copy, then paste special values in the for csv tab 
+ - Save the file as an xlxs, then save the for csv tab as CSV UTF8 
+ - add the csv to the appropriate Github issue 
+ 
