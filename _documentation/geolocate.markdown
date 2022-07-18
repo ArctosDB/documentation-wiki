@@ -7,7 +7,7 @@ layout: default_toc
 
 Data Entry now and Edit Locality now offer an inline georeferencing
 tool, courtey of the
-[GEOLocate](http://www.museum.tulane.edu/geolocate/) project. While very
+[GEOLocate](https://www.geo-locate.org) project. While very
 cool, this tool is not magic; you, the user, are still responsible for
 the end result.
 
