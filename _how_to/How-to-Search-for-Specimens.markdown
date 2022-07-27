@@ -59,6 +59,11 @@ You do not need to create an account or login to search. However, there are some
 
 * Occasionally, you may be asked to survey some of the entries in Arctos to figure out how many records have been georeferenced or how precise the georeferences are. For these tasks, there are two relevant fields near the bottom of the Locality section. The drop-down menu for “Georeferenced?” has two options: "Is Georeferenced" and "Not Georeferenced". To evaluate how precise existing georeferences are, you can use the fields for “Coordinate Precision”.
 
+### Spaial Search
+
+Spatial Search provides spatial tools which consider both asserted and derived data. A (very) brief overview of Arctos is necessary to understand how these tools function.
+* Each record in Arctos has zero or more "place assertions," which may range from 'we do not know' to complex spatial assertions. 
+
 ## Date/Collector
 
 * This section allows you to search by a person's name (or part of the name). What you enter here must match how the person is entered into Arctos. It is often better to enter just the last name of the person, rather than try to match the full name if you do not know how it is entered in the database.
