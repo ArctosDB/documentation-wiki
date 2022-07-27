@@ -89,6 +89,20 @@ Spatial Search provides spatial tools which consider both asserted and derived d
 
 The rest of the locality section is limited to direct assertions. A search for **Locality Attribute Value** "Jurassic" will find "Jurassic" and nothing else (and assertions are generally to lithostratigraphic elements or finer-scales chronostratigraphic elements). A search for county=X will find records with that assertion and nothing else; it will find records that have the assertion but map elsewhere, and will not find records which map to the county but have a state-level assertion.
 
+### Examples
+
+#### Named Shape Contains
+
+<img width="598" alt="Screen Shot 2022-07-27 at 10 58 27 AM" src="https://user-images.githubusercontent.com/5720791/181340749-d059b43d-90db-47a6-b97c-8e1fc6de1f93.png">
+
+Finds all records from a named shape, even when the assertion does not include that shape. Records for which county-level geography is not specified are included when the locality assertion is entirely contained within the county.
+
+<img width="749" alt="Screen Shot 2022-07-27 at 11 00 48 AM" src="https://user-images.githubusercontent.com/5720791/181341004-5072ddbd-4866-4224-8c84-d7159b98a504.png">
+
+
+
+#### Named Shape Intersects
+
 
 ## Date/Collector
 
