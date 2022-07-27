@@ -62,7 +62,10 @@ You do not need to create an account or login to search. However, there are some
 ### Spatial
 
 Spatial Search provides spatial tools which consider both asserted and derived data. A (very) brief overview of Arctos is necessary to understand how these tools function.
-* Each record in Arctos has zero or more "place assertions," which may range from 'we do not know' to complex spatial assertions. 
+* Each record in Arctos has zero or more "place assertions," which may range from 'we do not know' to complex spatial assertions.
+* Assertions may or may not be to the most precise geography. A collection might choose to use COUNTRY or COUNTRY, STATE, COUNTY.
+* Assertions may or may not be to the correct geography. Geography spatial data may encompass, intersect, or entirely avoid the corresponding locality assertion.
+
 
 ## Date/Collector
 
