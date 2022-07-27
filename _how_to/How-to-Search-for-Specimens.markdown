@@ -122,6 +122,26 @@ This query can also be performed from /place.cfm. Searching for geography, or cl
 <img width="531" alt="Screen Shot 2022-07-27 at 11 14 51 AM" src="https://user-images.githubusercontent.com/5720791/181343395-a16d977d-e420-43d7-b234-d21ce9ce25fa.png">
 
 
+#### Example: Drawn Shape Contains
+
+<img width="664" alt="Screen Shot 2022-07-27 at 11 22 24 AM" src="https://user-images.githubusercontent.com/5720791/181344761-8df2ed7d-55d8-460d-9ff3-b9ca90e03b17.png">
+
+Works precisely the same as 'Named Shape Contains', but uses an arbitrarily drawn shape rather than the shape associated with a geography record in Arctos. This approach can be useful when Arctos does not contain an appropriate geographic element - a three-county area, for example.
+
+
+#### Example: KML Shape Contains
+
+
+<img width="759" alt="Screen Shot 2022-07-27 at 11 31 08 AM" src="https://user-images.githubusercontent.com/5720791/181349052-59ef0cbe-7247-413d-967e-c3f60c19d8fc.png">
+
+Works like other polygon queries, but from KML. For example, this can provide a repeatable way to query for a ttr-county area. Note that the KML understood (via PostGIS' ST_GeomFromKML()) is very limited.
+
+
+### That's nice, but I need to....
+
+[File an Issue!](https://github.com/ArctosDB/arctos/issues/new/choose) Spatial capabilities are relatively new to Arctos, we know we haven't explored all possibilities, and as a Community-driven resource we are always excited to hear ideas for improvement. We will adjust the User Interface to accommodate your needs if we can, and we can usually provide data if we can't (or even can't immediately).
+
+
 ## Date/Collector
 
 * This section allows you to search by a person's name (or part of the name). What you enter here must match how the person is entered into Arctos. It is often better to enter just the last name of the person, rather than try to match the full name if you do not know how it is entered in the database.
