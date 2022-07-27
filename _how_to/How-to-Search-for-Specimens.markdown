@@ -65,6 +65,29 @@ Spatial Search provides spatial tools which consider both asserted and derived d
 * Each record in Arctos has zero or more "place assertions," which may range from 'we do not know' to complex spatial assertions.
 * Assertions may or may not be to the most precise geography. A collection might choose to use COUNTRY or COUNTRY, STATE, COUNTY.
 * Assertions may or may not be to the correct geography. Geography spatial data may encompass, intersect, or entirely avoid the corresponding locality assertion.
+* Practices and protocols vary wildly across and within collections. This is often related to legacy data, but an expectation that any group of records will adhere to any particular protocol will probalby not be fruitful.
+
+**Any Geographic Element** considers asserted locality and geography terms, plus geography search terms, plus terms pulled from various spatial query services including Arctos, GBIF, and GeoLocate. This field is intended to cast the broadest possible net, and should be expected to find inintended records.
+
+**Map Polygon** - zoom and pan the map to the area of interest, click the polygon icon (top-center, next to the 'stop drawing' hand), then click the vertices to create a polygon. (Doubleclick or click the hand to close the polygon; the search will fail without this critical step.)
+
+**Geography Shape Name** searches by geographic shapes, regardless of assertions. That is, a search for _A_ will find records where the locality "insersects" (see spatial map type) the named geography, even if the geographic assertion is for _Z_. 
+
+**Spatial Match Type** is coupled with both **Map Polygon** and **Geography Shape Name**. 4 options are available
+    * *contains* finds records entirely within the polygon (drawn or named). 
+    * *intersects* finds records at least partially within the polygon (drawn or named). 
+    * *not contains* finds records entirely or partially outside polygon (drawn or named). 
+    * *not intersects* finds records which do not at all interrsect the polygon (drawn or named). 
+**Place Term Type** together with **Place Term** are essentially **Any Geographic Element** with more control; these are terms gathered from various sources, but here it is possible to type them (for example, 'term as understood by GADM2')
+
+### Locality Attributes Magic
+
+**Age** and **Chronostratigraphy** are 'metadata terms' from various sources which provide less-specific ways to find localities. For example, a metadata query for Cisuralian will find assertions for Asselian because of a ``Cisuralian includes Asselian`` assertion on the ctchronostrat_series_epoch code table.
+
+
+### The Rest
+
+The rest of the locality section is limited to direct assertions. A search for **Locality Attribute Value** "Jurassic" will find "Jurassic" and nothing else (and assertions are generally to lithostratigraphic elements or finer-scales chronostratigraphic elements). A search for county=X will find records with that assertion and nothing else; it will find records that have the assertion but map elsewhere, and will not find records which map to the county but have a state-level assertion.
 
 
 ## Date/Collector
