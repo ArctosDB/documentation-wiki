@@ -91,7 +91,7 @@ The rest of the locality section is limited to direct assertions. A search for *
 
 ### Examples
 
-#### Named Shape Contains
+#### Example: Named Shape Contains
 
 <img width="598" alt="Screen Shot 2022-07-27 at 10 58 27 AM" src="https://user-images.githubusercontent.com/5720791/181340749-d059b43d-90db-47a6-b97c-8e1fc6de1f93.png">
 
@@ -101,7 +101,25 @@ Finds all records from a named shape, even when the assertion does not include t
 
 
 
-#### Named Shape Intersects
+#### Example: Named Shape Intersects
+
+<img width="633" alt="Screen Shot 2022-07-27 at 11 05 52 AM" src="https://user-images.githubusercontent.com/5720791/181341906-f584d41d-012c-4831-a212-a5277f6212cb.png">
+
+Finds all records which intersect ("might be from") the named shape. The following record is found, despite claiming to be from a specific county in another state, because the asserted error intersects (encompasses in this case) the specified shape.
+
+<img width="743" alt="Screen Shot 2022-07-27 at 11 08 09 AM" src="https://user-images.githubusercontent.com/5720791/181342238-3ee4ab95-7a7b-4c13-b0a1-bba1a5e69255.png">
+
+
+#### Example: Named Shape Does Not Contain
+
+<img width="713" alt="Screen Shot 2022-07-27 at 11 11 57 AM" src="https://user-images.githubusercontent.com/5720791/181342896-a50c8d44-375f-4d6b-bf3c-682fee6f03e6.png">
+
+Finds the same record as above - one which claims to be from a specific county, but has error which extends beyond that county. This kind of search can be useful in finding problematic records in need of more attention, or understanding to what extent asserted data might be trusted for some particular operation.
+
+
+This query can also be performed from /place.cfm. Searching for geography, or clicking the link from one of the misplaced records located in the above search menus, provides a shortcut menu:
+
+<img width="531" alt="Screen Shot 2022-07-27 at 11 14 51 AM" src="https://user-images.githubusercontent.com/5720791/181343395-a16d977d-e420-43d7-b234-d21ce9ce25fa.png">
 
 
 ## Date/Collector
