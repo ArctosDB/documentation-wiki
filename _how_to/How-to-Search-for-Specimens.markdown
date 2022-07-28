@@ -67,7 +67,7 @@ Spatial Search provides spatial tools which consider both asserted and derived d
 * Assertions may or may not be to the correct geography. Geography spatial data may encompass, intersect, or entirely avoid the corresponding locality assertion.
 * Practices and protocols vary wildly across and within collections. This is often related to legacy data, but an expectation that any group of records will adhere to any particular protocol will probably not be fruitful.
 
-**Any Geographic Element** considers asserted locality and geography terms, plus geography search terms, plus terms pulled from various spatial query services including Arctos, GBIF, and GeoLocate. This field is intended to cast the broadest possible net, and should be expected to find inintended records.
+**Any Geographic Element** considers asserted locality and geography terms, plus geography search terms, plus terms pulled from various spatial query services including Arctos, GBIF, and GeoLocate. This field is intended to cast the broadest possible net, and should be expected to find unintended records (or false positives).
 
 **Map Polygon** - zoom and pan the map to the area of interest, click the polygon icon (top-center, next to the 'stop drawing' hand), then click the vertices to create a polygon. (Doubleclick or click the hand to close the polygon; the search will fail without this critical step.)
 
