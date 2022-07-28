@@ -65,7 +65,7 @@ Spatial Search provides spatial tools which consider both asserted and derived d
 * Each record in Arctos has zero or more "place assertions," which may range from 'we do not know' to complex spatial assertions.
 * Assertions may or may not be to the most precise geography. A collection might choose to use COUNTRY or COUNTRY, STATE, COUNTY.
 * Assertions may or may not be to the correct geography. Geography spatial data may encompass, intersect, or entirely avoid the corresponding locality assertion.
-* Practices and protocols vary wildly across and within collections. This is often related to legacy data, but an expectation that any group of records will adhere to any particular protocol will probalby not be fruitful.
+* Practices and protocols vary wildly across and within collections. This is often related to legacy data, but an expectation that any group of records will adhere to any particular protocol will probably not be fruitful.
 
 **Any Geographic Element** considers asserted locality and geography terms, plus geography search terms, plus terms pulled from various spatial query services including Arctos, GBIF, and GeoLocate. This field is intended to cast the broadest possible net, and should be expected to find inintended records.
 
