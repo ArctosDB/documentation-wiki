@@ -84,7 +84,7 @@ Spatial Search provides spatial tools which consider both asserted and derived d
 
 ### Locality Attributes Magic
 
-**Age** and **Chronostratigraphy** are 'metadata terms' from various sources which provide less-specific ways to find localities. For example, a metadata query for Cisuralian will find assertions for Asselian because of a ``Cisuralian includes Asselian`` assertion on the ctchronostrat_series_epoch code table.
+**Age** and **Chronostratigraphy** are 'metadata terms' from various sources which provide less-specific ways to find localities. For example, a metadata query for Cisuralian will find assertions for Asselian because of a ``Cisuralian includes Asselian`` assertion in the ctchronostrat_series_epoch code table metadata.
 
 
 ### The Rest
