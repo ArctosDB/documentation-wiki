@@ -71,7 +71,7 @@ Spatial Search provides spatial tools which consider both asserted and derived d
 
 **Map Polygon** - zoom and pan the map to the area of interest, click the polygon icon (top-center, next to the 'stop drawing' hand), then click the vertices to create a polygon. (Doubleclick or click the hand to close the polygon; the search will fail without this critical step.)
 
-**Geography Shape Name** searches by geographic shapes, regardless of assertions. That is, a search for _A_ will find records where the locality "insersects" (see spatial map type) the named geography, even if the geographic assertion is for _Z_. 
+**Geography Shape Name** searches by geographic shapes, regardless of assertions. That is, a search for _A_ will find records where the locality "insersects" (see **Spatial Match Type**) the named geography, even if the geographic assertion is for _Z_. 
 
 **Spatial Match Type** is coupled with both **Map Polygon** and **Geography Shape Name**. 4 options are available
     * *contains* finds records entirely within the polygon (drawn or named). 
