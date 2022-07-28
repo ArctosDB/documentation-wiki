@@ -136,12 +136,12 @@ Works precisely the same as 'Named Shape Contains', but uses an arbitrarily draw
 
 <img width="759" alt="Screen Shot 2022-07-27 at 11 31 08 AM" src="https://user-images.githubusercontent.com/5720791/181349052-59ef0cbe-7247-413d-967e-c3f60c19d8fc.png">
 
-Works like other polygon queries, but from KML. For example, this can provide a repeatable way to query for a ttr-county area. Note that the KML understood (via PostGIS' ST_GeomFromKML()) is very limited.
+Works like other polygon queries, but from KML. For example, this can provide a repeatable way to query for a three-county area. Note that the KML understood (via PostGIS' ST_GeomFromKML()) is very limited.
 
 
 ### That's nice, but I need to....
 
-[File an Issue!](https://github.com/ArctosDB/arctos/issues/new/choose) Spatial capabilities are relatively new to Arctos, we know we haven't explored all possibilities, and as a Community-driven resource we are always excited to hear ideas for improvement. We will adjust the User Interface to accommodate your needs if we can, and we can usually provide data if we can't (or even can't immediately).
+[File an Issue!](https://github.com/ArctosDB/arctos/issues/new/choose) Spatial capabilities are relatively new to Arctos, we know we haven't explored all possibilities, and as a Community-driven resource we are always excited to hear ideas for improvement. We will adjust the User Interface to accommodate your needs if we can, and we can usually provide data if we can't (or can't immediately).
 
 
 ## Date/Collector
