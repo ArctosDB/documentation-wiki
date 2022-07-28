@@ -74,10 +74,12 @@ Spatial Search provides spatial tools which consider both asserted and derived d
 **Geography Shape Name** searches by geographic shapes, regardless of assertions. That is, a search for _A_ will find records where the locality "insersects" (see **Spatial Match Type**) the named geography, even if the geographic assertion is for _Z_. 
 
 **Spatial Match Type** is coupled with polygon tools (**Map Polygon**, **Geography Shape Name**, **KML**). 4 options are available
-    * *contains* finds records entirely within the polygon (drawn or named). 
-    * *intersects* finds records at least partially within the polygon (drawn or named). 
-    * *not contains* finds records entirely or partially outside polygon (drawn or named). 
-    * *not intersects* finds records which do not at all interrsect the polygon (drawn or named). 
+* *contains* finds records entirely within the polygon (drawn or named). 
+* *intersects* finds records at least partially within the polygon (drawn or named). 
+* *not contains* finds records entirely or partially outside polygon (drawn or named). 
+* *not intersects* finds records which do not at all interrsect the polygon (drawn or named). 
+
+
 **Place Term Type** together with **Place Term** are essentially **Any Geographic Element** with more control; these are terms gathered from various sources, but here it is possible to type them (for example, 'term as understood by GADM2')
 
 ### Locality Attributes Magic
