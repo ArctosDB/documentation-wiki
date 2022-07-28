@@ -73,7 +73,7 @@ Spatial Search provides spatial tools which consider both asserted and derived d
 
 **Geography Shape Name** searches by geographic shapes, regardless of assertions. That is, a search for _A_ will find records where the locality "insersects" (see **Spatial Match Type**) the named geography, even if the geographic assertion is for _Z_. 
 
-**Spatial Match Type** is coupled with both **Map Polygon** and **Geography Shape Name**. 4 options are available
+**Spatial Match Type** is coupled with polygon tools (**Map Polygon**, **Geography Shape Name**, **KML**). 4 options are available
     * *contains* finds records entirely within the polygon (drawn or named). 
     * *intersects* finds records at least partially within the polygon (drawn or named). 
     * *not contains* finds records entirely or partially outside polygon (drawn or named). 
