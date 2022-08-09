@@ -57,15 +57,15 @@ Agent Groups consists of:
 
 Groups may be useful for things like collecting expeditions and classes.
 
-### Verbatim Collector Attribute
+### Verbatim Agent Attribute
 
-The catalog record [attribute](/documentation/attributes) "[verbatim collector](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_collector)" allows uncontrolled strings to be associated with individual catalog records. 
+The catalog record [attribute](/documentation/attributes) "[verbatim agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent)" allows uncontrolled strings to be associated with individual catalog records. 
 
 This is preferable to creating low-data Agents when possible, and puts any necessary cleanup in the context of the catalog record data. For example, when working with bare agent names (as is often the case when importing data to Arctos), deciding if "J. Smith" and "J. D. Smith" are the same Agent is often impossible or impractical. Determining whether similar strings represent one entity is a much more robust exercise in the context of multiple catalog records, where it's relatively straightforward to determine if the potential agents are conducting similar activity (in which case they probably are the same, and it's easy to "upgrade" them to Agents using Arctos tools) of if they are probably different (in which case more research may be necessary, or multiple agents with differentiating relationships and addresses may be created and used). We recommend this approach for most incoming string-based "collector" information.
 
 Note that 'collector' in the name of this Attribute refers to a table, not a specific role. This data structure is suitable for any agents acting in any "[role](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role)". We recommend using attribute method to differentiate intended roles when this information is available.  
 
-When "bad duplicate of" agents are merged, "verbatim collector" Attributes are automatically created for all affected catalog records.
+When "bad duplicate of" agents are merged, "verbatim agent" Attributes are automatically created for all affected catalog records.
 
 ## Names
 

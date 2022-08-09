@@ -27,9 +27,9 @@ After the status has changed to init_pull_complete, several tables will be avail
 
 pre_bulk_agent will contain two columns: AGENT_NAME and SHOULDBE. These data come from unique values in all agent columns.
 
-### Verbatim Collector
+### Verbatim Agent
 
-Agents are often the most labor-intensive part of data cleanup. Rather than resolving all problems before bulkloading catalog records, it is possible to instead load the original verbatim strings to Attribute "verbatim collector." If you choose that approach, the catalog records will not be discoverable by agent data until it is cleaned up and added as Agents. The original string data would be searchable through Attributes. Arctos does have a collector bulkloader, which may be useful in future data improvement efforts.
+Agents are often the most labor-intensive part of data cleanup. Rather than resolving all problems before bulkloading catalog records, it is possible to instead load the original verbatim strings to Attribute "verbatim agent." If you choose that approach, the catalog records will not be discoverable by agent data until it is cleaned up and added as Agents. The original string data would be searchable through Attributes. Arctos does have a collector bulkloader, which may be useful in future data improvement efforts.
 
 
 ### Multi-agent strings

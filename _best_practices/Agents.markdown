@@ -39,10 +39,10 @@ If you have a lot of names to check, you can use the Agent Name Splitter Tool to
  - <a href="https://handbook.arctosdb.org/how_to/How-to-Bulkload-Agents.html#use-the-agent-name-splitter" target="_blank">Use the Agent Name Splitter</a>
 
 #### Agents with Little Data
-Consider not creating an agent at all. The catalog record attribute "[verbatim collector](https://handbook.arctosdb.org/documentation/agent.html#verbatim-collector-attribute)" exists in part for linking ambiguous or low-value collector strings to catalog records and may be an appropriate choice if the agent is relatively unknown, unlikely to become known, and has no or little other activity. For example, "fisherman" is almost certainly better recorded in the verbatim collector attribute.
+Consider not creating an agent at all. The catalog record attribute "[verbatim agent](https://handbook.arctosdb.org/documentation/agent.html#verbatim-collector-attribute)" exists in part for linking ambiguous or low-value collector strings to catalog records and may be an appropriate choice if the agent is relatively unknown, unlikely to become known, and has no or little other activity. For example, "fisherman" is almost certainly better recorded in the verbatim agent attribute.
 
 #### Agent unknown
-Use the Agent “unknown” when the person or organization doing the collecting, identifying, borrowing, etc. is unknown or unclear. Please do not create new Agents such as “Collector unknown” or “Determiner unknown”. Consider using “unknown” along with the verbatim collector attribute rather than creating cryptic agents such as A.B.C. or S. Smith. If at some point in the future the full name of collector, determiner, or borrower S. Smith is determined to be Susan B. Smith for a specific set of records, add the full Agent name to Arctos and assign the records appropriately
+Use the Agent “unknown” when the person or organization doing the collecting, identifying, borrowing, etc. is unknown or unclear. Please do not create new Agents such as “Collector unknown” or “Determiner unknown”. Consider using “unknown” along with the verbatim agent attribute rather than creating cryptic agents such as A.B.C. or S. Smith. If at some point in the future the full name of collector, determiner, or borrower S. Smith is determined to be Susan B. Smith for a specific set of records, add the full Agent name to Arctos and assign the records appropriately
 
 ### Do
 -   Do format person agent preferred names as "First Middle Last" as a matter of standardization.  
