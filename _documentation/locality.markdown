@@ -137,7 +137,7 @@ Specific Locality is a standardization of verbatim_locality.
         -  Approx 5 mi E Alamos (on steep rocky hillside w/ heavy brush cover)
         - Additional data "found below lighthouse after foggy E. wind night" 19.9 grams "skull ossified "very fat" "no molt" testes L 6mm diameter, R 6mm LE 14.3cm WS 24.2cm
     - Local or individual identifiers
-        _  Zuni Webs  Web 2  trap 100  ear tag #8589
+        - Zuni Webs  Web 2  trap 100  ear tag #8589
 -   Use only the following abbreviations:
 
       | Word or phrase                      | Abbreviation       | Comment     |
