@@ -49,17 +49,11 @@ locality. Named Localities:
 `Locality . Spec_Locality VARCHAR2 (255) null`
 
 
- refers to the locality from which the specimen was
-collected from the wild, regardless of whether the animal was brought
-into captivity and killed at a different time and place.  If the
-wild-caught locality is not known, put the location where the animal
-died, was killed, or was purchased (e.g., the zoo, aviary, pet store,
-lab, or market) in the Specific Locality field (see [Collecting
-Events](collecting-event) for more details).
+Specific Locality is a standardization of verbatim_locality.
 
 1.  When writing Specific Localities, the highest priority should be to
-    maximize clarity and minimize confusion for a global audience.  Do
-    not include higher geography (continent, ocean, sea, island group,
+    maximize clarity and minimize confusion for a global audience, and for machine understandnig (such as automated georeferencing). 
+    Do not include higher geography (continent, ocean, sea, island group,
     island, country, state, province, county, feature) in the Specific
     Locality unless it references a place-name in another geopolitical
     subdivision, in which case include that subdivision in parentheses.
@@ -86,14 +80,11 @@ Events](collecting-event) for more details).
 
 -   Do not anglicize words in Verbatim Locality or Specific Locality. 
     The database supports Unicode, so the limitation is input devices
-    (your keyboard!) or possibly your operating system.
+    (your keyboard!).
     -   **Example:** Las Montañas del Norte
     -   **Not:** Mountains of the North
     -   **Not:** Las Montanas del Norte
 
-    This standard challenges the flexibility of input methods, but
-    increasingly foreign data can be received in Unicode, and for many
-    editing needs one can cut and paste.
 
 -   If an obsolete name for a geographic place is given in Verbatim
     Locality, put the current name in Specific Locality, followed
@@ -138,6 +129,15 @@ Events](collecting-event) for more details).
     "junction" should be spelled out and followed by "with" or "of."
     -   **Example 1:**  10 km S junction of Hwy. 1 and Hwy. 5
     -   **Example 2:**  junction of Strawberry Creek with Oxford Ave.
+-   Do not include any information which is not locality-lalated. This includes but is not limited to:
+    - Comments regarding the health of an individual, such as
+        - 12.6 mi E Gladstone, DOR on US 56
+        -  Additional data collected April 1988 dead on road 11.5 grams little fat LE 11cm, WS 16cm skull ossified testes N2mm 4mm no molt
+    - Past or present weather, terrain, or vegetation observations, such as 
+        -  Approx 5 mi E Alamos (on steep rocky hillside w/ heavy brush cover)
+        - Additional data "found below lighthouse after foggy E. wind night" 19.9 grams "skull ossified "very fat" "no molt" testes L 6mm diameter, R 6mm LE 14.3cm WS 24.2cm
+    - Local or individual identifiers
+        _  Zuni Webs  Web 2  trap 100  ear tag #8589
 -   Use only the following abbreviations:
 
       | Word or phrase                      | Abbreviation       | Comment     |
