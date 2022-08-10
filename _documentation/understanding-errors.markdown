@@ -23,7 +23,10 @@ Links:
 
 ### Problem
 
-Column {column} (often cryptically abbreviated) in table {table} has nonprinting characters.
+Column {column} (often cryptically abbreviated) in table {table} has disallowed characters. These include
+* nonporinting characcters
+* various unicode 'this character wasn't converted to unicode' characters, such as �
+* excessive whitespace: leading, trailing, or multiple spaces
 
 ### Solution
 
@@ -31,7 +34,7 @@ Find the disallowed characters using Reports/DataServices/FindAndReplaceNonprint
 
 ### More Information
 
-Arctos generally disallows characters which are not in POSIX character class "PRINT" due to limitations in "data consumers" such as GBIF.
+Arctos generally disallows characters which are not in POSIX character class "PRINT" due to limitations in "data consumers" such as GBIF, to facilitate search, and to detect things like unicode conversion issues before they can pollute data.
 
 <a id="bl_row"></a>
 >## Specimen Bulkloader: invalid user.table.column, table.column, or column specification
