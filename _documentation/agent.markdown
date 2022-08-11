@@ -28,7 +28,7 @@ Data about a person-agent can include first, middle, and last names (and must in
 
 See [Wikipedia: Generational Titles](http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles) for more information.
 
-Former concepts **Birth Date** and **Death Date** have now been generalized to [Agent Status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS). In addition to recording singular events about an agent (such as birth date), this structure allows "snapshots" -- "AgentX was seen at a conference on {DATE} and seemed to be living, so things collected before that date may still be attributable to AgentX."
+Former concepts **Birth Date** and **Death Date** have now been generalized to [Agent Status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS). In addition to recording singular events about an agent (such as birth date), this structure allows "snapshots" -- "AgentX was seen at a conference on {DATE} and seemed to be living, so things collected before or around that date may still be attributable to AgentX."
 
 ### Organization
 
