@@ -24,13 +24,13 @@ Links:
 ### Problem
 
 Column {column} (often cryptically abbreviated) in table {table} has disallowed characters. These include
-* nonporinting characcters
+* nonprinting characcters
 * various unicode 'this character wasn't converted to unicode' characters, such as �
 * excessive whitespace: leading, trailing, or multiple spaces
 
 ### Solution
 
-Find the disallowed characters using Reports/DataServices/FindAndReplaceNonprintingCharacters (or the tool of your choice) and strip them from your data.
+Find the disallowed characters using [Reports/Data Cleanup/Find/Replace Nonprinting Characters](https://arctos.database.museum/DataServices/findNonprintingCharacters.cfm) (or the tool of your choice) and strip them from your data.
 
 ### More Information
 
