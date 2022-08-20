@@ -10,18 +10,18 @@ collecting event often applies to more than one catalogued specimen, so
 be careful that changes you make to a collecting event apply to all of
 the specimens. **New Collecting Events** are normally created when
 specimen records are [bulk-loaded](/documentation/bulkloader), but may be created manually, cloned
-from existing events, and/or given a nickname for easy identification.
+from existing events, and/or given a name for easy identification.
 
-## Event Nickname
+## Event Name
 
 `Collecting_Event . Collecting_Event_Name VARCHAR(255) null`
 
-Event Nickname is a human-readable stable "primary key" to
-collecting events. Event Nickname may only be created or added in the
+Event Name is a human-readable stable "primary key" to
+collecting events. Event Name may only be created or added in the
 edit forms; it may not be created during the data entry process. This
 field is useful for locating pre-created collecting event information,
 and may be useful when specimens share an event but are not entered
-sequentially, such as hosts and parasites. The existence of an event nickname will prevent automated merger and deletion.
+sequentially, such as hosts and parasites. The existence of an event Name will prevent automated merger and deletion.
 
 ## Verbatim Locality
 
@@ -171,4 +171,4 @@ and 7).
 
 # Maintenance
 
-Duplicate Collecting Events are automatically merged, and unused Collecting Events are automatically deleted. A Collecting Event Nickname will prevent both of these actions and should be used in pre-created Collecting Events. Please remove nickname from any Collecting Events which you no longer intend to use.
+Duplicate Collecting Events are automatically merged, and unused Collecting Events are automatically deleted. A Collecting Event Name will prevent both of these actions and should be used in pre-created Collecting Events. Please remove Name from any Collecting Events which you no longer intend to use.
