@@ -6,7 +6,7 @@ layout: default_toc
 # Understanding Arctos Errors
 
 Links:
- - [check constraint "ck_label_noprint"](#ck)
+ - [check constraint "ck_{column}_noprint"](#ck)
  - [bulk loading: invalid table columnn, etc](#bl_row)
  - [table of view does not exist](#notable)
  - [unique constraint-_iu_table_and_column_ violated](#iu)
