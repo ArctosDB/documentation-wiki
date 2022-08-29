@@ -2,7 +2,7 @@
 title: How To Publish Data to OBIS
 layout: default_toc
 author: Teresa J Mayfield-Meyer
-contributor:  Phyllis Sharp 2022-06-14
+contributor:  Phyllis Sharp 2022-06-14, David Bloom 2022-08-29
 date: 2022-08-29
 ---
 # How to Publish Arctos Data to the Ocean Biodiversity Information System (OBIS)
@@ -22,7 +22,7 @@ The DMNS:Inv clean-up included:
 
 ## Publication
 
-Once the cleanup and coordination with Abby are complete, publication should be automatic with monthly updates. If any issues areise with publication, please file an issue in the [Arctos main repo](https://github.com/ArctosDB/arctos/issues/).
+Once the cleanup and coordination with Abby are complete, notify David Bloom at VertNet which collection(s) are to be added/published to OBIS. After the initial publication, monthly publication should be automatic. If any issues areise with publication, please file an issue in the [Arctos main repo](https://github.com/ArctosDB/arctos/issues/).
 
 ## Edit this How To
 
