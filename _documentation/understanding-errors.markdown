@@ -6,7 +6,7 @@ layout: default_toc
 # Understanding Arctos Errors
 
 Links:
- - [check constraint](#ck)
+ - [check constraint "ck_{column}_noprint"](#ck)
  - [bulk loading: invalid table columnn, etc](#bl_row)
  - [table of view does not exist](#notable)
  - [unique constraint-_iu_table_and_column_ violated](#iu)
@@ -28,9 +28,10 @@ Column {column} (often cryptically abbreviated) in table {table} has disallowed 
 * various unicode 'this character wasn't converted to unicode' characters, such as �
 * excessive whitespace: leading, trailing, or multiple spaces
 
-### Solution
+### Solution(s)
 
-Find the disallowed characters using [Reports/Data Cleanup/Find/Replace Nonprinting Characters](https://arctos.database.museum/DataServices/findNonprintingCharacters.cfm) (or the tool of your choice) and strip them from your data.
+1. Find the disallowed characters using [Reports/Data Cleanup/Find/Replace Nonprinting Characters](https://arctos.database.museum/DataServices/findNonprintingCharacters.cfm) (or the tool of your choice) and strip them from your data.
+2. In Excel, insert a column next the problem column. For all rows with data enter the formula =IF(LEN(A1)=LEN(CLEAN(A1),"OK","CLEAN") (where A1 will change relative to the data being evaluated). Sort by the column you just created, then find the issues in all rows that have the value "CLEAN". Note that once they are fixed the value will change to "OK". Once all the cleaning is complete, delete the inserted column, save as CSV UTF-8 and try loading your file again.
 
 ### More Information
 
