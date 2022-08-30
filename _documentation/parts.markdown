@@ -1,12 +1,13 @@
 ---
 title: Parts
-author: unknown, Teresa J Mayfield-Meyer
-date: unknown, 2021-07-15
+author: unknown, Teresa J Mayfield-Meyer, Dusty McDonald
+date: unknown, 2021-07-15, 2022-08-30
 layout: default_toc
 ---
 
-# Parts
+[Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/271)
 
+# Parts 
 
 Parts are physical entities, in contrast to [Cataloged Items](/documentation/catalog) (an abstract entity) or binary objects
 (such as Images). One or many parts may comprise a Cataloged Item, and parts may be defined as the minimal units for which [storage location](/documentation/container), usage, and condition are tracked. (*"Parts are things to which you can stick barcodes."*) 
@@ -47,7 +48,9 @@ generality, the status of cataloged items. Typical values are controlled by a [
 
 `Coll_Object . Condition VARCHAR(255) not null`
 
-Condition is used for entries such as "broken" or "dissected." The following condition ratings apply specifically to parts with the "is_tissue" flag:
+Condition is free-text generalized with very limited metadata. It may be used used for entries such as "broken" or "dissected." 
+
+The community recommends following condition ratings be used specifically to parts with the "is_tissue" flag:
 
 -   5 – The best tissues. These have gone from a freshly killed animal
     directly into liquid nitrogen. The animal should not have been dead
@@ -62,6 +65,15 @@ Condition is used for entries such as "broken" or "dissected." The following con
 -   2 – These tissues may be beginning to show signs of decomposition.
 -   1 – These tissues are flaccid and thoroughly autolyzed. They
     probably stink.
+
+Note that there are many part attributes that may confirm or conflict with the information in condition. These include, but are not limited to:
+
+1. [condition report](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#condition_report) is basically condition, but without the structural limitations (eg you can fully expose how things change over time) and with full metadata
+2. [preservation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#preservation)
+3. [preservation need](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#preservation_need)
+4. [remaining volume](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#remaining_volume)
+5. [storage temperature](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#storage_temperature)
+6. [tissue quality](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#tissue_quality) 
 
 ## Lot Count
 
@@ -225,3 +237,7 @@ And some specimens will also contain part attribute data for one or more of the 
   }
 ]
 ```
+
+# Community Discussion
+
+[Github Issue #271](https://github.com/ArctosDB/documentation-wiki/issues/271)
