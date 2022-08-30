@@ -10,7 +10,7 @@ layout: default_toc
 # Parts 
 
 Parts are physical entities, in contrast to [Cataloged Items](/documentation/catalog) (an abstract entity) or binary objects
-(such as Images). One or many parts may comprise a Cataloged Item, and parts may be defined as the minimal units for which [storage location](/documentation/container), usage, and condition are tracked. (*"Parts are things to which you can stick barcodes."*) 
+(such as Images). One or many parts may comprise a Cataloged Item, and parts may be defined as the minimal units for which [storage location](/documentation/container), usage, and condition are tracked. (*"Parts are things to which you can stick barcodes."*) Parts are generally the equivalent of [dwc:MaterialSample](https://dwc.tdwg.org/terms/#materialsample)
 
 ## Part Names
 
@@ -50,7 +50,7 @@ generality, the status of cataloged items. Typical values are controlled by a [
 
 Condition is free-text generalized with very limited metadata. It may be used used for entries such as "broken" or "dissected." 
 
-The community recommends following condition ratings be used specifically to parts with the "is_tissue" flag:
+The community recommends following condition ratings be used specifically to parts with the "is_tissue" flag see [Tissue](##Tissue):
 
 -   5 – The best tissues. These have gone from a freshly killed animal
     directly into liquid nitrogen. The animal should not have been dead
