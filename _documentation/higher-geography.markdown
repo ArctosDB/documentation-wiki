@@ -219,7 +219,15 @@ appropriate. Examples follow.
 
 ## Start Date and Stop Date
 
-Start Date and Stop Date must be given as an ordered pair or not at all. These are parenthetically included in the higher_geography concatenation. 
+Start Date and Stop Date must be given as an ordered pair or not at all. These are parenthetically included in the higher_geography concatenation.
+
+### For Geography Admins
+
+Dates are often not known to even year precision. Elaborate on any assumptions or guesses in remarks. Delete any unused geography records with dates as you encounter them.
+
+### For Catalog Records
+
+Dates signify less-than-ideal geography, often without spatial data. Do not use these data if it is possible to avoid them, and "upgrade" any catalog records to avoid these data as resources permit.
 
 ## Higher Geography
 
