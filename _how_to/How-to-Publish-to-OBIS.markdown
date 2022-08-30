@@ -22,7 +22,7 @@ The DMNS:Inv clean-up included:
 
 ## Publication
 
-Once the cleanup and coordination with Abby are complete, notify David Bloom at VertNet which collection(s) are to be added/published to OBIS. After the initial publication, monthly publication should be automatic. If any issues arise with publication, please file an issue in the [Arctos main repo](https://github.com/ArctosDB/arctos/issues/).
+Once the cleanup and coordination with Abby are complete, notify [David Bloom](https://github.com/dbloom) at VertNet which collection(s) are to be added/published to OBIS. After the initial publication, monthly publication should be automatic. If any issues arise with publication, please file an issue in the [Arctos main repo](https://github.com/ArctosDB/arctos/issues/).
 
 ## Edit this How To
 
