@@ -26,4 +26,4 @@ Once the cleanup and coordination with Abby are complete, notify David Bloom at 
 
 ## Edit this How To
 
-If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Publish_to_OBIS.markdown).
+If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Publish-to-OBIS.markdown).
