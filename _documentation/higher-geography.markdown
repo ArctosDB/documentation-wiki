@@ -22,6 +22,7 @@ listed under only one higher geography. The [guidelines](#guidelines)
 below are intended to prevent (and even remedy) such inconsistencies.
 
 
+
 ## Continent / Ocean
 
 `Geo_Auth_Rec . Continent_Ocean VARCHAR(50) not null`
@@ -216,7 +217,9 @@ appropriate. Examples follow.
   | North America, United States, Alaska, Mt. McKinley Quad, Denali National Park and Preserve | http://en.wikipedia.org/wiki/Denali_National_Park_and_Preserve | There is no Wikipedia entry for the area of Alaska that’s within both DNP and a USGS quad, so pick the most specific available. |
 
 
+## Start Date and Stop Date
 
+Start Date and Stop Date must be given as an ordered pair or not at all. These are parenthetically included in the higher_geography concatenation. 
 
 ## Higher Geography
 
