@@ -11,7 +11,7 @@ date: 2022-08-29
 
 ## Before Publication to OBIS
 
-Get data cleaned up and respond to specific questions from Abby Benson at OBIS.
+Get data cleaned up and respond to specific questions from [Abby Benson](https://github.com/albenson-usgs) at OBIS.
 
 The DMNS:Inv clean-up included:
 
