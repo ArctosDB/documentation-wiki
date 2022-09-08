@@ -20,7 +20,7 @@ Column {column} in table {table} has disallowed characters. These include
 ### Solution(s)
 
 1. Find the disallowed characters using [Reports/Data Cleanup/Find/Replace Nonprinting Characters](https://arctos.database.museum/DataServices/findNonprintingCharacters.cfm) (or the tool of your choice) and strip them from your data.
-2. In Excel, insert a column next the problem column. For all rows with data enter the formula =IF(LEN(A1)=LEN(CLEAN(A1),"OK","CLEAN") (where A1 will change relative to the data being evaluated). Sort by the column you just created, then find the issues in all rows that have the value "CLEAN". Note that once they are fixed the value will change to "OK". Once all the cleaning is complete, delete the inserted column, save as CSV UTF-8 and try loading your file again.
+2. In Excel, insert a column next the problem column. For all rows with data enter the formula =IF(LEN(A1)=LEN(CLEAN(A1)),"OK","CLEAN") (where A1 will change relative to the data being evaluated). Sort by the column you just created, then find the issues in all rows that have the value "CLEAN". Note that once they are fixed the value will change to "OK". Once all the cleaning is complete, delete the inserted column, save as CSV UTF-8 and try loading your file again. You might also try =IF(LEN(A1)=LEN(TRIM(A1)),"OK","CLEAN") to look for extra spaces.
 
 ### More Information
 
