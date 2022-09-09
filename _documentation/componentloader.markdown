@@ -51,8 +51,12 @@ Once a component loader record is marked to load by making ``status`` autoload, 
 
  - the record is added to the associated catalog record and marked for cache refresh, or
  - an error is returned in the ``status`` column
+
+
+ ``Reports/Services>View Statistics>Componnent Loader Status`` will report on current processing.
+
    
-Records which successfully load must be refreshed in the cache before appearing in the user interfaces. Records are  refreshed in the order they enter the queue. This process often takes less than one minute, but in the case of many thousands of records being queued can take up to several days. <a href="https://arctos.database.museum/info/flat_status.cfm" target="_blank">Reports/Services >View Statistics >FLAT</a> status provides a summary of the state of the cache, and may be useful in estimating processing time.
+Records which successfully load must be refreshed in the cache before appearing in the user interfaces. Records are  refreshed in the order they enter the queue. This process often takes less than one minute, but in the case of many thousands of records being queued can take up to several days. ``Reports/Services>View Statistics>FLAT Status`` provides a summary of the state of the cache, and may be useful in estimating processing time.
 
 Note that there is a period of time between successful loading and the cache being refreshed where records are not visible in any user interface.
 
