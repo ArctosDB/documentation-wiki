@@ -6,7 +6,7 @@ date: 2016-03-08
 ---
 # How To Create Citations
 
-Attach a specimen record to a publication via citation. **NOTE:** Before a specimen is cited, the Publication profile **must** already exist in Arctos. See **How to Create a Publication** for tutorial.
+Attach a specimen record to a publication via citation. **NOTE:** Before a specimen is cited, the Publication profile **must** already exist in Arctos. See [How to Create a Publication](https://handbook.arctosdb.org/how_to/How-to-Create-a-Publication.html) for a tutorial.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_citations.jpg)
 
