@@ -39,10 +39,10 @@ The reporter has the following "fields":
 Accepts Variable controls what reports are avaiable when printing, and allows report selection to include only reports which work with the current data. 
 The variable should be used in the SQL for selecting records (examples below). Supported values:
 
-	* table_name: temporary/cache table name of last catalog record search. This will always contain collection_object_id, which may be used to join to catalog records or flat. This is almost always the best choice for catalog record based labels.
-	* collection_object_id: a list of cataloged_item (or flat and filtered flat) collection_object_ids.
-	* transaction_id: a list of transaction (or loan, borrow, or accn) transaction_ids.
-	* container_id: a list of container IDs. May be be used to print container labels, or by joining to parts, catalog records.
+* table_name: temporary/cache table name of last catalog record search. This will always contain collection_object_id, which may be used to join to catalog records or flat. This is almost always the best choice for catalog record based labels.
+* collection_object_id: a list of cataloged_item (or flat and filtered flat) collection_object_ids.
+* transaction_id: a list of transaction (or loan, borrow, or accn) transaction_ids.
+* container_id: a list of container IDs. May be be used to print container labels, or by joining to parts, catalog records.
 
 ## Getting Data
 
