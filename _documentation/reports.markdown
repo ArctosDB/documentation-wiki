@@ -107,3 +107,12 @@ In general, it is best to work with the DBA team to get started. Some commonly-u
 will dump the object ``d`` - in this case the query we just performed.
 
 
+### Comment
+````
+<!----
+    this is a CFML comment
+---->
+````
+
+Comments are ignored by the processor; future-you (and future everyone else!) will thank you for including lots of comments.
+
