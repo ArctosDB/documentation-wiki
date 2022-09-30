@@ -77,4 +77,21 @@ Variable ``debug`` default ``false`` is available to the reporter. Use open+debu
 ## Libraries
 
 * In the CFM section of the report, ``<cfset inclPagedJs=true>`` (or ``inclPagedJs=true`` in cfscript) will make the Paged.js library avaialble to reports.
-	
+
+
+## Examples and usage
+
+In general, it is best to work with the DBA team to get started. Some commonly-used code examples are below.
+
+### CFML Query Objects 
+
+
+```
+<cfquery name="d" datasource="user_login" username="#session.dbuser#" password="#decrypt(session.epw,session.sessionKey,'AES/CBC/PKCS5Padding','hex')#">
+	select field_name from table_name where key=<cfqueryparam value="#transaction_id#" CFSQLType="cf_sql_int"> 
+</cfquery>
+```
+
+*  name="d" - return a query object in variable ``d``
+* username="#session.dbuser#" password="#decrypt(session.epw,session.sessionKey,'AES/CBC/PKCS5Padding','hex')#" - authentication based off of your Arctos login. Messing with this will get your account locked, so please don't.
+This returns a query obje
