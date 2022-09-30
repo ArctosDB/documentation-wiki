@@ -66,6 +66,10 @@ Table structure is available from the table browser. Cache tables FLAT (restrict
 
 All reports and individual reports may be downloaded as CSV, and new reports may be created from this. Save early and often.  https://github.com/ArctosDB/arctos-assets is available for more-persistent backups.
 
+## Clean up
+
+Take backups, then delete any reports for which you are responsible and do not use. Huge piles of abandoned reports cause problems for everyone, and drastic action may result. (OK, not that drastic, there will be backups.)
+
 ## Printing
 
 Use the browser's built-in print to PDF functionality. Click settings and turn off headers.
