@@ -66,6 +66,16 @@ SQL Input variables must be enclosed in hash marks, like "#table_name#".
 
 Many functions exist in Arctos. These can be used to simplify SQL, filter results, or package data in expected and portable formats. These may be viewed in the DDL repository.
 
+#### Special Note
+
+Loan metadata/header data is relatively normalized and less-than-trivial to query, so a CF Custom Tag is available. 
+
+````
+<cf_getLoanFormInfo>
+````
+
+will return a data object under variable ``getLoan`` for any report for which ``loan.transaction_id`` is available.
+
 
 ### Tables
 
