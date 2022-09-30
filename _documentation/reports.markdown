@@ -49,6 +49,10 @@ The variable should be used in the SQL for selecting records (examples below). S
 
 Note that 1 is always an acceptable list length, and is most common for things like loan forms. However, the reporter will accept comma-separated lists of identifiers of virtually any length. Printing labels for a thousand hand-selected containers is easily accomplished.
 
+## Editors
+
+Reports may be edited in the browser fields, but it is often better to use a more specialized editor, and copy to the browser. We use sublime with postgresql and cfml packages; many, many other choices are available.
+
 ## Getting Data
 
 ### SQL
