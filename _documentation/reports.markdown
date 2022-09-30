@@ -93,7 +93,7 @@ In general, it is best to work with the DBA team to get started. Some commonly-u
 ````
 
 *  name="d" - return a query object in variable ``d``
-* username="#session.dbuser#" password="#decrypt(session.epw,session.sessionKey,'AES/CBC/PKCS5Padding','hex')#" - authentication based off of your Arctos login. Messing with this can cause accounts to be locked.
+* ``username="#session.dbuser#" password="#decrypt(session.epw,session.sessionKey,'AES/CBC/PKCS5Padding','hex')#"`` - authentication based off of your Arctos login. Messing with this can cause accounts to be locked.
 * ``<cfqueryparam value="#transaction_id#" SQLType="int">`` - please use cfqueryparam rather than bare variables in queries. Sending unsanitized SQL to the database makes the DBA team nervous, and can cause accounts to be locked.
 
 ### Debug
