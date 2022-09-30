@@ -23,15 +23,15 @@ Output is generally either PDF-friendly HTML for labels, or CSV for consumption 
 
 ## Fields
 
-The reporter has the following "fields":
+The reporter has the following structure:
 
-* Report Name is the primary report identifier and must be unique. We recommend all lower-case ASCII characters (eg "myreport"), but at least locally any unique string will work.
-* Report Type is for categorization and sorting.
-* Accepts Variable controls what reports are avaiable when printing, and allows report selection to include only reports which work with the current data. Details are provided below.
-* Report Description should contain enough information for anyone to understand why this report exists and how to use it.
-* Used By Collections is used to filter and sort. This does not control access; all reports may be used by all collctions.
-* Report CFM is (sorta) dynamic HTML, with query and processing capability.
-* Report CSS is code that controls the page layout. It's generally better manage separately, but can be included in the cfm section in ``style`` tags as well.
+* ``Report Name`` is the primary report identifier and must be unique. We recommend all lower-case ASCII characters (eg "myreport"), but at least locally any unique string will work.
+* ``Report Type`` is for categorization and sorting.
+* ``Accepts Variable`` controls what reports are avaiable when printing, and allows report selection to include only reports which work with the current data. Details are provided below.
+* ``Report Description`` should contain enough information for anyone to understand why this report exists and how to use it.
+* ``Used By Collections`` is used to filter and sort. This does not control access; all reports may be used by all collctions.
+* ``Report CFM`` is (sorta) dynamic HTML, with query and processing capability.
+* ``Report CSS`` is code that controls the page layout. It's generally better manage separately, but can be included in the cfm section in ``style`` tags as well.
 
 
 ## Accepts Variable
