@@ -44,6 +44,11 @@ The variable should be used in the SQL for selecting records (examples below). S
 * transaction_id: a list of transaction (or loan, borrow, or accn) transaction_ids.
 * container_id: a list of container IDs. May be be used to print container labels, or by joining to parts, catalog records.
 
+
+### About Lists
+
+Note that 1 is always an acceptable list length, and is most common for things like loan forms. However, the reporter will accept comma-separated lists of identifiers of virtually any length. Printing labels for a thousand hand-selected containers is easily accomplished.
+
 ## Getting Data
 
 ### SQL
