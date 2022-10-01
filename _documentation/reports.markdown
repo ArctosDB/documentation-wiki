@@ -114,6 +114,27 @@ From transactions, containers, or catalog item search results, choose 'print any
 
 ### Code Snippets
 
+#### CFML
+
+The "heavy lifting" is performed by CFML, which can be written as tags or script. Lucee is used to process, but Adobe Coldfusion is almost always functionally identical and often has better documentation.
+
+#### HTML
+
+HTML can be mixed freely with CFML. 
+````
+<p>#myvar#</p>
+````
+will simply print the value of ``myvar`` in a paragraph, for example.
+
+#### CSS
+
+We recommend CSS for layout. In general, keep it simple: Various browsers have slightly different handling of some CSS, and this tends to be much more noticeable in very new or obscure/little-used tags. (Older browsers may also have issues; developers use the current production release of Firefox, and you should too.)
+
+
+#### Headers and Footers
+
+Paged.js provides header and footer functionality, but is extremely twitchy. Fixed-size layouts and precalculated headers and footers tend to work much better than the alternatives. (And please let us know if you have a better solution, or need more JS/CSS libraries.)
+
 #### CFML Query Objects 
 
 
@@ -135,7 +156,7 @@ From transactions, containers, or catalog item search results, choose 'print any
 </cfif>
 ````
 
-will dump the object ``d`` - in this case the query we just performed.
+will dump the object ``d`` - in this case the query we just performed - when the 'open+debug' option is selected (or ``debug`` is manually set to ``true``).
 
 
 #### Comment
