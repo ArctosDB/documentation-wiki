@@ -83,7 +83,7 @@ Table structure is available from the Arctos Table Browser. Cache tables FLAT (r
 
 ## Backups
 
-All reports and individual reports may be downloaded as CSV, and new reports may be created from this. Save early and often.  https://github.com/ArctosDB/arctos-assets is available for more-persistent backups.
+All reports and individual reports may be downloaded as CSV, and new reports may be created from this. Save early and often; assume someone's going to delete all of your reports the very second you look away.  https://github.com/ArctosDB/arctos-assets is available for more-persistent backups; consider stashing periodic copies of 'mature' reports there.
 
 ## Clean up
 
