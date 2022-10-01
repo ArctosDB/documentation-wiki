@@ -104,9 +104,17 @@ Variable ``debug`` default ``false`` is available to the reporter. Use open+debu
 
 ## Examples and usage
 
-In general, it is best to work with the DBA team to get started. Some commonly-used code examples are below.
+### Creating 
 
-### CFML Query Objects 
+It is almost always best to work with the DBA team or copy an existing report to get started building a report, but all of the necessary information to start from scratch is in this doument and the Arctos Table Browser.
+
+### Using
+
+From transactions, containers, or catalog item search results, choose 'print any report,' select the report you wish to print (you can sort by clicking headers or search with your browser's built-in functionality), then click 'open' to execute the report. This will usually result in a HTML page which can be printed to PDF, or a CSV file which should automatically download to your selected download folder.
+
+### Code Snippets
+
+#### CFML Query Objects 
 
 
 ````
@@ -119,7 +127,7 @@ In general, it is best to work with the DBA team to get started. Some commonly-u
 * ``username="#session.dbuser#" password="#decrypt(session.epw,session.sessionKey,'AES/CBC/PKCS5Padding','hex')#"`` - authentication based off of your Arctos login. Messing with this can cause accounts to be locked.
 * ``<cfqueryparam value="#transaction_id#" SQLType="int">`` - please use cfqueryparam rather than bare variables in queries. Sending unsanitized SQL to the database makes the DBA team nervous, and can cause accounts to be locked.
 
-### Debug
+#### Debug
 
 ````
 <cfif debug>
@@ -130,7 +138,7 @@ In general, it is best to work with the DBA team to get started. Some commonly-u
 will dump the object ``d`` - in this case the query we just performed.
 
 
-### Comment
+#### Comment
 ````
 <!---
     this is a CFML comment
