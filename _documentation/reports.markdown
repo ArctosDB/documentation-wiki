@@ -79,7 +79,7 @@ will return a data object under variable ``getLoan`` for any report for which ``
 
 ### Tables
 
-Table structure is available from the table browser. Cache tables FLAT (restricted access, unfiltered data) and FILTERED_FLAT (unrestricted access, filtered data) are often good easy to use sources of data, but do have limitations. Talk to your friendly local DBA if you have any questions. You may get a list of FLAT columns by entering "select * from flat where 1=2" in reports/writeSQL.
+Table structure is available from the Arctos Table Browser. Cache tables FLAT (restricted access, unfiltered data) and FILTERED_FLAT (unrestricted access, filtered data) are often good easy to use sources of data, but do have limitations. Talk to your friendly local DBA if you have any questions. You may get a list of FLAT columns by entering "select * from flat where 1=2" in reports/writeSQL.
 
 ## Backups
 
@@ -132,9 +132,9 @@ will dump the object ``d`` - in this case the query we just performed.
 
 ### Comment
 ````
-<!----
+<!---
     this is a CFML comment
----->
+--->
 ````
 
 Comments are ignored by the processor; future-you (and future everyone else!) will thank you for including lots of comments.
