@@ -17,6 +17,10 @@ The reporter uses CFML, HTML, and CSS, generally to produce PDF's through a brow
 
 The reporter generally accepts the results of queries, or identifiers passed on from containers or transaction. This is readily expandable to most anything; file an Issue.
 
+### Static Data
+
+It should be considered good design to build fully dynamic reports which can continue to function when things like addresses and institutional nomenclature change, or work across collections and institutions. Such reports require little maintenance, while reports which include static text require constant upkeep, and are prone to containing incorrect data when changes are not reflected in reports.
+
 ## Output
 
 Output is generally either PDF-friendly HTML for labels, or CSV for consumption by external applications. However, it is possible to produce most anything that can be pushed through a browser.
