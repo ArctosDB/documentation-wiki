@@ -1,43 +1,24 @@
 ---
-title: How To Batch Update Identifications
+title: How To Create Part Attributes from Containers
 layout: default_toc
-author: Carla Cicero
-date: 2016-03-08
+author: DLM
+date: 2022-10-11
 ---
-# How To Batch Update Identifications
+# How To Create Part Attributes from Containers
 
-Batch update specimen identifications using the Manage Menu. The Manage Menu is an efficient alternative to using the "Taxa Tab" found in individual specimen records when needing to update multiple records at once. Query the specimen records in need of updating and use the **Manage... Identifications** tool to alter all specimen records returned in the search results. This action will add the new identification to each record as the current (accepted) determination and will display all previous identifications as a determination history list.
 
-**NOTE:** Only 1000 or so records may be managed in a single batch. Use this feature with caution before making large-scale changes to records in the database. 
+<img width="469" alt="Screen Shot 2022-10-11 at 7 50 09 AM" src="https://user-images.githubusercontent.com/5720791/195124699-dfb88958-60fe-4429-8f0c-706ae9e9130a.png">
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_identification_1.jpg)
+<img width="234" alt="Screen Shot 2022-10-11 at 7 50 59 AM" src="https://user-images.githubusercontent.com/5720791/195124870-0720cc30-c45b-44ca-9374-09f18e804feb.png">
 
-## Navigation: from Search Results screen → "Manage..." Menu → Identifications
+<img width="157" alt="Screen Shot 2022-10-11 at 7 51 35 AM" src="https://user-images.githubusercontent.com/5720791/195125279-f1beb3bd-08e9-44a4-bfdb-0649f450af5c.png">
 
-Query the records to be edited. ALL records that appear in the search results list will be batch-updated. Be sure to double-check the results and isolate only the records you wish to update, narrowing your search parameters if need be.
+<img width="1111" alt="Screen Shot 2022-10-11 at 7 52 37 AM" src="https://user-images.githubusercontent.com/5720791/195125286-886796da-1f76-48e3-bf61-366f4c3860de.png">
 
-## Manage Identifications
+<img width="617" alt="Screen Shot 2022-10-11 at 7 54 42 AM" src="https://user-images.githubusercontent.com/5720791/195125806-4a069397-b16e-4972-9615-fdee5f9313a7.png">
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_identification_2.jpg)
 
-As noted on the page, "Add Identification For All specimens listed below":
-* Select the appropriate value from the ID Formula drop-down menu. If the new determination does not contain any modifiers (i.e., "sp.", "cf.", "x", "?", etc.), keep the default formula value ("A"). For redeterminations that involve more than one taxon (e.g., hybrids, "and", "or"), an additional field will appear when the appropriate formula is selected ("Taxon B"). 
-* Enter the new identification in the Taxon field(s). **TIP:** After typing the first few characters of the taxon name in the field, click "Tab" to bring up a pop-up list and select the desired name to populate the field. 
-* Enter the determiner in the **ID By** field.
-* Enter the **Date** the redetermination was made.
-* Select a Nature of ID from the drop-down menu.
-* Record any pertinent Remarks (often for taxonomic revisions it is useful to include the reference information)
-* Click the "Add Identification to all listed specimens" button and the ID will be immediately added to the records listed at the bottom of the page (refresh the page to confirm the update).
-**TIP:** Use the tools in the "Special Magic Sauce" box to carry over data from previous determinations (taxon names, determiners, determination dates, and nature of identification).
+<img width="717" alt="Screen Shot 2022-10-11 at 7 56 04 AM" src="https://user-images.githubusercontent.com/5720791/195126157-b4c7761c-d891-4a08-9bfc-2fd3e35988f1.png">
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_identification_3.jpg)
-
-**NOTE:** For specimen records with ID histories numbering greater than two determinations, the order of identifications can be modified via the "Taxa Tab" in individual specimen records if necessary. Determinations are displayed in the order in which they are added (most recent listed first, oldest determination at the bottom).
-
-## Tutorial Video - How to Batch Update Identifications
-[![YouTube: How To Batch Update Identifications](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Add_Identification_to_Multiple_Catalog_Records_in_Arctos_thumb.jpg)](https://www.youtube.com/watch?v=KpUhQtO5vYg)
-## Tutorial Video - How to Find and Update records with Invalid Taxon Names (Short Version) 
-[![YouTube: How To Find and Update Specimen Records with Invalid Scientific Names - Invertebrate Focus)](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Find_and_Update_records_with_Invalid_Taxon_Names_short_thumb.jpg)](https://youtu.be/67PCtinLzWE)
-## Tutorial Video - How to Find and Update records with Invalid Taxon Names (Invertebrate Focus) 
-[![YouTube: How To Find and Update Specimen Records with Invalid Scientific Names - Invertebrate Focus)](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Find_and_Update_records_with_Invalid_Taxon_Names_Inverts_thumb.jpg)](https://youtu.be/81jhENbgaBU)
+<img width="1610" alt="Screen Shot 2022-10-11 at 7 58 57 AM" src="https://user-images.githubusercontent.com/5720791/195126898-7ab04d60-35b6-4054-bade-0d065800a479.png">
 
