@@ -219,13 +219,13 @@ flag from "no" to "yes."
 
 ## Remarks
 
-`Lat_Long . Lat_Long_Remarks VARCHAR2(4000) null`
+`Locality . GEOREFERENCE_SOURCE VARCHAR(255) not null`
 
 <!--`DarwinCore2=GeoreferenceRemarks`-->
 
-Remarks are about the spatial description determination, explaining
+Remarks about the spatial description determination, explaining
 assumptions made in addition or opposition to the those formalized in
-the method referred to in [Georeference Method](#georeference-method).
+the method referred to in [Georeference Method](#georeference-method) should be placed in [Georeference Source](#reference-source(s)).
 
 ## Searching with Coordinates
 
