@@ -4,6 +4,7 @@ layout: default_toc
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
 date: 2022-10-14
 ------
+[Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/275)
 
 # Higher Geography
 
@@ -28,29 +29,31 @@ GADM Level 2 is a second-level political subdivision of a country, regardless of
 ## Other Options
 
 There will also be options when geography should or cannot be asserted:
- - [we don't know](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69)
- - [we refuse to say](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350)
+* [we don't know](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69)
+* [we refuse to say](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350)
 
 # Unassertable Higher Geography
 
 Anything will be eligible to be "unassertable" geography or spatially aware features, including but in no way limited to
 
- - [continents](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=4962)
- - [parks](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10004785)
- - [islands](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=1005324)
+* [continents](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=4962)
+* [parks](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10004785)
+* [islands](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=1005324)
 
 Search will use intersections of geography and locality in addition to asserted geography. That is, a record which maps to Yosemite will be findable by:
 
- - Park
- - County/counties
- - State
- - Country
- - Continent
+* Park
+* County/counties
+* State
+* Country
+* Continent
 
 Making the record also discoverable by region ("The West") or ecoregion (Sierras) or WHATEVER will involve only creating a spatially-aware feature.
 
 Note that no search functionality hinges on what's asserted. Asserting Mariposa County and "we refuse to say" are functionally equivalent when the locality maps to the bits of Mariposa County that are within Yosemite.
 
+# Community Discussion
+* [GitHub Issue #275](https://github.com/ArctosDB/documentation-wiki/issues/275)
 
 **Suggest removing everything below (although some might beuseful for eventual locality attributes?**
 
