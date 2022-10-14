@@ -1,13 +1,60 @@
 ---
 title: Higher Geography
 layout: default_toc
----
+author: Dusty McDonald, Teresa J. Mayfield-Meyer
+date: 2022-10-14
+------
 
 # Higher Geography
 
+Higher Geography is "assertable" spatial geography and will be limited to:
+
+## [GADM](https://gadm.org/maps.html)
+ 
+### Level 0 or Country
+ 
+GADM Level 0 or Country is the familiar concept of first-level political entity and will exist in Arctos globally.
+
+### Level 1 or State / Province
+
+GADM Level 1 or State/Province is a primary subdivision of a country, be it state, province, department, or okrug and will exist in Arctos globally.
+
+### Level 2 or County
+
+GADM Level 2 is a second-level political subdivision of a country, regardless of local labels. level 2 divisions will be created by Community approval only when there is a special need and a significant history of stability. Currently the United States is the only candidate for this treatment.
+ 
+## [IHO World Seas](https://iho.int/)
+ 
+## Other Options
+
+There will also be options when geography should or cannot be asserted:
+ - [we don't know](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69)
+ - [we refuse to say](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350)
+
+# Unassertable Higher Geography
+
+Anything will be eligible to be "unassertable" geography or spatially aware features, including but in no way limited to
+
+ - [continents](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=4962)
+ - [parks](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10004785)
+ - [islands](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=1005324)
+
+Search will use intersections of geography and locality in addition to asserted geography. That is, a record which maps to Yosemite will be findable by:
+
+ - Park
+ - County/counties
+ - State
+ - Country
+ - Continent
+
+Making the record also discoverable by region ("The West") or ecoregion (Sierras) or WHATEVER will involve only creating a spatially-aware feature.
+
+Note that no search functionality hinges on what's asserted. Asserting Mariposa County and "we refuse to say" are functionally equivalent when the locality maps to the bits of Mariposa County that are within Yosemite.
 
 
-Higher Geography is a combination of terms delineating geopolitical
+**Suggest removing everything below (although some might beuseful for eventual locality attributes?**
+
+is a combination of terms delineating geopolitical
 units and it includes many imprecise regions. These terms are
 descriptively applied to [Localities](locality). In so far as counties
 occur within states, states within countries, and countries within
@@ -43,83 +90,6 @@ Russia is in Asia. Both are sometimes in Eurasia.
 | Africa                               | Indian Ocean ([Area F](http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans")) |
 | Australia                            |                                      |
 | Antarctica                           | missing data: "no higher geography recorded"  |
-
-
-
-## Country
-
-`Geo_Auth_Rec . Country VARCHAR(50) null`
-
- is the familiar concept of first-level political entity,
-though various territorial claims complicate reality. We currently
-recognize Greenland as a country and not as a state in Denmark. (It
-would not occur to most users to search for muskox from Denmark.)
-
-Note that country is political, not geographic, as demonstrated by
-georeferenced specimens "from France."
-
-
-
-[![This is
-France](../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png)](../images/classic-uploads/2014/06/screen-shot-2014-06-09-at-11-28-13-am.png)
-France
-
-
-## State / Province
-
-`Geo_Auth_Rec . State_Prov VARCHAR(75) null`
-
-These are primary subdivisions of a country, be they
-states, provinces, departments, or okrugs.
-
--   **Example:** Magadanskaya oblast
-    -   **Not:** Magadan district
-    -   **Not:** Madanskaya Oblast
--   **Example:** Baja California Sur
-
-
-
-
-## Seas
-
-`Geo_Auth_Rec . Sea VARCHAR(50) not null`
-
- are defined as divisions of [oceans](#continent_ocean), but for
-a large proportion of open ocean, seas are not applicable. For example,
-the waters north of Point Barrow, Alaska are in the Arctic Ocean but are
-in neither the Chukchi nor Bering seas. Similarly, the coastal waters of
-California, and the east coast of Japan can be designated only as North
-Pacific Ocean. There have been efforts to formally delineate seas and
-oceans (e.g., the U. S. Navy’s "Chart of Seas and
-Oceans" and the U. S. Defense Intelligence Agency’s "Geopolitical Data Elements
-and Related Features,").
-
-<!---
-these links are broken:
-(http://http://oai.dtic.mil/oai/oai?verb-getRecord&metadataPrefix-html&identifier-ADA028803 "Geopolitical Data Elements and Related Features")
-(http://memory.loc.gov/cgi-bin/image-services/jp2.py?data-/home/www/data/gmd/gmd9/g9096/g9096a/ct003193.jp2&res-2 "Chart of the Limits of Seas and Oceans")
---->
-
-
-These should be consulted for the name of seas, or if there is a
-question about whether a locality is appropriately included in a
-particular sea. (In their effort to be comprehensive and consistent
-within a domain where rigorous definitions are not commonly used, these
-references occasionally offend common sense.)
-
-
-## County
-
-`Geo_Auth_Rec . County VARCHAR(50) null`
-
-
- **County** is a second-level political subdivision of a country,
-regardless of local labels. For example, "Primorsky Krai" is 
-a **County** in the Far Eastern Federal District (a State) of Russia.
-Note that administrative hierarchy rather than local terminology
-defines **County**: Montserrado County is a State in Liberia and
-does not belong in the **County** field.
-
 
 
 
