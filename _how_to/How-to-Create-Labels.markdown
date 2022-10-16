@@ -5,6 +5,18 @@ author: Teresa Mayfield-Meyer
 date: 2019-03-19
 ---
 
+
+# DEPRECATED
+
+The .cfr-based reporter is deprecated and should not be used.
+
+Current report/label documentation is [https://handbook.arctosdb.org/documentation/reports.html](https://handbook.arctosdb.org/documentation/reports.html)
+
+
+-----------------------------------
+
+
+
 # How To Create Labels
 
 This document describes one method of printing specimen labels from Arctos. You can also download data in various formats for import into other label generating software, and you can use the reporter to generate labels for transactions and containers as well as specimens. See http://www.akentsoc.org/archives/category/arctos for one alternative approach to specimen labels.
