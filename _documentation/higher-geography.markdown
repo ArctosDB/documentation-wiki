@@ -23,7 +23,10 @@ GADM Level 1 or State/Province is a primary subdivision of a country, be it stat
 
 ### Level 2 or County
 
-GADM Level 2 is a second-level political subdivision of a country, regardless of local labels. level 2 divisions will be created by Community approval only when there is a special need and a significant history of stability. Currently the United States is the only candidate for this treatment.
+GADM Level 2 is a second-level political subdivision of a country, regardless of local labels. level 2 divisions will be created by Community approval only when there is a special need and a significant history of stability. The following are the only entities approved for this treatment:
+
+* United States (source: it is known)
+* United Kingdom (source: https://github.com/ArctosDB/arctos/issues/5178)
  
 ## [IHO World Seas](https://iho.int/)
  
