@@ -110,7 +110,7 @@ Enter a date into Excel…
 sizes="(max-width: 151px) 100vw, 151px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png 151w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am-150x91.png 150w" />
 
-Leave the field. Evil magic happens. Bill Gates personally hates you.
+Leave the field. Evil magic happens.
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png"  width="304" height="325"
 sizes="(max-width: 304px) 100vw, 304px"
