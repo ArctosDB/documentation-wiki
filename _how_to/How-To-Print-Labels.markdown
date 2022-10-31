@@ -1,9 +1,17 @@
 ---
 title: How To Print Labels
 layout: default_toc
-author: Emily Braker
-date: 2019-05-02
+author: Emily Braker, Teresa J Mayfield-Meyer
+created on: 2019-05-02
+date: 2022-10-31
 ---
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
+
+[Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/280)
+
+We are in the process of moving reports to a new system. If you had a report in the ColdFusion Reporter that you loved and want to re-create, please [file an issue](https://github.com/ArctosDB/arctos/issues/new?assignees=lkvoong&labels=function-Reports&template=report-template-request.md&title=New+Arctos+Report+Template+Request) for assistance.
+
 # How to Print Labels
 
 **Print specimen/object labels by querying the desired records and using the Manage Menu to "Print Any Report." From there, select the relevant report template to generate a PDF.**
@@ -14,6 +22,10 @@ date: 2019-05-02
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/print_any_report.JPG)
 * From the drop-down menu, select the report you want (usually your insitution's standard label template). Click the "Print Report" button to generate a PDF of the labels. From there, print away!
 
-# Tutorial Video ↗️
+## Tutorial Video ↗️
 
 [![YouTube: How To Print Labels](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Print_Labels_in_Arctos_thumb.jpg)](https://www.youtube.com/watch?v=BlOi5XwJHas)
+
+## Community Discussion
+
+[Github Issue #280](https://github.com/ArctosDB/documentation-wiki/issues/280)
