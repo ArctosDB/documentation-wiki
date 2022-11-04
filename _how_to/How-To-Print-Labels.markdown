@@ -1,9 +1,9 @@
 ---
 title: How To Print Labels
 layout: default_toc
-author: Emily Braker, Teresa J Mayfield-Meyer
+author: Emily Braker, Teresa J Mayfield-Meyer, Aren Gunderson
 created on: 2019-05-02
-date: 2022-10-31
+date: 2022-11-03
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
@@ -14,6 +14,8 @@ We are in the process of moving reports to a new system. If you had a report in 
 
 # How to Print Labels
 
+## Within Arctos
+
 **Print specimen/object labels by querying the desired records and using the Manage Menu to "Print Any Report." From there, select the relevant report template to generate a PDF.**
 
 * From the Search Page, query the specimen(s) that wish to print labels for. Search by catalog number, a series of catalog numbers, by accession number, or any parameters needed to return the intended records.
@@ -21,6 +23,12 @@ We are in the process of moving reports to a new system. If you had a report in 
 * On the Results page, navigate to the Manage Menu --> Print Any Report. 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/print_any_report.JPG)
 * From the drop-down menu, select the report you want (usually your insitution's standard label template). Click the "Print Report" button to generate a PDF of the labels. From there, print away!
+
+## Using Downloaded Data and Microsoft Word's Mail Merge Function
+
+For an example of this process see this [GitHub Issue](https://github.com/ArctosDB/arctos/issues/5251).
+
+File an issue if you need help with SQL for the data you want to use in your labels. In order to use the SQL, from the main Arctos menu select [Reports/Services > Write SQL](https://arctos.database.museum/tools/userSQL.cfm) replace any text in the SQL box with your SQL and select CSV to get a downloaded table as your results.
 
 ## Tutorial Video ↗️
 
