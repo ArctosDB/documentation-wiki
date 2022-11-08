@@ -73,10 +73,10 @@ Locality adds formality and vertical spatial data to collecting events. Localiti
 Geography adds formalized descriptive data to locality. Geography is shared; one geography may be parent to any number of localities.
 
 * GEOG_AUTH_REC_ID is the primary key
-* HIGHER_GEOG is the "display value" derived from components (such as state_prov) which have been excluded from this document. HIGHER_GEOG is a unique value; there can be only one "North America, United States, Alaska."
-* SOURCE_AUTHORITY is the evidence supporting the existence of or clarifying a geography entry.
+* HIGHER_GEOG is the "display value" derived from components (such as state_prov) which have been excluded from this document. HIGHER_GEOG is a unique value; there can be only one "United States, Alaska."
+* SOURCE_AUTHORITY is the evidence supporting the existence of or clarifying a geography entry, generally a Wikipedia article.
 * GEOG_REMARK is any remark regarding the geography
-* WKT_POLYGON is the [well-known text](https://en.wikipedia.org/wiki/Well-known_text) polygon of the geography. Note that the introduction of this field changes the nature of the data; it is now possible to have "Alaska" defined as "things someone felt like calling 'Alaska'" (_e.g._, hundreds of miles offshore, but somehow doesn't feel like Russia!) OR as a spatial polygon (which might stop at mean high tide).
+* STPATIAL_FOOTPRINT is the ``postgis:geography``-datatype polygon of the geography. The source of this is genearlly given in remarks. 
 
 ## Not Included
 
@@ -125,5 +125,61 @@ Note that the specimen<-->specimen_event relationship is always 1:1; all other r
 ### New Model
 
 "The New Model" consists of a single table in which coordinates and string-data (such as specific locality) are treated as parts of the same place or data object. The entire object is a "fact" - there are no determiners involved. The determination is inserted between the specimen and the entire locality stack; the determiner is asserting the the locality as a whole applies to the specimen. Bare coordinates, bare specific locality, specific locality determined from coordinates, and coordinates determined from specific locality are all possible. The model is much more normalized, although multiple denormalizers (locality remarks, datum, various distance units) remain. A specimen may have any number of localities, each containing a determiner and date, verificationstatus, and specimen-event type. Changes (INSERT and UPDATE) are logged, and these may be used to discover the agents who georeferenced, reverse-georeferenced, changed geography, make corrections (or introduced errors), etc. A full history of locality data may be maintained from the perspective of specimens by "verifying" erroneous data as unaccepted and adding a new locality stack with a not-unaccepted VerificationStatus.
+
+### "Old Geography" was generally an attempt to "fill in the blanks," which resulted in many - often dozens - of ways of saying, or almost saying, the same thing. This model was primary descriptive, with most shapes not having spatial data available. [https://github.com/ArctosDB/arctos/issues/4836](https://github.com/ArctosDB/arctos/issues/4836) is one discussion regarding this problem. Additionally there were no clear guidelines on what does or does not constitute geography, often involving very large ("Patagonia") or very small (one of the smaller Florida Keys).
+
+### New geography arose after several months of intense discussion lead to [The Plan](https://github.com/ArctosDB/arctos/issues/5138), which is summarized in [Geography Documentation](https://handbook.arctosdb.org/documentation/higher-geography.html). Some common questions will be addressed below.
+
+#### What's going on with higher geography? Seems all my data have lost their continent.
+
+Correct, no currently assertable source of geography contains continents.
+
+#### How can I find a former Feature?
+
+Consult https://github.com/ArctosDB/arctos/issues/5207, then search Feature:
+
+<img width="761" alt="Screenshot 2022-11-08 at 6 45 21 AM" src="https://user-images.githubusercontent.com/5720791/200595145-ab792a6f-c210-46e9-b004-dad738e6cbce.png">
+
+#### How can I get a former feature in CSV or labels?
+
+Use function ```oncatLocalityAttributeValue (lid int,attrtype varchar)``` (enabled in search results as locality_feature) or file a [Report Template Request](https://github.com/ArctosDB/arctos/issues/new?assignees=lkvoong&labels=function-Reports&template=report-template-request.md&title=New+Arctos+Report+Template+Request) for help.
+
+#### How do I enter data with a feature?
+
+Use the finder to locate locality attributes...
+
+<img width="324" alt="Screenshot 2022-11-08 at 7 11 39 AM" src="https://user-images.githubusercontent.com/5720791/200601808-07772028-e654-48c4-bf3d-8aef4971ab03.png">
+
+turn at least one row one, choose Feature, and begin typing to get values.
+
+<img width="509" alt="Screenshot 2022-11-08 at 7 14 07 AM" src="https://user-images.githubusercontent.com/5720791/200602329-7d2e27e4-97f7-44e4-93e0-941654181b71.png">
+
+
+#### Where is previous geography?
+
+[https://github.com/ArctosDB/arctos/issues/5144](https://github.com/ArctosDB/arctos/issues/5144) encompasses significant changes. (Predictable operations, like removing continent from an entire country, are not captured here.)
+
+#### Now specific locality is redundant!
+
+
+See [Locality Documentation](https://handbook.arctosdb.org/documentation/locality) and [https://github.com/ArctosDB/arctos/issues/5132](https://github.com/ArctosDB/arctos/issues/5132) - some geography was moved to specific locaity per The Plan, and not following the "Do not include higher geography ... in the Specific Locality" directive results in redundancy. File an Issue; we can help clean up.
+
+#### Associated Names is still crazy!
+
+The new approach to Geography means that I can use Arctos alone to get "should be" placenames. This operation is very resource limited, but is progressing. [https://arctos.database.museum/guid/BYU:Herp:41840](https://arctos.database.museum/guid/BYU:Herp:41840) which asserts ``United States, California`` gets Associated Names of ``North America, United States, California, Mariposa County, Yosemite National Park``, for example.
+
+
+#### How do Fun Flexible Feature (FFF) work?
+
+https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016796 is a FFF.
+
+
+<img width="353" alt="Screenshot 2022-11-07 at 2 04 13 PM" src="https://user-images.githubusercontent.com/5720791/200425146-a3e6849e-42d4-4507-a84a-b82d69d4d306.png"> finds stuff from Yosmite (or it would if Arctos had sufficient resources) no matter what's asserted.
+
+
+<img width="646" alt="Screenshot 2022-11-07 at 2 05 48 PM" src="https://user-images.githubusercontent.com/5720791/200425494-4279ccf3-e0e8-436e-a0ee-3df9cf4fb59a.png">
+
+is the same spatial query plus a search term (also derived from the spatial query) that shouldn't time out and finds about the same thing. Note that the search by spatial intersection is also the operation which generates Associated Names. Associated Names will eventually be *almost* interchangeable with spatial shape search, but as above is resource limited.
+
 
 
