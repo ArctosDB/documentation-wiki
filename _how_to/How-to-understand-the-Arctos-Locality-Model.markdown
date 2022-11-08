@@ -126,9 +126,15 @@ Note that the specimen<-->specimen_event relationship is always 1:1; all other r
 
 "The New Model" consists of a single table in which coordinates and string-data (such as specific locality) are treated as parts of the same place or data object. The entire object is a "fact" - there are no determiners involved. The determination is inserted between the specimen and the entire locality stack; the determiner is asserting the the locality as a whole applies to the specimen. Bare coordinates, bare specific locality, specific locality determined from coordinates, and coordinates determined from specific locality are all possible. The model is much more normalized, although multiple denormalizers (locality remarks, datum, various distance units) remain. A specimen may have any number of localities, each containing a determiner and date, verificationstatus, and specimen-event type. Changes (INSERT and UPDATE) are logged, and these may be used to discover the agents who georeferenced, reverse-georeferenced, changed geography, make corrections (or introduced errors), etc. A full history of locality data may be maintained from the perspective of specimens by "verifying" erroneous data as unaccepted and adding a new locality stack with a not-unaccepted VerificationStatus.
 
-### "Old Geography" was generally an attempt to "fill in the blanks," which resulted in many - often dozens - of ways of saying, or almost saying, the same thing. This model was primary descriptive, with most shapes not having spatial data available. [https://github.com/ArctosDB/arctos/issues/4836](https://github.com/ArctosDB/arctos/issues/4836) is one discussion regarding this problem. Additionally there were no clear guidelines on what does or does not constitute geography, often involving very large ("Patagonia") or very small (one of the smaller Florida Keys).
+### "Old Geography" 
 
-### New geography arose after several months of intense discussion lead to [The Plan](https://github.com/ArctosDB/arctos/issues/5138), which is summarized in [Geography Documentation](https://handbook.arctosdb.org/documentation/higher-geography.html). Some common questions will be addressed below.
+
+The former geography model was generally an attempt to "fill in the blanks," which resulted in many - often dozens - of ways of saying, or almost saying, the same thing. This model was primary descriptive, with most shapes not having spatial data available. [https://github.com/ArctosDB/arctos/issues/4836](https://github.com/ArctosDB/arctos/issues/4836) is one discussion regarding this problem. Additionally there were no clear guidelines on what does or does not constitute geography, often involving very large ("Patagonia") or very small (one of the smaller Florida Keys).
+
+### New geography 
+
+
+Several months of intense discussion lead to [The Plan](https://github.com/ArctosDB/arctos/issues/5138), which is summarized in [Geography Documentation](https://handbook.arctosdb.org/documentation/higher-geography.html). Some common questions will be addressed below.
 
 #### What's going on with higher geography? Seems all my data have lost their continent.
 
