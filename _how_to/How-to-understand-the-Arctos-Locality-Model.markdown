@@ -160,7 +160,7 @@ Use the finder to locate locality attributes...
 
 <img width="324" alt="Screenshot 2022-11-08 at 7 11 39 AM" src="https://user-images.githubusercontent.com/5720791/200601808-07772028-e654-48c4-bf3d-8aef4971ab03.png">
 
-turn at least one row one, choose Feature, and begin typing to get values.
+turn at least one row on, choose Feature, and begin typing to get values.
 
 <img width="509" alt="Screenshot 2022-11-08 at 7 14 07 AM" src="https://user-images.githubusercontent.com/5720791/200602329-7d2e27e4-97f7-44e4-93e0-941654181b71.png">
 
