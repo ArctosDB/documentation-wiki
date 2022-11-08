@@ -142,13 +142,13 @@ Correct, no currently assertable source of geography contains continents.
 
 #### How can I find a former Feature?
 
-Consult https://github.com/ArctosDB/arctos/issues/5207, then search Feature:
+Consult [https://github.com/ArctosDB/arctos/issues/5207](https://github.com/ArctosDB/arctos/issues/5207), then search Feature:
 
 <img width="761" alt="Screenshot 2022-11-08 at 6 45 21 AM" src="https://user-images.githubusercontent.com/5720791/200595145-ab792a6f-c210-46e9-b004-dad738e6cbce.png">
 
 #### How can I get a former feature in CSV or labels?
 
-Use function ```oncatLocalityAttributeValue (lid int,attrtype varchar)``` (enabled in search results as locality_feature) or file a [Report Template Request](https://github.com/ArctosDB/arctos/issues/new?assignees=lkvoong&labels=function-Reports&template=report-template-request.md&title=New+Arctos+Report+Template+Request) for help.
+Use function ```concatLocalityAttributeValue (lid int,attrtype varchar)``` (enabled in search results as locality_feature) or file a [Report Template Request](https://github.com/ArctosDB/arctos/issues/new?assignees=lkvoong&labels=function-Reports&template=report-template-request.md&title=New+Arctos+Report+Template+Request) for help.
 
 #### How do I enter data with a feature?
 
