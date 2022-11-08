@@ -177,7 +177,7 @@ The new approach to Geography means that I can use Arctos alone to get "should b
 
 #### How do Fun Flexible Feature (FFF) work?
 
-https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016796 is a FFF.
+[https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016796](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016796) is a FFF.
 
 
 <img width="353" alt="Screenshot 2022-11-07 at 2 04 13 PM" src="https://user-images.githubusercontent.com/5720791/200425146-a3e6849e-42d4-4507-a84a-b82d69d4d306.png"> finds stuff from Yosmite (or it would if Arctos had sufficient resources) no matter what's asserted.
