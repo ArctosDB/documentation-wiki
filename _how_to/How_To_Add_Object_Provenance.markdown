@@ -53,3 +53,6 @@ Complete the following steps to record an object's previous inclusion in another
    - [Search Projects](https://arctos.database.museum/SpecimenUsage.cfm)to see if the previous collection exists as a Project in Arctos If it does not, create the project.
    - Create a data loan for the catalog records that should be associated with the project and add the loan to the project.
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How_To_Add_Object_Provenance.markdown" target="_blank">here</a>.
