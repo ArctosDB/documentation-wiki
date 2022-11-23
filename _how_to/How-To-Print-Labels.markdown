@@ -34,6 +34,10 @@ File an issue if you need help with SQL for the data you want to use in your lab
 
 [![YouTube: How To Print Labels](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Print_Labels_in_Arctos_thumb.jpg)](https://www.youtube.com/watch?v=BlOi5XwJHas)
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Print-Labels.markdown" target="_blank">here</a>.
+
 ## Community Discussion
 
 [Github Issue #280](https://github.com/ArctosDB/documentation-wiki/issues/280)
