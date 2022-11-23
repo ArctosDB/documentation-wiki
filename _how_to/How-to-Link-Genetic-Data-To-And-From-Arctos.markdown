@@ -34,3 +34,7 @@ Links to GenBank (et al.) are formed immediately, linkouts should appear from Ge
 2. Arctos constantly monitors GenBank, and will report potential uncited specimens under Reports/genbankMIA. 
 	We recommend working with the submittor to ensure that these records are properly submitted to GenBank 
 	(e.g., they should all link to Arctos from /specimen_voucher) and to the appropriate Arctos Curators.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Link-Genetic-Data-To-And-From-Arctos.markdown" target="_blank">here</a>.
