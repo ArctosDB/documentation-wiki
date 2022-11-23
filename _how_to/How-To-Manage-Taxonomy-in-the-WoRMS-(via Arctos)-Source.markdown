@@ -80,3 +80,6 @@ Adding a WoRMS (via Arctos) classification:
 
 [![Adding a WoRMS (via Arctos) classification](https://i9.ytimg.com/vi/9g3sEFqdzko/mq2.jpg?sqp=COSR8I8G&rs=AOn4CLC97rOElKnQ3PKrQtb4QGCKYHEg-A)](https://youtu.be/9g3sEFqdzko)
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Manage-Taxonomy-in-the-WoRMS-(via Arctos)-Source.markdown" target="_blank">here</a>.
