@@ -5,8 +5,6 @@ layout: default_toc
 
 # Taxonomy
 
-
-
 ## Overview
 
 The taxonomic model in Arctos is designed to provide both a controlled table
@@ -323,10 +321,10 @@ For further instructions, consult the following "How to" documents.
 
 # Tutorial Video ↗️
 
-Taxonomy Overview:
-
 [![Taxonomy Overview](https://i9.ytimg.com/vi/WGkO1NCIhsI/mq2.jpg?sqp=CLiP8I8G&rs=AOn4CLB1ska_OpPyx_70WuTT5Boc7LdlZw)](https://youtu.be/WGkO1NCIhsI)
 
+## Edit this Documentation
 
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/taxonomy.markdown" target="_blank">here</a>.
 
 
