@@ -5,9 +5,9 @@ date: 2018-04-24
 layout: default_toc
 ---
 
-# Specimen Results
+# Search Results
 
-Specimen results presents summary specimen data in a tabular format. 
+Search results presents summary cataloged item data in a tabular format. 
 
 ## Features
 
@@ -33,32 +33,35 @@ Open the Tools: Map, Customize, or Download option for customization.
 * Archive Results provides a portable link to the current dataset. That is, results should not change. (Curators may lock Archives, guaranteeing stability.)
 * Download provides results in CSV format						
 						
-
 ### Batch Edits
 
 Operators will see a "manage" dropdown; choose an option to bulk-edit the query results, to print labels for the query results, or to download query results in various formats.
 
 ### Annotations
 
-The "Report Bad Data" link will annotate each specimen in the query results, and notify associated collection personnel.
+The "Report Bad Data" link will annotate each catalog record in the query results, and notify associated collection personnel.
 
 
 ## Limitations
 
-Specimen data are often much more complex than can readily be represented in a tabular format. Arctos provides embedded data objects
+Catalog record data are often much more complex than can readily be represented in a tabular format. Arctos provides embedded data objects
 to address the most common situations. Associated "Expand...." buttons will "pretty print" the JSON (transform it into a human-readable format). 
 
 Many queries also consider only "preferred" or "most important" data (often an arbitrary distinction). Contact us for more information.
 
 ### Locality
 
-Many specimens have multiple locality associations. Only one is generally available, although specimens with multiple events 
-display even count in small gree text in the GUID column. Turn on "JSON Locality" to see all locality data.
+Many cataloged items have multiple locality associations. Only one is generally available, although cataloged items with multiple events 
+display even count in small green text in the GUID column. Turn on "JSON Locality" to see all locality data.
 
 ### Parts
 
-Specimen Parts are presented as concatenated strings. Turn on "partdetail" to see individual parts (as JSON).
+Parts are presented as concatenated strings. Turn on "partdetail" to see individual parts (as JSON).
 
 ### Identifications
 
 Only the current accepted identifications is shown by default. Turn on "ID History (JSON)" to see all identifications.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/specimen-results.markdown" target="_blank">here</a>.
