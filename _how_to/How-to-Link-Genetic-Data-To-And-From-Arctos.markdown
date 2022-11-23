@@ -9,7 +9,7 @@ date: 2016-12-16
 
 ## Method 1: Single-specimen
 
-1. Find the specimen
+1. Find the catalog record
 2. Click Other IDs
 3. Select appropriate identifier type; enter identifier 
 4. Save
