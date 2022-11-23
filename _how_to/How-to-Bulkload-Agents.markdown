@@ -108,3 +108,7 @@ The data should be discussed with the users before proceeding. Most all data wil
 Carefully review before proceeding. In a spreadsheet, sort by every column and see if any duplicates, errors, omissions, or other problems become apparent. 
 
 Leverage The Community. Sometimes new eyes quickly detect errors that might take hours (or years!) to fix. Many of us are happy to help with cleanup, but not so happy to discover huge messes in critical data.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Bulkload-Agents.markdown" target="_blank">here</a>.
