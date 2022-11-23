@@ -146,7 +146,9 @@ If you are ready to push your changes to the repo, then type a short summary of 
 
 **TIP:** If you only want some but not all your changes committed, you can select which ones by checking off/on the changes on the left.
 
+## Edit this Documentation
 
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.markdown" target="_blank">here</a>.
 
 
 
