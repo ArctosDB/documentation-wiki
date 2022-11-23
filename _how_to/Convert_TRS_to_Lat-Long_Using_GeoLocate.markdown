@@ -1,8 +1,8 @@
 ---
 title: How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate
-layout: default_toc
 author: Nicole Ridgwell, Teresa J. Mayfield-Meyer
 date: 2019-06-01
+layout: default_toc
 ---
 # How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate
 
@@ -45,3 +45,7 @@ date: 2019-06-01
   * Click on the center point of the circle and then click “Resize uncertainty to polygon”.    
   * If the edges of the circle do not match up to the square, move the center point slightly and resize again.    
   * Use the latitude, longitude, and uncertainty of the circle for your locality.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.markdown" target="_blank">here</a>.
