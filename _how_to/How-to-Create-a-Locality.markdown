@@ -70,3 +70,7 @@ In order to create a locality for use as described above, complete the following
  ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/edit%20locality%20add%20nickname.jpg)
  
  - Complete all of the relevant fields. If necessary, review the documentation for [Specific Locality](http://handbook.arctosdb.org/documentation/locality.html#specific-locality) and [coordinates](http://handbook.arctosdb.org/documentation/locality.html#coordinates). If you plan to use the locality in future data entry, you will want to add a [Locality Nickname](http://handbook.arctosdb.org/documentation/locality.html#locality-nickname) so that the locality can be easily located during data entry or referred to in data bulkloading. You can create the nickname or let Arctos create one for you. Either way, make a note of the nickname! Anyone entering data using this new locality will be able to find the Locality quickly using the nickname.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-a-Locality.markdown" target="_blank">here</a>.
