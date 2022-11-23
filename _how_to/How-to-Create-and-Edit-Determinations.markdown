@@ -32,3 +32,7 @@ Edit or Add an identification to a specimen record. A specimen record can hold m
 ## How to Edit an Identification Tutorial Video
 
 [![YouTube: How Edit an Identification](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Add_Identifications_to_a_Single_Catalog_Record_thumb.jpg)](https://youtu.be/nITb0Z6ot4Q)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-and-Edit-Determinations.markdown" target="_blank">here</a>.
