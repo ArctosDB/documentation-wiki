@@ -32,3 +32,7 @@ layout: default_toc
 This will generate an email to the user who must respond and reset their password.
 
 <img width="453" alt="Screen Shot 2020-04-14 at 8 43 24 AM" src="https://user-images.githubusercontent.com/5720791/79244795-243f2400-7e2c-11ea-90fb-cbe165215280.png">
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Unlock-A-User-Account.markdown" target="_blank">here</a>.
