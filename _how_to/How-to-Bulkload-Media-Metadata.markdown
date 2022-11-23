@@ -92,19 +92,9 @@ Arctos will automatically attempt to create thumbnails for image Media without t
 
 For use with small batch media uploader tool - see full documentation at [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
 
-
-
-
-
-
-
-
-
-
 ------------------
 ## IMPORTANT: The tool to extract information from the directory listing is no longer functional against TACC. We will update this if TACC can provide XML directory listings in the future.
 ------------------
-
 
 If you have used the CyberDuck method to upload large amounts of media, or your media has otherwise been added at TACC, but never "created" in Arctos, this tutorial can help you create the metadata in bulk.
 
@@ -174,11 +164,6 @@ Select build/rebuild the table to see the results of what is entered in the form
 
 ![](https://user-images.githubusercontent.com/5720791/80765539-21188900-8af8-11ea-91f9-f9a586d29e8a.png)
 
-
-
-
-
-
 #### Modify Media Metadata Bulkload File ####
 
 The file that you receive once your image upload is complete contains much of the information required to bulkload media.  Remember that although your media are now stored at TACC, they are not associated with any data in Arctos. The [Bulkload Media Metadata](http://arctos.database.museum/tools/BulkloadMedia.cfm) tool will allow you to complete this process. Use the instructions above to help you modify this file for use in the tool.
@@ -197,10 +182,6 @@ This file will be deleted 3 days after the message is sent, but may be regenerat
 
 [How to Create Media/Images](/how_to/How-to-Create-Media-Images)
 
+## Edit this Documentation
 
-
-
-
-
-
-
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Bulkload-Media-Metadata.markdown" target="_blank">here</a>.
