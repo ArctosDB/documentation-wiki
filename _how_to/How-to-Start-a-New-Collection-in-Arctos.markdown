@@ -68,3 +68,6 @@ If you have any trouble signing up for the Arctos community listserv, please con
 Arctos uses GitHub Issues to communicate development. Everyone with an interest in Arctos data should minimally monitor Issues in the Arctos 
 repository. Instructions are [https://doi.org/10.7299/X75B02M5](https://doi.org/10.7299/X75B02M5).
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Start-a-New-Collection-in-Arctos.markdown" target="_blank">here</a>.
