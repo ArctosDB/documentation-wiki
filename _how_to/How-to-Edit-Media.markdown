@@ -93,5 +93,7 @@ All media should include at least a description. More than one label is possible
   [How to Create Media/Images](../how_to/How-to-Create-Media-Images)
   [How to Upload Media to TACC](../how_to/How-to-Upload-Media-to-TACC)
 
+## Edit this Documentation
 
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Edit-Media.markdown" target="_blank">here</a>.
 
