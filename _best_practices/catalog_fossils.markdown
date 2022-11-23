@@ -94,3 +94,7 @@ Appropriate part preservation attributes for fossils include, but are not limite
   * recrystallization:	original minerals in the skeletal tissues are converted into a new crystal structure
   * replacement:	original tissue is replaced with minerals from the surrounding water and sediment
   * reproduction: an imitation, transcript, or copy of an original object (such as a fossil, letter, or painting) not to be confused with an image (photograph)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/catalog_fossils.markdown" target="_blank">here</a>.
