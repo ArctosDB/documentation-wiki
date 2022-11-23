@@ -28,3 +28,7 @@ If, however, there is no such media to attach, but the Specimen Event can be lin
 * Part Disposition: observation
 
 Another option to consider is Agent entry. “Collector” may be the appropriate term, however “maker”, or “copyright holder” may be more applicable for Specimen Events with attached media.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How to Enter Observational Data.markdown" target="_blank">here</a>.
