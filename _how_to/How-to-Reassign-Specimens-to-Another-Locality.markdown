@@ -34,3 +34,8 @@ Unfortunately, the steps above do not address the possibility that your specimen
 * Near the bottom of the page, click the orange button "REMOVE all specimen events (presumably so you can add new ones)".
 
 * Return to the Locality tab of your specimen page. Click the grey "pick new event" button, and input the new Locality ID# into the "Locality ID" slot. Select this new locality, and click save. Your specimen will now have been assigned to the new locality. Since you previously created a newly collecting event and assigned it to this locality, your specimen should also be assigned to this new collecting event. (Note: this was a very complex process, please doublecheck the methodology and go through it yourself to make sure it makes sense).
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Reassign-Specimens-to-Another-Locality.markdown" target="_blank">here</a>.
+
