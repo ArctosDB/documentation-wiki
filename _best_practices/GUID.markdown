@@ -57,3 +57,7 @@ Minerals | ES | NMMNH:Geol
  - The GUID Prefix should consist of upper and/or lower-case ASCII letters (A-Z,a-z) other than the requisite colon.
  - A review of <a href="https://arctos.database.museum/home.cfm" class="external">GUID Prefixes currently in use</a> may be helpful!
   - Check <a href="https://www.gbif.org/grscicoll">Global Biodiversity Information Facility Registry of Scientific Collections</a> and the <a href="http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=123984" class="external">Index Herbariorum</a> to see if your collections have legacy Institutional Acronyms.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/GUID.markdown" target="_blank">here</a>.
