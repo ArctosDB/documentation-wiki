@@ -5,11 +5,11 @@ layout: default_toc
 
 ### Find the Locality to Edit
 
-**From Specimen Search**
+**From Search**
 
-* Search for the specimen and click on its GUID to go to the specimen detail page.
+* Search for the cataled item and click on its GUID to go to the detail page.
 
-* In the Locality section of the detail page, click on "Edit" in the upper right corner. Alternatively, go to the Locality tab above the specimen data on the detail page.
+* In the Locality section of the detail page, click on "Edit" in the upper right corner. Alternatively, go to the Locality tab above the data on the detail page.
 
 * Click "Edit Locality" on the right side of the window.
 
@@ -23,7 +23,7 @@ layout: default_toc
 
 ## _Understand what's being edited_
 
-At the top of the edit locality page, you should see a red box with a summary of what's using the locality (specimens and media). 
+At the top of the edit locality page, you should see a red box with a summary of what's using the locality (cataloged items and media). 
 Any edits will affect ALL of those things. If that is not intended, STOP and find a different pathway.
 [/how_to/How-to-Reassign-Specimens-to-Another-Locality.html](/how_to/How-to-Reassign-Specimens-to-Another-Locality.html) may be useful.
 
