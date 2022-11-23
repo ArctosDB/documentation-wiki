@@ -23,3 +23,7 @@ If anyone is trying to keep a student intern (or themselves) working during soci
 6. Social Media: We need someone to help Arctos up its social media presence. Use the "Something Random" stuff to start off with and provide links to Arctos records, projects, agent pages, etc.
 
 7. Increase the quality of your Projects in Arctos: Find the projects you created that are incomplete and flesh them out! The list of low quality projects (project description os less than 100 characters or project does not contribute or use cataloged items) can be found in the .csv in [this GitHub issue](https://github.com/ArctosDB/arctos/issues/2570#issuecomment-608091910).
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Arctos-While-Social-Distancing.markdown" target="_blank">here</a>.
