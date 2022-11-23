@@ -55,3 +55,7 @@ If you need to edit a locality attribute, edit the locality, find the locality a
 If you need to delete a locality attribute, edit the locality, find the attribute, select "Delete" in place of the Locality Attribute, then select "Save Locality Attributes" at the bottom of the list of Locality Attributes. 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Delete_Geol.jpg)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Add-Geology-Attributes-to-a-Locality.markdown" target="_blank">here</a>.
