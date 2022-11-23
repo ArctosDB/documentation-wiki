@@ -161,7 +161,9 @@ How to add family and classification metadata to an existing taxon name:
 
 [![How to add family and classification metadata to an existing taxon name](https://i9.ytimg.com/vi/-lNFRL4a8hs/mq1.jpg?sqp=CIiG8I8G&rs=AOn4CLDqh-Yi3G3QCQPEejgQs4Z7HX4QpA)](https://youtu.be/-lNFRL4a8hs)
 
+## Edit this Documentation
 
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How_to_Edit_Taxa.markdown" target="_blank">here</a>.
 
 
 
