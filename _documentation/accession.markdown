@@ -93,3 +93,7 @@ You can catalog records in "your collection" that have been accessioned by anoth
 *   New Specimen: MSB:Host:9876
 *   Default accession: MSB:Host 2012.123 (Does not and should not exist)
 *   Value to enter for Accession: [MSB:Para]2012.123.Para
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/accession.markdown" target="_blank">here</a>.
