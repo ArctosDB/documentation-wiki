@@ -334,3 +334,6 @@ Search term "**rcoordslist**" accepts a pipe-delimited list of rcoords.
 
 https://www.engineeringtoolbox.com/utm-latitude-longitude-d_1370.html will batch-convert northern hemisphere UTM to DD.dd format.
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/coordinates.markdown" target="_blank">here</a>.
