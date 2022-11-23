@@ -20,3 +20,7 @@ Ensure that the “old” URL returns a 404 HTTP status code. For specimens, you
 - Encumber the specimen with a “mask record” encumbrance. Users who do not have rights to bypass the encumbrance (e.g., all public users) will then be redirected, while operators will be able to continue to access the record.
 
 Insert into table REDIRECT (Manage Data/Tools/Redirects, or use the redirect bulkloader) old and new paths. For example, if DGR:Mamm:123 is recataloged as MSB:Mamm:456, enter: old_path=/guid/DGR:Mamm:123; new_path=/guid/MSB:Mamm:456.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/redirect.markdown" target="_blank">here</a>.
