@@ -254,3 +254,6 @@ How to Find Invalid Taxon Names in use as Identifications:
 
 [![How to Find Invalid Taxon Names in use as Identifications](https://i9.ytimg.com/vi/_Io4v286Nss/mq1.jpg?sqp=CIyN8I8G&rs=AOn4CLDuXlasovhxV6CfG1p1ej6cwujzqg)](https://youtu.be/_Io4v286Nss)
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.markdown" target="_blank">here</a>.
