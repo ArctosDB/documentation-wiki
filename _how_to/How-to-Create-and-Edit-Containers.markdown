@@ -5,7 +5,9 @@ layout: default_toc
 
 # How To Create and Edit Containers
 
-**To create containers, barcodes must be uploaded FIRST.  In this proces you will associate barcodes with a temporary container type. This is accomplished as described in “Creating a Container Series” below. Once the barcodes have been uploaded into Arctos, the containers that they represent can be edited as described in "Editing an Individual Container" and "Bulk Editing Containers".**
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+To create containers, barcodes must be uploaded FIRST.  In this proces you will associate barcodes with a temporary container type. This is accomplished as described in “Creating a Container Series” below. Once the barcodes have been uploaded into Arctos, the containers that they represent can be edited as described in "Editing an Individual Container" and "Bulk Editing Containers".
 
 ### Creating a Container Series
 
@@ -145,3 +147,7 @@ This is used to convert barcodes into containers in bulk. Converting barcodes in
 
   * All done.
 ***
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-and-Edit-Containers.markdown" target="_blank">here</a>.
