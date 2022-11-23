@@ -37,3 +37,7 @@ Doublecheck, triplecheck, click "update."
 <img width="557" alt="Screen Shot 2019-04-19 at 8 35 58 AM" src="https://user-images.githubusercontent.com/5720791/56431335-31a7e980-627e-11e9-9217-b8f366a2c7b3.png">
 
 All records have been updated.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Use-Bulkloader-SQL.markdown" target="_blank">here</a>.
