@@ -45,3 +45,7 @@ Use the Encumbrance Search Results page to access several management tools to mo
 * Edit/Modify an existing Encumbrance
 * See all records associated with an encumbrance
 * Delete listed specimens from an existing Encumbrance
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-an-Encumbrance.markdown" target="_blank">here</a>.
