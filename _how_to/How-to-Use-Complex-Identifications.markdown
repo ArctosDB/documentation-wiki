@@ -83,3 +83,7 @@ This structure supports queries by identification, taxonomy, or any combination 
 Simply click the Identification tab from any specimen, type a (partial) taxon name in Associated Taxa, click Add a Row and repeat as necessary, then save.
 
 To get the most value from taxonomy linkages, create better taxonomy information in Arctos. Add taxon relationships or common names, edit classifications to include more or better higher-level information, or encourage sources of taxonomy information to contribute to GlobalNames. Note that these tasks are shared not just across Arctos collections, but also across the Internet via GlobalNames.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Use-Complex-Identifications.markdown" target="_blank">here</a>.
