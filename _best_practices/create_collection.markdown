@@ -94,3 +94,7 @@ The Arctos username of the person who will mentor the Collection Manager through
  - Arctos GUIDs are expected to be permanent, so choose GUID Prefix and Catalog Number Format carefully.
  - Integer catalog numbers are the most flexible and easiest to manage.
  - Collection Type should also be carefully considered. Change is not impossible, but might be difficult.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/create_collection.markdown" target="_blank">here</a>.
