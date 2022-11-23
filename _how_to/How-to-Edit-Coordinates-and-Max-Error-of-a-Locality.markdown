@@ -23,6 +23,9 @@ Make a note of all the information displayed above. In addition to ensuring you 
 
  * Enter the corrected Max Error in the appropriate field. Make sure to select the right units in the drop down menu to the right.
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+NULL is acceptable in Max Error, and cannot be confused with "infinitely precise." However, no location is is "sizeless" and we want an easy way to say "this one may be useful because it is specific enough" or more often, "that one is not useful for me because it is really only known to the continental scale." The only really defensible way to interpret NULL error is to make no assumptions: somewhere on the planet, probably. If you have some indication that you are in fact dealing with something smaller than an entire planet, make a guess and support it in georeference method - you've just made your data more useful to to the people who are happy with continent-scale data, but not so much with planet-scale. (And if your guess falls out of some analysis, maybe they'll tell you about it.)
+
  * Select the Datum, Georeference Source, and Georeference Protocol.
 
 * Hit the light orange “Save” button when all the necessary edits have been made. The page will refresh and finalize all the changes you have made.
