@@ -99,7 +99,7 @@ record this information, one could simply enter:
 
 -   Birth_Date: 1927
 
-## Excel hates me. Help!
+## Excel Issues
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-26-am.png"  width="131"
 height="84" />
@@ -129,6 +129,10 @@ sizes="(max-width: 100px) 100vw, 100px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png 100w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am-48x48.png 48w" />
 
 happy!
+
+### Caution on using "special" dates
+
+**year-only dates**  Be careful with these, Excel will interpret these as 'days since 1900-01-01'. So the year 2005 will become 1905-06-27. Make sure the field is formatted to number or text so that Excel won't intrpet the date for you.
 
 ## Restricted Data
 
