@@ -48,3 +48,7 @@ First, query for the records to be edited. ALL records that appear in the search
 ## Ordering Agents
 
 * If you need to alter the order of _existing_ agent names displayed in the records, you may need to first delete the primary agent and then re-insert the agent later in the order to reprioritize which agent is listed as the first collector
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Batch-Update-Agents.markdown" target="_blank">here</a>.
