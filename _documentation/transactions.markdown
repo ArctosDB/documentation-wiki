@@ -61,3 +61,7 @@ Agents have in Transactions.
 ## Next Number
 
 Arctos can by request suggest the "next" transaction identifier (eg, loan number) if the existing data support such a calculation. File an Issue to request this functionality. Minimum requirements are the transaction type, format of the suggestion, and collection(s) to which the suggestion applies.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/transactions.markdown" target="_blank">here</a>.
