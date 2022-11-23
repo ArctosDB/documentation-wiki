@@ -167,5 +167,7 @@ This tool may be used to extract geography from specific locality.
 ## Datum
 {need documentation here}
 
+## Edit this Documentation
 
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/pre-bulkloader.markdown" target="_blank">here</a>.
 
