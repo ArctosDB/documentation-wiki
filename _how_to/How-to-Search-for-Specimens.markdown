@@ -3,7 +3,7 @@ title: How To Search for Specimens
 layout: default_toc
 ---
 
-# Conducting a Search
+# How To Conduct a Search
 
 The key to getting the most out of Arctos is learning to search effectively. More often than not, a task will specify a specimen by MVZ number, or a group of specimens by their Accession. In these cases, your search will consist of only one step. Occasionally, however, you will be asked to find a list of specimens without using these numbers. Fortunately, Arctos’ powerful search feature will help you get there.
 
@@ -248,3 +248,7 @@ Occasionally, you will be assigned a task that you may not be able to complete i
  * Clicking “OK” does not seem to do anything immediately. It closes the dialog and returns you to the specimen results so that you can make the edits that you originally intended. In order to access your saved search, locate the “Saved Searches” button in the drop-down menu “My Stuff” at the top of the page. This button will bring you to a page where you can access or manage all of the searches you have saved.
   * Clicking on the red X’s in the column on the left will delete the saved search.
   * Clicking “Mail” on the right hand column will allow you to send the link to an email address.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Search-for-Specimens.markdown" target="_blank">here</a>.
