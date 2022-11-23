@@ -120,3 +120,7 @@ These include AF, NK, ALAAC, collector numbers, bare catalog numbers, or catalog
 * Persistence is poor
 * Machine Resolvability is nonexistent. 
 * Human Resolvability is very poor; someone familiar with the objects can possibly figure it out, sometimes, with low certainty.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/citations.markdown" target="_blank">here</a>.
