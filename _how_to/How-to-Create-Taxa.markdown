@@ -160,4 +160,6 @@ How to Add a Taxon Name and Classification to Arctos:
 
 [![How to Add a Taxon Name and Classification to Arctos](https://i9.ytimg.com/vi/yVWsCY3z46A/mq3.jpg?sqp=CNyD8I8G&rs=AOn4CLDrRAUTrVefAADQpHVCYr9xjnqiRg)](https://youtu.be/yVWsCY3z46A)
 
+## Edit this Documentation
 
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-Taxa.markdown" target="_blank">here</a>.
