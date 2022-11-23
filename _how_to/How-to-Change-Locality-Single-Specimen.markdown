@@ -73,6 +73,6 @@ For additional specimens from the same place (=same locality) but a different da
 
 Specimens may be linked to that event by using the instructions under "Click pick new event."
 
+## Edit this Documentation
 
-
-
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Change-Locality-Single-Specimen.markdown" target="_blank">here</a>.
