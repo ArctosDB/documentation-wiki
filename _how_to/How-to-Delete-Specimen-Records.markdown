@@ -32,3 +32,7 @@ ctos.database.museum/info/ctDocumentation.cfm?table=CTENCUMBRANCE_ACTION
 * You will now see all the records listed again, with an option to "Remove from this Encumbrance." If everything is OK, click "Return to this Encumbrance."
 * Now click the "Delete Encumbered Records" hypertext and all records included in the encumbrance will be deleted from Arctos. You will need to confirm at the prompt **NOTE:** Records with citations or media cannot be immediately deleted - you must first detach citations or media objects from the record before you can delete it. If you are trying to delete more than 1000 records, you'll get an error message that starts with 'fail: listlen(catIdList)=...'
 * **TIP:** you can also access Encumbrances through the Detail page of a single catalog record (via the top "Encumbrances" tab).
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Delete-Specimen-Records.markdown" target="_blank">here</a>.
