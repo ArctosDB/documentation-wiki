@@ -471,3 +471,8 @@ To do this,
     new_path=**/guid/MSB:Mamm:456**.
 
 Other ID documentation has moved to [it’s own page](/documentation/other-identifying-numbers).
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/catalog.markdown" target="_blank">here</a>.
+
