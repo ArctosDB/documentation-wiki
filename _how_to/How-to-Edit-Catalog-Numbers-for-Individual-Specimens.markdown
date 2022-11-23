@@ -14,3 +14,7 @@ layout: default_toc
    * To identify breaks in assigned catalog numbers, click the “[find gaps]” link to the right of the catalog number field.
 
 * When finished, click “Save Changes”. The change will be saved and can be viewed when you run a new search for the specimen. If you try to refresh the page Arctos will give you an error message because the catalog number has changed.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Edit-Catalog-Numbers-for-Individual-Specimens.markdown" target="_blank">here</a>.
