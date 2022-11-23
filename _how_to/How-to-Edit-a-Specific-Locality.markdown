@@ -49,3 +49,7 @@ Higher Geography is used to describe the larger geography (county level and abov
 * Coordinates include Decimal Latitude and Decimal Longitude, Max Error with units, Datum, georeference_source (how the coordinates were determined), and Georeference Protocol.
 
 * Locality Remarks provides information about any part of the locality that will aid in understanding the place. Feel free to be  descriptive with the Locality Remarks. If you had to look up a more detailed map, if you assumed a feature was misspelled, if you thought a town’s boundaries were some distance away from its center, if …………………… Make a note of it! This field is helpful for backtracking and fact-checking. A researcher down the line might not understand how a particular georeference was assigned, and an extra note on your part can validate your decision.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Edit-a-Specific-Locality.markdown" target="_blank">here</a>.
