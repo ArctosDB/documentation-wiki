@@ -231,3 +231,7 @@ At the bulkloading page, just above where you will click to choose your file to 
 ## How to Bulkload Data Tutorial Video
 
 [![YouTube: How to Bulkload Data](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Bulkload_Data_thumb.jpg)](https://youtu.be/2ehyZqS_C3Q)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Bulkload-Specimen-Data.markdown" target="_blank">here</a>.
