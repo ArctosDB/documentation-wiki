@@ -19,3 +19,7 @@ Most locality tasks consists of editing localities that have been previously cre
 * Clicking “Save” will bring us back to a familiar page. After creating the new locality, you will be redirected to its Edit Locality page so that you can make additional changes. Further useful changes to localities are outlined in the How To pages. 
 
 TIP: be sure to make a note of your new Locality ID number given at the top of the page.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-a-New-Specific-Locality.markdown" target="_blank">here</a>.
