@@ -46,3 +46,6 @@ Bulkloading accession information is an important step in migration into Arctos.
 
 [![How to Create an Accession](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_an_Accession_in_Arctos.jpg)](https://youtu.be/FmWU1iWl6NA)
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How_To_Bulkload_Accessions.markdown" target="_blank">here</a>.
