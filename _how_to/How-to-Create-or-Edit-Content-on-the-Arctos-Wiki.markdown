@@ -56,3 +56,7 @@ Curators/Collection Managers who want the ability to create or edit Documentatio
 
 
 If you really want to learn more, visit [http://nerds.inn.org/2014/05/19/applying-git-to-github-wikis/](http://nerds.inn.org/2014/05/19/applying-git-to-github-wikis/)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-or-Edit-Content-on-the-Arctos-Wiki.markdown" target="_blank">here</a>.
