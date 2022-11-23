@@ -23,3 +23,7 @@ For a Project B publication, an in-house loan for specimens that were utilized b
 For refereed publications, the number of cited specimens is immediately available and the specimen data can be accessed by clicking on the Cited Specimens link.
 
 To access specimens utilized but not formally cited, click on the “Details” link for that publication. This will take you to a screen showing the contact information for associated projects, as well as publication data. Click on the publication **project title** link; this will take you to the detail page for the project, which displays the number of associated specimens from the in-house loan and links to those specimens.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Document-Collection-Usage.markdown" target="_blank">here</a>.
