@@ -334,4 +334,6 @@ BarTender is a software package that comes with barcode label printers. UAM runs
 
 [Examples of Barcodes and Containers in Arctos](https://docs.google.com/presentation/d/1bCjTw_u6y4WVI6A2QT3UKp83FE4cH1rE8Vr2H_QsrNU/edit#slide=id.g380af9deff_0_87)
 
+## Edit this Documentation
 
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Start-Object-Tracking.markdown" target="_blank">here</a>.
