@@ -464,3 +464,7 @@ erroneous results. Service-derived data are viewable under Edit
 Locality, and searchable through "Any Geographic Element." Use more
 precise terms (Continent, Feature, etc.) to avoid the inclusion of these
 secondary data. See also [Additional Data](#additionaldata).
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/higher-geography.markdown" target="_blank">here</a>.
