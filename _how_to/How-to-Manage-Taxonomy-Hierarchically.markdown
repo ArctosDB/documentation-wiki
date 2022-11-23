@@ -168,4 +168,6 @@ Change to autoload....
 
 <img width="1119" alt="Screen Shot 2021-04-05 at 11 55 23 AM" src="https://user-images.githubusercontent.com/5720791/113613309-e40d1e80-9605-11eb-98f8-ab3fd51d2e80.png">
 
- 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Manage-Taxonomy-Hierarchically.markdown" target="_blank">here</a>.
