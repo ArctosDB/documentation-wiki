@@ -63,3 +63,7 @@ This is not recommended, as it is preferable to create all barcodes as labels fi
   * Once you create the container, you will see a pane on the right that allows you to edit the container, use the instructions above to set up a position grid and prepare the positions in the container  
 
 You are now ready to start scanning (i.e., installing) barcoded vials into a freezer box (see [How to Install Tissue Cryovials into a Freezer Box](https://arctosdb.github.io/documentation-wiki/how_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box.html)).
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-a-Freezer-Box-Container.markdown" target="_blank">here</a>.
