@@ -3,7 +3,7 @@ title: How To Github - Organizing Issues
 layout: default_toc
 ---
 
-# The Arctos Working Group Playbook
+# How To Organize GitHub Issues
 
 ## Community
 
@@ -30,3 +30,7 @@ Developers encounter Issues in the following order, and will not encounter any I
 * [Next Task, Priority High](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22++label%3APriority-High+-label%3A"Blocked"+-label%3A"Blocked+-+Need+Test+Environment"+-label%3A"Blocked+-+Needs+Documentation"+-label%3ABlocker)
 * [Next Task, Priority Normal](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22++label%3APriority-Normal+-label%3A"Blocked"+-label%3A"Blocked+-+Need+Test+Environment"+-label%3A"Blocked+-+Needs+Documentation"+-label%3ABlocker)
 * [Next Task, Priority Low](https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+is%3Aopen+milestone%3A%22Next+Task%22++label%3APriority-Low+-label%3A"Blocked"+-label%3A"Blocked+-+Need+Test+Environment"+-label%3A"Blocked+-+Needs+Documentation"+-label%3ABlocker)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-organize-Issues.markdown" target="_blank">here</a>.
