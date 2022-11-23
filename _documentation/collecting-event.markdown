@@ -172,3 +172,7 @@ and 7).
 # Maintenance
 
 Duplicate Collecting Events are automatically merged, and unused Collecting Events are automatically deleted. A Collecting Event Name will prevent both of these actions and should be used in pre-created Collecting Events. Please remove Name from any Collecting Events which you no longer intend to use.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/collecting-event.markdown" target="_blank">here</a>.
