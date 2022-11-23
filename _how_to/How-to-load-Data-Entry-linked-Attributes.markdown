@@ -1,9 +1,9 @@
 ---
-title: How To Approve Attribute Records Entered via Specimen Data Entry Form
+title: How To Approve Attribute Records Entered via Data Entry Form
 layout: default_toc
 ---
 
-# How To Approve Attribute Records Entered via Specimen Data Entry Form
+# How To Approve Attribute Records Entered via Data Entry Form
 
 Users may enter additional Attributes via Data Entry. These must be loaded after the specimen record exists, and this may be done
 by the person entering the data if they have sufficient privileges (bulkloaders are generally restricted to manage_collection),
@@ -44,3 +44,7 @@ Similar tools and pathways exist for Parts, Specimen-Events, etc.
 <img width="200" alt="screen shot 2017-10-23 at 7 51 36 am" src="https://user-images.githubusercontent.com/5720791/31895815-06811d98-b7c7-11e7-8379-717e8bea772b.png">
 
 <p>
+  
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-load-Data-Entry-linked-Attributes.markdown" target="_blank">here</a>.
