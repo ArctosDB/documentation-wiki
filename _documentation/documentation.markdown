@@ -44,3 +44,7 @@ developed for a more general community of Arctos users.
 app)](https://drive.google.com/file/d/0B98yCIdkx2YpYlNzNGd5RXVKdkU/edit?usp=sharing)
 
 [ER diagram](http://code.google.com/p/arctos/downloads/list)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/documentation.markdown" target="_blank">here</a>.
