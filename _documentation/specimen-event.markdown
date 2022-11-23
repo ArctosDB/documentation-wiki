@@ -118,3 +118,7 @@ which they are attached; it is a purely additive action. This option should be u
 
 In both cases "save" clones the entire event/locality/geology stack; edits apply only to the single specimen-event being used by the single specimen.
 It is not possible to alter data used by any other specimen from this form.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/specimen-event.markdown" target="_blank">here</a>.
