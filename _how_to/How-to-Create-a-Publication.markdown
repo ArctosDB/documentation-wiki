@@ -113,3 +113,7 @@ Click the "Create Publication" button. Now you can Search Publications to call u
 ### How to Create a Publication Tutorial Video ###
 
 [![YouTube: How to Create a Publication](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_a_Publication_in_Arctos.jpg)](https://youtu.be/B7XbUVjqdZk)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-a-Publication.markdown" target="_blank">here</a>.
