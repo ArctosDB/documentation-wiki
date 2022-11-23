@@ -22,3 +22,7 @@ layout: default_toc
 
 * Make desired edits to attribute information previously entered for the record in the desired fields and click on the "Save All" button to commit changes.
 * Click on the "Delete" button to remove any attributes
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-and-Edit-Attributes.markdown" target="_blank">here</a>.
