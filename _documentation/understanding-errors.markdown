@@ -229,3 +229,6 @@ Re-query
 Arctos is session-based. When a search is performed, a temporary table is created to hold the search results. This allows high-performance paging (_e.g._, through SpecimenResults), and allows results-based forms (such as label printing) to "know" what your last query was. Temporary tables are expunged when your session expires (90 minutes) and are replaced when a new query is performed. If you're seeing this error,  you're probably trying to work with two results sets in multiple tabs, you're just coming back from lunch and have been automatically logged out, or you've logged in or out.<a name="iu"></a>
 ---->
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/understanding-errors.markdown" target="_blank">here</a>.
