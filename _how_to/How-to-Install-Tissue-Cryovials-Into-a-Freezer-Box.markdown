@@ -62,3 +62,7 @@ Once the steps above are complete, you are ready to install the cryovials into t
 <a href="url"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/barcoded_box_positions.PNG" align="center" width="500" ></a>
 
 **Congratulations! You have successfully installed cryovials into a freezer box!**
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box.markdown" target="_blank">here</a>.
