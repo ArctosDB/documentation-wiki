@@ -51,6 +51,16 @@ formats for Original Units are defined by a [code table](http://arctos.database.
 In all formats, include as many digits of precision as are provided in
 the original data.
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+Original Units indicate which coordinate fields should be completed.
+
+Original Units | Dec_Lat | Dec_Long | LatDeg | LatMin | LatSec | LatDir | LongDeg | LongMin | LongSec | LongDir | Dec_Lat_Min | Dec_Long_Min 
+ -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
+ [decimal degrees](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#decimal_degrees) |X|X|  |  |  |  |  |  |  |  |  | 
+ [deg. min. sec.](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#deg__min__sec_) |  |  |X|X|X|X|X|X|X|X|  | 
+ [degrees dec. minutes]([https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#deg__min__sec_](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#degrees_dec__minutes)) |  |  |X|  |  |X|X|  |  |X|X|X 
+
 ## Geodetic Datum
 
 `Collecting_Event . Datum VARCHAR(40) null`
