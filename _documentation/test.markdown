@@ -1,5 +1,7 @@
 ---
 title: This is a test documentation file
+author: Dusty Mc Donald, Teresa J Mayfield-Meyer
+date: 2022-11-23
 layout: default_toc
 ---
 
