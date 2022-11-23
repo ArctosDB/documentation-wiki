@@ -1,5 +1,5 @@
 ---
-title: How To Assign a Barcode to an Individual Cataloged Specimen Part
+title: How To Assign a Barcode to an Individual Part
 layout: default_toc
 author: Carla Cicero
 date: 2016-03-08
