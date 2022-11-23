@@ -3,7 +3,7 @@ title: How To Manage Taxonomic Classifications
 layout: default_toc
 ---
 
-# Managing Taxonomic Classifications
+# How To Manage Taxonomic Classifications
 
 All taxon names live in a unique index including homonyms and hemihomonyms. "The specimen's taxonomy" comes from the collection's preferred [taxonomy source](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) selected under Manage Data/Metadata/Manage Collection. 
 
@@ -59,3 +59,7 @@ This can occur because various collections add new taxa that may not share the s
 
 Taxon relationship types are managed in the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_RELATION).   
 When a taxon is synonymized with another taxon, you want to create a relationship between these two names. They become synonyms of each other.  The accepted taxon has a [taxon status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS) of valid and the unaccepted taxon has a taxon status of invalid.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-manage-taxonomic-classifications.markdown" target="_blank">here</a>.
