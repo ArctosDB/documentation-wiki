@@ -49,3 +49,7 @@ You may edit coordinates by dragging the green dot. You may edit
 uncertainty by clicking the green dot, following the link, and dragging
 the arrow that appears. You may zoom (on Mac) by holding SHIFT and
 dragging a rectangle with your mouse.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/geolocate.markdown" target="_blank">here</a>.
