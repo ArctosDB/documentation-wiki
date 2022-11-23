@@ -1,12 +1,14 @@
 ---
-title: How To Enter Specimens in the Field
+title: How To Enter Catalog Record Data in the Field
 layout: default_toc
 ---
+
+# How To Enter Catalog Record Data in the Field
 
 **This guide will walk you through the procedure of setting up a spreadsheet to enter specimens while in the field.**
 **Be sure you are familiar with Arctos and how to enter specimens BEFORE attempting to do this in the field.**
 
-Before going into the field, you need to prepare a **bulkload** spreadsheet for bulkloading specimens. Fill in all the information you need other than what is collected in the field. This will save on time.
+Before going into the field, you need to prepare a **bulkload** spreadsheet for bulkloading catalog records. Fill in all the information you need other than what is collected in the field. This will save on time.
 
 The following is what should be filled out before going into the field. (in order of top to bottom, not left to right).
 
@@ -28,7 +30,7 @@ The following is what should be filled out before going into the field. (in orde
 * **VERIFICATIONSTATUS** Unverified
 * **BEGAN_DATE** Date of trip.
 * **COLLECTOR_AGENT_1** agent's name of primary expert on trip
-* **ENDED_DATE** Date the specimen was prepped.
+* **ENDED_DATE** Date the itemde was prepped.
 * **COLLECTOR_ROLE_1** collector
 * **HIGHER_GEOG** Location of trapping.
 * **GUID_PREFIX** Museum followed by collection, e.g., NMU:Mamm
