@@ -2,6 +2,7 @@
 title: How To Deal with Agent Bulkloader Results
 layout: default_toc
 ---
+# How To Deal with Agent Bulkloader Results
 
 This document refers to the output of the validation step of bulkloading agents, which is generally run directly before creation.
 
@@ -26,3 +27,7 @@ If duplicates exist within the file - for example, if "Some Random Agent" and "S
 To modify a few existing agent agents, simply use the Arctos forms. For example, if you have "Some Random Agent" and "Some R. Agent" has been suggested, you could simply locate the "Some R. Agent" record in Arctos and modify it as necessary. Arctos loads specimens against all available data, so a new specimen record containing "Some Random Agent" will load to "Some R. Agent" as long as "Some R. Agent" contains alternate name "Some Random Agent" (perhaps as "full name" or "aka").
 
 Batch modifications are possible; consult with a DBA.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-deal-with-Agent-Bulkloader-results.markdown" target="_blank">here</a>.
