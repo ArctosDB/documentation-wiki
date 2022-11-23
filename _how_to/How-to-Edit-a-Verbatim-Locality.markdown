@@ -3,9 +3,9 @@ title: How To Edit a Verbatim Locality
 layout: default_toc
 ---
 
-Verbatim locality is the letter-for-letter, word-for-word locality description of a specimen or observation as written by a collector in their field notes. This may include higher geography, elevation, geographic coordinates, and other specific information such as trap or mistnet information.
+Verbatim locality is the letter-for-letter, word-for-word locality description of a cataloged item as written by a collector in their field notes. This may include higher geography, elevation, geographic coordinates, and other specific information such as trap or mistnet information.
 
-Collectors may make mistakes in their field notes, such as typos, coordinates, name of locality, etc.. Nonetheless, it is important to have the exact transcription of what the collector wrote down for the locality. Often, knowing the verbatim locality can give people an insight into the "train of thought" of the collector at the time of collecting the specimen, which is useful when trying to deduce the actual specific locality of the specimen, among other things.
+Collectors may make mistakes in their field notes, such as typos, coordinates, name of locality, etc.. Nonetheless, it is important to have the exact transcription of what the collector wrote down for the locality. Often, knowing the verbatim locality can give people an insight into the "train of thought" of the collector at the time of collecting the cataloged item, which is useful when trying to deduce the actual specific locality of the cataloged item, among other things.
 
 * Specific Locality is part of the Locality table and thus is tied to the Locality_ID.
 
@@ -15,11 +15,11 @@ Collectors may make mistakes in their field notes, such as typos, coordinates, n
 
 * Occasionally, you may also need to go back and revise a Verbatim Locality based on access to the original field notes.
 
-**From Specimen Search**
+**From Search**
 
-* Search for the specimen and click on its GUID to go to the specimen detail page.
+* Search for the catalog record and click on its GUID to go to the detail page.
 
-* In the Locality section of the detail page, click on "Edit" in the upper right corner. Alternatively, go to the Locality tab above the specimen data on the detail page.
+* In the Locality section of the detail page, click on "Edit" in the upper right corner. Alternatively, go to the Locality tab above the data on the detail page.
 
 * Under "Collecting Event" on the left side of the page, click "[Edit Event]".
 
