@@ -4,7 +4,7 @@ layout: default_toc
 author: Michelle Koo
 date: 2018-05-04
 ---
-# How to Contribute and Edit Content for the Arctos Handbook and Arctos Documentation
+# How To Github - Contribute to the Arctos Handbook
 
 There are four kinds of content on the Arctos Handbook:
 
