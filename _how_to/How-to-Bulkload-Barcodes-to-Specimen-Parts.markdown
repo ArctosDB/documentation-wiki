@@ -1,5 +1,5 @@
 ---
-title: How To Bulkload Barcodes to Specimen Parts
+title: How To Bulkload Barcodes to Parts
 layout: default_toc
 author: Emily Braker
 date: 2016-02-27
