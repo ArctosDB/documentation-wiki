@@ -20,3 +20,7 @@ date: 2013-03-08
 ## Detailed Directions
 
 For a detailed description and instructions for use of this method see [QR code insect labels from Arctos using free software](http://www.akentsoc.org/archives/295)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-QR-code-insect-labels.markdown" target="_blank">here</a>.
