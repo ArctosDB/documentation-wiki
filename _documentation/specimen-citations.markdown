@@ -3,18 +3,18 @@ title: Specimen Citations
 layout: default_toc
 ---
 
-# Specimen Citations
+# Citations
 
-If an unequivocal relationship exists between a particular specimen and
+If an unequivocal relationship exists between a particular cataloged item and
 a page in the publication, then it is a Citation. Ideally, a
-publication refers to specimens by their catalog numbers and
-institutions, but data can be entered for specimens that were cataloged
+publication refers to items by their catalog numbers and
+institutions, but data can be entered for items that were cataloged
 after they were cited, or that were cited by some other identifier such
 as a field number. 
 
-## Parts of a Specimen Citation
+## Parts of a Citation
 
-A specimen citation includes:
+A citation includes:
 
 ### Publication
 
@@ -25,18 +25,18 @@ been included in the database. Because full citation includes a page
 number, the best practice is to enter citations only when the
 publication is in its final form.
 
-### Specimen
+### Cataloged Item
 
 `Citation.Identification_ID (FK) INTEGER not null`
 
- Citations link to, and ideally create, Identifications for specimens.
+ Citations link to, and ideally create, Identifications for cataloged items.
 
 ### Publication Page Number
 
 `Citation.Occurs_Page_Number INTEGER null`
 
 The number of the first page on which the
-specific specimen is mentioned. Referrals to the specimen on subsequent
+specific cataloged item is mentioned. Referrals to the cataloged item on subsequent
 pages within the same publication are ignored.
 
 ### Basis of Citation
@@ -45,11 +45,11 @@ pages within the same publication are ignored.
 
 [`ctcitation_type_status`](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status)
 
-This describes the context in which the specimen was
-cited. It is possible that one specimen was cited in more than one
+This describes the context in which the cataloged item was
+cited. It is possible that one cataloged item was cited in more than one
 context within a single publication. In this case, use either the first
-context in which the specimen is cited, or the most important context in
-which the specimen is cited. Vocabulary is controlled by a [code
+context in which the cataloged item is cited, or the most important context in
+which the cataloged item is cited. Vocabulary is controlled by a [code
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_type_status).
 
 ### Cited As
@@ -57,18 +57,18 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcitation_t
 `Citation.identification_ID (FK) INTEGER not null`
 
 The Identification.Scientific_Name to which the
-author(s) applied the specimen in the publication. Sometimes this must
+author(s) applied the cataloged item in the publication. Sometimes this must
 be inferred from the publication because the author has not explicitly
-identified individual specimens. For example, the whole paper is about
-wolverines, *Gulo gulo*, and individual specimens are only listed by
+identified individual cataloged items. For example, the whole paper is about
+wolverines, *Gulo gulo*, and individual cataloged items are only listed by
 catalog number. In at least one case, an author has treated a whole
-family, listed the specimens examined, but not their identifications to
+family, listed the cataloged items examined, but not their identifications to
 species. In this case, the cited taxonomic identification is the
 family. It is preferable to create Identifications *sensu* the
 publication, even when the publication does not explicitly create names
-or re-identify specimens, as doing so supports more-detailed queries.
+or re-identify cataloged items, as doing so supports more-detailed queries.
 
-## Creating Specimen Citations
+## Creating Citations
 
 Citations are a linkage between a cataloged item (via [Identifications](identifications))
 and a page in a publication. They contain little information, being
@@ -84,16 +84,16 @@ Arctos:
 
 Citations can be individually entered by finding the publication from
 the Search -&gt; Publication/Project tabs, clicking the Citation Button,
-and using the form (Citation.cfm) to enter the appropriate information. You can select the cited specimens by catalog number or an Other
+and using the form (Citation.cfm) to enter the appropriate information. You can select the cited cataloged items by catalog number or an Other
 Identifier. The form will automatically fill in the catalog number (if
 an Other_ID was used), and the current taxonomic determination for the
-specimen. You then select the scientific name by which the publication
+cataloged item. You then select the scientific name by which the publication
 cited the item.
 
 ## Erroneous Citations
 
 In entering Cited As determinations and comparing them to current determinations, errors within the publication
-sometimes become evident. For example the cited specimen is described
+sometimes become evident. For example the cited cataloged item is described
 as a walrus in the publication, but the published catalog number
 indicates a mouse… a typographical error that becomes nonsense only when
 the published catalog number is resolved. We cannot correct the
@@ -106,23 +106,23 @@ meant) citation, if the author’s true meaning can be obtained or
 logically inferred.
 
 -   Can you contact the author(s) and obtain a clarification?
--   What specimens did the author(s) borrow from the collection?
--   Details in the paper and details of particular specimens may provide
+-   What cataloged items did the author(s) borrow from the collection?
+-   Details in the paper and details of particular cataloged items may provide
     explicit possibilities.
 
 If you can establish the author’s intention with reasonable certainty,
-then create an additional citation to the correct specimen. The
+then create an additional citation to the correct catalog record. The
 actually (and incorrectly) cited record should be designated "erroneous
 citation," and Citation Remarks should say something like, "An incorrect
 transcription of MVZ 123456." The second citation of the intended
 record should have the appropriate value for Basis of Citation, and
-Citation Remarks should say something like, "Specimen was incorrectly
+Citation Remarks should say something like, "Incorrectly
 cited as MVZ 125456." With this, anyone coming from the publication
 should be able to find their way to the correct meaning.
 
 ## Bulk-loading Citations
 
-In publications that cite numerous specimens, it is often efficient to
+In publications that cite numerous cataloged items, it is often efficient to
 bulkload the citations, especially if they are in tabular form within an
 electronic copy of the document. This can be done by copying and pasting
 the table from the publication into a spreadsheet. It must then be
@@ -131,11 +131,12 @@ comma-delimited text file. The tool for uploading this file, and a
 detailed description of the file are found from Bulkload Citations on
 the Tool tab.
 
-### Searching Specimen Citations
+### Searching Citations
 
-Searching for specimens by the nature of their citation, or for
-specimens that have been cited, can be done from the "Usage" segment of
-the Arctos search form (SpecimenSearch.cfm). Type specimens can also be
-sought using Nature of ID = type specimen in the Identification and
-Taxonomy segment of the same form. Because this kind of Nature of ID
-does not require a citation, its use has been inconsistent.
+Searching for cataloged items by the nature of their citation, or for cataloged items 
+that have been cited, can be done from the "Usage" segment of
+the Arctos search form (SpecimenSearch.cfm). 
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/specimen-citations.markdown" target="_blank">here</a>.
