@@ -50,3 +50,7 @@ The following is what should be filled out before going into the field. (in orde
 **Save often to avoid losing progress.**
 
 **Double check the data before entering it into Arctos.**
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Enter-Specimens-in-the-Field.markdown" target="_blank">here</a>.
