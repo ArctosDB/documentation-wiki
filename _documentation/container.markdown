@@ -678,3 +678,7 @@ and check that the number we've extracted is *between* a range (identical to ```
 9.  Enter the series of barcodes into Arctos and update the Barcode
     Series Spreadsheet (Arctos: ObjectTracking tab) before placing an
     order or printing your barcodes.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/container.markdown" target="_blank">here</a>.
