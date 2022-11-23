@@ -20,3 +20,7 @@ Search for a loan as described above. Each loan that is found by the search will
 Click “Edit Loan” at the far right of the list of actions. A new page will pop up that will allow you to edit the loan. This is where you can close a loan after it has been returned. 
 
 You can also add more items to the loan by clicking “Add Items” at the bottom of the loan details.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Find-and-Edit-Loans.markdown" target="_blank">here</a>.
