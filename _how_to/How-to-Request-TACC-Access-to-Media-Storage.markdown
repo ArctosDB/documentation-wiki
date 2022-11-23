@@ -55,3 +55,6 @@ To request access and an institution specific directory on TACC, create a specia
 
 [How to Transfer Media to TACC (Bulk Media Loads)](https://youtu.be/6OJZOiEjH7A)
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Request-TACC-Access-to-Media-Storage.markdown" target="_blank">here</a>.
