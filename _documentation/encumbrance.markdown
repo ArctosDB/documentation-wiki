@@ -60,3 +60,7 @@ See [How to Create an Encumbrance](http://handbook.arctosdb.org/how_to/How-to-Cr
 3.  Find the appropriate encumbrance by entering search criteria and clicking Find Encumbrance. Under the appropriate encumbrance, click the "Remove Listed Items From This Encumbrance" button.
 
 When the screen refreshes, the specimens are no longer in the selected encumbrance.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/encumbrance.markdown" target="_blank">here</a>.
