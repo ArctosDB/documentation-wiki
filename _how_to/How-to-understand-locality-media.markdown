@@ -37,3 +37,7 @@ Another Specimen which uses a different Event (linked to the map Media) under th
 A specimen which uses an Event with no direct-linked Media under the same locality contains the spatially-relevant Media, and has no spatiotemporally-relevant Media:
 
 <img width="553" alt="screen shot 2016-04-07 at 1 39 53 pm" src="https://cloud.githubusercontent.com/assets/5720791/14392388/f1b9016c-fd75-11e5-8ecd-04e3f79dd3cf.png">
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-understand-locality-media.markdown" target="_blank">here</a>.
