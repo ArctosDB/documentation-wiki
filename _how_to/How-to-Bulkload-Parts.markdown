@@ -59,3 +59,7 @@ After you download, you may want to remove the downloaded records from the tool 
 
 ### Need video tutorial
 [//]: # ([![YouTube: How to Bulkload Parts](need thumbnail)](need tutorial))
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Bulkload-Parts.markdown" target="_blank">here</a>.
