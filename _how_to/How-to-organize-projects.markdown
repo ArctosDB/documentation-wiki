@@ -29,3 +29,7 @@ For example, one project which supports general collecting,
 and several focused (_e.g._, taxon-specific) projects (possibly involving the same agents) which borrow from the 
 collecting project. This may be necessary to support local practices (_e.g._, accessions<-->field expeditions), 
 while a mega-project may make more sense in an institution with more flexible accessioning practices.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-organize-projects.markdown" target="_blank">here</a>.
