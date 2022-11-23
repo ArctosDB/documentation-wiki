@@ -41,3 +41,6 @@ As noted on the page, "Add Identification For All specimens listed below":
 ## Tutorial Video - How to Find and Update records with Invalid Taxon Names (Invertebrate Focus) 
 [![YouTube: How To Find and Update Specimen Records with Invalid Scientific Names - Invertebrate Focus)](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Find_and_Update_records_with_Invalid_Taxon_Names_Inverts_thumb.jpg)](https://youtu.be/81jhENbgaBU)
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Batch-Update-Identifications.markdown" target="_blank">here</a>.
