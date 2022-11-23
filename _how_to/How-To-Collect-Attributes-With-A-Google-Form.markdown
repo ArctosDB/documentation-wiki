@@ -9,3 +9,6 @@ date: 2019-11-07
 
 <a href="https://forms.gle/fEUajRmB79NHdmCK9">Mammal Attributes Data Form</a>
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Collect-Attributes-With-A-Google-Form.markdown" target="_blank">here</a>.
