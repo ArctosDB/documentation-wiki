@@ -69,3 +69,7 @@ Links to portals may be found at [http://arctos.database.museum/home.cfm](http:/
 ## Escaping Portals
 
 You may switch from a portal user to the generic public user by going to [http://arctos.database.museum/all_all](http://arctos.database.museum/all_all)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/understanding-portals.markdown" target="_blank">here</a>.
