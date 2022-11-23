@@ -137,3 +137,7 @@ The "lower" term in the hierarchy. This can also be a "not valid for data entry"
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/geology_images/Relationship.jpg" width="300">
 
 After you have made and reviewed your parent and child terms, select the "Create Relationship" button. Your child term should now appear below the parent term in the code table.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-and-Manage-Geology-Terms.markdown" target="_blank">here</a>.
