@@ -5,13 +5,13 @@ author: DLM
 date: 2019-05-29
 ---
 
-# How To Change Locality and Event information for a single specimen
+# How To Change Locality and Event information for a Single Catalog Record
 
-To edit a single specimen with simple locality information.
+To edit a single catalog record with simple locality information.
 
-Find a specimen, click Locality
+Find the record you want to edit, click Locality
 
-Note that the locality is used for many specimens which are exceedingly unlikely to be from the intended locality.
+Note that the locality is used for many catalog records which are exceedingly unlikely to be from the intended locality.
 
 <img width="388" alt="Screen Shot 2019-05-29 at 11 41 52 AM" src="https://user-images.githubusercontent.com/5720791/58582578-da931e00-8206-11e9-8ccd-5cf63524c0b0.png">
 
@@ -19,7 +19,7 @@ The Collecting Event is similarly vague and should not be changed; we need a new
 
 Click Edit Event. Center-clicking to open in a new tab can be useful.
 
-Click Clone Event And Locality to get new objects which can be edited for this specimen.
+Click Clone Event And Locality to get new objects which can be edited for this catalog record.
 
 Note that the event you just made is not used and can be freely edited.
 
@@ -37,9 +37,9 @@ Click Edit Locality, edit as appropriate, save.
 
 <img width="443" alt="Screen Shot 2019-05-29 at 11 49 21 AM" src="https://user-images.githubusercontent.com/5720791/58583012-dca9ac80-8207-11e9-89b8-85c96259c233.png">
 
-We now have an existing event and locality. These can be re-used for any number of specimens. Note the new IDs; both are in the red box at the top. Note that IDs will be merged; these newly-created IDs should be stable for 30 days. (More information: http://handbook.arctosdb.org/documentation/locality.html#maintenance; http://handbook.arctosdb.org/documentation/collecting-event.html#maintenance).
+We now have an existing event and locality. These can be re-used for any number of catalog records. Note the new IDs; both are in the red box at the top. Note that IDs will be merged; these newly-created IDs should be stable for 30 days. (More information: http://handbook.arctosdb.org/documentation/locality.html#maintenance; http://handbook.arctosdb.org/documentation/collecting-event.html#maintenance).
 
-Go back to the specimen. Click Locality if necessary. Locate the specimen-event you wish to change. (Most specimens have one event, but any number are possible.)
+Go back to the catalog record. Click Locality if necessary. Locate the specimen-event you wish to change. (Most catalog records have one event, but any number are possible.)
 
 Click pick new event.
 
@@ -63,15 +63,15 @@ The page will reload with the data you just created.
 
 <img width="1248" alt="Screen Shot 2019-05-29 at 11 58 35 AM" src="https://user-images.githubusercontent.com/5720791/58583550-25ae3080-8209-11e9-9735-58ce607c59d6.png">
 
-Note that at this time you can change anything about the event or locality and affect only the single specimen.
+Note that at this time you can change anything about the event or locality and affect only the single catalog record.
 
-For additional specimens from the same place and time (locality and event), you can start with "Click pick new event." to link them to the new event.
+For additional catalog records from the same place and time (locality and event), you can start with "Click pick new event." to link them to the new event.
 
-For additional specimens from the same place (=same locality) but a different date (=new event), you can follow these instructions from the beginning, or from Edit Event you can click Clone Event to use the existing locality.
+For additional catalog records from the same place (=same locality) but a different date (=new event), you can follow these instructions from the beginning, or from Edit Event you can click Clone Event to use the existing locality.
 
 <img width="407" alt="Screen Shot 2019-05-29 at 12 01 45 PM" src="https://user-images.githubusercontent.com/5720791/58583752-8e95a880-8209-11e9-91dc-60fcc98cb221.png">
 
-Specimens may be linked to that event by using the instructions under "Click pick new event."
+Catalog records may be linked to that event by using the instructions under "Click pick new event."
 
 ## Edit this Documentation
 
