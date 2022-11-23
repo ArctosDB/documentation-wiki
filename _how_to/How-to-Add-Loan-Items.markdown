@@ -64,6 +64,10 @@ A tool to bulkload data loan items is available. A bulk unloader is also availab
 
 Click one of the various "add items" links from the loan search results or edit pages, perform a search, add the results to the loan.
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Add-Loan-Items.markdown" target="_blank">here</a>.
+
 [Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/186)
 
  [//]: #[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
