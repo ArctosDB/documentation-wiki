@@ -78,3 +78,7 @@ You will be contacted via GitHub by the new collection or their mentor. Data wil
 3. Grant collection access, manage_collection, and global_admin to admin_user (it may be a list).
 4. If a request is denied or revoked, change guid_prefix to "INVALID:{former guid_prefix}"
 5. Find pending requests: ``select guid_prefix from pre_collection where guid_prefix not in (select guid_prefix from collection);``
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/new-collection.markdown" target="_blank">here</a>.
