@@ -36,4 +36,7 @@ An object "exchange" between Arctos collections should be recorded as two transa
  - Data Loans should be used when no objects were handled.
  - Exchanges between two Arctos collections involve two transactions, a loan and an accession or a loan and a borrow, depending upon the nature of the exchange.
  
+ ## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/Loan_Type.markdown" target="_blank">here</a>.
  [//]: # (See https://github.com/ArctosDB/documentation-wiki/issues/214)
