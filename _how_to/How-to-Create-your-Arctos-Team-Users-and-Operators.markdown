@@ -107,3 +107,7 @@ When a member of your Arctos team leaves, **DO NOT** delete or alter the account
 Deleting agents will destroy their edit history and may have other unintended consequences. Instead, use the “lock account” link from their operator user management page (not manage agents). Note that user accounts automatically lock after 6 months of inactivity and users whose accounts have been locked will not be able to log into Arctos. Previous operators must create a new (public) account if they wish to access Arctos.
 
 Users who have their account locked and are subsequently re-granted access must use their original operator account and they will again have access to any collections to which they were previously granted access. Operators with global_admin access may unlock accounts from the “manage Arctos user” page.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.markdown" target="_blank">here</a>.
