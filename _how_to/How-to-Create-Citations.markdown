@@ -55,3 +55,7 @@ Use the the "Get a Template" hyperlink to download the citations bulkloader spre
 
 ### Bulkload Citations Tutorial Video ###
 [![YouTube: How to Bulkload Citations](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Bulkload_Citations_in_Arctos_thumb.jpg)](https://youtu.be/xCWrNJk7iVM)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-Citations.markdown" target="_blank">here</a>.
