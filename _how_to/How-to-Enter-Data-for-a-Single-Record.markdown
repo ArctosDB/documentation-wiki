@@ -3,6 +3,8 @@ title: How To Enter Data for a Single Record
 layout: default_toc
 ---
 
+# How To Enter Data for a Single Record
+
 **Enter Data > Data Entry**
 
 It will bring you to a page where you can choose what collection to enter data into.
@@ -135,3 +137,6 @@ These data are written to the Component Loader system, which generates a weekly 
 ### Data Entry Tutorial Video ###
 [![Data Entry Example](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Arctos_Data_Entry_Example.jpg)](https://youtu.be/IOJP1M_Lu_E)
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Enter-Data-for-a-Single-Record.markdown" target="_blank">here</a>.
