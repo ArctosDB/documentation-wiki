@@ -36,3 +36,7 @@ Use the filters to pare the list down to the parts you need for your loan.
 Download the results.
 
 You may have to repeat filtering and downloading if the part you need is combined with more than two other parts. (For example, you need heart tissue - there are more than three "parts" that contain heart and you may need to filter for every possibility to find all of the part locations you need.)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Find-Parts for-a-Loan-Using Object Tracking-Existing-Freezer-Box.markdown" target="_blank">here</a>.
