@@ -1,5 +1,7 @@
 ---
 title: How To Batch Download Images
+author: Cam Webb
+Date: 
 layout: default_toc
 ---
 
@@ -91,3 +93,6 @@ back in a few hours and see how the download is going. If you need to
 interrupt the script, type Control-C. Search for documentation on
 Powershell as needed.
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Batch-Download-Images.markdown" target="_blank">here</a>.
