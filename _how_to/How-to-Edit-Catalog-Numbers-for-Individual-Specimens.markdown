@@ -3,6 +3,10 @@ title: How To Edit Catalog Numbers for Individual Catalog Records
 layout: default_toc
 ---
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Changing the catalog number is dangerous as the objects cataloged may have been cited using the existing number. If a change is made, the "old" number should not be reused and it should be redirected to the "new" number. See [Redirects](https://handbook.arctosdb.org/documentation/redirect.html)
+
 (Based on a guide initally developed by April Payne, Northern Michigan University)
 
 * Search for the catalog record you wish to edit and select the record from the search results.
