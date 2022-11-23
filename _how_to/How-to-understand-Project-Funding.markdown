@@ -2,6 +2,7 @@
 title: How To Understand Project Funding
 layout: default_toc
 ---
+# How To Understand Project Funding
 
 Arctos now provides a "funded_USD" field in Projects. (We leave it up to individuals to define what constitutes project funding.) These data may be used to illustrate the broader impacts of a project which contributes specimen that are subsequently used in other research projects. An example follows.
 
@@ -18,3 +19,7 @@ The originating project's detail page will now summarize the value of projects w
 <img width="470" alt="screen shot 2016-05-11 at 12 01 47 pm" src="https://cloud.githubusercontent.com/assets/5720791/15192897/2a5d7b1a-1770-11e6-96d7-d67bb9c13dcd.png">
 
 Note that in this case the originating project is linked to accessions (contributions) and loans (usage), and so is included in the "broader impacts" funding calculations.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-understand-Project-Funding.markdown" target="_blank">here</a>.
