@@ -57,3 +57,7 @@ Any record may have any number of attributes, and there are several possibilitie
 * attribute type='radiometric date' value='27200 years' units=NULL ....
 
 (1) and (2) provide comparable searchability, although (2) facilitates slightly more-targeted searching. (3) does not provide for searching by radiometric date, and functions more like a remarks field than a bounding value.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/Understanding-Attribute-Errors.markdown" target="_blank">here</a>.
