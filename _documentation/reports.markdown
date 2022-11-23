@@ -172,3 +172,6 @@ will dump the object ``d`` - in this case the query we just performed - when the
 
 Comments are ignored by the processor; future-you (and future everyone else!) will thank you for including lots of comments.
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/reports.markdown" target="_blank">here</a>.
