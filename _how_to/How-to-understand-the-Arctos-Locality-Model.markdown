@@ -191,5 +191,7 @@ The new approach to Geography means that I can use Arctos alone to get "should b
 
 is the same spatial query plus a search term (also derived from the spatial query) that shouldn't time out and finds about the same thing. Note that the search by spatial intersection is also the operation which generates Associated Names. Associated Names will eventually be *almost* interchangeable with spatial shape search, but as above is resource limited.
 
+## Edit this Documentation
 
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-understand-the-Arctos-Locality-Model.markdown" target="_blank">here</a>.
 
