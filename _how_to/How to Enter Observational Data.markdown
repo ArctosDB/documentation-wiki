@@ -4,7 +4,7 @@ author: Ally Coconis
 date: 2019-06-19
 layout: default_toc
 ---
-# **How to Enter Observational Data**
+# **How To Enter Observational Data**
 
 An observation according to Arctos part descriptions, “represents an occurrence record rather than a physical specimen”.
 
