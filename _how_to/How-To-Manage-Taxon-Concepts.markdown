@@ -29,3 +29,7 @@ Concepts are not editable. If an edit is required, delete and recreate the taxon
 
 ## Edit Taxon Concept Mapping
 Concept mappings are not editable. To edit a taxon concept mapping, delete and create a new taxon concept mapping.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Manage-Taxon-Concepts.markdown" target="_blank">here</a>.
