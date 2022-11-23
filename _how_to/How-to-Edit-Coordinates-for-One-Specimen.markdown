@@ -136,3 +136,7 @@ time per specimen: 3-­8 minutes
 
 [How to fix locality coordinates in a catalog record](https://youtu.be/MM5lgfACD9k)
 [How to use GeoLocate](https://youtu.be/3j9gM4sSooI)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Edit-Coordinates-for-One-Specimen.markdown" target="_blank">here</a>.
