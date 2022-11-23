@@ -98,3 +98,7 @@ The reporter is a little twitchy, and you’ll probably have to modify and re-lo
 Fonts can be a little strange – use “standard” web fonts in your reports if possible, and contact us if you need additional fonts – we can arrange to have Linux fonts installed on the server. PDF and FlashPaper reports treat fonts differently, and the reporter has the option to embed PDF fonts. Some experimentation may be required.
 
 Email a developer (or use the Contact link at the bottom of any Arctos page) if you get stuck – we have many functions and procedures useful for manipulating the data you see in the report, and we understand that this can all be overwhelming. We’re happy to help at any level in designing and implementing reports, and can provide links directly to reports from various places in Arctos. However, we will generally want someone in the collections to at least figure out how to resize and move form elements – doing so is unfortunately a trial-and-error process, and attempting final adjustments over email tends to be an extremely drawn-out process (eg, move XXXXX 2 pixels to the left; now YYYYY doesn’t fit; repeat until perfection, then some other data breaks everything….).
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-Labels.markdown" target="_blank">here</a>.
