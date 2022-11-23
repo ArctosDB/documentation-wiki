@@ -124,3 +124,7 @@ Many notifications are sent to users who share roles, often manage_collection. Y
 <img width="429" alt="Screen Shot 2021-02-11 at 11 43 32 AM" src="https://user-images.githubusercontent.com/5720791/107690280-cb643600-6c5e-11eb-9347-04ce2d9f659c.png">
 
 From this report it should be possible to match up users who have access to your collections with users in the notification.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/notifications.markdown" target="_blank">here</a>.
