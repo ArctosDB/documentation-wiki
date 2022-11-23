@@ -92,3 +92,7 @@ Identifiers may be local or come from external resources. When possible, supply 
 ### Mindat
 
 <a href="https://www.mindat.org/countrylist.php">Mindat localities</a> may be represented in Arctos with the url for the Mindat location. Add the site identifier attribute to the locality, enter the Mindat url for the location in the attribute value and enter "Mindat" as the locality attribute determiner.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/geology.markdown" target="_blank">here</a>.
