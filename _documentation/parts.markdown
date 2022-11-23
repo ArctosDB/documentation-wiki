@@ -238,6 +238,10 @@ And some specimens will also contain part attribute data for one or more of the 
 ]
 ```
 
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/parts.markdown" target="_blank">here</a>.
+
 # Community Discussion
 
 [Github Issue #271](https://github.com/ArctosDB/documentation-wiki/issues/271)
