@@ -137,3 +137,7 @@ in 3 geographically separate secure locations.
 
 A: Arctos will automatically log users out after a pre-determined timespan, currently 90 minutes. A timer is provided in the header; this is a lightweight 
 client-side approximation, and may be incorrect particularly in pages which communicate with the server without reloading. It is meant to be informative, not authoritative.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/faq.markdown" target="_blank">here</a>.
