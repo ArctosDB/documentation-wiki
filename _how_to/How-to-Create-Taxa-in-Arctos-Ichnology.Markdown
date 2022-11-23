@@ -64,4 +64,6 @@ Usually, the species name you have entered will be highlighted in red and you wi
 
 Save Edits, then View Taxon Page to see the completed record.  Click [here](https://arctos.database.museum/name/Chiliborus%20bridgesii) to see the completed record. 
 
+## Edit this Documentation
 
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-Taxa-in-Arctos-Ichnology.markdown" target="_blank">here</a>.
