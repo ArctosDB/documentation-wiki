@@ -38,3 +38,7 @@ Park was formed or expanded, and as such would NOT be the property of NPS, for e
 
 * [iDigBio webinar](https://idigbio.adobeconnect.com/_a1130716096/p4hcf8is01h/?launcher=false&fcsContent=true&pbMode=normal)
 * [BLM Fact Sheet](https://www.blm.gov/sites/blm.gov/files/programs_cultural%20heritage%20and%20paleontology_paleontology_quick%20links_prpa%20fact%20sheet%20II.pdf)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/National-Park-Specimens.markdown" target="_blank">here</a>.
