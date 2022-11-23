@@ -56,3 +56,7 @@ How to Bulkload Loans (Step 1):
 How to Bulkload Loan Items (Step 2):
 
 [![How to Bulkload Loan Items](https://i9.ytimg.com/vi/h4QKUb2cQgs/mq1.jpg?sqp=CJCU8I8G&rs=AOn4CLBVntj4GzENC48neloo6sYTX2GUTg)](https://youtu.be/h4QKUb2cQgs)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How_To_Bulkload_Legacy_Loans.markdown" target="_blank">here</a>.
