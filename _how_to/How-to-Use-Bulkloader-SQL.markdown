@@ -1,11 +1,11 @@
 ---
-title: How To Use SQL option in Specimen Bulkloader
+title: How To Use SQL option in the Bulkloader
 layout: default_toc
 author: DLM
 date: 2019-05-19
 ---
 
-## How to update multiple records simultaneously in the specimen bulkloader
+## How to use SQL to update multiple records simultaneously in the bulkloader
 
 Go to Browse and Edit
 
