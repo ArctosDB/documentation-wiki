@@ -1,12 +1,12 @@
 ---
-title: All About Annotations
+title: How To Manage Annotations
 layout: default_toc
 author: DLM
 date: 2022-03-17
 ---
 
 
-# Annotations
+# How To Manage Annotations
 
 Annotations are remarks which may be left by any user. Annotations may be associated with various data object, including catalog records, taxon name, projects, and publications.
 
