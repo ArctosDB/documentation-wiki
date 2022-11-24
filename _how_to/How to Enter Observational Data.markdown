@@ -1,5 +1,5 @@
 ---
-title: How to Enter Observational Data 
+title: How To Enter Observational Data 
 author: Ally Coconis
 date: 2019-06-19
 layout: default_toc
