@@ -1,5 +1,5 @@
 ---
-title: How to use complex identifications as low-quality data flags
+title: How To Use Complex Identifications as Low-quality Data Flags
 layout: default_toc
 author: Anna Chinn
 date: 2019-10-15
