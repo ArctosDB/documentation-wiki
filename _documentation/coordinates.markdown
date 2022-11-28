@@ -55,11 +55,11 @@ the original data.
 
 Original Units indicate which coordinate fields should be completed.
 
-Original Units | Dec_Lat | Dec_Long | LatDeg | LatMin | LatSec | LatDir | LongDeg | LongMin | LongSec | LongDir | Dec_Lat_Min | Dec_Long_Min 
- -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
- [decimal degrees](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#decimal_degrees) |X|X|  |  |  |  |  |  |  |  |  | 
- [deg. min. sec.](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#deg__min__sec_) |  |  |X|X|X|X|X|X|X|X|  | 
- [degrees dec. minutes]([https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#deg__min__sec_](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#degrees_dec__minutes)) |  |  |X|  |  |X|X|  |  |X|X|X 
+Original Units | Dec_Lat | Dec_Long | LatDeg | LatMin | LatSec | LatDir | LongDeg | LongMin | LongSec | LongDir | Dec_Lat_Deg | Dec_Lat_Min | Dec_Lat_Dir | Dec_Long_Deg | Dec_Long_Min | Dec_Long_Dir  
+ -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
+ [decimal degrees](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#decimal_degrees) |X|X|  |  |  |  |  |  |  |  |  |  |  |  |  
+ [deg. min. sec.](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#deg__min__sec_) |  |  |X|X|X|X|X|X|X|X|  |  |  |  |  
+ [degrees dec. minutes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#degrees_dec__minutes) |  |  |  |  |  |  |  |  |  |  |X|X|X|X|X|X  
 
 ## Geodetic Datum
 
