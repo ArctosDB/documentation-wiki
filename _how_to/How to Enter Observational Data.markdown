@@ -1,21 +1,46 @@
 ---
-title: How To Enter Observational Data 
-author: Ally Coconis
-date: 2019-06-19
+title: How To Catalog an Observation 
+author: Observation Interest Group, Ally Coconis (2019-06-19)
+date: 2022-11-28
 layout: default_toc
 ---
-# **How To Enter Observational Data**
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
-An observation according to Arctos part descriptions, “represents an occurrence record rather than a physical specimen”.
+The Observation Interest Group is currently working on improving this document. Please [file an issue](https://github.com/ArctosDB/arctos/issues/new) if you have questions about cataloging observations in Arctos.
 
-Observations can be separated into a new collection at your respective institutions or may be integrated into already existing collections based on taxon.
+# **How To Catalog an Observation**
+
+An observation in Arctos should “represent an occurrence record rather than a physical object”. 
+
+## Collection Type
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Do not rely on the collection name or code to indicate whether the cataloged items are observations.
+
+Some institutions prefer to record observations in a separate collection. 
 
 Examples of Observational collections:
-* MVZObs:Bird
-* MSBObs:Mamm
-* UTEPObs:Herp
+* [MVZObs:Bird]( https://arctos.database.museum/collection/MVZObs:Bird)
+* [MSBObs:Mamm](https://arctos.database.museum/collection/MSB:Mamm)
+* [UTEPObs:Herp](https://arctos.database.museum/collection/UTEPObs:Herp)
 
-However you choose to organize your observational data, an observation can be recorded as such in a new Specimen Event through the Specimen/Event and Parts sections in the Data Entry form. 
+But observations may be integrated into any collection.
+
+Examples of observations recorded in collections not specifically designated as observation collections:
+
+
+
+## Cataloged Item Type
+
+However you choose to organize your observational data, an observation can be identified as such by selecting one of the observation cataloged item types:
+
+ * [human observation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type#human_observation)
+ * [machine observation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type#machine_observation)
+ 
+ 
+Everything below this line has not been reviewed by the Arctos Observation Interest Group
+___________________________________________________________________________________________________
 
 In the Specimen/Event section, under Specimen/Event Type drop-down menu, choose “observation”.
 
