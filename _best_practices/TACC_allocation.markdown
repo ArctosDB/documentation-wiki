@@ -18,7 +18,6 @@ What is the Arctos Project Allocation at TACC? Start by reading the [Arctos TACC
 * The Arctos Project Allocation at TACC is shared by all Arctos members. Always use caution when creating or editing a shared resource and make sure that others who might be affected by a change are notified beforehand. 
 * Files stored in the Arctos Project Allocation at TACC are publicly accessible through their created URLs immediately upon upload.
 * Files loaded to the Arctos Project Allocation at TACC and linked to Arctos records should be considered to be **archived in perpetuity**.
-* 
 
 ## Who Manages the Arctos Project Allocation at TACC?
 Only a TACC-authorized manager can provide acces to and create shared directories in the Arctos Project Allocation at TACC.
@@ -48,6 +47,7 @@ institution_acronym (for Arctos accounting) and the dailies (for everyone's sani
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
 
+* Avoid the use of spaces in folder and file names.
 * Directories created by TACC users are only accessible to the TACC user who created them but directories created by the TACC-authorized manager can be made accessible to any authorized TACC user. 
 * Once loaded, files may only be removed by the TACC user who uploaded them.
 
