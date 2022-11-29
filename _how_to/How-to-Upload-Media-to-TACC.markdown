@@ -35,6 +35,18 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 * Each institution should have a directory for their media, e.g, /corral-tacc/projects/arctos/web/msb
 * Within that directory, you can organize your media files however you want 
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+Read [Best Practice - Managing Directory Structures in the Arctos Project Allocation at TACC](https://handbook.arctosdb.org/best_practices/TACC_allocation.html)
+
+We consider it a best practice to create "daily" folders to manage your files beyond any shared folders 
+
+for example
+```
+/{institution_acronym}/collection_or_whatever/some_project/maybe_other_stuff/{yyyy_mm_dd}/
+```
+institution_acronym (for Arctos accounting) and the dailies (for everyone's sanity) are the important parts, the "project folders" in the middle are entirely optional, but if they are to be shared, they should be created by the TACC-authorized manager.
+
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
 
 * Directories created by a user other than the Arctos DBA may only be written to or edited by the user who created them. 
