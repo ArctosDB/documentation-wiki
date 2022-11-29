@@ -47,6 +47,8 @@ for example
 ```
 institution_acronym (for Arctos accounting) and the dailies (for everyone's sanity) are the important parts, the "project folders" in the middle are entirely optional, but if they are to be shared, they should be created by the TACC-authorized manager.
 
+It is also a best practice to avoid spaces in your folder and file names.
+
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
 
 * Directories created by a user other than the Arctos DBA may only be written to or edited by the user who created them. 
