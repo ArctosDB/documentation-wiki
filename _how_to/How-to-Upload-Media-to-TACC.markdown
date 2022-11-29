@@ -61,12 +61,12 @@ Once you have created media for the files in Arctos, thumbnail images will also 
 [Media](documentation-wiki/documentation/media)
 
 ### Other How-Tos
+* [How to Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata)
 * [How to Create Media](/how_to/How-to-Create-Media-Images)
 * [How to Edit Media](/how_to/How-to-Edit-Media)
 
 ## Tools
 * [namechanger](https://mrrsoftware.com/namechanger/) is useful for renaming files on Mac.
-* [How to Bulkload Media Metadata](/how_to/How-to-Bulkload-Media-Metadata)
 
 # Tutorial Videos ↗️
 
