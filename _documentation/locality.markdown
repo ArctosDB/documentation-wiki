@@ -1,5 +1,6 @@
 ---
 title: Locality
+author: Dusty McDonald
 layout: default_toc
 ---
 
@@ -36,7 +37,7 @@ WKT (polygon) data.
 ## Locality Nickname
 
 Locality Nickname is a globally-unique human-readable "locality ID"
-commonly used to unambiguously associate one or more specimens to a
+commonly used to unambiguously associate one or more catalog records to a
 locality. Named Localities:
 
 1. Will not be auto-deleted when not used
@@ -336,7 +337,7 @@ this information as well.
 
  refers to the source(s) of the coordinates and not
 to the source of the error. Coordinates may be original data collected
-with the specimen, or they may be provided by after-the-fact
+with the cataloged item, or they may be provided by after-the-fact
 georeferencing efforts. In the latter situation, data in Source(s)
 should be specific enough to allow anyone in the future to use the same
 resources to validate the coordinates, or to georeference the same
@@ -351,11 +352,11 @@ resources used to georeference the locality. Examples:
 In cases where the coordinates are original data, a description of the
 original source should be provided. Again, these data should make the
 coordinates as verifiable as possible by referring to records associated
-with the specimen. Examples:
+with the cataloged item. Examples:
 
 -   collector’s notation
 -   preparator’s notation
--   specimen label
+-   cataloged item label
 -   accession file
 -   global positioning system (download)
 -   global positioning system (transcription)
@@ -405,7 +406,7 @@ Georeferencing Calculator.
 
 In some circumstances the greatest source of error is the behavior of
 the collector and/or any intermediary sources of the data. For example,
-if a locality names a village, the collector may have obtained specimens
+if a locality names a village, the collector may have obtained cataloged items
 from a resident who forages over a large area near the village. The
 collector may even have provided coordinates for the village, often from
 some standard source, implying specificity equal to the extent of the
