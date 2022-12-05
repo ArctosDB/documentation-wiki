@@ -167,6 +167,10 @@ This is the background color of the header. Enter an HTML color code. Clicking t
 Generally a 60x60 pixel image can be used to replace the Arctos Bear in the catalog record header. The image should be [loaded to media in Arctos](http://handbook.arctosdb.org/how_to/How-to-Upload-Media-to-TACC.html#single-file-uploads), then the media url can be placed in this field.
 
     EXAMPLE: [NMMNH Logo](https://arctos.database.museum/media/10605393)
+    
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+You can use an official logo copy from your institution and get it to the right size with Microsoft Paint (just open the jpg in paint, then resize to 60x60 pixels).
 
 ### Header Credit
 Image attribution, displayed near the header image. (60 character maximum)
