@@ -159,6 +159,10 @@ In addition - add the link to the Github Issue in which the code table request w
 
 New media relationships to new nodes require adjustments in table ``media_relations`` and trigger ``tr_mediarelations_biu_requireonekey``; these must be coordinated with the DBA team.
 
+### Taxon Terms
+
+If terms are added to or deleted from the [Taxonomy:Terms code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_term), please alert the DBA as changes may be required to the Classification Bulkload Tool.
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Manage-Code-Table-Requests.markdown" target="_blank">here</a>.
