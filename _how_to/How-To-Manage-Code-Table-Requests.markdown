@@ -157,11 +157,11 @@ In addition - add the link to the Github Issue in which the code table request w
 
 ### Media Relationships
 
-New media relationships to new nodes require adjustments in table ``media_relations`` and trigger ``tr_mediarelations_biu_requireonekey``; these must be coordinated with the DBA team.
+If terms are added to or deleted from the [Media: Relationship Types](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship), please alert the DBA as changes may be required to the Media Metadata Bulkload Tool.
 
 ### Taxon Terms
 
-If terms are added to or deleted from the [Taxonomy:Terms code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_term), please alert the DBA as changes may be required to the Classification Bulkload Tool.
+If terms are added to or deleted from the [Taxonomy: Term Values code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxon_term), please alert the DBA as changes may be required to the Classification Bulkload Tool.
 
 ## Edit this Documentation
 
