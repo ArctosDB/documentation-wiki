@@ -1,7 +1,7 @@
 ---
 title: Accessions
-author: ArctosDB
-date: 2016-11-30
+author: DLM, Teresa J Mayfield-Meyer
+date: 2022-12-12, 2016-11-30
 layout: default_toc
 ---
 
