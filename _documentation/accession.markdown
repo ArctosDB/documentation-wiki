@@ -7,7 +7,7 @@ layout: default_toc
 
 # Accessions
 
-An accession is a transaction that conveys a specimen, or (commonly) a group of specimens received from one source at one time, to a collection. As an administrative (rather than biological) entity, an accession can be delimited by administrative criteria such as previous title, applicable [permits](/documentation/permits.html), or association with a particular [project](/documentation/projects.html). In general, accessioning is the first step of incorporating specimens into a collection and indicates that the museum has accepted custody of (if not title to) the accessioned material. Accessioning generally precedes cataloging. Therefore, it is unnecessary to have specimen data in order to create an accession. Nevertheless, the nature and disposition of the specimen data should be recorded in order to assure that the data can eventually be located for purposes of cataloging.
+An accession is a transaction that conveys an item, or (commonly) a group of items received from one source at one time, to an institution. As an administrative (rather than biological) entity, an accession can be delimited by administrative criteria such as previous title, applicable [permits](/documentation/permits.html), or association with a particular [project](/documentation/projects.html). In general, accessioning is the first step of incorporating items into a collection and indicates that the institution has accepted custody of (if not title to) the accessioned material. Accessioning generally precedes cataloging. Therefore, it is unnecessary to have individual item data in order to create an accession. Nevertheless, the nature and disposition of the items' data should be recorded in order to assure that the data can eventually be located for purposes of cataloging.
 
 ## Accession Fields
 
@@ -21,13 +21,13 @@ Accession Number is a text string assigned to identify the accession for a speci
 
 `Accn . Accn_Status VARCHAR2(20) not null`
 
-Status indicates whether or not the accession is cataloged. "Complete" indicates that the disposition of specimens can be determined from individual specimen records. "In process" indicates that at least some of the material is still being stored and labeled by accession number.
+Accession Status indicates whether or not the accession is cataloged. Values are controlled by a <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaccn_status" class="external">code table</a>. 
 
-### How Obtained
+### Type
 
 `Accn . Accn_Type VARCHAR2(35) not null`
 
-This describes the means of acquiring the specimens, such as "field collection," "gift," "salvaged," or "purchased." Vocabulary is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctAccn_Type).
+Accession Type describes the means of acquisition. Values are controlled by a <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaccn_type" class="external">code table</a>.
 
 ### Nature of Material
 
@@ -63,11 +63,11 @@ Place for expanding a description of the conditions of acceptance, or for instru
 
 `Accn . Estimated_Count NUMBER(22) null`
 
-Estimated Count or "Est. Cnt." is an integer expressing approximately how many specimens can be expected as part of an accession. Accession Containers are Containers which hold unprocessed material, e.g., bags of frozen mice can be made Containers and scanned into freezers. Email is sent on every annual anniversary of Transaction Data for accessions which are not "closed" but contain no specimens.
+Accession Estimated Count or “Est. Cnt.” is an integer expressing approximately how many items can be expected to be cataloged as part of an accession. Accession Containers are Containers which hold unprocessed material, e.g., bags of frozen mice can be made Containers and scanned into freezers. Email is sent on every annual anniversary of Transaction Data for accessions which are not "closed" but contain no cataloged items.
 
 ### Public Flag
 
-The "Public?" flag allows accession data to be displayed in a public (open to non-operators) page, currently linked to from Specimen Results. This is useful for displaying accession-level Media, such as UAM Earth Science accession and locality card scans.
+The "Public?" flag allows accession data to be displayed in a public (open to non-operators) page, currently linked to from Search Results. This is useful for displaying accession-level Media, such as UAM Earth Science accession and locality card scans.
 
 ## Data Entry Considerations
 
@@ -80,17 +80,17 @@ You can catalog records in "your collection" that have been accessioned by anoth
 ### Example Usage
 
 *   Desired accession: 1234.123.Mamm
-*   New Specimen: UAMObs:Mamm 9876
+*   New Cataloged Item: UAMObs:Mamm 9876
 *   Default accession: UAMObs:Mamm 1234.123.Mamm (Does not and should not exist)
 *   Value to enter for Accession: [UAM:Mamm]1234.123.Mamm
 
 *   Desired accession: MVZ:Birds 14508
-*   New Specimen: MVZ:Bird 183000 - Value to enter for Accession: 14508
-*   New Specimen: MVZ:Mamm 250000 - Value to enter for Accession: [MVZ:Bird]14508
-*   New Specimen: MVZObs:Bird 10 - Value to enter for Accession: [MVZ:Bird]14508
+*   New Cataloged Item: MVZ:Bird 183000 - Value to enter for Accession: 14508
+*   New Cataloged Item: MVZ:Mamm 250000 - Value to enter for Accession: [MVZ:Bird]14508
+*   New Cataloged Item: MVZObs:Bird 10 - Value to enter for Accession: [MVZ:Bird]14508
 
 *   Desired accession: MSB:Para 2012.123.Para
-*   New Specimen: MSB:Host:9876
+*   New Cataloged Item: MSB:Host:9876
 *   Default accession: MSB:Host 2012.123 (Does not and should not exist)
 *   Value to enter for Accession: [MSB:Para]2012.123.Para
 
