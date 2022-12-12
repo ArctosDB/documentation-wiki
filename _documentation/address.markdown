@@ -15,8 +15,7 @@ Addresses are ways to locate or contact [Agents](/documentation/agent). There ar
 
 `Address . Address_Type VARCHAR2(255) not null`
 
-Address Type is code-table controlled [CTADDRESS_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTADDRESS_TYPE) and
-data-typed.
+Address Type indicates the purpose of an address. Values are controlled by a <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaddress_type" class="external">code table</a>. Format of an address may be constrained by the type chosen.
 
 ## Address
 
@@ -45,7 +44,7 @@ protocol (http://), etc.
 
 `Address . Address_Remark VARCHAR2(4000) null`
 
-Any necessary explanation of the address. Examples might
+Address Remark should be used for any necessary explanation of the address. Examples might
 include:
 
 -   Sabbatical address during academic year 04/05.
