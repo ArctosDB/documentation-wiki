@@ -1,8 +1,8 @@
 ---
 title: How To Manage Annotations
 layout: default_toc
-author: DLM
-date: 2022-03-17
+author: DLM, Teresa J Mayfield-Meyer
+date: 2022-12-01
 ---
 
 
