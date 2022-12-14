@@ -28,8 +28,6 @@ Data about a person-agent can include first, middle, and last names (and must in
 
 See [Wikipedia: Generational Titles](http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles) for more information.
 
-Former concepts **Birth Date** and **Death Date** have now been generalized to [Agent Status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS). In addition to recording singular events about an agent (such as birth date), this structure allows "snapshots" -- "AgentX was seen at a conference on {DATE} and seemed to be living, so things collected before or around that date may still be attributable to AgentX."
-
 ### Organization
 
 Examples of organizations include:
@@ -40,8 +38,8 @@ Examples of organizations include:
 
 Agencies can have hierarchical relationships, *e.g.*:
 
--  [Kanuti National Wildlife Refuge](https://arctos.database.museum/info/agentActivity.cfm?agent_id=27) is a division of
--  [U. S. Fish and Wildlife Service](https://arctos.database.museum/info/agentActivity.cfm?agent_id=3679) is a division of
+-  [Kanuti National Wildlife Refuge](https://arctos.database.museum/info/agentActivity.cfm?agent_id=27) is a [division of](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_relationship#division_of)
+-  [U. S. Fish and Wildlife Service](https://arctos.database.museum/info/agentActivity.cfm?agent_id=3679) is a [division of](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_relationship#division_of)
 -  [U. S. Department of the Interior](https://arctos.database.museum/info/agentActivity.cfm?agent_id=1012052)
 
 For catalog record roles person agents are more explicit and preferable to organizations. Organizations are generally more useful in transaction and project roles.
@@ -87,7 +85,7 @@ ORCiD and Wikidata urls are found in the addresses section of the agent table.
 
 ### Agent Status
 
-Agent Status matches values from a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS). This may be combined with "**Match**" and **Status Date** to locate agents reported in an event, agents having an event on a date, or events happening on, before, or after a given date.
+Agent Status matches values from a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS).
 
 ## Remarks
 
