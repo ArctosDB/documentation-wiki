@@ -34,15 +34,15 @@ Former concepts **Birth Date** and **Death Date** have now been generalized to [
 
 Examples of organizations include:
 
--   University of Alaska Museum
--   Alaska Department of Fish and Game
--   U. S. National Park Service
+-  [University of Alaska Museum of the North](https://arctos.database.museum/info/agentActivity.cfm?agent_id=3691)
+-  [Alaska Department of Fish and Game](https://arctos.database.museum/info/agentActivity.cfm?agent_id=9)
+-  [U. S. National Park Service](https://arctos.database.museum/info/agentActivity.cfm?agent_id=40)
 
 Agencies can have hierarchical relationships, *e.g.*:
 
--   Kanuti National Wildlife Refuge
--   U. S. Fish and Wildlife Service
--   U. S. Department of the Interior
+-  [Kanuti National Wildlife Refuge](https://arctos.database.museum/info/agentActivity.cfm?agent_id=27) is a division of
+-  [U. S. Fish and Wildlife Service](https://arctos.database.museum/info/agentActivity.cfm?agent_id=3679) is a division of
+-  [U. S. Department of the Interior](https://arctos.database.museum/info/agentActivity.cfm?agent_id=1012052)
 
 For catalog record roles person agents are more explicit and preferable to organizations. Organizations are generally more useful in transaction and project roles.
 
