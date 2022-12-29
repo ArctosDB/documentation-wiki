@@ -1,7 +1,7 @@
 ---
 title: Sharing Data and Resources
 author: Dusty McDonald, Teresa J Mayfield-Meyer
-date: 2021-07-29
+date: 2022-12-29
 layout: default_toc
 ---
 
@@ -17,9 +17,9 @@ Catalog records, and core catalog record data such at Attributes, Identification
 
 However, relationships allow users to navigate between related (including "same individual as") catalog records, and to perform cross-collection queries (such as those involving hosts and parasites). The Data Entry application allows related catalog record data (events, places, collectors, etc.) to be "seeded" into new catalog records. Various reports and alerts exist to facilitate maintaining these relationships. 
 
-<a href="https://handbook.arctosdb.org/documentation/loans.html" target="_blank">Loans</a>, <a href="https://handbook.arctosdb.org/documentation/accession.html" target="_blank">accessions</a>, and borrows are not shared, but can include objects from more than one collection. Also see [Projects](projects).
+[Loans](loans), [accessions](accession), and [borrows](borrows) are not shared, but can include objects from more than one collection. [Projects](projects) are shared, but the transactions associated with them are not.
 
-[Specimen-events](specimen-event) are not shared, but some of their underlying information ([Events](collecting-event), [Localities](locality), and [Higher Geography](higher-geography)) are.
+[Catalog record events](specimen-event) are not shared, but some of their underlying information ([Events](collecting-event), [Localities](locality), and [Higher Geography](higher-geography)) are.
 
 ## What is shared
 
@@ -30,35 +30,35 @@ requires a numeric value and units. All collections share
 non-partitioned code tables. That is, every collection with any numeric
 Attribute may access the "length units" code table.
 
-**Taxonomy** is shared at the "source" level, which is set by collection
+**[Taxonomy](taxonomy)** is shared at the "source" level, which is set by collection
 under Manage Collection. All collections which use the "Arctos"
 classification should be consulted before changes are made; if no
 agreement can be reached, it may be necessary to split the
 classification. All classifications are available for querying data from
 all collections.
 
-**Agents** are fully shared, and thousands of agents span collections – as
+**[Agents](agent)** are fully shared, and thousands of agents span collections – as
 collectors, borrowers, authors, and georeferencers. Changes to Agents
 should be coordinated by all users (available from Agent Activity).
 Major changes (such as mergers) prompt notifications and have a waiting
 period.
 
-**Publications** and **Projects** are shared globally. Researchers borrowing
+**[Publications](publications)** and **[Projects](projects)** are shared globally. Researchers borrowing
 objects from several collections may create shared Projects which
 produce shared Publications citing multiple collections.
 
-**Media** are shared globally. PDFs of shared publications are one use case;
+**[Media](media)** are shared globally. PDFs of shared publications are one use case;
 field notes of hosts and parasites are another.
 
-**Containers** are shared globally, facilitating the combined storage of
+**[Containers](container)** are shared globally, facilitating the combined storage of
 e.g., parasites and "part parasites" belonging to vertebrate
 collections.
 
-**Higher Geography** is shared globally. 
+**[Higher Geography](higher-geography)** is shared globally. 
 
-**Localities** are shared. Changes are logged and reported.
+**[Localities](locality)** are shared. Changes are logged and reported.
 
-**Events** are shared; Changes are logged and reported.
+**[Events](collecting-event)** are shared; Changes are logged and reported.
 
 ## When to Edit
 
