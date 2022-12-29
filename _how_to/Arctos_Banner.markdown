@@ -28,3 +28,7 @@ links should include target="_blank" and class="external" - like this:
 ### announcement_expires (show announcement_text through DATE)
 
 Enter the date in ISO format (YYYY-MM-DD) through which the banner should display. Note that announcement_text will not display without an accompanying future announcement_expires value 
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/Arctos_Banner.markdown" target="_blank">here</a>.
