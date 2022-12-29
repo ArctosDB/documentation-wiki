@@ -1,5 +1,6 @@
 ---
 title: Arctos API
+author: DLM
 layout: default_toc
 ---
 
