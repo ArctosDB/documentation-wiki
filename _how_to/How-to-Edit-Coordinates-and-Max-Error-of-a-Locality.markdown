@@ -3,7 +3,9 @@ title: How To Edit Coordinates and Max Error of a Locality
 layout: default_toc
 ---
 
-### Manually
+# How To Edit Coordinates and Max Error of a Locality
+
+## Manually
 
 This is the method most commonly used for large accessions when a spreadsheet from the collector or curator is supplied. These spreadsheets will often contain the latitude, longitude, and max error, so this can be a huge timesaver. Even though this saves you the trouble of having to georeference the locality, it never hurts to double-check that the supplied information is correct.
 
@@ -30,11 +32,11 @@ NULL is acceptable in Max Error, and cannot be confused with "infinitely precise
 
 * Hit the light orange “Save” button when all the necessary edits have been made. The page will refresh and finalize all the changes you have made.
 
-* Although you are done editing the locality itself, there are still a few more steps to go through. Scroll down again to find the table titled “Events using this Locality”. The events tied to the locality have not yet had the information updated, but it is easily accomplished by clicking on the blue button labelled “Update all events to use locality coordinates”. Doing so will open a new page. Clicking on the tan button will apply the new coordinates to the events and bring you back to the Edit Locality page.
+* Although you are done editing the locality itself, there are still a few more steps to go through. Scroll down again to find the table titled “Events using this Locality”. The events tied to the locality have not yet had the information updated, but it is easily accomplished by clicking on the blue button labelled “Save Locality Edits, push my agent + today’s date to specimen events”. Doing so will open a new page. Clicking on the tan button will apply the new coordinates to the events, update specimen_event.ASSIGNED_BY_AGENT_ID with your Arctos username, update specimen_event.ASSIGNED_DATE with the current date, and bring you back to the Edit Locality page.
 
 * The last step is to return to the obnoxious red box and update the verification status to checked by curator. Once that is done, you have successfully updated the locality information for all the specimens associated with it.
 
-### Using GeoLocate
+## Using GeoLocate
 
 More often than not, you will be working with individual or small numbers of specimens. In these cases, you may not have a handy spreadsheet to reference for coordinates or error. You can use an external source such as Google Maps or ACME Mapper, or you can use the handy GeoLocate applet on the Edit Locality page. For a review of best georeferencing practices, consult the georeferencing tutorial.
 
@@ -56,7 +58,7 @@ More often than not, you will be working with individual or small numbers of spe
 
 * Once your coordinates and error are assigned, click the “Save To Your Application” button at the bottom of the applet. Doing so will bring you back to the Edit Locality page with the Decimal Latitude, Decimal Longitude, Max Error, Datum, Georeference Source, and Georeference Protocol all filled in. Finalize these changes, update the associated events, and set the verification status as outlined in the previous section.
 
-# Tutorial Videos ↗️
+## Tutorial Videos ↗️
 
 [How to fix locality coordinates in a catalog record](https://youtu.be/MM5lgfACD9k)
 
