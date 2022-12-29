@@ -15,7 +15,7 @@ Arctos is a shared system, which means we share dictionary and authority files, 
 
 Catalog records, and core catalog record data such at Attributes, Identifications, Collectors, and Citations, are wholly owned by individual collections.
 
-However, relationships allow users to navigate between related (including "same individual as") catalog records, and to perform cross-collection queries (such as those involving hosts and parasites). The Data Entry application allows related catalog record data (events, places, collectors, etc.) to be "seeded" into new catalog records. Various reports and alerts exist to facilitate maintaining these relationships. 
+However, <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references" target="_blank">relationships</a> allow users to navigate between related (including "same individual as") catalog records, and to perform cross-collection queries (such as those involving hosts and parasites). The Data Entry application allows related catalog record data (events, places, collectors, etc.) to be "seeded" into new catalog records. Various reports and alerts exist to facilitate maintaining these relationships. 
 
 [Loans](loans), [accessions](accession), and [borrows](borrows) are not shared, but can include objects from more than one collection. [Projects](projects) are shared, but the transactions associated with them are not.
 
@@ -23,7 +23,7 @@ However, relationships allow users to navigate between related (including "same 
 
 ## What is shared
 
-**Code tables** with a "collection_cde" column are shared across collection
+**<a href="https://arctos.database.museum/info/ctDocumentation.cfm" target="_blank">Code tables</a>** with a "collection_cde" column are shared across collection
 types. That is, all "Herp" collections (and no "Mamm" collections) have
 access to an Attribute "carapace width" which in all collections
 requires a numeric value and units. All collections share
@@ -31,7 +31,7 @@ non-partitioned code tables. That is, every collection with any numeric
 Attribute may access the "length units" code table.
 
 **[Taxonomy](taxonomy)** is shared at the "source" level, which is set by collection
-under Manage Collection. All collections which use the "Arctos"
+under Manage Collection. All collections which use the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source#arctos" target="blamk">"Arctos"</a>
 classification should be consulted before changes are made; if no
 agreement can be reached, it may be necessary to split the
 classification. All classifications are available for querying data from
