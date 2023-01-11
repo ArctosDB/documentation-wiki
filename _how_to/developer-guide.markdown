@@ -119,7 +119,8 @@ FOOTER
 
 BLUE
 
-* Single bear logo![logo-bear_only](https://user-images.githubusercontent.com/11336485/211899289-641c6d4f-b3fb-45b9-a551-2cca4ba2aa71.png)
+* Single bear logo
+![logo-bear_only](https://user-images.githubusercontent.com/11336485/211899289-641c6d4f-b3fb-45b9-a551-2cca4ba2aa71.png)
 
 * Arctos text bear logo![logo-bear_Arctos](https://user-images.githubusercontent.com/11336485/211899409-171d846b-408b-468b-bd8b-fec3289665fc.png)
 
