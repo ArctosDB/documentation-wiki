@@ -99,6 +99,9 @@ QUERY BLOCK STRIPEY GRID
 * Color 1/odds (darker): #CCD7E9
 * Color 2/evens (lighter): #DDE4EE
 
+HIGHLIGHTS
+* target: #CCD7E9
+
 BUTTONS
 * Search/Submit Query: input.schBtn #82B8EA 
 * Customize: input.cstmBtn #C9D2DC
