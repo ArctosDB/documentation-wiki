@@ -118,14 +118,19 @@ FOOTER
 #### Logos
 
 BLUE
-* Single bear logo ![logo-bear_only](https://user-images.githubusercontent.com/11336485/211899289-641c6d4f-b3fb-45b9-a551-2cca4ba2aa71.png)
-* Arctos text bear logo ![logo-bear_Arctos](https://user-images.githubusercontent.com/11336485/211899409-171d846b-408b-468b-bd8b-fec3289665fc.png)
-* Arctos full text logo logo![Logo-full_text](https://user-images.githubusercontent.com/11336485/211899558-fe4d2e8d-884f-4c84-9a34-49b34f7c4365.png)
+
+* Single bear logo![logo-bear_only](https://user-images.githubusercontent.com/11336485/211899289-641c6d4f-b3fb-45b9-a551-2cca4ba2aa71.png)
+
+* Arctos text bear logo![logo-bear_Arctos](https://user-images.githubusercontent.com/11336485/211899409-171d846b-408b-468b-bd8b-fec3289665fc.png)
+
+* Arctos full text logo![Logo-full_text](https://user-images.githubusercontent.com/11336485/211899558-fe4d2e8d-884f-4c84-9a34-49b34f7c4365.png)
 
 BLACK
+
 * Arctos full text logo ![Arctos-logo_black_xbg-01](https://user-images.githubusercontent.com/11336485/211899858-f7e7ea42-f246-4fff-b2ad-039002795aa6.png)
 
 WHITE
+
 * Arctos full text logo![Arctos-logo_white_xbg-01 (1)](https://user-images.githubusercontent.com/11336485/211899783-1fade03c-f5e4-42e9-ada9-5167e48e7f4c.png)
 
 
