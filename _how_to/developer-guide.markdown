@@ -31,7 +31,6 @@ Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_M
  
 #### Sublime Text
 
-
 #### Atom
 
 #### Brackets
@@ -87,6 +86,31 @@ Or as a label
    Catalog Item Type
 </label>
 ```
+#### Color Codes
+
+TEXT
+* Fonts (all): #113d64 
+* Hypertext #116AC4
+* Hover text #0000FF
+* Visited Hypertext #89B2C1
+* Infolink: #82B8EA
+
+QUERY BLOCK STRIPEY GRID
+* Color 1/odds (darker): #CCD7E9
+* Color 2/evens (lighter): #DDE4EE
+
+BUTTONS
+* Search/Submit Query: input.schBtn #82B8EA 
+* Customize: input.cstmBtn #C9D2DC
+* Quit/Clear: input.qutBtn #FFFFFF
+* Choose/Pick: input.picBtn #A7E8FF
+* All/Link: input.lnkBtn #89B2C1
+* Save: input.savBtn #F5C03D
+* None/Delete: input.delBtn #f99f67
+
+FOOTER
+* SuperFooterDiv background #113d64 
+* MainFooterDiv background #BBD3DB
 
 ## Edit this Documentation
 
