@@ -88,11 +88,13 @@ Or as a label
 ```
 #### Color Codes
 
+"Arctos blue": #113d64
+
 TEXT
-* Fonts (all): #113d64 
+* Fonts (all, including Section Label title): #113d64 
 * helpLinks and Hypertext #116AC4
 * Hover text #0000FF
-* Visited Hypertext #89B2C1
+* Visited Hypertext #0094C8
 * Infolink: #82B8EA
 
 QUERY BLOCK STRIPEY GRID
