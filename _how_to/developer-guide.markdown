@@ -90,7 +90,7 @@ Or as a label
 
 TEXT
 * Fonts (all): #113d64 
-* Hypertext #116AC4
+* helpLinks and Hypertext #116AC4
 * Hover text #0000FF
 * Visited Hypertext #89B2C1
 * Infolink: #82B8EA
