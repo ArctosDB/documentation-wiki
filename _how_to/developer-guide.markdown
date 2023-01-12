@@ -96,8 +96,8 @@ TEXT
 * Infolink: #82B8EA
 
 QUERY BLOCK STRIPEY GRID
-* Color 1/odds (darker): #CCD7E9
-* Color 2/evens (lighter): #DDE4EE
+* Color 1/odds (darker): #DAE3F3
+* Color 2/evens (lighter): #EDF1F9
 
 HIGHLIGHTS
 * target: #CCD7E9
