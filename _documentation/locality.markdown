@@ -193,43 +193,19 @@ In this example, Whistler has historically been known as Alta Lake and Mons
 
 ## Elevations
 
-```
+`Locality . Maximum_Elevation NUMBER null Locality . Orig_Elev_Units VARCHAR2 (2) null`
+`Locality . Minimum_Elevation NUMBER null Locality . Orig_Elev_Units VARCHAR2 (2) null`
+[`ctlength_units`](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
 
-Locality . Maximum_Elevation
-
-Locality . Minimum_Elevation
-
-NUMBER null
-
-
-
-Locality . Orig_Elev_Units VARCHAR2 (2) null
-
-ctorig_elev_units
-
-```
 
 Elevations are a height above mean sea level.  If elevation data are part of the verbatim locality, they should be entered into Minimum Elevation, Maximum Elevation, and Elevation Units (ft, m).  If the Verbatim Locality contains a range for an elevation, e.g., 500-600 ft, these values should be entered into the minimum and maximum elevation fields, respectively.  If a single elevation is given in Verbatim Locality, put that value in both the minimum and maximum elevation fields.
 
 
 ## Depths
 
-
-```
-
-Locality . Max_Depth
-
-Locality . Min_Depth
-
-NUMBER null
-
-
-
-Locality . Depth_Units VARCHAR2 (2) null
-
-ctdepth_units
-
-```
+`Locality . Max_Depth NUMBER null Locality . Depth_Units VARCHAR2 (2) null`
+`Locality . Min_Depth NUMBER null Locality . Depth_Units VARCHAR2 (2) null`
+[`ctlength_units`](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)`
 
 Depths are a distance below the local surface (such as a body of water or soil surface).  The surface may or may not be at sea level, *e.g.,* a mountain lake.  If depth data are part of the verbatim locality, they should be entered as three fields: Minimum Depth, Maximum Depth, and Depth Units (ft, m).  If the verbatim locality contains a depth range, e.g., 500-600 ft, these values should be entered into the minimum and maximum depth fields, respectively.  If a single depth is given in the verbatim locality, put that value in both the minimum and maximum elevation fields.
  [//]: # Github issue:https://github.com/ArctosDB/documentation-wiki/issues/117
@@ -240,7 +216,6 @@ Depths are a distance below the local surface (such as a body of water or soil s
 
 
 # Coordinates
-
 
 
 The assigning of latitudes and longitudes to verbal
