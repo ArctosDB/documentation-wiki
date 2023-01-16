@@ -34,9 +34,9 @@ WKT (polygon) data.
     may often be the same.
 
 
-## Locality Nickname
+## Locality Name
 
-Locality Nickname is a globally-unique human-readable "locality ID"
+Locality Name is a globally-unique human-readable "locality ID"
 commonly used to unambiguously associate one or more catalog records to a
 locality. Named Localities:
 
@@ -469,7 +469,7 @@ The webservice data pane has documentation inline. Read it.
 
 # Maintenance
 
-Duplicate localities are automatically merged, and unused localities are automatically deleted. A Locality Nickname will prevent both of these actions and should be used in pre-created localities. Please remove nickname from any localities which you no longer intend to use.
+Duplicate localities are automatically merged, and unused localities are automatically deleted. A Locality Name will prevent both of these actions and should be used in pre-created localities. Please remove Name from any localities which you no longer intend to use.
 
 ## Edit this Documentation
 
