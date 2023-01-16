@@ -2,7 +2,7 @@
 title: Higher Geography
 layout: default_toc
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
-date: 2023-12-16
+date: 2023-01-16
 ---
 
 [Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/275)
@@ -13,7 +13,7 @@ Higher Geography is "assertable" spatial geography and will be limited to:
 
 ## [GADM](https://gadm.org/maps.html)
 
-As of October 12, 2022 only those GADM Levels 0, 1 or 2 that were in use were added to Arctos. Note that they will contain "spatial data source GADM" in remarks.<a href="https://github.com/ArctosDB/arctos/issues/5155#issuecomment-1276792090" target="_blank">GitHub</a> 
+As of October 12, 2022, only those GADM Levels 0, 1 or 2 that were in use were added to Arctos. Note that they will contain "spatial data source GADM" in remarks.<a href="https://github.com/ArctosDB/arctos/issues/5155#issuecomment-1276792090" target="_blank">GitHub</a> 
 
 To request addition of new GADM Level 0, 1 or 2 geography, please <a href="https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=&template=geography-request.md&title=%5B+geography+request+%5D" target="_blank">file an issue</a>.
 
