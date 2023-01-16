@@ -59,85 +59,86 @@ When writing Specific Localities, the highest priority should be to maximize cla
 
 1. Do not include higher geography (continent, ocean, sea, island group, island, country, state, province, county, feature) in the Specific Locality unless it references a place-name in another geopolitical subdivision, in which case include that subdivision in parentheses. The following is located in California, but the distance is given from a location in Arizona.
 
- - **Example:** 10 mi below Ehrenberg (Arizona), Colorado River
+**Example:** 10 mi below Ehrenberg (Arizona), Colorado River
 
 2. There are some situations in which no Specific Locality is given, or no Specific Locality would be appropriate. For example, collecting events on the high seas which are specified by geographic latitude and longitude.
 
- - **Example:** North Pacific Ocean, 45 52′ 24″ N, 165 21′ 48″ W
+**Example:** North Pacific Ocean, 45 52′ 24″ N, 165 21′ 48″ W
 
 Or a collecting event on an island that is specified in the Higher Geography.
 
- - **Example:** USA, Alaska, Petersburg quad, Thorne Island
+**Example:** USA, Alaska, Petersburg quad, Thorne Island
 
 In these examples, as well as in records for which appropriate data are missing, the correct value for Specific Locality is, "**No specific locality recorded.**" (In contrast to a normal locality, this is a sentence and therefore begins with a capital letter and ends with a period.)
 
 3. Do not anglicize words in Verbatim Locality or Specific Locality. The database supports Unicode, so the limitation is input devices (your keyboard!).
 
- - **Example:** Las Montañas del Norte
-   - **Not:** Mountains of the North
-   - **Not:** Las Montanas del Norte
+**Example:** Las Montañas del Norte
+**Not:** Mountains of the North
+**Not:** Las Montanas del Norte
 
 
 4. If an obsolete name for a geographic place is given in Verbatim Locality, put the current name in Specific Locality, followed immediately by the obsolete name in parentheses after an "=".
 
- - **Example:** Whistler (=Alta Lake=Mons), N of Vancouver, British Columbia
+**Example:** Whistler (=Alta Lake=Mons), N of Vancouver, British Columbia
 
 In this example, Whistler has historically been known as Alta Lake and Mons
 
 5. Specific Locality should start with the most specific part of the locality and end with the most general.
 
- - **Example:**  0.25 mi S and 1.5 mi W Mt. Edith, Big Belt Mts.
-    - **Not:**  Big Belt Mts., 0.25 mi S and 1.5 mi W Mt. Edith
+**Example:**  0.25 mi S and 1.5 mi W Mt. Edith, Big Belt Mts.
+**Not:**  Big Belt Mts., 0.25 mi S and 1.5 mi W Mt. Edith
 
 6. Use ‘and’ rather than ‘&’ when describing multiple directions in localities. Do not omit the ‘and’ in favor of a comma or any other separator.
 
- - **Example 1:**  Lauterwasser Creek, 1 mi N and 6 mi E Berkeley
-    - **Not: ** Lauterwasser Creek, 1 mi N, 6 mi E Berkeley
- - **Example 2: ** between Davis and Sacramento
-    - **Not:**  between Davis & Sacramento
+**Example 1:**  Lauterwasser Creek, 1 mi N and 6 mi E Berkeley
+**Not: ** Lauterwasser Creek, 1 mi N, 6 mi E Berkeley
+
+**Example 2: ** between Davis and Sacramento
+**Not:**  between Davis & Sacramento
 
 7. Do not abbreviate directions when they are part of a place name.
 
-- **Example:**  S of West Lansing
-    - **Not: ** S of W Lansing
+**Example:**  S of West Lansing
+**Not: ** S of W Lansing
 
 8. Use ‘of‘ to clarify the intention of a locality description.
 
-- **Example:**  S of West Lansing
-    - **Not:** S West Lansing
+**Example:**  S of West Lansing
+**Not:** S West Lansing
     
 9. Enter distances in decimals, not as fractions.
 
-- **Examples:**  1/2 = 0.5; 1/4 = 0.25; 1/8 = 0.125, 1/3 = 0.33, 2/3 = 0.67
+**Examples:**  1/2 = 0.5; 1/4 = 0.25; 1/8 = 0.125, 1/3 = 0.33, 2/3 = 0.67
 
 10. Put a "0" before the decimal in distances between 0 and 1 units (e.g., 0.5 mi, 0.75 km).
     
 11. Put a period after an abbreviation unless it is a direction or a unit of measure (e.g., mi, N, yds, etc.).
 
-- **Example: ** 1 mi N junction of Hwy. 580 and Hwy. 80
-   - **Not:**  1 mi. N. jct. Hwys 580 & 80
+**Example: ** 1 mi N junction of Hwy. 580 and Hwy. 80
+**Not:**  1 mi. N. jct. Hwys 580 & 80
    
 12. Do not put a period at the end of the specific locality except as part of an abbreviation.
 
 13. Include parentheses when giving a description such as "by road" or "by air," and place the parenthetical between the direction and the named place that it modifies.
 
-- **Example:**  1 mi N (by road) Berkeley
+**Example:**  1 mi N (by road) Berkeley
 
 14. Capitalize "Junction" only for proper names. When not a proper noun, "junction" should be spelled out and followed by "with" or "of."
 
- - **Example 1:**  10 km S junction of Hwy. 1 and Hwy. 5
- - **Example 2:**  junction of Strawberry Creek with Oxford Ave.
+**Example 1:**  10 km S junction of Hwy. 1 and Hwy. 5
+**Example 2:**  junction of Strawberry Creek with Oxford Ave.
  
-15. Do not include any information which is not locality-related. This includes but is not limited to:
+15. Do not include any information which is not locality-related. This includes but is not limited to comments regarding the health of an individual; past or present weather, terrain, or vegetation observations; or local identifiers.
 
-    - Comments regarding the health of an individual, such as
-        - 12.6 mi E Gladstone, DOR on US 56
-        - Additional data collected April 1988 dead on road 11.5 grams little fat LE 11cm, WS 16cm skull ossified testes N2mm 4mm no molt
-    - Past or present weather, terrain, or vegetation observations, such as 
-        -  Approx 5 mi E Alamos (on steep rocky hillside w/ heavy brush cover)
-        - Additional data "found below lighthouse after foggy E. wind night"
-    - Local or individual identifiers
-        - Zuni Webs  Web 2  trap 100  ear tag #8589
+**Example:** 12.6 mi E of Gladstone, on US 56
+**Not:** 12.6 mi E Gladstone, **DOR** on US 56 **additional data collected April 1988 dead on road 11.5 grams little fat LE 11cm, WS 16cm skull ossified testes N2mm 4mm no molt**
+
+**Example:** Approx 5 mi E of Alamos
+**Not:** Approx 5 mi E Alamos **(on steep rocky hillside w/ heavy brush cover) found below lighthouse after foggy E. wind night**
+
+  **Example:** Zuni Webs
+  **Not:** Zuni Webs **Web 2 trap 100 ear tag #8589**
         
 16. Use only the following abbreviations:
 
