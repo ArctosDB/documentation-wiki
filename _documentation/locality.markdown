@@ -57,19 +57,21 @@ When writing Specific Localities, the highest priority should be to maximize cla
 
  - Do not include higher geography (continent, ocean, sea, island group, island, country, state, province, county, feature) in the Specific Locality unless it references a place-name in another geopolitical subdivision, in which case include that subdivision in parentheses. The following is located in California, but the distance is given from a location in Arizona.
 
-```**Example:** 10 mi below Ehrenberg (Arizona), Colorado River```
+```
+**Example:** 10 mi below Ehrenberg (Arizona), Colorado River
+**Not:** 10 mi below Ehrenberg, Arizona, Colorado River
+```
 
- - There are some situations in which no Specific Locality is given, or no Specific Locality would be appropriate. For example, collecting events on the high seas which are specified by geographic latitude and longitude.
+ - **No specific locality recorded.**  There are some situations in which no Specific Locality is given. For example, collecting events on the high seas which are specified by geographic latitude and longitude. There are some situations in which no Specific Locality would be appropriate. For example, a collecting event with a locality that is specified in the Higher Geography with no further details. In these examples, as well as in records for which appropriate data are missing, the correct value for Specific Locality is, "**No specific locality recorded.**" (In contrast to a normal locality, this is a sentence and therefore begins with a capital letter and ends with a period.)
 
 ```
-**Example:** North Pacific Ocean, 45 52′ 24″ N, 165 21′ 48″ W
+**Example:** No specific locality recorded.
+**Not:** North Pacific Ocean, 45 52′ 24″ N, 165 21′ 48″ W
 
-Or a collecting event on an island that is specified in the Higher Geography.
-
-**Example:** USA, Alaska, Petersburg quad, Thorne Island
-
-In these examples, as well as in records for which appropriate data are missing, the correct value for Specific Locality is, "**No specific locality recorded.**" (In contrast to a normal locality, this is a sentence and therefore begins with a capital letter and ends with a period.)
+**Example:** No specific locality recorded.
+**Not:** USA, Alaska
 ```
+
  - Do not anglicize words in Verbatim Locality or Specific Locality. The database supports Unicode, so the limitation is input devices (your keyboard!).
 
 ```
