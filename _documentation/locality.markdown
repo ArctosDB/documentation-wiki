@@ -57,10 +57,13 @@ When writing Specific Localities, the highest priority should be to maximize cla
     
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
 
-1. Do not include higher geography (continent, ocean, sea, island group, island, country, state, province, county, feature) in the Specific Locality unless it references a place-name in another geopolitical subdivision, in which case include that subdivision in parentheses. The following is located in California, but the distance is given from a location in Arizona.
+<ol>
+<li>
+    1. Do not include higher geography (continent, ocean, sea, island group, island, country, state, province, county, feature) in the Specific Locality unless it references a place-name in another geopolitical subdivision, in which case include that subdivision in parentheses. The following is located in California, but the distance is given from a location in Arizona.
 
 ```**Example:** 10 mi below Ehrenberg (Arizona), Colorado River```
-
+</li>
+<li>
 2. There are some situations in which no Specific Locality is given, or no Specific Locality would be appropriate. For example, collecting events on the high seas which are specified by geographic latitude and longitude.
 
 ```
@@ -72,7 +75,7 @@ Or a collecting event on an island that is specified in the Higher Geography.
 
 In these examples, as well as in records for which appropriate data are missing, the correct value for Specific Locality is, "**No specific locality recorded.**" (In contrast to a normal locality, this is a sentence and therefore begins with a capital letter and ends with a period.)
 ```
-
+</li>
 3. Do not anglicize words in Verbatim Locality or Specific Locality. The database supports Unicode, so the limitation is input devices (your keyboard!).
 
 ```
@@ -192,7 +195,7 @@ In this example, Whistler has historically been known as Alta Lake and Mons
       | United States                       | U.S.          | e.g., U. S. Forest Service |
       | University of California            | U.C.          | Should be followed by a modifier, e.g., U.C. Berkeley |
       | Doctor                              | Dr.           | e.g., Dr. Pearson’s house. Do not use for "Drive" (e.g., "Sunset Drive"). |
-
+</ol>
 
 ## Elevations
 
