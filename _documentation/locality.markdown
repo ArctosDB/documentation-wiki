@@ -59,6 +59,7 @@ When writing Specific Localities, the highest priority should be to maximize cla
  Do not include higher geography (continent, ocean, sea, island group, island, country, state, province, county, feature) in the Specific Locality unless it references a place-name in another geopolitical subdivision, in which case include that subdivision in parentheses. The following is located in California, but the distance is given from a location in Arizona.
 
 ```**Do** 10 mi below Ehrenberg (Arizona), Colorado River```
+
 `**Don't** 10 mi below Ehrenberg, Arizona, Colorado River`
 
  - **No specific locality recorded.**
