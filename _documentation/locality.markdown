@@ -1,6 +1,7 @@
 ---
 title: Locality
-author: Dusty McDonald
+author: Dusty McDonald, Teresa J. Mayfield-Meyer
+date: 2023-01-16
 layout: default_toc
 ---
 
@@ -14,7 +15,7 @@ A locality includes three types of data
 -   [Higher geography](higher-geography) is controlled "authority data" and is included via key relationships.
 -   [Georeferencing determinations](coordinates) are spatial data; they define a shape on a map. Localities may include point-radius data and/or
 WKT (polygon) data.
--   Descriptive data, most importantly Specific Locality. Also includes locality attributes such as [Geology](http://handbook.arctosdb.org/documentation/geology.html)
+-   Descriptive data, most importantly [Specific Locality](specific-locality). Also includes locality attributes such as [Geology](http://handbook.arctosdb.org/documentation/geology.html)
 
  Some caveats:
 
@@ -52,96 +53,95 @@ locality. Named Localities:
 
 Specific Locality is a standardization of verbatim_locality.
 
-1.  When writing Specific Localities, the highest priority should be to
-    maximize clarity and minimize confusion for a global audience, and for machine understandnig (such as automated georeferencing). 
-    Do not include higher geography (continent, ocean, sea, island group,
-    island, country, state, province, county, feature) in the Specific
-    Locality unless it references a place-name in another geopolitical
-    subdivision, in which case include that subdivision in parentheses.
-    The following example is located in California.
+When writing Specific Localities, the highest priority should be to maximize clarity and minimize confusion for a global audience, and for machine understandnig (such as automated georeferencing). Geolocate is sometimes really picky on spelling. For example: a locality of "Lodge Pole Creek" was coming back with basically a random point - near a lodge or something a state away. "Lodgepole Creek" (which is also the label on Google Maps) returned accurate data.
+    
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
 
--   **Example:** 10 mi below Ehrenberg (Arizona), Colorado River
--   There some situations in which no Specific Locality is given, or no
-    Specific Locality would be appropriate. For example, collecting events on the
-    high seas which are specified by geographic latitude and longitude.
+1. Do not include higher geography (continent, ocean, sea, island group, island, country, state, province, county, feature) in the Specific Locality unless it references a place-name in another geopolitical subdivision, in which case include that subdivision in parentheses. The following is located in California, but the distance is given from a location in Arizona.
 
-    -   **Example:** North Pacific Ocean, 45 52′ 24″ N, 165 21′ 48″ W
+ - **Example:** 10 mi below Ehrenberg (Arizona), Colorado River
 
-    Or a collecting event on an island that is specified in the
-    Higher Geography.
+2. There are some situations in which no Specific Locality is given, or no Specific Locality would be appropriate. For example, collecting events on the high seas which are specified by geographic latitude and longitude.
 
-    -   **Example:** USA, Alaska, Petersburg quad, Thorne Island
+ - **Example:** North Pacific Ocean, 45 52′ 24″ N, 165 21′ 48″ W
 
-    In these examples, as well as in records for which appropriate data
-    are missing, the correct value for Specific Locality is, "**No
-    specific locality recorded.**"
+Or a collecting event on an island that is specified in the Higher Geography.
 
-    (In contrast to a normal locality, this is a sentence and therefore
-    begins with a capital letter and ends with a period.)
+ - **Example:** USA, Alaska, Petersburg quad, Thorne Island
 
--   Do not anglicize words in Verbatim Locality or Specific Locality. 
-    The database supports Unicode, so the limitation is input devices
-    (your keyboard!).
-    -   **Example:** Las Montañas del Norte
-    -   **Not:** Mountains of the North
-    -   **Not:** Las Montanas del Norte
+In these examples, as well as in records for which appropriate data are missing, the correct value for Specific Locality is, "**No specific locality recorded.**" (In contrast to a normal locality, this is a sentence and therefore begins with a capital letter and ends with a period.)
+
+3. Do not anglicize words in Verbatim Locality or Specific Locality. The database supports Unicode, so the limitation is input devices (your keyboard!).
+
+ - **Example:** Las Montañas del Norte
+   - **Not:** Mountains of the North
+   - **Not:** Las Montanas del Norte
 
 
--   If an obsolete name for a geographic place is given in Verbatim
-    Locality, put the current name in Specific Locality, followed
-    immediately by the obsolete name in parentheses after an "=".
-    -   **Example:** Whistler (=Alta Lake=Mons), N of Vancouver, British
-        Columbia
+4. If an obsolete name for a geographic place is given in Verbatim Locality, put the current name in Specific Locality, followed immediately by the obsolete name in parentheses after an "=".
 
-    In this example, Whistler has historically been known as Alta Lake
-    and Mons
--   Specific Locality should start with the most specific part of the
-    locality and end with the most general.
-    -   **Example:**  0.25 mi S and 1.5 mi W Mt. Edith, Big Belt Mts.
-    -   **Not:**  Big Belt Mts., 0.25 mi S and 1.5 mi W Mt. Edith
--   Use ‘and’ rather than ‘&’ when describing multiple directions
-    in localities. Do not omit the ‘and’ in favor of a comma or any
-    other separator.
-    -   **Example 1:**  Lauterwasser Creek, 1 mi N and 6 mi E Berkeley
-    -   **Not: ** Lauterwasser Creek, 1 mi N, 6 mi E Berkeley
-    -   **Example 2: ** between Davis and Sacramento
-    -   **Not:**  between Davis & Sacramento
--   Do not abbreviate directions when they are part of a place name.
-    -   **Example:**  S of West Lansing
-    -   **Not: ** S of W Lansing
--   Use ‘of ‘to clarify the intention of a locality description.
-    -   **Example:**  S of West Lansing
--   Enter distances in decimals, not as fractions.
-    -   **Examples:**  1/2 = 0.5; 1/4 = 0.25; 1/8 = 0.125, 1/3 = 0.33,
-        2/3 = 0.67
--   Put a "0" before the decimal in distances between 0 and 1 units
-    (e.g., 0.5 mi, 0.75 km).
--   Put a period after an abbreviation unless it is a direction or a
-    unit of measure (e.g., mi, N, yds, etc.).
-    -   **Example: ** 1 mi N junction of Hwy. 580 and Hwy. 80
-    -   **Not:**  1 mi. N. jct. Hwys 580 & 80
--   Do not put a period at the end of the specific locality except as
-    part of an abbreviation.
--   Include parentheses when giving a description such as "by road" or
-    "by air," and place the parenthetical between the direction and the
-    named place that it modifies.
-    -   **Example:**  1 mi N (by road) Berkeley
--   Capitalize "Junction" only for proper names. When not a proper noun,
-    "junction" should be spelled out and followed by "with" or "of."
-    -   **Example 1:**  10 km S junction of Hwy. 1 and Hwy. 5
-    -   **Example 2:**  junction of Strawberry Creek with Oxford Ave.
--   Do not include any information which is not locality-lalated. This includes but is not limited to:
+ - **Example:** Whistler (=Alta Lake=Mons), N of Vancouver, British Columbia
+
+In this example, Whistler has historically been known as Alta Lake and Mons
+
+5. Specific Locality should start with the most specific part of the locality and end with the most general.
+
+ - **Example:**  0.25 mi S and 1.5 mi W Mt. Edith, Big Belt Mts.
+    - **Not:**  Big Belt Mts., 0.25 mi S and 1.5 mi W Mt. Edith
+
+6. Use ‘and’ rather than ‘&’ when describing multiple directions in localities. Do not omit the ‘and’ in favor of a comma or any other separator.
+
+ - **Example 1:**  Lauterwasser Creek, 1 mi N and 6 mi E Berkeley
+    - **Not: ** Lauterwasser Creek, 1 mi N, 6 mi E Berkeley
+ - **Example 2: ** between Davis and Sacramento
+    - **Not:**  between Davis & Sacramento
+
+7. Do not abbreviate directions when they are part of a place name.
+
+- **Example:**  S of West Lansing
+    - **Not: ** S of W Lansing
+
+8. Use ‘of‘ to clarify the intention of a locality description.
+
+- **Example:**  S of West Lansing
+    - **Not:** S West Lansing
+    
+9. Enter distances in decimals, not as fractions.
+
+- **Examples:**  1/2 = 0.5; 1/4 = 0.25; 1/8 = 0.125, 1/3 = 0.33, 2/3 = 0.67
+
+10. Put a "0" before the decimal in distances between 0 and 1 units (e.g., 0.5 mi, 0.75 km).
+    
+11. Put a period after an abbreviation unless it is a direction or a unit of measure (e.g., mi, N, yds, etc.).
+
+- **Example: ** 1 mi N junction of Hwy. 580 and Hwy. 80
+   - **Not:**  1 mi. N. jct. Hwys 580 & 80
+   
+12. Do not put a period at the end of the specific locality except as part of an abbreviation.
+
+13. Include parentheses when giving a description such as "by road" or "by air," and place the parenthetical between the direction and the named place that it modifies.
+
+- **Example:**  1 mi N (by road) Berkeley
+
+14. Capitalize "Junction" only for proper names. When not a proper noun, "junction" should be spelled out and followed by "with" or "of."
+
+ - **Example 1:**  10 km S junction of Hwy. 1 and Hwy. 5
+ - **Example 2:**  junction of Strawberry Creek with Oxford Ave.
+ 
+15. Do not include any information which is not locality-related. This includes but is not limited to:
+
     - Comments regarding the health of an individual, such as
         - 12.6 mi E Gladstone, DOR on US 56
-        -  Additional data collected April 1988 dead on road 11.5 grams little fat LE 11cm, WS 16cm skull ossified testes N2mm 4mm no molt
+        - Additional data collected April 1988 dead on road 11.5 grams little fat LE 11cm, WS 16cm skull ossified testes N2mm 4mm no molt
     - Past or present weather, terrain, or vegetation observations, such as 
         -  Approx 5 mi E Alamos (on steep rocky hillside w/ heavy brush cover)
-        - Additional data "found below lighthouse after foggy E. wind night" 19.9 grams "skull ossified "very fat" "no molt" testes L 6mm diameter, R 6mm LE 14.3cm WS 24.2cm
+        - Additional data "found below lighthouse after foggy E. wind night"
     - Local or individual identifiers
         - Zuni Webs  Web 2  trap 100  ear tag #8589
--   Use only the following abbreviations:
+        
+16. Use only the following abbreviations:
 
-      | Word or phrase                      | Abbreviation       | Comment     |
+      |Word or phrase                       | Abbreviation       | Comment     |
       |-------------------------------------|--------------------|-------------|
       | yards                               | yds           | If space permits, spell out non-metric units. *E.g.,*"yards" |
       | feet                                | ft            | If space permits, spell out non-metric units. *E.g.,*"feet" |
@@ -172,9 +172,6 @@ Specific Locality is a standardization of verbatim_locality.
       | Doctor                              | Dr.           | e.g., Dr. Pearson’s house. Do not use for "Drive" (e.g., "Sunset Drive"). |
 
 
-
-
-
 ## Elevations
 
 ```
@@ -193,16 +190,7 @@ ctorig_elev_units
 
 ```
 
- are a height above mean sea level.  If elevation data are
-part of the verbatim locality, they should be entered into Minimum
-Elevation, Maximum Elevation, and Elevation Units (ft, m).  If the
-Verbatim Locality contains a range for an elevation, e.g., 500-600 ft,
-these values should be entered into the minimum and maximum elevation
-fields, respectively.  If a single elevation is given in Verbatim
-Locality, put that value in both the minimum and maximum elevation
-fields.
-
-
+Elevations are a height above mean sea level.  If elevation data are part of the verbatim locality, they should be entered into Minimum Elevation, Maximum Elevation, and Elevation Units (ft, m).  If the Verbatim Locality contains a range for an elevation, e.g., 500-600 ft, these values should be entered into the minimum and maximum elevation fields, respectively.  If a single elevation is given in Verbatim Locality, put that value in both the minimum and maximum elevation fields.
 
 
 ## Depths
@@ -224,23 +212,12 @@ ctdepth_units
 
 ```
 
- are a distance below the local surface (such as a body of water or soil surface).  The
-surface may or may not be at sea level, *e.g.,* a mountain lake. 
-If depth data are part of the verbatim locality, they should be entered as
-three fields: Minimum Depth, Maximum Depth, and Depth
-Units (ft, m).  If the verbatim locality contains a depth range, e.g.,
-500-600 ft, these values should be entered into the minimum and maximum
-depth fields, respectively.  If a single depth is given in the verbatim
-locality, put that value in both the minimum and maximum elevation
-fields.
+Depths are a distance below the local surface (such as a body of water or soil surface).  The surface may or may not be at sea level, *e.g.,* a mountain lake.  If depth data are part of the verbatim locality, they should be entered as three fields: Minimum Depth, Maximum Depth, and Depth Units (ft, m).  If the verbatim locality contains a depth range, e.g., 500-600 ft, these values should be entered into the minimum and maximum depth fields, respectively.  If a single depth is given in the verbatim locality, put that value in both the minimum and maximum elevation fields.
  [//]: # Github issue:https://github.com/ArctosDB/documentation-wiki/issues/117
 
 ## TRS
 
-"Verbatim" Township, Range, and Section (TRS) information should, like all verbatim locality data, be 
-entered in verbatim locality. Non-verbatim legacy TRS data may be entered in locality remarks.
-A thorough description of TRS data, along with a tool to translate them
-to latitude and longitude can be found in [How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate](http://handbook.arctosdb.org/how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.html).
+"Verbatim" Township, Range, and Section (TRS) information should, like all verbatim locality data, be entered in verbatim locality. Non-verbatim legacy TRS data may be entered in locality remarks. A thorough description of TRS data, along with a tool to translate them to latitude and longitude can be found in [How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate](http://handbook.arctosdb.org/how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.html).
 
 
 # Coordinates
