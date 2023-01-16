@@ -13,7 +13,9 @@ Higher Geography is "assertable" spatial geography and will be limited to:
 
 ## [GADM](https://gadm.org/maps.html)
 
-As of October 12, 2022 only those GADM Level 0-2 that were in use were in Arctos. Note that they will contain "spatial data source GADM" in remarks.<a href="https://github.com/ArctosDB/arctos/issues/5155#issuecomment-1276792090" target="_blank">GitHub</a> To request addition of new GADM Level 0, 1 or 2 geography, please <a href="https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=&template=geography-request.md&title=%5B+geography+request+%5D" target="_blank">file an issue</a>.
+As of October 12, 2022 only those GADM Levels 0, 1 or 2 that were in use were added to Arctos. Note that they will contain "spatial data source GADM" in remarks.<a href="https://github.com/ArctosDB/arctos/issues/5155#issuecomment-1276792090" target="_blank">GitHub</a> 
+
+To request addition of new GADM Level 0, 1 or 2 geography, please <a href="https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=&template=geography-request.md&title=%5B+geography+request+%5D" target="_blank">file an issue</a>.
 
 ### Level 0 or Country
  
