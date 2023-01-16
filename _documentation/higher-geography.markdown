@@ -65,7 +65,9 @@ Note that no search functionality hinges on what's asserted. Asserting Mariposa 
 # Community Discussion
 * [GitHub Issue #275](https://github.com/ArctosDB/documentation-wiki/issues/275)
 
-**Suggest removing everything below (although some might beuseful for eventual locality attributes?**
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
+
+**Suggest removing everything below except guideline stuff and some might be useful for eventual locality attributes**
 
 is a combination of terms delineating geopolitical
 units and it includes many imprecise regions. These terms are
