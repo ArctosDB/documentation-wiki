@@ -53,61 +53,62 @@ Specific Locality is a standardization of verbatim_locality.
 
 When writing Specific Localities, the highest priority should be to maximize clarity and minimize confusion for a global audience, and for machine understanding (such as automated georeferencing). Geolocate is sometimes really picky on spelling. For example: a locality of "Lodge Pole Creek" was coming back with basically a random point - near a lodge or something a state away. "Lodgepole Creek" (which is also the label on Google Maps) returned accurate data.
     
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) 
+### Pro Tips
 
- - **Leave Out Higher Geography** 
+ #### Leave Out Higher Geography
  Do not include higher geography (continent, ocean, sea, island group, island, country, state, province, county, feature) in the Specific Locality unless it references a place-name in another geopolitical subdivision, in which case include that subdivision in parentheses. The following is located in California, but the distance is given from a location in Arizona.
 
 **Do** | **Don't** 
 10 mi below Ehrenberg (Arizona), Colorado River | 10 mi below Ehrenberg, Arizona, Colorado River 
 
- - **No specific locality recorded.**
+#### Use 'No specific locality recorded.' 
  There are some situations in which no Specific Locality is given. For example, collecting events on the high seas which are specified by geographic latitude and longitude. There are some situations in which no Specific Locality would be appropriate. For example, a collecting event with a locality that is specified in the Higher Geography with no further details. In these examples, as well as in records for which appropriate data are missing, the correct value for Specific Locality is, "**No specific locality recorded.**" (In contrast to a normal locality, this is a sentence and therefore begins with a capital letter and ends with a period.)
 
 **Do** | **Don't** 
 No specific locality recorded. | North Pacific Ocean, 45 52′ 24″ N, 165 21′ 48″ W 
 No specific locality recorded. | USA, Alaska
 
- - **Use Proper Spelling**
+#### Use Proper Spelling
  Do not anglicize words in Verbatim Locality or Specific Locality. The database supports Unicode, so the limitation is input devices (your keyboard!).
 
 **Do** | **Don't** 
 Las Montañas del Norte | Mountains of the North 
 Las Montañas del Norte | Las Montanas del Norte 
 
- - **Use Current Name Conventions**
+#### Use Current Name Conventions
  If an obsolete name for a geographic place is given in Verbatim Locality, put the current name in Specific Locality, followed immediately by the obsolete name in parentheses after an "=". In this example, Whistler has historically been known as Alta Lake and Mons
 
 **Do** | **Don't** 
 Whistler (=Alta Lake=Mons), N of Vancouver | Alta Lake, N of Vancouver
 Whistler (=Alta Lake=Mons), N of Vancouver | Mons, N of Vancouver 
 
- - **Specific to General**
+#### Specific to General
  Specific Locality should start with the most specific part of the locality and end with the most general.
 
 **Do** | **Don't** 
 0.25 mi S and 1.5 mi W Mt. Edith, Big Belt Mts. | Big Belt Mts., 0.25 mi S and 1.5 mi W Mt. Edith
 
- - **Spell 'and' Out**
+#### Spell 'and' Out
  Use ‘and’ rather than ‘&’ when describing multiple directions in localities. Do not omit the ‘and’ in favor of a comma or any other separator.
 
 **Do** | **Don't** 
 Lauterwasser Creek, 1 mi N and 6 mi E Berkeley | Lauterwasser Creek, 1 mi N, 6 mi E Berkeley 
 between Davis and Sacramento | between Davis & Sacramento 
 
- - **Spell out Place Name Directions**
+#### Spell out Place Name Directions
  Do not abbreviate directions when they are part of a place name.
 
 **Do** | **Don't** 
 S of West Lansing | S of W Lansing 
 
- - **Use 'of'**
+#### Use 'of'
  Use ‘of‘ to clarify the intention of a locality description.
 
 **Do** | **Don't** 
 S of West Lansing | S West Lansing 
 
- - **Use Decimals**
+#### Use Decimals
  Enter distances in decimals, not as fractions.
 
 **Do** | **Don't** 
@@ -117,32 +118,32 @@ S of West Lansing | S West Lansing
 0.33 | 1/3 
 0.67 | 2/3 
 
- - **Use Leading Zeros for Decimal Fractions**
+#### Use Leading Zeros for Decimal Fractions
  Put a "0" before the decimal in distances between 0 and 1 units (e.g., 0.5 mi, 0.75 km).
 
- - **Use Periods After Abbreviations**
+#### Use Periods After Abbreviations
  Put a period after an abbreviation **unless it is a direction or a unit of measure (e.g., mi, N, yds, etc.)**.
 
 **Do** | **Don't** 
  1 mi N junction of Hwy. 580 and Hwy. 80 | 1 mi. N. jct. Hwys 580 & 80
 
- - **Do Not End Localities with a Period**
+#### Do Not End Localities with a Period
  Do not put a period at the end of the specific locality **except as part of an abbreviation**.
 
- - **Use Parenthesis For Method of Travel**
+#### Use Parenthesis For Method of Travel
  Include parentheses when giving a description such as "by road" or "by air," and place the parenthetical between the direction and the named place that it modifies.
 
 **Do** | **Don't** 
 1 mi N Berkeley (by road) | 1 mi by road N Berkeley 
 
- - **Only Capitalize Proper Nouns**
+#### Only Capitalize Proper Nouns
  Capitalize "Junction" only for proper names. When not a proper noun, "junction" should be spelled out and followed by "with" or "of."
 
 **Do** | **Don't** 
 10 km S junction of Hwy. 1 and Hwy. 5 | 10 km S Junction of Hwy. 1 and Hwy. 5 
 Strawberry Creek Junction | Strawberry Creek junction 
 
- - **Leave out Data that Belongs Elsewhere**
+#### Leave out Data that Belongs Elsewhere
  Do not include any information which is not locality-related. This includes but is not limited to comments regarding the health of an individual (put them in attributes); past or present weather (Put present weather in collecting event), terrain (put this in catalog record event), or vegetation observations (put in associated species); or local identifiers (add appropriate other identifiers or locality attribute).
 
 **Do** | **Don't** 
@@ -150,7 +151,7 @@ Strawberry Creek Junction | Strawberry Creek junction
 Approx 5 mi E of Alamos | Approx 5 mi E Alamos (on steep rocky hillside w/ heavy brush cover) found below lighthouse after foggy E. wind night
 Zuni Webs | Zuni Webs Web 2 trap 100 ear tag #8589
 
- - **Use Standard Abbreviations**
+ #### Use Standard Abbreviations
  Use only the following abbreviations:
 
       |Word or phrase                       | Abbreviation       | Comment     |
