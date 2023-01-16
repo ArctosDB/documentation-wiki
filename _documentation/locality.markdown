@@ -51,18 +51,22 @@ locality. Named Localities:
 
 Specific Locality is a standardization of verbatim_locality.
 
-When writing Specific Localities, the highest priority should be to maximize clarity and minimize confusion for a global audience, and for machine understandnig (such as automated georeferencing). Geolocate is sometimes really picky on spelling. For example: a locality of "Lodge Pole Creek" was coming back with basically a random point - near a lodge or something a state away. "Lodgepole Creek" (which is also the label on Google Maps) returned accurate data.
+When writing Specific Localities, the highest priority should be to maximize clarity and minimize confusion for a global audience, and for machine understanding (such as automated georeferencing). Geolocate is sometimes really picky on spelling. For example: a locality of "Lodge Pole Creek" was coming back with basically a random point - near a lodge or something a state away. "Lodgepole Creek" (which is also the label on Google Maps) returned accurate data.
     
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
 
- - Do not include higher geography (continent, ocean, sea, island group, island, country, state, province, county, feature) in the Specific Locality unless it references a place-name in another geopolitical subdivision, in which case include that subdivision in parentheses. The following is located in California, but the distance is given from a location in Arizona.
+ - **Leave Out Higher Geography**
+ Do not include higher geography (continent, ocean, sea, island group, island, country, state, province, county, feature) in the Specific Locality unless it references a place-name in another geopolitical subdivision, in which case include that subdivision in parentheses. The following is located in California, but the distance is given from a location in Arizona.
 
 ```
-**Example:** 10 mi below Ehrenberg (Arizona), Colorado River
-**Not:** 10 mi below Ehrenberg, Arizona, Colorado River
+**Do** 10 mi below Ehrenberg (Arizona), Colorado River
 ```
+`
+**Don't** 10 mi below Ehrenberg, Arizona, Colorado River
+`
 
- - **No specific locality recorded.**  There are some situations in which no Specific Locality is given. For example, collecting events on the high seas which are specified by geographic latitude and longitude. There are some situations in which no Specific Locality would be appropriate. For example, a collecting event with a locality that is specified in the Higher Geography with no further details. In these examples, as well as in records for which appropriate data are missing, the correct value for Specific Locality is, "**No specific locality recorded.**" (In contrast to a normal locality, this is a sentence and therefore begins with a capital letter and ends with a period.)
+ - **No specific locality recorded.**
+ There are some situations in which no Specific Locality is given. For example, collecting events on the high seas which are specified by geographic latitude and longitude. There are some situations in which no Specific Locality would be appropriate. For example, a collecting event with a locality that is specified in the Higher Geography with no further details. In these examples, as well as in records for which appropriate data are missing, the correct value for Specific Locality is, "**No specific locality recorded.**" (In contrast to a normal locality, this is a sentence and therefore begins with a capital letter and ends with a period.)
 
 ```
 **Example:** No specific locality recorded.
@@ -72,7 +76,8 @@ When writing Specific Localities, the highest priority should be to maximize cla
 **Not:** USA, Alaska
 ```
 
- - Do not anglicize words in Verbatim Locality or Specific Locality. The database supports Unicode, so the limitation is input devices (your keyboard!).
+ - **Use Proper Spelling**
+ Do not anglicize words in Verbatim Locality or Specific Locality. The database supports Unicode, so the limitation is input devices (your keyboard!).
 
 ```
 **Example:** Las Montañas del Norte
@@ -194,7 +199,9 @@ In this example, Whistler has historically been known as Alta Lake and Mons
 ## Elevations
 
 `Locality . Maximum_Elevation NUMBER null Locality . Orig_Elev_Units VARCHAR2 (2) null`
+
 `Locality . Minimum_Elevation NUMBER null Locality . Orig_Elev_Units VARCHAR2 (2) null`
+
 [`ctlength_units`](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
 
 
@@ -204,8 +211,10 @@ Elevations are a height above mean sea level.  If elevation data are part of th
 ## Depths
 
 `Locality . Max_Depth NUMBER null Locality . Depth_Units VARCHAR2 (2) null`
+
 `Locality . Min_Depth NUMBER null Locality . Depth_Units VARCHAR2 (2) null`
-[`ctlength_units`](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)`
+
+[`ctlength_units`](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units)
 
 Depths are a distance below the local surface (such as a body of water or soil surface).  The surface may or may not be at sea level, *e.g.,* a mountain lake.  If depth data are part of the verbatim locality, they should be entered as three fields: Minimum Depth, Maximum Depth, and Depth Units (ft, m).  If the verbatim locality contains a depth range, e.g., 500-600 ft, these values should be entered into the minimum and maximum depth fields, respectively.  If a single depth is given in the verbatim locality, put that value in both the minimum and maximum elevation fields.
  [//]: # Github issue:https://github.com/ArctosDB/documentation-wiki/issues/117
