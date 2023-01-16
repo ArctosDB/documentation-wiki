@@ -76,7 +76,7 @@ Or a collecting event on an island that is specified in the Higher Geography.
 In these examples, as well as in records for which appropriate data are missing, the correct value for Specific Locality is, "**No specific locality recorded.**" (In contrast to a normal locality, this is a sentence and therefore begins with a capital letter and ends with a period.)
 ```
 </li>
-3. Do not anglicize words in Verbatim Locality or Specific Locality. The database supports Unicode, so the limitation is input devices (your keyboard!).
+3\. Do not anglicize words in Verbatim Locality or Specific Locality. The database supports Unicode, so the limitation is input devices (your keyboard!).
 
 ```
 **Example:** Las Montañas del Norte
