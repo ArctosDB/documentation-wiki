@@ -2,7 +2,7 @@
 title: Higher Geography
 layout: default_toc
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
-date: 2023-12-16
+date: 2022-10-14
 ---
 
 [Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/275)
