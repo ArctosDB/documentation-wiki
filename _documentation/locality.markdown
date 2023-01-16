@@ -55,15 +55,11 @@ When writing Specific Localities, the highest priority should be to maximize cla
     
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
 
- - **Leave Out Higher Geography**
+ - **Leave Out Higher Geography** 
  Do not include higher geography (continent, ocean, sea, island group, island, country, state, province, county, feature) in the Specific Locality unless it references a place-name in another geopolitical subdivision, in which case include that subdivision in parentheses. The following is located in California, but the distance is given from a location in Arizona.
 
-```
-**Do** 10 mi below Ehrenberg (Arizona), Colorado River
-```
-`
-**Don't** 10 mi below Ehrenberg, Arizona, Colorado River
-`
+```**Do** 10 mi below Ehrenberg (Arizona), Colorado River```
+`**Don't** 10 mi below Ehrenberg, Arizona, Colorado River`
 
  - **No specific locality recorded.**
  There are some situations in which no Specific Locality is given. For example, collecting events on the high seas which are specified by geographic latitude and longitude. There are some situations in which no Specific Locality would be appropriate. For example, a collecting event with a locality that is specified in the Higher Geography with no further details. In these examples, as well as in records for which appropriate data are missing, the correct value for Specific Locality is, "**No specific locality recorded.**" (In contrast to a normal locality, this is a sentence and therefore begins with a capital letter and ends with a period.)
