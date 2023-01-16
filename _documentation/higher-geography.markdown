@@ -2,7 +2,7 @@
 title: Higher Geography
 layout: default_toc
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
-date: 2022-10-14
+date: 2023-12-16
 ---
 
 [Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/275)
@@ -13,7 +13,7 @@ Higher Geography is "assertable" spatial geography and will be limited to:
 
 ## [GADM](https://gadm.org/maps.html)
 
-As of October 12, 2022 only those GADM Level 0-2 that were in use were in Arctos. Note that they will contain "spatial data source GADM" in remarks.<a href="(https://github.com/ArctosDB/arctos/issues/5155#issuecomment-1276792090)" target="_blank">GitHub</a> To request addition of new GADM Level 0, 1 or 2 geography, please <a href="https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=&template=geography-request.md&title=%5B+geography+request+%5D" target="_blank">file an issue</a>.
+As of October 12, 2022 only those GADM Level 0-2 that were in use were in Arctos. Note that they will contain "spatial data source GADM" in remarks.<a href="https://github.com/ArctosDB/arctos/issues/5155#issuecomment-1276792090" target="_blank">GitHub</a> To request addition of new GADM Level 0, 1 or 2 geography, please <a href="https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=&template=geography-request.md&title=%5B+geography+request+%5D" target="_blank">file an issue</a>.
 
 ### Level 0 or Country
  
@@ -32,13 +32,13 @@ GADM Level 2 is a second-level political subdivision of a country, regardless of
  
 ## [IHO World Seas](https://iho.int/)
 
-As of October 12, 2022, all IHO Seas should now be in Arctos and have spatial data. Note that they will contain "spatial data source iho_world_seas" in remarks. <a href="(https://github.com/ArctosDB/arctos/issues/5155#issuecomment-1276792090)" target="_blank">GitHub</a>
+As of October 12, 2022, all IHO Seas should now be in Arctos and have spatial data. Note that they will contain "spatial data source iho_world_seas" in remarks. <a href="https://github.com/ArctosDB/arctos/issues/5155#issuecomment-1276792090" target="_blank">GitHub</a>
  
 ## Other Options
 
 There will also be options when geography should or cannot be asserted:
 * we don't know - <a href="https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69" target="_blank">no higher geography recorded</a>
-* we refuse to say - <a href="https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350)" target="_blank">no specific higher geography</a>
+* we refuse to say - <a href="https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350" target="_blank">no specific higher geography</a>
 
 # Unassertable Higher Geography
 
