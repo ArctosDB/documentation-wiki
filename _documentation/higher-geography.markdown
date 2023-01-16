@@ -37,8 +37,8 @@ As of October 12, 2022, all IHO Seas should now be in Arctos and have spatial da
 ## Other Options
 
 There will also be options when geography should or cannot be asserted:
-* [we don't know](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69)
-* [we refuse to say](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350)
+* we don't know - <a href="https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69" target="_blank">no higher geography recorded</a>
+* we refuse to say - <a href="https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350)" target="_blank">no specific higher geography</a>
 
 # Unassertable Higher Geography
 
