@@ -41,12 +41,11 @@ which isn't exactly useful. Here are two solutions:
 
 #### Convert the .csv to ANSI
 
-```
 1. On a Windows computer, open the CSV file using Notepad (Tip: change from Text Documents (*.txt) to All Files (*.*) in the file type in order to find your .csv).
 2. Click "File > Save As".
 3. In the dialog window that appears - select "ANSI" from the "Encoding" field and "All Files (*.*)" from the Save as type field. Then click "Save".
 4 . That's all! Open this new CSV file using Excel - your non-ASCII characters should be displayed properly.
-```
+
  - adapted from [YCBM Knowledgebase](https://support.youcanbook.me/article/502-how-can-i-get-excel-to-properly-display-special-characters-in-the-data-export)
 
 
