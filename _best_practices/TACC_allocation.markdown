@@ -5,9 +5,7 @@ date created: 2021-10-06
 layout: default_toc
 ---
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/244)
+//[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/244)
 
 # Best Practice - Managing Directory Structures in the Arctos Project Allocation at TACC 
 
