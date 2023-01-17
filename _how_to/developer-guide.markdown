@@ -94,8 +94,8 @@ TEXT
 * Fonts (all, including Section Label title): #113d64 
 * helpLinks and Hypertext #116AC4
 * Hover text #0000FF
-* Visited Hypertext #0094C8
-* Infolink: #82B8EA
+* Visited Hypertext #800080 
+* Infolink: #116AC4
 
 QUERY BLOCK STRIPEY GRID
 * Color 1/odds (darker): #DAE3F3
