@@ -49,7 +49,7 @@ institution_acronym (for Arctos accounting) and the dailies (for everyone's sani
 
 * Avoid the use of spaces in folder and file names.
 * Directories created by TACC users are only accessible to the TACC user who created them but directories created by the TACC-authorized manager can be made accessible to any authorized TACC user. 
-* TACC storage is considered to be an archive and files should not be unloaded.
+* TACC storage is considered to be an archive and files should not be unloaded, however, files may be removed by the TACC user who uploaded them.
 
 ## General Recommendations for Naming Files in the Arctos Project Allocation at TACC
 * Follow standard file naming practices such as those in [Arctos Media: Media URI Documentation](documentation/media.html#media-uri). Specifically, name files using ony A-Z, a-z, 0-9, and _ 
