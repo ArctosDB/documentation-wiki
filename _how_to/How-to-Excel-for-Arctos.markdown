@@ -14,6 +14,7 @@ Excel is a widely used tool for managing data in tables and many people managing
 
 ### Dates 
 
+See (#import_the_data_to_excel)
 
 ## Downloading Data 
 
@@ -25,7 +26,9 @@ Arctos supports Non-ASCII characters, which makes it nice for [Española Animal 
 
 which isn't exactly useful. Here are two solutions:
 
-#### Get the Data Insted of Opening the File
+#### Import the Data to Excel
+
+Don't just open the CSV with Excel. Do this instead.
 
 1. Open Excel then go to Data Menu
 2. Under Get Data, select From Text/CSV.
