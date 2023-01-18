@@ -97,7 +97,7 @@ TEXT
 * Fonts (all, including Section Label title): #113d64 
 * helpLinks and Hypertext #116AC4
 * Hover text #0000FF
-* Visited Hypertext #800080 
+* Visited Hypertext #9D34C2
 * Infolink: #116AC4
 
 QUERY BLOCK STRIPEY GRID
