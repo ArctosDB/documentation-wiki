@@ -130,7 +130,8 @@ BLUE
 * Arctos text bear logo![logo-bear_Arctos](https://user-images.githubusercontent.com/11336485/211899409-171d846b-408b-468b-bd8b-fec3289665fc.png)
 
 * Arctos full text logo![Logo-full_text](https://user-images.githubusercontent.com/11336485/211899558-fe4d2e8d-884f-4c84-9a34-49b34f7c4365.png)
-* Arctos full text logo - resized for header![Logo-full_text_resized](https://user-images.githubusercontent.com/11336485/213056066-9c6bc5b0-d894-4243-9cd4-df26352c2d1b.png)
+* Arctos full text logo - resized for header![Logo-full_text_resized](https://user-images.githubusercontent.com/11336485/213191330-667b6ff0-563a-4cc5-83f0-a60af4e331ef.png)
+
 
 
 BLACK
