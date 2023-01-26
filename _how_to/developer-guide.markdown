@@ -98,7 +98,8 @@ TEXT
 * helpLinks and Hypertext #116AC4
 * Hover text #0000FF
 * Visited Hypertext #9D34C2
-* LikeLink/Infolink: #15C2FF
+* LikeLink/Infolink: #05B8E9
+
 
 QUERY BLOCK STRIPEY GRID
 * Color 1/odds (darker): #DAE3F3
