@@ -121,6 +121,9 @@ FOOTER
 * SuperFooterDiv background #113d64 
 * MainFooterDiv background #BBD3DB
 
+BANNER/LOGIN Terms box
+* yellow: #5FC03D
+
 #### Logos
 
 BLUE
