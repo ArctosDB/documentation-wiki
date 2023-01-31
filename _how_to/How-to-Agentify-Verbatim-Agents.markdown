@@ -51,7 +51,7 @@ You may want to discard the verbatim agent attributes because they seem redundan
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-The Bulk Unload Attribute tool will unload ALL verbatim agent attributes from the records indicated in the tool. If any records contain verbatim agents other than the one you want to remove, you may want to check with a DBA to have them removed for you. 
+The Attribute Unload Tool will unload ALL verbatim agent attributes from the records indicated in the tool. If any records contain verbatim agents other than the one you want to remove, you may want to check with a DBA to have them removed for you. 
 
 ## Video Tutorial
 
