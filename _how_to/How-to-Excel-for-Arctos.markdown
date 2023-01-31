@@ -33,12 +33,10 @@ Don't just open the CSV with Excel. Do this instead.
 1. Open Excel then go to Data Menu
 2. Under Get Data, select From Text/CSV.
 3. Select the CSV file that you want to open.
-4. Choose the Delimited option.
-5. Set the character encoding File Origin to 65001: Unicode (UTF-8) from the drop-down list.
-6. Set the delimiter, in your case it is comma.
-7. Click Next to move on to the next step.
-8. Select all columns and set Data Type Detection to Do not detect data types. (This will keep your dates in whatever format they came out!)
-9. Click OK and then Finish. 
+4. Select File Origin = 65001: Unicode (UTF-8) from the drop-down list.
+5. Select the delimiter, in this case it is comma.
+6. Select Data Type Detection = Do not detect data types (This will keep your dates in whatever format they came out!)
+7. Select Load to create the Excel data. 
 
  - adapted from [Microsoft Community Forum Answer](https://answers.microsoft.com/en-us/msoffice/forum/all/how-do-you-openimport-a-csv-file-with-unicode/5614e250-47c4-4577-8638-a809996e2356)
 

@@ -67,6 +67,7 @@ Don't want to make your new operators suffer the back and forth of setting up an
  - Invite the new user to become an operator
  - The invitation email will come to you, open it and authenticate the operator account
  - Change the email in the user's profile to their email address
+ - Remove your auto-inserted email address from the operator's Agent record and add their email address
  - Give your new operator their Arctos username and password with instructions to log in and **change their password**
 
 ---

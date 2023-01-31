@@ -1,5 +1,7 @@
 ---
 title: Encumbrance
+author: unknown, Teresa J. Mayfield-Meyer
+date: 2023-01-26
 layout: default_toc
 ---
 # Encumbrance
@@ -47,7 +49,11 @@ Encumbrances are described with a name. This name should be as general as possib
 
 `Encumbrance . Expiration_Date DATE(7) not null`
 
-All encumbrances are temporary, and encumbrances must be periodically reviewed. De-accession should be considered for permanently-encumbered specimens. Yearly email notifications are provided to collection staff, and encumbrances may be extended (in 5-year increments) indefinitely. Expiration date is a triggering event – encumbrances are automatically retracted when the expiration date is reached.
+All encumbrances are temporary, and encumbrances must be periodically reviewed. De-accession should be considered for permanently-encumbered specimens. Yearly email notifications are provided to collection staff, and encumbrances may be extended (in 5-year increments) indefinitely. 
+
+To extend the term of an encumbrance, change the expiration date. **Note:** the expiration date cannot be changed to a date more than five years in the future from the date the edit is being made.
+
+Expiration date is a triggering event – encumbrances are automatically retracted when the expiration date is reached.
 
 ## Encumbering Specimens
 

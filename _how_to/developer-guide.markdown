@@ -98,7 +98,8 @@ TEXT
 * helpLinks and Hypertext #116AC4
 * Hover text #0000FF
 * Visited Hypertext #9D34C2
-* Infolink: #116AC4
+* LikeLink/Infolink: #05B8E9
+
 
 QUERY BLOCK STRIPEY GRID
 * Color 1/odds (darker): #DAE3F3
@@ -119,6 +120,9 @@ BUTTONS
 FOOTER
 * SuperFooterDiv background #113d64 
 * MainFooterDiv background #BBD3DB
+
+BANNER/LOGIN Terms box
+* yellow: #5FC03D
 
 #### Logos
 
