@@ -356,8 +356,7 @@ which to use in any particular situation.
     at the same URL and running under the HTTP protocol. Suitable for
     any maintained online link; DOI is perhaps a better choice for paper
     or PDF archives.
--   **"Stable Exit link" (
-    (<http://arctos.database.museum/media/10002230?open>)**
+-   **"Stable Exit link" (<http://arctos.database.museum/media/10002230?open>)**
 
     Append "?open" (or "?open=true") to the detail_url; logs the
     request and redirects to media_URI. This is a "fairly permanent"
