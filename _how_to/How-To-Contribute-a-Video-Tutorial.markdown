@@ -51,13 +51,13 @@ Contact Emily Braker
 
 ## How to Record in Zoom
 
-[Video Tutorial](https://www.youtube.com/watch?v=2j-tkShA-vY)
+<a href="https://www.youtube.com/watch?v=2j-tkShA-vY" target=_blank>Video Tutorial</a>
 
 ### Download Zoom Client 
 
 You must download the desktop version ("Zoom Client for Meetings") in order to access the recording feature.
 
-[Download Zoom Client](https://zoom.us/download)
+<a href="https://zoom.us/download" target=_blank>Download Zoom Client</a>
 
 ### Record
 
@@ -85,7 +85,7 @@ When you are satisfied with your recording, rename your file to match your tutor
 
 ## How to Record in PowerPoint
 
-[Video Tutorial](https://www.youtube.com/watch?v=bgtUBLWm0GY)
+<a href="https://www.youtube.com/watch?v=bgtUBLWm0GY" target=_blank>Video Tutorial</a>
 
 ### Record
 
