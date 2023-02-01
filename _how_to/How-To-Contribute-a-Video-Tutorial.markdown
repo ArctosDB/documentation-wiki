@@ -65,13 +65,19 @@ Share screen and record in Zoom
 
 New Meeting -> Join with Computer Audio -> Share -> Screen -> Record button
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/video_tutorials/Zoom1.png) ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/video_tutorials/Zoom2.jpg)
+
 OR
 
 You can navigate from your shared screen by selecting More -> Record from the control bar at the top of the screen while in share mode.
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/video_tutorials/Zoom3.jpg)
+
 ### Review the Recording
 
 Zoom recordings are autosaved once a meeting is ended. To view your recording, click the "Meetings" clock icon and select "Recorded." Click on the desired recording to play back or see the storage file location on your computer.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/video_tutorials/Zoom4.png)
 
 ### Save the Recording to the Tutorial MP4s Folder
 
@@ -83,7 +89,17 @@ When you are satisfied with your recording, rename your file to match your tutor
 
 ### Record
 
-Go to the INSERT Tab in PowerPoint, and click on "Screen Recording" in the Media Group. Once you've navigated to Arctos, click on the "Record" button in the control panel. Make sure Audio and Record Pointer options are highlighted. Once finished with your tutorial, click the "Stop" button on the control panel.
+Go to the INSERT Tab in PowerPoint, and click on "Screen Recording" in the Media Group. 
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/video_tutorials/PPT1.png) 
+
+Once you've navigated to Arctos, click on the "Record" button in the control panel. 
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/video_tutorials/PPT2.png)
+
+Make sure Audio and Record Pointer options are highlighted. Once finished with your tutorial, click the "Stop" button on the control panel.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/video_tutorials/PPT3.png)
 
 ### Review the Recording
 
@@ -91,7 +107,10 @@ Your video will automatically appear in PowerPoint.
 
 ### Save the Recording to the Tutorial MP4s Folder
 
-To save as an MP4, Right-click on movie -> Save Media as. Rename your file with your tutorial topic and save to the [Tutorial MP4s folder](http://bit.ly/ArctosTutorialMP4s).
+To save as an MP4, Right-click on movie -> Save Media as. 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/video_tutorials/PPT4.png) 
+
+Rename your file with your tutorial topic and save to the [Tutorial MP4s folder](http://bit.ly/ArctosTutorialMP4s).
 
 ## Edit this Documentation
 
