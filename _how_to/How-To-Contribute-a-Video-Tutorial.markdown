@@ -1,5 +1,5 @@
 ---
-title: How to Contribute a Video Tutorial
+title: How To Github - Contribute a Video Tutorial to the Arctos Handbook
 author: Teresa J Mayfield-Meyer
 contributor: Amily Braker
 date: 2023-02-01
