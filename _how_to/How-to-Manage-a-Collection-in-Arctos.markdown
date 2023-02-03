@@ -7,7 +7,7 @@ layout: default_toc
 
 # How to Manage a Collection
 
-The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created) and to modify the header presented with individual catalog records. Users will need to have Manage_Collection permission for a collection in order to use this tool. Access this form through the following steps in the Arctos main menu: **<a href="http://arctos.database.museum/Admin/Collection.cfm" target=_blank>Manage Data -> Internal Settings -> Manage Collection</a>**
+The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created) and to modify the header presented with individual catalog records. Users will need to have Manage_Collection permission for a collection in order to use this tool. Access this form through the following steps in the Arctos main menu: <a href="http://arctos.database.museum/Admin/Collection.cfm" target=_blank>**Manage Data -> Internal Settings -> Manage Collection**</a>
 
 It is important to fill out as many fields in Manage Collection as practical. Much of this information will be used to complete the collection profile for data aggregators and is also useful for those using your data to ensure that the collection is properly cited. The form for managing a collection is divided into multiple parts; [Arctos Community Data](#arctos-community-data), [Collection Contacts](#collection-contacts), [Collection Header](#collection-header), [Licenses and Terms](#licenses-and-terms), [Collection Defaults](#collection-defaults), and [Summary Information](#summary-information).
 
@@ -226,7 +226,7 @@ It is recommended that each collection's metadata be reviewed at least annually 
  * update collection description if necessary
  * update citation if necessary
 
-To accomplish this, from the Arctos main menu select **<a href="http://arctos.database.museum/Admin/Collection.cfm" target=_blank>Manage Data -> Internal Settings -> Manage Collection</a>** and select the collection you wish to update from the dropdown list. Make the necessary edits and select **Save Changes** at the bottom of the  section edited.
+To accomplish this, from the Arctos main menu select <a href="http://arctos.database.museum/Admin/Collection.cfm" target=_blank>**Manage Data -> Internal Settings -> Manage Collection**</a> and select the collection you wish to update from the dropdown list. Make the necessary edits and select **Save Changes** at the bottom of the  section edited.
 
 ## Edit this Documentation
 
