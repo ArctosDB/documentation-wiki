@@ -1,12 +1,10 @@
 ---
 title: How To Github - Contribute a Video Tutorial to the Arctos Handbook
-author: Teresa J Mayfield-Meyer
-contributor: Amily Braker
+author: Emily Braker
+contributor: Teresa J Mayfield-Meyer
 date: 2023-02-01
 layout: default_toc
 ---
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
 # **How to Github - Contribute a Video Tutorial to the Arctos Handbook**
 
 Short video tutorials help Arctos users learn how to do tasks in Arctos. If you would like to contribute a short video tutorial to the Arctos Community Handbook, read on!
