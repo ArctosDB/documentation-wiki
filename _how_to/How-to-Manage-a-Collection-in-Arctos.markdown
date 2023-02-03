@@ -9,7 +9,7 @@ layout: default_toc
 
 The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created) and to modify the header presented with individual catalog records. Users will need to have Manage_Collection permission for a collection in order to use this tool. Access this form through the following steps in the Arctos main menu: **[Manage Data -> Metadata -> Manage Collection](http://arctos.database.museum/Admin/Collection.cfm)**
 
-It is important to fill out as many fields in Manage Collection as practical. Much of this information will be used to complete the collection profile for aggregators and is also useful for those using your data to ensure that the collection is properly cited. The form for managing a collection is divided into multiple parts; Arctos Community Data, Collection Contacts, Collection Header, Licenses and Terms, Collection Defaults, and Summary Information.
+It is important to fill out as many fields in Manage Collection as practical. Much of this information will be used to complete the collection profile for aggregators and is also useful for those using your data to ensure that the collection is properly cited. The form for managing a collection is divided into multiple parts; [Arctos Community Data](#arctos_community_data), Collection Contacts, Collection Header, Licenses and Terms, Collection Defaults, and Summary Information.
 
 ## Arctos Community Data
 This section included three Fields that cannot be edited without the assistance of a DBA as changes may affect the way data is published and create issues with locating your data. Below are descriptions and examples of what should go in the individual fields. 
@@ -138,7 +138,7 @@ Before selecting your terms and licenses, read <a href="https://handbook.arctosd
 ## Collection Defaults
 
 ### Default Cataloged Item Type
-The term selected in this field will be the default for all catalog records in the collection and is passed to biodiversity data aggregators as BasisOfRecord. Individual catalog records can be modified to use a different term if required. Terms available can be found in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type" class="external">CATALOG_ITEM_TYPE code table</a>.
+The term selected in this field will be the default for all catalog records in the collection and is passed to biodiversity data aggregators as BasisOfRecord. Individual catalog records can be modified to use a different term if required. Terms available can be found in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type" target=_blank>CATALOG_ITEM_TYPE code table</a>.
 
 ### Taxonomy Sources
 Select from the dropdown of choices. The designates the source(s) of taxonomic classifications used for the collection. Order is important. PLace your preferred source first. If a classification for a name used in an identification is not found in the first selection the one in the second will be used and so on.
@@ -169,43 +169,43 @@ Indicate how the collection should be cited. It is a good idea to include both a
     EXAMPLE: "New Mexico Museum of Natural History and Science Bird Collection. Individual catalog records should be cited by the catalog record url: https://arctos.database.museum/guid/NMMNH:Bird:1."
 
 ### Geography Description  
-A general description of the geographic coverage of the collection. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#geographic-coverage" class="external">GBIF Metadata Profile – How-to Guide</a>.
+A general description of the geographic coverage of the collection. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#geographic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "Primarily New Mexico and the Southwestern United States"
 
 ### Coverage Coordinates
-This table can create a polygon for your geographic coverage. Enter the extreme lat/lon values to create the polygon or leave these blank if you do not wish to define a polygon. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##geographic-coverage" class="external">GBIF Metadata Profile – How-to Guide</a>.
+This table can create a polygon for your geographic coverage. Enter the extreme lat/lon values to create the polygon or leave these blank if you do not wish to define a polygon. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##geographic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
 ### General Taxonomic Coverage
-A general description of the taxonomic coverage of the collection. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##taxonomic-coverage" class="external">GBIF Metadata Profile – How-to Guide</a>.
+A general description of the taxonomic coverage of the collection. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "Birds of New Mexico and the Southwestern United States and Northwestern Mexico"
     
 ### Taxon Rank Name
-Select the highest taxon classification rank that describes the collection. Most biological collections will be at the level of class or higher. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##taxonomic-coverage" class="external">GBIF Metadata Profile – How-to Guide</a>.
+Select the highest taxon classification rank that describes the collection. Most biological collections will be at the level of class or higher. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "class"
 
 ### Taxon Rank Value
-The taxon name or names (comma separated) that corresponds to the taxon rank name chosen above. Cultural and art collections can leave this blank if they wish. Used in EML generation, See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##taxonomic-coverage" class="external">GBIF Metadata Profile – How-to Guide</a>.
+The taxon name or names (comma separated) that corresponds to the taxon rank name chosen above. Cultural and art collections can leave this blank if they wish. Used in EML generation, See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "Aves"
 
 ### Purpose of Collection
-Describe why the collection was made or continues to grow and for what purpose it is held. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##methods" class="external">GBIF Metadata Profile – How-to Guide</a>.
+Describe why the collection was made or continues to grow and for what purpose it is held. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##methods" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "The bird collection preserves and interprets the distinctive natural and scientific heritage of ornithology in New Mexico and is held for research, exhibits and programs designed to ignite a passion for lifelong learning."
 
 ### Alternate identifiers 1 and 2
-If a collection has been cited under other catalog numbering systems, describe them in these fields. The DOI assigned to the collection by GBIF can be entered here. Used in EML generation, See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##dataset-resource" class="external">GBIF Metadata Profile – How-to Guide</a>.
+If a collection has been cited under other catalog numbering systems, describe them in these fields. The DOI assigned to the collection by GBIF can be entered here. Used in EML generation, See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##dataset-resource" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
 ### Specimen Preservation Method
-A general description of the method(s) by which items in the collection are preserved.
+Picklist keyword indicating the process or technique used to prevent physical deterioration of non-living collections. Expected to contain an instance from the Specimen Preservation Method Type Term vocabulary. E.g., formaldehyde. Used in EML generation. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##additional-metadata-natural-collections-description-data-ncd-related" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "Primarily study skins and skeletons with some specimens mounted for exhibition"
 
 ### Temporal Coverage
-A general description of the period of time covered in the collection. ee <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##temporal-coverage" class="external">GBIF Metadata Profile – How-to Guide</a>.
+A general description of the period of time covered in the collection. ee <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##temporal-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "1960 - present with a few older specimens"
 
