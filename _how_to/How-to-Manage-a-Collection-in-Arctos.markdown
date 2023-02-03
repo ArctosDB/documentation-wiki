@@ -119,7 +119,7 @@ If you have developed a CSS stylesheet, load the css to /includes/css/ or coordi
 Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection for use in, and as downloaded from, Arctos. 
 
 ### External License
-Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection to external sources, such as GBIF and iDigBio. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##methods" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection to external sources, such as GBIF and iDigBio. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#methods" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
 ### Collection Terms
 Collection Terms accompanies the licenses, and provides a method by which collections may describe how they wish their data to be used, cited, etc., above and beyond the legal requirements specified in the license.
@@ -174,38 +174,38 @@ A general description of the geographic coverage of the collection. See <a href=
     EXAMPLE: "Primarily New Mexico and the Southwestern United States"
 
 ### Coverage Coordinates
-This table can create a polygon for your geographic coverage. Enter the extreme lat/lon values to create the polygon or leave these blank if you do not wish to define a polygon. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##geographic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+This table can create a polygon for your geographic coverage. Enter the extreme lat/lon values to create the polygon or leave these blank if you do not wish to define a polygon. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#geographic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
 ### General Taxonomic Coverage
-A general description of the taxonomic coverage of the collection. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+A general description of the taxonomic coverage of the collection. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "Birds of New Mexico and the Southwestern United States and Northwestern Mexico"
     
 ### Taxon Rank Name
-Select the highest taxon classification rank that describes the collection. Most biological collections will be at the level of class or higher. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+Select the highest taxon classification rank that describes the collection. Most biological collections will be at the level of class or higher. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "class"
 
 ### Taxon Rank Value
-The taxon name or names (comma separated) that corresponds to the taxon rank name chosen above. Cultural and art collections can leave this blank if they wish. Used in EML generation, See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+The taxon name or names (comma separated) that corresponds to the taxon rank name chosen above. Cultural and art collections can leave this blank if they wish. Used in EML generation, See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "Aves"
 
 ### Purpose of Collection
-Describe why the collection was made or continues to grow and for what purpose it is held. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##methods" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+Describe why the collection was made or continues to grow and for what purpose it is held. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#methods" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "The bird collection preserves and interprets the distinctive natural and scientific heritage of ornithology in New Mexico and is held for research, exhibits and programs designed to ignite a passion for lifelong learning."
 
 ### Alternate identifiers 1 and 2
-If a collection has been cited under other catalog numbering systems, describe them in these fields. The DOI assigned to the collection by GBIF can be entered here. Used in EML generation, See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##dataset-resource" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+If a collection has been cited under other catalog numbering systems, describe them in these fields. The DOI assigned to the collection by GBIF can be entered here. Used in EML generation, See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#dataset-resource" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
 ### Specimen Preservation Method
-Picklist keyword indicating the process or technique used to prevent physical deterioration of non-living collections. Expected to contain an instance from the Specimen Preservation Method Type Term vocabulary. E.g., formaldehyde. Used in EML generation. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##additional-metadata-natural-collections-description-data-ncd-related" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+Picklist keyword indicating the process or technique used to prevent physical deterioration of non-living collections. Expected to contain an instance from the Specimen Preservation Method Type Term vocabulary. E.g., formaldehyde. Used in EML generation. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#additional-metadata-natural-collections-description-data-ncd-related" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
-    EXAMPLE: "Primarily study skins and skeletons with some specimens mounted for exhibition"
+    EXAMPLE: "frozen, formalin, dry"
 
 ### Temporal Coverage
-A general description of the period of time covered in the collection. ee <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##temporal-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+A general description of the period of time covered in the collection. ee <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#temporal-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "1960 - present with a few older specimens"
 
