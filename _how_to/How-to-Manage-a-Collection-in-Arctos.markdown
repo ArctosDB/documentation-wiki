@@ -7,9 +7,9 @@ layout: default_toc
 
 # How to Manage a Collection
 
-The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created) and to modify the header presented with individual catalog records. Users will need to have Manage_Collection permission for a collection in order to use this tool. Access this form through the following steps in the Arctos main menu: **[Manage Data -> Internal Settings -> Manage Collection](http://arctos.database.museum/Admin/Collection.cfm)**
+The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created) and to modify the header presented with individual catalog records. Users will need to have Manage_Collection permission for a collection in order to use this tool. Access this form through the following steps in the Arctos main menu: **<a href="http://arctos.database.museum/Admin/Collection.cfm" target=_blank>Manage Data -> Internal Settings -> Manage Collection</a>**
 
-It is important to fill out as many fields in Manage Collection as practical. Much of this information will be used to complete the collection profile for data aggregators and is also useful for those using your data to ensure that the collection is properly cited. The form for managing a collection is divided into multiple parts; [Arctos Community Data](#arctos_community_data), [Collection Contacts](#collection-contacts), Collection Header, Licenses and Terms, Collection Defaults, and Summary Information.
+It is important to fill out as many fields in Manage Collection as practical. Much of this information will be used to complete the collection profile for data aggregators and is also useful for those using your data to ensure that the collection is properly cited. The form for managing a collection is divided into multiple parts; [Arctos Community Data](#arctos-community-data), [Collection Contacts](#collection-contacts), [Collection Header](#collection-header), [Licenses and Terms](#licenses-and-terms), [Collection Defaults](#collection-defaults), and [Summary Information](#summary-information).
 
 ## Arctos Community Data
 This section included three Fields that cannot be edited without the assistance of a DBA as changes may affect the way data is published and create issues with locating your data. Below are descriptions and examples of what should go in the individual fields. 
@@ -17,10 +17,10 @@ This section included three Fields that cannot be edited without the assistance 
 **NOTE** In order to save any changes made to this section you must select the **Save Changes** button at the bottom of the section.
 
 ### GUID Prefix
-GUID Prefix is set at collection creation, and is used to form GUIDs (URLs).
+GUID Prefix is set at collection creation, and is used in combination with catalog numbers to form GUIDs (URLs).
 
 ### Collection Type
-Collection Type is set at collection creation, and controls code table access. 
+Collection Type is set at collection creation, and controls code table access. Values are controlled by a <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde" target=_blank>code table</a>
 
 ### Institution Acronym
 Institution Acronym is set at collection creation, and is changeable only by the DBA team to encourage standardization. 
@@ -32,7 +32,7 @@ Institution is set at collection creation, this can be changed, but it can affec
 Collection is set at collection creation, this can be changed and consistency with other Arctos collections of the same type is recommended.
 
 ### Catalog Number Format
-Select from the dropdown of choices. This specifies the format of catalog numbers for the collection. NOTE: Catalog numbers in integer format are preferred for ease of data discovery; see also [Catalog documentation](http://handbook.arctosdb.org/documentation/catalog.html). There are three options:
+Select from the dropdown of choices. This specifies the format of catalog numbers for the collection. NOTE: Catalog numbers in integer format are preferred for ease of data discovery; see also <a href="http://handbook.arctosdb.org/documentation/catalog.html" target=_blank>Catalog documentation</a>. There are three options:
 
  * integer
  * prefix-integer-suffix
@@ -64,15 +64,15 @@ Collections may customize the header that appears at the top of a collection rec
 **NOTE** In order to save any changes made to this section you must select the **Save** button at the bottom of the section.
 
 ### Header Color
-This is the background color of the header. Enter a color code or use the [google color picker](http://www.google.com/search?q=html+color+picker).
+This is the background color of the header. Enter a color code or use the <a href="http://www.google.com/search?q=html+color+picker" target=_blank>google color picker</a>.
 
 **NOTE** If the header color is dark, you will need to lighten the text.
 
 ### Header Link Color
-This is the color of the text in the header. Enter a color code or use the [google color picker](http://www.google.com/search?q=html+color+picker). 
+This is the color of the text in the header. Enter a color code or use the <a href="http://www.google.com/search?q=html+color+picker" target=_blank>google color picker</a>. 
 
 ### Header Image
-The header image should be a 130px high and smaller than 25K in filesize. Images must reside in /images/header/. Type to select, type 'image' to list everything. [File an issue](https://github.com/ArctosDB/arctos/issues/new) for assistance with creating a header image or for placing a header image on the server. Leave blank for no image.
+The header image should be a 130px high and smaller than 25K in filesize. Images must reside in /images/header/. Type to select, type 'image' to list everything. <a href="https://github.com/ArctosDB/arctos/issues/new" target=_blank>File an issue </a> for assistance with creating a header image or for placing a header image on the server. Leave blank for no image.
     
 ### Header Image Link
 You may provide a URL that clicking on the header image leads to. Leave blank for no link. 
@@ -226,7 +226,7 @@ It is recommended that each collection's metadata be reviewed at least annually 
  * update collection description if necessary
  * update citation if necessary
 
-To accomplish this, from the Arctos main menu select **[Manage Data -> Internal Settings -> Manage Collection](http://arctos.database.museum/Admin/Collection.cfm)** and select the collection you wish to update from the dropdown list. Make the necessary edits and select **Save Changes** at the bottom of the  section edited.
+To accomplish this, from the Arctos main menu select **<a href="http://arctos.database.museum/Admin/Collection.cfm" target=_blank>Manage Data -> Internal Settings -> Manage Collection</a>** and select the collection you wish to update from the dropdown list. Make the necessary edits and select **Save Changes** at the bottom of the  section edited.
 
 ## Edit this Documentation
 
