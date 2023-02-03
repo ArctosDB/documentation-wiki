@@ -1,15 +1,15 @@
 ---
 title: How To Manage a Collection
 author: Teresa J. Mayfield-Meyer, Michelle Koo, Philip Khan, Dusty McDonald
-date: 2020-01-16
+date: 2023-02-03
 layout: default_toc
 ---
 
 # How to Manage a Collection
 
-The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created) and to modify the header presented with individual catalog records. Users will need to have Manage_Collection permission for a collection in order to use this tool. Access this form through the following steps in the Arctos main menu: **[Manage Data -> Metadata -> Manage Collection](http://arctos.database.museum/Admin/Collection.cfm)**
+The Manage Collection form in Arctos allows new or existing collections to create/edit metadata about their collection (except for some field values that are set when the collection is created) and to modify the header presented with individual catalog records. Users will need to have Manage_Collection permission for a collection in order to use this tool. Access this form through the following steps in the Arctos main menu: **[Manage Data -> Internal Settings -> Manage Collection](http://arctos.database.museum/Admin/Collection.cfm)**
 
-It is important to fill out as many fields in Manage Collection as practical. Much of this information will be used to complete the collection profile for aggregators and is also useful for those using your data to ensure that the collection is properly cited. The form for managing a collection is divided into multiple parts; [Arctos Community Data](#arctos_community_data), Collection Contacts, Collection Header, Licenses and Terms, Collection Defaults, and Summary Information.
+It is important to fill out as many fields in Manage Collection as practical. Much of this information will be used to complete the collection profile for data aggregators and is also useful for those using your data to ensure that the collection is properly cited. The form for managing a collection is divided into multiple parts; [Arctos Community Data](#arctos_community_data), [Collection Contacts](#collection_contacts), Collection Header, Licenses and Terms, Collection Defaults, and Summary Information.
 
 ## Arctos Community Data
 This section included three Fields that cannot be edited without the assistance of a DBA as changes may affect the way data is published and create issues with locating your data. Below are descriptions and examples of what should go in the individual fields. 
@@ -119,7 +119,7 @@ If you have developed a CSS stylesheet, load the css to /includes/css/ or coordi
 Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection for use in, and as downloaded from, Arctos. 
 
 ### External License
-Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection to external sources, such as GBIF and iDigBio. 
+Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection to external sources, such as GBIF and iDigBio. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile##methods" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
 ### Collection Terms
 Collection Terms accompanies the licenses, and provides a method by which collections may describe how they wish their data to be used, cited, etc., above and beyond the legal requirements specified in the license.
