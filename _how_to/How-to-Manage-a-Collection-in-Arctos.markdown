@@ -174,7 +174,13 @@ A general description of the geographic coverage of the collection. See <a href=
     EXAMPLE: "Primarily New Mexico and the Southwestern United States"
 
 ### Coverage Coordinates
-This table can create a polygon for your geographic coverage. Enter the extreme lat/lon values to create the polygon or leave these blank if you do not wish to define a polygon. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#geographic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+This table can create a polygon for your geographic coverage. Enter the extreme lat/lon values to create the polygon or leave these blank if you do not wish to define a polygon. For global coverage enter coordinates as follows:
+
+W | E | N | S 
+-- | -- | -- | -- 
+-180 | 180 | 90 | -90 
+
+See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#geographic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
 ### General Taxonomic Coverage
 A general description of the taxonomic coverage of the collection. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
