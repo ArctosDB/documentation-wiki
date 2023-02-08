@@ -55,7 +55,7 @@ Once collection metadata are provided and reviewed _for all collections in the i
 
 ## Existing Institutions
 
-Existing institutions in good standing do not need to complete a Prospective Collection Request. Established Arctos database institutions that just want to add a collection should proceed to "<a href="https://arctos.database.museum/Admin/pre_collection.cfm" class="external">Finalize collection creation request</a>" under "Join Arctos."
+Existing institutions in good standing do not need to complete a Prospective Collection Request. Established Arctos database institutions that just want to add a collection should proceed to "<a href="https://arctos.database.museum/Admin/pre_collection.cfm" class="external">Finalize collection creation request</a>" under "Manage -> Community."
 
 1. Read through the "<a href="https://arctos.database.museum/Admin/pre_collection.cfm" class="external">Prerequisites</a>" and if anything there isn't clear or hasn't been discussed with your institution, then don't proceed. If you believe you know what you're doing,* check all the boxes to affirm.
     *Note: the "admin_user" is the admin's login name NOT their Agent name.
