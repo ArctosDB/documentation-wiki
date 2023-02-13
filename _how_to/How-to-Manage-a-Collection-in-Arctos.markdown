@@ -211,9 +211,11 @@ Picklist keyword indicating the process or technique used to prevent physical de
     EXAMPLE: "frozen, formalin, dry"
 
 ### Temporal Coverage
-A general description of the period of time covered in the collection. ee <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#temporal-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
+A general description of the period of time covered in the collection. For paleontologic material describe the geological time periods covered. For extant material provide years. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#temporal-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
     EXAMPLE: "1960 - present with a few older specimens"
+    
+    EXAMPLE: "Ediacaran to Pleistocene"
 
 ### Web Link
 A direct link to the web site for the collection (or institution if the collection itself doesn't have a separate web site).
