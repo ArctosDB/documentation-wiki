@@ -471,6 +471,10 @@ scale.
 **A:** Whatever fits on your desired labels and can be reliably read by a
 convenient machine.
 
+**Q:** How can I generate a csv download for just containers and their hierarchy from the Find Container results view.
+
+**A:** Click on container contents in Find Container. You see the barcoded containers in their positions. If they are cataloged, the guid also displays. The columns are sortable. You can also download as csv. 
+
 ## Usage
 
 This section provides a brief overview of the Arctos container forms and
