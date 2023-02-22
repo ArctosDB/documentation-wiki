@@ -546,27 +546,7 @@ description of the general qualities of the finished product.
     procedures](#object-tracking-in-the-field).)
 -   All other container-related tasks involve only scanning barcodes.
 
-## Creating position-holding freezer boxes (From MLC 2016-01-19)
-
-1.  create a freezer box in object tracking ( or use bulk container edit
-    to create a bunch)
-2.  I prefer, even with 9×9 grids, to create the box wit h100 positions.
-    That way, each row will be 1-10, but you don’t fill the
-    10th position. This makes the numbering easier.
-3.  So, make sure that for "number of positions", you put 100 (or 81 if
-    you prefer, but once you create the positions, they can’t
-    be changed).
-4.  then go find the container using object tracking
-5.  click on the container, putting the check in the box next to it so
-    that that the"edit container" screen shows up to the right
-6.  below edit container and see all collection objects in this
-    container, you will see a "positions" tab – click on it
-7.  say yes to create new positions
-8.  it should generate a form with a freezer box template that you can
-    scan tubes into
-9.  note that if you scan a tube in place, and then need to move it, you
-    must scan it into a different position first, and then refresh your
-    browser to delete it from the old position
+## [Creating position-holding freezer boxes](https://handbook.arctosdb.org/how_to/How-To-Barcode-Cryovials-in-an-Existing-Freezer-Box.html#create-the-freezer-box-in-arctos)
     
 ## Barcode Series
 
