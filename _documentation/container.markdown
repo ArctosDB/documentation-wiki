@@ -10,13 +10,13 @@ date: unknown, 2019-02-22
 In a nutshell, Arctos Object Tracking consists of...
 
 -   "Containers" in one of two categories:
-    1.  Specimen Parts are (also) containers 
+    1.  Catalog record Parts are (also) containers 
     2.  User-defined containers are whatever someone says they are –
         tubes, tube positions in freezer boxes, boxes, shelves, ranges,
         buildings, institutions, etc.
 -   All containers have exactly one "parent" container, but may hold more than one "child"
 
-That is the functional model in its entirety. **Physical specimen parts** ARE
+That is the functional model in its entirety. **Physical catalog record parts** ARE
 containers, and they can be put into other containers, which are
 arbitrary curatorial declarations hopefully arranged in some useful
 fashion, such as bones in boxes on shelves. **Barcodes** (2D codes, RFID, etc.)
@@ -262,9 +262,9 @@ machine-readable labels.
 1.  Change some labels to an appropriate usable container type (one not
     containing "label") with the Label&gt;Container app. Mark them
     appropriately; see [Field Procedures](#in-the-field) for one idea.
-2.  If the barcodes are meant to directly hold specimen parts (*e.g.*,
+2.  If the barcodes are meant to directly hold parts (*e.g.*,
     if they are nunc tubes or tags), install the part into the container
-    using the data entry form, by editing the specimen part, with the
+    using the data entry form, by editing the part, with the
     Parts&gt;&gt;Container batch tool, or any other method.
 3.  Use the container by scanning it into other containers or by
     scanning other containers into it using one of the many appropriate
@@ -300,7 +300,7 @@ process...
 
 1.  Pull out some containers and a corresponding number of labels.
 2.  Use the Arctos tools to change the labels to an appropriate
-    container type – from "specimen label" to "vial," for example.
+    container type – from "container label" to "vial," for example.
 3.  Color-code the barcodes. Indelible ink (Sharpie markers work well)
     on the peel-off backing is perhaps best, but colored rubber bands,
     sticky-notes, or anything else that allows a user to identify the
@@ -319,13 +319,13 @@ process...
 
 -  Install the barcoded container by scanning it into an appropriate
     box, position, etc.
--  Enter specimen data, scanning attached label-halves into the
+-  Enter catalog record data, scanning attached label-halves into the
     appropriate part barcode input area.
 
 Note that the two steps above are independent and may occur in any order
 and at any time. Typically tubes are installed immediately upon
-returning from the field, and specimen data entry may occur months or
-even years later. Once both steps have been completed, the specimen,
+returning from the field, and catalog record data entry may occur months or
+even years later. Once both steps have been completed, the catalog record,
 part, and object tracking data will automatically consolidate.
 
 ### At any time
@@ -338,16 +338,16 @@ part, and object tracking data will automatically consolidate.
     are necessary to bring the "new" container into the object
     tracking system. This immediately allows the container to be tracked
     by scanning it into any other container, and allows it to contain
-    any container or specimen part.
+    any container or part.
 
 ## Object tracking without barcodes
 
 We are occasionally asked about object tracking without barcodes. While
 such interfaces could be developed, we suggest that they should not be;
 non-machine-based "object tracking" is best accomplished through
-specimen part attributes.
+part attributes.
 
-With barcodes, explicitly-defined things (specimen parts) are uniquely,
+With barcodes, explicitly-defined things (parts) are uniquely,
 unambiguously, and globally identified, then "read" by a device which is
 mathematically prevented from making read errors. We maintain that this
 is fundamentally different than anything produced by people reading
@@ -391,7 +391,7 @@ make producing much better data much simpler.
 
 **Q:** The only benefit of barcoding is that it provides you with an east
 \[sic\] mechanism for processing large loans, doing inventories or
-otherwise creating batches of specimens.
+otherwise creating batches of catalog records.
 [(source)](http://mailman.yale.edu/pipermail/nhcoll-l/2014-February/007337.html)
 
 **A:** Barcodes are useful for much more than loans.
@@ -461,7 +461,7 @@ Guide](https://www.idigbio.org/wiki/index.php/Specimen_Barcode_and_Labeling_Guid
 ([archive](https://web.archive.org/web/20151205163004/https://www.idigbio.org/wiki/index.php/Specimen_Barcode_and_Labeling_Guide))
 recommendation of using UUIDs for barcodes, although most collections in
 Arctos prefer a human-readable label prefix. DOIs which resolve to the
-part internally and specimen externally seem ideal (they’re
+part internally and catalog record externally seem ideal (they’re
 globally-unique and resolvable if inadvertently cited), though we have
 so far been unable to procure sufficient DOIs to test this idea at
 scale.
@@ -485,7 +485,7 @@ directive.
 
 Containers may be located and displayed hierarchically through Find
 Container, which is accessible directly through the "tools" control in
-Specimen Results, from Specimen Detail, from loans, and various other
+Search Results, from Catalog Record Detail, from loans, and various other
 places within Arctos. Please note that the container "tree" form is
 dynamic and asynchronous – clicking controls repeatedly (esp. from slow
 connections or searches that return large results sets) may "clog up the
@@ -519,9 +519,9 @@ link from Edit Loan.
 ### "Flattening"
 
 There are various options to "flatten" a container hierarchy into a map
-for locating specimen parts, generally used in conjunction with loans.
-These are part (not specimen) based, and so the option from specimen
-results will flatten all parts for all specimens included in the results
+for locating parts, generally used in conjunction with loans.
+These are part (not catalog record) based, and so the option from search
+results will flatten all parts for all catalog records included in the results
 set, while the options from loans will flatten only those parts which
 are included in the loan. Note also that loans often contain subsamples,
 which are generally not included in object tracking systems.
@@ -538,7 +538,7 @@ description of the general qualities of the finished product.
 -   A ***system*** is critical. Scattering some barcodes around and
     occasionally beeping at them with a scanner does not somehow lead to
     knowing where things are.
--   Containers should be created (as container type "% label" - currently "container label", "cryovial label", and "specimen label") 
+-   Containers should be created (as container type "% label" - currently "container label", "cryovial label", and "container label") 
 	in large batches, when
     printed or purchased.
 -   Containers should be edited exactly one time, when containers of type "% label" are
