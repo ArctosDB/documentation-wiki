@@ -1,5 +1,5 @@
 ---
-title: How To Add Items to an Object Loan
+title: How To Add Object Loan Items
 layout: default_toc
 author: DLM, Teresa J Mayfield-Meyer
 date: 2023-03-06, 2021-01-15, 2021-07-24
