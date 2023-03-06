@@ -6,7 +6,7 @@ date: 2023-03-06
 ---
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
-[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/186)
+[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/293)
 
 [//]: #[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
 
@@ -35,6 +35,6 @@ Click one of the various "add items" links from the loan search results or edit 
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Add-Data-Loan-Items.markdown" target="_blank">here</a>.
 
-[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/186)
+[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/293)
 
  [//]: #[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
