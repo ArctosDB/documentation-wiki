@@ -26,8 +26,7 @@ non-current data which will be rejected.**
 There is no standard method for moving data into table Bulkloader. You
 may import data from any file format, type the data into the table,
 write your own data entry screen, or use any other method you choose. We
-appreciate documentation, even for specialized datasets – [contact us](https://arctosdb.org/join-arctos/contacts-support) 
-if you wish to contribute.
+appreciate documentation, even for specialized datasets – see [How To Github - Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html) if you wish to contribute.
 
 You may mix accessions, collections, or anything else in a single load.
 
