@@ -1,5 +1,5 @@
 ---
-title: How To Create or Edit Content on the Arctos Wiki (DEPRECATED)
+title: index_How To Create or Edit Content on the Arctos Wiki (DEPRECATED)
 layout: default_toc
 ---
 This file has been deprecated. See instead: How-to-Contribute-Content-to-Arctos-Handbook (https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Contribute-Content-to-Arctos-Handbook.markdown)
