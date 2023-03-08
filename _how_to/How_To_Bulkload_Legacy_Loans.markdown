@@ -41,9 +41,9 @@ Bulkloading loan information is a two step process. The first step involves crea
 
  * If edits are required after the loan metadata is uploaded, see [How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html)
  
-## Bulkload Parts to Loans ([How To Add Items to an Object Loan](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html))
+## [Bulkload Loan Items](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Loan_Parts.html)
 
-Now that the loans have been created in Arctos, parts that were included in each loan need to be added. To accomplish this, see [How To Bulkload Loan Items](https://handbook.arctosdb.org/how_to/How-To-Bulkload-Loan-Parts.html)
+Now that the loans have been created in Arctos, parts that were included in each loan need to be added. To accomplish this, see [How To Bulkload Loan Items](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Loan_Parts.html)
 
 # Tutorial Videos ↗️
 
