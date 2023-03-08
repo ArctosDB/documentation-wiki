@@ -19,9 +19,9 @@ Bulkloading loan information is a two step process. The first step involves crea
 
 * Formatting is very important, so make sure you are typing things into the spreadsheet exactly as they appear when you pull up a loan in Arctos. 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
-* For details about what should be included in each field of the Loan Item Bulkload, see the Definitions and Documentation section of the [Bulkload Loan Item Tool](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=ld) and follow the links for each column header for more information or reiew [How To Add Items to an Object Loan](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html)  
+> For details about what should be included in each field of the Loan Item Bulkload, see the Definitions and Documentation section of the [Bulkload Loan Item Tool](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=ld) and follow the links for each column header for more information or reiew [How To Add Items to an Object Loan](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html)  
  
 * When the template is complete, save the file as a csv
  

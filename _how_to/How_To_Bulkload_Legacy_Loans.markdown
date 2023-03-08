@@ -19,15 +19,15 @@ Bulkloading loan information is a two step process. The first step involves crea
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
 
-* When entering agent names, the easiest way to make sure that 1) the agent exists in Arctos and 2) you have the name spelled and formatted correctly, is to search in Arctos for the agent and if existing, copy/paste that name from Arctos into the spreadsheet. If you need to create an agent, see [How to Create Agents](http://handbook.arctosdb.org/how_to/How-to-Create-Agents.html)
-
-* Excel tends to auto-correct dates into a default format.  Change the date columns from date or number format to text format, or select the date format used in Arctos (yyyy-mm-dd) **Tip** The written sections of the loan (Nature of Material, Description, Instructions) must be “HTML-friendly.” If there are any symbols in these fields that don’t work in HTML, Arctos will not let you create the loan. The ususal culprit is the enter/return key, instead of using “enter” to create a line break, you will need to use <br>
-
- * If the loan contains items from multiple collections in the institution, the loan may be assigned to the collection with the greatest number of specimens in the loan, no matter how this determination is made it is best to be consistent, so document the method of choice for your institution
+> * When entering agent names, the easiest way to make sure that 1) the agent exists in Arctos and 2) you have the name spelled and formatted correctly, is to search in Arctos for the agent and if existing, copy/paste that name from Arctos into the spreadsheet. If you need to create an agent, see [How to Create Agents](http://handbook.arctosdb.org/how_to/How-to-Create-Agents.html)
+> 
+> * Excel tends to auto-correct dates into a default format.  Change the date columns from date or number format to text format, or select the date format used in Arctos (yyyy-mm-dd) **Tip** The written sections of the loan (Nature of Material, Description, Instructions) must be “HTML-friendly.” If there are any symbols in these fields that don’t work in HTML, Arctos will not let you create the loan. The ususal culprit is the enter/return key, instead of using “enter” to create a line break, you will need to use <br>
+> 
+> * If the loan contains items from multiple collections in the institution, the loan may be assigned to the collection with the greatest number of specimens in the loan, no matter how this determination is made it is best to be consistent, so document the method of choice for your institution
+>  
+> * For details about what should be included in each field of the Loan Metadata Bulkload, see the Definitions and Documentation section of the [Loan Loader](https://arctos.database.museum/loaders/BulkloadLoan.cfm?action=ld) and follow the links for each column header for more information or reiew [Initiating a Loan](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html#initiating-a-loan)  
  
- * For details about what should be included in each field of the Loan Metadata Bulkload, see the Definitions and Documentation section of the [Loan Loader](https://arctos.database.museum/loaders/BulkloadLoan.cfm?action=ld) and follow the links for each column header for more information or reiew [Initiating a Loan](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html#initiating-a-loan)  
- 
- * When the template is complete, save the file as a csv
+* When the template is complete, save the file as a csv
  
 * Upload the file using the upload button found on the component loader screen.
 
@@ -39,7 +39,7 @@ Bulkloading loan information is a two step process. The first step involves crea
 
 * Citations will be immediately linked, however they may not appear in your catalog records for up to 24 hours.
 
- * If edits are required after the loan metadata is uploaded, see [How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html)
+* If edits are required after the loan metadata is uploaded, see [How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html)
  
 ## [Bulkload Loan Items](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Loan_Parts.html)
 
