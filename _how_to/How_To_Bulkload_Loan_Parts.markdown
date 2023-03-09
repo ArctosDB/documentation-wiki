@@ -37,7 +37,7 @@ Bulkloading loan information is a two step process. The first step involves crea
 
 * If edits are required after the loan items are uploaded, see [How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html) 
 
-# Tutorial Videos ↗️
+## Tutorial Videos ↗️
 
 How to Bulkload Loan Items (Step 2):
 

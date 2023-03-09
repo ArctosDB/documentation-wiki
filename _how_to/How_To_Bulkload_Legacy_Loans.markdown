@@ -33,11 +33,11 @@ Bulkloading loan information is a two step process. The first step involves crea
 
 * Once your spreadsheet formatting has completed validation, click on the 'Review and Load' link to see your records in the component loader (if your data does not validate and you receive an error message, check that your spreadsheet column headings are correct).
 
-* If you entered "autoload" in the status column of your csv, the records should begin to load automatically, otherwise you will need to select "Review all records for user" next to your Arctos username, then select "check all and change status to 'autoload'" and finally, Change status for checked records". This series of steps will set your citations to begin loading.
+* If you entered "autoload" in the status column of your csv, the records should begin to load automatically, otherwise you will need to select "Review all records for user" next to your Arctos username, then select "check all and change status to 'autoload'" and finally, Change status for checked records". This series of steps will set your loans to begin loading.
 
-* Return to "Review and Load" to monitor the progress, any errors with your citation data will be returned in the 'Status' column. Common errors include missing data (e.g., required fields) or catalog record numbers that are not found. To rectify these erros, select "Get csv for this user/status", then delete the offending records using "Delete for this user/status". Use the downloaded csv to make corrections then repeat the process above for the corrected data.
+* Return to "Review and Load" to monitor the progress, any errors with your loan data will be returned in the 'Status' column. Common errors include missing data (e.g., required fields) or catalog record numbers that are not found. To rectify these erros, select "Get csv for this user/status", then delete the offending records using "Delete for this user/status". Use the downloaded csv to make corrections then repeat the process above for the corrected data.
 
-* Citations will be immediately linked, however they may not appear in your catalog records for up to 24 hours.
+* Loans will be immediately added.
 
 * If edits are required after the loan metadata is uploaded, see [How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html)
  
@@ -45,7 +45,7 @@ Bulkloading loan information is a two step process. The first step involves crea
 
 Now that the loans have been created in Arctos, parts that were included in each loan need to be added. To accomplish this, see [How To Bulkload Loan Items](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Loan_Parts.html)
 
-# Tutorial Videos ↗️
+## Tutorial Videos ↗️
 
 How to Bulkload Loans (Step 1):
 
