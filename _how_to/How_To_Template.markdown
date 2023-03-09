@@ -63,6 +63,8 @@ This same technique can be used for any links you would like to add.
 
 ### Images
 
+If you want to add screen shots or other images, see [How To Handle Images](https://handbook.arctosdb.org/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.html#how-to-handle-images)
+
 ### FAQ
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Add FAQ text here?**
 `<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Add FAQ text here?**`
@@ -75,7 +77,7 @@ This is a block and can include code
 > or the quote block?
 ```
 
-Always add the two sections below! But change the link text and link urls to indicate the appropriate items. If there is no video tutorial, add the text "Video Tutorial Needed".
+Always include the two sections below! But change the link text and link urls to indicate the appropriate items. If there is no video tutorial, add the text "Video Tutorial Needed".
 
 ## Tutorial Videos ↗️
 
