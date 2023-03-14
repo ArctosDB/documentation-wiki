@@ -7,6 +7,8 @@ layout: default_toc
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
+[GitHub Issue](https://github.com/ArctosDB/documentation-wiki/issues/238)
+
 # How To Enter Data for a Single Record 
 
 ## Navigation 
@@ -62,7 +64,7 @@ The following provides some specifics by data entry section.
 
 ### Identification 
 
-Use this block when you are entering a single identification with a single Identifying Agent. If you want to enter more than one identification for a single catalog record or a single identification with multiple Identifying Agents, use ["Extras Identification"](#"Extras"_Identification).
+Use this block when you are entering a single identification with a single Identifying Agent. If you want to enter more than one identification for a single catalog record or a single identification with multiple Identifying Agents, use ["Extras Identification"](/how_to/How-to-Enter-Data-for-a-Single-Record.html#"Extras"_Identification).
 
 * Scientific Name is the identification to be applied to the cataloged item. Type in all or part of the cataloged item’s identification and use the Tab key to select a taxon name, or use the "build" button to create a complex identification.
 * Identifying Agent is the Arctos Agent that determined the identification. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
@@ -72,7 +74,7 @@ Use this block when you are entering a single identification with a single Ident
 
 ### "Extras" Identification
 
-This section allows you to add up to 3 identifications to a catalog record at once and to include up to 6 Identifying Agents for each Identification. The fields are the same as those discussed in [Identification](#Identification).
+This section allows you to add up to 3 identifications to a catalog record at once and to include up to 6 Identifying Agents for each Identification. The fields are the same as those discussed in [Identification](/how_to/How-to-Enter-Data-for-a-Single-Record.html#Identification).
 
 ## Everything below this line needs updating
 <hr/>
