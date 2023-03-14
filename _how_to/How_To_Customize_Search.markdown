@@ -10,7 +10,7 @@ The main search page can be customized for queries to reflect the preferred suit
 
 ### Navigation: [Main Page OR Search -> Catalog Record](https://arctos.database.museum/search.cfm)
 
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_form.png" width="50"> 
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_form.png"> 
 
 ## Default Search
 
@@ -31,9 +31,9 @@ Click the Customize Search button to view a pop-up window with a table containin
 
 >Log in to save customizations. These selections will be saved and displayed on subsequent logins.
 
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table.PNG" width="50">
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table.PNG">
 
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table_scroll.png" width="50">
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table_scroll.png">
 
 ## Tutorial Videos ↗️
 
