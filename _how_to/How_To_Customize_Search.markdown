@@ -6,38 +6,43 @@ date: 2023-03-14
 ---
 # How To Customize the Search Page
 
-The main search page can be customized for queries to reflect the preferred suite of fields displayed or used most frequently when searching. When logged in, customization options are saved to the user profile.
+The main search page can be customized to reflect the preferred suite of fields displayed for queries, especially those most frequently when searching. When logged in, customization options are saved to the user profile and will automatically display on subsequent logins.
 
-### Navigation: [Main Page OR Search -> Catalog Record](https://arctos.database.museum/search.cfm)
+### Navigation: [Main Page [OR] Search -> Catalog Record](https://arctos.database.museum/search.cfm)
 
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_form.png"> 
 
 ## Default Search
 
-This is akin to a 'Basic' search. Here, the search form has a limited set of options visible.
+This is akin to a 'Basic' search. As a default, the search form displays a limited set of field options.
 
 ## Show All Options
 
-Use the menu within each category to display all fields available by selecting "show all options" from the drop-down menu. For example, when selecting this option for Identifiers, GUID and Any Identifier and an Identifier Type menu appear in addition to the three default fields (Collection, Catalog Number, and Relationship) 
+The "show all options" customization displays all fields available within a search cateogry and is akin to an 'Advanced' search. Use the drop-down menu next to each category to select "show all options" from the drop-down menu. For example, when selecting this value for the Identifiers category, the fields for GUID, Any Identifier, and Identifier Type appear in the query block in addition to the three default fields already visible (Collection, Catalog Number, and Relationship).
 
 ## Customize
 
-Click the Customize Search button to view a pop-up window with a table containing all search fields. Use the menu at the top to scroll to the category or sub-category containing the relevant fields you wish to display or turn off. Toggle the "Show" checkbox on the left on or off to display or remove fields from the form. Clicking the "All" button will display all fields associated with a category. Clicking "None" will remove all fields from a category from display on the search page. Clicking "Save" will save your preferences and close out the pop-up window.
-
-### Pro Tips
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
-
->Selecting the Customize drop-down option under each category in the search form will result in a pop-up window with a table containing all search fields. The table will automatically scroll to the corresponding search options for the category selected, with all options highlighted in blue.
-
->Log in to save customizations. These selections will be saved and displayed on subsequent logins.
+Click the Customize Search button to view a pop-up window with a table containing all search fields. Use the menu at the top to scroll to the category or sub-category containing the relevant fields you wish to display or turn off. 
+* Toggle the "Show" checkbox on the left on or off to display or remove fields from the form. 
+* Clicking the "All" button will display all fields associated with a category. 
+* Clicking "None" will remove all fields from a category from display on the search page. Clicking "Save" will save your preferences and close out the pop-up window.
 
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table.PNG">
 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
+
+Selecting the Customize drop-down option under each category in the search form will result in a pop-up window with a table containing all search fields. The table will automatically scroll to the corresponding search options for the category selected, with all options highlighted in blue.
+
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table_scroll.png">
+
+## Saving Customizations
+
+Log in to save customizations. These selections will be saved to your user profile and displayed on subsequent logins.
+
 
 ## Tutorial Videos ↗️
 
-Tutorial video needed.
+Tutorial video needed (see webinar).
 
 ## Edit this Documentation
 
