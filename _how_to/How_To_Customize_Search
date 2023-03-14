@@ -9,10 +9,11 @@ date: 2023-03-14
 
 # How To Customize the Search Page 
 
-The main search page can be customized for queries to reflect the preferred suite of fields displayed or used most frequently when searching. Customization options are saved to the user profile when logged in.
-
+The main search page can be customized for queries to reflect the preferred suite of fields displayed or used most frequently when searching. When logged in, customization options are saved to the user profile.
 
 ### Navigation: [Main Page OR Search -> Catalog Record](https://arctos.database.museum/search.cfm)
+
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_form.png" width="50"> 
 
 ## Default Search
 
@@ -29,28 +30,14 @@ Click the Customize Search button to view a pop-up window with a table containin
 ### Pro Tips
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
 
->Selecting the Customize drop-down option under each category in the search form will result in a pop-up window with a table containing all search fields. Depending on which category  
+>Selecting the Customize drop-down option under each category in the search form will result in a pop-up window with a table containing all search fields. The table will automatically scroll to the corresponding search options for the category selected, with all options highlighted in blue.
 
 >Log in to save customizations. These selections will be saved and displayed on subsequent logins.
 
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table.PNG" width="50">
 
-### Images
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table_scroll.png" width="50">
 
-If you want to add screen shots or other images, see [How To Handle Images](https://handbook.arctosdb.org/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.html#how-to-handle-images)
-
-### FAQ
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Add FAQ text here?**
-`<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Add FAQ text here?**`
-
-### Code Blocks
-If you want to add some code that you want to be visible in the How To, place it between two lines of three backticks (the symbol under the tilde on most QUERTY keyboards).
-```
-This is a block and can include code
-* see how the bullet point doesn't render?
-> or the quote block?
-```
-
-Always include the two sections below! But change the link text and link urls to indicate the appropriate items. If there is no video tutorial, add the text "Video Tutorial Needed".
 
 ## Tutorial Videos ↗️
 
