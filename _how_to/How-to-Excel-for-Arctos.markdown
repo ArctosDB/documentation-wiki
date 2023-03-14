@@ -50,6 +50,14 @@ When saving from Excel, save as CSV UTF-8 (Comma delimited)(*csv)
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Excel/Save_as_csv_utf8.jpg)
 
+### Non-printing Characters (noprint errors)
+
+If you get an error that includes "noprint" this indicates that there is a non-printable character in a field that is described in the rest of the "noprint" quote. These can include non-ASCII characters and trailing or double spaces. Here are some strategies for dealing with data in Excel so that you can clean up or avoid "noprint" errors.
+
+* Use the TRIM function on messy data to remove many non-printable characters.
+* Use the "strip junk" option in Arctos if it available.
+* Try [this](https://github.com/ArctosDB/documentation-wiki/issues/160#issuecomment-718037471). 
+
 ## Downloading Data 
 
 ### Non-ASCII Characters
