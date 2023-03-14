@@ -16,6 +16,14 @@ Excel is a widely used tool for managing data in tables and many people managing
 
 See (#import_the_data_to_excel)
 
+## Uploading Data
+
+### Save File
+
+When saving from Excel, save as CSV UTF-8 (Comma delimited)(*csv)
+
+![]https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Excel/Save_as_csv_utf8.jpg
+
 ## Downloading Data 
 
 ### Non-ASCII Characters
