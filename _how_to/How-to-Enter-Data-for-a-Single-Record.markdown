@@ -72,7 +72,7 @@ Use this block when you are entering a single identification with a single Ident
 
 ### "Extras" Identification
 
-This section allows you to add up to 3 identifications to a catalog record at once and to include up to 6 Identifying Agents for each Identification. The fields are the same as those discussed in ["Extras Identification"](#Identification).
+This section allows you to add up to 3 identifications to a catalog record at once and to include up to 6 Identifying Agents for each Identification. The fields are the same as those discussed in [Identification](#Identification).
 
 ## Everything below this line needs updating
 <hr/>
