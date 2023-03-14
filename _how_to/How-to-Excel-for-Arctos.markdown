@@ -14,35 +14,34 @@ Excel is a widely used tool for managing data in tables and many people managing
 
 ### Dates 
 
+* Enter a date into Excel… 
+
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-26-am.png"  width="131"
 height="84" />
 
-Enter a date into Excel…
+* Leave the field. Evil magic happens. 
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png"  width="151" height="91"
 sizes="(max-width: 151px) 100vw, 151px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am.png 151w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-34-am-150x91.png 150w" />
 
-Leave the field. Evil magic happens.
+* Instead - Format Cells… 
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png"  width="304" height="325"
 sizes="(max-width: 304px) 100vw, 304px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am.png 304w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am-281x300.png 281w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am-250x267.png 250w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-35-46-am-168x180.png 168w" />
 
-Format Cells…
+* with a custom date format 
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am.png"  width="543" height="551"
 sizes="(max-width: 543px) 100vw, 543px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am.png 543w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-296x300.png 296w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-48x48.png 48w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-250x254.png 250w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-177x180.png 177w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-25-am-493x500.png 493w" />
 
-custom date format
+* Everyone is happy! 
 
 <img src="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png"  width="100" height="102"
 sizes="(max-width: 100px) 100vw, 100px"
 srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.png 100w, ../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am-48x48.png 48w" />
-
-happy!
-
 
 ### Saving to CSV
 
