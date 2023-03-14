@@ -9,13 +9,18 @@ date: 2023-03-14
 
 # How To Customize the Search Page 
 
-The main search page can be customized for queries. Customization options cab be saved to a user profile when logged in to reflect the suite of fields users access most frequently.
+The main search page can be customized for queries to reflect the preferred suite of fields displayed or used most frequently when searching. Customization options are saved to the user profile when logged in.
 
 
 ### Navigation: [Main Page OR Search -> Catalog Record](https://arctos.database.museum/search.cfm)
 
+## Default Search
 
-Write up the steps involved for using the tool or accomplishing the task. Use the tools below as needed:
+This is akin to a 'Basic' search. Here, the search form has a limited set of options visible.
+
+## Show All Options
+
+Use the menu within each category to display all fields available by selecting "show all options" from the drop-down menu. For example, when selecting this option for Identifiers, GUID and Any Identifier and an Identifier Type menu appear in addition to the three default fields (Collection, Catalog Number, and Relationship) 
 
 ### Pro Tips
 
