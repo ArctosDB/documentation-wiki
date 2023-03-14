@@ -48,7 +48,7 @@ srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.
 
 When saving from Excel, save as CSV UTF-8 (Comma delimited)(*csv)
 
-![]https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Excel/Save_as_csv_utf8.jpg
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Excel/Save_as_csv_utf8.jpg)
 
 ## Downloading Data 
 
