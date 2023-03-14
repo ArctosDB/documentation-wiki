@@ -1,0 +1,69 @@
+---
+title: How To Customize Search 
+layout: default_toc
+author: Emily Braker
+date: 2023-03-14
+---
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
+
+# How To Customize the Search Page 
+
+The main search page can be customized for queries. Customization options cab be saved to a user profile when logged in to reflect the suite of fields users access most frequently.
+
+
+### Navigation: [Main Page OR Search -> Catalog Record](https://arctos.database.museum/search.cfm)
+
+
+Write up the steps involved for using the tool or accomplishing the task. Use the tools below as needed:
+
+### Pro Tips
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
+>Log in to save customizations. These selections will be saved and displayed on subsequent logins.
+
+
+
+### Caution
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+`![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**`
+
+> want to warn users about possible pitfalls? Add some caution notes in a quote block
+> 
+> you accomplish this by adding `> ` at th beginning of each line
+ 
+### Bullet Points
+* add bullet points by placing `* ` at the beginning of a line
+ 
+### Links to Another How To
+Link to other How Tos by putting the link text in square brackets followed immediately by the page url in parenthesis [How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html)
+`[How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html)`
+
+This same technique can be used for any links you would like to add.
+
+### Images
+
+If you want to add screen shots or other images, see [How To Handle Images](https://handbook.arctosdb.org/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.html#how-to-handle-images)
+
+### FAQ
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Add FAQ text here?**
+`<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Add FAQ text here?**`
+
+### Code Blocks
+If you want to add some code that you want to be visible in the How To, place it between two lines of three backticks (the symbol under the tilde on most QUERTY keyboards).
+```
+This is a block and can include code
+* see how the bullet point doesn't render?
+> or the quote block?
+```
+
+Always include the two sections below! But change the link text and link urls to indicate the appropriate items. If there is no video tutorial, add the text "Video Tutorial Needed".
+
+## Tutorial Videos ↗️
+
+Tutorial video needed.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How_To_Customize_Search.markdown" target="_blank">here</a>.
