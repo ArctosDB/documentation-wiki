@@ -1,6 +1,6 @@
 ---
 title: How To Enter Data for a Single Record
-author: Teresa J. mayfield-Meyer
+author: Teresa J. Mayfield-Meyer
 date: 2023-03-14
 layout: default_toc
 ---
@@ -52,14 +52,30 @@ See [How To Customize the Data Entry Form]()
 
 The following provides some specifics by data entry section.
 
-### Catalog Recod Data
+### Catalog Record Data
 * Accession is is the Acquisition number that is given to a set of specimens, e.g., 01.2014 and is **REQUIRED** and can be selcted using the "pick" button. The accession **does not** need to be associated with the same collection as the item being entered.
 * Catalog Number can be left blank if you wish Arctos to assign the next available number (only for collections using integer catalog numbers).
-* CAtalog Item Type can be left balnk if you wish to use the default type selected in colelction metadata (See [How To Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html#default-cataloged-item-type)
-
-* GUID Prefix will be completed based upon the colelction selectd above or what has been added to a customized data entry form.
+* Catalog Item Type can be left blank if you wish to use the default type selected in collection metadata (See [How To Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html#default-cataloged-item-type)
+* GUID Prefix will be completed based upon the collection selectd above or what has been added to a customized data entry form.
 * Entered By should have your Arctos username already filled in.
 * Status will always be “waiting approval.”
+
+### Identification 
+
+Use this block when you are entering a single identification with a single Identifying Agent. If you want to enter more than one identification for a single catalog record or a single identification with multiple Identifying Agents, use ["Extras Identification"](#"Extras"_Identification).
+
+* Scientific Name is the identification to be applied to the cataloged item. Type in all or part of the cataloged item’s identification and use the Tab key to select a taxon name, or use the "build" button to create a complex identification.
+* Identifying Agent is the Arctos Agent that determined the identification. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
+* Nature of ID is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id).
+* ID Date is the date the Agent assigned the identification. If this is not known, leave it blank.
+* ID Remark can be used to add information about the identification, including a verbatim determiner if the Identifying Agent is not found in Arctos Agents.
+
+### "Extras" Identification
+
+This section allows you to add up to 3 identifications to a catalog record at once and to include up to 6 Identifying Agents for each Identification. The fields are the same as those discussed in ["Extras Identification"](#Identification).
+
+
+
 
 **Agents**
 * “Collector” should be the agent’s name. Fill in the name, hit Tab and you will see a popup; you may have to select the collector if there’s more than one choice.
