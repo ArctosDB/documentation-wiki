@@ -7,9 +7,10 @@ date: 2023-03-14
 
 # How To Bulkload Parts
 
-This document will walk through the steps for bulkloading parts and their associated attributes using the Part Bulkload Tool.
+This document will walk through the steps for bulkloading parts and up to six of their associated attributes using the Part Bulkload Tool.
 
-### Navigation: [Manage -> Records -> Parts - Bulkload -> Load csv](https://arctos.database.museum/tools/BulkloadParts.cfm?action=ld)
+### Navigation: 
+[Manage -> Records -> Parts - Bulkload -> Load csv](https://arctos.database.museum/tools/BulkloadParts.cfm?action=ld)
 
 ## Create Part Bulkload CSV
 
