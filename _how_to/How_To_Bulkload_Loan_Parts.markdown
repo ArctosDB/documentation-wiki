@@ -11,9 +11,11 @@ Bulkloading loan information is a two step process. The first step involves crea
 
 ## Bulkload Parts to Loans ([How To Add Items to an Object Loan](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html))
 
-### Navigation: [Manage -> Accessions, Loans, Permits -> Loan Item Bulkload -> Load csv](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=ld)  
+### Navigation: 
 
- Use the the "[Get a template](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=makeTemplate)" hyperlink to download the loan item bulkloader spreadsheet (.csv)
+[Manage -> Accessions, Loans, Permits -> Loan Item Bulkload -> Load csv](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=ld)  
+
+Use the the "[Get a template](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=makeTemplate)" hyperlink to download the loan item bulkloader spreadsheet (.csv)
  
 * Populate the spreadsheet fields following the conventions outlined by the Loan Loader screen. The summary indicates what fields are required. 
 
