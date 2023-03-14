@@ -74,8 +74,8 @@ Use this block when you are entering a single identification with a single Ident
 
 This section allows you to add up to 3 identifications to a catalog record at once and to include up to 6 Identifying Agents for each Identification. The fields are the same as those discussed in ["Extras Identification"](#Identification).
 
-
-
+## Everything below this line needs updating
+<hr/>
 
 **Agents**
 * “Collector” should be the agent’s name. Fill in the name, hit Tab and you will see a popup; you may have to select the collector if there’s more than one choice.
