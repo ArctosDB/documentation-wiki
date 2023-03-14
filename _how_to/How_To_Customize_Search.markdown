@@ -42,7 +42,7 @@ Log in to save customizations. These selections will be saved to your user profi
 
 ## Tutorial Videos ↗️
 
-[![How to Customize Search](https://i9.ytimg.com/vi/pN40CkKAbgw/mq2.jpg?sqp=CJCU8I8G&rs=AOn4CLCgvG7IypQyOLtWLJ3jqMzZHZ6e7A)](https://youtu.be/LvMPR8QbYB4)
+[![How to Customize Search](https://youtu.be/LvMPR8QbYB4)
 
 
 ## Edit this Documentation
