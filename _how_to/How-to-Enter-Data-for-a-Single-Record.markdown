@@ -1,33 +1,65 @@
 ---
 title: How To Enter Data for a Single Record
+author: Teresa J. mayfield-Meyer
+date: 2023-03-14
 layout: default_toc
 ---
 
-# How To Enter Data for a Single Record
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
-**Enter Data > Data Entry**
+# How To Enter Data for a Single Record 
 
-It will bring you to a page where you can choose what collection to enter data into.
+## Navigation 
 
-Select the collection you need in the drop down menu under “Begin at…” and click the blue “Enter Data” button next to it.
+[Manage -> Data Entry -> Data Entry](https://arctos.database.museum/enter_data.cfm)
 
-You should be brought to the page that lets you enter data.
+## Select a Data Entry Form 
 
-Note that the background should be green. If it is not, for some reason Arctos will not let you save your data.
-To get a green screen try using different browsers. For instance, I can only enter data when using Google Chrome while the lab computer works using Internet Explorer.
+### Pick a Profile 
 
-# Core
+Profiles are customized data entry forms that may carry seed data. You - or any other user - may use any profile to begin data entry with the data and arrangement in the profile.
 
-Data Entry Breakdown…
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-**Cat Item IDs**
-* “Coln” should already be filled in with the collection you are entering data for.
-* “Cat#” is the specimen’s institutional catalog number.
-* If there is a collector or preparator number, use the “CustomID Type” drop down menu. Scroll all the way to the bottom and select “collector number” or “preparator number.”
-* “Custom ID” is the specimen’s collector or preparator number, if it has one.
-* “Accn” is the Acquisition number that is given to a set of specimens, e.g., 01.2014
-* “Entered By” should have your Arctos username already filled in.
-* “Status” will always be “waiting approval.”
+Data values saved in the profile will have a distinct style and should be carefully checked before saving a record.
+
+To set up a data-bearing profile, you may proceed with one of the options below, then
+
+* Arrange your screen however you wish.
+* Enter data that you want the profile to carry, clear out anything that you do not want in the profile. (It is not necessary for the seed data to pass any checks; partial values, types without values, etc., are expected.)
+* Click save profile and provide a (unique) name when prompted.
+
+### Begin with Previous Records 
+
+You can start with the last record you entered or if you have sufficient access, with any previously entered record.
+
+### Begin with a Blank Slate 
+
+* Select the collection you need under “Begin with a blank slate”.
+* This will start with your last data entry customization.
+
+After choosing one of these options, you will be directed to the appropriate data entry form.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+The background of your new data entry screen should be **green**. If it is not, Arctos will not let you save your data.
+
+## Customization
+
+See [How To Customize the Data Entry Form]()
+
+## Form Details
+
+The following provides some specifics by data entry section.
+
+### Catalog Recod Data
+* Accession is is the Acquisition number that is given to a set of specimens, e.g., 01.2014 and is **REQUIRED** and can be selcted using the "pick" button. The accession **does not** need to be associated with the same collection as the item being entered.
+* Catalog Number can be left blank if you wish Arctos to assign the next available number (only for collections using integer catalog numbers).
+* CAtalog Item Type can be left balnk if you wish to use the default type selected in colelction metadata (See [How To Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html#default-cataloged-item-type)
+
+* GUID Prefix will be completed based upon the colelction selectd above or what has been added to a customized data entry form.
+* Entered By should have your Arctos username already filled in.
+* Status will always be “waiting approval.”
 
 **Agents**
 * “Collector” should be the agent’s name. Fill in the name, hit Tab and you will see a popup; you may have to select the collector if there’s more than one choice.
@@ -133,6 +165,10 @@ These data are written to the Component Loader system, which generates a weekly 
 * Now you will want to click on “Save This As A New Record” in the bottom left hand side of the page in the blue box.
 * Your data sheet will then be put into the bulkloader and await approval.
 * To approve the records for upload to Arctos see [How to approve records entered with Data Entry form](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-approve-records-entered-with-Data-Entry-form)
+
+## Stuff from old document
+* If there is a collector or preparator number, use the “CustomID Type” drop down menu. Scroll all the way to the bottom and select “collector number” or “preparator number.”
+* Custom ID” is the specimen’s collector or preparator number, if it has one.
 
 ### Data Entry Tutorial Video ###
 [![Data Entry Example](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Arctos_Data_Entry_Example.jpg)](https://youtu.be/IOJP1M_Lu_E)
