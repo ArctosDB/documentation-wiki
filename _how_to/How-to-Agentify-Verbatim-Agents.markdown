@@ -55,7 +55,7 @@ The Attribute Unload Tool will unload ALL verbatim agent attributes from the rec
 
 ## Video Tutorial
 
-![Video Tutorial](https://www.youtube.com/watch?v=np1jQzi0f9Q)
+[Video Tutorial](https://www.youtube.com/watch?v=np1jQzi0f9Q)
 
 ## Edit this How To
 
