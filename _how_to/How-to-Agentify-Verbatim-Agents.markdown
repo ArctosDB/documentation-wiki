@@ -55,8 +55,8 @@ The Attribute Unload Tool will unload ALL verbatim agent attributes from the rec
 
 ## Video Tutorial
 
-Please make one!
+![Video Tutorial](https://www.youtube.com/watch?v=np1jQzi0f9Q)
 
 ## Edit this How To
 
-If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Agentify-Verbatim-Agents.markdown).
+If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Agentify-Verbatim-Agents.markdown).
