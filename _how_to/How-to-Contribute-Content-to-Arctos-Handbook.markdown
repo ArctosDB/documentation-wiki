@@ -170,7 +170,7 @@ create How To
 edit How To  
 
 ## Video Tutorials
-[Make A quick Edit to A How To](https://youtu.be/vj9HQylTiA0)
+[Make a quick edit to a How To](https://youtu.be/vj9HQylTiA0)
 
 ## Edit this Documentation
 
