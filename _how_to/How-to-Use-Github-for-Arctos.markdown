@@ -78,7 +78,7 @@ You can manage email notifications in your GitHub settings, which you can access
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Settings.png)
 
-To learn about GitHub Notifications and how to manage your GitHub experience in general, we suggest you read **[Managing your notifications](https://help.github.com/en/articles/managing-your-notifications)**
+To learn about GitHub Notifications and how to manage your GitHub experience in general, we suggest you read **[Managing your notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github)**
  
 ### Watching vs Participating
  
