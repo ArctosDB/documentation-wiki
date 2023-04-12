@@ -8,7 +8,7 @@ layout: default_toc
 
 Encumbrances restrict the use of specimens or specimen data and are often used to mask information such as collectors, preparators, field numbers, attributes, and remarks.
 
-[List of active Arctos encumbrances](http://arctos.database.museum/info/encumbrances)
+[List of active Arctos encumbrances](https://arctos.database.museum/Reports/encumbranceByCollection.cfm)
 
 Encumbrances are applied to [Cataloged Items](/documentation/catalog). Attributes of an encumbrance include an encumbering [agent](/documentation/agent), an encumbrance name, an expiration date, and an encumbrance action.
 
