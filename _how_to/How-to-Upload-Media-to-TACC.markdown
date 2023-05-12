@@ -17,7 +17,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 
 * Create a TACC User account through the [TACC User Portal](http://portal.tacc.utexas.edu). Direct link: [https://portal.tacc.utexas.edu/account-request](https://portal.tacc.utexas.edu/account-request)
 * Once you have created a new account, it may take 24 hours or so for the account to become active. You should receive an email when your account is approved and ready
-* Email your account username to Carla Cicero ([ccicero@berkeley.edu](mailto:ccicero@berkeley.edu)), TACC Project Manager for Arctos, so that she can add your user account to the Arctos Project allocation. NOTE: MVZ Users are added to the MVZ Media & Archives Project.
+* Email your account username to Elizabeth Wommack ([arctos.communications@gmail.com](mailto:arctos.communications@gmail.com)), TACC Project Manager for Arctos, so that she can add your user account to the Arctos Project allocation. NOTE: MVZ Users are added to the MVZ Media & Archives Project.
 * You will need an SFTP (Secure File Transfer Protocol) program in order to access the Corral system on TACC where Arctos media are stored - see the [TACC Corral User Guide](https://portal.tacc.utexas.edu/user-guides/corral)
  * On the left you’ll see [Transferring Files Using Cyberduck](https://portal.tacc.utexas.edu/user-guides/corral#cyberduck) - download Cyberduck or use another SFTP program
 * Set up a transfer protocol:
