@@ -147,6 +147,10 @@ the form by the order in which they were added to the determination. To
 change the displayed order, drag rows.
 
 
+## Identification Attributes
+
+Identification attributes allow adding any type of metadata to identifications.
+
 ## Nature of ID
 
 
