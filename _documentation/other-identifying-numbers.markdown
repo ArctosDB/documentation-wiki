@@ -97,6 +97,16 @@ Examples:
   |ABC-0123-XYZ   |collector number |ABC-0          |123       |-XYZ     |The integer component will NOT retain leading zeroes. See next row.|
   |ABC-0123-XYZ   |collector number |ABC-0123-XYZ   |`NULL`      |`NULL`     |It may not be worthwhile to try to separate a cryptic "integer component," especially if the number is not part of a large series|
 
+
+## ID Issued By
+
+ID Issued By is the Agent issuing the identifier. 
+
+## ID Assigned By
+
+ID Assigned By is the Agent issuing the identifier. Note that some identifiers my be assigned by bot agents, and these should receive extra scrutiny.
+
+
 ## ID References
 
 ID References is a [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references)
