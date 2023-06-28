@@ -453,6 +453,24 @@ The webservice data pane has documentation inline. Read it.
 
 Duplicate localities are automatically merged, and unused localities are automatically deleted. A Locality Name will prevent both of these actions and should be used in pre-created localities. Please remove Name from any localities which you no longer intend to use.
 
+## How To
+
+Instructions for doing specifc tasks related to Localities in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
+
+- [How To Assign a New Locality to a Catalog Record](https://handbook.arctosdb.org/how_to/How-to-Repecimens-to-Another-Locality.html)
+- [How To Change Locality and Collecting Event](https://handbook.arctosdb.org/how_to/How-to-Change-Locality-Single-Specimen.html)
+- [How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate](https://handbook.arctosdb.org/how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.html)
+- [How To Create a Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-Locality.html)
+- [How To Create a New Collecting Event for a Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html)
+- [How To Create a New Specific Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Specific-Locality.html)
+- [How To Edit a Specific Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Specific-Locality.html)
+- [How To Edit a Verbatim Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Verbatim-Locality.html)
+- [How To Edit Coordinates and Max Error of a Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-Coordinates-and-Max-Error-of-a-Locality.html)
+- [How To Edit Coordinates for One Cataloged Item](https://handbook.arctosdb.org/how_to/How-to-Edit-Coordinates-for-One-Specimen.html)
+- [How To Merge Duplicate Localities](https://handbook.arctosdb.org/how_to/How-to-Merge-Duplicate-Localities.html)
+- [How To Understand Locality Media](https://handbook.arctosdb.org/how_to/How-to-understand-locality-media.html)
+- [How To Understand the Arctos Locality Model](https://handbook.arctosdb.org/how_to/How-to-understand-the-Arctos-Locality-Model.html)
+- 
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/locality.markdown" target="_blank">here</a>.
