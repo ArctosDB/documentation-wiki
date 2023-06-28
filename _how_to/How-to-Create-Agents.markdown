@@ -7,7 +7,7 @@ date: 2021-07-27
 ---
 # How to Create Agents
 
-#### Navigation: <a href="https://arctos.database.museum/agents.cfm" target="_blank">Manage Data > Agents</a>
+#### Navigation: <a href="https://arctos.database.museum/agents.cfm" target="_blank">Arctos Tools Directory > Agents & Users > Agent: Manage</a>
 
 ## Before Creating a New Agent
 
