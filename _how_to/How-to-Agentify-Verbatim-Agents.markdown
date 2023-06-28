@@ -9,6 +9,8 @@ date: 2023-01-31
 
 If you have new information about a person that is currently only recorded in a [verbatim agent attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent), you can follow these steps to add their agent as a collector, creator, preperator or subject in the records in which they performed those roles.
 
+- <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents Documentation</a>
+
 ## Create the Agent
 
 If the agent your verbatim agent represents does not already exist in Arctos, follow the instructions in [How To Create an Agent](/How-to-Create-Agents.markdown) to add the agent in Arctos. 
