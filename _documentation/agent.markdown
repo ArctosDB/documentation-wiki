@@ -127,7 +127,7 @@ Occasionally, it will be determined that two agents are not in fact duplicates. 
 
 ## How To
 
-Instructionsfor doing specifc tasks related to Agents in Arctos
+Instructions for doing specifc tasks related to Agents in Arctos
 
  - [How To Agentify Verbatim Agents](https://handbook.arctosdb.org/how_to/How-to-Agentify-Verbatim-Agents.html)
  - [How To Batch Update Agents](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Agents.html)
