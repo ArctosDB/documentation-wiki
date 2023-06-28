@@ -175,13 +175,13 @@ Duplicate Collecting Events are automatically merged, and unused Collecting Even
 
 ## How To
 
-Instructions for doing specifc tasks related to Collecting Events in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
+Instructions for doing specifc tasks related to Collecting Events in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date)
 
--[How To Change Locality and Collecting Event](https://handbook.arctosdb.org/how_to/How-to-Change-Locality-Single-Specimen.html)
--[How To Create a New Collecting Event for a Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html)
--[How To Edit a Verbatim Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Verbatim-Locality.html)
--[How To Understand Locality Media](https://handbook.arctosdb.org/how_to/How-to-understand-locality-media.html)
--[How To Understand the Arctos Locality Model](https://handbook.arctosdb.org/how_to/How-to-understand-the-Arctos-Locality-Model.html)
+ - [How To Change Locality and Collecting Event](https://handbook.arctosdb.org/how_to/How-to-Change-Locality-Single-Specimen.html)
+ - [How To Create a New Collecting Event for a Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html)
+ - [How To Edit a Verbatim Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Verbatim-Locality.html)
+ - [How To Understand Locality Media](https://handbook.arctosdb.org/how_to/How-to-understand-locality-media.html)
+ - [How To Understand the Arctos Locality Model](https://handbook.arctosdb.org/how_to/How-to-understand-the-Arctos-Locality-Model.html)
 
 - ## Edit this Documentation
 
