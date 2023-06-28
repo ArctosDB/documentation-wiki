@@ -1,4 +1,4 @@
----
+--
 title: How To Delete an Agent
 layout: default_toc
 author: Teresa J. Mayfield-Meyer, ArctosDB
