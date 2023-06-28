@@ -401,13 +401,13 @@ which to use in any particular situation.
 
 Instructions for doing specifc tasks related to Media in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
--[How To Batch Download Images](https://handbook.arctosdb.org/how_to/How-to-Batch-Download-Images.html)
--[How To Bulkload Media Metadata](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Media-Metadata.html)
--[How To Create Media](https://handbook.arctosdb.org/how_to/How-to-Create-Media-Images.html)
--[How To Edit Media](https://handbook.arctosdb.org/how_to/How-to-Edit-Media.html)
--[How To Request TACC Access to Media Storage](https://handbook.arctosdb.org/how_to/How-to-Request-TACC-Access-to-Media-Storage.html)
--[How To Upload Media to TACC](https://handbook.arctosdb.org/how_to/How-to-Upload-Media-to-TACC.html)
--[How To Understand Locality Media](https://handbook.arctosdb.org/how_to/How-to-understand-locality-media.html)
+ - [How To Batch Download Images](https://handbook.arctosdb.org/how_to/How-to-Batch-Download-Images.html)
+ - [How To Bulkload Media Metadata](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Media-Metadata.html)
+ - [How To Create Media](https://handbook.arctosdb.org/how_to/How-to-Create-Media-Images.html)
+ - [How To Edit Media](https://handbook.arctosdb.org/how_to/How-to-Edit-Media.html)
+ - [How To Request TACC Access to Media Storage](https://handbook.arctosdb.org/how_to/How-to-Request-TACC-Access-to-Media-Storage.html)
+ - [How To Upload Media to TACC](https://handbook.arctosdb.org/how_to/How-to-Upload-Media-to-TACC.html)
+ - [How To Understand Locality Media](https://handbook.arctosdb.org/how_to/How-to-understand-locality-media.html)
 
 ## Edit this Documentation
 
