@@ -464,7 +464,6 @@ Instructions for doing specifc tasks related to Localities in Arctos (please not
 - [How To Create a New Collecting Event for a Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html)
 - [How To Create a New Specific Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Specific-Locality.html)
 - [How To Edit a Specific Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Specific-Locality.html)
-- [How To Edit a Verbatim Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Verbatim-Locality.html)
 - [How To Edit Coordinates and Max Error of a Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-Coordinates-and-Max-Error-of-a-Locality.html)
 - [How To Edit Coordinates for One Cataloged Item](https://handbook.arctosdb.org/how_to/How-to-Edit-Coordinates-for-One-Specimen.html)
 - [How To Merge Duplicate Localities](https://handbook.arctosdb.org/how_to/How-to-Merge-Duplicate-Localities.html)
