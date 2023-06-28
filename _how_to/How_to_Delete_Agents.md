@@ -5,11 +5,13 @@ author: Teresa J. Mayfield-Meyer, ArctosDB
 date: 2023-06-28
 ---
 
-# How To Delete/Merge agents
+# How To Delete/Merge Agents
 
 ## Navigation
 
 Navigation: [Arctos Tools Directory > Agents & Users > Agent: Manage](https://arctos.database.museum/agents.cfm)
+
+- <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Documentation</a>
 
 ## Permission
 
