@@ -470,7 +470,7 @@ Instructions for doing specifc tasks related to Localities in Arctos (please not
 - [How To Merge Duplicate Localities](https://handbook.arctosdb.org/how_to/How-to-Merge-Duplicate-Localities.html)
 - [How To Understand Locality Media](https://handbook.arctosdb.org/how_to/How-to-understand-locality-media.html)
 - [How To Understand the Arctos Locality Model](https://handbook.arctosdb.org/how_to/How-to-understand-the-Arctos-Locality-Model.html)
-- 
+  
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/locality.markdown" target="_blank">here</a>.
