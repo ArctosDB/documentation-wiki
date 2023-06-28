@@ -12,6 +12,8 @@ Only add the above if you won't be creating a finished product.
 
 Use this template to help start a new How To - don't edit and save it! Instead make a copy and give the new How To a new name.
 
+All new pages MUST be named using the following format: How_To_[action].markdown (without "markdown" the page will not format correctly!)
+
 The block above between the sets of three dashes must be included in a How To in order for it to appear in the How To list. Make sure you follow these conventions:
 
 ```
