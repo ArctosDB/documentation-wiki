@@ -11,7 +11,7 @@ date: 2023-06-28
 
 Navigation: [Arctos Tools Directory > Agents & Users > Agent: Manage](https://arctos.database.museum/agents.cfm)
 
-- <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Documentation</a>
+- <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents Documentation</a>
 
 ## Permission
 
@@ -49,4 +49,4 @@ Check collection contacts and their email addresses if you are not receiving not
 
 ## Edit this How To
 
-If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Delete-Agents.markdown).
+If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How_to_Delete_Agents.markdown).
