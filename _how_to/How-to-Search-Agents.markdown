@@ -6,6 +6,8 @@ layout: default_toc
 ---
 # How To Search Agents
 
+- <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents Documentation</a>
+
 ## Public Search
 
 The search form for those who do not have manage_agents authority.
