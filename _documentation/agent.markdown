@@ -74,7 +74,7 @@ table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name
 
 ## Address
 
-Address type is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTADDRESS_TYPE).
+See [Address Documentation](https://handbook.arctosdb.org/documentation/address.html)
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
