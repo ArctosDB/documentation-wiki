@@ -116,7 +116,7 @@ You will see a list of all of the GitHub repositories to which you have subscrib
 ## Using Arctos Issues
 See [How to Use Issues in Arctos](/how_to/How-to-Use-Issues-in-Arctos.html)
 
-## Devolping Arctos with GitHub
+## Developing Arctos with GitHub
 Developers who are interested in Arctos code can view it in the [ArctosDB/arctos](https://github.com/ArctosDB/arctos) and [ArctosDB/DDL](https://github.com/ArctosDB/DDL) repositories.
 
 ## Editing the Arctos Handbook
