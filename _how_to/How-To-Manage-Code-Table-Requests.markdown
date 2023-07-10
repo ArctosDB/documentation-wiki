@@ -119,9 +119,13 @@ to avoid this problem in the future. Parts of unknown preservation/preparation s
 
 ## Specific Values Considerations
 
-### ctcoll_other_id_type
+### Attribute Types (ctattribute_type)
 
-For Other ID Types, ~~attempt to evaluate whether there might realistically be **functionality** at some time in the future. For identifiers that are deemed unlikely to have this, strongly consider using a generic type (such as "other identifier" or "institutional catalog number") rather than creating a new type. The goal should be for all identifier types to have a functional base_url (which equates to functionality for both humans and machines); this is not a necessary element of the data, but should be a significant consideration in deciding if the identifier needs a dedicated type or could be equally useful as a more generic type.~~
+Attribute types should only be added when they are clearly disambiguated from any existing type. Attributes should NOT include any method (including 'left', 'right', 'with claw', 'from notch', etc.) either in the term itself or in the description other than to say "add left or right in method" or something similar.
+
+### Identifier Types (ctcoll_other_id_type)
+
+~~For Other ID Types, attempt to evaluate whether there might realistically be **functionality** at some time in the future. For identifiers that are deemed unlikely to have this, strongly consider using a generic type (such as "other identifier" or "institutional catalog number") rather than creating a new type. The goal should be for all identifier types to have a functional base_url (which equates to functionality for both humans and machines); this is not a necessary element of the data, but should be a significant consideration in deciding if the identifier needs a dedicated type or could be equally useful as a more generic type.~~
 Other identfier types should only be added when necessary to disambiguate identfiers created by the same issuing agent (for example, collector and preparator numbers issued by the same person). Before adding any new generic identifier type, consider whether a new issuing agent would sufficiently disambiguate between two "types" of identifier.
 
 Example Considerations:
@@ -160,6 +164,10 @@ In addition - add the link to the Github Issue in which the code table request w
 ### Media Relationships
 
 If terms are added to or deleted from the [Media: Relationship Types](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_relationship), please alert the DBA as changes may be required to the Media Metadata Bulkload Tool.
+
+### Part Names (ctspecimen_part_name)
+
+Part names should only be added when they are clearly disambiguated from any existing part. Part names should describe WHAT an object is, not how it is prepared or preserved. Part names should NOT include any preservation (use the [part preservation attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#preservation)), or modifier (use the [part modifier attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#part_modifier)) information either in the term itself or in the description other than to say "add preservation or part modifiers using part attributes" or something similar. Part names should be singular and should not be compounded using comma-separated lists. 
 
 ### Taxon Terms
 
