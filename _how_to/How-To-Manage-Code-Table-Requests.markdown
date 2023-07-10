@@ -121,23 +121,25 @@ to avoid this problem in the future. Parts of unknown preservation/preparation s
 
 ### ctcoll_other_id_type
 
-For Other ID Types, attempt to evaluate whether there might realistically be **functionality** at some time in the future. For identifiers that are deemed unlikely to have this, strongly consider using a generic type (such as "other identifier" or "institutional catalog number") rather than creating a new type. The goal should be for all identifier types to have a functional base_url (which equates to functionality for both humans and machines); this is not a necessary element of the data, but should be a significant consideration in deciding if the identifier needs a dedicated type or could be equally useful as a more generic type.
+For Other ID Types, ~~attempt to evaluate whether there might realistically be **functionality** at some time in the future. For identifiers that are deemed unlikely to have this, strongly consider using a generic type (such as "other identifier" or "institutional catalog number") rather than creating a new type. The goal should be for all identifier types to have a functional base_url (which equates to functionality for both humans and machines); this is not a necessary element of the data, but should be a significant consideration in deciding if the identifier needs a dedicated type or could be equally useful as a more generic type.~~
+Other identfier types should only be added when necessary to disambiguate identfiers created by the same issuing agent (for example, collector and preparator numbers issued by the same person). Before adding any new generic identifier type, consider whether a new issuing agent would sufficiently disambiguate between two "types" of identifier.
 
 Example Considerations:
 
 | Requested Identifier      | Description | Considerations |
 | ----------- | ----------- |---|
-| GenBank      | Unique identifier supplied by an known entity, when appended to a base_url the identifier leads to data  | Create; this is the ideal situation. |
-| UCB: University of California Berkeley   | Identifier supplied by some unknown department of a large heterogeneous organization.  | Encourage ``other identifier``==>``UCB: University of California, Berkeley {the_number}`` rather than a new type. Such a generic identifier is extremely unlikely to be useful for discovery, and is sufficient for humans looking at the catalog record.|
-| MVZ: Museum of Vertebrate Zoology   | Identifier supplied by some unknown department of a (more or less) homogeneous organization.       | Discuss in depth before creation. Can the identifier be resolved to an assigning entity (_e.g._, MVZ:Mamm)? If so, direct the requestor to use that. In some cases, while the identifier is unlikely to ever be useful by itself, some future effort might be able to use the identifier type plus some associated data (_e.g._, taxonomy) to create better identifiers and this potential use case **may** be sufficient justification to create.|
-| TU:Fish   | A specific entity which holds (or held) material, not currently discoverable online. "Official" acronym may be in question.   | Create; while this is not currently useful, it it reasonable to believe that at some point the collection may become more accessible and the identifier will become resolvable.|
-| EBRPD: East Bay Regional Park District | Identifier of unknown uniqueness supplied by an entity which probably does not have material but may have additional data. Deemed unlikely to have a base_url at any time, but correspondence is likely to produce data. | Create; "correspondence is likely to produce data" is sufficient evidence of usefulness.  |
+| GenBank      | Unique identifier supplied by a known entity, when appended to a base_url the identifier leads to data  | Best practice is to create an issuing agent [GenBank}(), with a generic identifier type (ideally [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) and add the entire url as the identifier value.  |
+| UCB: University of California Berkeley   | Identifier supplied by some unknown department of a large heterogeneous organization.  | Encourage [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) issued by [University of California, Berkeley](https://arctos.database.museum/agent/21336361) with value = 'the_number' rather than a new type. | 
+| MVZ: Museum of Vertebrate Zoology   | Identifier supplied by some unknown department of a (more or less) homogeneous organization. | Encourage [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) issued by [Museum of Vertebrate Zoology, University of California, Berkeley](https://arctos.database.museum/agent/10014238) with value = 'the_number' rather than a new type.|
+| TU:Herb   | A specific entity which holds (or held) material, not currently discoverable online. "Official" acronym may be in question. | Encourage [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) issued by [Tulane University Herbarium](https://arctos.database.museum/agent/21312299) with value = 'the_number' rather than a new type.|
+| EBRPD: East Bay Regional Park District | Identifier of unknown uniqueness supplied by an entity which probably does not have material but may have additional data. Deemed unlikely to have a base_url at any time, but correspondence is likely to produce data. | Encourage [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) issued by [East Bay Regional Park District](https://arctos.database.museum/agent/21247239) with value = 'the_number' rather than a new type.  |
 
 
 #### base_url
 
-Base URL should be used *only* when it is part of an identifier. Do not use base_url to form search links.
+**Suggest removing this section in favor of "Best practice is to create an issuing agent [GenBank}(), with a generic identifier type (ideally [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) and add the entire url as the identifier value."**
 
+Base URL should be used *only* when it is part of an identifier. Do not use base_url to form search links.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
