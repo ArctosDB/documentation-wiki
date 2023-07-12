@@ -3,7 +3,7 @@ title: How To Understand Project Funding
 layout: default_toc
 ---
 
-[Project Documentation](https://handbook.arctosdb.org/how_to/How-to-organize-projects.html)
+[Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)
 
 # How To Understand Project Funding
 
