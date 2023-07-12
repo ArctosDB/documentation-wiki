@@ -1,10 +1,13 @@
 ---
-title: How To Deal with Agent Bulkloader Results
+title: How To Deal with Agent Pre-Bulkloader Results
 layout: default_toc
 ---
 # How To Deal with Agent Bulkloader Results
 
 This document refers to the output of the validation step of bulkloading agents, which is generally run directly before creation.
+## Navigation
+
+Navigation: [Arctos Tools Directory > Agents & Users > Agent: Pre-Bulkload](https://arctos.database.museum/loaders/pre_bulkload_agents.cfm)
 
 **Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a>
 
