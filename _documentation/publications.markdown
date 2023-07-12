@@ -302,6 +302,15 @@ the service work, and saving. Please leave a remark as suggested (the
 semi-standardized format facilitates search) if you are unable to locate
 a DOI for a publication.
 
+## How To
+
+Instructions for doing specifc tasks related to Publications in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
+
+ - [How To Create a Publication](https://handbook.arctosdb.org/how_to/How-to-Create-a-Publication.html)
+ - [How To Create Citations](https://handbook.arctosdb.org/how_to/How-to-Create-Citations.html)
+ - [How To Understand Deep Publication Data in Arctos](https://handbook.arctosdb.org/how_to/deep-publications.html)
+   
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/publications.markdown" target="_blank">here</a>.
