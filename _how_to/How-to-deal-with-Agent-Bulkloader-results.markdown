@@ -2,7 +2,7 @@
 title: How To Deal with Agent Pre-Bulkloader Results
 layout: default_toc
 ---
-# How To Deal with Agent Bulkloader Results
+# How To Deal with Agent Pre-Bulkloader Results
 
 This document refers to the output of the validation step of bulkloading agents, which is generally run directly before creation.
 ## Navigation
