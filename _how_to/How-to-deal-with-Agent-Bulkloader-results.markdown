@@ -6,7 +6,7 @@ layout: default_toc
 
 This document refers to the output of the validation step of bulkloading agents, which is generally run directly before creation.
 
-- <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents Documentation</a>
+**Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a>
 
 The "preferred_name" column is generally a key back to other data (usually specimens) and in almost all cases should NOT be modified independent of any related data.
 
