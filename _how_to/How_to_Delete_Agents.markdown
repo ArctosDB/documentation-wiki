@@ -11,7 +11,7 @@ date: 2023-06-28
 
 Navigation: [Arctos Tools Directory > Agents & Users > Agent: Manage](https://arctos.database.museum/agents.cfm)
 
-- <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents Documentation</a>
+**Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a>
 
 ## Permission
 
