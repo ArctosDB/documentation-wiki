@@ -2,6 +2,9 @@
 title: How To Understand the Arctos Locality Model
 layout: default_toc
 ---
+[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
+
 # Understanding the Arctos Locality Model
 
 
