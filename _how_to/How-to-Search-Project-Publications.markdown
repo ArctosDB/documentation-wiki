@@ -3,6 +3,9 @@ title: How To Search Projects and Publications
 layout: default_toc
 ---
 
+[Project Documentation](https://handbook.arctosdb.org/how_to/How-to-organize-projects.html)
+[Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
+
 # How To Search Publications and Projects
 
 Search Publications and Project to explore how specimens are used, how projects support other projects, how Publications are produced, and much more.
