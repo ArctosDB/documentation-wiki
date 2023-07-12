@@ -8,8 +8,9 @@ date: 2018-04-26
 
 # How To Bulkload Agents
 
-Please keep in mind that Agents are shared across all Arctos collections. Read **all** of the [Agent Documentation](http://handbook.arctosdb.org/documentation/agent.html) before proceeding.
+Please keep in mind that Agents are shared across all Arctos collections. Read **all** of the documentation before proceeding.
 
+**Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a>
 
 In almost no case will all of these steps be necessary; Agents come from legacy data in a wide variety of formats. Reading the entirety of this document and consulting with the Arctos team before proceeding is highly recommended.
 
