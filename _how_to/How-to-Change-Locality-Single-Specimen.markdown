@@ -5,6 +5,10 @@ author: DLM
 date: 2019-05-29
 ---
 
+[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
+
+
 # How To Change Locality and Event information for a Single Catalog Record
 
 To edit a single catalog record with simple locality information.
