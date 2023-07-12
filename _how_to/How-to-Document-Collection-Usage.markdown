@@ -4,6 +4,8 @@ layout: default_toc
 author: Arthur H. Harris
 date: 2017-07-11
 ---
+[Project Documentation](https://handbook.arctosdb.org/how_to/How-to-organize-projects.html)
+
 Research projects regularly utilize objects from natural history collections that are not directly cited in refereed publications. These projects include theses and dissertations as well as other types within the gray literature. In most cases, there is no centralized source for collection usage for both refereed publications and the gray literature. As a result, the true usage and importance of the collection cannot be easily demonstrated to administrations, granting agencies, and the like. The purpose of this presentation is to show how a centralized source can be set up in Arctos.
 
 # Procedure
