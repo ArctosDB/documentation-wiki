@@ -6,6 +6,7 @@ date: 2019-05-29
 ---
 
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+
 [Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
 
 
