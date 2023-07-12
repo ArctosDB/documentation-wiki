@@ -4,6 +4,7 @@ layout: default_toc
 author: Carla Cicero
 date: 2016-04-24
 ---
+[Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
 
 # How to Create Media (Images)
 
