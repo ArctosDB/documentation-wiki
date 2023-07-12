@@ -94,6 +94,14 @@ To delete a project, first delete all dependencies then a delete button will app
 
 Each project generates a unique hyperlink comprised of its internal project ID. Example: {base URL}/project/{projectID} such as: https://arctos.database.museum/project/10000298
 
+## How To
+
+Instructions for doing specifc tasks related to Projects in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
+
+ - [How To Organize Projects](https://handbook.arctosdb.org/how_to/How-to-organize-projects.html)
+ - [How To Search Projects and Publications](https://handbook.arctosdb.org/how_to/How-to-Search-Project-Publications.html)
+ - [How To Understand Project Funding](https://handbook.arctosdb.org/how_to/How-to-understand-Project-Funding.html)
+   
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/projects.markdown" target="_blank">here</a>.
