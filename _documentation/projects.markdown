@@ -101,6 +101,7 @@ Instructions for doing specifc tasks related to Projects in Arctos (please note 
  - [How To Organize Projects](https://handbook.arctosdb.org/how_to/How-to-organize-projects.html)
  - [How To Search Projects and Publications](https://handbook.arctosdb.org/how_to/How-to-Search-Project-Publications.html)
  - [How To Understand Project Funding](https://handbook.arctosdb.org/how_to/How-to-understand-Project-Funding.html)
+ - [How To Document Collection Usage](https://handbook.arctosdb.org/how_to/How-to-Document-Collection-Usage.html)
    
 ## Edit this Documentation
 
