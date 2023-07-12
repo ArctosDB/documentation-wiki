@@ -3,6 +3,8 @@ title: How To Merge Duplicate Localities (needs update)
 layout: default_toc
 ---
 
+[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+
 # How To Merge Duplicate Localities
 
 If you notice that there are many localities that have the same specific locality and the same coordinates you will want to merge them into one.
