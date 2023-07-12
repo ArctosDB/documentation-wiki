@@ -2,6 +2,7 @@
 title: How To Assign a New Locality to a Catalog Record
 layout: default_toc
 ---
+[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
 
 # How To Assign a New Locality to a Catalog Record
 
