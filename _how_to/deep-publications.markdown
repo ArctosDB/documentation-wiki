@@ -4,6 +4,8 @@ layout: default_toc
 author: DLM
 date: 2018-09-20
 ---
+[Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
+
 # How To Understand Deep Publication Data in Arctos
  
  Arctos exploits the CrossRef ecosystem to enhance publication data. Click "CrossRef Data" from publication details to get started. An overlay will pop up. Very few publications will have all of the data described below.
