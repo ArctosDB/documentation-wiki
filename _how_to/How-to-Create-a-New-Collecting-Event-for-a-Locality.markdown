@@ -4,6 +4,7 @@ layout: default_toc
 ---
 
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+
 [Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
 
 # How To Create a New Collecting Event for a Locality
