@@ -4,6 +4,8 @@ layout: default_toc
 author: Teresa J. Mayfield-Meyer
 date: 2019-11-25
 ---
+[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+
 # How To Create a Locality
 
 ## What is a Locality?
