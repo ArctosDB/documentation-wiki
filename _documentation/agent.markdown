@@ -114,9 +114,9 @@ Instructions for doing specifc tasks related to Agents in Arctos
  - [How To Batch Update Agents](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Agents.html)
  - [How To Bulkload Agents](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Agents.html)
  - [How To Create Agents](https://handbook.arctosdb.org/how_to/How-to-Create-Agents.html)
- - [How To Deal with Agent Bulkloader Results](https://handbook.arctosdb.org/how_to/How-to-deal-with-Agent-Bulkloader-results.html)
  - [How To Delete/Merge Agents](https://handbook.arctosdb.org/how_to/How_to_Delete_Agents.html)
  - [How To Search Agents](https://handbook.arctosdb.org/how_to/How-to-Search-Agents.html)
+ - [How To Use the Agent Pre-Bulkloader](https://handbook.arctosdb.org/how_to/How-to-deal-with-Agent-Bulkloader-results.html)
 
 ## Edit this Documentation
 
