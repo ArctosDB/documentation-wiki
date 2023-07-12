@@ -2,6 +2,7 @@
 title: How To Edit Coordinates and Max Error of a Locality
 layout: default_toc
 ---
+[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
 
 # How To Edit Coordinates and Max Error of a Locality
 
