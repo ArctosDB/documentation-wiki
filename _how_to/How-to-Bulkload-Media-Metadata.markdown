@@ -5,6 +5,8 @@ author: Dusty McDonald, Teresa Mayfield-Meyer
 date: 2020-04-30
 ---
 
+[Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
+
 # How To Bulkload Media Metadata #
 
 ## Bulkload Media Metadata From Scratch ##
