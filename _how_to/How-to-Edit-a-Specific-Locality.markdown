@@ -3,6 +3,8 @@ title: How To Edit a Specific Locality
 layout: default_toc
 ---
 
+[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+
 ### Find the Locality to Edit
 
 **From Search**
