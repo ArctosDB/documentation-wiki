@@ -7,6 +7,8 @@ layout: default_toc
 
 *This is a draft; recommendations have not been finalized.*
 
+[Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
+
 # How to cite specimens
 
 ## For Users
