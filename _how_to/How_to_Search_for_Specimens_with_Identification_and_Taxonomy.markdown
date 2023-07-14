@@ -5,6 +5,9 @@ author: Phyllis Sharp
 date: 2019-04-14
 ---
 
+[Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
+
+[Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
 
 # How to Search with Identification and Taxonomy
 
