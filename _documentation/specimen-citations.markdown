@@ -139,7 +139,7 @@ the Arctos search form (SpecimenSearch.cfm).
 
 ## How To
 
-Instructions for doing specifc tasks related to Citations in Arctos
+Instructions for doing specifc tasks related to Citations in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
  - [How To Create Citations](https://handbook.arctosdb.org/how_to/How-to-Create-Citations.html)
  - [How To Bulkload Citations](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Citations.html)
