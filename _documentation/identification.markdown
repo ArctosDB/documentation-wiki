@@ -199,8 +199,7 @@ searches are case-insensitive. Examples are fictitious and incomplete.
     Apiales (as an Order).
 -   CommonName CONTAINS: Substring match of any common name of the
     current-identification taxon.
-
-    ## How To
+##  How To
 
 Instructions for doing specifc tasks related to Identifications in Arctos
 
