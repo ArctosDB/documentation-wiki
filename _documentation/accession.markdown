@@ -94,6 +94,15 @@ You can catalog records in "your collection" that have been accessioned by anoth
 *   Default accession: MSB:Host 2012.123 (Does not and should not exist)
 *   Value to enter for Accession: [MSB:Para]2012.123.Para
 
+## How To
+
+Instructions for doing specifc tasks related to Accessions in Arctos
+
+ - [How To Create an Accession](https://handbook.arctosdb.org/how_to/How-to-Create-an-Accession.html)
+ - [How To Search Transactions](https://handbook.arctosdb.org/how_to/how-to-search-transactions.html)
+ - [How To Batch Update Accessions](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Accessions.html)
+ - [How To Bulkload Accessions](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Accessions.html)
+   
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/accession.markdown" target="_blank">here</a>.
