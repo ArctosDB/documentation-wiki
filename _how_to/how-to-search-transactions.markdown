@@ -12,7 +12,7 @@ layout: default_toc
 
 # How to Search Transactions
 
-Transactions are Loans, Accessions, and Borrows. All may be accessed via one Arctos form.
+Transactions are Loans, Accessions, Permits, and Borrows. All may be accessed via one Arctos form.
 
 ## General Search
 
