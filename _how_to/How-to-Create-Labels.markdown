@@ -5,6 +5,7 @@ author: Teresa Mayfield-Meyer
 date: 2019-03-19
 ---
 
+[Printed Reports and Labels Documentation](https://handbook.arctosdb.org/documentation/reports.html)
 
 # DEPRECATED
 
