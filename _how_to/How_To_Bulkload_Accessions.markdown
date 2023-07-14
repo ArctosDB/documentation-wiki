@@ -5,6 +5,8 @@ author: Teresa J. Mayfield-Meyer
 date: 2023-04-13
 ---
 
+[Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)
+
 # How To Bulkload Accessions
 
 Bulkloading accession information is an important step in migration into Arctos. It may help to read [How to Create an Accession](https://handbook.arctosdb.org/how_to/How-to-Create-an-Accession.html) as the process for bulkloading is completing the same steps in bulk.
