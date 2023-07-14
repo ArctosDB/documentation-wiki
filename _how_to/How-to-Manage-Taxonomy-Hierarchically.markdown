@@ -4,6 +4,8 @@ layout: default_toc
 author: DLM
 date: 2017-08-28
 ---
+[Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
+
 # How To Manage Taxonomy Hierarchically
 
 # Background
