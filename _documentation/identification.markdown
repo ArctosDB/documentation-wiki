@@ -200,6 +200,26 @@ searches are case-insensitive. Examples are fictitious and incomplete.
 -   CommonName CONTAINS: Substring match of any common name of the
     current-identification taxon.
 
+    ## How To
+
+Instructions for doing specifc tasks related to Identifications in Arctos
+
+-  [How To Create and Edit Determinations](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Determinations.html)
+-  [How To Batch Update Identifications](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Identifications.html)
+-  [How To Use Complex Identifications](https://handbook.arctosdb.org/how_to/How-to-Use-Complex-Identifications.html)
+-  [How To Use Complex Identifications as Low-quality Data Flags](https://handbook.arctosdb.org/how_to/How-To-Use-Complex-Identifications-As-Low-Quality-Data-Flags.html)
+
+
+See also, Taxonomy
+
+-  [How to Create Taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html)
+-  [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html)
+-  [How to Manage Taxonomic Classifications](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html)
+-  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
+-  [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
+-  [How To Manage Taxon Concepts in Arctos](https://handbook.arctosdb.org/how_to/How-To-Manage-Taxon-Concepts.html)
+-  [How To Create Taxa in Arctos Ichnology](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Arctos-Ichnology.html)
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/identification.markdown" target="_blank">here</a>.
