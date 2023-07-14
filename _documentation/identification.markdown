@@ -201,7 +201,7 @@ searches are case-insensitive. Examples are fictitious and incomplete.
     current-identification taxon.
 ##  How To
 
-Instructions for doing specifc tasks related to Identifications in Arctos
+Instructions for doing specifc tasks related to Identifications in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
 -  [How To Create and Edit Determinations](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Determinations.html)
 -  [How To Batch Update Identifications](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Identifications.html)
