@@ -312,12 +312,25 @@ are historic and no longer accepted but may be helpful in searching
 for specimens.  They should be marked "invalid" and linked to the currently 
 valid taxon.
 
-For further instructions, consult the following "How to" documents.
+## How To
+
+Instructions for doing specifc tasks related to Taxonomy in Arctos
+
 -  [How to Create Taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html)
 -  [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html)
 -  [How to Manage Taxonomic Classifications](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html)
 -  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
 -  [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
+-  [How To Manage Taxon Concepts in Arctos](https://handbook.arctosdb.org/how_to/How-To-Manage-Taxon-Concepts.html)
+-  [How To Create Taxa in Arctos Ichnology](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Arctos-Ichnology.html)
+
+See also, Identifications
+
+-  [How To Create and Edit Determinations](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Determinations.html)
+-  [How To Batch Update Identifications](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Identifications.html)
+-  [How To Use Complex Identifications](https://handbook.arctosdb.org/how_to/How-to-Use-Complex-Identifications.html)
+-  [How To Use Complex Identifications as Low-quality Data Flags](https://handbook.arctosdb.org/how_to/How-To-Use-Complex-Identifications-As-Low-Quality-Data-Flags.html)
+
 
 # Tutorial Video ↗️
 
