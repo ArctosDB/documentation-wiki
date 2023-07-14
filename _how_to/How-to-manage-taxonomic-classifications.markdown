@@ -3,6 +3,8 @@ title: How To Manage Taxonomic Classifications
 layout: default_toc
 ---
 
+[Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
+
 # How To Manage Taxonomic Classifications
 
 All taxon names live in a unique index including homonyms and hemihomonyms. "The specimen's taxonomy" comes from the collection's preferred [taxonomy source](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) selected under Manage Data/Metadata/Manage Collection. 
