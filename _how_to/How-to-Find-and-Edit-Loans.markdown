@@ -2,6 +2,7 @@
 title: How To Find and Edit Loans
 layout: default_toc
 ---
+[Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
 
 # How To Find and Edit Loans
 
