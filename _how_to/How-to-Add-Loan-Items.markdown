@@ -4,6 +4,9 @@ layout: default_toc
 author: DLM, Teresa J Mayfield-Meyer
 date: 2023-03-06, 2021-01-15, 2021-07-24
 ---
+
+[Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
+
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
 [Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/186)
