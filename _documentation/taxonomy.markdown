@@ -314,7 +314,7 @@ valid taxon.
 
 ## How To
 
-Instructions for doing specifc tasks related to Taxonomy in Arctos
+Instructions for doing specifc tasks related to Taxonomy in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
 -  [How to Create Taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html)
 -  [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html)
