@@ -4,6 +4,8 @@ layout: default_toc
 author: Phyllis Sharp
 date: 2021-06-15
 ---
+[Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
+
 # How to Manage Taxonomy in the WoRMS (via Arctos) Source
 
 WoRMS (via Arctos) is an externally managed taxonomic resource.  Whereas Arctos and Arctos Plants are managed by Arctos users, WoRMS (via Arctos) is 
