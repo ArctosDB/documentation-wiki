@@ -5,7 +5,7 @@ date: 2022-09-30
 layout: default_toc
 ---
 
-# Reports
+# Reports and Labels
 
 Arctos has a built-in user-customizable reporter. It's pretty great.
 
