@@ -142,7 +142,7 @@ are transaction-based.
 
 ## How To
 
-Instructions for doing specifc tasks related to Loans in Arctos
+Instructions for doing specifc tasks related to Loans in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
  - [How To Create a Loan](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html)
  - [How To Add Loan Items](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html)
