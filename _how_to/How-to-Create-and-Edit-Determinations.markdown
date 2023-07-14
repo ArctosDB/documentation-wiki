@@ -3,6 +3,8 @@ title: How To Create and Edit Determinations
 layout: default_toc
 ---
 
+[Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
+
 Edit or Add an identification to a specimen record. A specimen record can hold multiple identifications and will display any previous identifications as a part of the specimen's determination history. Identifications can include valid and invalid nomenclature, as well as an evolving trail of identifications as a specimen is processed and/or examined by experts (e.g., an ant may only be identified to family when accessioned until further examination when it is identified down to species level).
 
 ![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/edit_identification_1.jpg)
