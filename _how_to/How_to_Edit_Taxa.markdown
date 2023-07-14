@@ -5,6 +5,7 @@ author: Phyllis Sharp
 date: 2019-04-15
 ---
 
+[Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
 
 # How to Edit Taxa
 
