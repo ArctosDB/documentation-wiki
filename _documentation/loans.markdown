@@ -150,6 +150,7 @@ Instructions for doing specifc tasks related to Loans in Arctos (please note tha
  - [How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html)
  - [How To Search Transactions](https://handbook.arctosdb.org/how_to/how-to-search-transactions.html)
  - [How To Bulkload Loans](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Legacy_Loans.html)
+ - [How To Bulkoad Loan Items](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Loan_Parts.html)
 
 ## Edit this Documentation
 
