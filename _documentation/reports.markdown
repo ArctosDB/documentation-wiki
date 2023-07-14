@@ -5,6 +5,8 @@ date: 2022-09-30
 layout: default_toc
 ---
 
+[Printed Reports and Labels Documentation](https://handbook.arctosdb.org/documentation/reports.html)
+
 # Reports and Labels
 
 Arctos has a built-in user-customizable reporter. It's pretty great.
