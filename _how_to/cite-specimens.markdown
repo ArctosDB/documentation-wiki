@@ -3,7 +3,7 @@ title: How To Cite Specimens
 layout: default_toc
 ---
 
-https://handbook.arctosdb.org/documentation/specimen-citations.html
+[Citation Documentation](https://handbook.arctosdb.org/documentation/specimen-citations.html)
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
