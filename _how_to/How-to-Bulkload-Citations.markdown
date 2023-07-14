@@ -5,6 +5,8 @@ author: Teresa J Mayfield-Meyer, Carla Cicero
 date: 2023-03-08
 ---
 
+[Citations Documentation](https://handbook.arctosdb.org/documentation/specimen-citations.html)
+
 # How To Bulkload Citations
 
 Attach multiple catalog records to a publication via citation. **NOTE:** Before a cataloged item is cited, the Publication profile **must** already exist in Arctos. See [How to Create a Publication](https://handbook.arctosdb.org/how_to/How-to-Create-a-Publication.html) for a tutorial.
