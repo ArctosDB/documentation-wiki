@@ -140,9 +140,16 @@ returned (or sent out on another loan). Maintaining this history is
 vital to recording collection activity, and for building Projects, which
 are transaction-based.
 
-## Related Documentation
+## How To
 
-[How To Create a Loan](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html)
+Instructions for doing specifc tasks related to Loans in Arctos
+
+ - [How To Create a Loan](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html)
+ - [How To Add Loan Items](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html)
+ - [How To Add Items to a Data Loan](https://handbook.arctosdb.org/how_to/How-to-Add-Data-Loan-Items.html)
+ - [How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html)
+ - [How To Search Transactions](https://handbook.arctosdb.org/how_to/how-to-search-transactions.html)
+ - [How To Bulkload Loans](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Legacy_Loans.html)
 
 ## Edit this Documentation
 
