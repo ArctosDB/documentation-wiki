@@ -66,6 +66,13 @@ These can be anything that extends the definition of the permit or the condition
 
 Renewals should be entered as a new permit. A shortcut button is provided on the edit forms.
 
+## How To
+
+Instructions for doing specifc tasks related to Permits in Arctos
+
+ - How To Create a Permit](https://handbook.arctosdb.org/how_to/How-to-Create-a-Permit.html)
+
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/permits.markdown" target="_blank">here</a>.
