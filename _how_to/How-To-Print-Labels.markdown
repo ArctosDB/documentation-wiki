@@ -8,6 +8,8 @@ date: 2022-11-03
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
+[Printed Reports and Labels Documentation](https://handbook.arctosdb.org/documentation/reports.html)
+
 [Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/280)
 
 We are in the process of moving reports to a new system. If you had a report in the ColdFusion Reporter that you loved and want to re-create, please [file an issue](https://github.com/ArctosDB/arctos/issues/new?assignees=lkvoong&labels=function-Reports&template=report-template-request.md&title=New+Arctos+Report+Template+Request) for assistance.
