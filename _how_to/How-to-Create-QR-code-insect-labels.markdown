@@ -4,6 +4,9 @@ layout: default_toc
 author: Matt Bowser
 date: 2013-03-08
 ---
+
+[Printed Reports and Labels Documentation](https://handbook.arctosdb.org/documentation/reports.html)
+
 # How To Create and Print QR Code Insect Labels
 
 ## Overview
