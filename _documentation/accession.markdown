@@ -96,7 +96,7 @@ You can catalog records in "your collection" that have been accessioned by anoth
 
 ## How To
 
-Instructions for doing specifc tasks related to Accessions in Arctos
+Instructions for doing specifc tasks related to Accessions in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
  - [How To Create an Accession](https://handbook.arctosdb.org/how_to/How-to-Create-an-Accession.html)
  - [How To Search Transactions](https://handbook.arctosdb.org/how_to/how-to-search-transactions.html)
