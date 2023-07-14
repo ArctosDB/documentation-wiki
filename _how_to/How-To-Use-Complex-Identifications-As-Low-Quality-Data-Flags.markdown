@@ -4,6 +4,8 @@ layout: default_toc
 author: Anna Chinn
 date: 2019-10-15
 ---
+[Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
+
 # How to use complex identifications as low-quality data flags
 
 ## What are complex identifications?
