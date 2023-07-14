@@ -4,6 +4,7 @@ layout: default_toc
 author: Teresa J. Mayfield-Meyer, Toni Androski
 date: 2023-03-08
 ---
+[Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
 
 # How To Bulkload Loans
 
