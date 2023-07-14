@@ -322,6 +322,7 @@ Instructions for doing specifc tasks related to Taxonomy in Arctos
 -  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
 -  [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
 -  [How To Manage Taxon Concepts in Arctos](https://handbook.arctosdb.org/how_to/How-To-Manage-Taxon-Concepts.html)
+-  [How To Manage Taxonomy in the WoRMS (via Arctos) Source](https://handbook.arctosdb.org/how_to/How-To-Manage-Taxonomy-in-the-WoRMS-(via%20Arctos)-Source.html)
 -  [How To Create Taxa in Arctos Ichnology](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Arctos-Ichnology.html)
 
 See also, Identifications
