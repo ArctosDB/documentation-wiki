@@ -307,8 +307,13 @@ a DOI for a publication.
 Instructions for doing specifc tasks related to Publications in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
  - [How To Create a Publication](https://handbook.arctosdb.org/how_to/How-to-Create-a-Publication.html)
- - [How To Create Citations](https://handbook.arctosdb.org/how_to/How-to-Create-Citations.html)
+ - [How To Search Projects and Publications](https://handbook.arctosdb.org/how_to/How-to-Search-Project-Publications.html)
  - [How To Understand Deep Publication Data in Arctos](https://handbook.arctosdb.org/how_to/deep-publications.html)
+
+ See also, Citations
+
+ - [How To Create Citations](https://handbook.arctosdb.org/how_to/How-to-Create-Citations.html)
+ - [How To Bulkload Citations](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Citations.html)
    
 
 ## Edit this Documentation
