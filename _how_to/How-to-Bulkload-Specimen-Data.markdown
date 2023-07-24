@@ -105,7 +105,7 @@ The following is a complete breakdown of all fields and what data they should in
   * The date the specimen was identified
 * IDENTIFICATION_REMARKS
   * Any remarks made about the identification
-* VERBATUM_DATE
+* VERBATIM_DATE
   * The date on the id tag or data sheet
 * BEGAN_DATE
 * ENDED_DATE
