@@ -44,7 +44,7 @@ Other ways to add loan items:
 
 ### Bulkloader
 
-A tool to bulkload loan items is available.
+A tool to [bulkload loan items](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Loan_Parts.html) is available. 
 
 ### Container Leaf Nodes
 
