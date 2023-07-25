@@ -4,9 +4,11 @@ layout: default_toc
 author: Teresa J. Mayfield-Meyer
 date: 2019-11-22
 ---
+
+[Encumbrance Documentation](/documentation/encumbrance)
 # How to Encumber Locality Data
 
-[Encumbrances](/documentation/encumbrance) restrict certain aspects of catalog records from the public view, usually to protect personal identity, proprietary data, or the provenance of a vulnerable population/habitat. Many encumbrances are temporary and may be reversed when specified conditions change (publication of research, expiration or retraction of encumbering legislation, eradication of critical habitat where cataloged items were collected, etc.). This document describes the various ways that locality information may be encumbered in Arctos.
+Encumbrances restrict certain aspects of catalog records from the public view, usually to protect personal identity, proprietary data, or the provenance of a vulnerable population/habitat. Many encumbrances are temporary and may be reversed when specified conditions change (publication of research, expiration or retraction of encumbering legislation, eradication of critical habitat where cataloged items were collected, etc.). This document describes the various ways that locality information may be encumbered in Arctos.
 
 ## Encumbering Coordinates
 
@@ -14,12 +16,12 @@ If the only locality data that needs to be encumbered are coordinates, using the
 
 Some items to be aware of when using this option:
 
- - Encumbrances expire, so if no one renews an encumbrance upon its expiration, the data will become publicly available when the encumbrance expires.
+ - Encumbrances expire, so if no one renews an encumbrance, the data will become publicly available upon the specified expiration date (which is limited to five years).
  - Coordinates can often be inferred from other locality data.
 
 ## Encumbering Locality
 
-When it is necessary to encumber specific locality or to more permanently encumber locality information, another option is avaialable.  Adding the locality attribute "access" with the value of "private" to any locality will hide the locality both in catalog records and in locality searches. It will also hide collecting and record events that use the locality. When using this option, it is adviseable to create two catalog record events for any affected catalog records, one with the detailed locality information and the private access locality attribute, and a second with a the most general locality information that can be made available that does not include the private access locality attribute.
+When it is necessary to encumber Specific Locality or to more permanently encumber locality information, another option is avaialable.  Adding the locality attribute "access" with the value of "private" to any locality will hide the locality both in catalog records and in locality searches. It will also hide collecting and record events that use the locality. When using this option, it is adviseable to create two catalog record events for any affected catalog records, one with the detailed locality information and the private access locality attribute, and a second with a the most general locality information that can be made available that does not include the private access locality attribute.
 
 ### Access - Private Example
 
