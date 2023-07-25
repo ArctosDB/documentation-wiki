@@ -33,9 +33,10 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 ![TACC User Portal Connection](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/TACC_user_portal_connection.png)
 
 * Once you connect, you will be prompted to enter a TACC Token Code. In order to do this, you will need to install the TACC Token app for multi-factor authentication. Read the [TACC instructions](https://portal.tacc.utexas.edu/tutorials/multifactor-authentication) on this process. After you are set up for authentication, enter the TACC Token at the prompt.
-* If you have successfully entered the TACC Token, you will be taken to your directory. Go up to the root directory and then select corral-tacc ---> projects ---> arctos
+* If you have successfully entered the TACC Token, you will be taken to your directory. Go up to the root directory and then select corral-tacc > projects > arctos 
 * Each institution should have a directory for their media in https://web.corral.tacc.utexas.edu/arctos/ 
-* Within that directory, you can organize your media files however you want 
+* Within that directory, you can organize your media files however you want
+* Internal path /corral-tacc/projects/arctos/web/ writes to external path https://web.corral.tacc.utexas.edu/arctos/
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
@@ -56,7 +57,7 @@ It is also a best practice to avoid spaces in your folder and file names.
 * Directories created by a user other than the Arctos DBA may only be written to or edited by the user who created them. 
 * Files loaded to TACC in this manner are immediately available on the web and available for use in the Media Bulkloader (or alternate tool of your choice).
 * There are currently no postload processing tools in place. If you have .tif files but want to make .jpg public, you should convert the files locally and upload the .jpg files.
-* Files loaded to TACC in this manner are NOT automatically associated with anything in Arctos. You must [bulkload media metadata](How-to-Bulkload-Media-Metadata.html) or associate the files with data in Arctos [manually by creating media](How-to-Create-Media-Images.html). Be sure that you have files named so that you can easily relate them to catalog records, events, agent, taxa or whatever you wish them to appear with in Arctos and that you can include appropriate descriptions and lables in the media metadata.
+* Files loaded to TACC in this manner are NOT automatically associated with anything in Arctos. You must [bulkload media metadata](How-to-Bulkload-Media-Metadata.html) or associate the files with data in Arctos [manually by creating media](How-to-Create-Media-Images.html). Be sure that you have files named so that you can easily relate them to catalog records, events, agent, taxa or whatever you wish them to appear with in Arctos and that you can include appropriate descriptions and lables in the media metadata. Media loaded in bulk should use the root url https://web.corral.tacc.utexas.edu/arctos/
 
 Once you have created media for the files in Arctos, thumbnail images will also be generated when possible by scripts in Arctos. If you want to ensure thumbnails are available, create them and upload them along with the originals. You will need to use those thumbnail URIs in your bulkload media template (in the PREVIEW_URI column, http://arctos.database.museum/tools/BulkloadMedia.cfm) when you bulkload the image URIs. 
 
