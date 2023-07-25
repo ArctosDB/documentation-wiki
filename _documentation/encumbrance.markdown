@@ -6,7 +6,7 @@ layout: default_toc
 ---
 # Encumbrance
 
-Encumbrances restrict the use of specimens or specimen data and are often used to mask information such as collectors, preparators, field numbers, attributes, and remarks.
+Encumbrances restrict the use of catalog records or record data and are often used to mask information such as collectors, preparators, field numbers, attributes, and remarks.
 
 [List of active Arctos encumbrances](https://arctos.database.museum/Reports/encumbranceByCollection.cfm)
 
@@ -14,20 +14,20 @@ Encumbrances are applied to [Cataloged Items](/documentation/catalog). Attribute
 
 Encumbrances should be used to:
 
--   Mark erroneous records for deletion. (Records for which a specimen
+-   Mark erroneous records for deletion. (Records for which a cataloged object
     no longer exists should NOT be deleted, but should rather have
     disposition updated.)
--   **Restrict usage** of specimens conditionally placed in
+-   **Restrict usage** of records conditionally placed in
     public collections that should still remain publicly visible.
--   Restrict coordinate data for specimens from sensitive collecting
+-   Restrict coordinate data from sensitive collecting
     events or where required by law. Removing coordinate data
-    removes much of the "discoverability" of specimens, and will exclude
-    those specimens from many searches. Use this encumbrance with
+    removes much of the "discoverability" of records, and will exclude
+    those records from many searches. Use this encumbrance with
     great caution. **TIP** For sensitive localities, Arctos provides an alternate method with more flexibility. For information, read [Encumbering Locality](/how_to/How-to-Encumber-Locality.html#encumbering-locality).
 
 Encumbrances should NOT be used to:
 
--   Mask the entire record of specimens under active research. **Restrict usage** is sufficient to protect any existing interests in the specimen, and the specimen remains available, upon approval of the encumbering agent, for other non-conflicting research.
+-   Mask the entire record for specimen/objects under active research. **Restrict usage** is sufficient to protect any existing interests in the record, and the record remains available, upon approval of the encumbering agent, for other non-conflicting research.
 -   Mask illegal activity, including a lack of permits.
 -   Mask "sensitive" records such as those records on CITES lists or records which have been tested for disease.
 -   Hide "messy" data of any sort.
@@ -55,17 +55,25 @@ To extend the term of an encumbrance, change the expiration date. **Note:** the 
 
 Expiration date is a triggering event – encumbrances are automatically retracted when the expiration date is reached.
 
-## Encumbering Specimens
+## Encumbering Records
 
 See [How to Create an Encumbrance](http://handbook.arctosdb.org/how_to/How-to-Create-an-Encumbrance.html)
        
-## Un-Encumbering Specimens
+## Un-Encumbering Records
 
-1.  Find the specimens from which you wish to remove an encumbrance using SpecimenSearch.
-2.  From the Manage tool, choose Encumbrances. You should now see a summary of your specimens at the bottom of the page, and the encumbrance finder at the top.
+1.  Find the records from which you wish to remove an encumbrance using SpecimenSearch.
+2.  From the Manage tool, choose Encumbrances. You should now see a summary of your records at the bottom of the page, and the encumbrance finder at the top.
 3.  Find the appropriate encumbrance by entering search criteria and clicking Find Encumbrance. Under the appropriate encumbrance, click the "Remove Listed Items From This Encumbrance" button.
 
 When the screen refreshes, the specimens are no longer in the selected encumbrance.
+
+## How To
+
+Instructions for doing specifc tasks related to Encumbrances in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
+
+ - [How to Create an Encumbrance](http://handbook.arctosdb.org/how_to/How-to-Create-an-Encumbrance.html)
+ - [How to Delete a Catalog Record](https://handbook.arctosdb.org/how_to/How-to-Delete-Specimen-Records.html)
+ - [How to Encumber Locality Data](https://handbook.arctosdb.org/how_to/How-to-Encumber-Locality.html)
 
 ## Edit this Documentation
 
