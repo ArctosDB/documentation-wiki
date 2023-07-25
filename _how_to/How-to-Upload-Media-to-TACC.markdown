@@ -34,7 +34,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 
 * Once you connect, you will be prompted to enter a TACC Token Code. In order to do this, you will need to install the TACC Token app for multi-factor authentication. Read the [TACC instructions](https://portal.tacc.utexas.edu/tutorials/multifactor-authentication) on this process. After you are set up for authentication, enter the TACC Token at the prompt.
 * If you have successfully entered the TACC Token, you will be taken to your directory. Go up to the root directory and then select corral-tacc ---> projects ---> arctos
-* Each institution should have a directory for their media, e.g, /corral-tacc/projects/arctos/web/msb
+* Each institution should have a directory for their media in https://web.corral.tacc.utexas.edu/arctos/ 
 * Within that directory, you can organize your media files however you want 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
@@ -45,7 +45,7 @@ We consider it a best practice to create "daily" folders to manage your files be
 
 for example
 ```
-/{institution_acronym}/collection_or_whatever/some_project/maybe_other_stuff/{yyyy_mm_dd}/
+https://web.corral.tacc.utexas.edu/arctos/{institution_acronym}/collection_or_whatever/some_project/maybe_other_stuff/{yyyy_mm_dd}/
 ```
 institution_acronym (for Arctos accounting) and the dailies (for everyone's sanity) are the important parts, the "project folders" in the middle are entirely optional, but if they are to be shared, they should be created by the TACC-authorized manager.
 
