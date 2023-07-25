@@ -4,14 +4,17 @@ author: Teresa J. Mayfield-Meyer unknown
 date: 2021-10-18
 layout: default_toc
 ---
+
+[Encumbrance Documentation](https://handbook.arctosdb.org/documentation/encumbrance)
+
 # How To Delete a Catalog Record
 
-In order to delete a catalog record(s) in Arctos, you must first create an **Encumbrance**
+In order to delete a catalog record(s) in Arctos, you must first create an **Encumbrance** (see [How to Create an Encumbrance](https://handbook.arctosdb.org/how_to/How-to-Create-an-Encumbrance.html))
 
 Note that you can only delete a maximum of 1000 catalog records at a time through this method.
 
 ## NAVIGATION
-[Manage → Records → Encumbrances - Manage](https://arctos.database.museum/Encumbrances.cfm)
+[Tool Directory → Records → Encumbrances - Manage](https://arctos.database.museum/Encumbrances.cfm)
 
 ## Create an Encumbrance to Delete Catalog Records
 
@@ -27,7 +30,10 @@ ctos.database.museum/info/ctDocumentation.cfm?table=CTENCUMBRANCE_ACTION
 ## Delete Catalog Records
 
 * To delete one or more catalog records, you will need to do a Catalog Record Search for record(s) that you would like to delete. You can also search on a group of records for deletion, for example, by searching on an accession.
-* On the Search Results page, make sure you want to delete all catalog records listed in the table (if not, either remove records from the table using the check boxes or redo your search to isolate the records to be deleted). Select "Encumbrances" from the **Manage Menu** at the top of the results table.
+* Confirm the Search Results list the correct records for deletion in the table (if not, either remove records from the table using the check boxes or redo your search to isolate the records to be deleted). Select "Encumbrances" from the **Tool Menu** (Manage sub-section).
+
+![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/fe9e7565-6de0-4725-a28f-cb28f26ae4b0)
+
 * You will be navigated to the Encumbrance page where you will see all of the catalog records that you just queried listed at the bottom of the screen. Enter your agent name and encumbrance name to find your specific "delete" encumbrance.
 * On the next screen, click on the "Add all Items to this Encumbrance" hypertext. Remember, you can only delete a maximum of 1000 catalog records at a time.
 * You will now see all the records listed again, with an option to "Remove from this Encumbrance." If everything is OK, click "Return to this Encumbrance."
