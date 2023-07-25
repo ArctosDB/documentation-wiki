@@ -5,7 +5,7 @@ layout: default_toc
 
 # Bulkloader
 
-#### Navigation: <a href="https://arctos.database.museum/Bulkloader/BulkloadSpecimens.cfm" target="_blank">Enter Data > Bulkloader > Bulkload Catalog Records</a>
+#### Navigation: <a href="https://arctos.database.museum/Bulkloader/enter.cfm" target="_blank">Data Entry  > Enter Records</a>
 
 New specimen records may be created from a single flat (non-relational)
 file, a text file in which all (or most) data for a single cataloged
@@ -30,14 +30,14 @@ appreciate documentation, even for specialized datasets – see [How To Github -
 
 You may mix accessions, collections, or anything else in a single load.
 
-The specimen Bulkloader will not alone handle every eventuality that may
+The catalog record Bulkloader will not alone handle every eventuality that may
 ever occur while entering data. (The suite of tools available should.)
-Use [flags](#fields) to mark incomplete records for further editing, tie
+Use [flags] to mark incomplete records for further editing, tie
 to other bulkloaders with UUIDs, or talk to your friendly local Arctos
 development team BEFORE you make a mess.
 
 Error messages should include more than enough information to allow you
-to locate and correct the problem. If that isn’t the case, [contact us](https://arctosdb.org/join-arctos/contacts-support) 
+to locate and correct the problem. If that isn’t the case, [contact us]([https://arctosdb.org/join-arctos/contacts-support](https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=contact&projects=&template=contact-arctos.md&title=%5Bexternal+CONTACT%5D)) 
 with the error message and a description of
 the action that caused the error message.
 
@@ -45,7 +45,31 @@ Arctos is case-sensitive. JOHN DOE is not the same value as John Doe.
 Leading and trailing spaces and other non-printing characters matter.
 
 The web-based applications may not work well for very large loads.
-[Contact us](https://arctosdb.org/join-arctos/contacts-support) if you’re having problems.
+[Contact us](https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=contact&projects=&template=contact-arctos.md&title=%5Bexternal+CONTACT%5D) if you’re having problems.
+
+## Columns and Documentation
+
+Documentation is provided as a Google Sheet:
+
+https://docs.google.com/spreadsheets/d/1VbNC3k17WAHMum_qD5UYoXxUUWwXXh5gZSM5vfGvRzU/edit#gid=529334279
+
+Make sure to check the tabs for additional information!
+
+
+## Stop Here!!
+
+Everything below here is deprecated and probably incorrect.
+
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
 
 ## Agent Names
 
