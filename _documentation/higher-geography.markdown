@@ -67,8 +67,8 @@ Note that no search functionality hinges on what's asserted. Asserting Mariposa 
 # FAQ
 ## How do I record the locality "Africa"?
 Continents are not assertable geography. If the only locality information available is a continent, use the following:
-higher geography = <a href="https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350" target="_blank">no specific higher geography</a>
-specific locality = Africa
+* higher geography = <a href="https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350" target="_blank">no specific higher geography</a> 
+* specific locality = Africa
 
 # Community Discussion
 * [GitHub Issue #275](https://github.com/ArctosDB/documentation-wiki/issues/275)
