@@ -19,15 +19,15 @@ _Stable link to this page: https://doi.org/10.7299/X75B02M5_
 
 * Edit your Github profile to include your name and Arctos Institution. This helps other Arctos users know who they are developing with when discussing Arctos Issues. To do this select "Profile" from the drop down in the top right corner of the Github page.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Github%20Profile.jpg)
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Profile.jpg)
 
 Then select the "Edit profile" button on the left side of your profile page.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Github%20Edit%20Profile.jpg)
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Edit%20Profile.jpg)
 
 You can add a photo to replace the Github generated avatar, but it isn't completely necessary. The most helpful thing you can do here is to add your name and institution so that everyone working with you in Arctos will know who you are.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Github%20Edit%20Profile2.png)
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Edit%20Profile2.png)
 
 Be sure to save your edits! Now you are ready to get to know Github!
  
