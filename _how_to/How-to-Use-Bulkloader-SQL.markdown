@@ -5,6 +5,8 @@ author: DLM
 date: 2019-05-19
 ---
 
+[Bulkloader Documentation](https://handbook.arctosdb.org/documentation/)
+
 ## How to use SQL to update multiple records simultaneously in the bulkloader
 
 Go to Browse and Edit
