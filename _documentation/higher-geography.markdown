@@ -62,6 +62,13 @@ Making the record also discoverable by region ("The West") or ecoregion (Sierras
 
 Note that no search functionality hinges on what's asserted. Asserting Mariposa County and "we refuse to say" are functionally equivalent when the locality maps to the bits of Mariposa County that are within Yosemite.
 
+<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">
+# FAQ
+## How do I record the locality "Africa"?
+Continents are not assertable geography. If the only locality information available is a continent, use the following:
+higher geography = <a href="https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350" target="_blank">no specific higher geography</a>
+specific locality = Africa
+
 # Community Discussion
 * [GitHub Issue #275](https://github.com/ArctosDB/documentation-wiki/issues/275)
 
