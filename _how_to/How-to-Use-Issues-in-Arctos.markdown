@@ -1,11 +1,13 @@
 ---
-title: How To Github - Using Github Issues to Improve Arctos 
+title: How To Create and Manage Github Issues for Arctos 
 layout: default_toc
-author: Dusty McDonald
-date: 2016-06-06
+author: Dusty McDonald, Teresa J. Mayfield-Meyer
+date: 2016-06-06, 2023-07-26
 ---
 
-# The Issue Process: How to Make Arctos Work for You
+# How To Create and Manage Github Issues for Arctos
+
+## The Issue Process: How to Make Arctos Work for You
 
 * Improvements to Arctos can come from any Arctos user. Suggested improvements can include simple coding bug fixes, the addition/deletion of 
 data fields or menu items, new forms/buttons/functions to streamline collection processes - anything that will help Arctos users better 
@@ -24,7 +26,7 @@ Issues and discussions are open to all. The discussion of an Issue is best track
 Each Issue that is created is number and considered active until Closed. You can reply to comment via email if you "Watch" a 
 repository in Github. Read more about using [GitHub Issues](https://guides.github.com/features/issues/).
 
-## How to File an Issue
+## How to Create (File) an Issue
 
 * You need to create a username and password to log into Github 
 (see "[How to Use GitHub for Arctos](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Use-Github-for-Arctos)") before you 
@@ -44,7 +46,8 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
  screenshots, or anything else which might help us understand what you wish to accomplish.
  
  
-### Issue Protips
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) 
+### Pro Tips
  
  Use these pointers to streamline getting the solution you need.
  
@@ -63,8 +66,6 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
      * Arctos usernames of involved persons
      
  * Make sure you're in the right place. Most Issues should be filed in the "Arctos" repository, [https://github.com/ArctosDB/arctos/issues](https://github.com/ArctosDB/arctos/issues).
- 
- 
 
  
 ## Managing Issues
