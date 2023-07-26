@@ -11,7 +11,7 @@ _Stable link to this page: https://doi.org/10.7299/X75B02M5_
 
 [Github Documentation](https://handbook.arctosdb.org/documentation/github.html)
 
-## Get a Github Account
+## How To Create a Github Account
 
 * Set up a new (and free) account in GitHub. Go to [http://github.com](http://github.com) and fill out the form with a username, email address, and password. Your username will be your screen name. Your email address will be used to send notifications.
 
@@ -31,7 +31,7 @@ You can add a photo to replace the GitHub generated avatar, but it isn't complet
 
 Be sure to save your edits! Now you are ready to get to know GitHub!
  
-## GitHub Membership Levels and Permissions
+## How To Manage GitHub Membership Levels and Permissions
 
 Anyone can view, post, or comment on an [Arctos Issue](<https://github.com/ArctosDB/arctos/issues>). 
 You do not need special permissions to do this. Without special permissions, however, you cannot label an issue, close an issue, assign an issue to another person, or assign a milestone to an issue.
@@ -60,7 +60,7 @@ If you want to receive notifications (e.g., data issues) from VertNet, TDWG, or 
 * VertNet
 For more information, read the [VertNet Guide to Issue Tracking](http://vertnet.org/resources/issuetrackingguide.html).
 
-## Managing GitHub Notifications
+## How To Manage GitHub Notifications
 
 Once you have created your GitHub account and joined the Arctos repository, you will begin to get email from GitHub. Because our GitHub is very active, the amount of email can be overwhelming. So, how do you avoid 100 emails a day but still stay in touch? 
 
@@ -103,16 +103,14 @@ You will see a list of all of the GitHub repositories to which you have subscrib
 >
 >You will be rewarded with a list of unread notifications. You can peruse the list, read the issues that interest you and mark those that don't as "read". Depending upon the level you wish to participate, you might check once or twice a day or once a week, but less than that might mean missing out on contributing to an important conversation.
 
-## Using Arctos Issues
-See [How to Use Issues in Arctos](/how_to/How-to-Use-Issues-in-Arctos.html)
+## How To Use Arctos Issues
+See [How To Github: Create and Manage Issues](/how_to/How-to-Use-Issues-in-Arctos.html)
 
 ## Developing Arctos with GitHub
 Developers who are interested in Arctos code can view it in the [ArctosDB/arctos](https://github.com/ArctosDB/arctos) and [ArctosDB/DDL](https://github.com/ArctosDB/DDL) repositories.
 
 ## Editing the Arctos Handbook
-See [How to Contribute Content to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
-
-More advanced users can check out [How to get the most out of Arctos-Github](/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.html)
+See [How To Github: Use Github to Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
 
 ## Edit this Documentation
 
