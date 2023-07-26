@@ -1,5 +1,5 @@
 ---
-title: How to Github: Get Started in GitHub for Arctos
+title: How to Github - Get Started in GitHub for Arctos
 layout: default_toc
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
 date: revised 2019-06-14; 2016-05-09
