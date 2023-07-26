@@ -4,6 +4,7 @@ layout: default_toc
 author: Emily Braker
 date: 2016-02-27
 ---
+[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
 
 # Bulkloading Barcodes to Parts
 (Based on a guide initally developed by April Payne, Northern Michigan University)
