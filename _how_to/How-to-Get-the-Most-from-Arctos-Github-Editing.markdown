@@ -1,14 +1,14 @@
 ---
-title: How To Github - Edit Github Documents
+title: How To Github - Edit the Arctos Handbook
 layout: default_toc
-author: Michelle Koo
-date: 2018-05-07
+author: Michelle Koo, Teresa J. Mayfield-Meyer
+date: 2018-05-07, 2023-07-26
 ---
 
 
 # Why Use GitHub for Arctos?
 
-We've covered that [before](/how_to/How-to-Use-Github-for-Arctos.html). Here, we've assumed you have a Github account, have already edited and written documentation in markdown, understand how the Handbook is configured (at least how to contribute without breaking the website!) and now want a little more control and tools at your disposal. We're also assuming you are not a programmer, so nothing complicated, but rather tools so you can edit quickly! _Ready for the next level?_
+We've covered that [before](/documentation/github.html). Here, we've assumed you have a Github account, have already edited and written documentation in markdown, understand how the Handbook is configured (at least how to contribute without breaking the website!) and now want a little more control and tools at your disposal. We're also assuming you are not a programmer, so nothing complicated, but rather tools so you can edit quickly! _Ready for the next level?_
 
 
 Relevant Markdown links:
@@ -35,7 +35,7 @@ Relevant Markdown links:
 * Add a hidden comment to a document - want to keep a note in a document that you don't want to show up to handbook readers? Prefix it with  [//]: # **Note** - this will only work for an entire line, it cannot be used "in line" to hide a few words in a block of text.
  [//]: #test
  
-## Markdown Code You Can Copy!
+## Arctos-specific Markdown Code You Can Copy!
 Copy the code below the image and paste into any other document to use the image.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**  
@@ -56,7 +56,7 @@ Copy the code below the image and paste into any other document to use the image
 ``<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">
 **Add FAQ text here?**``
 
-## How to Get the Most out of Arctos-Github!
+## How To Edit the Arctos Handbook Locally
 Editing and creating pages for the Arctos Handbook in the online Github interface is easy and straightforward. However, at some point, you may need to do more, such as move and edit more than one file at a time. Or perhaps a new page needs more time to complete. This is a step-by-step introduction to working with the Arctos Handbook Github repository.
 
 **First**, let's download and install a desktop tool that allows a local folder to communicate with Github-- [**Github Desktop**](https://desktop.github.com/) (PC or Mac)
