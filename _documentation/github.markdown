@@ -24,8 +24,8 @@ Instructions for doing specifc tasks in Github related to Arctos
 
 * [How To Github: Get Started with Github for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html)
 * [How To Github: Create and Manage Issues](https://handbook.arctosdb.org/how_to/How-to-Use-Issues-in-Arctos.html)
-* [How To Github: Use Github to Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
+* [How To Github: Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
 
 ## Edit this Documentation
 
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://Github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/Github.markdown).
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://Github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/github.markdown).
