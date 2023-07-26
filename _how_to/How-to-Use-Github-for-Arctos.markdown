@@ -66,7 +66,7 @@ Once you have created your Github account and joined the Arctos repository, you 
 
 You can manage email notifications in your Github settings, which you can access from your account profile or directly from the dropdown next to your Github avatar on any Github page when you are signed in.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Github%20Settings.png)
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Settings.png)
 
 To learn about Github Notifications and how to manage your Github experience in general, we suggest you read **[Managing your notifications](https://docs.Github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-Github)**
  
@@ -76,11 +76,11 @@ To learn about Github Notifications and how to manage your Github experience in 
 
 For each repository in Github you can select a participation setting. The setting you choose helps determine what kinds of notifications you receive. To see your watch settings for your Github repositories: in your Github profile select settings > Notifications and the linked text "things you are watching" at the top right of the page.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Github%20Settings%20Watching.jpg)
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Settings%20Watching.jpg)
 
 You will see a list of all of the Github repositories to which you have subscribed. For each one, you can choose the types of notifications you receive or not based upon the watch status you assign.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Github%20Watching.jpg)
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/GitHub%20Watching.jpg)
 
 * **Watching** is the default. You will be notified of all conversations.
 
