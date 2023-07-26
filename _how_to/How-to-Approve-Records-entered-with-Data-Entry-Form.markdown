@@ -5,6 +5,8 @@ date: 2021-07-21
 layout: default_toc
 ---
 
+[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
+
 # How To Approve Records Created With Data Entry Form
 
 #### Navigation: <a href="https://arctos.database.museum/Bulkloader/browseBulk.cfm" class="external">Enter Data > Bulkloader > Browse and Edit</a>
