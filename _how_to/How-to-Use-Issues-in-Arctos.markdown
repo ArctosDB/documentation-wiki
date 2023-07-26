@@ -1,11 +1,11 @@
 ---
-title: How To Create and Manage Github Issues for Arctos 
+title: How To Github - Create and Manage Github Issues for Arctos 
 layout: default_toc
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
 date: 2016-06-06, 2023-07-26
 ---
 
-# How To Create and Manage Github Issues for Arctos
+# How To Github: Create and Manage Github Issues for Arctos
 
 ## The Issue Process: How to Make Arctos Work for You
 
