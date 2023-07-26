@@ -238,6 +238,15 @@ And some specimens will also contain part attribute data for one or more of the 
 ]
 ```
 
+## How To
+
+Instructions for doing specifc tasks related to Parts in Arctos
+
+ - [How To Create and Edit Parts](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html)
+ - [How To Bulkload Parts](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Parts.html)
+ - [How To Create Part Attributes from Containers](https://handbook.arctosdb.org/how_to/How-To-Create-Part-Attributes-from-Containers.html)
+
+   
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/parts.markdown" target="_blank">here</a>.
