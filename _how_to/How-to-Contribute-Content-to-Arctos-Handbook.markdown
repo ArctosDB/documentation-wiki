@@ -1,8 +1,8 @@
 ---
 title: How To Github - Contribute to the Arctos Handbook
 layout: default_toc
-author: Michelle Koo
-date: 2018-05-04
+author: Michelle Koo, Teresa J. Mayfield-Meyer
+date: 2018-05-04, 2023-07-26
 ---
 # How To Github - Contribute to the Arctos Handbook
 
