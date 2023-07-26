@@ -3,6 +3,8 @@ title: How To Create and Edit Parts
 layout: default_toc
 author: Emily Braker
 ---
+[Parts Documentation](https://handbook.arctosdb.org/documentation/parts.html)
+
 # How To Create and Edit Parts
 
 ### NAVIGATION: 
