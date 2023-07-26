@@ -4,6 +4,9 @@ authors: April Payne, Northern Michigan University; Michelle Koo, MVZ; Teresa Ma
 date created: 2019-03-15
 layout: default_toc
 ---
+
+[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+
 # How To Install Cryovials into a Freezer Box
 
 This guide provides the steps needed to install (i.e., scan) barcoded vials into a freezer box.
