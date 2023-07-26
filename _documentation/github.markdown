@@ -18,3 +18,9 @@ The tool we use to accomplish what Dusty describes above is GitHub.
 * GitHub is where Arctos users can contribute to the [Arctos Handbook](http://handbook.arctosdb.org/) via the [Arctos Documentation-wiki Repository](https://arctosdb.github.io/documentation-wiki/). 
 
 * If you have an Arctos question or problem, post it on the [Arctos Issues](https://github.com/ArctosDB/arctos/issues) site. There you can also view and comment on issues.
+
+## How To
+Instructions for doing specifc tasks in Github related to Arctos
+
+* [How To Get Started with Github for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html)
+* 
