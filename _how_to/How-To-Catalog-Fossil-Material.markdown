@@ -4,6 +4,9 @@ authors: Teresa Mayfield-Meyer
 date created: 2021-07-25
 layout: default_toc
 ---
+
+[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
+
 # How To Catalog Fossil Material (Deprecated)
 
 This document has been transferred to [Best Practices - Cataloging Fossil Material](https://handbook.arctosdb.org/best_practices/catalog_fossils.html)
