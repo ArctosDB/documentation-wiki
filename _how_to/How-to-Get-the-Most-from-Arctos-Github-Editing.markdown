@@ -5,35 +5,35 @@ author: Michelle Koo, Teresa J. Mayfield-Meyer
 date: 2018-05-07, 2023-07-26
 ---
 
-# How To Github - Edit the Arctos Handbook
+# How To Github: Edit the Arctos Handbook
 
-[Github Documentation](https://handbook.arctosdb.org/documentation/github.html)
+[Github Documentation](https://handbook.arctosdb.org/documentation/Github.html)
 
-## Why Use GitHub for the Arctos Handbook?
+## Why Use Github for the Arctos Handbook?
 
-We've covered that [before](/documentation/github.html). Here, we've assumed you have a Github account, have already edited and written documentation in markdown, understand how the Handbook is configured (at least how to contribute without breaking the website!) and now want a little more control and tools at your disposal. We're also assuming you are not a programmer, so nothing complicated, but rather tools so you can edit quickly! _Ready for the next level?_
+We've covered that [before](/documentation/Github.html). Here, we've assumed you have a Github account, have already edited and written documentation in markdown, understand how the Handbook is configured (at least how to contribute without breaking the website!) and now want a little more control and tools at your disposal. We're also assuming you are not a programmer, so nothing complicated, but rather tools so you can edit quickly! _Ready for the next level?_
 
 
 Relevant Markdown links:
-* GitHub is the place to go for the [Arctos Handbook repository](https://github.com/ArctosDB/documentation-wiki) that will help you function as an Arctos user or operator. 
+* Github is the place to go for the [Arctos Handbook repository](https://Github.com/ArctosDB/documentation-wiki) that will help you function as an Arctos user or operator. 
 
 * Basic guide on [how to contribute markdown content to the Handbook](//how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
 
-* If you have an Arctos Issue, post it on the [Issues](https://github.com/ArctosDB/arctos/issues) site. There you can also view and comment on current issues, search on past issues (closed issues), too. Follow our guide on [How to Use Issues in Arctos](/how_to/How-to-Use-Issues-in-Arctos.html).
+* If you have an Arctos Issue, post it on the [Issues](https://Github.com/ArctosDB/arctos/issues) site. There you can also view and comment on current issues, search on past issues (closed issues), too. Follow our guide on [How to Use Issues in Arctos](/how_to/How-to-Use-Issues-in-Arctos.html).
 
-* [Mastering Markdown on Github](https://guides.github.com/features/mastering-markdown/) - specific to Github-flavored markdown
+* [Mastering Markdown on Github](https://guides.Github.com/features/mastering-markdown/) - specific to Github-flavored markdown
 
 ## Tips & Cheats:       
-* [Github-flavored Markdown Cheatsheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf) ready for printing!
+* [Github-flavored Markdown Cheatsheet](https://enterprise.Github.com/downloads/en/markdown-cheatsheet.pdf) ready for printing!
 
 
-* [Live Markdown Editor](https://jbt.github.io/markdown-editor/) - The online markdown reader will display a preview as you type.
+* [Live Markdown Editor](https://jbt.Github.io/markdown-editor/) - The online markdown reader will display a preview as you type.
 
 
 * [Word to Markdown converter](https://word-to-markdown.herokuapp.com/) - Upload as Word doc, get back Markdown
 
 
-* [Convert a Google Doc to Markdown](https://github.com/lmmx/gdocs2md-html) -  a little bit of setup via Google Script and then you'll have a handy tool
+* [Convert a Google Doc to Markdown](https://Github.com/lmmx/gdocs2md-html) -  a little bit of setup via Google Script and then you'll have a handy tool
 
 * Add a hidden comment to a document - want to keep a note in a document that you don't want to show up to handbook readers? Prefix it with  [//]: # **Note** - this will only work for an entire line, it cannot be used "in line" to hide a few words in a block of text.
  [//]: #test
@@ -41,22 +41,22 @@ Relevant Markdown links:
 ### Arctos-specific Markdown Code You Can Copy!
 Copy the code below the image and paste into any other document to use the image.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**  
-``![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**`` 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**  
+``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**`` 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
-``![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**`` 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
+``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**`` 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)  
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)  
 **Video Tutorial**  
-``![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)  
+``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)  
 **Video Tutorial** `` 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
-``![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)`` 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
+``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)`` 
 
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **FAQ goes here?**
-``<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">
+<img src="https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **FAQ goes here?**
+``<img src="https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">
 **Add FAQ text here?**``
 
 ## How to Add Images
@@ -99,7 +99,7 @@ Example in HTML:
 ## How To Edit the Arctos Handbook Locally
 Editing and creating pages for the Arctos Handbook in the online Github interface is easy and straightforward. However, at some point, you may need to do more, such as move and edit more than one file at a time. Or perhaps a new page needs more time to complete. This is a step-by-step introduction to working with the Arctos Handbook Github repository.
 
-**First**, let's download and install a desktop tool that allows a local folder to communicate with Github-- [**Github Desktop**](https://desktop.github.com/) (PC or Mac)
+**First**, let's download and install a desktop tool that allows a local folder to communicate with Github-- [**Github Desktop**](https://desktop.Github.com/) (PC or Mac)
 
 **Second**, let's make sure you have a text editor that works well for the task. Most text editors for editing code would work. This can be an intensely personal decision so we're not going to do any comparisons here but if you do not have a preference, I suggest trying out [**Brackets**](http://brackets.io/). It's a free, open-source code editor (Adobe) that works well for this task on either Mac or PC.
 
@@ -108,7 +108,7 @@ Now you're ready to get started.
 ### Clone a Github Repo for offline editing
 
  - Open Github Desktop. The first prompt will be to sign in with your Github account. (If you don't have the prompt, go to **Github Desktop -> Preferences** Account tab).
- - Now you will make a copy of a Github repository onto your desktop, **File -> Clone repository**. A list of Github repos that you have access should appear. Choose [documentation-wiki](https://github.com/ArctosDB/documentation-wiki). Select a folder for the copied files. It's best to create a dedicated directory for any code repos.
+ - Now you will make a copy of a Github repository onto your desktop, **File -> Clone repository**. A list of Github repos that you have access should appear. Choose [documentation-wiki](https://Github.com/ArctosDB/documentation-wiki). Select a folder for the copied files. It's best to create a dedicated directory for any code repos.
  - We'll get back to _Github Desktop_ after we open and edit a file below.
 
 
@@ -118,7 +118,7 @@ Now you're ready to get started.
  We will install one to preview your Markdown code as you type- fun and useful! 
   - Go to **File -> Extension Manager**  (or click on the lego brick on top right)
   - Search for 'markdown preview'
-  - Click install for "Markdown Preview" extension ([developer's website](https://github.com/gruehle/MarkdownPreview))
+  - Click install for "Markdown Preview" extension ([developer's website](https://Github.com/gruehle/MarkdownPreview))
   - Reload application if prompted
   
 Now you're ready to start editing or creating a new markdown page in your cloned repo. These changes are on your LOCAL directory only until you are ready to have it "committed" to the online master repository.
@@ -127,7 +127,7 @@ Now you're ready to start editing or creating a new markdown page in your cloned
  - Open a file you want to edit (any file with *.markdown extension). Right-click and choose to open with _Brackets_. Once the file is open, click on the blue Markdown icon on the right to enable preview as you code.    
  
 
- ![markdown preview](https://raw.githubusercontent.com/gruehle/MarkdownPreview/master/screenshots/markdown-preview.png)
+ ![markdown preview](https://raw.Githubusercontent.com/gruehle/MarkdownPreview/master/screenshots/markdown-preview.png)
  
  Try it out! As you type and add formatting, the preview will show how the rendered page will look. Caveats: it will NOT show you the final rendering on the Handbook site as _Bracket_ cannot render the entire website's framework such as the author and date that are added at the bottom of each page based on the front matter fields.
  
@@ -138,7 +138,7 @@ Now you're ready to start editing or creating a new markdown page in your cloned
 Once you are ready to post your changes to the Github repo and thus have it compiled and rendered for the website, you are ready to use _Github Desktop_.
 
 Open _Github Desktop_ and you will see your changes in the cloned repo under the _Changes_ tab
- ![brackets](https://handbook.arctosdb.org/images/uploads/github-desktop-example2.png)
+ ![brackets](https://handbook.arctosdb.org/images/uploads/Github-desktop-example2.png)
   Green highlights are additions and red are deletions.
   
 If you are ready to push your changes to the repo, then type a short summary of your modifications in the 'Summary' box with optional descriptive text in 'Description', and click on **Commit to gh-page**.
@@ -147,7 +147,7 @@ If you are ready to push your changes to the repo, then type a short summary of 
 
 ## Edit this Documentation
 
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.markdown" target="_blank">here</a>.
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://Github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.markdown" target="_blank">here</a>.
 
 
 
