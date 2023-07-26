@@ -24,6 +24,7 @@ Instructions for doing specifc tasks in Github related to Arctos
 
 * [How To Get Started with Github for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html)
 * [How To Create and Manage Issues](https://handbook.arctosdb.org/how_to/How-to-Use-Issues-in-Arctos.html)
+* [How To Use Github to Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
 
 ## Edit this Documentation
 
