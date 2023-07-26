@@ -4,6 +4,9 @@ layout: default_toc
 author: Carla Cicero
 date: 2016-03-08
 ---
+
+[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+
 # How to Assign a Barcode to an Individual Part
 
 ## From Search Results
