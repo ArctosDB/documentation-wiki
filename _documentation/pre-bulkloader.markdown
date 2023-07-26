@@ -7,6 +7,8 @@ layout: default_toc
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
+[Bulkloader Documentation](https://handbook.arctosdb.org/documentation/)
+
 # Pre-Bulkloader
 
 The pre-bulkloader is a data cleanup tool for catalog records to be bulkloaded.
