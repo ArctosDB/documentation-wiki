@@ -675,6 +675,7 @@ Instructions for doing specifc tasks related to Object Tracking, Containers, and
  - [How To Barcode Cryovials in an Existing Freezer Box](https://handbook.arctosdb.org/how_to/How-To-Barcode-Cryovials-in-an-Existing-Freezer-Box.html)
  - [How To Install Cryovials into a Freezer Box](https://handbook.arctosdb.org/how_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box.html)
  - [How To Find Parts for a Loan When Using Object Tracking](https://handbook.arctosdb.org/how_to/How-To-Find-Parts%20for-a-Loan-Using%20Object%20Tracking-Existing-Freezer-Box.html)
+ - [How To Create Part Attributes from Containers](https://handbook.arctosdb.org/how_to/How-To-Create-Part-Attributes-from-Containers.html)
  - [How To Bulkload Barcodes to Parts](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html)
  - [How To Create And Acquire Barcode Supplies](https://handbook.arctosdb.org/how_to/Barcode-Supplies.html)
    
