@@ -474,7 +474,7 @@ Other ID documentation has moved to [it’s own page](/documentation/other-ident
 
 ## How To
 
-Instructions for doing specifc tasks related to Agents in Arctos
+Instructions for doing specifc tasks related to entering Catalog Records in Arctos
 
  - [How To Understand Data Entry](https://handbook.arctosdb.org/how_to/Understanding-data-entry.html)
  - [How To Enter Data for a Single Record](https://handbook.arctosdb.org/how_to/How-to-Enter-Data-for-a-Single-Record.html)
