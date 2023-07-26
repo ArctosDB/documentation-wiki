@@ -663,6 +663,21 @@ and check that the number we've extracted is *between* a range (identical to ```
     Series Spreadsheet (Arctos: ObjectTracking tab) before placing an
     order or printing your barcodes.
 
+## How To
+
+Instructions for doing specifc tasks related to Object Tracking, Containers, and Barcodes in Arctos
+
+ - [How To Start Object Tracking in Arctos](https://handbook.arctosdb.org/how_to/How-to-Start-Object-Tracking.html)
+ - [How To Create and Edit Containers](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Containers.html)
+ - [How To Create an Individual Container in Arctos Object Tracking](https://handbook.arctosdb.org/how_to/How-to-Create-a-Freezer-Box-Container.html)
+ - [How To Move to a Single Barcoded Container](https://handbook.arctosdb.org/how_to/How-to-Move-a-Single-Barcoded-Container.html)
+ - [How To Assign a Barcode to an Individual Part](https://handbook.arctosdb.org/how_to/How-to-Assign-a-Barcode-to-an-Individual-Specimen.html)
+ - [How To Barcode Cryovials in an Existing Freezer Box](https://handbook.arctosdb.org/how_to/How-To-Barcode-Cryovials-in-an-Existing-Freezer-Box.html)
+ - [How To Install Cryovials into a Freezer Box](https://handbook.arctosdb.org/how_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box.html)
+ - [How To Find Parts for a Loan When Using Object Tracking](https://handbook.arctosdb.org/how_to/How-To-Find-Parts%20for-a-Loan-Using%20Object%20Tracking-Existing-Freezer-Box.html)
+ - [How To Bulkload Barcodes to Parts](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html)
+ - [How To Create And Acquire Barcode Supplies](https://handbook.arctosdb.org/how_to/Barcode-Supplies.html)
+   
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/container.markdown" target="_blank">here</a>.
