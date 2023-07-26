@@ -1,9 +1,11 @@
 ---
-title: How To Github - Contribute to the Arctos Handbook
+title: Index
 layout: default_toc
 author: Michelle Koo, Teresa J. Mayfield-Meyer
 date: 2018-05-04, 2023-07-26
 ---
+# Content has been moved to [How To Github: Contribute to the Arctos Handbook](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/How-to-Get-the-Most-from-Arctos-Github-Editing.html)
+
 # How To Github - Contribute to the Arctos Handbook
 
 There are four kinds of content on the Arctos Handbook:
