@@ -5,6 +5,8 @@ date: 2023-03-14
 layout: default_toc
 ---
 
+[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
+
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 [GitHub Issue](https://github.com/ArctosDB/documentation-wiki/issues/238)
