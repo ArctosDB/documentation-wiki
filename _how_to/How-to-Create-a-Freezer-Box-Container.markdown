@@ -5,6 +5,8 @@ author: Emily Braker, Teresa Mayfield-Meyer
 date: 2016-02-27, 2018-11-29, 2019-02-22
 ---
 
+[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+
 # How To Create an Individual Container in Arctos Object Tracking (e.g. Freezer Box with Positions)
 
 There are many types of containers possible in Arctos. This guide walks you through the steps of creating a freezer box or another container type as a new container. This is the first step before you can scan barcoded parts such as tissues into positions in Arctos.
