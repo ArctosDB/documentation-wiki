@@ -5,8 +5,9 @@ author: Michelle Koo, Teresa J. Mayfield-Meyer
 date: 2018-05-07, 2023-07-26
 ---
 
+# How To Github - Edit the Arctos Handbook
 
-# Why Use GitHub for Arctos?
+## Why Use GitHub for the Arctos Handbook?
 
 We've covered that [before](/documentation/github.html). Here, we've assumed you have a Github account, have already edited and written documentation in markdown, understand how the Handbook is configured (at least how to contribute without breaking the website!) and now want a little more control and tools at your disposal. We're also assuming you are not a programmer, so nothing complicated, but rather tools so you can edit quickly! _Ready for the next level?_
 
