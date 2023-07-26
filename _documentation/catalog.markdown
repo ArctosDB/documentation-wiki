@@ -484,6 +484,7 @@ Instructions for doing specifc tasks related to entering Catalog Records in Arct
  - [How To Enter Catalog Record Data in the Field](https://handbook.arctosdb.org/how_to/How-to-Enter-Specimens-in-the-Field.html)
  - [How To Approve Attribute Records Entered via Data Entry Form](https://handbook.arctosdb.org/how_to/How-to-load-Data-Entry-linked-Attributes.html)
  - [How To Bulkload Catalog Records](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Specimen-Data.html)
+ - See also, [Bulkloader Documentation](https://handbook.arctosdb.org/documentation/bulkloader.html)
 
 ## Edit this Documentation
 
