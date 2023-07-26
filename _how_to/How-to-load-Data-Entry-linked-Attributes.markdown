@@ -3,6 +3,8 @@ title: How To Approve Attribute Records Entered via Data Entry Form
 layout: default_toc
 ---
 
+[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
+
 # How To Approve Attribute Records Entered via Data Entry Form
 
 Users may enter additional Attributes via Data Entry. These must be loaded after the specimen record exists, and this may be done
