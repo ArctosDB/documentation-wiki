@@ -4,6 +4,9 @@ author: Kyndall Hildebrandt
 date: 2017-05-05
 layout: default_toc
 ---
+
+[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+
 # How to Choose and Use Machine-based Object Tracking Equipment and Supplies
  
 ## Barcode material:
