@@ -3,6 +3,8 @@ title: How To Enter Catalog Record Data in the Field
 layout: default_toc
 ---
 
+[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
+
 # How To Enter Catalog Record Data in the Field
 
 **This guide will walk you through the procedure of setting up a spreadsheet to enter specimens while in the field.**
