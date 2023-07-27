@@ -5,7 +5,9 @@ contributor: Teresa J Mayfield-Meyer
 date: 2023-02-01
 layout: default_toc
 ---
-# **How to Github - Contribute a Video Tutorial to the Arctos Handbook**
+# How to Github: Contribute a Video Tutorial to the Arctos Handbook
+
+[Github Documentation](https://handbook.arctosdb.org/documentation/github.html)
 
 Short video tutorials help Arctos users learn how to do tasks in Arctos. If you would like to contribute a short video tutorial to the Arctos Community Handbook, read on!
 
