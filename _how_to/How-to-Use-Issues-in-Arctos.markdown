@@ -7,6 +7,8 @@ date: 2016-06-06, 2023-07-26
 
 # How To Github: Create and Manage Github Issues for Arctos
 
+[Github Documentation](https://handbook.arctosdb.org/documentation/github.html)
+
 ## The Issue Process: How to Make Arctos Work for You
 
 * Improvements to Arctos can come from any Arctos user. Suggested improvements can include simple coding bug fixes, the addition/deletion of 
