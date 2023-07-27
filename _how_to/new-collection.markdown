@@ -5,7 +5,9 @@ author: DLM
 date: 2018-06-08
 ---
 # Prospective Collections in Arctos
- 
+
+[Getting Started Documentation}(https://handbook.arctosdb.org/documentation/getting_started.html)
+
 ## For prospective partners
 
 
