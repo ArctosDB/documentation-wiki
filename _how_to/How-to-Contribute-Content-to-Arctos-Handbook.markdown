@@ -1,12 +1,17 @@
 ---
-title: Index
+title: How To Github - Contribute to the Arctos Handbook
 layout: default_toc
 author: Michelle Koo, Teresa J. Mayfield-Meyer
-date: 2018-05-04, 2023-07-26
+date: 2018-05-07, 2023-07-26
 ---
-# Content has been moved to [How To Github: Contribute to the Arctos Handbook](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/How-to-Get-the-Most-from-Arctos-Github-Editing.html)
 
-# How To Github - Contribute to the Arctos Handbook
+# How To Github: Contribute to the Arctos Handbook
+
+[Github Documentation](https://handbook.arctosdb.org/documentation/Github.html)
+
+## Why Use Github for the Arctos Handbook?
+
+We've covered that [before](/documentation/Github.html). Here, we've assumed you have a Github account, have already edited and written documentation in markdown, understand how the Handbook is configured (at least how to contribute without breaking the website!) and now want a little more control and tools at your disposal. We're also assuming you are not a programmer, so nothing complicated, but rather tools so you can edit quickly! _Ready for the next level?_
 
 There are four kinds of content on the Arctos Handbook:
 
@@ -24,7 +29,22 @@ We encourage Curators/Collection Managers to engage students in writing "How-to 
 >Documentation pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/), which is dead simple 
 to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-## Create New Content
+## How To Edit Existing Content
+
+* Login to GitHub.
+* Go to the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/wiki)., main Code tab
+* Find the page you want to edit by clicking on Find File next to the Clone or Download button. Type key words next to the documentation-wiki prompt. IMPORTANT: separate words with hyphens for the search to find titles correctly, e.g.
+  "how-to-edit-documentation"
+*Select the file you have chosen
+* Click on "Edit" in the upper right.
+* Make your changes on the page. DO NOT EDIT a title because that will change the URL and thus affect linked pages.
+* Save the page!
+
+### File Names
+
+**DO NOT EDIT** an existing file name because that will change the URL and thus affect linked pages.
+
+## How To Create New Content
 
 * First, login to GitHub.
 * Go to the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/).
@@ -103,21 +123,25 @@ As an important note, **if you do not include front matter on your page, the pag
 * Pages will dynamically appear on the How to Index page and be searchable on the Arctos Handbook site now.
   - If you edited a documentation page, the update will not be automatic; if you're comfortable editing HTML directly, you can insert it into the appropriate index page (eg, for a page in `_documentation`, the `_documentation/index.html` file), or otherwise ask dustymc@gmail.com, mkoo@berkeley.edu, or ccicero@berkeley.edu to take care of it for you.
 
-### Edit Existing Content
 
-* Login to GitHub.
-* Go to the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/wiki)., main Code tab
-* Find the page you want to edit by clicking on Find File next to the Clone or Download button. Type key words next to the documentation-wiki prompt. IMPORTANT: separate words with hyphens for the search to find titles correctly, e.g.
-  "how-to-edit-documentation"
-*Select the file you have chosen
-* Click on "Edit" in the upper right.
-* Make your changes on the page. DO NOT EDIT a title because that will change the URL and thus affect linked pages.
-* Save the page!
+Relevant Markdown links:
+* Github is the place to go for the [Arctos Handbook repository](https://Github.com/ArctosDB/documentation-wiki) that will help you function as an Arctos user or operator. 
 
+* Basic guide on [how to contribute markdown content to the Handbook](//how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
 
-## General notes
+* If you have an Arctos Issue, post it on the [Issues](https://Github.com/ArctosDB/arctos/issues) site. There you can also view and comment on current issues, search on past issues (closed issues), too. Follow our guide on [How to Use Issues in Arctos](/how_to/How-to-Use-Issues-in-Arctos.html).
 
-### Relative links
+* [Mastering Markdown on Github](https://guides.Github.com/features/mastering-markdown/) - specific to Github-flavored markdown
+
+## Tips & Cheats:       
+* [Github-flavored Markdown Cheatsheet](https://enterprise.Github.com/downloads/en/markdown-cheatsheet.pdf) ready for printing!
+* [Live Markdown Editor](https://jbt.Github.io/markdown-editor/) - The online markdown reader will display a preview as you type.
+* [Word to Markdown converter](https://word-to-markdown.herokuapp.com/) - Upload as Word doc, get back Markdown
+* [Convert a Google Doc to Markdown](https://Github.com/lmmx/gdocs2md-html) - a little bit of setup via Google Script and then you'll have a handy tool
+* Add a hidden comment to a document - want to keep a note in a document that you don't want to show up to handbook readers? Prefix it with  [//]: # **Note** - this will only work for an entire line, it cannot be used "in line" to hide a few words in a block of text.
+ [//]: #test
+
+### How To Create Relative links
 
 When creating relative links, Github Markdown will recognize the following:
 
@@ -126,17 +150,17 @@ Link to [this here page](/how_to/page.html)
 ```
 and form a URL relative to the site's base url. Ours is 'https://handbook.arctosdb.org'
 
-### Titles
-
-**DO NOT EDIT** an existing title because that will change the URL and thus affect linked pages.
-
-### Add a Table
+### How To Add a Table
 
 In the page where you want to insert a table, follow the guide for [Organizing Data into Tables in Github](https://help.github.com/articles/organizing-information-with-tables)
 
+### How To Add Images
 
-### Add Images
+Embedding images in a markdown document can be a little tricky as it's not always intuitive in my view. The markdown is straightforward however. It's the same format as hyperlinking text (use square brackets for visible text, use parenthesis for url) with an additional "!" at the beginning:
 
+````markdown
+![alternative text](image url)
+````
 - Give the image a URL: In a new tab, go to the [documentation-wiki `uploads` folder](https://github.com/ArctosDB/documentation-wiki/tree/gh-pages/images/uploads), and click the "upload files" button.
   - If you want to use the same tab, be sure to commit your progress, first.
 - Drag and drop the image or browse your computer for the image(s) and click the "commit changes" button.
@@ -146,14 +170,73 @@ In the page where you want to insert a table, follow the guide for [Organizing D
 - Hit the preview button to ensure you've correctly included the image
 - Commit your changes
 
-### Add Videos
+So how to add images to your markdown page? Two methods work:      
+ 1) **Editing on Github document**. If you're using the online Github editor, then simply drag the image from your desktop to the online editor and it will simulateously upload the image and render the markdown.
+ 
+ 2) **Working in a Text Editor & Github Desktop**. You can add the image to the local folder of your repo directly. For images place theme here: **/images/uploads/your_image.jpg**
+ 
+ In your markdown document where the image will be added, use the standard markdown format for embedding images but here we can use the base URL (https://handbook.arctosdb.org) to define the image path.
+ 
+ ````markdown
+ ![new image](https://handbook.arctosdb.org/images/uploads/your_image.jpg)
+ ````
+### How to resize images
+
+Without editing the image itself, you can resize the image as you would any image in regular html--  adding the parameters for width and height.
+
+Example in Markdown:
+
+````markdown
+![Arctos logo](https://handbook.arctosdb.org/images/favicon256.png)
+````
+![Arctos logo](https://handbook.arctosdb.org/images/favicon256.png)
+
+This may be too large for your page so we can reduce the width by 50% using the actual HTML that the markdown is rendering so you can adjust the parameters exactly the way you want.
+
+Example in HTML:
+````html
+<img alt="Arctos logo" width="128" src="https://handbook.arctosdb.org/images/favicon256.png"/>
+````
+<img alt="Arctos logo" width="128" src="https://handbook.arctosdb.org/images/favicon256.png"/>
+
+
+### How To Add Videos
 
 * Create a YouTube Video using the Arctos login: arctos.database@gmail.com.
 * Email the database administrator for the password.
 * Add the link to the page.
+ 
+### Arctos-specific Markdown Code You Can Copy!
+Copy the code below the image and paste into any other document to use the image.
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**  
+``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**`` 
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
+``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**`` 
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)  
+**Video Tutorial**  
+``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)  
+**Video Tutorial** `` 
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
+``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)`` 
+
+<img src="https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **FAQ goes here?**
+``<img src="https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">
+**Add FAQ text here?**``
+
+## How To Edit the Arctos Handbook Locally
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 ## Text editors
+
+Editing and creating pages for the Arctos Handbook in the online Github interface is easy and straightforward. However, at some point, you may need to do more, such as move and edit more than one file at a time. Or perhaps a new page needs more time to complete. This is a step-by-step introduction to working with the Arctos Handbook Github repository.
+
+**First**, let's download and install a desktop tool that allows a local folder to communicate with Github-- [**Github Desktop**](https://desktop.Github.com/) (PC or Mac)
+
+**Second**, let's make sure you have a text editor that works well for the task. Most text editors for editing code would work. This can be an intensely personal decision so we're not going to do any comparisons here but if you do not have a preference, I suggest trying out [**Brackets**](http://brackets.io/). It's a free, open-source code editor (Adobe) that works well for this task on either Mac or PC.
 
 If you want to work on markdown content offline or just not in a browser, there are a number of great text editors to use. Here are some FREE favorites:    
 
@@ -162,8 +245,49 @@ If you want to work on markdown content offline or just not in a browser, there 
 * [Notepad ++](https://notepad-plus-plus.org/) (PC, free)
 * [Text Wrangler](http://www.barebones.com/products/textwrangler/) (MacOS, free)
 
+Try using [Github Desktop](https://desktop.github.com/) if you want to sync your work with the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/) locally. 
 
-Try using [Github Desktop](https://desktop.github.com/) if you want to sync your work with the [documentation-wiki repository](https://github.com/ArctosDB/documentation-wiki/) locally. For more details, consult [_How to Get the Most Out of Arctos-Github Editing_](/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.markdown).
+Now you're ready to get started.
+
+### Clone a Github Repo for offline editing
+
+ - Open Github Desktop. The first prompt will be to sign in with your Github account. (If you don't have the prompt, go to **Github Desktop -> Preferences** Account tab).
+ - Now you will make a copy of a Github repository onto your desktop, **File -> Clone repository**. A list of Github repos that you have access should appear. Choose [documentation-wiki](https://Github.com/ArctosDB/documentation-wiki). Select a folder for the copied files. It's best to create a dedicated directory for any code repos.
+ - We'll get back to _Github Desktop_ after we open and edit a file below.
+
+
+### Open and edit in a Text Editor
+
+ For first time user of _Brackets_, let's make life a little easier with a plugin. Plugins are typically third-party contributions to extend Brackets' functionality.     
+ We will install one to preview your Markdown code as you type- fun and useful! 
+  - Go to **File -> Extension Manager**  (or click on the lego brick on top right)
+  - Search for 'markdown preview'
+  - Click install for "Markdown Preview" extension ([developer's website](https://Github.com/gruehle/MarkdownPreview))
+  - Reload application if prompted
+  
+Now you're ready to start editing or creating a new markdown page in your cloned repo. These changes are on your LOCAL directory only until you are ready to have it "committed" to the online master repository.
+
+ - Navigate in your cloned repo to the "\_how\_to" folder. *A word of caution*: be sure NOT to rename directories or remove any contents of the "git" folder as it will corrupt your copy, or worse the master repo. (If you do, don't panic, commits can be reversed!)
+ - Open a file you want to edit (any file with *.markdown extension). Right-click and choose to open with _Brackets_. Once the file is open, click on the blue Markdown icon on the right to enable preview as you code.    
+ 
+
+ ![markdown preview](https://raw.Githubusercontent.com/gruehle/MarkdownPreview/master/screenshots/markdown-preview.png)
+ 
+ Try it out! As you type and add formatting, the preview will show how the rendered page will look. Caveats: it will NOT show you the final rendering on the Handbook site as _Bracket_ cannot render the entire website's framework such as the author and date that are added at the bottom of each page based on the front matter fields.
+ 
+ Also note that _Brackets_ (like the other suggested text editors) helps you code with visual cues, auto-finishing braces, and you can add other bells and whistles with other plugins.  
+
+### Save edits and sync with Github repo
+
+Once you are ready to post your changes to the Github repo and thus have it compiled and rendered for the website, you are ready to use _Github Desktop_.
+
+Open _Github Desktop_ and you will see your changes in the cloned repo under the _Changes_ tab
+ ![brackets](https://handbook.arctosdb.org/images/uploads/Github-desktop-example2.png)
+  Green highlights are additions and red are deletions.
+  
+If you are ready to push your changes to the repo, then type a short summary of your modifications in the 'Summary' box with optional descriptive text in 'Description', and click on **Commit to gh-page**.
+
+**TIP:** If you only want some but not all your changes committed, you can select which ones by checking off/on the changes on the left.
 
 #### Search Terms
 create documentation  
@@ -176,4 +300,4 @@ edit How To
 
 ## Edit this Documentation
 
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Contribute-Content-to-Arctos-Handbook.markdown" target="_blank">here</a>.
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://Github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Contribute-Content-to-Arctos-Handbook.markdown" target="_blank">here</a>.
