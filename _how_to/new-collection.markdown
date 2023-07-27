@@ -4,7 +4,7 @@ layout: default_toc
 author: DLM
 date: 2018-06-08
 ---
-# Prospective Collections in Arctos
+# How To Join Arctos
 
 [Getting Started Documentation}(https://handbook.arctosdb.org/documentation/getting_started.html)
 
