@@ -4,6 +4,7 @@ layout: default_toc
 author: Michelle Koo, Teresa J. Mayfield-Meyer
 date: 2018-05-07, 2023-07-26
 ---
+# Content has been moved to [How To Github: Contribute to the Arctos Handbook](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/How-to-Contribute-Content-to-Arctos-Handbook.markdown)
 
 # How To Github: Contribute to the Arctos Handbook
 
