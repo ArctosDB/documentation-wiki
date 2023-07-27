@@ -23,7 +23,7 @@ The tool we use to accomplish what Dusty describes above is Github.
 Instructions for doing specifc tasks in Github related to Arctos
 
 * [How To Github: Get Started with Github for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html)
-* [How To Github: Create and Manage Issues](https://handbook.arctosdb.org/how_to/How-to-Use-Issues-in-Arctos.html)
+* [How To Github: Create and Manage Github Issues for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Issues-in-Arctos.html)
 * [How To Github: Contribute to the Arctos Handbook](How-to-Get-the-Most-from-Arctos-Github-Editing.html)
 
 ## Edit this Documentation
