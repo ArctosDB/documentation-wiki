@@ -16,7 +16,6 @@ Are you looking for a new collection management solution or have you recently jo
 ## How To Start Using Arctos
 
 * [How to Create a New Collection in Arctos](http://handbook.arctosdb.org/how_to/How-to-Start-a-New-Collection-in-Arctos.html)
-* [How To Start as a New Collection in Arctos](https://handbook.arctosdb.org/how_to/How-to-Start-a-New-Collection-in-Arctos.html)
 
 ## How To Make Using Arctos Easier
 
