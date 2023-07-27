@@ -1,10 +1,10 @@
 ---
-title: How To Start as a New Collection in Arctos
+title: How To Create a New Collection in Arctos
 layout: default_toc
 author: Carla Cicero
 date: 2016-06-30
 ---
-# How to Start as a New Collection in Arctos
+# How to Create a New Collection in Arctos
 
 [Getting Started Documentation}(https://handbook.arctosdb.org/documentation/getting_started.html)
 
