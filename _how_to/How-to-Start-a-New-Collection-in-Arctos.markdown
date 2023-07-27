@@ -6,6 +6,8 @@ date: 2016-06-30
 ---
 # How to Start as a New Collection in Arctos
 
+[Getting Started Documentation}(https://handbook.arctosdb.org/documentation/getting_started.html)
+
 If you are joining Arctos, welcome! 
 
 Now that you've decided to join Arctos, there are a few steps before you can actually do anything in Arctos. 
