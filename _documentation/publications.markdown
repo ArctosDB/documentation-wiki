@@ -107,15 +107,6 @@ not undergone a formal peer review process, such as dissertations.
 **DOIs** ([Digital Object Identifiers](http://www.doi.org/)) are CrossRef-issued DOIs which are applied to publications by publishers. These are capable of pulling data for use in creating the publication, and should be recorded with a publication when they are available. Including these identifiers will automatically create resolvable links to the publication, and will provide access to CrossRef's very powerful ecosystem.
 
 
-Include only the actual IDs rather than a more complete link (which may get changed). The following is a DOI:
-
--   **10.1111/j.1365-294X.2005.02461.x**
-
-The following are examples of formats that **contain** DOIs, but are **not** DOIs:
-
--   **dx.doi.org/10.1111/j.1365-294X.2005.02461.x**
--   **DOI:10.1111/j.1365-294X.2005.02461.x**.
-
 ## PMID
 
 
