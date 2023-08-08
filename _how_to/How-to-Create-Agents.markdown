@@ -12,6 +12,7 @@ date: 2021-07-27
 ## Before Creating a New Agent
 
 **Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a>
+**Best Practice:** [Creating Meaningful Agents](https://handbook.arctosdb.org/best_practices/Agents.html)
 
 Before creating any new Agent, it is important to check if the Agent already exists in Arctos. Do this by typing in the person's last name or the organization's name in the “Any part of any name” box and clicking “Search”. If there are no current Agents that use that name, you are good to go. If you discover Agents with a similar name, make sure that they are different people or organizations so that you don't create a duplicate Agent. Use the Agent “unknown” when the person or organization doing the collecting, identifying, borrowing, etc. is unknown or unclear. Please do not create new Agents such as “Collector unknown” or “Determiner unknown”. Use the [verbatim agent attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) rather than creating cryptic agents such as A.B.C. or S. Smith. If at some point in the future the full name of collector, determiner, or borrower S. Smith is determined to be Susan B. Smith and you can find dates, addresses or relationships for them, add the full Agent name to Arctos and assign roles to records as appropriate.
 
