@@ -15,6 +15,28 @@ date: 2021-07-27
 
 Before creating any new Agent, it is important to check if the Agent already exists in Arctos. Do this by typing in the person's last name or the organization's name in the “Any part of any name” box and clicking “Search”. If there are no current Agents that use that name, you are good to go. If you discover Agents with a similar name, make sure that they are different people or organizations so that you don't create a duplicate Agent. Use the Agent “unknown” when the person or organization doing the collecting, identifying, borrowing, etc. is unknown or unclear. Please do not create new Agents such as “Collector unknown” or “Determiner unknown”. Use the [verbatim agent attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) rather than creating cryptic agents such as A.B.C. or S. Smith. If at some point in the future the full name of collector, determiner, or borrower S. Smith is determined to be Susan B. Smith and you can find dates, addresses or relationships for them, add the full Agent name to Arctos and assign roles to records as appropriate.
 
+### Identical Name, Different Person
+
+You are about to bulkload some specimen data and realize that there is already an agent record for an individual named Larry McNeil. However, he is not the same individual as the artist from UAM:Art: [Larry McNeil](https://arctos.database.museum/agent/21290113) that is currently in Arctos.
+
+Since the Larry McNeil that you want to create an agent for is an employee and specimen preparator, you want him to have his own agent record! What do you do?
+
+**Ideal**
+Find your Larry McNeil's middle name and now you can create a unique preferred name for your specific Larry McNeil!
+
+**Next Best Thing**
+Give your Larry McNeil a parenthetical remark after their preferred name. 
+
+`Larry McNeil (CHAS)`
+
+And add the [not the same as](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_relationship#not_the_same_as) relationship to the original Larry McNeil (and back from them to the new agent) and please document WHY in the relationship remark.
+
+Here are some examples of this treatment, although they are all lacking in completing the directions above in some way.
+
+[Carl Johnson (Albuquerque)](https://arctos.database.museum/agents.cfm?agent_id=21325605)
+[David Smith (Texas)](https://arctos.database.museum/agents.cfm?agent_id=21331803)
+[David Stephen Taylor (MVZ)](https://arctos.database.museum/agents.cfm?agent_id=21309995)
+
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
 An agent must include at least one status, relationship, or address OR be a determiner, author, or participant in a publication/project or it will be subject to removal. When this occurs, the agent name will be placed in the [verbatim agent  attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) in all records where it appeared as a collector or preparator.
