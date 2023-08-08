@@ -35,9 +35,12 @@ And add the [not the same as](https://arctos.database.museum/info/ctDocumentatio
 
 Here are some examples of this treatment, although they are all lacking in completing the directions above in some way.
 
-[Carl Johnson (Albuquerque)](https://arctos.database.museum/agents.cfm?agent_id=21325605)   
-[David Smith (Texas)](https://arctos.database.museum/agents.cfm?agent_id=21331803)   
-[David Stephen Taylor (MVZ)](https://arctos.database.museum/agents.cfm?agent_id=21309995)   
+[Carl Johnson (Albuquerque)](https://arctos.database.museum/agents.cfm?agent_id=21325605)
+
+[David Smith (Texas)](https://arctos.database.museum/agents.cfm?agent_id=21331803)
+
+[David Stephen Taylor (MVZ)](https://arctos.database.museum/agents.cfm?agent_id=21309995)
+
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
