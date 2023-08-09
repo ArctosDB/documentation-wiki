@@ -6,7 +6,7 @@ layout: default_toc
 # Identifications
 
 Determinations, or "identifications" (IDs), apply taxonomic terms to
-specimens. In other words, determinations are not necessarily just
+cataloged objects. In other words, determinations are not necessarily just
 taxonomic terms. Information about taxonomic names (which are used to
 compose determinations) is in [Taxonomy](/documentation/taxonomy).
 
@@ -17,12 +17,12 @@ A taxonomic determination is comprised of:
 -   the date of the determination
 -   and the nature, or basis of the determination
 
-Arctos maintains a history of determinations for each specimen.
-Specimens are therefore reidentified by adding a new determination and
-retaining prior determination(s) as "unaccepted." This means that there
-can be only one accepted determination, but not necessarily that prior
+Arctos maintains a history of determinations for each cataloged object.
+Cataloged objects are therefore reidentified by adding a new determination and
+retaining prior determination(s) either as "unaccepted" (identification order = 0), "equally accepted" (identification order =1) or "less accepted" ( identification ordere = 2 or above). This means that there
+can be more than one accepted determination, but not necessarily that prior
 identifications are wrong. In fact, complimentary IDs by experts or by
-alternative methods enhance the value of the specimen.
+alternative methods enhance the value of the cataloged object.
 
 ## Scientific Name
 
@@ -30,7 +30,7 @@ There is a distinction between Scientific Name here
 in determinations, as opposed to [Scientific Name as it is used in the
 taxonomy table](/documentation/taxonomy#taxon-name). The latter is a term from a
 table serving as a taxonomic look-up (or authority). Here, it is a
-character string applied to a specimen by a [determiner](#determiner), though
+character string applied to a cataloged object by a [determiner](#determiner), though
 it uses terms from the look-up table to create such strings.
 Nevertheless, in the simplest and commonest case ([Determination
 Formula](#determination-formula)= "A"), they are identical. (Some forms display a
@@ -69,7 +69,7 @@ and appropriately parse construction.
 
 The "A {string}" formula links nonformulaic identifications to taxa,
 thereby allowing infinite flexibility in applying identifications to
-specimens (if you can type it in fewer than 255 UTF16 characters, it’s
+cataloged objects (if you can type it in fewer than 255 UTF16 characters, it’s
 "valid") while retaining a link to formal taxonomy (e.g., things that
 have appeared in the reviewed literature) and thereby facilitating the
 discovery of informal data through formal taxa (including namestrings,
@@ -90,6 +90,16 @@ The following table is illustrative.
 
 A record may carry any number of identifications which may be in any order. (Order is currently confined to integers between zero and ten.) Order zero is generally treated as "unaccepted" in the UI; all other values are "accepted." Order is non-unique; multiple determinations may be ranked 0 (eg if they are later determined to be incorrect), or multiple determinations may be ranked '1' (="most preferred") - for example, if they consider different aspects of a cultural item (parka and -Gulo_).
 
+This replaces the previous system of accepted/unaccepted and for the purposes of retaining that, 0 = unaccepted and 1 = accepted
+
+BUT
+
+you can also assign any number above 1 to mean accepted, but not as much as 1.
+
+See [this](https://github.com/ArctosDB/arctos/issues/6579) for one explanation of one way this is used.
+
+You can also have more than one order = 1 to indicate that there are more than one accepted identification related to the catalog record. This is important for cultural and geological collections that may need to have more than one accepted identification on a record (a fossil in a bead of amber for example). It might also be used in biological collections when several different determiners have reached the same conclusion about the identification assigned to a biological individual.
+
 ## Determined Date
 
 `Identification . Made_Date VARCHAR2(22) null`
@@ -104,7 +114,7 @@ chronological order of determinations may be the most critical issue.
 
 Signifies that a determination is made in the sense of (*sensu*) a
 particular [publication](/documentation/publications).
-This may be used both in the taxonomic sense ("this specimen fits in
+This may be used both in the taxonomic sense ("this cataloged object fits in
 with Some Author’s concept of *Aus bus*") and as supporting
 documentation ("We’ve determined this to be *Aus bus* using the methods
 provided by Some Author").
@@ -141,7 +151,7 @@ a [Determined Date](#determined-date) if it was not recorded as an exact day.
 `Identification_Agent . Agent_ID NUMBER(22) not null`
 
 Determiners are the [agent](/documentation/agent) (or agents, usually
-a person) who identified the specimen. More than one agent can be
+a person) who identified the cataloged object. More than one agent can be
 entered. The order in which such co-determiners are displayed is set in
 the form by the order in which they were added to the determination. To
 change the displayed order, drag rows.
@@ -162,7 +172,7 @@ in, and controlled by, a [code table](http://arctos.database.museum/info/ctDocum
 
 > This concept is undergoing modification. Please see [Issue 515](https://github.com/ArctosDB/arctos/issues/515) for additional guidance.
 
-SpecimenSearch contains a dropdown list with the following values. All
+Catalog Record Search contains a dropdown list with the following values. All
 searches are case-insensitive. Examples are fictitious and incomplete.
 
 -   Current Identification CONTAINS: Substring match of
@@ -215,7 +225,7 @@ See also, Taxonomy
 -  [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html)
 -  [How to Manage Taxonomic Classifications](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html)
 -  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
--  [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
+-  [How to Search for Catalog Records with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
 -  [How To Manage Taxon Concepts in Arctos](https://handbook.arctosdb.org/how_to/How-To-Manage-Taxon-Concepts.html)
 -  [How To Create Taxa in Arctos Ichnology](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Arctos-Ichnology.html)
 
