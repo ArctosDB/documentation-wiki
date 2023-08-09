@@ -177,12 +177,7 @@ Selected identifiers will display in the summary section of catalog record pages
 **RECOMMENDED for collections that may have records cited in GenBank accessions**
 Genbank Collection is the collection identifier provided by GenBank. This is used to help discover potential links between records in this colelction in Arctos and GenBank accession records. Only collections properly registered with GenBank, and with their assigned identifier entered into Arctos, may access all Arctos-to-GenBank tools.
 
-To register a collection with Genbank or to make institutional updates, please contact:
-
-Shobha Sharma, PhD
-Staff Scientist
-GenBank Taxonomy
-NCBI/NLM/NIH
+To register a collection or for more information, please send an email to gb-admin@ncbi.nlm.nih.gov 
 
 ### Description  
 **REQUIRED for those publishing to GBIF**
