@@ -217,6 +217,8 @@ Institution is an abbreviation that indicates which institution
 "owns" a container. ("Owns" because containers are in fact shared across
 VPD boundaries; this is closer to an indication of creator.)
 
+If you are unsure what your insitution acronym is, it can be found on your Collection Detail page. From the Arctos Main Menu select [Search > Collections](https://arctos.database.museum/home.cfm) and scroll the table to find one of your institution's collections. Select Details on the right side of the page next to it and the Institution Acronym is provided at the top of the page.
+
 
 ## Display Format
 
