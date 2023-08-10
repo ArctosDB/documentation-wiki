@@ -5,33 +5,19 @@ date: 2023-03-14
 layout: default_toc
 ---
 
-[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
-
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 [GitHub Issue](https://github.com/ArctosDB/documentation-wiki/issues/238)
 
 # How To Enter Data for a Single Record 
 
+**Documentation: [Catalog Record](https://handbook.arctosdb.org/documentation/catalog.html)**
+
 ## Navigation 
 
-[Manage -> Data Entry -> Data Entry](https://arctos.database.museum/enter_data.cfm)
+[Tools Directory > Data Entry -> Enter Records]([https://arctos.database.museum/enter_data.cfm](https://arctos.database.museum/Bulkloader/enter.cfm))
 
 ## Select a Data Entry Form 
-
-### Pick a Profile 
-
-Profiles are customized data entry forms that may carry seed data. You - or any other user - may use any profile to begin data entry with the data and arrangement in the profile.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Data values saved in the profile will have a distinct style and should be carefully checked before saving a record.
-
-To set up a data-bearing profile, you may proceed with one of the options below, then
-
-* Arrange your screen however you wish.
-* Enter data that you want the profile to carry, clear out anything that you do not want in the profile. (It is not necessary for the seed data to pass any checks; partial values, types without values, etc., are expected.)
-* Click save profile and provide a (unique) name when prompted.
 
 ### Begin with Previous Records 
 
@@ -48,6 +34,14 @@ After choosing one of these options, you will be directed to the appropriate dat
 
 The background of your new data entry screen should be **green**. If it is not, Arctos will not let you save your data.
 
+### Pick a Profile 
+
+Profiles are customized data entry forms that may carry seed data. You - or any other user - may use any profile to begin data entry with the data and arrangement in the profile. To see existing profiles or create a new profile, select the "Customoze" button at the bottom of the data entry screen.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Data values saved in a profile will have a distinct style and should be carefully checked before saving a record.
+
 ## Customization
 
 See [How To Customize the Data Entry Form]()
@@ -57,12 +51,16 @@ See [How To Customize the Data Entry Form]()
 The following provides some specifics by data entry section.
 
 ### Catalog Record Data
-* Accession is is the Acquisition number that is given to a set of specimens, e.g., 01.2014 and is **REQUIRED** and can be selcted using the "pick" button. The accession **does not** need to be associated with the same collection as the item being entered.
+
+**REQUIRED**
+* Accession - the acquisition number that is given to a set of objects, e.g., 01.2014 can be selcted using the "pick" button. The accession **does not** need to be associated with the same collection as the item being entered.
+* GUID Prefix will be completed based upon the collection selected above or what has been added to a customized data entry form.
+
+**OPTIONAL**
 * Catalog Number can be left blank if you wish Arctos to assign the next available number (only for collections using integer catalog numbers).
 * Catalog Item Type can be left blank if you wish to use the default type selected in collection metadata (See [How To Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html#default-cataloged-item-type)
-* GUID Prefix will be completed based upon the collection selectd above or what has been added to a customized data entry form.
-* Entered By should have your Arctos username already filled in.
-* Status will always be “waiting approval.”
+* Flags can be used to add a notification to the record that some data needs attention after the record is entered.
+* Record Remark is a free text field where any thing related to the catalog record that does not fit in the other fields can be documented.
 
 ### Identification 
 
