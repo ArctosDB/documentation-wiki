@@ -44,7 +44,7 @@ Values should:
 
 Instructions for doing specifc tasks related to Authorities in Arctos
 
- - [How To Create and Manage Geology Terms](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html)
+ - [How To Create and Manage Geology Attribute Terms (Code Tables)](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html)
 
 ### Taxonomy
 
