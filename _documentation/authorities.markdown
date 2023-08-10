@@ -40,15 +40,21 @@ Values should:
     compromises in terminology.
 -   Be consistent.
 
-## Taxonomy
+## How To
+
+Instructions for doing specifc tasks related to Authorities in Arctos
+
+ - [How To Create and Manage Geology Terms](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html)
+
+### Taxonomy
 
 Taxonomy is included here only for completeness. See [Taxonomy Documentation](/documentation/taxonomy) for more information.
 
-## Geography
+### Geography
 
 Geography is included here only for completeness. See [Geography Documentation](/documentation/higher-geography) for more information.
 
-## Agents
+### Agents
 
 Agents are included here only for completeness. See [Agent Documentation](/documentation/agent) for more information.
 
