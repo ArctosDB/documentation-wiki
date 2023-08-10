@@ -1,8 +1,8 @@
 ---
-title: How To Github - Contribute to the Arctos Handbook
+title: How To Github - Get the Most from Editing Markdown
 layout: default_toc
 author: Michelle Koo, Teresa J. Mayfield-Meyer
-date: 2018-05-07, 2023-07-26
+date: 2023-07-26
 ---
 # Content has been moved to [How To Github: Contribute to the Arctos Handbook](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/How-to-Contribute-Content-to-Arctos-Handbook.html)
 
