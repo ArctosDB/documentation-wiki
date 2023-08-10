@@ -5,54 +5,73 @@ date: 2023-08-07
 layout: default_toc
 ---
 
-[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
-
 # How To Create and Edit Containers
+
+**Documentation: [Object Tracking](https://handbook.arctosdb.org/documentation/container.html)**
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
-To create containers, barcodes must be uploaded FIRST.  In this proces you will associate barcodes with a temporary container type. This is accomplished as described in “Creating a Container Series” below. Once the barcodes have been uploaded into Arctos, the containers that they represent can be edited as described in "Editing an Individual Container" and "Bulk Editing Containers".
+To create containers with barcodes, barcodes must be reserved FIRST.  See [Develop your Barcode Series](https://handbook.arctosdb.org/how_to/How-to-Start-Object-Tracking.html#develop-your-barcode-series).
 
-### How To Create a Container Series
+Once claimed, barcodes must be created and associated with a container. You can associate barcodes with a temporary container type. This is accomplished as described in “Creating Containers” below. Once the barcodes have been uploaded into Arctos, the containers that they represent can be edited as described in "Editing an Individual Container" and "Bulk Editing Containers".
 
-This will allow you to upload barcodes into Arctos. Barcodes will later have to be edited in “Container Edit” before use.
+## How To Create Containers
+
+This will allow you to bulk upload barcodes into Arctos and associate them with a container. 
 
 **Navigation** [Tools Directory > Barcodes & Containers > Container: Bulkload](https://arctos.database.museum/loaders/bulkCreateContainer.cfm)
 
-* Create a CSV (comma delimited) file with column headers that match the fields shown in the table on the page that comes up.
+Before using this tool, create a CSV (comma delimited) file with appropriate column headers. You can get a [template](https://arctos.database.museum/loaders/bulkCreateContainer.cfm?action=makeTemplate) from the [Load CSV page](https://arctos.database.museum/loaders/bulkCreateContainer.cfm?action=ld).
+
+### Required Column Headers
 
    * **Container_Type** - Choose the most appropriate container type that represents how the barcodes will be used in your collection. For example, if the barcode series that you are uploading will be used for tissue vials, select "cryovial label".  If the barcode has not been assigned to a specific container, select "container label".  
 
-   * **Label**– This can be the same as “Barcode" but could also include descriptive text.
+   * **Label**– This can be the same as “Barcode" but could also include more descriptive text.
 
-   * **Barcode** - Choose a set of barcodes to use. Be sure to include their correct prefix. Usually this is already on the barcode itself, e.g., “NMU” if the barcode is NMU10000, NMU10001, etc.
+   * **Institution_Acronym** - Indicate the acronym used by Arctos for your institution (e.g., MSB, NMU). If you are unsure what your insitution acronym is, it can be found on your Collection Detail page. From the Arctos Main Menu select [Search > Collections](https://arctos.database.museum/home.cfm) and scroll the table to find one of your institution's collections. Select Details on the right side of the page next to it and the Institution Acronym is provided at the top of the page.
 
-   * **Institution_Acronym** - Indicate the acronym used by Arctos for your institution (e.g., MSB, NMU).
+### Optional Column Headers
+
+   * **Barcode** - If you are using barcodes, they must be part of a claimed series.  See [Develop your Barcode Series](https://handbook.arctosdb.org/how_to/How-to-Start-Object-Tracking.html#develop-your-barcode-series).
 
    * **Description** - This provides an optional space to expand on "Label" if that is helpful in your application.
 
-   * **Container_Remarks** - This provides an optional space to provide further description of the container.
+   * **Container_Remarks** - This provides an optional space to provide further description of the container or comments about it's use.
+ 
+   * **width, height, length** - If you know the dimensions of your containers, you can add them here. All three columns must be completed together.
 
-* Click the "Choose File" button to browse to and select your CSV file.  Then click the "Upload this File" button.
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-* Click “Review” to navigate to a confirmation page that tells you if the containers have been successfully created or if there an issue with creating them.
+Only enter integers in these fields. Arctos is assuming that all measurements are in centimeters, so be sure to convert any measurements that you have in other units to centimeters.
 
+   *  **number_rows, number_columns, orientation, positions_hold_container_type** - If you want to create standard positions in your containers, you can add them here. All four columns must be completed together.
+
+   *  **weight, weight_units** - If you want to track the weight of a container, you can add it here. Both columns must be completed.
+
+   *  **weight_capacity, weight_capacity_units** - If you want to track the weight that a container can hold, you can do that here. Both columns must be completed.
+
+   *  **status** - If you enter "autoload" in this column, the containers will begin to load to Arctos as soon as the file is loaded. If you leave it blank or enter anything other than "autoload" you will need to review the uploaded containers and set them to autoload in order to get them into Arctos.
+
+* After you have saved your CSV, return to the [Load CSV page](https://arctos.database.museum/loaders/bulkCreateContainer.cfm?action=ld) and select the "Browse" button to browse to and select your CSV file.  Then click the "Upload this file" button.
+
+* Click “Review” to navigate to the Review and Load page. Here you will be able to see any error messages if some containers will not load. If the containers have been successfully created they will be removed from the tool.
 
 ***
 
-### How To Edit an Individual Container
+## How To Edit an Individual Container
 
 **Navigation** [Tool Directory> Barcodes & Containers > Container: Find](https://arctos.database.museum/findContainer.cfm)
 
-* Search for the barcode you wish to use on the box, freezer, room, etc. in the second field titled “Barcode (comma-list OK). This includes the barcode prefix and unique character string.
+* Search for the barcode or label that you wish to edit. 
 
-* Click “Search” at the bottom of the page. The barcode should pop up on the right side of the page under the file “The Universe”.
+*The container should pop up on the center of the page under “The Universe”.
 
-* Click the checkbox next to the barcode and another set of information will appear on the right titled “Container Details”
+* Click the checkbox next to the container and another set of information will appear on the right titled “Container Details”
 
-* Click “Edit this Container (new window)” and a new window will come up that will allow you to describe the container that you wish to be associated with the barcode.
+* Click “Edit this Container (new window)” and a new window will open that will allow you to edit the container.
 
-**Edit Container Page** - On this page you will need to fill the following fields:
+### Edit Container
 
 * **Label** - This is what you wish to call the container. The label could be descriptive text that is convenient for internal container tracking.  It is not constrained by limitations associated with barcodes and catalog numbers.  E.g., Pos.5 Tray 1 – Rack A, W-2, Shelf 3, Tray 2, etc…. This will be shown when a part or other container is searched for in “Find Container”.
 
@@ -75,6 +94,8 @@ This will allow you to upload barcodes into Arctos. Barcodes will later have to 
       * Copy the barcode of the parent container into the “move to barcode” field in your new container’s edit page.
 
       * When you are finished click “Update” near the bottom of the page.
+    
+      * This is also where you can Delete a Container if necessary.
 
 **Here is an example:** You are making a new freezer box. You know it will be placed in the -80 freezer in Room 2212 on the top shelf, rack A, tray 1, and in the last position on that tray.
 
@@ -92,35 +113,10 @@ This will allow you to upload barcodes into Arctos. Barcodes will later have to 
 
 * Click “Save” at the bottom of the page.
 
-Congratulations! You have just made a freezer box that can be found in the large freezer in Room 2212 on the top shelf in rack A, tray 1, and in the last position on that tray.
+Congratulations! You have just made a freezer box that can be found in the large freezer in Room 2212 on the top shelf in rack A, tray 1, and in the last position on that tray. You can exit this window and look at the new changes by going back to the “Find Container” page and clicking on the “Search” button again to refresh the page without having to re-enter the search parameters.
 
 ***
-### How To Find and Edit an Individual Container:
-
-**Navigation** [Tool Directory> Barcodes & Containers > Container: Find](https://arctos.database.museum/findContainer.cfm)
-
-* Enter the container’s barcode in the “Barcode (comma-list OK)" field on the left of the page.
-
-   * “comma-list OK” means that you can enter a list of barcodes ONLY separated by commas (no spaces) and they will all show up at once. E.g., NMU10093,NMU10094,NMU10094….
-
-   * You should not need to enter any other information.
-
-* Click the “Search” buton at the bottom of the screen and a list of successional folders should appear, beginning with “The Universe”.
-
-* Click on the empty box next to the container you wish to edit. “Container Details” should pop up on the right half of the page, listing the Container Type, Label, Description, Barcode, and Install Date.
-
-   * This is a good opportunity to double-check that the information is correct.
-
-* Click “Edit this container (new window)”. A new window should pop up which will allow you to edit any information regarding this container.
-
-   * This is also where you can Delete a Container if necessary.
-
-* Once you have finished editing, click "Save".
-
-All finished! You can exit this window and look at the new changes by going back to the “Find Container” page and clicking on the “Search” button again to refresh the page without having to re-enter the barcode.
-
-***
-
+  
 ### How To Bulk Edit Containers
 
 This is used to convert barcodes into containers in bulk. Converting barcodes into containers allows you to assign them to catalog record parts or convert them into boxes, shelves, racks, etc…
