@@ -9,7 +9,7 @@ layout: default_toc
 
 ### [Update Request Github Issue](https://github.com/ArctosDB/documentation-wiki/issues/300)
 
-# How To Create and Manage Geology Terms
+# How To Create and Manage Geology Attribute Terms (Code Tables)
 
 **Documentation: [Authorities](https://handbook.arctosdb.org/documentation/authorities.html)**
 
@@ -82,11 +82,11 @@ Both a parent and child term must be entered in the form in order to create a re
 
 ### Parent Term
 
-The "higher" term in the hierarchy. This can also be a "not valid for data entry" term.
+The "higher" term in the hierarchy.
 
 ### Child Term
 
-The "lower" term in the hierarchy. This can also be a "not valid for data entry" term. Any terms that are currently children of the term chosen here will move along with this child term to the parent.
+The "lower" term in the hierarchy. Any terms that are currently children of the term chosen here will move along with this child term to the parent.
 
 ### Create Relationship
 
