@@ -14,6 +14,7 @@ layout: default_toc
 This guide provides step-by-step instructions for creating and managing geology terms and relationships in the Geology Attributes Code Tables.
 
 Purpose | Table 
+ -- | -- 
 Locality Attribute: Eons/Eonothems |	[ctchronostrat_eon_eonothem](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_eon_eonothem)
 Locality Attribute: Eras/Erathems |	[ctchronostrat_era_erathem](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_era_erathem)
 Locality Attribute: Series/Epochs |	[ctchronostrat_series_epoch](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctchronostrat_series_epoch)
