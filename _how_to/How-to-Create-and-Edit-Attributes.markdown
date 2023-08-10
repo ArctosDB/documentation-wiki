@@ -7,7 +7,7 @@ layout: default_toc
 
 **Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
 
-**NAVIGATION: from the Specimen record, click on the Attributes Tab OR the "Edit" link in the corner of the Attributes detail**
+**NAVIGATION: from the catalog record, click on the Attributes Tab OR the "Edit" link in the corner of the Attributes detail**
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/edit_attributes.jpg)
 
