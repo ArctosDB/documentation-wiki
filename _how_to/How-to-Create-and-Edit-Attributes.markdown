@@ -3,7 +3,7 @@ title: How To Create and Edit Attributes
 layout: default_toc
 ---
 
-# How to Create and Edit Attributes
+# How to Create and Edit Catalog Record Attributes
 
 **NAVIGATION: from the Specimen record, click on the Attributes Tab OR the "Edit" link in the corner of the Attributes detail**
 
