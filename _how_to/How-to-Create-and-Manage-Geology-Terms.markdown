@@ -11,6 +11,8 @@ layout: default_toc
 
 # How To Create and Manage Geology Terms
 
+**Documentation: [Authorities](https://handbook.arctosdb.org/documentation/authorities.html)**
+
 This guide provides step-by-step instructions for creating and managing geology terms and relationships in the Geology Attributes Code Tables.
 
 Purpose | Table 
