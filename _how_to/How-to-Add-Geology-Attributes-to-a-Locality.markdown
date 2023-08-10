@@ -7,6 +7,8 @@ original_date: 2019-11-25
 ---
 # How To Add Geology Attributes to a Locality
 
+**Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
+
 [Locality Attributes](http://handbook.arctosdb.org/documentation/geology.html) are used to attach geology information to a locality. Each locality may contain any number of attributes, each with a determiner and method. This How-To documents the process for adding Attributes to a Locality.
 
 ## Bulkload Locality Attributes
