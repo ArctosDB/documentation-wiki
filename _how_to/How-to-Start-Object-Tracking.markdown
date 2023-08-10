@@ -171,28 +171,7 @@ If you are printing barcodes in-house, you should also test them with your scann
    
 ## **Create Containers**
 
-_This step enters enters your claimed barcode series into Arctos so they can be used. More information on containers and barcodes can be found in the [documentation](https://arctosdb.org/documentation/container/#number_of_positions)
-
-1. From the Arctos main menu select Arctos → Manage Data → Object Tracking → Create Container Series
-2. Download a template
-3. Complete the fields in the template using the following information
-
-    A) CONTAINER\_TYPE: A list of container types can be found here [here](http://arctos.database.museum/findContainer.cfm): OR by visiting the code table [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)  If you cannot find a container type that works for you, submit an issue in GitHub to ask the community for guidance or request a new container type. Do not use POSITIONS as a container, they are a very unique container (see documentation).
-
-    B) LABEL: A human readable label for the barcode such as "Freezer 1, Range 5". If you don't know what your barcodes will be labeling at the moment, it is best to make the lable the same as the barcode
-    C) BARCODE: The text of the barcode
-    D) INSTITUTION\_ACRONYM: Your institutional acronym (UAM for University of Alaska for example)
-    E) DESCRIPTION: Describe the container if needs further explanation. Examples: 13-slot freezer rack, Freezer room on the south side of the UA Museum basement. Room number 20., 100 slot plastic freezer, box, etc
-    F) CONTAINER\_REMARKS: A free text field, it is not readily searchable
-    G) PARENT\_INSTALL\_DATE: The date written as yyyy-mm-dd
-
-4. Once bulkload file is completed, save it as a CSV
-5. Return to Arctos → Object Tracking → Create Container Series
-6. Choose the saved CSV file and upload it
-7. If it loads correctly, you will get the message &quot;loaded - proceed to validate&quot;
-8. Click on validate
-9. If there are errors, you will see them in a column with error messages. You will need to delete everything from the bulkload stager, make corrections in your spreadsheet, and return to step 5.
-10. If everything is valid, click proceed to upload. You are done-ish!
+See [How To Create and Edit Containers](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Containers.html)
 
 ## **Move Containers**
 
