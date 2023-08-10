@@ -99,10 +99,11 @@ Barcodes are shared between institutions and departments therefore they must be 
 
 These steps allow you to see if the barcode series you want is already used in Arctos, and if it is not, how to claim that series.
 
-1. From the Arctos main menu select Arctos → Manage Data → Object Tracking → Barcode Series 
-2. Test the barcode that you want to use before staking a claim. If a row highlights in green, that barcode is already in use and you will need to come up with a different barcode series. 
-3. If nothing turns green, you can claim that series. BEFORE you click &quot;stake a claim&quot;, if you have no experience writing SQL, we suggest you find a barcode series that is similar to the one you want to claim and copy the SQL code. You can then edit that SQL to write what you need to claim your series. 
-4. Clicking on &quot;stake a claim&quot;, you will be taken to a page where you will create your barcode series  
+**Navigation: [Tools Directory > Barcodes & Containers > Barcode Series: Reserve](https://arctos.database.museum/info/barcodeseries.cfm)**
+
+1. Test the barcode that you want to use before staking a claim. If a row highlights in green, that barcode is already in use and you will need to come up with a different barcode series. 
+2. If nothing turns green, you can claim that series. BEFORE you click &quot;stake a claim&quot;, if you have no experience writing SQL, we suggest you find a barcode series that is similar to the one you want to claim and copy the SQL code. You can then edit that SQL to write what you need to claim your series. 
+3. Clicking on &quot;stake a claim&quot;, you will be taken to a page where you will create your barcode series  
     a. Paste in your copied SQL and edit it in the top box  
     b. Using text, describe what these barcodes are going to be used for  
     c. Select your institution from the drop down menu  
