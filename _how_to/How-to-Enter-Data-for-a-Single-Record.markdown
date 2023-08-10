@@ -52,6 +52,8 @@ The following provides some specifics by data entry section.
 
 ### Catalog Record Data
 
+This block includes data about the entire catalog record.
+
 **REQUIRED**
 * Accession - the acquisition number that is given to a set of objects, e.g., 01.2014 can be selcted using the "pick" button. The accession **does not** need to be associated with the same collection as the item being entered.
 * GUID Prefix will be completed based upon the collection selected above or what has been added to a customized data entry form.
