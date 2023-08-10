@@ -90,6 +90,11 @@ Don't want to make your new operators suffer the back and forth of setting up an
 * Before the Operator can make full use of Arctos as you have assigned, they will need to log out of Arctos and log in again.
 * When Operators are logged in, they will only see the collections to which they have access. To view data for more than those collections, they will need to search while logged out.
 
+
+### 5. Add Team Members to Github 
+
+For anyone doing more than simple data entry, it probably makes sense to have them set up a Github User account. To help them do this see [How To Create A Github Account](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html#how-to-create-a-github-account). After they have created their Github account, add their Github link to their Arctos Agent (in addresses). This helps others connect Github users with Arctos Operators.
+
 ---
 
 ### Congratulations!
