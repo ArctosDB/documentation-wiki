@@ -6,6 +6,8 @@ date: 2023-08-11
 ---
 # How To Customize the Data Entry Form
 
+**Documentation: [Catalog Record](https://handbook.arctosdb.org/documentation/catalog.html)**
+
 The data entry form can be customized to reflect the preferred suite of fields displayed, pre-populated with field values, and to provide suggestions for term values.Customization options are saved to the user profile for the last record entered and will automatically display on subsequent logins if last record is selected. Cutomizations can also be saved as profiles and shared with others.
 
 ### Navigation: [Tools Directory > Data Entry > Enter Records](https://arctos.database.museum/Bulkloader/enter.cfm)
