@@ -63,41 +63,85 @@ The following provides some specifics by data entry section.
 This block includes data about the entire catalog record.
 
 **REQUIRED**
-* Accession - the acquisition number that is given to a set of objects, e.g., 01.2014 can be selcted using the "pick" button. The accession **does not** need to be associated with the same collection as the item being entered.
-* GUID Prefix will be completed based upon the collection selected above or what has been added to a customized data entry form.
+
+* **accn** is the acquisition number that is given to a set of objects, e.g., 01.2014 and can be selcted using the "pick" button. The accession **does not** need to be associated with the same collection as the item being entered.
+
+* **guid_prefix** will be completed based upon the collection selected above or what has been added to a customized data entry form.
+
+* **record_type** can be left blank if you wish to use the default type selected in collection metadata (See [How To Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html#default-cataloged-item-type)).
 
 **OPTIONAL**
-* Catalog Number can be left blank if you wish Arctos to assign the next available number (only for collections using integer catalog numbers).
-* Catalog Item Type can be left blank if you wish to use the default type selected in collection metadata (See [How To Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html#default-cataloged-item-type)
-* Flags can be used to add a notification to the record that some data needs attention after the record is entered.
-* Record Remark is a free text field where any thing related to the catalog record that does not fit in the other fields can be documented.
+
+* **cat_num** can be left blank if you wish Arctos to assign the next available number (only for collections using integer catalog numbers).
+  
+* **flags** can be used to add a notification to the record that some data needs attention after the record is entered.
+
+* **record_remark** is a free text field where any thing related to the catalog record that does not fit in the other fields can be documented.
 
 ### Identifiers
-This block includes any identifiers other than the catalog number that are applied to the objects or observations being cataloged or that are applied to objects or observations related to the object or observation being cataloged.
+This block includes any identifiers other than the catalog number that are applied to the objects or observations being cataloged or that are applied to objects or observations related to the object or observation being cataloged. You can add 5 identifiers to any catalog record in data entry. Additional identifiers will need to be added manually or via the [Identifier: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadOtherId.cfm).
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 Any information entered will be ignored unless identifier_type is completed.
 
-**REQUIRED** (if any other information is entered)
-* identifier_type should be selected from the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)
+**REQUIRED** (if any other identifier information is entered)
+* **identifier_type** should be selected from the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)
 
 **OPTIONAL** 
-* identifier_issued_by can be left blank, but should be completed with the preferred name of the Arctos Agent that issued the identifier if known. If the Agent does not exist, leave blank and place the information in identifer_remark.
-* identifier_value is the **COMPLETE** identifer. When the identifier is a webpage, DOI, or some other resolvable identifier enter the full url.
+
+* **identifier_issued_by** can be left blank, but should be completed with the preferred name of the Arctos Agent that issued the identifier if known. If the Agent does not exist, leave blank and place the information in identifer_remark.
+* 
+* **identifier_value** is the **COMPLETE** identifer. When the identifier is a webpage, DOI, or some other resolvable identifier enter the full url.
+
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
 Arctos includes a helpful tool to help build complete urls for a host of known identifiers. If all you have is the identifier, but you believe it may be part os a url, use the **build** at the far right of the identifier row to make use of the tool.
-* identifier_relationship documents how the identifier_value is related to the catalog record being entered. Default is self ( the identifier is applied to the object or observation being cataloged). For information about the available relationships see the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references).
-* identifier_remark is a free-text field that allows you to make comments about the identifier.
+
+* **identifier_relationship** documents how the identifier_value is related to the catalog record being entered. Default is self ( the identifier is applied to the object or observation being cataloged). For information about the available relationships see the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references).
+
+* **identifier_remark** is a free-text field that allows you to make comments about the identifier.
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+Has the data for the record already been entered as part of another record? You can enter the identifier_issued_by, identifier_type and identifier_value and use the **pull** button on the same row to fill in the current record with data from that record. 
 
 ### Identification 
 
-This block includes data about what identifications are applied to the catalog record.
+This block includes data about what identifications are applied to the catalog record. You can add 2 identifiations to any catalog record in data entry. Additional identifications will need to be added manually or via the [Identification Bulkload Tool](https://arctos.database.museum/tools/BulkloadIdentification.cfm).
 
-* Scientific Name is the identification to be applied to the cataloged item. Type in all or part of the cataloged item’s identification and use the Tab key to select a taxon name, or use the "build" button to create a complex identification.
-* Identifying Agent is the Arctos Agent that determined the identification. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
-* Nature of ID is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id).
-* ID Date is the date the Agent assigned the identification. If this is not known, leave it blank.
-* ID Remark can be used to add information about the identification, including a verbatim determiner if the Identifying Agent is not found in Arctos Agents.
+**OPTIONAL**
+
+* **identification_n** is the identification to be applied to the cataloged item. Type in all or part of the cataloged item’s identification and use the Tab key to select a taxon name, or use the "build" button to create a complex identification.
+
+* **identification_n_order** indicates the "acceptedness" of the identification. "0" = unaccepted, "1" = most accepted, "2"-"10" = accepted, but less so than anything with order = "1".
+ 
+* **identification_n_date** is the date the identification was assigned. If this is not known, leave it blank.
+
+* **identification_n_remark** can be used to add information about the identification, including a verbatim determiner(s) if the Identifying Agent(s) are not found in Arctos Agents.
+
+* **identification_n_agent_n** is the Arctos Agent that determined the identification. Type in all or part of the Agent’s name and use the Tab key to select an Agent. Up to 3 determiners can be added in data entry. Additional determiners will need to be added manually.
+
+#### Identification Attributes
+
+Every identification can include up to 3 attributes in data entry, additional identification attributes can be added manually.
+
+**REQUIRED** (if any other identification attribute information is entered)
+
+* **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id).
+
+* **Value** may be selected from a code table or accept free text depending upon the attribute selected.
+
+**OPTIONAL**
+
+* **Units** are **REQUIRED** by some attribute types, otherwise shhould be left blank.
+ 
+* **Date** is the date the attribute was determined.
+
+* **Determiner** is the Arctos Agent that determiend the attribute value. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
+
+* **Method** is a free-text description of how the determination was made.
+
+* **Remark** can be used to add information about the identification attribute, including verbatim determiner(s) if the determining Agent(s) are not found in Arctos Agents.
 
 ### "Extras" Identification
 
