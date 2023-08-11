@@ -8,10 +8,9 @@ date: 2023-08-11
 
 The data entry form can be customized to reflect the preferred suite of fields displayed, pre-populated with field values, and to provide suggestions for term values.Customization options are saved to the user profile for the last record entered and will automatically display on subsequent logins if last record is selected. Cutomizations can also be saved as profiles and shared with others.
 
-### Navigation: [Tools Directory > Data Entry > Enter Records]([https://arctos.database.museum/search.cfm](https://arctos.database.museum/Bulkloader/enter.cfm)
+### Navigation: [Tools Directory > Data Entry > Enter Records](https://arctos.database.museum/Bulkloader/enter.cfm)
 
 ## More Information Needed!
-
 Select any of the available options on this page to get to the data entry screen. Select the **Customize** button at the bottom of the screen.
 
 ## Profile Metadata
