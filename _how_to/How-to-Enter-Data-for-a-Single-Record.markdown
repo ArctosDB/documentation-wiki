@@ -150,7 +150,7 @@ Every identification can include up to 3 attributes in data entry, additional id
 
 This block includes data about people or organizations that performed one of the [agent roles](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role) with regard to the catalog record. You can add 8 Agents to any catalog record in data entry. Additional Agents can be added manually or via the [Agent Role: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadCollector.cfm).
 
-**CONDITIONALLY REQUIRED** (if any other Agent information is entered)
+**CONDITIONALLY REQUIRED** (both **agent_n_role** and **agent_n_name** must be completed or the information will be ignored)
 
 * **agent_n_role** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role).
  
@@ -160,14 +160,50 @@ This block includes data about people or organizations that performed one of the
 
 Use the **CopyAcross** button next to any Agent to add the name to all other agent fields in the form.
 
+### Place and Time
+
+This block consists of three sections. 
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+**NONE** of the information entered in these sections will save if **record_event_type** is blank.
+
+#### Record-Event
+
+This block includes data about why the **Event** has been associated with the cataloged objects or observations. The information here indicates curation and the activities are related to documenting who and why and Event is associated with the cataloed objects or observations. You can add 1 Record-Event to any catalog record in data entry. Additional Record-Events can be added manually or via the [Catalog Record Event: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadSpecimenEvent.cfm).
+
+**CONDITIONALLY REQUIRED** (if ANY portion of the Time and PLace section includes information)
+
+* **record_event_type** is a description of what happened at the **Event** and is controlled by a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_event_type)
+
+**OPTIONAL** 
+
+* **record_event_determiner** is the Arctos Agent who assigned the **Event** to the catalog record.  Type in all or part of the Agent’s name and use the Tab key to select an Agent.
+
+* **record_event_determined_date** is the date it was determined that the **Event** should be associated with this catalog record..
+
+* **record_event_verificationstatus** will always be [unverified](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctverificationstatus#unverified) on initial data entry.
+
+* **record_event_verified_by** is the Arctos Agent who completed the **verification_status**.  Type in all or part of the Agent’s name and use the Tab key to select an Agent.
+
+*  **record_event_verified_date** is the date the **verification_status** was assigned.
+
+*  **record_event_collecting_source** indicates the captive status of the cataloged objects or observations at the time of the **Event** and is controlled by a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollecting_source). 
+
+* **record_event_collecting_method** is a free-text field that can be used to add information about methods applied at the **Event** that are specific to the cataloged objects or observations.
+  
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+If methods apply to more than one cataloged object or observation at the same event, use the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) **Event** attribute as it will be applied to all catalog records associated with th event and will not require repeated entry of the method in individual catalog records.
+
+* **record_event_habitat** is a free-text field that can be used to add information about habitat at the **Event** that are specific to the cataloged objects or observations.
+
+* **record_event_remark** is a free-text field that can be used to add any additional information at the **Event** that is specific to the cataloged objects or observations.
+
+* **associated_species** is a free-text field that can be used to add information about other species present at the **Event** id such information is not present in associated catalog records or in secondary identifications on the same catalog record.
+
 ## Everything below this line needs updating
 <hr/>
-
-**Identification**
-* “Scientific Name” allows you to type in all or part of the specimen’s scientific name. Then press the Tab button and a small window will pop up with a list of all scientific names relating to what you typed in.
-* This helps to avoid spelling errors.
-* “Nature” is a drop down menu. Most often you will choose “field” if the specimen was caught in the field.
-* “Date” here is referring to the date the specimen was caught. Also known as ‘date of death’.
 
 **Attributes**
 * “Attributes” is a section where you enter the specimen’s sex, measurements and weight
@@ -176,16 +212,6 @@ Use the **CopyAcross** button next to any Agent to add the name to all other age
 * “Attribute” is where you will enter any endoparasites and/or ectoparasites found or not found with the specimen.
 * **Note:** You will want to select endos and ectos then under “Values” selecting yes or no to show if they were detected or not.
 * “Date” is the same as the “Det.Date” or ‘prep date’ since that is when it was discovered that the specimen did or did not have any parasites.
-
-**Random Junk**
-* Type in all remarks made on the data sheet here.
-
-**Specimen/Event**
-* “Event Determiner” will be the same as the collector.
-* “Detr. Date” is the current date.
-* “Specimen/Event Type” will always be “accepted place of collection”.
-* “Coll. Src.” Is a drop down menu. Select “wild caught” unless indicated otherwise.
-* “Verification Status” is another drop down menu where “unverified” will already be selected.
 
 **Collecting Event**
 * “Verbatim Locality” is the specific locality but even more specific. Just add the state and country it was caught to the end of the specific locality.
