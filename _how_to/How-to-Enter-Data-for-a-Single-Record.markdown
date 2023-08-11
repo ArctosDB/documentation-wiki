@@ -82,6 +82,7 @@ This block includes data about the entire catalog record.
 This block includes any identifiers other than the catalog number that are applied to the objects or observations being cataloged or that are applied to objects or observations related to the object or observation being cataloged. You can add 5 identifiers to any catalog record in data entry. Additional identifiers will need to be added manually or via the [Identifier: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadOtherId.cfm).
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
 Any information entered will be ignored unless identifier_type is completed.
 
 **REQUIRED** (if any other identifier information is entered)
@@ -137,23 +138,28 @@ Every identification can include up to 3 attributes in data entry, additional id
  
 * **Date** is the date the attribute was determined.
 
-* **Determiner** is the Arctos Agent that determiend the attribute value. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
+* **Determiner** is the Arctos Agent that determined the attribute value. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
 
 * **Method** is a free-text description of how the determination was made.
 
 * **Remark** can be used to add information about the identification attribute, including verbatim determiner(s) if the determining Agent(s) are not found in Arctos Agents.
 
-### "Extras" Identification
+### Agents
 
-This section allows you to add up to 3 identifications to a catalog record at once and to include up to 6 Identifying Agents for each Identification. The fields are the same as those discussed in [Identification](/how_to/How-to-Enter-Data-for-a-Single-Record.html#Identification).
+This block includes data about people or organizations that performed one of the [agent roles](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role) with regard to the catalog record. You can add 8 Agents to any catalog record in data entry. Additional Agents can be added manually or via the [Agent Role: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadCollector.cfm).
+
+**REQUIRED** (if any other Agent information is entered)
+
+* **agent_n_role** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role).
+ 
+* **agent_n_name** is the Arctos Agent that performed the selected role. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+Use the **CopyAcross** button next to any Agent to add the name to all other agent fields in the form.
 
 ## Everything below this line needs updating
 <hr/>
-
-**Agents**
-* “Collector” should be the agent’s name. Fill in the name, hit Tab and you will see a popup; you may have to select the collector if there’s more than one choice.
-* **Neat Tip:** Click “Copy2All” next to the field you entered the collector’s name into and Arctos will automatically assign that name to all the required fields on the current data sheet.
-
 
 **Identification**
 * “Scientific Name” allows you to type in all or part of the specimen’s scientific name. Then press the Tab button and a small window will pop up with a list of all scientific names relating to what you typed in.
