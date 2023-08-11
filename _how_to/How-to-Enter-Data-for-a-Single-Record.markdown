@@ -85,7 +85,7 @@ This block includes any identifiers other than the catalog number that are appli
 
 Any information entered will be ignored unless identifier_type is completed.
 
-**REQUIRED** (if any other identifier information is entered)
+**CONDITIONALLY REQUIRED** (if any other identifier information is entered)
 * **identifier_type** should be selected from the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)
 
 **OPTIONAL** 
@@ -110,12 +110,14 @@ Has the data for the record already been entered as part of another record? You 
 
 This block includes data about what identifications are applied to the catalog record. You can add 2 identifiations to any catalog record in data entry. Additional identifications will need to be added manually or via the [Identification Bulkload Tool](https://arctos.database.museum/tools/BulkloadIdentification.cfm).
 
+**CONDITIONALLY REQUIRED** (if an identification_n is supplied)
+
+* **identification_n_order** indicates the "acceptedness" of the identification. "0" = unaccepted, "1" = most accepted, "2"-"10" = accepted, but less so than anything with order = "1".
+
 **OPTIONAL**
 
 * **identification_n** is the identification to be applied to the cataloged item. Type in all or part of the cataloged item’s identification and use the Tab key to select a taxon name, or use the "build" button to create a complex identification.
 
-* **identification_n_order** indicates the "acceptedness" of the identification. "0" = unaccepted, "1" = most accepted, "2"-"10" = accepted, but less so than anything with order = "1".
- 
 * **identification_n_date** is the date the identification was assigned. If this is not known, leave it blank.
 
 * **identification_n_remark** can be used to add information about the identification, including a verbatim determiner(s) if the Identifying Agent(s) are not found in Arctos Agents.
@@ -126,7 +128,7 @@ This block includes data about what identifications are applied to the catalog r
 
 Every identification can include up to 3 attributes in data entry, additional identification attributes can be added manually.
 
-**REQUIRED** (if any other identification attribute information is entered)
+**CONDITIONALLY REQUIRED** (if any other identification attribute information is entered)
 
 * **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id).
 
@@ -134,7 +136,7 @@ Every identification can include up to 3 attributes in data entry, additional id
 
 **OPTIONAL**
 
-* **Units** are **REQUIRED** by some attribute types, otherwise shhould be left blank.
+* **Units** are **CONDITIONALLY REQUIRED** by some attribute types, otherwise shhould be left blank.
  
 * **Date** is the date the attribute was determined.
 
@@ -148,7 +150,7 @@ Every identification can include up to 3 attributes in data entry, additional id
 
 This block includes data about people or organizations that performed one of the [agent roles](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role) with regard to the catalog record. You can add 8 Agents to any catalog record in data entry. Additional Agents can be added manually or via the [Agent Role: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadCollector.cfm).
 
-**REQUIRED** (if any other Agent information is entered)
+**CONDITIONALLY REQUIRED** (if any other Agent information is entered)
 
 * **agent_n_role** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role).
  
