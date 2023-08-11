@@ -13,9 +13,7 @@ layout: default_toc
 
 **Documentation: [Catalog Record](https://handbook.arctosdb.org/documentation/catalog.html)**
 
-## Navigation 
-
-[Tools Directory > Data Entry -> Enter Records]([https://arctos.database.museum/enter_data.cfm](https://arctos.database.museum/Bulkloader/enter.cfm))
+## Navigation [Tools Directory > Data Entry -> Enter Records]([https://arctos.database.museum/enter_data.cfm](https://arctos.database.museum/Bulkloader/enter.cfm))
 
 ## Select a Data Entry Form 
 
@@ -23,10 +21,9 @@ layout: default_toc
 
 You can start with the last record you entered or if you have sufficient access, with any previously entered record.
 
-### Begin with a Blank Slate 
+### Choose a Collection
 
-* Select the collection you need under “Begin with a blank slate”.
-* This will start with your last data entry customization.
+Use this option to start from scratch, or from the values stored in a Profile. Select the collection for which you wish to enter data and you will start with your last data entry customization.
 
 After choosing one of these options, you will be directed to the appropriate data entry form.
 
@@ -36,17 +33,28 @@ The background of your new data entry screen should be **green**. If it is not, 
 
 ### Pick a Profile 
 
-Profiles are customized data entry forms that may carry seed data. You - or any other user - may use any profile to begin data entry with the data and arrangement in the profile. To see existing profiles or create a new profile, select the "Customoze" button at the bottom of the data entry screen.
+Profiles are customized data entry forms that may carry seed data. You - or any other user - may use any profile to begin data entry with the data and arrangement in the profile. To see existing profiles or create a new profile, select the **Customize** button at the bottom of the data entry screen.
+
+Once at the customization screen, you can select an existing profile with the **Profiles Home** button.
+
+The Profile you are currently using will appear at the top of the list. You may create any number of Profiles, use Profiles created by others, and others may use Profiles created by you. 
+
+ Profiles serve several functions:
+
+ - control the number of some items (such as Attributes) on entry pages
+ - hide some individual fields
+ - control the post-save behavior by carrying or clearing values entered in the previous record
+ - carry "seed" data, defaulted in when the entry form first loads
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-Data values saved in a profile will have a distinct style and should be carefully checked before saving a record.
+Note that a profile's seed data will NOT be loaded when a seed record is used. The profile's customization will still be used. Also, data values saved in a profile will have a distinct style and should be carefully checked before saving a record.
 
-## Customization
+## How To Customize Data Entry and Create Data Entry Profiles
 
-See [How To Customize the Data Entry Form]()
+See [How To Customize the Data Entry Form](https://handbook.arctosdb.org/how_to/customize_data_entry.html)
 
-## Form Details
+## Data Entry Form Details
 
 The following provides some specifics by data entry section.
 
@@ -64,9 +72,26 @@ This block includes data about the entire catalog record.
 * Flags can be used to add a notification to the record that some data needs attention after the record is entered.
 * Record Remark is a free text field where any thing related to the catalog record that does not fit in the other fields can be documented.
 
+### Identifiers
+This block includes any identifiers other than the catalog number that are applied to the objects or observations being cataloged or that are applied to objects or observations related to the object or observation being cataloged.
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+Any information entered will be ignored unless identifier_type is completed.
+
+**REQUIRED** (if any other information is entered)
+* identifier_type should be selected from the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)
+
+**OPTIONAL** 
+* identifier_issued_by can be left blank, but should be completed with the preferred name of the Arctos Agent that issued the identifier if known. If the Agent does not exist, leave blank and place the information in identifer_remark.
+* identifier_value is the **COMPLETE** identifer. When the identifier is a webpage, DOI, or some other resolvable identifier enter the full url.
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+Arctos includes a helpful tool to help build complete urls for a host of known identifiers. If all you have is the identifier, but you believe it may be part os a url, use the **build** at the far right of the identifier row to make use of the tool.
+* identifier_relationship documents how the identifier_value is related to the catalog record being entered. Default is self ( the identifier is applied to the object or observation being cataloged). For information about the available relationships see the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references).
+* identifier_remark is a free-text field that allows you to make comments about the identifier.
+
 ### Identification 
 
-Use this block when you are entering a single identification with a single Identifying Agent. If you want to enter more than one identification for a single catalog record or a single identification with multiple Identifying Agents, use ["Extras Identification"](/how_to/How-to-Enter-Data-for-a-Single-Record.html#"Extras"_Identification).
+This block includes data about what identifications are applied to the catalog record.
 
 * Scientific Name is the identification to be applied to the cataloged item. Type in all or part of the cataloged item’s identification and use the Tab key to select a taxon name, or use the "build" button to create a complex identification.
 * Identifying Agent is the Arctos Agent that determined the identification. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
@@ -85,9 +110,6 @@ This section allows you to add up to 3 identifications to a catalog record at on
 * “Collector” should be the agent’s name. Fill in the name, hit Tab and you will see a popup; you may have to select the collector if there’s more than one choice.
 * **Neat Tip:** Click “Copy2All” next to the field you entered the collector’s name into and Arctos will automatically assign that name to all the required fields on the current data sheet.
 
-**Other IDs**
-* The only time you need to enter anything in this section is when you have preserved embryos taken from a specimen.
-* If that is the case the PARENT’S information goes here.
 
 **Identification**
 * “Scientific Name” allows you to type in all or part of the specimen’s scientific name. Then press the Tab button and a small window will pop up with a list of all scientific names relating to what you typed in.
