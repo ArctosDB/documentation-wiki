@@ -351,27 +351,67 @@ Anything entered here will be ignored unless **coordinate_lat_long_units** = [de
 
 * **coordinate_dec_long** is the decimal degrees longitude
 
+###### Degrees Minutes Seconds
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Anything entered here will be ignored unless **coordinate_lat_long_units** = [deg. min. sec.](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#deg__min__sec_).
+
+**CONDITIONALLY REQUIRED** (if **coordinate_lat_long_units** =[deg. min. sec.](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#deg__min__sec_))
+
+* **coordinate_lat_deg** is the latitude degrees
+
+* **coordinate_lat_min** is the latitude minutes
+
+* **coordinate_lat_sec** is the latitude seconds
+
+* **coordinate_lat_dir** is the latitude direction selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctns)
+
+* **coordinate_long_deg** is the longitude degrees
+
+* **coordinate_long_min** is the longitude minutes
+
+* **coordinate_long_sec** is the longitude seconds
+
+* **coordinate_long_dir** is the longitude direction selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctew)
+
+###### Degrees Decimal Minutes
+ 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Anything entered here will be ignored unless **coordinate_lat_long_units** = [degrees dec. minutes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#degrees_dec__minutes).
+
+**CONDITIONALLY REQUIRED** (if **coordinate_lat_long_units** =[degrees dec. minutes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#degrees_dec__minutes))
+
+* **coordinate_dec_lat_deg** is the latitude degrees
+
+* **coordinate_dec_lat_min** is the latitude decimal minutes
+
+* **coordinate_dec_lat_dir** is the latitude direction selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctns)
+
+* **coordinate_dec_long_deg** is the longitude degrees
+
+* **coordinate_dec_long_min** is the longitude decimal minutes
+
+* **coordinate_dec_long_dir** is the longitude direction selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctew)
+
+###### UTM
+ 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Anything entered here will be ignored unless **coordinate_lat_long_units** = [UTM](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#utm).
+
+**CONDITIONALLY REQUIRED** (if **coordinate_lat_long_units** =[UTM](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#utm))
+
+* **coordinate_utm_ew** is the UTM east/west coordinate
+ 
+* **coordinate_utm_ns** is the UTM north/south coordinate
+
+* **coordinate_utm_zone** is the UTM zone selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctutm_zone)
 
 
 ## Everything below this line needs updating
 <hr/>
-
-
-**Coordinates (event and locality)**
-* “Original lat/long Units” is a drop down menu where you will select “decimal degrees”.
-* “Max Error” is usually guestimated to be around 10m unless indicated otherwise.
-* “Datum” will be “World Geodetic System 1984” down near the bottom.
-* “Georeference Source” is a section where you can start typing in “global positioning” and a dropdown menu will automatically pop up. From that select “Global Positioning System (Transcription)”
-* “Georeference Protocol” is a dropdown menu where you will select “not recorded”.
-* “Dec Lat” is the latitude value in decimal degrees found on the data sheet.
-* “Dec Long” is the longitude value in decimal degrees found on the data sheet.
-* **Note:** If the verbatim locality is vague, you may need to go digging for lat / long coordinates and district.
-* To do this, try your best to find the location given in google maps. It should give you a lat/long if you click on the map.
-* To find district, use this website: http://www.michigan.gov/dnr/1,1607,7-153-10371_14793-30743--,00.html
-* Type in the lat/long in this section and click [geolocate] in blue, located at the top of this section right next to where you choose your Original lat/long units.
-* This will give you a map of the general location of your lat/long units.
-* You can move the green dot marker anywhere you want for a more precise location and can also edit your max error here.
-* To edit max error, click on the green dot marker and a box will pop up where you can choose “edit uncertainty”
 
 **Parts**
 
