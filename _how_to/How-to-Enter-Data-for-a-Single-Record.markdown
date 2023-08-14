@@ -133,7 +133,7 @@ Every identification can include up to 3 attributes in data entry, additional id
 
 * **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm).
 
-* **Value** may be selected from a code table or accept free text depending upon the attribute selected.
+* **Value** may be selected from a code table, be a number, or accept free text depending upon the attribute selected.
 
 **OPTIONAL**
 
@@ -209,30 +209,31 @@ This block includes standardized time and verbatim time and location data. You c
 
 **CONDITIONALLY REQUIRED** (if you add any **Event** or **Locality** data)
 
-* **event_verbatim_locality** is the location of the event exactly as described in the fieldnotes or wherever the information is being transcribed from. This field should be as descriptive as possible and include all aspects of "place" provided in the original data.
+* **event_verbatim_locality** is the location of the event exactly as described in the field notes or wherever the information is being transcribed from. This field should be as descriptive as possible and include all aspects of "place" provided in the original data.
 
-* **event_verbatim_date** is the day and time or day and time range of the event as recorded. This field should be as descriptive as possible and include all aspects of "time" provided in the original data.
+* **event_verbatim_date** is the day plus time of the event as recorded. This field should be as descriptive as possible and include all aspects of "time" provided in the original data.
 
-* **event_began_date** is the standardized (See [Dates Documentation](https://handbook.arctosdb.org/documentation/dates.html)) date and time that the event began.
+* **event_began_date** is the standardized (See [Dates Documentation](https://handbook.arctosdb.org/documentation/dates.html)) date and time that the event began. If no date is known, leave this blank.
 
-* **event_ended_date** is the standardized (See [Dates Documentation](https://handbook.arctosdb.org/documentation/dates.html)) date and time that the event ended.
-
-* **event_remark** is a free-text field that allows you to record information about the event that does not fit elsewhere.
+* **event_ended_date** is the standardized (See [Dates Documentation](https://handbook.arctosdb.org/documentation/dates.html)) date and time that the event ended. If no date is known, leave this blank.
 
 **OPTIONAL**
+
 * **event_name** Events can be created in advance, given names, and used to eliminate the need for entering the same data into multiple catalog records.
  
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
 Entering an exisitng **Event** name here will ignore any data that you enter in any of the remaning **Event** or **Locality** fields.
 
-Use the **pull/sync** button to view the data that is included in the **Event**. If you find that you have chosen the wrong **event** name, then you can use the **clear all event** button to remove any **Event** and **Locality** data and start over.
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+Use the **pull/sync** button to view the data that is included in the **Event**. If you find that you have chosen the wrong **Event** name, then you can use the **clear all event** button to remove any **Event** and **Locality** data and start over.
 
 * **event_id** is the ID assigned by Artos to previously entered **Event**s. Use the **pick event** button to search for events if you believe there is an existing **Event** you could use.
 
 * **event_remark** is a free-text field that allows you to record information about the event that does not fit elsewhere. Make sure that any data that could fit into an **Event Attribute** is placed there instead of in this catch-all field.
 
-##### Event Attributes
+**Event Attributes**
 
 Every **Event** can include up to 6 attributes in data entry, additional **Event** attributes can be added manually or as part of an [Event Bulklaod](https://arctos.database.museum/tools/BulkloadCollectingEvent.cfm).
 
@@ -240,7 +241,7 @@ Every **Event** can include up to 6 attributes in data entry, additional **Event
 
 * **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type).
 
-* **Value** may be selected from a code table or accept free text depending upon the attribute selected.
+* **Value** may be selected from a code table, be a number, or accept free text depending upon the attribute selected.
 
 **OPTIONAL**
 
@@ -264,7 +265,7 @@ This block includes standardized location data. You can add 1 **Locality** to an
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
-If the geography you have is not in the code table, you can use[{no specific higher geography](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350) or if you have no information on geography use [no higher geography recorded](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69). See also [Higher Geography Documentation](https://handbook.arctosdb.org/documentation/higher-geography.html)
+If the geography you have is not in the code table, you can use [no specific higher geography](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350) or if you have no information on geography use [no higher geography recorded](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69). See also [Higher Geography Documentation](https://handbook.arctosdb.org/documentation/higher-geography.html)
 
 * **locality_specific** should hold all the location information that would allow someone to find the place on a map or by verbal directions. This value should **exclude** anything placed in any of the other fields available in **Locality**
 
@@ -274,27 +275,27 @@ If the geography you have is not in the code table, you can use[{no specific hig
  
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-Entering an exisiting **Locality** name here will ignore any data that you enter in any of the remaning **Locality** fields.
+Entering an exisiting **Locality** name here will ignore any data that you enter in any of the remaining **Locality** fields.
 
 Use the **pull/sync locality** button to view the data that is included in the **Locality**. If you find that you have chosen the wrong **locality** name, then you can use the **clear all locality** button to remove any **Locality** data and start over.
 
 * **locality_id** is the ID assigned by Artos to previously entered **Localities**. Use the **pick locality** button to search for localities if you believe there is an existing **Locality** you could use.
 
-* **locality_min_elevation** the value of the lowest elevation at the location.
+* **locality_min_elevation** the value of the lowest elevation at the location. **CONDITIONALLY REQUIRED** if locality_max_elevation or locality_elev_units are provided.
 
-* **locality_max_elevation** the value of the highest elevation at the location.
+* **locality_max_elevation** the value of the highest elevation at the location. **CONDITIONALLY REQUIRED** if locality_min_elevation or locality_elev_units are provided.
 
-* **locality_elev_units** units to be applid to the values in locality_min_elevation and locality_max_elevation.
+* **locality_elev_units** units to be applid to the values in locality_min_elevation and locality_max_elevation. **CONDITIONALLY REQUIRED** if locality_min_elevation and locality_max_elevation are provided.
 
-* **locality_min_depth** the value of the lowest depth at the location.
+* **locality_min_depth** the value of the lowest depth at the location. **CONDITIONALLY REQUIRED** if locality_max_depth and locality_depth_units are provided.
 
-* **locality_max_depth** the value of the highest depth at the location.
+* **locality_max_depth** the value of the highest depth at the location. **CONDITIONALLY REQUIRED** if locality_min_depth and locality_depth_units are provided.
 
-* **locality_depth_units** units to be applid to the values in locality_min_depth and locality_max_depth.
+* **locality_depth_units** units to be applied to the values in locality_min_depth and locality_max_depth. **CONDITIONALLY REQUIRED** if locality_max_depth and locality_max_depth are provided.
 
 * **locality_remark** is a free-text field that allows you to record information about the location that does not fit elsewhere. Make sure that any data that could fit into a **Locality Attribute** is placed there instead of in this catch-all field.
 
-##### Locality Attributes
+**Locality Attributes**
 
 Every **Locality** can include up to 6 attributes in data entry, additional **Locality** attributes can be added manually or as part of a [Locality Attribute: Bulkload](https://arctos.database.museum/tools/bulkloadLocalityAttributes.cfm).
 
@@ -302,7 +303,7 @@ Every **Locality** can include up to 6 attributes in data entry, additional **Lo
 
 * **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type).
 
-* **Value** may be selected from a code table or accept free text depending upon the attribute selected.
+* **Value** may be selected from a code table, be a number, or accept free text depending upon the attribute selected.
 
 **OPTIONAL**
 
@@ -314,9 +315,9 @@ Every **Locality** can include up to 6 attributes in data entry, additional **Lo
 
 * **Method** is a free-text description of how the determination was made.
 
-* **Remark** can be used to add information about the identification attribute, including verbatim determiner(s) if the determining Agent(s) are not found in Arctos Agents.
+* **Remark** can be used to add information about the locality attribute, including verbatim determiner(s) if the determining Agent(s) are not found in Arctos Agents.
 
-##### Spatial
+**Spatial**
 
 **Documentation: {Coordinates](https://handbook.arctosdb.org/documentation/coordinates.html)
 
@@ -336,11 +337,11 @@ Data entered as **Degrees Minutes Seconds**, **Degrees Decimal Minutes**, or **U
 
 **OPTIONAL**
 
-* **coordinate_max_error_distance** If an error is associated with the coordinates, enter the numeric distance.
+* **coordinate_max_error_distance** If an error is associated with the coordinates, enter the numeric distance. **CONDITIONALLY REQUIRED** if coordinate_max_error_units is provided.
 
-* **coordinate_max_error_units** The units ass ociated with coordinate_max_error_distance. Values are selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units).
+* **coordinate_max_error_units** The units associated with coordinate_max_error_distance. Values are selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units). **CONDITIONALLY REQUIRED** if coordinate_max_error_distance is provided.
 
-###### Decimal Degrees
+**Decimal Degrees**
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
@@ -352,7 +353,7 @@ Anything entered here will be ignored unless **coordinate_lat_long_units** = [de
 
 * **coordinate_dec_long** is the decimal degrees longitude
 
-###### Degrees Minutes Seconds
+**Degrees Minutes Seconds**
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
@@ -376,7 +377,7 @@ Anything entered here will be ignored unless **coordinate_lat_long_units** = [de
 
 * **coordinate_long_dir** is the longitude direction selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctew)
 
-###### Degrees Decimal Minutes
+**Degrees Decimal Minutes**
  
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
@@ -396,7 +397,7 @@ Anything entered here will be ignored unless **coordinate_lat_long_units** = [de
 
 * **coordinate_dec_long_dir** is the longitude direction selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctew)
 
-###### UTM
+**UTM**
  
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
@@ -418,7 +419,7 @@ Record Attributes include information applicable to the cataloged objects or obs
 
 * **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type).
 
-* **Value** may be selected from a code table or accept free text depending upon the attribute selected.
+* **Value** may be selected from a code table, be a number, or accept free text depending upon the attribute selected.
 
 **OPTIONAL**
 
@@ -448,11 +449,11 @@ Parts include information about material evidence that supports the cataloged ob
 
 **OPTIONAL**
 
-* **part_1_barcode** is the barcode for the container in which part_n_name is located if using Arctos object tracking.
+* **part_n_barcode** is the barcode for the container in which part_n_name is located if using Arctos object tracking.
  
 * **part_n_remark** can be used to add information about the part.
 
-##### Part Attributes
+**Part Attributes**
 
 Part Attributes include information applicable to a particular part. Every catalog record can include up to 4 attributes per part in data entry, additional part attributes can be added manually or as part of a [Part Attribute: Bulkload](https://arctos.database.museum/tools/BulkloadSpecimenPartAttribute.cfm).
 
@@ -460,7 +461,7 @@ Part Attributes include information applicable to a particular part. Every catal
 
 * **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type).
 
-* **Value** may be selected from a code table or accept free text depending upon the attribute selected.
+* **Value** may be selected from a code table, be a number, or accept free text depending upon the attribute selected.
 
 **OPTIONAL**
 
