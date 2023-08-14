@@ -481,6 +481,7 @@ Instructions for doing specifc tasks related to entering Catalog Records in Arct
  - [How To Approve Records Entered With Data Entry Form](https://handbook.arctosdb.org/how_to/How-to-Approve-Records-entered-with-Data-Entry-Form.html)
  - [How To Catalog an Observation](https://handbook.arctosdb.org/how_to/How%20to%20Enter%20Observational%20Data.html)
  - [How To Catalog Fossil Material](https://handbook.arctosdb.org/how_to/How-To-Catalog-Fossil-Material.html)
+ - [How To Customize Data Entry](https://handbook.arctosdb.org/how_to/customize_data_entry.html)
  - [How To Enter Catalog Record Data in the Field](https://handbook.arctosdb.org/how_to/How-to-Enter-Specimens-in-the-Field.html)
  - [How To Approve Attribute Records Entered via Data Entry Form](https://handbook.arctosdb.org/how_to/How-to-load-Data-Entry-linked-Attributes.html)
  - [How To Bulkload Catalog Records](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Specimen-Data.html)
