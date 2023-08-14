@@ -315,6 +315,44 @@ Every **Locality** can include up to 6 attributes in data entry, additional **Lo
 
 * **Remark** can be used to add information about the identification attribute, including verbatim determiner(s) if the determining Agent(s) are not found in Arctos Agents.
 
+##### Spatial
+
+**Documentation: {Coordinates](https://handbook.arctosdb.org/documentation/coordinates.html)
+
+This block includes standardized coordinate data. You can add 1 **Spatial** block to any catalog record in data entry. Spatial information can be added in one of 4 ways and only one of these may be used during data entry.
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+Data entered as **Degrees Minutes Seconds**, **Degrees Decimal Minutes**, or **UTM** will be converted to **Decimal Degrees** and stored as "as entered coordinates" in Arctos.
+
+**CONDITIONALLY REQUIRED** (if any other spatial data is entered)
+
+* **coordinate_lat_long_units** is the format of the coordinate data being entered and is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units).
+
+* **coordinate_datum** is the datum associated with the coordinates to be entered and is seleceted from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdatum).
+
+* **coordinate_georeference_protocol** a description of the method by which the coordinates were obtained. Values are selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctgeoreference_protocol).
+
+**OPTIONAL**
+
+* **coordinate_max_error_distance** If an error is associated with the coordinates, enter the numeric distance.
+
+* **coordinate_max_error_units** The units ass ociated with coordinate_max_error_distance. Values are selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlength_units).
+
+###### Decimal Degrees
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Anything entered here will be ignored unless **coordinate_lat_long_units** = [decimal degrees](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#decimal_degrees).
+
+**CONDITIONALLY REQUIRED** (if **coordinate_lat_long_units** = [decimal degrees](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#decimal_degrees))
+
+* **coordinate_dec_lat** is the decimal degrees latitude
+
+* **coordinate_dec_long** is the decimal degrees longitude
+
+
+
 ## Everything below this line needs updating
 <hr/>
 
