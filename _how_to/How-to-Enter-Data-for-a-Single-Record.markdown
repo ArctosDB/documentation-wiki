@@ -5,8 +5,6 @@ date: 2023-03-14
 layout: default_toc
 ---
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
 [GitHub Issue](https://github.com/ArctosDB/documentation-wiki/issues/238)
 
 # How To Enter Data for a Single Record 
