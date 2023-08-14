@@ -11,9 +11,9 @@ layout: default_toc
 
 # How To Enter Data for a Single Record 
 
-**Documentation: [Catalog Record](https://handbook.arctosdb.org/documentation/catalog.html)**
+### Documentation: [Catalog Record](https://handbook.arctosdb.org/documentation/catalog.html)
 
-## Navigation [Tools Directory > Data Entry -> Enter Records]([https://arctos.database.museum/enter_data.cfm](https://arctos.database.museum/Bulkloader/enter.cfm))
+### Navigation: [Tools Directory > Data Entry -> Enter Records]([https://arctos.database.museum/enter_data.cfm](https://arctos.database.museum/Bulkloader/enter.cfm))
 
 ## Select a Data Entry Form 
 
@@ -48,9 +48,9 @@ The Profile you are currently using will appear at the top of the list. You may 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-Note that a profile's seed data will NOT be loaded when a seed record is used. The profile's customization will still be used. Also, data values saved in a profile will have a distinct style and should be carefully checked before saving a record.
+Note that a Profile's seed data will NOT be loaded when a seed record is used. The Profile's customization will still be used. Also, data values saved in a Profile will have a distinct style and should be carefully checked before saving a record.
 
-## How To Customize Data Entry and Create Data Entry Profiles
+## How To Customize Data Entry and Create Profiles
 
 See [How To Customize the Data Entry Form](https://handbook.arctosdb.org/how_to/customize_data_entry.html)
 
@@ -64,9 +64,9 @@ This block includes data about the entire catalog record.
 
 **REQUIRED**
 
-* **accn** is the acquisition number that is given to a set of objects, e.g., 01.2014 and can be selcted using the "pick" button. The accession **does not** need to be associated with the same collection as the item being entered.
+* **accn** is the acquisition number that is given to a set of objects, e.g., 01.2014 and can be selected using the **pick** button. The accession **does not** need to be associated with the same collection as the item being entered.
 
-* **guid_prefix** will be completed based upon the collection selected above or what has been added to a customized data entry form.
+* **guid_prefix** will be completed based upon the collection selected above or what has been added to a Profile if one is selected and includes this information.
 
 * **record_type** can be left blank if you wish to use the default type selected in collection metadata (See [How To Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html#default-cataloged-item-type)).
 
@@ -74,9 +74,9 @@ This block includes data about the entire catalog record.
 
 * **cat_num** can be left blank if you wish Arctos to assign the next available number (only for collections using integer catalog numbers).
   
-* **flags** can be used to add a notification to the record that some data needs attention after the record is entered.
+* **flags** can be used to add a notification to the record that some data needs attention after the record is entered. Values are selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctflags).
 
-* **record_remark** is a free text field where any thing related to the catalog record that does not fit in the other fields can be documented.
+* **record_remark** is a free text field where anything related to the catalog record that does not fit in the other fields can be documented.
 
 ### Identifiers
 This block includes any identifiers other than the catalog number that are applied to the objects or observations being cataloged or that are applied to objects or observations related to the object or observation being cataloged. You can add 5 identifiers to any catalog record in data entry. Additional identifiers will need to be added manually or via the [Identifier: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadOtherId.cfm).
