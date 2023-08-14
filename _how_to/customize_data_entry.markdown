@@ -55,20 +55,32 @@ Before proceeding to work in this section, it is recommended that you set and sa
 
 ### Category
 The data entry block in which the customized field resides.
+
 ### Field
 The data entry field (corresponds to a bulkloader column header)
+
 ### Show
 This field **will** be displayed on the data entry form
+
 ### Carry
 This field **will** be displayed on the data entry form and value in the field will be carried to the next record entered
+
 ### Hide
 This field **will not** be displayed on the data entry form
+
 ### DefaultValue
 Data entered here will auto-populate in the data entry form
+
 ### Pulled 
-???
-### Use
-???
+This field will be populated with any information that has been pulled into the form using the **Pull values from form** button at the top right of the page.
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution*
+
+Pulled values will not automatically save. Select **use** next to the values that you want to keep.
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+If you want to keep all of the values, save time by selecting the **Use all values from form** button at the top right of the screen.
 
 ## Save Profile
 
