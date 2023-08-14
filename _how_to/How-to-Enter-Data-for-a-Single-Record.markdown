@@ -409,61 +409,76 @@ Anything entered here will be ignored unless **coordinate_lat_long_units** = [UT
 
 * **coordinate_utm_zone** is the UTM zone selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctutm_zone)
 
+#### Record Attributes
 
-## Everything below this line needs updating
-<hr/>
+Record Attributes include information applicable to the cataloged objects or observations. Every catalog record can include up to 30 attributes in data entry, additional record attributes can be added manually or as part of an [Attribute: Bulkload](https://arctos.database.museum/loaders/BulkloadAttributes.cfm).
 
-**Parts**
+**CONDITIONALLY REQUIRED** (if any other record attribute information is entered)
 
-* List all the parts collected from the specimen.
-* Again, you can press the Tab key and a small window will pop up with a list to select from. Choose the most appropriate one, ie; h,k,lu,spl (frozen) instead of just h,k,lu,spl
-* “Condition” correlates to the circled number on the data sheet for “Tissue Condition”.
-* “Disposition” is another drop down menu from which you will always select “in collection” unless indicated otherwise.
-* “#” is the number of samples kept of the part. This will almost always be a 1 unless of course indicated otherwise.
+* **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type).
 
+* **Value** may be selected from a code table or accept free text depending upon the attribute selected.
 
-# Extras
+**OPTIONAL**
 
-Occasionally data which has no place in the default screen will be available. This may be handled in two ways.
+* **Units** are **CONDITIONALLY REQUIRED** by some attribute types, otherwise should be left blank.
+ 
+* **Date** is the date the attribute was determined.
 
-### Option One: Flags
+* **Determiner** is the Arctos Agent that determined the attribute value. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
 
-A flag may be added to the record during entry ...
+* **Method** is a free-text description of how the determination was made.
 
-<img width="320" alt="Screen Shot 2021-07-15 at 6 50 22 AM" src="https://user-images.githubusercontent.com/5720791/125799282-cb6916d8-ee48-4840-8ab3-c3754e1e93ad.png">
+* **Remark** can be used to add information about the record attribute, including verbatim determiner(s) if the determining Agent(s) are not found in Arctos Agents.
 
-... and then, after the record has been loaded, it may be located by searching flags ...
+#### Parts
 
-<img width="581" alt="Screen Shot 2021-07-15 at 6 50 59 AM" src="https://user-images.githubusercontent.com/5720791/125799492-1871e7a9-42c0-4d67-a51b-443b198111e5.png">
+Parts include information about material evidence that supports the cataloged objects or observations. Every catalog record can include up to 20 parts in data entry, additional parts can be added manually or as part of a [Part: Bulkload](https://arctos.database.museum/tools/BulkloadParts.cfm).
 
+**CONDITIONALLY REQUIRED** (if any other part information is entered)
 
-... and resolving any issues. This approach requires reliable procedures.
+* **part_n_name** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name).
 
+* **part_n_count** is a numeric value that indicates the quantity of part_n_name.
 
-### Option Two: Extras
+* **part_n_disposition** indicates the availability of part_n_name and is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp)
 
-The most common "extras" are available from the bottom of the data entry screen....
+* **part_n_condition** a free-text description of the condition of part_n_name.
 
+**OPTIONAL**
 
-These options allow, for example, adding parts with multiple attributes. Simply select the appropriate type ...
+* **part_1_barcode** is the barcode for the container in which part_n_name is located if using Arctos object tracking.
+ 
+* **part_n_remark** can be used to add information about the part.
 
-<img width="599" alt="Screen Shot 2021-07-15 at 6 48 03 AM" src="https://user-images.githubusercontent.com/5720791/125799814-ee689b91-361f-4da7-8014-4fdff05bc7fd.png">
+##### Part Attributes
 
-... provide whatever's requested by the form, and save.
+Part Attributes include information applicable to a particular part. Every catalog record can include up to 4 attributes per part in data entry, additional part attributes can be added manually or as part of a [Part Attribute: Bulkload](https://arctos.database.museum/tools/BulkloadSpecimenPartAttribute.cfm).
 
-<img width="981" alt="Screen Shot 2021-07-15 at 6 56 37 AM" src="https://user-images.githubusercontent.com/5720791/125800281-d5c768cc-b8c8-4a7f-a974-28ab8b813a75.png">
+**CONDITIONALLY REQUIRED** (if any other part attribute information is entered)
 
-These data are written to the Component Loader system, which generates a weekly report.
+* **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type).
 
+* **Value** may be selected from a code table or accept free text depending upon the attribute selected.
 
-**All finished!**
-* Now you will want to click on “Save This As A New Record” in the bottom left hand side of the page in the blue box.
-* Your data sheet will then be put into the bulkloader and await approval.
-* To approve the records for upload to Arctos see [How to approve records entered with Data Entry form](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-approve-records-entered-with-Data-Entry-form)
+**OPTIONAL**
 
-## Stuff from old document
-* If there is a collector or preparator number, use the “CustomID Type” drop down menu. Scroll all the way to the bottom and select “collector number” or “preparator number.”
-* Custom ID” is the specimen’s collector or preparator number, if it has one.
+* **Units** are **CONDITIONALLY REQUIRED** by some attribute types, otherwise should be left blank.
+ 
+* **Date** is the date the attribute was determined.
+
+* **Determiner** is the Arctos Agent that determined the attribute value. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
+
+* **Method** is a free-text description of how the determination was made.
+
+* **Remark** can be used to add information about the part attribute, including verbatim determiner(s) if the determining Agent(s) are not found in Arctos Agents.
+
+### Create Record
+
+Once all your data has been entered, select the **Create Record** button at the bottom of the screen. Your data will then be added to the bulkloader and await approval.
+
+To approve records for upload to Arctos see [How to approve records entered with Data Entry form](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-approve-records-entered-with-Data-Entry-form)
+
 
 ### Data Entry Tutorial Video ###
 [![Data Entry Example](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Arctos_Data_Entry_Example.jpg)](https://youtu.be/IOJP1M_Lu_E)
