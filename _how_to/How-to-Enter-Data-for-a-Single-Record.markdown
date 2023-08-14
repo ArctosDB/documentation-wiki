@@ -204,9 +204,9 @@ If methods apply to more than one cataloged object or observation at the same ev
 
 #### Event
 
-This block includes standrdized time and verbatim time and location data. You can add 1 Event to any catalog record in data entry. Additional Events can be added manually or via the [Catalog Record Event: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadSpecimenEvent.cfm). 
+This block includes standardized time and verbatim time and location data. You can add 1 Event to any catalog record in data entry. Additional Events can be added manually or via the [Catalog Record Event: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadSpecimenEvent.cfm). 
 
-**CONDITIONALLY OPTIONAL** (if you add any **Event** or **Locality** data)
+**CONDITIONALLY REQUIRED** (if you add any **Event** or **Locality** data)
 
 * **event_verbatim_locality** is the location of the event exactly as described in the fieldnotes or wherever the information is being transcribed from. This field should be as descriptive as possible and include all aspects of "place" provided in the original data.
 
@@ -253,13 +253,71 @@ Every **Event** can include up to 6 attributes in data entry, additional **Event
 
 * **Remark** can be used to add information about the identification attribute, including verbatim determiner(s) if the determining Agent(s) are not found in Arctos Agents.
 
+#### Locality
+
+This block includes standardized location data. You can add 1 **Locality** to any catalog record in data entry. Additional **Localities** can be added manually or via the [Catalog Record Event: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadSpecimenEvent.cfm).
+
+**CONDITIONALLY REQUIRED** (if you add any **Locality** data)
+
+* **locality_higher_geog** includes standardized geography selected from a [code table](https://arctos.database.museum/place.cfm?sch=geog).
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+If the geography you have is not in the code table, you can use[{no specific higher geography](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350) or if you have no information on geography use [no higher geography recorded](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69). See also [Higher Geography Documentation](https://handbook.arctosdb.org/documentation/higher-geography.html)
+
+* **locality_specific** should hold all the location information that would allow someone to find the place on a map or by verbal directions. This value should **exclude** anything placed in any of the other fields available in **Locality**
+
+**OPTIONAL**
+
+* **locality_name** Localities can be created in advance, given names, and used to eliminate the need for entering the same data into multiple catalog records.
+ 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Entering an exisiting **Locality** name here will ignore any data that you enter in any of the remaning **Locality** fields.
+
+Use the **pull/sync locality** button to view the data that is included in the **Locality**. If you find that you have chosen the wrong **locality** name, then you can use the **clear all locality** button to remove any **Locality** data and start over.
+
+* **locality_id** is the ID assigned by Artos to previously entered **Localities**. Use the **pick locality** button to search for localities if you believe there is an existing **Locality** you could use.
+
+* **locality_min_elevation** the value of the lowest elevation at the location.
+
+* **locality_max_elevation** the value of the highest elevation at the location.
+
+* **locality_elev_units** units to be applid to the values in locality_min_elevation and locality_max_elevation.
+
+* **locality_min_depth** the value of the lowest depth at the location.
+
+* **locality_max_depth** the value of the highest depth at the location.
+
+* **locality_depth_units** units to be applid to the values in locality_min_depth and locality_max_depth.
+
+* **locality_remark** is a free-text field that allows you to record information about the location that does not fit elsewhere. Make sure that any data that could fit into a **Locality Attribute** is placed there instead of in this catch-all field.
+
+##### Locality Attributes
+
+Every **Locality** can include up to 6 attributes in data entry, additional **Locality** attributes can be added manually or as part of a [Locality Attribute: Bulkload](https://arctos.database.museum/tools/bulkloadLocalityAttributes.cfm).
+
+**CONDITIONALLY REQUIRED** (if any other **Locality** attribute information is entered)
+
+* **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type).
+
+* **Value** may be selected from a code table or accept free text depending upon the attribute selected.
+
+**OPTIONAL**
+
+* **Units** are **CONDITIONALLY REQUIRED** by some attribute types, otherwise should be left blank.
+ 
+* **Date** is the date the attribute was determined.
+
+* **Determiner** is the Arctos Agent that determined the attribute value. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
+
+* **Method** is a free-text description of how the determination was made.
+
+* **Remark** can be used to add information about the identification attribute, including verbatim determiner(s) if the determining Agent(s) are not found in Arctos Agents.
 
 ## Everything below this line needs updating
 <hr/>
 
-**Locality**
-* “Higher Geog” is the county the specimen was collected from.
-* “Spec Locality” if not given, is usually the verbatim locality with town and county.
 
 **Coordinates (event and locality)**
 * “Original lat/long Units” is a drop down menu where you will select “decimal degrees”.
