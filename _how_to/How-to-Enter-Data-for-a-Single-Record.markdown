@@ -79,26 +79,27 @@ This block includes data about the entire catalog record.
 * **record_remark** is a free text field where anything related to the catalog record that does not fit in the other fields can be documented.
 
 ### Identifiers
-This block includes any identifiers other than the catalog number that are applied to the objects or observations being cataloged or that are applied to objects or observations related to the object or observation being cataloged. You can add 5 identifiers to any catalog record in data entry. Additional identifiers will need to be added manually or via the [Identifier: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadOtherId.cfm).
+This block includes any identifiers other than the catalog number that are applied to the objects or observations being cataloged or that are applied to objects or observations related to the object or observation being cataloged. You can add 5 identifiers to any catalog record in data entry. Additional identifiers can be added manually or via the [Identifier: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadOtherId.cfm).
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
 Any information entered will be ignored unless identifier_type is completed.
 
 **CONDITIONALLY REQUIRED** (if any other identifier information is entered)
-* **identifier_type** should be selected from the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)
+
+* **identifier_type** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)
 
 **OPTIONAL** 
 
 * **identifier_issued_by** can be left blank, but should be completed with the preferred name of the Arctos Agent that issued the identifier if known. If the Agent does not exist, leave blank and place the information in identifer_remark.
-* 
+  
 * **identifier_value** is the **COMPLETE** identifer. When the identifier is a webpage, DOI, or some other resolvable identifier enter the full url.
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
-Arctos includes a helpful tool to help build complete urls for a host of known identifiers. If all you have is the identifier, but you believe it may be part os a url, use the **build** at the far right of the identifier row to make use of the tool.
+Arctos includes a helpful tool to help build complete urls for a host of known identifiers. If all you have is the identifier, but you believe it may be part os a url, use the **build** button at the far right of the identifier row to make use of the tool.
 
-* **identifier_relationship** documents how the identifier_value is related to the catalog record being entered. Default is self ( the identifier is applied to the object or observation being cataloged). For information about the available relationships see the [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references).
+* **identifier_relationship** documents how the identifier_value is related to the catalog record being entered. Default is self (the identifier is applied to the object or observation being cataloged). Values are selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references).
 
 * **identifier_remark** is a free-text field that allows you to make comments about the identifier.
 
@@ -116,7 +117,7 @@ This block includes data about what identifications are applied to the catalog r
 
 **OPTIONAL**
 
-* **identification_n** is the identification to be applied to the cataloged item. Type in all or part of the cataloged item’s identification and use the Tab key to select a taxon name, or use the "build" button to create a complex identification.
+* **identification_n** is the identification to be applied to the cataloged item. Type in all or part of the cataloged item’s identification and use the Tab key to select a taxon name, or use the **build** button to create a complex identification.
 
 * **identification_n_date** is the date the identification was assigned. If this is not known, leave it blank.
 
@@ -162,7 +163,7 @@ Use the **CopyAcross** button next to any Agent to add the name to all other age
 
 ### Place and Time
 
-This block consists of three sections. 
+This block consists of three sections: Record Event, Event, and Locality.
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
@@ -170,9 +171,9 @@ This block consists of three sections.
 
 #### Record-Event
 
-This block includes data about why the **Event** has been associated with the cataloged objects or observations. The information here indicates curation and the activities are related to documenting who and why and Event is associated with the cataloed objects or observations. You can add 1 Record-Event to any catalog record in data entry. Additional Record-Events can be added manually or via the [Catalog Record Event: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadSpecimenEvent.cfm).
+This block includes data about why the **Event** has been associated with the cataloged objects or observations. The information here indicates curation and the activities are related to documenting who and why an Event is associated with the cataloged objects or observations. You can add 1 Record-Event to any catalog record in data entry. Additional Record-Events can be added manually or via the [Catalog Record Event: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadSpecimenEvent.cfm).
 
-**CONDITIONALLY REQUIRED** (if ANY portion of the Time and PLace section includes information)
+**CONDITIONALLY REQUIRED** (if ANY portion of the Time and Place section includes information)
 
 * **record_event_type** is a description of what happened at the **Event** and is controlled by a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_event_type)
 
@@ -194,7 +195,7 @@ This block includes data about why the **Event** has been associated with the ca
   
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
-If methods apply to more than one cataloged object or observation at the same event, use the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) **Event** attribute as it will be applied to all catalog records associated with th event and will not require repeated entry of the method in individual catalog records.
+If methods apply to more than one cataloged object or observation at the same event, use the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) **Event** attribute as it will be applied to all catalog records associated with the event and will not require repeated entry of the method in individual catalog records.
 
 * **record_event_habitat** is a free-text field that can be used to add information about habitat at the **Event** that are specific to the cataloged objects or observations.
 
