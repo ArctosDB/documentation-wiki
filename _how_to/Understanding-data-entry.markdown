@@ -5,9 +5,10 @@ date: 2021-09-24
 layout: default_toc
 ---
 
-[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
-
 # Understanding Data Entry
+
+## [Documentation: Catalog Record/Data Entry](https://handbook.arctosdb.org/documentation/catalog.html)
+
 
 This document provides a high-level overview of the catalog record data entry mechanism provided by Arctos.
 
