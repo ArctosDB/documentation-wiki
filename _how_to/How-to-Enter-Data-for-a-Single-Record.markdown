@@ -130,13 +130,13 @@ Every identification can include up to 3 attributes in data entry, additional id
 
 **CONDITIONALLY REQUIRED** (if any other identification attribute information is entered)
 
-* **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctnature_of_id).
+* **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm).
 
 * **Value** may be selected from a code table or accept free text depending upon the attribute selected.
 
 **OPTIONAL**
 
-* **Units** are **CONDITIONALLY REQUIRED** by some attribute types, otherwise shhould be left blank.
+* **Units** are **CONDITIONALLY REQUIRED** by some attribute types, otherwise should be left blank.
  
 * **Date** is the date the attribute was determined.
 
@@ -202,21 +202,60 @@ If methods apply to more than one cataloged object or observation at the same ev
 
 * **associated_species** is a free-text field that can be used to add information about other species present at the **Event** id such information is not present in associated catalog records or in secondary identifications on the same catalog record.
 
+#### Event
+
+This block includes standrdized time and verbatim time and location data. You can add 1 Event to any catalog record in data entry. Additional Events can be added manually or via the [Catalog Record Event: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadSpecimenEvent.cfm). 
+
+**CONDITIONALLY OPTIONAL** (if you add any **Event** or **Locality** data)
+
+* **event_verbatim_locality** is the location of the event exactly as described in the fieldnotes or wherever the information is being transcribed from. This field should be as descriptive as possible and include all aspects of "place" provided in the original data.
+
+* **event_verbatim_date** is the day and time or day and time range of the event as recorded. This field should be as descriptive as possible and include all aspects of "time" provided in the original data.
+
+* **event_began_date** is the standardized (See [Dates Documentation](https://handbook.arctosdb.org/documentation/dates.html)) date and time that the event began.
+
+* **event_ended_date** is the standardized (See [Dates Documentation](https://handbook.arctosdb.org/documentation/dates.html)) date and time that the event ended.
+
+* **event_remark** is a free-text field that allows you to record information about the event that does not fit elsewhere.
+
+**OPTIONAL**
+* **event_name** Events can be created in advance, given names, and used to eliminate the need for entering the same data into multiple catalog records.
+ 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Entering an exisitng **Event** name here will ignore any data that you enter in any of the remaning **Event** or **Locality** fields.
+
+Use the **pull/sync** button to view the data that is included in the **Event**. If you find that you have chosen the wrong **event** name, then you can use the **clear all event** button to remove any **Event** and **Locality** data and start over.
+
+* **event_id** is the ID assigned by Artos to previously entered **Event**s. Use the **pick event** button to search for events if you believe there is an existing **Event** you could use.
+
+* **event_remark** is a free-text field that allows you to record information about the event that does not fit elsewhere. Make sure that any data that could fit into an **Event Attribute** is placed there instead of in this catch-all field.
+
+##### Event Attributes
+
+Every **Event** can include up to 6 attributes in data entry, additional **Event** attributes can be added manually or as part of an [Event Bulklaod](https://arctos.database.museum/tools/BulkloadCollectingEvent.cfm).
+
+**CONDITIONALLY REQUIRED** (if any other **Event** attribute information is entered)
+
+* **Attribute** is selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type).
+
+* **Value** may be selected from a code table or accept free text depending upon the attribute selected.
+
+**OPTIONAL**
+
+* **Units** are **CONDITIONALLY REQUIRED** by some attribute types, otherwise should be left blank.
+ 
+* **Date** is the date the attribute was determined.
+
+* **Determiner** is the Arctos Agent that determined the attribute value. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
+
+* **Method** is a free-text description of how the determination was made.
+
+* **Remark** can be used to add information about the identification attribute, including verbatim determiner(s) if the determining Agent(s) are not found in Arctos Agents.
+
+
 ## Everything below this line needs updating
 <hr/>
-
-**Attributes**
-* “Attributes” is a section where you enter the specimen’s sex, measurements and weight
-* “Det.Date” is the date the specimen was prepared, ‘prep date’.
-* “Determiner” is the same as the collector’s name.
-* “Attribute” is where you will enter any endoparasites and/or ectoparasites found or not found with the specimen.
-* **Note:** You will want to select endos and ectos then under “Values” selecting yes or no to show if they were detected or not.
-* “Date” is the same as the “Det.Date” or ‘prep date’ since that is when it was discovered that the specimen did or did not have any parasites.
-
-**Collecting Event**
-* “Verbatim Locality” is the specific locality but even more specific. Just add the state and country it was caught to the end of the specific locality.
-* “Verbatim Date” is the date of death.
-* “Begin” is the date of death, “End” is the prep date. These two can be the same if it was prepped in the field.
 
 **Locality**
 * “Higher Geog” is the county the specimen was collected from.
