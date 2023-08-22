@@ -8,6 +8,8 @@ date: 2022-12-01
 
 # How To Manage Annotations
 
+## [Notifications and Reports Documentation: ](https://handbook.arctosdb.org/documentation/notifications.html)
+
 Annotations are remarks which may be left by any user. Annotations may be associated with various data object, including catalog records, taxon name, projects, and publications.
 
 
