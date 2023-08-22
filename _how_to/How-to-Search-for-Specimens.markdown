@@ -23,6 +23,8 @@ You do not need to create an account or login to search. However, there are some
 
 ## Identifiers
 
+**Documentation:** [Identifiers](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/other-identifying-numbers.markdown)
+
 * The list of options supplied in the field “Collection” allows you to limit your search to only one collection or vertebrate taxon. Ignoring this field will return results that match your search criteria from all collections.
 
 * The “Catalog Number” field is used to search for a specific specimen if you know the number. You should use this in conjunction with a collection, otherwise you will get results from multiple collections of specimens that share the same number. Each catalog number is tied directly to one specimen within each collection.
