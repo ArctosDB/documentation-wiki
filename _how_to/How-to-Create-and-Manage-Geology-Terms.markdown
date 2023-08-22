@@ -5,8 +5,6 @@ date created: 2019-10-09
 layout: default_toc
 ---
  
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
-
 ### [Update Request Github Issue](https://github.com/ArctosDB/documentation-wiki/issues/300)
 
 # How To Create and Manage Geology Attribute Terms (Code Tables)
@@ -33,11 +31,11 @@ Locality Attribute: Lithostratigraphic Members |	[ctlithostratigraphic_member](h
 Locality Attribute: Lithostratigraphic Beds |	[ctlithostratigraphic_bed](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_bed)
 
 
-In order to access the functions described in this How To, an Arctos Operator must have [MANAGE_CODETABLES](http://arctos.database.museum/Admin/user_roles.cfm) access. If you need a new term added to the code table and you do not have appropriate access, please file a new [Authority Request](https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=&template=authority-request.md&title=) in [Arctos GitHub Issues](https://github.com/ArctosDB/arctos/issues)
+In order to access the functions described in this How To, an Arctos Operator must have [MANAGE_CODETABLES](http://arctos.database.museum/Admin/user_roles.cfm) access. If you need a new term added to the code table and you do not have appropriate access, please file a new [Code Table Request](https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=&template=authority-request.md&title=) in [Arctos GitHub Issues](https://github.com/ArctosDB/arctos/issues)
 
 ## Create a New Term
 
-**Navigation [Search > Code Tables ](https://arctos.database.museum/info/ctDocumentation.cfm)**
+### Navigation [Search > Code Tables ](https://arctos.database.museum/info/ctDocumentation.cfm)**
 
 Scroll down the list of Code Tables to the table that is appropriate for the new term and select the edit button next to it.
 
@@ -55,13 +53,14 @@ The description should be a detailed definition of the term or a link to a websi
 
 #### Github Issue Link
 
-Following the definition, always include the link to the Github issue that documents the community's agreement to add the term.
+Following the definition, always include the link to the Github Issue that documents the community's agreement to add the term.
 
 ### Add Term
 
 When you are satisfied with your entries in all fields, select "Insert" to create the new code table term.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **CAUTION**  
+
 Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship. (See [Create Term Relationships](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html#create-term-relationships))
 
 ## Manage Terms
