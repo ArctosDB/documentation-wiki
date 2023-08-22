@@ -4,15 +4,16 @@ layout: default_toc
 author: Teresa J. Mayfield-Meyer, Toni Androski
 date: 2023-03-08
 ---
-[Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
 
 # How To Bulkload Loans
+
+## [Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
 
 Bulkloading loan information is a two step process. The first step involves creating loan metadata in Arctos with a bulkload tool.  The second step populates the loan(s) with catalog record data and anything else that is missing from the metadata. Before beginning this process, it may help to read [How to Create a New Loan](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html) as the process for bulkloading is comleting the same steps in bulk.
 
 ## Create Loan Metadata ([Initiating a Loan](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html#initiating-a-loan))
 
-### Navigation: [Manage -> Accessions, Loans, Permits -> Loan Metadata Bulkload -> Load csv](https://arctos.database.museum/loaders/BulkloadLoan.cfm?action=ld)  
+### Navigation: [Tools Directory -> Accessions, Loans, Permits -> Loan: Bulkload Metadata -> Load csv](https://arctos.database.museum/loaders/BulkloadLoan.cfm?action=ld)  
 
  Use the the "[Get a template](https://arctos.database.museum/loaders/BulkloadLoan.cfm?action=makeTemplate)" hyperlink to download the loan bulkloader spreadsheet (.csv)
 * Populate the spreadsheet fields following the conventions outlined by the Loan Loader screen. The summary indicates what fields are required. 
