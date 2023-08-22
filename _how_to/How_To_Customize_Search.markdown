@@ -4,6 +4,9 @@ layout: default_toc
 author: Emily Braker
 date: 2023-03-14
 ---
+
+**Documentation:** [Searching Arctos](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Search-for-Specimens.markdown)
+
 # How To Customize the Search Page
 
 The main search page can be customized to reflect the preferred suite of fields displayed for queries, especially those most frequently when searching. When logged in, customization options are saved to the user profile and will automatically display on subsequent logins.
