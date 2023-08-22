@@ -4,6 +4,8 @@ layout: default_toc
 ---
 # How To Identify National Park Specimens
 
+**Documentation:** [Identifiers](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/other-identifying-numbers.markdown)
+
 Many collections have been tasked with identifying specimens from US National Parks and various other Department of the Interior (DoI)
 agencies. There are several possible ways of doing this.
 
