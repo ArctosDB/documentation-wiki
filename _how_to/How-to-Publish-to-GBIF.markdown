@@ -7,6 +7,8 @@ layout: default_toc
 
 # How to Publish to Data Aggregators
 
+## [Beyond Arctos Documentation](https://handbook.arctosdb.org/documentation/github.html)
+
 Publishing Arctos data to data aggregators begins with publication to the Global Biodiversity Information Facility (GBIF) via the VertNet IPT. This process can be a bit of a headache, but if done properly, the data will be updated at the IPT monthly and the only requirement going forward is an annual review of the collection's metadata.
 
 Note that all of the steps outlined here are also part of the "Publish to Aggregators" step in the [data migration Github repository](https://github.com/ArctosDB/data-migration/issues) and that [opening a new data publishing issue](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&template=12--publication-to-aggregators.md&title=Acronym+Collection+-+12.+Publish+to+Aggregators) is the best way to complete this process.
