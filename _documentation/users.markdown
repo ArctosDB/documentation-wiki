@@ -72,6 +72,13 @@ Users should have a valid email address in their Agent record; without, they wil
 
 Collection Contacts are users who receive administrative emails when certain actions occur. Values are controlled by a code table. Users with Manage Collection access may manage Collection Contacts from Manage Collection <a href="https://arctos.database.museum/Admin/Collection.cfm" target="_blank">Manage Data –> Metadata –> Manage Collection</a>. Agents who act as collection contacts must have a valid email address.
 
+## How To
+
+Instructions for doing specifc tasks related to Users in Arctos
+
+* [How To Create and Manage Your Arctos Team (Users and Operators)](https://handbook.arctosdb.org/how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html)
+* [How To Unlock an Arctos User Account](https://handbook.arctosdb.org/how_to/How-To-Unlock-A-User-Account.html)
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/users.markdown" target="_blank">here</a>.
