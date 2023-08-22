@@ -45,6 +45,8 @@ Values should:
 Instructions for doing specifc tasks related to Authorities in Arctos
 
  - [How To Create and Manage Geology Attribute Terms (Code Tables)](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html)
+ - [How to Request a Code Table Addition or Change](https://handbook.arctosdb.org/how_to/How-To-Request-A-Code-Table-Change.html)
+ - [How to Manage Code Table Addition or Change Requests (for Code Table Administrators)](https://handbook.arctosdb.org/how_to/How-To-Manage-Code-Table-Requests.html)
 
 ### Taxonomy
 
