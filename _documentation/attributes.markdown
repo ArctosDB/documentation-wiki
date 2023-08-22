@@ -279,6 +279,7 @@ Instructions for doing specifc tasks related to Attributes in Arctos
 - [How to Create and Edit Catalog Record Attributes](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Attributes.html)
 - [How To Add Geology Attributes to a Locality](https://handbook.arctosdb.org/how_to/How-to-Add-Geology-Attributes-to-a-Locality.html)
 - [How To Collect Attributes with a Google Form](https://handbook.arctosdb.org/how_to/How-To-Collect-Attributes-With-A-Google-Form.html)
+- [How to Understand Attribute Errors](https://handbook.arctosdb.org/how_to/Understanding-Attribute-Errors.html)
 
 ## Edit this Documentation
 
