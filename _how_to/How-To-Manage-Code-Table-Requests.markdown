@@ -4,6 +4,9 @@ authors: Teresa Mayfield-Meyer, Dusty McDonald
 date created: 2020-05-21
 layout: default_toc
 ---
+
+**Documentation:** [Authorities](https://handbook.arctosdb.org/documentation/authorities.html)
+
 # How To Manage Code Table Addition or Change Requests (for Code Table Administrators)
 
 [Code Tables in Arctos](http://arctos.database.museum/info/ctDocumentation.cfm) are maintained by the Arctos Community. [Arctos Code Table Administrators](http://arctos.database.museum/agent.cfm?agent_id=21327088&agent_name=Arctos%20Code%20Table%20Administrators) are community members with code table access who are able to add, edit or delete code table terms. The process for requesting a new code table term or making a change to an existing term is as follows:
