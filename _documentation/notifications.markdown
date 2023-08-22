@@ -1,5 +1,7 @@
 ---
 title: Notifications
+author: DLM, Teresa J. Mayfield-Meyer
+date: 2023-08-21
 layout: default_toc
 ---
 
@@ -124,6 +126,12 @@ Many notifications are sent to users who share roles, often manage_collection. Y
 <img width="429" alt="Screen Shot 2021-02-11 at 11 43 32 AM" src="https://user-images.githubusercontent.com/5720791/107690280-cb643600-6c5e-11eb-9347-04ce2d9f659c.png">
 
 From this report it should be possible to match up users who have access to your collections with users in the notification.
+
+## How To
+
+Instructions for doing specifc tasks related to Notifications and Reports in Arctos
+
+ - [How To Manage Annotations](https://handbook.arctosdb.org/how_to/annotations.html)
 
 ## Edit this Documentation
 
