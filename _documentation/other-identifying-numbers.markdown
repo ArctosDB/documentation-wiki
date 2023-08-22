@@ -261,7 +261,13 @@ The "**contains/is/in list**" option works as follows:
     search can find other ID "1 2" or "1;2"; use one of the other
     options to find such values.
 
-See also [Searching Arctos](/how_to/How-to-Search-for-Specimens).
+## How To
+
+Instructions for doing specifc tasks related to identifiers in Arctos
+
+ - [How to Record Prior Inclusion in Another Collection](https://handbook.arctosdb.org/how_to/How_To_Add_Object_Provenance.html)
+ - [Searching Arctos](/how_to/How-to-Search-for-Specimens)
+ - [How to Identify National Park Specimens](https://handbook.arctosdb.org/how_to/National-Park-Specimens.html)
 
 ## Edit this Documentation
 
