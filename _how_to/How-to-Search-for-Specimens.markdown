@@ -47,6 +47,8 @@ You do not need to create an account or login to search. However, there are some
 
 ## Identification and Taxonomy
 
+**Documentation:** [Identifications](https://handbook.arctosdb.org/documentation/identification.html), [Taxonomy](https://handbook.arctosdb.org/documentation/taxonomy.html)
+
 * The first field in this section is "Identification" which allows you to search by anything in the scientific name (genus, species, subspecies).
 
 * Once you hit "Show More Options" to the right in the gray section header, you will see a number of other search fields. These allow you to search by higher taxonomy or other types of data in Arctos.
@@ -54,6 +56,8 @@ You do not need to create an account or login to search. However, there are some
 * For more detailed instructions, see [How to Search for Specimens with Identification and Taxonomy](/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
 
 ## Locality
+
+**Documentation:** [Locality](https://handbook.arctosdb.org/documentation/locality.html), [Collecting Event](https://handbook.arctosdb.org/documentation/collecting-event.html)
 
 * As with taxonomy, this section provides a number of fields for searching (if you select "Show More Options"). However, take heart in the fact that you will not have to fill them all out. The field that you will likely use the most is "Any Geographic Element", which performs a broad search incorporating the other fields in this section. If for any reason, you need to be more specific, you can search in the appropriate category.
 
@@ -85,6 +89,8 @@ Spatial Search provides spatial tools which consider both asserted and derived d
 **Place Term Type** together with **Place Term** are essentially **Any Geographic Element** with more control; these are terms gathered from various sources, but here it is possible to type them (for example, 'term as understood by GADM2')
 
 ### Locality Attributes Magic
+
+**Documentation:** [Locality Attributes](https://handbook.arctosdb.org/documentation/geology.html)
 
 **Age** and **Chronostratigraphy** are 'metadata terms' from various sources which provide less-specific ways to find localities. For example, a metadata query for Cisuralian will find assertions for Asselian because of a ``Cisuralian includes Asselian`` assertion in the ctchronostrat_series_epoch code table metadata.
 
@@ -148,6 +154,8 @@ Works like other polygon queries, but from KML. For example, this can provide a 
 
 ## Date/Collector
 
+**Documentation:** [Agents](https://handbook.arctosdb.org/documentation/agent.html)
+
 * This section allows you to search by a person's name (or part of the name). What you enter here must match how the person is entered into Arctos. It is often better to enter just the last name of the person, rather than try to match the full name if you do not know how it is entered in the database.
 
 * If you are interested in specimens by date, you can search by a range of years or more specific dates.
@@ -156,9 +164,13 @@ Works like other polygon queries, but from KML. For example, this can provide a 
 
 ## Biological Individual
 
+**Documentation:** [Parts](https://handbook.arctosdb.org/documentation/parts.html)
+
 * This section allows you to search by specific parts. For example, if you are only interested in study skins or skeletal material, you can narrow down your search by entering a part name here. When you type something into the "Part Name" field, Arctos will search the matching parts in its authority table and you can then choose one of those parts to refine the search.
 
 ## Relationships
+
+**Documentation:** [Identifiers and Relationships](https://handbook.arctosdb.org/documentation/other-identifying-numbers.html)
 
 * This section allows search by relationships to other specimens.
 
@@ -180,6 +192,8 @@ Term and Value are key-value pairs drawn from the related specimen's data.
 * Use this section if you are interested in searching by "Basis of Citation", e.g., for type specimens.
 
 ## Media
+
+**Documentation:** [Media](https://handbook.arctosdb.org/documentation/media.html)
 
 * Arctos has a lot of media associated with its records. If you are interested in records with media (images, audio, video), you can select the media type here. If you do not choose a media type, you will get records with as well as without media in your other search options.
 
