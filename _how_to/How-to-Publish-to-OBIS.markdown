@@ -7,7 +7,9 @@ date: 2022-08-29
 ---
 # How to Publish Arctos Data to the Ocean Biodiversity Information System (OBIS)
 
- The following are the steps that Phyllis Sharp took to prepare DMNS:Inv data for inclusion in [OBIS](https://obis.org/).  
+## [Beyond Arctos Documentation](https://handbook.arctosdb.org/documentation/github.html)
+
+The following are the steps that Phyllis Sharp took to prepare DMNS:Inv data for inclusion in [OBIS](https://obis.org/).  
 
 ## Before Publication to OBIS
 
