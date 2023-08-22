@@ -6,6 +6,8 @@ date: 2020-07-06
 ---
 # How to Apply Licensing and Terms
 
+## [Collection Management Documentation](https://handbook.arctosdb.org/documentation/manage_collection.html)
+
 ### Data
 
 - Arctos distinguishes between data license and collection terms. Both of these apply to entire collections.  
