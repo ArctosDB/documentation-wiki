@@ -1,10 +1,12 @@
 ---
+Index
 title: How To Create and Maintain Code Table Values
 layout: default_toc
 author: Dusty McDonald
 date: 2017-12-15
 ---
 
+**DEPRECATED**
  
 # How To Create and Maintain Code Table Values
 
