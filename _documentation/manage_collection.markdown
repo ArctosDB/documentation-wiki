@@ -15,6 +15,7 @@ Instructions for doing specifc tasks related to Managing a Collection in Arctos
 
 * [How to Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html)
 * [How To Create and Manage Your Arctos Team (Users and Operators)](https://handbook.arctosdb.org/how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html)
+* [How to Apply Licensing and Terms](https://handbook.arctosdb.org/how_to/How-To-Apply-Licensing-and-Terms.html)
 
 ## How To Make Using Arctos Easier
 
