@@ -9,7 +9,7 @@ date: 2018-04-10, 2018-10-17
 
 ## How To Start Object Tracking in Arctos
 
-### If this guide doen't answer your questions, you can read [this document](https://docs.google.com/document/d/1TBN-1r6jz2-ODJRZdgvNC4peiE1TrGKfpLse2bOoyMs/edit?usp=sharing)
+### If this guide doesn't answer your questions, you can read [this document](https://docs.google.com/document/d/1TBN-1r6jz2-ODJRZdgvNC4peiE1TrGKfpLse2bOoyMs/edit?usp=sharing)
 
 # Object Tracking General Summary
 
