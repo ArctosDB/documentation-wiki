@@ -13,7 +13,7 @@ The data entry form can be customized to reflect the preferred suite of fields d
 ### Navigation: [Tools Directory > Data Entry > Enter Records](https://arctos.database.museum/Bulkloader/enter.cfm)
 
 ## More Information Needed!
-Select any of the available options on this page to get to the data entry screen. Select the **Customize** button at the bottom of the screen.
+Select any of the available options on this page to get to the data entry screen. Once you've selected a collection in some way, the form will load and you may customize or choose a Profile by selecting the **Customize** button at the bottom of the data entry screen.
 
 ## Profile Metadata
 
