@@ -18,10 +18,11 @@ Select any of the available options on this page to get to the data entry screen
 ## Profile Metadata
 
 ### Profile Name
-Create a name for your cusomized profile. It is recommended that the name include only lower-case letters.
+Create a name for your cusomized profile. It is recommended that the name include only lower-case letters. PLease refrain from using profanity or hurtful language in profile names as these profiles will be subject to removal without notice. See the [Arctos Code of Conduct](https://arctosdb.org/code-of-conduct/).
 
 ### Description
-Tell future-you (and other users) what this profile includes/does. It is recommendaed that you say something about the collections for which this Profile is being created.
+Tell future-you (and other users) what this profile includes/does. It is recommendaed that you say something about the collection(s) for which this Profile is being created as well as the purpose of the customization.
+
 `Profile for entry of Natural History Society of Maryland geology records.`
 
 ## Counts and Ordering
