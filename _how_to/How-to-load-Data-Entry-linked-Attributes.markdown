@@ -1,5 +1,5 @@
 ---
-title: How To Approve Attribute Records Entered via Data Entry Form
+title: How To Enter Attribute Records
 layout: default_toc
 ---
 
@@ -7,13 +7,7 @@ layout: default_toc
 
 # How To Approve Attribute Records Entered via Data Entry Form
 
-Users may enter additional Attributes via Data Entry. These must be loaded after the specimen record exists, and this may be done
-by the person entering the data if they have sufficient privileges (bulkloaders are generally restricted to manage_collection),
-or by anyone with manage_collection acccess to the enter-er's collection.
-
-<p>
-
-Similar tools and pathways exist for Parts, Specimen-Events, etc.
+Users may bulkload additional Attributes to existing catalog records. The user muse have sufficient privileges or have their edits approved by someone with manage_collection access. Similar bulkloading tools and pathways exist for Parts, Events, etc.
 
 <p>
 
