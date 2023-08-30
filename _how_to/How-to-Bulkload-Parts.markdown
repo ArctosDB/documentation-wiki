@@ -7,7 +7,7 @@ date: 2023-03-14
 
 [Parts Documentation](https://handbook.arctosdb.org/documentation/parts.html)
 
-# How To Bulkload Parts 
+# How To Bulkload Parts in Arctos
 
 This document will walk through the steps for bulkloading parts and up to six of their associated attributes using the Part Bulkload Tool.
 
