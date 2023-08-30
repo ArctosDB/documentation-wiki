@@ -1,10 +1,12 @@
 ---
-title: How To Understand Portals
+title: index How To Understand Portals (Deprecated)
 author: DLM
 layout: default_toc
 ---
 
-# Portals
+# Portals (Deprecated)
+
+See https://github.com/ArctosDB/documentation-wiki/issues/302
 
 Portals provide specific types of access to specific datasets (generally collections) in Arctos.
 
