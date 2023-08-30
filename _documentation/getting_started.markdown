@@ -20,7 +20,6 @@ Are you looking for a new collection management solution or have you recently jo
 ## How To Make Using Arctos Easier
 
 * [How To Manage Excel for Arctos](https://handbook.arctosdb.org/how_to/How-to-Excel-for-Arctos.html)
-* [How To Understand Portals](https://handbook.arctosdb.org/how_to/understanding-portals.html)
 * [How To Arctos While Social Distancing](https://handbook.arctosdb.org/how_to/How-To-Arctos-While-Social-Distancing.html)
 
 ## Edit this Documentation
