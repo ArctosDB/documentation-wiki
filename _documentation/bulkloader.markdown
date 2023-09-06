@@ -51,7 +51,7 @@ The web-based applications may not work well for very large loads.
 
 Documentation is provided as a Google Sheet:
 
-https://docs.google.com/spreadsheets/d/1VbNC3k17WAHMum_qD5UYoXxUUWwXXh5gZSM5vfGvRzU/edit#gid=529334279
+[https://docs.google.com/spreadsheets/d/1VbNC3k17WAHMum_qD5UYoXxUUWwXXh5gZSM5vfGvRzU/edit#gid=529334279](https://docs.google.com/spreadsheets/d/1VbNC3k17WAHMum_qD5UYoXxUUWwXXh5gZSM5vfGvRzU/edit#gid=529334279)
 
 Make sure to check the tabs for additional information!
 
