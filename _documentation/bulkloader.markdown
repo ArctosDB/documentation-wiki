@@ -55,6 +55,15 @@ Documentation is provided as a Google Sheet:
 
 Make sure to check the tabs for additional information!
 
+## Pre-Bulkloader
+
+Uploads go initially to table pre_bulkloader, which has the same columns as table bulkloader but is less controlled. (Mistakes will generally produce helpful errors rather than 'failed to load' states.)
+ However, some fields do have controls and defaults.
+
+ * **key** must exist (``NOT NULL``) and will default to a unique string if not provided. For most situations, do not include this column in uploads.
+ * **entered_to_bulk_date** must exist (``NOT NULL``) and will default to ``current_timestamp`` if not provided. For most situations, do not include this column in uploads.
+ * **enteredby** must exist and be an exact match to a current username.
+ * **guid_prefix** must exist and be an exact match to ``collection.guid_prefix``
 
 ## Stop Here!!
 
