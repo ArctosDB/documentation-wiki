@@ -1,7 +1,7 @@
 ---
 title: How To Customize Search
 layout: default_toc
-author: Emily Braker
+author: Emily Braker & DLM
 date: 2023-03-14
 ---
 
@@ -13,22 +13,35 @@ The main search page can be customized to reflect the preferred suite of fields 
 
 ### Navigation: [Main Page [OR] Search -> Catalog Record](https://arctos.database.museum/search.cfm)
 
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_form.png"> 
+<img width="765" alt="Screenshot 2023-09-08 at 15 11 27" src="https://github.com/ArctosDB/documentation-wiki/assets/5720791/0e7f2caf-8de2-47a9-a460-0ad22069a18d">
 
-## Default Search
+## Defaults
 
-This is akin to a 'Basic' search. As a default, the search form displays a limited set of field options.
+Some basic configurations are available under the Presets heading.
 
-## Show All Options
+<img width="171" alt="Screenshot 2023-09-08 at 15 12 30" src="https://github.com/ArctosDB/documentation-wiki/assets/5720791/1413e89b-e9e0-4ef4-ba3f-1d7b42a29a74">
 
-The "show all options" customization displays all fields available within a search cateogry and is akin to an 'Advanced' search. Use the drop-down menu next to each category to select "show all options" from the drop-down menu. For example, when selecting this value for the Identifiers category, the fields for GUID, Any Identifier, and Identifier Type appear in the query block in addition to the three default fields already visible (Collection, Catalog Number, and Relationship).
 
 ## Customize
 
-Click the Customize Search button to view a pop-up window with a table containing all search fields. Use the menu at the top to scroll to the category or sub-category containing the relevant fields you wish to display or turn off. 
-* Toggle the "Show" checkbox on the left on or off to display or remove fields from the form. 
-* Clicking the "All" button will display all fields associated with a category. 
-* Clicking "None" will remove all fields from a category from display on the search page. Clicking "Save" will save your preferences and close out the pop-up window.
+Choose Customize....
+<img width="443" alt="Screenshot 2023-09-08 at 15 46 13" src="https://github.com/ArctosDB/documentation-wiki/assets/5720791/5cce5891-3464-474f-a28c-3be5e20dbd78">
+... to open a table containing all possible search and results fields. 
+
+Options may be added or removed individually or by category. 
+
+*  Search Options (left side of the form) controls the search form. 
+*  Results Options allows customizing results.
+    *  Column order may be controlled by dragging.
+    *  "Cost" will limit the number of records which may be returned.
+
+Definitions are available, shift-click to check or uncheck multiple.
+
+Choose one of your profiles to "seed" the form. 
+
+If another user has shared a profile link with you, customizing will seed the form with that information.
+
+Provide a name and click 'create and use' to create a new profile.
 
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table.PNG">
 
