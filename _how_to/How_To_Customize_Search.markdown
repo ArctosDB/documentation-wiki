@@ -43,6 +43,12 @@ If another user has shared a profile link with you, customizing will seed the fo
 
 Provide a name and click 'create and use' to create a new profile.
 
+---------------------------
+
+Below may be slightly out of date.
+
+------------------
+
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table.PNG">
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
