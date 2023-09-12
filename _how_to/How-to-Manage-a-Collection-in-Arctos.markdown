@@ -165,6 +165,10 @@ Before selecting your terms and licenses, read <a href="https://handbook.arctosd
 **REQUIRED**
 The term selected in this field will be the default for all catalog records in the collection and is passed to biodiversity data aggregators as BasisOfRecord. Individual catalog records can be modified to use a different term if required. Terms available can be found in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type" target=_blank>CATALOG_ITEM_TYPE code table</a>.
 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+Selecting a term that is not compatible with GBIF allowable terms will cause an entire collection to be refused publishing by GBIF.
+
 ### Taxonomy Sources
 **REQUIRED**
 Select from the dropdown of choices. The designates the source(s) of taxonomic classifications used for the collection. Order is important. Place your preferred source first. If a classification for a name used in an identification is not found in the first selection the one in the second will be used and so on.
