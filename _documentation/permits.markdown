@@ -70,7 +70,7 @@ Renewals should be entered as a new permit. A shortcut button is provided on the
 
 Instructions for doing specifc tasks related to Permits in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
- - How To Create a Permit](https://handbook.arctosdb.org/how_to/How-to-Create-a-Permit.html)
+ - [How To Create a Permit](https://handbook.arctosdb.org/how_to/How-to-Create-a-Permit.html)
 
 
 ## Edit this Documentation
