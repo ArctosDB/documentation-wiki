@@ -128,41 +128,8 @@ Attribute types should only be added when they are clearly disambiguated from an
 
 ### Identifier Types (ctcoll_other_id_type)
 
-~~For Other ID Types, attempt to evaluate whether there might realistically be **functionality** at some time in the future. For identifiers that are deemed unlikely to have this, strongly consider using a generic type (such as "other identifier" or "institutional catalog number") rather than creating a new type. The goal should be for all identifier types to have a functional base_url (which equates to functionality for both humans and machines); this is not a necessary element of the data, but should be a significant consideration in deciding if the identifier needs a dedicated type or could be equally useful as a more generic type.~~
-Other identfier types should only be added when necessary to disambiguate identfiers created by the same issuing agent (for example, collector and preparator numbers issued by the same person). Before adding any new generic identifier type, consider whether a new issuing agent would sufficiently disambiguate between two "types" of identifier.
+Other identfier types should generally not be added.
 
-Example Considerations:
-
-| Requested Identifier      | Description | Considerations |
-| ----------- | ----------- |---|
-| GenBank      | Unique identifier supplied by a known entity, when appended to a base_url the identifier leads to data  | Best practice is to create an issuing agent [GenBank}(), with a generic identifier type (ideally [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) and add the entire url as the identifier value.  |
-| UCB: University of California Berkeley   | Identifier supplied by some unknown department of a large heterogeneous organization.  | Encourage [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) issued by [University of California, Berkeley](https://arctos.database.museum/agent/21336361) with value = 'the_number' rather than a new type. | 
-| MVZ: Museum of Vertebrate Zoology   | Identifier supplied by some unknown department of a (more or less) homogeneous organization. | Encourage [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) issued by [Museum of Vertebrate Zoology, University of California, Berkeley](https://arctos.database.museum/agent/10014238) with value = 'the_number' rather than a new type.|
-| TU:Herb   | A specific entity which holds (or held) material, not currently discoverable online. "Official" acronym may be in question. | Encourage [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) issued by [Tulane University Herbarium](https://arctos.database.museum/agent/21312299) with value = 'the_number' rather than a new type.|
-| EBRPD: East Bay Regional Park District | Identifier of unknown uniqueness supplied by an entity which probably does not have material but may have additional data. Deemed unlikely to have a base_url at any time, but correspondence is likely to produce data. | Encourage [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) issued by [East Bay Regional Park District](https://arctos.database.museum/agent/21247239) with value = 'the_number' rather than a new type.  |
-
-
-#### base_url
-
-**Suggest removing this section in favor of "Best practice is to create an issuing agent [GenBank}(), with a generic identifier type (ideally [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) and add the entire url as the identifier value."**
-
-Base URL should be used *only* when it is part of an identifier. Do not use base_url to form search links.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
-
- - Include a link to the agent related to the other identifier in the definition. Links can be formatted as follows:
-
-```<a href="https://arctos.database.museum/info/agentActivity.cfm?agent_id=21335082" class="newWinLocal">Arctos Agent</a>```
-
-Replace the id number in the code above with the number of the correct Arctos agent and add it to your other identifier defintition.
-
-If the issuing institution does not have an organization agent in Arctos, one should be created to facilitate the link.
-
-In addition - add the link to the Github Issue in which the code table request was approved. For example:
-
-```<a href="https://github.com/ArctosDB/arctos/issues/4016" class="newWinLocal">Github Issue</a>```
-
- - **Available for Public View** is part of the request template and directs the developer to have the values part of the public display, such as Agent profile in the case of ```ctaddress_type```. This also should be part of its definition. Not all address types are viewable publicly such as email addresses but authority links to Wikidata or Library of Congress are.
 
 ### Media Relationships
 
@@ -170,7 +137,9 @@ If terms are added to or deleted from the [Media: Relationship Types](https://ar
 
 ### Part Names (ctspecimen_part_name)
 
-Part names should only be added when they are clearly disambiguated from any existing part. Part names should describe WHAT an object is, not how it is prepared or preserved. Part names should NOT include any preservation (use the [part preservation attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#preservation)), or modifier (use the [part modifier attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#part_modifier)) information either in the term itself or in the description other than to say "add preservation or part modifiers using part attributes" or something similar. Part names should be singular and should not be compounded using comma-separated lists. 
+2023-10-05 [Arctos Code Table Administrators](https://docs.google.com/document/d/1eZ_S8VTp-m5Wrbb6cAK96ODPZpt2-Hvnvt6yfU9qVwg/edit#heading=h.jl6w6q271wt) meeting: All requests should be approved.
+
+~~Part names should only be added when they are clearly disambiguated from any existing part. Part names should describe WHAT an object is, not how it is prepared or preserved. Part names should NOT include any preservation (use the [part preservation attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#preservation)), or modifier (use the [part modifier attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type#part_modifier)) information either in the term itself or in the description other than to say "add preservation or part modifiers using part attributes" or something similar. Part names should be singular and should not be compounded using comma-separated lists.~~
 
 ### Taxon Terms
 
