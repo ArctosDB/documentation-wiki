@@ -1,8 +1,8 @@
 ---
 title: How To Manage Excel for Arctos
 layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: 2023-01-16
+author: Teresa J. Mayfield-Meyer, Michelle Koo
+date: 2023-09-28
 ---
 
 # How To Manage Excel for Arctos
@@ -46,7 +46,7 @@ srcset="../images/classic-uploads/2012/03/screen-shot-2012-03-07-at-11-36-38-am.
 
 ### Saving to CSV
 
-When saving from Excel, save as CSV UTF-8 (Comma delimited)(*csv)
+When saving from Excel, save as CSV UTF-8 (Comma delimited)(*csv) --  the ```UTF-8``` format is important!
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Excel/Save_as_csv_utf8.jpg)
 
@@ -91,6 +91,8 @@ Don't just open the CSV with Excel. Do this instead.
 
  - adapted from [YCBM Knowledgebase](https://support.youcanbook.me/article/502-how-can-i-get-excel-to-properly-display-special-characters-in-the-data-export)
 
+#### Exporting from Excel
+Same as import rules: if exporting as an CSV ensure that the format is ```65001: Unicode (UTF-8)```. If you imported in that format, then you are set. If you are starting from XLSX or other format then be sure to select UTF-8 when you Save As 'CSV'
 
 ## Edit this Documentation
 
