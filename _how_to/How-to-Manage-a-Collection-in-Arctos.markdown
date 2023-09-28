@@ -181,7 +181,7 @@ Selected identifiers will display in the summary section of catalog record pages
 
 ### Genbank Collection
 **RECOMMENDED for collections that may have records cited in GenBank accessions**
-Genbank Collection is the collection identifier provided by GenBank. This is used to help discover potential links between records in this colelction in Arctos and GenBank accession records. Only collections properly registered with GenBank, and with their assigned identifier entered into Arctos, may access all Arctos-to-GenBank tools.
+Genbank Collection is the collection identifier provided by GenBank. This is used to help discover potential links between records in this collection in Arctos and GenBank accession records. Only collections properly registered with GenBank, and with their assigned identifier entered into Arctos, may access all Arctos-to-GenBank tools.
 
 To register a collection or for more information, please send an email to gb-admin@ncbi.nlm.nih.gov 
 
