@@ -213,6 +213,10 @@ W | E | N | S
 
 See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#geographic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+This site can be useful for US bounding boxes - https://anthonylouisdagostino.com/bounding-boxes-for-all-us-states/ or search for "coordinate bounding box if you need other parts of the world.
+
 ### General Taxonomic Coverage
 **RECOMMENDED for those publishing to GBIF**
 A general description of the taxonomic coverage of the collection. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#taxonomic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
