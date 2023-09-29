@@ -44,6 +44,10 @@ locality. Named Localities:
  - Will not be auto-deleted when not used
  - Will always be unique, so will not be auto-merged
 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+If you have absolutely no locality data, use the Locality Name NULL Locality Data and skip entering anything else related to locality.
+
 ## Specific Locality
 
 `Locality . Spec_Locality VARCHAR2 (255) null`
