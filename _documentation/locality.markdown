@@ -46,7 +46,7 @@ locality. Named Localities:
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
-If you have absolutely no locality data, use the Locality Name NULL Locality Data and skip entering anything else related to locality.
+If you have absolutely no locality data, use the Locality Name **NULL Locality Data** and skip entering anything else related to locality.
 
 ## Specific Locality
 
