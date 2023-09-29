@@ -148,6 +148,7 @@ If terms are added to or deleted from the [Taxonomy: Term Values code table](htt
 ### Informal Lithostratigraphy
 
 The term should be comprised of sufficient "parentage" to be unambiguous, eg ``Blacks Fork A of Blacks Fork Member of Bridger Formation``. The definition should reference a "type publication" (however informal). See [Issue 9674](https://github.com/ArctosDB/arctos/issues/6747) for additional background.
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Manage-Code-Table-Requests.markdown" target="_blank">here</a>.
