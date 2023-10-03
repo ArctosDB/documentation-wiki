@@ -21,6 +21,10 @@ Agents are shared by all Arctos members. Always use caution when creating or edi
 
 We recommend working with an experienced Arctos operator if you have a lot of people names to review. Below are some general recommendations for creating meaningful agents.
 
+### Don't create an Agent at all
+
+Agents should exist only when they must carry when independent information. [Attribute verbatim agent](https://handbook.arctosdb.org/documentation/agent.html#verbatim-agent-attribute) is functionally identical to most Agents. If there is no compelling data which cannot be derived from activity to assert, not creating an Agent is almost always the correct choice. 
+
 ### Avoid Duplicate Agents
 
 No matter how many roles or alternate names a person or organization has, a single Agent should be in Arctos to describe them. Multiple Agent records which in fact refer to the same entity can be difficult to discover. Before new Agent records are created, the database should be carefully queried to check that the “new” Agent is not already in Arctos. Some examples of things to look for include:
@@ -39,7 +43,7 @@ If you have a lot of names to check, you can use the Agent Name Splitter Tool to
  - <a href="https://handbook.arctosdb.org/how_to/How-to-Bulkload-Agents.html#use-the-agent-name-splitter" target="_blank">Use the Agent Name Splitter</a>
 
 #### Agents with Little Data
-Use the [verbatim agent attribute](https://handbook.arctosdb.org/documentation/agent.html#verbatim-collector-attribute) for linking ambiguous or low-value collector strings to catalog records. This may be an appropriate choice if the agent is relatively unknown, unlikely to become known, and has no or little other activity. For example, "fisherman" is almost certainly better recorded in the [verbatim agent attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent).
+Use the [verbatim agent attribute](https://handbook.arctosdb.org/documentation/agent.html#verbatim-collector-attribute) for linking low-information names to catalog records. This may be an appropriate choice if the agent is relatively unknown, unlikely to become known, and has no or little other activity. For example, "fisherman" is almost certainly better recorded in the [verbatim agent attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent).
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
@@ -80,11 +84,6 @@ Abbreviations are to be avoided, but there are a few exemptions:
 -   "St." is acceptable as part of a preferred name, unsupported by an unabbreviated variation. Do not abbreviate "Saint" - use "St." only when it is part of a given name. 
 -   "Dr." is acceptable  at the beginning of preferred name, unsupported by an unabbreviated variation. An unabbreviated variant is encouraged.
 
-### Ambiguous Agents
-
-When managing Agents, often only limited information will be available. "Is ``J. Smith`` the ``John Smith`` I'm looking for?" may have no clear answer. The Agent Activity report will provide a summary of all that's known; often dates or places can be vital clues. (A different browser or private tab may be used to query collections to which one does not have Operator access.) An email to anyone using the existing or suspect agents may turn up more information.  
-
-Sometimes the data in Arctos cannot provide a clear answer, and a somewhat arbitrary choice becomes necessary. We suggest the choice between creating potential duplicates and "overloading" Agents is not as arbitrary as it may first appear; the "correct" choice among no truly correct choices is generally to create fewer Agents rather than more. 
 
 ### Overloaded Agents
 
