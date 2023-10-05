@@ -150,23 +150,9 @@ Part Preservation is controlled by a [code table](http://arctos.database.museum/
 
 For example, a part preserved in "90% ethanol" would be a tissue, unless it also has an additional (probably earlier) "formalin" attribute.
 
-## Tissue
+# Record Search Results
 
-Each part name may be flagged as representing "tissue." 
-
->A tissue in Arctos is defined as a specimen part that was collected and/or preserved for molecular or chemical studies, 
-and is intended for consumptive use.
-
-While we have been unable to produce a functional definition, tissues are generally samples intended for subsampling and distribution, generally for purposes of destructive analysis, or simply a part with readily-available tissue from which DNA or RNA may be extracted. Typically, these parts are soft organs, or parts thereof, preserved by freezing, drying, or preservation in buffer or alcohol. However, tissue parts may include whole organisms or other body parts collected and preserved for the purpose of genetic, molecular, or chemical sampling. Such samples commonly supply DNA for sequence analysis, and flagging these parts as tissues allows researchers to search for specimens from which they can readily obtain subsamples. 
-
-Tissues are not necessarily biological productions of the cataloged item.
-For example, parasites may be cataloged as parts and flagged as tissues.
-
-Parts flagged as tissues are not necessarily suitable for every usage, and may include products such as venom.
-
-# Specimen Results
-
-Specimen Results column "partdetail" contains "core" part information formatted as [JSON (JavaScript Object Notation)](https://en.wikipedia.org/wiki/JSON). JSON is a 
+Record Search Results column "partdetail" contains "core" part information formatted as [JSON (JavaScript Object Notation)](https://en.wikipedia.org/wiki/JSON). JSON is a 
 lightweight data exchange format capable of representing complex data (_e.g._, multiple parts each with multiple child attributes)
 as simple text strings. Most browsers will "pretty print" 
 JSON data, making these data very human-readable.
