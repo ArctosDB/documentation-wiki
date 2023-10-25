@@ -90,6 +90,7 @@ After save:
 
 ## Video Tutorials
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png) **[How To Create an Annotation](https://youtu.be/hEDB2uSI-BQ?si=6J4sDuqG0CZpUGDx)**
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png) **[How To Review Annotations](https://youtu.be/jkdJMVsTouA?si=mejpNwDcSGomtzvG)**
 
 ## Edit this Documentation
 
