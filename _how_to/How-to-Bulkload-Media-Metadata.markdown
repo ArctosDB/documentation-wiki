@@ -174,11 +174,11 @@ This file will be deleted 3 days after the message is sent, but may be regenerat
 
 # Tutorial Videos ↗️
 
-[![YouTube: How to Bulkload Media Metadata in Arctos](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Bulkload_Media_Metadata_in_Arctos_thumb.jpg)](https://www.youtube.com/watch?v=JkiRIH-JgYg)
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png) **[How to Transfer Media to TACC (Bulk Media Loads)](https://youtu.be/6OJZOiEjH7A)**
 
-[How to Transfer Media to TACC (Bulk Media Loads)](https://youtu.be/6OJZOiEjH7A)
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png) **[How To Bulkload Media Metadata](https://www.youtube.com/watch?v=JkiRIH-JgYg)**
 
-## Related Links ##
+## Related Links
 
 [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
 
