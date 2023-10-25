@@ -14,7 +14,7 @@ In order to delete a catalog record(s) in Arctos, you must first create an **Enc
 Note that you can only delete a maximum of 1000 catalog records at a time through this method.
 
 ## NAVIGATION
-[Tool Directory → Records → Encumbrances - Manage](https://arctos.database.museum/Encumbrances.cfm)
+[Tools Directory > Records > Encumbrance: Manage](https://arctos.database.museum/Encumbrances.cfm)
 
 ## Create an Encumbrance to Delete Catalog Records
 
@@ -40,10 +40,18 @@ ctos.database.museum/info/ctDocumentation.cfm?table=CTENCUMBRANCE_ACTION
 * Now click the "Delete Encumbered Records" hypertext and all records included in the encumbrance will be deleted from Arctos. You will need to confirm at the prompt  
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
 Records with citations or media cannot be immediately deleted - you must first detach citations or media objects from the record before you can delete it. If you are trying to delete more than 1000 records, you'll get an error message that starts with 'fail: listlen(catIdList)=...'
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
 You can also access Encumbrances through the Detail page of a single catalog record (via the top "Encumbrances" tab).
+
+## Redirects
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+If a record is deleted because it was a duplicate, a redirect from the deleted recrd to the remaining record should be made. See [Redirects](https://handbook.arctosdb.org/documentation/redirect.html) for further instructions.
 
 ## Edit this Documentation
 
