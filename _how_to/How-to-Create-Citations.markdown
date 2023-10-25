@@ -48,7 +48,7 @@ The citation is now created and listed at the bottom of the screen under "Existi
 
 
 ### Add a Citation Tutorial Video ###
-![https://drive.google.com/file/d/1bLyny6gRKY5V40AOAInwTvlkb10-ojvT/view?usp=sharing](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png) **Video Tutorial**
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png) **[How To Add a Publication and Citation to a single record.](https://drive.google.com/file/d/1bLyny6gRKY5V40AOAInwTvlkb10-ojvT/view?usp=sharing)**
 
 ## Edit this Documentation
 
