@@ -88,6 +88,9 @@ After save:
 
 <img width="870" alt="Screen Shot 2022-03-17 at 11 55 02 AM" src="https://user-images.githubusercontent.com/5720791/158875626-e40c4892-84d5-422e-9d80-17cc70337adb.png">
 
+## Video Tutorials
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png) **[How To Create an Annotation](https://drive.google.com/file/d/10-K-tgw4NK_3wzv1yBH-QCy5gmMCeBNI/view?usp=sharing)**
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/annotations.markdown" target="_blank">here</a>.
