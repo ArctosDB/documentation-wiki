@@ -38,6 +38,10 @@ Occasionally, an issue requires multiple rounds of discussion and a notification
 ### Rejected 
 If rejected, a member of the Code Table Administrators will perform the steps required to ensure that the issue documentation is archived appropriately should a duplicate or similar issue arise in the future.
 
+## Video Tutorial
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)**[How To Create a Code Table Request in Github](https://drive.google.com/file/d/16T3oo3OJn1_nSHNgEjykQPzam4U8w-Js/view?usp=sharing)**
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Request-A-Code-Table-Change.markdown" target="_blank">here</a>.
