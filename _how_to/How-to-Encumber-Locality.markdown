@@ -37,7 +37,7 @@ The "private" view of this record appears as follows (sensitive information has 
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/encumber_locality/NMMNH_Paleo_1_private.jpg)
 
-Note the access: private locality attribute in the purple box. This attribute encumbers the locality. For instructions on adding locality attributes, see [How to Add Geology Attributes to a Locality](http://handbook.arctosdb.org/how_to/How-to-Add-Geology-Attributes-to-a-Locality.html)
+Note the access: private locality attribute in the purple box. This attribute encumbers the locality and values come from the [locality access code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_access). If you need to add your collection to the code table, file a [Code Table Request](https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=Function-CodeTables&projects=&template=code-table-request.md&title=Code+Table+Request+-+). For instructions on adding locality attributes, see [How to Add Geology Attributes to a Locality](http://handbook.arctosdb.org/how_to/How-to-Add-Geology-Attributes-to-a-Locality.html)
 
 ## Edit this Documentation
 
