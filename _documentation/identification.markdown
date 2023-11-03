@@ -213,7 +213,7 @@ searches are case-insensitive. Examples are fictitious and incomplete.
 
 Instructions for doing specifc tasks related to Identifications in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
--  [How To Create and Edit Determinations](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Determinations.html)
+-  [How To Create, Edit, and Delete Identifications](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Determinations.html)
 -  [How To Batch Update Identifications](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Identifications.html)
 -  [How To Use Complex Identifications](https://handbook.arctosdb.org/how_to/How-to-Use-Complex-Identifications.html)
 -  [How To Use Complex Identifications as Low-quality Data Flags](https://handbook.arctosdb.org/how_to/How-To-Use-Complex-Identifications-As-Low-Quality-Data-Flags.html)
