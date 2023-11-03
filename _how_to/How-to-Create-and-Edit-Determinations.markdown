@@ -1,39 +1,50 @@
 ---
-title: How To Create and Edit Determinations
+title: How To Create and Edit Identifications
+author: unknown, Genna Anderegg, Teresa J. Mayfield-Meyer
+date: 2023-11-03
 layout: default_toc
 ---
+# How To Create, Edit, and Delete Identifications
 
-[Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
+### Documentation: [Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
 
-Edit or Add an identification to a specimen record. A specimen record can hold multiple identifications and will display any previous identifications as a part of the specimen's determination history. Identifications can include valid and invalid nomenclature, as well as an evolving trail of identifications as a specimen is processed and/or examined by experts (e.g., an ant may only be identified to family when accessioned until further examination when it is identified down to species level).
+### Navigation: In any catalog record, select the Edit button next to the Identifications heading.
 
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/edit_identification_1.jpg)
+Add, Edit or Delete an identification for a catalog record. A catalog record can hold multiple identifications and will display any previous identifications as a part of the record's determination history. Identifications can include valid and invalid nomenclature, as well as an evolving trail of identifications as an object or observation is processed and/or examined by experts (e.g., an ant may only be identified to family when accessioned until further examination when it is identified down to species level).
 
-**Navigation: from the specimen record, click on the Identification Tab OR the "Edit" hypertext in the corner of the Identification detail**
+## How To Add an Identification
 
-## Add an Identification
+* In the Add Determination box, select the appropriate value from the **ID Formula** drop-down menu. If the new determination does not contain any modifiers (i.e., "sp.", "cf.", "x", "?", etc.), keep the default formula value ("A"). For redeterminations that involve more than one taxon (e.g., hybrids, "and", "or"), an additional field will appear when the appropriate formula is selected ("Taxon B").
+* Select an identification order.
 
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/edit_identification_2.jpg)
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
-* In the Add New Determination box, select the appropriate value from the **ID Formula** drop-down menu. If the new determination does not contain any modifiers (i.e., "sp.", "cf.", "x", "?", etc.), keep the default formula value ("A"). For redeterminations that involve more than one taxon (e.g., hybrids, "and", "or"), an additional field will appear when the appropriate formula is selected ("Taxon B").
-* Enter the new identification in the **Taxon** field(s). **TIP:** After typing the first few characters of the taxon name in the field, click "Tab" to bring up a pop-up list and select the desired name to populate the field.
-* Enter the determiner in the **ID By** field.
-* Enter the **Date** the redetermination was made.
-* Select a **Nature of ID** from the drop-down menu.
+If this is confusing, please read the [Identification Order Documentation](https://handbook.arctosdb.org/documentation/identification.html#identification-order)
+  
+* Enter the new identification in the **Taxon** field(s).
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+After typing the first few characters of the taxon name in the field, click "Tab" to bring up a pop-up list and select the desired name to populate the field.
+
+* Enter up to three determiner agents in the **Identifier** fields. If you require more than three, they can be added after the identification has been created.
+* Enter the **Date** the determination was made.
 * Record any pertinent **Remarks** (often for taxonomic revisions it is useful to include the reference information).
+* Use the identification attributes to select a **Nature of ID** and/or **Identification Confidence**.
 * Click the "Create" button to save the ID. The new determination will automatically appear below as the "accepted" ID along with the previous taxonomic determination(s).
 
-![](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/edit_identification_3.jpg)
-
-## Edit Identifications
-
+## How To Edit an Identification
+* Scroll past the Add section of the Edit screen.
 * Make desired edits in the available fields and click the "Save Changes" button to commit updates.
-* Use the "Accepted?" drop-down menu to order the determination history for a specimen record. "Yes" indicates that the current determination is the accepted taxon name, and will prioritize the "accepted" name as the display name for the record. As there can only be one valid ID for a specimen record, the other determination(s) will default to "accepted?" = "no." You may need to play around with deleting and adding identifications to achieve the desired determination history order.
-* To delete an erroneous determination, change the "accepted?" status to "no" and click the red-highlighted "Delete" hypertext. Click the "Save Changes" button to commit edits. It is appropriate to include previous, incomplete, and/or now-obsolete references for record-keeping purposes rather than deleting/overwriting these IDs with current nomenclature.
+* Use the ID order drop-down menu to order the determination history for a record. In biological collections, "1" indicates that the current determination is the accepted taxon name, and will prioritize the "accepted" name as the display name for the record. You may need to play around with deleting and adding identifications to achieve the desired determination history order.
 
-## How to Edit an Identification Tutorial Video
+## How To Delete an Identification
+* To delete an erroneous determination, change the ID Order to DELETE for the identification you wish to remove.
+* Click the "Save Changes" button to commit updates.
 
-[![YouTube: How Edit an Identification](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Add_Identifications_to_a_Single_Catalog_Record_thumb.jpg)](https://youtu.be/nITb0Z6ot4Q)
+## Tutorial Videos
+
+[![YouTube: How Edit an Identification](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)](https://youtu.be/nITb0Z6ot4Q)
 
 ## Edit this Documentation
 
