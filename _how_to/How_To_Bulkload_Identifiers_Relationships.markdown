@@ -7,10 +7,10 @@ date: 2023-11-06
 
 # How To Bulkload Identifiers and Relationships
 
-Use this tool to bulkload other identifiers with or without relationships to existing catalog records. For example, GenBank records to a catalog record or parasite and/or host relationship. Read [How To Choose the Proper Identifier Type](/how_to/How-to-choose-the-proper-other-identifier-type.html) if you are unsure of the Identifier type when preparing a file for upload to this tool. Note: This tool does NOT add missing Issued By to existing Identifiers, go here for the <a target=_blank href=https://arctos.database.museum/loaders/bulk_identifier_issuedby.cfm><b>Identifier IssuedBy Bulkloader</b></a>.
+Use this tool to bulkload other identifiers with or without relationships to existing catalog records. For example, GenBank records to a catalog record or parasite and/or host relationship. Read [How To Choose the Proper Identifier Type](/how_to/How-to-choose-the-proper-other-identifier-type.html) if you are unsure of the Identifier type when preparing a file for upload to this tool. Note: This tool does NOT add missing Issued By to existing Identifiers, go here for the [Identifier IssuedBy Bulkloader](https://arctos.database.museum/loaders/bulk_identifier_issuedby.cfm).
 
 - **Other Identifiers** are other numbers unique to that record
-- **Other Identifier Types** are controlled by the vocabulary in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type" class="external">coll_other_id_type</a> code table.
+- **Other Identifier Types** are [controlled vocabulary in a code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)
 - **Issued By** is the agent (person, organization, or other) responsible for assigning the identifer. This 'Issuer' must already have an Agent profile.
 - **Relationships** are links to other cataloged records (e.g. collected with, sibling of…). They are controlled by the vocabulary in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references" class="external">id_references</a> code table.
 
@@ -30,7 +30,7 @@ Use this tool to bulkload other identifiers with or without relationships to exi
  OR 
  Use: <b>UUID</b> (completely unique)
  
- - There are three required fields:<br><b>new_other_id_type</b> = <a href=https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type>controlled vocabulary</a>, if unsure which to use, choosing 'identifier' is safe)<br><b>new_other_id_number</b> = the value of the identifier, which can be an integer, string or a URL such as a GenBank record<br><b>new_other_id_references</b> = <a href=https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references>controlled vocabulary</a>, choose 'self' when adding in identifiers such as GenBank, otherwise a Relationship to another catalog record can be selected.
+ - There are three required fields:<br><b>new_other_id_type</b> = [controlled vocabulary](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type), if unsure which to use, choosing 'identifier' is safe)<br><b>new_other_id_number</b> = the value of the identifier, which can be an integer, string or a URL such as a GenBank record<br><b>new_other_id_references</b> = [controlled vocabulary](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references), choose 'self' when adding in identifiers such as GenBank, otherwise a Relationship to another catalog record can be selected.
  
 
 
