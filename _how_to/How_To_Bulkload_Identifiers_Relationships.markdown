@@ -15,13 +15,13 @@ Use this tool to bulkload other identifiers with or without relationships to exi
 - **Relationships** are links to other cataloged records (e.g. collected with, sibling of…). They are controlled by the vocabulary in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references" class="external">id_references</a> code table.
 
 1. Log into Arctos. You will need to have data_entry permission to load and manage_records permission to update to the database. Go to the <b>Tools Directory -> Records tile -> <a href="https://arctos.database.museum/loaders/BulkloadOtherId.cfm" class="external">Identifier: Bulkload</a></b>. 
-<p>Click on <b>Load CSV</b> to get started</p>.
+<p>Click on <b>Load CSV</b> to get started.</p>
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/BulkloadIdentifiersRelationships_toolpage.png)
 
-2. This will open a new panel. These steps below will assume you need to prepare a file first. The table at the bottom of the page details the fields needed in the CSV for this tool. You can either click on the link to <b>Get a template</b> for a prepared CSV with the fields in the table or simple create your own in a spreadsheet program.
+1. This will open a new panel. These steps below will assume you need to prepare a file first. The table at the bottom of the page details the fields needed in the CSV for this tool. You can either click on the link to <b>Get a template</b> for a prepared CSV with the fields in the table or simple create your own in a spreadsheet program.
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/BulkloadIdentifiers_howtoPrep file.png)
 
-3. Understanding the fields: 
+1. Understanding the fields: 
 
  - There are five conditional fields to choose the record that will have the added identifer, which means one combination of these fields is required. For Example:<br>
  Use: <b>GUID</b> (eg., MVZ:MAMM:12222)<br>
@@ -34,16 +34,16 @@ Use this tool to bulkload other identifiers with or without relationships to exi
  
  - There are three optional fields but it is best practise to include at least <b>issued_by</b>, which is the agent (person or organization) responsible for the identifier. The Agent must exist in Arctos.
 
-4. Once you have your file prepared then upload by clicking the <b>Browse</b> button. This will open a Finder or Explorer window; find and select your file, then click <b>Upload this file</b> button.
+1. Once you have your file prepared then upload by clicking the <b>Browse</b> button. This will open a Finder or Explorer window; find and select your file, then click <b>Upload this file</b> button.
 
 
-5. For managers: Once uploaded, click on ‘Review and Load’
+1. For managers: Once uploaded, click on ‘Review and Load’
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture4.jpg)
 
-5. That will take you to this page to review your entries:
+That will take you to this page to review your entries:
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture5.jpg)
 
-6. If everything looks correct, click the ‘Check All and Change Status to autoload’ button: 
+1. If everything looks correct, click the ‘Check All and Change Status to autoload’ button: 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6.jpg)<br>
 If errors are present, you have options:<br>
 - Click the ‘Return to Review and Load’ link, click ‘Delete’ to remove everything you just loaded, fix your .csv and reload.<br> 
@@ -53,10 +53,10 @@ If errors are present, you have options:<br>
 This will separate them from the rest of the entries and they can then be downloaded or deleted on the ‘Review and Load’ page.<br>
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture6b.jpg)
 
-7. Once you have set the status to autoload, just wait for the bulkloader to process the records.<br>
+1. Once you have set the status to autoload, just wait for the bulkloader to process the records.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**TIP** If you return to the ‘Review and Load’ page and refresh it periodically, you should see the Count number decrease (it can be slow, maybe 10 entries/minute)
 
-8. When everything is loaded, the table on the ‘Review and Load’ page will be empty:
+1.  When everything is loaded, the table on the ‘Review and Load’ page will be empty:
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture8.jpg)
 
 ## Edit this Documentation
