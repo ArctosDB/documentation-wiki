@@ -18,10 +18,10 @@ Use this tool to bulkload other identifiers with or without relationships to exi
 <p>Click on <b>Load CSV</b> to get started.</p>
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/BulkloadIdentifiersRelationships_toolpage.png)
 
-1. This will open a new panel. These steps below will assume you need to prepare a file first. The table at the bottom of the page details the fields needed in the CSV for this tool. You can either click on the link to <b>Get a template</b> for a prepared CSV with the fields in the table or simple create your own in a spreadsheet program.
+2. This will open a new panel. These steps below will assume you need to prepare a file first. The table at the bottom of the page details the fields needed in the CSV for this tool. You can either click on the link to <b>Get a template</b> for a prepared CSV with the fields in the table or simple create your own in a spreadsheet program.
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/BulkloadIdentifiers_howtoPrep file.png)
 
-1. Understanding the fields: 
+3. Understanding the fields: 
 
  - There are five conditional fields to choose the record that will have the added identifer, which means one combination of these fields is required. For Example:<br>
  Use: <b>GUID</b> (eg., MVZ:MAMM:12222)<br>
