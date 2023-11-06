@@ -40,7 +40,7 @@ Use this tool to bulkload other identifiers with or without relationships to exi
 1. For managers: Once uploaded, click on ‘Review and Load’
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture4.jpg)
 
-That will take you to this page to review your entries:
+ - That will take you to this page to review your entries:
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture5.jpg)
 
 1. If everything looks correct, click the ‘Check All and Change Status to autoload’ button: 
