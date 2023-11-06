@@ -34,8 +34,8 @@ Use this tool to bulkload other identifiers with or without relationships to exi
  
  - There are three optional fields but it is best practise to include at least <b>issued_by</b>, which is the agent (person or organization) responsible for the identifier. The Agent must exist in Arctos.
 
+### CSV file is Ready!
 1. Once you have your file prepared then upload by clicking the <b>Browse</b> button. This will open a Finder or Explorer window; find and select your file, then click <b>Upload this file</b> button.
-
 
 1. For managers: Once uploaded, click on ‘Review and Load’
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture4.jpg)
