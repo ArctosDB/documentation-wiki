@@ -1,29 +1,43 @@
 ---
 title: How To Bulkload Identifiers and Relationships
 layout: default_toc
-author: Andy Doll, Teresa J. Mayfield-Meyer
-date: 2021-02-10
+author: Michelle Koo (original by Andy Doll, Teresa J. Mayfield-Meyer)
+date: 2023-11-06
 ---
 
 # How To Bulkload Identifiers and Relationships
 
-This document describes how to bulkload other identifiers with or without relationships to exisiting catalog records. You may also find [How To Choose the Proper Identifier Type](/how_to/How-to-choose-the-proper-other-identifier-type.html) useful in preparing a file for upload to this tool.
+Use this tool to bulkload other identifiers with or without relationships to existing catalog records. For example, GenBank records to a catalog record or parasite and/or host relationship. Read [How To Choose the Proper Identifier Type](/how_to/How-to-choose-the-proper-other-identifier-type.html) if you are unsure of the Identifier type when preparing a file for upload to this tool. Note: This tool does NOT add missing Issued By to existing Identifiers, go here for the <a target=_blank href=https://arctos.database.museum/loaders/bulk_identifier_issuedby.cfm><b>Identifier IssuedBy Bulkloader</b></a>.
 
-- **Other Identifiers** are other numbers (e.g. collector number) for that specimen
+- **Other Identifiers** are other numbers unique to that record
 - **Other Identifier Types** are controlled by the vocabulary in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type" class="external">coll_other_id_type</a> code table.
-- **Relationships** are links to other cataloged specimens (e.g. collected with, sibling of…). They are controlled by the vocabulary in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references" class="external">id_references</a> code table.
+- **Issued By** is the agent (person, organization, or other) responsible for assigning the identifer. This 'Issuer' must already have an Agent profile.
+- **Relationships** are links to other cataloged records (e.g. collected with, sibling of…). They are controlled by the vocabulary in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references" class="external">id_references</a> code table.
 
-1. Log into Arctos and from the main menu select <a href="https://arctos.database.museum/tools/BulkloadOtherId.cfm" class="external">Enter Data -> Batch Tools -> Identifiers/Relationships -> Bulkload Identifiers/Relationships</a>
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture1.jpg)
+1. Log into Arctos. You will need to have data_entry permission to load and manage_records permission to update to the database. Go to the <b>Tools Directory -> Records tile -> <a href="https://arctos.database.museum/loaders/BulkloadOtherId.cfm" class="external">Identifier: Bulkload</a></b>. 
+<p>Click on <b>Load CSV</b> to get started</p>.
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/BulkloadIdentifiersRelationships_toolpage.png)
+
+2. This will open a new panel. These steps below will assume you need to prepare a file first. The table at the bottom of the page details the fields needed in the CSV for this tool. You can either click on the link to <b>Get a template</b> for a prepared CSV with the fields in the table or simple create your own in a spreadsheet program.
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/BulkloadIdentifiers_howtoPrep file.png)
+
+3. Understanding the fields: 
+
+ - There are four conditional fields to choose the record that will have the added identifer, which means one combination of these fields is required. For Example:<br>
+ Use: <b>GUID</b> (eg., MVZ:MAMM:12222)<br>
+ OR
+ Use: <b>guid_prefix</b> AND <b>existing_other_id_type, existing_other_id_number</b> <br>
+ OR 
+ Use: <b>UUID</b> (completely unique)
+ 
+ - There are three required fields:<br><b>new_other_id_type</b> = <a href=https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type>controlled vocabulary</a>, if unsure which to use, choosing 'identifier' is safe)<br><b>new_other_id_number</b> = the value of the identifier, which can be an integer, string or a URL such as a GenBank record<br><b>new_other_id_references</b> = <a href=https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references>controlled vocabulary</a>, choose 'self' when adding in identifiers such as GenBank, otherwise a Relationship to another catalog record can be selected.
+ 
 
 
-2. The tool takes you to the Review and Load page. If you have already loaded data, you will see it here. If you need to load data, click on ‘Load csv’:
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture2.jpg)
+4. Once you have your file prepared then upload by clicking the <b>Browse</b> button. This will open a Finder or Explorer window; find and select your file, then click <b>Upload this file</b> button.
 
-3. Click on ‘Choose File’ button. Explorer window will pop up, find and select your file, then click ‘Upload this file’ button.
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture3.jpg)
 
-4. Once loaded, click on ‘Review and Load’
+5. For managers: Once uploaded, click on ‘Review and Load’
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture4.jpg)
 
 5. That will take you to this page to review your entries:
