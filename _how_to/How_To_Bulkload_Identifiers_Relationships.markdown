@@ -23,7 +23,7 @@ Use this tool to bulkload other identifiers with or without relationships to exi
 
 3. Understanding the fields: 
 
- - There are four conditional fields to choose the record that will have the added identifer, which means one combination of these fields is required. For Example:<br>
+ - There are five conditional fields to choose the record that will have the added identifer, which means one combination of these fields is required. For Example:<br>
  Use: <b>GUID</b> (eg., MVZ:MAMM:12222)<br>
  OR
  Use: <b>guid_prefix</b> AND <b>existing_other_id_type, existing_other_id_number</b> <br>
@@ -32,7 +32,7 @@ Use this tool to bulkload other identifiers with or without relationships to exi
  
  - There are three required fields:<br><b>new_other_id_type</b> = [controlled vocabulary](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type), if unsure which to use, choosing 'identifier' is safe)<br><b>new_other_id_number</b> = the value of the identifier, which can be an integer, string or a URL such as a GenBank record<br><b>new_other_id_references</b> = [controlled vocabulary](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references), choose 'self' when adding in identifiers such as GenBank, otherwise a Relationship to another catalog record can be selected.
  
-
+ - There are three optional fields but it is best practise to include at least <b>issued_by</b>, which is the agent (person or organization) responsible for the identifier. The Agent must exist in Arctos.
 
 4. Once you have your file prepared then upload by clicking the <b>Browse</b> button. This will open a Finder or Explorer window; find and select your file, then click <b>Upload this file</b> button.
 
