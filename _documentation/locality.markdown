@@ -52,6 +52,7 @@ If you have absolutely no locality data, use the Locality Name **NULL Locality D
 
 `Locality . Spec_Locality VARCHAR2 (255) null`
 
+Will appear as the column header locality_specific in bulkloading tools.
 
 Specific Locality is a standardization of verbatim_locality.
 
