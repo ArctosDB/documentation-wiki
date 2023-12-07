@@ -24,7 +24,7 @@ Once the prospective partner has committed to Arctos, the Arctos Treasurer will 
 			
 The Arctos Working Group will receive an email when a form is submitted. An AWG representative should establish contact with the submitter as soon as possible. A [template](https://docs.google.com/document/d/1m-lq77WnQpT_6-ClCQfwfqjxP4ETlGAhqh_YXGS0vys/edit) is available. The chair of the Arctos Working Group will forward the submitted form to the Arctos Steering Committee.
 
-That representative should create a project in the [new-collections Github repository](https://github.com/ArctosDB/new-collections) using the steps outlined in both this document and the [Arctos New Collection Project Template](https://github.com/ArctosDB/new-collections/projects/6).
+That representative should create a project in the [new-collections Github repository](https://github.com/ArctosDB/new-collections) using the steps outlined in both this document and the Issue [templates available in the new-collections Github repository](https://github.com/ArctosDB/new-collections/issues/new/choose).
 
 
 
@@ -41,10 +41,10 @@ The Mentor(s) are responsible for the following:
 * The link in the initial contact email has an administrative section. The institutional mentor should change status to "administrative approval granted" and add their name and email address to the form. Set Status to "approve_to_pre-create_collections," save.
 
 
-* Define collections. Incoming collections are often merged or split, for example - this should be understood and agreed upon by all involved parties very early in the process. Documentation is available at [https://handbook.arctosdb.org/documentation/catalog.html](https://handbook.arctosdb.org/documentation/catalog.html). Create a GUID_PREFIX for each collection in the institution. This is a permanent value which is used in links to specimens and should never be changed. Please take great care to ensure that the collections understand the importance of stability in this value before proceeding. Documentation is available at [https://handbook.arctosdb.org/documentation/catalog.html](https://handbook.arctosdb.org/documentation/catalog.html). GRBIO may be a useful resource when considering a new GUID Prefix. When GUID_Prefix is established, pre-create collections. 
+* Define collections. Incoming collections are often merged or split, for example - this should be understood and agreed upon by all involved parties very early in the process. Documentation is available at [https://handbook.arctosdb.org/documentation/catalog.html](https://handbook.arctosdb.org/documentation/catalog.html). Create a GUID_PREFIX for each collection in the institution. This is a permanent value which is used in links to specimens and should never be changed. Please take great care to ensure that the collections understand the importance of stability in this value before proceeding. Documentation is available at [https://handbook.arctosdb.org/documentation/catalog.html](https://handbook.arctosdb.org/documentation/catalog.html). [GRSciColl](https://scientific-collections.gbif.org/) may be a useful resource when considering a new GUID Prefix. When GUID_Prefix is established, pre-create collections. 
 
 
-* Work with the incoming Institution to provide  metadata for each collection.
+* Work with the incoming Institution to provide metadata for each collection.
 
 
 * Create an Operator for each collection. Documentation is [https://handbook.arctosdb.org/documentation/users.html](https://handbook.arctosdb.org/documentation/users.html) and a How-To is available at [https://handbook.arctosdb.org/how_to/How-to-Create-a-New-User-Account-for-Operators.html](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-User-Account-for-Operators.html). These new Operators do not need any roles or collections; this will be assigned when the collections are created.
