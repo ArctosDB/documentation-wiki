@@ -68,7 +68,7 @@ Existing institutions in good standing do not need to complete a Prospective Col
 6. Fill in the information on the form.  Sign it with your login name and your mentor's login name if you know it, or simply sign your login name in the mentor's field as well if you are comfortable without a mentor.
      *You may mentor yourself, although we do recommend reaching out to similar collections at other institutions. See options at "<a href="https://arctos.database.museum/info/mentor.cfm" class="external">Find a Mentor</a>."
 7. Voila!  A new collection REQUEST has been created.
-8. <a href="https://github.com/ArctosDB/new-collections/issues/new?assignees=&labels=&projects=&template=exisiting-institution-requesting-a-new-collection.md&title=Arctos+Institution+Name+request+to+add+a+new+collection" class="external">Create a new issue in the new collections Github repository</a> and add the guid_prefix(s) you've submitted.
+8. <a href="https://github.com/ArctosDB/new-collections/issues/new?assignees=&labels=&projects=&template=exisiting-institution-requesting-a-new-collection.md&title=Arctos+Institution+Name+request+to+add+a+new+collection" target="_blank" class="external">Create a new issue in the new collections Github repository</a> and add the guid_prefix(s) you've submitted.
 
 
 ## For DBAs
