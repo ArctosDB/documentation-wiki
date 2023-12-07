@@ -11,8 +11,8 @@ date: 2018-06-08
 ## For prospective partners
 
 
-Fill out the [Prospective Collection Form](http://arctos.database.museum/new_collection.cfm) and we will contact you.
-You will need an Arctos account to access the form; you may create one at the top of any page. Following the [user guidelines](http://handbook.arctosdb.org/documentation/users.html) will streamline things later.
+Fill out the [Prospective Collection Form](https://arctos.database.museum/new_collection.cfm) and we will contact you.
+You will need an Arctos account to access the form; you may create one at the top of any page. Following the [user guidelines](https://handbook.arctosdb.org/documentation/users.html) will streamline things later.
 
 
 The submitted form will go to the Arctos Working Group. Someone from the Arctos Working Group (AWG) will contact the submitter as soon as possible to ensure a good communication channel. Please email arctos.treasurer@gmail.com if you have not received a response within one week.  
@@ -30,7 +30,7 @@ That representative should create a project in the [new-collections Github repos
 
 This process relies on mentorship. An institutional Mentor should be assigned as the first part of the administration process. Each collection in the institution will need a Mentor as well; this may all be the same person, or they may all be different, or any combination. Each collection needs at least one Mentor; any arrangement which satisfies this requirement is suitable. 
 
-A [list of volunteer Mentors is available](http://arctos.database.museum/info/mentor.cfm). Mentors will need global_admin, or someone with global_admin to act on their behalf. To become a Mentor, add the mentor role in [Manage Collection](http://arctos.database.museum/Admin/Collection.cfm) for the appropriate collection along with the Agent name of the person who has offered to be a mentor.
+A [list of volunteer Mentors is available](https://arctos.database.museum/info/mentor.cfm). Mentors will need global_admin, or someone with global_admin to act on their behalf. To become a Mentor, add the mentor role in [Manage Collection](https://arctos.database.museum/Admin/Collection.cfm) for the appropriate collection along with the Agent name of the person who has offered to be a mentor.
 
 
 The Mentor(s) are responsible for the following:
@@ -41,13 +41,13 @@ The Mentor(s) are responsible for the following:
 * The link in the initial contact email has an administrative section. The institutional mentor should change status to "administrative approval granted" and add their name and email address to the form. Set Status to "approve_to_pre-create_collections," save.
 
 
-* Define collections. Incoming collections are often merged or split, for example - this should be understood and agreed upon by all involved parties very early in the process. Documentation is available at [http://handbook.arctosdb.org/documentation/catalog.html](http://handbook.arctosdb.org/documentation/catalog.html). Create a GUID_PREFIX for each collection in the institution. This is a permanent value which is used in links to specimens and should never be changed. Please take great care to ensure that the collections understand the importance of stability in this value before proceeding. Documentation is available at [http://handbook.arctosdb.org/documentation/catalog.html](http://handbook.arctosdb.org/documentation/catalog.html). GRBIO may be a useful resource when considering a new GUID Prefix. When GUID_Prefix is established, pre-create collections. 
+* Define collections. Incoming collections are often merged or split, for example - this should be understood and agreed upon by all involved parties very early in the process. Documentation is available at [https://handbook.arctosdb.org/documentation/catalog.html](https://handbook.arctosdb.org/documentation/catalog.html). Create a GUID_PREFIX for each collection in the institution. This is a permanent value which is used in links to specimens and should never be changed. Please take great care to ensure that the collections understand the importance of stability in this value before proceeding. Documentation is available at [https://handbook.arctosdb.org/documentation/catalog.html](https://handbook.arctosdb.org/documentation/catalog.html). GRBIO may be a useful resource when considering a new GUID Prefix. When GUID_Prefix is established, pre-create collections. 
 
 
 * Work with the incoming Institution to provide  metadata for each collection.
 
 
-* Create an Operator for each collection. Documentation is [http://handbook.arctosdb.org/documentation/users.html](http://handbook.arctosdb.org/documentation/users.html) and a How-To is available at [http://handbook.arctosdb.org/how_to/How-to-Create-a-New-User-Account-for-Operators.html](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-User-Account-for-Operators.html). These new Operators do not need any roles or collections; this will be assigned when the collections are created.
+* Create an Operator for each collection. Documentation is [https://handbook.arctosdb.org/documentation/users.html](https://handbook.arctosdb.org/documentation/users.html) and a How-To is available at [https://handbook.arctosdb.org/how_to/How-to-Create-a-New-User-Account-for-Operators.html](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-User-Account-for-Operators.html). These new Operators do not need any roles or collections; this will be assigned when the collections are created.
 
 * Assist with publishing collection data to VertNet Integrated Publishing Toolkit (IPT).
 
