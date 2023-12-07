@@ -11,7 +11,7 @@ date: 2018-06-08
 ## For prospective partners
 
 
-Fill out the [Prospective Collection Form](https://arctos.database.museum/new_collection.cfm) and we will contact you.
+Fill out the [Prospective Collection Form](https://docs.google.com/forms/d/e/1FAIpQLSec0BuRKDGDjqxT1fRI31GbZc0TORLK6DoLjZReQfnl5iIyDA/viewform) and we will contact you.
 You will need an Arctos account to access the form; you may create one at the top of any page. Following the [user guidelines](https://handbook.arctosdb.org/documentation/users.html) will streamline things later.
 
 
