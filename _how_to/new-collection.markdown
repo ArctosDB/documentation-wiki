@@ -6,7 +6,7 @@ date: 2018-06-08
 ---
 # How To Join Arctos
 
-[Getting Started Documentation}(https://handbook.arctosdb.org/documentation/getting_started.html)
+[Getting Started Documentation](https://handbook.arctosdb.org/documentation/getting_started.html)
 
 ## For prospective partners
 
