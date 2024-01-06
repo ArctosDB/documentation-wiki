@@ -117,7 +117,7 @@ to avoid this problem in the future. Parts of unknown preservation/preparation s
 
 13. Do no use unnecessary characters in authority values, particularly Attributes. Letters, dash, and space are generally acceptable. 
 
-14. Include the GitHub discussion link/URL in the definition. (Reports/DataServices includes a <a href="https://arctos.database.museum/DataServices/linkerizer.cfm" class="external">link-builder tool</a>.)
+14. Include the GitHub discussion link/URL in the definition. For code tables without a special container for links, separate links from the definition and from each other with spaced pipes. Example: ``Some definition bla bla bla very descriptive. | https://www.google.com/ | https://github.com/ArctosDB/arctos/issues/7202 `` Note that copying from the Issue may not work as intended; ensure links are bare URLs. Avoid using pipes in other ways.
 
 
 ## Specific Values Considerations
