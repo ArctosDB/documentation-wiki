@@ -65,7 +65,7 @@ Once a record is marked to load by making ``status`` "autoload_core" (loads data
 
 Additionally, status DELETE (case-sensitive) can be used to mark records for deletion. This process generally takes about 30 minutes.
 
-### Post-load
+## Post-load
 
 
 Records which successfully load must be refreshed in the cache before appearing in the user interfaces. Records are refreshed in the order they enter the queue. This process often takes 
@@ -76,7 +76,7 @@ Note that there is a period of time between successful loading and the cache bei
 
 It may take some time for freshly-created data to appear in the user interface. Check Flat Status for the latest.
 
-### It's Stuck
+## It's Stuck
 
 
 The web-based applications may not work well for very large loads.
