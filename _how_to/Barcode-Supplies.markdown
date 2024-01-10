@@ -1,7 +1,8 @@
 ---
 title: How To Create And Acquire Barcode Supplies
-author: Kyndall Hildebrandt
-date: 2017-05-05
+author: Kyndall Hildebrandt, Hannah Appiah-Madson
+date: 2024-01-10
+original date: 2017-05-05
 layout: default_toc
 ---
 
@@ -44,7 +45,7 @@ When purchasing barcode rolls, select Thermal Transfer print method. More inform
 Pros: Cost: About 1/3 the cost of purchasing pre-printed barcodes
 Cons: Initial set-up costs (cost of the printer which is about $500), requires staff time to create and print barcodes.
 
-**Ocean Genome Legacy (OGL) recommendations**
+**Ocean Genome Legacy (OGL) recommendations as of January 2024**
 
 From [Electronic Imaging Materials](http://barcode-labels.com/), OGL purchases 3 types of labels:
 
@@ -55,6 +56,8 @@ From [Electronic Imaging Materials](http://barcode-labels.com/), OGL purchases 3
 Note that OGL has had better luck when purchasing labels on a 3” core rather than a 1.5” core and keeps the labels on an external spool, as that helps the labels ooze less of their adhesive.
 
 OGL prints labels on a [GoDex RT730i](https://www.godexprinters.co.uk/desktop/rt730i) with [LabelLive](https://label.live/) software using Thermal Transfer, which means purchasing a T68 resin ribbon. The GoDex is wonderful and has relatively helpful customer service. In a perfect world this printer would function with Bluetooth, but when we use Bluetooth, the alignment of labels gets off, so instead we just use a very long USB cable to connect to the computer that needs the printer at that time.
+
+**Other Possibilities**
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
