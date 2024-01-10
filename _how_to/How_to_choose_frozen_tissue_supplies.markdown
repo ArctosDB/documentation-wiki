@@ -15,7 +15,7 @@ date: 2024-01-10
 
 For Freezer Tubes, we’ve had to pivot multiple times, particularly in the wake of COVID. Cryotubes were/are a big part of the COVID testing/vaccine pipeline, so many types became unavailable, etc. Currently, we use: [Corning™ Externally Threaded Cryogenic Vials](https://www.fishersci.com/shop/products/corning-externally-threaded-internally-threaded-cryogenic-vials-6/0976171?crossRef=976171&searchHijack=true&searchTerm=976171&searchType=RAPID&matchedCatNo=976171). 
 
-Under no circumstance would we recommend Nunc tubes. Even though they are externally threaded and have O rings, we regularly see up to 25% of them leak in air transportation and lids regularly overtighten to the point of breaking/no longer being sealed.
+Under no circumstance would OGL recommend Nunc tubes. Even though they are externally threaded and have O rings, OGL regularly sees up to 25% of them leak in air transportation and lids regularly overtighten to the point of breaking/no longer being sealed.
 
 ## Edit this Documentation
 
