@@ -20,7 +20,7 @@ Label durability depends on the material of the barcode and the barcode adhesive
 
 ## Suppliers:
 
-University of Alaska Museum of the North and Museum of Southwestern Biology use [Electronic Imaging Materials](http://barcode-labels.com/) for their barcoding needs. A few other options are [BarcodesInc](http://www.barcodesinc.com/), [Barcode Giant](http://www.barcodegiant.com/), [CILS International](http://www.cils-international.com/us/), or [eBarcode](http://www.ebarcode.com/).
+University of Alaska Museum of the North, Museum of Southwestern Biology, and Ocean Genome Legacy use [Electronic Imaging Materials](http://barcode-labels.com/) for their barcoding needs. A few other options are [BarcodesInc](http://www.barcodesinc.com/), [Barcode Giant](http://www.barcodegiant.com/), [CILS International](http://www.cils-international.com/us/), or [eBarcode](http://www.ebarcode.com/).
 
 ## There are two options to generating physical barcodes. 
 As with both options, be aware of possible duplicates whether ordering duplicated numbers or printer error. 
@@ -35,12 +35,26 @@ Cons: Expensive.
 
 ### Option 2) Printing Barcodes In-House
 
+**University of Alaska, Museum of the North (UAM) recommendations**
+
 From [Electronic Imaging Materials](http://barcode-labels.com/), UAM purchased a [TSC TC300 (300 dpi) Desktop Label Printer](http://barcode-labels.com/shop/printers/tsc-tc300/) that comes with BarTender Lite software for designing and printing barcodes. The program allows you to create barcode series and remembers the last barcode printed to reduce printing of duplicate barcodes. 
 
 When purchasing barcode rolls, select Thermal Transfer print method. More information on Direct Thermal and Thermal Transfer Labels can be found on the [EIM webpage](http://barcode-labels.com/products/blank-labels/). The TC300 printer takes a 1” core size. For different sizes of barcodes than found on the website and for more information on getting setup to print, contact EIM customer service. 
 
 Pros: Cost: About 1/3 the cost of purchasing pre-printed barcodes
 Cons: Initial set-up costs (cost of the printer which is about $500), requires staff time to create and print barcodes.
+
+**Ocean Genome Legacy (OGL) recommendations**
+
+From [Electronic Imaging Materials](http://barcode-labels.com/), OGL purchases 3 types of labels:
+
+ - For DNA extracts in micronics tubes: 686 1.0” x 0.5” white CryoLabel Frost, blanks on 3” core 
+ - For tissue samples in cryotubes: 686 1.75” x 0.5” Cap & Wrap white CryoLabel Frost with 0.375” cap, blanks on 3” core 
+ - For specimens in jars of ethanol at room temperature: 686 1.5” x 1.0” white CryoLabel Frost, blanks on 3” core 
+
+Note that OGL has had better luck when purchasing labels on a 3” core rather than a 1.5” core and keeps the labels on an external spool, as that helps the labels ooze less of their adhesive.
+
+OGL prints labels on a [GoDex RT730i](https://www.godexprinters.co.uk/desktop/rt730i) with [LabelLive](https://label.live/) software using Thermal Transfer, which means purchasing a T68 resin ribbon. The GoDex is wonderful and has relatively helpful customer service. In a perfect world this printer would function with Bluetooth, but when we use Bluetooth, the alignment of labels gets off, so instead we just use a very long USB cable to connect to the computer that needs the printer at that time.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
