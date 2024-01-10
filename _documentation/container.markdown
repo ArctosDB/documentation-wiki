@@ -670,6 +670,8 @@ and check that the number we've extracted is *between* a range (identical to ```
 Instructions for doing specifc tasks related to Object Tracking, Containers, and Barcodes in Arctos
 
  - [How To Start Object Tracking in Arctos](https://handbook.arctosdb.org/how_to/How-to-Start-Object-Tracking.html)
+ - [How To Create And Acquire Barcode Supplies](https://handbook.arctosdb.org/how_to/Barcode-Supplies.html)
+ - [How to Choose and Use Frozen Tissue Equipment and Supplies](https://handbook.arctosdb.org/how_to/How_to_choose_frozen_tissue_supplies.html)
  - [How To Create and Edit Containers](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Containers.html)
  - [How To Create an Individual Container in Arctos Object Tracking](https://handbook.arctosdb.org/how_to/How-to-Create-a-Freezer-Box-Container.html)
  - [How To Move to a Single Barcoded Container](https://handbook.arctosdb.org/how_to/How-to-Move-a-Single-Barcoded-Container.html)
@@ -679,8 +681,7 @@ Instructions for doing specifc tasks related to Object Tracking, Containers, and
  - [How To Find Parts for a Loan When Using Object Tracking](https://handbook.arctosdb.org/how_to/How-To-Find-Parts%20for-a-Loan-Using%20Object%20Tracking-Existing-Freezer-Box.html)
  - [How To Create Part Attributes from Containers](https://handbook.arctosdb.org/how_to/How-To-Create-Part-Attributes-from-Containers.html)
  - [How To Bulkload Barcodes to Parts](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html)
- - [How To Create And Acquire Barcode Supplies](https://handbook.arctosdb.org/how_to/Barcode-Supplies.html)
-   
+    
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/container.markdown" target="_blank">here</a>.
