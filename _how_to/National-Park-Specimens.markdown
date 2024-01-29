@@ -19,22 +19,25 @@ Permits can and should be used in conjunction with all other methods of identify
 ### Projects
 
 [Projects](/documentation/projects.html) provide a mechanism for querying much the same data as Permits, but also allow more metadata (such as associated NPS funding)
-and provide results in a more integrated and accessible format.
+and provide results in a more integrated and accessible format. Note that projects crossing multiple collections should be viewed when not logged in as an operator as permissions may conceal information for which an operator does not hever permission.
+
+[Denali National Park and Preserve UAM Mammals](https://arctos.database.museum/project/10002123)
+[National Park Service (NPS) specimens held in the Museum of Southwestern Biology](https://arctos.database.museum/project/10002294)
+
+For information about creating and maintaing projects see [Projects in Arctos](https://handbook.arctosdb.org/documentation/projects.html)
 
 ### Generic Identifiers
 
-Assigning specimens [identifiers](/documentation/other-identifying-numbers.html) such as "U. S. National Park Service catalog" provides coarse-grained origin information, and may
+Assigning [identifiers](/documentation/other-identifying-numbers.html) with appropriate issued by agents such as [U. S. National Park Service catalog](https://arctos.database.museum/agents.cfm?agent_id=21347816) provides coarse-grained origin information, and may
 be somewhat useful for DOI personnel in comparing museum specimen data with records in their local databases.
 
 ### Specific Identifiers
 
-Assigning specific issued identifiers ("LVNP: Lassen Volcanic National Park") provides fine-grained origin information and easy access. 
-These may be typed (usually as integer) by coordinating with Arctos staff.
+Assigning [identifiers](/documentation/other-identifying-numbers.html) with appropriate issued by agents [Lassen Volcanic National Park](https://arctos.database.museum/agents.cfm?agent_id=10014680) provides fine-grained origin information and easy access. 
 
 ### Geography
 
-[Geography](/documentation/higher-geography.html) is problematic as DOI land changes over time. A specimen may have been collected on what is now National Park land before the 
-Park was formed or expanded, and as such would NOT be the property of NPS, for example.
+[Geography](/documentation/higher-geography.html) is problematic as DOI land changes over time. A specimen may have been collected on what is now National Park land before the Park was formed or expanded, and as such would NOT be the property of NPS, for example.
 
 ## More Information
 
