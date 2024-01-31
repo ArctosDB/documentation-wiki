@@ -1,7 +1,7 @@
 ---
 title: How To Delete a Catalog Record
-author: Teresa J. Mayfield-Meyer unknown
-date: 2021-10-18
+author: Teresa J. Mayfield-Meyer
+date: 2024-01-31
 layout: default_toc
 ---
 
@@ -51,7 +51,7 @@ You can also access Encumbrances through the Detail page of a single catalog rec
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
-If a record is deleted because it was a duplicate, a redirect from the deleted recrd to the remaining record should be made. See [Redirects](https://handbook.arctosdb.org/documentation/redirect.html) for further instructions.
+If a record is deleted because it was a duplicate, a redirect from the deleted record to the remaining record should be made. See [Redirects](https://handbook.arctosdb.org/documentation/redirect.html) for further instructions.
 
 ## Edit this Documentation
 
