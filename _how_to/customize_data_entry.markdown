@@ -12,13 +12,13 @@ The data entry form can be customized to reflect the preferred suite of fields d
 
 ### Navigation: [Tools Directory > Data Entry > Enter Records](https://arctos.database.museum/Bulkloader/enter.cfm)
 
-## More Information Needed!
+## Enter Catalog Records
 Select any of the available options on this page to get to the data entry screen. Once you've selected a collection in some way, the form will load and you may customize or choose a Profile by selecting the **Customize** button in the footer of the data entry screen.
 
 ## Profile Metadata
 
 ### Profile Name
-Create a name for your cusomized profile. It is recommended that the name include only lower-case letters. PLease refrain from using profanity or hurtful language in profile names as these profiles will be subject to removal without notice. See the [Arctos Code of Conduct](https://arctosdb.org/code-of-conduct/).
+Create a name for your cusomized profile. It is recommended that the name include only lower-case letters. Please refrain from using profanity or hurtful language in profile names as these profiles will be subject to removal without notice. See the [Arctos Code of Conduct](https://arctosdb.org/code-of-conduct/).
 
 ### Description
 Tell future-you (and other users) what this profile includes/does. It is recommendaed that you say something about the collection(s) for which this Profile is being created as well as the purpose of the customization.
