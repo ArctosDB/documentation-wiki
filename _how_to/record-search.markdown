@@ -13,6 +13,7 @@ Catalog record search is the primary way to access catalog records in Arctos. Na
 ## Presets and Profiles
 
 If desired, use the Customize Search & Results menu at the top of the page to select from several preset search options that are tailored to discipline-specific query fields:
+
 ![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/ad34e8bd-162d-4f19-bd38-8366899ed421)
 
 To customize the search and result fields displayed or show more options, use the "Customize or Manage Profile" menu option. Toggle on or off fields in the Search Options and Results Options tables to control what fields are displayed. Pro Tip: While any user can customize the fields displayed, users must create a login to save these custom preferenes for subsequent searches. 
