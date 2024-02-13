@@ -81,7 +81,7 @@ Yes | Yes | No | 20 | None | In conjunction with catalog number it forms a uniqu
 
 * Although not controlled by a code table, GUID_PREFIX is required to be 20 or fewer characters, and contain exactly one colon `:` not at the beginning or end of the string. 
 
-GUIDs, once formed, must never be allowed to change or expire, so selection of GUID Prefix is an important task in new collection set-up. See [Creating a Meaningful GUID](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_best_practices/GUID.markdown). All specimen citations should occur by way of GUID. Note that while GUID Prefix generally appears to be a concatenation of institution and collection code, it is in fact an independent concept; several collections from an institution may use the 'Herb' collection_cde (*e.g.* for vascular plants, cryptogams, and marine algae collections, for example).
+GUIDs, once formed, must never be allowed to change or expire, so selection of GUID Prefix is an important task in new collection set-up. See [Creating a Meaningful GUID](https://handbook.arctosdb.org/best_practices/GUID.html). All specimen citations should occur by way of GUID. Note that while GUID Prefix generally appears to be a concatenation of institution and collection code, it is in fact an independent concept; several collections from an institution may use the 'Herb' collection_cde (*e.g.* for vascular plants, cryptogams, and marine algae collections, for example).
 
 ## Collection
 
