@@ -153,6 +153,17 @@ The term should be comprised of sufficient formal "parentage" to be unambiguous,
 
 Additions to https://arctos.database.museum/info/ctDocumentation.cfm?table=ctquad may be made under the criteria in https://github.com/ArctosDB/internal/issues/296.
 
+### Formation, Group, Member, Bed
+
+Additions to
+
+* https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_formation
+* https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_group
+* https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_member
+* https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlithostratigraphic_bed
+
+may be made under the criteria in https://github.com/ArctosDB/internal/issues/298 
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Manage-Code-Table-Requests.markdown" target="_blank">here</a>.
