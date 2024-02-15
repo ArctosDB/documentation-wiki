@@ -149,6 +149,10 @@ If terms are added to or deleted from the [Taxonomy: Term Values code table](htt
 
 The term should be comprised of sufficient formal "parentage" to be unambiguous, eg ``Blacks Fork Member unit A`` and start with the "formal" lithostratigraphy then follow with the "informal" in lowercase (except for letter designations like "unit A". The definition should reference a "type publication" (however informal). See [Issue 9674](https://github.com/ArctosDB/arctos/issues/6747) for additional background.
 
+### Quads
+
+Additions to https://arctos.database.museum/info/ctDocumentation.cfm?table=ctquad may be made under the criteria in https://github.com/ArctosDB/internal/issues/296.
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Manage-Code-Table-Requests.markdown" target="_blank">here</a>.
