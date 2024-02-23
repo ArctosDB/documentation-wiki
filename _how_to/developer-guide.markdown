@@ -87,13 +87,13 @@ Or as a label
 </label>
 ```
 
-## CSS Classes
+## Pick/select Inputs
 
-* pick/select inputs: pickInput
+* prefix placeholder with 'type+tab to pick ....'
+* CSS class: pickInput
     * after success: goodPick
-    * after fail: badPick 
-* insert-holding container: newRec
-* 
+    * after fail: badPick
+
 #### Color Codes
 
 (see css file for current defintion)
