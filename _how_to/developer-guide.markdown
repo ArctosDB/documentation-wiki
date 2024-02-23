@@ -86,6 +86,14 @@ Or as a label
    Catalog Item Type
 </label>
 ```
+
+## CSS Classes
+
+* pick/select inputs: pickInput
+    * after success: goodPick
+    * after fail: badPick 
+* insert-holding container: newRec
+* 
 #### Color Codes
 
 "Arctos blue": #113d64
