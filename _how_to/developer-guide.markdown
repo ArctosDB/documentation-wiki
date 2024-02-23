@@ -96,25 +96,26 @@ Or as a label
 * 
 #### Color Codes
 
-"Arctos blue": #113d64
+(see css file for current defintion)
+
+"Arctos blue": --arctosdarkblue
 
 ARCTOS BODY
-* #F6F8FC
+* --arctoslightblue
 
 TEXT
-* Fonts (all, including Section Label title): #113d64 
-* helpLinks and Hypertext #116AC4
-* Hover text #0000FF
-* Visited Hypertext #9D34C2
-* LikeLink/Infolink: #05B8E9
+* Fonts (all, including Section Label title): --arctosdarkblue
+* helpLinks and Hypertext --arctoslinkcolor
+* Hover text --arctoslinkhovercolor
+* Visited Hypertext --arctosvisitedlinkcolor
 
 
 QUERY BLOCK STRIPEY GRID
-* Color 1/odds (darker): #DAE3F3
-* Color 2/evens (lighter): #EDF1F9
+* Color 1/odds (darker): --arctosdarkstripecolor
+* Color 2/evens (lighter): --arctoslightstripecolor
 
 HIGHLIGHTS
-* target: #CCD7E9
+* target: --arctoshighlightcolor
 
 BUTTONS
 * Search/Submit Query: input.schBtn #82B8EA 
