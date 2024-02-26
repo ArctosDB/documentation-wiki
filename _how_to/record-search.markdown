@@ -25,7 +25,8 @@ Each customize table is sortable, listing the field name of either Search Option
 
 ## Search Tips
 
-All field names are linked to documentation or relevant code table values. Click on the blue text to view definitions and navigate to documentation and/or linked code tables for each value.
+* All field names are linked to documentation or relevant code table values. Click on the blue text to view definitions and navigate to documentation and/or linked code tables for each value.
+*  Use the "choose" button next to the Collection search field to search multiple (specific) collections or institutions at once. The "check all" Collection Code menu is handy for searching across Arctos for within a specific collection type (e.g., all invertebrate collections).
 
 ## Spatial Search - howto
 
