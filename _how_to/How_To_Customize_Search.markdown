@@ -13,7 +13,8 @@ The main search page can be customized to reflect the preferred suite of fields 
 
 ### Navigation: [Main Page [OR] Search -> Catalog Record](https://arctos.database.museum/search.cfm)
 
-<img width="765" alt="Screenshot 2023-09-08 at 15 11 27" src="https://github.com/ArctosDB/documentation-wiki/assets/5720791/0e7f2caf-8de2-47a9-a460-0ad22069a18d">
+![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/1378e9a6-d0f0-4c59-90bf-7f9648e616cb)
+
 
 ## Defaults
 
