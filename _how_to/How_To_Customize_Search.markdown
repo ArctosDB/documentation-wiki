@@ -17,54 +17,20 @@ The main search page can be customized to reflect the preferred suite of fields 
 
 ## Defaults
 
-Some basic configurations are available under the Presets heading.
+The default search pane contains a few basic search fields that are most frequently used for querying biodiversity collections. Use the Customize Search & Results menu at the top of the page to select from several preset search options that are tailored to discipline-specific query fields (e.g., paleo or ethnographic collections):
 
-<img width="171" alt="Screenshot 2023-09-08 at 15 12 30" src="https://github.com/ArctosDB/documentation-wiki/assets/5720791/1413e89b-e9e0-4ef4-ba3f-1d7b42a29a74">
-
-
-## Customize
-
-Choose Customize....
-<img width="443" alt="Screenshot 2023-09-08 at 15 46 13" src="https://github.com/ArctosDB/documentation-wiki/assets/5720791/5cce5891-3464-474f-a28c-3be5e20dbd78">
-... to open a table containing all possible search and results fields. 
-
-Options may be added or removed individually or by category. 
-
-*  Search Options (left side of the form) controls the search form. 
-*  Results Options allows customizing results.
-    *  Column order may be controlled by dragging.
-    *  "Cost" will limit the number of records which may be returned.
-
-Definitions are available, shift-click to check or uncheck multiple.
-
-Choose one of your profiles to "seed" the form. 
-
-If another user has shared a profile link with you, customizing will seed the form with that information.
-
-Provide a name and click 'create and use' to create a new profile.
-
----------------------------
-
-Below may be slightly out of date.
-
-------------------
-
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table.PNG">
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
-
-Selecting the Customize drop-down option under each category in the search form will result in a pop-up window with a table containing all search fields. The table will automatically scroll to the corresponding search options for the category selected, with all options highlighted in blue.
-
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Customize_search_table_scroll.png">
-
-## Saving Customizations
-
-Log in to save customizations. These selections will be saved to your user profile and displayed on subsequent logins.
+![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/ad34e8bd-162d-4f19-bd38-8366899ed421)
 
 
-## Tutorial Videos ↗️
+## Profiles
 
-[![How to Customize Search](https://i9.ytimg.com/vi/pN40CkKAbgw/mq2.jpg?sqp=CJCU8I8G&rs=AOn4CLCgvG7IypQyOLtWLJ3jqMzZHZ6e7A)](https://youtu.be/LvMPR8QbYB4)
+To customize the search and result fields displayed or add more fields to the pane to create a more advanced search, use the "Customize or Manage Profile" menu option. You may choose from an existing profile to "seed" the form or start from scratch. Toggle on or off fields in the Search Options and Results Options tables to control what fields are displayed. Pro Tip: While any user can customize the fields displayed, users must create a login to save these custom preferenes for subsequent searches. Provide a name for your new profile, and click 'create and use'.
+![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/64853aa2-6262-45d0-8e89-b088fe0c5346)
+
+Each customize table is sortable, listing the field name of either Search Options (query fields) or Reults Options (the fields that will be displayed in the search results table). When clicked, eye icons display the definition of each term. Use the checkboxes to manually selct desired options, or use the category or subcategory checkmarks to batch-select related options within a categoy, or the "x" symbol to batch toggle off existing selections. Note that while a user can turn on every Search table option, doing so in the Results table will result in limited record retrieval. This is due to the "cost" of the memory needed to simultaneously search multiple fields/tables throughout the database. Generally speaking, the more Results Options selected, the fewer catalog record results will display. For instance, toggling "core" (default) selections plus a handful of targeted fields will typically result in a search that maxes out at 500,000 records. Adding a few more fields may result in a maximum of 250,000 records returned. However, toggling every Result Option selection will likely retrieve a maximum of 3 catalog records. Note that Results Options only relate to the fields displayed in the initial results table, and that users will be able to access all informaiton contained in a catalog record by clicking on the catalog record. Users will also be able to download the search results as displayed (limited to the Result Options fields selected), or "for record bulkoader" which will contain all information included in the record, and/or may asynchronously "request data" for large datasets.
+
+![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/882cc1c9-785a-4fbc-848e-a62c50441f66)
+
 
 
 ## Edit this Documentation
