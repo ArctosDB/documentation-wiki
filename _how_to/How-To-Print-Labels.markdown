@@ -18,13 +18,13 @@ We are in the process of moving reports to a new system. If you had a report in 
 
 ## Within Arctos
 
-**Print specimen/object labels by querying the desired records and using the Manage Menu to "Print Any Report." From there, select the relevant report template to generate a PDF.**
+**Print specimen/object labels by querying the desired records and using the Tools Menu just above the search results to go to "Arctos Reporter." From there, select the relevant report template to generate a PDF.**
 
 * From the Search Page, query the specimen(s) that wish to print labels for. Search by catalog number, a series of catalog numbers, by accession number, or any parameters needed to return the intended records.
 
-* On the Results page, navigate to the Manage Menu --> Print Any Report. 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/images/uploads/print_any_report.JPG)
-* From the drop-down menu, select the report you want (usually your insitution's standard label template). Click the "Print Report" button to generate a PDF of the labels. From there, print away!
+* On the Results page, navigate to the Tools Menu --> Arctos Reporter. 
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Screenshot%202024-02-26%2015.15.54.png)
+* Select the report you want (usually your insitution's standard label template). Click the "Open" button to generate a PDF of the labels. From there, print away!
 
 ## Using Downloaded Data and Microsoft Word's Mail Merge Function
 
