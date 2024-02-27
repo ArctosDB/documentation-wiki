@@ -37,7 +37,7 @@ Note that while a user can turn on every Search table option, doing so in the Re
 
 # Download
 
-Use the tool menu to select a download option. Users must be logged in order to download files. 
+Use the tool menu to select a download option. Users must be logged in to download files. 
 
 ![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/f12af684-d86d-46b7-a03e-1bb4bd780d33)
 
