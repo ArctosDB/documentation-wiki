@@ -44,7 +44,7 @@ Use the tool menu to select a download option. Users must be logged in order to 
   
 * **Download "for citation bulkloader** will generate a csv file containing the search results according to the fields available in the [citation bulkloader](https://arctos.database.museum/tools/BulkloadCitations.cfm?action=ld)
 
-* '''Request Data''' is intended for users to request data that cannot be accessed through the standard search UI (generally, downloads that time out due to volume). This action will asynchronously generate a csv file containing the search results organized according to the table header/fields that are currently displayed on the screen, that can be found under the user's username "Async Requests". All requests should be generated within a maximum of 24 hours.
+* **Request Data** is intended for users to request data that cannot be accessed through the standard search UI (generally, downloads that time out due to volume). This action will asynchronously generate a csv file containing the search results organized according to the table header/fields that are currently displayed on the screen, that can be found under the user's username "Async Requests". All requests should be generated within a maximum of 24 hours.
 
 # View/Download
 
