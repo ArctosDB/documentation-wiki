@@ -13,12 +13,13 @@ The main search page can be customized to reflect the preferred suite of fields 
 
 ### Navigation: [Main Page [OR] Search -> Catalog Record](https://arctos.database.museum/search.cfm)
 
-![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/1378e9a6-d0f0-4c59-90bf-7f9648e616cb)
-
 
 ## Defaults
 
 The default search pane contains a few basic search fields that are most frequently used for querying biodiversity collections. Use the Customize Search & Results menu at the top of the page to select from several preset search options that are tailored to discipline-specific query fields (e.g., paleo or ethnographic collections):
+
+![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/30a66614-f458-42e8-9d81-874e9e2f79cf)
+
 
 ![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/ad34e8bd-162d-4f19-bd38-8366899ed421)
 
