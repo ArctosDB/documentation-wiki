@@ -95,7 +95,7 @@ Any information entered will be ignored unless identifier_type is completed.
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
-Arctos includes a helpful tool to help build complete urls for a host of known identifiers. If all you have is the identifier, but you believe it may be part os a url, use the **build** button at the far right of the identifier row to make use of the tool.
+Arctos includes a helpful tool to help build complete urls for a host of known identifiers. If all you have is the identifier, but you believe it may be part of a url, use the **build** button at the far right of the identifier row to make use of the tool.
 
 * **identifier_relationship** documents how the identifier_value is related to the catalog record being entered. Default is self (the identifier is applied to the object or observation being cataloged). Values are selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references).
 
