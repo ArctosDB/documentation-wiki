@@ -20,7 +20,10 @@ To customize the search and result fields displayed or add more fields to the pa
 
 ## Profiles
 
-You may choose from an existing profile to "seed" the form or start from scratch. Toggle on or off fields in the Search Options and Results Options tables to control what fields are displayed. Note that the results fields/values that are toggled on or off not only correspond to what is displayed on the screen, but also to the information that can be downloaded. Pro Tip: While any user can customize the fields displayed, users must create a login to save these custom preferenes for subsequent searches. Provide a name for your new profile, and click 'create and use'.
+You may choose from an existing profile to "seed" the form or start from scratch. Toggle on or off fields in the Search Options and Results Options tables to control what fields are displayed. Note that the results fields/values that are toggled on or off not only correspond to what is displayed on the screen, but also to the information that can be downloaded. 
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+While any user can customize the fields displayed, users must create a login to save these custom preferences for subsequent searches. Provide a name for your new profile, and click 'create and use'.
 
 ![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/64853aa2-6262-45d0-8e89-b088fe0c5346)
 
