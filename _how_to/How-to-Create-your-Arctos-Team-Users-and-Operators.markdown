@@ -32,12 +32,12 @@ You are now an official Arctos User.  Welcome to the community!  Now email your 
 
 ---
 
-### 2.	Attach each team member’s username to their Agent
+### 2.	Ensure the new user has an Arctos Agent
 
-Once a user has created their user account and given you their username, complete the following steps to attach their username to an Agent:
+Before you can invite an Arctos user to become an Arctos Operator, they must have an existing Arctos Agent.
 
  * Go to https://arctos.database.museum/
- * From the Arctos main menu select [Tools Directory > Agents & Users > Agents: Manage](https://arctos.database.museum/agents.cfm) 
+ * From the Arctos main menu select [Search > Agents](https://arctos.database.museum/agents.cfm)
  * Search for the name of the user.  If not found, you must create the Agent (see [How to create an Agent](https://handbook.arctosdb.org/how_to/How-to-Create-Agents.html)) and return to this process
  * Select the correct agent from the list, the agent record will pop up on the right side of the screen
  * In the Agent Names box of the Agent record, select the name type “login” and enter the user’s username
@@ -50,11 +50,10 @@ Once a user has created their user account and given you their username, complet
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 
-From the Agent edit page above, click the [ Arctos User ] link next to the person's login name to go directly to managing their Arctos user account. 
-OR
 * From the Arctos main menu select [Tools Directory > Agents & Users > Operator: Manage](https://arctos.database.museum/AdminUsers.cfm) 
 * Search by the Arctos username
 * Select Invite
+* Associate the user with the appropriate Arctos Agent
 * An E-mail will be sent to the user inviting them to become an Operator
 * The user should follow the instructions and links in the email in order to authenticate their account:
   * Log in to Arctos, then from the Arctos main menu select their username and then “Profile”
