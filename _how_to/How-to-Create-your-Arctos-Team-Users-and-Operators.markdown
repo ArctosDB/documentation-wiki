@@ -44,8 +44,6 @@ Before you can invite an Arctos user to become an Arctos Operator, they must hav
 
 ### 3.	Invite your user to become an Operator
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
-
 * From the Arctos main menu select [Tools Directory > Agents & Users > Operator: Manage](https://arctos.database.museum/AdminUsers.cfm) 
 * Search by the Arctos username
 * Select Invite
