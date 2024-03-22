@@ -5,11 +5,11 @@ date: 2024-03-22
 layout: default_toc
 ---
 
-# Data Quality Checks and Tools
+# Data Quality Checks, Reports and Tools
 
-Arctos includes built-in checks and tools for creating and maintaining high quality data. Some tools prevent the addition of low quality data and others detect problems with data after it has been entered. This document provides an overview of the data quality checks and tools available.
+Arctos includes built-in checks, reports and tools for creating and maintaining high quality data. Checks prevent the addition of low quality data and reports and tools detect problems with data after it has been entered. This document provides an overview of the data quality checks, reports and tools available.
 
-## Data Entry Checks
+## Data Quality Checks
 
 Checks at the point of data entry occur in two places depending upon the data. First is at the point of entry. When using the single form data entry or bulkloader, the following checks occur at the point of data entry and must be resolved before a record can be saved:
 
@@ -23,8 +23,7 @@ Checks at the point of data entry occur in two places depending upon the data. F
 * [iDigBio Data Quality Toolkit: Identified date is earlier than Collected date](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Identified_Date_Earlier_than_Collected_Date)
     *   Arctos supports more than collecting, so this situation may legitimately exist (something was identified in an observation prior to being collected), however, there is a curatorial report that flags this situation for review.
 * [iDigBio Data Quality Toolkit: Year, Month, and Day values do not match date](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Year,_Month,_and_Day_Values_Do_Not_Match_Date)
-   *   Components are extracted on demand, never stored.
- 
+   *   Components are extracted on demand, never stored. 
    
 ### Nonprinting Characters
 No fields may include a non-printing character, leading spaces, or trailing spaces.
@@ -85,7 +84,7 @@ Coordinate values are datatyped to disallow invalid entries.
 
 * [iDigBio Data Quality Toolkit: Invalid_Coordinates](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Invalid_Coordinates)
 
-## Data Quality Checks
+## Data Quality Reports and Tools
 
 ### Agents
 1. Agent pages include a list of potential duplicates.
