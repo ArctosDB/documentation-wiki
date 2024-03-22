@@ -18,7 +18,7 @@ The term "specimen" is used synonymously with "cataloged item" throughout Arctos
 
 Catalog Number is the identifier assigned to a
 Cataloged Item. It must be unique (case-insensitive) within a particular
-catalog. Varoius formats are supported and bring various functional limitations with them.
+collection (duplicate catalog numbers within a collection are not allowed). Varoius formats are supported and bring various functional limitations with them.
 The [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcatalog_number_format) provides more information.
 
     
