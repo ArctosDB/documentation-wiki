@@ -20,7 +20,7 @@ Checks at the point of data entry occur in two places depending upon the data. F
     * Future dates of collection (dates that fall after the current date) are not allowed.
 * [iDigBio Data Quality Toolkit: Date is suspiciously old](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Date_is_Suspiciously_Old)
     *  Many legitimate very old dates exist, however a date of collection or identification before the birth date of the collector or determiner will trigger a data quality notification in Arctos.
-* [iDigBio Data Quality Toolkit: Identified date is earlier than Collected date}(https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Identified_Date_Earlier_than_Collected_Date)
+* [iDigBio Data Quality Toolkit: Identified date is earlier than Collected date](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Identified_Date_Earlier_than_Collected_Date)
     *   Arctos supports more than collecting, so this situation may legitimately exist (something was identified in an observation prior to being collected), however, there is a curatorial report that flags this situation for review.
 * [iDigBio Data Quality Toolkit: Year, Month, and Day values do not match date](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Year,_Month,_and_Day_Values_Do_Not_Match_Date)
    *   Components are extracted on demand, never stored.
