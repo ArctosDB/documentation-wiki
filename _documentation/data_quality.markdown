@@ -90,7 +90,7 @@ Arctos supports more than collecting, so something may legitimately be identifie
 
 
 ### Agents
-1. Agent pages include a list of potential duplicates.
+Agent pages include a list of potential duplicates.
 
 ### Locality
 
