@@ -5,25 +5,19 @@ date: 2024-03-22
 layout: default_toc
 ---
 
-# Data Quality Checks, Reports and Tools
+# Arctos Data Quality Checks, Reports, and Tools
 
-Arctos includes built-in checks, reports and tools for creating and maintaining high quality data. Checks prevent the addition of low quality data and reports and tools detect problems with data after it has been entered. This document provides an overview of the data quality checks, reports and tools available.
+Arctos includes built-in checks, reports, and tools for creating and maintaining high quality data. Checks prevent the addition of low quality data and reports and tools detect problems with data after it has been entered. This document provides an overview of the data quality checks, reports, and tools available.
 
 ## Data Quality Checks
 
-Checks at the point of data entry occur in two places depending upon the data. First is at the point of entry. When using the single form data entry or bulkloader, the following checks occur at the point of data entry and must be resolved before a record can be saved:
+When using the single record data entry form or bulkloader, the following checks occur at the point of data entry and must be resolved before a record can be saved.
 
 ### Dates
-[Dates must be in the ISO format](https://handbook.arctosdb.org/documentation/dates.html). End dates must be after begin dates anywhere there are two dates provided.
+[Dates must be in the ISO format](https://handbook.arctosdb.org/documentation/dates.html). End dates must be after begin dates anywhere there are two dates provided. Dates are always entered as a single value. Components (year, moth, day, time) are extracted at the time of request, never stored. Future dates of collection (dates that fall after the current date) are not allowed.
 
 * [iDigBio Data Quality Toolkit: Date hasn't happened yet](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Date_Hasn't_Happened_Yet)
-    * Future dates of collection (dates that fall after the current date) are not allowed.
-* [iDigBio Data Quality Toolkit: Date is suspiciously old](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Date_is_Suspiciously_Old)
-    *  Many legitimate very old dates exist, however a date of collection or identification before the birth date of the collector or determiner will trigger a data quality notification in Arctos.
-* [iDigBio Data Quality Toolkit: Identified date is earlier than Collected date](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Identified_Date_Earlier_than_Collected_Date)
-    *   Arctos supports more than collecting, so this situation may legitimately exist (something was identified in an observation prior to being collected), however, there is a curatorial report that flags this situation for review.
 * [iDigBio Data Quality Toolkit: Year, Month, and Day values do not match date](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Year,_Month,_and_Day_Values_Do_Not_Match_Date)
-   *   Components are extracted on demand, never stored. 
    
 ### Nonprinting Characters
 No fields may include a non-printing character, leading spaces, or trailing spaces.
@@ -85,6 +79,16 @@ Coordinate values are datatyped to disallow invalid entries.
 * [iDigBio Data Quality Toolkit: Invalid_Coordinates](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Invalid_Coordinates)
 
 ## Data Quality Reports and Tools
+
+### Dates
+Many legitimate very old dates exist, however a date of collection or identification before the birth date of the collector or determiner will trigger a data quality notification in Arctos.
+
+* [iDigBio Data Quality Toolkit: Date is suspiciously old](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Date_is_Suspiciously_Old)
+
+Arctos supports more than collecting, so something may legitimately be identified (as in an observation) prior to being collected, however, there is a curatorial report that flags this situation for review.
+
+* [iDigBio Data Quality Toolkit: Identified date is earlier than Collected date](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Identified_Date_Earlier_than_Collected_Date)
+
 
 ### Agents
 1. Agent pages include a list of potential duplicates.
