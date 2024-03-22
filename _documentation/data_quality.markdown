@@ -26,16 +26,15 @@ No fields may include a non-printing character, leading spaces, or trailing spac
 * [iDigBio Data Quality Toolkit: Incorrect line endings](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Incorrect_Line_Endings)
 
 ### Catalog Numbers
-Catalog numbers must match the expected format for the collection and may not already exist in Arctos.
+Catalog numbers must match the expected format for the collection and may not already exist in Arctos. Duplicate catalog numbers can not be created within a collection.
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 Collections using the integer catalog number format can leave catalog number blank and Arctos will assign the next available integer catalog number to the record as it is loaded.
 
 * [iDigBio Data Quality Toolkit: Duplicate catalog numbers](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Duplicate_Catalog_Numbers)
-   * Duplicate catalog numbers in a collection can not be created.
 
 ### Basis of Record
-Basis of record is required in Arctos and must match a controlled vocabulary that includes the terms expected in the DarwinCore Archive prepared for GBIF. Colelctions can select a preferred value and if left blank during data entry the preferred value will be automatically used.
+Basis of record is required in Arctos and must match a controlled vocabulary that includes the terms expected in the DarwinCore Archive prepared for GBIF. Collections can select a preferred value and if left blank during data entry the preferred value will be automatically used.
 
 * [iDigBio Data Quality Toolkit: Non-standardized_BasisOfRecord_Values](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Non-standardized_BasisOfRecord_Values)
 
