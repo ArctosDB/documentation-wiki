@@ -35,7 +35,8 @@ Catalog numbers must match the expected format for the collection and may not al
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 Collections using the integer catalog number format can leave catalog number blank and Arctos will assign the next available integer catalog number to the record as it is loaded.
 
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Duplicate_Catalog_Numbers
+* [iDigBio Data Quality Toolkit: Duplicate catalog numbers](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Duplicate_Catalog_Numbers)
+   * Duplicate catalog numbers in a collection can not be created.
 
 ### Accession
 Every record must be associated with a pre-exiting accesion. 
