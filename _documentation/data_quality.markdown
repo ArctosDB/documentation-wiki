@@ -14,7 +14,7 @@ Arctos includes built-in checks, reports, and tools for creating and maintaining
 When using the single record data entry form or bulkloader, the following checks occur at the point of data entry and must be resolved before a record can be saved.
 
 ### Dates
-[Dates must be in the ISO format](https://handbook.arctosdb.org/documentation/dates.html). End dates must be after begin dates anywhere there are two dates provided. Dates are always entered as a single value. Components (year, moth, day, time) are extracted at the time of request, never stored. Future dates of collection (dates that fall after the current date) are not allowed.
+[Dates must be in the ISO format](https://handbook.arctosdb.org/documentation/dates.html). End dates must be after begin dates anywhere there are two dates provided. Dates are always entered as a single value. Components (year, month, day, time) are extracted at the time of request, never stored. Future dates of collection (dates that fall after the current date) are not allowed.
 
 * [iDigBio Data Quality Toolkit: Date hasn't happened yet](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Date_Hasn't_Happened_Yet)
 * [iDigBio Data Quality Toolkit: Year, Month, and Day values do not match date](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Year,_Month,_and_Day_Values_Do_Not_Match_Date)
