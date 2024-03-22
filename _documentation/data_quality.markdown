@@ -29,6 +29,9 @@ Checks at the point of data entry occur in two places depending upon the data. F
 ### Nonprinting Characters
 No fields may include a non-printing character, leading spaces, or trailing spaces.
 
+* [iDigBio Data Quality Toolkit: Incorrect character encodings](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Incorrect_Character_Encodings)
+* [iDigBio Data Quality Toolkit: Incorrect line endings](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Incorrect_Line_Endings)
+
 ### Catalog Numbers
 Catalog numbers must match the expected format for the collection and may not already exist in Arctos.
 
@@ -37,6 +40,11 @@ Collections using the integer catalog number format can leave catalog number bla
 
 * [iDigBio Data Quality Toolkit: Duplicate catalog numbers](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Duplicate_Catalog_Numbers)
    * Duplicate catalog numbers in a collection can not be created.
+
+### Basis of Record
+Basis of record is required in Arctos and must match a controlled vocabulary that includes the terms expected in the DarwinCore Archive prepared for GBIF. Colelctions can select a preferred value and if left blank during data entry the preferred value will be automatically used.
+
+* [iDigBio Data Quality Toolkit: Non-standardized_BasisOfRecord_Values](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Non-standardized_BasisOfRecord_Values)
 
 ### Accession
 Every record must be associated with a pre-exiting accesion. 
@@ -50,64 +58,62 @@ Arctos has a published list of acceptable terms for many fields [Code Tables](ht
 ### Identification (Taxon Names)
 Identifications in Arctos can be made in [several formats](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula), however, they all must include a reference to at least one term from the [Taxon Name Table](https://arctos.database.museum/taxonomy.cfm). This table is maintained by Arctos Operators with manage_taxonomy permissions and is not guaranteed to exclude misspellings or errors, but when these are discovered, there are paths for linking poorly formatted names to the correct version and/or quaratining such names from use while still allowing them to be present for the purposes of search and discoverability.
 
+* [iDigBio Data Quality Toolkit: Misspelled or invalid taxonomic names}(https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Misspelled_or_Invalid_Taxonomic_Names)
+
 ### Higher Geography
-Higher geography in Arctos is a controlled vocabulary composed of terms from GADM and IHO World Seas supported by shapes. Higher geography must match a term in this vocabulary.
+Higher geography in Arctos is a controlled vocabulary composed of terms from GADM and IHO World Seas supported by shapes. Higher geography must match a term in this vocabulary, so any "misspellings" would be intentionally matching the relevant authority.
 
-
--- Elevation is Unlikely
+* [iDigBio Data Quality Toolkit: Misspelled geographic unit names](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Misspelled_Geographic_Unit_Names)
 
 ### Elevation and Depth
-Lowest elevation or depth cannot be more than highest. Values are constrained.
+Lowest elevation or depth cannot be more than highest and elevation values are constrained to avoid elevations or depths not possible on Earth.
+
+* [iDigBio Data Quality Toolkit: Minimum and maximum elevation values mismatched](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Minimum_and_Maximum_Elevation_Values_Mismatched)
+* [iDigBio Data Quality Toolkit: Elevation is unlikely](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Elevation_is_Unlikely)
 
 ### Georeference
-Datum must be supplied with coordinates.
+Latitude and longitide must either both be NULL or both include a value.
+
+* [iDigBio Data Quality Toolkit: Missing latitudes/longitudes](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Missing_Latitudes/Longitudes)
+
+Datum must be supplied with coordinates, but cannot be supplied without them. In addition, georeference protocol and georeference error cannot be supplied without coordinates, although coordinates can be supplied without them. All spatial data are converted to WGS84 and datum is explicitly provided. Input datum is also retained.
+
+* [iDigBio Data Quality Toolkit: Missing geodetic datum](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Missing_Geodetic_Datum)
+* [iDigBio Data Quality Toolkit: Georeference metadata with no associated georeference](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Georeference_Metadata_with_no_Associated_Georeference)
+
+Coordinate values are datatyped to disallow invalid entries. 
+
+* [iDigBio Data Quality Toolkit: Invalid_Coordinates](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Invalid_Coordinates)
 
 ## Data Quality Checks
 
 ### Agents
 1. Agent pages include a list of potential duplicates.
 
+### Locality
+
+Higher geography in Arctos is a controlled vocabulary of data objects associated with spatial polygons. Components are extracted on demand, never stored. Assigned coordinates plus error that do not fall within the higher geography polygon for any location generate a data quality report for all collections using the locality. This clearly highlights improper negation as well as coordinate/geography mismatches.
+
+* [iDigBio Data Quality Toolkit: Lower geography values are provided, but no higher geography](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Lower_Geography_Values_are_Provided,_but_No_Higher_Geography)
+* [iDigBio Data Quality Toolkit: Mismatched geographic terms](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Mismatched_Geographic_Terms)
+* [iDigBio Data Quality Toolkit: Coordinates do_not fall within the named geographic unit](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Coordinates_Do_Not_Fall_Within_Named_Geographic_Unit)
+* [iDigBio Data Quality Toolkit: Improperly negated latitudes/longitudes](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Improperly_Negated_Latitudes/Longitudes)
+* [iDigBio Data Quality Toolkit: Coordinates are zero](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Coordinates_are_Zero)
+    * Such a place exists and these coordinates are acceptable, however, if they do not fall inside the associated higher geography polygon, a data quality report will be generated.
 
 
 
-
- 
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Coordinates_are_Zero
-    * Such a place exists....
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Coordinates_Do_Not_Fall_Within_Named_Geographic_Unit
-    * There's a report, collections rejected enforcement
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Georeference_Metadata_with_no_Associated_Georeference
-   * not possible
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Elevation_is_Unlikely
-      * values are constrained
-
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Improperly_Negated_Latitudes/Longitudes
-    * will appear in inappropriate geography report
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Invalid_Coordinates
-    * datatyped, not possible
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Lower_Geography_Values_are_Provided,_but_No_Higher_Geography
-    * Possible and often desirable - eg nontranscribed GPS data might be seen as incorrect if forced into a geography shape
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Minimum_and_Maximum_Elevation_Values_Mismatched
-    * not possible
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Mismatched_Country_and_CountryCode_Values
+* [iDigBio Data Quality Toolkit:https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Mismatched_Country_and_CountryCode_Values
     * countrycode isn't part of Arctos (because adding it would in many cases introduce unnecessary ambiguity)
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Mismatched_Geographic_Terms
-    * not possible, geography are data objects not whatever nightmare would lead to this!
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Missing_Geodetic_Datum
-    * add spatial data are converted to WGS84 and datum is explicitly provided. Input datum is also retained.
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Missing_Latitudes/Longitudes
-    * coordinates are typed, this is not possible
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Misspelled_Geographic_Unit_Names
-    * geography is authority-based, so any "misspellings" would be intentionally matching the relevant authority
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Misspelled_or_Invalid_Taxonomic_Names
-    * there's a quarantine system
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Unknown_Higher_Taxonomy
-    * it happens, but Arctos pulls data from GlobalNames so records are generally still discoverable even when the collections have done unpredictable things
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Incorrect_Character_Encodings
-    * is not possible
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Incorrect_Line_Endings
-    * not possible
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Invalid_Individual_Count
+
+### Taxonomy
+
+Tools in Arctos allow for review of taxonomic classifications with missing terms (Family, Order, etc.) of to find taxon names with no associated local classification. Arctos also pulls data from GlobalNames so records are generally still discoverable even when local taxonomic sources are missing terms or entire classifications.
+
+* [iDigBio Data Quality Toolkit: Unknown higher taxonomy](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Unknown_Higher_Taxonomy)
+
+### Not Adressed
+
+* [iDigBio Data Quality Toolkit: Invalid individual count](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Invalid_Individual_Count)
     * this is a curatorial assertion, there are no constraints
-* https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Non-standardized_BasisOfRecord_Values
-    * this is authority-based
+
