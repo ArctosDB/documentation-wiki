@@ -110,11 +110,11 @@ Higher geography in Arctos is a controlled vocabulary of data objects associated
 
 ### Taxonomy
 
-Tools in Arctos allow for review of taxonomic classifications with missing terms (Family, Order, etc.) of to find taxon names with no associated local classification. Arctos also pulls data from GlobalNames so records are generally still discoverable even when local taxonomic sources are missing terms or entire classifications.
+Taxon pages in Arctos include external validation through comparisons with select taxonomic authorities including the World Register of Marine Species (WoRMS), Encyclopedia of Life (EOL), the Global Biodiversity Information Facility (GBIF) and Wikipedia among others. This tool is also engaged whenever a new name is added to the taxonomic name table to help avoid the addition of mispellings and misused names. Tools in Arctos allow for review of taxonomic classifications with missing terms (Family, Order, etc.) **add link to tool** or to find taxon names with no associated local classification **add link to tool**. Arctos also pulls data from GlobalNames so records are generally still discoverable even when local taxonomic sources are missing terms or entire classifications.
 
 * [iDigBio Data Quality Toolkit: Unknown higher taxonomy](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Unknown_Higher_Taxonomy)
 
-### Not Adressed
+### Curatorial
 
 * [iDigBio Data Quality Toolkit: Invalid individual count](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Invalid_Individual_Count)
     * this is a curatorial assertion, there are no constraints
