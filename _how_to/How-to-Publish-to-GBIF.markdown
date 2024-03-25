@@ -43,7 +43,7 @@ After your institution has been endorsed by the US Node, you will receive an ema
 
 ## How To Create a Resource Relationship File
 
-If data from a collection has already been published to GBIF, republishing from Arctos will create probalems for anyone who has downloaded previous records from the dataset. In order to help everyone maintain continuity, a resource relationship file matches the previously published occurence ids with the new Arctos occurence ids. A sample template for creating this file can be found [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/files/resource.reference.BYU.Herp.xlsx). The steps to complete this template are as follows:
+If data from a collection has already been published to GBIF, republishing from Arctos will create problems for anyone who has downloaded previous records from the dataset. In order to help everyone maintain continuity, a resource relationship file matches the previously published occurence ids with the new Arctos occurence ids. A sample template for creating this file can be found [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/files/resource.reference.BYU.Herp.xlsx). The steps to complete this template are as follows:
 
  - Download the dataset from GBIF in the Darwin Core Archive format 
  - Delete all data in the GBIF tab of the Excel file, then place the dowloaded occurence data from the download pacakge in the GBIF tab. Tip: open the occurence file with Excel as tab delimited, then copy the results and paste into the GBIF tab 
