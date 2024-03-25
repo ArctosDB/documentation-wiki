@@ -1,8 +1,8 @@
 ---
 title: How To Create a New Collection in Arctos
 layout: default_toc
-author: Carla Cicero
-date: 2016-06-30
+author: Carla Cicero, Teresa Mayfield-Meyer
+date: 2024-03-25
 ---
 # How to Create a New Collection in Arctos
 
@@ -20,15 +20,14 @@ Once you are ready to migrate your data to Arctos, we will help with the process
 
 **Required fields are in bold**:
 
-* **Institution Name**: The name of the institution along with its acronym. Copy the format in the "Collection" dropdown list on the [Arctos Specimen Search](http://arctos.database.museum) page.
+* **Institution Name**: The name of the institution. This should be the same for all collections housed at any given institution.
+`Example: University of Alaska Museum`
 
-`Example: University of Alaska Museum (UAM)`
-
-* **Institution Acronym**: This standardized acronym. See also [Best Practices - Creating a Meaningful GUI Prefix](https://handbook.arctosdb.org/best_practices/GUID.html)
+* **Institution Acronym**: The standardized acronym for the institution. This should be the same for all collections housed at any given institution. See also [Best Practices - Creating a Meaningful GUID Prefix](https://handbook.arctosdb.org/best_practices/GUID.html)
 
 `Example: UAM`
 
-* **Collection Name**: This is a standardized short description of the collection type – Standardized across Arctos Institutions. For new collection types, copy the format of the “outgroup” values in the “pick collection” list on SpecimenSearch. 
+* **Collection Name**: This is a standardized short description of the collection and is generally standardized across Arctos Institutions. For new collection types, copy the format of the “outgroup” values in the “pick collection” list on SpecimenSearch. 
 
 `Example: Mammal Specimens`
 
@@ -38,7 +37,7 @@ Once you are ready to migrate your data to Arctos, we will help with the process
 
 * **Collection Description**: A description for the collection that provides information on the size and scope of the collection, as well as any special holdings. Keep it under 4,000 characters.
 
-* **Contact Name for Collection Data**: The primary person responsible for managing the data for this  collection. If there is more than one contact, you will need to add any additional people under the [Manage Collection](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Manage-a-Collection-in-Arctos) function once the collection is created in Arctos.
+* **Contact Name for Collection Data**: The primary person responsible for managing the data for this collection. If there is more than one contact, you will need to add any additional people under the [Manage Collection](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Manage-a-Collection-in-Arctos) function once the collection is created in Arctos.
 
 * **Contact Email for Collection Data**: A valid email address for the primary contact for collection data.
 
