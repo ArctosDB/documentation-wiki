@@ -25,7 +25,7 @@ People associated with loans are selected from Arctos Agents. If a person associ
 ### Authorized By
 Enter the Agent name for the curator or other individual who is responsible for authorizing the loan.
 
-### To
+### Received By
 Enter the Agent name of the recipient of the loan.  
 
 ### In-House Contact
@@ -88,7 +88,7 @@ After the loan has been created, you will be directed to the loan edit page, whe
 
 ## Edit this How To
 
-If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Create-Agents.markdown).
+If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-a-New-Loan.markdown).
 
 
 ## Community Discussion
