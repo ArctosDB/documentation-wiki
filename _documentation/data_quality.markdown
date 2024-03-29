@@ -50,7 +50,7 @@ Arctos has a published list of acceptable terms for many fields [Code Tables](ht
 ### Identification (Taxon Names)
 Identifications in Arctos can be made in [several formats](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula), however, they all must include a reference to at least one term from the [Taxon Name Table](https://arctos.database.museum/taxonomy.cfm). This table is maintained by Arctos Operators with manage_taxonomy permissions and is not guaranteed to exclude misspellings or errors, but when these are discovered, there are paths for linking poorly formatted names to the correct version and/or quaratining such names from use while still allowing them to be present for the purposes of search and discoverability.
 
-* [iDigBio Data Quality Toolkit: Misspelled or invalid taxonomic names}(https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Misspelled_or_Invalid_Taxonomic_Names)
+* [iDigBio Data Quality Toolkit: Misspelled or invalid taxonomic names](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Misspelled_or_Invalid_Taxonomic_Names)
 
 ### Higher Geography
 Higher geography in Arctos is a controlled vocabulary composed of terms from GADM and IHO World Seas supported by shapes. Higher geography must match a term in this vocabulary, so any "misspellings" would be intentionally matching the relevant authority.
@@ -105,7 +105,7 @@ Higher geography in Arctos is a controlled vocabulary of data objects associated
 
 
 
-* [iDigBio Data Quality Toolkit:https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Mismatched_Country_and_CountryCode_Values
+* [iDigBio Data Quality Toolkit:Mismatched Country and Country Code]https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Mismatched_Country_and_CountryCode_Values)
     * countrycode isn't part of Arctos (because adding it would in many cases introduce unnecessary ambiguity)
 
 ### Taxonomy
