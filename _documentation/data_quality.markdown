@@ -116,6 +116,9 @@ Taxon pages in Arctos include external validation through comparisons with selec
 
 ### Curatorial
 
+#### Individual Count
+ Individual count is a curatorial assertion, there are no constraints.
+
 * [iDigBio Data Quality Toolkit: Invalid individual count](https://www.idigbio.org/wiki/index.php/Data_Quality_Toolkit_2024#Invalid_Individual_Count)
-    * this is a curatorial assertion, there are no constraints
+   
 
