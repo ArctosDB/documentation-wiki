@@ -6,7 +6,7 @@ date: 2024-03-25
 ---
 # How to Create a New Collection in Arctos
 
-[Getting Started Documentation}(https://handbook.arctosdb.org/documentation/getting_started.html)
+[Getting Started Documentation](https://handbook.arctosdb.org/documentation/getting_started.html)
 
 If you are joining Arctos, welcome! 
 
