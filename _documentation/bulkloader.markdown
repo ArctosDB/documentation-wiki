@@ -6,7 +6,7 @@ layout: default_toc
 
 # Bulkloader
 
-#### Navigation: <a href="https://arctos.database.museum/Bulkloader/enter.cfm" target="_blank">Data Entry  > Enter Records</a>
+#### Navigation: <a href="https://arctos.database.museum/Bulkloader/enter.cfm" target="_blank">Tools Directory > Data Entry  > Bulkload Catalog Records</a>
 
 ## About
 
@@ -37,9 +37,13 @@ Make sure to check the tabs for additional information!
 
 ### Bulkloader Builder
 
+#### Navigation: <a href="https://arctos.database.museum/Bulkloader/bulkloaderBuilder.cfm" target="_blank">Tools Directory > Data Entry  > Bulkloader Builder</a>
+
 The Bulkloader Builder will create templates, and is the only authoritative source of column names.
 
 ### CSV Header Checker
+
+#### Navigation: <a href="https://arctos.database.museum/Reports/csvChecker.cfm)" target="_blank">Tools Directory > Services  > CSV Header Checker</a>
 
 The CSV Header Checker will find problematic column names in CSV files.
 
@@ -74,7 +78,7 @@ of the cache, and may be useful in estimating processing time.
 
 Note that there is a period of time between successful loading and the cache being refreshed where records are not visible in any user interface.
 
-It may take some time for freshly-created data to appear in the user interface. Check Flat Status for the latest.
+It may take some time for freshly-created data to appear in the user interface. Check [Flat Status](https://arctos.database.museum/info/flat_status.cfm) for the latest.
 
 ## It's Stuck
 
