@@ -404,7 +404,7 @@ Instructions for doing specifc tasks related to Media in Arctos (please note tha
  - [How To Batch Download Images](https://handbook.arctosdb.org/how_to/How-to-Batch-Download-Images.html)
  - [How To Bulkload Media Metadata](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Media-Metadata.html)
  - [How To Create Media](https://handbook.arctosdb.org/how_to/How-to-Create-Media-Images.html)
- - [How To Delete Media](https://handbook.arctosdb.org/how_to/How-to-Delete-Media.html)
+ - [How To Delete Media](https://handbook.arctosdb.org/how_to/How-To-Delete-Media.html)
  - [How To Edit Media](https://handbook.arctosdb.org/how_to/How-to-Edit-Media.html)
  - [How To Request TACC Access to Media Storage](https://handbook.arctosdb.org/how_to/How-to-Request-TACC-Access-to-Media-Storage.html)
  - [How To Upload Media to TACC](https://handbook.arctosdb.org/how_to/How-to-Upload-Media-to-TACC.html)
