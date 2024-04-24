@@ -21,8 +21,6 @@ First, query for the records to be edited. ALL records that appear in the search
 
 If all you need to do is add, remove, or reorder Agents in roles as defined in [Collection Object: Agent Roles](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role), select the Collector option.
 
-### Manage Collector Agents
-
 ### Add Agents
 
 * Add agents to the records listed by typing all or part of the agent name in the **Name** field and pushing the TAB key to generate the agent name pick-list. Select the desired agent from the pick-list, and the agent will populate into the Name field.
@@ -44,7 +42,7 @@ If all you need to do is add, remove, or reorder Agents in roles as defined in [
 
 ## Bulk Replace Agents
 
-To bulk replace agents in any role in a set of catalog records, use the Agents option.
+To bulk replace agents in any role in a set of catalog records, select the Agents option.
 
 Select a replacement agent name and pick the affected roles:
 
