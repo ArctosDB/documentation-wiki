@@ -15,7 +15,7 @@ To Batch update Agents (collectors and preparators, determiners) use the Manage 
 ### Navigation
 First, query for the records to be edited. ALL records that appear in the search results list will be batch-updated. Be sure to double-check the results and isolate only the records you wish to update, narrowing your search parameters if need be. In the Tools menu bar above the search results select Collectors or Agents under the Manage section.
 
-![](tutorial_images/manage_agents_1.jpg)
+![](https://github.com/ArctosDB/documentation-wiki/blob/bf9e1098c8f2ac38375cf94ba80eb5b9f3f0ac35/tutorial_images/manage_agents_1.jpg)
 
 ## Bulk Manage Collectors
 
