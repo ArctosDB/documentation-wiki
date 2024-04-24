@@ -111,7 +111,7 @@ Occasionally, it will be determined that two agents are not in fact duplicates. 
 Instructions for doing specifc tasks related to Agents in Arctos
 
  - [How To Agentify Verbatim Agents](https://handbook.arctosdb.org/how_to/How-to-Agentify-Verbatim-Agents.html)
- - [How To Batch Update Agents](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Agents.html)
+ - [How to Batch Update Agents in Catalog Record Roles](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Agents.html)
  - [How To Bulkload Agents](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Agents.html)
  - [How To Create Agents](https://handbook.arctosdb.org/how_to/How-to-Create-Agents.html)
  - [How To Delete/Merge Agents](https://handbook.arctosdb.org/how_to/How_to_Delete_Agents.html)
