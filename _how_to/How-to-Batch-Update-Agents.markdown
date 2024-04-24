@@ -6,7 +6,7 @@ date: 2024-04-24
 ---
 
 # How to Batch Update Agents in Catalog Record Roles
-To Batch update Agents (collectors and preparators, determiners) use the Manage options in the Search Results Tools menu. TThis is an efficient alternative to using the "Agents Tab" found in individual catalog records when needing to update multiple records at once. Agents can be added, deleted, or re-ordered using these features.
+To Batch update Agents (collectors and preparators, determiners) use the Manage options in the Search Results Tools menu. This is an efficient alternative to using the "Agents Tab" found in individual catalog records when needing to update multiple records at once. Agents can be added, deleted, or re-ordered using these features.
 
 **Note:** Agents involved in activities other than catalog record activities (donors, loan contacts, publication authors, project participants, etc.) cannot be globally edited, and must be individually updated in each transaction, publication or project.
 
