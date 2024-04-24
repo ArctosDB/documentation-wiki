@@ -2,35 +2,26 @@
 title: How To Batch Update Agents
 layout: default_toc
 author: Teresa J Mayfield-Meyer, Carla Cicero
-date: 2022-10-14, 2016-03-08
+date: 2024-04-24
 ---
 
-# How to Batch Update Agents
-To Batch update Agents (collectors and preparators, determiners) use the Manage Menu. The Manage Menu is an efficient alternative to using the "Agents Tab" found in individual specimen records when needing to update multiple records at once. Agents can be added, deleted, or re-ordered using this feature.
+# How to Batch Update Agents in Catalog Record Roles
+To Batch update Agents (collectors and preparators, determiners) use the Manage options in the Search Results Tools menu. TThis is an efficient alternative to using the "Agents Tab" found in individual catalog records when needing to update multiple records at once. Agents can be added, deleted, or re-ordered using these features.
 
 **Note:** Agents involved in activities other than catalog record activities (donors, loan contacts, publication authors, project participants, etc.) cannot be globally edited, and must be individually updated in each transaction, publication or project.
 
 **Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a>
 
-## Bulk Replace Agent
-
 ### Navigation
-First, query for the records to be edited. ALL records that appear in the search results list will be batch-updated. Be sure to double-check the results and isolate only the records you wish to update, narrowing your search parameters if need be. In the Search Results menu bar select Manage Menu then Agents
+First, query for the records to be edited. ALL records that appear in the search results list will be batch-updated. Be sure to double-check the results and isolate only the records you wish to update, narrowing your search parameters if need be. In the Tools menu bar above the search results select Collectors or Agents under the Manage section.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_agents_1.jpg)
 
-### Manage Agents
+## Bulk Manage Collectors
 
-Select a replacement agent name and pick the affected roles:
+If all you need to do is add, remove, or reorder Agents in roles as defined in [Collection Object: Agent Roles](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role), select the Collector option.
 
-![](https://user-images.githubusercontent.com/5720791/195840362-680180f4-1d1b-440d-8ed0-b680082f970b.png)
-
-## Bulk Add or Remove Collector Agents
-
-### Navigation
-First, query for the records to be edited. ALL records that appear in the search results list will be batch-updated. Be sure to double-check the results and isolate only the records you wish to update, narrowing your search parameters if need be. In the Search Results menu bar select Manage Menu then Collectors
-
-![](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/tutorial_images/Screenshot%202022-10-14%2010.55.44.png)
+### Manage Collector Agents
 
 ### Add Agents
 
@@ -47,9 +38,17 @@ First, query for the records to be edited. ALL records that appear in the search
 * Click the "Remove Agent" button and the agent name will be immediately deleted from the records listed below.
 * Repeat this process as many times as necessary to remove additional agent names from the records.
 
-## Ordering Agents
+### Reorder Agents
 
 * If you need to alter the order of _existing_ agent names displayed in the records, you may need to first delete the primary agent and then re-insert the agent later in the order to reprioritize which agent is listed as the first collector
+
+## Bulk Replace Agents
+
+To bulk replace agents in any role in a set of catalog records, use the Agents option.
+
+Select a replacement agent name and pick the affected roles:
+
+![](https://user-images.githubusercontent.com/5720791/195840362-680180f4-1d1b-440d-8ed0-b680082f970b.png)
 
 ## Edit this Documentation
 
