@@ -1,3 +1,4 @@
+---
 title: How To Delete Media
 layout: default_toc
 author: Emily Braker
