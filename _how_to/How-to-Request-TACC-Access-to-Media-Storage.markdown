@@ -46,7 +46,7 @@ To request access and an institution specific directory on TACC, create a specia
 ### Other How-Tos
 * [How to Create Media](/how_to/How-to-Create-Media-Images)
 * [How to Edit Media](/how_to/How-to-Edit-Media)
-* [How to Delete Media](how to/How-to-Delete-Media)
+* [How to Delete Media](/how_to/How-To-Delete-Media)
 * [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC.html)
 
 ## Tools
