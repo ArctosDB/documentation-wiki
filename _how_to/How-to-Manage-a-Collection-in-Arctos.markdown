@@ -175,7 +175,9 @@ Select from the dropdown of choices. The designates the source(s) of taxonomic c
 
 ### Preferred Identifiers
 **OPTIONAL**
-Selected identifiers will display in the summary section of catalog record pages. Choose none (blank), a single value, or a comma-separated list. 
+Selected identifiers will display in the summary section of catalog record pages. Choose none (blank), a single value, or a comma-separated list. This allows you to display one or more identifiers other than the catalog number at the top of every record in the collection in the summary section of the page. For example, ACUNHC:Bird has selected institutional catalog number in order to display previous numbers assigned to the specimen by them.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/preferred%20identifier.jpg)
 
 ## Summary Information
 
