@@ -35,14 +35,7 @@ typically created when a subsample is removed for a loan. The addition of approp
 
 `Coll_Object . Disposition VARCHAR(20) not null`
 
-Disposition describes the status of parts and, as an abstract
-generality, the status of cataloged items. Typical values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp) and include:
-
--   in collection
--   being processed
--   on loan
--   missing
--   destroyed
+Disposition describes the curatorial status of parts. Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp). [Github discussion](https://github.com/ArctosDB/arctos/issues/7605#issuecomment-2091521078)
 
 ## Condition
 
