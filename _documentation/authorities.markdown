@@ -40,6 +40,28 @@ Values should:
     compromises in terminology.
 -   Be consistent.
 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
+
+## Rules of the Road for Code Table Terms
+
+### General Rules for Adding Code Table Terms
+ - Use predictable Punctuation
+    Allowed characters:
+     - a-Z
+     - 0-9
+     - space
+     - underscore
+     - apostrophe (UTF-8) (e.g., ‘)
+ - Whenever possible terms should have a published reference or citation.
+ - Terms and their definitions should be as general and unambiguous as possible.
+
+### Specific Rules for Specific Code Tables
+
+#### Parts
+
+ - Part names should be compatible with an ontological framework. Best practice would be a link to an ontology
+ - It is preferable to create a general part that can then be refined with a modifier (e.g. girdle -> with the ability to add a modifier such as pectoral or pelvic).
+
 ## How To
 
 Instructions for doing specifc tasks related to Authorities in Arctos
