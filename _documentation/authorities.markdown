@@ -45,7 +45,7 @@ Values should:
 ## Rules of the Road for Code Table Terms
 
 ### General Rules for Adding Code Table Terms
- - Use predictable Punctuation
+ - Use predictable Punctuation  
     Allowed characters:
      - a-Z
      - 0-9
