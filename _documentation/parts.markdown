@@ -33,9 +33,8 @@ typically created when a subsample is removed for a loan. The addition of approp
 
 ## Disposition
 
-`Coll_Object . Disposition VARCHAR(20) not null`
 
-Disposition describes the curatorial status of parts. Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_obj_disp). [Github discussion](https://github.com/ArctosDB/arctos/issues/7605#issuecomment-2091521078)
+Disposition describes the curatorial status of parts. Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctdisposition). [Github discussion](https://github.com/ArctosDB/arctos/issues/7605#issuecomment-2091521078) [Code Table Committee discussion](https://docs.google.com/document/d/1eZ_S8VTp-m5Wrbb6cAK96ODPZpt2-Hvnvt6yfU9qVwg)
 
 ## Condition
 
