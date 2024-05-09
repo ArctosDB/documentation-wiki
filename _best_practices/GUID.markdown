@@ -13,6 +13,10 @@ What is a GUID Prefix? Before you make any decisions about one, you should know 
 
 In conjunction with catalog number the GUID Prefix forms a unique identifier within Arctos, and in conjunction with Arctos’ URI (https://arctos.database.museum/guid/) forms a Globally Unique Identifier (GUID) for the catalog record. For example: The Museum of Vertebrate Zoology's catalog record 134762 has a GUID Prefix of MVZ:Bird which forms the GUID https://arctos.database.museum/guid/MVZ:Bird:134762.
 
+> The guid prefix does not need to be the full name of a taxonomic group, plural or not. But it is important to be consistent within Arctos, and to be simple. The main thing about the guid prefix is that it should be something concise and easy to remember so that it will not be too difficult for researchers - you want to make it as easy as possible for anyone to cite these guids or urls for specimen citation. Long, difficult to remember complex acronyms are going to result in poorly cited or incorrect specimen citations and confusion.
+
+ * **Mariel Campbell, Collection Manager of Genomic Resources at Museum of Soputhwestern Biology**
+
 ## General Recommendations for GUID Prefix 
 
 We recommend choosing a GUID_PREFIX that will survive being transferred through various mechanisms, displayed in web pages that might use “fancy” formatting, or typed by users with many kinds of input devices in many languages. This means using only upper and lower-case ASCII letters (A-Z,a-z), other than the required colon. 
