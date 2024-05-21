@@ -102,7 +102,7 @@ Once the data are as clean and complete as they can possibly be, they must be pa
 
 ### Request Agent Bulkload
 
-Agents are treated as authority data and the Agent Bulkloader requires the [manage_codetables](https://arctos.database.museum/Admin/user_roles.cfm#manage_codetables) role. Use results from the Agent Prebulkload tool to request an Agent Bulkload. The Agent Bulkload Tool accepts the same columns as the pre-bulkloader, and works like all component loaders. 
+Agents are treated as authority data and the Agent Bulkloader requires the [manage_codetables](https://arctos.database.museum/Admin/user_roles.cfm#manage_codetables) role. Use results from the Agent Prebulkload tool to [request an Agent Bulkload](https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=Function-Agents%2C+Priority-High+%28Needed+for+work%29&projects=&template=agent-bulkload-request.md&title=Agent+Bulkload+Request). The Agent Bulkload Tool accepts the same columns as the pre-bulkloader, and works like all component loaders. 
 
 The data should be discussed with the users before proceeding. Most all data will have some "errors" from the pre-bulkloader; ensure that this are caused by missing data, and not withheld data. Ensure the user understands and has provided what's expected at this point. Expect to need to remove some columns before proceeding.
 
