@@ -79,7 +79,7 @@ I am cataloging a mammal tissue and I know that it has a related skin in the col
 
 Other ID field | Value entered 
  -- | -- 
-issued by | [Smithsonian Division of Mammals)](https://arctos.database.museum/agent/21347824)
+issued by | [Smithsonian Division of Mammals](https://arctos.database.museum/agent/21347824)
 value | USNM 12345
 [relationship](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references) | [same individual as](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references#same_individual_as) 
 [type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OTHER_ID_TYPE) | [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) 
