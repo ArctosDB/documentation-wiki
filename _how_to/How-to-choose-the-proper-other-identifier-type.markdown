@@ -19,7 +19,7 @@ It is important to be consistent when describing other identifiers if they are g
 
 ## How to use other identifiers to create resolvable relationships between Arctos records
 
-There are many reasons that one Arctos record should be linked to another, these can be found in the [relationships code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references). Creating links between Arctos records using these relationships is easy, all you need to know is the triplet for the record you want to relate the record you are editing or entering to and Arctos does the rest!
+There are many reasons that one Arctos record should be linked to another, these can be found in the [relationships code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references). Creating links between Arctos records using these relationships is easy, all you need to know is the guid (or triplet, nonpreferred) for the record you want to relate the record you are editing or entering to and Arctos does the rest!
 
 ### Example
 
@@ -28,7 +28,7 @@ I am cataloging a parasite and I know the host is a record in the MSB Mammal col
 Other ID field | Value entered 
  -- | -- 
 issued by | 
-value | MSB:Mamm:11405 OR https://arctos.database.museum/guid/MSB:Mamm:11405
+value |  ``https://arctos.database.museum/guid/MSB:Mamm:11405`` (or ``MSB:Mamm:11405``)
 [relationship](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references) | [parasite of](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references#parasite_of) 
 [type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OTHER_ID_TYPE) | [Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#arctos_record_guid) 
 remark | say whatever you need to say 
@@ -39,11 +39,11 @@ remark | say whatever you need to say
 
    type = [Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#arctos_record_guid)
 
-   This lets Arctos do much of the work for you and provides a check to ensure that links will be operational. All values that are associated with a valid Arctos collection either through a record triplet or a record url will have the issued by automatically insterted by Arctos. Also note that if only the record triplet is entered in the value, Arctos will append the base url (https://arctosdatabase.museum/guid/) automatically.
+   This lets Arctos do much of the work for you and provides a check to ensure that links will be operational. All values that are associated with a valid Arctos collection either through a record url (or triplet) will have the issued by automatically inserted by Arctos. Also note that if only the record triplet is entered in the value, Arctos will assume intention and convert to the GUID automatically.
 
 If you enter a value that does not match an existing Arctos collection's prefix, you will recieve an error as Arctos lets you know that all other identifiers of type [Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#arctos_record_guid) must be included in an existing Arctos collection.
 
-If you attempt to enter a valid Arctos record triplet or url using a type other than Arctos record GUID, you will receive an error as Arctos lets you know that links between Arctos records must be type = [Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#arctos_record_guid).
+If you attempt to enter a valid Arctos record url using a type other than Arctos record GUID, you will receive an error as Arctos lets you know that links between Arctos records must be type = [Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#arctos_record_guid). Note that Arctos cannot assume a "triplet-like" identifier of a different type is intended to be a GUID.
 
 ## How to use other identifiers to create resolvable relationships between Arctos records and external resources
 
