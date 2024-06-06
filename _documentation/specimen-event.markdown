@@ -7,7 +7,7 @@ layout: default_toc
 
 # Record Event
 
-Record Events link [Records]({{site.baseurl}}/documentation/catalog.html) to [Events]({{site.baseurl}}/documentation/collecting-event.html).
+Record Events link [Events]({{site.baseurl}}/documentation/collecting-event.html) to [Records]({{site.baseurl}}/documentation/catalog.html).
 
 ## Event Determiner
 
