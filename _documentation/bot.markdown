@@ -25,7 +25,7 @@ Note that the access check is cached and will take about an hour to be recognize
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-**Do not attempt to do anything else to the bot agent profile or operator account; ignoring this may result in your account being locked.**
+**Do not attempt to edit any bot agent profile or operator account; ignoring this may result in your account being locked.**
 
 ## Edit this Documentation
 
