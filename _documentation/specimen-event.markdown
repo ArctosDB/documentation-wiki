@@ -1,74 +1,68 @@
 ---
-title: Specimen Event
+title: Record Event
+author: Dusty L. McDonald, Teresa J. Mayfield-Meyer
+date: 2024-06-06
 layout: default_toc
 ---
 
-# Specimen Event
+# Record Event
 
-
-Specimen Events link [Specimens]({{site.baseurl}}/documentation/catalog.html) to [Collecting
-Events]({{site.baseurl}}/documentation/collecting-event.html).
-
-
+Record Events link [Records]({{site.baseurl}}/documentation/catalog.html) to [Events]({{site.baseurl}}/documentation/collecting-event.html).
 
 ## Event Determiner
 
-Agent asserting that the specimen
-has [Event Type](#type) relationship to a collecting event (including locality, geography, geology, etc.). This person
-has determined coordinates and error, dates, higher
-geography, and everything else in the "[place and time
-stack](/documentation/collecting-event/)."
+[Agent]({{site.baseurl}}/documentation/agent.html) asserting that the [Record]({{site.baseurl}}/documentation/catalog.html) has [Event Type](#type) relationship to an event (including locality, geography, geology, etc.).
 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+This person has determined coordinates and error, dates, higher geography, and everything else in the "[place and time stack]({{site.baseurl}}how_to/How-to-understand-the-Arctos-Locality-Model.html)."
 
 ## Event Date
 
- is the date on which the specimen was assigned to the place/time.
-
+The date on which the [Event]({{site.baseurl}}/documentation/collecting-event.html) was assigned to the [Record]({{site.baseurl}}/documentation/catalog.html).
 
 ## Event Type
 
- See
-[CTSPECIMEN_EVENT_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSPECIMEN_EVENT_TYPE)
+The action during the [Event]({{site.baseurl}}/documentation/collecting-event.html) that affected the [Record]({{site.baseurl}}/documentation/catalog.html).
+
+Select from values in [Object Event: Types](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSPECIMEN_EVENT_TYPE).
 
 ## Verification Status
 
- See
-[CTVERIFICATIONSTATUS](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTVERIFICATIONSTATUS)
+The opinion of the verifier of the veracity and completeness of the coordinates included in the [Event]({{site.baseurl}}/documentation/collecting-event.html).
+
+Select from values in [Object Event: Verification Status Values](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTVERIFICATIONSTATUS)
 
 ## Verified By
 
-Person who set Verification Status
-
+[Agent]({{site.baseurl}}/documentation/agent.html) who selected the Verification Status.
 
 ## Verified Date
 
-Date on which Verification Status was set
-
+Date on which Verification Status was set.
 
 ## Collecting Method
 
- is free-text describing how the specimen and the
-event are related. Examples:
+Describe methods employed at the event as they relate specifically to the record. Examples:
 
--   gill net
--   hand seine
--   Otter Trawl
--   salvage, roadkill, DOR
+ - gill net
+ - hand seine
+ - Otter Trawl
+ - salvage, roadkill, DOR
 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+Method may be better placed in the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) event attribute if the method corresponds to all records that may have participated in the event.
 
 ## Collecting Source
 
-Collecting Source is a broad categorization of how the specimen came to be at the associated event. 
- See
-[CTCOLLECTING_SOURCE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLLECTING_SOURCE) for values.
+A broad categorization of how the record came to be at the event.
 
-
-
+Select from [Event: Source Values](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollecting_source).
 
 ## Habitat
 
- is free-text describing the habitat at the place and time of
-the specimen event. Examples:
+Describe the habitat at the place and time of the event as it relates specifically to the record. Examples:
 
 -   limestone outcrops and ledges with dwarf shrub, sedge herbaceous
     tundra, scattered
@@ -77,12 +71,11 @@ the specimen event. Examples:
 
 ## Remarks
 
-Use only for data which pertains to the relationship between the specimen and the event and which is not appropriate
-for any more-specific fields.
+Use only for data which pertains to the relationship between the record and the event and which is not appropriate for any more-specific fields.
 
-# Edit Form
+# Edit Record Event Form
 
-There are two ways to edit specimen-events and associated place/time data.
+There are two ways to edit record events and associated place/time data.
 
 1.  old/normal way
 	* normalized, makes managing data for shared localities easy
