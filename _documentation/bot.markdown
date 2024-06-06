@@ -1,5 +1,7 @@
 ---
 title: Arctos Bots
+author: Dusty L. McDonald
+date: 2024-06-06
 layout: default_toc
 ---
 
@@ -7,13 +9,23 @@ layout: default_toc
 
 Bots are (very limited) users (Agents and Operators) who can write specific information to specific bulkloaders. The bot agent will take credit for the data, and this may generally be used to un-do any problems caused by bots. Data will be inserted with status=autoload, and processing will begin immediately. Any data which was not processed will be deleted before insertion; errors should be reported via Issues.
 
-## Creation
+## How To Create Arctos Bots
 
 Bots may be created only via functions/create_bot_agent. Creation must be coordinated with the DBA team. All bot agents are expected to be accompanied by scripts run by suitable handlers, and documented in agent remarks.
 
-## Usage
+If you have a request for an Arctos Bot, [file an issue](https://github.com/ArctosDB/arctos/issues/new).
 
-Search Agents by agent_type=bot. For any agent which you would like running in your collection, manage the user and grant collection access. Access may be revoked at any time. Note that the access check is cached and will take about an hour to be recognized by the component loader. *Do not attempt to do anything else to the agent or operator; ignoring this may result in your account being locked.*
+## How To Use Arctos Bots
+
+[Search Agents by agent_type=bot](https://arctos.database.museum/agent.cfm?agent_type=bot&include_verbatim=false&include_bad_dup=false) to see a list of Arctos Bots.
+
+To allow an Arctos Bot to make edits in a collection, manage the Arctos Bot user (operator) and grant access to the collection. Access may be revoked at any time.
+
+Note that the access check is cached and will take about an hour to be recognized by the associated component loader.
+
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+*Do not attempt to do anything else to the bot agent profile or operator account; ignoring this may result in your account being locked.*
 
 ## Edit this Documentation
 
