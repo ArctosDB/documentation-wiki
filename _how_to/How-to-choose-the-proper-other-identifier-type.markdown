@@ -69,6 +69,15 @@ remark | say whatever you need to say
 
    Selecting an inappropriate issued by or type (other than Arctos record GUID, which will cause an error) does not functionally change the fact that the record will now include a link to an external resource (as long as you have entered a working url!).
 
+### Other Resolvable Identifier Cheat Sheet
+
+Recommended methods for entering some "popular" other identifiers that provide links to data external to Arctos.
+
+issued by | type | number format | relationship | note  
+ -- | -- | -- | -- | -- 
+[NCBI Nucleotide (GenBank)](https://arctos.database.museum/agent/21349032) | identifier | http://www.ncbi.nlm.nih.gov/nuccore/xxxxxx | self | provides a link to GenBank that GenBank will reciprocate
+[Smithsonian Museum of Natural History EZID](https://arctos.database.museum/agent/21352866) | identifier | http://n2t.net/ark:/65665/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | same individual as | EZIDs provide links to the USNM databases they can be found by searching the USNM catalog number in the appropriate collection database
+
 ## How to use other identifiers that do not create relationships to other resources
 
 When an identifier other than the Arctos record triplet is known for a cataloged item or there is a known relationship to an external resource that cannot supply a url, use an other identifier to document the information.
@@ -94,6 +103,19 @@ remark | say whatever you need to say
 Selecting an inappropriate type (other than Arctos record GUID, which will cause an error) does not functionally change the fact that the record will now include an identifier that might be used to eventually create a resolvable relationship to an external resource or Arctos record should the agent used start publishing urls for their records. 
 
 The choice of type is somewhat arbitrary, but some important considerations remain. For example, "field number" is not a number assigned to an individual specimen (as is traditional terminology for many mammalogists), but rather an identifier assigned to a collecting event (as is traditional in ichthyology); "collector number" is (usually) the appropriate choice for a "mammal field number." Please consult the documentation in the other ID code table, and [file an Issue](https://github.com/ArctosDB/arctos/issues/new) if any questions remain. **The Arctos technical team strongly recommends using type = identifier for any identifier other than Arctos record GUIDs** in order to avoid confusion and inconsistency.
+
+### Other Non-Resolvable Identifier Cheat Sheet
+
+Recommended methods for entering some "popular" other identifiers that do not provide links to data external to Arctos.
+
+issued by | type | number format | relationship | note  
+ -- | -- | -- | -- | -- 
+[American Museum of Natural History Mammal Collection](https://arctos.database.museum/agent/21347734) | identifier | AMNH M xxxxx | same individual as | 
+[American Museum of Natural History Ornithology Collection](https://arctos.database.museum/agent/21347806) | identifier | AMNH B xxxxx | same individual as | 
+[Smithsonian Division of Amphibians and Reptiles](https://arctos.database.museum/agent/21347826) | identifier | USNM xxxxx | same individual as | 
+[Smithsonian Division of Birds](https://arctos.database.museum/agent/21347825) | identifier | USNM xxxxx | same individual as | 
+[Smithsonian Division of Fishes](https://arctos.database.museum/agent/21348954) | identifier | USNM xxxxx | same individual as | 
+[Smithsonian Division of Mammals](https://arctos.database.museum/agent/21347824) | identifier | USNM xxxxx | same individual as | 
 
 ## Edit this Documentation
 
