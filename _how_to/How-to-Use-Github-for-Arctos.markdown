@@ -9,7 +9,7 @@ _Stable link to this page: https://doi.org/10.7299/X75B02M5_
 
 # How to Github: Get Started in Github for Arctos
 
-[Github Documentation](https://handbook.arctosdb.org/documentation/Github.html)
+[Github Documentation](https://handbook.arctosdb.org/documentation/github.html)
 
 ## How To Create a Github Account
 
