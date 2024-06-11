@@ -43,53 +43,11 @@ Catalog records outside of Arctos can use an Arctos Entity url as dwc:organismID
 
 Adding identifiers that are not Arctos catalog record urls to the Arctos Entity directly will not add new component lines to the entity, but it will alert others that there are associaed catalog records outside of Arctos. If an non-Arctos catalog record can be identified with a url, adding the url will create a link to the associated record. Eventually, we aspire to work with other collection management systems to add compnent details to Arctos Entities in the same way we add components from within Arctos. Who wants to collaborate?
 
-Catalog records bearing an Entity ID as Organism ID will link to the Entity, and provide a link to locate all other records which share the ID.
+Catalog records bearing an Arctos Entity record GUID as Organism ID will link to the Entity, and provide a link to locate all other records which share the ID.
 
 ## Community Discussion
 
 [Github Issue #262](https://github.com/ArctosDB/documentation-wiki/issues/262)
-
-[ Consider moving this to Other ID documentation ]
-
-## Choosing Organism ID
-
-Any string may be used as Organism ID. Some possibilities and their implications include:
-
-### Arctos Entity ID
-
-Arctos Entities are currently our recommended Organism ID.
-
-* Is a GUID (Globally Unique IDentifier)
-* Is resolvable
-* Bears metadata
-* Easily tested for existence and suitability
-* Is controlled by the Arctos Community
-* Currently used only by the Arctos Community
-
-### Other Resolvable Identifiers
-
-Other Resolvable Identifiers are more or less "anything with a URL." These include WikiData, and potentially things like zoo records (should such come online). These are "good" identifiers by virtue of being globally unique and resolvable, but may vary wildly on attributes such as:
-
-* persistence
-* control (including vandalism prevention)
-* ability to carry metadata or form links to relevant data
-* ability to be tested for existence or suitability
-
-### Non-resolvable Identifiers
-
-Non-resolvable Identifiers are strings, generally issued by some (perhaps unknown) Agent. These are generally "less good" identifiers in that they:
-
-* are often represented in many forms (ABC123,ABC-123, ABC 123, ...)
-* can contain no mechanism to test for suitability
-* can bear no metadata
-* may or may not be unique
-
-Examples include:
-
-* USGS Bird Banding Laboratory numbers
-* GAN numbers (zoo identifiers)
-* Mexican Wolf Studbook numbers
-* Collector numbers
 
 ## Edit this Documentation
 
