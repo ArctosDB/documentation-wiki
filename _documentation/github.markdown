@@ -14,10 +14,9 @@ date: revised 2023-07-26
 The tool we use to accomplish what Dusty describes above is Github.
 
 * Github serves as the primary means of communication between Arctos developers and users.
-
 * Github is where Arctos users can contribute to the [Arctos Handbook](http://handbook.arctosdb.org/) via the [Arctos Documentation-wiki Repository](https://arctosdb.Github.io/documentation-wiki/). 
-
 * If you have an Arctos question or problem, post it on the [Arctos Issues](https://Github.com/ArctosDB/arctos/issues) site. There you can also view and comment on issues.
+* [Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution](https://doi.org/10.1111/2041-210X.14108)
 
 ## How To
 Instructions for doing specifc tasks in Github related to Arctos
