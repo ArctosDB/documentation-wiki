@@ -7,6 +7,8 @@ layout: default_toc
 
 # How To Handle Organisms in Arctos
 
+**Documentation:** [Entities](https://handbook.arctosdb.org/documentation/entity.html)
+
 Although many catalog records are synonymous with an organism, some are not. Parts of an individual organism may be collected at different points in time (blood samples from a zoo animal) or they may be parsed aout to different collections (herbarium duplicates).
 
 Using an [Organism ID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#organism_id) identifier type with the same value across all records from the same individual is the preferred method for indicating that any given catalog record does not include all collected parts for a given individual.
