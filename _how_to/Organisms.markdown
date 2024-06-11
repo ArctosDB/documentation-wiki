@@ -26,6 +26,16 @@ Any string may be used as Organism ID. Some possibilities and their implications
 * controlled by the Arctos Community
 * Currently used only by the Arctos Community
 
+#### How To Add Catalog Records to an "Organism" Entity
+* Create the Arctos Entity
+* Copy the Arctos Entity record GUID (this is the url in your browser when you are looking at the Arctos Entity catalog record).
+* Add the Arctos Entity record GUID to every component catalog record as an other identifier using this format:
+
+Other ID type | Other ID Value | Other ID references | Other ID Issued By | Other ID Remark
+ -- | -- | -- | -- | -- 
+[Organism ID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#organism_id) | https://arctos.database.museum/guid/Arctos:Entity:xxx | self | Arctos Entity Collection | say whatever you want here 
+
+
 ### Other Resolvable Identifiers
 Other Resolvable Identifiers are more or less "anything with a URL." These include USNM EZIDs and are "good" identifiers by virtue of being globally unique and resolvable, but may vary wildly on attributes such as:
 
