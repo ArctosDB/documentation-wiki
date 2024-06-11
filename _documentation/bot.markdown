@@ -1,7 +1,7 @@
 ---
 title: Arctos Bots
-author: Dusty L. McDonald, Teresa J. Mayfield-Meyer
-date: 2024-06-06
+author: Dusty L. McDonald, Teresa J. Mayfield-Meyer, Michelle Koo
+date: 2024-06-11
 layout: default_toc
 ---
 
@@ -25,7 +25,9 @@ Note that the access check is cached and will take about an hour to be recognize
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-**Do not attempt to edit any bot agent profile or operator account; ignoring this may result in your account being locked.**
+**Do not attempt to edit any bot agent profile (e.g. remarks or status) or operator account (eg Locked status). Ignoring this will result in your account being locked.** 
+
+Simply click on Manage in the operator account and Grant Access to collection(s) you manage.
 
 ## Edit this Documentation
 
