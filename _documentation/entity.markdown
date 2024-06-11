@@ -1,11 +1,9 @@
 ---
 title: Entities
-author: ArctosDB
-date: 2021-05-12
+author: ArctosDB, Teresa J Mayfield-Meyer
+date: 2024-06-11
 layout: default_toc
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 <!--- [Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/262) --->
 
@@ -45,6 +43,12 @@ Adding identifiers that are not Arctos catalog record urls to the Arctos Entity 
 
 Catalog records bearing an Arctos Entity record GUID as Organism ID will link to the Entity, and provide a link to locate all other records which share the ID.
 
+## How To
+
+Instructions for doing specifc tasks related to Agents in Arctos
+
+* [How To Handle Organisms in Arctos](https://handbook.arctosdb.org/how_to/Organisms.html)
+  
 ## Community Discussion
 
 [Github Issue #262](https://github.com/ArctosDB/documentation-wiki/issues/262)
