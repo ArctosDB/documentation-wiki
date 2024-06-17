@@ -229,6 +229,20 @@ Re-query
 Arctos is session-based. When a search is performed, a temporary table is created to hold the search results. This allows high-performance paging (_e.g._, through SpecimenResults), and allows results-based forms (such as label printing) to "know" what your last query was. Temporary tables are expunged when your session expires (90 minutes) and are replaced when a new query is performed. If you're seeing this error,  you're probably trying to work with two results sets in multiple tabs, you're just coming back from lunch and have been automatically logged out, or you've logged in or out.<a name="iu"></a>
 ---->
 
+## iframe url does not have permission to interact with me
+
+### Problem
+
+This error occurs in applications which call geolocate (primarily data entry and edit), and are caused by network traffic being manipulated. This is usually caused by a local browser extension, but any manipulation of network traffic may result in this problem.
+
+
+### More Information
+
+https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+iframe+url+does+not+have+permission+to+interact+with+me - various causes have been discovered in Issues.
+
+
+
+
 ## How To
 
 Instructions for doing specifc tasks related to errors in Arctos
