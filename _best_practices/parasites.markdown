@@ -16,7 +16,7 @@ For the purposes of this guide, a parasite is any preserved remains, observation
 
 ### Best Option - Link to an Arctos Catalog Record
 
-The most powerful method for describing the host organism of a cataloged parasite is to create an Arctos catalog record for the host. This allows a complete description of both the parasite and host identification and classification. It also provides the means to more completely describe both organisms including appropriate attributes and if applicable, the location of any preserved material.
+The most powerful method for describing the host organism of a cataloged parasite is to link to a properly-curated catalog item in Arctos. Ideally this would be a vouchered record in a "normal" collection, but it is also possible to create an Arctos catalog record for the host in a collection dedicated to such use. This allows a complete description of both the parasite and host identification and classification. It also provides the means to more completely describe both organisms including appropriate attributes and if applicable, the location of any preserved material.
 
 Once the parasite and host recrds are created, they should be linked using Arctos record GUID identifiers and the appropriate reference.
 
