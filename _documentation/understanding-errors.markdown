@@ -240,7 +240,13 @@ This error occurs in applications which call geolocate (primarily data entry and
 
 https://github.com/ArctosDB/arctos/issues?q=is%3Aissue+iframe+url+does+not+have+permission+to+interact+with+me - various causes have been discovered in Issues.
 
+#### "But I didn't click those links!"
 
+Whatever is controlling your network traffic did; that's what leads here.
+
+#### "Should I be concerned?"
+
+SOMETHING is mucking around in your network traffic. Perhaps it's some useful extension you've installed, perhaps it's something malicious trying to steal your passwords. Concern is warranted!
 
 
 ## How To
