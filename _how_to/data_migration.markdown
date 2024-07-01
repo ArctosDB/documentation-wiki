@@ -48,6 +48,17 @@ Legacy Accession data can be entered individually or created in bulk.
 
 At least one person at every institution should have manage transactions access, this person should read the documentation above and and respond in the appropriate Github issue that they understand that Transactions are an important and useful tool for demonstrating collection building and use. Once this is complete, they will be given permission to [manage transactions](https://arctos.database.museum/Admin/user_roles.cfm#manage_transactions).
 
+## Identifications (Taxon Names)
+
+Identifications must match at least one Arctos Taxon Name exactly for every object record. Please note that taxon names are managed separately from classifications associated with those names. At this stage, the only concern is the name used in the identification of a catalog record.
+
+* Documentation: [Identifications](http://handbook.arctosdb.org/documentation/identification.html) 
+* Handbook instructions: [How to Create Taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html) and [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html).
+
+### Permissions
+
+At least one person at every institution should have manage taxonomy access, this person should read the documentation above and and respond in the appropriate Github issue that they understand that Taxonomy is a community resource and managing it means a commitment to the community that they will do their best to reduce the possibility of misspelled taxon names and to only edit classifications with information that they are certain make the classification more accurate. Once this is complete, they will be given permission to [manage taxonomy](https://arctos.database.museum/Admin/user_roles.cfm#manage_taxonomy).
+
 ### Pro Tips
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
