@@ -6,7 +6,6 @@ date: 2024-07-01
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-Only add the above if you won't be creating a finished product.
 
 # How To Migrate Data Into Arctos
 
@@ -56,15 +55,6 @@ Read the documentation about Agents and How To Create Agents and respond in the 
 > 
 > you accomplish this by adding `> ` at th beginning of each line
  
-### Bullet Points
-* add bullet points by placing `* ` at the beginning of a line
- 
-### Links to Another How To
-Link to other How Tos by putting the link text in square brackets followed immediately by the page url in parenthesis [How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html)
-`[How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html)`
-
-This same technique can be used for any links you would like to add.
-
 ### Images
 
 If you want to add screen shots or other images, see [How To Handle Images](https://handbook.arctosdb.org/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.html#how-to-handle-images)
@@ -73,22 +63,6 @@ If you want to add screen shots or other images, see [How To Handle Images](http
 <img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Add FAQ text here?**
 `<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Add FAQ text here?**`
 
-### Code Blocks
-If you want to add some code that you want to be visible in the How To, place it between two lines of three backticks (the symbol under the tilde on most QUERTY keyboards).
-```
-This is a block and can include code
-* see how the bullet point doesn't render?
-> or the quote block?
-```
-
-Always include the two sections below! But change the link text and link urls to indicate the appropriate items. If there is no video tutorial, add the text "Video Tutorial Needed".
-
-## Tutorial Videos ↗️
-
-How to Bulkload Loans (Step 1):
-
-[![How to Bulkload Loans](https://i9.ytimg.com/vi/pN40CkKAbgw/mq2.jpg?sqp=CJCU8I8G&rs=AOn4CLCgvG7IypQyOLtWLJ3jqMzZHZ6e7A)](https://youtu.be/pN40CkKAbgw)
-
 ## Edit this Documentation
 
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How_To_Template.markdown" target="_blank">here</a>.
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/data_migration.markdown" target="_blank">here</a>.
