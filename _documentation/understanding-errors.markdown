@@ -248,6 +248,10 @@ Whatever is controlling your network traffic did; that's what leads here.
 
 SOMETHING is mucking around in your network traffic. Perhaps it's some useful extension you've installed, perhaps it's something malicious trying to steal your passwords. Concern is warranted!
 
+## Attributes used in shipments may not change type or value, nor be deprecated. 
+
+Shipping "addresses" may not be altered once used, in order to preserve the integrity of shipment information.
+
 
 ## How To
 
