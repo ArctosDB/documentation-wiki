@@ -91,6 +91,13 @@ Part (object descriptions) names must match to the available [parts vocabulary i
 * Documentation: [Parts](https://handbook.arctosdb.org/documentation/parts.html)
 * Handbook instructions: [How To Create and Edit Parts](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html) 
 
+## Attributes
+
+Attributes must match to the available [attributes in Arctos](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type). Each collection type has a unique set of available attributes. If you need to add an attribute, you will need to request it and possibly provide a controlled vocabulary for the attribute value (for example, sex is the attribute, with possible values of male, female, etc.).
+
+* Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)
+* Handbook instructions: [How to Create and Edit Catalog Record Attributes](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Attributes.html) 
+
 ### Pro Tips
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
