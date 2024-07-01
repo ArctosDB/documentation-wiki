@@ -69,8 +69,8 @@ Higher Geography values (Country, State, County) in your data file must exist in
 
 Every object record may be assigned a locality (e.g. place of collection). Localities include coordinates used for mapping.
 
-* Documentation: http://handbook.arctosdb.org/documentation/locality.html
-* Handbook instructions: http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Specific-Locality.html
+* Documentation: [Localities}(http://handbook.arctosdb.org/documentation/locality.html) 
+* Handbook instructions: How To Create a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Specific-Locality.html)
 
 Localities may be treated in several different ways.
 
@@ -84,6 +84,12 @@ Beware, localities that are exactly alike should load as a single locality share
 
 At least one person at every institution should have manage locality access, this person should read the documentation above and and respond in the appropriate Github issue that they understand that localities are a community resource and managing them means a commitment to the community that they will do their best to reduce the possibility of misspelled place names and to only edit localities with information that they are certain make the location more accurate. Once this is complete, they will be given permission to [manage locality](https://arctos.database.museum/Admin/user_roles.cfm#manage_locality).
 
+## Parts
+
+Part (object descriptions) names must match to the available [parts vocabulary in Arctos](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name). Each collection type has a unique set of available part names. Part names must be selected for use by each individual collection. For instructions on how to select the parts you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add a part name that is not included in the code table, you will need to request it and provide a definition for the part.
+
+* Documentation: [Parts](https://handbook.arctosdb.org/documentation/parts.html)
+* Handbook instructions: [How To Create and Edit Parts](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html) 
 
 ### Pro Tips
 
