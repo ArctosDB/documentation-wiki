@@ -89,7 +89,7 @@ At this point, records can be loaded to Arctos and the remaining data can be add
 
 ## Catalog Record Agent Roles
 
-People who participate in the [Agent Roles](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role) related to a catalog record must be Agents. If a person in a catalog record agent role is not well-known enough to create an agent, their role can be recorded using the [verbatim agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) atttribute with the role listed in the attribute method.
+People who participate in the [Collection Object: Agent Roles](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role) related to a catalog record must be Agents. If a person in a catalog record agent role is not well-known enough to create an agent, their role can be recorded using the [verbatim agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) atttribute with the role listed in the attribute method.
 
 * Documentation: [Attributes](https://handbook.arctosdb.org/documentation/other-identifying-numbers.html)
 * Handbook instructions: [How to Create and Edit Catalog Record Attributes](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Attributes.html)
