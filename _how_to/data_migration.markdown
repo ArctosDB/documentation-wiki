@@ -98,20 +98,20 @@ If not loaded with the rest of the catalog record, agent roles may be loaded wit
 
 ## Parts
 
-Part names (object descriptions) must match to the available [part names](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name) in Arctos. Part names must be selected for use by each individual collection. For instructions on how to select the parts you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add a part name that is not included in the code table, you will need to request it and provide a definition for the part.
+Part names (object descriptions) must match to the available [Part: Names](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name) in Arctos. Part names must be selected for use by each individual collection. For instructions on how to select the parts you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add a part name that is not included in the code table, you will need to request it and provide a definition for the part.
 
 * Documentation: [Parts](https://handbook.arctosdb.org/documentation/parts.html)
 * Handbook instructions: [How To Create and Edit Parts](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html)
 
 ### Part Attributes
 
-Parts may be associated with many part attributes and the attribute type must match a term in the [part attribute vocabulary](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type) in Arctos. It is preferable to use part attributes rather than placing this information in part remark so that the data is more discoverable.
+Parts may be associated with many part attributes and the attribute type must match a term in [Part: Attribute Types](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type) in Arctos. It is preferable to use part attributes rather than placing this information in part remark so that the data is more discoverable.
 
 If not loaded with the rest of the catalog record, parts may be loaded with the [Part+Attribute Bulkload](https://arctos.database.museum/loaders/BulkloadParts.cfm) tool.
 
 ## Attributes
 
-Attributes must match to the available [attributes in Arctos](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type). Each collection type has a unique set of available attributes. If you need to add an attribute, you will need to request it and possibly provide a controlled vocabulary for the attribute value (for example, sex is the attribute, with possible values of male, female, etc.).
+Attributes must match to the available [Collection Object Attribute: Types](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type) in Arctos. Attributes must be selected for use by each individual collection. For instructions on how to select the parts you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add an attribute, you will need to request it and possibly provide a controlled vocabulary for the attribute value (for example, sex is the attribute, with possible values of male, female, etc.).
 
 * Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)
 * Handbook instructions: [How to Create and Edit Catalog Record Attributes](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Attributes.html)
