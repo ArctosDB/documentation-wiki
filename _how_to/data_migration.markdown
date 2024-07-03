@@ -22,7 +22,7 @@ Before any data is entered, it is important that the collection metadata is comp
 
 At least one person at any institution will have an operator account created as part of creation of the collection(s). Anyone else who will assist with data migration or data entry will need to follow the same steps to become an Arctos operator.
 
-* Documentation: [Agents}(http://handbook.arctosdb.org/documentation/agent.html) 
+* Documentation: [Agents](http://handbook.arctosdb.org/documentation/agent.html) 
 * Handbook instructions: [How To Create and Manage Your Arctos Team (Users and Operators)](https://handbook.arctosdb.org/how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html) 
 
 ## Agents
