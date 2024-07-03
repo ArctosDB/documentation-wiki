@@ -84,19 +84,41 @@ Beware, localities that are exactly alike should load as a single locality share
 
 At least one person at every institution should have manage locality access, this person should read the documentation above and and respond in the appropriate Github issue that they understand that localities are a community resource and managing them means a commitment to the community that they will do their best to reduce the possibility of misspelled place names and to only edit localities with information that they are certain make the location more accurate. Once this is complete, they will be given permission to [manage locality](https://arctos.database.museum/Admin/user_roles.cfm#manage_locality).
 
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+At this point, records can be loaded to Arctos and the remaining data can be added to them using component loader tools. This can simplify the process of data migration and allow for more detailed review of components such as attributes, parts, collectors, preparators, and identifiers.
+
+## Catalog Record Agent Roles
+
+People who participate in the [Agent Roles](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role) related to a catalog record must be Agents. If a person in a catalog record agent role is not well-known enough to create an agent, their role can be recorded using the [verbatim agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) atttribute with the role listed in the attribute method.
+
+If not loaded with the rest of the catalog record, agent roles may be loaded with the [Agent Role: Bulkload](https://arctos.database.museum/loaders/BulkloadCollector.cfm) tool.
+
 ## Parts
 
 Part (object descriptions) names must match to the available [parts vocabulary in Arctos](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name). Each collection type has a unique set of available part names. Part names must be selected for use by each individual collection. For instructions on how to select the parts you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add a part name that is not included in the code table, you will need to request it and provide a definition for the part.
 
 * Documentation: [Parts](https://handbook.arctosdb.org/documentation/parts.html)
-* Handbook instructions: [How To Create and Edit Parts](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html) 
+* Handbook instructions: [How To Create and Edit Parts](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html)
+
+### Part Attributes
+
+Parts may be associated with many part attributes and the attribute type must match a term in the [part attribute vocabulary](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecpart_attribute_type) in Arctos. It is preferable to use part attributes rather than placing this information in part remark so that the data is more discoverable.
+
+If not loaded with the rest of the catalog record, parts may be loaded with the [Part+Attribute Bulkload](https://arctos.database.museum/loaders/BulkloadParts.cfm) tool.
 
 ## Attributes
 
 Attributes must match to the available [attributes in Arctos](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type). Each collection type has a unique set of available attributes. If you need to add an attribute, you will need to request it and possibly provide a controlled vocabulary for the attribute value (for example, sex is the attribute, with possible values of male, female, etc.).
 
 * Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)
-* Handbook instructions: [How to Create and Edit Catalog Record Attributes](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Attributes.html) 
+* Handbook instructions: [How to Create and Edit Catalog Record Attributes](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Attributes.html)
+
+If not loaded with the rest of the catalog record, attributes may be loaded with the [Attribute: Bulkload](https://arctos.database.museum/loaders/BulkloadAttributes.cfm) tool.
+
+## Identifiers
+
+
 
 ## Edit this Documentation
 
