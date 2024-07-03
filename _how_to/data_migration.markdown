@@ -68,7 +68,7 @@ Higher Geography values (Country, State, County) in your data file must exist in
 Every object record may be assigned a locality (e.g. place of collection). Localities include coordinates used for mapping.
 
 * Documentation: [Localities](http://handbook.arctosdb.org/documentation/locality.html) 
-* Handbook instructions: How To Create a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Specific-Locality.html)
+* Handbook instructions: [How To Create a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Specific-Locality.html)
 
 Localities may be treated in several different ways.
 
