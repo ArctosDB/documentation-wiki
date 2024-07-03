@@ -19,7 +19,7 @@ If you have a request for an Arctos Bot, [file an issue](https://github.com/Arct
 
 Search Agents by agent_type=bot to see a [list of Arctos Bots](https://arctos.database.museum/agent.cfm?agent_type=bot&include_verbatim=false&include_bad_dup=false).
 
-To allow an Arctos Bot to make edits in a collection, manage the Arctos Bot user (operator) and grant access to the collection. Access may be revoked at any time.
+To allow an Arctos Bot to make edits in a collection, manage the Arctos Bot user (operator) and grant access to the collection. No roles are required in order for the bot to work. You may revoke the bot's access at any time by removing the collection.
 
 Note that the access check is cached and will take about an hour to be recognized by the associated component loader.
 
