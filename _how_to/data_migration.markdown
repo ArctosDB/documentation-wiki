@@ -98,7 +98,7 @@ If not loaded with the rest of the catalog record, agent roles may be loaded wit
 
 ## Parts
 
-Part names (object descriptions) must match to the available [parts vocabulary in Arctos](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name). Each collection type has a unique set of available part names. Part names must be selected for use by each individual collection. For instructions on how to select the parts you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add a part name that is not included in the code table, you will need to request it and provide a definition for the part.
+Part names (object descriptions) must match to the available [part names](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name) in Arctos. Each collection type has a unique set of available part names. Part names must be selected for use by each individual collection. For instructions on how to select the parts you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add a part name that is not included in the code table, you will need to request it and provide a definition for the part.
 
 * Documentation: [Parts](https://handbook.arctosdb.org/documentation/parts.html)
 * Handbook instructions: [How To Create and Edit Parts](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html)
