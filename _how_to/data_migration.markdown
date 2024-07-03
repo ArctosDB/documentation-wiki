@@ -29,7 +29,7 @@ At least one person at any institution will have an operator account created as 
 
 People and organizations are associated with almost all types of data available in Arctos so it is important to map the names in use in your current data to names available in Arctos. Ensure that all People (collectors, preparators, makers, identifiers, event assignors, donors) in your data file are included as Agents in Arctos and that there are no duplications (same person with name spelled different ways). If you are entering records one at a time, you will probably return to this step every time you enter something.
 
-* Documentation: [Agents}(http://handbook.arctosdb.org/documentation/agent.html) 
+* Documentation: [Agents](http://handbook.arctosdb.org/documentation/agent.html) 
 * Handbook instructions: [How To Create Agents](https://handbook.arctosdb.org/how_to/How-to-Create-Agents.html)
 
 ### Permissions
