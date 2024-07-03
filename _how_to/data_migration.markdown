@@ -39,8 +39,6 @@ Agents are a shared resource in Arctos and care should always be given to editin
 
 ALL Arctos records require an associated accession. If your institution does not currently use accessions, at least one "legacy accession" will need to be created to facilitate entry of catalog records into Arctos.
 
-Legacy Accession data can be entered individually or created in bulk.
-
 * Documentation: [Accessions](https://handbook.arctosdb.org/documentation/accession.html) 
 * Handbook instructions: [How To Create an Accession](http://handbook.arctosdb.org/how_to/How-to-Create-an-Accession.html) 
 
