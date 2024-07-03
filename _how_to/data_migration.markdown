@@ -111,7 +111,7 @@ If not loaded with the rest of the catalog record, parts may be loaded with the 
 
 ## Attributes
 
-Attributes must match to the available [Collection Object Attribute: Types](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type) in Arctos. Attributes must be selected for use by each individual collection. For instructions on how to select the parts you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add an attribute, you will need to request it and possibly provide a controlled vocabulary for the attribute value (for example, sex is the attribute, with possible values of male, female, etc.).
+Attributes must match to the available [Collection Object Attribute: Types](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type) in Arctos. Attributes must be selected for use by each individual collection. For instructions on how to select the attributes you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add an attribute, you will need to request it and possibly provide a controlled vocabulary for the attribute value (for example, sex is the attribute, with possible values of male, female, etc.).
 
 * Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)
 * Handbook instructions: [How to Create and Edit Catalog Record Attributes](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Attributes.html)
