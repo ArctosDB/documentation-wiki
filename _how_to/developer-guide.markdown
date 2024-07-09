@@ -159,6 +159,15 @@ WHITE
 
 * Adding New Terms - any time a new field is added to the Darwin Core Archive, that field MUST go at the end of the list, otherwise, all of the mappings that come after wherever it is added will be offset by one term and the data will fail to publish.
 
+### last_usr and last_chg
+
+Some tables have a lastuser and lastdate field, which generally exist to be picked up by subsequent actions particularly when a script is running on behalf of a user. These **should** default to meaningful values when a human is pushing buttons, but PG's environment can be a little wonky (and the test and prod DBs occasonally do not share settings). Best practice is to provide these values explicitly:
+
+* ``last_usr=<cfqueryparam value="#session.username#" cfsqltype="cf_sql_varchar">``
+* ``last_chg=<cfqueryparam value="#DateConvert('local2Utc',now())#" cfsqltype="cf_sql_timestamp">``
+
+
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/developer-guide.markdown" target="_blank">here</a>.
