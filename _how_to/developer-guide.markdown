@@ -31,6 +31,8 @@ Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_M
  
 #### Sublime Text
 
+DLM's weapon of choice
+
 #### Atom
 
 #### Brackets
@@ -94,7 +96,7 @@ Or as a label
     * after success: goodPick
     * after fail: badPick
 
-#### Color Codes
+## Color Codes
 
 (see css file for current defintion)
 
@@ -133,7 +135,7 @@ FOOTER
 BANNER/LOGIN Terms box
 * yellow: #5FC03D
 
-#### Logos
+## Logos
 
 BLUE
 
@@ -155,11 +157,11 @@ WHITE
 
 * Arctos full text logo![Arctos-logo_white_xbg-01 (1)](https://user-images.githubusercontent.com/11336485/211899783-1fade03c-f5e4-42e9-ada9-5167e48e7f4c.png)
 
-### IPT Mapping
+## IPT Mapping
 
 * Adding New Terms - any time a new field is added to the Darwin Core Archive, that field MUST go at the end of the list, otherwise, all of the mappings that come after wherever it is added will be offset by one term and the data will fail to publish.
 
-### last_usr and last_chg
+## last_usr and last_chg
 
 Some tables have a lastuser and lastdate field, which generally exist to be picked up by subsequent actions particularly when a script is running on behalf of a user. These **should** default to meaningful values when a human is pushing buttons, but PG's environment can be a little wonky (and the test and prod DBs occasonally do not share settings). Best practice is to provide these values explicitly:
 
