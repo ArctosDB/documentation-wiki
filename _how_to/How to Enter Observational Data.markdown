@@ -35,8 +35,8 @@ Examples of observations recorded in collections not specifically designated as 
 
 However you choose to organize your observational data, an observation can be identified as such by selecting one of the observation cataloged item types:
 
- * [human observation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type#human_observation)
- * [machine observation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type#machine_observation)
+ * [human observation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type#humanobservation)
+ * [machine observation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type#machineobservation)
  
  
 Everything below this line has not been reviewed by the Arctos Observation Interest Group
