@@ -10,7 +10,7 @@ layout: default_toc
 
 ## Loan and Shipment Templates
 
-To create a template, open the loan create form, fill in whatever you'd like to save - all fields are optional for this - and click Templates. Choose a collection (templates are owned by collections, and stored as collection attributes), provide a handle (something by which you can re-find your template, stored as attribute remarks), and click save.
+To create a template open the loan create form, fill in whatever you'd like to save - all fields are optional for this - and click Templates. Choose a collection, provide a name, and click save.
 
 To use a template, open the loan create form, click templates, and choose a template to pre-fill the form.
 
