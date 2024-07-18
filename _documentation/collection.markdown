@@ -88,6 +88,60 @@ Prioritize certain identifiers in UI using Issued By Agent.
 
 Foreign key to Agents. All collections have a coresponding Agent, which provides data structure for additional information.
 
+# collection_attributes
+
+Collection_Attributes provides a very flexible structure for storing collection-related data, such as that used to build .eml files for sharing with DWC portals.
+
+
+## attribute_type
+
+Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_attribute_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_attribute_type)
+
+## attribute_value
+
+## attribute_remark
+
+## created_date and created_agent_id
+
+Environment-derived metadata.
+
+# collection_templates
+
+Collection_Templates provides a mechanism to store information for one-click filling certain forms, such as loans and shipments.
+
+## template_type
+
+Controls access
+
+## template_name 
+
+User-supplied identifier
+
+## template_data
+
+Data (generally serialized JSON)
+
+
+## created_date and created_agent_id
+
+Environment-derived metadata.
+
+
+
+# collection_contacts
+
+Collection_Contacts links agents to collections in roles. These are used to direct error logs, messages, and provide metadata in .eml files.
+
+
+
+## contact_role
+
+Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_contact_role](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_contact_role)
+
+## contact_agent_id
+
+Foreign key to Agent.
+
 
 ## Edit this Documentation
 
