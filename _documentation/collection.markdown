@@ -15,7 +15,7 @@ Internal primary key (integer), not to be confused with collectionID generated f
 
 ## guid_prefix
 
-The "functional primary key" which most usefully defines a collection in Arctos. Used as part of the catalog record identifier which each record in Arctos recieves. Forms collectionID when prefixed by ``https://arctos.database.museum/collection/``. Note that this is a concept with no dependencies; it is completely unrelated to ``institution_acronym``, ``collection_cde``, and all other fields in all other tables.
+The "functional primary key" which most usefully defines a collection in Arctos. Used as part of the catalog record identifier which each record in Arctos recieves. Forms collectionID (a GUID) when prefixed by ``https://arctos.database.museum/collection/``. Note that this is a concept with no dependencies; it is completely unrelated to ``institution_acronym``, ``collection_cde``, and all other fields in all other tables.
 
 ## citation
 
