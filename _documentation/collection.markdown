@@ -31,10 +31,6 @@ Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ct
 
 Collection identifier as registered with NCBI. Used to automatcally find records in GenBank.
 
-### loan_policy_url
-
-A loan policy is required by Arctos, but the contents of the policy are left to the collection. 
-
 ### web_link and web_link_text
 
 Used to make links to the collection's web page from the Arctos UI.
@@ -56,19 +52,31 @@ Free-text
 
 Legacy column, can be useful for selecting 'suggested' authority items.
 
+
+### loan_policy_url
+
+A loan policy is required by Arctos, but the contents of the policy are left to the collection. The loan policy should provide a path through which qualified users can request material, access, etc. The policy might also outline who is elegible to access materials or collection, expectations for citations, etc. A loan policy should not be confused with a loan agreement, the document shared between collections and borrowers when and if a loan is finalized.
+
+
 ### internal_license_id
 
-Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license), licenses data downloaded from Arctos.
+Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license).
+
+An internal license is a legally-binding document which applies to data downloaded from Arctos.
 
 
 ### external_license_id
 
-Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license), licenses data downloaded from outside Arctos (eg, DWC Portals). Data from these sources are generally incomplete, are often outdated, and should be used with caution.
+Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license). 
+
+An external license is a legally-binding document which applies to data downloaded outside Arctos (eg, DWC Portals). Data from these sources are generally incomplete, are often dated, and should be used with caution.
 
 
 ### collection_terms_id
 
-Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_terms](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_terms), a terms document is intended to suppliement licenses.
+Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_terms](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_terms).
+
+A terms document is intended to supplement and clarify licenses. Collections may create their own terms documents, but an Arctos-wide approach is encouraged where possible. Terms should not be confused or counfounded with data licenses, loan policies, or loan agreements.
 
 * Discussion: [https://github.com/ArctosDB/arctos/issues/7861](https://github.com/ArctosDB/arctos/issues/7861)
 
