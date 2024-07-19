@@ -9,19 +9,21 @@ date: 2024-07-18
 
 An Arctos collection is a group of co-managed records. Most collections are "traditional," (eg MVZ Mammal Collection, [https://arctos.database.museum/collection/MVZ:Mamm](https://arctos.database.museum/collection/MVZ:Mamm)) but there are few  technical constraints. "Core tables" are as follows.
 
+----------------
+
 ## Collection
 
 ### collection_id
 
-Internal primary key (integer), not to be confused with collectionID generated from guid_prefix.
+Internal primary key (integer), not to be exposed in public UI nor confused with collectionID (generated from guid_prefix).
 
 ### guid_prefix
 
-The "functional primary key" which most usefully defines a collection in Arctos. Used as part of the catalog record identifier which each record in Arctos recieves. Forms collectionID (a GUID) when prefixed by ``https://arctos.database.museum/collection/``. Note that this is a concept with no dependencies; it is completely unrelated to ``institution_acronym``, ``collection_cde``, and all other fields in all other tables.
+The "functional primary key" which most usefully defines a collection in Arctos. Used as part of the catalog record identifier which each record in Arctos recieves. Forms collectionID (a GUID) when prefixed by ``https://arctos.database.museum/collection/``. Note that this is a concept with no dependencies; it is completely unrelated to ``institution_acronym``, ``collection_cde``, all other fields in all other tables, and all other data.
 
 ### citation
 
-Recommended text for citing the collection. Cataloged items within a collection should be cited by GUID.
+Recommended text for citing the collection. Cataloged items within a collection should be cited by record GUID (or as directed by the collection). This text applies only to the collection, not to any items linked to or managed by the collection.
 
 ### catalog_number_format
 
@@ -29,24 +31,29 @@ Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ct
 
 ### genbank_collection
 
-Collection identifier as registered with NCBI. Used to automatcally find records in GenBank.
+Collection identifier as registered with NCBI. Used to automatcally find records in GenBank. 
+
+* [Management Information](https://handbook.arctosdb.org/documentation/genbank.html)
 
 ### web_link and web_link_text
 
 Used to make links to the collection's web page from the Arctos UI.
 
+* web_link is a URL
+* web_link_text is the "clickable text"
+
 ### collection
 
-Free text short description
+Free text short description of the collection, possibly useful for sorting.
 
 ### institution_acronym
 
-Legacy column, used to group collections in UI and serves as a VPD partition for managing containers
+Legacy column, used to group collections in UI and serves as a VPD partition for managing containers.
 
 
 ### institution
 
-Free-text
+Free-text.
 
 ### collection_cde
 
@@ -83,20 +90,24 @@ A terms document is intended to supplement and clarify licenses. Collections may
 
 ### default_cat_item_type
 
-Allows a collection to specify a default value for [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type) in records.
+Allows a collection to specify a default value for [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type) in records. The record bulkloader will translate NULL to this value, and values provided in the record bulkloader will override this value.
 
 
 ### preferred_identifiers 
 
-Prioritize certain identifiers in UI using [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
+Prioritize certain identifiers in UI using [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type). Useful for "local identifiers" only.
 
 ### preferred_identifier_issuers 
 
-Prioritize certain identifiers in UI using Issued By Agent.
+Prioritize certain identifiers in UI using Issued By Agent. Useful for linking identifiers, eg highlighting participation in the Extended Specimen Network.
 
 ### collection_agent_id
 
 Foreign key to Agents. All collections have a coresponding Agent, which provides data structure for additional information.
+
+
+------------------
+
 
 ## collection_attributes
 
@@ -115,6 +126,10 @@ Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ct
 
 Environment-derived metadata.
 
+
+-----------------------
+
+
 ## collection_templates
 
 Collection_Templates provides a mechanism to store information for one-click filling certain forms, such as loans and shipments.
@@ -131,18 +146,17 @@ User-supplied identifier
 
 Data (generally serialized JSON)
 
-
 ### created_date and created_agent_id
 
 Environment-derived metadata.
 
 
+-------------------------
+
 
 ## collection_contacts
 
 Collection_Contacts links agents to collections in roles. These are used to direct error logs, messages, and provide metadata in .eml files.
-
-
 
 ### contact_role
 
@@ -152,6 +166,7 @@ Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ct
 
 Foreign key to Agent.
 
+--------------------
 
 ## Edit this Documentation
 
