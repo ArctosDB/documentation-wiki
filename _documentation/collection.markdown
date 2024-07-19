@@ -41,7 +41,7 @@ Collection identifier as registered with NCBI. Used to automatcally find records
 
 Used to make links to the collection's web page from the Arctos UI.
 
-* web_link is a URL
+* web_link is a public URL
 * web_link_text is the "clickable text"
 
 ### collection
@@ -64,7 +64,7 @@ Legacy column, can be useful for selecting 'suggested' authority items.
 
 ### loan_policy_url
 
-A loan policy is required by Arctos, but the contents of the policy are left to the collection. The loan policy should provide a path through which qualified users can request material, access, etc. The policy might also outline who is elegible to access materials or collection, expectations for citations, etc. A loan policy should not be confused with a loan agreement, the document shared between collections and borrowers when and if a loan is finalized.
+A loan policy is required by Arctos, but the contents of the policy are at the discretion of the collection. The loan policy should provide a path through which qualified users can request material, access, etc. The policy might also outline who is eligible to access materials or collection, expectations for citations, etc. A loan policy should not be confused with a loan or material transfer agreement, which is the document shared between collections and borrowers when and if a loan is finalized. The value of this field is a document posted at a regular public URL which can be updated by the collection.
 
 
 ### internal_license_id
