@@ -7,7 +7,9 @@ date: 2024-07-18
 
 # Collection
 
-An Arctos collection is a group of co-managed records. Most collections are "traditional," (eg MVZ Mammal Collection, [https://arctos.database.museum/collection/MVZ:Mamm](https://arctos.database.museum/collection/MVZ:Mamm)) but there are few  technical constraints. "Core tables" are as follows.
+An Arctos collection is a group of co-managed records. Most collections are "traditional," (eg MVZ Mammal Collection, [https://arctos.database.museum/collection/MVZ:Mamm](https://arctos.database.museum/collection/MVZ:Mamm)) but there are few  technical constraints. User access roles (VPN partitions) are collection-based.
+
+"Core tables" are as follows.
 
 ----------------
 
