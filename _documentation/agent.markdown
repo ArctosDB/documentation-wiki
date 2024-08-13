@@ -1,59 +1,109 @@
 ---
 title: Agents
 layout: default_toc
-author: Teresa J. Mayfield-Meyer, ArctosDB
-date: 2021-11-11, 2016-12-01
+author: Teresa J. Mayfield-Meyer, ArctosDB, DLM
+date: 2021-11-11, 2016-12-01, 2024-08-13
 ---
 
 # Agents
 
-Agents are people, organizations, groups, code, or any entity that performs actions. Agents are collectors, authors of publications, users of objects, issuers of identifiers and, if you enter or edit data, you are an Agent. A single Agent can have many roles and many names. No matter how many roles or names an Agent has, there should be only one Agent profile in Arctos to represent them.
+Agents are people, organizations, groups, code, or any human entity that performs actions. Agents are collectors, authors of publications, users of objects, issuers of identifiers and, if you enter or edit data, you are an Agent. A single Agent can have many roles and many names. No matter how many roles or names an Agent has, there should be only one Agent profile in Arctos to represent them. Agents are not deleted, but may be default-hidden by a 'bad duplicate of' relationship.
 
- - <a href="https://handbook.arctosdb.org/best_practices/Agents.html" target="_blank">Best Practice - Creating Meaningful Agents</a>
+# Agent
 
-## Agent Type
+Table Agent is the central or core Agent data table.
 
-Agent Type is controlled by a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type). All Agents must have a unique [preferred](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type#preferred) name.
+## agent_id
 
-### Person
+Agent_ID is the internal primary key, and when prefixed with ``https://arctos.database.museum/agent/`` becomes an actionable GUID.
 
-Data about a person-agent can include [first](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type#first_name), [middle](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type#middle_name), and [last](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type#last_name) names. [Prefix and Suffix](http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles) should only be included in preferred name to disambiguate people if necessary. For example, the following might all apply as name type [aka](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type#aka) to one agent:
+## agent_type
 
--   Some Guy
--   Lieutenant Some Guy
--   Major Some Guy
--   Some Guy Sr.
--   Reverend Some Guy Senior, Ph.D
+Agent Type is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type).
+         
+## preferred_agent_name
 
-### Organization
+Preferred Name is the namestring displayed by default.
 
-Examples of organizations include:
+## created_by_agent_id
 
--  [University of Alaska Museum of the North](https://arctos.database.museum/info/agentActivity.cfm?agent_id=3691)
--  [Alaska Department of Fish and Game](https://arctos.database.museum/info/agentActivity.cfm?agent_id=9)
--  [U. S. National Park Service](https://arctos.database.museum/info/agentActivity.cfm?agent_id=40)
+Foreign key to agent.agent_id, the person creating the Agent record.
 
-Agencies can have hierarchical relationships, *e.g.*:
+## created_date
 
--  [Kanuti National Wildlife Refuge](https://arctos.database.museum/info/agentActivity.cfm?agent_id=27) is a [division of](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_relationship#division_of)
--  [U. S. Fish and Wildlife Service](https://arctos.database.museum/info/agentActivity.cfm?agent_id=3679) is a [division of](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_relationship#division_of)
--  [U. S. Department of the Interior](https://arctos.database.museum/info/agentActivity.cfm?agent_id=1012052)
+Date on which record was created.
 
-For catalog record roles person agents are more explicit and preferable to organizations. Organizations are generally more useful in transaction and project roles.
+# agent_attribute
 
-### Group
+Agent Attributes carries all name, address, identifier, remark, and other information regarding an Agent. Attributes cannot be deleted, but can be deprecated (thus a history of change is maintained).
 
-A group is two or more agents functioning in some named capacity. So, instead of listing several collectors on an expedition, one might make all the collectors members of something like the "1994 Swedish-Russian Tundra Ecology Expedition."
+## attribute_id
 
-Agent Groups consists of:
+Primary key, not exposed.
 
-1.  An agent of type=organization, and optionally
-2.  person agents associated as group members
+## agent_id
 
-Groups may be useful for things like collecting expeditions and classes.
+Foreign key to agent.agent_id.
 
-### Verbatim Agent Attribute
+## attribute_type
+
+Attribute Type is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type).
+
+## attribute_value
+
+Some are vocabulary or datatype controlled.
+
+## begin_date
+
+Date on which the assertion became active.
+
+## end_date
+
+Date on which the assertion became inactive.
+
+## related_agent_id
+
+Foreign key to agent.agent_id; a relationship to another agent (required by some types).
+
+## determined_date
+
+Date on which attribute was determined.
+
+## attribute_determiner_id
+
+Foreign key to agent.agent_id; agent making the assertion.
+
+## attribute_method
+
+Method by which determination is known.
+
+## attribute_remark
+
+Things which don't fit elsewhere.
+
+## created_by_agent_id
+
+Foreign key to agent.agent_id; agent entering the data.
+
+## created_timestamp
+
+
+Date on which data was entered.
+
+## deprecated_by_agent_id
+
+Foreign key to agent.agent_id; agent deleting or changing an attribute; this is applied to "olds."
+
+## deprecated_timestamp 
+
+## deprecation_type
+
+update or delete
+
+
+# Related Entities
+
+## Verbatim Agent Attribute
 
 The catalog record [attribute](/documentation/attributes) [verbatim agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) allows uncontrolled strings to be associated with individual catalog records. 
 
@@ -63,53 +113,11 @@ This data structure is suitable for any agents acting in any "[role](https://arc
 
 When ["bad duplicate of"](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_relationship#bad_duplicate_of) agents are merged, [verbatim agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) Attributes for [collector roles](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role) are automatically created for all affected catalog records.
 
-## Names
-
-All agents must have one and only one [preferred](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type#preferred) name and one and only one [login](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type#login). An agent can have any number of other names.
-
-## Name Type
-
-Agent Name Type, e.g. "preferred," is controlled by a [code
-table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type).
-
-## Address
-
-See [Address Documentation](https://handbook.arctosdb.org/documentation/address.html)
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
-
-ORCiD and Wikidata urls are found in the addresses section of the agent table.
-
-### Agent Status
-
-Agent Status is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTAGENT_STATUS).
-
-## Remarks
-
-Remarks is a good place to include a description of the Agent or their activities. Anything that might be helpful to other users in understanding who or what the agent is should be included. 
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-Never use remarks for data which can be linked or formalized elsewhere.
-
-Agent remarks allow for free text descriptive information and can also include HTML to make text more readable on the Agent page.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
-
-You can use an HTML cheat sheet to help with the code. Try <a href="https://htmlcheatsheet.com/" target="_blank">HTML Cheatsheet</a> or <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" target="_blank">Stanford HTML Cheatsheet</a>
-
-### Identical Agent Names
-
-Identical agent **names**, between and among agents, is different than identical agents. Duplicate agents are two or more agent records that mean the same physical entity (THAT PARTICULAR John Smith; US Fish and Wildlife Service). It is not necessary for duplicate agents to share a name; in fact, they are often introduced because of misspellings. The "Agent Activity" link is a good place to make sure you're dealing with real duplicates.
-
-### Not Duplicates
-
-Occasionally, it will be determined that two agents are not in fact duplicates. The only action that will stop future attempts to merge them is a "not the same as" relationship. Document the relationship in remarks, but do not try to build functionality into remarks.
-
-## How To
+# How To
 
 Instructions for doing specifc tasks related to Agents in Arctos
 
+ - [Best Practice - Creating Meaningful Agents](https://handbook.arctosdb.org/best_practices/Agents.html)
  - [How To Agentify Verbatim Agents](https://handbook.arctosdb.org/how_to/How-to-Agentify-Verbatim-Agents.html)
  - [How to Batch Update Agents in Catalog Record Roles](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Agents.html)
  - [How To Bulkload Agents](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Agents.html)
