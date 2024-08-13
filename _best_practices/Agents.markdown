@@ -1,7 +1,7 @@
 ---
 title: Best Practice - Creating Meaningful Agents 
-authors: Teresa J Mayfield-Meyer
-date created: 2021-11-11
+authors: Teresa J Mayfield-Meyer, DLM
+date: 2021-11-11, 2024-08-13
 layout: default_toc
 ---
 
@@ -99,6 +99,20 @@ Without the unique key, applications which use strings to identify agents, such 
 ## Agent Relationships
 
 Relationships between agents can be recorded. Like date of birth and date of death, relationships can be critical to understanding duplication and similarities in names, and in understanding relationships within the literature, taxonomic opinions, etc. The pull-downs are self-evident. If you know of a relationship between agents, please record it. The relationship "not the same as" can be useful in understanding that suspiciously similar names are not duplicates, but do in fact refer to separate agents.  
+
+##  Preferred Name and Titles
+
+[Prefix and Suffix](http://en.wikipedia.org/wiki/Suffix_%28name%29#Generational_titles) should only be included in preferred name to disambiguate people if necessary. For example, the following might all apply to one agent, and including them in preferred name is likely to result in duplicates.
+
+-   Some Guy
+-   Lieutenant Some Guy
+-   Major Some Guy
+-   Some Guy Sr.
+-   Reverend Some Guy Senior, Ph.D
+
+
+
+
 
 ## Summary
 
