@@ -5,6 +5,8 @@ author: Teresa J. Mayfield-Meyer, ArctosDB
 date: 2023-06-28
 ---
 
+This document is outdated. Agents cannot be deleted.
+
 # How To Delete/Merge Agents
 
 ## Navigation
