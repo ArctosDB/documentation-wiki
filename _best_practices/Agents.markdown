@@ -23,7 +23,7 @@ We recommend working with an experienced Arctos operator if you have a lot of pe
 
 ### Don't create an Agent at all
 
-Agents should exist only when they must carry when independent information. [Attribute verbatim agent](https://handbook.arctosdb.org/documentation/agent.html#verbatim-agent-attribute) is functionally identical to most Agents. If there is no compelling data which cannot be derived from activity to assert, not creating an Agent is almost always the correct choice. 
+Agents should exist only when they must carry independent information. [Attribute verbatim agent](https://handbook.arctosdb.org/documentation/agent.html#verbatim-agent-attribute) is functionally identical to most Agents. If there is no independent compelling data (*e.g.*, that which cannot be derived from activity) to assert, not creating an Agent is almost always the correct choice. 
 
 ### Avoid Duplicate Agents
 
