@@ -15,7 +15,7 @@ Table Agent is the central or core Agent data table.
 
 ## agent_id
 
-Agent_ID is the internal primary key, and when prefixed with ``https://arctos.database.museum/agent/`` becomes an actionable GUID.
+Agent_ID is the internal primary key, and when prefixed with ``https://arctos.database.museum/agent/`` becomes a stable actionable GUID suitable for external use.
 
 ## agent_type
 
@@ -23,7 +23,7 @@ Agent Type is controlled by a [code table](http://arctos.database.museum/info/ct
          
 ## preferred_agent_name
 
-Preferred Name is the namestring displayed by default.
+Preferred Name is the namestring displayed by default. Note that this is not unique within Arctos, and so cannot serve as a useful identifier. (That is, "Eduardo M. Spencer" might refer to any number of entities, even locally.)
 
 ## created_by_agent_id
 
