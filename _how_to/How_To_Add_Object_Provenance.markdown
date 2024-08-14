@@ -33,25 +33,25 @@ Complete the following steps to record an object's previous inclusion in another
  - [Search Agents](https://arctos.database.museum/agent.cfm) to see if the previous collection exists in Arctos. If it does not, create an agent of type [other agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type#other_agent) using the collection's name as preferred name. See [Flora of Manitoba](https://arctos.database.museum/agent/21339709) for an example.
  - Add the agent to the appropriate catalog record with the role [collector](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role#collector).
  
- ## Entities
+## Entities
  
- ### Reasons to use an Entity
+### Reasons to use an Entity
   - You want to record the kinds of data an Entity can carry, or you're just looking for a good generic identifier that can be shared across multiple records/institutions, including those external to Arctos
   - The naive understanding is surely that a collection series is not an agent but an entity.
   
-  ### Use an Entity to record inclusion in a prior collection
+### Use an Entity to record inclusion in a prior collection
   Complete the following steps to record an object's previous inclusion in another collection.
   
   - [Search Entities](https://arctos.database.museum/SpecimenSearch.cfm?guid_prefix=Arctos%3AEntity) to see if the previous collection exists as an Entity in Arctos If it does not, create the entity and use the A {string} identification formula to name the entity appropriately for future searches. If this method were used for the above, Plantae {Flora of Manitoba} would be an appropriate identification.
   - Add the Entity url to the appropriate catalog record(s) using an other identifier. 
   
-  ## Projects
+## Projects
   
-  ### Reasons to use a Project
+### Reasons to use a Project
    - When following transaction data is important - projects were created for https://arctos.database.museum/project/15, Native hunters want to know how "their" seals contribute to science (via future loans and publications)
    -  A preference for the format of the project page and the ablity to share that project page with others. 
    
-   ### Use a Project to record inclusion in a prior collection
+### Use a Project to record inclusion in a prior collection
    - [Search Projects](https://arctos.database.museum/SpecimenUsage.cfm)to see if the previous collection exists as a Project in Arctos If it does not, create the project.
    - Create a data loan for the catalog records that should be associated with the project and add the loan to the project.
 
