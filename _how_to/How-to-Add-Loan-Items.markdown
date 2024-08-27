@@ -52,6 +52,22 @@ A tool to [bulkload loan items](https://handbook.arctosdb.org/how_to/How_To_Bulk
 
 Find any container, view leaf nodes
 
+### All Items in a Container
+
+(Source: https://github.com/ArctosDB/arctos/issues/7611#issuecomment-2027826993)
+
+There is a way to do this, I've done it previously for a loan of over 2000 individuals that were in small cryovials organized in 96-well plates. You go to "container:find" then type the barcode for the box with all of your samples into "Container Barcode" then click "see all collection objects in this container" (see below)
+
+
+<img width="1399" alt="Screenshot 2024-03-29 at 3 44 49 PM" src="https://github.com/ArctosDB/arctos/assets/134456825/89fb30d3-9c69-4541-ad9d-3e9502151072">
+
+
+Then you should have a list off all the cryovials or objects scanned into the box (not seen in the image below because my example is an empty box) and you should be able to use the buttons at the bottom to add all items to a loan and update dispositions.
+
+
+<img width="940" alt="Screenshot 2024-03-29 at 3 46 22 PM" src="https://github.com/ArctosDB/arctos/assets/134456825/0c921272-0261-4272-bdec-bb90de3bfe20">
+
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Add-Loan-Items.markdown" target="_blank">here</a>.
