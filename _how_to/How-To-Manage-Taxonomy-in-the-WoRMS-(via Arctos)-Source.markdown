@@ -20,6 +20,55 @@ Arctos uploads taxon names, classifications, and metadata from WoRMS and refresh
 
 <img width="987" alt="image" src="https://user-images.githubusercontent.com/15368365/122125665-fb2e7080-cded-11eb-8196-16ba7da14119.png">
 
+
+
+## Add a WoRMS classification to an existing name
+
+ref: https://github.com/ArctosDB/arctos/issues/8075
+
+Go to the name page:
+
+[https://arctos.database.museum/name/Ectocarpus%20siliculosus](https://arctos.database.museum/name/Ectocarpus%20siliculosus)
+
+Click:
+
+<img width="183" alt="Screenshot 2024-09-03 at 08 05 21" src="https://github.com/user-attachments/assets/aa5fa827-7bf0-4943-b20e-c623d54ac3b2">
+
+Select and create:
+
+<img width="162" alt="Screenshot 2024-09-03 at 08 06 03" src="https://github.com/user-attachments/assets/824b0b67-0de0-4420-844b-d77c21d2e226">
+
+From [https://www.marinespecies.org/aphia.php?p=taxdetails&id=145410](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145410) extract the ID: ``145410``
+
+enter and save
+
+
+<img width="433" alt="Screenshot 2024-09-03 at 08 07 13" src="https://github.com/user-attachments/assets/fee160ce-f911-42e4-b7b5-90b32aeef395">
+
+leave the edit page:
+
+<img width="186" alt="Screenshot 2024-09-03 at 08 07 20" src="https://github.com/user-attachments/assets/8fa68134-0e7d-4146-9ba2-7ca8fe3da1a1">
+
+request an API pull:
+
+<img width="256" alt="Screenshot 2024-09-03 at 08 07 31" src="https://github.com/user-attachments/assets/7b52bae1-7fbd-4387-bf80-b548a0bd75bb">
+
+reload:
+
+<img width="220" alt="Screenshot 2024-09-03 at 08 07 38" src="https://github.com/user-attachments/assets/3edba0b4-500f-45e1-bbb4-7057b6517625">
+
+Confirm: 
+
+<img width="1551" alt="Screenshot 2024-09-03 at 08 07 48" src="https://github.com/user-attachments/assets/c261b9f5-a83f-4eda-8614-0b12b9ccdf2a">
+
+Link:
+
+https://arctos.database.museum/name/Ectocarpus%20siliculosus#WoRMSviaArctos
+
+
+
+
+
 ## Linking with WoRMS Aphia ID
 
 All taxon names in WoRMS (via Arctos) must have an AphiaID.  
