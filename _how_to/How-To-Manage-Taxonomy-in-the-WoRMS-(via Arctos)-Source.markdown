@@ -24,7 +24,7 @@ Arctos uploads taxon names, classifications, and metadata from WoRMS and refresh
 
 ## Add a WoRMS classification to an existing name
 
-ref: https://github.com/ArctosDB/arctos/issues/8075
+ref: [https://github.com/ArctosDB/arctos/issues/8075](https://github.com/ArctosDB/arctos/issues/8075)
 
 Go to the name page:
 
@@ -63,7 +63,7 @@ Confirm:
 
 Link:
 
-https://arctos.database.museum/name/Ectocarpus%20siliculosus#WoRMSviaArctos
+[https://arctos.database.museum/name/Ectocarpus%20siliculosus#WoRMSviaArctos](https://arctos.database.museum/name/Ectocarpus%20siliculosus#WoRMSviaArctos)
 
 
 
