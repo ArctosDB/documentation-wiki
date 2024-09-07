@@ -1,8 +1,8 @@
 ---
 title: How To Create a Locality
 layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: 2019-11-25
+author: Teresa J. Mayfield-Meyer, updated Michelle Koo
+date: 2019-11-25, updated 2024-09-07
 ---
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
 
@@ -15,7 +15,7 @@ A locality includes three types of data:
 
  -   [Higher geography](higher-geography) is controlled "authority data" and is included via key relationships.
  -   [Georeferencing determinations](coordinates) are spatial data; they define a shape on a map. Localities may include point-radius data and/or WKT (polygon) data.
- -   Descriptive data, most importantly Specific Locality. Also includes locality attributes such as [Geology](http://handbook.arctosdb.org/documentation/geology.html)
+ -   Descriptive data, most importantly Specific Locality and may include locality attributes such as [Geology](http://handbook.arctosdb.org/documentation/geology.html)
 
 Localities are [shared](http://handbook.arctosdb.org/documentation/sharing-data-and-resources.html). It is important to remember this anytime you are working with Locality. If you want to retain more control over a locality (and therefore, less collaborative maintenance), you can use a [Locality Nickname](http://handbook.arctosdb.org/documentation/locality.html#locality-nickname) to designate the locality as different from any other locality with essentially the same information.
 
@@ -45,33 +45,13 @@ And the locality details will be copied into the current record in data entry
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/locality%20nickname%20entered.jpg)
 
 ### Creating a Locality
-In order to create a locality for use as described above, complete the following:
+In order to create a locality for use as described above, be sure you have **MANAGE_LOCALITY** privileges. There are three available avenues to create a locality:
 
- - Log in to Arctos **You must have MANAGE_LOCALITY privileges in order to complete any of the following tasks.**
+1. Use the [locality bulkloader](https://arctos.database.museum/loaders/bulkloadLocalityAttributes.cfm) and include a locality nickname. You can upload a csv of one, of course. (More examples to come)
  
- - From the Arctos Main Menu select Manage Data > Location > Create Locality. You will be directed to the "Create Locality" form.
- 
- ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/create%20locality%20form.jpg)
- 
- - Select the desired Higher Geography by clicking the "Pick" button and searching for your desired higher geography. 
- 
- ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/higher%20geog%20pick.jpg)
- 
- - Choose the appropriate higher geography
- 
- ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/higher%20geog%20pick%20list.jpg)
- 
- - You will be returned to the Create Locality Form, but now, the higher geography you selected will appear in the "pick geography" field.
- 
- ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/create%20locality%20with%20HG.jpg)
- 
- - At this point, you can complete the other fields in the form or leave them to complete on the next screen. Click “Save” to move on.
-
- - After clicking "Save” you will be directed to the Edit Locality page so that you can make additional changes. 
- 
- ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/locality/edit%20locality%20add%20nickname.jpg)
- 
- - Complete all of the relevant fields. If necessary, review the documentation for [Specific Locality](http://handbook.arctosdb.org/documentation/locality.html#specific-locality) and [coordinates](http://handbook.arctosdb.org/documentation/locality.html#coordinates). If you plan to use the locality in future data entry, you will want to add a [Locality Nickname](http://handbook.arctosdb.org/documentation/locality.html#locality-nickname) so that the locality can be easily located during data entry or referred to in data bulkloading. You can create the nickname or let Arctos create one for you. Either way, make a note of the nickname! Anyone entering data using this new locality will be able to find the Locality quickly using the nickname.
+2. Alternatively, you may want a new locality for a subset of records that are sharing a locality. Use the **Clone Locality** button on the locality edit page.  This is the safest method because it's easy to forgot components like the Higher Geography which will be copied over. This locality is completely editable so you can also assign a different Higher Geography or attributes.
+   
+3. Lastly, localities are creating with data entry of records. To make sure you are using the pre-created locality, make a note of the nickname and enter that in the appropriate field! Anyone entering data using this new locality will be able to find the Locality quickly using the nickname.
 
 ## Edit this Documentation
 
