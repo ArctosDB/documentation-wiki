@@ -6,7 +6,6 @@ date: 2020-07-06
 ---
 # How to Apply Licensing and Terms
 
-## [Collection Management Documentation](https://handbook.arctosdb.org/documentation/manage_collection.html)
 
 ### Data
 

@@ -7,7 +7,6 @@ layout: default_toc
 # How To Unlock an Arctos User Account
 
 ## [Users Documentation](https://handbook.arctosdb.org/documentation/users.html#unlocking)
-## [Collection Management Documentation](https://handbook.arctosdb.org/documentation/manage_collection.html)
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) 
 **Caution** 

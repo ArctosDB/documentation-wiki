@@ -10,7 +10,6 @@ date: 2023-09-19
 
 # How To Manage Harmful Content
 
-[Managing a Collection Documentation](https://handbook.arctosdb.org/documentation/manage_collection.html)
 
 Members of the Arctos Consortium recognize that we manage historic information that may contain harmful or offensive language.
 
