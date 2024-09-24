@@ -66,7 +66,7 @@ This block includes data about the entire catalog record.
 
 * **guid_prefix** will be completed based upon the collection selected above or what has been added to a Profile if one is selected and includes this information.
 
-* **record_type** can be left blank if you wish to use the default type selected in collection metadata (See [How To Manage a Collection](https://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html#default-cataloged-item-type)).
+* **record_type** can be left blank if you wish to use the default type selected in collection metadata 
 
 **OPTIONAL**
 

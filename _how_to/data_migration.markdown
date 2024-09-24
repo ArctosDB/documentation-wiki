@@ -15,7 +15,7 @@ This How To walks through the steps of data migration. These steps are more comp
 
 Before any data is entered, it is important that the collection metadata is complete.
 
-* Handbook instructions: [How To Manage a Collection](http://handbook.arctosdb.org/how_to/How-to-Manage-a-Collection-in-Arctos.html)
+
 * Github Issue Template: [3. Manage Collection](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&projects=&template=3--manage-collection.md&title=Acronym+Collection+-+3.+Manage+Collection)
 
 ## Create Your Arctos Team
