@@ -9,6 +9,10 @@ date: 2024-07-18
 
 An Arctos collection is a group of co-managed records. Most collections are "traditional," (eg MVZ Mammal Collection, [https://arctos.database.museum/collection/MVZ:Mamm](https://arctos.database.museum/collection/MVZ:Mamm)) but there are few  technical constraints. User access roles (VPD partitions) are collection-based.
 
+## Creating
+
+To create a collection, see [https://handbook.arctosdb.org/how_to/new-collection.html](https://handbook.arctosdb.org/how_to/new-collection.html).
+
 "Core tables" are as follows.
 
 ----------------
