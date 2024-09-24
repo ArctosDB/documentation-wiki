@@ -7,7 +7,7 @@ date: 2024-07-18
 
 # Collection
 
-An Arctos collection is a group of co-managed records. Most collections are "traditional," (eg MVZ Mammal Collection, [https://arctos.database.museum/collection/MVZ:Mamm](https://arctos.database.museum/collection/MVZ:Mamm)) but there are few  technical constraints. User access roles (VPN partitions) are collection-based.
+An Arctos collection is a group of co-managed records. Most collections are "traditional," (eg MVZ Mammal Collection, [https://arctos.database.museum/collection/MVZ:Mamm](https://arctos.database.museum/collection/MVZ:Mamm)) but there are few  technical constraints. User access roles (VPD partitions) are collection-based.
 
 "Core tables" are as follows.
 
@@ -21,7 +21,10 @@ Internal primary key (integer), not to be exposed in public UI nor confused with
 
 ### guid_prefix
 
-The "functional primary key" which most usefully defines a collection in Arctos. Used as part of the catalog record identifier which each record in Arctos recieves. Forms collectionID (a GUID) when prefixed by ``https://arctos.database.museum/collection/``. Note that this is a concept with no dependencies; it is completely unrelated to ``institution_acronym``, ``collection_cde``, all other fields in all other tables, and all other data.
+The "functional primary key" which most usefully defines a collection in Arctos. Used as part of the catalog record identifier which each record in Arctos recieves. Forms collectionID (a GUID) when prefixed by ``https://arctos.database.museum/collection/``. Note that this is a concept with no dependencies; it is completely unrelated to ``institution_acronym``, ``collection_cde``, all other fields in all other tables, and all other data. Must never be allowed to change; please see <a href="https://en.wikipedia.org/wiki/Replication_crisis" target="-blank">Replication Crisis</a> for more information.
+
+* <a href="https://handbook.arctosdb.org/best_practices/GUID.html" target="_blank">Best Practices: Create a meaningful GUID Prefix</a>
+
 
 ### citation
 
@@ -29,7 +32,7 @@ Recommended text for citing the collection. Cataloged items within a collection 
 
 ### catalog_number_format
 
-Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcatalog_number_format](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcatalog_number_format)
+Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcatalog_number_format](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcatalog_number_format). We encourage the use of the integer format for catalog numbers. This makes sorting, review for number gaps, and determining the last catalog number used an easy task. The other options do not allow for predictive, series- or range-based tools.
 
 ### genbank_collection
 
@@ -85,7 +88,10 @@ An external license is a legally-binding document which applies to data download
 
 Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_terms](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_terms).
 
-A terms document is intended to supplement and clarify licenses. Collections may create their own terms documents, but an Arctos-wide approach is encouraged where possible. Terms should not be confused or counfounded with data licenses, loan policies, or loan agreements.
+
+Terms are a well-considered code of conduct intended to supplement and clarify licenses that anyone who uses data downloaded from a collection is expected to uphold. These terms should model a set of ethical behaviors and help us to build a vibrant community intended to support efforts to make collection data as complete, discoverable, and accessible as possible. Collections wishing to provide their own terms must also provide a URL for the document; an Arctos-wide approach is encouraged where possible.  Terms should not be confused or counfounded with data licenses, loan policies, or loan agreements.
+
+
 
 * Discussion: [https://github.com/ArctosDB/arctos/issues/7861](https://github.com/ArctosDB/arctos/issues/7861)
 
