@@ -57,7 +57,7 @@ Free text short description of the collection, possibly useful for sorting.
 
 ### institution_acronym
 
-Legacy column, used to group collections in UI and serves as a VPD partition for managing containers.
+Used to group collections in UI, and serves as a VPD partition for managing containers.
 
 
 ### institution
