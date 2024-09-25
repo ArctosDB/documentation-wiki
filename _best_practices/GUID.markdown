@@ -15,7 +15,7 @@ In conjunction with catalog number the GUID Prefix forms a unique identifier wit
 
 > The guid prefix does not need to be the full name of a taxonomic group, plural or not. But it is important to be consistent within Arctos, and to be simple. The main thing about the guid prefix is that it should be something concise and easy to remember so that it will not be too difficult for researchers - you want to make it as easy as possible for anyone to cite these guids or urls for specimen citation. Long, difficult to remember complex acronyms are going to result in poorly cited or incorrect specimen citations and confusion.
 
- * **Mariel Campbell, Collection Manager of Genomic Resources at Museum of Soputhwestern Biology**
+ * **Mariel Campbell, Collection Manager of Genomic Resources at Museum of Southwestern Biology**
 
 ## General Recommendations for GUID Prefix 
 
