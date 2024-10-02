@@ -27,6 +27,8 @@ New operators must first become users. Their account name must use only letters 
 New operators must be agents. Under the Agents tab, locate them if they are an existing agent or, after carefully checking, create them as a new agent. The Agent will be selected and linked to the user after clicking the 'invite' button.
 
 Operators must be agents of type "person." Group accounts or shared logins are not permitted.
+
+The operator's Agent record must have a valid email address.
     
 From Management/Arctos/Arctos Users, click Invite to allow them to create an internal user account. This will send email to you and to them. They will have to ensure that their username is valid, pass certain password checks, etc. to become users.
     
@@ -51,6 +53,8 @@ To see definitions and documentation about user access roles visit <a href="http
 Once a user has an account and an agent name type of “login,” do not attempt to delete or alter the account or the login agent name. Additionally, do not revoke collection access roles from a former user. To revoke a user’s permissions, simply click the “lock account” link from manage users (not manage agents).
 
 User accounts automatically lock after 6 months of inactivity. 
+
+Users without an email address in their Agent records will be automatically locked.
 
 Users whose accounts have been locked will not be able to log into Arctos, and must create a new (public) account if they wish to access Arctos.
 
