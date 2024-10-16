@@ -80,7 +80,7 @@ Identifiers are in a state of limbo as of this writing, and type is not generall
 
 ### Local Identifiers
 
-If the identifier applies to something like the organization of your local freezer and is generally not intended to be a useful component of the Extended Specimen Network, then a local identifier type (such as [AF](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#af) or [NK](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#nk) is appropriate. These generally have locally-meaningful rules and do not need (and are not allowed) and issued agent.
+If the identifier applies to something like the organization of your local freezer and is generally not intended to be a useful component of the Extended Specimen Network, then a local identifier type (such as [AF](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#af) or [NK](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#nk) is appropriate. These generally have locally-meaningful rules and do not need (and are not allowed) an issued agent.
 
 ### Arctos References
 
