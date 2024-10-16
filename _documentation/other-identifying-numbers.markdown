@@ -104,7 +104,7 @@ To reference a person's personal catalog, [collector number](https://arctos.data
 
 ### all other identifiers
 
-All other identifiers are properly entered as type (identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier). This type should always have metadata, and some data require precise handling.
+All other identifiers are properly entered as type [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier). This type should always have metadata, and some data require precise handling.
 
 * GenBank may only issue identifiers of the pattern ``http[s]://[www].ncbi.nlm.nih.gov/nuccore/{code}``, and must be issued by [https://arctos.database.museum/agent/21349032](https://arctos.database.museum/agent/21349032)
 * NCBI BioProject may only issue identifiers of the pattern ``http[s]://[www].ncbi.nlm.nih.gov/bioproject/{code}``, and must be issued by [https://arctos.database.museum/agent/21349072](https://arctos.database.museum/agent/21349072)
