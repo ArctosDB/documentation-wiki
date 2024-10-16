@@ -74,6 +74,52 @@ Loaned specimens occasionally return with de-facto other IDs (in the
 form of attached barcodes, GenBank numbers, "personal numbers," etc.).
 Record all these as Other IDs.
 
+## Choosing Type
+
+Identifiers are in a state of limbo as of this writing, and type is not generally understood. The following will clarify.
+
+### Local Identifiers
+
+If the identifier applies to something like the organization of your local freezer and is generally not intended to be a useful component of the Extended Specimen Network, then a local identifier type (such as [AF](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#af) or [NK](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#nk) is appropriate. These generally have locally-meaningful rules and do not need (and are not allowed) and issued agent.
+
+### Arctos References
+
+To reference another record in Arctos, use [Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#arctos_record_guid). This type requires metadata, but will generally be able to automate the addition of such from partial information (such as the triplet).
+
+### Personal Catalogs
+
+To reference a person's personal catalog, [collector number](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#collector_number) or [preparator number](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#preparator_number) should be used.
+
+### Lot-at-location
+
+[field number](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#field_number) is appropriate for cataloging e.g., lots of fish. (This is not a recommendation for such traditional practices!)
+
+### Organism
+
+[Organism ID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#organism_id) is appropriate for referencing a parent Organism. These are often (but not necessarily) cataloged in the [Arctos:Entity](https://arctos.database.museum/collection/Arctos:Entity) collection, and many tools for assembling Organisms exist. Only one Organism ID is allowed.
+
+### separated data
+
+[UUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#uuid) (expected, but not required, to be of the form described [here](https://en.wikipedia.org/wiki/Universally_unique_identifier)) is useful for linking data together in the absence of better identifiers.
+
+### all other identifiers
+
+All other identifiers are properly entered as type (identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier). This type should always have metadata, and some data require precise handling.
+
+* GenBank may only issue identifiers of the pattern ``http[s]://[www].ncbi.nlm.nih.gov/nuccore/{code}``, and must be issued by [https://arctos.database.museum/agent/21349032](https://arctos.database.museum/agent/21349032)
+* NCBI BioProject may only issue identifiers of the pattern ``http[s]://[www].ncbi.nlm.nih.gov/bioproject/{code}``, and must be issued by [https://arctos.database.museum/agent/21349072](https://arctos.database.museum/agent/21349072)
+* NCBI SRA may only issue identifiers of the patterns ``http[s]://[www].ncbi.nlm.nih.gov/sra/{code}`` or ``http[s]://[www].ncbi.nlm.nih.gov/Traces/sra/sra.cgi\?run={code}``, and must be issued by [https://arctos.database.museum/agent/21349034](https://arctos.database.museum/agent/21349034)
+* NCBI BioSample may only issue identifiers of the pattern ``http[s]://[www].ncbi.nlm.nih.gov/biosample/{code}``, and must be issued by [https://arctos.database.museum/agent/21348953](https://arctos.database.museum/agent/21348953)
+*BOLD may only issue identifiers of the patterns ``http[s]://[www].boldsystems.org/index.php/Public_RecordView?processid={code}`` or ``http[s]://[www].boldsystems.org/connectivity/specimenlookup.php?processid={code}``, and must be issued by [https://arctos.database.museum/agent/21348931](https://arctos.database.museum/agent/21348931)
+* MCZ:Mala may only issue identifiers of the pattern ``http[s]://mczbase.mcz.harvard.edu/guid/MCZ:Mala:{code}``, and must be issued by [https://arctos.database.museum/agent/21347821](https://arctos.database.museum/agent/21347821)
+* MCZ:Mamm may only issue identifiers of the pattern ``http[s]://mczbase.mcz.harvard.edu/guid/MCZ:Mamm:{code}``, and must be issued by [https://arctos.database.museum/agent/21355896](https://arctos.database.museum/agent/21355896)
+* MCZ:Orn may only issue identifiers of the pattern ``http[s]://mczbase.mcz.harvard.edu/guid/MCZ:Orn:{code}``, and must be issued by [https://arctos.database.museum/agent/21355897](https://arctos.database.museum/agent/21355897)
+
+
+
+
+
+
 ## How To
 
 Instructions for doing specifc tasks related to identifiers in Arctos
