@@ -76,7 +76,7 @@ Record all these as Other IDs.
 
 ## Choosing Type
 
-Identifiers are in a state of limbo as of this writing, and type is not generally understood. The following will clarify.
+Identifiers are in a state of limbo as of this writing, and type is not generally understood. Failure to comply with the following will result in lower-quality data, will prevent discovery of the record and related data, and will prevent full integration in the [Extended Specimen Network](https://doi.org/10.1093/biosci/biz140).
 
 ### Local Identifiers
 
