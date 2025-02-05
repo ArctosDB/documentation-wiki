@@ -8,6 +8,10 @@ layout: default_toc
 
 # Short how-tos and such from the Arctos development team.
 
+## Organize collector numbers for efficient and predictable retrieval
+
+A frustrated user trying to find 'their' data by a series of collector numbers is a common error log find. This situation comes from the 'traditional' way of entering data, and is easily improved in Arctos. Collector numbers in many disciplines are entered in the format "ABC 123" where "ABC" referes (vaguely and ambiguously) to an Agent, and "123" is a member of a series. Attempting to match "ABC 120-ABC-130" will result in errors; this is not a series that a machine can understand. Recognizing ABC as a particular person is a context and time sensitive operation - our experience very strongly suggests that most people will not make the connection and therefore will be unable to link data. Entering the identifier value as '123' and the collector as the [Issued By Agent](https://handbook.arctosdb.org/documentation/other-identifying-numbers.html#id-issued-by) will remove all ambiguity and allow for series searches (120-123 is easily handled). This also provides a place (the Arctos Agent record) to attach additional information, such as scans of field notes or relationships to the collector's colleagues. Arctos also offers rules-based protection of such data (eg "when issued_by is agent then value must be integer") by request, which will also prevent the near-inevitabl inconsistencies and typographical errors (ABC123 or ABC-123 or ABX-123) of uncontrolled text.
+
 ## Manage collection-specific code table values
 
 Many authorities allow collection-specific usage, which may be controlled by Operators with manage_collection access. From manage collection, (in the Collection Defaults section)...
