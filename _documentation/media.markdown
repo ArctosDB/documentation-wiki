@@ -11,7 +11,7 @@ items in Arctos. Thus, they are essentially anything that can be
 identified with a Uniform Resource Identifier (URI) and (optionally)
 related to a primary key in a major table.
 This arrangement allows us to relate photographs of anatomical features
-to recprds, sound recordings to collecting events, text files to
+to records, sound recordings to collecting events, text files to
 agents, and any number of possibilities. A special class of Media
 paginates multi-page documents (*e.g.*, JPG field notebook scans),
 allowing book-like browsing. TAGs identify user-selected areas of
