@@ -1,17 +1,30 @@
 ---
 title: Higher Geography
 layout: default_toc
-author: Dusty McDonald
-date: 2024-12-15
+author: Dusty McDonald, Michelle Koo
+date: 2025-02-14
 ---
 
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 
 # Geography
 
-Geography has been defined (https://github.com/ArctosDB/internal/issues/366) in Arctos to reflect the administrative nature of asserted geography data. For example, many marine-focused collections wish to assert both marine (where the event took place) and terrestrial (eg perhaps the adjacent land from which permits are issued) geography for various reasons, while there is little or no overlap in spatial definitions of these places.
+Higher Geography is defined in Arctos to reflect the administrative intersections of asserted geographic boundaries that describe the locality of a record. For example, the location of a record occurs in a country, state or provice, county, municipality etc. Many marine-focused collections wish to assert both marine (where the event took place) and terrestrial (e.g. perhaps the administrative land from which permits are issued) geography for various reasons, while there is little or no overlap in spatial definitions of these places. [issue ref](https://github.com/ArctosDB/internal/issues/366) 
+
+Higher Geography provides a lexicon of geographic terms that are consistent across all collections in Arctos and, where appropriate, consistent with consolidator websites’ generally accepted lexicon. In Arctos, the function of higher geography is to accommodate marine and terrestrial authoritative sources (GADM and IHO, respectively), with accommodations for where the authorities are out of date.
+
+Terrestrial terms in Higher Geography are based on GADM administrative areas (countries, states/provinces, and counties where applicable). Marine and aquatic terms are based on IHO oceans and seas. Higher Geography terms are required to match an authority’s term in order to maintain standardized, clean, and realistic data; however, Higher Geography terms in Arctos do not themselves carry spatial data. 
+
+When collections want to curatorially assert both terrestrial administrative areas and marine geography, Higher_geog is a concatenated value of GADM and IHO terms. For example, the higher geography of a specimen collected in Florida Bay off the coast of Monroe county Florida  may be "Gulf of Mexico, Florida Bay, United States, Florida, Monroe County".
+
+When the authorities that Arctos uses for Higher Geography are found to be out of date, missing data, or containing errors, the Geography Committee will use Wikipedia to create terms when requested by Arctos users. See below for Geography creation request guidelines.
+
+Specific controlled values for records that do not have a defined Higher Geography:
+ - No information exists (i.e., we don't know) - [no higher geography recorded](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69)
+ - Information may be available but curatorial decision is to not specify here (i.e., we refuse to say) - [no specific higher geography](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350)
+
+
+
 
 ## Structure
 
@@ -23,35 +36,33 @@ Primary key, internal, not stable.
 
 A continent is the largest, terrestrial, contiguous geographic region or area as defined by accepted sources and that meet the needs of Arctos users. First level division. We currently recognize seven continents: Africa, Antarctica, Asia, Europe, North America, Oceania, South America.
 
-Source: Wikipedia and GBIF.
-Contents: Links: https://en.wikipedia.org/wiki/Continent#Number_of_continents; https://gbif.github.io/gbif-api/apidocs/org/gbif/api/vocabulary/Continent.html
+Source: [Wikipedia (continents)](https://en.wikipedia.org/wiki/Continent#Number_of_continents) and [GBIF (continents)](https://gbif.github.io/gbif-api/apidocs/org/gbif/api/vocabulary/Continent.html)
+
 
 ### ocean
 
 An ocean is a conventional division of the global body of salt water into a basin as enumerated by accepted sources that meet the needs of Arctos users. First level division. We currently recognize five: Arctic Ocean, Atlantic Ocean, Indian Ocean, Pacific Ocean, Southern Ocean
 
-Sources: Wikipedia and IHO.
-
-Links: https://en.wikipedia.org/wiki/Ocean; https://www.vliz.be/en/imis?module=ref&refid=78851; https://marineregions.org/gazetteer.php?p=browser 
+Sources: [Wikipedia (ocean)](https://en.wikipedia.org/wiki/Ocean) and [IHO (ocean)](https://marineregions.org/gazetteer.php?p=browser); https://www.vliz.be/en/imis?module=ref&refid=78851
 
 
 ### sea
 
-Definition: A sea is a subdivision of an ocean. Seas are usually larger than lakes, and usually smaller than an ocean and frequently surrounded by more landmass. Second level division.
+A sea is a subdivision of an ocean. Seas are usually larger than lakes, and usually smaller than an ocean and frequently surrounded by more landmass. Second level division.
+
 Most seas will be associated with a first level division ocean, but unlike administrative regions, an ocean is not an absolute requirement for the Sea to be used as the highest level in Higher Geography. For example: Gulf of Oman, Mediterranean Sea, Bass Strait may not have an associated Ocean.
 
-Sources: Wikipedia, Marine Regions, IHO.
+Sources: [Wikipedia (seas)](https://en.wikipedia.org/wiki/List_of_seas_on_Earth), [Marine Regions, IHO](https://marineregions.org/gazetteer.php?p=browser); https://www.vliz.be/en/imis?module=ref&refid=78851
 
-Links: https://en.wikipedia.org/wiki/List_of_seas_on_Earth; https://www.vliz.be/en/imis?module=ref&refid=78851; https://marineregions.org/gazetteer.php?p=browser 
-
-Contents: The initial list will contain the 105 IHO Sea Areas from Marine Regions. This list can be seen here: https://arctos.database.museum/place.cfm?sch=geog&sea=_.
+Contents: The initial list will contain the 105 IHO Sea Areas from Marine Regions. [See list](https://arctos.database.museum/place.cfm?sch=geog&sea=_)
 
 Waterbodies that are considered “marginal seas” can be considered as Seas for purposes of higher geography concatenation ( source: https://en.wikipedia.org/wiki/List_of_seas_on_Earth#Largest_seas_by_area )
 
 ### waterbody
 
-(Awaiting definition by the Arctos Geography Committee)
+(Awaiting guidelines and recommendations by the Arctos Geography Committee)
 
+Use ocean and sea for terms for now
 
 ### country
 
@@ -61,8 +72,6 @@ Source: GADM and identified backup (Wikipedia) for missing or erroneous data
 
 Link: (https://gadm.org/index.html) and identified backup (Wikipedia) for missing or erroneous data
 Contents: see GADM (Admin0 0)
-
-
 
 
 ### state_prov
@@ -151,7 +160,7 @@ Geography Request Requirements:
 
 # Spatial
 
-Spatial data are maintained separately from geography, and may be used to failitate search or suggest spatial affiliation.
+Spatial data are maintained separately from geography, and may be used to facilitate search or suggest spatial affiliation.
 
 
 
