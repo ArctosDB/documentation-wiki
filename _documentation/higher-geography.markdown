@@ -56,7 +56,7 @@ Sources: [Wikipedia (seas)](https://en.wikipedia.org/wiki/List_of_seas_on_Earth)
 
 Contents: The initial list will contain the 105 IHO Sea Areas from Marine Regions. [See list](https://arctos.database.museum/place.cfm?sch=geog&sea=_)
 
-Waterbodies that are considered “marginal seas” can be considered as Seas for purposes of higher geography concatenation ( source: https://en.wikipedia.org/wiki/List_of_seas_on_Earth#Largest_seas_by_area )
+Waterbodies that are considered “marginal seas” can be considered as Seas for purposes of higher geography concatenation [(Wikipedia (seas by area)](https://en.wikipedia.org/wiki/List_of_seas_on_Earth#Largest_seas_by_area)
 
 ### waterbody
 
@@ -68,19 +68,16 @@ Use ocean and sea for terms for now
 
  A sovereign state, nation or other first-level political entity as listed with an listed by ISO country code. Acceptable values are available in referenceable gazetteers and compendia; Arctos currently has adopted the Database of Global Administrative Areas (GADM) for its internal administrative boundaries (i.e., Admin0).
 
-Source: GADM and identified backup (Wikipedia) for missing or erroneous data 
+Source: [GADM](https://gadm.org/index.html) and alternative source Wikipedia for missing or erroneous data 
 
-Link: (https://gadm.org/index.html) and identified backup (Wikipedia) for missing or erroneous data
 Contents: see GADM (Admin0 0)
 
 
 ### state_prov
 
+The primary administrative subdivision of a country as listed by the Arctos country authority (i.e., GADM Level 1 aka State/Province).
 
-The primary administrative subdivision of a country as listed by the Arctos country authority (i.e., GADM Level 1 or State/Province).
-Source: GADM and identified backup (Wikipedia) for missing or erroneous data 
-
-Links: (https://gadm.org/index.html) and identified backup (Wikipedia) for missing or erroneous data
+Source: [GADM](https://gadm.org/index.html) and alternative source Wikipedia for missing or erroneous data 
 
 Contents: see GADM (admn 1)
 
@@ -89,39 +86,38 @@ Contents: see GADM (admn 1)
 
 
 Definition:  The secondary administrative subdivision of a Level 1 State/Province as listed by the Arctos country authority (i.e., GADM Level 2 or US county). Level 2 divisions will be created by Community approval only when there is a special need and a significant history of stability. The following are the only entities approved for this treatment:
-United States 
+ - United States 
+ - United Kingdom (source: geography cleanup: United Kingdom [arctos#5178](https://github.com/ArctosDB/arctos/issues/5178))
 
-United Kingdom (source: geography cleanup: United Kingdom arctos#5178)
-
-
-Source: GADM and identified backup (Wikipedia) for missing or erroneous data 
-
-
+Source: [GADM](https://gadm.org/index.html) and alternative source Wikipedia for missing or erroneous data 
 
 
 
 ### quad
+Pending review
 
-(Awaiting definition by the Arctos Geography Committee)
+Reference: [Locality Attribute Code Table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#attribute_type)
+
+The name of the U. S. Geological Survey topographic map quadrangle. The name of the quad should include the map scale. Ex. 'Ambler River 1:250,000'. The 1:250,000 series has been used because Alaska lacks anything as inclusive counties; “quads” have been used extensively in organizing collections and interrogating data (Although note that a combination of Borough and Census Area is all-inclusive and mutually exclusive and therefore serves as a suitable if large-scale “county substitute.”). Finer scale quads are used by other collections as sub-county level geography.
 
 
 ### feature
+Pending review
 
-References [ctfeature](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctfeature)
+Reference: [Feature Code Table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctfeature)
 
-(Awaiting definition by the Arctos Geography Committee)
+
 
 
 ### island_group
+Pending review
 
-References [ctisland_group](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctisland_group)
+Reference: [Island Group Code Table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctisland_group)
 
-(Awaiting definition by the Arctos Geography Committee)
 
 
 ### island
-
-(Awaiting definition by the Arctos Geography Committee)
+Pending review
 
 
 ### source_authority
@@ -130,16 +126,15 @@ GADM for administrative terrestrial terms, IHO for marine/aquatic terms. Wikiped
 
 ### geog_remark
 
-Information in this field is intended to provide guidance and clarification in future geography creation or merge events, and is not searchable nor intended for public display.
+Remarks field is intended to provide guidance and clarification in future geography creation or merge events, and is not searchable nor intended for public display.
 
-Use remarks to describe remarkable things about the geography itself, such as when the named place existed or how it differs from potentially-confusing other places. Do not use remarks for procedural information or information concerning other data (such as specimens or localities).
-
+Use geographic remarks to describe remarkable things about the geography itself, such as when the named place existed or how it differs from potentially-confusing other places. Do not use remarks for procedural information or information concerning other data (such as specimens or localities).
 
 
 
 ### higher_geog
 
-Generated concatenation of comma-sepated terms (in the order above, as of this writing). Serves as a (unique) 'handle' for the data object; what's entered during data entry.
+Generated concatenation of comma-separated terms (in the order above, as of this writing). Serves as a unique ‘handle’ for the data object; what’s entered during data entry (i.e., creation of the higher geography “code table” value).
 
 
 
@@ -147,14 +142,14 @@ Generated concatenation of comma-sepated terms (in the order above, as of this w
 
 ## Creation Guidelines
 
-When the authorities that Arctos uses for Higher Geography are found to be out of date, missing data, or containing errors, the Geography Committee will use Wikipedia as a backup to create terms when requested by Arctos users. 
+When the authorities that Arctos uses for Higher Geography are found to be out of date, missing data, or containing errors, the Geography Committee can use Wikipedia as a alternative authority to create terms by request. 
 
-To request the addition of a higher geography term, aquatic or terrestrial, submit a code table request in the main Arctos repository (https://github.com/ArctosDB/arctos/issues/new/choose). Issues will be discussed and approved by the Geography Committee, and implemented by users with role manage_geography (Dusty, Michelle). Please include relevant links to sources for the most exclusive terrestrial unit for the requested geographies. For example, include a Wikipedia link to the relevant Admin level 0, 1, or 2 terrestrial unit, whatever is most specific to the request.
+To request the addition of a higher geography term, aquatic or terrestrial, submit a code table request in the [main Arctos forum](https://github.com/ArctosDB/arctos/issues/new/choose). That will allow for regular review and appropriate staging: discussion by community and eventual approval by the Geography Committee, and implementation by Code Table administrators (role manage_geography). Please include relevant links to sources for the most exclusive terrestrial unit for the requested geographies. For example, include a Wikipedia link to the relevant Admin level 0, 1, or 2 terrestrial unit, whatever is most specific to the request.
 Geography Request Requirements:
 * Requested geography term must be present in GADM, IHO, or Wikipedia (when GADM or IHO are lacking). 
 * Ideally, GADM or IHO term is linked to a shape file, ensuring that the geographic term is grounded in reality. When the term is from Wikipedia, the Geography Committee will evaluate the request based on consistency, reasonableness, and benefit to the requesting collection and the organization overall.
 * GADM administrative terms that are a subdivision of a higher level administrative division must include the higher level term(s). For example, a GADM Level 1 division (state or province) must be preceded by the Level 0 entity (the country the state is in). 
-* Arctos will handle in higher geography up to admin level 2 for US (other countries to be discussed and handled later, as requested by members of the community)
+* Arctos will handle in higher geography up to admin level 2 for the United States  (other countries to be discussed and handled later, as requested by members of the community)
 
 
 
