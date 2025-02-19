@@ -5,10 +5,10 @@ layout: default_toc
 
 # GeoLocate
 
-Data Entry now and Edit Locality now offer an inline georeferencing
-tool, courtey of the
-[GEOLocate](https://www.geo-locate.org) project. While very
-cool, this tool is not magic; you, the user, are still responsible for
+Data Entry and Edit Locality offer an inline georeferencing
+tool,
+[GEOLocate](https://www.geo-locate.org). While very
+convenient, this tool is not magic; you, the user, are still responsible for
 the end result.
 
 You must use an HTML5-compliant browser (that’s FireFox) to use this
