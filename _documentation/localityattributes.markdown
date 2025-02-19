@@ -1,18 +1,36 @@
 ---
 title: Locality Attributes
-author: Dusty McDonald, Teresa Mayfield-Meyer
+author: Dusty McDonald, Teresa Mayfield-Meyer, Michelle Koo
 layout: default_toc
+date: 2025-02-18
 ---
 
 # Locality Attributes
 
-Locality Attributes in Arctos are used to add descriptive terms to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). These terms are controlled by the vocabulary contained in the [ctlocality_attribute_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) code table. For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
+Locality Attributes in Arctos are used to add descriptive terms and information to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). Most terms are controlled by the vocabulary contained in the [ctlocality_attribute_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) code table. 
 
-The terms applied using Locality Attributes can generally be summarized in the following groups [Stratigraphic Information](#stratigraphi-information), [Petrology](#petrology), [Biochronology](#biochronology), [Public Land Survey System](#public-land-survey-system), [landholder](#site-land-status), and a [locality encumbrance](#locality-encumbrance) attribute for localities that need to be excluded from public view. 
+Locality Attributes can generally be summarized in the following groups: 1) Geologic or Stratigraphic Information, 2) Geographic: [Public Land Survey System](#public-land-survey-system), [landholder](#site-land-status), and 3) Curatorial: [locality access](#locality-encumbrance) to denote localities that need to be excluded from public view. For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
 
-## Stratigraphic Information
+## Geologic or Stratigraphic
+Current code table terms in Arctos:
+ - biochron - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#biochron)
+ - biostratigraphic zone  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#biostratigraphic_zone)
+ - Eon/Eonothem  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#eon_eonothem)
+ - Era/Erathem  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#era_erathem)
+ - geology remarks  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#geology_remarks)
+ - informal chronostratigraphy  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#informal_chronostratigraphy)
+ - informal lithostratigraphy  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#informal_lithostratigraphy)
+ - lithodemic suite  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#lithodemic_suite)
+ - lithostratigraphic bed  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#lithostratigraphic_bed)
+ - lithostratigraphic formation  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#lithostratigraphic_formation)
+ - lithostratigraphic group  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#lithostratigraphic_group)
+ - lithostratigraphic member  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#lithostratigraphic_member)
+ - Series/Epoch  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#series_epoch)
+ - Stage/Age  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#stage_age)
+ - Substage/Subage  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#substage_subage)
+ - System/Period  - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#system_period)
 
-Geologic strata may be classified according to many different properties. Each classification has its own distinctive nomenclature and some also include a hierarchical structure. The following kinds of strata are currently represented in Arctos: 
+Geologic strata may be classified according to many different properties. Each classification has its own distinctive nomenclature and some also include a hierarchical structure. The following kinds of strata are currently represented in Arctos:
 
 ### Biostratigraphy 
 <a href="https://en.wikipedia.org/wiki/Biostratigraphy">Biostratigraphy</a> is the branch of geologic stratigraphy in which strata are based on the fossil content of the rock bodies.  Biostrata can be added to localities using the biostratigraphic zone locality attribute. Biostratigraphic zone values are controlled by the [ctbiostratigraphic_zone](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctbiostratigraphic_zone) code table. 
@@ -47,7 +65,24 @@ In paleontology, <a href="https://en.wikipedia.org/wiki/Biochronology">biochrono
  
  - <a href="https://en.wikipedia.org/wiki/Biochronology#Land-vertebrate_ages">Land Vertebrate Faunachrons</a> - Land-vertebrate "ages" (LVAs) or faunachrons have been proposed that use other vertebrates such as dinosaurs. 
 
-## Public Land Survey System
+## Geographic
+Current code table terms in Arctos:
+ - drainage - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#drainage)
+ - feature - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#feature)
+ - landholder - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#landholder)
+ - quad - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#quad)
+ - TRS aliquot - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#trs_aliquot)
+ - TRS range - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#trs_range)
+ - TRS section - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#trs_section)
+ - TRS township - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#trs_township)
+ - USGS HUC 8-digit - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#usgs_huc_8_digit)
+ - water body - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#water_body)
+
+### Landholder
+
+The landholder is the legal landowner or government land administration agency. Landholder values are controlled by the [ctlandholder](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlandholder) code table. Private property should be designated as private with the "private" landholder attribute and property ownership can be recorded in the attribute remark.
+
+### Public Land Survey System
 
 The <a href="https://en.wikipedia.org/wiki/Public_Land_Survey_System">Public Land Survey System</a> (PLSS) is the surveying method developed and used in the United States to plat, or divide, real property for sale and settling. Public Land Survey System information can be added to localities using the following locality attributes:
 
@@ -56,15 +91,31 @@ The <a href="https://en.wikipedia.org/wiki/Public_Land_Survey_System">Public Lan
 - TRS range - A measure of the distance east or west from a referenced principal meridian, in units of six miles. TRS range values are controlled by the [cttrs_range](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttrs_range) code table. 
 - TRS aliquot - A terse, hierarchical reference to a piece of land, in which successive subdivisions of some larger area are appended to the beginning of the reference. For example, SW1/4 NW1/4 S13, T1SR20E refers to the southwest quarter of the northwest quarter of section 13 of Township 1 South Range 20 East (a 40-acre parcel). TRS aliquot is a free text attribute, but it is recommended that the format shown above be followed in order to allow for more accurate search results when using the TRS aliquot attribute.
 
-## Landholder
+## Curatorial/ User 
+Current terms in Arctos:
+ - data management history - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#data_management_history)
+ - georeference source - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#georeference_source)
+ - locality access - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#locality_access)
+ - locality label - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#locality_label)
+ - previous geography - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#previous_geography)
+ - site found - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#site_found)
+ - site identifier - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#site_identifier)
+ - biota remarks - [ ct link ](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#biota_remarks)
+ 
+ 
+### Locality Access
 
-The landholder is the legal landowner or government land administration agency. Landholder values are controlled by the [ctlandholder](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlandholder) code table. Private property should be designated as private with the "private" landholder attribute and property ownership can be recorded in the attribute remark.
+When it is necessary to hide a locality from public view, use of the access attribute will limit access to only the collection and users that can manage its data. For more on this attribute, see [Encumbering Locality](http://handbook.arctosdb.org/how_to/How-to-Encumber-Locality.html).
 
-## Locality Encumbrance
+### Site Identifier
 
-When it is necessary to hide a locality from public view, use the private (access) attribute. For more on this attribute, see [Encumbering Locality](http://handbook.arctosdb.org/how_to/How-to-Encumber-Locality.html#encumbering-locality).
+Identifiers may be local or come from external resources. When possible, supply an identifier that is persistent and globally unique.
 
-### Structure
+#### Special Site Identifier: Mineralogy Database - Mindat
+
+<a href="https://www.mindat.org/countrylist.php">Mindat localities</a> may be represented in Arctos with the url for the Mindat location. Add the site identifier attribute to the locality, enter the Mindat url for the location in the attribute value and enter "Mindat" as the locality attribute determiner.
+
+## Structure
 
 [Locality Attributes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) attach information to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). Each locality may contain any number of locality attributes. Each Locality Attribute may be accompanied by a determiner (an [Arctos Agent](http://handbook.arctosdb.org/documentation/agent.html)), determination date, determination method, units if required, and a remark. 
 
@@ -85,13 +136,7 @@ When it is necessary to hide a locality from public view, use the private (acces
 
 Locality attributes are asserted individually, however, chronostratigraphic terms (Eon/Eonothem, Era/Erathem, System/Period, Series/Epoch, Stage/Age, Substage/Subage) include a hierarchical structure which makes it possible to locate cataloged items attributed to strata which is more specific than the search term.
 
-## Site Identifier
 
-Identifiers may be local or come from external resources. When possible, supply an identifier that is persistent and globally unique.
-
-### Mindat
-
-<a href="https://www.mindat.org/countrylist.php">Mindat localities</a> may be represented in Arctos with the url for the Mindat location. Add the site identifier attribute to the locality, enter the Mindat url for the location in the attribute value and enter "Mindat" as the locality attribute determiner.
 
 ## Edit this Documentation
 
