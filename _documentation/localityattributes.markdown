@@ -119,17 +119,18 @@ Identifiers may be local or come from external resources. When possible, supply 
 
 [Locality Attributes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) attach information to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). Each locality may contain any number of locality attributes. Each Locality Attribute may be accompanied by a determiner (an [Arctos Agent](http://handbook.arctosdb.org/documentation/agent.html)), determination date, determination method, units if required, and a remark. 
 
-|Name                                  |`Null`?    |Type|
-|--------------------------------------|-----------|----|
-|`LOCALITY_ATTRIBUTE_ID`               |`NOT NULL` |`NUMBER`|
-|`LOCALITY_ID`                         |`NOT NULL` |`NUMBER`|
-|`LOCALITY_ATTRIBUTE_TYPE`             |`NOT NULL` |`VARCHAR2(255)`|
-|`LOCALITY_ATTRIBUTE_VALUE`            |`NOT NULL` |`VARCHAR2(255)`|
-|`LOCALITY_ATTRIBUTE_UNITS`            |           |`VARCHAR2(255)`|
-|`LOCALITY_ATTRIBUTE_DETERMINER`       |           |`VARCHAR2(255)`|
-|`LOCALITY_ATTRIBUTE_DETR_DATE`        |           |`DATE`|
+|Name                                  |`Null`?    |Type| 
+|--------------------------------------|-----------|----| 
+|`LOCALITY_ATTRIBUTE_ID`               |`NOT NULL` |`NUMBER`| 
+|`LOCALITY_ID`                         |`NOT NULL` |`NUMBER`| 
+|`LOCALITY_ATTRIBUTE_TYPE`             |`NOT NULL` |`VARCHAR2(255)`| 
+|`LOCALITY_ATTRIBUTE_VALUE`            |`NOT NULL` |`VARCHAR2(255)`| 
+|`LOCALITY_ATTRIBUTE_UNITS`            |           |`VARCHAR2(255)`| 
+|`LOCALITY_ATTRIBUTE_DETERMINER`       |           |`VARCHAR2(255)`| 
+|`LOCALITY_ATTRIBUTE_DETR_DATE`        |           |`DATE`| 
 |`LOCALITY_ATTRIBUTE_DETR_METHOD`      |           |`VARCHAR2(255)`|
 |`LOCALITY_ATTRIBUTE_REMARK`           |           |`VARCHAR2(4000)`|
+
  
 
 ### Searching
