@@ -1,8 +1,8 @@
 ---
 title: How To Encumber Locality Data
 layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: 2019-11-22
+author: Teresa J. Mayfield-Meyer, Michelle Koo
+date: 2025-01-15
 ---
 
 [Encumbrance Documentation](/documentation/encumbrance)
@@ -14,18 +14,26 @@ Encumbrances restrict certain aspects of catalog records from the public view, u
 
 If the only locality data that needs to be encumbered are coordinates, using the encumbrance funcionality in Arctos may be the best option. See [How to Create an Encumberance](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Create-an-Encumbrance.markdown)
 
-Some items to be aware of when using this option:
+Please note:
 
- - Encumbrances expire, so if no one renews an encumbrance, the data will become publicly available upon the specified expiration date (which is limited to five years).
+ - Encumbrances expire, so if no one renews an encumbrance, the data will become publicly available upon the specified expiration date.
  - Coordinates can often be inferred from other locality data.
 
-## Encumbering Locality
+For these reasons, we recommend considering the second option:
 
-When it is necessary to encumber Specific Locality or to more permanently encumber locality information, another option is avaialable.  Adding the locality attribute "access" with the value of "private" to any locality will hide the locality both in catalog records and in locality searches. It will also hide collecting and record events that use the locality. When using this option, it is adviseable to create two catalog record events for any affected catalog records, one with the detailed locality information and the private access locality attribute, and a second with a the most general locality information that can be made available that does not include the private access locality attribute.
+## Restricting Access to the Entire Locality by Collection
+
+To restrict public access to the entire Locality event to only curatorial management access, this option is recommended. Add all the locality data as you would for any locality (e.g. higher geography, specific locality, coordinates, and attributes). Be sure to use the Locality Attribute ``` locality_access``` [ct link](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#locality_access) and set the value to your collection GUID prefix (e.g., MVZ:Herp). 
+
+Adding the locality attribute "access" to a specific collection to any locality will publicly hide the locality both in catalog records and in locality searches. It will also hide collecting and record events that use the locality. 
+
+If your collection GUID prefix is not in the drop down option, then simply request it to be added by filing an issue. 
+
+When using this option, it is possible to create a second catalog record event for any affected catalog records, which has general locality information that can be made public or notes that additional information is available.
 
 ### Access - Private Example
 
-The New Mexico Museum of Natural History and Science (NMMNH) Paleontology collection includes fossils collected from federally protected sites as well as private property. As such, the museum is required to withhold information about these collection sites unless requested and approved for specific research. The museum is also a state-funded institution with the mission to "preserve and interpret the distinctive natural and scientific heritage of New Mexico through extraordinary collections, research, exhibits and programs designed to ignite a passion for lifelong learning." In placing the collection data into Arctos, the museum is fostering this mission, but may also be violating agreements with federal and private lands to keep locality information encumbered because even if no coordinates are provided, specific locality could provide enough information to allow the sites to be discovered by fossil poachers or other unauthorized collectors. For this reason, each NMMNH Paleo record contains two catalog record events: 1) one which includes all known locality information and is hidden from public view and 2) one which includes higher geography only. Only those with administrative access to the collection in Arctos can view, edit, or download the research event information.
+The New Mexico Museum of Natural History and Science (NMMNH) Paleontology collection includes fossils collected from federally protected sites as well as private property. The museum is required to withhold information about these collection sites unless requested and approved for specific research. Additionally, the NMMNH is a state-funded institution with the mission to "preserve and interpret the distinctive natural and scientific heritage of New Mexico through extraordinary collections, research, exhibits and programs designed to ignite a passion for lifelong learning." In placing the collection data into Arctos, the museum is fostering this mission, but also may be violating agreements with federal and private lands to keep locality information encumbered because even if no coordinates are provided, specific locality could provide enough information to allow the sites to be discovered by fossil poachers or other unauthorized collectors. Thus, each NMMNH Paleo record contains two catalog record events: 1) one which includes all known locality information and is hidden from public view; and 2) one which includes higher geography only. Only those with administrative access to the collection in Arctos can view, edit, or download the research event information.
 
 #### NMMNH:Paleo:1
 
