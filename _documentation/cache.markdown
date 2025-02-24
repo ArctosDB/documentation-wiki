@@ -12,7 +12,7 @@ Data are flattened and cached in two wide spreadsheet-like tables, FLAT and FILT
 ## Structure
 
 
-<https://docs.google.com/spreadsheets/d/15w_JYNP1w4XeIB6tAZHIxXeA5ea8Ue9BYTVKfQggVUs/edit?gid=0#gid=0>  is a work in progress; file an Issue for assistance.
+<https://docs.google.com/spreadsheets/d/1nsgXK6xLWSPEgi8ZxIOTpxp5Zz3DJw8oe7IAZzbQLk8>  is a work in progress; file an Issue for assistance.
 
 
 ## Status
