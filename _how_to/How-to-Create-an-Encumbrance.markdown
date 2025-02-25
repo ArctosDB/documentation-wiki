@@ -3,13 +3,14 @@ title: How To Create an Encumbrance
 layout: default_toc
 ---
 
-[Encumbrances Documentation](https://handbook.arctosdb.org/documentation/encumbrance)
+[Encumbrances Documentation](/documentation/encumbrance)
 
 # How to Create an Encumbrance
 
 Encumbrances restrict certain aspects of specimen/lot records from the public view, usually to protect personal identity, proprietary data, or the provenance of a vulnerable population/habitat. Many encumbrances are temporary and may be reversed when specified conditions change (publication of research, expiration or retraction of encumbering legislation, eradication of critical habitat where specimen/lots were collected, etc.).
 
 #### NAVIGATION: Tools Directory → Records → Encumbrance:Manage
+
 
 ## Create an Encumbrance
 
@@ -22,7 +23,7 @@ Encumbrances restrict certain aspects of specimen/lot records from the public vi
      **NOTE:** Encumbrances MUST have an Expiration Date that is within five years of the **Made Date**. While some encumbrances may be intended to be permanent, a review every five years is reasonable. Notification via email to the person(s) with manage collection authority for the collection(s) to which the encumbrance applies will be notified prior to expiration and will then be able to extend the expiration. For this reason, it is not recommended to use Encumbrances to mask truely sensitive information where the redaction could lapse.
 * **Name** the Encumbrance (required). This name should be as general as possible with the aim of avoiding separate encumbrances when the encumbrancer and/or the encumbering action are the same.
 * Select an **Encumbrance Action** from the drop-down menu to initiate the restriction of specimen/lot data from the public view in Arctos (required). The "Restrict Usage" option masks the entire record from public view. The other menu options restrict partial data from public view.  
-     [Encumrance Actions currently available in Arctos](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTENCUMBRANCE_ACTION)
+     [Encumbrance Actions currently available in Arctos](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTENCUMBRANCE_ACTION)
 * Enter any **Remarks** regarding the Encumbrance amd/or specimen/lots to be encumbered.
 * Click “Create New Encumbrance” to save.
 
