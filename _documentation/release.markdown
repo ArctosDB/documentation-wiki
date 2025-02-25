@@ -6,6 +6,10 @@ layout: default_toc
 
 # Release Notes
 
+## xxx
+
+* <https://github.com/ArctosDB/dev/issues/177> - enhance noise detection
+
 ## 20250203
 
 * <https://github.com/ArctosDB/dev/issues/169> - maintenance
