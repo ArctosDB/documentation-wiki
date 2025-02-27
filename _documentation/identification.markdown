@@ -100,11 +100,11 @@ See [this](https://github.com/ArctosDB/arctos/issues/6579) for one explanation o
 
 You can also have more than one order = 1 to indicate that there are more than one accepted identification related to the catalog record. This is important for cultural and geological collections that may need to have more than one accepted identification on a record (a fossil in a bead of amber for example). It might also be used in biological collections when several different determiners have reached the same conclusion about the identification assigned to a biological individual.
 
-## Determined Date
+## Made Date
 
 `Identification . Made_Date VARCHAR2(22) null`
 
-[ISO8601](/documentation/dates) date-type. The
+[ISO8601](/documentation/dates) date-type. Date on which the identification was made. The
 chronological order of determinations may be the most critical issue.
 
 
