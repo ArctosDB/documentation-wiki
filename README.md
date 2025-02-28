@@ -1,15 +1,17 @@
-# Documentation Jekyll Site
+# Arctos Handbook's Documentation Jekyll Site
 
-Based off the initial Wordpress redesign visible [here](http://velociraptorsystems.com/samples/mvz_tests/arctosdb/) (repo: https://github.com/museum-of-vertebrate-zoology/wp-arctos-theme )
+Based off the initial Wordpress redesign by Phillip Kahn, which is [archived here](https://github.com/museum-of-vertebrate-zoology/wp-arctos-theme) 
 
+View this site at **[https://handbook.arctosdb.org](https://handbook.arctosdb.org)**
+To start on this website, use the search bar to find pages of your topic of interest
 
-View this at **https://handbook.arctosdb.org**
+# For Editors/ Authors
 
-# Creating new files
+## Creating new files
 
 Save them as `.markdown` files. On GitHub pages, they may not render correctly with a different extension.
 
-# Organization
+## Organization
 
 Different types of writeups are organized into [Jekyll collections](https://jekyllrb.com/docs/collections/), kept in files that begin with [YAML Front matter](https://jekyllrb.com/docs/frontmatter/), like [this sample file](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/bd5b3148c9b098ade2446a192c4d5655aa4a14bb/_documentation/sample.markdown).
 
@@ -19,9 +21,10 @@ The collection directories are:
 
 - `_documentation`
 - `_how_to`
+- `_best_practices`
 
 
-# Creating new collections
+## Creating new collections
 
 To create a collection, do the following:
 
@@ -32,3 +35,5 @@ To create a collection, do the following:
     output: true
   ```
 3. Create an `index.html` file for your new collection, and in the front matter, give it the layout `collection_index`.
+
+### [Contact us if you would like to contribute](mailto:arctos-working-group-officers@googlegroups.com)
