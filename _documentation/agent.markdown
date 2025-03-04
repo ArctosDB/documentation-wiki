@@ -1,8 +1,7 @@
 ---
 title: Agents
 layout: default_toc
-author: Teresa J. Mayfield-Meyer, ArctosDB, DLM
-date: 2021-11-11, 2016-12-01, 2024-08-13
+author:  DLM
 ---
 
 # Agents
@@ -100,6 +99,38 @@ Foreign key to agent.agent_id; agent deleting or changing an attribute; this is 
 
 update or delete
 
+# Agent Rank
+
+Agent Rank is an internal-only system of ranking Agents to inform future interactions (such as loan requests).
+
+
+## agent_rank_id
+
+Internal key
+
+## agent_id 
+
+Key to agent
+
+## agent_rank
+
+Ranking; foreign key <https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type>
+
+## ranked_by_agent_id
+
+Required; key to agent making the assertion
+
+## remark
+
+Comment
+
+## transaction_type
+
+Type of interaction involved in this evaluation. <https://arctos.database.museum/info/ctDocumentation.cfm?table=cttransaction_type>
+
+## rank_date
+
+date
 
 # Related Entities
 
