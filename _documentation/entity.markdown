@@ -1,6 +1,6 @@
 ---
 title: Entities
-author: ArctosDB, Teresa J Mayfield-Meyer
+author: DLM
 date: 2024-06-11
 layout: default_toc
 ---
@@ -9,7 +9,7 @@ layout: default_toc
 
 # Entities
 
-Entities in Arctos are assemblages of catalog records related in some particular way.
+Entities in Arctos are assemblages of catalog records related in some way.
 
 ## Usage
 
@@ -50,9 +50,6 @@ Instructions for doing specifc tasks related to Agents in Arctos
 
 * [How To Handle Organisms in Arctos](https://handbook.arctosdb.org/how_to/Organisms.html)
   
-## Community Discussion
-
-[Github Issue #262](https://github.com/ArctosDB/documentation-wiki/issues/262)
 
 ## Edit this Documentation
 
