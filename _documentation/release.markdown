@@ -6,9 +6,25 @@ layout: default_toc
 
 # Release Notes
 
-## xxx
+## 20240303
 
+
+* <https://github.com/ArctosDB/dev/issues/181> - Display-only bug fix
+* <https://github.com/ArctosDB/dev/issues/123> - Finalize user-supplied SQL protections
+* <https://github.com/ArctosDB/dev/issues/188> - bugfix
+* <https://github.com/ArctosDB/dev/issues/182> - Display-only bug fix
 * <https://github.com/ArctosDB/dev/issues/177> - enhance noise detection
+* <https://github.com/ArctosDB/dev/issues/185> - bugfix involving duplicate loan items
+* <https://github.com/ArctosDB/dev/issues/134> - add a place to note account maintenance actions
+* <https://github.com/ArctosDB/dev/issues/190> - hopeful bugfix)
+* <https://github.com/ArctosDB/dev/issues/191> - update to reflect changes in NCBI webservice
+* <https://github.com/ArctosDB/dev/issues/194> - bugfix
+* <https://github.com/ArctosDB/dev/issues/186> - add taxon name type to taxonomy export to support filtering by globalnames
+* <https://github.com/ArctosDB/dev/issues/180> - add link to docs
+* <https://github.com/ArctosDB/dev/issues/61> - remove unused clutter
+* <https://github.com/ArctosDB/dev/issues/172> - better formatting/UI for project funding USD
+* <https://github.com/ArctosDB/dev/issues/192> - remove inapplicable links in loan form
+
 
 ## 20250203
 
