@@ -23,7 +23,7 @@ Entities can serve many purposes. Examples include:
 
 ### Entity
 
-Arctos Entities are simply catalog records in a special collection. Arctos Entities are identified with a unique identifier (in the form of a URL that begins with https://arctos.database.museum/guid/Arctos:Entity:) and an integer. 
+Arctos Entities are simply catalog records in a special collection. Arctos Entities are identified with a unique identifier (the record GUID) which may serve as a linking or unifying identifier in related records, and the Entity data object may carry data of it's own. Information which pertains to the pack, individual, set, or group but not to any single "component" is appropriate to include. (DO NOT blindly use the 'Entity Magic' tool to replicate data carried by components; carefully consider the detrimental effects of denormalization before including any independent data.)
 
 ### Entity Component Assertions
 
@@ -42,6 +42,7 @@ Catalog records outside of Arctos can use an Arctos Entity url as dwc:organismID
 Adding identifiers that are not Arctos catalog record urls to the Arctos Entity directly will not add new component lines to the entity, but it will alert others that there are associaed catalog records outside of Arctos. If an non-Arctos catalog record can be identified with a url, adding the url will create a link to the associated record. Eventually, we aspire to work with other collection management systems to add compnent details to Arctos Entities in the same way we add components from within Arctos. Who wants to collaborate?
 
 Catalog records bearing an Arctos Entity record GUID as Organism ID will link to the Entity, and provide a link to locate all other records which share the ID.
+
 
 ## How To
 
