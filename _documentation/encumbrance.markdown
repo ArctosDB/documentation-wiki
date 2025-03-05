@@ -60,7 +60,9 @@ Foreign key --> catalog_item
 
 --------
 
+# Related
 
+Note that Encumbrances are but one way to restict access to data. Many code tables restrict data of certain types, and locality attribute [locality access](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#locality_access) provides a mean to share or withhold any "place and time" data, for example.
 
 
 ## Edit this Documentation
