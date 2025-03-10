@@ -46,6 +46,9 @@ The "private" view of this record appears as follows (sensitive information has 
 
 Note the access: private locality attribute in the purple box. This attribute encumbers the locality and values come from the [locality access code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_access).  
 
+### Steps to Encumber Locality
+The Arctos operator steps to make a locality private to a collection and to create a second public locality are currently detailed in the [Geography Handbook](https://docs.google.com/document/d/1dsUTONLnj6IFJCVE8PntOoWkuqJNFxDrZxteLy-rIyc/edit?tab=t.0#heading=h.y5bfchnd2n2y). 
+
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Encumber-Locality.markdown" target="_blank">here</a>.
