@@ -6,7 +6,20 @@ layout: default_toc
 
 # Release Notes
 
-## 20240303
+## 20250313
+
+* <https://github.com/ArctosDB/dev/issues/160> - add private/public flag to record attributes
+* <https://github.com/ArctosDB/dev/issues/189> - eliminate unnecessary encumbrances
+* <https://github.com/ArctosDB/dev/issues/200> - new private record attribute
+* <https://github.com/ArctosDB/dev/issues/201> - encumbarnce cleanup
+* <https://github.com/ArctosDB/dev/issues/202> - encumbarnce cleanup
+* <https://github.com/ArctosDB/dev/issues/198> - encumbarnce cleanup
+* <https://github.com/ArctosDB/dev/issues/197> - encumbarnce cleanup
+* <https://github.com/ArctosDB/dev/issues/199> - component loader buxfix
+
+
+
+## 20250303
 
 
 * <https://github.com/ArctosDB/dev/issues/181> - Display-only bug fix
