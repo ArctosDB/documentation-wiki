@@ -1,8 +1,7 @@
 ---
 title: How To Github - Create and Manage Github Issues for Arctos 
 layout: default_toc
-author: Dusty McDonald, Teresa J. Mayfield-Meyer
-date: 2016-06-06, 2023-07-26
+author: DLM
 ---
 
 # How To Github: Create and Manage Github Issues for Arctos
@@ -53,17 +52,15 @@ to assign the new Issue a number. Be clear and verbose in explaining the need an
  
  Use these pointers to streamline getting the solution you need.
  
- * Tell us your overall goals. We can help only if we understand what you're trying to accomplish in sufficient detail. This will often involve an explanation of why the goal is important - "we want to record *_data_* because researchers need it for *_purpose_*."
- 
- * Tell us *what* you hope to accomplish, not (only) *how* you hope to do so. We will get to how, but beginning the conversation with something like a [Product requirements document](https://en.wikipedia.org/wiki/Product_requirements_document) will generally lead to more robust solutions and avoid  [target fixation](https://en.wikipedia.org/wiki/Target_fixation).
- 
- * Use templates. We have templates for common tasks, they specify the most common information we need. (Issues regarding how to make them better are always welcome.)
- 
- * Include enough information for us to fully understand and replicate the problem or request. This includes but is not limited to
+* Tell us your overall goals or functional requirements. We can help only if we understand what you're trying to accomplish in sufficient detail. This will often involve an explanation of why the goal is important - "we want to record *_data_* because researchers need it for *_purpose_*."
+* Tell us *what* you hope to accomplish, not (only) *how* you hope to do so. We will get to how, but beginning the conversation with something like a [Product requirements document](https://en.wikipedia.org/wiki/Product_requirements_document) will generally lead to more robust solutions and avoid  [target fixation](https://en.wikipedia.org/wiki/Target_fixation).
+* Include enough detail that someone with a solution to the problem - even a very unexpected one - might recognize the situation and offer help.
+*  Include enough detail that someone with a similar problem - even if they might not describe it in the same way - could recognize the solution being offered.
+* Include enough information for us to fully understand and replicate the problem or request. This includes but is not limited to
      * Data as uploaded (ZIPped to attach)
      * URLs
      * Specific sequence of clicks to get to a point of interest
-     * Copy-paste of error messages (particularly the ErrorID - a UUID like ``795B1D17-0461-4A03-B6DC1314448ED77F``)
+     * Text (**not** images!) of error messages (particularly the ErrorID - a UUID like ``795B1D17-0461-4A03-B6DC1314448ED77F``)
      * Screenshots
      * Arctos usernames of involved persons
      
