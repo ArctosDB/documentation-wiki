@@ -5,7 +5,7 @@ layout: default_toc
 
 # Borrows
 
-Borrows record temporary custody of material, and provide a place to hang shipments.
+Borrows are [transactions](/documentation/transactions.html) which record temporary custody of material, and provide a place to hang shipments.
 
 ### transaction_id
 
