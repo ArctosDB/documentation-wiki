@@ -19,12 +19,8 @@ image media, and further relate these areas to records, places, and
 people. Media may be created autonomously, as part of a catalog record,
 or bulkloaded. Additionally, specialized tools have been built to support
 rapid imaging of herbaria and paleontological collections, including capture of
-ancillary data in the form of accession and locality cards. Data about
-media are stored in three tables:
+ancillary data in the form of accession and locality cards.
 
--   Media
--   Media Relations
--   Media Labels
 
 ## Fields in table Media
 
@@ -71,17 +67,21 @@ MIME_TYPE of ‘text/html’ and MEDIA_TYPE of ‘image,’ for example.
 
 ### Preview_URI
 
-The Uniform Resource Identifier (URI) for a preview of the Media item. A
-preview might be something like a thumb-nail sized version of a larger
-image.
+The Uniform Resource Identifier (URI) for a preview of the Media item. A preview might be something like a thumb-nail sized version of a larger image.
 
-> **_NOTE:_** Large thumbnails will not display in Arctos UI. Previews should be less than 10KB.
+Arctos will automatically create and attach previews where possible; this generally works for "normal"  image media, such as JPG and PNG, when it is accessible to the Arctos creation bots. Simply leave preview_uri NULL to let Arctos attempt preview creation.
+
+If previews are created, filesize should be under (preferably much under!) 10K; previews larger than 48K will NOT be displayed. Scale to \~120px. Cropped or otherwise misleading previews should be avoided.
+
+No preview is generally better than bad previews. 
+
+
+
 
 ### media_license_id
 
-All Media should have a license, a legal document which guides and controls acceptable usage. Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_license).
+All Media have a license, a legal document which guides and controls acceptable usage. Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_license).
 
-> **_NOTE:_** Cleanup in progress!
 
 ### media_terms_id
 
@@ -131,6 +131,55 @@ table.
 
 
 
+## TAGs
+
+TAGs relate a specific area of a JPG image to data objects in Arctos.
+
+Comments in TAGs may contain a very specific (and currently very limited) type of markup language in order to form links to specimens in Arctos. This can be useful for negative references: "this area on the field notes probably does NOT refer to that specimen, possible because someone’s mixed some numbers up somewhere along the way." To create a link from a comment TAG to a specimen, simply type doubled square brackets around the GUID-string. Example:
+
+\[\[MVZ:Mamm:184092\]\]
+
+forms a HTML-link to <http://arctos.database.museum/guid/MVZ:Mamm:184092>
+
+> **_NOTE:_**  TAGs also form media relationships for discoverability purposes, see <https://github.com/ArctosDB/arctos/issues/1682>
+
+### tag_id
+
+Internal primary key
+
+### media_id
+
+foreign key --> media
+
+### remark
+
+free text
+
+
+### reftop, refleft, refh, refw, imgh, imgw
+
+Relative position information in pixels.
+
+### collection_object_id
+
+foreign key --> catalog record
+
+### collecting_event_id
+
+foreign key --> event
+
+
+### agent_id
+
+foreign key --> agent
+
+
+
+
+
+
+
+
 ## Media Creation Guidelines
 
 
@@ -154,17 +203,6 @@ the only recommended format for primary images) originals, for
 appropriate choice for a [text
 document](http://arctos.database.museum/media/10187294), especially if
 the resultant file is 2MB!
-
-### Preview
-
-Arctos will automatically create and attach previews where possible; this generally works for "normal" 
-image media, such as JPG and PNG. Simply leave preview_uri NULL to let Arctos attempt preview creation.
-
-If previews are created, filesize should be under (preferably much
-under!) 10K; previews larger than 48K will NOT be displayed. Scale
-to \~120px. Cropped or otherwise misleading previews should be avoided.
-
-No preview is generally better than bad previews. 
 
 
 ## Binary Object Creation Guidelines
@@ -304,23 +342,6 @@ iDigBio), scientific publications, and researchers' home pages.
 Media Keywords are select words and phrases pulled from related objects and Media Labels which exist to facilitate discovery.
 
 
-## TAGs
-
-TAGs relate a specific area of a JPG image to data objects in Arctos.
-
-Comments in TAGs may contain a very specific (and currently very
-limited) type of markup language in order to form links to specimens in
-Arctos. This can be useful for negative references: "this area on the
-field notes probably does NOT refer to that specimen, possible because
-someone’s mixed some numbers up somewhere along the way." To create a
-link from a comment TAG to a specimen, simply type doubled square
-brackets around the GUID-string. Example:
-
-\[\[MVZ:Mamm:184092\]\]
-
-forms a HTML-link to <http://arctos.database.museum/guid/MVZ:Mamm:184092>
-
-> **_NOTE:_**  TAGs also form media relationships for discoverability purposes, see <https://github.com/ArctosDB/arctos/issues/1682>
 
 ## URLs and Stability
 
@@ -375,18 +396,6 @@ which to use in any particular situation.
 	TACC will not host restricted-access Media. Media may be made private by controlling access to the content;
 	use a private password-protected server, a password-protected Google document, archived in a password-protected ZIP file, etc.  
 	
-## How To
-
-Instructions for doing specifc tasks related to Media in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
-
- - [How To Batch Download Images](https://handbook.arctosdb.org/how_to/How-to-Batch-Download-Images.html)
- - [How To Bulkload Media Metadata](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Media-Metadata.html)
- - [How To Create Media](https://handbook.arctosdb.org/how_to/How-to-Create-Media-Images.html)
- - [How To Delete Media](https://handbook.arctosdb.org/how_to/How-To-Delete-Media.html)
- - [How To Edit Media](https://handbook.arctosdb.org/how_to/How-to-Edit-Media.html)
- - [How To Request TACC Access to Media Storage](https://handbook.arctosdb.org/how_to/How-to-Request-TACC-Access-to-Media-Storage.html)
- - [How To Upload Media to TACC](https://handbook.arctosdb.org/how_to/How-to-Upload-Media-to-TACC.html)
- - [How To Understand Locality Media](https://handbook.arctosdb.org/how_to/How-to-understand-locality-media.html)
 
 ## Edit this Documentation
 
