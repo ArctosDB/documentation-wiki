@@ -6,6 +6,22 @@ layout: default_toc
 
 # Release Notes
 
+
+## 20250327
+
+
+* <https://github.com/ArctosDB/dev/issues/125> - further normalize agent type
+* <https://github.com/ArctosDB/dev/issues/207> - component loader bugfix
+* <https://github.com/ArctosDB/dev/issues/203> - improve HTML rendering
+* <https://github.com/ArctosDB/dev/issues/196> - add safeguard
+* <https://github.com/ArctosDB/dev/issues/161> - documentation update
+* <https://github.com/ArctosDB/dev/issues/193> - add management shortcut
+* <https://github.com/ArctosDB/dev/issues/184> - documentation bugfix
+* <https://github.com/ArctosDB/dev/issues/178> - documentation clarification
+* <https://github.com/ArctosDB/dev/issues/176> - simplify search UI
+* <https://github.com/ArctosDB/dev/issues/204> - better account recovery
+* <https://github.com/ArctosDB/dev/issues/183> - handle NULL in mass-verify widget
+
 ## 20250313
 
 * <https://github.com/ArctosDB/dev/issues/160> - add private/public flag to record attributes
