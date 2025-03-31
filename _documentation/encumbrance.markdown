@@ -5,7 +5,7 @@ layout: default_toc
 ---
 # Encumbrance
 
-Encumbrances restrict the visibility of catalog records or record data. Encumbrances should no be confused with [permits](https://handbook.arctosdb.org/documentation/permits.html), which involve acceptable use of materials or information.
+In the strictest sense, an Encumbrance restricts the visibility of catalog record to only the collection managers. Encumbrances should not be confused with [permits](https://handbook.arctosdb.org/documentation/permits.html), which involve acceptable use of materials or information.
 
 
 ## encumbrance_id
