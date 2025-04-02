@@ -7,6 +7,17 @@ layout: default_toc
 # Release Notes
 
 
+## 20250401
+
+
+* <https://github.com/ArctosDB/dev/issues/146> - modify container access permissions
+* <https://github.com/ArctosDB/dev/issues/147> - review
+* <https://github.com/ArctosDB/dev/issues/159> - rebuild cached locality data
+* <https://github.com/ArctosDB/dev/issues/209> - depth to record search results
+* <https://github.com/ArctosDB/dev/issues/213> - formatted_scientific_name init and update
+* <https://github.com/ArctosDB/dev/issues/179> - UI shortcur
+
+
 ## 20250327
 
 
