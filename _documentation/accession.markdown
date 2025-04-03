@@ -7,69 +7,43 @@ layout: default_toc
 
 # Accessions
 
-An accession is a transaction that conveys an item, or (commonly) a group of items received from one source at one time, to an institution. As an administrative (rather than biological) entity, an accession can be delimited by administrative criteria such as previous title, applicable [permits](/documentation/permits.html), or association with a particular [project](/documentation/projects.html). In general, accessioning is the first step of incorporating items into a collection and indicates that the institution has accepted custody of (if not title to) the accessioned material. Accessioning generally precedes cataloging. Therefore, it is unnecessary to have individual item data in order to create an accession. Nevertheless, the nature and disposition of the items' data should be recorded in order to assure that the data can eventually be located for purposes of cataloging.
+An accession is a [transaction](/documentation/transactions.html) that conveys an item, or (commonly) a group of items received from one source at one time, to an institution. As an administrative (rather than biological) entity, an accession can be delimited by administrative criteria such as previous title, applicable [permits](/documentation/permits.html), or association with a particular [project](/documentation/projects.html). In general, accessioning is the first step of incorporating items into a collection and indicates that the institution has accepted custody of (if not title to) the accessioned material. Accessioning generally precedes cataloging. Therefore, it is unnecessary to have individual item data in order to create an accession. Nevertheless, the nature and disposition of the items' data should be recorded in order to assure that the data can eventually be located for purposes of cataloging.
 
-## Accession Fields
+Accessions share all transaction fields, in addition to the following.
 
-### Accession Number
+## transaction_id
 
-`Accn . Accn_Number VARCHAR2(60) not null`
+Foreign Key ---> transactions
 
-Accession Number is a text string assigned to identify the accession for a specific collection.
+## accn_number
 
-### Status
+Accession Number is a text string assigned to identify the accession for a specific collection. Accession Number must be unique for the collection.
 
-`Accn . Accn_Status VARCHAR2(20) not null`
+## accn_type
 
-Accession Status indicates whether or not the accession is cataloged. Values are controlled by a <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaccn_status" class="external">code table</a>. 
+Accession Type describes the means of acquisition. Foreign Key ---> [ctaccn_type]("https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaccn_type)
 
-### Type
+## accn_status 
 
-`Accn . Accn_Type VARCHAR2(35) not null`
+Accession Status indicates status. Foreign Key ---> [ctaccn_status]("https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaccn_status)
 
-Accession Type describes the means of acquisition. Values are controlled by a <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaccn_type" class="external">code table</a>.
 
-### Nature of Material
 
-`Trans . Nature_of_Material VARCHAR2(4000) null`
+## received_date
 
-Nature of Material describes the contents of the accession, including identifications of specimens, specimen parts, geographic origin of the material, etc.
 
-### Received From
+Received Date is the ISO8601 date that the accessioned material was received by the institution.
 
-`Trans_Agent . Agent_ID NUMBER(22) not null`
 
-See [Transaction Documentation](/documentation/transactions.html#transaction-agents) for agent information.
 
-### Received Date  
-
-`Accn . Received_Date VARCHAR2(22) null`
-
-Received Date is the day that the accessioned material was received by the museum.  This must be a valid [date](/documentation/dates).  Default could be the system date when the record was created.
-
-### Entry Date
-
-`Trans . Trans_Date VARCHAR2(22) null`
-
-Entry Date is the day that the accession record was created. This must be a valid [date](/documentation/dates). Default could be the system date when the record was created.
-
-### Remarks
-
-`Trans . Trans_Remarks VARCHAR2(4000) null`
-
-Place for expanding a description of the conditions of acceptance, or for instructions in processing the material.  For example, "Take 50 gram subsamples for fatty-acid analysis."
-
-### Estimated Count
-
-`Accn . Estimated_Count NUMBER(22) null`
+## estimated_count
 
 Accession Estimated Count or “Est. Cnt.” is an integer expressing approximately how many items can be expected to be cataloged as part of an accession. Accession Containers are Containers which hold unprocessed material, e.g., bags of frozen mice can be made Containers and scanned into freezers. Email is sent on every annual anniversary of Transaction Data for accessions which are not "closed" but contain no cataloged items.
 
-### Public Flag
 
-The "Public?" flag allows accession data to be displayed in a public (open to non-operators) page, currently linked to from Search Results. This is useful for displaying accession-level Media, such as UAM Earth Science accession and locality card scans.
+------------
 
-## Data Entry Considerations
+# Data Entry Considerations
 
 You can catalog records in "your collection" that have been accessioned by another collection.  For data entry (through either the data-entry application or the bulkloader) indicate the accession that you wish to use, but put brackets around the part of the accession "number" that indicates the collection.  This effectively tells the bulkloader, "ignore the collection (collection_cde + institution_acronym) to which this record is going to be appended, and indicate the accession based on what is in the brackets." (Though that accession must be present in Arctos.)   Examples include:
 
@@ -77,7 +51,7 @@ You can catalog records in "your collection" that have been accessioned by anoth
 *   An MVZ Bird being entered into an MVZ Mammal accession
 *   An MSB parasite host being entered into an MSB parasite accession
 
-### Example Usage
+## Example Usage
 
 *   Desired accession: 1234.123.Mamm
 *   New Cataloged Item: UAMObs:Mamm 9876
@@ -94,14 +68,7 @@ You can catalog records in "your collection" that have been accessioned by anoth
 *   Default accession: MSB:Host 2012.123 (Does not and should not exist)
 *   Value to enter for Accession: [MSB:Para]2012.123.Para
 
-## How To
-
-Instructions for doing specifc tasks related to Accessions in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
-
- - [How To Create an Accession](https://handbook.arctosdb.org/how_to/How-to-Create-an-Accession.html)
- - [How To Search Transactions](https://handbook.arctosdb.org/how_to/how-to-search-transactions.html)
- - [How To Batch Update Accessions](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Accessions.html)
- - [How To Bulkload Accessions](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Accessions.html)
+---------------
    
 ## Edit this Documentation
 
