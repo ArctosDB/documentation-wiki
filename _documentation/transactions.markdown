@@ -10,7 +10,7 @@ Transactions are actions that effect the coming and going of Cataloged
 Items, and parts thereof. There are three primary types of transactions.
 
 1. [Accessions](/documentation/accession.html) document aquisition. An accession is a necessary prerequisite to cataloging.
-2. [Loans](/documentation/loans/) record movement and usage of parts ("normal" loans) and records ("data" loans). 
+2. [Loans](/documentation/loans.html) record movement and usage of parts ("normal" loans) and records ("data" loans). 
 3. [Borrows](/documentation/borrow.html) record items from other collections lent, and in your collection’s temporary custody. Note that borrows have no link to catalog records.
 
 
