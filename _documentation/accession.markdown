@@ -41,7 +41,8 @@ Received Date is the ISO8601 date that the accessioned material was received by 
 Accession Estimated Count or “Est. Cnt.” is an integer expressing approximately how many items can be expected to be cataloged as part of an accession. Accession Containers are Containers which hold unprocessed material, e.g., bags of frozen mice can be made Containers and scanned into freezers. Email is sent on every annual anniversary of Transaction Data for accessions which are not "closed" but contain no cataloged items.
 
 
-------------
+---
+
 
 # Data Entry Considerations
 
