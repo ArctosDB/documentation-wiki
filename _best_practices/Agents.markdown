@@ -91,8 +91,10 @@ Overloaded Agents - Agent records which in fact represent multiple entities - ar
 
 ### Different Agent, Same Name
 
-Occasionally, two distinct agents will share a name, but there exists a unique key on `preferred_name` so duplicate preferred names are not possible. With some research, it is usually possible to disambiguate the agents by adding initials, middle names, or nicknames. If that is not possible, it may be necessary to add parenthetical information to the
-preferred name, for example "John Doe (southwest mammals)." When this is necessary, it's usually preferable to similarly annotate all agents that share the name to avoid later data entry efforts inadvertently picking the wrong agent. Add a "not the same as" relationship and verbose agent remarks.
+Agents which share a namestring should carry sufficient disambiguating data. That is, do not create a second "John Doe" unless there is sufficient evidence to separate them from the existing Agent.
+
+~~Occasionally, two distinct agents will share a name, but there exists a unique key on `preferred_name` so duplicate preferred names are not possible. With some research, it is usually possible to disambiguate the agents by adding initials, middle names, or nicknames. If that is not possible, it may be necessary to add parenthetical information to the
+preferred name, for example "John Doe (southwest mammals)." When this is necessary, it's usually preferable to similarly annotate all agents that share the name to avoid later data entry efforts inadvertently picking the wrong agent. Add a "not the same as" relationship and verbose agent remarks.~~
 
 Without the unique key, applications which use strings to identify agents, such as the catalog record bulkloader, cannot use preferred names, and it becomes necessary to add unique aliases to pick agents. (Internal forms pick by `agent_id` and names are only "human-readable proxies" to the ID.) The current unique index approach seems less problematic than the alternative, both in getting students to choose the correct agent and in avoiding duplicate agent creation, but neither method is ideal. Address any suggestions or concerns to the Arctos Working Group.  
 
@@ -111,7 +113,9 @@ Relationships between agents can be recorded. Like date of birth and date of dea
 -   Reverend Some Guy Senior, Ph.D
 
 
+## Edit Guidelines
 
+Do not change the fundamental nature of existing agents. For example, if there's a "John Doe" collecting birds in Wyoming in 1990, and you have a "John Doe" who collected grasshoppers in Madagascar in 1872, it should be assumed that these are two separate Agents, and it would be inappropriate to add the latter's information to the former.
 
 
 ## Summary
