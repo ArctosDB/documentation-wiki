@@ -115,7 +115,8 @@ Relationships between agents can be recorded. Like date of birth and date of dea
 
 ## Edit Guidelines
 
-Do not change the fundamental nature of existing agents. For example, if there's a "John Doe" collecting birds in Wyoming in 1990, and you have a "John Doe" who collected grasshoppers in Madagascar in 1872, it should be assumed that these are two separate Agents, and it would be inappropriate to add the latter's information to the former.
+* Do not change the fundamental nature of existing agents. For example, if there's a "John Doe" collecting birds in Wyoming in 1990, and you have a "John Doe" who collected grasshoppers in Madagascar in 1872, it should be assumed that these are two separate Agents, and it would be inappropriate to add the latter's information to the former.
+* Do not remove data; add an end date or an alternative assertion instead.
 
 
 ## Summary
