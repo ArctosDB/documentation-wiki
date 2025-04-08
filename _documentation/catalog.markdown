@@ -80,7 +80,7 @@ Yes | Yes | No | 20 | None | In conjunction with catalog number it forms a uniqu
 
 * Although not controlled by a code table, GUID_PREFIX is required to be 20 or fewer characters, and contain exactly one colon `:` not at the beginning or end of the string. 
 
-GUIDs, once formed, must never be allowed to change or expire, so selection of GUID Prefix is an important task in new collection set-up. See [Creating a Meaningful GUID](https://handbook.arctosdb.org/best_practices/GUID.html). All catalog record citations should occur by way of GUID. Note that while GUID Prefix generally appears to be a concatenation of institution and collection code, it is in fact an independent concept; several collections from an institution may use the 'Herb' collection_cde (*e.g.* for vascular plants, cryptogams, and marine algae collections, for example).
+GUIDs, once formed, must never be allowed to change or expire, so selection of GUID Prefix is an important task in new collection set-up. See [Creating a Meaningful GUID](https://handbook.arctosdb.org/best_practices/GUID.html). All catalog record citations should occur by way of GUID. Note that GUID Prefix is an independent concept; unrelated to any other fields, real or imagined.
 
 ## Collection
 
@@ -94,6 +94,8 @@ A short name for a particular collection type. For example:
   Collection Type
 </h2>
 
+<!---
+
 Public | Required | Editable | Max Length | Value Code Table | What it does 
  -- | -- | -- | -- | -- | -- 
 No | Yes | No | 5 | [ctcollection_cde](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_cde) | Links collection catalogs to collection-type-specific code tables.
@@ -102,6 +104,7 @@ Code applied to a collection that provides context for types of parts and attrib
 will provide an idea of how a collection type has been used.
 
 [//]: # (See https://github.com/ArctosDB/documentation-wiki/issues/209)
+---->
 
 ## Description
 
@@ -260,7 +263,7 @@ Any of these data - and those not mentioned here - may be critical to answering 
 # Defining Collections
 
 Collections in Arctos are wholly administrative. Collections may be comprised of a taxa (*e.g.* mammals), of various taxa organized for some purpose (such at the [Hildebrandt Collection at MVZ](http://mvz.berkeley.edu/Other_Collections.html)),
-by legacy usage, or anything else. The sole functional or technical consideration is code tables, which are tied to collection type (collection_cde). For example, see the diversity of [Attributes available to collections](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTATTRIBUTE_TYPE), which can select which ones to use and view.
+by legacy usage, or anything else. 
 
 Legacy collections often exist for various reasons, and these may have duplicate catalog numbers, unpredictable formats which may
 confuse users, or contain arbitrary divisions which no longer are relevant. Combining these into a unified collection in Arctos is generally

@@ -23,12 +23,7 @@ However, <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=
 
 ## What is shared
 
-**<a href="https://arctos.database.museum/info/ctDocumentation.cfm" target="_blank">Code tables</a>** with a "collection_cde" column are shared across collection
-types. That is, all "Herp" collections (and no "Mamm" collections) have
-access to an Attribute "carapace width" which in all collections
-requires a numeric value and units. All collections share
-non-partitioned code tables. That is, every collection with any numeric
-Attribute may access the "length units" code table.
+**<a href="https://arctos.database.museum/info/ctDocumentation.cfm" target="_blank">Code tables</a>** are shared (some selectively and some globally) among collections.
 
 **[Taxonomy](taxonomy)** is shared at the "source" level, which is set by collection
 under Manage Collection. All collections which use the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source#arctos" target="blamk">"Arctos"</a>

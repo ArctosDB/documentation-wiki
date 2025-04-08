@@ -30,7 +30,7 @@ Various mechanisms for writing to the bulkloader exist. Several of these paths c
 
 ### Data Entry form
 
-Arctos provides a data entry form which writes single records to the catalog record bulkloader. This form is highly user-customizable; it is possible to hide un-needed "fields," to carry over values, and re-arrange the form layout. The form may also be code-customized for collection type (=collection_cde: Bird, Ento, etc.) and for specific collections.
+Arctos provides a data entry form which writes single records to the catalog record bulkloader. This form is highly user-customizable.
 
 ### Single-record API
 

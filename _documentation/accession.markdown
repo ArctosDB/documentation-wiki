@@ -1,7 +1,6 @@
 ---
 title: Accessions
 author: DLM, Teresa J Mayfield-Meyer
-date: 2022-12-12, 2016-11-30
 layout: default_toc
 ---
 
@@ -46,7 +45,7 @@ Accession Estimated Count or “Est. Cnt.” is an integer expressing approximat
 
 # Data Entry Considerations
 
-You can catalog records in "your collection" that have been accessioned by another collection.  For data entry (through either the data-entry application or the bulkloader) indicate the accession that you wish to use, but put brackets around the part of the accession "number" that indicates the collection.  This effectively tells the bulkloader, "ignore the collection (collection_cde + institution_acronym) to which this record is going to be appended, and indicate the accession based on what is in the brackets." (Though that accession must be present in Arctos.)   Examples include:
+You can catalog records in "your collection" that have been accessioned by another collection.  For data entry (through either the data-entry application or the bulkloader) indicate the accession that you wish to use, but put brackets around the part of the accession "number" that indicates the collection.  This effectively tells the bulkloader, "ignore the collection to which this record is going to be appended, and indicate the accession based on what is in the brackets." (Though that accession must be present in Arctos.)   Examples include:
 
 *   A UAM Mammal Observation being entered into a UAM Mammal accession
 *   An MVZ Bird being entered into an MVZ Mammal accession
