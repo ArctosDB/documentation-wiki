@@ -6,6 +6,18 @@ layout: default_toc
 
 # Release Notes
 
+## 20250410
+
+
+* <https://github.com/ArctosDB/dev/issues/220> - bugfix and optimization of locality metadata/derived data search
+* <https://github.com/ArctosDB/dev/issues/219> - remove inoperative helper function
+* <https://github.com/ArctosDB/dev/issues/218> - better collection_cde values
+* <https://github.com/ArctosDB/dev/issues/215> - security update
+* <https://github.com/ArctosDB/dev/issues/211> - Agent API access/security update
+* <https://github.com/ArctosDB/dev/issues/212> - media UI udpates
+* <https://github.com/ArctosDB/dev/issues/150> - better handling of failed record loads
+* <https://github.com/ArctosDB/dev/issues/148> - dangerous toys
+
 
 ## 20250401
 
