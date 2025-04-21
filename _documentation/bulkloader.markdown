@@ -43,7 +43,7 @@ The Bulkloader Builder will create templates, and is the only authoritative sour
 
 ### CSV Header Checker
 
-#### Navigation: <a href="https://arctos.database.museum/Reports/csvChecker.cfm)" target="_blank">Tools Directory > Services  > CSV Header Checker</a>
+#### Navigation: <a href="https://arctos.database.museum/Reports/csvChecker.cfm" target="_blank">Tools Directory > Services  > CSV Header Checker</a>
 
 The CSV Header Checker will find problematic column names in CSV files.
 
