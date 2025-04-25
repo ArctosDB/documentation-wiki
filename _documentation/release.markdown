@@ -6,6 +6,16 @@ layout: default_toc
 
 # Release Notes
 
+## 20240424
+
+* <https://github.com/ArctosDB/dev/issues/234> - security update 
+* <https://github.com/ArctosDB/dev/issues/232> - security update 
+* <https://github.com/ArctosDB/dev/issues/231> - bugfix 
+* <https://github.com/ArctosDB/dev/issues/229> - Data QC check 
+* <https://github.com/ArctosDB/dev/issues/228> - bugfix 
+* <https://github.com/ArctosDB/dev/issues/230> - suport NULL search in permits 
+* <https://github.com/ArctosDB/dev/issues/214> - restructure agent attribtues
+
 ## 20250410
 
 
