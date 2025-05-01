@@ -9,6 +9,9 @@ layout: default_toc
 
 This is a placeholder for https://github.com/ArctosDB/arctos/issues/8714
 
+
+Draft (which should eventually be copied here): https://docs.google.com/document/d/1nyYD393k0Hg9tvNgjfEi8Lb1ddhlgbefje5dCglI84I/edit?tab=t.0
+
  
 ## Edit this Best Practice
 
