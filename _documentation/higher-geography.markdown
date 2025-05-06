@@ -156,6 +156,10 @@ Geography Request Requirements:
 
 Please refer to [Marine Geographies: the levels](https://docs.google.com/spreadsheets/d/1ToiR7wvL01c1QibQAsxIhc4AKQ3TIVhW59eJozLvHEo) assembled by the Arctos Geography Committee.
 
+### Creation Request Template
+
+Please use this [template](https://docs.google.com/spreadsheets/d/1dGqSl2O28APN89uK6wI__SKzHF6KLGM3x2AMm-sUg-Y) to request geography creation.
+
 ## Editing Guidelines
 
 Do not change the fundamental nature of geography without the full consent and understanding of all users. Adding references, fixing typographical errors, etc. is acceptable.
