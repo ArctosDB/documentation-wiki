@@ -152,6 +152,15 @@ Geography Request Requirements:
 * Arctos will handle in higher geography up to admin level 2 for the United States  (other countries to be discussed and handled later, as requested by members of the community)
 
 
+### Marine-based Geography
+
+Please refer to [Marine Geographies: the levels](https://docs.google.com/spreadsheets/d/1ToiR7wvL01c1QibQAsxIhc4AKQ3TIVhW59eJozLvHEo) assembled by the Arctos Geography Committee.
+
+## Editing Guidelines
+
+Do not change the fundamental nature of geography without the full consent and understanding of all users. Adding references, fixing typographical errors, etc. is acceptable.
+
+
 
 # Spatial
 
