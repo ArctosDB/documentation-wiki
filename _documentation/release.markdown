@@ -6,7 +6,21 @@ layout: default_toc
 
 # Release Notes
 
-## 20240424
+## 20250508
+
+* <https://github.com/ArctosDB/dev/issues/240> - internal
+* <https://github.com/ArctosDB/dev/issues/222> - better error handling
+* <https://github.com/ArctosDB/dev/issues/239> - better archive and saved search handling
+* <https://github.com/ArctosDB/dev/issues/242> - improve container sort (and modernize back-end code)
+* <https://github.com/ArctosDB/dev/issues/244> - transaction identifier bugfix
+* <https://github.com/ArctosDB/dev/issues/224> - commponent loader simplification
+* <https://github.com/ArctosDB/dev/issues/246> - bugfix
+* <https://github.com/ArctosDB/dev/issues/221> - update documentation
+
+
+
+
+## 20250424
 
 * <https://github.com/ArctosDB/dev/issues/234> - security update 
 * <https://github.com/ArctosDB/dev/issues/232> - security update 
