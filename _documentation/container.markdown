@@ -1,5 +1,5 @@
 ---
-Author: Dusty McDonald, Teresa J. Mayfield-Meyer
+Author: Dusty McDonald
 title: Container
 layout: default_toc
 date: 2023-02-22
@@ -14,14 +14,13 @@ In a nutshell, Arctos Object Tracking consists of...
     2.  User-defined containers are whatever someone says they are –
         tubes, tube positions in freezer boxes, boxes, shelves, ranges,
         buildings, institutions, etc.
--   All containers have exactly one "parent" container, but may hold more than one "child"
+-   All containers have zero or one parent container (the model is a hierarchy)
 
 That is the functional model in its entirety. **Physical catalog record parts** ARE
 containers, and they can be put into other containers, which are
 arbitrary curatorial declarations hopefully arranged in some useful
 fashion, such as bones in boxes on shelves. **Barcodes** (2D codes, RFID, etc.)
 are reliable machine-readable proxies for container_id. 
-**Labels** (text) are less reliable human-readable proxies for container_id. 
 
 Dimensions, container_type, procedures to disallow
 infinite recursion, etc. – everything else about the model – are
@@ -51,39 +50,87 @@ freezer rack can be tracked from one freezer to another by the scanning
 barcode on the freezer rack into the appropriate position in its new parent 
 (the barcode on the freezer).
 
-## Important Terms
+### container_id
 
-### Container Type
+Inernal key, integer.
 
-`Container . Container_Type VARCHAR(20) not null`
+### parent_container_id
 
-Vials, jars, boxes, shelves, and rooms are all Container Types.
-[Vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)
-is controlled, and should be limited to unambiguous and mutually
-exclusive kinds of containers.
+Foreign key --> container.container_id
 
-The Container Type "Position" is locked by programmed logic within its
+### container_type
+
+Foreign key --> [CTCONTAINER_TYPE](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)
+
+#### container type position
+
+The Container Type ``position`` is locked by programmed logic within its
 Parent Container. Examples of Positions include entities which cannot be
 physically moved from their Parent Container such as slots within
 freezer racks, slots for vials within freezer boxes, and positions for
 racks within freezers. In order create a Position, a Parent Container
 must be assigned.
 
-The various "label" container types are for processing. "Labels" may
+#### container type  label
+
+The various "... label" container types are for processing. "Labels" may
 generally not have parents or be children, and should be changed to some
 other container type for usage. For example, one might purchase 100,000
 "cryovial label" tags intended for the next several years use, and
 change them to "cryovial" 1,000 at a time. A color-coding system is
 useful.
 
-### Parent Container
+## barcode
 
-`Container . Parent_Container_ID NUMBER(22) not null`
+Machine-reaable container labels, unique within an institution. ('Barcode' is a misnomer; "value which can be unambiguously read by machines" is the intent.)
+ These identifiers may be "dumb" (eg next in series, ***recommended***) or "smart" (eg catalog number - highly ***not*** recommended), 
+## institution_acronym
 
-This is the value that identifies the container into which another
-(child) Container has been placed. The value is not displayed in
-applications because Parent Containers are generally displayed by their
-Labels and entered into forms by their Barcode.
+Institution owning the container, and RLS partition. Containers may be accessed by users who have access to any collection within the institution, plus sufficient ``... container`` roles.
+
+## label
+
+Human-readable container text. Best practice is usually to mirror the barcode.
+
+## description
+
+Free-text
+
+## container_remarks
+
+Free-text
+
+
+## last_date, last_update_tool
+
+Metadata captured as history.
+
+## print_fg
+
+Legacy flag, unused
+
+## width, height, length, dimension_units
+
+Physical size of the "cubed" container.
+
+## weight, weight_units
+
+Weight of the container.
+
+## weight_capacity, weight_capacity_units
+
+
+Weight capacity of the container.
+
+## number_rows, number_columns, orientation, positions_hold_container_type
+
+Position layout data.
+
+
+
+# In Progress
+
+Reorganizaion underway; the following may be incorrect or misplaced, proceed with caution!
 
 ### Barcode
 
