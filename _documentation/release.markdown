@@ -6,6 +6,19 @@ layout: default_toc
 
 # Release Notes
 
+## 20250515
+
+* <https://github.com/ArctosDB/dev/issues/251> - css update
+* <https://github.com/ArctosDB/dev/issues/249> - add bulkloader precheck
+* <https://github.com/ArctosDB/dev/issues/225> - simplify record loader status options
+* <https://github.com/ArctosDB/dev/issues/250> - security patch
+* <https://github.com/ArctosDB/dev/issues/217> - improve low-quality agent creation guardrails
+* <https://github.com/ArctosDB/dev/issues/252> - improve publication search
+* <https://github.com/ArctosDB/dev/issues/175> - make agent attribute rules available as procedure; use it in pre-loader checks
+* <https://github.com/ArctosDB/dev/issues/253> - UI bugfix
+
+
+
 ## 20250508
 
 * <https://github.com/ArctosDB/dev/issues/240> - internal

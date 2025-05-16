@@ -62,8 +62,8 @@ Documentation regarding dates, including preventing Excel from mangling them, is
 
 ## Status
 
-Once a record is marked to load by making ``status`` "autoload_core" (loads data from table bulkloader) or "autoload_extras" (also marks UUID-linked records in "component loaders" to autoload), a script periodically attempts to parse the record into the normalized core Arctos structure. This may result in two things:
-    * the record is created and marked for cache refresh, or
+Once a record is marked to load by making ``status`` "autoload", a script periodically attempts to parse the record into the normalized core Arctos structure. This may result in two things:
+    * the catalog record is created and marked for cache refresh while the bulkloader record is deleted, or
     * an error is returned in the ``status`` column
    
 
