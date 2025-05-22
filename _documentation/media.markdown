@@ -80,12 +80,12 @@ No preview is generally better than bad previews.
 
 ### media_license_id
 
-All Media have a license, a legal document which guides and controls acceptable usage. Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctmedia_license).
+All Media have a license, a legal document which guides and controls acceptable usage. Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctlicense).
 
 
 ### media_terms_id
 
-Media may optionally have a terms document, which should serve a purpose such as informing a conscientious user how to best comply with the license.  Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_terms).
+Media may optionally have a terms document, which should serve a purpose such as informing a conscientious user how to best comply with the license.  Values are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctterms).
 
 ## Media Relations
 

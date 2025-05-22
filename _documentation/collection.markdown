@@ -76,21 +76,21 @@ A loan policy is required by Arctos, but the contents of the policy are at the d
 
 ### internal_license_id
 
-Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license).
+Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlicense](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlicense).
 
 An internal license is a legally-binding document which applies to data downloaded from Arctos.
 
 
 ### external_license_id
 
-Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctdata_license). 
+Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlicense](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlicense). 
 
 An external license is a legally-binding document which applies to data shared outside or Arctos, for example through DarwinCore. Data which has been through this process are less-complete and less-connected than data from Arctos, and a less-stringent license may be appropriate. Re-using the internal license here is also fully acceptable. Note that some "portals" have license requirements, and may refuse to publish date which does not meet those requirements. Example: [GBIF Terms of Use](https://www.gbif.org/terms)
 
 
 ### collection_terms_id
 
-Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_terms](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollection_terms).
+Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ctterms](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctterms).
 
 
 Terms are a well-considered code of conduct intended to supplement and clarify licenses that anyone who uses data downloaded from a collection is expected to uphold. These terms should model a set of ethical behaviors and help us to build a vibrant community intended to support efforts to make collection data as complete, discoverable, and accessible as possible. Collections wishing to provide their own terms must also provide a URL for the document; an Arctos-wide approach is encouraged where possible.  Terms should not be confused or counfounded with data licenses, loan policies, or loan agreements.
