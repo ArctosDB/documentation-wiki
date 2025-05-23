@@ -1,7 +1,7 @@
 ---
 title: Locality
-author: Dusty McDonald, Teresa J. Mayfield-Meyer
-date: 2023-01-16
+author: Dusty McDonald, Teresa J. Mayfield-Meyer, Michelle Koo
+date: 2025-05-22
 layout: default_toc
 ---
 
@@ -43,6 +43,7 @@ locality. Named Localities:
 
  - Will not be auto-deleted when not used
  - Will always be unique, so will not be auto-merged
+ - Can be bulkloaded (see [Bulkload Locality tool](https://arctos.database.museum/tools/bulkloadLocality.cfm) and then used in a catalog record bulkload file instead of repeating all the locality information.)
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
