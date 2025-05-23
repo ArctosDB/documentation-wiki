@@ -6,6 +6,17 @@ layout: default_toc
 
 # Release Notes
 
+## 20250522
+
+* <https://github.com/ArctosDB/dev/issues/256> - clarify component loader status language
+* <https://github.com/ArctosDB/dev/issues/255> - component loader update
+* <https://github.com/ArctosDB/dev/issues/238> - entry update
+* <https://github.com/ArctosDB/dev/issues/245> - license and terms update
+* <https://github.com/ArctosDB/dev/issues/254> - bugfix
+* <https://github.com/ArctosDB/dev/issues/257> - bugfix
+* <https://github.com/ArctosDB/dev/issues/258> - bugfix
+
+	
 ## 20250515
 
 * <https://github.com/ArctosDB/dev/issues/251> - css update
