@@ -13,12 +13,6 @@ Arctos has a built-in user-customizable reporter. It's pretty great.
 
 # Access
 
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-> [!NOTE]  
-> This process is ongoing, rules are temporarily relaxed while development and optimization proceeds.
-
 There are three levels of access.
 
 ## coldfusion_user
