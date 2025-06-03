@@ -61,7 +61,7 @@ Many functions exist in Arctos. These can be used to simplify SQL, filter result
 
 Loan metadata/header data is relatively normalized and less-than-trivial to query, so a CF Custom Tag is available. 
 
-```<cf_getLoanFormInfo>```
+``<cf_getLoanFormInfo>``
 
 will return a data object under variable ``getLoan`` for any report for which ``loan.transaction_id`` is available.
 
