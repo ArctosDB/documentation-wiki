@@ -188,11 +188,6 @@ Paged.js provides header and footer functionality, but is extremely twitchy. Fix
 
 #### SQL
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-> [!NOTE]  
-> This process is ongoing, rules are temporarily relaxed while development and optimization proceeds.
-
 
 SQL is more-controlled that other report content; only users with ``write_sql`` role may edit SQL.
 
