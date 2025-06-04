@@ -6,6 +6,16 @@ layout: default_toc
 
 # Release Notes
 
+
+## 20250604
+
+* <https://github.com/ArctosDB/dev/issues/243> - better error handling
+* <https://github.com/ArctosDB/dev/issues/237> - better component loader priority/separation
+* <https://github.com/ArctosDB/dev/issues/216> - rename identifier
+* <https://github.com/ArctosDB/dev/issues/236> - update, expand capability of, docment all media-related bulk tools
+
+	
+
 ## 20250522
 
 * <https://github.com/ArctosDB/dev/issues/256> - clarify component loader status language
@@ -16,7 +26,7 @@ layout: default_toc
 * <https://github.com/ArctosDB/dev/issues/257> - bugfix
 * <https://github.com/ArctosDB/dev/issues/258> - bugfix
 
-	
+
 ## 20250515
 
 * <https://github.com/ArctosDB/dev/issues/251> - css update
