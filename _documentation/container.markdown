@@ -106,7 +106,7 @@ Free-text
 Free-text
 
 
-## last_date, last_update_tool
+## last_date, last_user, last_update_tool
 
 Metadata captured as history.
 
