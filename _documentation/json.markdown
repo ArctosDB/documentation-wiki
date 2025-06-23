@@ -27,6 +27,13 @@ layout: default_toc
 	NOTE: "Field names" as given in this document are intended to be descriptive and may not map to actual concepts in Arctos.
 ``
 
+``
+
+	NOTE: This document is out of date.
+
+ ``
+
+ 
 
 # JSON
 
