@@ -7,6 +7,13 @@ layout: default_toc
 # Release Notes
 
 
+## 20250625
+
+* <https://github.com/ArctosDB/dev/issues/263> - search (hack) bugfix
+* <https://github.com/ArctosDB/dev/issues/264> - record event updater bugfix
+* <https://github.com/ArctosDB/dev/issues/272> - /guid/ bugfix
+* <https://github.com/ArctosDB/dev/issues/87> - better log container changes
+
 ## 20250604
 
 * <https://github.com/ArctosDB/dev/issues/243> - better error handling
