@@ -7,6 +7,19 @@ layout: default_toc
 # Release Notes
 
 
+## 20250630
+
+* <https://github.com/ArctosDB/dev/issues/259> - CT changelog improvement
+* <https://github.com/ArctosDB/dev/issues/266> - remove redundant form
+* <https://github.com/ArctosDB/dev/issues/262> - bugfix
+* <https://github.com/ArctosDB/dev/issues/275> - improve loan form
+* <https://github.com/ArctosDB/dev/issues/274> - bugfix
+* <https://github.com/ArctosDB/dev/issues/261> - update project create UI
+* <https://github.com/ArctosDB/dev/issues/271> - coordinate converter bugfix
+
+
+
+
 ## 20250625
 
 * <https://github.com/ArctosDB/dev/issues/263> - search (hack) bugfix
