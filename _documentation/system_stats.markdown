@@ -14,7 +14,7 @@ Below are the fields, definition, and how they are compiled.
 Total number of collections in Arctos with or without data
 
 ### -Institutions
-Total number of institutions in Arctos based on the administrative contact for a collection; this is not necessarily the total for the number of members as some member institutions may be sponsored.
+Total number of institutions in Arctos based on the administrative contact for a collection regardless of sponsorship status.
 
 ### -CatalogedItems
 This is the total number of catalog records that are in a collection. This includes encumbered records that are hidden from the public.
