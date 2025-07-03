@@ -77,7 +77,7 @@ This the number of specimens with an external relationship to another record (e.
 ### -PartCount
 This is the total number of parts in a collection regardless of what the part is as long as it is ```in collection``` or otherwise still part of the collection, thus excludes parts no longer available to the collection, specifically with the disposition of ```deaccessioned```, ```discarded```, ```missing```, ```on loan```, ```transfer of custody```, ```used up```, ```not applicable```.
 
-For example, in a single record where parts that have the disposition of ```in collection``` such as  ```foot``` (4), ```tissue``` (2), ```DNA``` (1), and ```skull``` (1) are tallied equally based on quantity of each part (e.g., total is 8).
+For example, in a single record where parts have the disposition of ```in collection``` such as  ```foot``` (4), ```tissue``` (2), ```DNA``` (1), and ```skull``` (1) partcount will be the sum of the quantity of each part (e.g., partcount total is 8).
 
 
 ## Edit this Documentation
