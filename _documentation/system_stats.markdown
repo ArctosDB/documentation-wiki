@@ -75,7 +75,7 @@ This the number of specimens with an external relationship to another record (e.
  - SQL: coll_obj_other_id_num.ID_REFERENCES != 'self' - number of related items (both specific and vague)
 
 ### -PartCount
-This is the total number of parts in a collection regardless of what the part is as long as it is ```in collection``` or otherwise still part of the collection, thus excludes parts with the disposition of ```used up```, ```deaccessioned``` or otherwise no longer available to a collection. 
+This is the total number of parts in a collection regardless of what the part is as long as it is ```in collection``` or otherwise still part of the collection, thus excludes parts no longer available to the collection, specifically with the disposition of ```deaccessioned```, ```discarded```, ```missing```, ```on loan```, ```transfer of custody```, ```used up```, ```not applicable```.
 
 For example, in a single record where parts that have the disposition of ```in collection``` such as  ```foot``` (4), ```tissue``` (2), ```DNA``` (1), and ```skull``` (1) are tallied equally based on quantity of each part (e.g., total is 8).
 
