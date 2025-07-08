@@ -29,12 +29,14 @@ To log into an Operator account created with TACC OAuth, or after an Operator ac
 1. Ensure a user account which complies with https://handbook.arctosdb.org/documentation/users.html exists; create a local account if necessary
    *  Their account name must use only letters and numbers (ASCII characters A-Z, a-z, and 0-9), and cannot begin with a number.
    *  They must have an email address in their Profile.
-2. Ensure an approptiate Agent record exists.
+2. Ensure an appropriate Agent record exists.
 3. Ensure that the user has a TACC account. [Create one here](https://accounts.tacc.utexas.edu/register) if needed.
-4. Locate the account under operator management, click Create Operator
-
-
-....
+4. Locate the account under operator management, click Create Operator.
+5. Choose the Agent when prompted.
+6. Provide the new user's TACC username when prompted. **NOTE**: No password is necessary, and the user must not share their password with anyone, including their supervisor.
+7. The account will be created. The creator and the new user will get notifications and emails.
+8. Continue to assign the new user appropriate roles and collections.
+9. Direct the user to log into their account using the TACC OAuth option. (Log out of the old account first if necessary!)
 
 ---------------
    
