@@ -30,7 +30,7 @@ To log into an Operator account created with TACC OAuth, or after an Operator ac
    *  Their account name must use only letters and numbers (ASCII characters A-Z, a-z, and 0-9), and cannot begin with a number.
    *  They must have an email address in their Profile.
 2. Ensure an approptiate Agent record exists.
-3. Ensure that the user has a TACC account.
+3. Ensure that the user has a TACC account. [Create one here](https://accounts.tacc.utexas.edu/register) if needed.
 4. Locate the account under operator management, click Create Operator
 
 
