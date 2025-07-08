@@ -7,6 +7,13 @@ layout: default_toc
 # Release Notes
 
 
+## 20250702
+
+* <https://github.com/ArctosDB/dev/issues/282> - bugfix
+* <https://github.com/ArctosDB/dev/issues/284> - bugfix
+* <https://github.com/ArctosDB/dev/issues/277> - project markdown
+
+
 ## 20250630
 
 * <https://github.com/ArctosDB/dev/issues/259> - CT changelog improvement
