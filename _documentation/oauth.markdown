@@ -14,6 +14,51 @@ OAuth (Open Authorization) is an open standard for authorization that allows thi
 
 # Migrating Existing Accounts
 
+First follow the log in button:
+
+<img width="1180" alt="Screenshot 2025-07-08 at 07 35 12" src="https://github.com/user-attachments/assets/83293e84-2973-4820-ab99-3db5f086dea7" />
+
+Then log in to your existing and open Operator account in the usual way.
+
+<img width="393" alt="Screenshot 2025-07-08 at 07 30 08" src="https://github.com/user-attachments/assets/3e4f0b0b-a165-47b1-9f85-9f230f0070cd" />
+
+The 'success' page should have an option to authenticate at TACC. Click this.
+
+
+<img width="679" alt="Screenshot 2025-07-08 at 07 31 29" src="https://github.com/user-attachments/assets/45a3f6f9-6144-408c-9f29-0a6535fda088" />
+
+Log in with your TACC credentials.
+
+<img width="748" alt="Screenshot 2025-07-08 at 07 31 46" src="https://github.com/user-attachments/assets/0d4d665b-822c-4525-ae1c-357f137f3f80" />
+
+and confirm
+
+<img width="965" alt="Screenshot 2025-07-08 at 07 32 22" src="https://github.com/user-attachments/assets/6f5d9fad-ca25-422f-a006-86a658c1ae74" />
+
+Done!
+
+<img width="692" alt="Screenshot 2025-07-08 at 07 32 47" src="https://github.com/user-attachments/assets/0c955b4a-0d8d-4234-932e-71cd1b3f0d78" />
+
+
+# Log in with TACC
+
+To log into an Operator account created with TACC OAuth, or after an Operator account has been migrated to use TACC OAuth, first follow the log in button:
+
+<img width="1180" alt="Screenshot 2025-07-08 at 07 35 12" src="https://github.com/user-attachments/assets/83293e84-2973-4820-ab99-3db5f086dea7" />
+
+
+Then choose TACC
+
+<img width="535" alt="Screenshot 2025-07-08 at 07 36 52" src="https://github.com/user-attachments/assets/07dfe28e-3aff-4a49-9330-83c1c8dac869" />
+
+authenticate and/or confirm as requested:
+
+<img width="855" alt="Screenshot 2025-07-08 at 07 37 16" src="https://github.com/user-attachments/assets/5e9eb69c-9f3f-462e-aa3f-210485384416" />
+
+and done, you have successfully logged in to Arctos.
+
+
+<img width="729" alt="Screenshot 2025-07-08 at 07 38 05" src="https://github.com/user-attachments/assets/a56f2047-206d-4456-a730-560bbdd7b11f" />
 
 
 ---------------
