@@ -60,6 +60,22 @@ and done, you have successfully logged in to Arctos.
 
 <img width="729" alt="Screenshot 2025-07-08 at 07 38 05" src="https://github.com/user-attachments/assets/a56f2047-206d-4456-a730-560bbdd7b11f" />
 
+# Create Operator
+
+First have the new user create an account which complies with https://handbook.arctosdb.org/documentation/users.html.
+
+<img width="906" alt="Screenshot 2025-07-08 at 08 23 22" src="https://github.com/user-attachments/assets/d9bbc6d0-e0e4-4e39-9fe9-2cccf58c82d7" />
+
+
+<img width="816" alt="Screenshot 2025-07-08 at 08 23 55" src="https://github.com/user-attachments/assets/12592f05-4128-4d92-8f3e-b4871fcff8e5" />
+
+<img width="757" alt="Screenshot 2025-07-08 at 08 24 03" src="https://github.com/user-attachments/assets/108fe5d2-52e8-4b3f-b1a1-2254c2ddf87d" />
+
+Locate the account under operator management
+
+
+<img width="599" alt="Screenshot 2025-07-08 at 08 27 39" src="https://github.com/user-attachments/assets/7530d738-645f-4767-91cc-76d3411a676a" />
+
 
 ---------------
    
