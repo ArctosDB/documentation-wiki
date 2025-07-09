@@ -41,6 +41,11 @@ To log into an Operator account created with TACC OAuth, or after an Operator ac
 8. Continue to assign the new user appropriate roles and collections.
 9. Direct the user to log into their account using the TACC OAuth option. (Log out of the old account first if necessary!)
 
+# Create a public account
+
+1. Click either Google or GitHub from the log in page.
+2. Provide your credentials and/or approve the request.
+3. Done! Please fill in your profile to download data.
 ---------------
    
 ## Edit this Documentation
