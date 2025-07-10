@@ -7,6 +7,19 @@ layout: default_toc
 # Release Notes
 
 
+
+## 20250709
+
+
+* <https://github.com/ArctosDB/dev/issues/295> - check media URI
+* <https://github.com/ArctosDB/dev/issues/294> - bulk media better error handler
+* <https://github.com/ArctosDB/dev/issues/293>, <https://github.com/ArctosDB/dev/issues/292>, <https://github.com/ArctosDB/dev/issues/291> - rebuild sysstats
+* <https://github.com/ArctosDB/dev/issues/296> - bugfix
+* <https://github.com/ArctosDB/dev/issues/287> - bugfix
+* <https://github.com/ArctosDB/dev/issues/289> - bugfix
+
+
+
 ## 20250702
 
 * <https://github.com/ArctosDB/dev/issues/282> - bugfix
