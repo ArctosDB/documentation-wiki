@@ -15,6 +15,18 @@ OAuth (Open Authorization) is an open standard for authorization that allows thi
 
 If an operator does not have a TACC account, [create your TACC account here.](https://accounts.tacc.utexas.edu/register). If you have a _.edu_ email address, it is strongly recommended to use it in your TACC profile, as these addresses are authorized without additional review. (More clarification to come)
 
+### MFA
+
+TACC and Arctos generally require [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication) for aaccounts. TACC accounts created after February 07, 2023 should work without issue. For those created before this date with SMS MFA, you will have to un-pair and re-pair your cell number.
+
+* Log into the TACC user portal [https://tacc.utexas.edu/portal/dashboard](https://tacc.utexas.edu/portal/dashboard)
+* Click Manage Account
+* Click Manage multi-factor Authentication
+* Click unpair
+* Use the email option if SMS doesn't work
+* Follow the directions in the email to unpair
+* Use the Manage multi-factor Authentication button again to re-pair your cell number
+
 ## Migrating Existing Arctos Accounts
 
 1. Log in to your existing and open Operator account in the usual way on Arctos.
