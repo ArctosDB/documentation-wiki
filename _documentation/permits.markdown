@@ -36,11 +36,11 @@ identifier has not been provided by the issuer.
 
 ## use_condition
 
-Use Condition ([ctuse_condition](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctuse_condition))is a very brief summary of the conditions imposed by a permit, meant to be displayed in various contexts to guide necessary research.
+Use Condition ([ctuse_condition](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctuse_condition))is a very brief summary of the conditions imposed by a permit, meant to be displayed in various contexts (including publicly) to guide necessary research.
 
 ## use_condition_summary 
 
-Use Condition Summary is an elaboration of use_condition; it should sufficiently convey to most users most of the time what the permit requires. (For more complex situations, the permit itself should be consulted.)
+Use Condition Summary is an elaboration of use_condition; it should sufficiently convey to most users most of the time what the permit requires. (For more complex situations, the permit itself should be consulted.) May be publicly displayed.
 
 ## permit_remarks
 
@@ -66,7 +66,7 @@ references agent.agent_id
 
 References [ctpermit_agent_role](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctpermit_agent_role)
 
-# permit_type
+## permit_type
 
 Table permit type refines permits. A permit may have any number of types, each optionally associated with a regulation.
 
@@ -95,13 +95,7 @@ The regulation under which the permit was issued. References [ctpermit_regulatio
 
 Renewals should be entered as a new permit. A shortcut button is provided on the edit forms.
 
-## How To
-
-Instructions for doing specifc tasks related to Permits in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
-
- - [How To Create a Permit](https://handbook.arctosdb.org/how_to/How-to-Create-a-Permit.html)
-
 
 ## Edit this Documentation
 
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/permits.markdown" target="_blank">here</a>.
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/permits.markdown).
