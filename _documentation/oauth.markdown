@@ -13,11 +13,11 @@ OAuth (Open Authorization) is an open standard for authorization that allows thi
 
 ## TACC Account
 
-If an operator does not have a TACC account, [create your TACC account here.](https://accounts.tacc.utexas.edu/register). If you have a _.edu_ email address, it is strongly recommended to use it in your TACC profile, as these addresses are authorized without additional review. (More clarification to come)
+If an operator does not have a TACC account, [create your TACC account here.](https://accounts.tacc.utexas.edu/register). If you have a _.edu_ email address, it is strongly recommended to use it in your TACC profile, as these addresses are authorized without additional review. If you have another work email domain (e.g., _.org_, etc) please use that. All other email address types are subject to additional validation by TACC.
 
 ### MFA
 
-TACC and Arctos generally require [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication) for aaccounts. TACC accounts created after February 07, 2023 should work without issue. For those created before this date with SMS MFA, you will have to un-pair and re-pair your cell number.
+TACC and Arctos generally require [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication) for accounts. TACC accounts created after February 07, 2023 should work without issue. For those created before this date with SMS MFA, you will have to un-pair and re-pair your mobile number.
 
 * Log into the TACC user portal [https://tacc.utexas.edu/portal/dashboard](https://tacc.utexas.edu/portal/dashboard)
 * Click Manage Account
