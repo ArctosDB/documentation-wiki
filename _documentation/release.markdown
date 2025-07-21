@@ -6,6 +6,18 @@ layout: default_toc
 
 # Release Notes
 
+## 20250721
+
+* <https://github.com/ArctosDB/dev/issues/233> - Arctos now supports OAuth login
+* <https://github.com/ArctosDB/dev/issues/286> - OAuth details
+* <https://github.com/ArctosDB/dev/issues/299> - OAuth details
+* <https://github.com/ArctosDB/dev/issues/298> - OAuth details
+* <https://github.com/ArctosDB/dev/issues/265> - move record delete to component loader
+* <https://github.com/ArctosDB/dev/issues/308> - disallow null record_event_type in record bulkloader
+* <https://github.com/ArctosDB/dev/issues/309> - notification efficiency
+* <https://github.com/ArctosDB/dev/issues/303> - project view declutter
+* <https://github.com/ArctosDB/dev/issues/300> - deprecate locked Archives
+
 
 
 ## 20250709
