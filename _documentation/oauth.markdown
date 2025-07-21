@@ -5,7 +5,7 @@ layout: default_toc
 ---
 
 # Authentication
-Arctos relies on an open standard for authenticating users registered to use Arctos. Any one who wants to interact with Arctos, from downloading data to managing data, must have a user account to authenticate their access. Record and various other pages in Arctos can be viewed without a user account.
+Arctos relies on an open standard for authenticating users registered to use Arctos. Any one who wants to interact with Arctos, from downloading data to managing data, must have a user account to authenticate their access.
 
 ## OAuth
 
