@@ -22,17 +22,23 @@ There are three categories of “users” described here:
 
 ## Creating Operators
 
-New operators must first become users. Their account name must use only letters and numbers (ASCII characters A-Z, a-z, and 0-9), and cannot begin with a number. (Public users can use any characters.) They must have an email address in their Profile. A password of at least six characters, starting with a letter, containing only A-Z, a-z, 0-9, and ``!$%&()`*+,-/:;?_.``, not containing the username, and consisting of at least one letter, number, and special character will make the invitation process slightly less cryptic.
-    
-New operators must be agents. Under the Agents tab, locate them if they are an existing agent or, after carefully checking, create them as a new agent. The Agent will be selected and linked to the user after clicking the 'invite' button.
 
-Operators must be agents of type "person." Group accounts or shared logins are not permitted.
 
-The operator's Agent record must have a valid email address.
-    
-From Management/Arctos/Arctos Users, click Invite to allow them to create an internal user account. This will send email to you and to them. They will have to ensure that their username is valid, pass certain password checks, etc. to become users.
-    
-After the user has completed Step 3, you will receive a notification email. You may then assign them appropriate data and collection roles. The COLDFUSION_USER role must be provided for the user to log in. DATA_ENTRY is the minimum additional role to enable data entry. Provide documentation, which can be found from the big red box on the manage users page.
+
+1. Ensure an appropriate Agent record exists. Locate them if they are an existing agent or, after carefully checking, create them as a new agent. Operators must be agents of type "person." Group accounts or shared logins are not permitted.
+1. Ensure that the user has a TACC account. [Create one here](https://accounts.tacc.utexas.edu/register) if needed. (See also [Authentication](/documentation/oauth.html))
+1. Ensure a user account exists; create a local account if necessary.
+   *  The account name must use only letters and numbers (ASCII characters A-Z, a-z, and 0-9), and cannot begin with a number.
+   *  The account profile must have a valid email address.
+1. Locate the account under operator management, click Create Operator.
+1. Choose the Agent when prompted.
+1. Provide the new user's TACC username when prompted. **NOTE**: No password is necessary, and the user must not share their password with anyone, including their supervisor.
+1. The account will be created. The creator and the new user will get notifications and emails.
+1. Continue to assign the new user appropriate roles and collections. The COLDFUSION_USER role must be provided for the user to log in. DATA_ENTRY is the minimum additional role to enable data entry. Provide the new user documentation, which can be found from the big red box on the manage users page.
+1. Direct the user to log into their account using the TACC OAuth option. (Log out of the old account first if necessary!)
+
+
+
 
 ## User Roles
 
