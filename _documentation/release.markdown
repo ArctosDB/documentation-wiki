@@ -6,6 +6,24 @@ layout: default_toc
 
 # Release Notes
 
+
+## 20250724
+
+* https://github.com/ArctosDB/dev/issues/42 - modernize ctcoll_other_id_type
+
+## 20250723
+
+
+* (via phone)- login layout adjustment
+
+
+## 20250722
+
+
+* <https://github.com/ArctosDB/dev/issues/314> - OAuth bugfix
+
+
+
 ## 20250721
 
 * <https://github.com/ArctosDB/dev/issues/233> - Arctos now supports OAuth login
