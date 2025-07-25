@@ -9,7 +9,8 @@ layout: default_toc
 
 ## 20250724
 
-* https://github.com/ArctosDB/dev/issues/42 - modernize ctcoll_other_id_type
+* <https://github.com/ArctosDB/dev/issues/42> - modernize ctcoll_other_id_type
+* <https://github.com/ArctosDB/dev/issues/317> - bugfix
 
 ## 20250723
 
