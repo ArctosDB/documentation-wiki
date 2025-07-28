@@ -34,6 +34,10 @@ TACC and Arctos generally require [MFA](https://en.wikipedia.org/wiki/Multi-fact
 3. Authenticate at TACC (You may need to accept TACC Terms of Use)
 4. Success! In the future, simply use the TACC option to log in.
 
+## Problems?
+
+Please see <https://github.com/ArctosDB/arctos/issues/8867> for more information, or to ask for help.
+
 
 # Log in with TACC
 
