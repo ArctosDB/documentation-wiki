@@ -6,7 +6,7 @@ layout: default_toc
 
 # Markdown
 
-Some fre-text fields accept Markdown; these generally have a 'markdown editor' button nearby.
+Some free-text fields accept Markdown; these generally have a 'markdown editor' button nearby.
 
 ## Benefits
 
