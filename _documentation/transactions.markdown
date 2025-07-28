@@ -1,5 +1,6 @@
 ---
 title: Transactions
+author: DLM
 layout: default_toc
 ---
 
@@ -30,11 +31,11 @@ Indicates the type of transaction; foreign key ---> [cttransaction_type](https:/
 
 ## nature_of_material
 
-Nature of Material is a textual description of the material involved. 
+Nature of Material is a textual description of the material involved. [Markdown](/documentation/markdown.html) is allowed.
 
 ## trans_remarks
 
-Transaction Remarks is any remarkable information about the transaction. Note that transaction remarks is always private, regardless of is_public_fg.
+Transaction Remarks is any remarkable information about the transaction. Note that transaction remarks is always private, regardless of is_public_fg. [Markdown](/documentation/markdown.html) is allowed.
 
 
 ## corresp_fg
