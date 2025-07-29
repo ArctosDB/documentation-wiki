@@ -6,6 +6,15 @@ layout: default_toc
 
 # Release Notes
 
+## 20250729
+
+* <https://github.com/ArctosDB/dev/issues/269> - documentation update
+* <https://github.com/ArctosDB/dev/issues/320> - bugfix
+* <https://github.com/ArctosDB/dev/issues/312> - documentation update
+* <https://github.com/ArctosDB/dev/issues/285> - allow markdown in transation remarks and nature of material
+* <https://github.com/ArctosDB/dev/issues/321> - agent attribute bulkloader
+
+
 
 ## 20250724
 
