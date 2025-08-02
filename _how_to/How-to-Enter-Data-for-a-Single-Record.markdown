@@ -233,7 +233,7 @@ This block includes standardized time and verbatim time and location data. You c
  
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-Entering an exisitng **Event** name here will ignore any data that you enter in any of the remaning **Event** or **Locality** fields.
+Entering an existng **Event** name here will ignore any data that you enter in any of the remaning **Event** or **Locality** fields.
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
@@ -285,7 +285,7 @@ If the geography you have is not in the code table, you can use [no specific hig
  
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
 
-Entering an exisiting **Locality** name here will ignore any data that you enter in any of the remaining **Locality** fields.
+Entering an existing **Locality** name here will ignore any data that you enter in any of the remaining **Locality** fields.
 
 Use the **pull/sync locality** button to view the data that is included in the **Locality**. If you find that you have chosen the wrong **locality** name, then you can use the **clear all locality** button to remove any **Locality** data and start over.
 
