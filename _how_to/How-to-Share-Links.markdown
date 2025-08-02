@@ -12,7 +12,7 @@ Arctos has a number of ways to share customized searches, results, and other asp
 ## Search Shareable URLs 
 To share search results with non-Arctos users, a link that embeds the search parameters can be generated with the Shareable URL tool. First conduct a search, then users can use **Tools-> Reload with Shareable URL** to generate a URL with those same search parameters.
 
-**Example (MVZ herps with the relationship of ```ate``` | ```eaten by```):** https://arctos.database.museum/search.cfm?guid_prefix=MVZ%3AHerp&related_id_references=ate
+**Example (MVZ herps with the relationship of ```ate``` / ```eaten by```):** https://arctos.database.museum/search.cfm?guid_prefix=MVZ%3AHerp&related_id_references=ate
 
 ## Customized search interface
 To share a customized search interface, you can append the base URL (https://arctos.database.museum/) with the specific search profile name like below:
