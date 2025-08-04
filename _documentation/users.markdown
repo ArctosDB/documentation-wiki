@@ -19,7 +19,15 @@ There are three categories of “users” described here:
 - Arctos Agents are people (and some other stuff) who do things – collectors, identifiers, data entry personnel, etc.
 - Arctos Operators are people who can create or update data in Arctos. They must be both users and agents before they may become operators.
 
+## Rules
 
+* Only people may have Operator accounts.
+* Each person who wishes to have an Operator account must also have exactly one Agent record of type Person.
+* Each person may have only one Operator account.
+* The person's Agent record and Operator account must be linked together permanently.
+* Any action which disturbs or destabilizes this one account/one person/one agent relationship will result in administrative action.
+
+  
 ## Creating Operators
 
 
