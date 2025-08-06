@@ -6,6 +6,23 @@ layout: default_toc
 
 # Release Notes
 
+## 20250806
+
+
+* <https://github.com/ArctosDB/dev/issues/329> - remove antiquated form
+* <https://github.com/ArctosDB/dev/issues/322> - update libraries
+* <https://github.com/ArctosDB/dev/issues/327> - login simplification
+* <https://github.com/ArctosDB/dev/issues/323> - component loader style update
+* <https://github.com/ArctosDB/dev/issues/324> - component loader performance update
+* <https://github.com/ArctosDB/dev/issues/325> - component loader permissions simplification
+* <https://github.com/ArctosDB/dev/issues/330> - make profile swap sticky
+* <https://github.com/ArctosDB/dev/issues/326> - cleanup orphaned data
+* <https://github.com/ArctosDB/dev/issues/336> - bugfix, added documentation
+* <https://github.com/ArctosDB/dev/issues/338> - add tissue-centric default profile
+
+
+
+
 ## 20250729
 
 * <https://github.com/ArctosDB/dev/issues/269> - documentation update
