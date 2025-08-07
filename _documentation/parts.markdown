@@ -42,7 +42,7 @@ Disposition describes the curatorial status of parts. Values are controlled by a
 
 Condition is free-text generalized with very limited metadata. It may be used used for entries such as "broken" or "dissected." 
 
-The community recommends following condition ratings be used specifically to parts with the "is_tissue" flag see [Tissue](##Tissue):
+The community recommends using the following condition ratings specifically for parts with the "is_tissue" flag (see [Tissue](##Tissue)):
 
 -   5 – The best tissues. These have gone from a freshly killed animal
     directly into liquid nitrogen. The animal should not have been dead
