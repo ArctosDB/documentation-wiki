@@ -186,6 +186,11 @@ Note: Agents marked 'bad duplicate of' are generally excluded from selection.
 
 Note that an 'invalid agent' message can result from, for example, zero or many "Preferred Agent Name" matches, and as mentioned above one match (which will result in a successful link) is no guarantee of the correct Agent being chosen. We recommend using only unambiguous identifiers.
 
+# Delete
+
+Agents are never deleted, and agentID is therefore stable. Agents marked as 'bad duplicate of' should not be used, and are generally less-findable in the UIs, but continue to exist. It is left to the users to verify flagged duplicates, and update their records as appropriate. (Many bulk tools exist; file an Issue for assistance.)
+
+
 # How To
 
 Instructions for doing specifc tasks related to Agents in Arctos
