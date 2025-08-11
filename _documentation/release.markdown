@@ -6,6 +6,12 @@ layout: default_toc
 
 # Release Notes
 
+## 20250811
+
+* <https://github.com/ArctosDB/dev/issues/335> - Self-Recovery of local Operator accounts is no longer possible
+* <https://github.com/ArctosDB/dev/issues/339> - Application no longer blocks by IP
+	
+
 ## 20250806
 
 
@@ -19,6 +25,9 @@ layout: default_toc
 * <https://github.com/ArctosDB/dev/issues/326> - cleanup orphaned data
 * <https://github.com/ArctosDB/dev/issues/336> - bugfix, added documentation
 * <https://github.com/ArctosDB/dev/issues/338> - add tissue-centric default profile
+	* <https://github.com/ArctosDB/dev/issues/340> - bugfix patch
+	* <https://github.com/ArctosDB/dev/issues/342> - bugfix patch
+	* <https://github.com/ArctosDB/dev/issues/344> - bugfix patch
 
 
 
