@@ -100,7 +100,7 @@ When you have completed your customization, select the **Save and Use** button a
 
 ## Tutorial Videos ↗️
 
-[![How to Customize Search]()
+[How to Customize the Data Entry Screen](https://www.youtube.com/watch?v=MM4ij1NlSKI)
 
 
 ## Edit this Documentation
