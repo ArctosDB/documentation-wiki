@@ -6,11 +6,17 @@ layout: default_toc
 
 # Release Notes
 
+
+
 ## 20250811
 
 * <https://github.com/ArctosDB/dev/issues/335> - Self-Recovery of local Operator accounts is no longer possible
 * <https://github.com/ArctosDB/dev/issues/339> - Application no longer blocks by IP
-	
+	* <https://github.com/ArctosDB/dev/issues/346> - documentation update
+	* <https://github.com/ArctosDB/dev/issues/345> - documentation update
+	* <https://github.com/ArctosDB/dev/issues/347> - bugfix
+	* <https://github.com/ArctosDB/dev/issues/350> - bugfix
+
 
 ## 20250806
 
