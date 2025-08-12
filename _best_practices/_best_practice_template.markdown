@@ -1,6 +1,6 @@
 ---
 title: Best Practice - [add title] 
-authors: [add author(s)]
+author: [add author(s)]
 date created: [add date]
 layout: default_toc
 ---
