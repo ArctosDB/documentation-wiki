@@ -15,7 +15,11 @@ Items, and parts thereof. There are three primary types of transactions.
 3. [Borrows](/documentation/borrow.html) record items from other collections lent, and in your collection’s temporary custody. Note that borrows have no link to catalog records.
 
 
-These three types of transactions share several fields in common, and those fields are treated on this page.
+Data in table trans and related tables may be used by all three types of transactions.
+
+# table trans
+
+Table trans is the primary/central transaction table.
 
 ## transaction_id
 
@@ -54,7 +58,7 @@ Trans date is an ISO8601 date field describing the date the transaction took pla
 
 ---------------------------------
 
-# trans_agent
+# table trans_agent
 
 Transaction Agents are Agents who participate in transactions in some way.
 
@@ -80,9 +84,103 @@ Transaction Agent Role describes the various roles Agents have in Transactions.
 
 
 
-## Next Number
 
-Arctos can by request suggest the "next" transaction identifier (eg, loan number) if the existing data support such a calculation. File an Issue to request this functionality. Minimum requirements are the transaction type, format of the suggestion, and collection(s) to which the suggestion applies.
+# table shipment
+
+Shipments record movement of material and correspondence.
+
+
+## shipment_id
+
+primary key
+
+## transaction_id
+
+Foreign key ---> transaction
+
+
+
+## container_id
+
+
+Foreign key ---> container
+
+
+## packed_by_agent_id
+
+
+Foreign key ---> agent
+
+The agent handling the material.
+
+
+## shipped_carrier_method
+
+Foreign key ---> [ctshipped_carrier_method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctshipped_carrier_method)
+
+## carriers_tracking_number
+
+Identifier (ideally URL) provided by the carrier.
+
+## shipped_date
+
+Date
+
+
+## package_weight
+
+text; include units as necessary
+
+## hazmat_fg
+
+yes/no
+
+## insured_for_insured_value
+
+Numeric, assume USD
+
+## shipment_remarks
+
+Elaborate here
+
+## contents
+
+Describe
+
+## foreign_shipment_fg
+
+yes/no
+
+
+## shipped_to_addr_id
+
+Foreign key ---> agent_attribute
+
+## shipped_from_addr_id
+
+
+Foreign key ---> agent_attribute
+
+
+## shipment_type
+
+Foreign key ---> [ctshipment_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctshipment_type)
+
+
+# table permit_trans
+
+Table Permit-Trans links [permits](/documentation/permits.html) and transactions.
+
+# table project_trans
+
+
+Table Project-Trans links [projects](/documentation/projects.html) and transactions.
+
+# table trans_container
+
+Table Trans-Container provides a mechanism to link transations and [containers](/documentation/container.html)  .
+
+
 
 ## Edit this Documentation
 
