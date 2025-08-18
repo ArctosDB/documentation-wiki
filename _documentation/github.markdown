@@ -1,7 +1,7 @@
 ---
 title: Github for Arctos
 layout: default_toc
-author: Teresa J. Mayfield-Meyer
+author: Teresa J. Mayfield-Meyer, DLM
 date: revised 2023-07-26
 ---
 
@@ -17,6 +17,14 @@ The tool we use to accomplish what Dusty describes above is Github.
 * Github is where Arctos users can contribute to the [Arctos Handbook](http://handbook.arctosdb.org/) via the [Arctos Documentation-wiki Repository](https://arctosdb.Github.io/documentation-wiki/). 
 * If you have an Arctos question or problem, post it on the [Arctos Issues](https://Github.com/ArctosDB/arctos/issues) site. There you can also view and comment on issues.
 * [Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution](https://doi.org/10.1111/2041-210X.14108)
+
+## Requirements
+
+Only a GitHub account is necessary; there's no need to be a member of any particular organization (and Arctos GitHub membership is generally reserved for Officers and developers).
+
+## Uses
+
+If is difficult for us to communicate with users without GitHub accounts; we may be forced to restrict access without a path of communication. Users who have manage_records roles **must** have a GitHub account in their Agent profile.
 
 ## How To
 Instructions for doing specifc tasks in Github related to Arctos
