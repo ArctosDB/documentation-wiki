@@ -48,20 +48,11 @@ period unless it is otherwise punctuated.
 -   Example: **The small mammals of the Great Plains.**
 -   Example: **Naked mole-rats: why are they so weird?**
 
-Italic text in titles should be marked up with the HTML italic tags
-(&lt;i&gt; and &lt;/i&gt;).
-
--   Example: **The rat, &lt;i&gt;Rattus rattus&lt;/i&gt;, in Alaska.**
--   Renders as: **The rat, *Rattus rattus*, in Alaska.**
+A limited subset of Markdown styling is supported; HTML is not allowed, and markdown which requires nonprinting characters (such as paragraph breaks) is not allowed.
 
 Special characters should be inserted in
 [Unicode](http://www.alanwood.net/unicode/index.html) and (as above)
-formatting should be handled with HTML tags.
-
--   Example: **Temporal records of d&lt;sup&gt;13&lt;/sup&gt;C and
-    d&lt;sup&gt;15&lt;/sup&gt;N in North Pacific pinnipeds.**
--   Renders as: **Temporal records of d^13^C and d^15^N in North
-    Pacific pinnipeds.**
+formatting should be handled with markdown.
 
 ## Short Citation
 
