@@ -7,6 +7,16 @@ layout: default_toc
 # Release Notes
 
 
+## 20250819
+
+
+* <https://github.com/ArctosDB/dev/issues/353> - clean up legacy UTM data
+* <https://github.com/ArctosDB/dev/issues/351> - documentation update
+* <https://github.com/ArctosDB/dev/issues/352> - minor bugfix
+* <https://github.com/ArctosDB/dev/issues/337> - convert publication to markdown, not HTML
+* <https://github.com/ArctosDB/dev/issues/354> - better status with account maintenance
+* <https://github.com/ArctosDB/dev/issues/306> - tiny increment towards full OAuth
+* <https://github.com/ArctosDB/dev/issues/357> - documentation update
 
 ## 20250811
 
