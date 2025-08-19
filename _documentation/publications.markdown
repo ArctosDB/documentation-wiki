@@ -66,6 +66,8 @@ formatting.
 -   Burns and Fay 1970
 -   Welsh 1968
 
+Neither HTML nor markdown is allowed.
+
 ## Publication Type
 
 `Publication.Publication_Type VARCHAR2(21) not null`
