@@ -14,7 +14,7 @@ Improvements to Arctos can come from any Arctos user. Suggested improvements can
 
 * Changes to Arctos are submitted, discussed, prioritized, and tracked to completion using [Issues in GitHub](https://github.com/ArctosDB/arctos/issues). 
 * If your issue isn't quickly resolved, please add it to the agenda of a Working Group (or other) meeting, then plan to attend, explain, and advocate as necessary to find a resolution.
-* Issues which seem to be abandoned or are not moving towards resulution may be closed; please reopen with clarifying comments (or file a new Issue, decluttering is often useful) with plans to follow it through if the subject is still of interest.
+* Issues which seem to be abandoned or are not moving towards resolution may be closed; please reopen with clarifying comments (or file a new Issue, decluttering is often useful) with plans to follow it through if the subject is still of interest.
 
 
 ## How to Create an Issue
