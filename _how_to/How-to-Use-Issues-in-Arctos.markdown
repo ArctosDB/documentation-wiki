@@ -10,10 +10,11 @@ author: DLM
 
 ## The Issue Process: How to Make Arctos Work for You
 
-* Improvements to Arctos can come from any Arctos user. Suggested improvements can include simple coding bug fixes, the addition/deletion of data fields or menu items, new forms/buttons/functions to streamline collection processes - anything that will help Arctos users better manage and access Arctos data/specimens/objects.
+Improvements to Arctos can come from any Arctos user. Suggested improvements can include simple coding bug fixes, the addition/deletion of data fields or menu items, new forms/buttons/functions to streamline collection processes - anything that will help Arctos users better manage and access Arctos data/specimens/objects.
+
 * Changes to Arctos are submitted, discussed, prioritized, and tracked to completion using [Issues in GitHub](https://github.com/ArctosDB/arctos/issues). 
-* If your issue isn't quickly resolved, please add it to the agenda of a Working Group (or other) meeting, attend, explain, and advocate.
-* Issues which seem to be abandoned or are not moving towards resulution may be closed; please reopen with clarifying comments (or file a new Issue, decluttering is often useful) and plans to follow it through if the subject is still of interest.
+* If your issue isn't quickly resolved, please add it to the agenda of a Working Group (or other) meeting, then plan to attend, explain, and advocate as necessary to find a resolution.
+* Issues which seem to be abandoned or are not moving towards resulution may be closed; please reopen with clarifying comments (or file a new Issue, decluttering is often useful) with plans to follow it through if the subject is still of interest.
 
 
 ## How to Create an Issue
