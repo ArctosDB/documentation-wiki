@@ -1,67 +1,70 @@
 ---
 title: Component Loaders
-author: Teresa J Mayfield-Meyer
-date: 2021-07-28
+author: DLM
+date: 2025-08-21
 layout: default_toc
 ---
 # Component Loaders and Unloaders
 
-Component Loaders are an ecosystem of tools which asynchronously 
+Component Loaders are an ecosystem of tools which work asynchronously, and so therefore can generally deal with any number of operations without fear of overwhelming the always-limited infrastructure.
 
-Data can be added to and in some cases removed from existing catalog records from a single flat (non-relational) file, a text file in which all data for an individual concept to be added to or removed from a single cataloged item are in a single row. This file can be created with any convenient client-side application. The file is then loaded into a similarly structured table on the server, and a server-side application (the component loader) parses the columns from each row into the relational structure of the database. The process provides an independent layer of data checking before new information is incorporated into the database proper. Original data that are received in electronic format may require minimal manipulation; you can sometimes merely add the necessary columns to build a file in the component-loading format.
 
-**Component Loader templates should be downloaded from the appropriate component loader tool in Arctos. All other means, including this documentation, may produce non-current data which will be rejected.**
+## Adding Data
 
- - The standard method for moving data into any component loader is by importing data from csv directly into the component loader tools. However, component loaders may be populated as part of bulkloading. 
+All Component loaders may be directly interacted with, and each will provide a data template (which is also the only authoritative source of information). Additionally, there are many UI shortcuts which write to component loaders.
 
- - You may mix accessions, collections, or anything  else in a single component load.
 
- - The component loaders may not handle every eventuality that may ever occur while entering additional data. Use [status](#status) to mark records for further review. Records in any component loader that were populated from the bulkloader will be tied to the bulkloader records with UUIDs.
+## Keys
 
- - Error messages should include more than enough information to allow you to locate and correct the problem. If that isn’t the case, [contact us](https://arctosdb.org/join-arctos/contacts-support) with the error message and a description of the action that caused the error message.
+Component loaders generally follow the Arctos [Identifier Convention](/documentation/developer-guide.html#identifier-convention).
 
- - Arctos is case-sensitive. JOHN DOE is not the same value as John Doe. Leading and trailing spaces and other non-printing characters matter.
+## Status
 
- - The web-based applications may not work well for very large loads. [Contact us](https://arctosdb.org/join-arctos/contacts-support) if you’re having problems.
+Every component loader has a 'status' column. A value of ``autoload`` indicated the record is ready for processing; any other value will be ignored. It is usually possible to load data with status to the loaders, providing a mechanism to beging processing immediately.
 
-## Fields
-Component loader fields differ based upon the information being loaded. For more on any particular component loader, see Page Documentation on the Arctos Tool Page for the component loader. Some things hold true accross all component loaders.
+## Success
 
-Be sure anything coming from other applications (especially Microsoft products) has not changed field length, precision,
-or other attributes. Watch dates and non-integer numbers (such as decimal latitude) most closely.
+A successful run generally results in the record being deleted from the tool. A few lookup tools do not follow this model; such behavior is documented in the tools.
 
-### Status
+### Errors
 
-All component loaders include a status field that is NOT part of the component loader template (but you can add it before loading if you like). This field can be NULL or include any text that helps you to organize information in the component loader. There is one special provision for this field:
+Occasionally a cryptic error will be returned in status; contact us for help.
 
-#### autoload
-
-Entering "autoload" in the status field sets the record to load.
-
-### Primary Key Warning
-
-Some values may be replaced by or require primary keys: `locality_id`, `entered_by_agent_id`, `collecting_event_id`, etc. These are internal database identifiers that exist only for convenience, and may be updated, transferred to another data object, or removed for seemingly arbitrary reasons and without warning. They’ll probably work over short time-periods, but we offer no guarantees.
 
 ## Permissions
 
-Permissions vary across tools. Check Component Loader Status or the Directory for details.
+Permissions vary across tools, but ``manage_records`` is generally required for bulk operations. Users with this role are expected to have a GitHub address; those without may have problematic data transferred to CSV without notice.
+
+## Order of Operations
+
+A UI which provides comprehensive runtime information, and allows user-based intra-tier sorting, is available.
+
+## Tiers
+
+Component Loaders current run as two tiers; Tier 2 records will not process until all Tier 1 records have processed.
+
+### Tier 1
+
+Tier 1 is primarily for UI-based bulk operations, but some more common record-centric operations remain here as of this writing.
+
+### Tier 2
+
+Tier 2 is currently everything that's not Tier 1
+
+### Tier 3
+
+Doesn't exist at this time, but the system is designed to support any number of tiers.
 
 
-## Processing
+## General Guidelines
 
-Once a component loader record is marked to load by making ``status`` autoload, a script periodically attempts to parse the record into the normalized core Arctos structure. This may result in two things: 
+- Arctos is case-sensitive. JOHN DOE is not the same value as John Doe. Leading and trailing spaces and other non-printing characters matter.
+- Be sure anything coming from other applications (especially Microsoft products) has not changed field length, precision,
+or other attributes. Watch dates and non-integer numbers (such as decimal latitude) most closely.
+- The component loaders generally do precisely what they're documented to do, and don't do anything they're not documented to do. Please do not make any assumptions, including that behavior in one tool will be applicable to any other.
 
- - the record is added to the associated catalog record and marked for cache refresh, or
- - an error is returned in the ``status`` column
 
 
-A Component Loader Status tool will report status, and allow privileged users to change run order.
-   
-Records which successfully load must be refreshed in the cache before appearing in the user interfaces. Records are  refreshed in the order they enter the queue. This process often takes less than one minute, but in the case of many thousands of records being queued can take up to several days. ``Reports/Services>View Statistics>FLAT Status`` provides a summary of the state of the cache, and may be useful in estimating processing time.
-
-Note that there is a period of time between successful loading and the cache being refreshed where records are not visible in any user interface.
-
-Records that do not successfully load remain in the component loader. They must be downloaded, deleted from the component loader, edited and reloaded to correct any issues. Editing within the component loader is not currently available.
 
 ## Edit this Documentation
 
