@@ -11,7 +11,7 @@ Component Loaders are an ecosystem of tools which work asynchronously, and so th
 
 ## Adding Data
 
-All Component loaders may be directly interacted with, and each will provide a data template (which is also the only authoritative source of information). Additionally, there are many UI shortcuts which write to component loaders.
+All Component loaders may be directly interacted with, and each will provide a data template (which is also the only authoritative source of information). Additionally, there are many UI shortcuts which write to component loaders. An API is possible but not implemented as of this writing.
 
 
 ## Keys
