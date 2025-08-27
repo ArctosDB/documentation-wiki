@@ -128,6 +128,10 @@ Date/time of determination; ISO8601
 
 Evidence or technique used.
 
+## Preservation
+
+Special Note: Part attribute [preservation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctpart_preservation) drives the "tissueness" flag.
+
 
 ## Edit this Documentation
 
