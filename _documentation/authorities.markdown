@@ -1,6 +1,7 @@
 ---
 title: Authorities
 layout: default_toc
+author: DLM
 ---
 
 # Authorities

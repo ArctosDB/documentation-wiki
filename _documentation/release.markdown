@@ -7,6 +7,23 @@ layout: default_toc
 # Release Notes
 
 
+## 20250827
+
+* <https://github.com/ArctosDB/dev/issues/364> - agent picker to homegrown overlay
+* <https://github.com/ArctosDB/dev/issues/356> - cleanup
+* <https://github.com/ArctosDB/dev/issues/359> - georeference bot bugfix
+* <https://github.com/ArctosDB/dev/issues/361> - SQL optimization
+* <https://github.com/ArctosDB/dev/issues/360> - display markdown as HTML in more places
+
+## 20250821
+
+* <https://github.com/ArctosDB/dev/issues/332> - bugfix
+* <https://github.com/ArctosDB/dev/issues/310> - OAuth progression
+* <https://github.com/ArctosDB/dev/issues/328> - OAuth progression
+* <https://github.com/ArctosDB/dev/issues/270> - OAuth progression
+* <https://github.com/ArctosDB/dev/issues/311> - drop legacy bot check
+
+
 ## 20250819
 
 
