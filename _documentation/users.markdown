@@ -40,7 +40,7 @@ There are three categories of “users” described here:
    *  The account profile must have a valid email address.
 1. Locate the account under operator management, click Create Operator.
 1. Choose the Agent when prompted.
-1. Provide the new user's TACC username when prompted. **NOTE**: No password is necessary, and the user must not share their password with anyone, including their supervisor.
+1. Provide the new user's TACC username when prompted, ***exactly*** as created at TACC. This is case-sensitive and must match exactly. (Ask the user for a screenshot of their username when logged into <https://tacc.utexas.edu/portal/> if there's any question.)  **NOTE**: No password is necessary, and the user must not share their password with anyone, including their supervisor.
 1. The account will be created. The creator and the new user will get notifications and emails.
 1. Continue to assign the new user appropriate roles and collections. The COLDFUSION_USER role must be provided for the user to log in. DATA_ENTRY is the minimum additional role to enable data entry. Provide the new user documentation, which can be found from the big red box on the manage users page.
 1. Direct the user to log into their account using the TACC OAuth option. (Log out of the old account first if necessary!)
