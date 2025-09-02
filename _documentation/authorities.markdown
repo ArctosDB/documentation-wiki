@@ -10,36 +10,11 @@ Arctos maintains authorities in order to standardize content that is [shared amo
 
 ## Code Tables
 
-[Code Tables](http://arctos.database.museum/info/ctDocumentation.cfm) enforce data consistency,
-which results in more-usable pick lists to better provide users
-with what they need, and allow more flexibility in communicating with
-other data. However, these goals may not be entirely possible due to
-curatorial reasons. In any conflict between ‘good data’ (*e.g.*,
-consistent values) and curatorial need, curatorial need should win. (It
-is often possible to revisit the data after some time in use and make
-improvements then.) All Code Tables and code table data are the domain 
-of the Arctos Working Group. Any proposed new
-values must be submitted to the Arctos Working Group for consideration.
-Any changes to existing values must be coordinated with the database
-administrators.
+[Code Tables](http://arctos.database.museum/info/ctDocumentation.cfm) enforce data consistency, which results in more-usable pick lists to better provide users with what they need, and allow more flexibility in communicating with other data. Authorities exist to maximize discoverability, and any value or proposal which is contrary to this core principle should be rejected. 
 
-Values should:
 
--   Be unambiguous. The choice between two values should always be
-    clear, preferably from the values themselves.
--   Be documented. Especially in the case of values which cannot stand
-    alone, clear documentation applicable to any collection which might
-    use the value is critical. For example, note the distinction in
-    `CTSEX_CDE` between "[not
-    recorded](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=not%20recorded),"
-    "[recorded as
-    unknown](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=recorded%20as%20unknown),"
-    and
-    "[unknown](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSEX_CDE&field=unknown)."
--   Be universal. "A" should mean the same thing in an insect collection
-    as it does in a palaeontology collection. This sometimes requires
-    compromises in terminology.
--   Be consistent.
+
+
 
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
@@ -47,6 +22,24 @@ Values should:
 ## Principles
 
 All code table values should adhere to our principles [developing document](https://docs.google.com/presentation/d/106K73W3og-iFLI9TZlfK00GtvVOJjIx5rU_43TsP49E/edit#slide=id.g24c167402f2_0_0)) in support of standardized, normalized, properly-categorized, connected, sharable "Research Grade" data.
+
+
+## Concepts
+
+All code tables provide a definition; values are **concepts** which mean what they're definied to mean, and meanings cannot be drawn from the values alone.
+
+
+## Procedures
+
+Additions or changes generally require open discussion through Issues, and the Issue/discussion must be recorded with the new value.
+
+## Table Definitions
+
+All code tables should have a prescriptive, functional definition. (Some of these allow expedited additions.)
+
+## Content
+
+Code tables cannot contain HTML. (Cleanup is an ongonig process; file an Issue for prioritization.)
 
 ### Reality
 
@@ -82,13 +75,6 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
  - Part names should be compatible with an ontological framework. Best practice would be a link to an ontology
  - It is preferable to create a general part that can then be refined with a modifier (e.g. girdle -> with the ability to add a modifier such as pectoral or pelvic).
 
-## How To
-
-Instructions for doing specifc tasks related to Authorities in Arctos
-
- - [How To Create and Manage Geology Attribute Terms (Code Tables)](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html)
- - [How to Request a Code Table Addition or Change](https://handbook.arctosdb.org/how_to/How-To-Request-A-Code-Table-Change.html)
- - [How to Manage Code Table Addition or Change Requests (for Code Table Administrators)](https://handbook.arctosdb.org/how_to/How-To-Manage-Code-Table-Requests.html)
 
 ### Taxonomy
 
