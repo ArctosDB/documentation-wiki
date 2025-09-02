@@ -6,6 +6,12 @@ layout: default_toc
 
 # Release Notes
 
+## 20250902
+
+* <https://github.com/ArctosDB/dev/issues/365> - prevent buffer overflow
+* <https://github.com/ArctosDB/dev/issues/367> - buffix
+* <https://github.com/ArctosDB/dev/issues/366> - Add Media API!
+
 
 ## 20250827
 
