@@ -2,6 +2,7 @@
 title: Authentication
 author: DLM, MSK
 layout: default_toc
+date: 8/28/2025
 ---
 
 # Authentication
@@ -59,3 +60,4 @@ All users must have a TACC account before being added an Arctos Operator. See [U
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/oauth.markdown).
+
