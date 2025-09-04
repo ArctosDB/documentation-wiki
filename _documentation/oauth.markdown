@@ -14,7 +14,7 @@ OAuth (Open Authorization) is an open standard for authorization that allows thi
 
 ## TACC Account
 
-If an operator does not have a TACC account, [create your TACC account here.](https://accounts.tacc.utexas.edu/register). If you have a _.edu_ email address, it is strongly recommended to use it in your TACC profile, as these addresses are authorized without additional review. If you have another work email domain (e.g., _.org_, etc) please use that. All other email address types are subject to additional validation by TACC.
+If an operator does not have a TACC account, [create your TACC account here.](https://accounts.tacc.utexas.edu/register). If you have a _.edu_ email address, it is strongly recommended to use it in your TACC profile, as these addresses are authorized without additional review. If you have another work email domain (e.g., _.org_, etc) please use that. All other email address types are subject to additional validation by TACC. Users with a TACC account can go directly to the user management section of the TACC portal:  <https://accounts.tacc.utexas.edu/login?redirect_url=profile>.
 
 ### MFA
 
@@ -60,5 +60,6 @@ All users must have a TACC account before being added an Arctos Operator. See [U
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/oauth.markdown).
+
 
 
