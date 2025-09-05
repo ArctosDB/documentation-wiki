@@ -6,6 +6,13 @@ layout: default_toc
 
 # Release Notes
 
+## 20250904
+
+* <https://github.com/ArctosDB/dev/issues/362> - better identifiers in loan form
+* <https://github.com/ArctosDB/dev/issues/279> - cleanup
+* <https://github.com/ArctosDB/dev/issues/313> - component loader log for agent
+* <https://github.com/ArctosDB/dev/issues/333> - new container UI
+
 ## 20250902
 
 * <https://github.com/ArctosDB/dev/issues/365> - prevent buffer overflow
