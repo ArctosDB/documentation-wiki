@@ -32,18 +32,16 @@ There are three categories of “users” described here:
 
 
 
-
 1. Ensure an appropriate Agent record exists. Locate them if they are an existing agent or, after carefully checking, create them as a new agent. Operators must be agents of type "person." Group accounts or shared logins are not permitted.
 1. Ensure that the user has a TACC account. [Create one here](https://accounts.tacc.utexas.edu/register) if needed. (See also [Authentication](/documentation/oauth.html))
-1. Ensure a user account exists; create a local account if necessary.
-   *  The account name must use only letters and numbers (ASCII characters A-Z, a-z, and 0-9), and cannot begin with a number.
-   *  The account profile must have a valid email address.
+1. Instruct the user to log in to Arctos using their TACC account. This should create a user account; contact a DBA (file an Issue) if there are problems.
+    * SPECIAL NOTE: During the OAuth transition, a user may have been instructed to create an Arctos account which has the same username as their TACC account. Deleting that account before beginning the process of becoming an Operator will avoid the need for DBA assistance.
+1. Instruct the user to navigate to their Arctos Profile and add an email address.
 1. Locate the account under operator management, click Create Operator.
-1. Choose the Agent when prompted.
-1. Provide the new user's TACC username when prompted, ***exactly*** as created at TACC. This is case-sensitive and must match exactly. (Ask the user for a screenshot of their username when logged into <https://tacc.utexas.edu/portal/> if there's any question.)  **NOTE**: No password is necessary, and the user must not share their password with anyone, including their supervisor.
-1. The account will be created. The creator and the new user will get notifications and emails.
+1. Choose the appropriate Agent when prompted.
+1. The account is now an Operator. The administrator and the new user will be sent notifications and emails.
 1. Continue to assign the new user appropriate roles and collections. The COLDFUSION_USER role must be provided for the user to log in. DATA_ENTRY is the minimum additional role to enable data entry. Provide the new user documentation, which can be found from the big red box on the manage users page.
-1. Direct the user to log into their account using the TACC OAuth option. (Log out of the old account first if necessary!)
+1. Direct the user to log out of Arctos, then log back in using the TACC OAuth option. 
 
 
 
