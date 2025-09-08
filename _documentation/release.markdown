@@ -6,6 +6,17 @@ layout: default_toc
 
 # Release Notes
 
+
+
+## 20250908
+
+* <https://github.com/ArctosDB/dev/issues/371> - new Operator creation pathway
+* <https://github.com/ArctosDB/dev/issues/372> - API maintenance
+* <https://github.com/ArctosDB/dev/issues/369> - minor authentication enhancement
+* <https://github.com/ArctosDB/dev/issues/368> - documentation bugfix
+
+
+
 ## 20250904
 
 * <https://github.com/ArctosDB/dev/issues/362> - better identifiers in loan form
