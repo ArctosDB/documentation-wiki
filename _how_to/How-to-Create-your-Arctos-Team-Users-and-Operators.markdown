@@ -60,7 +60,7 @@ Please [Read this before assigning roles to users](https://arctos.database.museu
 * When Operators are logged in, they will only see the collections to which they have access. To view data for more than those collections, they will need to search while logged out.
 
 
-### 5. Add Team Members to Github 
+### Add Team Members to Github 
 
 For anyone doing more than simple data entry, it probably makes sense to have them set up a Github User account. To help them do this see [How To Create A Github Account](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html#how-to-create-a-github-account). After they have created their Github account, add their Github link to their Arctos Agent (in addresses). This helps others connect Github users with Arctos Operators.
 
@@ -98,4 +98,5 @@ Operators with global_admin access may unlock accounts from the “manage Arctos
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.markdown" target="_blank">here</a>.
+
 
