@@ -2,36 +2,35 @@
 title: How To Create and Manage Your Arctos Team (Users and Operators)
 layout: default_toc
 author: Teresa J. Mayfield-Meyer, Shannen Robson, Michelle Koo
-date: 2023-04-13
+date: 2025-09-12
 ---
 
 # How To Create and Manage Your Arctos Team: Users and Operators
 
 
-This guide provides a workflow for how to organize users and operators to assist with data entry and collection data management. Anyone can have an Arctos user account, which is needed for downloading data. Operators are users who are granted appropriate permissions. There are two levels of permissions: (1) Permission to work with data for specific collections. (2) Permission to work with specific types of data for the granted collection(s) - e.g., data entry, specimens, transactions, localities, etc. For example, a user with the roles UAM:Mamm and DATA_ENTRY can only enter data for the UAM:Mamm collection.
+This guide provides a workflow for how to organize users and operators to assist with data entry and collection data management. Anyone can have an Arctos user account, which is needed for downloading data. Operators are special users who are granted permissions to access or edit data. There are two levels of permissions: (1) Permission to work with data for specific collections. (2) Permission to work with specific types of data for the granted collection(s) - e.g., data entry, specimens, transactions, localities, etc. For example, a user with the roles UAM:Mamm and DATA_ENTRY can only enter data for the UAM:Mamm collection.
 
 Some objects (taxonomy, media, agents, places) are shared among collections. People who have access to these types of data must fully understand that Arctos is a shared system, and must always consider the implications of working in a shared system. So be careful when assigning roles to shared data types.
 
-## How To Create Your Arctos Team: Users and Operators
+## How To Create Your Arctos Team
 
-### 1.	Have each team member create an Arctos user account
+### User's step 1: create an TACC user account
 
-Provide each of your team members with these instructions to create their Arctos user account.
+[Create your TACC account here](https://accounts.tacc.utexas.edu/register). Users may want to check if they already have a [TACC account here](https://accounts.tacc.utexas.edu/login) (including retrieving usernames and resetting passwords).
 
-Go to [https://arctos.database.museum](https://arctos.database.museum) and select "Log In or Create Account" then select "Create an Account". Create your user account with the following parameters in mind. 
-
-* Username must include only letters and numbers (ASCII characters A-Z, a-z, and 0-9), and cannot begin with a number. **Do not include periods in your username (e.g., carla.cicero is not a valid username)**
-* Passwords should be at least eight characters, start with a letter, contain only A-Z, a-z, 0-9, and !$%&()`*,-/:;?_., not contain the username, and consist of at least one letter, number, and special character
 * Enter your First, Middle (if applicable, initial ok), and Last names in the appropriate fields
 * Enter your Affiliation (name of your institution)
 * Enter a valid email address. This is important because you cannot be invited as an Operator without a valid email address
 * Select the "Create an Account" button and you are done.
 
-You are now an official Arctos User.  Welcome to the community!  Now email your username to the person authorized to grant you operator permissions.  You will soon be contacted with instructions for authenticating your account as an Arctos Operator.
+### User's step 2: Log into Arctos using the TACC log in button and credentials.
+This accomplishes two things: Creates an Arctos account with your TACC credentials and let's you add an email address. Please go to your Arctos profile (top right menu--> Profile) and add your email address here.
+
+### User's step 3: inform the person authorized to grant operator permissions the TACC user name.
 
 ---
 
-### 2.	Ensure the new user has an Arctos Agent
+### Manager's step 1:	Ensure the new user has an Arctos Agent profile.
 
 Before you can invite an Arctos user to become an Arctos Operator, they must have an existing Arctos Agent.
 
@@ -41,28 +40,19 @@ Before you can invite an Arctos user to become an Arctos Operator, they must hav
  
 ---
 
-### 3.	Invite your user to become an Operator
+### Manager's step 2: Create the Operator
 
-* From the Arctos main menu select [Tools Directory > Agents & Users > Operator: Manage](https://arctos.database.museum/AdminUsers.cfm) 
-* Search by the Arctos username
-* Select Invite
-* Associate the user with the appropriate Arctos Agent
-* An E-mail will be sent to the user inviting them to become an Operator
-* The user should follow the instructions and links in the email in order to authenticate their account:
-  * Log in to Arctos, then from the Arctos main menu select their username and then “Profile”
-  * Enter the user's password where requested
-  * If the password is acceptable, a button will pop up to authenticate - select that
-  * If the password is not acceptable, change the password and try again
+* From the [Tools Directory > Agents & Users > Operator: Manage](https://arctos.database.museum/AdminUsers.cfm) 
+* Enter in the TACC user name given to you by the new user
+* Click Create Operator
+(this option will not appear if a valid email address is not present in the new user profile (see User's step 2) 
 
 ---
 
-### 4.	Assign Operator Roles and Permissions
+### Manager's step 3:	Assign Operator Roles and Permissions
 
-* Go to [https://arctos.database.museum](https://arctos.database.museum) and login.
-* From the Arctos main menu select [Tools Directory > Agents & Users > Operator: Manage](https://arctos.database.museum/AdminUsers.cfm)
-* Search for the username of the team member to which you want to assign roles and permissions
-* Select the correct username from the list; the user record will pop up on the screen
-* If you haven't done this for a while - please [Read this before assigning roles to users](https://arctos.database.museum/Admin/user_roles.cfm). If you are comfortable with the process, click on "Enable User Management" at the bottom of the page.
+Please [Read this before assigning roles to users](https://arctos.database.museum/Admin/user_roles.cfm). 
+
 * Choose the collection that you want to grant the Operator access to and select the “Grant Access” button. The collection you selected and “Revoke” will appear below the choice fields. To grant access to another collection, simply repeat the process.
 * Select the [roles](https://arctos.database.museum/Admin/user_roles.cfm) you want this Operator to have by selecting from the dropdown list and selecting "Grant Role." If you want to grant more than one role, simply repeat the process. ALL Operators should be assigned the "COLDFUSION_USER" role in order for them to be able to function in their other roles.
 * Once you have assigned the Operator all of the collections and roles they need, exit the form.
@@ -108,3 +98,4 @@ Operators with global_admin access may unlock accounts from the “manage Arctos
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.markdown" target="_blank">here</a>.
+
