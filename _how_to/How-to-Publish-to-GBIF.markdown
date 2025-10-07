@@ -1,7 +1,7 @@
 ---
 title: How To Publish to Data Aggregators
-author: Teresa J. Mayfield-Meyer
-date: 2022-07-13
+author: Teresa J. Mayfield-Meyer, Michelle Koo
+date: 2025-10-06
 layout: default_toc
 ---
 
@@ -9,9 +9,7 @@ layout: default_toc
 
 ## [Beyond Arctos Documentation](https://handbook.arctosdb.org/documentation/github.html)
 
-Publishing Arctos data to data aggregators begins with publication to the Global Biodiversity Information Facility (GBIF) via the VertNet IPT. This process can be a bit of a headache, but if done properly, the data will be updated at the IPT monthly and the only requirement going forward is an annual review of the collection's metadata.
-
-Note that all of the steps outlined here are also part of the "Publish to Aggregators" step in the [data migration Github repository](https://github.com/ArctosDB/data-migration/issues) and that [opening a new data publishing issue](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&template=12--publication-to-aggregators.md&title=Acronym+Collection+-+12.+Publish+to+Aggregators) is the best way to complete this process.
+Publishing Arctos data to data aggregators begins with a Darwin Core archive of your collection's data. Arctos uses the VertNet IPT to accomplish and share these files. Typically these archives are then published to the Global Biodiversity Information Facility (GBIF). This process can be fairly technical especially the first time, but if done properly, the data will be updated at the IPT monthly and the only requirement going forward is an annual review of the collection's metadata.
 
 ## Is the Collection Already Published to GBIF?
 
@@ -41,21 +39,9 @@ After your institution has been endorsed by the US Node, you will receive an ema
 
 **NOTE** In order to save any changes made to this section you must select the **Save Changes** button at the bottom of the section.
 
-## How To Create a Resource Relationship File
+## Publishing to GBIF or other aggregator with a DarwinCore archive
 
-If data from a collection has already been published to GBIF, republishing from Arctos will create problems for anyone who has downloaded previous records from the dataset. In order to help everyone maintain continuity, a resource relationship file matches the previously published occurence ids with the new Arctos occurence ids. A sample template for creating this file can be found [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/files/resource.reference.BYU.Herp.xlsx). The steps to complete this template are as follows:
-
- - Download the dataset from GBIF in the Darwin Core Archive format 
- - Delete all data in the GBIF tab of the Excel file, then place the dowloaded occurence data from the download pacakge in the GBIF tab. Tip: open the occurence file with Excel as tab delimited, then copy the results and paste into the GBIF tab 
- - Use the following SQL in the WriteSQL tool in Arctos, but replace "BYU:Herp" with the GUID prefix of the collection you are creating the resource for. 
- ```select catalognumber,occurrenceid from ipt_cache.occurrence where collectionid=(select collection_id from collection where guid_prefix ='BYU:Herp')``` 
- - Delete all data in the Arctos tab of the Excel file, then place the csv results of that SQL into the tab 
- - Copy the catalogNumber number column from the GBIF tab to the catalogNumber column in the Reference Resource tab 
- - Ensure that the formulas in both the GBIF Occurrence ID column and the Arctos Occurrence ID column of the Reference Resource tab are present for all rows that include a catalogNumber 
- - Delete any rows in the Reference Resource tab that do not include a catalogNumber 
- - Highlight the entire Reference Resource tab by clicking in the top left corner, select copy, then paste special values in the for csv tab 
- - Save the file as an xlxs, then save the for csv tab as CSV UTF8 
- - add the csv to the appropriate Github issue 
+To indicate the collection's intent to publish to the aggregator, please file an issue in the private [data migration Github repository](https://github.com/ArctosDB/data-migration/issues) and [open a new data publishing issue](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&template=12--publication-to-aggregators.md&title=Acronym+Collection+-+12.+Publish+to+Aggregators).
 
 ## Data Mapping
 
