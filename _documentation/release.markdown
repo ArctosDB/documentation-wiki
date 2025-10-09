@@ -7,6 +7,26 @@ layout: default_toc
 # Release Notes
 
 
+## 20251008
+
+* <https://github.com/ArctosDB/dev/issues/380> - locality merge
+* <https://github.com/ArctosDB/dev/issues/388> - large job handling
+* <https://github.com/ArctosDB/dev/issues/374> - OAuth update
+* <https://github.com/ArctosDB/dev/issues/384> - more efficient code structure
+* <https://github.com/ArctosDB/dev/issues/386> - more efficient code structure
+* <https://github.com/ArctosDB/dev/issues/387> - more efficient code structure
+
+
+
+## 20250925
+
+* <https://github.com/ArctosDB/dev/issues/370> - New faster and more scalable "primary" API/UI
+* <https://github.com/ArctosDB/dev/issues/378> - Reuse existing localities and events if possible when bulkloading
+* <https://github.com/ArctosDB/dev/issues/375> - internal
+* <https://github.com/ArctosDB/dev/issues/307> - OAuth cleanup
+* <https://github.com/ArctosDB/dev/issues/358> - OAuth cleanup
+* <https://github.com/ArctosDB/dev/issues/227> - API documentation update
+
 
 ## 20250908
 
