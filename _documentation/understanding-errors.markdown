@@ -6,6 +6,18 @@ layout: default_toc
 # Understanding Arctos Errors
 
 
+
+ ## password authentication failed
+ ### Error Message
+     ERROR_MESSAGE org.postgresql.util.PSQLException: FATAL: password authentication failed for user ....
+ ### Problem
+     You've logged into a new session, the one you're trying to access is not longer valid
+ ### Solution
+     Log out and back in (which will likely invalidate some other session).
+### More Information
+    https://github.com/ArctosDB/arctos/issues/9075
+
+
 <a id="ck"></a>
 ## ERROR: row for relation "{table}" violates check constraint "ck_{column}_noprint"
 
