@@ -7,6 +7,14 @@ layout: default_toc
 # Release Notes
 
 
+## 20251015
+
+
+* <https://github.com/ArctosDB/dev/issues/398> - bugfix
+* <https://github.com/ArctosDB/dev/issues/394> - accept list of accn in /transactionSearch.cfm
+* <https://github.com/ArctosDB/dev/issues/395> - remove EOL tool
+* <https://github.com/ArctosDB/dev/issues/393> - allow hide empty container search results columns
+
 ## 20251008
 
 * <https://github.com/ArctosDB/dev/issues/380> - locality merge
