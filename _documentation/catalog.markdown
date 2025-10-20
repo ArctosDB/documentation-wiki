@@ -139,6 +139,20 @@ Expanded Institution Acronym
 
 Collections may choose and order any number of [Taxonomy Source, code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source). Classifications are applied to records from the first source which includes data for all taxa used in an identification.
 
+# Understanding Identifiers
+
+The identifiers associated with a record are useful at various scales and origins; understanding the scope at which an identifier can function before choosing an identifier is critical to successful citations, references, and attribution.
+
+
+| Identifier Type | Example  | Useful For   | Description  |
+| --------------- | ----------------- | ---------------------- | ------------------------ |
+| catalog number  | 246033   | Unique identifier within the collection. | All records in Arctos have a catalog number, and catalog number is unique within a collection. |
+| GUID_Prefix     | MVZ:Herp   | An internal value, may be useful for specifying collections within Arctos. Should never be used outside of Arctos. | GUID_Prefix is unique and synonymous with "collection" within Arctos. |
+| triplet         | MVZ:Herp:246033 | Unique identifier within Arctos. | GUID_Prefix combined with catalog number makes a unique-within-Arctos idenfier which has traditionally been used as a sort of "local GUID." (Yes, we do know what the "g"- and "u" - in GUID stands for....) This identifer should ***never\*** be used when there's any possibility that it could be interpreted as something outside of Arctos, and should not be referred to as a "GUID." |
+| collectionID    | [https://arctos.database.museum/collection/MVZ:Herp](https://arctos.database.museum/collection/MVZ:Herp)   | Identifying Arctos collections in any context. | GUID_Prefix plus an Arctos-supplied URI fragment forms a true GUID for the collection. |
+| GUID            | [https://arctos.database.museum/guid/MVZ:Herp:246033](https://arctos.database.museum/guid/MVZ:Herp:246033) | Unambiguously referring to the record at any scale in any context. When in doubt, use this. (Use the 'copy' button on the record "GUID page" to get it.)  | collectionID plus catalog number forms a true GUID for the record. This is occasionally (and regretably) referred to as "Record Identifier." |
+
+
 
 ## Searching
 
@@ -285,7 +299,7 @@ be automatically redirected to another
 maintaining a record of the specimen rather than the specimen’s
 identifying numbers, and allows users to continue using bookmarks and
 links.
-
+                                                             |
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/catalog.markdown" target="_blank">here</a>.
