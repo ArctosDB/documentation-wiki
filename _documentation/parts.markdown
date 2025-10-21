@@ -132,6 +132,22 @@ Evidence or technique used.
 
 Special Note: Part attribute [preservation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctpart_preservation) drives the "tissueness" flag.
 
+## Fossil
+
+(Work in process, editing help appreciated)
+
+* https://github.com/ArctosDB/code-table-work/issues/111
+
+Summary: "Fossil" is an attribute of cataloged items and should not be included in parts.
+
+## Trace
+
+
+(Work in process, editing help appreciated)
+
+* https://github.com/ArctosDB/arctos/issues/2546
+
+* Summay: "trace" and "fossil" are not parts and should not be included in any way, just name the object being cataloged. ``trackway`` is sufficient.
 
 ## Edit this Documentation
 
