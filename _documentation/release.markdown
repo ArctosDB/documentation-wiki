@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 title: Release Notes
 author: DLM
@@ -5,6 +19,23 @@ layout: default_toc
 ---
 
 # Release Notes
+
+
+
+
+
+## 20251022
+
+
+* <https://github.com/ArctosDB/dev/issues/401> - check user dependencies
+* <https://github.com/ArctosDB/dev/issues/389> - notification update
+* <https://github.com/ArctosDB/dev/issues/382> - maintenance
+* <https://github.com/ArctosDB/dev/issues/381> - maintenance
+* <https://github.com/ArctosDB/dev/issues/402> - bugfix
+* <https://github.com/ArctosDB/dev/issues/376> - bugfix
+* <https://github.com/ArctosDB/dev/issues/377> - remove redundant container tool
+* <https://github.com/ArctosDB/dev/issues/391> - add DWC-related notification
+
 
 
 ## 20251015
