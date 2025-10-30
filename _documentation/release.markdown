@@ -1,17 +1,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ---
 title: Release Notes
 author: DLM
@@ -21,6 +10,15 @@ layout: default_toc
 # Release Notes
 
 
+
+
+## 20251029
+
+* <https://github.com/ArctosDB/dev/issues/404> - locality cache bugfix
+* <https://github.com/ArctosDB/dev/issues/405> - modernize bulk tool
+* <https://github.com/ArctosDB/dev/issues/305> - better log bulk updates
+* <https://github.com/ArctosDB/dev/issues/407> - user management bugfix
+* <https://github.com/ArctosDB/dev/issues/385> - citation manager update
 
 
 
