@@ -10,7 +10,7 @@ layout: default_toc
 # Best Practice - Deciding What to Catalog
 
 
-## Nultiple Individuals
+## Multiple Individuals
 
 Embryos and parasites may be treated as parts of the host organism. Ideally, embryos should be treated as separate cataloged items because they may have, or they may acquire, attributes distinct from those of their mothers. Nevertheless it is often practical to consider them as parts of the mother until such time as they do acquire separate attributes. Similarly, parasites have been recorded as parts of their hosts until such time as they might be worked into a separate parasite collection.
 
