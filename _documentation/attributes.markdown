@@ -140,6 +140,10 @@ converted (or in any way modified or assumed), the verbatim value should
 be given in the [Attribute Remark](#remark).
 
 
+## using attributes for mixed lots
+
+Attributes which refer to lots or anything other than the item of scientific interest (usually individual) should not be created or used.
+
 
 ## How To
 
@@ -153,3 +157,4 @@ Instructions for doing specifc tasks related to Attributes in Arctos
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/attributes.markdown" target="_blank">here</a>.
+
