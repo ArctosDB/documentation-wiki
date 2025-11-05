@@ -57,6 +57,14 @@ Foreign key --> encumbrance
 
 Foreign key --> catalog_item
 
+# security
+
+Do not use Encumbrances for truly sensitive information.
+
+# legal
+
+Do not use encumbrances to mask illegal activity.
+
 
 --------
 
