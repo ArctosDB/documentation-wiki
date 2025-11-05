@@ -1,40 +1,37 @@
 ---
 title: How To Print Labels
 layout: default_toc
-author: Emily Braker, Teresa J Mayfield-Meyer, Aren Gunderson
+author: Emily Braker, Teresa J Mayfield-Meyer, Aren Gunderson, DLM
 created on: 2019-05-02
-date: 2022-11-03
+date: 2025-11-05
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
-[Printed Reports and Labels Documentation](https://handbook.arctosdb.org/documentation/reports.html)
-
-[Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/280)
-
-We are in the process of moving reports to a new system. If you had a report in the ColdFusion Reporter that you loved and want to re-create, please [file an issue](https://github.com/ArctosDB/arctos/issues/new?assignees=lkvoong&labels=function-Reports&template=report-template-request.md&title=New+Arctos+Report+Template+Request) for assistance.
 
 # How to Print Labels
 
-## Within Arctos
+## Catalog records
 
-**Print specimen/object labels by querying the desired records and using the Tools Menu just above the search results to go to "Arctos Reporter." From there, select the relevant report template to generate a PDF.**
+Print specimen/object labels by querying the desired records and using the Tools Menu to go to "Arctos Reporter." From there, select the relevant report.
 
-* From the Search Page, query the specimen(s) that wish to print labels for. Search by catalog number, a series of catalog numbers, by accession number, or any parameters needed to return the intended records.
+## Containers
 
-* On the Results page, navigate to the Tools Menu --> Arctos Reporter. 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Screenshot%202024-02-26%2015.15.54.png)
-* Select the report you want (usually your insitution's standard label template). Click the "Open" button to generate a PDF of the labels. From there, print away!
+Select print from the container form
 
-## Using Downloaded Data and Microsoft Word's Mail Merge Function
+## Transactions
 
-For an example of this process see this [GitHub Issue](https://github.com/ArctosDB/arctos/issues/5251).
+Select print from edit or search results.
 
-File an issue if you need help with SQL for the data you want to use in your labels. In order to use the SQL, from the main Arctos menu select [Reports/Services > Write SQL](https://arctos.database.museum/tools/userSQL.cfm) replace any text in the SQL box with your SQL and select CSV to get a downloaded table as your results.
+# Format
 
-## Tutorial Video ↗️
+Reports may print as HTML, CSV, or other.
 
-[![YouTube: How To Print Labels](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Print_Labels_in_Arctos_thumb.jpg)](https://www.youtube.com/watch?v=BlOi5XwJHas)
+# Create
+
+File an Issue for assistance.
+
+
 
 ## Edit this Documentation
 
