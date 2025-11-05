@@ -19,6 +19,10 @@ The quality of the taxonomy you use is very important to the accessibility of yo
 
 If you are using WoRMS (via Arctos), management of the taxonomic table is reduced but not eliminated.  WoRMS (via Arctos) taxa with an aphiaid are automatically maintained.  Taxa without an aphiaid (which are not in WoRMS) must be maintained by the users.
 
+## Upload/Download
+
+Arctos classifications are not designed to support lossless download; do not expect to get data back from Arctos! It is recommended to manage classificaiton data in the format of your choice (Google Sheets is usually sufficient) and to load that to Arctos periodically.
+
 ## Common Problems
 
 ### The Taxon Name I want to use exists, but there's no classification in my preferred source
