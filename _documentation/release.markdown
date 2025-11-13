@@ -10,7 +10,15 @@ layout: default_toc
 # Release Notes
 
 
+## 20251112
 
+* <https://github.com/ArctosDB/dev/issues/408> - Add to Archive bugfix
+* <https://github.com/ArctosDB/dev/issues/260> - clarification
+* <https://github.com/ArctosDB/dev/issues/413> - bugfix
+* <https://github.com/ArctosDB/dev/issues/412> - better OAuth error handling
+* <https://github.com/ArctosDB/dev/issues/414> - OAuth redirect update
+* <https://github.com/ArctosDB/dev/issues/418> - OAuth update
+	
 
 ## 20251029
 
