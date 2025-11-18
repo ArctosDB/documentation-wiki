@@ -76,6 +76,8 @@ Spatial Search provides spatial tools which consider both asserted and derived d
 **Any Geographic Element** considers asserted locality and geography terms, plus geography search terms, plus terms pulled from various spatial query services including Arctos, GBIF, and GeoLocate. This field is intended to cast the broadest possible net, and should be expected to find unintended records (or false positives).
 
 **Map Polygon** - zoom and pan the map to the area of interest, click the polygon icon (top-center, next to the 'stop drawing' hand), then click the vertices to create a polygon. (Doubleclick or click the hand to close the polygon; the search will fail without this critical step.)
+    
+    * NOTE: The map by default will not return records with an error of greater than 20,000 meters.
 
 **Geography Shape Name** searches by geographic shapes, regardless of assertions. That is, a search for _A_ will find records where the locality "insersects" (see **Spatial Match Type**) the named geography, even if the geographic assertion is for _Z_. 
 
@@ -274,3 +276,4 @@ Instructions for doing specifc tasks related to Searching in Arctos
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Search-for-Specimens.markdown" target="_blank">here</a>.
+
