@@ -10,6 +10,15 @@ layout: default_toc
 # Release Notes
 
 
+## 20251120
+
+* <https://github.com/ArctosDB/dev/issues/411> - better CT integration
+* <https://github.com/ArctosDB/dev/issues/416> - security update
+* <https://github.com/ArctosDB/dev/issues/420> - API bugfix
+* <https://github.com/ArctosDB/dev/issues/421> - API bugfix
+* <https://github.com/ArctosDB/dev/issues/417> - API performance update
+* <https://github.com/ArctosDB/dev/issues/419> - bugfix
+
 ## 20251112
 
 * <https://github.com/ArctosDB/dev/issues/408> - Add to Archive bugfix
