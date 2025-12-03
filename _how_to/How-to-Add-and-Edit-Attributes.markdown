@@ -1,9 +1,9 @@
 ---
-title: How To Create and Edit Attributes
+title: How To Add and Edit Attributes
 layout: default_toc
 ---
 
-# How to Create and Edit Catalog Record Attributes
+# How to Add/Create and Edit Catalog Record Attributes
 
 **Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
 
@@ -11,12 +11,12 @@ layout: default_toc
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/edit_attributes.jpg)
 
-## Create Attributes
+## Add Attributes
 
 * Select the desired "Attribute" from the "Create New Attribute" drop-down menu (note: menu values are unique to collection type). Additional fields will appear in the attribute table depending on the attribute type selected (e.g., Value, Units).
 * Fill in required data (yellow-highlighted fields) and any additional pertinent information in the fields provided.
 * Click the "Save All" button below the table to create the attribute. Upon saving, a new blank row will appear so that additional attributes can be added. **TIP:** Use the "use Agent1/Date1" hypertext to carry over agent name and determination date when creating new attributes.
-* Continue creating new attributes as desired by populating the appropriate fields and saving.
+* Continue adding/ creating new attributes as desired by populating the appropriate fields and saving.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/edit_attributes_detail.jpg)
 
@@ -27,4 +27,4 @@ layout: default_toc
 
 ## Edit this Documentation
 
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-and-Edit-Attributes.markdown" target="_blank">here</a>.
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Add-and-Edit-Attributes.markdown" target="_blank">here</a>.
