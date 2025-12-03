@@ -16,8 +16,11 @@ In the Tools Directory, go to Internal Settings> Manage Collection. The shortcut
 
 
 Click on *Collection's Attributes* which opens a new tab:
-[screenshot] (https://arctos.database.museum/Admin/codeTableCollection.cfm?table=ctattribute_type&guid_prefix=ALMNH:Inv)
-There you can use the header rows to resort the rows and select attributes for your collection.
+There you can use the header rows to resort the rows and select attributes for your collection by using the check boxes.
+
+
+<img height="500" alt="Firefox_Screenshot_2025-12-03T22-56-47 240Z" src="https://github.com/user-attachments/assets/fdf8a582-8e2a-450b-9436-ead991e3a556" />
+
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 This has been written for immediate use but may be merged into a larger document on *How to Manage Your Collection*. Stay tuned!
