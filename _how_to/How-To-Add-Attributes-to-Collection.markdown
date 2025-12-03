@@ -1,0 +1,27 @@
+---
+title: How To Add Attributes to a Collection 
+layout: default_toc
+author: Michelle Koo
+date: 2025-11-30
+---
+
+
+**Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
+
+To add existing record attributes (from the [Collection Object Attribute code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)) to your collection for usage (e.g., data entry form), you must have ```manage_collection``` permission.
+
+In the Tools Directory, go to Internal Settings> Manage Collection. The shortcut to **Collection Defaults** takes you to the Authorities links:
+
+<img width="2008" height="680" alt="Image" src="https://github.com/user-attachments/assets/384ff7c7-17a5-4bce-8d69-077e5dc29ce8" />
+
+
+Click on *Collection's Attributes* which opens a new tab:
+[screenshot] (https://arctos.database.museum/Admin/codeTableCollection.cfm?table=ctattribute_type&guid_prefix=ALMNH:Inv)
+There you can use the header rows to resort the rows and select attributes for your collection.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
+This has been written for immediate use but may be merged into a larger document on *How to Manage Your Collection*. Stay tuned!
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Add-Attributes-to-Collection.markdown" target="_blank">here</a>.
