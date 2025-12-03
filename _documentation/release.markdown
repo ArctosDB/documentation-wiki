@@ -1,6 +1,3 @@
-
-
-
 ---
 title: Release Notes
 author: DLM
