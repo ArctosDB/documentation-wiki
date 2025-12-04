@@ -82,7 +82,7 @@ It is a good idea to periodically review who has access to manage and edit your 
 * Review the report of operators and assigned roles
 * From this page you can manage user accounts and add/remove permissions
 
-### 2. Managing Operator Roles and Permissions for Exiting Team Members
+### 2. Managing Operator Roles and Permissions for Existing Team Members
 
 When a member of your Arctos team leaves, **DO NOT** delete or alter the account or the user’s agent login name. 
 Deleting agents will destroy their edit history and may have other unintended consequences. Instead, use the “lock account” link from their operator user management page (not manage agents). Note that user accounts automatically lock after 6 months of inactivity and users whose accounts have been locked will not be able to log into Arctos. Previous operators must create a new (public) account if they wish to access Arctos.
@@ -98,5 +98,6 @@ Operators with global_admin access may unlock accounts from the “manage Arctos
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.markdown" target="_blank">here</a>.
+
 
 
