@@ -30,14 +30,16 @@ TACC and Arctos generally require [MFA](https://en.wikipedia.org/wiki/Multi-fact
 
 ## Migrating Existing Arctos Accounts
 
-1. Log in to your existing and open Operator account in the usual way on Arctos.
-2. Follow the TACC authentication option on the 'success' page.
-3. Authenticate at TACC (You may need to accept TACC Terms of Use)
-4. Success! In the future, simply use the TACC option to log in.
+If you have an older, inactive, Local-Authentication Arctos Operator account, please perform the following steps:
+
+1. Attempt to authenticate in Arctos using the "Log in with TACC" button.
+2. Let us know your Arctos and TACC usernames.
+
+We should be able to link your accounts together using that information.
 
 ## Problems?
 
-Please see <https://github.com/ArctosDB/arctos/issues/8867> for more information, or to ask for help.
+Please see <https://handbook.arctosdb.org/how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html> for more information, or ask for help via GitHub Issue.
 
 
 # Log in with TACC
@@ -60,6 +62,7 @@ All users must have a TACC account before being added an Arctos Operator. See [U
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/oauth.markdown).
+
 
 
 
