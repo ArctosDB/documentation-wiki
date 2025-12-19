@@ -7,6 +7,16 @@ layout: default_toc
 # Release Notes
 
 
+## 20251216
+
+* <https://github.com/ArctosDB/dev/issues/425> - normalize attributes
+* <https://github.com/ArctosDB/dev/issues/431> - bugfix
+* <https://github.com/ArctosDB/dev/issues/432> - bugfix
+* <https://github.com/ArctosDB/dev/issues/427> - establish JSON standards for Agents
+* <https://github.com/ArctosDB/dev/issues/426> - add transactions to FLAT
+
+
+	
 ## 20251120
 
 * <https://github.com/ArctosDB/dev/issues/411> - better CT integration
