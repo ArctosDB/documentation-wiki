@@ -7,6 +7,16 @@ layout: default_toc
 # Release Notes
 
 
+
+## 20251229
+
+* <https://github.com/ArctosDB/dev/issues/429> - expand the TURD
+* <https://github.com/ArctosDB/dev/issues/428> - more container modernization
+* <https://github.com/ArctosDB/dev/issues/438> - more derived data agent checks
+* <https://github.com/ArctosDB/dev/issues/42> - more code table modernization
+
+
+
 ## 20251216
 
 * <https://github.com/ArctosDB/dev/issues/425> - normalize attributes
