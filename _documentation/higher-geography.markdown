@@ -158,7 +158,10 @@ Please refer to [Marine Geographies: the levels](https://docs.google.com/spreads
 
 ### Creation Request Template
 
-Please use this [template](https://docs.google.com/spreadsheets/d/1dGqSl2O28APN89uK6wI__SKzHF6KLGM3x2AMm-sUg-Y) to request geography creation.
+Please use this [template](https://docs.google.com/spreadsheets/d/1dGqSl2O28APN89uK6wI__SKzHF6KLGM3x2AMm-sUg-Y) to request geography creation. There are two possibliities:
+
+1. Use the "new" tab to request new geography
+2. Use the "merge" tab to request new "land + water" geography from two existing Arctos geography records
 
 ## Editing Guidelines
 
