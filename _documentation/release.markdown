@@ -6,6 +6,20 @@ layout: default_toc
 
 # Release Notes
 
+## 20260107
+
+* <https://github.com/ArctosDB/dev/issues/437> - component loader, better checks and documentation
+* <https://github.com/ArctosDB/dev/issues/400> - better abandoned data handler
+* <https://github.com/ArctosDB/dev/issues/435> - report bugfix/update
+* <https://github.com/ArctosDB/dev/issues/436> - component loader optimization
+* <https://github.com/ArctosDB/dev/issues/318> - component loader optimization
+* <https://github.com/ArctosDB/dev/issues/430> - loan parent container location link
+* <https://github.com/ArctosDB/dev/issues/390> - Subject dropdown for notifications
+* <https://github.com/ArctosDB/dev/issues/439> - API adjustment
+* <https://github.com/ArctosDB/dev/issues/441> - Add waterbody to record search
+* <https://github.com/ArctosDB/dev/issues/424> - Agent API (and UI) revision
+* <https://github.com/ArctosDB/dev/issues/442> - better link for found records parts
+* <https://github.com/ArctosDB/dev/issues/440> - more Agent search capability
 
 
 ## 20251229
