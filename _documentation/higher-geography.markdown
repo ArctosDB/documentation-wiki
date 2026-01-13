@@ -122,11 +122,11 @@ Pending review
 
 ### source_authority
 
-GADM for administrative terrestrial terms, IHO for marine/aquatic terms. Wikipedia for terms where GADM and IHO authorities are lacking. 
+GADM for administrative terrestrial terms, IHO for marine/aquatic terms. Wikipedia for terms where GADM and IHO authorities are lacking. Space-pipe-space-delimeted list of URLs, including any relevant GitHub Issues, is the preferred format.
 
 ### geog_remark
 
-Remarks field is intended to provide guidance and clarification in future geography creation or merge events, and is not searchable nor intended for public display.
+Remarks field is intended to provide guidance and clarification in future geography creation or merge events, and is not searchable nor intended for public display. No HTML or links.
 
 Use geographic remarks to describe remarkable things about the geography itself, such as when the named place existed or how it differs from potentially-confusing other places. Do not use remarks for procedural information or information concerning other data (such as specimens or localities).
 
