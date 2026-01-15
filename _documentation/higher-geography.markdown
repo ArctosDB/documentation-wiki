@@ -191,7 +191,7 @@ The first level divisions are  the [19 regions of Finland](https://en.wikipedia.
 
 ## Madagascar
 
-The Geography Committee reviewed Madagascar in May andrecommends the use of the current six provinces of Madagascar.
+The Geography Committee reviewed Madagascar in May andrecommends the use of the current [six provinces of Madagascar](https://en.wikipedia.org/wiki/Provinces_of_Madagascar).
 
 * https://github.com/ArctosDB/arctos/issues/8824
 * https://github.com/ArctosDB/arctos/issues/8665#issuecomment-2852292381
