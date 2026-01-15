@@ -173,6 +173,29 @@ Do not change the fundamental nature of geography without the full consent and u
 
 Spatial data are maintained separately from geography, and may be used to facilitate search or suggest spatial affiliation.
 
+# Special
+
+Directions and decisions for specific areas; do not deviate from these without discussion and documentation
+
+## Nepal
+
+The first level divisions are the [seven provinces of Nepal.](https://en.wikipedia.org/wiki/Provinces_of_Nepal#List_of_provinces_of_Nepal)
+
+* https://github.com/ArctosDB/arctos/issues/8824
+
+## Finland
+
+The first level divisions are  the [19 regions of Finland](https://en.wikipedia.org/wiki/Regions_of_Finland).
+
+* https://github.com/ArctosDB/arctos/issues/8824
+
+## Madagascar
+
+The Geography Committee reviewed Madagascar in May andrecommends the use of the current six provinces of Madagascar.
+
+* https://github.com/ArctosDB/arctos/issues/8824
+* https://github.com/ArctosDB/arctos/issues/8665#issuecomment-2852292381
+
 
 
 ## Edit this Documentation
