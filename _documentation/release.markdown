@@ -6,6 +6,26 @@ layout: default_toc
 
 # Release Notes
 
+## 20260116
+
+
+* <https://github.com/ArctosDB/dev/issues/304> - update host/parasite terminology
+* <https://github.com/ArctosDB/dev/issues/449> - relationship handler
+* <https://github.com/ArctosDB/dev/issues/399> - relationship handler
+* <https://github.com/ArctosDB/dev/issues/288> - relationship handler
+* <https://github.com/ArctosDB/dev/issues/450> - update publication picker
+* <https://github.com/ArctosDB/dev/issues/454> - geography UI update and data clean
+* <https://github.com/ArctosDB/dev/issues/453> - agent bulkloader/checker better error handling
+* <https://github.com/ArctosDB/dev/issues/445> - cache DOI
+* <https://github.com/ArctosDB/dev/issues/455> - bugfix involving low-quality Agents
+
+
+## 20260108
+
+* <https://github.com/ArctosDB/dev/issues/451> - Agent API - add server-side sorting
+* <https://github.com/ArctosDB/dev/issues/452> - bugfix
+
+
 ## 20260107
 
 * <https://github.com/ArctosDB/dev/issues/437> - component loader, better checks and documentation
