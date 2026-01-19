@@ -1,7 +1,7 @@
 ---
 title: How To Github - Create and Manage Github Issues for Arctos 
 layout: default_toc
-author: DLM
+author: DLM, MSK
 ---
 
 # How To Github: Create and Manage Github Issues for Arctos
@@ -23,6 +23,7 @@ Improvements to Arctos can come from any Arctos user. Suggested improvements can
 * Use this link <https://github.com/ArctosDB/arctos/issues/> to access Arctos Issues.
 * Search for existing Issues to be certain your Issue does not already exist. If a similar Issue already exists, please "adopt" it instead of filing a duplicate. (But, please do not change the fundamental nature of a partially-related Issue. If in doubt, open a potential duplicate.)
 * If you want to create a new Issue, click the green "New Issue" button in the upper right of the Issues list. Enter a short but clear title, and a description of the Issue in the text box where it says "Leave a comment." Click "Submit new issue" to assign the new Issue a number. Be clear and verbose in explaining the need and intended goals; provide specific examples, screenshots, or anything else which might help us understand what you wish to accomplish.
+* _NOTE_: This is a public forum. The [Arctos Code of Conduct](https://arctosdb.org/code-of-conduct/) applies here to ensure respectful communication. We will remove or hide comments deemed inappropriate that either violates the Code of Conduct or impinges on productive dialog. If needed for repeat offenders, we will ban users from posting on the forum. At the very least, please remember that writing a public online comment is different from discussing or even venting in person, so please think how you phrase your issue and how you would want it to be received in a spirit of community productivity. 
  
  
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) 
