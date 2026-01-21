@@ -7,22 +7,11 @@ layout: default_toc
 
 ## Archives
 
-Archives are static lists of catalog numbers. Archives only change when specimens are manually added or removed.
-
-### Unlocked Archives
-
-Anyone may create or alter Unlocked Archives.
-
-### Locked Archives 
-
-Locked Archives may only be created by curatorial staff, and may not be deleted or altered.
-Locking an Archive prevents deletion or encumbering of included specimens.
-Locked Archives are appropriate tools for citing groups of specimens.
-Locked Archives may be assigned DOIs.
+Archives are static lists of catalog numbers. Archives only change when records are manually added or removed.
 
 ## Saved Searches
 
-Saved Searches are dynamic saved searches which may be created by anyone, and which change as specimens are cataloged, 
+Saved Searches are dynamic saved searches which may be created by anyone, and which change as records are cataloged, 
 deleted, or updated.
 
 ## Edit this Documentation
