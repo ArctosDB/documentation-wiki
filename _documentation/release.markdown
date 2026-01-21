@@ -6,6 +6,10 @@ layout: default_toc
 
 # Release Notes
 
+## 20260120
+
+* <https://github.com/ArctosDB/dev/issues/458> - bugfix
+	
 ## 20260116
 
 
