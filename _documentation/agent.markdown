@@ -188,7 +188,7 @@ Note that an 'invalid agent' message can result from, for example, zero or many 
 
 # Delete
 
-Agents are never deleted, and agentID is therefore stable. Agents marked as 'bad duplicate of' should not be used, and are generally less-findable in the UIs, but continue to exist. It is left to the users to verify flagged duplicates, and update their records as appropriate. (Many bulk tools exist; file an Issue for assistance.)
+Agents are never deleted, and agentID is therefore stable. Agents marked as 'bad duplicate of' should not be used, and are generally less-findable in the UIs, but continue to exist. It is left to the users to verify flagged duplicates, and update their records as appropriate. "The system" does not change any data or usage when an Agent is flagged, but notifications are provided. Many bulk tools to transfer usage to "good" Agents exist; file an Issue for assistance.
 
 
 # How To
