@@ -20,7 +20,7 @@ Some objects (taxonomy, media, agents, places) are shared among collections. Peo
 
 * Enter your First, Middle (if applicable, initial ok), and Last names in the appropriate fields
 * Enter your Affiliation (name of your institution)
-* Enter a valid email address. This is important because you cannot be invited as an Operator without a valid email address
+* Enter a valid email address. This is important because you cannot be invited as an Operator without a valid email address (Please see TACC Troubleshooting and Tips below)
 * Select the "Create an Account" button and you are done.
 
 ### User's step 2: Log into Arctos using the TACC log in button and credentials.
@@ -64,6 +64,15 @@ Please [Read this before assigning roles to users](https://arctos.database.museu
 
 For anyone doing more than simple data entry, it probably makes sense to have them set up a Github User account. To help them do this see [How To Create A Github Account](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html#how-to-create-a-github-account). After they have created their Github account, add their Github link to their Arctos Agent (in addresses). This helps others connect Github users with Arctos Operators.
 
+## TACC Troubleshooting and Tips
+
+ - Please see TACC rules and policies when creating an account. Please follow them closely as their security rules keep Arctos database operations safe: [Basic policies](https://docs.tacc.utexas.edu/basics/accounts/)
+ - Please see limitations on email addresses regarding new accounts: [Documentation](https://docs.tacc.utexas.edu/basics/accounts/#newaccounts)
+### Helpful Links
+ - Reset Password here: https://accounts.tacc.utexas.edu/forgot_password
+ - Find your username here: https://accounts.tacc.utexas.edu/forgot_username
+ - Trouble logging in? Try TACC Log in support: https://accounts.tacc.utexas.edu/login_support
+
 ---
 
 ### Congratulations!
@@ -98,6 +107,7 @@ Operators with global_admin access may unlock accounts from the “manage Arctos
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.markdown" target="_blank">here</a>.
+
 
 
 
