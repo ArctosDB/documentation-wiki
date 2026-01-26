@@ -6,10 +6,25 @@ layout: default_toc
 
 # Release Notes
 
+
+## 20260126
+
+
+* <https://github.com/ArctosDB/dev/issues/464> - better agent create UI
+* <https://github.com/ArctosDB/dev/issues/461> - better agent create check
+* <https://github.com/ArctosDB/dev/issues/463> - agent loader revision
+* <https://github.com/ArctosDB/dev/issues/465> - bugfix
+* <https://github.com/ArctosDB/dev/issues/462> - bugfix
+* <https://github.com/ArctosDB/dev/issues/447> - merge TAG and Media in /guid/ UI
+* <https://github.com/ArctosDB/dev/issues/459> - maintenance
+
+
+
+
 ## 20260120
 
 * <https://github.com/ArctosDB/dev/issues/458> - bugfix
-	
+
 ## 20260116
 
 
