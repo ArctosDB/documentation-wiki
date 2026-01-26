@@ -8,6 +8,12 @@ date: 2025-08-28
 # Authentication
 Arctos relies on an open standard for authenticating users registered to use Arctos. Any one who wants to interact with Arctos, from downloading data to managing data, must have a user account to authenticate their access.
 
+# Create a public account
+
+1. Click either Google or GitHub from the login page.
+2. Provide your credentials and/or approve the request.
+3. Done! Please fill in your profile to download data.
+
 ## OAuth
 
 OAuth (Open Authorization) is an open standard for authorization that allows third-party applications to access user data on another service without needing the user's password. Arctos uses OAuth to allow logging in via various providers. All Operators (those who can change things in the database) must authenticate via TACC/TAPIS.
@@ -50,11 +56,6 @@ To log into an Operator account created with TACC OAuth, or after an Operator ac
 
 All users must have a TACC account before being added an Arctos Operator. See [Users](/documentation/users.html) for detailed instructions.
 
-# Create a public account
-
-1. Click either Google or GitHub from the log in page.
-2. Provide your credentials and/or approve the request.
-3. Done! Please fill in your profile to download data.
 
 
 ---------------
@@ -62,6 +63,7 @@ All users must have a TACC account before being added an Arctos Operator. See [U
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/oauth.markdown).
+
 
 
 
