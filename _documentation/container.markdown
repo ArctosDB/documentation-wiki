@@ -82,7 +82,7 @@ useful.
 
 ## barcode
 
-Machine-reaable container labels, unique within an institution. ('Barcode' is a misnomer; "value which can be unambiguously read by machines" is the intent.)
+Machine-reaable container labels, unique within **institution_acronym**. ('Barcode' is a misnomer; "value which can be unambiguously read by machines" is the intent.)
  These identifiers may be "dumb" (eg next in series, ***recommended***) or "smart" (eg catalog number - highly ***not*** recommended),
 
 ### barcode claims
@@ -92,6 +92,10 @@ Barcodes must be claimed using the Arctos tool before containers may be created.
 ## institution_acronym
 
 Institution owning the container, and RLS partition. Containers may be accessed by users who have access to any collection within the institution, plus sufficient ``... container`` roles.
+
+### implicit usage
+
+When institution_acronym is not explicitly required, it may be inferred (_e.g._, from catalog record involvement). This occasionally make some tools unsuitable for cross-collection usage, and a tool with a more precise reference to containers must be selected.
 
 ## label
 
