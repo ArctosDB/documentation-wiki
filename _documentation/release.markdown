@@ -6,6 +6,17 @@ layout: default_toc
 
 # Release Notes
 
+## 20260202
+
+
+* <https://github.com/ArctosDB/dev/issues/460> - better documentation with picks, Step One
+* <https://github.com/ArctosDB/dev/issues/471> - API security upgrade
+* <https://github.com/ArctosDB/dev/issues/473> - maintenance
+* <https://github.com/ArctosDB/dev/issues/466> - agent search update
+* <https://github.com/ArctosDB/dev/issues/467> - bugfix
+* <https://github.com/ArctosDB/dev/issues/472> - bugfix
+* <https://github.com/ArctosDB/dev/issues/470> - bugfix
+* <https://github.com/ArctosDB/dev/issues/475> - bugfix
 
 ## 20260126
 
