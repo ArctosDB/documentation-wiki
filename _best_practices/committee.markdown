@@ -35,6 +35,11 @@ The following items have been helpful.
 * The agenda should be updates as early as possible to facilitate planning
 * An indication of who will participate in any upcoming meetings would be very helpful (possibly google calendar function?)
 
+## Recommendations
+
+* Work to fully express goals; do not get lost in the technical details.
+* Come up with a presentation to The Community; changes originating in Committees still go through the regular development pathway, which starts with Issues.
+* Support the tools necessary to enact your goals; this may involve writing or organizing proposals.
 
 ## Google Calendar
 
