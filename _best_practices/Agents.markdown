@@ -53,7 +53,7 @@ An agent must include at least one status, relationship, or address OR be a dete
 Use the Agent “unknown” when the person or organization doing the collecting, identifying, borrowing, etc. is unknown or unclear. Please do not create new Agents such as “Collector unknown” or “Determiner unknown”. Consider using “unknown” along with the [verbatim agent attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) rather than creating cryptic agents such as A.B.C. or S. Smith. If at some point in the future the full name of collector, determiner, or borrower S. Smith is determined to be Susan B. Smith for a specific set of records and you can find dates, addresses, or relationships for them, add the full Agent name to Arctos and assign roles to records as appropriate.
 
 ### Do
--   Do format person agent preferred names as "First Middle Last" as a matter of standardization. (Exemptions may be made at the documented request of individual Agents.)
+-   Do format person agent preferred names as "First Middle Last" as a matter of standardization. (Exemptions may be made at the documented request of individual Agents.) Preferred Name should be the most complete name possible.
 -   Do include name components (first, middle, last) as agent names when appropriate.  
 -   Do include **possible** and common variations "Pat" for Patrick, stock symbols, etc. as akas.
 -   Do follow abbreviations in preferred names with a period. "J. J. Smith,", never "JJ Smith" or "J J Smith." If nonstandard data are important search terms, include them as akas.  
