@@ -69,9 +69,9 @@ For anyone doing more than simple data entry, it probably makes sense to have th
  - Please see TACC rules and policies when creating an account. Please follow them closely as their security rules keep Arctos database operations safe: [Basic policies](https://docs.tacc.utexas.edu/basics/accounts/)
  - Please see limitations on email addresses regarding new accounts: [Documentation](https://docs.tacc.utexas.edu/basics/accounts/#newaccounts)
 ### Helpful Links
- - Reset Password here: https://accounts.tacc.utexas.edu/forgot_password
- - Find your username here: https://accounts.tacc.utexas.edu/forgot_username
- - Trouble logging in? Try TACC Log in support: https://accounts.tacc.utexas.edu/login_support
+ - [Reset Password here](https://accounts.tacc.utexas.edu/forgot_password)
+ - [Find your username here](https://accounts.tacc.utexas.edu/forgot_username)
+ - Other trouble logging in? Try [TACC Log in support](https://accounts.tacc.utexas.edu/login_support)
 
 ---
 
@@ -107,6 +107,7 @@ Operators with global_admin access may unlock accounts from the “manage Arctos
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.markdown" target="_blank">here</a>.
+
 
 
 
