@@ -53,7 +53,7 @@ An agent must include at least one status, relationship, or address OR be a dete
 Use the Agent “unknown” when the person or organization doing the collecting, identifying, borrowing, etc. is unknown or unclear. Please do not create new Agents such as “Collector unknown” or “Determiner unknown”. Consider using “unknown” along with the [verbatim agent attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) rather than creating cryptic agents such as A.B.C. or S. Smith. If at some point in the future the full name of collector, determiner, or borrower S. Smith is determined to be Susan B. Smith for a specific set of records and you can find dates, addresses, or relationships for them, add the full Agent name to Arctos and assign roles to records as appropriate.
 
 ### Do
--   Do format person agent preferred names as "First Middle Last" as a matter of standardization.  
+-   Do format person agent preferred names as "First Middle Last" as a matter of standardization. (Exemptions may be made at the documented request of individual Agents.)
 -   Do include name components (first, middle, last) as agent names when appropriate.  
 -   Do include **possible** and common variations "Pat" for Patrick, stock symbols, etc. as akas.
 -   Do follow abbreviations in preferred names with a period. "J. J. Smith,", never "JJ Smith" or "J J Smith." If nonstandard data are important search terms, include them as akas.  
@@ -118,6 +118,9 @@ Relationships between agents can be recorded. Like date of birth and date of dea
 * Do not change the fundamental nature of existing agents. For example, if there's a "John Doe" collecting birds in Wyoming in 1990, and you have a "John Doe" who collected grasshoppers in Madagascar in 1872, it should be assumed that these are two separate Agents, and it would be inappropriate to add the latter's information to the former.
 * Do not remove data; add an end date or an alternative assertion instead.
 
+## Status
+
+Please add an approprite [status](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_attribute_type#status) determination to any Agents which do not meet the guidelines on this page.
 
 ## Summary
 
