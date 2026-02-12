@@ -6,6 +6,15 @@ layout: default_toc
 
 # Release Notes
 
+## 20260211
+
+* <https://github.com/ArctosDB/dev/issues/478> - agent edit improvement
+* <https://github.com/ArctosDB/dev/issues/474> - add record search option
+* <https://github.com/ArctosDB/dev/issues/479> - update citation JSON
+* <https://github.com/ArctosDB/dev/issues/481> - permit bugfix
+* <https://github.com/ArctosDB/dev/issues/482> - Operator creation update
+
+
 ## 20260202
 
 
