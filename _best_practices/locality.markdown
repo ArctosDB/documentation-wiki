@@ -61,6 +61,8 @@ locality. Named Localities:
  - Will always be unique, so will not be auto-merged
  - Can be bulkloaded (see [Bulkload Locality tool](https://arctos.database.museum/tools/bulkloadLocality.cfm) and then used in a catalog record bulkload file instead of repeating all the locality information.)
 
+It is recommended to use simple ASCII characters, avoiding anything which might be confused for a list delimiter (commas, for example), or which might complicate copying/pasting (spaces, for example) in naming localities. Several Arctos UIs will generate UUIDs for locality names by request.
+
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
 If you have absolutely no locality data, use the Locality Name **NULL Locality Data** and skip entering anything else related to locality.
@@ -488,20 +490,9 @@ The webservice data pane has documentation inline. Read it.
 
 Duplicate localities are automatically merged, and unused localities are automatically deleted. A Locality Name will prevent both of these actions and should be used in pre-created localities. Please remove Name from any localities which you no longer intend to use.
 
-## How To
 
-Instructions for doing specifc tasks related to Localities in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
-- [How To Assign a New Locality to a Catalog Record](https://handbook.arctosdb.org/how_to/How-to-Reassign-Specimens-to-Another-Locality.html)
-- [How To Change Locality and Collecting Event](https://handbook.arctosdb.org/how_to/How-to-Change-Locality-Single-Specimen.html)
-- [How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate](https://handbook.arctosdb.org/how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.html)
-- [How To Create a Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-Locality.html)
-- [How To Create a New Collecting Event for a Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html)
-- [How To Create a New Specific Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Specific-Locality.html)
-- [How To Edit a Specific Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Specific-Locality.html)
-- [How To Edit Coordinates and Max Error of a Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-Coordinates-and-Max-Error-of-a-Locality.html)
-- [How To Edit Coordinates for One Cataloged Item](https://handbook.arctosdb.org/how_to/How-to-Edit-Coordinates-for-One-Specimen.html)
-- [How To Merge Duplicate Localities](https://handbook.arctosdb.org/how_to/How-to-Merge-Duplicate-Localities.html)
-- [How To Understand Locality Media](https://handbook.arctosdb.org/how_to/How-to-understand-locality-media.html)
-- [How To Understand the Arctos Locality Model](https://handbook.arctosdb.org/how_to/How-to-understand-the-Arctos-Locality-Model.html)
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/locality.markdown).
 
