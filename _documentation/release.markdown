@@ -6,6 +6,21 @@ layout: default_toc
 
 # Release Notes
 
+
+
+
+## 20260216
+
+* <https://github.com/ArctosDB/dev/issues/460> - better picks now all locality attributes in editLocality
+* <https://github.com/ArctosDB/dev/issues/485> - bugfix
+* <https://github.com/ArctosDB/dev/issues/489> - less-restricted agent search
+* <https://github.com/ArctosDB/dev/issues/490> - inline documentation update
+* <https://github.com/ArctosDB/dev/issues/483> - managers can now authorize users to self-issue API keys
+* <https://github.com/ArctosDB/dev/issues/487> - new OGL-centric search/results/parts view
+* <https://github.com/ArctosDB/dev/issues/42> - modernize ctquad
+
+
+
 ## 20260211
 
 * <https://github.com/ArctosDB/dev/issues/478> - agent edit improvement
