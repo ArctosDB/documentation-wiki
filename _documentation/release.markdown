@@ -12,7 +12,7 @@ layout: default_toc
 * <https://github.com/ArctosDB/dev/issues/496> - bugfix
 * <https://github.com/ArctosDB/dev/issues/495> - bugfix
 * <https://github.com/ArctosDB/dev/issues/497> - bugfix
-	
+
 
 ## 20260220
 
@@ -24,7 +24,6 @@ layout: default_toc
 * <https://github.com/ArctosDB/dev/issues/446> - cache improvement
 * <https://github.com/ArctosDB/dev/issues/492> - security check
 * <https://github.com/ArctosDB/internal/issues/464> - bugfix
-
 
 
 ## 20260216
