@@ -6,6 +6,24 @@ layout: default_toc
 
 # Release Notes
 
+## 20260309
+
+* <https://github.com/ArctosDB/dev/issues/491> - code table viewer improvement
+* <https://github.com/ArctosDB/dev/issues/496> - bugfix
+* <https://github.com/ArctosDB/dev/issues/495> - bugfix
+* <https://github.com/ArctosDB/dev/issues/497> - bugfix
+	
+
+## 20260220
+
+* <https://github.com/ArctosDB/dev/issues/480> - Add a count of parts to Accession .csv download
+* <https://github.com/ArctosDB/dev/issues/477> - search records by multiple localities
+* <https://github.com/ArctosDB/dev/issues/476> - search records by lithostratigraphy
+* <https://github.com/ArctosDB/dev/issues/486> - parts loader - make sure everything refers to the same record
+* <https://github.com/ArctosDB/dev/issues/226> - Edit Container Magic Positions update
+* <https://github.com/ArctosDB/dev/issues/446> - cache improvement
+* <https://github.com/ArctosDB/dev/issues/492> - security check
+* <https://github.com/ArctosDB/internal/issues/464> - bugfix
 
 
 
