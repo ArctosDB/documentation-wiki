@@ -45,6 +45,9 @@ Code tables cannot contain HTML. (Cleanup is an ongonig process; file an Issue f
 
 Arctos is a Community, and often cleaning up "legacy" data in favor of ideals is a difficult process involving local processes across hundreds of collections. We remain convinced that Arctos data are more capable of supporting deep research than anything else in existence, but we also acknowledge the realities of humans, traditions, resources, funding, etc.
 
+### Alternatives
+
+Arctos provides a free-text way to say most everything. If data cannot be standardized to fit into Authorities, or while the authority creation process is underway, it may be desirable to use less-restricted methods. (Given proper consistency, "upgrading" at a later time should be trivial.)
 
 ## Collection-Specific Values
 
@@ -91,3 +94,4 @@ Agents are included here only for completeness. See [Agent Documentation](/docum
 ## Edit this Documentation
 
 If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/authorities.markdown" target="_blank">here</a>.
+
