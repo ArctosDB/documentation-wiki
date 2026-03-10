@@ -62,6 +62,12 @@ To see definitions and documentation about user access roles visit <a href="http
 
 ## Maintenance and Deletion
 
+### Users
+
+Users may delete accounts by navigating to their Profile.
+
+### Operators
+
 Once a user has an account and an agent name type of “login,” do not attempt to delete or alter the account or the login agent name. Additionally, do not revoke collection access roles from a former user. To revoke a user’s permissions, simply click the “lock account” link from manage users (not manage agents).
 
 User accounts automatically lock after 6 months of inactivity. 
