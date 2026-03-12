@@ -19,7 +19,7 @@ account or let us know the Google or Github account name you use to access Arcto
 Once granted, the user will be able to log into Arctos and go to their **Profile** located in the dropdown menu under
 their User name (upper right of the screen), where links to API information and a Get API Key button is available.
 
-![Profile screenshot for self-service API key](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/refs/heads/gh-pages/images/uploads/LoadToValidate.png)
+![Profile screenshot for self-service API key](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/refs/heads/gh-pages/images/uploads/self-service_screenshot.png)
 
 Clicking on the Get API Key button will generate a new key in a table with expiration date.
 
