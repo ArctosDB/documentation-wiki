@@ -6,6 +6,11 @@ layout: default_toc
 
 # Release Notes
 
+## 20260311
+
+* <https://github.com/ArctosDB/dev/issues/460> - better part picks
+* bugfixes
+
 ## 20260309
 
 * <https://github.com/ArctosDB/dev/issues/491> - code table viewer improvement
