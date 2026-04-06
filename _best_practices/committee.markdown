@@ -37,9 +37,11 @@ The following items have been helpful.
 
 ## Recommendations
 
-* Work to fully express goals; do not get lost in the technical details.
+* Work to fully express goals as functional needs.
+    * Do not get lost in the technical details, which will be worked out with the help of Arctos Staff after functional needs are understood.
 * Come up with a presentation to The Community; changes originating in Committees still go through the regular development pathway, which starts with Issues.
 * Support the tools necessary to enact your goals; this may involve writing or organizing proposals.
+
 
 ## Google Calendar
 
