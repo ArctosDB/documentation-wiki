@@ -51,7 +51,7 @@ The URI for each of the three images is the root directory which appears in the 
 You can use the CONCATENATE function in Excel to create the URIs. Copy the root directory and paste it into the first column of a blank Excel worksheet, copy the filenames and place them into the next column to the right, then use the CONCATENATE function to put them together (see directions above).
 
 #### MEDIA_LICENSE ####
-Enter the appropriate value from the [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LICENSE).
+Enter the appropriate value from the [code table](arctos.database.museum/info/ctDocumentation.cfm?table=ctlicense).
 
 #### MEDIA_LABEL ####
 Up to 10 labels can be added using this tool and label types are controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTMEDIA_LABEL). Adding **description** and **made date** labels, while not required, will help in locating media via media search.
