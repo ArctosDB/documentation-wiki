@@ -74,6 +74,25 @@ Users with manage_collection access may delete templates owned by their collecti
 Shipment templates work in exactly the same ways.
 
 
+## Share Record Search and Results
+
+First choose a Profile.
+
+<img width="284" height="312" alt="Screenshot 2026-04-15 at 14 08 09" src="https://github.com/user-attachments/assets/cd68f04a-b1c7-4a04-8a26-64ba48afde17" />
+
+Enter your search criteria, perform the search, then click reload with sharable URL. 
+
+<img width="269" height="448" alt="Screenshot 2026-04-15 at 14 08 27" src="https://github.com/user-attachments/assets/1ff7fd60-06b1-4f52-a503-8c3bf7617530" />
+
+***Important***: If you are logged in as an Operator, including guid_prefix will ensure the recipient sees the same collections.
+
+Copy the URL, ensure that it contains "sp={profile_you_selected}" plus your search criteria, and share away! Example:
+
+```
+https://arctos.database.museum/search.cfm?cat_num=12&sp=preset_art
+```
+
+
 
 
 ## Edit this Documentation
