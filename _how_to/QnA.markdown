@@ -78,11 +78,11 @@ Shipment templates work in exactly the same ways.
 
 First choose a Profile.
 
-<img width="284" height="312" alt="Screenshot 2026-04-15 at 14 08 09" src="https://github.com/user-attachments/assets/cd68f04a-b1c7-4a04-8a26-64ba48afde17" />
+<img width="284" height="312" alt="Image" src="https://github.com/user-attachments/assets/a040fac0-75ab-4049-a5db-9d8c6022efbb" />
 
 Enter your search criteria, perform the search, then click reload with sharable URL. 
 
-<img width="269" height="448" alt="Screenshot 2026-04-15 at 14 08 27" src="https://github.com/user-attachments/assets/1ff7fd60-06b1-4f52-a503-8c3bf7617530" />
+<img width="269" height="448" alt="Image" src="https://github.com/user-attachments/assets/e197532c-12af-4a6b-b880-26c8a4c01328" />
 
 ***Important***: If you are logged in as an Operator, including guid_prefix will ensure the recipient sees the same collections.
 
