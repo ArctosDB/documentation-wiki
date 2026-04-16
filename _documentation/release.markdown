@@ -6,6 +6,34 @@ layout: default_toc
 
 # Release Notes
 
+## 20260416
+
+
+* <https://github.com/ArctosDB/dev/issues/515> - agent search bugfix/documentation update
+* <https://github.com/ArctosDB/dev/issues/506> - maintenance
+* <https://github.com/ArctosDB/dev/issues/502> - library update
+* <https://github.com/ArctosDB/dev/issues/508> - remove limit on transaction remarks
+* <https://github.com/ArctosDB/dev/issues/511> - control transaction identifiers
+* <https://github.com/ArctosDB/dev/issues/509> - allow NULL specimen_event_type
+* <https://github.com/ArctosDB/dev/issues/512> - identifier category update
+* <https://github.com/ArctosDB/dev/issues/498> - publication pick UI update
+* <https://github.com/ArctosDB/arctos/issues/9567> - update some rules, automation, documentation regarding identifiers
+
+
+	
+
+## 20260406
+
+
+* <https://github.com/ArctosDB/dev/issues/503> - self-issue API key
+* <https://github.com/ArctosDB/dev/issues/494> - bugfix
+* <https://github.com/ArctosDB/dev/issues/505> - performance check
+* <https://github.com/ArctosDB/dev/issues/460> - better picks
+* <https://github.com/ArctosDB/dev/issues/493> - bugfix
+* <https://github.com/ArctosDB/dev/issues/500> - remove broken citation stats forms
+
+
+	
 ## 20260311
 
 * <https://github.com/ArctosDB/dev/issues/460> - better part picks
