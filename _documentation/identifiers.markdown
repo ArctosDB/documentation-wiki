@@ -1,9 +1,9 @@
 ---
-title: Other Identifying Numbers (Other IDs) and Relationships
+title: Identifiers and Relationships
 layout: default_toc
 ---
 
-# Other Identifying Numbers (Other IDs) and Relationships
+# Identifiers and Relationships
 
 **Other IDs** (identifiers) are any identifiers applied to specimens. These
 identifiers may allow tracking records (as in the case of collector
