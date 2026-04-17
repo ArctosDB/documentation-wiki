@@ -11,7 +11,7 @@ layout: default_toc
 
 # How To Record Prior Inclusion in Another Collection
 
-**Documentation:** [Identifiers](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/other-identifying-numbers.markdown)
+**Documentation:** [Identifiers](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/identifiers.markdown)
 
 Objects have often passed through many hands before finally arriving in a museum collection and provenance information is valuable to historians and can also sometimes help to verify the veracity of a record.
 

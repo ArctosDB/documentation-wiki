@@ -281,7 +281,7 @@ by legacy usage, or anything else.
 
 Legacy collections often exist for various reasons, and these may have duplicate catalog numbers, unpredictable formats which may
 confuse users, or contain arbitrary divisions which no longer are relevant. Combining these into a unified collection in Arctos is generally
-trivial, and Arctos provides various mechanisms (such as [actionable identifiers](other-identifying-numbers.html) and 
+trivial, and Arctos provides various mechanisms (such as [actionable identifiers](identifiers.html) and 
 [redirects](/redirect.html)) to ensure that no functionality is lost. Collections with "less citable" catalog number schemes are unlikely to support actionable citations, and so little is lost if the "traditional catalog numbers" are subsumed under a "citable catalog number." This approach has been used to unify and disambiguate several Arctos collections.
 
 # Recataloging Records
@@ -290,7 +290,7 @@ It is sometimes necessary to move cataloged items from one collection or
 catalog number to another. When doing so, it is important to maintain a
 way of finding the specimen by its original identifiers. In this, be as
 specific as possible. Use specific identifier types and GUIDs if
-possible. (See more at [Other IDs](/documentation/other-identifying-numbers).)
+possible. (See more at [Other IDs](/documentation/identifiers).)
 
 Arctos provides HTTP redirect capability (see [Redirect](https://handbook.arctosdb.org/documentation/redirect.html)), under which one URL
 (<http://arctos.database.museum/guid/KNWR:Ento:7193>, for example) can

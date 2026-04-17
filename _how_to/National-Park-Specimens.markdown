@@ -4,7 +4,7 @@ layout: default_toc
 ---
 # How To Identify National Park Specimens
 
-**Documentation:** [Identifiers](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/other-identifying-numbers.markdown)
+**Documentation:** [Identifiers](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/identifiers.markdown)
 
 Many collections have been tasked with identifying specimens from US National Parks and various other Department of the Interior (DoI)
 agencies. There are several possible ways of doing this.
@@ -28,12 +28,12 @@ For information about creating and maintaing projects see [Projects in Arctos](h
 
 ### Generic Identifiers
 
-Assigning [identifiers](/documentation/other-identifying-numbers.html) with appropriate issued by agents such as [U. S. National Park Service catalog](https://arctos.database.museum/agents.cfm?agent_id=21347816) provides coarse-grained origin information, and may
+Assigning [identifiers](/documentation/identifiers.html) with appropriate issued by agents such as [U. S. National Park Service catalog](https://arctos.database.museum/agents.cfm?agent_id=21347816) provides coarse-grained origin information, and may
 be somewhat useful for DOI personnel in comparing museum specimen data with records in their local databases.
 
 ### Specific Identifiers
 
-Assigning [identifiers](/documentation/other-identifying-numbers.html) with appropriate issued by agents [Lassen Volcanic National Park](https://arctos.database.museum/agents.cfm?agent_id=10014680) provides fine-grained origin information and easy access. 
+Assigning [identifiers](/documentation/identifiers.html) with appropriate issued by agents [Lassen Volcanic National Park](https://arctos.database.museum/agents.cfm?agent_id=10014680) provides fine-grained origin information and easy access. 
 
 ### Geography
 

@@ -23,7 +23,7 @@ You do not need to create an account or login to search. However, there are some
 
 ## Identifiers
 
-**Documentation:** [Identifiers](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/other-identifying-numbers.markdown)
+**Documentation:** [Identifiers](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/identifiers.markdown)
 
 * The list of options supplied in the field “Collection” allows you to limit your search to only one collection or vertebrate taxon. Ignoring this field will return results that match your search criteria from all collections.
 
@@ -172,7 +172,7 @@ Works like other polygon queries, but from KML. For example, this can provide a 
 
 ## Relationships
 
-**Documentation:** [Identifiers and Relationships](https://handbook.arctosdb.org/documentation/other-identifying-numbers.html)
+**Documentation:** [Identifiers and Relationships](https://handbook.arctosdb.org/documentation/identifiers.html)
 
 * This section allows search by relationships to other specimens.
 
