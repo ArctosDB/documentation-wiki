@@ -69,7 +69,12 @@ There are three main categories of identifier that Arctos supports, and it is st
 
 	
 
-	
+
+
+
+--------------------
+
+
 
 ## Other Identifier Type
 
