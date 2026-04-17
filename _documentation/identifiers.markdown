@@ -5,23 +5,77 @@ layout: default_toc
 
 # Identifiers and Relationships
 
-**Other IDs** (identifiers) are any identifiers applied to specimens. These
-identifiers may allow tracking records (as in the case of collector
-numbers), reference other resources (*e.g.*, GenBank numbers), or form
-relationships among specimens (such as hosts of parasites).
+**Identifiers** (identifiers) are any identifiers applied to records. These identifiers may allow tracking records (as in the case of collector numbers), reference other resources (*e.g.*, GenBank numbers), or form relationships among specimens (such as hosts of parasites).
+
+## Background
+
+Arctos is built on the premise that each catalog record will gather all the information known about the object or record, especially resolvable, unique links to external and online resources. The Extended Specimen Network is one way to describe the Arctos implementation of Linked Open Data principles ([LOD](https://www.ontotext.com/knowledgehub/fundamentals/linked-data-linked-open-data/)) of machine-readable interlinkages across the internet. Identifiers and relationships between records are the working blocks of LOD.
+
+Arctos originally created identifiers from a paired identifier [type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#description) and value. This worked reasonably well for short periods of time and small numbers of well-defined identifiers. However, over time and with increased users, cryptic references to people (the “ABC” in ‘ABC 123’) become lost or ambiguous. Less-precise identifiers create the possibility that several unrelated series are mixed under a type. 
+
+## Agent-Based Identifiers
+
+Arctos Agents are entities that perform or represent an action or activity, which may refer to a person, an organization, an institutional catalog, etc. Many “traditional” identifiers clearly reference Agents, just in ambiguous and nonpersistent ways. Arctos has made this connection explicit; all identifier values may now be “issued by” an Agent whether a person, organization or other discoverable entity.
+
+### Benefits of the Agent-Based model
+
+* Agents in Arctos are capable of carrying extensive metadata, including relationships to other Agents (e.g., child of, division of), dates of existence, alternate names, and external references. This supports choosing precisely the correct “type” of identifier.  
+  * This model readily supports very specific and context-dependent identifiers. A short-lived project within a bigger project within a section within a division of a department of an organization is easy to handle and search, for example.   
+  * This model also supports vague or low-information identifiers with the flexibility to enhance and expand knowledge of the Agent to one of high data quality. A “something about the organization, we don’t know more at this time” identifier can simply be linked to the organization as a whole, where it will be found in general searches, and made more specific when and if such information surfaces.  
+      
+* Agents are expected to be multitudinous, and agent-involved UIs are developed to deal with thousands of similar *things* distinguishable by metadata.   
+* Agent name-string changes do not break or muddy the explicit connection between agents and identifiers. E.g. a person may change their name and thus their initials; the Agent-Based identifier model makes it explicit that “JMM 454” and “JMA 455” are indeed part of the same series.  
+* Agents with similar “identifier abbreviations,” once entered properly, cannot easily be confounded.
+
+
+### Drawbacks of the Agent-Based model
+
+* We can identify none.
+
+	
+
+### Identifier Types in Arctos
+
+There are three main categories of identifier that Arctos supports, and it is strongly recommended to have an Issued by agent  (even if unknown; yes, unknown is an option\!):
+
+**Type A: Identifiers that have URLs where the “issued by” agent can be used to create explicit agent links (i.e., conforms to Linked Open Data).  Supports the Extended Specimen Network.**
+
+| Arctos fields |  |  |
+| ----- | ----- | ----- |
+| *IssuedBy* | *Value* | *Type* |
+| MVZ Bird Collection | https://arctos.database.museum/guid/MVZ:Bird:69400 | Arctos record GUID |
+| NCBI Nucleotide \- GenBank | [http://www.ncbi.nlm.nih.gov/nuccore/EU011370](http://www.ncbi.nlm.nih.gov/nuccore/EU011370) | identifier |
+
+**Type B: Largely used by specific collections for internal purposes. Arctos may use these as shortcuts to auto-link to exactly one Agent. Not usable in the Extended Specimen Network.**
+
+| Arctos fields |  |  |
+| ----- | ----- | ----- |
+| *IssuedBy* | *Value* | *Type* |
+| [NK](https://arctos.database.museum/agent/21350608) | 39385 | NK |
+| [AF](https://arctos.database.museum/agent/21369125) | 51930 | AF |
+
+**Type C: Identifiers which are not resolvable (no URL-based assignments) and cannot be auto-assigned. These may be used to describe original data (e.g, collector number, field number, preparator number) where the “issued by” agent (person or organization or shared catalog) needs to be assigned manually.  Not usable in the Extended Specimen Network.**  
+	
+
+| Arctos fields |  |  |
+| ----- | ----- | ----- |
+| *IssuedBy* | *Value* | *Type* |
+| James L. Patton | [1811](https://arctos.database.museum/search.cfm?oidtype=collector%20number&oidnum==1811&id_issuedby==James%20L.%20Patton) | collector number |
+| Carla Cicero | [1062](https://arctos.database.museum/search.cfm?oidtype=preparator%20number&oidnum==1062&id_issuedby==Carla%20Cicero) | preparator number |
+| Lindsay Wildlife Hospital | [2004-335](https://arctos.database.museum/guid/MVZ:Bird:184048) | identifier |
+| Bell Museum Bird Collection | [X7314](https://arctos.database.museum/search.cfm?oidtype=preparator%20number&oidnum==X7314&id_issuedby==Bell%20Museum%20Bird%20Collection) | preparator number |
+
+**Type D: Legacy identifiers that are transitioning to one of the other categories; as is, these identifiers do not provide useful information and are likely making data difficult to find and manage (at best causing confusion). None of these should be used with new data and ideally will migrate to a more explicit solution.**
+
+	
+
+	
 
 ## Other Identifier Type
 
 `Coll_Obj_Other_ID_Num . Other_ID_Type VARCHAR2(75) not null`
 
-This field describes the kind of identifier 
-using a [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type).
-
-### Cleanup In Progress
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-Note that many types are legacy and should not be used. Cleanup is in progress. ``identifier`` is the correct type for most situations.
+This field describes the kind of identifier using a [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type). Note that many are arbitrary; Agents are much more capable of pointing to data.
 
 
 
@@ -76,11 +130,8 @@ Record all these as Other IDs.
 
 ## Choosing Type
 
-Identifiers are in a state of limbo as of this writing, and type is not generally understood. Failure to comply with the following will result in lower-quality data, will prevent discovery of the record and related data, and will prevent full integration in the [Extended Specimen Network](https://doi.org/10.1093/biosci/biz140).
+See [documentation](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type) for type definitions and guidelines. "Identifier" is usually a good choice.
 
-### Local Identifiers
-
-If the identifier applies to something like the organization of your local freezer and is generally not intended to be a useful component of the Extended Specimen Network, then a local identifier type (such as [AF](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#af) or [NK](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#nk) is appropriate. These generally have locally-meaningful rules and do not need (and are not allowed) an issued agent.
 
 ### Arctos References
 
