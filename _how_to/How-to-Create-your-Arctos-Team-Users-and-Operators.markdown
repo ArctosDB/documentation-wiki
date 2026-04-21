@@ -68,6 +68,10 @@ For anyone doing more than simple data entry, it probably makes sense to have th
 
  - Please see TACC rules and policies when creating an account. Please follow them closely as their security rules keep Arctos database operations safe: [Basic policies](https://docs.tacc.utexas.edu/basics/accounts/)
  - Please see limitations on email addresses regarding new accounts: [Documentation](https://docs.tacc.utexas.edu/basics/accounts/#newaccounts)
+
+- Before requesting additional help, ensure that you can log in to your TACC account at https://accounts.tacc.utexas.edu/login?redirect_url=profile, and that Multi-Factor Authentication is enabled in your TACC user portal.
+
+  
 ### Helpful Links
  - [Reset Password here](https://accounts.tacc.utexas.edu/forgot_password)
  - [Find your username here](https://accounts.tacc.utexas.edu/forgot_username)
