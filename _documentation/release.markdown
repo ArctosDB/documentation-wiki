@@ -6,6 +6,19 @@ layout: default_toc
 
 # Release Notes
 
+## 20260429
+
+* <https://github.com/ArctosDB/dev/issues/525> - bugfix
+* <https://github.com/ArctosDB/dev/issues/524> - add automation
+* <https://github.com/ArctosDB/dev/issues/523> - bugfix
+* <https://github.com/ArctosDB/dev/issues/42> -  better authorities
+
+
+## 20260423
+
+* <https://github.com/ArctosDB/dev/issues/42> - more code table modernization
+* <https://github.com/ArctosDB/dev/issues/521> - dependency update
+
 ## 20260416
 
 
@@ -20,7 +33,7 @@ layout: default_toc
 * <https://github.com/ArctosDB/arctos/issues/9567> - update some rules, automation, documentation regarding identifiers
 
 
-	
+
 
 ## 20260406
 
