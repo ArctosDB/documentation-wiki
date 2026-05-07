@@ -8,6 +8,21 @@ date: 2019-10-15
 # Arctos Developers Guide
 Tips, tricks, and conventions for developing Arctos code
 
+### Attribute Display Order
+
+When possible, attribute components should be displayed in the order:
+
+
+1. attribute
+2. value
+3. units
+4. determiner
+5. method
+6. date
+7. remark
+
+ref: https://github.com/ArctosDB/arctos/issues/9637
+
 ### CFML
 
 Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language) and HTML. 
@@ -158,4 +173,4 @@ Some tables have a lastuser and lastdate field, which generally exist to be pick
 
 ## Edit this Documentation
 
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/developer-guide.markdown" target="_blank">here</a>.
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/developer-guide.markdown).
