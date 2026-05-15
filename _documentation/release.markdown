@@ -6,6 +6,48 @@ layout: default_toc
 
 # Release Notes
 
+## 20260515
+
+
+* <https://github.com/ArctosDB/dev/issues/520> - documentation/toel update
+* <https://github.com/ArctosDB/dev/issues/283> - do not require part condition
+* <https://github.com/ArctosDB/dev/issues/162> - bugfix - barcode must be paired with institution
+* <https://github.com/ArctosDB/dev/issues/540> - bugfix
+* <https://github.com/ArctosDB/dev/issues/444> - update and change loan item bulkloader
+* <https://github.com/ArctosDB/dev/issues/541> - bugfix
+* <https://github.com/ArctosDB/dev/issues/44> - UI - revert breaking global change
+
+## 20260514
+
+* <https://github.com/ArctosDB/dev/issues/456> - identification bulkloader - significant functionality change
+* <https://github.com/ArctosDB/dev/issues/171> - ID loader refresh
+* <https://github.com/ArctosDB/dev/issues/302> - remove record-event tool
+* <https://github.com/ArctosDB/dev/issues/301> - add bulk update record-event
+* <https://github.com/ArctosDB/dev/issues/539> - bugfix
+
+
+## 20260513
+
+* <https://github.com/ArctosDB/dev/issues/536> - BerkeleyMapper major update
+* <https://github.com/ArctosDB/dev/issues/533> - CT bugfix
+* <https://github.com/ArctosDB/dev/issues/531> - UI smoothing
+* <https://github.com/ArctosDB/dev/issues/519> - download bugfix
+* <https://github.com/ArctosDB/dev/issues/518> - move media includes to API
+* <https://github.com/ArctosDB/dev/issues/280> - modernize media cache
+* <https://github.com/ArctosDB/dev/issues/499> - rank agent duplicate suggestions
+* <https://github.com/ArctosDB/dev/issues/514> - CT value checker modernization
+* <https://github.com/ArctosDB/dev/issues/348> - maintenance
+
+
+## 20260507
+
+* <https://github.com/ArctosDB/dev/issues/532> - bugfix
+
+## 20260506
+
+* <https://github.com/ArctosDB/dev/issues/529> - Lucee 7.x
+
+
 ## 20260429
 
 * <https://github.com/ArctosDB/dev/issues/525> - bugfix
