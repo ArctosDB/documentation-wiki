@@ -107,9 +107,9 @@ Arctos checks taxon names against various services on creation and edit. This ch
 [Taxon Term](https://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM) contains metadata regarding taxon names and a system for organizing such data. Every term may be arranged hierarchically within a
 classification, and hierarchical terms may optionally be ranked. Terms are further divided as:
 
--   "Local data" are curated from within Arctos and may be edited. A
+-   "Local data" are curated from within Arctos and may be edited. (Tools may be controlled by Source.) A
     [controlled vocabulary](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_TERM)
-    is required for "local" data.
+    is available, but not required, for "local" data.
 -   “Webservice data” are drawn from various sources via GlobalNames.org and is used primarily for locating specimens.  The specific sources vary with the taxon a user is searching for.  These webservices are frequently cloned to create a classification for a new taxon name in a local source.  
 
 ______________
@@ -131,12 +131,12 @@ _________________
 ### Classification Metadata
 
 These are terms which are not part of the classification but clarify and augment the taxon classification. 
-There are currently eight Metadata Term Types which may be completed.
+There are currently eight Metadata Term Types suggested, but any number of terms of any type may be included.
 
-•	**[nomenclatural_code](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTNOMENCLATURAL_CODE)** is controlled by the code table.  Most common values are “ICZN” and “ICNB.”  This is a mandatory field.  
+•	**[nomenclatural_code](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTNOMENCLATURAL_CODE)** is controlled by the code table.  Most common values are “ICZN” and “ICNB.”
 •	**author_text** is the author of ICZN names, or the species author of ICBN names.  Always include the author (with or without parenthensis as appropriate) unless no author is given.     
 •	**infraspecific_author** is the author of the infraspecific epithet in ICBN names  
-•	**[taxon-status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS)** is controlled by a code table.   
+•	**[taxon-status](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS)**
 •	**source_authority** should list the publication, website or other authority for the taxon.     
 •	**remark** is an open field for any comment that will be helpful to Arctos users.  
 •   **aphiaid** is the taxon identification assigned by the World Register of Marine Species  
@@ -151,17 +151,7 @@ __________________
 ## Common Names
 
 Common Names are intended to help users find what they are looking
-for, and not to propagate any standard or system. A taxon may have
-several common names, in several languages and using several types of
-characters, or nothing. The same common name may apply to more than one
-taxon. For example, the term "common shrew" has been published for
-*Sorex cinereus* in North America and for *Sorex araneus* in Europe.
-Common names have not been capitalized except when they draw on a
-particular standard such as that of the American Ornithological Union
-(AOU Checklist).  Adjectival forms of proper names are capitalized
-(*e.g.*, "Alaska marmot").
-
-Common Names are added to the taxon record as classification metadata.
+for, and not to propagate any standard or system. Legacy Common Names are in the https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source#arctos_common_names Source; it is recommended to include common names in nonhierarchical classification terms.
 
 ## Taxon Relations
 
@@ -169,6 +159,8 @@ Common Names are added to the taxon record as classification metadata.
 are comprised of a relationship type, a related
 taxon, and an authority for the relationship. The related taxon is
 another record in the taxonomy table.
+
+Recommendation: Do not use this table; this information is better expressed as classifications.
 __________________
     
 ![Screen Shot 2019-04-13 at 9 45 24 AM](https://user-images.githubusercontent.com/15368365/56082005-e9e21780-5dd0-11e9-9462-dc874fad53ce.png)
