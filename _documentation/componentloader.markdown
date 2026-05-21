@@ -41,19 +41,7 @@ A UI which provides comprehensive runtime information, and allows user-based int
 
 ## Tiers
 
-Component Loaders current run as two tiers; Tier 2 records will not process until all Tier 1 records have processed.
-
-### Tier 1
-
-Tier 1 is primarily for UI-based bulk operations, but some more common record-centric operations remain here as of this writing.
-
-### Tier 2
-
-Tier 2 is currently everything that's not Tier 1
-
-### Tier 3
-
-Doesn't exist at this time, but the system is designed to support any number of tiers.
+See https://github.com/ArctosDB/dev/issues/507; tiers are no longer available, all run order is user-controlled.
 
 
 ## General Guidelines
@@ -68,4 +56,4 @@ or other attributes. Watch dates and non-integer numbers (such as decimal latitu
 
 ## Edit this Documentation
 
-If you see something that needs to be edited in this Documentation, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/componentloader.markdown).
+If you see something that needs to be edited in this Documentation, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/componentloader.markdown).
