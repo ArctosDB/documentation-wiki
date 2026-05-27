@@ -70,7 +70,7 @@ Users may delete accounts by navigating to their Profile.
 
 Once a user has an account and an agent name type of “login,” do not attempt to delete or alter the account or the login agent name. Additionally, do not revoke collection access roles from a former user. To revoke a user’s permissions, simply click the “lock account” link from manage users (not manage agents).
 
-User accounts automatically lock after 6 months of inactivity. 
+User accounts automatically lock after 90 days of inactivity. 
 
 Users without an email address in their Agent records will be automatically locked.
 
@@ -103,9 +103,9 @@ Instructions for doing specifc tasks related to Users in Arctos
 
 ## Edit this Documentation
 
-If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/users.markdown" target="_blank">here</a>.
+If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/users.markdown).
 
 ## Community Discussion
 
-- <a href="https://github.com/ArctosDB/documentation-wiki/issues/123" target="_blank">Github Documentation Issue #123</a>
+- [Github Documentation Issue #123](https://github.com/ArctosDB/documentation-wiki/issues/123)
 
