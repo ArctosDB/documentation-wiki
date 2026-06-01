@@ -193,6 +193,27 @@ References:
 * https://github.com/ArctosDB/arctos/issues/9086
 * https://stratigraphy.org/guide/litho
 
+#### ctlithostratigraphic_member
+
+ Terms may be added to this table if the following criteria are met:
+* The unit is registered in a national geologic database, with a link included in the documentation. 
+    * https://ngmdb.usgs.gov/Geolex/search
+    * https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/
+* If the unit is not listed in a national database, the documentation should include a link to a publication that describes the unit.
+* The term is properly formatted as "Name Type". Lithology descriptors should only be included when the unit is not referred to both with and without the descriptor. When a lithology descriptor is included, the format is "Name Lithology Type". Acceptable examples: 
+    * Cameron Creek Member
+    * Down Cliff Sand Member
+* In addition to the required links, the documentation must include a short description of the unit, including:
+    * The geographic region(s) in which the unit outcrops
+    * Geologic age
+    * Dominant lithology.
+
+ref: https://github.com/ArctosDB/arctos/issues/7844
+
+#### ctmime_type
+
+ Values listed here must be registered on the Internet Assigned Numbers Authority
+(https://www.iana.org/assignments/media-types/media-types.xhtml) and may be added as needed if requirements are met.
 
 #### ctspecimen_part_name
 
