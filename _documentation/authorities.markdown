@@ -162,6 +162,38 @@ The Arctos Paleo Committee should be consulted regarding any additions which do 
 
 ~~Use this template to request additions: https://docs.google.com/spreadsheets/d/14cKF6oo2ClEbIAU5kw8T-wYZNXjfZQP6MM_CqEP9-Xc~~
 
+
+#### ctlithostratigraphic_group
+
+Term additions may be expedited if the following criteria are met:
+
+* The unit is registered in a national geologic database, with a link included in the documentation.
+    * https://ngmdb.usgs.gov/Geolex/search
+    * https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/
+
+
+If the unit is not listed in a national database, the documentation must include a link to a primary literature publication that describes the unit.
+
+
+Terms must be consistently formatted. Acceptable examples include:
+
+* Dunquin Group
+* Old Red Sandstone Supergroup
+
+* In addition to the required links, the documentation must include a short description of the unit which includes
+    * the geographic region(s) in which the unit outcrops, 
+    * geologic age
+    * dominant lithology
+
+Write for an international audience; **do not** abbreviate.
+
+References:
+
+* https://github.com/ArctosDB/arctos/issues/7844
+* https://github.com/ArctosDB/arctos/issues/9086
+* https://stratigraphy.org/guide/litho
+
+
 #### ctspecimen_part_name
 
  - Part names should be compatible with an ontological framework. Best practice would be a link to an ontology
