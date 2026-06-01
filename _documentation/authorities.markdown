@@ -219,6 +219,9 @@ ref: https://github.com/ArctosDB/arctos/issues/7844
 
  - Part names should be compatible with an ontological framework. Best practice would be a link to an ontology
  - It is preferable to create a general part that can then be refined with a modifier (e.g. girdle -> with the ability to add a modifier such as pectoral or pelvic).
+ -  Part names must be singular and have broad usage among collections; thus, favor generic over specific, especially if part attribute can be used to specify a part (eg. wing vs left wing where wing is the part and 'left' is an attribute).
+ -  Part names require a functional description and an external "scholarly" reference such as an ontology (e.g, Uberon http://uberon.org) or Wikipedia link. Dictionary definitions are not sufficient.
+ -  Add alternative terms to maximize discoverability when available.
 
 #### ctquad
 
