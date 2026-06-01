@@ -102,6 +102,32 @@ a geographic boundary,
 A “Formerly” statement for any past names used in the literature or collection documentation, a link to an external scholarly reference, such as Wikipedia or Native Land Digital separated from the description with a pipe (|)
  - Write for an international audience; do not abbreviate.
 
+#### ctexamined_detected
+
+Terms should be formatted as ``category: term`` and consist of ASCII characters with no italics, markdown, etc. "Common" terms should be used when they are appropriate and (relatively) unambiguous: ``Rabies`` rather than ``Lyssavirus rabies``, for example.
+
+#### ctlithostratigraphic_bed
+
+Terms should follow the following criteria:
+
+* The unit is registered in a national geologic database, with a link included in the documentation. 
+    * https://ngmdb.usgs.gov/Geolex/search
+    * https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/
+
+* If the unit is not listed in a national database, the documentation should include a link to a publication that describes the unit.
+* The term is properly formatted as "Name Type". Lithology descriptors should only be included when the unit is not referred to both with and without the descriptor. When a lithology descriptor is included, the format is "Name Lithology Type". Acceptable examples: 
+    * Westfield Fish Bed
+    * Down Cliff Sand Member Starfish Bed
+
+* In addition to the required links, the documentation must include a short description of the unit which should include:
+    * the geographic region(s) in which the unit outcrops
+    * geologic age
+    * dominant lithology.
+
+
+ref: https://github.com/ArctosDB/arctos/issues/7844
+
+
 #### ctspecimen_part_name
 
  - Part names should be compatible with an ontological framework. Best practice would be a link to an ontology
