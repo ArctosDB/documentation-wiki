@@ -127,6 +127,40 @@ Terms should follow the following criteria:
 
 ref: https://github.com/ArctosDB/arctos/issues/7844
 
+#### ctlithostratigraphic_formation
+
+"Formal" lithostratigraphic formations; Data should follow a national geologic database or be attributable to a recognized type publication.
+
+Terms should include the unit type (generally "Formation") Lithology descriptors should only be included if there are multiple valid units with similar names where the lithology term is the distinction
+
+
+*  Duck Creek Formation 
+*  Duck Creek Limestone Formation 
+
+Description should include a concise summary of the unit, including:
+
+* geographic region(s) in which the unit outcrops
+* geologic age of the unit
+* (optionally) dominant lithology
+
+
+Write for an international audience; **do not** abbreviate.
+
+
+Include clarifying links (such as Wikipedia) when available.
+
+
+Addition of terms which occur in the following databases may be expedited.
+
+* USGS National Geologic Map Database (https://ngmdb.usgs.gov/Geolex/search)
+* BGS Lexicon of Named Rock Units (https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/)
+* Australian Stratigraphic Units Database (https://asud.ga.gov.au/search-stratigraphic-units/)
+* WEBLEX Canada (https://weblex.canada.ca)
+
+
+The Arctos Paleo Committee should be consulted regarding any additions which do not meet the above criteria. These entries will require additional descriptive data and references, and should cite primary literature type publications when possible.
+
+~~Use this template to request additions: https://docs.google.com/spreadsheets/d/14cKF6oo2ClEbIAU5kw8T-wYZNXjfZQP6MM_CqEP9-Xc~~
 
 #### ctspecimen_part_name
 
