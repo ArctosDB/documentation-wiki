@@ -61,6 +61,9 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 ## Rules of the Road for Code Table Terms
 
 ### General Rules for Adding Code Table Terms
+
+#### CAUTION: This is still being discussed, see https://github.com/ArctosDB/arctos/issues/9141
+
  - Use predictable Punctuation  
     Allowed characters:
      - a-Z
@@ -73,10 +76,33 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 
 ### Specific Rules for Specific Code Tables
 
-#### Parts
+
+#### ctculture
+
+Terms should meet the following criteria to be considered for this table.
+
+ - The culture is described in a widely recognized online source, e.g.,
+    - https://en.wikipedia.org/wiki/Native_Americans_in_the_United_States
+    - https://native-land.ca/
+    - https://ehrafworldcultures.yale.edu/
+ - If the culture is not listed in a national database, the documentation should include a link to a publication in the primary literature that describes the culture.
+ - The term is properly formatted as a singular ethnonym or endonym. Forward slash is acceptable for showing two or more currently-accepted terms. Inverted format using a colon (:) separator may be used when cultures are part of an overarching larger cultural group. The use of “and” is acceptable when multiple groups share a collective cultural affiliation. Acceptable examples:
+  - Haudenosaunee
+  - Alutiiq/Sugpiaq
+  - Inuit: Canadian
+  - Hutu and Tutsi
+ - The documentation must include a short description of the culture which includes (if relevant):
+An “Also” statement of additional accepted alternative names,
+a summary of the cultural group,
+a geographic boundary,
+A “Formerly” statement for any past names used in the literature or collection documentation, a link to an external scholarly reference, such as Wikipedia or Native Land Digital separated from the description with a pipe (|)
+ - Write for an international audience; do not abbreviate.
+
+#### ctspecimen_part_name
 
  - Part names should be compatible with an ontological framework. Best practice would be a link to an ontology
  - It is preferable to create a general part that can then be refined with a modifier (e.g. girdle -> with the ability to add a modifier such as pectoral or pelvic).
+
 
 
 ### Taxonomy
