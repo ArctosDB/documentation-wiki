@@ -199,7 +199,16 @@ References:
  - Part names should be compatible with an ontological framework. Best practice would be a link to an ontology
  - It is preferable to create a general part that can then be refined with a modifier (e.g. girdle -> with the ability to add a modifier such as pectoral or pelvic).
 
+#### ctquad
 
+ Terms may be added to this table if the following criteria are met:
+ - the quad is included in a published map series
+ - the term includes scale. Acceptable values are:
+   * 7.5 minute
+   * 15 minute
+   * 1:250,000
+ - the description includes a description of the geography in which the quad is placed. For example: Country, State(s)
+ - the description includes a https://ngmdb.usgs.gov link to a specific map. Other authorities may be suitable with proper review.
 
 ### Taxonomy
 
