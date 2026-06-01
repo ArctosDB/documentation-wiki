@@ -6,6 +6,17 @@ layout: default_toc
 
 # Release Notes
 
+This document is no longer being maintained. See <https://github.com/ArctosDB/dev/issues?q=is%3Aissue%20state%3Aclosed%20milestone%3Apre-release%20sort%3Aupdated-desc> for latest updates.
+
+## 20260520
+
+* https://github.com/ArctosDB/dev/issues/156
+* https://github.com/ArctosDB/dev/issues/544
+* https://github.com/ArctosDB/dev/issues/543
+* https://github.com/ArctosDB/dev/issues/507
+* https://github.com/ArctosDB/dev/issues/268
+* https://github.com/ArctosDB/dev/issues/516
+
 ## 20260515
 
 
