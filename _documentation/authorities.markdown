@@ -76,6 +76,10 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 
 ### Specific Rules for Specific Code Tables
 
+#### ctattribute_type
+
+Terms should not be overly specific that limit usage and should use existing controlled vocabulary as much as possible (e.g. units of measurements). Attribute terms must be singular, and require a functional description and an external “scholarly” reference such as an ontology or Wikipedia link. Dictionary definitions are not sufficient.
+
 
 #### ctculture
 
