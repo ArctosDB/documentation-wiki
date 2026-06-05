@@ -235,7 +235,7 @@ Acceptable scales are as follows.
 | map scale | suffix | more | example |
 |-----------|---------|-----|-------|
 | 1:250000 | nothing | "default" scale | Unalaska |
-| 1:50000 | 1:50000 |  | Antioch 1:50,000 |
+| 1:50000 | 1:50000 |  | Antioch 1:50000 |
 |  1:100000 |  1:100000 | 30 by 60 minute  | Mount Rainier 1:100000 |
 | 1:125000 | 1:125000 |  aka 30 minute | Stillaguamish 1:125000 |
 | 7.5 minute | 7.5 minute |  | Deadman Lake 7.5 minute |
