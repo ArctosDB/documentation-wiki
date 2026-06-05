@@ -228,8 +228,8 @@ ref: https://github.com/ArctosDB/arctos/issues/7844
  Terms may be added to this table if the following criteria are met:
  - the term contains only A-Z, a-z, space, and the scales below
  - the quad is included in a published map series
- - the description includes a description of the geography in which the quad is placed. For example: Country, State(s)
- - the description includes a https://ngmdb.usgs.gov link to a specific map. Other authorities may be suitable with proper review.
+ - the description includes a description of the geography in which the quad is placed. Be as precise as possible and write for an international audience; do not abbreviate. For example: United States, New Mexico, Bernalillo County, Sandoval County
+ - the description includes a https://ngmdb.usgs.gov link to a specific map. Other authorities may be accepted with individual review.
 
 Acceptable scales are as follows.
 
