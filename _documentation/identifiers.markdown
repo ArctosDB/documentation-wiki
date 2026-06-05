@@ -1,6 +1,8 @@
 ---
 title: Identifiers and Relationships
 layout: default_toc
+author: DLM, MSK
+date: 2026-06-04
 ---
 
 # Identifiers and Relationships
