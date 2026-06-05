@@ -231,16 +231,16 @@ ref: https://github.com/ArctosDB/arctos/issues/7844
  - the description includes a description of the geography in which the quad is placed. Be as precise as possible and write for an international audience; do not abbreviate. For example: United States, New Mexico, Bernalillo County, Sandoval County
  - the description includes a https://ngmdb.usgs.gov link to a specific map. Other authorities may be accepted with individual review.
 
-Acceptable scales are as follows.
+Acceptable suffixes (and the scales they represent) are as follows.
 
-| map scale | suffix | more | example |
+| suffix | map scale | more | example |
 |-----------|---------|-----|-------|
-| 1:250000 | nothing | "default" scale | Unalaska |
-| 1:50000 | 1:50000 |  | Antioch 1:50000 |
-|  1:100000 |  1:100000 | 30 by 60 minute  | Mount Rainier 1:100000 |
-| 1:125000 | 1:125000 |  aka 30 minute | Stillaguamish 1:125000 |
-| 7.5 minute | 7.5 minute |  | Deadman Lake 7.5 minute |
-| 15 minute | 15 minute | 1:63600 | Kaylor Mountain 15 minute |
+| (nothing/NULL/blank) | 1:250,000 |  "default" scale | Unalaska |
+| 1:50000 | 1:50,000 |  | Antioch 1:50000 |
+|  1:100000 |  1:100,000 | 30 by 60 minute  | Mount Rainier 1:100000 |
+| 1:125000 | 1:125,000 |  aka 30 minute | Stillaguamish 1:125000 |
+| 7.5 minute | 7.5 minute | aka 1:24,000 | Deadman Lake 7.5 minute |
+| 15 minute | 15 minute | aka 1:63600 | Kaylor Mountain 15 minute |
 
 
 
