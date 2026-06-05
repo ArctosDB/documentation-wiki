@@ -227,12 +227,21 @@ ref: https://github.com/ArctosDB/arctos/issues/7844
 
  Terms may be added to this table if the following criteria are met:
  - the quad is included in a published map series
- - the term includes scale. Acceptable values are:
-   * 7.5 minute
-   * 15 minute
-   * 1:250,000
  - the description includes a description of the geography in which the quad is placed. For example: Country, State(s)
  - the description includes a https://ngmdb.usgs.gov link to a specific map. Other authorities may be suitable with proper review.
+
+Acceptable scales are as follows.
+
+| map scale | suffix | more | example |
+|-----------|---------|-----|-------|
+| 1:250000 | nothing | "default" scale | Unalaska |
+| 1:50000 | 1:50000 |  | Antioch 1:50,000 |
+|  1:100000 |  1:100000 | 30 by 60 minute  | Mount Rainier 1:100000 |
+| 1:125000 | 1:125000 |  aka 30 minute | Stillaguamish 1:125000 |
+| 7.5 minute | 7.5 minute |  | Deadman Lake 7.5 minute |
+| 15 minute | 15 minute | 1:63600 | Kaylor Mountain 15 minute |
+
+
 
 ### Taxonomy
 
