@@ -13,12 +13,6 @@ Arctos maintains authorities in order to standardize content that is [shared amo
 [Code Tables](http://arctos.database.museum/info/ctDocumentation.cfm) enforce data consistency, which results in more-usable pick lists to better provide users with what they need, and allow more flexibility in communicating with other data. Authorities exist to maximize discoverability, and any value or proposal which is contrary to this core principle should be rejected. 
 
 
-
-
-
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-
 ## Principles
 
 All code table values should adhere to our principles [developing document](https://docs.google.com/presentation/d/106K73W3og-iFLI9TZlfK00GtvVOJjIx5rU_43TsP49E/edit#slide=id.g24c167402f2_0_0)) in support of standardized, normalized, properly-categorized, connected, sharable "Research Grade" data.
@@ -31,15 +25,16 @@ All code tables provide a definition; values are **concepts** which mean what th
 
 ## Procedures
 
-Additions or changes generally require open discussion through Issues, and the Issue/discussion must be recorded with the new value.
+Additions or changes generally require open discussion, beginning with Issues and passing through a roadmap, and the Issue/discussion must be recorded with the new value. 
+* Most tables have a dedicated column for documentation, append bare URLs separated by spaced pipes to teh term definition if this is not available.
 
 ## Table Definitions
 
-All code tables should have a prescriptive, functional definition. (Some of these allow expedited additions.)
+All code tables should have a functional definition; a user should *know* the context in which the values might make sense from this. In addition, many tables have specific guidelines for adding terms; these are described below.
 
 ## Content
 
-Code tables cannot contain HTML. (Cleanup is an ongonig process; file an Issue for prioritization.)
+Code tables cannot contain HTML. All information should be clearly written for an international audience.
 
 ### Reality
 
