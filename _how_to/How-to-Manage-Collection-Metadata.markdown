@@ -177,6 +177,12 @@ Selected identifiers will display in the summary section of catalog record pages
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/preferred%20identifier.jpg)
 
+### Collection Code Table Terms
+
+Code tables can include extensive lists of terms that may or may not be applicable for a given collection. For this reason, collections must select code table terms that will be available to those entering data. The links provided in this section are to the various code tables that require selection of terms. In order to make your selections, go to each code table and follow the instructions in [How To Add Code Table Terms to a Collection](https://handbook.arctosdb.org/how_to/How-To-Add-Attributes-to-Collection)
+
+<img height="500" alt="Image" src="https://github.com/user-attachments/assets/384ff7c7-17a5-4bce-8d69-077e5dc29ce8" />
+
 ## Summary Information
 
 ### Genbank Collection

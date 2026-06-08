@@ -61,6 +61,9 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 ## Rules of the Road for Code Table Terms
 
 ### General Rules for Adding Code Table Terms
+
+#### CAUTION: This is still being discussed, see https://github.com/ArctosDB/arctos/issues/9141
+
  - Use predictable Punctuation  
     Allowed characters:
      - a-Z
@@ -73,10 +76,172 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 
 ### Specific Rules for Specific Code Tables
 
-#### Parts
+#### ctattribute_type
+
+Terms should not be overly specific that limit usage and should use existing controlled vocabulary as much as possible (e.g. units of measurements). Attribute terms must be singular, and require a functional description and an external “scholarly” reference such as an ontology or Wikipedia link. Dictionary definitions are not sufficient.
+
+
+#### ctculture
+
+Terms should meet the following criteria to be considered for this table.
+
+ - The culture is described in a widely recognized online source, e.g.,
+    - https://en.wikipedia.org/wiki/Native_Americans_in_the_United_States
+    - https://native-land.ca/
+    - https://ehrafworldcultures.yale.edu/
+ - If the culture is not listed in a national database, the documentation should include a link to a publication in the primary literature that describes the culture.
+ - The term is properly formatted as a singular ethnonym or endonym. Forward slash is acceptable for showing two or more currently-accepted terms. Inverted format using a colon (:) separator may be used when cultures are part of an overarching larger cultural group. The use of “and” is acceptable when multiple groups share a collective cultural affiliation. Acceptable examples:
+  - Haudenosaunee
+  - Alutiiq/Sugpiaq
+  - Inuit: Canadian
+  - Hutu and Tutsi
+ - The documentation must include a short description of the culture which includes (if relevant):
+An “Also” statement of additional accepted alternative names,
+a summary of the cultural group,
+a geographic boundary,
+A “Formerly” statement for any past names used in the literature or collection documentation, a link to an external scholarly reference, such as Wikipedia or Native Land Digital separated from the description with a pipe (|)
+ - Write for an international audience; do not abbreviate.
+
+#### ctexamined_detected
+
+Terms should be formatted as ``category: term`` and consist of ASCII characters with no italics, markdown, etc. "Common" terms should be used when they are appropriate and (relatively) unambiguous: ``Rabies`` rather than ``Lyssavirus rabies``, for example.
+
+#### ctlithostratigraphic_bed
+
+Terms should follow the following criteria:
+
+* The unit is registered in a national geologic database, with a link included in the documentation. 
+    * https://ngmdb.usgs.gov/Geolex/search
+    * https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/
+
+* If the unit is not listed in a national database, the documentation should include a link to a publication that describes the unit.
+* The term is properly formatted as "Name Type". Lithology descriptors should only be included when the unit is not referred to both with and without the descriptor. When a lithology descriptor is included, the format is "Name Lithology Type". Acceptable examples: 
+    * Westfield Fish Bed
+    * Down Cliff Sand Member Starfish Bed
+
+* In addition to the required links, the documentation must include a short description of the unit which should include:
+    * the geographic region(s) in which the unit outcrops
+    * geologic age
+    * dominant lithology.
+
+
+ref: https://github.com/ArctosDB/arctos/issues/7844
+
+#### ctlithostratigraphic_formation
+
+"Formal" lithostratigraphic formations; Data should follow a national geologic database or be attributable to a recognized type publication.
+
+Terms should include the unit type (generally "Formation") Lithology descriptors should only be included if there are multiple valid units with similar names where the lithology term is the distinction
+
+
+*  Duck Creek Formation 
+*  Duck Creek Limestone Formation 
+
+Description should include a concise summary of the unit, including:
+
+* geographic region(s) in which the unit outcrops
+* geologic age of the unit
+* (optionally) dominant lithology
+
+
+Write for an international audience; **do not** abbreviate.
+
+
+Include clarifying links (such as Wikipedia) when available.
+
+
+Addition of terms which occur in the following databases may be expedited.
+
+* USGS National Geologic Map Database (https://ngmdb.usgs.gov/Geolex/search)
+* BGS Lexicon of Named Rock Units (https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/)
+* Australian Stratigraphic Units Database (https://asud.ga.gov.au/search-stratigraphic-units/)
+* WEBLEX Canada (https://weblex.canada.ca)
+
+
+The Arctos Paleo Committee should be consulted regarding any additions which do not meet the above criteria. These entries will require additional descriptive data and references, and should cite primary literature type publications when possible.
+
+~~Use this template to request additions: https://docs.google.com/spreadsheets/d/14cKF6oo2ClEbIAU5kw8T-wYZNXjfZQP6MM_CqEP9-Xc~~
+
+
+#### ctlithostratigraphic_group
+
+Term additions may be expedited if the following criteria are met:
+
+* The unit is registered in a national geologic database, with a link included in the documentation.
+    * https://ngmdb.usgs.gov/Geolex/search
+    * https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/
+
+
+If the unit is not listed in a national database, the documentation must include a link to a primary literature publication that describes the unit.
+
+
+Terms must be consistently formatted. Acceptable examples include:
+
+* Dunquin Group
+* Old Red Sandstone Supergroup
+
+* In addition to the required links, the documentation must include a short description of the unit which includes
+    * the geographic region(s) in which the unit outcrops, 
+    * geologic age
+    * dominant lithology
+
+Write for an international audience; **do not** abbreviate.
+
+References:
+
+* https://github.com/ArctosDB/arctos/issues/7844
+* https://github.com/ArctosDB/arctos/issues/9086
+* https://stratigraphy.org/guide/litho
+
+#### ctlithostratigraphic_member
+
+ Terms may be added to this table if the following criteria are met:
+* The unit is registered in a national geologic database, with a link included in the documentation. 
+    * https://ngmdb.usgs.gov/Geolex/search
+    * https://www.bgs.ac.uk/technologies/the-bgs-lexicon-of-named-rock-units/
+* If the unit is not listed in a national database, the documentation should include a link to a publication that describes the unit.
+* The term is properly formatted as "Name Type". Lithology descriptors should only be included when the unit is not referred to both with and without the descriptor. When a lithology descriptor is included, the format is "Name Lithology Type". Acceptable examples: 
+    * Cameron Creek Member
+    * Down Cliff Sand Member
+* In addition to the required links, the documentation must include a short description of the unit, including:
+    * The geographic region(s) in which the unit outcrops
+    * Geologic age
+    * Dominant lithology.
+
+ref: https://github.com/ArctosDB/arctos/issues/7844
+
+#### ctmime_type
+
+ Values listed here must be registered on the Internet Assigned Numbers Authority
+(https://www.iana.org/assignments/media-types/media-types.xhtml) and may be added as needed if requirements are met.
+
+#### ctspecimen_part_name
 
  - Part names should be compatible with an ontological framework. Best practice would be a link to an ontology
  - It is preferable to create a general part that can then be refined with a modifier (e.g. girdle -> with the ability to add a modifier such as pectoral or pelvic).
+ -  Part names must be singular and have broad usage among collections; thus, favor generic over specific, especially if part attribute can be used to specify a part (eg. wing vs left wing where wing is the part and 'left' is an attribute).
+ -  Part names require a functional description and an external "scholarly" reference such as an ontology (e.g, Uberon http://uberon.org) or Wikipedia link. Dictionary definitions are not sufficient.
+ -  Add alternative terms to maximize discoverability when available.
+
+#### ctquad
+
+ Terms may be added to this table if the following criteria are met:
+ - the term contains only A-Z, a-z, space, and the scales below
+ - the quad is included in a published map series
+ - the description includes a description of the geography in which the quad is placed. Be as precise as possible and write for an international audience; do not abbreviate. For example: United States, New Mexico, Bernalillo County, Sandoval County
+ - the description includes a https://ngmdb.usgs.gov link to a specific map. Other authorities may be accepted with individual review.
+
+Acceptable suffixes (and the scales they represent) are as follows.
+
+| suffix | map scale | more | example |
+|-----------|---------|-----|-------|
+| (nothing/NULL/blank) | 1:250,000 |  "default" scale | Unalaska |
+| 1:50000 | 1:50,000 |  | Antioch 1:50000 |
+|  1:100000 |  1:100,000 | 30 by 60 minute  | Mount Rainier 1:100000 |
+| 1:125000 | 1:125,000 |  aka 30 minute | Stillaguamish 1:125000 |
+| 7.5 minute | 7.5 minute | aka 1:24,000 | Deadman Lake 7.5 minute |
+| 15 minute | 15 minute | aka 1:63600 | Kaylor Mountain 15 minute |
+
 
 
 ### Taxonomy

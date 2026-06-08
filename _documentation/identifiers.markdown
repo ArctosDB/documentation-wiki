@@ -1,6 +1,8 @@
 ---
 title: Identifiers and Relationships
 layout: default_toc
+author: DLM, MSK
+date: 2026-06-04
 ---
 
 # Identifiers and Relationships
@@ -38,7 +40,7 @@ Arctos Agents are entities that perform or represent an action or activity, whic
 
 There are three main categories of identifier that Arctos supports, and it is strongly recommended to have an Issued by agent  (even if unknown; yes, unknown is an option\!):
 
-**Type A: Identifiers that have URLs where the “issued by” agent can be used to create explicit agent links (i.e., conforms to Linked Open Data).  Supports the Extended Specimen Network.**
+**Type A: Identifiers that have URLs where the “issued by” agent can be used to create explicit agent links (i.e., conforms to Linked Open Data).  Supports the Extended Specimen Network. If in doubt which type to choose, select this  type = ```identifier``` with an Issued By agent.**
 
 | Arctos fields |  |  |
 | ----- | ----- | ----- |
@@ -46,7 +48,7 @@ There are three main categories of identifier that Arctos supports, and it is st
 | MVZ Bird Collection | https://arctos.database.museum/guid/MVZ:Bird:69400 | Arctos record GUID |
 | NCBI Nucleotide \- GenBank | [http://www.ncbi.nlm.nih.gov/nuccore/EU011370](http://www.ncbi.nlm.nih.gov/nuccore/EU011370) | identifier |
 
-**Type B: Largely used by specific collections for internal purposes. Arctos may use these as shortcuts to auto-link to exactly one Agent. Not usable in the Extended Specimen Network.**
+**Type B: Used by specific collections for internal purposes only. Arctos may use these as shortcuts to auto-link to exactly one Agent. Not usable in the Extended Specimen Network.**
 
 | Arctos fields |  |  |
 | ----- | ----- | ----- |

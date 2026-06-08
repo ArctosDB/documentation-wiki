@@ -1,29 +1,28 @@
 ---
-title: How To Add Attributes to a Collection 
+title: How To Add Code Table Terms to a Collection 
 layout: default_toc
-author: Michelle Koo
-date: 2025-11-30
+author: Michelle Koo, Teresa J. Mayfield-Meyer
+date: 2026-06-02
 ---
-# How To Add Attributes to a Collection 
+# How To Add Code Table Terms to a Collection 
 
-**Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
+**Documentation: https://github.com/ArctosDB/arctos/issues/3452**
 
-To add existing record attributes (from the [Collection Object Attribute code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type)) to your collection for usage (e.g., data entry form), you must have ```manage_collection``` permission. This task requires a Collection Manager or Collection Administrator level of access. 
+Code tables can include extensive lists of terms that may or may not be applicable for a given collection. For this reason, there are a few code tables that require collections to select code table terms that will be available to those entering data. This task requires a Collection Manager or Collection Administrator level of access (```manage_collection``` permission). There are two paths to making Code Table Term selections. 
 
-In the Tools Directory, go to Internal Settings> Manage Collection. The shortcut to **Collection Defaults** takes you to the Authorities links:
+1. In the Tools Directory, go to Internal Settings> Manage Collection. The shortcut to **Collection Defaults** takes you to the Authorities links:
 
 <img height="500" alt="Image" src="https://github.com/user-attachments/assets/384ff7c7-17a5-4bce-8d69-077e5dc29ce8" />
 
+Click on the button for the code table for which you wish to select options then proceed as described in Making Code Table Term Selections.
 
-Click on *Collection's Attributes* which opens a new tab:
-There you can use the header rows to resort the rows and select attributes for your collection by using the check boxes.
+2. Go directly to any of the Code Tables that include this option, select the "collection settings" button and proceed as described in Making Code Table Term Selections. 
 
+**Making Code Table Term Selections**
+Select attributes for your collection by using the check boxes. When you are done, select the "Update collection --- list" button to save your new selection. You can sort the code table using the header row and search using Ctrl F.
 
-<img height="400" alt="Firefox_Screenshot_2025-12-03T22-56-47 240Z" src="https://github.com/user-attachments/assets/fdf8a582-8e2a-450b-9436-ead991e3a556" />
+**NOTE** If you are using a term in any capacity within the collection, you will not be able to un-select it. If you want to remove a term from use in the collection, it must first be removed from any records in the collection.
 
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
-This has been written for immediate use but may be merged into a larger document on *How to Manage Your Collection*. Stay tuned!
 
 ## Edit this Documentation
 
