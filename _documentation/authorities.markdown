@@ -75,6 +75,9 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 
 Terms should not be overly specific that limit usage and should use existing controlled vocabulary as much as possible (e.g. units of measurements). Attribute terms must be singular, and require a functional description and an external “scholarly” reference such as an ontology or Wikipedia link. Dictionary definitions are not sufficient.
 
+#### ctbiochronology
+
+The Arctos Paleo Committee should be consulted regarding any additions. These entries require additional descriptive data and references, and should cite primary literature type publications when possible.
 
 #### ctculture
 
