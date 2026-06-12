@@ -221,6 +221,10 @@ ref: https://github.com/ArctosDB/arctos/issues/7844
  -  Part names require a functional description and an external "scholarly" reference such as an ontology (e.g, Uberon http://uberon.org) or Wikipedia link. Dictionary definitions are not sufficient.
  -  Add alternative terms to maximize discoverability when available.
 
+#### ctsubject_term
+
+Terms may be added if they are present in an accepted authority (e.g., Getty Thesaurus, Library of Congress, etc.) and must have a Documentation URL.
+
 #### ctquad
 
  Terms may be added to this table if the following criteria are met:
