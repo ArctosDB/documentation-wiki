@@ -1,8 +1,8 @@
 ---
 title: How To Use Complex Identifications
 layout: default_toc
-author: Carla Cicero
-date: 2016-03-08
+author: Carla Cicero, Michelle Koo
+date: 2025-01-08
 ---
 
 [Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
@@ -11,7 +11,7 @@ date: 2016-03-08
 
 ## Capabilities
 
-Arctos provides the ability to link identifications (what a thing is called) with taxonomy (a formal naming system) via [http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXA_FORMULA](Identification Formula). This allows curatorial users to assert any amount of precision; a specimen may be exactly representative of a formal taxon name, there may be some ambiguity or mixing involved, or taxonomy may have only tangential relationships to the identification.
+Arctos provides the ability to link identifications (what a thing is called) with taxonomy (a formal naming system) via [Identification Formula](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXA_FORMULA). This allows curatorial users to assert any amount of taxonomic precision; a specimen may be exactly representative of a formal taxon name, there may be some ambiguity or mixing involved, or taxonomy may have only tangential relationships to the identification.
 
 ## Taxonomy
 
@@ -39,14 +39,14 @@ Cultural items are often made of material which is extremely valuable from a nat
 
 ## Examples
 
-_You may need to log OUT of Arctos and any portals to access the following links._
+_Database operators may need to log OUT of Arctos to access the following public links from other collections._
 
 ### Unidentifiable
 
 Many cultural items are (relatively) recently manufactured of manufactured materials, have little association with any taxon, and the namestring in such cases is generally linked to taxon "unidentifiable."
 
-* [Yukon Stove](http://arctos.database.museum/guid/UAM:EH:UA79-011-0002AE)
-* [Whistle](http://arctos.database.museum/guid/UAM:EH:UA2009-020-0031)
+* [Yukon Stove UAM:EH:UA79-011-0002AE](http://arctos.database.museum/guid/UAM:EH:UA79-011-0002AE)
+* [Whistle UAM:EH:UA2009-020-0031](http://arctos.database.museum/guid/UAM:EH:UA2009-020-0031)
 
 ### Simple associations
 
@@ -54,8 +54,9 @@ Many cultural items are (relatively) recently manufactured of manufactured mater
 
 Other items may have straightforward links to taxonomies, but also have cultural significance. When cataloged in cultural collections, these generally require a descriptive name but may be linked to biological or mineral taxonomies. These may be identified with varying specificity, ranging from "some kind of wood" to "Betula papyrifera."
 
-* [Wood](http://arctos.database.museum/guid/UAM:EH:0538-0002)
-* [Birch-bark basket](http://arctos.database.museum/guid/UAM:EH:0595-5857)
+* [Wood UAM:EH:0538-0002](http://arctos.database.museum/guid/UAM:EH:0538-0002)
+* [Birch-bark basket UAM:EH:0595-5857](http://arctos.database.museum/guid/UAM:EH:0595-5857)
+* [Notebook Volume 1378 Section 1](https://arctos.database.museum/guid/MVZ:Arch:2013.045-10)
 
 #### Other Collections
 
