@@ -20,18 +20,18 @@ Accession Number is a text string assigned to identify the accession for a speci
 
 ## accn_type
 
-Accession Type describes the means of acquisition. Foreign Key ---> [ctaccn_type]("https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaccn_type)
+Accession Type describes the means of acquisition. Foreign Key ---> [ctaccn_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaccn_type)
 
 ## accn_status 
 
-Accession Status indicates status. Foreign Key ---> [ctaccn_status]("https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaccn_status)
+Accession Status indicates status. Foreign Key ---> [ctaccn_status](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctaccn_status)
 
 
 
 ## received_date
 
 
-Received Date is the ISO8601 date that the accessioned material was received by the institution.
+Received Date is the ISO8601 date (YYYY-MM-DD) that the accessioned material was received by the institution.
 
 
 
