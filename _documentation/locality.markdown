@@ -32,7 +32,7 @@ Foreign key ---> geography. All localities have exactly one parent geography.
 
 ### spec_locality
 
-Specific Locality is "standardized" descriptive data. This field is essentially meant to be ``collecting_event.verbatim_lcoality`` cleaned up so that machines can predictably understand it.
+Specific Locality is "standardized" descriptive data. This field is essentially meant to be ``collecting_event.verbatim_locality`` cleaned up so that machines can predictably understand it.
 
 When no information is known, spec_locality should be recorded as ``No specific locality recorded.`` - this exact phrase, and only this exact phrase, will prevent confusing interpretations of "we don't know." External services (such as GeoLocate) returning nonsense are almost always attributable to malformed specific locality data.
 
