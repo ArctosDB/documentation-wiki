@@ -1,0 +1,12 @@
+main:
+  - label: "Documentation"
+    url: "/documentation/"
+  - label: "Best Practices"
+    url: "/best_practices/"
+  - label: "How To Guides"
+    url: "/how_to/"
+  - label: "Resources"
+    url: "/resources/"
+  - label: "ArctosDB.org"
+    url: "https://arctosdb.org"
+    external: true

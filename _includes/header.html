@@ -18,17 +18,23 @@
     </a>
 
     <div class="trigger">
-      <ul class="nav-tabs">
+      <ul class="main-nav">
         <li><a class="page-link link" href="{{site.baseurl}}/">Home</a></li>
-        {% for my_page in site.collections %}
-        {% if my_page.label %}
-        {% unless my_page.label contains "posts" %}
-        <li><a class="page-link link collection" href="{{site.baseurl}}/{{my_page.label}}/">{{ my_page.label | replace:
-            "_", " " }}</a></li>
-        {% endunless %}
+        {% for item in site.data.navigation.main %}
+        {% assign is_active = false %}
+        {% if item.url == '/' %}
+        {% if page.url == '/' %}{% assign is_active = true %}{% endif %}
+        {% elsif page.url contains item.url %}
+        {% assign is_active = true %}
+        {% endif %}
+        {% if item.external %}
+        <li><a class="page-link link" href="{{ item.url }}">{{ item.label }}</a></li>
+        {% elsif is_active %}
+        <li class="active"><a class="page-link link" href="{{ site.baseurl }}{{ item.url }}">{{ item.label }}</a></li>
+        {% else %}
+        <li><a class="page-link link" href="{{ site.baseurl }}{{ item.url }}">{{ item.label }}</a></li>
         {% endif %}
         {% endfor %}
-        <li><a class="page-link link" href="https://arctosdb.org">ArctosDB.org</a></li>
       </ul>
     </div>
   </nav>
