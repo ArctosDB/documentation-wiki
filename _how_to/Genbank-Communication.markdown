@@ -3,6 +3,8 @@ title: How To Understand Genbank-Arctos Communication
 layout: default_toc
 authors: DLM?
 date_updated: 
+redirect_from:
+  - /how_to/Genbank-Communication/
 ---
 
 This document provides a high-level overview of Arctos/GenBank interoperability.

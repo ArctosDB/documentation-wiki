@@ -1,6 +1,7 @@
 import yaml, re, glob
 
 CANONICAL_FIELDS = ['title', 'layout', 'authors', 'date_updated']
+OPTIONAL_FIELDS  = ['redirect_from']
 
 def get_field_order(fm_text):
     """Extract top-level field names in order from raw front matter text."""
@@ -46,7 +47,7 @@ def audit_file(filepath):
         issues.append(f'wrong order: {canonical_in_file}')
 
     # Flag extra tags
-    extra = [f for f in all_fields if f not in CANONICAL_FIELDS]
+    extra = [f for f in all_fields if f not in CANONICAL_FIELDS and f not in OPTIONAL_FIELDS]
     if extra:
         issues.append(f'extra tags: {", ".join(extra)}')
 

@@ -3,6 +3,8 @@ title: Best Practice - Creating a Meaningful GUID Prefix
 layout: default_toc
 authors: Teresa Mayfield-Meyer
 date_updated: 2021-07-13
+redirect_from:
+  - /best_practices/GUID/
 ---
 
 What is a GUID Prefix? Before you make any decisions about one, you should know what it is. Start by reading the [GUID Prefix Documentation](https://handbook.arctosdb.org/documentation/catalog.html#guid-prefix).

@@ -3,6 +3,8 @@ title: How To Handle Organisms in Arctos
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2024-06-11
+redirect_from:
+  - /how_to/Organisms/
 ---
 
 **Documentation:** [Entities](https://handbook.arctosdb.org/documentation/entity.html)

@@ -3,6 +3,8 @@ title: How To Identify National Park Specimens
 layout: default_toc
 authors: 
 date_updated: 
+redirect_from:
+  - /how_to/National-Park-Specimens/
 ---
 
 **Documentation:** [Identifiers](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/identifiers.markdown)
