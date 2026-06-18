@@ -1,8 +1,8 @@
 ---
 title: Notifications
-author: DLM, Teresa J. Mayfield-Meyer
-date: 2023-08-21
 layout: default_toc
+authors: DLM, Teresa J. Mayfield-Meyer
+date_updated: 2023-08-21
 ---
 
 # Notifications and Reports

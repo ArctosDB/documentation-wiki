@@ -1,7 +1,8 @@
 ---
 title: How To Understand Attribute Errors
-author: unknown
 layout: default_toc
+authors: 
+date_updated: 
 ---
 # Understanding Attribute Errors
 

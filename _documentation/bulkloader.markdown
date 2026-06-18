@@ -1,7 +1,8 @@
 ---
 title: Bulkloader
-author: Dusty L. McDonald, Teresa J. Mayfield-Meyer, Michelle Koo
 layout: default_toc
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer, Michelle Koo
+date_updated: 
 ---
 
 # Bulkloader

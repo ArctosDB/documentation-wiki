@@ -1,8 +1,8 @@
 ---
-title: How To Template 
+title: How To Template
 layout: default_toc
-author: Teresa J. Mayfield-Meyer, Toni Androski
-date: 2023-03-08
+authors: Teresa J. Mayfield-Meyer, Toni Androski
+date_updated: 2023-03-08
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)

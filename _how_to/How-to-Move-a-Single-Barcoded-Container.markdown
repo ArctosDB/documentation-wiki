@@ -1,6 +1,8 @@
 ---
 title: How To Move to a Single Barcoded Container
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)

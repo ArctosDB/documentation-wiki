@@ -1,8 +1,8 @@
 ---
 title: How To Create Part Attributes from Containers
 layout: default_toc
-author: DLM
-date: 2022-10-11
+authors: Dusty L. McDonald
+date_updated: 2022-10-11
 ---
 
 [Parts Documentation](https://handbook.arctosdb.org/documentation/parts.html)

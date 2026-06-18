@@ -1,8 +1,8 @@
 ---
 title: How To Install Cryovials into a Freezer Box
-authors: April Payne, Northern Michigan University; Michelle Koo, MVZ; Teresa Mayfield-Meyer
-date created: 2019-03-15
 layout: default_toc
+authors: April Payne, Northern Michigan University; Michelle Koo, MVZ; Teresa Mayfield-Meyer
+date_updated: 2019-03-15
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)

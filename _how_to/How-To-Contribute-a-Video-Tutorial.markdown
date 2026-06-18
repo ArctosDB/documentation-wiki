@@ -1,9 +1,8 @@
 ---
 title: How To Github - Contribute a Video Tutorial to the Arctos Handbook
-author: Emily Braker
-contributor: Teresa J Mayfield-Meyer
-date: 2023-02-01
 layout: default_toc
+authors: Emily Braker, Teresa J Mayfield-Meyer
+date_updated: 2023-02-01
 ---
 # How to Github: Contribute a Video Tutorial to the Arctos Handbook
 

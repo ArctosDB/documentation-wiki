@@ -1,8 +1,8 @@
 ---
 title: How To Use Complex Identifications
 layout: default_toc
-author: Carla Cicero, Michelle Koo
-date: 2025-01-08
+authors: Carla Cicero, Michelle Koo
+date_updated: 2025-01-08
 ---
 
 [Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)

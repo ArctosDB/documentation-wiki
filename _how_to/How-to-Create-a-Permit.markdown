@@ -1,6 +1,8 @@
 ---
 title: How To Create a Permit
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 [Permit Documentation](https://handbook.arctosdb.org/documentation/permits.html)

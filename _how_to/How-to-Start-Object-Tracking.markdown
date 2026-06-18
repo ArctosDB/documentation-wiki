@@ -1,8 +1,9 @@
 ---
 title: How To Start Object Tracking in Arctos
 layout: default_toc
+authors: 
+date_updated: 2018-04-10, 2018-10-17
 author(s): Kyndall Hildebrandt, Mariel Campbell, Teresa Mayfield-Meyer
-date: 2018-04-10, 2018-10-17
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)

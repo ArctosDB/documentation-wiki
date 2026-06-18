@@ -1,8 +1,8 @@
 ---
 title: How To Add Object Loan Items
 layout: default_toc
-author: DLM, Teresa J Mayfield-Meyer
-date: 2023-03-06, 2021-01-15, 2021-07-24
+authors: DLM, Teresa J Mayfield-Meyer
+date_updated: 2023-03-06, 2021-01-15, 2021-07-24
 ---
 
 [Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)

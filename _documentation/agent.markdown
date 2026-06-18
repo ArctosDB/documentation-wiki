@@ -1,7 +1,8 @@
 ---
 title: Agents
 layout: default_toc
-author:  DLM
+authors: Dusty L. McDonald
+date_updated: 
 ---
 
 # Agents

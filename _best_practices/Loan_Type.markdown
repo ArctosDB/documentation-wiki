@@ -1,8 +1,8 @@
 ---
-title: Best Practice - Selecting a Loan Type 
-authors: Teresa Mayfield-Meyer, Carla Cicero
-date created: 2021-07-19
+title: Best Practice - Selecting a Loan Type
 layout: default_toc
+authors: Teresa Mayfield-Meyer, Carla Cicero
+date_updated: 2021-07-19
 ---
 
 # Best Practice - Selecting a Loan Type 

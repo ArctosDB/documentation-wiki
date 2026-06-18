@@ -1,8 +1,8 @@
 ---
 title: Record Event
-author: Dusty L. McDonald, Teresa J. Mayfield-Meyer
-date: 2024-06-06
 layout: default_toc
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
+date_updated: 2024-06-06
 ---
 
 # Record Event

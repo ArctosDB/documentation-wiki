@@ -1,8 +1,8 @@
 ---
 title: How To Document Collection Usage Using Projects
 layout: default_toc
-author: Arthur H. Harris, Teresa J. Mayfield-Meyer
-date: 2017-07-11
+authors: Arthur H. Harris, Teresa J. Mayfield-Meyer
+date_updated: 2017-07-11
 ---
 [Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)
 

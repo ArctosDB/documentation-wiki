@@ -1,8 +1,8 @@
 ---
 title: How To Create and Manage Geology Terms
-authors: Teresa Mayfield-Meyer
-date created: 2019-10-09
 layout: default_toc
+authors: Teresa Mayfield-Meyer
+date_updated: 2019-10-09
 ---
  
 ### [Update Request Github Issue](https://github.com/ArctosDB/documentation-wiki/issues/300)

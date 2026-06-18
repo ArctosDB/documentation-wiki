@@ -1,8 +1,8 @@
 ---
 title: How To Search Agents
-author: Teresa J Mayfield-Meyer
-date: 2021-02-24
 layout: default_toc
+authors: Teresa J Mayfield-Meyer
+date_updated: 2021-02-24
 ---
 # How To Search Agents
 

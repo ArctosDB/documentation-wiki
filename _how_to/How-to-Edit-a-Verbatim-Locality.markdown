@@ -1,6 +1,8 @@
 ---
 title: How To Edit a Verbatim Locality
 layout: default_toc
+authors: 
+date_updated: 
 ---
 [Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
 

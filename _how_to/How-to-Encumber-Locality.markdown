@@ -1,8 +1,8 @@
 ---
 title: How To Encumber Locality Data
 layout: default_toc
-author: Teresa J. Mayfield-Meyer, Michelle Koo
-date: 2025-02-24
+authors: Teresa J. Mayfield-Meyer, Michelle Koo
+date_updated: 2025-02-24
 ---
 
 ## Note on Encumbrances

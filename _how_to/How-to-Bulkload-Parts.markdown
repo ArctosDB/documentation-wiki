@@ -1,8 +1,8 @@
 ---
 title: How To Bulkload Parts
 layout: default_toc
-author: Teresa J Mayfield-Meyer
-date: 2023-03-14
+authors: Teresa J Mayfield-Meyer
+date_updated: 2023-03-14
 ---
 
 [Parts Documentation](https://handbook.arctosdb.org/documentation/parts.html)

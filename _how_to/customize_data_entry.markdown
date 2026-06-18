@@ -1,8 +1,8 @@
 ---
 title: How To Customize Data Entry
 layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: 2023-08-11
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2023-08-11
 ---
 # How To Customize the Data Entry Form
 

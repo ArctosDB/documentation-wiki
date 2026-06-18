@@ -1,8 +1,8 @@
 ---
 title: Github for Arctos
 layout: default_toc
-author: Teresa J. Mayfield-Meyer, DLM
-date: revised 2023-07-26
+authors: Teresa J. Mayfield-Meyer, DLM
+date_updated: revised 2023-07-26
 ---
 
 # Github for Arctos

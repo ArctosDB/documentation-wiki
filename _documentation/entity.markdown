@@ -1,8 +1,8 @@
 ---
 title: Entities
-author: DLM
-date: 2024-06-11
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2024-06-11
 ---
 
 <!--- [Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/262) --->

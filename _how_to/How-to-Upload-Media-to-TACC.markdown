@@ -1,8 +1,8 @@
 ---
 title: How To Upload Media to TACC
 layout: default_toc
-author: Carla Cicero, Teresa Mayfield-Meyer
-date: 2018-05-04
+authors: Carla Cicero, Teresa Mayfield-Meyer
+date_updated: 2018-05-04
 ---
 
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)

@@ -1,8 +1,8 @@
 ---
 title: How To Bulkload Identifiers and Relationships
 layout: default_toc
-author: Michelle Koo (original by Andy Doll, Teresa J. Mayfield-Meyer)
-date: 2023-11-06
+authors: Michelle Koo (original by Andy Doll, Teresa J. Mayfield-Meyer)
+date_updated: 2023-11-06
 ---
 
 # How To Bulkload Identifiers and Relationships

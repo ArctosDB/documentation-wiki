@@ -1,7 +1,8 @@
 ---
 title: Accessions
-author: DLM, Teresa J Mayfield-Meyer
 layout: default_toc
+authors: DLM, Teresa J Mayfield-Meyer
+date_updated: 
 ---
 
 # Accessions

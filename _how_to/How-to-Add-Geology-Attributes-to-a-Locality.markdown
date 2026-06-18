@@ -1,9 +1,8 @@
 ---
 title: How To Add Geology Attributes to a Locality
 layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: 2022-01-31
-original_date: 2019-11-25
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2022-01-31
 ---
 # How To Add Geology Attributes to a Locality
 

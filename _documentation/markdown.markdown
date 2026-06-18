@@ -1,7 +1,8 @@
 ---
 title: Markdown
-author: DLM
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 
 ---
 
 # Markdown

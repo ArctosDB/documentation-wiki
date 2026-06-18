@@ -1,8 +1,8 @@
 ---
-title: How To Add Code Table Terms to a Collection 
+title: How To Add Code Table Terms to a Collection
 layout: default_toc
-author: Michelle Koo, Teresa J. Mayfield-Meyer
-date: 2026-06-02
+authors: Michelle Koo, Teresa J. Mayfield-Meyer
+date_updated: 2026-06-02
 ---
 # How To Add Code Table Terms to a Collection 
 

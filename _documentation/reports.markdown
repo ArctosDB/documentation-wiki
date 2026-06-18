@@ -1,8 +1,8 @@
 ---
 title: Reports
-author: ArctosDB
-date: 2022-09-30
 layout: default_toc
+authors: ArctosDB
+date_updated: 2022-09-30
 ---
 
 [Printed Reports and Labels Documentation](https://handbook.arctosdb.org/documentation/reports.html)

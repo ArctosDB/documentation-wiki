@@ -1,6 +1,8 @@
 ---
 title: How To Search Attributes
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 # Search Attributes

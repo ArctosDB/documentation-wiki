@@ -1,8 +1,8 @@
 ---
 title: How To Delete Media
 layout: default_toc
-author: Emily Braker
-date: 2024-04-24
+authors: Emily Braker
+date_updated: 2024-04-24
 ---
 
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)

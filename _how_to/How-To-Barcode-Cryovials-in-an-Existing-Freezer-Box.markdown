@@ -1,8 +1,8 @@
 ---
 title: How To Barcode Cryovials in an Existing Freezer Box
 layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: 2019-02-22
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2019-02-22
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)

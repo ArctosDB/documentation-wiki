@@ -1,8 +1,8 @@
 ---
 title: How To Build Other Identifiers
-author: unknown, Teresa J. Mayfield-Meyer
-date: 2024-06-05
 layout: default_toc
+authors: unknown, Teresa J. Mayfield-Meyer
+date_updated: 2024-06-05
 ---
 
 # How To Build Other Identifiers

@@ -1,7 +1,8 @@
 ---
 title: Release Notes
-author: DLM, MSK
 layout: default_toc
+authors: DLM, MSK
+date_updated: 
 ---
 
 # Release Notes

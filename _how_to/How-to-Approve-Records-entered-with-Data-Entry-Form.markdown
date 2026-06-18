@@ -1,8 +1,8 @@
 ---
 title: How To Approve Records Entered With Data Entry Form
-author: unknown, Teresa J Mayfield-Meyer
-date: 2021-07-21
 layout: default_toc
+authors: unknown, Teresa J Mayfield-Meyer
+date_updated: 2021-07-21
 ---
 
 [Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)

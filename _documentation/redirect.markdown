@@ -1,8 +1,8 @@
 ---
 title: Redirects
 layout: default_toc
-author: Arctos, Michelle Koo
-date: 2017-03-29
+authors: Arctos, Michelle Koo
+date_updated: 2017-03-29
 ---
 
 # Redirects

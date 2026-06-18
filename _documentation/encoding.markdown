@@ -1,7 +1,8 @@
 ---
 title: Character Encoding
-author: DLM
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 
 ---
 
 # Character Encoding

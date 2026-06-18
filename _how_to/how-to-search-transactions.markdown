@@ -1,7 +1,8 @@
 ---
 title: How To Search Transactions
-author: DLM
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 
 ---
 
 [Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)

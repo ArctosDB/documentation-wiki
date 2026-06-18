@@ -1,8 +1,8 @@
 ---
 title: How To Bulkload Media Metadata
 layout: default_toc
-author: Dusty McDonald, Teresa Mayfield-Meyer
-date: 2020-04-30
+authors: Dusty McDonald, Teresa Mayfield-Meyer
+date_updated: 2020-04-30
 ---
 
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)

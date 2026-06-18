@@ -1,9 +1,8 @@
 ---
 title: How To Publish Data to OBIS
 layout: default_toc
-author: Teresa J Mayfield-Meyer
-contributor:  Phyllis Sharp 2022-06-14, David Bloom 2022-08-29
-date: 2022-08-29
+authors: Teresa J Mayfield-Meyer, Phyllis Sharp, David Bloom
+date_updated: 2022-08-29
 ---
 # How to Publish Arctos Data to the Ocean Biodiversity Information System (OBIS)
 

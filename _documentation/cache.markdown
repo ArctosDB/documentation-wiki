@@ -1,8 +1,8 @@
 ---
 title: Cache
-author: DLM
-date: 2025-01-07
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2025-01-07
 ---
 
 # Cache

@@ -1,8 +1,8 @@
 ---
 title: How To Bulkload Barcodes to Parts
 layout: default_toc
-author: Emily Braker
-date: 2016-02-27
+authors: Emily Braker
+date_updated: 2016-02-27
 ---
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
 

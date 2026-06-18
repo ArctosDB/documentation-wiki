@@ -1,8 +1,8 @@
 ---
 title: How To Customize Search
 layout: default_toc
-author: Emily Braker & DLM
-date: 2023-03-14
+authors: Emily Braker & DLM
+date_updated: 2023-03-14
 ---
 
 **Documentation:** [Searching Arctos](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Search-for-Specimens.markdown)

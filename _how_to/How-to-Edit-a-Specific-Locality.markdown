@@ -1,6 +1,8 @@
 ---
 title: How To Edit a Specific Locality
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)

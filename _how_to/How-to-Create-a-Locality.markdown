@@ -1,8 +1,8 @@
 ---
 title: How To Create a Locality
 layout: default_toc
-author: Teresa J. Mayfield-Meyer, updated Michelle Koo
-date: 2024-09-07
+authors: Teresa J. Mayfield-Meyer, updated Michelle Koo
+date_updated: 2024-09-07
 ---
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
 

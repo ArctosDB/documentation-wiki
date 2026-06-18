@@ -1,8 +1,8 @@
 ---
 title: How To Create Media
 layout: default_toc
-author: Carla Cicero
-date: 2016-04-24
+authors: Carla Cicero
+date_updated: 2016-04-24
 ---
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
 

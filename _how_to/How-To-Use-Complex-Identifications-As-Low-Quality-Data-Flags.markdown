@@ -1,8 +1,8 @@
 ---
 title: How To Use Complex Identifications as Low-quality Data Flags
 layout: default_toc
-author: Anna Chinn
-date: 2019-10-15
+authors: Anna Chinn
+date_updated: 2019-10-15
 ---
 [Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
 

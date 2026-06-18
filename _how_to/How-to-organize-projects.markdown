@@ -1,7 +1,8 @@
 ---
 title: How To Organize Projects
 layout: default_toc
-date: updated 2021-08-20
+authors: 
+date_updated: updated 2021-08-20
 ---
 [Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)
 

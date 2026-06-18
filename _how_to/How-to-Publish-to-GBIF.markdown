@@ -1,8 +1,8 @@
 ---
 title: How To Publish to Data Aggregators
-author: Teresa J. Mayfield-Meyer, Michelle Koo
-date: 2025-10-06
 layout: default_toc
+authors: Teresa J. Mayfield-Meyer, Michelle Koo
+date_updated: 2025-10-06
 ---
 
 # How to Publish to Data Aggregators

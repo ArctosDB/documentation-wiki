@@ -1,8 +1,8 @@
 ---
 title: How To Bulkload Catalog Records
 layout: default_toc
-author: Michelle Koo
-date: 2024-11-25
+authors: Michelle Koo
+date_updated: 2024-11-25
 ---
 Relevant Documentation:
 [Bulkloader Documentation](https://handbook.arctosdb.org/documentation/bulkloader.html) | 

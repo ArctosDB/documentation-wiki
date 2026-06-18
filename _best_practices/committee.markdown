@@ -1,8 +1,8 @@
 ---
 title: Best Practice - Organizing a Committee
-authors: DLM
-date created: 2024-11-19
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2024-11-19
 ---
 
 

@@ -1,7 +1,8 @@
 ---
 title: Deleting Catalog Records
-author: DLM, MSK
 layout: default_toc
+authors: DLM, MSK
+date_updated: 
 ---
 
 # Deleting Catalog Records- considerations

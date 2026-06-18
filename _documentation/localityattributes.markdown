@@ -1,8 +1,8 @@
 ---
 title: Locality Attributes
-author: Dusty McDonald, Teresa Mayfield-Meyer, Michelle Koo
 layout: default_toc
-date: 2025-02-18
+authors: Dusty McDonald, Teresa Mayfield-Meyer, Michelle Koo
+date_updated: 2025-02-18
 ---
 
 # Locality Attributes

@@ -1,8 +1,8 @@
 ---
 title: Date Entry
-author: DLM
-date: 2017-09-11
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2017-09-11
 ---
 
 

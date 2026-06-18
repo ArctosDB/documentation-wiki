@@ -1,8 +1,8 @@
 ---
 title: How To Manage Harmful Content
 layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: 2023-09-19
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2023-09-19
 ---
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 

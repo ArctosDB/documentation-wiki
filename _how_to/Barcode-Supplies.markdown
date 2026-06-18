@@ -1,9 +1,8 @@
 ---
 title: How To Create And Acquire Barcode Supplies
-author: Kyndall Hildebrandt, Hannah Appiah-Madson
-date: 2024-01-10
-original date: 2017-05-05
 layout: default_toc
+authors: Kyndall Hildebrandt, Hannah Appiah-Madson
+date_updated: 2024-01-10
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)

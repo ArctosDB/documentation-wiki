@@ -1,8 +1,8 @@
 ---
 title: Arctos API
-author: DLM, MSK
-date: 2025-02-20
 layout: default_toc
+authors: DLM, MSK
+date_updated: 2025-02-20
 ---
 
 # Catalog Record API

@@ -1,8 +1,8 @@
 ---
 title: How To Add or Edit the Arctos Banner
 layout: default_toc
-author: Michelle Koo
-date: 2025-11-10
+authors: Michelle Koo
+date_updated: 2025-11-10
 ---
 
 # How To Add or Edit the Arctos Banner

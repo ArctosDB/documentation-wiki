@@ -1,8 +1,8 @@
 ---
 title: Data Quality
-author: DLM, Teresa J Mayfield-Meyer
-date: 2024-03-22
 layout: default_toc
+authors: DLM, Teresa J Mayfield-Meyer
+date_updated: 2024-03-22
 ---
 
 # Arctos Data Quality Checks, Reports, and Tools

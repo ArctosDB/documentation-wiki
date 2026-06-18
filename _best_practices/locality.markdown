@@ -1,8 +1,8 @@
 ---
 title: Best Practice - Locality
-authors: various
-date created: 2025-08-11
 layout: default_toc
+authors: various
+date_updated: 2025-08-11
 ---
 
 

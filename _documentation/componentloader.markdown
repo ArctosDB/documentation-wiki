@@ -1,8 +1,8 @@
 ---
 title: Component Loaders
-author: DLM
-date: 2025-08-21
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2025-08-21
 ---
 # Component Loaders and Unloaders
 

@@ -1,8 +1,8 @@
 ---
 title: System Stats
-author: Michelle Koo
-date: 2025-07-03
 layout: default_toc
+authors: Michelle Koo
+date_updated: 2025-07-03
 ---
 
 # System Stats Definitions

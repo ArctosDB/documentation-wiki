@@ -1,8 +1,8 @@
 ---
-title: How To Catalog an Observation 
-author: Observation Interest Group, Ally Coconis (2019-06-19)
-date: 2022-11-28
+title: How To Catalog an Observation
 layout: default_toc
+authors: Observation Interest Group, Ally Coconis (2019-06-19)
+date_updated: 2022-11-28
 ---
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 

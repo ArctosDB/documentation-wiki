@@ -1,8 +1,8 @@
 ---
-title: How To Migrate Data Into Arctos 
+title: How To Migrate Data Into Arctos
 layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: 2024-07-01
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2024-07-01
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)

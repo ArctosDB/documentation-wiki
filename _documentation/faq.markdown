@@ -1,6 +1,8 @@
 ---
 title: Frequently Asked Questions
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 
 ---
 
 # Frequently Asked Questions

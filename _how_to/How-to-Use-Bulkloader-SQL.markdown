@@ -1,8 +1,8 @@
 ---
 title: How To Use SQL option in the Bulkloader
 layout: default_toc
-author: DLM
-date: 2019-05-19
+authors: Dusty L. McDonald
+date_updated: 2019-05-19
 ---
 
 [Bulkloader Documentation](https://handbook.arctosdb.org/documentation/)

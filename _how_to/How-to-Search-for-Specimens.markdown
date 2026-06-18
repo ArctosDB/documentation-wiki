@@ -1,6 +1,8 @@
 ---
 title: How To Search for Specimens
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 # How To Conduct a Search

@@ -1,8 +1,8 @@
 ---
 title: Users
-author: Dusty Mc Donald, Teresa J Mayfield-Meyer
-date: 2021-07-29
 layout: default_toc
+authors: Dusty Mc Donald, Teresa J Mayfield-Meyer
+date_updated: 2021-07-29
 ---
 
 # Users

@@ -1,8 +1,8 @@
 ---
 title: How To Record Prior Inclusion in Another Collection
-author: Teresa Mayfield-Meyer
-date: 2022-04-21
 layout: default_toc
+authors: Teresa Mayfield-Meyer
+date_updated: 2022-04-21
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)

@@ -1,8 +1,8 @@
 ---
-title: Best Practice - Creating Meaningful Agents 
-authors: Teresa J Mayfield-Meyer, DLM
-date: 2021-11-11, 2024-08-13
+title: Best Practice - Creating Meaningful Agents
 layout: default_toc
+authors: Teresa J Mayfield-Meyer, DLM
+date_updated: 2021-11-11, 2024-08-13
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)

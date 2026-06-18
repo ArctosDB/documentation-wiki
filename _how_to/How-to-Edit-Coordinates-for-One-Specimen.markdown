@@ -1,6 +1,8 @@
 ---
 title: How To Edit Coordinates for One Cataloged Item
 layout: default_toc
+authors: 
+date_updated: 
 ---
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
 

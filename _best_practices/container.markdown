@@ -1,7 +1,8 @@
 ---
 title: Best Practice - Containers
-authors: Dusty McDonald
 layout: default_toc
+authors: Dusty McDonald
+date_updated: 
 ---
 # Best Practice - Containers
 

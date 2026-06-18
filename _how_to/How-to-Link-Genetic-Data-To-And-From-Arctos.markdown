@@ -1,8 +1,8 @@
 ---
 title: How To Create GenBank Links
 layout: default_toc
-author: DLM
-date: 2016-12-16
+authors: Dusty L. McDonald
+date_updated: 2016-12-16
 ---
 # How to Link Genetic Data To And From Arctos
 

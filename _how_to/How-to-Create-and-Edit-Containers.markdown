@@ -1,8 +1,8 @@
 ---
 title: How To Create and Edit Containers
-author: Teresa J. Mayfield-Meyer
-date: 2023-08-07
 layout: default_toc
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2023-08-07
 ---
 
 # How To Create and Edit Containers

@@ -1,9 +1,8 @@
 ---
 title: How To Create Agents
 layout: default_toc
-author: Teresa J Mayfield-Meyer
-contributor:  Emily Braker 2016-02-27, April Payne
-date: 2021-07-27
+authors: Teresa J Mayfield-Meyer, Emily Braker, April Payne
+date_updated: 2021-07-27
 ---
 # How to Create Agents
 

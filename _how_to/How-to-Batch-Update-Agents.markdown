@@ -1,8 +1,8 @@
 ---
 title: How To Batch Update Agents
 layout: default_toc
-author: Teresa J Mayfield-Meyer, Carla Cicero
-date: 2024-04-24
+authors: Teresa J Mayfield-Meyer, Carla Cicero
+date_updated: 2024-04-24
 ---
 
 # How to Batch Update Agents in Catalog Record Roles

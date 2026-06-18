@@ -1,8 +1,8 @@
 ---
 title: Projects
 layout: default_toc
-author: ArctosDB, Michelle Koo, DLM
-date: updated 2025-07-02
+authors: ArctosDB, Michelle Koo, DLM
+date_updated: updated 2025-07-02
 ---
 
 # Projects

@@ -1,8 +1,8 @@
 ---
 title: How To Find and Edit Loans
 layout: default_toc
-author: MK
-date: 2024-11-12
+authors: MK
+date_updated: 2024-11-12
 ---
 [Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
 

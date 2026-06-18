@@ -1,8 +1,8 @@
 ---
 title: How To Manage Collection Metadata
-author: Teresa J. Mayfield-Meyer, Michelle Koo, Philip Khan, Dusty McDonald
-date: 2026-01-07
 layout: default_toc
+authors: Teresa J. Mayfield-Meyer, Michelle Koo, Philip Khan, Dusty McDonald
+date_updated: 2026-01-07
 ---
 
 # How to Manage Collection Metadata

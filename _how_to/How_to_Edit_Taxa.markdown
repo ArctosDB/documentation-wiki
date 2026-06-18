@@ -1,8 +1,8 @@
 ---
 title: How To Edit Taxa
 layout: default_toc
-author: Phyllis Sharp
-date: 2019-04-15
+authors: Phyllis Sharp
+date_updated: 2019-04-15
 ---
 
 [Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)

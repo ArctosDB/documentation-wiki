@@ -1,8 +1,8 @@
 ---
-title: Best Practice - Directory Structures at TACC 
-authors: Teresa J Mayfield-Meyer
-date created: 2021-10-06
+title: Best Practice - Directory Structures at TACC
 layout: default_toc
+authors: Teresa J Mayfield-Meyer
+date_updated: 2021-10-06
 ---
 
 //[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/244)

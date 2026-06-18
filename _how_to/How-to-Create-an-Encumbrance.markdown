@@ -1,6 +1,8 @@
 ---
 title: How To Create an Encumbrance
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 [Encumbrances Documentation](/documentation/encumbrance)

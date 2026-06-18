@@ -1,6 +1,8 @@
 ---
 title: How To Enter Attribute Records
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 [Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)

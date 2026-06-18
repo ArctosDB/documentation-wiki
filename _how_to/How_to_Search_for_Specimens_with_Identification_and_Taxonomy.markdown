@@ -1,8 +1,8 @@
 ---
 title: How To Search for Specimens with Identification and Taxonomy
 layout: default_toc
-author: Phyllis Sharp
-date: 2019-04-14
+authors: Phyllis Sharp
+date_updated: 2019-04-14
 ---
 
 [Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)

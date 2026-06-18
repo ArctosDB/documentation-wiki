@@ -1,8 +1,8 @@
 ---
 title: How To Bulkload Additional Locality Attributes
 layout: default_toc
-author: 
-date: 
+authors: 
+date_updated: 
 ---
 
 # How To Bulkload More Than Six Locality Attributes

@@ -1,8 +1,8 @@
 ---
 title: Authentication
-author: DLM, MSK
 layout: default_toc
-date: 2025-08-28
+authors: DLM, MSK
+date_updated: 2025-08-28
 ---
 
 # Authentication

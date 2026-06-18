@@ -1,8 +1,8 @@
 ---
 title: How To Bulkload Accessions
 layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: 2023-04-13
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2023-04-13
 ---
 
 [Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)

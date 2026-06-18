@@ -1,8 +1,8 @@
 ---
 title: How To Enter Data for a Single Record
-author: Teresa J. Mayfield-Meyer
-date: 2023-03-14
 layout: default_toc
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2023-03-14
 ---
 
 

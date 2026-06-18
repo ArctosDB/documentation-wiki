@@ -1,6 +1,8 @@
 ---
 title: How To Understand Project Funding
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 [Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)

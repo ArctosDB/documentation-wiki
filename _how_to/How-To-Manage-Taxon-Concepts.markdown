@@ -1,8 +1,8 @@
 ---
 title: How To Manage Taxon Concepts in Arctos
 layout: default_toc
-author: Cam Webb, Teresa J. Mayfield-Meyer
-date: 2021-05-19
+authors: Cam Webb, Teresa J. Mayfield-Meyer
+date_updated: 2021-05-19
 ---
 [Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
 

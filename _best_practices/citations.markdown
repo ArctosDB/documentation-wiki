@@ -1,8 +1,8 @@
 ---
 title: Best Practice - Citation of Catalog Records
-author: DLM
-date: 2025-07-25
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2025-07-25
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)

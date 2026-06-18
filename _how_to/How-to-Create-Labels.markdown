@@ -1,8 +1,8 @@
 ---
 title: How To Create Labels
 layout: default_toc
-author: Michelle Koo
-date: 2024-08-01 Pending
+authors: Michelle Koo
+date_updated: 2024-08-01 Pending
 ---
 
 [Printed Reports and Labels Documentation](https://handbook.arctosdb.org/documentation/reports.html)

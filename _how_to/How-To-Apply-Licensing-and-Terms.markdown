@@ -1,8 +1,8 @@
 ---
 title: How To Apply Licensing and Terms
 layout: default_toc
-author: Carla Cicero
-date: 2020-07-06
+authors: Carla Cicero
+date_updated: 2020-07-06
 ---
 # How to Apply Licensing and Terms
 

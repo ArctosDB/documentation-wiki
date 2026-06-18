@@ -1,7 +1,8 @@
 ---
 title: Catalog
 layout: default_toc
-date: 2025-02-24
+authors: Dusty L. McDonald
+date_updated: 2025-02-24
 ---
 
 # Catalog

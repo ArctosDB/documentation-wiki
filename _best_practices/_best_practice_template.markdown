@@ -1,8 +1,8 @@
 ---
-title: Best Practice - [add title] 
-author: [add author(s)]
-date created: [add date]
+title: Best Practice - [add title]
 layout: default_toc
+authors: add author(s)
+date_updated: "['add date']"
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)

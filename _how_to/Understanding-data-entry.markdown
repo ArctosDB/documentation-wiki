@@ -1,8 +1,8 @@
 ---
 title: How To Understand Data Entry
-author: DLM, Teresa J Mayfield-Meyer
-date: 2021-09-24
 layout: default_toc
+authors: DLM, Teresa J Mayfield-Meyer
+date_updated: 2021-09-24
 ---
 
 # Understanding Data Entry

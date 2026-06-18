@@ -1,8 +1,8 @@
 ---
 title: How To Create an Accession
 layout: default_toc
-author: Teresa J Mayfield-Meyer previous contributors Emily Braker, April Payne
-date: 2021-10-11
+authors: Teresa J Mayfield-Meyer previous contributors Emily Braker, April Payne
+date_updated: 2021-10-11
 ---
 [Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)
 

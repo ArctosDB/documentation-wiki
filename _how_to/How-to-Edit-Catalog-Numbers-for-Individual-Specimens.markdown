@@ -1,6 +1,8 @@
 ---
 title: How To Edit Catalog Numbers for Individual Catalog Records
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**

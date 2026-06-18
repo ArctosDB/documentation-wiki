@@ -1,8 +1,8 @@
 ---
 title: How To Batch Update Identifications
 layout: default_toc
-author: Carla Cicero
-date: 2016-03-08
+authors: Carla Cicero
+date_updated: 2016-03-08
 ---
 [Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
 

@@ -1,8 +1,8 @@
 ---
 title: Borrows
 layout: default_toc
-author: 
-date: 
+authors: Dusty L. McDonald
+date_updated: 
 ---
 
 # Borrows

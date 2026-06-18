@@ -1,8 +1,8 @@
 ---
-title: How To Catalog a Book 
-author: Teresa J. Mayfield-Meyer, Cam Webb
-date: 2024-07-12
+title: How To Catalog a Book
 layout: default_toc
+authors: Teresa J. Mayfield-Meyer, Cam Webb
+date_updated: 2024-07-12
 ---
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 

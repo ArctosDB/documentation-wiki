@@ -1,8 +1,8 @@
 ---
 title: How to link taxa and Zoobank
 layout: default_toc
-author: DLM
-date: 2024-08-13
+authors: Dusty L. McDonald
+date_updated: 2024-08-13
 ---
 
 # Linking Arctos Taxon Names and Zoobank

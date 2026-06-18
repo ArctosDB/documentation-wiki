@@ -1,8 +1,8 @@
 ---
 title: How To Create and Edit Identifications
-author: unknown, Genna Anderegg, Teresa J. Mayfield-Meyer
-date: 2023-11-03
 layout: default_toc
+authors: unknown, Genna Anderegg, Teresa J. Mayfield-Meyer
+date_updated: 2023-11-03
 ---
 # How To Create, Edit, and Delete Identifications
 

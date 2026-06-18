@@ -1,8 +1,8 @@
 ---
 title: How To Manage Self-Service API Keys (for users)
-authors: Michelle Koo
-date created: 2026-03-12
 layout: default_toc
+authors: Michelle Koo
+date_updated: 2026-03-12
 ---
 
 **Documentation:** [Arctos API](https://handbook.arctosdb.org/documentation/api.html)

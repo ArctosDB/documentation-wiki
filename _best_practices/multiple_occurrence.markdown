@@ -1,8 +1,8 @@
 ---
 title: Multiple Occurrences
-author: DLM
-date: 2024-08-26
 layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2024-08-26
 ---
 
 # Multiple Occurrences

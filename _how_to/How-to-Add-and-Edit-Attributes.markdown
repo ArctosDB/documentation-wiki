@@ -1,6 +1,8 @@
 ---
 title: How To Add and Edit Attributes
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 # How to Add/Create and Edit Catalog Record Attributes

@@ -1,8 +1,8 @@
 ---
 title: How To Add Data Loan Items
 layout: default_toc
-author: DLM, Teresa J Mayfield-Meyer
-date: 2023-03-06
+authors: DLM, Teresa J Mayfield-Meyer
+date_updated: 2023-03-06
 ---
 
 [Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)

@@ -1,8 +1,8 @@
 ---
 title: Data Entry
 layout: default_toc
-author: DLM
-date: 2024-10-28
+authors: Dusty L. McDonald
+date_updated: 2024-10-28
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)

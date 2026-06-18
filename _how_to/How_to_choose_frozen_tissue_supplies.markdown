@@ -1,8 +1,8 @@
 ---
 title: How To Choose and Use Frozen Tissue Equipment and Supplies
 layout: default_toc
-author: Teresa J. Mayfield-Meyer, Hannah Appiah-Madson
-date: 2024-01-10
+authors: Teresa J. Mayfield-Meyer, Hannah Appiah-Madson
+date_updated: 2024-01-10
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)

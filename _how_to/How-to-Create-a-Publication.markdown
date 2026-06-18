@@ -1,8 +1,8 @@
 ---
 title: How To Create a Publication
 layout: default_toc
-author: Emily Braker
-date: 2016-02-27
+authors: Emily Braker
+date_updated: 2016-02-27
 ---
 
 [Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)

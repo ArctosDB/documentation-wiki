@@ -1,6 +1,8 @@
 ---
 title: How To Enter Catalog Record Data in the Field
 layout: default_toc
+authors: 
+date_updated: 
 ---
 
 [Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)

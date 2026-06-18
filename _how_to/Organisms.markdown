@@ -1,8 +1,8 @@
 ---
 title: How To Handle Organisms in Arctos
-author: Teresa J. Mayfield-Meyer
-date: 2024-06-11
 layout: default_toc
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2024-06-11
 ---
 
 # How To Handle Organisms in Arctos

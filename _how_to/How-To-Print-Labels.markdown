@@ -1,9 +1,8 @@
 ---
 title: How To Print Labels
 layout: default_toc
-author: Emily Braker, Teresa J Mayfield-Meyer, Aren Gunderson, DLM
-created on: 2019-05-02
-date: 2025-11-05
+authors: Emily Braker, Teresa J Mayfield-Meyer, Aren Gunderson, Dusty L. McDonald
+date_updated: 2025-11-05
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)

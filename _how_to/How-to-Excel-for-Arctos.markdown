@@ -1,8 +1,8 @@
 ---
 title: How To Manage Excel for Arctos
 layout: default_toc
-author: Teresa J. Mayfield-Meyer, Michelle Koo
-date: 2023-09-28
+authors: Teresa J. Mayfield-Meyer, Michelle Koo
+date_updated: 2023-09-28
 ---
 
 # How To Manage Excel for Arctos

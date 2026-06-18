@@ -1,8 +1,8 @@
 ---
 title: How To Edit Media
 layout: default_toc
-author: TBD
-date: 2018-09-13
+authors: TBD
+date_updated: 2018-09-13
 ---
 
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)

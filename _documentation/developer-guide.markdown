@@ -1,8 +1,8 @@
 ---
 title: Arctos Developers Guide
 layout: default_toc
-author: DLM
-date: 2019-10-15
+authors: Dusty L. McDonald
+date_updated: 2019-10-15
 ---
 
 # Arctos Developers Guide

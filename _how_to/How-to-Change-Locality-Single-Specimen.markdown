@@ -1,8 +1,8 @@
 ---
 title: How To Change Locality and Collecting Event
 layout: default_toc
-author: DLM
-date: 2019-05-29
+authors: Dusty L. McDonald
+date_updated: 2019-05-29
 ---
 
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)

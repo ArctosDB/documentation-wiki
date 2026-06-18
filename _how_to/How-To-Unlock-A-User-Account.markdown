@@ -1,8 +1,8 @@
 ---
 title: How To Unlock an Arctos User Account
-author: Dusty McDonald, Teresa J. Mayfield-Meyer
-date: 2020-04-14
 layout: default_toc
+authors: Dusty McDonald, Teresa J. Mayfield-Meyer
+date_updated: 2020-04-14
 ---
 # How To Unlock an Arctos User Account
 

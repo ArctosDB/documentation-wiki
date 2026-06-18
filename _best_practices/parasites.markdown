@@ -1,8 +1,8 @@
 ---
 title: Best Practice - Cataloging Parasite Material
-authors: Teresa Mayfield-Meyer
-date created: 2024-06-26
 layout: default_toc
+authors: Teresa Mayfield-Meyer
+date_updated: 2024-06-26
 ---
  [//]: # [Previous Update Request]()
 

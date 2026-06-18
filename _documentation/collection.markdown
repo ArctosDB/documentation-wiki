@@ -1,8 +1,8 @@
 ---
 title: Collection
 layout: default_toc
-author: DLM
-date: 2024-07-18
+authors: Dusty L. McDonald
+date_updated: 2024-07-18
 ---
 
 # Collection

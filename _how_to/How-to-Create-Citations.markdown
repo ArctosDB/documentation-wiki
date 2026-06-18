@@ -1,8 +1,8 @@
 ---
 title: How To Create a Citation
 layout: default_toc
-author: Teresa J Mayfield-Meyer, Carla Cicero
-date: 2023-03-08
+authors: Teresa J Mayfield-Meyer, Carla Cicero
+date_updated: 2023-03-08
 ---
 
 [Citation Documentation](https://handbook.arctosdb.org/documentation/specimen-citations.html)

@@ -1,8 +1,8 @@
 ---
 title: Best Practice - Deciding What to Catalog
-authors: Teresa Mayfield-Meyer
-date created: 2021-07-15
 layout: default_toc
+authors: Teresa Mayfield-Meyer
+date_updated: 2021-07-15
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)

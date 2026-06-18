@@ -1,8 +1,8 @@
 ---
 title: How To Delete an Agent
 layout: default_toc
-author: Teresa J. Mayfield-Meyer, ArctosDB
-date: 2023-06-28
+authors: Teresa J. Mayfield-Meyer, ArctosDB
+date_updated: 2023-06-28
 ---
 
 This document is outdated. Agents cannot be deleted.

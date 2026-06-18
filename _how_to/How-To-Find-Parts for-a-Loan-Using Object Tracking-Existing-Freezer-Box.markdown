@@ -1,8 +1,8 @@
 ---
 title: How To Find Parts for a Loan When Using Object Tracking
 layout: default_toc
-author: Teresa Mayfield-Meyer
-date: 2019-02-27
+authors: Teresa Mayfield-Meyer
+date_updated: 2019-02-27
 ---
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 

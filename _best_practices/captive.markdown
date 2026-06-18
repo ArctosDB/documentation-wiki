@@ -1,8 +1,8 @@
 ---
 title: Best Practice - Cataloging Captive Material
-author: Teresa Mayfield-Meyer, Dusty McDonald, Michelle Koo
-date created: 2023-07-31
 layout: default_toc
+authors: Teresa Mayfield-Meyer, Dusty McDonald, Michelle Koo
+date_updated: 2023-07-31
 ---
 # Best Practice - Cataloging Captive Material
 

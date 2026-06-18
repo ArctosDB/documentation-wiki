@@ -1,8 +1,8 @@
 ---
 title: Arctos Bots
-author: Dusty L. McDonald, Teresa J. Mayfield-Meyer, Michelle Koo
-date: 2024-06-11
 layout: default_toc
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer, Michelle Koo
+date_updated: 2024-06-11
 ---
 
 # Arctos Bots
