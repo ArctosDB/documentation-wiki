@@ -5,8 +5,6 @@ authors: Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2023-09-28
 ---
 
-# How To Manage Excel for Arctos
-
 ## Why Use Excel for Arctos?
 
 Consider NOT using Excel as many functions work even better in Google Doc Spreadsheets or Open Refine! That said, Excel is a widely used tool for managing data in tables and many people managing data use it as a mechanism for getting data from one system to another. It is often the default tool for opening [.csv](https://en.wikipedia.org/wiki/Comma-separated_values) files (which are the kind of files you get when you download data from Arcots). Excel is user-friendly (mostly) and ubiquitous, almost everyone has access to this program either on their personal computer or on a computer at work. Excel can work for you, but at times it seems like it might be at odds with you. This How To provides tips to make Excel work better for you when it comes to uploading data or using downloaded data. 

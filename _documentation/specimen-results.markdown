@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 2018-04-24
 ---
 
-# Search Results
-
 Search results presents summary cataloged item data in a tabular format. 
 
 ## Features

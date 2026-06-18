@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Taxonomy
-
 ## Overview
 
 The taxonomic model in Arctos is designed to provide both a controlled table

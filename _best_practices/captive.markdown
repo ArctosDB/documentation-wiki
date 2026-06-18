@@ -4,7 +4,6 @@ layout: default_toc
 authors: Teresa Mayfield-Meyer, Dusty McDonald, Michelle Koo
 date_updated: 2023-07-31
 ---
-# Best Practice - Cataloging Captive Material
 
 Cataloging captive bred organisms or organisms that were held in captivity for any period of time should not result in a loss of data. Museums are often a repository for zoo samples or zoo individuals, which represent important species or life histories. In Arctos, events include a collecting source that is controlled by a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollecting_source) and includes the value ```captive```. This Best Practice documents shows some solutions in use by the collections who have already cataloged captive material.
 

@@ -5,8 +5,6 @@ authors: MSK
 date_updated: 
 ---
 
-# How To Create Arctos Links
-
 Arctos has a number of ways to share customized searches, results, and other aspects of the platform with colleagues and non-curatorial users with a web link (URL).
 
 

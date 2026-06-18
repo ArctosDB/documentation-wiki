@@ -4,6 +4,7 @@ layout: default_toc
 authors: Phyllis Sharp
 date_updated: 2021-06-15
 ---
+
 [Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
 
 # How to Manage Taxonomy in the WoRMS (via Arctos) Source

@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Character Encoding
-
 Arctos is UTF encoded.
 
 ## Conversion

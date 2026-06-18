@@ -4,8 +4,6 @@ layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2016-12-16
 ---
-# How to Link Genetic Data To And From Arctos
-
 
 ## Method 1: Single-specimen
 

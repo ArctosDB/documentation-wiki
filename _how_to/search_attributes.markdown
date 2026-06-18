@@ -5,8 +5,6 @@ authors:
 date_updated: 
 ---
 
-# Search Attributes
-
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 

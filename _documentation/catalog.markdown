@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 2025-02-24
 ---
 
-# Catalog
-
 Catalogs or Collections are administrative lists with inconsistent relationships to
 physical items. Therefore, a Cataloged Item or Record is an abstraction, *i.e.*,
 it is an item that has been cataloged, and hence defined, by the

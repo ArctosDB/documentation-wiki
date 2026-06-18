@@ -5,7 +5,6 @@ authors: DLM, MSK
 date_updated: 2025-08-28
 ---
 
-# Authentication
 Arctos relies on an open standard for authenticating users registered to use Arctos. Any one who wants to interact with Arctos, from downloading data to managing data, must have a user account to authenticate their access.
 
 # Create a public account

@@ -5,8 +5,6 @@ authors: DLM, Teresa J Mayfield-Meyer
 date_updated: 2024-03-22
 ---
 
-# Arctos Data Quality Checks, Reports, and Tools
-
 Arctos includes built-in checks, reports, and tools for creating and maintaining high quality data. Checks prevent the addition of low quality data and reports and tools detect problems with data after it has been entered. This document provides an overview of the data quality checks, reports, and tools available.
 
 ## Data Quality Checks

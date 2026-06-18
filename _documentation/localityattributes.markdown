@@ -5,8 +5,6 @@ authors: Dusty McDonald, Teresa Mayfield-Meyer, Michelle Koo
 date_updated: 2025-02-18
 ---
 
-# Locality Attributes
-
 Locality Attributes in Arctos are used to add descriptive terms and information to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). Most terms are controlled by the vocabulary contained in the [ctlocality_attribute_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) code table. 
 
 Locality Attributes can generally be summarized in the following groups: 1) Geologic or Stratigraphic Information, 2) Geographic: [Public Land Survey System](#public-land-survey-system), [landholder](#site-land-status), and 3) Curatorial: [locality access](#locality-encumbrance) to denote localities that need to be excluded from public view. For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>

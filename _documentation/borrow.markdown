@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Borrows
-
 Borrows are [transactions](/documentation/transactions.html) which record temporary custody of material, and provide a place to hang shipments.
 
 ### transaction_id

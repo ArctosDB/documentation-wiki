@@ -5,8 +5,6 @@ authors: Teresa Mayfield-Meyer
 date_updated: 2021-07-13
 ---
 
-# Best Practice - Creating a Meaningful GUID Prefix 
-
 What is a GUID Prefix? Before you make any decisions about one, you should know what it is. Start by reading the [GUID Prefix Documentation](https://handbook.arctosdb.org/documentation/catalog.html#guid-prefix).
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**  

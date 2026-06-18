@@ -5,9 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Places
-
-
 Places are described in Arctos using, independently, both coordinate and
 descriptive data. This is often conflicting. For example, the map below
 is of a "New Mexico" specimen that also maps to Colorado, Utah, and

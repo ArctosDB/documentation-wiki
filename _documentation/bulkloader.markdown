@@ -5,8 +5,6 @@ authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 
 ---
 
-# Bulkloader
-
 #### Navigation: <a href="https://arctos.database.museum/Bulkloader/enter.cfm" target="_blank">Tools Directory > Data Entry  > Bulkload Catalog Records</a>
 
 ## About

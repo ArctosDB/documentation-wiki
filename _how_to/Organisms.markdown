@@ -5,8 +5,6 @@ authors: Teresa J. Mayfield-Meyer
 date_updated: 2024-06-11
 ---
 
-# How To Handle Organisms in Arctos
-
 **Documentation:** [Entities](https://handbook.arctosdb.org/documentation/entity.html)
 
 Although many catalog records are synonymous with an organism, some are not. Parts of an individual organism may be collected at different points in time (blood samples from a zoo animal) or they may be parsed aout to different collections (herbarium duplicates).

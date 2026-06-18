@@ -4,6 +4,7 @@ layout: default_toc
 authors: Cam Webb, Teresa J. Mayfield-Meyer
 date_updated: 2021-05-19
 ---
+
 [Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
 
 # How To Manage Taxon Concepts in Arctos

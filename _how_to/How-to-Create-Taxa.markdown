@@ -4,6 +4,7 @@ layout: default_toc
 authors: Phyllis Sharp, Teresa J. Mayfield-Meyer
 date_updated: 2019-04-15, 2021-05-19
 ---
+
 [Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
 
 # How To Create Linnean Taxa

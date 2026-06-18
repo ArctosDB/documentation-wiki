@@ -4,6 +4,7 @@ layout: default_toc
 authors: Cam Webb
 date_updated: 
 ---
+
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
 
 # How To Batch Download Images

@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Identifications
-
 Determinations, or "identifications" (IDs), apply taxonomic terms to
 cataloged objects. In other words, determinations are not necessarily just
 taxonomic terms. Information about taxonomic names (which are used to

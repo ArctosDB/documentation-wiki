@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Citations
-
 If an unequivocal relationship exists between a particular cataloged item and
 a page in the publication, then it is a Citation. Ideally, a
 publication refers to items by their catalog numbers and

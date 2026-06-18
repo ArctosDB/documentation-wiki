@@ -5,8 +5,6 @@ authors: DLM, MSK
 date_updated: 2026-06-04
 ---
 
-# Identifiers and Relationships
-
 **Identifiers** (identifiers) are any identifiers applied to records. These identifiers may allow tracking records (as in the case of collector numbers), reference other resources (*e.g.*, GenBank numbers), or form relationships among specimens (such as hosts of parasites).
 
 ## Background

@@ -4,7 +4,6 @@ layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2022-01-31
 ---
-# How To Add Geology Attributes to a Locality
 
 **Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
 

@@ -5,8 +5,6 @@ authors: DLM, Teresa J. Mayfield-Meyer
 date_updated: 2023-08-21
 ---
 
-# Notifications and Reports
-
 ## Notifications
 
 Various Notifications regarding data quality problems and upcoming events are delivered to the Notifications tab of Arctos Operators.

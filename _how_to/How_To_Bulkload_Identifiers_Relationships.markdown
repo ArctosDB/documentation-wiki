@@ -5,8 +5,6 @@ authors: Michelle Koo (original by Andy Doll, Teresa J. Mayfield-Meyer)
 date_updated: 2023-11-06
 ---
 
-# How To Bulkload Identifiers and Relationships
-
 Use this tool to bulkload other identifiers with or without relationships to existing catalog records. For example, GenBank records to a catalog record or parasite and/or host relationship. Read [How To Choose the Proper Identifier Type](/how_to/How-to-choose-the-proper-other-identifier-type.html) if you are unsure of the Identifier type when preparing a file for upload to this tool. Note: This tool does NOT add missing Issued By to existing Identifiers, go here for the [Identifier IssuedBy Bulkloader](https://arctos.database.museum/loaders/bulk_identifier_issuedby.cfm).
 
 - **Other Identifiers** are other numbers unique to that record

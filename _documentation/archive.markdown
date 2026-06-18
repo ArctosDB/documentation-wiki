@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Archives and Saved Searches
-
 ## Archives
 
 Archives are static lists of catalog numbers. Archives only change when records are manually added or removed.

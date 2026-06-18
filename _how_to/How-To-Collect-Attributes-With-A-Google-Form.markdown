@@ -4,6 +4,7 @@ layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2019-11-07
 ---
+
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
 **Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**

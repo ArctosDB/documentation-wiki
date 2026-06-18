@@ -5,9 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 2017-09-11
 ---
 
-
-# Data Entry Version Two
-
 ## About
 
 The form is highly customizable, and it is almost always worth spending some time customizing before entering data.

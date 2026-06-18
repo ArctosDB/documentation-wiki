@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Attributes
-
 Attributes are descriptive, categorical, or quantitative characteristics of cataloged items such as measurements, weight, age, and sex. Like other determinations in Arctos, Attributes have a determiner, a determination date, and a determination method, and these should be carefully considered in interpreting the assertion. Attributes are **determinations** or **assertions**, not *facts*, and a record may have any number of similar and even contradictory Attributes.
 
 Attributes, many of which use controlled vocabularies with many values and many individual definitions, are largely documented within tables within Arctos, as opposed to being documented here. 

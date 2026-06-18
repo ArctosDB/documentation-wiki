@@ -5,8 +5,6 @@ authors: Dusty Mc Donald, Teresa J Mayfield-Meyer
 date_updated: 2021-07-29
 ---
 
-# Users
-
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
 
 Do not perform any user administration actions before reading and understanding this entire document.

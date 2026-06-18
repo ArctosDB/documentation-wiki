@@ -4,7 +4,6 @@ layout: default_toc
 authors: Dusty McDonald
 date_updated: 
 ---
-# Best Practice - Containers
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 

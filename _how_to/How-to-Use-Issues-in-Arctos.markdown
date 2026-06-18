@@ -5,8 +5,6 @@ authors: DLM, MSK
 date_updated: 
 ---
 
-# How To Github: Create and Manage Github Issues for Arctos
-
 [Github Documentation](https://handbook.arctosdb.org/documentation/github.html)
 
 ## The Issue Process: How to Make Arctos Work for You

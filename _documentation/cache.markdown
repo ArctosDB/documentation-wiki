@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 2025-01-07
 ---
 
-# Cache
-
 Data are flattened and cached in two wide spreadsheet-like tables, FLAT and FILTERED_FLAT. The latter is the former stripped of encumbered, private, internal, and sensitive data.
 
 ## Structure

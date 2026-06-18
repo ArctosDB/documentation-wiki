@@ -5,8 +5,6 @@ authors: Michelle Koo, Teresa J. Mayfield-Meyer
 date_updated: 2023-07-26
 ---
 
-# How To Github: Contribute to the Arctos Handbook
-
 **Documentation: [Github](https://handbook.arctosdb.org/documentation/github.html)**
 
 ## Why Use Github for the Arctos Handbook?

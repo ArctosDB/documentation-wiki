@@ -5,9 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Frequently Asked Questions
-
-
 **Q: How is taxonomy managed in a shared system?**
 
 A: Identifications (optionally) reference taxonomy, but taxon names are

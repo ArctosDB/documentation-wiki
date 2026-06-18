@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# GeoLocate
-
 Data Entry and Edit Locality offer an inline georeferencing
 tool,
 [GEOLocate](https://www.geo-locate.org). While very

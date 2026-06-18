@@ -5,8 +5,6 @@ authors: DLM, Teresa J Mayfield-Meyer
 date_updated: 
 ---
 
-# Accessions
-
 An accession is a [transaction](/documentation/transactions.html) that conveys an item, or (commonly) a group of items received from one source at one time, to an institution. As an administrative (rather than biological) entity, an accession can be delimited by administrative criteria such as previous title, applicable [permits](/documentation/permits.html), or association with a particular [project](/documentation/projects.html). In general, accessioning is the first step of incorporating items into a collection and indicates that the institution has accepted custody of (if not title to) the accessioned material. Accessioning generally precedes cataloging. Therefore, it is unnecessary to have individual item data in order to create an accession. Nevertheless, the nature and disposition of the items' data should be recorded in order to assure that the data can eventually be located for purposes of cataloging.
 
 Accessions share all transaction fields, in addition to the following.

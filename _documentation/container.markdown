@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 2023-02-22
 ---
 
-# Object Tracking
-
 In a nutshell, Arctos Object Tracking consists of...
 
 -   "Containers" in one of two categories:

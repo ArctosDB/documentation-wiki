@@ -5,8 +5,6 @@ authors:
 date_updated: 
 ---
 
-# How To Conduct a Search
-
 The key to getting the most out of Arctos is learning to search effectively. More often than not, a task will specify a specimen by MVZ number, or a group of specimens by their Accession. In these cases, your search will consist of only one step. Occasionally, however, you will be asked to find a list of specimens without using these numbers. Fortunately, Arctos’ powerful search feature will help you get there.
 
 The homepage of Arctos is also its search feature. That is your signal that you will be seeing this page a lot, so you will very quickly grow familiar with it. This guide explains some of the most commonly used search features.

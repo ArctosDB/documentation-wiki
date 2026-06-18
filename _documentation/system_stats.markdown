@@ -5,7 +5,6 @@ authors: Michelle Koo
 date_updated: 2025-07-03
 ---
 
-# System Stats Definitions
 Arctos tallies a set of specific queries to provide a report of regular counts. These statistics are downloadable as CSV and available to registered users. [Log in to view System Stats](https://arctos.database.museum/info/sysstats.cfm) 
 
 Below are the fields, definition, and how they are compiled.

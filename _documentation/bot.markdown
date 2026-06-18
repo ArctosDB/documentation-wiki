@@ -5,8 +5,6 @@ authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2024-06-11
 ---
 
-# Arctos Bots
-
 Bots are (very limited) users (Agents and Operators) who can write specific information to specific bulkloaders. The bot agent will take credit for the data, and this may generally be used to un-do any problems caused by bots. Data will be inserted with status=autoload, and processing will begin immediately. Any data which was not processed will be deleted before insertion; errors should be reported via Issues.
 
 ## How To Create Arctos Bots

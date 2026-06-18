@@ -4,7 +4,6 @@ layout: default_toc
 authors: unknown, Genna Anderegg, Teresa J. Mayfield-Meyer
 date_updated: 2023-11-03
 ---
-# How To Create, Edit, and Delete Identifications
 
 ### Documentation: [Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
 

@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Borrows
-
 Loans are transcations that document any receipt of objects by a collection, temporary or permanent, including objects that are loaned with the intention of being destroyed or permanently transferred from another institution or collection. When objects are removed, a Loan should be created.
 
 An object "exchange" between collections is two transactions: A loan and an accession. This arrangement well reflects the reality of incompleted exchanges, and takes advantage of the fact that we are dealing with both outgoing objects and incoming objects.

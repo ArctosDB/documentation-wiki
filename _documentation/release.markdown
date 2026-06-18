@@ -5,8 +5,6 @@ authors: DLM, MSK
 date_updated: 
 ---
 
-# Release Notes
-
 This document is no longer being maintained. See [Latest Completed Tasks](https://github.com/ArctosDB/dev/issues?q=is%3Aissue%20state%3Aclosed%20milestone%3Apre-release%20sort%3Aupdated-desc) for most updated release changes.
 
 # Archive:

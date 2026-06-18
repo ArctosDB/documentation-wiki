@@ -5,8 +5,6 @@ authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-08-07
 ---
 
-# How To Create and Edit Containers
-
 **Documentation: [Object Tracking](https://handbook.arctosdb.org/documentation/container.html)**
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**

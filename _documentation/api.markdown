@@ -5,8 +5,6 @@ authors: DLM, MSK
 date_updated: 2025-02-20
 ---
 
-# Catalog Record API
-
 By "API" we generally mean the catalog record API (which powers /search), but there are many APIs in Arctos, and some may be made available by specific request.
 
 

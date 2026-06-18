@@ -5,9 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Transactions
-
-
 Transactions are actions that effect the coming and going of Cataloged
 Items, and parts thereof. There are three primary types of transactions.
 

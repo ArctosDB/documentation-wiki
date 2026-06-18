@@ -4,7 +4,6 @@ layout: default_toc
 authors: 
 date_updated: 
 ---
-# How To Identify National Park Specimens
 
 **Documentation:** [Identifiers](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_documentation/identifiers.markdown)
 

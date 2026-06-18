@@ -4,7 +4,6 @@ layout: default_toc
 authors: Teresa J Mayfield-Meyer
 date_updated: 2021-02-24
 ---
-# How To Search Agents
 
 **Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a>
 

@@ -5,7 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 2019-10-15
 ---
 
-# Arctos Developers Guide
 Tips, tricks, and conventions for developing Arctos code
 
 ### Attribute Display Order

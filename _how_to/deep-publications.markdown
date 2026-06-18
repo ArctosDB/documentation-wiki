@@ -4,6 +4,7 @@ layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2018-09-20
 ---
+
 [Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
 
 # How To Understand Deep Publication Data in Arctos

@@ -4,6 +4,7 @@ layout: default_toc
 authors: 
 date_updated: 
 ---
+
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
 
 Cataloged Items may have two types of coordinates: verbatim locality coordinates, and specific locality coordinates. Verbatim locality coordinates are coordinates that were assigned by the original collector; they are not used to map the cataloged items and they are tied exclusively to the collecting event. Specific locality coordinates may or may not be assigned to the original collector; they are used to map the cataloged items and they are tied exclusively to the locality. In other words, the locality of a cataloged item as it appears on maps and the results page is that of the specific locality only.

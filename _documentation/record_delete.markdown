@@ -5,8 +5,6 @@ authors: DLM, MSK
 date_updated: 
 ---
 
-# Deleting Catalog Records- considerations
-
 Before deleting catalog records, first carefully consider the alternatives (such as Encumbrances and Redirects). In general, if there's any chance that a record has been cited, however informally, then the record should not be deleted.
 
 Deleting is often appropriate for fixing mistakes in just-loaded records.

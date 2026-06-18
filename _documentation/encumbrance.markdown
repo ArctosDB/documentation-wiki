@@ -4,7 +4,6 @@ layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 
 ---
-# Encumbrance
 
 In the strictest sense, an Encumbrance restricts the visibility of catalog record to only the collection managers. Encumbrances should not be confused with [permits](https://handbook.arctosdb.org/documentation/permits.html), which involve acceptable use of materials or information.
 

@@ -4,6 +4,7 @@ layout: default_toc
 authors: 
 date_updated: 
 ---
+
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
 
 # How To Assign a New Locality to a Catalog Record

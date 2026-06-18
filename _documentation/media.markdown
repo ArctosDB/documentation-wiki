@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Media
-
 Media are any digital objects (such as photographs, sound recordings,
 or three-dimensional renderings of objects) that can be related to data
 items in Arctos. Thus, they are essentially anything that can be

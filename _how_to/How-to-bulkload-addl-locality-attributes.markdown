@@ -5,8 +5,6 @@ authors:
 date_updated: 
 ---
 
-# How To Bulkload More Than Six Locality Attributes
-
 The limit of 6 locality attributes in the Record Bulkloader can be overcome using the following method.
 
 Use 5 locality attributes to load whatever you want, but save the sixth for data management history. In that locality attribute, make the value a message to yourself, and put the additional values to be recorded in the remark for the attribute. For Example:

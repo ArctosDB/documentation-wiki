@@ -5,8 +5,6 @@ authors:
 date_updated: 
 ---
 
-# Catalog Record Search
-
 Navigate to the search page either by opening the Arctos homepage (arctos.database.museum) or by using the Search toolbar > Catalog Records menu option. A basic search pane will display:
 
 ![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/286285e2-2ad5-4d57-b530-6f6575e3a4b4)

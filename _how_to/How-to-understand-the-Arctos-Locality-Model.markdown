@@ -4,6 +4,7 @@ layout: default_toc
 authors: 
 date_updated: 
 ---
+
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
 
 [Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)

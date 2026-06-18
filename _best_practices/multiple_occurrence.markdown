@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 2024-08-26
 ---
 
-# Multiple Occurrences
-
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 ## Work In Progress

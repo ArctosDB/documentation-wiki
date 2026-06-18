@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 2025-08-11
 ---
 
-# Parts 
-
 Parts are physical entities, in contrast to [Cataloged Items](/documentation/catalog) (an abstract entity) or binary objects
 (such as Images). One or many parts may comprise a Cataloged Item, and parts may be defined as the minimal units for which [storage location](/documentation/container), usage, and condition are tracked. (*"Parts are things to which you can stick barcodes."*) Parts are generally the equivalent of [dwc:MaterialSample](https://dwc.tdwg.org/terms/#materialsample)
 

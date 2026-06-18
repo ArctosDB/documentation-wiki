@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Permits / Any Documentation Authorizing Activity
-
 Permits are any documentation authorizing activity or guiding usage. Permits are linked to transactions ([Accessions](/documentation/accession), [Loans](/documentation/loans), and [Borrows](/documentation/borrow)). Permits may be "issued by" governmental agencies, landowners, registrations (e.g., CITES), donors, administrators, or anyone else. Permits may carry any level of authority (including none), and apply to any (or no) context or jurisdiction. 
 
 A permit can be linked to any number of transactions, and any number of permits may be liked from a single transaction.

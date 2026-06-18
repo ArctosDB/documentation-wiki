@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Publications
-
 Publications are included in Arctos to document the significance of
 specimens. These associations also enhance publications by making the
 work documented by publications more reproducible. Where specimens have

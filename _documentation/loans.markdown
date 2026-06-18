@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 2025-08-12
 ---
 
-# Loans
-
 Loans are [transcations](/documentation/transactions.html) that document any use, touching, or removal of objects from a collection, temporary or permanent, including objects that are loaned with the intention of being destroyed or permanently transferred to another institution or collection, as well as the use of object information (data loan).
 
 ## Loan Fields

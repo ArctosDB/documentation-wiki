@@ -4,7 +4,6 @@ layout: default_toc
 authors: Teresa J Mayfield-Meyer, Phyllis Sharp, David Bloom
 date_updated: 2022-08-29
 ---
-# How to Publish Arctos Data to the Ocean Biodiversity Information System (OBIS)
 
 ## [Beyond Arctos Documentation](https://handbook.arctosdb.org/documentation/github.html)
 

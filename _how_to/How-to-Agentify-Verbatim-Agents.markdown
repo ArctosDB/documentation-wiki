@@ -4,7 +4,6 @@ layout: default_toc
 authors: Teresa J Mayfield-Meyer, Angela Linn
 date_updated: 2023-01-31
 ---
-# How to Agentify Verbatim Agents
 
 If you have new information about a person that is currently only recorded in a [verbatim agent attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent), you can follow these steps to add their agent as a collector, creator, preperator or subject in the records in which they performed those roles.
 

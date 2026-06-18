@@ -5,10 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Understanding Arctos Errors
-
-
-
  ## password authentication failed
  ### Error Message
      ERROR_MESSAGE org.postgresql.util.PSQLException: FATAL: password authentication failed for user ....

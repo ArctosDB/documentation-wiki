@@ -5,8 +5,6 @@ authors: Michelle Koo
 date_updated: 2025-11-10
 ---
 
-# How To Add or Edit the Arctos Banner
-
 ## Navigation
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**

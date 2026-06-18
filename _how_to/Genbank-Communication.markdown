@@ -4,7 +4,6 @@ layout: default_toc
 authors: DLM?
 date_updated: 
 ---
-# Arctos and GenBank
 
 This document provides a high-level overview of Arctos/GenBank interoperability.
 

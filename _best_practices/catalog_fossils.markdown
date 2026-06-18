@@ -4,6 +4,7 @@ layout: default_toc
 authors: Teresa Mayfield-Meyer, Dustin Perriguey, Nicole Ridgwell, Katherine Anderson
 date_updated: 2019-03-20
 ---
+
  [//]: # [Previous Update Request](https://github.com/ArctosDB/documentation-wiki/issues/77)
 
 # Best Practice - Cataloging Fossil Material

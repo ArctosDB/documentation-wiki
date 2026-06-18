@@ -4,6 +4,7 @@ layout: default_toc
 authors: Observation Interest Group, Ally Coconis (2019-06-19)
 date_updated: 2022-11-28
 ---
+
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 The Observation Interest Group is currently working on improving this document. Please [file an issue](https://github.com/ArctosDB/arctos/issues/new) if you have questions about cataloging observations in Arctos.

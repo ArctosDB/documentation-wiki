@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Markdown
-
 Some free-text fields accept Markdown; these generally have a 'markdown editor' button nearby.
 
 ## Benefits

@@ -4,7 +4,6 @@ layout: default_toc
 authors: Teresa J Mayfield-Meyer, Emily Braker, April Payne
 date_updated: 2021-07-27
 ---
-# How to Create Agents
 
 #### Navigation: <a href="https://arctos.database.museum/agents.cfm" target="_blank">Arctos Tools Directory > Agents & Users > Agent: Manage</a>
 

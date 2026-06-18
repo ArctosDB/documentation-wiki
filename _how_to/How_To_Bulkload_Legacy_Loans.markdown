@@ -5,8 +5,6 @@ authors: Teresa J. Mayfield-Meyer, Toni Androski
 date_updated: 2023-03-08
 ---
 
-# How To Bulkload Loans
-
 ## [Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
 
 Bulkloading loan information is a two step process. The first step involves creating loan metadata in Arctos with a bulkload tool.  The second step populates the loan(s) with catalog record data and anything else that is missing from the metadata. Before beginning this process, it may help to read [How to Create a New Loan](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Loan.html) as the process for bulkloading is comleting the same steps in bulk.

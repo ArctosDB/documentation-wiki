@@ -4,7 +4,6 @@ layout: default_toc
 authors: 
 date_updated: 
 ---
-# Understanding Attribute Errors
 
 The various bulkloader-checking tools throw somewhat cryptic error messages when an Attribute does not satisfy database-level requirements. This document serves as a troubleshooting guide.
 

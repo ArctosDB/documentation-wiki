@@ -5,8 +5,6 @@ authors: Dusty McDonald, Teresa J Mayfield-Meyer
 date_updated: 2022-12-29
 ---
 
-# Sharing Data and Resources
-
 Arctos is a shared system, which means we share dictionary and authority files, as well as ideas and development, while individual collections exclusively own core catalog record data. This page will attempt to summarize how this works. Any user with access to shared nodes should have a thorough understanding of this information, and how it affects their collection and others.
 
 #### Navigation: <a href="https://arctos.database.museum/Admin/user_roles.cfm" target="_blank">Manage Arctos > Roles/Permissions > Database Roles</a>

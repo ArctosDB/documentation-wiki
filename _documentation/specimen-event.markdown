@@ -5,8 +5,6 @@ authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2024-06-06
 ---
 
-# Record Event
-
 Record Events link [Events]({{site.baseurl}}/documentation/collecting-event.html) to [Records]({{site.baseurl}}/documentation/catalog.html).
 
 ## Event Determiner

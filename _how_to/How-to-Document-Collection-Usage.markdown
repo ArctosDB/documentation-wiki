@@ -4,6 +4,7 @@ layout: default_toc
 authors: Arthur H. Harris, Teresa J. Mayfield-Meyer
 date_updated: 2017-07-11
 ---
+
 [Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)
 
 # How To Document both Published and Unpublished Collection Usage

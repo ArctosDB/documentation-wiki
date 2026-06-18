@@ -5,8 +5,6 @@ authors: DLM, Teresa J Mayfield-Meyer
 date_updated: 2021-09-24
 ---
 
-# Understanding Data Entry
-
 ## [Documentation: Catalog Record/Data Entry](https://handbook.arctosdb.org/documentation/catalog.html)
 
 

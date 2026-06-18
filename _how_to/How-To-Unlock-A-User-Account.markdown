@@ -4,7 +4,6 @@ layout: default_toc
 authors: Dusty McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2020-04-14
 ---
-# How To Unlock an Arctos User Account
 
 ## [Users Documentation](https://handbook.arctosdb.org/documentation/users.html#unlocking)
 

@@ -5,8 +5,6 @@ authors: Arctos, Michelle Koo
 date_updated: 2017-03-29
 ---
 
-# Redirects
-
 Arctos provides HTTP redirect capability so that access to a webpage can be maintained, under which one URL (http://arctos.database.museum/guid/KNWR:Ento:7193, for example) can be automatically redirected to another (http://arctos.database.museum/guid/UAM:Ento:228334). Examples of where this is important include:
 
 - Recataloging records

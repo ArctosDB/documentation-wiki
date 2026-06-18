@@ -4,7 +4,6 @@ layout: default_toc
 authors: DLM, Michelle Koo
 date_updated: 2024-12-08
 ---
-# How To Join Arctos
 
 ## For prospective partners
 

@@ -4,6 +4,7 @@ layout: default_toc
 authors: Michelle Koo
 date_updated: 2021-11-04
 ---
+
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
 
 # How To Request TACC Access to Media Storage

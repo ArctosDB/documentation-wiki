@@ -5,8 +5,6 @@ authors:
 date_updated: 
 ---
 
-# How to Add/Create and Edit Catalog Record Attributes
-
 **Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
 
 **NAVIGATION: from the catalog record, click on the Attributes Tab OR the "Edit" link in the corner of the Attributes detail**

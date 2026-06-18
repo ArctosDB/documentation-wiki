@@ -4,7 +4,6 @@ layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-08-11
 ---
-# How To Customize the Data Entry Form
 
 **Documentation: [Catalog Record](https://handbook.arctosdb.org/documentation/catalog.html)**
 

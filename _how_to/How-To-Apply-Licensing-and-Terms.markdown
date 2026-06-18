@@ -4,8 +4,6 @@ layout: default_toc
 authors: Carla Cicero
 date_updated: 2020-07-06
 ---
-# How to Apply Licensing and Terms
-
 
 ### Data
 

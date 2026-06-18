@@ -4,6 +4,7 @@ layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-09-19
 ---
+
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 [New How To Request Github Issue](https://github.com/ArctosDB/documentation-wiki/issues/295)

@@ -5,10 +5,6 @@ authors: Dusty McDonald, Michelle Koo
 date_updated: 2025-02-14
 ---
 
-
-
-# Geography
-
 Higher Geography is defined in Arctos to reflect the administrative intersections of asserted geographic boundaries that describe the locality of a record. For example, the location of a record occurs in a country, state or provice, county, municipality etc. Many marine-focused collections wish to assert both marine (where the event took place) and terrestrial (e.g. perhaps the administrative land from which permits are issued) geography for various reasons, while there is little or no overlap in spatial definitions of these places. [issue ref](https://github.com/ArctosDB/internal/issues/366) 
 
 Higher Geography provides a lexicon of geographic terms that are consistent across all collections in Arctos and, where appropriate, consistent with consolidator websites’ generally accepted lexicon. In Arctos, the function of higher geography is to accommodate marine and terrestrial authoritative sources (GADM and IHO, respectively), with accommodations for where the authorities are out of date.

@@ -5,8 +5,6 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-# Dates
-
 <div class="center-block text-center">
   <a href="http://xkcd.com/1179/">
     <img src="http://imgs.xkcd.com/comics/iso_8601.png" alt="XKCD 1179" />

@@ -5,8 +5,6 @@ authors: unknown, Teresa J. Mayfield-Meyer
 date_updated: 2024-06-05
 ---
 
-# How To Build Other Identifiers
-
 Other Identifiers in Arctos are composed of:
 
  - issued by (an Arctos Agent)

@@ -4,6 +4,7 @@ layout: default_toc
 authors: Teresa J Mayfield-Meyer previous contributors Emily Braker, April Payne
 date_updated: 2021-10-11
 ---
+
 [Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)
 
 # How to Create an Accession

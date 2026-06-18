@@ -4,7 +4,6 @@ layout: default_toc
 authors: Michelle Koo, Teresa J. Mayfield-Meyer
 date_updated: 2026-06-02
 ---
-# How To Add Code Table Terms to a Collection 
 
 **Documentation: https://github.com/ArctosDB/arctos/issues/3452**
 
