@@ -33,7 +33,7 @@ The following notifications and reminders are generated. This list is not all-in
 
 #### Loan Reminders
 
-Loans where status is not “closed” generate notifications 30 and 7 days before the loan is due, the every 30 days up to 300 days overdue, then daily.
+Loans where status is not “closed” generate notifications 30 and 7 days before the loan is due, the every 30 days up to 300 days overdue, then monthly.
 
 #### Permit reminders
 
