@@ -49,7 +49,7 @@ roughly three classes:
     this category (although some users employ browser extensions which
     can process these types of files).
 
-> **_NOTE:_** Files containing characters other than A-Z, a-z, 0-9, and _ are not eligible for scripting. Please sanitize any file names before uploading.
+> **_NOTE:_** Files or paths containing characters other than A-Z, a-z, 0-9, and _ are not eligible for scripting. Please sanitize any file names before uploading.
 
 ### Mime_Type
 
