@@ -122,11 +122,21 @@ nav {
 
 nav.collection-toc {
   li {
+    display: block;
+    width: 100%;
 
     a::before,
     a:before {
       content: "\00bb";
     }
+  }
+}
+
+.nav.navbar-nav {
+  >li {
+    float: none;
+    display: block;
+    width: 100%;
   }
 }
 
