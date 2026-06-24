@@ -1,6 +1,5 @@
 ---
 title:
-layout: default_toc
 authors:
 date_updated:
 ---

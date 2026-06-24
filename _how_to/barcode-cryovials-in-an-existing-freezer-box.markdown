@@ -1,6 +1,5 @@
 ---
 title: Barcode Cryovials in an Existing Freezer Box
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2019-02-22
 redirect_from:

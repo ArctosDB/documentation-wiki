@@ -1,6 +1,5 @@
 ---
 title: Search for Specimens with Identification and Taxonomy
-layout: default_toc
 authors: Phyllis Sharp
 date_updated: 2019-04-14
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 title: Sharing Data and Resources
-layout: default_toc
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2022-12-29
 ---

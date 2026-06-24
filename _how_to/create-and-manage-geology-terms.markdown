@@ -1,6 +1,5 @@
 ---
 title: Create and Manage Geology Attributes
-layout: default_toc
 authors: Teresa Mayfield-Meyer
 date_updated: 2019-10-09
 redirect_from:

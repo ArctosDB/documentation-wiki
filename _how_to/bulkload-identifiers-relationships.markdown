@@ -1,6 +1,5 @@
 ---
 title: Bulkload Identifiers and Relationships
-layout: default_toc
 authors: Michelle Koo, Andy Doll, Teresa J. Mayfield-Meyer
 date_updated: 2023-11-06
 redirect_from:

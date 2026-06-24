@@ -1,6 +1,5 @@
 ---
 title: Create Part Attributes from Containers
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2022-10-11
 redirect_from:

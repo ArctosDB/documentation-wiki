@@ -1,6 +1,5 @@
 ---
 title: Redirects
-layout: default_toc
 authors: Dusty L. McDonald, Michelle Koo
 date_updated: 2017-03-29
 ---

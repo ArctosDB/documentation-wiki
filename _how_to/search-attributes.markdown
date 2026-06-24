@@ -1,6 +1,5 @@
 ---
 title: Search Attributes
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

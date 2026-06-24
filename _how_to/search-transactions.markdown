@@ -1,6 +1,5 @@
 ---
 title: Search Transactions
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 title: Create an Accession
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Emily Braker, April Payne
 date_updated: 2021-10-11
 redirect_from:

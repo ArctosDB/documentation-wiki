@@ -1,6 +1,5 @@
 ---
 title: Bulkload Accessions
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-04-13
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 title: Batch Update Agents
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Carla Cicero
 date_updated: 2024-04-24
 redirect_from:

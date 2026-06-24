@@ -1,6 +1,5 @@
 ---
 title: Using Containers
-layout: default_toc
 authors: Dusty McDonald
 date_updated: 
 ---

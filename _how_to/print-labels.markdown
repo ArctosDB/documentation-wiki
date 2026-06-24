@@ -1,6 +1,5 @@
 ---
 title: Print Labels
-layout: default_toc
 authors: Emily Braker, Teresa J. Mayfield-Meyer, Aren Gunderson, Dusty L. McDonald
 date_updated: 2025-11-05
 redirect_from:

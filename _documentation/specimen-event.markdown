@@ -1,6 +1,5 @@
 ---
 title: Record Event
-layout: default_toc
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2024-06-06
 ---

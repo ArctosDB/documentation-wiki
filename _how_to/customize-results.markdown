@@ -1,6 +1,5 @@
 ---
 title: Customize Search Results
-layout: default_toc
 authors: Emily Braker
 date_updated: 2024-02-26
 redirect_from:

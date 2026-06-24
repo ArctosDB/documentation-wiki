@@ -1,6 +1,5 @@
 ---
 title: Create and Print QR Code Insect Labels
-layout: default_toc
 authors: Matt Bowser
 date_updated: 2013-03-08
 redirect_from:

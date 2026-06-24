@@ -1,6 +1,5 @@
 ---
 title: Users
-layout: default_toc
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2021-07-29
 ---

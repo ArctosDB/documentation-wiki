@@ -1,6 +1,5 @@
 ---
 title: Search for Specimens and Find Part Locations
-layout: default_toc
 authors: Teresa Mayfield-Meyer
 date_updated: 2019-02-27
 redirect_from:

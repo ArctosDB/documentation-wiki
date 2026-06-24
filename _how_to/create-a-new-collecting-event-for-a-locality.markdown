@@ -1,6 +1,5 @@
 ---
 title: Create a New Collecting Event for a Locality
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

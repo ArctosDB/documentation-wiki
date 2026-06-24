@@ -1,6 +1,5 @@
 ---
 title: Customize Data Entry
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-08-11
 redirect_from:

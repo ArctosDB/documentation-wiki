@@ -1,6 +1,5 @@
 ---
 title: Manage Harmful Content
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-09-19
 redirect_from:

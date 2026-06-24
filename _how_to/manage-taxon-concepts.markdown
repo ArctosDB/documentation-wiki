@@ -1,6 +1,5 @@
 ---
 title: Manage Taxon Concepts
-layout: default_toc
 authors: Cam Webb, Teresa J. Mayfield-Meyer
 date_updated: 2021-05-19
 redirect_from:

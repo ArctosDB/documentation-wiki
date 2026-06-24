@@ -1,6 +1,5 @@
 ---
 title: Internal Documentation
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-07-29
 redirect_from:

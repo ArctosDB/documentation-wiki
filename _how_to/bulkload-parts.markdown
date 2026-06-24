@@ -1,6 +1,5 @@
 ---
 title: Bulkload Parts
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-03-14
 redirect_from:

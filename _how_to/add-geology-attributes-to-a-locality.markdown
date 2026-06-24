@@ -1,6 +1,5 @@
 ---
 title: Add Geology Attributes to a Locality
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2022-01-31
 redirect_from:

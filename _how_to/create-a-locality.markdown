@@ -1,6 +1,5 @@
 ---
 title: Create a Locality
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2024-09-07
 redirect_from:

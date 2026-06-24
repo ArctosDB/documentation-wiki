@@ -1,6 +1,5 @@
 ---
 title: Edit Media Records
-layout: default_toc
 authors: 
 date_updated: 2018-09-13
 redirect_from:

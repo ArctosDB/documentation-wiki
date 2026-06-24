@@ -1,6 +1,5 @@
 ---
 title: Install Cryovials into a Freezer Box
-layout: default_toc
 authors: April Payne, Michelle Koo, Teresa Mayfield-Meyer
 date_updated: 2019-03-15
 redirect_from:

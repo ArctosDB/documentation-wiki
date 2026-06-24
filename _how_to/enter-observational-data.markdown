@@ -1,6 +1,5 @@
 ---
 title: Catalog an Observation
-layout: default_toc
 authors: Ally Coconis
 date_updated: 2022-11-28
 redirect_from:

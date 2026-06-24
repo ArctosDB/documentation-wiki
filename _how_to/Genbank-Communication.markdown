@@ -1,6 +1,5 @@
 ---
 title: Understand Communication between Genbank and Arctos
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 
 redirect_from:

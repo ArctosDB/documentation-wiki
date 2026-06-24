@@ -1,6 +1,5 @@
 ---
 title: Search for Catalog Records
-layout: default_toc
 authors: 
 date_updated: 
 ---

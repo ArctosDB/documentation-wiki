@@ -1,6 +1,5 @@
 ---
 title: Container
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2023-02-22
 ---

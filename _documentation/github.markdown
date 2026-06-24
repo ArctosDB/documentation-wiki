@@ -1,6 +1,5 @@
 ---
 title: Github for Arctos
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Dusty L. McDonald
 date_updated: revised 2023-07-26
 ---

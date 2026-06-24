@@ -1,6 +1,5 @@
 ---
 title: Contribute to the Arctos Handbook
-layout: default_toc
 authors: Michelle Koo, Teresa J. Mayfield-Meyer
 date_updated: 2023-07-26
 redirect_from:
@@ -65,7 +64,6 @@ To edit offline and more advanced editing, consult [_How to Get the Most Out of 
 ```markdown
 ---
 title: How To Do Anything in Arctos
-layout: default_toc
 ---
 ```
 
@@ -74,7 +72,6 @@ The Arctos Handbook supports a few other Front Matter attributes. We also suppor
 ```yaml
 ---
 title: Agents
-layout: default_toc
 author: ArctosDB
 date: 2016-12-01
 ---

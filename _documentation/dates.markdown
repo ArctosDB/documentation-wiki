@@ -1,6 +1,5 @@
 ---
 title: Dates
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 
 ---

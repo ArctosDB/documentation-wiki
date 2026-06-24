@@ -1,6 +1,5 @@
 ---
 title: Approve Records Entered With Data Entry Form
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-07-21
 redirect_from:

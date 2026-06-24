@@ -1,6 +1,5 @@
 ---
 title: Request TACC Access to Media Storage
-layout: default_toc
 authors: Michelle Koo
 date_updated: 2021-11-04
 redirect_from:

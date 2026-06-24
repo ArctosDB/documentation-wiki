@@ -1,6 +1,5 @@
 ---
 title: Deciding What to Catalog
-layout: default_toc
 authors: Teresa Mayfield-Meyer
 date_updated: 2021-07-15
 redirect_from:

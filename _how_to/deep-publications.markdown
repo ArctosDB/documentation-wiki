@@ -1,6 +1,5 @@
 ---
 title: Understand Deep Publication Data in Arctos
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2018-09-20
 ---

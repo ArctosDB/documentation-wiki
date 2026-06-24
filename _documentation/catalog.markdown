@@ -1,6 +1,5 @@
 ---
 title: Catalog
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2025-02-24
 ---

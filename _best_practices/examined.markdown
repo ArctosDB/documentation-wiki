@@ -1,6 +1,5 @@
 ---
 title: Using Examined / Detected / Related
-layout: default_toc
 authors: 
 date_updated: 
 ---

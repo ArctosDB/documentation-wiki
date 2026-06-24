@@ -1,6 +1,5 @@
 ---
 title: Accessions
-layout: default_toc
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 
 ---

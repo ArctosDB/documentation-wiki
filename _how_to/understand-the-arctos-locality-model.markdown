@@ -1,6 +1,5 @@
 ---
 title: Understand the Arctos Locality Model
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

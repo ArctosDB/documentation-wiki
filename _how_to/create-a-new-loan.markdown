@@ -1,6 +1,5 @@
 ---
 title: Create a New Loan
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-07-23
 redirect_from:

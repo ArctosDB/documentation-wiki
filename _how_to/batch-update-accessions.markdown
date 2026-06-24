@@ -1,6 +1,5 @@
 ---
 title: Batch Update Accessions
-layout: default_toc
 authors: Carla Cicero
 date_updated: 2016-03-08
 redirect_from:

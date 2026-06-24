@@ -1,6 +1,5 @@
 ---
 title: Add and Edit Attributes
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

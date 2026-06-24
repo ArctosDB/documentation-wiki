@@ -1,6 +1,5 @@
 ---
 title: Customize the Search Page
-layout: default_toc
 authors: Emily Braker, Dusty L. McDonald
 date_updated: 2023-03-14
 redirect_from:

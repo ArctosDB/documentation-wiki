@@ -1,6 +1,5 @@
 ---
 title: Search for Specimens
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

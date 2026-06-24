@@ -1,6 +1,5 @@
 ---
 title: Parts
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2025-08-11
 ---

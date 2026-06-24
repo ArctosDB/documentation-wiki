@@ -1,6 +1,5 @@
 ---
 title: Organize Projects
-layout: default_toc
 authors: 
 date_updated: updated 2021-08-20
 redirect_from:

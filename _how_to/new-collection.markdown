@@ -1,6 +1,5 @@
 ---
 title: Join Arctos and Request New Collection GUID
-layout: default_toc
 authors: Dusty L. McDonald, Michelle Koo
 date_updated: 2024-12-08
 ---

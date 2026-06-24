@@ -1,6 +1,5 @@
 ---
 title: Choose and Use Frozen Tissue Equipment and Supplies
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Hannah Appiah-Madson
 date_updated: 2024-01-10
 redirect_from:

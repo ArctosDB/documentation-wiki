@@ -1,6 +1,5 @@
 ---
 title: Create and Edit Identifications
-layout: default_toc
 authors: Genna Anderegg, Teresa J. Mayfield-Meyer
 date_updated: 2023-11-03
 redirect_from:

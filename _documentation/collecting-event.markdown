@@ -1,6 +1,5 @@
 ---
 title: Collecting Event
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 
 ---

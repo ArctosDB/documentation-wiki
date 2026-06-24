@@ -1,6 +1,5 @@
 ---
 title: Move to a Single Barcoded Container
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

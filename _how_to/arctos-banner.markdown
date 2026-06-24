@@ -1,6 +1,5 @@
 ---
 title: Add or Edit the Arctos Banner
-layout: default_toc
 authors: Michelle Koo
 date_updated: 2025-11-10
 redirect_from:

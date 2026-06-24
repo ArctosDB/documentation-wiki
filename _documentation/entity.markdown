@@ -1,6 +1,5 @@
 ---
 title: Entities
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2024-06-11
 ---

@@ -1,6 +1,5 @@
 ---
 title: Data Quality
-layout: default_toc
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2024-03-22
 redirect_from:

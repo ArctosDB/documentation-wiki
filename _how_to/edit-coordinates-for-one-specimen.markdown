@@ -1,6 +1,5 @@
 ---
 title: Edit Coordinates for One Cataloged Item
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

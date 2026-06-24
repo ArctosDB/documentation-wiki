@@ -1,6 +1,5 @@
 ---
 title: Approve Attribute Records Entered via Data Entry Form
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

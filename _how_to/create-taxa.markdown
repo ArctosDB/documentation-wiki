@@ -1,6 +1,5 @@
 ---
 title: Create Linnean Taxa
-layout: default_toc
 authors: Phyllis Sharp, Teresa J. Mayfield-Meyer
 date_updated: 2019-04-15, 2021-05-19
 redirect_from:

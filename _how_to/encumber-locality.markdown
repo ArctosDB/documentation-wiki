@@ -1,6 +1,5 @@
 ---
 title: Encumber Locality Data
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2025-02-24
 redirect_from:

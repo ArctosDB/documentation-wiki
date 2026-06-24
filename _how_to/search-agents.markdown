@@ -1,6 +1,5 @@
 ---
 title: Search for Agents
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-02-24
 redirect_from:

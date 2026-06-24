@@ -1,6 +1,5 @@
 ---
 title: Record Prior Inclusion in Another Collection
-layout: default_toc
 authors: Teresa Mayfield-Meyer
 date_updated: 2022-04-21
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 title: Unlock an Arctos User Account
-layout: default_toc
 authors: Dusty McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2020-04-14
 redirect_from:

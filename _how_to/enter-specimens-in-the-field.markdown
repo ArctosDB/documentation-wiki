@@ -1,6 +1,5 @@
 ---
 title: Enter Catalog Record Data in the Field
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

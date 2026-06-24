@@ -1,6 +1,5 @@
 ---
 title: Frequently Asked Questions
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2024-07-15
 redirect_from:

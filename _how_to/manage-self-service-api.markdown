@@ -1,6 +1,5 @@
 ---
 title: Manage Self-Service API Keys
-layout: default_toc
 authors: Michelle Koo
 date_updated: 2026-03-12
 redirect_from:

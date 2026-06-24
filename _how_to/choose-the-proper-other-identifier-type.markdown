@@ -1,6 +1,5 @@
 ---
 title: Build Other Identifiers
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2024-06-05
 redirect_from:

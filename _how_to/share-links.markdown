@@ -1,6 +1,5 @@
 ---
 title: Create Arctos Links
-layout: default_toc
 authors: Michelle Koo
 date_updated: 
 redirect_from:

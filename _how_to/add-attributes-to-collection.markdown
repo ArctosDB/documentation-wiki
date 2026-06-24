@@ -1,6 +1,5 @@
 ---
 title: Add Code Table Terms to a Collection
-layout: default_toc
 authors: Michelle Koo, Teresa J. Mayfield-Meyer
 date_updated: 2026-06-02
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 title: Use Complex Identifications as Low-quality Data Flags
-layout: default_toc
 authors: Anna Chinn
 date_updated: 2019-10-15
 redirect_from:

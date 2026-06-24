@@ -1,6 +1,5 @@
 ---
 title: Selecting a Loan Type
-layout: default_toc
 authors: Teresa Mayfield-Meyer, Carla Cicero
 date_updated: 2021-07-19
 redirect_from:

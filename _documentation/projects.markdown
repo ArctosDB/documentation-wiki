@@ -1,6 +1,5 @@
 ---
 title: Projects
-layout: default_toc
 authors: Michelle Koo, Dusty L. McDonald
 date_updated: updated 2025-07-02
 ---

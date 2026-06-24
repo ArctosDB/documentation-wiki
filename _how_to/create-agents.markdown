@@ -1,6 +1,5 @@
 ---
 title: Create Agents
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Emily Braker, April Payne
 date_updated: 2021-07-27
 redirect_from:

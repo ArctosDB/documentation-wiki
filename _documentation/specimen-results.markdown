@@ -1,6 +1,5 @@
 ---
 title: Specimen Results
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2018-04-24
 ---

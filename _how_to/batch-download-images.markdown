@@ -1,6 +1,5 @@
 ---
 title: Batch Download Images
-layout: default_toc
 authors: Cam Webb
 date_updated: 
 redirect_from:

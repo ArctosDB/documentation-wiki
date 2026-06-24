@@ -1,6 +1,5 @@
 ---
 title: Use SQL to update multiple records simultaneously in the bulkloader
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2019-05-19
 redirect_from:

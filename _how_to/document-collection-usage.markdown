@@ -1,6 +1,5 @@
 ---
 title: Document Collection Usage Using Projects
-layout: default_toc
 authors: Arthur H. Harris, Teresa J. Mayfield-Meyer
 date_updated: 2017-07-11
 redirect_from:

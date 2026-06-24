@@ -1,6 +1,5 @@
 ---
 title: Create Media
-layout: default_toc
 authors: Carla Cicero
 date_updated: 2016-04-24
 redirect_from:

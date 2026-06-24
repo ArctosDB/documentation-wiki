@@ -1,6 +1,5 @@
 ---
 title: Enter Data
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2024-10-28
 redirect_from:

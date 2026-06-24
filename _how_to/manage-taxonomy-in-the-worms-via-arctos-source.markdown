@@ -1,6 +1,5 @@
 ---
 title: Manage Taxonomy in the WoRMS (via Arctos) Source
-layout: default_toc
 authors: Phyllis Sharp
 date_updated: 2021-06-15
 redirect_from:

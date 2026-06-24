@@ -1,6 +1,5 @@
 ---
 title: Manage Taxonomic Classifications
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

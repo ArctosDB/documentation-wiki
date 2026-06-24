@@ -1,6 +1,5 @@
 ---
 title: Cataloging Fossil Material
-layout: default_toc
 authors: Teresa Mayfield-Meyer, Dustin Perriguey, Nicole Ridgwell, Katherine Anderson
 date_updated: 2019-03-20
 redirect_from:

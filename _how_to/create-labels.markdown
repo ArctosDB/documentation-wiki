@@ -1,6 +1,5 @@
 ---
 title: Create Labels
-layout: default_toc
 authors: Michelle Koo
 date_updated: 2024-08-01 Pending
 redirect_from:

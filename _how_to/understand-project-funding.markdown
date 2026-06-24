@@ -1,6 +1,5 @@
 ---
 title: Understand Project Funding
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

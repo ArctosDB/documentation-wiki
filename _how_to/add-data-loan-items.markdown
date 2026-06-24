@@ -1,6 +1,5 @@
 ---
 title: Add Data Loan Items
-layout: default_toc
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2023-03-06
 redirect_from:

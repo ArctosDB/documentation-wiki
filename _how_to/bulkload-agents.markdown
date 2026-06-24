@@ -1,6 +1,5 @@
 ---
 title: Bulkload Agents
-layout: default_toc
 authors: Dusty L. McDonald, Teresa Mayfield-Meyer
 date_updated: 2018-04-26
 redirect_from:

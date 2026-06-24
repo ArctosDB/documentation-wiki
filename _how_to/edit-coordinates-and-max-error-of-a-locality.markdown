@@ -1,6 +1,5 @@
 ---
 title: Edit Coordinates and Max Error of a Locality
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

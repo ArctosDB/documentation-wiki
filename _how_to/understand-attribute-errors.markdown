@@ -1,6 +1,5 @@
 ---
 title: Understand Attribute Errors
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 title: Start Object Tracking
-layout: default_toc
 authors: 
 date_updated: 2018-04-10, 2018-10-17
 redirect_from:

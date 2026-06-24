@@ -1,6 +1,5 @@
 ---
 title: Find and Edit Loans
-layout: default_toc
 authors: Michelle Koo
 date_updated: 2024-11-12
 redirect_from:

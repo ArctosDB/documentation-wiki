@@ -1,6 +1,5 @@
 ---
 title: Migrate Data Into Arctos
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2024-07-01
 redirect_from:

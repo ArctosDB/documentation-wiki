@@ -1,6 +1,5 @@
 ---
 title: Higher Geography
-layout: default_toc
 authors: Dusty McDonald, Michelle Koo
 date_updated: 2025-02-14
 ---

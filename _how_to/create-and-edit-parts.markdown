@@ -1,6 +1,5 @@
 ---
 title: Create and Edit Parts
-layout: default_toc
 authors: Emily Braker
 date_updated: 
 redirect_from:

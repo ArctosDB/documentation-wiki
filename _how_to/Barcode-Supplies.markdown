@@ -1,6 +1,5 @@
 ---
 title: Choose and Use Machine-based Object Tracking Equipment and Supplies
-layout: default_toc
 authors: Kyndall Hildebrandt, Hannah Appiah-Madson
 date_updated: 2024-01-10
 redirect_from:

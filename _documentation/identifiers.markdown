@@ -1,6 +1,5 @@
 ---
 title: Identifiers and Relationships
-layout: default_toc
 authors: Dusty L. McDonald, Michelle Koo
 date_updated: 2026-06-04
 ---

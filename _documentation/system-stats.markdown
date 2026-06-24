@@ -1,6 +1,5 @@
 ---
 title: System Stats
-layout: default_toc
 authors: Michelle Koo
 date_updated: 2025-07-03
 redirect_from:

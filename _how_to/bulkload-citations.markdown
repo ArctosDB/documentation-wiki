@@ -1,6 +1,5 @@
 ---
 title: Bulkload Citations
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Carla Cicero
 date_updated: 2023-03-08
 redirect_from:

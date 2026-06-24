@@ -1,6 +1,5 @@
 ---
 title: Delete an Agent
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Dusty L. McDonald
 date_updated: 2023-06-28
 redirect_from:

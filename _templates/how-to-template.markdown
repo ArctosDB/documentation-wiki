@@ -1,6 +1,5 @@
 ---
-title: How to...
-layout: default_toc
+title: 
 authors:
 date_updated:
 ---

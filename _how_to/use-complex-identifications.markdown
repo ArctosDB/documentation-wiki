@@ -1,6 +1,5 @@
 ---
 title: Use Complex Identifications
-layout: default_toc
 authors: Carla Cicero, Michelle Koo
 date_updated: 2025-01-08
 redirect_from:

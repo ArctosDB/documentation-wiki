@@ -1,6 +1,5 @@
 ---
 title: Create and Manage Github Issues for Arctos
-layout: default_toc
 authors: Dusty L. McDonald, Michelle Koo
 date_updated: 
 redirect_from:

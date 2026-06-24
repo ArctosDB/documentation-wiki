@@ -1,6 +1,5 @@
 ---
 title: Delete Media
-layout: default_toc
 authors: Emily Braker
 date_updated: 2024-04-24
 redirect_from:

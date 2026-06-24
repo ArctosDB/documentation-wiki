@@ -1,6 +1,5 @@
 ---
 title: Arctos Developers Guide
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2019-10-15
 ---

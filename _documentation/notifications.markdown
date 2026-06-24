@@ -1,6 +1,5 @@
 ---
 title: Notifications
-layout: default_toc
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2023-08-21
 ---

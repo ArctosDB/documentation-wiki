@@ -1,6 +1,5 @@
 ---
 title: Creating Meaningful Agents
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Dusty L. McDonald
 date_updated: 2024-08-13
 redirect_from:

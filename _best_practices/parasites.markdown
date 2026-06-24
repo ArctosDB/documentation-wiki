@@ -1,6 +1,5 @@
 ---
 title: Cataloging Parasite Material
-layout: default_toc
 authors: Teresa Mayfield-Meyer
 date_updated: 2024-06-26
 ---

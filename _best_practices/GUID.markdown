@@ -1,6 +1,5 @@
 ---
 title: Creating a Meaningful GUID Prefix
-layout: default_toc
 authors: Teresa Mayfield-Meyer
 date_updated: 2021-07-13
 redirect_from:

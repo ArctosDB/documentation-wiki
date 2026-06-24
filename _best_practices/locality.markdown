@@ -1,6 +1,5 @@
 ---
 title: Managing Localities
-layout: default_toc
 authors: 
 date_updated: 2025-08-11
 ---

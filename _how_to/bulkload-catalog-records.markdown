@@ -1,6 +1,5 @@
 ---
 title: Bulkload Catalog Records
-layout: default_toc
 authors: Michelle Koo
 date_updated: 2024-11-25
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 title: Managing Multiple Occurrences
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2024-08-26
 redirect_from:

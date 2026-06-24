@@ -1,6 +1,5 @@
 ---
 title: Edit Taxon Records
-layout: default_toc
 authors: Phyllis Sharp
 date_updated: 2019-04-15
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 title: Upload Media to TACC
-layout: default_toc
 authors: Carla Cicero, Teresa Mayfield-Meyer
 date_updated: 2018-05-04
 redirect_from:

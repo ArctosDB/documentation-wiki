@@ -1,6 +1,5 @@
 ---
 title: Locality Attributes
-layout: default_toc
 authors: Dusty McDonald, Teresa Mayfield-Meyer, Michelle Koo
 date_updated: 2025-02-18
 redirect_from:

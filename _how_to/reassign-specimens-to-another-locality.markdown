@@ -1,6 +1,5 @@
 ---
 title: Assign a New Locality to a Catalog Record
-layout: default_toc
 authors: 
 date_updated: 
 redirect_from:

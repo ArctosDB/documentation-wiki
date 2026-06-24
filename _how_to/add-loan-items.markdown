@@ -1,6 +1,5 @@
 ---
 title: Add Object Loan Items
-layout: default_toc
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2023-03-06, 2021-01-15, 2021-07-24
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 title: Bulkload Barcodes to Parts
-layout: default_toc
 authors: Emily Braker
 date_updated: 2016-02-27
 redirect_from:

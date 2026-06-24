@@ -1,6 +1,5 @@
 ---
 title: Deleting Catalog Records
-layout: default_toc
 authors: Dusty L. McDonald, Michelle Koo
 date_updated: 
 redirect_from:

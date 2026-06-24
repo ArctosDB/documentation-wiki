@@ -1,6 +1,5 @@
 ---
 title: Publish Data to OBIS
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Phyllis Sharp, David Bloom
 date_updated: 2022-08-29
 redirect_from:

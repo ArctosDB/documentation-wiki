@@ -37,6 +37,23 @@ url: "https://handbook.arctosdb.org" # the base hostname & protocol for your sit
 twitter_username: arctosdb
 github_username:  Arctosdb
 
+defaults:
+  - scope:
+      path: ""
+      type: "documentation"
+    values:
+      layout: "default_toc"
+  - scope:
+      path: ""
+      type: "best_practices"
+    values:
+      layout: "default_toc"
+  - scope:
+      path: ""
+      type: "how_to"
+    values:
+      layout: "default_toc"
+
 # Build settings
 exclude: ["vendor/"]
 markdown: kramdown

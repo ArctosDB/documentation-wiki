@@ -1,6 +1,5 @@
 ---
 title: Understand Data Entry
-layout: default_toc
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2021-09-24
 redirect_from:

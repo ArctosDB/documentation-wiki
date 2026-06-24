@@ -1,6 +1,5 @@
 ---
 title: Reports
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2022-09-30
 ---

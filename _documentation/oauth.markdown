@@ -1,6 +1,5 @@
 ---
 title: Authentication
-layout: default_toc
 authors: Dusty L. McDonald, Michelle Koo
 date_updated: 2025-08-28
 ---

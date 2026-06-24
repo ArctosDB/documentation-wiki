@@ -1,6 +1,5 @@
 ---
 title: Catalog a Book
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Cam Webb
 date_updated: 2024-07-12
 redirect_from:

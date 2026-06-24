@@ -1,6 +1,5 @@
 ---
 title: Change Locality and Collecting Event information for a Single Catalog Record
-layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2019-05-29
 redirect_from:

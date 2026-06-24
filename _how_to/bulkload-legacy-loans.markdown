@@ -1,6 +1,5 @@
 ---
 title: Bulkload Loans
-layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Toni Androski
 date_updated: 2023-03-08
 redirect_from:

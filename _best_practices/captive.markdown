@@ -1,6 +1,5 @@
 ---
 title: Cataloging Captive Material
-layout: default_toc
 authors: Teresa Mayfield-Meyer, Dusty McDonald, Michelle Koo
 date_updated: 2023-07-31
 ---
