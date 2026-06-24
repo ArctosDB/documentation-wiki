@@ -58,10 +58,3 @@ The loader has been implemented as an API (albeit one primarily intended for loc
 ### Mix-n-Match
 
 Following multiple options - e.q., lots of forms all with increased complexity - would probaly require additional resources.
-
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/data_entry.markdown).

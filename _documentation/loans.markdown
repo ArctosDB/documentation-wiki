@@ -64,9 +64,3 @@ and/or [Container](/documentation/container) information is used to signify that
 returned (or sent out on another loan). Maintaining this history is
 vital to recording collection activity, and for building Projects, which
 are transaction-based.
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/loans.markdown" target="_blank">here</a>.
-

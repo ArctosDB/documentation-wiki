@@ -26,7 +26,3 @@ Note that the access check is cached and will take about an hour to be recognize
 **Do not attempt to edit any bot agent profile (e.g. remarks or status) or operator account (eg Locked status). Ignoring this will result in your account being locked.** 
 
 Simply click on Manage in the operator account and Grant Access to collection(s) you manage.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/bot.markdown" target="_blank">here</a>.

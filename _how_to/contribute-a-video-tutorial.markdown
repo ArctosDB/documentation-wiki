@@ -1,7 +1,7 @@
 ---
 title: Contribute a Video Tutorial to the Arctos Handbook
 layout: default_toc
-authors: Emily Braker, Teresa J Mayfield-Meyer
+authors: Emily Braker, Teresa J. Mayfield-Meyer
 date_updated: 2023-02-01
 redirect_from:
   - /how_to/How-To-Contribute-a-Video-Tutorial/
@@ -111,7 +111,3 @@ To save as an MP4, Right-click on movie -> Save Media as.
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/video_tutorials/PPT4.png) 
 
 Rename your file with your tutorial topic and save to the [Tutorial MP4s folder](http://bit.ly/ArctosTutorialMP4s).
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Contribute-a-Video-Tutorial.markdown" target="_blank">here</a>.

@@ -1,7 +1,7 @@
 ---
 title: Create a Locality
 layout: default_toc
-authors: Teresa J. Mayfield-Meyer, updated Michelle Koo
+authors: Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2024-09-07
 redirect_from:
   - /how_to/How-to-Create-a-Locality/
@@ -53,7 +53,3 @@ In order to create a locality for use as described above, be sure you have **MAN
 2. Alternatively, you may want a new locality for a subset of records that are sharing a locality. Use the **Clone Locality** button on the locality edit page.  This is the safest method because it's easy to forgot components like the Higher Geography which will be copied over. This locality is completely editable so you can also assign a different Higher Geography or attributes.
    
 3. Lastly, localities are creating with data entry of records. To make sure you are using the pre-created locality, make a note of the nickname and enter that in the appropriate field! Anyone entering data using this new locality will be able to find the Locality quickly using the nickname.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-a-Locality.markdown" target="_blank">here</a>.

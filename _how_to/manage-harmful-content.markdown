@@ -36,8 +36,4 @@ Much of the data in Arctos is shared by all of the consortium members. Harmful o
 
 ## Institutional Resources
 
-Harmful or offensive language in data that is not shared by the members of the consortium should be addressed with annotations to the appropriate catalog record(s). 
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/manage_harmful_content.markdown" target="_blank">here</a>.
+Harmful or offensive language in data that is not shared by the members of the consortium should be addressed with annotations to the appropriate catalog record(s).

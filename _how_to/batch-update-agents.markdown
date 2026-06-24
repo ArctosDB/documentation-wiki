@@ -1,7 +1,7 @@
 ---
 title: Batch Update Agents
 layout: default_toc
-authors: Teresa J Mayfield-Meyer, Carla Cicero
+authors: Teresa J. Mayfield-Meyer, Carla Cicero
 date_updated: 2024-04-24
 redirect_from:
   - /how_to/How-to-Batch-Update-Agents/
@@ -48,7 +48,3 @@ To bulk replace agents in any role in a set of catalog records, select the Agent
 Select a replacement agent name and pick the affected roles:
 
 ![](https://user-images.githubusercontent.com/5720791/195840362-680180f4-1d1b-440d-8ed0-b680082f970b.png)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Batch-Update-Agents.markdown" target="_blank">here</a>.

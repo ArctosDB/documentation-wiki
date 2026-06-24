@@ -1,7 +1,7 @@
 ---
 title: Deleting Catalog Records
 layout: default_toc
-authors: DLM, MSK
+authors: Dusty L. McDonald, Michelle Koo
 date_updated: 
 redirect_from:
   - /documentation/record_delete/
@@ -21,8 +21,4 @@ Arctos records may be deleted via the [Catalog Record Deletion bulk tool](https:
 
 ## Eligibility
 
-Some records with certain dependencies may not be deleted. 
-   
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/record_delete.markdown).
+Some records with certain dependencies may not be deleted.

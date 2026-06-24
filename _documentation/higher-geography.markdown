@@ -191,9 +191,3 @@ The Geography Committee reviewed Madagascar in May andrecommends the use of the 
 
 * https://github.com/ArctosDB/arctos/issues/8824
 * https://github.com/ArctosDB/arctos/issues/8665#issuecomment-2852292381
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/higher-geography.markdown" target="_blank">here</a>.

@@ -1,7 +1,7 @@
 ---
 title: Notifications
 layout: default_toc
-authors: DLM, Teresa J. Mayfield-Meyer
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2023-08-21
 ---
 
@@ -126,7 +126,3 @@ Many notifications are sent to users who share roles, often manage_collection. Y
 Instructions for doing specifc tasks related to Notifications and Reports in Arctos
 
  - [How To Manage Annotations](https://handbook.arctosdb.org/how_to/annotations.html)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/notifications.markdown" target="_blank">here</a>.

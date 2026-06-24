@@ -55,7 +55,3 @@ The "Auto Create" link will create Arctos publications. These are created entire
 ## Cited By
 
 These data are pulled from OpenCitations.net, and may not always match perfectly with the CrossRef data. Formattings, tools, and links are similar to References.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/deep-publications.markdown" target="_blank">here</a>.

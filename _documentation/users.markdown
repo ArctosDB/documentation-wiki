@@ -1,7 +1,7 @@
 ---
 title: Users
 layout: default_toc
-authors: Dusty Mc Donald, Teresa J Mayfield-Meyer
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2021-07-29
 ---
 
@@ -98,12 +98,3 @@ Instructions for doing specifc tasks related to Users in Arctos
 
 * [How To Create and Manage Your Arctos Team (Users and Operators)](https://handbook.arctosdb.org/how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html)
 * [How To Unlock an Arctos User Account](https://handbook.arctosdb.org/how_to/How-To-Unlock-A-User-Account.html)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/users.markdown).
-
-## Community Discussion
-
-- [Github Documentation Issue #123](https://github.com/ArctosDB/documentation-wiki/issues/123)
-

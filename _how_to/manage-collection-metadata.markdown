@@ -285,7 +285,3 @@ It is recommended that each collection's metadata be reviewed at least annually 
  * update citation if necessary
 
 To accomplish this, from the Arctos main menu select <a href="http://arctos.database.museum/Admin/Collection.cfm" target=_blank>**Tools Directory -> Internal Settings -> Manage Collection**</a> and select the collection you wish to update from the dropdown list. Make the necessary edits and select **Save Changes** at the bottom of the  section edited.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Manage-a-Collection-in-Arctos.markdown" target="_blank">here</a>.

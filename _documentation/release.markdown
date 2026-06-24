@@ -1,7 +1,7 @@
 ---
 title: Release Notes
 layout: default_toc
-authors: DLM, MSK
+authors: Dusty L. McDonald, Michelle Koo
 date_updated: 
 ---
 
@@ -697,9 +697,3 @@ This document is no longer being maintained. See [Latest Completed Tasks](https:
 * <https://github.com/ArctosDB/dev/issues/115> - bugfix
 * <https://github.com/ArctosDB/dev/issues/117> - minor UI adjustment
 * <https://github.com/ArctosDB/dev/issues/114> - link to reports from transaction search results
-   
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/release.markdown" target="_blank">here</a>.
-
-

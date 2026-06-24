@@ -79,8 +79,3 @@ This the number of specimens with an external relationship to another record (e.
 This is the total number of parts in a collection regardless of what the part is as long as it is ```in collection``` or otherwise still part of the collection, thus excludes parts no longer available to the collection, specifically with the disposition of ```deaccessioned```, ```discarded```, ```missing```, ```on loan```, ```transfer of custody```, ```used up```, ```not applicable```.
 
 For example, in a single record where parts have the disposition of ```in collection``` such as  ```foot``` (4), ```tissue``` (2), ```DNA``` (1), and ```skull``` (1) partcount will be the sum of the quantity of each part (e.g., partcount total is 8).
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/system_stats.markdown" target="_blank">here</a>.

@@ -1,7 +1,7 @@
 ---
 title: Managing Directory Structures in the Arctos Project Allocation at TACC
 layout: default_toc
-authors: Teresa J Mayfield-Meyer
+authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-10-06
 redirect_from:
   - /best_practices/TACC_allocation/

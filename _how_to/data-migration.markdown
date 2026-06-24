@@ -135,7 +135,3 @@ Every catalog record in Arctos has a catalog number, but often objects have been
 * Handbook instructions: [How To Record Prior Inclusion in Another Collection](https://handbook.arctosdb.org/how_to/How_To_Add_Object_Provenance.html)
 
 If not loaded with the rest of the catalog record, identifiers may be loaded with the [Identifier: Bulkload](https://arctos.database.museum/loaders/BulkloadOtherId.cfm) tool.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/data_migration.markdown" target="_blank">here</a>.

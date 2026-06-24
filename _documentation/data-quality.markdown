@@ -1,7 +1,7 @@
 ---
 title: Data Quality
 layout: default_toc
-authors: DLM, Teresa J Mayfield-Meyer
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2024-03-22
 redirect_from:
   - /documentation/data_quality/
@@ -120,8 +120,3 @@ Taxon pages in Arctos include external validation through comparisons with selec
  Individual count is a curatorial assertion, there are no constraints.
 
 * [iDigBio Data Quality Toolkit: Invalid individual count](https://www.idigbio.org/wiki/index.php/Arctos_Data_Quality_Toolkit#Invalid_Individual_Count)
-   
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/data_quality.markdown" target="_blank">here</a>.
-

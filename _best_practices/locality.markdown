@@ -1,7 +1,7 @@
 ---
 title: Managing Localities
 layout: default_toc
-authors: various
+authors: 
 date_updated: 2025-08-11
 ---
 
@@ -486,10 +486,3 @@ The webservice data pane has documentation inline. Read it.
 # Maintenance
 
 Duplicate localities are automatically merged, and unused localities are automatically deleted. A Locality Name will prevent both of these actions and should be used in pre-created localities. Please remove Name from any localities which you no longer intend to use.
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/locality.markdown).
-

@@ -41,7 +41,3 @@ Results Terms provides a means to control the maximum number of search results (
 ## Results
 
 Results includes transactions and linked permits, shipments, media, and projects (including publications). Shipments may be mapped by or across transaction type. CSV downloads are available. Links scroll to specific transaction panes, and buttons can hide panes.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/how-to-search-transactions.markdown" target="_blank">here</a>.

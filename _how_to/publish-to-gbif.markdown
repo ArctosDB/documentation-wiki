@@ -46,8 +46,3 @@ To indicate the collection's intent to publish to the aggregator, please file an
 ## Data Mapping
 
 Data mapping from Arctos to GBIF's Darwin Core Archive for Occurrences (DwC-A) is documented [here](https://github.com/ArctosDB/PG_DDL/blob/master/shared_data/dwc_occurrence.sql).
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Publish-to-GBIF.markdown" target="_blank">here</a>.
- 

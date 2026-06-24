@@ -1,7 +1,7 @@
 ---
 title: Create an Accession
 layout: default_toc
-authors: Teresa J Mayfield-Meyer previous contributors Emily Braker, April Payne
+authors: Teresa J. Mayfield-Meyer, Emily Braker, April Payne
 date_updated: 2021-10-11
 redirect_from:
   - /how_to/How-to-Create-an-Accession/
@@ -79,7 +79,3 @@ Be sure to click “save changes” at the bottom of the page before leaving the
 ### How to Create an Accession Tutorial Video ###
 
 [![How to Create an Accession](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Create_an_Accession_in_Arctos.jpg)](https://youtu.be/FmWU1iWl6NA)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-an-Accession.markdown" target="_blank">here</a>.

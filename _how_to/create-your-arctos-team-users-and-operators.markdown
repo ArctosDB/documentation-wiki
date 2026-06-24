@@ -106,12 +106,3 @@ Users who have their account locked and are subsequently re-granted access must 
 **Do Not** unlock an account unless you are fully aware of the circumstances under which it was locked and are, or are in communication with, the “supervisor” of all collections to which the user has access. Assume all unlock requests are phishing attacks until proven otherwise.
 
 Operators with global_admin access may unlock accounts from the “manage Arctos user” page.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.markdown" target="_blank">here</a>.
-
-
-
-
-

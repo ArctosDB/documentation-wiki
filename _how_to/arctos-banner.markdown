@@ -32,7 +32,3 @@ Enter the date in ISO format (YYYY-MM-DD) through which the banner should displa
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
 
 _Experiment in test, not production._
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/Arctos_Banner.markdown" target="_blank">here</a>.

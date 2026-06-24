@@ -1,7 +1,7 @@
 ---
 title: Approve Records Entered With Data Entry Form
 layout: default_toc
-authors: unknown, Teresa J Mayfield-Meyer
+authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-07-21
 redirect_from:
   - /how_to/How-to-Approve-Records-entered-with-Data-Entry-Form/
@@ -48,7 +48,3 @@ NEED MORE INFORMATION
 
 ### How to Approve and Load Records Tutorial Video ###
 [![How to Approve and Load Records](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/How_to_Load_Entered_Arctos_Records_thumb.jpg)](https://youtu.be/QHS_eA3d030)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Approve-Records-entered-with-Data-Entry-Form.markdown" target="_blank">here</a>.

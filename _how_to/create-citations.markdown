@@ -1,7 +1,7 @@
 ---
 title: Create a Citation
 layout: default_toc
-authors: Teresa J Mayfield-Meyer, Carla Cicero
+authors: Teresa J. Mayfield-Meyer, Carla Cicero
 date_updated: 2023-03-08
 redirect_from:
   - /how_to/How-to-Create-Citations/
@@ -49,7 +49,3 @@ The citation is now created and listed at the bottom of the screen under "Existi
 
 ### Add a Citation Tutorial Video ###
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png) **[How To Add a Publication and Citation to a single record.](https://drive.google.com/file/d/1bLyny6gRKY5V40AOAInwTvlkb10-ojvT/view?usp=sharing)**
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-Citations.markdown" target="_blank">here</a>.

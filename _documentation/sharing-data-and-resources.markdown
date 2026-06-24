@@ -1,7 +1,7 @@
 ---
 title: Sharing Data and Resources
 layout: default_toc
-authors: Dusty McDonald, Teresa J Mayfield-Meyer
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2022-12-29
 ---
 
@@ -65,7 +65,3 @@ Some data (taxonomic names, for example) are structurally locked and cannot be e
 
 ## Community Discussion
  - <a href="https://github.com/ArctosDB/documentation-wiki/issues/123">Github Issue #123</a>
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/sharing-data-and-resources.markdown" target="_blank">here</a>.

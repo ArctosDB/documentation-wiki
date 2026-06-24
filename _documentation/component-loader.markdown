@@ -51,10 +51,3 @@ See https://github.com/ArctosDB/dev/issues/507; tiers are no longer available, a
 - Be sure anything coming from other applications (especially Microsoft products) has not changed field length, precision,
 or other attributes. Watch dates and non-integer numbers (such as decimal latitude) most closely.
 - The component loaders generally do precisely what they're documented to do, and don't do anything they're not documented to do. Please do not make any assumptions, including that behavior in one tool will be applicable to any other.
-
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this Documentation, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/componentloader.markdown).

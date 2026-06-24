@@ -1,7 +1,7 @@
 ---
 title: Projects
 layout: default_toc
-authors: ArctosDB, Michelle Koo, DLM
+authors: Michelle Koo, Dusty L. McDonald
 date_updated: updated 2025-07-02
 ---
 
@@ -129,8 +129,3 @@ To delete a project, first delete all dependencies then a delete button will app
 ## Identifier
 
 Each project generates a unique identifier and URI comprised of its internal project ID. Example: {base URL}/project/{projectID} such as: https://arctos.database.museum/project/10000298
-
-   
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/projects.markdown" target="_blank">here</a>.

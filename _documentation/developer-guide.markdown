@@ -167,9 +167,3 @@ Some tables have a lastuser and lastdate field, which generally exist to be pick
 
 * ``last_usr=<cfqueryparam value="#session.username#" cfsqltype="cf_sql_varchar">``
 * ``last_chg=<cfqueryparam value="#DateConvert('local2Utc',now())#" cfsqltype="cf_sql_timestamp">``
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/developer-guide.markdown).

@@ -1,7 +1,7 @@
 ---
 title: Add Object Loan Items
 layout: default_toc
-authors: DLM, Teresa J Mayfield-Meyer
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2023-03-06, 2021-01-15, 2021-07-24
 redirect_from:
   - /how_to/How-to-Add-Loan-Items/
@@ -66,12 +66,3 @@ Then you should have a list off all the cryovials or objects scanned into the bo
 
 
 <img width="940" alt="Screenshot 2024-03-29 at 3 46 22 PM" src="https://github.com/ArctosDB/arctos/assets/134456825/0c921272-0261-4272-bdec-bb90de3bfe20">
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Add-Loan-Items.markdown" target="_blank">here</a>.
-
-[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/186)
-
- [//]: #[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)

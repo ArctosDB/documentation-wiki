@@ -114,7 +114,3 @@ Instructions for doing specifc tasks related to Bulkloading in Arctos
 
  - [How To Bulkload Catalog Records](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Specimen-Data.html)
  - [How To Use SQL option in the Bulkloader](https://handbook.arctosdb.org/how_to/How-to-Use-Bulkloader-SQL.html)
-   
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/bulkloader.markdown" target="_blank">here</a>.

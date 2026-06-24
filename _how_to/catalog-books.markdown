@@ -46,9 +46,3 @@ As a book is also a publication. Adding it as a publication in Arctos and citing
 ## Part
 
 A book should use the part name [object](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name#object). There is no need for the part name "book" as the identification provides this information. Technically, no part is required when cataloging a book unless object tracking or a part location attribute will be used to locate the book within the collection and/or the book may be loaned.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/catalog_books.markdown" target="_blank">here</a>.
-
- 

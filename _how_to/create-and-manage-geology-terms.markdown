@@ -91,7 +91,3 @@ The "lower" term in the hierarchy. Any terms that are currently children of the 
 ### Create Relationship
 
 After you have made and reviewed your parent and child terms, select the "Insert" button. Your relationship should now appear in the Metadata column of the code table.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-and-Manage-Geology-Terms.markdown" target="_blank">here</a>.

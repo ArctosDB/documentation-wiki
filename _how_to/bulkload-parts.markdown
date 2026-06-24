@@ -1,7 +1,7 @@
 ---
 title: Bulkload Parts
 layout: default_toc
-authors: Teresa J Mayfield-Meyer
+authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-03-14
 redirect_from:
   - /how_to/How-to-Bulkload-Parts/
@@ -56,7 +56,3 @@ For better formatting when using Excel see [How To Manage Excel for Arctos](http
 
 ### Need video tutorial 
 [//]: # ([![YouTube: How to Bulkload Parts](need thumbnail)](need tutorial))
-
-## Edit this Documentation 
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Bulkload-Parts.markdown" target="_blank">here</a>.

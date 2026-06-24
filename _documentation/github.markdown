@@ -1,7 +1,7 @@
 ---
 title: Github for Arctos
 layout: default_toc
-authors: Teresa J. Mayfield-Meyer, DLM
+authors: Teresa J. Mayfield-Meyer, Dusty L. McDonald
 date_updated: revised 2023-07-26
 ---
 
@@ -31,7 +31,3 @@ Instructions for doing specifc tasks in Github related to Arctos
 * [How To Github: Create and Manage Github Issues for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Issues-in-Arctos.html)
 * [How To Github: Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
 * [How to Github: Contribute a Video Tutorial to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-To-Contribute-a-Video-Tutorial.html)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://Github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/github.markdown).

@@ -1,7 +1,7 @@
 ---
 title: Create Arctos Links
 layout: default_toc
-authors: MSK
+authors: Michelle Koo
 date_updated: 
 redirect_from:
   - /how_to/How-to-Share-Links/
@@ -45,6 +45,3 @@ Of course, there are limits to how many parameters you can have in a URL (mostly
 #### File an [Issue](https://github.com/ArctosDB/arctos/issues), if you'd like a hand.
 
 -----
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Share-Links.markdown" target="_blank">here</a>.

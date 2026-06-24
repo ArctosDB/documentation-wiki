@@ -73,7 +73,3 @@ When a taxon is synonymized with another taxon, you want to create a relationshi
 ``Flat`` and ``filtered_flat`` include column ``formatted_scientific_name``, which is intended as a flexible way to access and share more than namestrings. A botanical collection might wish to access "_Carex aquatilis_ Wahlenb. var. _dives_ (Holm) Kuk." rather than "Carex aquatilis var. dives", for example. The default value used when no suitable mapping is encountered for this field is the same value as ``flat.scientific_name.`` Current mappings are below. File an Issue in the main Arctos repository to request additional mappings.
 
 * [Arctos](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source#arctos) and [Arctos Plants](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source#arctos_plants) classification sources display term of type ``display_name``.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-manage-taxonomic-classifications.markdown" target="_blank">here</a>.

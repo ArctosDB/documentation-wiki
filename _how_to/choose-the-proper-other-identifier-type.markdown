@@ -1,7 +1,7 @@
 ---
 title: Build Other Identifiers
 layout: default_toc
-authors: unknown, Teresa J. Mayfield-Meyer
+authors: Teresa J. Mayfield-Meyer
 date_updated: 2024-06-05
 redirect_from:
   - /how_to/How-to-choose-the-proper-other-identifier-type/
@@ -115,8 +115,4 @@ issued by | type | number format | relationship | note
 [Smithsonian Division of Amphibians and Reptiles](https://arctos.database.museum/agent/21347826) | identifier | USNM xxxxx | same individual as | 
 [Smithsonian Division of Birds](https://arctos.database.museum/agent/21347825) | identifier | USNM xxxxx | same individual as | 
 [Smithsonian Division of Fishes](https://arctos.database.museum/agent/21348954) | identifier | USNM xxxxx | same individual as | 
-[Smithsonian Division of Mammals](https://arctos.database.museum/agent/21347824) | identifier | USNM xxxxx | same individual as | 
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-choose-the-proper-other-identifier-type.markdown" target="_blank">here</a>.
+[Smithsonian Division of Mammals](https://arctos.database.museum/agent/21347824) | identifier | USNM xxxxx | same individual as |

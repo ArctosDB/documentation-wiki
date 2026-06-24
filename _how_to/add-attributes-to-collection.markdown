@@ -23,8 +23,3 @@ Click on the button for the code table for which you wish to select options then
 Select attributes for your collection by using the check boxes. When you are done, select the "Update collection --- list" button to save your new selection. You can sort the code table using the header row and search using Ctrl F.
 
 **NOTE** If you are using a term in any capacity within the collection, you will not be able to un-select it. If you want to remove a term from use in the collection, it must first be removed from any records in the collection.
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Add-Attributes-to-Collection.markdown" target="_blank">here</a>.

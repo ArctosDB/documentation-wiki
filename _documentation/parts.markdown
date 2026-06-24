@@ -146,7 +146,3 @@ Summary: "Fossil" is an attribute of cataloged items and should not be included 
 * https://github.com/ArctosDB/arctos/issues/2546
 
 * Summay: "trace" and "fossil" are not parts and should not be included in any way, just name the object being cataloged. ``trackway`` is sufficient.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/parts.markdown).

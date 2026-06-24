@@ -274,8 +274,3 @@ Occasionally, you will be assigned a task that you may not be able to complete i
 Instructions for doing specifc tasks related to Searching in Arctos
 
  - [How to Customize Search](https://handbook.arctosdb.org/how_to/How_To_Customize_Search)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Search-for-Specimens.markdown" target="_blank">here</a>.
-

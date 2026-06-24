@@ -183,7 +183,3 @@ This file will be deleted 3 days after the message is sent, but may be regenerat
 [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
 
 [How to Create Media/Images](/how_to/How-to-Create-Media-Images)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Bulkload-Media-Metadata.markdown" target="_blank">here</a>.

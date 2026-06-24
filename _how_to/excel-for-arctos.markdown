@@ -93,10 +93,3 @@ Don't just open the CSV with Excel. Do this instead.
 
 #### Exporting from Excel
 Same as import rules: if exporting as an CSV ensure that the format is ```65001: Unicode (UTF-8)```. If you imported in that format, then you are set. If you are starting from XLSX or other format then be sure to select UTF-8 when you Save As 'CSV'
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Excel-for-Arctos.markdown" target="_blank">here</a>.
-
-
-

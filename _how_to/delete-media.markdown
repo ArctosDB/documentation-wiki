@@ -31,7 +31,3 @@ In order to fully delete a media file from TACC:
 
 ## Bulk Deleting Media
 To bulk delete media, please submit a request to the DBA that includes a list of the relevant media object IDs formatted as a csv or txt file. Media IDs can be found in the URL of the media object (https://arctos.database.museum/media/#####).
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Delete-Media.markdown" target="_blank">here</a>.

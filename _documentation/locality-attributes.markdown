@@ -136,9 +136,3 @@ Identifiers may be local or come from external resources. When possible, supply 
 ### Searching
 
 Locality attributes are asserted individually, however, chronostratigraphic terms (Eon/Eonothem, Era/Erathem, System/Period, Series/Epoch, Stage/Age, Substage/Subage) include a hierarchical structure which makes it possible to locate cataloged items attributed to strata which is more specific than the search term.
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/geology.markdown" target="_blank">here</a>.

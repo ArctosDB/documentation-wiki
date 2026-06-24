@@ -84,7 +84,3 @@ View related tables such as Events, Localities, Publications, and Sensu Publicat
 # Manage
 
 Globally manage queried records through batch editing values related to Attributes, Encumbrances, Identifications, Collectors, Agents, Record-Events, Accessions, Parts, Entities. Be cautious, as edits will be globally applied to all catalog records queried in the search results.
-  
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How_To_Customize_Results.markdown)

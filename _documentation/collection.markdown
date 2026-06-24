@@ -177,7 +177,3 @@ Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ct
 Foreign key to Agent.
 
 --------------------
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/collection.markdown)

@@ -1,7 +1,7 @@
 ---
 title: Create and Edit Identifications
 layout: default_toc
-authors: unknown, Genna Anderegg, Teresa J. Mayfield-Meyer
+authors: Genna Anderegg, Teresa J. Mayfield-Meyer
 date_updated: 2023-11-03
 redirect_from:
   - /how_to/How-to-Create-and-Edit-Determinations/
@@ -46,7 +46,3 @@ After typing the first few characters of the taxon name in the field, click "Tab
 ## Tutorial Videos
 
 [![YouTube: How Edit an Identification](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)](https://youtu.be/nITb0Z6ot4Q)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-and-Edit-Determinations.markdown" target="_blank">here</a>.

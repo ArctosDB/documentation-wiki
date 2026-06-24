@@ -1,7 +1,7 @@
 ---
 title: Identifiers and Relationships
 layout: default_toc
-authors: DLM, MSK
+authors: Dusty L. McDonald, Michelle Koo
 date_updated: 2026-06-04
 ---
 
@@ -183,7 +183,3 @@ Instructions for doing specifc tasks related to identifiers in Arctos
  - [How to Record Prior Inclusion in Another Collection](https://handbook.arctosdb.org/how_to/How_To_Add_Object_Provenance.html)
  - [Searching Arctos](/how_to/How-to-Search-for-Specimens)
  - [How to Identify National Park Specimens](https://handbook.arctosdb.org/how_to/National-Park-Specimens.html)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/identifiers.markdown" target="_blank">here</a>.

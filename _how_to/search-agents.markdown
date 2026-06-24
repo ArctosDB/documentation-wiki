@@ -1,7 +1,7 @@
 ---
 title: Search for Agents
 layout: default_toc
-authors: Teresa J Mayfield-Meyer
+authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-02-24
 redirect_from:
   - /how_to/How-to-Search-Agents/

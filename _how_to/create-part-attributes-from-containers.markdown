@@ -25,7 +25,3 @@ redirect_from:
 <img width="717" alt="Screen Shot 2022-10-11 at 7 56 04 AM" src="https://user-images.githubusercontent.com/5720791/195126157-b4c7761c-d891-4a08-9bfc-2fd3e35988f1.png">
 
 <img width="1610" alt="Screen Shot 2022-10-11 at 7 58 57 AM" src="https://user-images.githubusercontent.com/5720791/195126898-7ab04d60-35b6-4054-bade-0d065800a479.png">
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Create-Part-Attributes-from-Containers.markdown" target="_blank">here</a>.

@@ -228,6 +228,38 @@ aside>#search-container.form {
   }
 }
 
+.page-meta {
+  border-top: 1px solid $grey-color-light;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: $small-font-size;
+  color: $grey-color;
+
+  .meta-row {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0.4rem;
+
+    .meta-icon {
+      width: 3rem;
+      flex-shrink: 0;
+      text-align: center;
+    }
+  }
+
+  a.print-link {
+    color: $grey-color;
+    text-decoration: underline;
+
+    &:visited {
+      color: $grey-color;
+    }
+
+    &:hover {
+      color: $grey-color;
+    }
+  }
+}
 
 /**
  * Site footer

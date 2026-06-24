@@ -1,7 +1,7 @@
 ---
 title: Redirects
 layout: default_toc
-authors: Arctos, Michelle Koo
+authors: Dusty L. McDonald, Michelle Koo
 date_updated: 2017-03-29
 ---
 
@@ -27,8 +27,3 @@ new_path= /guid/MSB:Mamm:456
 
 ### Please read guidelines on tool page for latest instructions.
 A bulkload tool is available->  [Redirect: Bulkload](https://arctos.database.museum/tools/BulkloadRedirect.cfm)
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/redirect.markdown" target="_blank">here</a>.

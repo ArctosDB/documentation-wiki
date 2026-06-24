@@ -111,7 +111,3 @@ Developers who are interested in Arctos code can view it in the [ArctosDB/arctos
 
 ## Editing the Arctos Handbook
 See [How To Github: Use Github to Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://Github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Use-Github-for-Arctos.markdown" target="_blank">here</a>.

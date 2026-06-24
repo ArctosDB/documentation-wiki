@@ -76,7 +76,3 @@ For additional catalog records from the same place (=same locality) but a differ
 <img width="407" alt="Screen Shot 2019-05-29 at 12 01 45 PM" src="https://user-images.githubusercontent.com/5720791/58583752-8e95a880-8209-11e9-91dc-60fcc98cb221.png">
 
 Catalog records may be linked to that event by using the instructions under "Click pick new event."
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Change-Locality-Single-Specimen.markdown" target="_blank">here</a>.

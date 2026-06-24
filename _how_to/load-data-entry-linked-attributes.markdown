@@ -42,7 +42,3 @@ Users may bulkload additional Attributes to existing catalog records. The user m
 <img width="200" alt="screen shot 2017-10-23 at 7 51 36 am" src="https://user-images.githubusercontent.com/5720791/31895815-06811d98-b7c7-11e7-8379-717e8bea772b.png">
 
 <p>
-  
-## Edit this Documentation 
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-load-Data-Entry-linked-Attributes.markdown" target="_blank">here</a>.

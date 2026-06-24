@@ -1,7 +1,7 @@
 ---
 title: Bulkload Identifiers and Relationships
 layout: default_toc
-authors: Michelle Koo (original by Andy Doll, Teresa J. Mayfield-Meyer)
+authors: Michelle Koo, Andy Doll, Teresa J. Mayfield-Meyer
 date_updated: 2023-11-06
 redirect_from:
   - /how_to/How_To_Bulkload_Identifiers_Relationships/
@@ -58,8 +58,3 @@ This will separate them from the rest of the entries and they can then be downlo
 
 1.  When everything is loaded, the table on the ‘Review and Load’ page will be empty:
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/other_ids/Other_ID_Picture8.jpg)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How_To_Bulkload_Identifiers_Relationships.markdown" target="_blank">here</a>.
- 

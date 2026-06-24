@@ -18,9 +18,3 @@ What we choose to name as a part depends on what we define as a part, and while 
 ## Lots
 
 Several discipline catalog lots, or multiple individuals in some (usually arbitrary, often presumed) relationship, under one catalog number. This is often a useful step when collections result in more material than can be handled at a time ("a bucket of bugs from a light trap on a night"), but should **never** be considered Research Grade, and should never be analyzed nor cited. Instead, recatalog individuals (or the item of scientific interest) and link them back to the source lot via Identifiers. This can often be arranged as part of a Loan process.
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/Catalog-Record.markdown" target="_blank">here</a>.

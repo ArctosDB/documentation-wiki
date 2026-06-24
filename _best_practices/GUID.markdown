@@ -45,7 +45,3 @@ In the "DWC Triple," the characters after the colon are also the collection code
  - The GUID Prefix should consist of upper and/or lower-case ASCII letters (A-Z,a-z) other than the requisite colon.
  - A review of [GUID Prefixes currently in use](https://arctos.database.museum/home.cfm) may be helpful!
   - The [Global Biodiversity Information Facility Registry of Scientific Collections](https://www.gbif.org/grscicoll) and the [Index Herbariorum](http://sweetgum.nybg.org/science/ih/herbarium-details/?irn=123984) may be useful in locating legacy identifiers and information. You are not required to maintain or follow such data.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/GUID.markdown" target="_blank">here</a>.

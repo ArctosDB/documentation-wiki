@@ -28,7 +28,3 @@ The simplest thing is to move one container at a time. Simply scan the barcode f
 Now when you search for that container in Arctos (Manage Data ---> Object Tracking ---> Find Container), it will appear in its position in the hierarchy, e.g.:
 
 ![Barcoded Container Hierarchy](https://github.com/ArctosDB/documentation-wiki/blob/master/tutorial_images/barcoded_container_hierarchy.PNG)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Move-a-Single-Barcoded-Container.markdown" target="_blank">here</a>.

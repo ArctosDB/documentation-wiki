@@ -1,7 +1,7 @@
 ---
 title: Customize the Search Page
 layout: default_toc
-authors: Emily Braker & DLM
+authors: Emily Braker, Dusty L. McDonald
 date_updated: 2023-03-14
 redirect_from:
   - /how_to/How_To_Customize_Search/
@@ -43,8 +43,3 @@ Note that while a user can turn on every Search table option, doing so in the Re
 ![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/882cc1c9-785a-4fbc-848e-a62c50441f66)
 
 Results Options relate to the field headings displayed at the top of the results table. Users will be able to access all informaiton contained in a catalog record by clicking on the catalog number. Users will also be able to download the search results as displayed (limited to the Result Options fields selected), and/or may asynchronously "request data" for large datasets. See [How to Customize Results](https://handbook.arctosdb.org/how_to/How_To_Customize_Results.html#how-to-customize-search-results) for more detailed information.
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How_To_Customize_Search.markdown" target="_blank">here</a>.

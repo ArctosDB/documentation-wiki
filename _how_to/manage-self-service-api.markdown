@@ -21,9 +21,3 @@ their User name (upper right of the screen), where links to API information and 
 ![Profile screenshot for self-service API key](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/refs/heads/gh-pages/images/uploads/self-service_screenshot.png)
 
 Clicking on the Get API Key button will generate a new key in a table with expiration date.
-
-## Edit this Documentation
-
-If something needs to be edited in this document, you can create an issue using the link under the search widget at the
-top left side of this page, or you can edit directly
-<a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-To-Manage-Self-Service-API.markdown" target="_blank">here</a>.

@@ -1,7 +1,7 @@
 ---
 title: Reports
 layout: default_toc
-authors: ArctosDB
+authors: Dusty L. McDonald
 date_updated: 2022-09-30
 ---
 
@@ -230,9 +230,3 @@ Various high-end reporting tools are commercially available. These generally acc
 ### Word / Mail Merge
 
 The Arctos Reporter will readily produce CSV which may be used to produce labels in various document and spreadsheet tools. (Someone please elaborate!)
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/reports.markdown" target="_blank">here</a>.

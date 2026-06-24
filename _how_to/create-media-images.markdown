@@ -81,7 +81,3 @@ Scroll to Option Two, fill in relevant information, click save.
 <img width="718" alt="Screen Shot 2021-06-04 at 7 10 47 AM" src="https://user-images.githubusercontent.com/5720791/120814881-28347680-c504-11eb-8eb3-3ffee62afc40.png">
 
 Done.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Create-Media-Images.markdown" target="_blank">here</a>.

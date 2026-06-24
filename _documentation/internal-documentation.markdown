@@ -1,7 +1,7 @@
 ---
 title: Internal Documentation
 layout: default_toc
-authors: Teresa J Mayfield-Meyer
+authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-07-29
 redirect_from:
   - /documentation/internal_documentation/
@@ -17,7 +17,3 @@ Arctos includes internal documentation which can be managed by operators with th
 ## Community Discussion
     
 - <a href="https://github.com/ArctosDB/documentation-wiki/issues/82" target="_blank">Github Issue #82</a>
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/internal_documentation.markdown" target="_blank">here</a>.

@@ -1,7 +1,7 @@
 ---
 title: Create a New Loan
 layout: default_toc
-authors: unknown, Teresa J Mayfield-Meyer
+authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-07-23
 redirect_from:
   - /how_to/How-to-Create-a-New-Loan/

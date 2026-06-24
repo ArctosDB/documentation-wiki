@@ -48,7 +48,3 @@ redirect_from:
 * Click "Move It" when finished.
 
 * If a new part is required, click "New Part" and use the pop up to enter the new part information and barcode.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Assign-a-Barcode-to-an-Individual-Specimen.markdown" target="_blank">here</a>.
