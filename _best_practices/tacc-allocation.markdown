@@ -1,5 +1,5 @@
 ---
-title: Best Practice - Directory Structures at TACC
+title: Managing Directory Structures in the Arctos Project Allocation at TACC
 layout: default_toc
 authors: Teresa J Mayfield-Meyer
 date_updated: 2021-10-06
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 //[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/244)
-
-# Best Practice - Managing Directory Structures in the Arctos Project Allocation at TACC 
 
 What is the Arctos Project Allocation at TACC? Start by reading the [Arctos TACC Project Allocation Digital Media Policy](https://docs.google.com/document/d/1unq0N5bKDCVznnbHpe21Xiy4K4spW4b7g-YqqcDd2nQ/edit?usp=sharing). 
 

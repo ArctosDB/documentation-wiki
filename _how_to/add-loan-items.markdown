@@ -1,5 +1,5 @@
 ---
-title: How To Add Object Loan Items
+title: Add Object Loan Items
 layout: default_toc
 authors: DLM, Teresa J Mayfield-Meyer
 date_updated: 2023-03-06, 2021-01-15, 2021-07-24
@@ -12,8 +12,6 @@ redirect_from:
 [Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/186)
 
 [//]: #[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
-
-# How To Add Items to an Object Loan
 
 Object loans are "standard" loans that record the loan of catalog record parts.
 

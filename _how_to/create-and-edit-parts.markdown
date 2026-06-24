@@ -1,5 +1,5 @@
 ---
-title: How To Create and Edit Parts
+title: Create and Edit Parts
 layout: default_toc
 authors: Emily Braker
 date_updated: 
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Parts Documentation](https://handbook.arctosdb.org/documentation/parts.html)
-
-# How To Create and Edit Parts
 
 ### NAVIGATION: 
 **From the catalog record, click on the Parts Tab OR the "Edit" hypertext in the corner of the Parts detail**

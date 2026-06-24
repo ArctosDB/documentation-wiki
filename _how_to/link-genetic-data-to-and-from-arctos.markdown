@@ -1,5 +1,5 @@
 ---
-title: How To Create GenBank Links
+title: Create GenBank Links
 layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2016-12-16

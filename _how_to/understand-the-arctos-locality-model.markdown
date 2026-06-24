@@ -1,5 +1,5 @@
 ---
-title: How To Understand the Arctos Locality Model
+title: Understand the Arctos Locality Model
 layout: default_toc
 authors: 
 date_updated: 
@@ -10,9 +10,6 @@ redirect_from:
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
 
 [Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
-
-# Understanding the Arctos Locality Model
-
 
 The core Arctos locality model consists of 4 primary tables plus an edit archive. This guide and the following illustration describe their primary function and interaction.
 

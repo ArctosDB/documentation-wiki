@@ -1,5 +1,5 @@
 ---
-title: Best Practice - Examined / Detecrted / Related
+title: Using Examined / Detected / Related
 layout: default_toc
 authors: 
 date_updated: 

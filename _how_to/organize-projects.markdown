@@ -1,5 +1,5 @@
 ---
-title: How To Organize Projects
+title: Organize Projects
 layout: default_toc
 authors: 
 date_updated: updated 2021-08-20
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)
-
-# How To Organize Projects
 
 Projects may effectively be organized in various ways. The "best" approach depends upon the nature of the data,
 institutional practices and traditions, the source(s) of support, and various other factors.

@@ -1,5 +1,5 @@
 ---
-title: How To Agentify Verbatim Agents
+title: Agentify Verbatim Agents
 layout: default_toc
 authors: Teresa J Mayfield-Meyer, Angela Linn
 date_updated: 2023-01-31

@@ -1,5 +1,5 @@
 ---
-title: How To Handle Organisms in Arctos
+title: Track Organisms in Arctos
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2024-06-11

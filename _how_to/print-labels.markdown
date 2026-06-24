@@ -1,5 +1,5 @@
 ---
-title: How To Print Labels
+title: Print Labels
 layout: default_toc
 authors: Emily Braker, Teresa J Mayfield-Meyer, Aren Gunderson, Dusty L. McDonald
 date_updated: 2025-11-05
@@ -9,8 +9,6 @@ redirect_from:
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
-
-# How to Print Labels
 
 ## Catalog records
 

@@ -1,5 +1,5 @@
 ---
-title: How To Approve Records Entered With Data Entry Form
+title: Approve Records Entered With Data Entry Form
 layout: default_toc
 authors: unknown, Teresa J Mayfield-Meyer
 date_updated: 2021-07-21
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
-
-# How To Approve Records Created With Data Entry Form
 
 #### Navigation: <a href="https://arctos.database.museum/Bulkloader/browseBulk.cfm" class="external">Enter Data > Bulkloader > Browse and Edit</a>
 

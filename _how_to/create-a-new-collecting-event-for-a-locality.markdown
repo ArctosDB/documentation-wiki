@@ -1,5 +1,5 @@
 ---
-title: How To Create a New Collecting Event for a Locality
+title: Create a New Collecting Event for a Locality
 layout: default_toc
 authors: 
 date_updated: 
@@ -10,8 +10,6 @@ redirect_from:
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
 
 [Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
-
-# How To Create a New Collecting Event for a Locality
 
 If you need to create a new collecting event associated with an already existing locality, or if you want to edit a locality for only some of the specimens currently sharing it, follow these steps.
 

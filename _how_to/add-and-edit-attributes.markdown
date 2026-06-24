@@ -1,5 +1,5 @@
 ---
-title: How To Add and Edit Attributes
+title: Add and Edit Attributes
 layout: default_toc
 authors: 
 date_updated: 

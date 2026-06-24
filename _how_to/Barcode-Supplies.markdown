@@ -1,5 +1,5 @@
 ---
-title: How To Create And Acquire Barcode Supplies
+title: Choose and Use Machine-based Object Tracking Equipment and Supplies
 layout: default_toc
 authors: Kyndall Hildebrandt, Hannah Appiah-Madson
 date_updated: 2024-01-10
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
-
-# How to Choose and Use Machine-based Object Tracking Equipment and Supplies
  
 ## Barcode material:
 Label durability depends on the material of the barcode and the barcode adhesive. CryoLabel® plastic labels are recommended for use in liquid nitrogen and ultracold freezers. XyResist® Plastic or Chemical Resistant Polyester Labels can be used with alcohol though unsure if tested for long term submersion. Customer service can answer further questions and send barcode samples.

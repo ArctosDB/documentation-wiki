@@ -1,5 +1,5 @@
 ---
-title: How To Create an Encumbrance
+title: Create an Encumbrance
 layout: default_toc
 authors: 
 date_updated: 
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Encumbrances Documentation](/documentation/encumbrance)
-
-# How to Create an Encumbrance
 
 Encumbrances restrict certain aspects of specimen/lot records from the public view, usually to protect personal identity, proprietary data, or the provenance of a vulnerable population/habitat. Many encumbrances are temporary and may be reversed when specified conditions change (publication of research, expiration or retraction of encumbering legislation, eradication of critical habitat where specimen/lots were collected, etc.).
 

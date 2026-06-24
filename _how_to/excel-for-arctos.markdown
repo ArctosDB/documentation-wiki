@@ -1,5 +1,5 @@
 ---
-title: How To Manage Excel for Arctos
+title: Manage Excel for Arctos
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2023-09-28

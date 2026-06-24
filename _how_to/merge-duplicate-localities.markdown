@@ -1,5 +1,5 @@
 ---
-title: How To Merge Duplicate Localities (needs update)
+title: Merge Duplicate Localities
 layout: default_toc
 authors: 
 date_updated: 
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
-
-# How To Merge Duplicate Localities
 
 Duplicate localities are automatically merged over time by Arctos. There is no method for manually merging localities available.
 

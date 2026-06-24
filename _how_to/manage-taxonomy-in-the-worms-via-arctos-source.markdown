@@ -1,5 +1,5 @@
 ---
-title: How To Manage Taxonomy in the WoRMS (via Arctos) Source
+title: Manage Taxonomy in the WoRMS (via Arctos) Source
 layout: default_toc
 authors: Phyllis Sharp
 date_updated: 2021-06-15
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
-
-# How to Manage Taxonomy in the WoRMS (via Arctos) Source
 
 WoRMS (via Arctos) is an externally managed taxonomic resource.  Whereas Arctos and Arctos Plants are managed by Arctos users, WoRMS (via Arctos) is 
 managed by the [World Register of Marine Species](http://www.marinespecies.org).  It is highly recommended that collections of marine invertebrates select WoRMS 

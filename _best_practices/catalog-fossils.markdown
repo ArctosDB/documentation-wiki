@@ -1,5 +1,5 @@
 ---
-title: Best Practice - Cataloging Fossil Material
+title: Cataloging Fossil Material
 layout: default_toc
 authors: Teresa Mayfield-Meyer, Dustin Perriguey, Nicole Ridgwell, Katherine Anderson
 date_updated: 2019-03-20
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
  [//]: # [Previous Update Request](https://github.com/ArctosDB/documentation-wiki/issues/77)
-
-# Best Practice - Cataloging Fossil Material
 
 Paleonotological data can be challenging, but it can also be very rewarding to work with in Arctos. This How-To documents some of the common issues confronted when entering paleontology data in Arctos and offers solutions developed by the collections who have already addressed them. As always, if a solution appears less-than-optimal, [file an issue](https://github.com/ArctosDB/arctos/issues/new/choose) and help make Arctos better for everyone!
 

@@ -1,5 +1,5 @@
 ---
-title: How To Choose and Use Frozen Tissue Equipment and Supplies
+title: Choose and Use Frozen Tissue Equipment and Supplies
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Hannah Appiah-Madson
 date_updated: 2024-01-10
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
-
-# How to Choose and Use Frozen Tissue Equipment and Supplies
 
 ## Cryovials
 

@@ -1,5 +1,5 @@
 ---
-title: How to link taxa and Zoobank
+title: Link Taxa and Zoobank
 layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2024-08-13

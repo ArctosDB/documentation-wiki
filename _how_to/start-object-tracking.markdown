@@ -1,5 +1,5 @@
 ---
-title: How To Start Object Tracking in Arctos
+title: Start Object Tracking
 layout: default_toc
 authors: 
 date_updated: 2018-04-10, 2018-10-17
@@ -10,11 +10,10 @@ author(s): Kyndall Hildebrandt, Mariel Campbell, Teresa Mayfield-Meyer
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
 
-## How To Start Object Tracking in Arctos
 
 ### If this guide doesn't answer your questions, you can read [this document](https://docs.google.com/document/d/1TBN-1r6jz2-ODJRZdgvNC4peiE1TrGKfpLse2bOoyMs/edit?usp=sharing)
 
-# Object Tracking General Summary
+## Object Tracking General Summary
 
 Object Tracking in Arctos is a system that allows collections to track the location of specimen parts via a set of nesting containers (a tree) with or without positions. Barcodes are unique WITHIN Arctos and are used to track the containers. Containers may hold specimen parts or other containers.  Containers also may occupy POSITIONS in other containers or may be position-less within other containers.
 

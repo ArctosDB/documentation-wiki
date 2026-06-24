@@ -1,5 +1,5 @@
 ---
-title: How To Bulkload Barcodes to Parts
+title: Bulkload Barcodes to Parts
 layout: default_toc
 authors: Emily Braker
 date_updated: 2016-02-27
@@ -9,7 +9,6 @@ redirect_from:
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
 
-# Bulkloading Barcodes to Parts
 (Based on a guide initally developed by April Payne, Northern Michigan University)
 
 This page describes how to bulkload barcodes to specimen parts. Note that the barcodes you wish to assign must first be made into containers BEFORE you assign them to specimen parts. (See the “Making Containers” page in How To Arctos). 

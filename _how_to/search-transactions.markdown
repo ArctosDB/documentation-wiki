@@ -1,5 +1,5 @@
 ---
-title: How To Search Transactions
+title: Search Transactions
 layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 
@@ -12,8 +12,6 @@ redirect_from:
 [Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
 
 [Permits Documentation](https://handbook.arctosdb.org/documentation/permits.html)
-
-# How to Search Transactions
 
 Transactions are Loans, Accessions, Permits, and Borrows. All may be accessed via one Arctos form.
 

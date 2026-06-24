@@ -1,5 +1,5 @@
 ---
-title: How To Create Part Attributes from Containers
+title: Create Part Attributes from Containers
 layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2022-10-11
@@ -10,10 +10,6 @@ redirect_from:
 [Parts Documentation](https://handbook.arctosdb.org/documentation/parts.html)
 
 [Object Tracking](https://handbook.arctosdb.org/documentation/container.html)
-
-
-# How To Create Part Attributes from Containers
-
 
 <img width="469" alt="Screen Shot 2022-10-11 at 7 50 09 AM" src="https://user-images.githubusercontent.com/5720791/195124699-dfb88958-60fe-4429-8f0c-706ae9e9130a.png">
 

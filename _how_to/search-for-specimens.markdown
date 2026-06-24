@@ -1,5 +1,5 @@
 ---
-title: How To Search for Specimens
+title: Search for Specimens
 layout: default_toc
 authors: 
 date_updated: 

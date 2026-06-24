@@ -1,5 +1,5 @@
 ---
-title: How To Create a New Loan
+title: Create a New Loan
 layout: default_toc
 authors: unknown, Teresa J Mayfield-Meyer
 date_updated: 2021-07-23
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-# How to Create a New Loan
 
 #### Navigation: <a href="https://arctos.database.museum/Loan.cfm?Action=newLoan" target="_blank">Manage Data -> Transactions -> Create Loan</a>
 

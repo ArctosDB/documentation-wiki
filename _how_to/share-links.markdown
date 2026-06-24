@@ -1,5 +1,5 @@
 ---
-title: How To Create Arctos Links
+title: Create Arctos Links
 layout: default_toc
 authors: MSK
 date_updated: 

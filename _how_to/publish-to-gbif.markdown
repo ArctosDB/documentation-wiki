@@ -1,5 +1,5 @@
 ---
-title: How To Publish to Data Aggregators
+title: Publish Data to GBIF
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2025-10-06

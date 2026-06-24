@@ -1,5 +1,5 @@
 ---
-title: How To Install Cryovials into a Freezer Box
+title: Install Cryovials into a Freezer Box
 layout: default_toc
 authors: April Payne, Northern Michigan University; Michelle Koo, MVZ; Teresa Mayfield-Meyer
 date_updated: 2019-03-15
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
-
-# How To Install Cryovials into a Freezer Box
 
 This guide provides the steps needed to install (i.e., scan) barcoded vials into a freezer box.
 

@@ -1,5 +1,5 @@
 ---
-title: How To Create Taxa
+title: Create Linnean Taxa
 layout: default_toc
 authors: Phyllis Sharp, Teresa J. Mayfield-Meyer
 date_updated: 2019-04-15, 2021-05-19
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
-
-# How To Create Linnean Taxa
 
 The instructions in this How To are also given on each screen in Arctos as you create a new taxon.  Suggestions and clarifications to improve the instructions here and on the screens are always welcome.  Depending on the computer (PC or Mac) you are using and your browser, your images may differ slightly from what you see here.
 

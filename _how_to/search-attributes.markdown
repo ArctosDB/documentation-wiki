@@ -1,5 +1,5 @@
 ---
-title: How To Search Attributes
+title: Search Attributes
 layout: default_toc
 authors: 
 date_updated: 

@@ -1,5 +1,5 @@
 ---
-title: Best Practice - Citation of Catalog Records
+title: Citing Catalog Records
 layout: default_toc
 authors: Dusty L. McDonald
 date_updated: 2025-07-25
@@ -7,8 +7,6 @@ date_updated: 2025-07-25
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 *This is a draft document; recommendations have not been finalized.*
-
-# Best Practice - Citation of Catalog Records
 
 Citations are intended to link literature with the material on which it is based. Specifics will vary for each situation, and the following is generalized.
 

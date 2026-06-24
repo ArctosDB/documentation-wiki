@@ -1,5 +1,5 @@
 ---
-title: How To Create a Publication
+title: Create a Publication
 layout: default_toc
 authors: Emily Braker
 date_updated: 2016-02-27
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
-
-# How To Create a Publication
 
 Create a profile for a Journal Article or other Publication type. Once a publication exists in Arctos, a citation can then be created to link the publication directly to a specimen record(s). Publications can also be linked to Projects.
 

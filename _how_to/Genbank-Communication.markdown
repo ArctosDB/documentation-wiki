@@ -1,5 +1,5 @@
 ---
-title: How To Understand Genbank-Arctos Communication
+title: Understand Communication between Genbank and Arctos
 layout: default_toc
 authors: DLM?
 date_updated: 

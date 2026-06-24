@@ -1,5 +1,5 @@
 ---
-title: How To Batch Download Images
+title: Batch Download Images
 layout: default_toc
 authors: Cam Webb
 date_updated: 
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
-
-# How To Batch Download Images
 
 _This is a guide to automatically downloading multiple image files
 from TACC based on a query to the standard search interface, and using

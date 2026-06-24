@@ -1,5 +1,5 @@
 ---
-title: How To Use Complex Identifications as Low-quality Data Flags
+title: Use Complex Identifications as Low-quality Data Flags
 layout: default_toc
 authors: Anna Chinn
 date_updated: 2019-10-15
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
-
-# How to use complex identifications as low-quality data flags
 
 ## What are complex identifications?
 [Complex identifications](http://handbook.arctosdb.org/how_to/How-to-Use-Complex-Identifications.html "Complex identifications") are frequently used by object-based collections, like cultural and art collections, to link descriptive or informal identifications with Arctos' formal taxonomic structure. These complex identifications are built using the [A{string} identification formula](http://handbook.arctosdb.org/documentation/identification.html "A{string}"). This formula allows the identifications displayed on a catalog record page to be flexible and relates the record to a taxon name and classification in Arctos' taxonomy tables. As such, A{string} identifications can suit collection-specific needs while enhancing an object's discovery in Arctos searches.

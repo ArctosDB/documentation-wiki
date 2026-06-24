@@ -1,5 +1,5 @@
 ---
-title: How To Assign a Barcode to an Individual Part
+title: Assign a Barcode to an Individual Part
 layout: default_toc
 authors: Carla Cicero
 date_updated: 2016-03-08
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
-
-# How to Assign a Barcode to an Individual Part
 
 ## From Search Results
 

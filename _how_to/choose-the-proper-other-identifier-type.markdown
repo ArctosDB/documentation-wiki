@@ -1,5 +1,5 @@
 ---
-title: How To Build Other Identifiers
+title: Build Other Identifiers
 layout: default_toc
 authors: unknown, Teresa J. Mayfield-Meyer
 date_updated: 2024-06-05

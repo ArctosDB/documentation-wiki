@@ -1,5 +1,5 @@
 ---
-title: How To Find and Edit Loans
+title: Find and Edit Loans
 layout: default_toc
 authors: MK
 date_updated: 2024-11-12
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
-
-# How To Find and Edit Loans
 
 ## Finding Loans
 

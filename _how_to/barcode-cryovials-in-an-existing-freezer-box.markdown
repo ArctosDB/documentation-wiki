@@ -1,5 +1,5 @@
 ---
-title: How To Barcode Cryovials in an Existing Freezer Box
+title: Barcode Cryovials in an Existing Freezer Box
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2019-02-22
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
-
-# How To Barcode Cryovials in an Existing Freezer Box
 
 You have claimed your barcodes in Arctos and ordered or printed them, now you are ready to open a freezer and start using Arctos to track your specimens. This document includes a workflow which you may need to modify slightly depending upon how the information for what is in your freezer boxes is currently stored and whether or not you purchased or printed duplicate barcodes.
 

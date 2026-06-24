@@ -1,5 +1,5 @@
 ---
-title: How To Delete Media
+title: Delete Media
 layout: default_toc
 authors: Emily Braker
 date_updated: 2024-04-24
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
-
-# How To Delete Media
 
 Media attached to catalog records, agents, events, or transactions can be deleted through Edit Media and removing files from TACC.
 

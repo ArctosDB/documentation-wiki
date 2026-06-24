@@ -1,5 +1,5 @@
 ---
-title: How To Bulkload Identifiers and Relationships
+title: Bulkload Identifiers and Relationships
 layout: default_toc
 authors: Michelle Koo (original by Andy Doll, Teresa J. Mayfield-Meyer)
 date_updated: 2023-11-06

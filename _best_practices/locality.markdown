@@ -1,13 +1,11 @@
 ---
-title: Best Practice - Locality
+title: Managing Localities
 layout: default_toc
 authors: various
 date_updated: 2025-08-11
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-# Locality
 
 Localities are the spatial and descriptive place-component of the when-and-where data.
 

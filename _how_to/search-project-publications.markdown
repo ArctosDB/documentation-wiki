@@ -1,5 +1,5 @@
 ---
-title: How To Search Projects and Publications
+title: Search Projects and Publications
 layout: default_toc
 authors: 
 date_updated: 
@@ -10,8 +10,6 @@ redirect_from:
 [Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)
 
 [Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
-
-# How To Search Publications and Projects
 
 Search Publications and Project to explore how specimens are used, how projects support other projects, how Publications are produced, and much more.
 

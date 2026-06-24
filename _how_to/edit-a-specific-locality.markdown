@@ -1,5 +1,5 @@
 ---
-title: How To Edit a Specific Locality
+title: Edit a Specific Locality
 layout: default_toc
 authors: 
 date_updated: 

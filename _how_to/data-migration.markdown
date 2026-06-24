@@ -1,5 +1,5 @@
 ---
-title: How To Migrate Data Into Arctos
+title: Migrate Data Into Arctos
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2024-07-01
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-# How To Migrate Data Into Arctos
 
 This How To walks through the steps of data migration. These steps are more completely outlined in the numbered issue templates in the [Arctos Data Migration Github repository](https://github.com/ArctosDB/data-migration).
 

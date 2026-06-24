@@ -1,5 +1,5 @@
 ---
-title: How To Github - Create and Manage Github Issues for Arctos
+title: Create and Manage Github Issues for Arctos
 layout: default_toc
 authors: DLM, MSK
 date_updated: 

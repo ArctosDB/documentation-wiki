@@ -1,5 +1,5 @@
 ---
-title: How To Identify National Park Specimens
+title: Identify National Park Specimens
 layout: default_toc
 authors: 
 date_updated: 

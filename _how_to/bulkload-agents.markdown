@@ -1,5 +1,5 @@
 ---
-title: How To Bulkload Agents
+title: Bulkload Agents
 layout: default_toc
 authors: DLM, Teresa Mayfield-Meyer
 date_updated: 2018-04-26
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-# How To Bulkload Agents
 
 Please keep in mind that Agents are shared across all Arctos collections. Read **all** of the documentation before proceeding.
 

@@ -1,5 +1,5 @@
 ---
-title: How To Enter Attribute Records
+title: Approve Attribute Records Entered via Data Entry Form
 layout: default_toc
 authors: 
 date_updated: 
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
-
-# How To Approve Attribute Records Entered via Data Entry Form
 
 Users may bulkload additional Attributes to existing catalog records. The user muse have sufficient privileges or have their edits approved by someone with manage_collection access. Similar bulkloading tools and pathways exist for Parts, Events, etc.
 

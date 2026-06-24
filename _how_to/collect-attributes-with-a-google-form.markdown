@@ -1,5 +1,5 @@
 ---
-title: How To Collect Attributes with a Google Form
+title: Collect Attributes with a Google Form
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2019-11-07

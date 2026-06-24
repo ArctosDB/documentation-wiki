@@ -1,5 +1,5 @@
 ---
-title: How To Create and Manage Geology Terms
+title: Create and Manage Geology Attributes
 layout: default_toc
 authors: Teresa Mayfield-Meyer
 date_updated: 2019-10-09
@@ -9,8 +9,6 @@ redirect_from:
 
  
 ### [Update Request Github Issue](https://github.com/ArctosDB/documentation-wiki/issues/300)
-
-# How To Create and Manage Geology Attribute Terms (Code Tables)
 
 ## [Code Table Documentation: ](https://handbook.arctosdb.org/documentation/authorities.html)
 

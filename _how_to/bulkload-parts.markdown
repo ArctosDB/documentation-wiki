@@ -1,5 +1,5 @@
 ---
-title: How To Bulkload Parts
+title: Bulkload Parts
 layout: default_toc
 authors: Teresa J Mayfield-Meyer
 date_updated: 2023-03-14
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Parts Documentation](https://handbook.arctosdb.org/documentation/parts.html)
-
-# How To Bulkload Parts in Arctos
 
 This document will walk through the steps for bulkloading parts and up to six of their associated attributes using the Part Bulkload Tool.
 

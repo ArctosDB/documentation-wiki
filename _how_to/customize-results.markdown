@@ -1,5 +1,5 @@
 ---
-title: How To Customize Search Results
+title: Customize Search Results
 layout: default_toc
 authors: Emily Braker
 date_updated: 2024-02-26
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 **Documentation:** [Searching Arctos](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Search-for-Specimens.markdown)
-
-# How To Customize Search Results
 
 The catalog record search page can be customized to reflect the preferred suite of search and results fields displayed for queries. When logged in, customization options are saved to the user profile and will automatically display on subsequent logins.
 

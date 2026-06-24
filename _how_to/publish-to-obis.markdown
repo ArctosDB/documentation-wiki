@@ -1,5 +1,5 @@
 ---
-title: How To Publish Data to OBIS
+title: Publish Data to OBIS
 layout: default_toc
 authors: Teresa J Mayfield-Meyer, Phyllis Sharp, David Bloom
 date_updated: 2022-08-29

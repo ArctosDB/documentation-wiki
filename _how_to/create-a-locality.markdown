@@ -1,5 +1,5 @@
 ---
-title: How To Create a Locality
+title: Create a Locality
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer, updated Michelle Koo
 date_updated: 2024-09-07
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
-
-# How To Create a Locality
 
 ## What is a Locality?
 [Locality](http://handbook.arctosdb.org/documentation/locality.html) is a specific place associated with one or more Collecting Events. 

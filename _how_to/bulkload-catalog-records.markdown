@@ -1,5 +1,5 @@
 ---
-title: How To Bulkload Catalog Records
+title: Bulkload Catalog Records
 layout: default_toc
 authors: Michelle Koo
 date_updated: 2024-11-25
@@ -10,8 +10,6 @@ redirect_from:
 Relevant Documentation:
 [Bulkloader Documentation](https://handbook.arctosdb.org/documentation/bulkloader.html) | 
 [Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
-
-# How to Bulkload Catalog Records
 
 What you need to know: Bulkloading records into Arctos is an efficient way to organize and create multiple records in batches. The key to successful bulkloading  is properly preparing your CSV file (see *Bulkload Builder* below). Once your CSV file is ready, then there are two database steps. First step is loading your prepared file into the Staging Table. This is a shared resource currently, so if a user has data in the table it is unavailable until it has been pushed to the second step (see Bulkloading Table). This step is meant to be a temporary holding stage for primary data validation. If there are no errors, then the Second step is to push the data to  the Staging Table. 
 

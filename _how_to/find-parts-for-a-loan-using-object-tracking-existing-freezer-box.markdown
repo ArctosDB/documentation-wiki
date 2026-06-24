@@ -1,5 +1,5 @@
 ---
-title: How To Find Parts for a Loan When Using Object Tracking
+title: Search for Specimens and Find Part Locations
 layout: default_toc
 authors: Teresa Mayfield-Meyer
 date_updated: 2019-02-27
@@ -27,8 +27,6 @@ MSB:Mamm:142673	| other tissues than liver is strongly preferred
 MSB:Mamm:289081	| other tissues than liver is strongly preferred
 
 The following steps will provide a list of the locations of the requested parts so that they can be pulled for the loan.
-
-# Search for Specimens and Find Part Locations
 
 Using the main Arctos search page find the specimens for which parts have been requested.
 

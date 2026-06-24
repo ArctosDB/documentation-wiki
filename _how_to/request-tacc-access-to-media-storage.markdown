@@ -1,5 +1,5 @@
 ---
-title: How To Request TACC Access to Media Storage
+title: Request TACC Access to Media Storage
 layout: default_toc
 authors: Michelle Koo
 date_updated: 2021-11-04
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
-
-# How To Request TACC Access to Media Storage
 
 The [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) offers media hosting for Arctos users through an Arctos Project allocation. If you are using TACC to store media, you must first request access to the secure TACC storage. 
 

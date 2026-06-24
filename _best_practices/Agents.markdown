@@ -1,5 +1,5 @@
 ---
-title: Best Practice - Creating Meaningful Agents
+title: Creating Meaningful Agents
 layout: default_toc
 authors: Teresa J Mayfield-Meyer, DLM
 date_updated: 2024-08-13
@@ -10,8 +10,6 @@ redirect_from:
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 [Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/224)
-
-# Best Practice - Creating Meaningful Agents 
 
 What is an Agent? Before you make any decisions about one, you should know what it is. Start by reading the [Agent Documentation](https://handbook.arctosdb.org/documentation/agent.html).
 

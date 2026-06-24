@@ -1,11 +1,9 @@
 ---
-title: How To Create Taxa in Arctos Ichnology
+title: Create Taxa in the Arctos Ichnology Taxonomy Source
 layout: default_toc
 author: Teresa J. Mayfield-Meyer
 date: 2021-05-19
 ---
-
-# How To Create Taxa in the Arctos Ichnology Taxonomy Source
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 

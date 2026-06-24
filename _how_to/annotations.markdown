@@ -1,5 +1,5 @@
 ---
-title: How To Manage Annotations
+title: Manage Annotations
 layout: default_toc
 authors: DLM, Teresa J Mayfield-Meyer
 date_updated: 2022-12-01

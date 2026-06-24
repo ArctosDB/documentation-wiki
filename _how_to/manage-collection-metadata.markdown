@@ -1,5 +1,5 @@
 ---
-title: How To Manage Collection Metadata
+title: Manage Collection Metadata
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer, Michelle Koo, Philip Khan, Dusty McDonald
 date_updated: 2026-01-07

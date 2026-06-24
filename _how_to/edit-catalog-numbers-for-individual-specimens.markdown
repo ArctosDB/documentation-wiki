@@ -1,5 +1,5 @@
 ---
-title: How To Edit Catalog Numbers for Individual Catalog Records
+title: Edit Catalog Numbers for Individual Catalog Records
 layout: default_toc
 authors: 
 date_updated: 

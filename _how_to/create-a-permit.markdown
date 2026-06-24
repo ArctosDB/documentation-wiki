@@ -1,5 +1,5 @@
 ---
-title: How To Create a Permit
+title: Create and Edit Permits
 layout: default_toc
 authors: 
 date_updated: 
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Permit Documentation](https://handbook.arctosdb.org/documentation/permits.html)
-
-# How to Create and Edit Permits
 
 Permits are documentation authorizing activities associated with **Accession** and **Loan** transactions. In general, permits are issued by governmental agencies, but letters authorizing collecting activities on private land can also be considered permits. Permits can authorize any number of transactions, and any number of permits may be required for a given transaction.
 

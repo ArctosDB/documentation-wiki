@@ -1,5 +1,5 @@
 ---
-title: How To Edit a Verbatim Locality
+title: Edit a Verbatim Locality
 layout: default_toc
 authors: 
 date_updated: 

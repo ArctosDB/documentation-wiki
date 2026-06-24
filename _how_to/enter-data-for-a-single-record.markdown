@@ -1,5 +1,5 @@
 ---
-title: How To Enter Data for a Single Record
+title: Enter Data for a Single Record
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-03-14

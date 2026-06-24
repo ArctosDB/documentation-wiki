@@ -1,5 +1,5 @@
 ---
-title: How To Create a Citation
+title: Create a Citation
 layout: default_toc
 authors: Teresa J Mayfield-Meyer, Carla Cicero
 date_updated: 2023-03-08
@@ -10,8 +10,6 @@ redirect_from:
 [Citation Documentation](https://handbook.arctosdb.org/documentation/specimen-citations.html)
 
 [Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
-
-# How To Create a Citation
 
 Attach a catalog record to a publication via citation. **NOTE:** Before a cataloged item is cited, the Publication profile **must** already exist in Arctos. See [How to Create a Publication](https://handbook.arctosdb.org/how_to/How-to-Create-a-Publication.html) for a tutorial.
 

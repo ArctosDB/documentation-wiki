@@ -1,5 +1,5 @@
 ---
-title: How To Manage Self-Service API Keys (for users)
+title: Manage Self-Service API Keys
 layout: default_toc
 authors: Michelle Koo
 date_updated: 2026-03-12
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 **Documentation:** [Arctos API](https://handbook.arctosdb.org/documentation/api.html)
-
-# How To Manage Self-Service API Keys (for Users)
 
 After you have [requested and have been granted an API Key](https://handbook.arctosdb.org/documentation/api.html), you
 may option or be required to use a self-service API key; these API keys are linked to your IP at time of issue and

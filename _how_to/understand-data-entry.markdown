@@ -1,5 +1,5 @@
 ---
-title: How To Understand Data Entry
+title: Understand Data Entry
 layout: default_toc
 authors: DLM, Teresa J Mayfield-Meyer
 date_updated: 2021-09-24

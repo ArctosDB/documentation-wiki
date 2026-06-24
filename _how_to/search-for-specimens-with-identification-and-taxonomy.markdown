@@ -1,5 +1,5 @@
 ---
-title: How To Search for Specimens with Identification and Taxonomy
+title: Search for Specimens with Identification and Taxonomy
 layout: default_toc
 authors: Phyllis Sharp
 date_updated: 2019-04-14
@@ -10,8 +10,6 @@ redirect_from:
 [Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
 
 [Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
-
-# How to Search with Identification and Taxonomy
 
 There are various search fields on SpecimenSearch under **Identification and Taxonomy**, and
 they query and return very different data.

@@ -1,5 +1,5 @@
 ---
-title: How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate
+title: Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate
 layout: default_toc
 authors: Nicole Ridgwell, Teresa J. Mayfield-Meyer
 date_updated: 2019-06-01
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
-
-# How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate
 
 **Township/Range/Section data can be converted to latitude/longitude coordinates using the following method.**
 

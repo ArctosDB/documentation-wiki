@@ -1,5 +1,5 @@
 ---
-title: How To Upload Media to TACC
+title: Upload Media to TACC
 layout: default_toc
 authors: Carla Cicero, Teresa Mayfield-Meyer
 date_updated: 2018-05-04
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
-
-# How To Upload Media to TACC
 
 The [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) offers media hosting for Arctos users through an Arctos Project allocation. If you are using TACC to store media, the files must be uploaded to TACC and accessible on the web server before [creating media in Arctos](/how_to/How-to-Create-Media-Images.html). There are three ways to upload media to TACC: Single file uploads, small batch uploads, and large batch uploads. This document covers all three.
 

@@ -1,5 +1,5 @@
 ---
-title: How To Understand Project Funding
+title: Understand Project Funding
 layout: default_toc
 authors: 
 date_updated: 
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)
-
-# How To Understand Project Funding
 
 Arctos now provides a "funded_USD" field in Projects. (We leave it up to individuals to define what constitutes project funding.) These data may be used to illustrate the broader impacts of a project which contributes specimen that are subsequently used in other research projects. An example follows.
 

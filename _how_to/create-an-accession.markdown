@@ -1,5 +1,5 @@
 ---
-title: How To Create an Accession
+title: Create an Accession
 layout: default_toc
 authors: Teresa J Mayfield-Meyer previous contributors Emily Braker, April Payne
 date_updated: 2021-10-11
@@ -8,8 +8,6 @@ redirect_from:
 ---
 
 [Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)
-
-# How to Create an Accession
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
 

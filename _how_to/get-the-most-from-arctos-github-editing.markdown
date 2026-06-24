@@ -1,5 +1,5 @@
 ---
-title: How To Github - Get the Most from Editing Markdown
+title: Get the Most from Editing Markdown
 layout: default_toc
 authors: Michelle Koo, Teresa J. Mayfield-Meyer
 date_updated: 2023-07-26

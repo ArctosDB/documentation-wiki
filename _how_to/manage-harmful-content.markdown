@@ -1,5 +1,5 @@
 ---
-title: How To Manage Harmful Content
+title: Manage Harmful Content
 layout: default_toc
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-09-19
@@ -10,9 +10,6 @@ redirect_from:
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 [New How To Request Github Issue](https://github.com/ArctosDB/documentation-wiki/issues/295)
-
-# How To Manage Harmful Content
-
 
 Members of the Arctos Consortium recognize that we manage historic information that may contain harmful or offensive language.
 

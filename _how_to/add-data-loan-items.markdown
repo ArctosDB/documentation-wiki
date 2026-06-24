@@ -1,5 +1,5 @@
 ---
-title: How To Add Data Loan Items
+title: Add Data Loan Items
 layout: default_toc
 authors: DLM, Teresa J Mayfield-Meyer
 date_updated: 2023-03-06
