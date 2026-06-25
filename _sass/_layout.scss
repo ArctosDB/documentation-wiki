@@ -261,6 +261,41 @@ aside>#search-container.form {
   }
 }
 
+.draft-banner {
+  display: flex;
+  align-items: stretch;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+
+  .draft-stripes {
+    flex-shrink: 0;
+    width: 48px;
+    background-image: repeating-linear-gradient(-45deg,
+        #000 0px, #000 8px,
+        #FFC107 8px, #FFC107 16px);
+  }
+
+  .draft-content {
+    flex: 1;
+    background: #FFC107;
+    padding: 0.6rem 1rem;
+  }
+
+  .draft-label {
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .draft-note {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 0.1rem;
+  }
+}
+
 /**
  * Site footer
  */

@@ -2,6 +2,7 @@
 title: Contribute to the Arctos Handbook
 authors: Michelle Koo, Teresa J. Mayfield-Meyer
 date_updated: 2023-07-26
+status: draft
 redirect_from:
   - /how_to/How-to-Contribute-Content-to-Arctos-Handbook/
 ---
@@ -22,8 +23,6 @@ There are four kinds of content on the Arctos Handbook:
 Arctos Handbook content can be created or edited by anyone who is a member of the ArctosDB "Users" team on Github (see "[How to Github: Getting Started with GitHub for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html)"). That team has "write" access to the ArctosDB/documentation-wiki repository in GitHub. Anyone can view the content, but you need to be added to the "Users" team by an Arctos administrator in order to make changes. Arctos users who want the ability to create or edit the Handbook or create or Edit Documentation and "How-to Guides" should email arctos-working-group-officers@googlegroups.com with your Arctos login name and Github login to request to be added to the Github Users group.
 
 We encourage Curators/Collection Managers to engage students in writing "How-to Guides." However, students will not be able to post them to the wiki site; instead, they will need to submit the content to a member of the ArctosDB "Users" team (e.g., their supervisor) who can then post the content.
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
 
 >Documentation pages are written in [Markdown](https://guides.github.com/features/mastering-markdown/), which is dead simple 
 to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
@@ -216,9 +215,6 @@ Copy the code below the image and paste into any other document to use the image
 **Video Tutorial**  
 ``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)  
 **Video Tutorial** `` 
-
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
-``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)`` 
 
 <img src="https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **FAQ goes here?**
 ``<img src="https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">

@@ -2,11 +2,10 @@
 title: Record Prior Inclusion in Another Collection
 authors: Teresa Mayfield-Meyer
 date_updated: 2022-04-21
+status: draft
 redirect_from:
   - /how_to/How_To_Add_Object_Provenance/
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 [Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/265)
 

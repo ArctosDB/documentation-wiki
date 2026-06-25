@@ -2,12 +2,10 @@
 title: Search Attributes
 authors: 
 date_updated: 
+status: draft
 redirect_from:
   - /how_to/search_attributes/
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
 
 This is a stash for information which was in /documentation/attributes - it may not be relevant, and should be updated.
 

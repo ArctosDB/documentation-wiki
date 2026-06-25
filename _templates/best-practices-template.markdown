@@ -2,6 +2,7 @@
 title:
 authors:
 date_updated:
+status:
 ---
 
 ## Context

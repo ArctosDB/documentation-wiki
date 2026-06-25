@@ -2,9 +2,8 @@
 title: Managing Localities
 authors: 
 date_updated: 2025-08-11
+status: draft
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 Localities are the spatial and descriptive place-component of the when-and-where data.
 

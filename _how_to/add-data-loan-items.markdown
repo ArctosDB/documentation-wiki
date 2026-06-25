@@ -2,13 +2,12 @@
 title: Add Data Loan Items
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2023-03-06
+status: draft
 redirect_from:
   - /how_to/How-to-Add-Data-Loan-Items/
 ---
 
 [Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
 [Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/293)
 

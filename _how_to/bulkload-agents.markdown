@@ -2,11 +2,10 @@
 title: Bulkload Agents
 authors: Dusty L. McDonald, Teresa Mayfield-Meyer
 date_updated: 2018-04-26
+status: draft
 redirect_from:
   - /how_to/How-to-Bulkload-Agents/
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 Please keep in mind that Agents are shared across all Arctos collections. Read **all** of the documentation before proceeding.
 

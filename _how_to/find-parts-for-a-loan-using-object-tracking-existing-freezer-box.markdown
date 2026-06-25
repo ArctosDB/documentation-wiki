@@ -2,11 +2,10 @@
 title: Search for Specimens and Find Part Locations
 authors: Teresa Mayfield-Meyer
 date_updated: 2019-02-27
+status: draft
 redirect_from:
   - /how_to/How-To-Find-Parts for-a-Loan-Using Object Tracking-Existing-Freezer-Box/
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
 [Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
 

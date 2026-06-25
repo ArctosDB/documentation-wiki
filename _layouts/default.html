@@ -35,13 +35,15 @@
       </nav>
     </div>
     <article class="wrapper">
+      {% if page.status == 'draft' %}{% include draft-banner.html %}{% endif %}
       {% if page.collection == 'how_to' %}
-      <h1><strong>How To:</strong> {{ page.title }}</h1>
+        <h1><strong>How To:</strong> {{ page.title }}</h1>
       {% elsif page.collection == 'best_practices' %}
-      <h1><strong>Best Practice:</strong> {{ page.title }}</h1>
+        <h1><strong>Best Practice:</strong> {{ page.title }}</h1>
       {% else %}
-      <h1>{{ page.title }}</h1>
-      {% endif %} {{ content }}
+        <h1>{{ page.title }}</h1>
+      {% endif %}
+      {{ content }}
       {% include page-meta.html %}
     </article>
   </main>

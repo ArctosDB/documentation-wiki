@@ -2,11 +2,10 @@
 title: Managing Multiple Occurrences
 authors: Dusty L. McDonald
 date_updated: 2024-08-26
+status: draft
 redirect_from:
   - /best_practices/multiple_occurrence/
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 ## Work In Progress
 

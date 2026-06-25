@@ -2,11 +2,11 @@
 title: Internal Documentation
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-07-29
+status: draft
 redirect_from:
   - /documentation/internal_documentation/
 ---
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 <a href="https://github.com/ArctosDB/documentation-wiki/issues/82" target="_blank">Add to current update request</a>
 
 # Internal Documentation

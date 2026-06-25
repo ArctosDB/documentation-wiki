@@ -64,6 +64,7 @@ date_updated: YYYY-MM-DD
 | `layout` | **Required but added automatically** | The default is `default_toc` for pages in `_documentation/`, `_best_practices/`, and `_how_to/`, and this is controlled in `_config.yml`. You can override the default if necessary. |
 | `authors` | Encouraged | Comma-separated list of contributors, e.g. `"Teresa Mayfield-Meyer, Dusty McDonald"`. Used to generate linked contributor credits in the page footer. |
 | `date_updated` | Encouraged | Date the page was last meaningfully updated, in `YYYY-MM-DD` format. |
+| `status` | Optional | Include this tag with the value "draft" to have a work in progress banner apear at the top of the page. |
 | `redirect_from` | Optional | List of old URLs that should redirect to this page. Use when renaming a file to avoid breaking existing links. |
 
 ### 4. Write your content

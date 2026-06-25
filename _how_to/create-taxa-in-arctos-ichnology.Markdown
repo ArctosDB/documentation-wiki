@@ -2,9 +2,8 @@
 title: Create Taxa in the Arctos Ichnology Taxonomy Source
 author: Teresa J. Mayfield-Meyer
 date: 2021-05-19
+status: draft
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 [Arctos Ichnology](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source#arctos_ichnology) is currently the preferred taxonomic source for ichnofossils. While ichnotaxa classifications can be added to other sources, it is preferable that all ichnotaxa classification remain in Arctos Ichnology for ease of maintenance. Collections with any trace fossil identifications should add Arctos Ichnology to their list of preferred taxonomy sources.
 

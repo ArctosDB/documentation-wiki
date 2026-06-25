@@ -2,12 +2,10 @@
 title: Print Labels
 authors: Emily Braker, Teresa J. Mayfield-Meyer, Aren Gunderson, Dusty L. McDonald
 date_updated: 2025-11-05
+status: draft
 redirect_from:
   - /how_to/How-To-Print-Labels/
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
 
 ## Catalog records
 

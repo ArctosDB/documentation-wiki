@@ -2,11 +2,10 @@
 title: Collect Attributes with a Google Form
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2019-11-07
+status: draft
 redirect_from:
   - /how_to/How-To-Collect-Attributes-With-A-Google-Form/
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG) 
 
 **Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
 

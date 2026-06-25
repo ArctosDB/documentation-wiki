@@ -2,11 +2,10 @@
 title: Enter Data
 authors: Dusty L. McDonald
 date_updated: 2024-10-28
+status: draft
 redirect_from:
   - /how_to/data_entry/
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 For practical usage documentation, see [/documentation/bulkloader.html](/documentation/bulkloader.html)
 

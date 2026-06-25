@@ -2,9 +2,8 @@
 title: Organizing a Committee
 authors: Dusty L. McDonald
 date_updated: 2024-11-19
+status: draft
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 Arctos Committees are groups of people working towards specific goals.
 

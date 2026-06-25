@@ -2,10 +2,8 @@
 title: Citing Catalog Records
 authors: Dusty L. McDonald
 date_updated: 2025-07-25
+status: draft
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-*This is a draft document; recommendations have not been finalized.*
 
 Citations are intended to link literature with the material on which it is based. Specifics will vary for each situation, and the following is generalized.
 

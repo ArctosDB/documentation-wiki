@@ -2,11 +2,10 @@
 title: Catalog an Observation
 authors: Ally Coconis
 date_updated: 2022-11-28
+status: draft
 redirect_from:
   - /how_to/How to Enter Observational Data/
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
 
 The Observation Interest Group is currently working on improving this document. Please [file an issue](https://github.com/ArctosDB/arctos/issues/new) if you have questions about cataloging observations in Arctos.
 
