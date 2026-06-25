@@ -57,17 +57,11 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 
 ### General Rules for Adding Code Table Terms
 
-#### CAUTION: This is still being discussed, see https://github.com/ArctosDB/arctos/issues/9141
+* Whenever possible terms should have a published reference or citation.
+* Terms and their definitions should be as general and unambiguous as possible.
+* Authorities may contain non-ASCII UTF characters, but the scope of this is unclear.
+    * Discussion: https://github.com/ArctosDB/arctos/issues/9141 
 
- - Use predictable Punctuation  
-    Allowed characters:
-     - a-Z
-     - 0-9
-     - space
-     - underscore
-     - apostrophe (UTF-8) (e.g., ‘)
- - Whenever possible terms should have a published reference or citation.
- - Terms and their definitions should be as general and unambiguous as possible.
 
 ### Specific Rules for Specific Code Tables
 
