@@ -15,9 +15,7 @@ Members of the Arctos Consortium recognize that we manage historic information t
 
 This document will provide guidance for those managing data in Arctos for handling harmful or offensive language in both shared and institutional resources.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Please note that this document may use and refer to offensive terms and include images of labels and documents to provide examples.
+{% include caution.html content="Please note that this document may use and refer to offensive terms and include images of labels and documents to provide examples." %}
 
 ## General Guidelines
 

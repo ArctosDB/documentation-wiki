@@ -17,15 +17,11 @@ Add, Edit or Delete an identification for a catalog record. A catalog record can
 * In the Add Determination box, select the appropriate value from the **ID Formula** drop-down menu. If the new determination does not contain any modifiers (i.e., "sp.", "cf.", "x", "?", etc.), keep the default formula value ("A"). For redeterminations that involve more than one taxon (e.g., hybrids, "and", "or"), an additional field will appear when the appropriate formula is selected ("Taxon B").
 * Select an identification order.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-If this is confusing, please read the [Identification Order Documentation](https://handbook.arctosdb.org/documentation/identification.html#identification-order)
+{% include tip.html content="If this is confusing, please read the [Identification Order Documentation](https://handbook.arctosdb.org/documentation/identification.html#identification-order)" %}
   
 * Enter the new identification in the **Taxon** field(s).
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-After typing the first few characters of the taxon name in the field, click "Tab" to bring up a pop-up list and select the desired name to populate the field.
+{% include tip.html content="After typing the first few characters of the taxon name in the field, click _Tab_ to bring up a pop-up list and select the desired name to populate the field." %}
 
 * Enter up to three determiner agents in the **Identifier** fields. If you require more than three, they can be added after the identification has been created.
 * Enter the **Date** the determination was made.

@@ -4,9 +4,7 @@ authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2021-07-29
 ---
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
-
-Do not perform any user administration actions before reading and understanding this entire document.
+{% include caution.html content="Do not perform any user administration actions before reading and understanding this entire document." %}
 
 ## Terminology
 
@@ -49,9 +47,7 @@ There are two types of “roles” in Arctos: Collection roles and access roles.
 
 Some objects (taxonomy, media, agents, places) are shared amongst collections. People who have access to these data must fully understand that <a href="https://handbook.arctosdb.org/documentation/sharing-data-and-resources.html" target="_blank"<Arctos is a shared system</a>, and must always consider the implications of working in a shared system.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**  
-
-Environment is set at login. Users whose account has changed will need to log out and back in to receive changes.
+{% include tip.html content="Environment is set at login. Users whose account has changed will need to log out and back in to receive changes." %}
 
 ### User Access Roles
 
@@ -79,9 +75,7 @@ Users who have their account locked and are subsequently re-granted access must 
 
 Accounts are locked for a variety of reasons, including by automation.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
-
-**Do Not** unlock an account unless you are fully aware of the circumstances under which it was locked and are, or are in communication with, the "supervisor" of all collections to which the user has access. Assume all unlock requests are [phishing attacks](https://en.wikipedia.org/wiki/Phishing) until proven otherwise.
+{% include caution.html content="**Do Not** unlock an account unless you are fully aware of the circumstances under which it was locked and are, or are in communication with, the supervisor of all collections to which the user has access. Assume all unlock requests are [phishing attacks](https://en.wikipedia.org/wiki/Phishing) until proven otherwise." %}
 
 **_DO NOT UNDER ANY CIRCUMSTANCES CREATE A NEW OPERATOR ACCOUNT FOR USERS WHO HAVE EVER HAD AN OPERATOR ACCOUNT IN ARCTOS!_**
 

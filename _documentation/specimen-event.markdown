@@ -10,9 +10,7 @@ Record Events link [Events]({{site.baseurl}}/documentation/collecting-event.html
 
 [Agent]({{site.baseurl}}/documentation/agent.html) asserting that the [Record]({{site.baseurl}}/documentation/catalog.html) has [Event Type](#type) relationship to an event (including locality, geography, geology, etc.).
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-This person has determined coordinates and error, dates, higher geography, and everything else in the "[place and time stack]({{site.baseurl}}how_to/How-to-understand-the-Arctos-Locality-Model.html)."
+{% include caution.html content="This person has determined coordinates and error, dates, higher geography, and everything else in the place and time stack" %}
 
 ## Event Date
 
@@ -47,9 +45,7 @@ Describe methods employed at the event as they relate specifically to the record
  - Otter Trawl
  - salvage, roadkill, DOR
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-Method may be better placed in the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) event attribute if the method corresponds to all records that may have participated in the event.
+{% include tip.html content="Method may be better placed in the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) event attribute if the method corresponds to all records that may have participated in the event." %}
 
 ## Collecting Source
 

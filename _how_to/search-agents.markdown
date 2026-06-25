@@ -20,10 +20,7 @@ Search Agents to explore how people and organizations support collections, conne
 
 Enter the name of the person or organization you want to find in Arctos.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
-
- - At least three characters are required to search.
- - A generic search, such as only a last name is preferred. This form is searching Agent Preferred Names, so a search for John Smith will not return the agent John H. Smith, but a search for Smith will return both.
+{% include tip.html content="At least three characters are required to search. A generic search, such as only a last name is preferred. This form is searching Agent Preferred Names, so a search for John Smith will not return the agent John H. Smith, but a search for Smith will return both." %}
  
 ## Arctos Agent Manager Search
 
@@ -55,9 +52,7 @@ Agent Name matches names of the chosen type.
 Address matches any part of [any address](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTADDRESS_TYPE),
 including mailing addresses, telephone numbers, and email addresses.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
-
-ORCiD and Wikidata urls are found in the addresses section of the agent table.
+{% include tip.html content="ORCiD and Wikidata urls are found in the addresses section of the agent table." %}
 
 ### Agent Status
 

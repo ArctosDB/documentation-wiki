@@ -59,9 +59,7 @@ Following the definition, always include the link to the Github Issue that docum
 
 When you are satisfied with your entries in all fields, select "Insert" to create the new code table term.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **CAUTION**  
-
-Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship. (See [Create Term Relationships](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html#create-term-relationships))
+{% include caution.html content="Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship. (See [Create Term Relationships](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html#create-term-relationships))" %}
 
 ## Manage Terms
 
@@ -75,9 +73,7 @@ To create hierarchies between geology attribute code table terms, use the "Manag
 
 Both a parent and child term must be entered in the form in order to create a relationship. Parent or child can be entered in "data_value, depending upon the relationship selected in "meta_type"
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **CAUTION**  
-
-  Take care when selecting meta_type, data_value and meta_value terms and review your choices before creating the relationship. 
+{% include caution.html content="Take care when selecting meta_type, data_value and meta_value terms and review your choices before creating the relationship." %}
 
 ### Parent Term
 

@@ -16,7 +16,7 @@ Bulkloading accession information is an important step in migration into Arctos.
  * Select “[Load CSV](https://arctos.database.museum/tools/BulkloadAccn.cfm?action=ld)” then [get a template](https://arctos.database.museum/tools/BulkloadAccn.cfm?action=makeTemplate) and open the file that downloads  
  * Formatting is very important, so make sure you are typing things into the spreadsheet exactly as they appear when you pull up a loan in Arctos. 
  
- ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
+### Pro Tips
  
  **Tip** When entering agent names, the easiest way to make sure that 1) the agent exists in Arctos and 2) you have the name spelled and formatted correctly, is to search in Arctos for the agent and if existing, copy/paste that name from Arctos into the spreadsheet. If you need to create an agent, see [How to Create Agents](http://handbook.arctosdb.org/how_to/How-to-Create-Agents.html) 
  
@@ -37,10 +37,8 @@ Bulkloading accession information is an important step in migration into Arctos.
  * If you receive an error that you cannot interpret, [file an issue](https://github.com/ArctosDB/arctos/issues/new?assignees=&labels=Error+Explanation%2C+Error+Messages&template=error-help-request.md&title=Need+Help+with+Arctos+Error).
  * Once the data have loaded, return to review and load to see their progress and any errors that may result. If the status field is blank or includes anything other than "autoload", the accession will continue to sit in the component loader tool. To set the accessions to load, select "review all records for user" next to the username of the person who loaded the accessions, then "check all and set to autoload", then "change status for all checked records". It may take a while for the accessions to load, so have a cup of coffee and come back later to see if there are any errors.
  * If any of the accession fail to load, the reason will appear in the status column. The only way to make corrections is to download the data with errors, delete the data from the tool, correct data in the download file, then re-load it to the tool.
- 
- ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
- 
- Add a column to the template download "STATUS" and enter "autoload" for every row with data, this will automatically attempt to load the accessions after they are loaded to the component loader tool.
+  
+ {% include tip.html content='Add a column to the template download _STATUS_ and enter "autoload" for every row with data, this will automatically attempt to load the accessions after they are loaded to the component loader tool.' %}
  
 
 # Tutorial Videos ↗️

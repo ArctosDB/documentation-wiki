@@ -32,13 +32,13 @@ Now click on “Get CSV” located above the small table and below the large tab
 
 * Any header can be deleted, added, or rearranged in the excel sheet manually. 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+### Caution
 
 Be sure edited cells do not have an invisible lead or end, otherwise Arctos will reject it. 
 
 * The bulkload template has a large number of fields for parts, attributes, collector, etc. These are there only if you need them; these fields can be blank or omitted from the bulkload template. 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
+### Pro Tips
 
 * The bulkloader only allows loading four part attributes per part. If you need to add more attributes, consider bulkloading the records without parts and then bulkloading parts with the Part Bulkload Tool. 
 
@@ -49,7 +49,7 @@ Much of the bulkloader works off of the single data sheet and many things are �
 
 * If no Catalog Number has been previously assigned you can leave the CAT_NUM blank if you want Arctos to automatically assign the next available catalog number.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
+### Caution
 
 When trying to fill a gap in the available catalog numbers, it is wise to view what is available and enter them manually. Only allow Arctos to assign numbers if you have no gaps in your assigned catalog numbers and are using an integer catalog number format.
 

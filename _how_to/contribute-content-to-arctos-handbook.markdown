@@ -205,25 +205,14 @@ Example in HTML:
 ### Arctos-specific Markdown Code You Can Copy!
 Copy the code below the image and paste into any other document to use the image.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**  
-``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**`` 
-
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
-``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**`` 
-
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)  
 **Video Tutorial**  
 ``![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)  
 **Video Tutorial** `` 
 
-<img src="https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **FAQ goes here?**
-``<img src="https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">
-**Add FAQ text here?**``
-
 ## How To Edit the Arctos Handbook Locally
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-## Text editors
+### Text editors
 
 Editing and creating pages for the Arctos Handbook in the online Github interface is easy and straightforward. However, at some point, you may need to do more, such as move and edit more than one file at a time. Or perhaps a new page needs more time to complete. This is a step-by-step introduction to working with the Arctos Handbook Github repository.
 

@@ -10,12 +10,7 @@ redirect_from:
 
 20250103: this is outdated
 
-
 ------------------------------
-
-
-
-
 
 [GitHub Issue](https://github.com/ArctosDB/documentation-wiki/issues/238)
 
@@ -37,9 +32,7 @@ Use this option to start from scratch, or from the values stored in a Profile. S
 
 After choosing one of these options, you will be directed to the appropriate data entry form.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-The background of your new data entry screen should be **green**. If it is not, Arctos will not let you save your data.
+{% include caution.html content="The background of your new data entry screen should be **green**. If it is not, Arctos will not let you save your data." %}
 
 ### Pick a Profile 
 
@@ -56,9 +49,7 @@ The Profile you are currently using will appear at the top of the list. You may 
  - control the post-save behavior by carrying or clearing values entered in the previous record
  - carry "seed" data, defaulted in when the entry form first loads
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Note that a Profile's seed data will NOT be loaded when a seed record is used. The Profile's customization will still be used. Also, data values saved in a Profile will have a distinct style and should be carefully checked before saving a record.
+{% include caution.html content="Note that a Profile's seed data will NOT be loaded when a seed record is used. The Profile's customization will still be used. Also, data values saved in a Profile will have a distinct style and should be carefully checked before saving a record." %}
 
 ## How To Customize Data Entry and Create Profiles
 
@@ -91,9 +82,7 @@ This block includes data about the entire catalog record.
 ### Identifiers
 This block includes any identifiers other than the catalog number that are applied to the objects or observations being cataloged or that are applied to objects or observations related to the object or observation being cataloged. You can add 5 identifiers to any catalog record in data entry. Additional identifiers can be added manually or via the [Identifier: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadOtherId.cfm).
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Any information entered will be ignored unless identifier_type is completed.
+{% include caution.html content="Any information entered will be ignored unless identifier_type is completed." %}
 
 **CONDITIONALLY REQUIRED** (if any other identifier information is entered)
 
@@ -105,17 +94,13 @@ Any information entered will be ignored unless identifier_type is completed.
   
 * **identifier_value** is the **COMPLETE** identifer. When the identifier is a webpage, DOI, or some other resolvable identifier enter the full url.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-Arctos includes a helpful tool to help build complete urls for a host of known identifiers. If all you have is the identifier, but you believe it may be part of a url, use the **build** button at the far right of the identifier row to make use of the tool.
+{% include tip.html content="Arctos includes a helpful tool to help build complete urls for a host of known identifiers. If all you have is the identifier, but you believe it may be part of a url, use the **build** button at the far right of the identifier row to make use of the tool." %}
 
 * **identifier_relationship** documents how the identifier_value is related to the catalog record being entered. Default is self (the identifier is applied to the object or observation being cataloged). Values are selected from a [code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctid_references).
 
 * **identifier_remark** is a free-text field that allows you to make comments about the identifier.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-Has the data for the record already been entered as part of another record? You can enter the identifier_issued_by, identifier_type and identifier_value and use the **pull** button on the same row to fill in the current record with data from that record. 
+{% include tip.html content="Has the data for the record already been entered as part of another record? You can enter the identifier_issued_by, identifier_type and identifier_value and use the **pull** button on the same row to fill in the current record with data from that record." %}
 
 ### Identification 
 
@@ -167,17 +152,13 @@ This block includes data about people or organizations that performed one of the
  
 * **agent_n_name** is the Arctos Agent that performed the selected role. Type in all or part of the Agent’s name and use the Tab key to select an Agent.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-Use the **CopyAcross** button next to any Agent to add the name to all other agent fields in the form.
+{% include tip.html content="Use the **CopyAcross** button next to any Agent to add the name to all other agent fields in the form." %}
 
 ### Place and Time
 
 This block consists of three sections: Record Event, Event, and Locality.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-**NONE** of the information entered in these sections will save if **record_event_type** is blank.
+{% include caution.html content="**NONE** of the information entered in these sections will save if **record_event_type** is blank." %}
 
 #### Record-Event
 
@@ -203,9 +184,7 @@ This block includes data about why the **Event** has been associated with the ca
 
 * **record_event_collecting_method** is a free-text field that can be used to add information about methods applied at the **Event** that are specific to the cataloged objects or observations.
   
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-If methods apply to more than one cataloged object or observation at the same event, use the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) **Event** attribute as it will be applied to all catalog records associated with the event and will not require repeated entry of the method in individual catalog records.
+{% include tip.html content="If methods apply to more than one cataloged object or observation at the same event, use the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) **Event** attribute as it will be applied to all catalog records associated with the event and will not require repeated entry of the method in individual catalog records." %}
 
 * **record_event_habitat** is a free-text field that can be used to add information about habitat at the **Event** that are specific to the cataloged objects or observations.
 
@@ -231,13 +210,9 @@ This block includes standardized time and verbatim time and location data. You c
 
 * **event_name** Events can be created in advance, given names, and used to eliminate the need for entering the same data into multiple catalog records.
  
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+{% include caution.html content="Entering an existng **Event** name here will ignore any data that you enter in any of the remaning **Event** or **Locality** fields." %}
 
-Entering an existng **Event** name here will ignore any data that you enter in any of the remaning **Event** or **Locality** fields.
-
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-Use the **pull/sync** button to view the data that is included in the **Event**. If you find that you have chosen the wrong **Event** name, then you can use the **clear all event** button to remove any **Event** and **Locality** data and start over.
+{% include tip.html content="Use the **pull/sync** button to view the data that is included in the **Event**. If you find that you have chosen the wrong **Event** name, then you can use the **clear all event** button to remove any **Event** and **Locality** data and start over." %}
 
 * **event_id** is the ID assigned by Artos to previously entered **Event**s. Use the **pick event** button to search for events if you believe there is an existing **Event** you could use.
 
@@ -273,9 +248,7 @@ This block includes standardized location data. You can add 1 **Locality** to an
 
 * **locality_higher_geog** includes standardized geography selected from a [code table](https://arctos.database.museum/place.cfm?sch=geog).
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-If the geography you have is not in the code table, you can use [no specific higher geography](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350) or if you have no information on geography use [no higher geography recorded](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69). See also [Higher Geography Documentation](https://handbook.arctosdb.org/documentation/higher-geography.html)
+{% include tip.html content="If the geography you have is not in the code table, you can use [no specific higher geography](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350) or if you have no information on geography use [no higher geography recorded](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69). See also [Higher Geography Documentation](https://handbook.arctosdb.org/documentation/higher-geography.html)" %}
 
 * **locality_specific** should hold all the location information that would allow someone to find the place on a map or by verbal directions. This value should **exclude** anything placed in any of the other fields available in **Locality**
 
@@ -283,9 +256,7 @@ If the geography you have is not in the code table, you can use [no specific hig
 
 * **locality_name** Localities can be created in advance, given names, and used to eliminate the need for entering the same data into multiple catalog records.
  
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Entering an existing **Locality** name here will ignore any data that you enter in any of the remaining **Locality** fields.
+{% include caution.html content="Entering an existing **Locality** name here will ignore any data that you enter in any of the remaining **Locality** fields." %}
 
 Use the **pull/sync locality** button to view the data that is included in the **Locality**. If you find that you have chosen the wrong **locality** name, then you can use the **clear all locality** button to remove any **Locality** data and start over.
 
@@ -333,9 +304,7 @@ Every **Locality** can include up to 6 attributes in data entry, additional **Lo
 
 This block includes standardized coordinate data. You can add 1 **Spatial** block to any catalog record in data entry. Spatial information can be added in one of 4 ways and only one of these may be used during data entry.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-Data entered as **Degrees Minutes Seconds**, **Degrees Decimal Minutes**, or **UTM** will be converted to **Decimal Degrees** and stored as "as entered coordinates" in Arctos.
+{% include tip.html content='Data entered as **Degrees Minutes Seconds**, **Degrees Decimal Minutes**, or **UTM** will be converted to **Decimal Degrees** and stored as "as entered coordinates" in Arctos.' %}
 
 **CONDITIONALLY REQUIRED** (if any other spatial data is entered)
 
@@ -353,9 +322,7 @@ Data entered as **Degrees Minutes Seconds**, **Degrees Decimal Minutes**, or **U
 
 **Decimal Degrees**
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Anything entered here will be ignored unless **coordinate_lat_long_units** = [decimal degrees](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#decimal_degrees).
+{% include caution.html content="Anything entered here will be ignored unless **coordinate_lat_long_units** = [decimal degrees](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#decimal_degrees)." %}
 
 **CONDITIONALLY REQUIRED** (if **coordinate_lat_long_units** = [decimal degrees](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#decimal_degrees))
 
@@ -365,9 +332,7 @@ Anything entered here will be ignored unless **coordinate_lat_long_units** = [de
 
 **Degrees Minutes Seconds**
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Anything entered here will be ignored unless **coordinate_lat_long_units** = [deg. min. sec.](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#deg__min__sec_).
+{% include caution.html content="Anything entered here will be ignored unless **coordinate_lat_long_units** = [deg. min. sec.](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#deg__min__sec_)." %}
 
 **CONDITIONALLY REQUIRED** (if **coordinate_lat_long_units** =[deg. min. sec.](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#deg__min__sec_))
 
@@ -389,9 +354,7 @@ Anything entered here will be ignored unless **coordinate_lat_long_units** = [de
 
 **Degrees Decimal Minutes**
  
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Anything entered here will be ignored unless **coordinate_lat_long_units** = [degrees dec. minutes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#degrees_dec__minutes).
+{% include caution.html content="Anything entered here will be ignored unless **coordinate_lat_long_units** = [degrees dec. minutes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#degrees_dec__minutes)." %}
 
 **CONDITIONALLY REQUIRED** (if **coordinate_lat_long_units** =[degrees dec. minutes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#degrees_dec__minutes))
 
@@ -409,9 +372,7 @@ Anything entered here will be ignored unless **coordinate_lat_long_units** = [de
 
 **UTM**
  
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Anything entered here will be ignored unless **coordinate_lat_long_units** = [UTM](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#utm).
+{% include caution.html content="Anything entered here will be ignored unless **coordinate_lat_long_units** = [UTM](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#utm)." %}
 
 **CONDITIONALLY REQUIRED** (if **coordinate_lat_long_units** =[UTM](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlat_long_units#utm))
 

@@ -50,9 +50,7 @@ After the additions have been made, you can confirm the agents by performing the
 
 You may want to discard the verbatim agent attributes because they seem redundant, but in most cases they provide good information about verbatim documentation and should be left in place. If they are truly redundant (the new agent name is exactly the same), these attributes can be removed using the [Attribute Unload Tool](https://arctos.database.museum/tools/BulkUnLoadAttribute.cfm). 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-The Attribute Unload Tool will unload ALL verbatim agent attributes from the records indicated in the tool. If any records contain verbatim agents other than the one you want to remove, you may want to check with a DBA to have them removed for you. 
+{% include caution.html content="The Attribute Unload Tool will unload ALL verbatim agent attributes from the records indicated in the tool. If any records contain verbatim agents other than the one you want to remove, you may want to check with a DBA to have them removed for you." %} 
 
 ## Video Tutorial
 

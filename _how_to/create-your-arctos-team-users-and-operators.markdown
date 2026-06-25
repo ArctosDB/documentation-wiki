@@ -100,8 +100,6 @@ Deleting agents will destroy their edit history and may have other unintended co
 
 Users who have their account locked and are subsequently re-granted access must use their original operator account and they will again have access to any collections to which they were previously granted access. 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
-
-**Do Not** unlock an account unless you are fully aware of the circumstances under which it was locked and are, or are in communication with, the “supervisor” of all collections to which the user has access. Assume all unlock requests are phishing attacks until proven otherwise.
+{% include caution.html content="**Do Not** unlock an account unless you are fully aware of the circumstances under which it was locked and are, or are in communication with, the “supervisor” of all collections to which the user has access. Assume all unlock requests are phishing attacks until proven otherwise." %}
 
 Operators with global_admin access may unlock accounts from the “manage Arctos user” page.

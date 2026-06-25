@@ -79,17 +79,13 @@ Localities may be treated in several different ways.
 * If you have many specimens from a single specific locality, you may want to create that locality, name it, and use the locality name in your bulkload file. 
 * You can also bulkload your data with the localities you have entered
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
-
-Localities that are exactly alike should load as a single locality shared by many specimens, but just one little difference (a capital letter or period, for example) will create two localities when you think there is only one.  These can be merged later, if you find them.
+{% include caution.html content="Localities that are exactly alike should load as a single locality shared by many specimens, but just one little difference (a capital letter or period, for example) will create two localities when you think there is only one.  These can be merged later, if you find them." %}
 
 ### Permission
 
 At least one person at every institution should have manage locality access, this person should read the documentation above and and respond in the appropriate Github issue that they understand that localities are a community resource and managing them means a commitment to the community that they will do their best to reduce the possibility of misspelled place names and to only edit localities with information that they are certain make the location more accurate. Once this is complete, they will be given permission to [manage locality](https://arctos.database.museum/Admin/user_roles.cfm#manage_locality).
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-At this point, records can be loaded to Arctos and the remaining data can be added to them using component loader tools. This can simplify the process of data migration and allow for more detailed review of components such as attributes, parts, collectors, preparators, and identifiers.
+{% include tip.html content="At this point, records can be loaded to Arctos and the remaining data can be added to them using component loader tools. This can simplify the process of data migration and allow for more detailed review of components such as attributes, parts, collectors, preparators, and identifiers." %}
 
 * Github Issue Template: [11. Bulkload Legacy Data](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&projects=&template=11--bulkload-legacy-data.md&title=Acronym+Collection+-+11.+Bulkload+Legacy+Data) 
 

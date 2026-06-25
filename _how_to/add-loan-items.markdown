@@ -34,10 +34,7 @@ Click the "Add all checked parts to the transaction" button to finalize. You can
 
 ![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/a29d5178-ebcc-4baa-872d-3be15175d149)
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tips**
-
-There are many customizations available on the Loan Summary page. Operators can filter results by Disposition or Part, use the "Check All" button as a shortcut to quickly add all results to the loan, and turn on or off various fields from the Show/Hide menu to reconfigure the results display.  
-![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/b26ce6e6-16fe-4778-bfb7-03bb143150d4)
+{% include tip.html content="There are many customizations available on the Loan Summary page. Operators can filter results by Disposition or Part, use the _Check All_ button as a shortcut to quickly add all results to the loan, and turn on or off various fields from the Show/Hide menu to reconfigure the results display. ![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/b26ce6e6-16fe-4778-bfb7-03bb143150d4)" %}
 
 Other ways to add loan items: 
 
@@ -47,7 +44,7 @@ A tool to [bulkload loan items](https://handbook.arctosdb.org/how_to/How_To_Bulk
 
 ### Container Leaf Nodes
 
-[How To Find Parts for a Loan Using Object Tracking (Barcodes)](https://handbook.arctosdb.org/how_to/How-To-Find-Parts%20for-a-Loan-Using%20Object%20Tracking-Existing-Freezer-Box.html
+[How To Find Parts for a Loan Using Object Tracking (Barcodes)](https://handbook.arctosdb.org/how_to/How-To-Find-Parts%20for-a-Loan-Using%20Object%20Tracking-Existing-Freezer-Box.html)
 
 Find any container, view leaf nodes
 

@@ -27,8 +27,7 @@ No fields may include a non-printing character, leading spaces, or trailing spac
 ### Catalog Numbers
 Catalog numbers must match the expected format for the collection and may not already exist in Arctos. Duplicate catalog numbers are not allowed in Arctos. Any duplicate of an existing number will generate and error and fail to upload.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-Collections using the integer catalog number format can leave catalog number blank and Arctos will assign the next available integer catalog number to the record as it is loaded.
+{% include tip.html content="Collections using the integer catalog number format can leave catalog number blank and Arctos will assign the next available integer catalog number to the record as it is loaded." %}
 
 * [iDigBio Data Quality Toolkit: Duplicate catalog numbers](https://www.idigbio.org/wiki/index.php/Arctos_Data_Quality_Toolkit#Duplicate_Catalog_Numbers)
 

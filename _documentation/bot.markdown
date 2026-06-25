@@ -20,8 +20,6 @@ To allow an Arctos Bot to make edits in a collection, manage the Arctos Bot user
 
 Note that the access check is cached and will take about an hour to be recognized by the associated component loader.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-**Do not attempt to edit any bot agent profile (e.g. remarks or status) or operator account (eg Locked status). Ignoring this will result in your account being locked.** 
+{% include caution.html content="**Do not attempt to edit any bot agent profile (e.g. remarks or status) or operator account (eg Locked status). Ignoring this will result in your account being locked.**" %}
 
 Simply click on Manage in the operator account and Grant Access to collection(s) you manage.

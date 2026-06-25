@@ -8,9 +8,7 @@ redirect_from:
 
 **Documentation: [Object Tracking](https://handbook.arctosdb.org/documentation/container.html)**
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-To create containers with barcodes, barcodes must be reserved FIRST.  See [Develop your Barcode Series](https://handbook.arctosdb.org/how_to/How-to-Start-Object-Tracking.html#develop-your-barcode-series).
+{% include tip.html content="To create containers with barcodes, barcodes must be reserved FIRST.  See [Develop your Barcode Series](https://handbook.arctosdb.org/how_to/How-to-Start-Object-Tracking.html#develop-your-barcode-series)." %}
 
 Once claimed, barcodes must be created and associated with a container. You can associate barcodes with a temporary container type. This is accomplished as described in “Creating Containers” below. Once the barcodes have been uploaded into Arctos, the containers that they represent can be edited as described in "Editing an Individual Container" and "Bulk Editing Containers".
 
@@ -40,9 +38,7 @@ Before using this tool, create a CSV (comma delimited) file with appropriate col
  
    * **width, height, length** - If you know the dimensions of your containers, you can add them here. All three columns must be completed together.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Only enter integers in these fields. Arctos is assuming that all measurements are in centimeters, so be sure to convert any measurements that you have in other units to centimeters.
+{% include caution.html content="Only enter integers in these fields. Arctos is assuming that all measurements are in centimeters, so be sure to convert any measurements that you have in other units to centimeters." %}
 
    *  **number_rows, number_columns, orientation, positions_hold_container_type** - If you want to create standard positions in your containers, you can add them here. All four columns must be completed together.
 

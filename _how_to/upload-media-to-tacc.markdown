@@ -37,9 +37,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 * Within that directory, you can organize your media files however you want
 * Internal path /corral-tacc/projects/arctos/web/ writes to external path https://web.corral.tacc.utexas.edu/arctos/
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-Read [Best Practice - Managing Directory Structures in the Arctos Project Allocation at TACC](https://handbook.arctosdb.org/best_practices/TACC_allocation.html)
+{% include tip.html content="Read [Best Practice - Managing Directory Structures in the Arctos Project Allocation at TACC](https://handbook.arctosdb.org/best_practices/TACC_allocation.html)" %}
 
 We consider it a best practice to create "daily" folders to manage your files beyond any shared folders 
 
@@ -51,8 +49,7 @@ institution_acronym (for Arctos accounting) and the dailies (for everyone's sani
 
 It is also a best practice to avoid spaces in your folder and file names.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
-
+## Things to be aware of
 * Directories created by a user other than the Arctos DBA may only be written to or edited by the user who created them. 
 * Files loaded to TACC in this manner are immediately available on the web and available for use in the Media Bulkloader (or alternate tool of your choice).
 * There are currently no postload processing tools in place. If you have .tif files but want to make .jpg public, you should convert the files locally and upload the .jpg files.

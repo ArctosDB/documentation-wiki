@@ -46,17 +46,13 @@ The default data entry order is as follows:
 6. Record Attributes
 7. Parts
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Your browser will do whatever it wants if order isn't unique!
+{% include caution.html content="Your browser will do whatever it wants if order isn't unique!" %}
 
 ### _count
 
 For any data entry block where multiple rows are allowed, you can select how many rows you want to appear on the data entry page. For instance, if you tend to catalog multiple parts per record such as "skin," "skull," "skeleton," and "tissue," you can set the Parts count to 4, whereas another user that strictly enters one part per record, such as "object," may want to reduce the number of unneceassry fields displayed, instead setting the Part count to 1.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Pro Tip**
-
-You cannot increase the number of rows for any section while in the process of data entry and a return to customization will lose whatever data you have entered but not saved, so you may want to include extra rows just in case.
+{% include tip.html content="You cannot increase the number of rows for any section while in the process of data entry and a return to customization will lose whatever data you have entered but not saved, so you may want to include extra rows just in case." %}
 
 ## Individual Field Behavior
 
@@ -86,13 +82,9 @@ Data entered here will auto-populate in the data entry form. This is useful when
 ### Pulled 
 This field will be populated with any data that has been recorded in the data entry form using the **Pull values from form** button at the top right of the page.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution*
+{% include caution.html content="Pulled values will not automatically save. Select **use** next to the values that you want to keep." %}
 
-Pulled values will not automatically save. Select **use** next to the values that you want to keep.
-
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-If you want to keep all of the values, save time by selecting the **Use all values from form** button at the top right of the screen.
+{% include tip.html content="If you want to keep all of the values, save time by selecting the **Use all values from form** button at the top right of the screen." %}
 
 ## Save Profile
 

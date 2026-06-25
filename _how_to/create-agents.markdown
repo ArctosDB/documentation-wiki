@@ -40,10 +40,7 @@ Here are some examples of this treatment, although they are all lacking in compl
 
 [David Stephen Taylor (MVZ)](https://arctos.database.museum/agents.cfm?agent_id=21309995)
 
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-An agent must include at least one status, relationship, or address OR be a determiner, author, or participant in a publication/project or it will be subject to removal. When this occurs, the agent name will be placed in the [verbatim agent  attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) in all records where it appeared as a collector or preparator.
+{% include tip.html content="An agent must include at least one status, relationship, or address OR be a determiner, author, or participant in a publication/project or it will be subject to removal. When this occurs, the agent name will be placed in the [verbatim agent  attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) in all records where it appeared as a collector or preparator." %}
 
 ## Create a New Agent
 
@@ -73,9 +70,7 @@ An agent should never have more than one name of type "login". For Arctos operat
 
 ## Agent Remarks
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-Agent remarks are NOT meant to replace Agent data! Any information in any remark that could coplete an agent status, relationship, or address should be placed in the appropriate section, even if it is repeated in the remark.
+{% include tip.html content="Agent remarks are NOT meant to replace Agent data! Any information in any remark that could coplete an agent status, relationship, or address should be placed in the appropriate section, even if it is repeated in the remark." %}
 
 ### Agent Remark (public)
 This free text field will appear on the agent's public page. Do not include any personal details or sensitive information in the remark without express permission from the agent. Only information that is already publicly available should be included here, but also see the **Pro Tip** above!
@@ -89,9 +84,7 @@ This free text field will appear on the agent's edit page, so will only be visib
 
 Agent status applies to both person and organization Agents. It may sound funny, but organizations in Arctos are born and die. This keeps our tables simple and makes it easy for Arctos to find low quality data where the actions of an agent occur outside of their lifetime. These dates are not included on the agent's public page.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-When adding birth and death dates, put the source of the information in the remark field. The date needs to be in YYYY-MM-DD format (which means that YYYY is fine too) and belongs in the yellow field when editing.
+{% include tip.html content="When adding birth and death dates, put the source of the information in the remark field. The date needs to be in YYYY-MM-DD format (which means that YYYY is fine too) and belongs in the yellow field when editing." %}
 
 ![](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/tutorial_images/Agents/Agent_status.jpg)
 

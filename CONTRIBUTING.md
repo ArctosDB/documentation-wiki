@@ -71,6 +71,30 @@ date_updated: YYYY-MM-DD
 
 Follow the section structure in the template. Do not add a `# Title` heading — the title renders automatically from the `title` front matter field.
 
+## Highlight boxes
+
+Use highlight boxes to call out tips, cautions, and frequently asked questions inline in your content.
+
+```liquid
+{% include tip.html content="Your tip text here." %}
+{% include caution.html content="Watch out for this." %}
+{% include faq.html content="Commonly asked question and answer." %}
+```
+
+Content supports Markdown, including links:
+
+```liquid
+{% include tip.html content="See [batch-loading agents]({% link _how_to/batch-loading-agents.markdown %}) for details." %}
+```
+
+If your content must include quotation marks, escape in the code using a single quote:
+
+```liquid
+{% include caution.html content='Trying to use "double quotation marks" in your content block confuses the code unless you switch to single quotation marks.' %}
+```
+
+Use **tip** for helpful shortcuts or context, **caution** for actions that could cause data loss or unexpected results, and **faq** for questions that come up repeatedly.
+
 ## Submit your changes
 
 Open a pull request against the `gh-pages` branch of [ArctosDB/documentation-wiki](https://github.com/ArctosDB/documentation-wiki).

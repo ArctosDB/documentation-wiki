@@ -34,8 +34,6 @@ To merge two Agents, create a [bad duplicate of](https://arctos.database.museum/
 
 To stop a proposed Agent merge, remove the [bad duplicate of](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_relationship#bad_duplicate_of) relationship. Add disambiguating information and add the ["not the same as"](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_relationship#not_the_same_as) relationship to discourage future attempts to merge the Agents. 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
 If disambiguating information is available, add it.
 
 ## Video Tutorial

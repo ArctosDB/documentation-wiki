@@ -8,10 +8,7 @@ redirect_from:
 
 ## [Users Documentation](https://handbook.arctosdb.org/documentation/users.html#unlocking)
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) 
-**Caution** 
-
-**Do Not** unlock an account unless you are fully aware of the circumstances under which it was locked and are, or are in communication with, the “supervisor” of all collections to which the user has access. Assume all unlock requests are phishing attacks until proven otherwise.
+{% include caution.html content="**Do Not** unlock an account unless you are fully aware of the circumstances under which it was locked and are, or are in communication with, the “supervisor” of all collections to which the user has access. Assume all unlock requests are phishing attacks until proven otherwise." %}
 
 **Navigation: [Manage Arctos > Roles/Permissions > Arctos Users](https://arctos.database.museum/AdminUsers.cfm)**
 

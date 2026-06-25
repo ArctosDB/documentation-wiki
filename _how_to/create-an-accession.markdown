@@ -8,13 +8,11 @@ redirect_from:
 
 [Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
-
-> Accessioning is the formal act of legally accepting an object or objects to the category of material that a museum holds in the public trust, or in other words those in the museum’s permanent collection. Because it commits staff time, space and other resources to the proper care of this material, it is important that acquiring material for the collections be done in a thoughtful, inclusive way that reflects the best interests of the museum and its audiences, and can be sustained by the available resources. 
+{% include tip.html content="Accessioning is the formal act of legally accepting an object or objects to the category of material that a museum holds in the public trust, or in other words those in the museum’s permanent collection. Because it commits staff time, space and other resources to the proper care of this material, it is important that acquiring material for the collections be done in a thoughtful, inclusive way that reflects the best interests of the museum and its audiences, and can be sustained by the available resources." %}
 
 - <a href="https://www.aam-us.org/wp-content/uploads/2018/01/acquisitions-activity.pdf">American Alliance of Museums</a>
 
-<img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50"> **Is an accession number required for all specimen records?**
+{% include caution.html content="Is an accession number required for all specimen records?" %}
 
 Yes, an accession number is required, but if you choose not to create individual accessions or do not have that info available, you can create a legacy accession (e.g. 0000.00.Herp). You can later move groups of specimens to other accessions as you find the documentation or discover reasons to create them. 
 
@@ -29,9 +27,7 @@ You will be directed to a page where you can enter information required to creat
 
 **Accn Number:**
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution** 
-
-Some institutions use Accession Number in place of Catalog Number for a specific cataloged item. In Arctos, these numbers are not the same. There may be multiple cataloged items in a single accession.
+{% include caution.html content="Some institutions use Accession Number in place of Catalog Number for a specific cataloged item. In Arctos, these numbers are not the same. There may be multiple cataloged items in a single accession." %}
 
 * Choose a number to identify the accession.  Since accessions are specific to individual collections, their format is customizable.  NMU:Mamm uses “year.number” (eg, 2013.02).  For example, if this will be the first (or only) accession from the year 2013, the accession number would be 2013.01. If this is the second, third, or fourth accession the numbers would be 2013.02, 2013.03, or 2013.04.
 

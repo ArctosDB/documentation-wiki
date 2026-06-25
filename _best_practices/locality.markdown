@@ -58,9 +58,7 @@ locality. Named Localities:
 
 It is recommended to use simple ASCII characters, avoiding anything which might be confused for a list delimiter (commas, for example), or which might complicate copying/pasting (spaces, for example) in naming localities. Several Arctos UIs will generate UUIDs for locality names by request.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-If you have absolutely no locality data, use the Locality Name **NULL Locality Data** and skip entering anything else related to locality.
+{% include tip.html content="If you have absolutely no locality data, use the Locality Name **NULL Locality Data** and skip entering anything else related to locality." %}
 
 ## Specific Locality
 
@@ -72,7 +70,6 @@ Specific Locality is a standardization of verbatim_locality.
 
 When writing Specific Localities, the highest priority should be to maximize clarity and minimize confusion for a global audience, and for machine understanding (such as automated georeferencing). Geolocate is sometimes really picky on spelling. For example: a locality of "Lodge Pole Creek" was coming back with basically a random point - near a lodge or something a state away. "Lodgepole Creek" (which is also the label on Google Maps) returned accurate data.
     
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) 
 ### Pro Tips
 
 #### Tip 1: Leave Out Higher Geography 

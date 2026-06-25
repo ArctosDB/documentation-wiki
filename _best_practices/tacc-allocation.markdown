@@ -10,11 +10,9 @@ redirect_from:
 
 What is the Arctos Project Allocation at TACC? Start by reading the [Arctos TACC Project Allocation Digital Media Policy](https://docs.google.com/document/d/1unq0N5bKDCVznnbHpe21Xiy4K4spW4b7g-YqqcDd2nQ/edit?usp=sharing). 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
-
-* The Arctos Project Allocation at TACC is shared by all Arctos members. Always use caution when creating or editing a shared resource and make sure that others who might be affected by a change are notified beforehand. 
-* Files stored in the Arctos Project Allocation at TACC are publicly accessible through their created URLs immediately upon upload.
-* Files loaded to the Arctos Project Allocation at TACC and linked to Arctos records should be considered to be **archived in perpetuity**.
+{% include caution.html content="The Arctos Project Allocation at TACC is shared by all Arctos members. Always use caution when creating or editing a shared resource and make sure that others who might be affected by a change are notified beforehand." %} 
+{% include caution.html content="Files stored in the Arctos Project Allocation at TACC are publicly accessible through their created URLs immediately upon upload." %}
+{% include caution.html content="Files loaded to the Arctos Project Allocation at TACC and linked to Arctos records should be considered to be **archived in perpetuity**." %}
 
 ## Who Manages the Arctos Project Allocation at TACC?
 Only a TACC-authorized manager can provide acces to and create shared directories in the Arctos Project Allocation at TACC.
@@ -42,11 +40,9 @@ for example
 ```
 institution_acronym (for Arctos accounting) and the dailies (for everyone's sanity) are the important parts, the "project folders" in the middle are entirely optional, but if they are to be shared, they should be created by the TACC-authorized manager.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**  
-
-* Avoid the use of spaces in folder and file names.
-* Directories created by TACC users are only accessible to the TACC user who created them but directories created by the TACC-authorized manager can be made accessible to any authorized TACC user. 
-* TACC storage is considered to be an archive and files should not be unloaded, however, files may be removed by the TACC user who uploaded them.
+{% include caution.html content="Avoid the use of spaces in folder and file names." %}
+{% include caution.html content="Directories created by TACC users are only accessible to the TACC user who created them but directories created by the TACC-authorized manager can be made accessible to any authorized TACC user." %} 
+{% include caution.html content="TACC storage is considered to be an archive and files should not be unloaded, however, files may be removed by the TACC user who uploaded them." %}
 
 ## General Recommendations for Naming Files in the Arctos Project Allocation at TACC
 * Follow standard file naming practices in [Arctos Media: Media URI Documentation](/documentation/media.html#media-uri). Specifically, name files using ony A-Z, a-z, 0-9, and _ 

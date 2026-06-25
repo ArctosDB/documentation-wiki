@@ -21,15 +21,11 @@ Use the the "[Get a template](https://arctos.database.museum/tools/BulkloadParts
 
 * Formatting is very important, so make sure you are typing things into the spreadsheet exactly as they appear when you pull up a catalog record part in Arctos. 
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-> For details about what should be included in each field of the Part Bulkload, see the Definitions and Documentation section of the [Parts Bulkload Tool](https://arctos.database.museum/tools/BulkloadParts.cfm?action=ld) and follow the links for each column header for more information.  
+{% include tip.html content="For details about what should be included in each field of the Part Bulkload, see the Definitions and Documentation section of the [Parts Bulkload Tool](https://arctos.database.museum/tools/BulkloadParts.cfm?action=ld) and follow the links for each column header for more information." %} 
  
 * When the template is complete, save the file as a csv
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-For better formatting when using Excel see [How To Manage Excel for Arctos](https://handbook.arctosdb.org/how_to/How-to-Excel-for-Arctos.html)
+{% include tip.html content="For better formatting when using Excel see [How To Manage Excel for Arctos](https://handbook.arctosdb.org/how_to/How-to-Excel-for-Arctos.html)" %}
 
 ## Upload CSV to the Part Bulkload Tool 
 

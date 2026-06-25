@@ -54,9 +54,7 @@ Anyone who is a contact for the collection must first be entered into Arctos as 
 
 ### Contact Role
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
-
-It is recommended that every collection have at least one contact for each role with the exception of mentor, which is optional. Technical Support contact should be given as Dusty L. McDonald unless otherwise advised. 
+{% include tip.html content="It is recommended that every collection have at least one contact for each role with the exception of mentor, which is optional. Technical Support contact should be given as Dusty L. McDonald unless otherwise advised." %} 
 
 For each contact, specify their [Contact Agent Role](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_CONTACT_ROLE) through the dropdown of choices.
 
@@ -139,10 +137,8 @@ Select from the dropdown of choices. This contains options for licensing _data_ 
 **REQUIRED**
 Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection to external sources, such as GBIF and iDigBio. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#methods" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
-
-The External License is used by the Arctos EML Generator and included in Darwin Core collection metadata made available to aggregators. Note that GBIF will not accept data which isn't licensed according to their standards - [link](https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg). **It is advised that the external license be set to CC0**
-The Internal License (which may be the same as the External License) accompanies the richer data in Arctos. Both are accompanied by Collection Terms; the [VertNet Guide to Copyright and Licenses for Data Publication](http://vertnet.org/resources/datalicensingguide.html) is a good place to learn more about how the data aggregators view licensing.
+{% include tip.html content="The External License is used by the Arctos EML Generator and included in Darwin Core collection metadata made available to aggregators. Note that GBIF will not accept data which isn't licensed according to their standards - [link](https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg). **It is advised that the external license be set to CC0**
+The Internal License (which may be the same as the External License) accompanies the richer data in Arctos. Both are accompanied by Collection Terms; the [VertNet Guide to Copyright and Licenses for Data Publication](http://vertnet.org/resources/datalicensingguide.html) is a good place to learn more about how the data aggregators view licensing." %}
 
 ### Collection Terms
 **REQUIRED**
@@ -152,9 +148,7 @@ Collection Terms accompanies the licenses, and provides a method by which collec
 **REQUIRED**
 A direct link to the loan policy for that collection or institution.
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip** 
-
-Before selecting your terms and licenses, read <a href="https://handbook.arctosdb.org/how_to/How-To-Apply-Licensing-and-Terms.html" target="_blank">How to Apply Licensing and Terms</a>
+{% include tip.html content="Before selecting your terms and licenses, read [How to Apply Licensing and Terms](https://handbook.arctosdb.org/how_to/How-To-Apply-Licensing-and-Terms.html)" %}
 
 ## Collection Defaults
 
@@ -162,9 +156,7 @@ Before selecting your terms and licenses, read <a href="https://handbook.arctosd
 **REQUIRED**
 The term selected in this field will be the default for all catalog records in the collection and is passed to biodiversity data aggregators as BasisOfRecord. Individual catalog records can be modified to use a different term if required. Terms available can be found in the <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcataloged_item_type" target=_blank>CATALOG_ITEM_TYPE code table</a>.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Selecting a term that is not compatible with GBIF allowable terms will cause an entire collection to be refused publishing by GBIF.
+{% include caution.html content="Selecting a term that is not compatible with GBIF allowable terms will cause an entire collection to be refused publishing by GBIF." %}
 
 ### Taxonomy Sources
 **REQUIRED**
@@ -218,9 +210,7 @@ W | E | N | S
 
 See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#geographic-coverage" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-This site can be useful for US bounding boxes - https://anthonylouisdagostino.com/bounding-boxes-for-all-us-states/ or search for "coordinate bounding box if you need other parts of the world.
+{% include tip.html content="This site can be useful for US bounding boxes - https://anthonylouisdagostino.com/bounding-boxes-for-all-us-states/ or search for coordinate bounding box if you need other parts of the world." %}
 
 ### General Taxonomic Coverage
 **RECOMMENDED for those publishing to GBIF**

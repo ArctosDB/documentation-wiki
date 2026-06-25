@@ -21,7 +21,7 @@ Important things to keep in mind when designing your barcode system include:
   1. A single cataloged item may contain multiple parts, depending on the type of specimen; e.g dried or fluid preserved material, microscope slides, photographs, frozen tissues, etc that may be stored in different locations or even different facilities
   2. The catalog number and the barcode should not be the same.  Barcodes track the containers that hold the physical parts of specimens and because a single specimen can have multiple parts, individual barcodes are required for EACH part. 
    
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">  Why can't I place a barcode on my herbarium sheet that is the catalog number?</p>  
+{% include faq.html content="Why can't I place a barcode on my herbarium sheet that is the catalog number?" %} 
 
 You can do that. You can create barcodes that correspond to the web address of the specimen to make it easy for anyone to get to the specimen data, but if you want to use a barcode to track the location of your specimen, we recommend something other than the catalog number because object tracking barcodes need to be unique for each container. As soon as you come to a herbarium specimen that is prepared on two or more sheets (the sheets are the containers), using the catalog number for object tracking becomes problematic. 
    
@@ -32,7 +32,8 @@ You can do that. You can create barcodes that correspond to the web address of t
     c. Media (non-digital), or devices containing digital media
     d. Types of containers including rooms, cabinets, freezers, ranges, bays, jars, slide boxes, vials etc., as specified in the [controlled vocabulary for container types](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCONTAINER_TYPE)
     
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20FAQ.jpg" width="50">  How do I change the labels on positions?  
+{% include faq.html content="How do I change the labels on positions?" %} 
+
 Every time I try it says positions aren’t editable.  So in Freezer 2 I have position 1 and then under that I have freezer rack 1.  Why the redundancy?  Why isn’t position 1 just freezer rack 1?</p>  
     
 The positions are empty spaces. "Freezer rack 1" is what goes into the space that is position 1 in the freezer. It seems redundant for the larger stuff, but the cryovial that goes into position 1 of a freezer box probaly won't be labeled "cryovial 1" and really, the rack that goes into position 1 in a freezer doesn't HAVE to be called "rack 1", you could label it "woodrat tragedy tissues" if you want! Arctos object tracking owns the positions, you own what goes into them.  

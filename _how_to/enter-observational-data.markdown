@@ -13,9 +13,7 @@ An observation in Arctos should “represent an occurrence record rather than a 
 
 ## Collection Type
 
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
-
-Do not rely on the collection name or code to indicate whether the cataloged items are observations.
+{% include caution.html content="Do not rely on the collection name or code to indicate whether the cataloged items are observations." %}
 
 Some institutions prefer to record observations in a separate collection. 
 

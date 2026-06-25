@@ -32,13 +32,7 @@ value |  ``https://arctos.database.museum/guid/MSB:Mamm:11405`` (or ``MSB:Mamm:1
 [type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OTHER_ID_TYPE) | [Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#arctos_record_guid) 
 remark | say whatever you need to say 
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-   The most important selection for making links between Arctos records is
-
-   type = [Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#arctos_record_guid)
-
-   This lets Arctos do much of the work for you and provides a check to ensure that links will be operational. All values that are associated with a valid Arctos collection either through a record url (or triplet) will have the issued by automatically inserted by Arctos. Also note that if only the record triplet is entered in the value, Arctos will assume intention and convert to the GUID automatically.
+{% include tip.html content="The most important selection for making links between Arctos records is _type_ = [Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#arctos_record_guid). This lets Arctos do much of the work for you and provides a check to ensure that links will be operational. All values that are associated with a valid Arctos collection either through a record url (or triplet) will have the issued by automatically inserted by Arctos. Also note that if only the record triplet is entered in the value, Arctos will assume intention and convert to the GUID automatically." %}
 
 If you enter a value that does not match an existing Arctos collection's prefix, you will recieve an error as Arctos lets you know that all other identifiers of type [Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#arctos_record_guid) must be included in an existing Arctos collection.
 
@@ -60,13 +54,7 @@ value | http://www.ncbi.nlm.nih.gov/nuccore/AF520643
 [type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OTHER_ID_TYPE) | [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) 
 remark | say whatever you need to say 
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-   The most important selection for making links between Arctos records and external resources is
-
-   value = **the entire url of the related resource**
-
-   Selecting an inappropriate issued by or type (other than Arctos record GUID, which will cause an error) does not functionally change the fact that the record will now include a link to an external resource (as long as you have entered a working url!).
+{% include tip.html content="The most important selection for making links between Arctos records and external resources is _value_ = **the entire url of the related resource**. Selecting an inappropriate issued by or type (other than Arctos record GUID, which will cause an error) does not functionally change the fact that the record will now include a link to an external resource (as long as you have entered a working url!)." %}
 
 ### Other Resolvable Identifier Cheat Sheet
 
@@ -93,11 +81,7 @@ value | USNM 12345
 [type](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_OTHER_ID_TYPE) | [identifier](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type#identifier) 
 remark | say whatever you need to say 
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-   The most important selection for adding informative other identifiers that do not link to other Arctos records or any external resource is
-
-   issued by = **the most specific Arctos agent possible to describe who created this identifier**
+The most important selection for adding informative other identifiers that do not link to other Arctos records or any external resource is _issued by_ = **the most specific Arctos agent possible to describe who created this identifier**
 
 Selecting an inappropriate type (other than Arctos record GUID, which will cause an error) does not functionally change the fact that the record will now include an identifier that might be used to eventually create a resolvable relationship to an external resource or Arctos record should the agent used start publishing urls for their records. 
 
