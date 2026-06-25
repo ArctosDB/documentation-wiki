@@ -1,11 +1,17 @@
 <header class="site-header">
 
+  <!-- ── Site logo / title ──────────────────────────────────────────────── -->
+  <!-- Links to site root; image source is an SVG banner in images/headers/ -->
   <a class="site-title" href="{{ site.baseurl }}/">
     <div class="wrapper">
       <img src="{{site.baseurl}}/images/headers/wp-banner-02.svg" alt="{{site.title}}" />
     </div>
   </a>
+
+  <!-- ── Navigation ─────────────────────────────────────────────────────── -->
   <nav class="site-nav">
+
+    <!-- Hamburger icon for mobile (toggles .trigger via Bootstrap collapse) -->
     <a href="#" class="menu-icon">
       <svg viewBox="0 0 18 15">
         <path fill="#424242"
@@ -19,22 +25,29 @@
 
     <div class="trigger">
       <ul class="main-nav">
+
+        <!-- Hard-coded Home link (not driven by navigation.yml) -->
         <li><a class="page-link link" href="{{site.baseurl}}/">Home</a></li>
+
+        <!-- Remaining nav items from _data/navigation.yml (main key) -->
+        <!-- Active state: exact match for '/', prefix match for all other URLs -->
         {% for item in site.data.navigation.main %}
         {% assign is_active = false %}
         {% if item.url == '/' %}
-        {% if page.url == '/' %}{% assign is_active = true %}{% endif %}
+          {% if page.url == '/' %}{% assign is_active = true %}{% endif %}
         {% elsif page.url contains item.url %}
-        {% assign is_active = true %}
+          {% assign is_active = true %}
         {% endif %}
         {% if item.external %}
-        <li><a class="page-link link" href="{{ item.url }}">{{ item.label }}</a></li>
+          <!-- External links: no baseurl prefix -->
+          <li><a class="page-link link" href="{{ item.url }}">{{ item.label }}</a></li>
         {% elsif is_active %}
-        <li class="active"><a class="page-link link" href="{{ site.baseurl }}{{ item.url }}">{{ item.label }}</a></li>
+          <li class="active"><a class="page-link link" href="{{ site.baseurl }}{{ item.url }}">{{ item.label }}</a></li>
         {% else %}
-        <li><a class="page-link link" href="{{ site.baseurl }}{{ item.url }}">{{ item.label }}</a></li>
+          <li><a class="page-link link" href="{{ site.baseurl }}{{ item.url }}">{{ item.label }}</a></li>
         {% endif %}
         {% endfor %}
+
       </ul>
     </div>
   </nav>

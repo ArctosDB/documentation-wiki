@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
 
+{%- comment -%}
+  Layout: default
+  Used by: _documentation/, _best_practices/, _how_to/ (see _config.yml defaults)
+  Purpose: Standard content page with auto-generated ToC sidebar, draft banner,
+           collection-aware title prefix, and page-meta footer.
+{%- endcomment -%}
+
 {% include head.html %}
 
+<!-- data-spy="scroll" + data-target="#toc": Bootstrap scrollspy highlights the active
+     ToC section as the user scrolls through the page -->
 <body data-spy="scroll" data-target="#toc">
 
   {% include header.html %}
 
   <main class="page-content container-fluid clearfix">
+
+    <!-- bootstrap-toc: generates ToC from page headings and highlights active section on scroll -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.css">
     <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js"></script>
+
     <div class="nav-container row clearfix" style="overflow-x:hidden">
+
+      <!-- ── Sidebar: search + ToC ─────────────────────────────────────── -->
+      <!-- data-toggle="toc": tells bootstrap-toc to populate this nav with page headings -->
+      <!-- data-spy="affix": pins the sidebar after scrolling past it -->
       <nav class="toc clearfix col-xs-12 col-md-2" id="toc" data-toggle="toc" data-spy="affix"
         style="top:200px; overflow-x:hidden;">
         <div id="search-container" class="form">
@@ -21,21 +37,25 @@
             <div class="input-group">
               <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
               <input type="text" id="search-input" placeholder="Search all writeups" class="form-control" />
+              <!-- Dummy input prevents browser autofill from targeting the real search field -->
               <input type="text" id="search-input-dummy" hidden />
             </div>
           </div>
-          <a href="https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=Documentation+Update&template=documentation-update-request.md&title=Documentation+update+-+ADD+DOCUMENT+TITLE"
-            target="_blank" ; style="font-size:14px; font-weight: bold;">Request Documentation Update</a>
 
+          <!-- Search results injected here by SimpleJekyllSearch -->
           <ul id="results-container"></ul>
         </div>
-        <!-- 
-               Generated ToC
-            -->
+        <!-- bootstrap-toc injects generated ToC links here -->
       </nav>
     </div>
+
+    <!-- ── Page content ─────────────────────────────────────────────────── -->
     <article class="wrapper">
+
+      <!-- Show draft banner if page front matter includes status: draft -->
       {% if page.status == 'draft' %}{% include draft-banner.html %}{% endif %}
+
+      <!-- Title prefix by collection: how_to → "How To:", best_practices → "Best Practice:" -->
       {% if page.collection == 'how_to' %}
         <h1><strong>How To:</strong> {{ page.title }}</h1>
       {% elsif page.collection == 'best_practices' %}
@@ -43,7 +63,10 @@
       {% else %}
         <h1>{{ page.title }}</h1>
       {% endif %}
+
       {{ content }}
+
+      <!-- Page footer: last updated date, contributors, GitHub and print links -->
       {% include page-meta.html %}
     </article>
   </main>

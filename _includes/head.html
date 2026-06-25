@@ -1,24 +1,31 @@
 <head>
+  <!-- ── Character encoding and rendering ───────────────────────────────── -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
 
+  <!-- ── Page metadata ──────────────────────────────────────────────────── -->
+  <!-- Title: uses page title if set, falls back to site title -->
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <!-- Description: uses page excerpt if available, truncated to 160 chars -->
   <meta name="description"
     content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <!-- Browser toolbar color (Chrome on Android) -->
   <meta name="theme-color" content="#003262" />
 
-  <!-- Bootstrap CSS -->
+  <!-- ── Stylesheets (CDN) ──────────────────────────────────────────────── -->
+  <!-- Bootstrap CSS must load before site styles so our overrides take precedence -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <!-- Site styles -->
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl
-    | prepend: site.url }}">
 
-  <!-- Favicons -->
+  <!-- ── Site stylesheet ────────────────────────────────────────────────── -->
+  <!-- Compiled from _sass/ via Jekyll; baseurl set in _config.yml / _config_preview.yml -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+  <!-- ── Canonical and feed links ───────────────────────────────────────── -->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- ── Favicons ───────────────────────────────────────────────────────── -->
   <link rel='shortcut icon' type='image/vnd.microsoft.icon' sizes='16x16' href='{{site.baseurl}}/images/favicon.ico' />
   <link rel='icon' type='image/png' sizes='16x16' href='{{site.baseurl}}/images/favicon16.png' />
   <link rel='icon' type='image/png' sizes='32x32' href='{{site.baseurl}}/images/favicon32.png' />
@@ -27,22 +34,26 @@
   <link rel='icon' type='image/png' sizes='256x254' href='{{site.baseurl}}/images/favicon256.png' />
   <link rel='icon' type='image/png' sizes='512x512' href='{{site.baseurl}}/images/favicon512.png' />
 
-  <!-- Fonts -->
+  <!-- ── Fonts (Google Fonts) ───────────────────────────────────────────── -->
   <link
     href='https://fonts.googleapis.com/css?family=Roboto:400,100,300|Open+Sans:400italic,600italic,700italic,400,700,600,Slabo+13px'
     rel='stylesheet' type='text/css' />
 
-  <!-- jQuery (must load before Bootstrap JS) -->
+  <!-- ── JavaScript ─────────────────────────────────────────────────────── -->
+  <!-- Load order matters: jQuery → Bootstrap → SimpleJekyllSearch → site scripts -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
-  <!-- Search -->
+  <!-- SimpleJekyllSearch: initialized in search-config.js (not inline) to avoid reinit on keypress -->
   <script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
 
+  <!-- Expose current page path for use by site scripts -->
   <script type="text/javascript">
     window.currentPagePath = "{{page.path}}";
   </script>
+  <!-- search-config.js: sets search URL (supports fork baseurl) and initializes SimpleJekyllSearch -->
   <script src="{{ site.baseurl }}/js/search-config.js"></script>
+  <!-- purl: URL parsing utility used by c.min.js -->
   <script src="{{site.baseurl}}/js/purl.min.js" type="text/javascript"></script>
+  <!-- c.min.js: legacy site script (minified); patched to use window._arctosSearchUrl and jQuery .fail() -->
   <script src="{{site.baseurl}}/js/c.min.js" type="text/javascript"></script>
 </head>
