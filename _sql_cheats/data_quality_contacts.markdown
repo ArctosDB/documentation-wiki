@@ -1,6 +1,6 @@
 ---
 title: List of Data Quality Contacts by Collection
-layout: default_toc
+layout: default
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
 date: 2021-07-29
 ---

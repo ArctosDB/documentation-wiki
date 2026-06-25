@@ -1,6 +1,6 @@
 ---
 title: List of Collections and their Taxonomy Sources
-layout: default_toc
+layout: default
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
 date: 2021-12-16
 ---

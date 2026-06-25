@@ -1,6 +1,5 @@
 ---
 title: Create Taxa in the Arctos Ichnology Taxonomy Source
-layout: default_toc
 author: Teresa J. Mayfield-Meyer
 date: 2021-05-19
 ---

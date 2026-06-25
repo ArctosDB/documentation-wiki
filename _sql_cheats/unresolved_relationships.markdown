@@ -1,6 +1,6 @@
 ---
 title: Find catalog records with unresolvable identifier relationships
-layout: default_toc
+layout: default
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
 date: 2021-11-18
 ---

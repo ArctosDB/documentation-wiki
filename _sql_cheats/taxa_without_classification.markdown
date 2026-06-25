@@ -1,6 +1,6 @@
 ---
 title: Taxon Names in use by a Collection that have no Classification
-layout: default_toc
+layout: default
 author: Dusty McDonald, Teresa J. Mayfield-Meyer
 date: 2021-08-10
 ---

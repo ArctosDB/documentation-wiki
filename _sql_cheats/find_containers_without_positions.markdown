@@ -1,6 +1,6 @@
 ---
 title: Find Containers Without Positions
-layout: default_toc
+layout: default
 author: Dusty McDonald, Chris Conroy, Teresa J. Mayfield-Meyer
 date: 2021-11-09
 ---

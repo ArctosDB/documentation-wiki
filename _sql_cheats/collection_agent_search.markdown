@@ -1,6 +1,6 @@
 ---
 title: Collector Search for a Single Collection
-layout: default_toc
+layout: default
 author: Dusty McDonald, Phyllis Sharp, Teresa J. Mayfield-Meyer
 date: 2021-09-20
 ---

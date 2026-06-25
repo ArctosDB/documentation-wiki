@@ -42,17 +42,17 @@ defaults:
       path: ""
       type: "documentation"
     values:
-      layout: "default_toc"
+      layout: "default"
   - scope:
       path: ""
       type: "best_practices"
     values:
-      layout: "default_toc"
+      layout: "default"
   - scope:
       path: ""
       type: "how_to"
     values:
-      layout: "default_toc"
+      layout: "default"
 
 # Build settings
 exclude: ["vendor/"]
