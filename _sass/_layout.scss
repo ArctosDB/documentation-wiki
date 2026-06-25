@@ -466,9 +466,9 @@ article {
 // These three @extend calls apply Bootstrap's table variants to all bare
 // <table> elements without needing a class on every table in content.
 table {
-  @extend .table-hover;
-  @extend .table;
-  @extend .table-condensed;
+  @extend .table-hover !optional;
+  @extend .table !optional;
+  @extend .table-condensed !optional;
 }
 
 
