@@ -71,7 +71,17 @@ date_updated: YYYY-MM-DD
 
 Follow the section structure in the template. Do not add a `# Title` heading — the title renders automatically from the `title` front matter field.
 
-## Highlight boxes
+#### Internal links
+
+To reference another page within this site, following this example code snippet, replacing the collection name and file name with whatever page you are linking to:
+
+```liquid
+[link text]({% link _how_to/page-name.markdown %})
+```
+
+Linking pages this way is more resilient than hard-coding links by including the full URL.
+
+#### Highlight boxes
 
 Use highlight boxes to call out tips, cautions, and frequently asked questions inline in your content.
 
