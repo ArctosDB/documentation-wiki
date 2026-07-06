@@ -1,8 +1,10 @@
 ---
 title: Authorities
-authors: Dusty L. McDonald
-date_updated: 
+layout: default_toc
+author: DLM
 ---
+
+# Authorities
 
 Arctos maintains authorities in order to standardize content that is [shared amongst all collections using Arctos](/documentation/sharing-data-and-resources).
 
@@ -55,17 +57,11 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 
 ### General Rules for Adding Code Table Terms
 
-#### CAUTION: This is still being discussed, see https://github.com/ArctosDB/arctos/issues/9141
+* Whenever possible terms should have a published reference or citation.
+* Terms and their definitions should be as general and unambiguous as possible.
+* Authorities may contain non-ASCII UTF characters, but the scope of this is unclear.
+    * Discussion: https://github.com/ArctosDB/arctos/issues/9141 
 
- - Use predictable Punctuation  
-    Allowed characters:
-     - a-Z
-     - 0-9
-     - space
-     - underscore
-     - apostrophe (UTF-8) (e.g., ‘)
- - Whenever possible terms should have a published reference or citation.
- - Terms and their definitions should be as general and unambiguous as possible.
 
 ### Specific Rules for Specific Code Tables
 
@@ -255,3 +251,8 @@ Geography is included here only for completeness. See [Geography Documentation](
 ### Agents
 
 Agents are included here only for completeness. See [Agent Documentation](/documentation/agent) for more information.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/authorities.markdown" target="_blank">here</a>.
+

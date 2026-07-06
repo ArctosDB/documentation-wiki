@@ -41,7 +41,8 @@ Existing institutions in good standing do not need to complete a Prospective Col
 4. Have your Loan Policy URL copied from menu item "Manage Data," "Metadata," "Manage Collection."
 5. After you've checked all the boxes, proceed.
 6. Voila!  A new collection REQUEST has been created.
-7. <a href="https://github.com/ArctosDB/new-collections/issues/new?assignees=&labels=&projects=&template=exisiting-institution-requesting-a-new-collection.md&title=Arctos+Institution+Name+request+to+add+a+new+collection" target="_blank" class="external">Create a new issue in the new collections Github repository</a> and add the guid_prefix(s) you've submitted.
+7. <a href="https://github.com/ArctosDB/new-collections/issues/new?assignees=&labels=&projects=&template=existing-institution-requesting-a-new-collection.md&title=Arctos+Institution+Name+request+to+add+a+new+collection" target="_blank" class="external">Create a new issue in the new collections Github repository</a> or one will be created for you to formalize the request.
+8. **PLEASE NOTE**: your institution's Arctos MOU Exhibit 3 must be validated and updated by the Arctos director or designate to be kept on file. (Individual member's local policies may differ as to how these administraative documents are updated.)
 
 
 ## For DBAs

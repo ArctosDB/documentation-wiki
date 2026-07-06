@@ -28,7 +28,7 @@ Foreign key ---> geography. All localities have exactly one parent geography.
 
 ### spec_locality
 
-Specific Locality is "standardized" descriptive data. This field is essentially meant to be ``collecting_event.verbatim_lcoality`` cleaned up so that machines can predictably understand it.
+Specific Locality is "standardized" descriptive data. This field is essentially meant to be ``collecting_event.verbatim_locality`` cleaned up so that machines can predictably understand it.
 
 When no information is known, spec_locality should be recorded as ``No specific locality recorded.`` - this exact phrase, and only this exact phrase, will prevent confusing interpretations of "we don't know." External services (such as GeoLocate) returning nonsense are almost always attributable to malformed specific locality data.
 
@@ -79,6 +79,45 @@ Anything which is necessary to report and fits in no other place.
 
 [Locality Attributes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) allow attaching nearly any additional data of any type or format to Localities.
 
+### locality_attribute_id
+
+internal primary key
+
+### locality_id
+
+foreign key --> Locality; links any number of Attributes to a Locality
+
+### determined_by_agent_id
+
+foreign key --> Agent; Agent (generally person) making the determination or assertion.
+
+### attribute_type
+
+foreign key --> <https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type>; type of Attribute
+
+### attribute_value
+
+Value of Attribute. There are three possible categories:
+
+* those with a value in *values* in the code table are categorical. Individual values are defined in the linked code table.
+* those with a value in *units* are numeric, with units specified and defined in the appropriate linked code table.
+* those with neither *values* nor *units* are free text.
+
+### attribute_units
+
+Units of numeric-type Attributes
+
+### attribute_remark
+
+Any extra information or comments.
+
+### determination_method
+
+Method used in determining the Attribute.
+
+### determined_date
+
+Date on which the determination or assertion was made.
 
 
 ## Collecting Event
