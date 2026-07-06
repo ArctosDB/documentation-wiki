@@ -1,11 +1,8 @@
 ---
 title: Arctos API
-author: DLM, MSK
-date: 2025-02-20
-layout: default_toc
+authors: Dusty L. McDonald, Michelle Koo
+date_updated: 2025-02-20
 ---
-
-# Catalog Record API
 
 By "API" we generally mean the catalog record API (which powers /search), but there are many APIs in Arctos, and some may be made available by specific request.
 
@@ -24,7 +21,3 @@ The catalog record API may be made available to qualified researchers. To reques
 ## Alternatives
 
 A cache of the data which powers (most) of the API may also be made available; file an [Issue](https://github.com/ArctosDB/arctos/issues/new/choose).
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/api.markdown" target="_blank">here</a>.

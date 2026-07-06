@@ -1,14 +1,9 @@
 ---
-title: Best Practice - Locality
-authors: various
-date created: 2025-08-11
-layout: default_toc
+title: Managing Localities
+authors: 
+date_updated: 2025-08-11
+status: draft
 ---
-
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-# Locality
 
 Localities are the spatial and descriptive place-component of the when-and-where data.
 
@@ -63,9 +58,7 @@ locality. Named Localities:
 
 It is recommended to use simple ASCII characters, avoiding anything which might be confused for a list delimiter (commas, for example), or which might complicate copying/pasting (spaces, for example) in naming localities. Several Arctos UIs will generate UUIDs for locality names by request.
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
-
-If you have absolutely no locality data, use the Locality Name **NULL Locality Data** and skip entering anything else related to locality.
+{% include tip.html content="If you have absolutely no locality data, use the Locality Name **NULL Locality Data** and skip entering anything else related to locality." %}
 
 ## Specific Locality
 
@@ -77,7 +70,6 @@ Specific Locality is a standardization of verbatim_locality.
 
 When writing Specific Localities, the highest priority should be to maximize clarity and minimize confusion for a global audience, and for machine understanding (such as automated georeferencing). Geolocate is sometimes really picky on spelling. For example: a locality of "Lodge Pole Creek" was coming back with basically a random point - near a lodge or something a state away. "Lodgepole Creek" (which is also the label on Google Maps) returned accurate data.
     
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) 
 ### Pro Tips
 
 #### Tip 1: Leave Out Higher Geography 
@@ -489,10 +481,3 @@ The webservice data pane has documentation inline. Read it.
 # Maintenance
 
 Duplicate localities are automatically merged, and unused localities are automatically deleted. A Locality Name will prevent both of these actions and should be used in pre-created localities. Please remove Name from any localities which you no longer intend to use.
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/locality.markdown).
-

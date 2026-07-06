@@ -1,11 +1,8 @@
 ---
 title: Redirects
-layout: default_toc
-author: Arctos, Michelle Koo
-date: 2017-03-29
+authors: Dusty L. McDonald, Michelle Koo
+date_updated: 2017-03-29
 ---
-
-# Redirects
 
 Arctos provides HTTP redirect capability so that access to a webpage can be maintained, under which one URL (http://arctos.database.museum/guid/KNWR:Ento:7193, for example) can be automatically redirected to another (http://arctos.database.museum/guid/UAM:Ento:228334). Examples of where this is important include:
 
@@ -29,8 +26,3 @@ new_path= /guid/MSB:Mamm:456
 
 ### Please read guidelines on tool page for latest instructions.
 A bulkload tool is available->  [Redirect: Bulkload](https://arctos.database.museum/tools/BulkloadRedirect.cfm)
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/redirect.markdown" target="_blank">here</a>.

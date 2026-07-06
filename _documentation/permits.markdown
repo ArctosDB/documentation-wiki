@@ -1,9 +1,8 @@
 ---
 title: Permits
-layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 
 ---
-
-# Permits / Any Documentation Authorizing Activity
 
 Permits are any documentation authorizing activity or guiding usage. Permits are linked to transactions ([Accessions](/documentation/accession), [Loans](/documentation/loans), and [Borrows](/documentation/borrow)). Permits may be "issued by" governmental agencies, landowners, registrations (e.g., CITES), donors, administrators, or anyone else. Permits may carry any level of authority (including none), and apply to any (or no) context or jurisdiction. 
 
@@ -94,8 +93,3 @@ The regulation under which the permit was issued. References [ctpermit_regulatio
 ## Renewals
 
 Renewals should be entered as a new permit. A shortcut button is provided on the edit forms.
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/permits.markdown).

@@ -1,10 +1,8 @@
 ---
 title: Release Notes
-author: DLM, MSK
-layout: default_toc
+authors: Dusty L. McDonald, Michelle Koo
+date_updated: 
 ---
-
-# Release Notes
 
 This document is no longer being maintained. See [Latest Completed Tasks](https://github.com/ArctosDB/dev/issues?q=is%3Aissue%20state%3Aclosed%20milestone%3Apre-release%20sort%3Aupdated-desc) for most updated release changes.
 
@@ -698,9 +696,3 @@ This document is no longer being maintained. See [Latest Completed Tasks](https:
 * <https://github.com/ArctosDB/dev/issues/115> - bugfix
 * <https://github.com/ArctosDB/dev/issues/117> - minor UI adjustment
 * <https://github.com/ArctosDB/dev/issues/114> - link to reports from transaction search results
-   
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/release.markdown" target="_blank">here</a>.
-
-

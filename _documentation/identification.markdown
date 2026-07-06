@@ -1,9 +1,8 @@
 ---
 title: Identifications
-layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 
 ---
-
-# Identifications
 
 Determinations, or "identifications" (IDs), apply taxonomic terms to
 cataloged objects. In other words, determinations are not necessarily just
@@ -228,7 +227,3 @@ See also, Taxonomy
 -  [How to Search for Catalog Records with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
 -  [How To Manage Taxon Concepts in Arctos](https://handbook.arctosdb.org/how_to/How-To-Manage-Taxon-Concepts.html)
 -  [How To Create Taxa in Arctos Ichnology](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Arctos-Ichnology.html)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/identification.markdown" target="_blank">here</a>.

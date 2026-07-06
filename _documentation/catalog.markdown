@@ -1,10 +1,8 @@
 ---
 title: Catalog
-layout: default_toc
-date: 2025-02-24
+authors: Dusty L. McDonald
+date_updated: 2025-02-24
 ---
-
-# Catalog
 
 Catalogs or Collections are administrative lists with inconsistent relationships to
 physical items. Therefore, a Cataloged Item or Record is an abstraction, *i.e.*,
@@ -300,7 +298,3 @@ maintaining a record of the specimen rather than the specimen’s
 identifying numbers, and allows users to continue using bookmarks and
 links.
                                                              |
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/catalog.markdown" target="_blank">here</a>.
-

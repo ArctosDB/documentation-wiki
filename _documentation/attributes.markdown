@@ -1,9 +1,8 @@
 ---
 title: Attributes
-layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 
 ---
-
-# Attributes
 
 Attributes are descriptive, categorical, or quantitative characteristics of cataloged items such as measurements, weight, age, and sex. Like other determinations in Arctos, Attributes have a determiner, a determination date, and a determination method, and these should be carefully considered in interpreting the assertion. Attributes are **determinations** or **assertions**, not *facts*, and a record may have any number of similar and even contradictory Attributes.
 
@@ -153,9 +152,3 @@ Instructions for doing specifc tasks related to Attributes in Arctos
 - [How To Add Geology Attributes to a Locality](https://handbook.arctosdb.org/how_to/How-to-Add-Geology-Attributes-to-a-Locality.html)
 - [How To Collect Attributes with a Google Form](https://handbook.arctosdb.org/how_to/How-To-Collect-Attributes-With-A-Google-Form.html)
 - [How to Understand Attribute Errors](https://handbook.arctosdb.org/how_to/Understanding-Attribute-Errors.html)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/attributes.markdown" target="_blank">here</a>.
-
-

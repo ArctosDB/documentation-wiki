@@ -1,39 +1,64 @@
-# Arctos Handbook's Documentation Jekyll Site
+# Arctos Handbook
 
-Based off the initial Wordpress redesign by Phillip Kahn, which is [archived here](https://github.com/museum-of-vertebrate-zoology/wp-arctos-theme) 
+The Arctos Handbook is the documentation site for the [Arctos Collaborative Collection Management Solution](https://arctosdb.org). It is a community-maintained resource built with Jekyll and hosted on GitHub Pages.
 
-View this site at **[https://handbook.arctosdb.org](https://handbook.arctosdb.org)**
-To start on this website, use the search bar to find pages of your topic of interest
+**View the live site: [handbook.arctosdb.org](https://handbook.arctosdb.org)**
 
-# For Editors/ Authors
+## Contributing content
 
-## Creating new files
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidance on adding or editing pages, including how to choose the right collection, fill in front matter, and name files.
 
-Save them as `.markdown` files. On GitHub pages, they may not render correctly with a different extension.
+To report an error or suggest a change without editing directly, [file an issue](https://github.com/ArctosDB/documentation-wiki/issues/new/choose).
 
-## Organization
+## Local development
 
-Different types of writeups are organized into [Jekyll collections](https://jekyllrb.com/docs/collections/), kept in files that begin with [YAML Front matter](https://jekyllrb.com/docs/frontmatter/), like [this sample file](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/bd5b3148c9b098ade2446a192c4d5655aa4a14bb/_documentation/sample.markdown).
+### Requirements
 
-Placing the files into the appropriate directory will automatically sort them. They will not be listed if the `title` attribute contains the string "index".
+- Ruby 3.2.6 (managed via [rbenv](https://github.com/rbenv/rbenv) recommended)
+- Bundler
 
-The collection directories are:
+### Setup
 
-- `_documentation`
-- `_how_to`
-- `_best_practices`
+```bash
+git clone https://github.com/ArctosDB/documentation-wiki.git
+cd documentation-wiki
+git checkout gh-pages
+bundle install
+```
 
+### Run the site locally
 
-## Creating new collections
+```bash
+bundle exec jekyll serve
+```
 
-To create a collection, do the following:
+The site will be available at `http://127.0.0.1:4000`. Jekyll watches for file changes and rebuilds automatically.
 
-1. Create a directory with a leading underscore and the name of the collection, replacing spaces with `_`. For example, **My Awesome Collection** becomes the directory `_my_awesome_collection`.
-2. In `./_config.yml`, under the `collections` item, add
-  ```
-  my_awesome_collection:
-    output: true
-  ```
-3. Create an `index.html` file for your new collection, and in the front matter, give it the layout `collection_index`.
+### Preview a fork
 
-### [Contact us if you would like to contribute](mailto:arctos-working-group-officers@googlegroups.com)
+If you are working from a fork, build with the preview config to set the correct baseurl:
+
+```bash
+bundle exec jekyll serve --config _config.yml,_config_preview.yml
+```
+
+## Site structure
+
+| Directory | Purpose |
+|---|---|
+| `_documentation/` | Reference documentation for Arctos data tables and fields |
+| `_best_practices/` | Recommendations for curatorial decisions and workflows |
+| `_how_to/` | Step-by-step task instructions |
+| `_resources/` | Tutorials and external guidelines |
+| `_layouts/` | Jekyll page layouts |
+| `_includes/` | Reusable HTML partials |
+| `_sass/` | Stylesheets |
+| `_data/` | Site data files (navigation, authors) |
+| `_templates/` | Templates for new content pages |
+
+## Tech stack
+
+- [Jekyll](https://jekyllrb.com) 3.10
+- [Bootstrap](https://getbootstrap.com/docs/3.4/) 3.4.1
+- [Font Awesome](https://fontawesome.com) 5 Free
+- Deployed via GitHub Actions to GitHub Pages

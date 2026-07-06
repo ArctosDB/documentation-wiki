@@ -1,11 +1,8 @@
 ---
 title: Transactions
-author: DLM
-layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 
 ---
-
-# Transactions
-
 
 Transactions are actions that effect the coming and going of Cataloged
 Items, and parts thereof. There are three primary types of transactions.
@@ -179,9 +176,3 @@ Table Project-Trans links [projects](/documentation/projects.html) and transacti
 # table trans_container
 
 Table Trans-Container provides a mechanism to link transations and [containers](/documentation/container.html)  .
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/transactions.markdown).

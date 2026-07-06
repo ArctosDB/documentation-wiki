@@ -1,12 +1,10 @@
 ---
-title: Best Practice - Cataloging Parasite Material
+title: Cataloging Parasite Material
 authors: Teresa Mayfield-Meyer
-date created: 2024-06-26
-layout: default_toc
+date_updated: 2024-06-26
 ---
- [//]: # [Previous Update Request]()
 
-# Best Practice - Cataloging Parasite Material
+ [//]: # [Previous Update Request]()
 
 Parasite data can be challenging, but it can also be very rewarding to work with in Arctos. This Best Practice documents some of the common issues confronted when entering parasite data in Arctos and offers solutions developed by the collections who have already addressed them. As always, if a solution appears less-than-optimal, [file an issue](https://github.com/ArctosDB/arctos/issues/new/choose) and help make Arctos better for everyone!
 
