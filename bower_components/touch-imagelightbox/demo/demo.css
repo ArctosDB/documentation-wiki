@@ -1,0 +1,66 @@
+#container {
+  margin: 3.125em auto 6.25em;
+  padding: 0 20px;
+  text-align: center;
+  width: 41.25em;
+}
+#container h1 {
+  font-size: 2.125em;
+  line-height: .882em;
+  text-transform: uppercase;
+}
+#container h1 span {
+  color: #aaa;
+  display: block;
+  font-size: .588em;
+  line-height: 1em;
+}
+#container h1:hover, #container h1:hover span {
+  color: #666;
+}
+#container h2 {
+  border-top: 1px solid #ddd;
+  margin-bottom: .625em;
+  margin-top: 1.875em;
+  padding-top: 1.875em;
+}
+#container h2 span {
+  color: #666;
+}
+#container li {
+  display: inline-block;
+  margin: .625em;
+}
+#container img {
+  -webkit-box-shadow: 0 0 0.313em rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 0 0.313em rgba(0, 0, 0, 0.05);
+  -webkit-transition: -webkit-box-shadow .3s ease, border-color .3s ease;
+  -moz-transition: -moz-box-shadow .3s ease, border-color .3s ease;
+  -ms-transition: -ms-box-shadow .3s ease, border-color .3s ease;
+  -o-transition: -o-box-shadow .3s ease, border-color .3s ease;
+  border-color: #eee;
+  border: 0.625em solid rgba(255, 255, 255, 0.5);
+  height: 8.75em;
+  width: 8.75em;
+  box-shadow: 0 0 0.313em rgba(0, 0, 0, 0.05);
+  transition: box-shadow .3s ease, border-color .3s ease;
+}
+#container img:hover {
+  -webkit-box-shadow: 0 0 0.938em rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 0.938em rgba(0, 0, 0, 0.25);
+  border-color: #fff;
+  box-shadow: 0 0 0.938em rgba(0, 0, 0, 0.25);
+}
+#container footer {
+  border-top: 1px solid #ddd;
+  color: #aaa;
+  font-size: .875em;
+  margin-top: 2.143em;
+  padding-top: 2.143em;
+}
+
+@media only screen and (max-width: 660px) {
+  #container {
+    width: 100%;
+  }
+}

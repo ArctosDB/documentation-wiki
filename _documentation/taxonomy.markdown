@@ -1,8 +1,9 @@
 ---
 title: Taxonomy
-authors: Dusty L. McDonald
-date_updated: 
+layout: default_toc
 ---
+
+# Taxonomy
 
 ## Overview
 
@@ -354,3 +355,9 @@ See also, Identifications
 # Tutorial Video ↗️
 
 [![Taxonomy Overview](https://i9.ytimg.com/vi/WGkO1NCIhsI/mq2.jpg?sqp=CLiP8I8G&rs=AOn4CLB1ska_OpPyx_70WuTT5Boc7LdlZw)](https://youtu.be/WGkO1NCIhsI)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/taxonomy.markdown" target="_blank">here</a>.
+
+

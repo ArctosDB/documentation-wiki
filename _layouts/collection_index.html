@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-  {%- comment -%}
-    Layout: collection_index
-    Used by: collection index pages
-    Purpose: Displays a collection index page with search sidebar
-    Note: Does NOT include a ToC or page-meta footer — index pages don't need them
-  {%- endcomment -%}
-
   {% include head.html %}
 
   <body>
@@ -15,14 +8,8 @@
     {% include header.html %}
 
     <main class="page-content container-fluid clearfix">
-
-      <!-- bootstrap-toc stylesheet (used for sidebar affixing behavior) -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.css">
-
+      <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.0/dist/bootstrap-toc.min.css">
       <div class="nav-container row clearfix" style="overflow-x:hidden">
-
-        <!-- ── Search sidebar ────────────────────────────────────────────── -->
-        <!-- Affixed at top:200px on scroll; search initialized by search-config.js -->
         <nav class="toc clearfix col-xs-12 col-md-2" id="toc" data-spy="affix" style="top:200px; overflow-x:hidden;">
           <div id="search-container" class="form">
             <div class="form-group">
@@ -32,18 +19,21 @@
               <div class="input-group">
                 <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
                 <input type="text" id="search-input" placeholder="Search all writeups" class="form-control" />
-                <!-- Dummy input prevents browser autofill from targeting the real search field -->
                 <input type="text" id="search-input-dummy" hidden />
               </div>
             </div>
-            <!-- Search results injected here by SimpleJekyllSearch -->
             <ul id="results-container"></ul>
           </div>
         </nav>
       </div>
-
-      <!-- ── Page content ───────────────────────────────────────────────── -->
       <article class="wrapper">
+        <div class="alert alert-info alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <p>
+            <iron-icon icon="icons:info-outline"></iron-icon>
+            <strong>Tip:</strong> You can search for articles in the search box on the left.
+          </p>
+        </div>
         {{ content }}
       </article>
     </main>

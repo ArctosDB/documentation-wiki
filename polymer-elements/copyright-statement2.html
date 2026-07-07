@@ -1,0 +1,58 @@
+<link rel="import"
+      href="../bower_components/polymer/polymer.html">
+<dom-module id="copyright-statement">
+  <template>
+    <style>
+      :host {
+      display: inline-block;
+      }
+    </style>
+    <span class="copyright-statement">
+    &#169; <span id="copyright_year_start" class="copyright-year-start">{{copyrightStartString}}</span><span id="copyright_year_end" class="copyright-year-end">{{thisYear}}</span> <content class="copyright-holder"></content>
+    </span>
+  </template>
+  <script>
+    Polymer({
+        is: "copyright-statement",
+        hostAttributes: {
+            copyrightStart: new Date().getFullYear()
+        },
+        properties: {
+            thisYear: {
+                type: Number,
+                value: new Date().getFullYear(),
+                reflectToAttribute: true,
+                notify: true,
+                readonly: true
+            },
+            copyrightstart: {
+                type: String,
+                notify: true
+            },
+            copyrightStartString: {
+                type: String,
+                reflectToAttribute: true,
+                notify: true,
+                computed: "computeCopyrightStart(thisYear,copyrightstart)"
+            }
+        },
+        created: function() {
+
+        },
+        computeCopyrightStart: function(currentYear, startYear) {
+            if(startYear != null) {
+                currentYear = new Date().getFullYear();
+                if(parseInt(startYear) < currentYear) {
+                    startYear = startYear + " \u2013 ";
+                } else {
+                    startYear = "";
+                }
+            }
+            else {
+
+            }
+            return startYear;
+        }
+    });
+  </script>
+</dom-module>

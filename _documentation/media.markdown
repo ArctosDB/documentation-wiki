@@ -1,8 +1,9 @@
 ---
 title: Media
-authors: Dusty L. McDonald
-date_updated: 
+layout: default_toc
 ---
+
+# Media
 
 Media are any digital objects (such as photographs, sound recordings,
 or three-dimensional renderings of objects) that can be related to data
@@ -393,4 +394,9 @@ which to use in any particular situation.
 
 	All Media stored at TACC is publicly available, and may appear in various search engines or linked from various places in Arctos.
 	TACC will not host restricted-access Media. Media may be made private by controlling access to the content;
-	use a private password-protected server, a password-protected Google document, archived in a password-protected ZIP file, etc.
+	use a private password-protected server, a password-protected Google document, archived in a password-protected ZIP file, etc.  
+	
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/media.markdown" target="_blank">here</a>.

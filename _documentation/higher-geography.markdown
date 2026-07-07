@@ -1,8 +1,13 @@
 ---
 title: Higher Geography
-authors: Dusty McDonald, Michelle Koo
-date_updated: 2025-02-14
+layout: default_toc
+author: Dusty McDonald, Michelle Koo
+date: 2025-02-14
 ---
+
+
+
+# Geography
 
 Higher Geography is defined in Arctos to reflect the administrative intersections of asserted geographic boundaries that describe the locality of a record. For example, the location of a record occurs in a country, state or provice, county, municipality etc. Many marine-focused collections wish to assert both marine (where the event took place) and terrestrial (e.g. perhaps the administrative land from which permits are issued) geography for various reasons, while there is little or no overlap in spatial definitions of these places. [issue ref](https://github.com/ArctosDB/internal/issues/366) 
 
@@ -190,3 +195,9 @@ The Geography Committee reviewed Madagascar in May andrecommends the use of the 
 
 * https://github.com/ArctosDB/arctos/issues/8824
 * https://github.com/ArctosDB/arctos/issues/8665#issuecomment-2852292381
+
+
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/higher-geography.markdown" target="_blank">here</a>.

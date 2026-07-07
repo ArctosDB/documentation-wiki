@@ -1,8 +1,11 @@
 ---
 title: Record Event
-authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
-date_updated: 2024-06-06
+author: Dusty L. McDonald, Teresa J. Mayfield-Meyer
+date: 2024-06-06
+layout: default_toc
 ---
+
+# Record Event
 
 Record Events link [Events]({{site.baseurl}}/documentation/collecting-event.html) to [Records]({{site.baseurl}}/documentation/catalog.html).
 
@@ -10,7 +13,9 @@ Record Events link [Events]({{site.baseurl}}/documentation/collecting-event.html
 
 [Agent]({{site.baseurl}}/documentation/agent.html) asserting that the [Record]({{site.baseurl}}/documentation/catalog.html) has [Event Type](#type) relationship to an event (including locality, geography, geology, etc.).
 
-{% include caution.html content="This person has determined coordinates and error, dates, higher geography, and everything else in the place and time stack" %}
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+This person has determined coordinates and error, dates, higher geography, and everything else in the "[place and time stack]({{site.baseurl}}how_to/How-to-understand-the-Arctos-Locality-Model.html)."
 
 ## Event Date
 
@@ -45,7 +50,9 @@ Describe methods employed at the event as they relate specifically to the record
  - Otter Trawl
  - salvage, roadkill, DOR
 
-{% include tip.html content="Method may be better placed in the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) event attribute if the method corresponds to all records that may have participated in the event." %}
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+
+Method may be better placed in the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) event attribute if the method corresponds to all records that may have participated in the event.
 
 ## Collecting Source
 
@@ -104,3 +111,7 @@ which they are attached; it is a purely additive action. This option should be u
 
 In both cases "save" clones the entire event/locality/geology stack; edits apply only to the single specimen-event being used by the single specimen.
 It is not possible to alter data used by any other specimen from this form.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/specimen-event.markdown" target="_blank">here</a>.

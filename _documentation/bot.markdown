@@ -1,8 +1,11 @@
 ---
 title: Arctos Bots
-authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer, Michelle Koo
-date_updated: 2024-06-11
+author: Dusty L. McDonald, Teresa J. Mayfield-Meyer, Michelle Koo
+date: 2024-06-11
+layout: default_toc
 ---
+
+# Arctos Bots
 
 Bots are (very limited) users (Agents and Operators) who can write specific information to specific bulkloaders. The bot agent will take credit for the data, and this may generally be used to un-do any problems caused by bots. Data will be inserted with status=autoload, and processing will begin immediately. Any data which was not processed will be deleted before insertion; errors should be reported via Issues.
 
@@ -20,6 +23,12 @@ To allow an Arctos Bot to make edits in a collection, manage the Arctos Bot user
 
 Note that the access check is cached and will take about an hour to be recognized by the associated component loader.
 
-{% include caution.html content="**Do not attempt to edit any bot agent profile (e.g. remarks or status) or operator account (eg Locked status). Ignoring this will result in your account being locked.**" %}
+![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Caution.jpg) **Caution**
+
+**Do not attempt to edit any bot agent profile (e.g. remarks or status) or operator account (eg Locked status). Ignoring this will result in your account being locked.** 
 
 Simply click on Manage in the operator account and Grant Access to collection(s) you manage.
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/bot.markdown" target="_blank">here</a>.

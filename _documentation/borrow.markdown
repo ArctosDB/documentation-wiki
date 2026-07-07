@@ -1,8 +1,9 @@
 ---
 title: Borrow
-authors: Dusty L. McDonald
-date_updated: 
+layout: default_toc
 ---
+
+# Borrows
 
 Borrows are [transactions](/documentation/transactions.html) which record temporary custody of material, and provide a place to hang shipments.
 
@@ -52,3 +53,12 @@ Date
 ### lenders_loan_date
 
 Date
+
+
+
+## Edit this Documentation
+
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/borrow.markdown).
+
+

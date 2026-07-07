@@ -1,8 +1,9 @@
 ---
 title: Dates
-authors: Dusty L. McDonald
-date_updated: 
+layout: default_toc
 ---
+
+# Dates
 
 <div class="center-block text-center">
   <a href="http://xkcd.com/1179/">
@@ -109,3 +110,7 @@ See [How To Manage Excel for Arctos - Dates](https://handbook.arctosdb.org/how_t
 ## Restricted Data
 
 For some records, the year of collection is withheld by the collection. For these records, the year-component of ISO8601 dates is given as "8888."
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/dates.markdown" target="_blank">here</a>.
