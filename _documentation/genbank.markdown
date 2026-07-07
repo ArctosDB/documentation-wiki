@@ -1,8 +1,9 @@
 ---
 title: GenBank
-authors: Dusty L. McDonald
-date_updated: 
+layout: default_toc
 ---
+
+# Registration
 
 Curators of Arctos collections should ~~encourage~~ require researchers using their
 specimens for DNA sequences to submit GenBank accessions that cite the
@@ -55,3 +56,7 @@ Report](http://arctosdb.files.wordpress.com/2011/08/dbwgchicagoworkshopreport-fi
 [Federhen et al. 2009](http://arctos.database.museum/media/10253751)
 
 [Federhen 2014](https://www.ncbi.nlm.nih.gov/pubmed/25398905)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/genbank.markdown" target="_blank">here</a>.

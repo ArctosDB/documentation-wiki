@@ -1,8 +1,9 @@
 ---
 title: Encumbrance
-authors: Dusty L. McDonald
-date_updated: 
+author: DLM
+layout: default_toc
 ---
+# Encumbrance
 
 In the strictest sense, an Encumbrance restricts the visibility of catalog record to only the collection managers. Encumbrances should not be confused with [permits](https://handbook.arctosdb.org/documentation/permits.html), which involve acceptable use of materials or information.
 
@@ -70,3 +71,8 @@ Do not use encumbrances to mask illegal activity.
 # Related
 
 Note that Encumbrances are but one way to restict access to data. Many code tables restrict data of certain types, and locality attribute [locality access](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type#locality_access) provides a mean to share or withhold any "place and time" data, for example.
+
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/encumbrance.markdown" target="_blank">here</a>.

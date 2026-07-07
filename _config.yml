@@ -5,10 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-plugins:
+gems:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-redirect-from
 
 collections:
   documentation:
@@ -29,33 +28,14 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 cover: ""
 logo: ""
-repository: "ArctosDB/documentation-wiki"
-repository_branch: "gh-pages"
 
 url: "https://handbook.arctosdb.org" # the base hostname & protocol for your site
 #url: "https://arctosdb.github.io"
 twitter_username: arctosdb
 github_username:  Arctosdb
 
-defaults:
-  - scope:
-      path: ""
-      type: "documentation"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "best_practices"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "how_to"
-    values:
-      layout: "default"
-
 # Build settings
-exclude: ["vendor/"]
+#exclude: ["bower_components/"]
 markdown: kramdown
 auto_ids: true
 markdown_ext: "markdown, mkdown, mkdn, mkd, md"

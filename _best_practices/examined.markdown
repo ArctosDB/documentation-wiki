@@ -1,9 +1,11 @@
 ---
-title: Using Examined / Detected / Related
-authors: 
-date_updated: 
-status: draft
+title: Best Practice - Examined / Detecrted / Related
+layout: default_toc
 ---
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
+
+
 
 This is a placeholder for <https://github.com/ArctosDB/arctos/issues/8714>
 

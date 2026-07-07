@@ -1,8 +1,8 @@
----
 title: Borrows
-authors: Dusty L. McDonald
-date_updated: 
+layout: default_toc
 ---
+
+# Borrows
 
 Loans are transcations that document any receipt of objects by a collection, temporary or permanent, including objects that are loaned with the intention of being destroyed or permanently transferred from another institution or collection. When objects are removed, a Loan should be created.
 

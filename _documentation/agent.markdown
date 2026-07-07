@@ -1,8 +1,10 @@
 ---
 title: Agents
-authors: Dusty L. McDonald
-date_updated: 
+layout: default_toc
+author:  DLM
 ---
+
+# Agents
 
 Agents are people, organizations, groups, code, or any human entity that performs actions. Agents are collectors, authors of publications, users of objects, issuers of identifiers and, if you enter or edit data, you are an Agent. A single Agent can have many roles and many names. No matter how many roles or names an Agent has, there should be only one Agent profile in Arctos to represent them. Agents are not deleted, but may be default-hidden by a 'bad duplicate of' relationship.
 
@@ -201,3 +203,7 @@ Instructions for doing specifc tasks related to Agents in Arctos
  - [How To Delete/Merge Agents](https://handbook.arctosdb.org/how_to/How_to_Delete_Agents.html)
  - [How To Search Agents](https://handbook.arctosdb.org/how_to/How-to-Search-Agents.html)
  - [How To Use the Agent Pre-Bulkloader](https://handbook.arctosdb.org/how_to/How-to-deal-with-Agent-Bulkloader-results.html)
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/agent.markdown" target="_blank">here</a>.

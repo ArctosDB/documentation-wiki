@@ -1,9 +1,14 @@
 ---
-title: Link Taxa and Zoobank
-authors: Dusty L. McDonald
-date_updated: 2024-08-13
-status: draft
+title: How to link taxa and Zoobank
+layout: default_toc
+author: DLM
+date: 2024-08-13
 ---
+
+# Linking Arctos Taxon Names and Zoobank
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
+
 
 ## Source
 
@@ -20,3 +25,9 @@ The source of this document is https://github.com/ArctosDB/documentation-wiki/is
 <img width="225" alt="Screen Shot 2019-07-09 at 6 53 25 PM" src="https://user-images.githubusercontent.com/5720791/60934714-28765980-a27c-11e9-9c15-065e3aef8536.png">
 <img width="648" alt="Screen Shot 2019-07-09 at 6 56 28 PM" src="https://user-images.githubusercontent.com/5720791/60934717-2a401d00-a27c-11e9-9af2-b09ae6fe1bde.png">
 <img width="1123" alt="Screen Shot 2019-07-09 at 6 57 03 PM" src="https://user-images.githubusercontent.com/5720791/60934722-2ca27700-a27c-11e9-9b42-3a94e5eb5ea5.png">
+
+
+
+## Edit this Documentation
+
+If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/zoobank.markdown" target="_blank">here</a>.
