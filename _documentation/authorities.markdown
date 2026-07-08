@@ -59,8 +59,12 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 
 * Whenever possible terms should have a published reference or citation.
 * Terms and their definitions should be as general and unambiguous as possible.
-* Authorities may contain non-ASCII UTF characters, but the scope of this is unclear.
+* Authority values may contain non-ASCII UTF characters, but the scope of this is unclear.
     * Discussion: https://github.com/ArctosDB/arctos/issues/9141 
+* References should be 'scholarly' and specific to Arctos data.
+   * Dictionary-type definitions are not useful nor allowed
+   * Google Books URLs are strongly discouraged 
+
 
 
 ### Specific Rules for Specific Code Tables
