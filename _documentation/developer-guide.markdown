@@ -23,6 +23,23 @@ When possible, attribute components should be displayed in the order:
 
 ref: https://github.com/ArctosDB/arctos/issues/9637
 
+### Attributes as JSON
+
+Attributes (of any kind) should be packaged as:
+
+   * attribute_type (string)
+   * attribute_value (string)
+   * attribute_units (string)
+   * attribute_determiner (object)
+   * attribute_remark (string)
+   * attribute_method (string)
+   * attribute_date (string)
+
+attribute_determiner can be built with fucntion ``getAgentJSON()``, which returns an object consisting of
+*  agent_name
+*  agentID
+
+  
 ### CFML
 
 Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language) and HTML. 
