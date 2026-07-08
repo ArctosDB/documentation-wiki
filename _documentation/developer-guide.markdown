@@ -35,7 +35,7 @@ Attributes (of any kind) should be packaged as:
    * attribute_method (string)
    * attribute_date (string)
 
-attribute_determiner can be built with fucntion ``getAgentJSON()``, which returns an object consisting of
+attribute_determiner can be built with function ``getAgentJSON()``, which returns an object consisting of
 *  agent_name
 *  agentID
 
