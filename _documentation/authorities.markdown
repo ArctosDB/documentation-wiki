@@ -211,6 +211,10 @@ ref: https://github.com/ArctosDB/arctos/issues/7844
  Values listed here must be registered on the Internet Assigned Numbers Authority
 (https://www.iana.org/assignments/media-types/media-types.xhtml) and may be added as needed if requirements are met.
 
+#### ctprocessing_history
+
+Terms should be broadly useful across collection types (i.e. not overly specific). All terms should be worded as verbs in the past tense and have a functional description, but documention links are not required.
+
 #### ctspecimen_part_name
 
  - Part names should be compatible with an ontological framework. Best practice would be a link to an ontology
