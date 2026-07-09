@@ -21,13 +21,23 @@
     <!-- bootstrap-toc: generates ToC from page headings and highlights active section on scroll -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.css">
     <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js"></script>
+    <script>
+      $(function() {
+        Toc.init({
+          $nav: $("#toc"),
+          $scope: $("article")
+        });
+        $('body').scrollspy({ target: '#toc', offset: 60 });
+        $('body').scrollspy('refresh');
+      });
+    </script>
 
     <div class="nav-container row clearfix" style="overflow-x:hidden">
 
       <!-- ── Sidebar: search + ToC ─────────────────────────────────────── -->
       <!-- data-toggle="toc": tells bootstrap-toc to populate this nav with page headings -->
       <!-- data-spy="affix": pins the sidebar after scrolling past it -->
-      <nav class="toc clearfix col-xs-12 col-md-2" id="toc" data-toggle="toc" data-spy="affix"
+      <nav class="toc clearfix col-xs-12 col-md-2" id="toc" data-spy="affix"
         style="top:200px; overflow-x:hidden;">
         <div id="search-container" class="form">
           <div class="form-group">

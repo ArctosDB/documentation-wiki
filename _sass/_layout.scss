@@ -153,6 +153,31 @@ nav.collection-toc {
 // ToC sidebar has white background to sit cleanly over page content.
 nav#toc {
   background: #fff;
+  overflow: hidden;
+
+  ul.nav {
+    display: block;
+    width: 100%;
+
+    li {
+      width: 100%;
+
+      >a {
+        white-space: normal;
+        word-wrap: break-word;
+      }
+
+      &.active>a {
+        font-weight: bold;
+        color: $brand-color;
+        background: transparent;
+      }
+
+      >ul.nav {
+        padding-left: 1rem;
+      }
+    }
+  }
 }
 
 // On tablet and smaller, unfix the ToC so it doesn't overlap content.
