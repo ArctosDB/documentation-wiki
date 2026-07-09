@@ -1,5 +1,5 @@
 ---
-title: Accessions
+title: Authorities
 authors: Dusty L. McDonald
 date_updated: 
 ---
