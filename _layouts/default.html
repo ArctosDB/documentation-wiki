@@ -21,16 +21,6 @@
     <!-- bootstrap-toc: generates ToC from page headings and highlights active section on scroll -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.css">
     <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js"></script>
-    <script>
-      $(function() {
-        Toc.init({
-          $nav: $("#toc"),
-          $scope: $("article")
-        });
-        $('body').scrollspy({ target: '#toc', offset: 60 });
-        $('body').scrollspy('refresh');
-      });
-    </script>
 
     <div class="nav-container row clearfix" style="overflow-x:hidden">
 

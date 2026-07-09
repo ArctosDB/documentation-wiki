@@ -1,11 +1,8 @@
 ---
 title: Code Tables
-layout: default_toc
-author: DLM
-date: 2024-10-25
+authors: DLM
+date_updated: 2024-10-25
 ---
-
-# Code Tables
 
 Many values are controlled by authorities which we call code tables.
 

@@ -1,11 +1,8 @@
 ---
 title: Addresses
-layout: default_toc
-author: ArctosDB
-date: 2016-12-07
+authors: ArctosDB
+date_updated: 2016-12-07
 ---
-
-# Addresses
 
 Addresses are ways to locate or contact [Agents](/documentation/agent). There are both physical addresses and electronic addresses, and various types of each of these. Electronic addresses include phone numbers, e-mail addresses, and web pages. As well as being informational, addresses are used extensively in transactions such as [loans](/documentation/loans), [permits](/documentation/permits), and [accessions](/documentation/accession). Any one Agent may have any number of addresses of any type.
 

@@ -1,8 +1,7 @@
 ---
 title: How To Catalog Fossil Material
 authors: Teresa Mayfield-Meyer
-date created: 2021-07-25
-layout: default_toc
+date_updated: 2021-07-25
 ---
 
 [Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
