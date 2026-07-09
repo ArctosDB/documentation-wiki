@@ -49,16 +49,12 @@ img.fit {
   max-height: 66%;
 }
 
-// Size an image to match Bootstrap glyphicon dimensions
-img.glyphicon-size {
-  height: 40px;
-  width: 40px;
-}
-
-.block {
+// Size an image to match Font Awesome dimensions
+img.fa-size {
+  margin-top: 0em;
+  font-size: 2em;
   display: block;
 }
-
 
 // ── Site header ───────────────────────────────────────────────────────────────
 // The green banner area containing the site logo SVG.
@@ -534,8 +530,8 @@ $button-height: 12em;
       align-items: center;
       height: $button-height;
 
-      .glyphicons {
-        margin-top: -.25em;
+      i {
+        margin-top: .25em;
         font-size: 2em;
         display: block;
       }
