@@ -8,38 +8,29 @@ date: 2019-10-15
 # Arctos Developers Guide
 Tips, tricks, and conventions for developing Arctos code
 
-### Attribute Display Order
+### Attributes
 
 When possible, attribute components should be displayed in the order:
 
 
-1. attribute
-2. value
-3. units
-4. determiner
-5. method
-6. date
-7. remark
+1. attribute_type
+2. attribute_value
+3. attribute_units
+4. attribute_determiner
+5. attribute_method
+6. attribute_date
+7. attribute_remark
 
 ref: https://github.com/ArctosDB/arctos/issues/9637
 
-### Attributes as JSON
+Attributes as JSON should also use these keys. All are ``text`` except attribute_determiner, which is an object built with function ``getAgentJSON()`` and consisting of keys:
 
-Attributes (of any kind) should be packaged as:
 
-   * attribute_type (string)
-   * attribute_value (string)
-   * attribute_units (string)
-   * attribute_determiner (object)
-   * attribute_remark (string)
-   * attribute_method (string)
-   * attribute_date (string)
-
-attribute_determiner can be built with function ``getAgentJSON()``, which returns an object consisting of
 *  agent_name
 *  agentID
 
-  
+NOTE: Some csv tools will not maintain suggested order, and Arctos JSON (PG datatype ``JSONB``) has no "column order." We can do no more that attempt to suggest order in many cases.
+
 ### CFML
 
 Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language) and HTML. 
