@@ -1,11 +1,8 @@
 ---
-Author: Dusty McDonald
 title: Container
-layout: default_toc
-date: 2023-02-22
+authors: Dusty L. McDonald
+date_updated: 2023-02-22
 ---
-
-# Object Tracking
 
 In a nutshell, Arctos Object Tracking consists of...
 
@@ -134,9 +131,3 @@ Weight capacity of the container.
 ## number_rows, number_columns, orientation, positions_hold_container_type
 
 Position layout data.
-
-
-    
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/container.markdown).

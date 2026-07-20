@@ -1,0 +1,91 @@
+---
+title: Frequently Asked Questions
+authors: Dusty L. McDonald
+date_updated: 2024-07-15
+redirect_from:
+  - /how_to/QnA/
+---
+
+## Organize collector numbers for efficient and predictable retrieval
+
+A frustrated user trying to find 'their' data by a series of collector numbers is a common error log find. This situation comes from the 'traditional' way of entering data, and is easily improved in Arctos. Collector numbers in many disciplines are entered in the format "ABC 123" where "ABC" referes (vaguely and ambiguously) to an Agent, and "123" is a member of a series. Attempting to match "ABC 120-ABC-130" will result in errors; this is not a series that a machine can understand. Recognizing ABC as a particular person is a context and time sensitive operation - our experience very strongly suggests that most people will not make the connection and therefore will be unable to link data. Entering the identifier value as '123' and the collector as the [Issued By Agent](https://handbook.arctosdb.org/documentation/identifiers.html#id-issued-by) will remove all ambiguity and allow for series searches (120-123 is easily handled). This also provides a place (the Arctos Agent record) to attach additional information, such as scans of field notes or relationships to the collector's colleagues. Arctos also offers rules-based protection of such data (eg "when issued_by is agent then value must be integer") by request, which will also prevent the near-inevitable inconsistencies and typographical errors (ABC123 or ABC-123 or ABX-123) of uncontrolled text.
+
+## Manage collection-specific code table values
+
+Many authorities allow collection-specific usage, which may be controlled by Operators with manage_collection access. From manage collection, (in the Collection Defaults section)...
+
+<img width="538" alt="Screenshot 2025-01-02 at 15 40 44" src="https://github.com/user-attachments/assets/5e2393ce-4359-4d27-b0da-66007831ef43" />
+
+... or from a code table (example:  <https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type>), click the collection settings button:
+
+<img width="176" alt="Screenshot 2025-01-02 at 15 39 02" src="https://github.com/user-attachments/assets/3c35ae39-6de0-4035-8db1-bbc4af2fb6b8" />
+
+Choose a collection:
+
+
+<img width="243" alt="Screenshot 2025-01-02 at 15 39 27" src="https://github.com/user-attachments/assets/dc34899b-5895-4661-b541-557eeb29b955" />
+
+Then select values and save:
+
+<img width="192" alt="Screenshot 2025-01-02 at 15 39 54" src="https://github.com/user-attachments/assets/e4fc9139-e6a2-4b68-a7c0-b79bef1f796d" />
+
+
+
+## Note special use conditions for a record
+
+Find or create an appropriate permit. Note that permits are useful documents which guide or control use; any more-formal interpretation is incorrect.
+
+<img width="838" alt="Screenshot 2024-12-10 at 12 59 08" src="https://github.com/user-attachments/assets/03ccb48a-e1a6-44c3-8603-8e96e65d50c7">
+
+Find or create a data loan. Note that data loans are transactions which are attached to select catalog records; any other interpretation is incorrect.
+
+<img width="666" alt="Screenshot 2024-12-10 at 07 07 25" src="https://github.com/user-attachments/assets/a35595d2-99f4-4b2b-962e-fbf39d608bcf">
+
+
+Add the permit to the transaction. (Transactions can carry any number of permits, and permits may be used by any number of transactions; reality need not be as simple as this example.)
+
+
+<img width="268" alt="Screenshot 2024-12-10 at 07 08 14" src="https://github.com/user-attachments/assets/dba4376f-3832-4c7a-ace2-5f69861ed096">
+
+Add the record to the transaction
+
+<img width="243" alt="Screenshot 2024-12-10 at 13 02 37" src="https://github.com/user-attachments/assets/daa7f6b2-9d51-4760-825c-fb497c3042b7">
+
+When interacting with the record (here, having found it in a query to add items to a loan), view the restriction:
+
+<img width="190" alt="Screenshot 2024-12-10 at 13 00 54" src="https://github.com/user-attachments/assets/9a1b87f6-beb7-46a7-a858-ff59ac6c3e26">
+
+
+
+## Locate records by specific classification data
+
+Example: Records in the MVZ:Bird collection which are identified using a name which has term type ``CITES Appendix`` of value ``I`` in source  ``Arctos Legal``: <https://arctos.database.museum/search.cfm?guid_prefix=MVZ%3ABird&tax_trm_1=%3DI&tax_rnk_1=CITES%20Appendix&tax_src_1=Arctos%20Legal>
+
+## Loan and Shipment Templates
+
+To create a template open the loan create form, fill in whatever you'd like to save - all fields are optional for this - and click Templates. Choose a collection, provide a name, and click save.
+
+To use a template, open the loan create form, click templates, and choose a template to pre-fill the form.
+
+Users with manage_collection access may delete templates owned by their collection(s) using the button in the choose table.
+
+Shipment templates work in exactly the same ways.
+
+
+## Share Record Search and Results
+
+First choose a Profile.
+
+<img width="284" height="312" alt="Image" src="https://github.com/user-attachments/assets/a040fac0-75ab-4049-a5db-9d8c6022efbb" />
+
+Enter your search criteria, perform the search, then click reload with sharable URL. 
+
+<img width="269" height="448" alt="Image" src="https://github.com/user-attachments/assets/e197532c-12af-4a6b-b880-26c8a4c01328" />
+
+***Important***: If you are logged in as an Operator, including guid_prefix will ensure the recipient sees the same collections.
+
+Copy the URL, ensure that it contains "sp={profile_you_selected}" plus your search criteria, and share away! Example:
+
+```
+https://arctos.database.museum/search.cfm?cat_num=12&sp=preset_art
+```

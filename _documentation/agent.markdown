@@ -1,10 +1,8 @@
 ---
 title: Agents
-layout: default_toc
-author:  DLM
+authors: Dusty L. McDonald
+date_updated: 
 ---
-
-# Agents
 
 Agents are people, organizations, groups, code, or any human entity that performs actions. Agents are collectors, authors of publications, users of objects, issuers of identifiers and, if you enter or edit data, you are an Agent. A single Agent can have many roles and many names. No matter how many roles or names an Agent has, there should be only one Agent profile in Arctos to represent them. Agents are not deleted, but may be default-hidden by a 'bad duplicate of' relationship.
 
@@ -99,6 +97,39 @@ Foreign key to agent.agent_id; agent deleting or changing an attribute; this is 
 
 update or delete
 
+# Agent Rank
+
+Agent Rank is an internal-only system of ranking Agents to inform future interactions (such as loan requests).
+
+
+## agent_rank_id
+
+Internal key
+
+## agent_id 
+
+Key to agent
+
+## agent_rank
+
+Ranking; foreign key <https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_type>
+
+## ranked_by_agent_id
+
+Required; key to agent making the assertion
+
+## remark
+
+Comment
+
+## transaction_type
+
+Type of interaction involved in this evaluation. <https://arctos.database.museum/info/ctDocumentation.cfm?table=cttransaction_type>
+
+## rank_date
+
+date
+
 # Related Entities
 
 ## Verbatim Agent Attribute
@@ -158,6 +189,15 @@ Note that an 'invalid agent' message can result from, for example, zero or many 
 Agents are never deleted, and agentID is therefore stable. Agents marked as 'bad duplicate of' should not be used, and are generally less-findable in the UIs, but continue to exist. It is left to the users to verify flagged duplicates, and update their records as appropriate. "The system" does not change any data or usage when an Agent is flagged, but notifications are provided. Many bulk tools to transfer usage to "good" Agents exist; file an Issue for assistance.
 
 
-## Edit this Documentation
+# How To
 
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/agent.markdown).
+Instructions for doing specifc tasks related to Agents in Arctos
+
+ - [Best Practice - Creating Meaningful Agents](https://handbook.arctosdb.org/best_practices/Agents.html)
+ - [How To Agentify Verbatim Agents](https://handbook.arctosdb.org/how_to/How-to-Agentify-Verbatim-Agents.html)
+ - [How to Batch Update Agents in Catalog Record Roles](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Agents.html)
+ - [How To Bulkload Agents](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Agents.html)
+ - [How To Create Agents](https://handbook.arctosdb.org/how_to/How-to-Create-Agents.html)
+ - [How To Delete/Merge Agents](https://handbook.arctosdb.org/how_to/How_to_Delete_Agents.html)
+ - [How To Search Agents](https://handbook.arctosdb.org/how_to/How-to-Search-Agents.html)
+ - [How To Use the Agent Pre-Bulkloader](https://handbook.arctosdb.org/how_to/How-to-deal-with-Agent-Bulkloader-results.html)

@@ -1,12 +1,8 @@
 ---
 title: Locality
-author: DLM
-date: 2025-08-11
-layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2025-08-11
 ---
-
-# Locality
-
 
 A locality is a specific place associated with one or more [Collecting Events](collecting-event).  Ultimately, each locality should be a unique polygon in geographic space.  Often, the polygon is a circular estimate with the center as a point defined by [latitude and longitude](coordinates), and the radius as a linear estimate of error.  For electronic mapping, we convert such data to decimal degrees with estimates of error in meters.  Interfaces to the data are more flexible. 
 
@@ -148,8 +144,3 @@ Place Terms is a search-optimized cache of locality-adjacent data, primarily sup
 ## Maintenance
 
 Duplicate localities are automatically merged, and unused localities are automatically deleted. A Locality Name will prevent both of these actions and should be used in pre-created localities. Please remove Name from any localities which you no longer intend to use.
-
-  
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/locality.markdown).

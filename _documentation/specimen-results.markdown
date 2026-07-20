@@ -1,11 +1,8 @@
 ---
 title: Specimen Results
-author: DLM
-date: 2018-04-24
-layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2018-04-24
 ---
-
-# Search Results
 
 Search results presents summary cataloged item data in a tabular format. 
 
@@ -61,7 +58,3 @@ Parts are presented as concatenated strings. Turn on "partdetail" to see individ
 ### Identifications
 
 Only the current accepted identifications is shown by default. Turn on "ID History (JSON)" to see all identifications.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/specimen-results.markdown" target="_blank">here</a>.

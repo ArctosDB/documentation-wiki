@@ -1,9 +1,8 @@
 ---
-title: How To Search for Catalog Records
-layout: default_toc
+title: Search for Catalog Records
+authors: 
+date_updated: 
 ---
-
-# Catalog Record Search
 
 Navigate to the search page either by opening the Arctos homepage (arctos.database.museum) or by using the Search toolbar > Catalog Records menu option. A basic search pane will display:
 
@@ -54,7 +53,3 @@ Submit
 
 
 [How To Search for Specimens](https://handbook.arctosdb.org/how_to/How-to-Search-for-Specimens.html) is outdated.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/record-search.markdown" target="_blank">here</a>.

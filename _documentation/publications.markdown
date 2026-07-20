@@ -1,9 +1,8 @@
 ---
 title: Publications
-layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 
 ---
-
-# Publications
 
 Publications are included in Arctos to document the significance of
 specimens. These associations also enhance publications by making the
@@ -298,8 +297,3 @@ Instructions for doing specifc tasks related to Publications in Arctos (please n
 
  - [How To Create Citations](https://handbook.arctosdb.org/how_to/How-to-Create-Citations.html)
  - [How To Bulkload Citations](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Citations.html)
-   
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/publications.markdown" target="_blank">here</a>.

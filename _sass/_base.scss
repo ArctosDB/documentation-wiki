@@ -1,18 +1,28 @@
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+// ── Reset ────────────────────────────────────────────────────────────────────
+// Strip default margin and padding from block-level elements.
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
     margin: 0;
     padding: 0;
 }
 
 
-
-/**
- * Basic styling
- */
+// ── Body ─────────────────────────────────────────────────────────────────────
+// Base font, color, and kerning. Variables defined in _variables.scss (or main.scss).
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -26,33 +36,34 @@ body {
 }
 
 
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+// ── Vertical rhythm ───────────────────────────────────────────────────────────
+// Consistent bottom margin on all block elements. %vertical-rhythm is also
+// used by _syntax-highlighting.scss via @extend.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
 
 
-
-/**
- * Images
- */
+// ── Images ───────────────────────────────────────────────────────────────────
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
-
-
-/**
- * Figures
- */
-figure > img {
+figure>img {
     display: block;
 }
 
@@ -61,35 +72,33 @@ figcaption {
 }
 
 
-
-/**
- * Lists
- */
-ul, ol {
+// ── Lists ────────────────────────────────────────────────────────────────────
+ul,
+ol {
     margin-left: $spacing-unit;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
+
+    >ul,
+    >ol {
+        margin-bottom: 0;
     }
 }
 
 
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
+// ── Headings ─────────────────────────────────────────────────────────────────
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: $base-font-weight;
 }
 
 
-
-/**
- * Links
- */
+// ── Links ────────────────────────────────────────────────────────────────────
 a {
     color: $brand-color;
     text-decoration: none;
@@ -105,10 +114,7 @@ a {
 }
 
 
-
-/**
- * Blockquotes
- */
+// ── Blockquotes ──────────────────────────────────────────────────────────────
 blockquote {
     color: #555;
     border-left: 4px solid $grey-color-light;
@@ -122,10 +128,8 @@ blockquote {
 }
 
 
-
-/**
- * Code formatting
- */
+// ── Code ─────────────────────────────────────────────────────────────────────
+// Inline code and fenced blocks. Background matches _syntax-highlighting.scss.
 pre,
 code {
     font-size: 15px;
@@ -142,7 +146,7 @@ pre {
     padding: 8px 12px;
     overflow-x: auto;
 
-    > code {
+    >code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
@@ -150,13 +154,11 @@ pre {
 }
 
 
-
-/**
- * Wrapper
- */
+// ── Wrapper ──────────────────────────────────────────────────────────────────
+// Centered content container with responsive max-width.
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -165,19 +167,15 @@ pre {
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        max-width: calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
 }
 
 
-
-/**
- * Clearfix
- */
+// ── Clearfix ─────────────────────────────────────────────────────────────────
 %clearfix {
-
     &:after {
         content: "";
         display: table;
@@ -186,13 +184,10 @@ pre {
 }
 
 
-
-/**
- * Icons
- */
+// ── Icons ────────────────────────────────────────────────────────────────────
+// Inline SVG icon wrapper (16×16). Used in footer social links.
 .icon {
-
-    > svg {
+    >svg {
         display: inline-block;
         width: 16px;
         height: 16px;
@@ -204,29 +199,40 @@ pre {
     }
 }
 
+
+// ── Nav override ─────────────────────────────────────────────────────────────
+// Force nav to full-width block so Bootstrap's float doesn't collapse the trigger.
 nav {
-  float:none;
-  width:100%;
-  display:block;
-  div.trigger {
-  display: block;
-  width: 100%;
-}
+    float: none;
+    width: 100%;
+    display: block;
+
+    div.trigger {
+        display: block;
+        width: 100%;
+    }
 }
 
+
+// ── Arctos field status colors ───────────────────────────────────────────────
+// TODO: Unclear where these classes are used. Possibly legacy indicators for
+// required/conditional/optional fields in Arctos data entry forms.
+// Confirm before removing.
 .blrequired {
-color: #800000;
+    color: #800000;
 }
 
 .blcondreq {
-  color: #33cccc;
+    color: #33cccc;
 }
 
 .bloptional {
-  color: #cccc00;
+    color: #cccc00;
 }
 
+
+// ── Post content footer ───────────────────────────────────────────────────────
+// TODO: No posts exist on this site. Confirm this class is unused before removing.
 .post-content-footer {
-  font-style: italic;
+    font-style: italic;
 }
-
