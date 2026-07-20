@@ -51,9 +51,11 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 
 * Whenever possible terms should have a published reference or citation.
 * Terms and their definitions should be as general and unambiguous as possible.
-* Authorities may contain non-ASCII UTF characters, but the scope of this is unclear.
+* Authority values may contain non-ASCII UTF characters, but the scope of this is unclear.
     * Discussion: https://github.com/ArctosDB/arctos/issues/9141 
-
+* References should be 'scholarly' and specific to Arctos data.
+   * Dictionary-type definitions are not useful nor allowed
+   * Google Books URLs are strongly discouraged 
 
 ### Specific Rules for Specific Code Tables
 
@@ -198,6 +200,10 @@ ref: https://github.com/ArctosDB/arctos/issues/7844
 
  Values listed here must be registered on the Internet Assigned Numbers Authority
 (https://www.iana.org/assignments/media-types/media-types.xhtml) and may be added as needed if requirements are met.
+
+#### ctprocessing_history
+
+Terms should be broadly useful across collection types (i.e. not overly specific). All terms should be worded as verbs in the past tense and have a functional description, but documention links are not required.
 
 #### ctspecimen_part_name
 
