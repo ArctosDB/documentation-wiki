@@ -18,13 +18,13 @@ Bulkloading loan information is a two step process. The first step involves crea
 * Populate the spreadsheet fields following the conventions outlined by the Loan Loader screen. The summary indicates what fields are required. 
 * Formatting is very important, so make sure you are typing things into the spreadsheet exactly as they appear when you pull up a loan in Arctos. 
 
-{% include tip.html content="When entering agent names, the easiest way to make sure that 1) the agent exists in Arctos and 2) you have the name spelled and formatted correctly, is to search in Arctos for the agent and if existing, copy/paste that name from Arctos into the spreadsheet. If you need to create an agent, see [How to Create Agents]({{ '/how_to/create-agents' | relative_url }}) %}
+{% include tip.html content="When entering agent names, the easiest way to make sure that 1) the agent exists in Arctos and 2) you have the name spelled and formatted correctly, is to search in Arctos for the agent and if existing, copy/paste that name from Arctos into the spreadsheet. If you need to create an agent, see [How to Create Agents]({{ site.baseurl }}/how_to/create-agents) %}
 
 {% include tip.html content="Excel tends to auto-correct dates into a default format.  Change the date columns from date or number format to text format, or select the date format used in Arctos (yyyy-mm-dd) **Tip** The written sections of the loan (Nature of Material, Description, Instructions) must be “HTML-friendly.” If there are any symbols in these fields that don’t work in HTML, Arctos will not let you create the loan. The ususal culprit is the enter/return key, instead of using “enter” to create a line break, you will need to use" %}
 
 {% include tip.html content="If the loan contains items from multiple collections in the institution, the loan may be assigned to the collection with the greatest number of specimens in the loan, no matter how this determination is made it is best to be consistent, so document the method of choice for your institution" %}
 
-{% include tip.html content="For details about what should be included in each field of the Loan Metadata Bulkload, see the Definitions and Documentation section of the [Loan Loader](https://arctos.database.museum/loaders/BulkloadLoan.cfm?action=ld) and follow the links for each column header for more information or reiew [Initiating a Loan]({{ '/how_to/create-a-new-loan' | relative_url }}) %}
+{% include tip.html content="For details about what should be included in each field of the Loan Metadata Bulkload, see the Definitions and Documentation section of the [Loan Loader](https://arctos.database.museum/loaders/BulkloadLoan.cfm?action=ld) and follow the links for each column header for more information or reiew [Initiating a Loan]({{ site.baseurl }}/how_to/create-a-new-loan) %}
  
 * When the template is complete, save the file as a csv
  

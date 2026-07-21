@@ -12,8 +12,10 @@ Handles:
 
 Special case — links inside {% include %} content parameters:
   {% link %} inside {% include %} breaks Liquid (the %} closes the outer tag).
-  These are automatically converted to | relative_url instead:
-  [text]({% link _how_to/page.markdown %})  →  [text]({{ '/how_to/page' | relative_url }})
+  {{ 'string' | relative_url }} also breaks — single quotes inside {{ }} inside a
+  content="..." parameter confuse Jekyll 3.x's include parameter parser.
+  These are automatically converted to {{ site.baseurl }}/path instead:
+  [text](/how_to/page)  →  [text]({{ site.baseurl }}/how_to/page)
 
 Also validates:
   - Unresolved links (target file not found)              → [unresolved-link]
@@ -264,6 +266,13 @@ EXISTING_LINK_RE = re.compile(
     r'(#[^\s)\]"\'<]*)?'
 )
 
+# Match old-style {{ '/path' | relative_url }} output from a previous script version.
+# These break Jekyll 3.x's include parameter parser when inside content="..." parameters
+# (single quotes inside {{ }} confuse the parser). Auto-fixed to {{ site.baseurl }}/path.
+OLD_REL_URL_RE = re.compile(
+    r"\{\{\s*'(/[^'#]*)(#[^']*)?'\s*\|\s*relative_url\s*\}\}"
+)
+
 
 # ---------------------------------------------------------------------------
 # File processing
@@ -296,12 +305,14 @@ def fix_file(filepath, url_map, url_map_lower, filepath_to_url):
                 return match.group(0)
 
             if in_include_span(match.start(), include_spans):
-                # {% link %} inside {% include %} breaks Liquid — use | relative_url.
+                # {% link %} inside {% include %} breaks Liquid — use {{ site.baseurl }}/path.
+                # Note: {{ 'string' | relative_url }} also breaks because the single quotes
+                # inside {{ }} inside a content="..." parameter confuse Jekyll 3.x's parser.
                 url = filepath_to_url.get(target, raw_path.rstrip('/'))
-                new_link = f"]({{{{ '{url}{anchor}' | relative_url }}}})"
+                new_link = f"]({{{{ site.baseurl }}}}{url}{anchor})"
                 replacements.append((match.group(0), new_link))
                 issues.append(('include-param-link',
-                               f"{raw_path}{anchor} → {{ '{url}{anchor}' | relative_url }}"))
+                               f"{raw_path}{anchor} → {{{{ site.baseurl }}}}{url}{anchor}"))
                 return new_link
 
             # Normal case: use {% link %}
@@ -328,6 +339,21 @@ def fix_file(filepath, url_map, url_map_lower, filepath_to_url):
     for m in HANDBOOK_BARE_RE.finditer(content):
         issues.append(('bare-url', m.group(0)))
 
+    # Pass 5: fix old-style {{ '/path' | relative_url }} inside {% include %} params.
+    # These were emitted by a previous version of this script and break Jekyll 3.x.
+    include_spans = find_include_spans(content)
+    def fix_old_rel_url(m):
+        if in_include_span(m.start(), include_spans):
+            path   = m.group(1)
+            anchor = m.group(2) or ''
+            new = f"{{{{ site.baseurl }}}}{path}{anchor}"
+            replacements.append((m.group(0), new))
+            issues.append(('include-param-link',
+                           f"{m.group(0)} → {{{{ site.baseurl }}}}{path}{anchor}"))
+            return new
+        return m.group(0)
+    content = OLD_REL_URL_RE.sub(fix_old_rel_url, content)
+
     # Pass 4: validate pre-existing {% link %} tags in the ORIGINAL content
     # (newly converted links are validated inline during passes 1 & 2)
     include_spans_orig = find_include_spans(original_content)
@@ -341,7 +367,7 @@ def fix_file(filepath, url_map, url_map_lower, filepath_to_url):
             url = filepath_to_url.get(link_path, '?')
             issues.append(('include-param-link',
                            f"existing {{% link {link_path} %}} inside {{% include %}} param"
-                           f" — change to {{{{ '{url}{anchor}' | relative_url }}}}"))
+                           f" — change to {{{{ site.baseurl }}}}{url}{anchor}"))
         elif anchor:
             anchor_id = anchor.lstrip('#')
             if anchor_id not in extract_heading_ids(link_path):

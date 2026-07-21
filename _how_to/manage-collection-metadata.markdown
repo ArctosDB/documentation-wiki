@@ -148,7 +148,7 @@ Collection Terms accompanies the licenses, and provides a method by which collec
 **REQUIRED**
 A direct link to the loan policy for that collection or institution.
 
-{% include tip.html content="Before selecting your terms and licenses, read [How to Apply Licensing and Terms]({{ '/how_to/apply-licensing-and-terms' | relative_url }})" %}
+{% include tip.html content="Before selecting your terms and licenses, read [How to Apply Licensing and Terms]({{ site.baseurl }}/how_to/apply-licensing-and-terms)" %}
 
 ## Collection Defaults
 
