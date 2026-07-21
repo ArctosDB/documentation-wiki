@@ -37,7 +37,7 @@ If you want to upload a lot of large media files (e.g., 100s or 1000s of images,
 * Within that directory, you can organize your media files however you want
 * Internal path /corral-tacc/projects/arctos/web/ writes to external path https://web.corral.tacc.utexas.edu/arctos/
 
-{% include tip.html content="Read [Best Practice - Managing Directory Structures in the Arctos Project Allocation at TACC]({{ site.baseurl }}/best_practices/tacc-allocation) %}
+{% include tip.html content="Read [Best Practice - Managing Directory Structures in the Arctos Project Allocation at TACC](/best_practices/tacc-allocation) %}
 
 We consider it a best practice to create "daily" folders to manage your files beyond any shared folders 
 

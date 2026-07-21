@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Edit-Catalog-Numbers-for-Individual-Specimens/
 ---
 
-{% include caution.html content="Changing the catalog number is dangerous as the objects cataloged may have been cited using the existing number. If a change is made, the old number should not be reused and it should be redirected to the new number. See [Redirects]({{ site.baseurl }}/documentation/redirect)" %}
+{% include caution.html content="Changing the catalog number is dangerous as the objects cataloged may have been cited using the existing number. If a change is made, the old number should not be reused and it should be redirected to the new number. See [Redirects](/documentation/redirect)" %}
 
 (Based on a guide initally developed by April Payne, Northern Michigan University)
 

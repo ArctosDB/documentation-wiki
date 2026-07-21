@@ -17,7 +17,7 @@ Add, Edit or Delete an identification for a catalog record. A catalog record can
 * In the Add Determination box, select the appropriate value from the **ID Formula** drop-down menu. If the new determination does not contain any modifiers (i.e., "sp.", "cf.", "x", "?", etc.), keep the default formula value ("A"). For redeterminations that involve more than one taxon (e.g., hybrids, "and", "or"), an additional field will appear when the appropriate formula is selected ("Taxon B").
 * Select an identification order.
 
-{% include tip.html content="If this is confusing, please read the [Identification Order Documentation]({{ site.baseurl }}/documentation/identification#identification-order)" %}
+{% include tip.html content="If this is confusing, please read the [Identification Order Documentation](/documentation/identification#identification-order)" %}
   
 * Enter the new identification in the **Taxon** field(s).
 

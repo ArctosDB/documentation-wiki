@@ -20,7 +20,7 @@ Use the the "[Get a template](https://arctos.database.museum/tools/BulkloadLoanI
 
 * Formatting is very important, so make sure you are typing things into the spreadsheet exactly as they appear when you pull up a loan in Arctos. 
 
-{% include tip.html content="For details about what should be included in each field of the Loan Item Bulkload, see the Definitions and Documentation section of the [Bulkload Loan Item Tool](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=ld) and follow the links for each column header for more information or reiew [How To Add Items to an Object Loan]({{ site.baseurl }}/how_to/add-loan-items)" %}
+{% include tip.html content="For details about what should be included in each field of the Loan Item Bulkload, see the Definitions and Documentation section of the [Bulkload Loan Item Tool](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=ld) and follow the links for each column header for more information or reiew [How To Add Items to an Object Loan](/how_to/add-loan-items)" %}
  
 * When the template is complete, save the file as a csv
  

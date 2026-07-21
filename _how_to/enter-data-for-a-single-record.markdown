@@ -248,7 +248,7 @@ This block includes standardized location data. You can add 1 **Locality** to an
 
 * **locality_higher_geog** includes standardized geography selected from a [code table](https://arctos.database.museum/place.cfm?sch=geog).
 
-{% include tip.html content="If the geography you have is not in the code table, you can use [no specific higher geography](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350) or if you have no information on geography use [no higher geography recorded](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69). See also [Higher Geography Documentation]({{ site.baseurl }}/documentation/higher-geography)" %}
+{% include tip.html content="If the geography you have is not in the code table, you can use [no specific higher geography](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350) or if you have no information on geography use [no higher geography recorded](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69). See also [Higher Geography Documentation](/documentation/higher-geography)" %}
 
 * **locality_specific** should hold all the location information that would allow someone to find the place on a map or by verbal directions. This value should **exclude** anything placed in any of the other fields available in **Locality**
 

@@ -59,7 +59,7 @@ Following the definition, always include the link to the Github Issue that docum
 
 When you are satisfied with your entries in all fields, select "Insert" to create the new code table term.
 
-{% include caution.html content="Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship. (See [Create Term Relationships]({{ site.baseurl }}/how_to/create-and-manage-geology-terms#create-term-relationships))" %}
+{% include caution.html content="Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship. (See [Create Term Relationships](/how_to/create-and-manage-geology-terms#create-term-relationships))" %}
 
 ## Manage Terms
 

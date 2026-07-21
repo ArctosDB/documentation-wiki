@@ -12,15 +12,14 @@ Handles:
 
 Special case — links inside {% include %} content parameters:
   {% link %} inside {% include %} breaks Liquid (the %} closes the outer tag).
-  {{ 'string' | relative_url }} also breaks — single quotes inside {{ }} inside a
-  content="..." parameter confuse Jekyll 3.x's include parameter parser.
-  These are automatically converted to {{ site.baseurl }}/path instead:
-  [text](/how_to/page)  →  [text]({{ site.baseurl }}/how_to/page)
+  {{ }} expressions also break Jekyll 3.x's include parameter parser.
+  These are automatically converted to plain relative URLs instead:
+  [text](/how_to/page)  →  [text](/how_to/page)   (kept as-is or resolved)
 
 Also validates:
   - Unresolved links (target file not found)              → [unresolved-link]
-  - Links inside {% include %} params (auto-converted)    → [include-param-link]
-  - Pre-existing {% link %} inside {% include %} params   → [include-param-link]
+  - Links inside {% include %} params (auto-converted to /path) → [include-param-link]
+  - Pre-existing {% link %} inside {% include %} params        → [include-param-link]
   - Broken anchors (heading ID not in target)             → [broken-anchor]
   - Bare handbook URLs (not converted)                    → [bare-url]
   - {% link %} tags pointing to nonexistent files         → [link-tag-bad-file]
@@ -268,9 +267,16 @@ EXISTING_LINK_RE = re.compile(
 
 # Match old-style {{ '/path' | relative_url }} output from a previous script version.
 # These break Jekyll 3.x's include parameter parser when inside content="..." parameters
-# (single quotes inside {{ }} confuse the parser). Auto-fixed to {{ site.baseurl }}/path.
+# (single quotes inside {{ }} confuse the parser). Auto-fixed to plain /path.
 OLD_REL_URL_RE = re.compile(
     r"\{\{\s*'(/[^'#]*)(#[^']*)?'\s*\|\s*relative_url\s*\}\}"
+)
+
+# Match {{ site.baseurl }}/path links — also break inside include parameters in Jekyll 3.x.
+# Auto-fixed to plain /path when inside {% include %} spans.
+BASEURL_LINK_RE = re.compile(
+    r"\{\{\s*site\.baseurl\s*\}\}(/(?:documentation|how_to|best_practices)/[^\s)\]\"'<#]*)"
+    r"(#[^\s)\]\"'<]*)?"
 )
 
 
@@ -281,8 +287,8 @@ OLD_REL_URL_RE = re.compile(
 def fix_file(filepath, url_map, url_map_lower, filepath_to_url):
     """
     Scan a file for internal links and replace them with Jekyll {% link %} syntax.
-    Links inside {% include %} parameters are converted to | relative_url instead,
-    since {% link %}'s %} would prematurely close the {% include %} tag.
+    Links inside {% include %} parameters are converted to plain relative URLs (/path)
+    since {% link %} and {{ }} expressions both break Jekyll 3.x's include parameter parser.
 
     Returns (new_content, replacements_list, issues_list).
     issues_list entries are (tag, detail) tuples.
@@ -305,14 +311,14 @@ def fix_file(filepath, url_map, url_map_lower, filepath_to_url):
                 return match.group(0)
 
             if in_include_span(match.start(), include_spans):
-                # {% link %} inside {% include %} breaks Liquid — use {{ site.baseurl }}/path.
-                # Note: {{ 'string' | relative_url }} also breaks because the single quotes
-                # inside {{ }} inside a content="..." parameter confuse Jekyll 3.x's parser.
+                # {% link %} inside {% include %} breaks Liquid — the %} closes the outer tag.
+                # {{ }} expressions also break Jekyll 3.x's include parameter parser.
+                # Use a plain relative URL (/collection/slug) instead.
                 url = filepath_to_url.get(target, raw_path.rstrip('/'))
-                new_link = f"]({{{{ site.baseurl }}}}{url}{anchor})"
+                new_link = f"]({url}{anchor})"
                 replacements.append((match.group(0), new_link))
                 issues.append(('include-param-link',
-                               f"{raw_path}{anchor} → {{{{ site.baseurl }}}}{url}{anchor}"))
+                               f"{raw_path}{anchor} → {url}{anchor}"))
                 return new_link
 
             # Normal case: use {% link %}
@@ -341,18 +347,34 @@ def fix_file(filepath, url_map, url_map_lower, filepath_to_url):
 
     # Pass 5: fix old-style {{ '/path' | relative_url }} inside {% include %} params.
     # These were emitted by a previous version of this script and break Jekyll 3.x.
+    # Convert to plain relative URL (/path) — safest format inside include parameters.
     include_spans = find_include_spans(content)
     def fix_old_rel_url(m):
         if in_include_span(m.start(), include_spans):
             path   = m.group(1)
             anchor = m.group(2) or ''
-            new = f"{{{{ site.baseurl }}}}{path}{anchor}"
+            new = f"{path}{anchor}"
             replacements.append((m.group(0), new))
             issues.append(('include-param-link',
-                           f"{m.group(0)} → {{{{ site.baseurl }}}}{path}{anchor}"))
+                           f"{m.group(0)} → {path}{anchor}"))
             return new
         return m.group(0)
     content = OLD_REL_URL_RE.sub(fix_old_rel_url, content)
+
+    # Pass 6: fix {{ site.baseurl }}/path links inside {% include %} params.
+    # {{ }} expressions break Jekyll 3.x's include parameter parser.
+    include_spans = find_include_spans(content)
+    def fix_baseurl_link(m):
+        if in_include_span(m.start(), include_spans):
+            path   = m.group(1)
+            anchor = m.group(2) or ''
+            new = f"{path}{anchor}"
+            replacements.append((m.group(0), new))
+            issues.append(('include-param-link',
+                           f"{m.group(0)} → {path}{anchor}"))
+            return new
+        return m.group(0)
+    content = BASEURL_LINK_RE.sub(fix_baseurl_link, content)
 
     # Pass 4: validate pre-existing {% link %} tags in the ORIGINAL content
     # (newly converted links are validated inline during passes 1 & 2)
@@ -367,7 +389,7 @@ def fix_file(filepath, url_map, url_map_lower, filepath_to_url):
             url = filepath_to_url.get(link_path, '?')
             issues.append(('include-param-link',
                            f"existing {{% link {link_path} %}} inside {{% include %}} param"
-                           f" — change to {{{{ site.baseurl }}}}{url}{anchor}"))
+                           f" — change to {url}{anchor}"))
         elif anchor:
             anchor_id = anchor.lstrip('#')
             if anchor_id not in extract_heading_ids(link_path):
