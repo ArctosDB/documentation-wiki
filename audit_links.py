@@ -10,10 +10,18 @@ Handles:
   [text](/documentation/page#anchor)  → [text]({% link _documentation/page.markdown %}#anchor)
   [text](https://handbook.arctosdb.org/documentation/page) → same
 
+Special case — links inside {% include %} content parameters:
+  {% link %} inside {% include %} breaks Liquid (the %} closes the outer tag).
+  These are automatically converted to | relative_url instead:
+  [text]({% link _how_to/page.markdown %})  →  [text]({{ '/how_to/page' | relative_url }})
+
 Also validates:
-  - Unresolved links (target file not found)     → [unresolved-link]
-  - Broken anchors (heading ID not in target)    → [broken-anchor]
-  - Bare handbook URLs (not converted)           → [bare-url]
+  - Unresolved links (target file not found)              → [unresolved-link]
+  - Links inside {% include %} params (auto-converted)    → [include-param-link]
+  - Pre-existing {% link %} inside {% include %} params   → [include-param-link]
+  - Broken anchors (heading ID not in target)             → [broken-anchor]
+  - Bare handbook URLs (not converted)                    → [bare-url]
+  - {% link %} tags pointing to nonexistent files         → [link-tag-bad-file]
 
 File existence is implicitly validated: the URL map is built from files on disk,
 so any resolved link points to a real file.
@@ -54,11 +62,14 @@ def get_permalink(content):
 
 def build_url_map():
     """
-    Build a dict mapping URL paths → repo-relative file paths.
-    Both /collection/slug and /collection/slug.html are mapped to the same file.
-    Returns (url_map, url_map_lower) where the second is a case-insensitive fallback.
+    Build dicts mapping URL paths ↔ repo-relative file paths.
+    Returns (url_map, url_map_lower, filepath_to_url) where:
+      url_map          — exact URL → filepath
+      url_map_lower    — lowercased URL → filepath (case-insensitive fallback)
+      filepath_to_url  — filepath → canonical URL path (no .html, for | relative_url)
     """
     url_map = {}
+    filepath_to_url = {}
     for collection_dir, url_base in COLLECTIONS.items():
         if not os.path.isdir(collection_dir):
             print(f"  Warning: directory {collection_dir!r} not found, skipping.")
@@ -75,14 +86,16 @@ def build_url_map():
                 url_map[slug] = filepath
                 if not slug.endswith('.html'):
                     url_map[slug + '.html'] = filepath
+                # Canonical URL: strip .html if present
+                filepath_to_url[filepath] = slug[:-5] if slug.endswith('.html') else slug
             else:
                 slug = os.path.splitext(filename)[0]
                 url = f"{url_base}/{slug}"
                 url_map[url] = filepath
                 url_map[url + '.html'] = filepath
-    # Case-insensitive fallback: last writer wins for duplicates, which is fine
+                filepath_to_url[filepath] = url
     url_map_lower = {k.lower(): v for k, v in url_map.items()}
-    return url_map, url_map_lower
+    return url_map, url_map_lower, filepath_to_url
 
 
 def resolve_url(raw_path, url_map, url_map_lower):
@@ -108,7 +121,7 @@ def resolve_url(raw_path, url_map, url_map_lower):
     if result:
         return result
 
-    # Fallback: strip 'How-to-' prefix from /how_to/ slugs (case-insensitive prefix match)
+    # Fallback: strip 'How-to-' prefix from /how_to/ slugs (case-insensitive)
     m = re.match(r'(/how_to/)how-to-(.+)', path_no_ext, re.IGNORECASE)
     if m:
         stripped = m.group(1) + m.group(2)
@@ -117,6 +130,28 @@ def resolve_url(raw_path, url_map, url_map_lower):
             return result
 
     return None
+
+
+# ---------------------------------------------------------------------------
+# Include-tag span detection
+# ---------------------------------------------------------------------------
+
+def find_include_spans(content):
+    """
+    Return list of (start, end) character positions for {% include ... %} tags.
+    Used to detect when a link falls inside an include parameter — in which case
+    {% link %} syntax would prematurely close the include tag.
+    """
+    spans = []
+    for m in re.finditer(r'\{%-?\s*include\b', content):
+        end = content.find('%}', m.end())
+        if end != -1:
+            spans.append((m.start(), end + 2))
+    return spans
+
+
+def in_include_span(pos, spans):
+    return any(start <= pos < end for start, end in spans)
 
 
 # ---------------------------------------------------------------------------
@@ -158,7 +193,7 @@ def extract_heading_ids(filepath):
         elif (i + 1 < len(lines)
               and re.match(r'^[=-]+\s*$', lines[i + 1])
               and line.strip()
-              and not line.startswith('---')):   # don't confuse front-matter fence
+              and not line.startswith('---')):
             heading_text = line.strip()
             i += 1  # skip underline
 
@@ -169,24 +204,15 @@ def extract_heading_ids(filepath):
                 hid = explicit.group(1)
             else:
                 text = heading_text
-                # Remove IAL markers
                 text = re.sub(r'\{[^}]*\}', '', text)
-                # Remove image/link syntax, keep alt/label text
                 text = re.sub(r'!?\[([^\]]*)\]\([^)]*\)', r'\1', text)
                 text = re.sub(r'!?\[([^\]]*)\]\[[^\]]*\]', r'\1', text)
-                # Remove inline HTML
                 text = re.sub(r'<[^>]+>', '', text)
-                # Remove backtick code spans (keep content)
                 text = re.sub(r'`+([^`]*)`+', r'\1', text)
-                # Remove bold/italic markers
                 text = re.sub(r'[*_]{1,3}', '', text)
-                # Kramdown: remove chars that aren't \w (alphanum + _), whitespace, or hyphen
                 text = re.sub(r'[^\w\s-]', '', text)
-                # Replace whitespace runs with a single hyphen
                 text = re.sub(r'\s+', '-', text.strip())
-                hid = text.lower().strip('-')
-                if not hid:
-                    hid = 'section'
+                hid = text.lower().strip('-') or 'section'
 
             # Kramdown disambiguates duplicate IDs with -1, -2, …
             if hid in id_counts:
@@ -209,9 +235,9 @@ def extract_heading_ids(filepath):
 
 # Match ](/collection/path) or ](//collection/path) with optional .html and optional #anchor.
 LINK_RE = re.compile(
-    r'\]\((?://)?'                        # ]( with optional double-slash typo
-    r'(/(?:documentation|how_to|best_practices)/[^)#\s]*)'  # path
-    r'(#[^)]*)?'                          # optional #anchor
+    r'\]\((?://)?'
+    r'(/(?:documentation|how_to|best_practices)/[^)#\s]*)'
+    r'(#[^)]*)?'
     r'\)'
 )
 
@@ -232,10 +258,10 @@ HANDBOOK_BARE_RE = re.compile(
 
 # Match already-converted {% link path %}#anchor patterns for validation
 EXISTING_LINK_RE = re.compile(
-    r'\{%-?\s*link\s+'      # {% link
-    r'([^\s%]+)'            # file path (no spaces or %)
-    r'\s*-?%\}'             # %}
-    r'(#[^\s)\]"\'<]*)?'   # optional #anchor immediately after %}
+    r'\{%-?\s*link\s+'
+    r'([^\s%]+)'
+    r'\s*-?%\}'
+    r'(#[^\s)\]"\'<]*)?'
 )
 
 
@@ -243,12 +269,14 @@ EXISTING_LINK_RE = re.compile(
 # File processing
 # ---------------------------------------------------------------------------
 
-def fix_file(filepath, url_map, url_map_lower):
+def fix_file(filepath, url_map, url_map_lower, filepath_to_url):
     """
     Scan a file for internal links and replace them with Jekyll {% link %} syntax.
+    Links inside {% include %} parameters are converted to | relative_url instead,
+    since {% link %}'s %} would prematurely close the {% include %} tag.
+
     Returns (new_content, replacements_list, issues_list).
-    issues_list entries are (tag, detail) tuples where tag is one of:
-      'unresolved-link', 'broken-anchor', 'bare-url'
+    issues_list entries are (tag, detail) tuples.
     """
     with open(filepath, encoding='utf-8') as f:
         original_content = f.read()
@@ -257,47 +285,66 @@ def fix_file(filepath, url_map, url_map_lower):
     replacements = []
     issues = []
 
-    def make_replacer(label):
+    def make_replacer(label, include_spans):
         def replace(match):
             raw_path = match.group(1)
             anchor   = match.group(2) or ''
             target = resolve_url(raw_path, url_map, url_map_lower)
-            if target:
-                # Validate anchor if present
-                if anchor:
-                    anchor_id = anchor.lstrip('#')
-                    heading_ids = extract_heading_ids(target)
-                    if anchor_id not in heading_ids:
-                        issues.append(('broken-anchor',
-                                       f"{raw_path}{anchor} → {target}"))
-                new_link = f"]({{% link {target} %}}{anchor})"
-                replacements.append((match.group(0), new_link))
-                return new_link
-            else:
+
+            if not target:
                 issues.append(('unresolved-link', f"[{label}] {raw_path}{anchor}"))
                 return match.group(0)
+
+            if in_include_span(match.start(), include_spans):
+                # {% link %} inside {% include %} breaks Liquid — use | relative_url.
+                url = filepath_to_url.get(target, raw_path.rstrip('/'))
+                new_link = f"]({{{{ '{url}{anchor}' | relative_url }}}})"
+                replacements.append((match.group(0), new_link))
+                issues.append(('include-param-link',
+                               f"{raw_path}{anchor} → {{ '{url}{anchor}' | relative_url }}"))
+                return new_link
+
+            # Normal case: use {% link %}
+            if anchor:
+                anchor_id = anchor.lstrip('#')
+                if anchor_id not in extract_heading_ids(target):
+                    issues.append(('broken-anchor', f"{raw_path}{anchor} → {target}"))
+
+            new_link = f"]({{% link {target} %}}{anchor})"
+            replacements.append((match.group(0), new_link))
+            return new_link
+
         return replace
 
-    # Pass 1: relative paths  ](/collection/path)
-    content = LINK_RE.sub(make_replacer('relative'), content)
-    # Pass 2: absolute handbook URLs  ](https://handbook.arctosdb.org/collection/path)
-    content = HANDBOOK_LINK_RE.sub(make_replacer('absolute-link'), content)
+    # Pass 1: relative paths — recompute include spans on current content each pass
+    include_spans = find_include_spans(content)
+    content = LINK_RE.sub(make_replacer('relative', include_spans), content)
+
+    # Pass 2: absolute handbook URLs
+    include_spans = find_include_spans(content)
+    content = HANDBOOK_LINK_RE.sub(make_replacer('absolute-link', include_spans), content)
+
     # Pass 3: bare handbook URLs — report only, do not replace
     for m in HANDBOOK_BARE_RE.finditer(content):
         issues.append(('bare-url', m.group(0)))
 
-    # Pass 4: validate pre-existing {% link %} tags in the ORIGINAL content.
-    # Run on original so we don't double-report anchors already caught in passes 1 & 2.
+    # Pass 4: validate pre-existing {% link %} tags in the ORIGINAL content
+    # (newly converted links are validated inline during passes 1 & 2)
+    include_spans_orig = find_include_spans(original_content)
     for m in EXISTING_LINK_RE.finditer(original_content):
         link_path = m.group(1)
         anchor    = m.group(2) or ''
         if not os.path.exists(link_path):
             issues.append(('link-tag-bad-file',
                            f"{{% link {link_path} %}} — file not found"))
+        elif in_include_span(m.start(), include_spans_orig):
+            url = filepath_to_url.get(link_path, '?')
+            issues.append(('include-param-link',
+                           f"existing {{% link {link_path} %}} inside {{% include %}} param"
+                           f" — change to {{{{ '{url}{anchor}' | relative_url }}}}"))
         elif anchor:
             anchor_id = anchor.lstrip('#')
-            heading_ids = extract_heading_ids(link_path)
-            if anchor_id not in heading_ids:
+            if anchor_id not in extract_heading_ids(link_path):
                 issues.append(('broken-anchor',
                                f"{link_path}{anchor} (existing {{% link %}} tag)"))
 
@@ -310,11 +357,11 @@ def fix_file(filepath, url_map, url_map_lower):
 
 def main():
     print("Building URL map...")
-    url_map, url_map_lower = build_url_map()
+    url_map, url_map_lower, filepath_to_url = build_url_map()
     print(f"  {len(url_map)} URL entries mapped ({len(url_map)//2} files)\n")
 
     total_replaced = 0
-    all_issues = []   # (filepath, tag, detail)
+    all_issues = []
 
     for collection_dir in COLLECTIONS:
         if not os.path.isdir(collection_dir):
@@ -323,7 +370,8 @@ def main():
             if not filename.endswith('.markdown'):
                 continue
             filepath = os.path.join(collection_dir, filename)
-            new_content, replacements, issues = fix_file(filepath, url_map, url_map_lower)
+            new_content, replacements, issues = fix_file(
+                filepath, url_map, url_map_lower, filepath_to_url)
 
             if replacements:
                 print(f"{filepath}  ({len(replacements)} change{'s' if len(replacements)>1 else ''})")
@@ -341,8 +389,8 @@ def main():
     print(f"\n{'='*60}")
     print(f"Links replaced: {total_replaced}")
 
-    # Group issues by tag for readability
-    for tag in ('unresolved-link', 'link-tag-bad-file', 'broken-anchor', 'bare-url'):
+    for tag in ('unresolved-link', 'link-tag-bad-file',
+                'include-param-link', 'broken-anchor', 'bare-url'):
         matching = [(fp, d) for fp, t, d in all_issues if t == tag]
         if matching:
             print(f"\n[{tag}] — {len(matching)} item(s):")

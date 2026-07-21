@@ -25,7 +25,7 @@ Use the the "[Get a template](https://arctos.database.museum/tools/BulkloadParts
  
 * When the template is complete, save the file as a csv
 
-{% include tip.html content="For better formatting when using Excel see [How To Manage Excel for Arctos]({% link _how_to/excel-for-arctos.markdown %})" %}
+{% include tip.html content="For better formatting when using Excel see [How To Manage Excel for Arctos]({{ '/how_to/excel-for-arctos' | relative_url }})" %}
 
 ## Upload CSV to the Part Bulkload Tool 
 

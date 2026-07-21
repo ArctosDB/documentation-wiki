@@ -8,7 +8,7 @@ redirect_from:
 
 **Documentation: [Object Tracking]({% link _documentation/container.markdown %})**
 
-{% include tip.html content="To create containers with barcodes, barcodes must be reserved FIRST.  See [Develop your Barcode Series]({% link _how_to/start-object-tracking.markdown %}#develop-your-barcode-series)." %}
+{% include tip.html content="To create containers with barcodes, barcodes must be reserved FIRST.  See [Develop your Barcode Series]({{ '/how_to/start-object-tracking#develop-your-barcode-series' | relative_url }})." %}
 
 Once claimed, barcodes must be created and associated with a container. You can associate barcodes with a temporary container type. This is accomplished as described in “Creating Containers” below. Once the barcodes have been uploaded into Arctos, the containers that they represent can be edited as described in "Editing an Individual Container" and "Bulk Editing Containers".
 

@@ -14,7 +14,7 @@ redirect_from:
 
 To bulkload locality attributes use the <a href="https://arctos.database.museum/tools/bulkloadLocalityAttributes.cfm">Locality Attribute Bulkload Tool</a>. 
 
-{% include caution.html content="Be sure that the attribute(s) you plan to add to the locality apply to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the locality attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality]({% link _how_to/create-a-new-collecting-event-for-a-locality.markdown %}) to reflect the new locality." %}
+{% include caution.html content="Be sure that the attribute(s) you plan to add to the locality apply to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the locality attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality]({{ '/how_to/create-a-new-collecting-event-for-a-locality' | relative_url }}) to reflect the new locality." %}
 
 Locality attributes can also be added as part of a normal catalog record bulkload which creates new localities. To use this method, just add Locality Attributes to your bulkload builder:  
 
@@ -26,7 +26,7 @@ Then complete the required fields (locality_attribute_type and locality_attribut
 
 If the locality already exists, you can edit the locality following the instructions in [How to Edit a Specific Locality]({% link _how_to/edit-a-specific-locality.markdown %}).  
  
-{% include caution.html content="Be sure that the attribute(s) you plan to add to the locality apply to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the locality attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality]({% link _how_to/create-a-new-collecting-event-for-a-locality.markdown %}) to reflect the new locality." %}
+{% include caution.html content="Be sure that the attribute(s) you plan to add to the locality apply to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the locality attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality]({{ '/how_to/create-a-new-collecting-event-for-a-locality' | relative_url }}) to reflect the new locality." %}
 
 Otherwise, create the locality from scratch following the instructions in [How To Create a Locality]({% link _how_to/create-a-locality.markdown %}).
 
