@@ -523,7 +523,7 @@ description of the general qualities of the finished product.
     procedures](#object-tracking-in-the-field).)
 -   All other container-related tasks involve only scanning barcodes.
 
-## [Creating position-holding freezer boxes](https://handbook.arctosdb.org/how_to/How-To-Barcode-Cryovials-in-an-Existing-Freezer-Box.html#create-the-freezer-box-in-arctos)
+## [Creating position-holding freezer boxes]({% link _how_to/barcode-cryovials-in-an-existing-freezer-box.markdown %}#create-the-freezer-box-in-arctos)
     
 ## Barcode Series
 

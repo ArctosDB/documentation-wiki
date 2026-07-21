@@ -6,10 +6,10 @@ redirect_from:
   - /how_to/How-To-Use-Complex-Identifications-As-Low-Quality-Data-Flags/
 ---
 
-[Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
+[Identifications Documentation]({% link _documentation/identification.markdown %})
 
 ## What are complex identifications?
-[Complex identifications](http://handbook.arctosdb.org/how_to/How-to-Use-Complex-Identifications.html "Complex identifications") are frequently used by object-based collections, like cultural and art collections, to link descriptive or informal identifications with Arctos' formal taxonomic structure. These complex identifications are built using the [A{string} identification formula](http://handbook.arctosdb.org/documentation/identification.html "A{string}"). This formula allows the identifications displayed on a catalog record page to be flexible and relates the record to a taxon name and classification in Arctos' taxonomy tables. As such, A{string} identifications can suit collection-specific needs while enhancing an object's discovery in Arctos searches.
+[Complex identifications]({% link _how_to/use-complex-identifications.markdown%}) are frequently used by object-based collections, like cultural and art collections, to link descriptive or informal identifications with Arctos' formal taxonomic structure. These complex identifications are built using the [A{string} identification formula]({% link _documentation/identification.markdown%}). This formula allows the identifications displayed on a catalog record page to be flexible and relates the record to a taxon name and classification in Arctos' taxonomy tables. As such, A{string} identifications can suit collection-specific needs while enhancing an object's discovery in Arctos searches.
 
 ![](https://user-images.githubusercontent.com/40321380/66869076-336c1480-ef64-11e9-9c57-a24b9c762f47.png)
 
@@ -18,7 +18,7 @@ This page will discuss an **alternate use of complex identifications for specime
 
 ## A{string} identifications as "working names"
 
-When adding an identification that uses a taxon name not already in Arctos, you have the option to either [create a new taxon](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html), or to use an A{string} identification that captures the desired taxon name as string data and relates the identification to an existing taxon name.
+When adding an identification that uses a taxon name not already in Arctos, you have the option to either [create a new taxon]({% link _how_to/create-taxa.markdown %}), or to use an A{string} identification that captures the desired taxon name as string data and relates the identification to an existing taxon name.
 
 In general, this relationship between an A{sting} identification and an existing taxon name is to a some name of higher taxon rank, like a genus. For example, for [CHAS:Inv:1909.2954.1](https://arctos.database.museum/guid/CHAS:Inv:1909.2954.1), the collection manager has chosen to relate the identification to genus *Galba* rather than to add name *Galba umbilicata* to Arctos. This is reflected in the hierarchical classification written under the identification.
 
@@ -27,12 +27,12 @@ In general, this relationship between an A{sting} identification and an existing
 ### Why not add the name to the Arctos taxonomy?
 If a given taxon name cannot be validated using an automated web-service, like the [Arctos taxon name validator](https://arctos.database.museum/DataServices/taxonNameValidator.cfm) or [Global Names Architecture services](http://globalnames.org/), this may be a sign that the name is not “real” or that the name is out of date/is no longer valid. Create new taxon names if you are able to individually verify that the names you would like to add are, in fact, real. However, indiscriminately adding names can introducing fake names to Arctos. This is detrimental to other Arctos users who expect to use Arctos taxonomy as an authority and are at risk of incorporating errors introduced by other collections.
 
-As such, when bulkloading, consider using A{string} identifications rather than adding new taxon names to Arctos. Using A{string} identifications allows the user to quickly bulkload catalog records with unusual names without fear of adding fake names to Arctos and without having to spend a great deal of time [cleaning classifications and adding metadata to new names](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html) prior to data migration.
+As such, when bulkloading, consider using A{string} identifications rather than adding new taxon names to Arctos. Using A{string} identifications allows the user to quickly bulkload catalog records with unusual names without fear of adding fake names to Arctos and without having to spend a great deal of time [cleaning classifications and adding metadata to new names]({% link _how_to/manage-taxonomic-classifications.markdown %}) prior to data migration.
 
 As a bonus, the A{string} identifications allow users to **capture legacy data** that correspond to verbatim trasncriptions from labels or ledgers. Further, records that use the identification formula can be queried and returned at a later date. The formula can therefore **act as a flag for potentially low-quality data**, including transcription errors or invalid taxonomy.
 
 ### Discoverability issues in database queries
-Because data entered using the A{string} formula are unstructured, using the formula comes with search performance drawbacks. Typographical errors and unpredictable formats in A{string} identifications can make catalog records completely unsearchable when the formula is not used with care. That said, Arctos [searches on identications](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html) will attempt to match query inputs to identification strings and will return records when A{string} identifications are an *exact* match. Catalog records with A{string} identifications will also appear in searches on higher taxonomy, provided that the taxon name to which their identification is related has a classification.
+Because data entered using the A{string} formula are unstructured, using the formula comes with search performance drawbacks. Typographical errors and unpredictable formats in A{string} identifications can make catalog records completely unsearchable when the formula is not used with care. That said, Arctos [searches on identications]({% link _how_to/search-for-specimens-with-identification-and-taxonomy.markdown %}) will attempt to match query inputs to identification strings and will return records when A{string} identifications are an *exact* match. Catalog records with A{string} identifications will also appear in searches on higher taxonomy, provided that the taxon name to which their identification is related has a classification.
 
 GBIF and iDigBio both attempt to resolve A{string} identifications to their own taxonomic backbones upon data ingestion. This may have unintended consequences and lead to misinterpreted data at the aggregator-level. However, these aggregators will frequently resolve A{string} identifications to the genus-level, which allows most catalog records to be discovered using queries on specimen taxonomy.
 

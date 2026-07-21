@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate/
 ---
 
-[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Locality Documentation]({% link _documentation/locality.markdown %})
 
 **Township/Range/Section data can be converted to latitude/longitude coordinates using the following method.**
 

@@ -8,7 +8,7 @@ A collecting event is a place and time (both of any precision) where collecting 
 collecting event often applies to more than one catalogued specimen, so
 be careful that changes you make to a collecting event apply to all of
 the specimens. **New Collecting Events** are normally created when
-specimen records are [bulk-loaded](/documentation/bulkloader), but may be created manually, cloned
+specimen records are [bulk-loaded]({% link _documentation/bulkloader.markdown %}), but may be created manually, cloned
 from existing events, and/or given a name for easy identification.
 
 ## Event Name
@@ -27,7 +27,7 @@ sequentially, such as hosts and parasites. The existence of an event Name will p
 `Collecting_Event . Verbatim_Locality VARCHAR(255) null`
 
 Verbatim Locality is the locality description as provided by the
-collector and is specific to the Collecting Event, not to the [Locality](/documentation/locality). 
+collector and is specific to the Collecting Event, not to the [Locality]({% link _documentation/locality.markdown %}). 
 The same Locality may have been described differently at different
 times, and this distinction allows us to incorporate assumptions about
 the locality into Specific Locality while maintaining the original
@@ -64,7 +64,7 @@ before the present.)
 
 Began and End Dates delimit the range of dates encompassed
 by the Verbatim Date. Unlike Verbatim Date, they are [ISO8601
-date](/documentation/dates) values, not an indeterminate character string. If the
+date]({% link _documentation/dates.markdown %}) values, not an indeterminate character string. If the
 Verbatim Date is a valid date, then both the Began Date and the End Date
 should be the same as the Verbatim Date. If the Verbatim Date is
 unknown or vague, put the latest possible date in the End Date field
@@ -98,8 +98,8 @@ The following examples are instructive:
 
 Verbatim coordinates are coordinates as entered into Arctos. They are stored with collecting event in their original
 format with the information supplied at the time of entry. These are not
-mapped; [locality](/documentation/locality) coordinates are automatically generated from
-them via the [bulkloader](/documentation/bulkloader)). Verbatim coordinates should generally should not be changed.
+mapped; [locality]({% link _documentation/locality.markdown %}) coordinates are automatically generated from
+them via the [bulkloader]({% link _documentation/bulkloader.markdown %})). Verbatim coordinates should generally should not be changed.
 Do not confuse verbatim coordinates with verbatim locality data (which may be in the form of coordinates or coordinate-like data) as supplied by the collector.
 The former are intended to track things like conversion errors; the latter are verbatim specimen data.
 
@@ -111,7 +111,7 @@ Use Remarks to document non-standard information pertaining to the fields in col
 
 ## Attributes
 
-Any collecting event may carry any number of Event Attributes. Structure is similar to [Specimen Attributes](http://handbook.arctosdb.org/documentation/attributes.html).
+Any collecting event may carry any number of Event Attributes. Structure is similar to [Specimen Attributes]({% link _documentation/attributes.markdown %}).
 
 * [Event Attribute Type code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_EVENT_ATTR_TYPE)
 * [Event Attribute DataType code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTCOLL_EVENT_ATT_ATT)
@@ -176,10 +176,10 @@ Duplicate Collecting Events are automatically merged, and unused Collecting Even
 
 Instructions for doing specifc tasks related to Collecting Events in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date)
 
- - [How To Change Locality and Collecting Event](https://handbook.arctosdb.org/how_to/How-to-Change-Locality-Single-Specimen.html)
- - [How To Create a New Collecting Event for a Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html)
- - [How To Edit a Verbatim Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Verbatim-Locality.html)
- - [How To Understand Locality Media](https://handbook.arctosdb.org/how_to/How-to-understand-locality-media.html)
- - [How To Understand the Arctos Locality Model](https://handbook.arctosdb.org/how_to/How-to-understand-the-Arctos-Locality-Model.html)
+ - [How To Change Locality and Collecting Event]({% link _how_to/change-locality-single-specimen.markdown %})
+ - [How To Create a New Collecting Event for a Locality]({% link _how_to/create-a-new-collecting-event-for-a-locality.markdown %})
+ - [How To Edit a Verbatim Locality]({% link _how_to/edit-a-verbatim-locality.markdown %})
+ - [How To Understand Locality Media]({% link _how_to/understand-locality-media.markdown %})
+ - [How To Understand the Arctos Locality Model]({% link _how_to/understand-the-arctos-locality-model.markdown %})
 
 -

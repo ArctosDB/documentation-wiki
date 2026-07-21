@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Create-Taxa/
 ---
 
-[Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
+[Taxonomy Documentation]({% link _documentation/taxonomy.markdown %})
 
 The instructions in this How To are also given on each screen in Arctos as you create a new taxon.  Suggestions and clarifications to improve the instructions here and on the screens are always welcome.  Depending on the computer (PC or Mac) you are using and your browser, your images may differ slightly from what you see here.
 
@@ -35,7 +35,7 @@ Both approaches take you to the next screen where you will enter the new taxon n
 
 ### Validation Service
 
-When taxon names are created or edited, Arctos checks them against various external services. This check is a tool, not an authority; all services have significant problems as of this writing. “Valid” names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy. “Valid for Arctos” taxonomy is described in [Taxonomy](http://handbook.arctosdb.org/documentation/taxonomy.html) in Documentation.  
+When taxon names are created or edited, Arctos checks them against various external services. This check is a tool, not an authority; all services have significant problems as of this writing. “Valid” names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy. “Valid for Arctos” taxonomy is described in [Taxonomy]({% link _documentation/taxonomy.markdown %}) in Documentation.  
 
 ### Taxonomy Source
 

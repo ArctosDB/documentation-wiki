@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How-to-Bulkload-Citations/
 ---
 
-[Citations Documentation](https://handbook.arctosdb.org/documentation/specimen-citations.html)
+[Citations Documentation]({% link _documentation/citations.markdown %})
 
-Attach multiple catalog records to a publication via citation. **NOTE:** Before a cataloged item is cited, the Publication profile **must** already exist in Arctos. See [How to Create a Publication](https://handbook.arctosdb.org/how_to/How-to-Create-a-Publication.html) for a tutorial.
+Attach multiple catalog records to a publication via citation. **NOTE:** Before a cataloged item is cited, the Publication profile **must** already exist in Arctos. See [How to Create a Publication]({% link _how_to/create-a-publication.markdown %}) for a tutorial.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_citations.jpg)
 

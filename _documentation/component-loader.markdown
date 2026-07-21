@@ -16,7 +16,7 @@ All Component loaders may be directly interacted with, and each will provide a d
 
 ## Keys
 
-Component loaders generally follow the Arctos [Identifier Convention](/documentation/developer-guide.html#identifier-convention).
+Component loaders generally follow the Arctos [Identifier Convention]({% link _documentation/developer-guide.markdown %}#identifier-convention).
 
 ## Status
 

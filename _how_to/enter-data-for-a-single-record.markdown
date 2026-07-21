@@ -16,7 +16,7 @@ redirect_from:
 
 # How To Enter Data for a Single Record 
 
-### Documentation: [Catalog Record](https://handbook.arctosdb.org/documentation/catalog.html)
+### Documentation: [Catalog Record]({% link _documentation/catalog.markdown %})
 
 ### Navigation: [Tools Directory > Data Entry -> Enter Records]([https://arctos.database.museum/enter_data.cfm](https://arctos.database.museum/Bulkloader/enter.cfm))
 
@@ -53,7 +53,7 @@ The Profile you are currently using will appear at the top of the list. You may 
 
 ## How To Customize Data Entry and Create Profiles
 
-See [How To Customize the Data Entry Form](https://handbook.arctosdb.org/how_to/customize_data_entry.html)
+See [How To Customize the Data Entry Form]({% link _how_to/customize-data-entry.markdown %})
 
 ## Data Entry Form Details
 
@@ -202,9 +202,9 @@ This block includes standardized time and verbatim time and location data. You c
 
 * **event_verbatim_date** is the day plus time of the event as recorded. This field should be as descriptive as possible and include all aspects of "time" provided in the original data.
 
-* **event_began_date** is the standardized (See [Dates Documentation](https://handbook.arctosdb.org/documentation/dates.html)) date and time that the event began. If no date is known, leave this blank.
+* **event_began_date** is the standardized (See [Dates Documentation]({% link _documentation/dates.markdown %})) date and time that the event began. If no date is known, leave this blank.
 
-* **event_ended_date** is the standardized (See [Dates Documentation](https://handbook.arctosdb.org/documentation/dates.html)) date and time that the event ended. If no date is known, leave this blank.
+* **event_ended_date** is the standardized (See [Dates Documentation]({% link _documentation/dates.markdown %})) date and time that the event ended. If no date is known, leave this blank.
 
 **OPTIONAL**
 
@@ -248,7 +248,7 @@ This block includes standardized location data. You can add 1 **Locality** to an
 
 * **locality_higher_geog** includes standardized geography selected from a [code table](https://arctos.database.museum/place.cfm?sch=geog).
 
-{% include tip.html content="If the geography you have is not in the code table, you can use [no specific higher geography](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350) or if you have no information on geography use [no higher geography recorded](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69). See also [Higher Geography Documentation](https://handbook.arctosdb.org/documentation/higher-geography.html)" %}
+{% include tip.html content="If the geography you have is not in the code table, you can use [no specific higher geography](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=10016350) or if you have no information on geography use [no higher geography recorded](https://arctos.database.museum/place.cfm?action=detail&geog_auth_rec_id=69). See also [Higher Geography Documentation]({% link _documentation/higher-geography.markdown %})" %}
 
 * **locality_specific** should hold all the location information that would allow someone to find the place on a map or by verbal directions. This value should **exclude** anything placed in any of the other fields available in **Locality**
 

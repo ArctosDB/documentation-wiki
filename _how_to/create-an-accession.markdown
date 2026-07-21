@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Create-an-Accession/
 ---
 
-[Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)
+[Accession Documentation]({% link _documentation/accession.markdown %})
 
 {% include tip.html content="Accessioning is the formal act of legally accepting an object or objects to the category of material that a museum holds in the public trust, or in other words those in the museum’s permanent collection. Because it commits staff time, space and other resources to the proper care of this material, it is important that acquiring material for the collections be done in a thoughtful, inclusive way that reflects the best interests of the museum and its audiences, and can be sustained by the available resources." %}
 

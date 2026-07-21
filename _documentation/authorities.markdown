@@ -4,7 +4,7 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-Arctos maintains authorities in order to standardize content that is [shared amongst all collections using Arctos](/documentation/sharing-data-and-resources).
+Arctos maintains authorities in order to standardize content that is [shared amongst all collections using Arctos]({% link _documentation/sharing-data-and-resources.markdown %}).
 
 ## Code Tables
 
@@ -238,12 +238,12 @@ Acceptable suffixes (and the scales they represent) are as follows.
 
 ### Taxonomy
 
-Taxonomy is included here only for completeness. See [Taxonomy Documentation](/documentation/taxonomy) for more information.
+Taxonomy is included here only for completeness. See [Taxonomy Documentation]({% link _documentation/taxonomy.markdown %}) for more information.
 
 ### Geography
 
-Geography is included here only for completeness. See [Geography Documentation](/documentation/higher-geography) for more information.
+Geography is included here only for completeness. See [Geography Documentation]({% link _documentation/higher-geography.markdown %}) for more information.
 
 ### Agents
 
-Agents are included here only for completeness. See [Agent Documentation](/documentation/agent) for more information.
+Agents are included here only for completeness. See [Agent Documentation]({% link _documentation/agent.markdown %}) for more information.

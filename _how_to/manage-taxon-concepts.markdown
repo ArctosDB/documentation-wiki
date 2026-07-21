@@ -6,11 +6,11 @@ redirect_from:
   - /how_to/How-To-Manage-Taxon-Concepts/
 ---
 
-[Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
+[Identifications Documentation]({% link _documentation/identification.markdown %})
 
 ## Create a Taxon Concept
 
-1. First make sure the publication that is the ‘according to’ for a taxon concept exists in Arctos see [How To Create a Publication](/how_to/How-to-Create-a-Publication.html) if you need to add a publication.
+1. First make sure the publication that is the ‘according to’ for a taxon concept exists in Arctos see [How To Create a Publication](/Create-a-Publication.html) if you need to add a publication.
 2. In the taxonomy page of the name for which you want to adda concept, from the Available Operator Options, click on `[Manage Concepts]`
 3. Enter the publication title or author’s name in the pick publication field and select TAB, this will present you with a list of publications with the title or by the author. Choose from the available publications in the pop-up window.
 4. Enter the taxon author as used in the publication (e.g., “L.”),

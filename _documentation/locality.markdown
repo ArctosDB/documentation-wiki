@@ -32,7 +32,7 @@ Specific Locality is "standardized" descriptive data. This field is essentially 
 
 When no information is known, spec_locality should be recorded as ``No specific locality recorded.`` - this exact phrase, and only this exact phrase, will prevent confusing interpretations of "we don't know." External services (such as GeoLocate) returning nonsense are almost always attributable to malformed specific locality data.
 
-Much has been written on properly formatting specific locality; see [Best Practices: Locality](/best_practices/locality.html).
+Much has been written on properly formatting specific locality; see [Best Practices: Locality]({% link _best_practices/locality.markdown %}).
 
 ### primary_spatial_data
 

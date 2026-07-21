@@ -48,17 +48,17 @@ You do not need to create an account or login to search. However, there are some
 
 ## Identification and Taxonomy
 
-**Documentation:** [Identifications](https://handbook.arctosdb.org/documentation/identification.html), [Taxonomy](https://handbook.arctosdb.org/documentation/taxonomy.html)
+**Documentation:** [Identifications]({% link _documentation/identification.markdown %}), [Taxonomy]({% link _documentation/taxonomy.markdown %})
 
 * The first field in this section is "Identification" which allows you to search by anything in the scientific name (genus, species, subspecies).
 
 * Once you hit "Show More Options" to the right in the gray section header, you will see a number of other search fields. These allow you to search by higher taxonomy or other types of data in Arctos.
 
-* For more detailed instructions, see [How to Search for Specimens with Identification and Taxonomy](/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
+* For more detailed instructions, see [How to Search for Specimens with Identification and Taxonomy]({% link _how_to/search-for-specimens-with-identification-and-taxonomy.markdown %})
 
 ## Locality
 
-**Documentation:** [Locality](https://handbook.arctosdb.org/documentation/locality.html), [Collecting Event](https://handbook.arctosdb.org/documentation/collecting-event.html)
+**Documentation:** [Locality]({% link _documentation/locality.markdown %}), [Collecting Event]({% link _documentation/collecting-event.markdown %})
 
 * As with taxonomy, this section provides a number of fields for searching (if you select "Show More Options"). However, take heart in the fact that you will not have to fill them all out. The field that you will likely use the most is "Any Geographic Element", which performs a broad search incorporating the other fields in this section. If for any reason, you need to be more specific, you can search in the appropriate category.
 
@@ -157,7 +157,7 @@ Works like other polygon queries, but from KML. For example, this can provide a 
 
 ## Date/Collector
 
-**Documentation:** [Agents](https://handbook.arctosdb.org/documentation/agent.html)
+**Documentation:** [Agents]({% link _documentation/agent.markdown %})
 
 * This section allows you to search by a person's name (or part of the name). What you enter here must match how the person is entered into Arctos. It is often better to enter just the last name of the person, rather than try to match the full name if you do not know how it is entered in the database.
 
@@ -167,13 +167,13 @@ Works like other polygon queries, but from KML. For example, this can provide a 
 
 ## Biological Individual
 
-**Documentation:** [Parts](https://handbook.arctosdb.org/documentation/parts.html)
+**Documentation:** [Parts]({% link _documentation/parts.markdown %})
 
 * This section allows you to search by specific parts. For example, if you are only interested in study skins or skeletal material, you can narrow down your search by entering a part name here. When you type something into the "Part Name" field, Arctos will search the matching parts in its authority table and you can then choose one of those parts to refine the search.
 
 ## Relationships
 
-**Documentation:** [Identifiers and Relationships](https://handbook.arctosdb.org/documentation/identifiers.html)
+**Documentation:** [Identifiers and Relationships]({% link _documentation/identifiers.markdown %})
 
 * This section allows search by relationships to other specimens.
 
@@ -196,7 +196,7 @@ Term and Value are key-value pairs drawn from the related specimen's data.
 
 ## Media
 
-**Documentation:** [Media](https://handbook.arctosdb.org/documentation/media.html)
+**Documentation:** [Media]({% link _documentation/media.markdown %})
 
 * Arctos has a lot of media associated with its records. If you are interested in records with media (images, audio, video), you can select the media type here. If you do not choose a media type, you will get records with as well as without media in your other search options.
 
@@ -272,4 +272,4 @@ Occasionally, you will be assigned a task that you may not be able to complete i
 
 Instructions for doing specifc tasks related to Searching in Arctos
 
- - [How to Customize Search](https://handbook.arctosdb.org/how_to/How_To_Customize_Search)
+ - [How to Customize Search]({% link _how_to/customize-search.markdown %})

@@ -6,10 +6,10 @@ redirect_from:
   - /how_to/How-to-Create-a-Locality/
 ---
 
-[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Locality Documentation]({% link _documentation/locality.markdown %})
 
 ## What is a Locality?
-[Locality](http://handbook.arctosdb.org/documentation/locality.html) is a specific place associated with one or more Collecting Events. 
+[Locality]({% link _documentation/locality.markdown %}) is a specific place associated with one or more Collecting Events. 
 
 A locality includes three types of data:
 
@@ -17,11 +17,11 @@ A locality includes three types of data:
  -   [Georeferencing determinations](coordinates) are spatial data; they define a shape on a map. Localities may include point-radius data and/or WKT (polygon) data.
  -   Descriptive data, most importantly Specific Locality and may include locality attributes such as [Geology](http://handbook.arctosdb.org/documentation/geology.html)
 
-Localities are [shared](http://handbook.arctosdb.org/documentation/sharing-data-and-resources.html). It is important to remember this anytime you are working with Locality. If you want to retain more control over a locality (and therefore, less collaborative maintenance), you can use a [Locality Nickname](http://handbook.arctosdb.org/documentation/locality.html#locality-nickname) to designate the locality as different from any other locality with essentially the same information.
+Localities are [shared]({% link _documentation/sharing-data-and-resources.markdown %}). It is important to remember this anytime you are working with Locality. If you want to retain more control over a locality (and therefore, less collaborative maintenance), you can use a [Locality Nickname]({% link _documentation/locality.markdown %}#locality-nickname) to designate the locality as different from any other locality with essentially the same information.
 
 ## Create a Locality as Part of Data Entry
 
-Localities are created as part of [Single Record Data Entry](http://handbook.arctosdb.org/how_to/How-to-Enter-Data-for-a-Single-Record.html) and [Data Bulkloading](http://handbook.arctosdb.org/how_to/How-to-Bulkload-Specimen-Data.html). When these localities are exactly the same, they are [merged](http://handbook.arctosdb.org/documentation/locality.html#maintenance).
+Localities are created as part of [Single Record Data Entry]({% link _how_to/enter-data-for-a-single-record.markdown %}) and [Data Bulkloading]({% link _how_to/bulkload-catalog-records.markdown %}). When these localities are exactly the same, they are [merged]({% link _documentation/locality.markdown %}#maintenance).
 
 ## Create a Locality for future use in Data Entry/Bulkloading
 

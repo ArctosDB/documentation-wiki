@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Use-Complex-Identifications/
 ---
 
-[Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
+[Identifications Documentation]({% link _documentation/identification.markdown %})
 
 ## Capabilities
 

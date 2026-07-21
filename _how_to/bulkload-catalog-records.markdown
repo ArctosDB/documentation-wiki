@@ -7,8 +7,8 @@ redirect_from:
 ---
 
 Relevant Documentation:
-[Bulkloader Documentation](https://handbook.arctosdb.org/documentation/bulkloader.html) | 
-[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
+[Bulkloader Documentation]({% link _documentation/bulkloader.markdown %}) | 
+[Catalog Record/Data Entry Documentation]({% link _documentation/catalog.markdown %})
 
 What you need to know: Bulkloading records into Arctos is an efficient way to organize and create multiple records in batches. The key to successful bulkloading  is properly preparing your CSV file (see *Bulkload Builder* below). Once your CSV file is ready, then there are two database steps. First step is loading your prepared file into the Staging Table. This is a shared resource currently, so if a user has data in the table it is unavailable until it has been pushed to the second step (see Bulkloading Table). This step is meant to be a temporary holding stage for primary data validation. If there are no errors, then the Second step is to push the data to  the Staging Table. 
 
@@ -64,7 +64,7 @@ When trying to fill a gap in the available catalog numbers, it is wise to view w
 * South Africa is your new best friend because they have the date format that you need. Select “yyyy-mm-dd” format and click ok.
 * Your highlighted cell(s) should automatically change to Arctos date format. **Woot!**
 
-For information about required data and individual fields, see [How To Enter Data for a Single Record: Data Entry Details](https://handbook.arctosdb.org/how_to/How-to-Enter-Data-for-a-Single-Record.html#data-entry-form-details)
+For information about required data and individual fields, see [How To Enter Data for a Single Record: Data Entry Details]({% link _how_to/enter-data-for-a-single-record.markdown %}#data-entry-form-details)
 
 # Uploading Your Data
 

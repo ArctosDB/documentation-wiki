@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Create-an-Encumbrance/
 ---
 
-[Encumbrances Documentation](/documentation/encumbrance)
+[Encumbrances Documentation]({% link _documentation/encumbrance.markdown %})
 
 Encumbrances restrict certain aspects of specimen/lot records from the public view, usually to protect personal identity, proprietary data, or the provenance of a vulnerable population/habitat. Many encumbrances are temporary and may be reversed when specified conditions change (publication of research, expiration or retraction of encumbering legislation, eradication of critical habitat where specimen/lots were collected, etc.).
 

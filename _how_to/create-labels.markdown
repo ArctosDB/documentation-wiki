@@ -6,13 +6,13 @@ redirect_from:
   - /how_to/How-to-Create-Labels/
 ---
 
-[Printed Reports and Labels Documentation](https://handbook.arctosdb.org/documentation/reports.html)
+[Printed Reports and Labels Documentation]({% link _documentation/reports.markdown %})
 
 # DEPRECATED
 
 The .cfr-based reporter is deprecated and should not be used.
 
-Current report/label documentation is [https://handbook.arctosdb.org/documentation/reports.html](https://handbook.arctosdb.org/documentation/reports.html)
+Current report/label documentation is [Reports]({% link _documentation/reports.markdown %})
 
 
 -----------------------------------

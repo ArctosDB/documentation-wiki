@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts/
 ---
 
-[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+[Object Tracking Documentation]({% link _documentation/container.markdown %})
 
 (Based on a guide initally developed by April Payne, Northern Michigan University)
 

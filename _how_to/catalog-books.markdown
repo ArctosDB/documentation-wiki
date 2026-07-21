@@ -37,7 +37,7 @@ Book {Flora of the Russian Far East: Flora Exsiccata}
 
 ### Add a Citation
 
-As a book is also a publication. Adding it as a publication in Arctos and citing the identification as a voucher of the publication will allow for recording all of the usual information associated with a publication. See [How To Create a Publication](https://handbook.arctosdb.org/how_to/How-to-Create-a-Publication.html) and [How To Create a Citation](https://handbook.arctosdb.org/how_to/How-to-Create-Citations.html) for instructions.
+As a book is also a publication. Adding it as a publication in Arctos and citing the identification as a voucher of the publication will allow for recording all of the usual information associated with a publication. See [How To Create a Publication]({% link _how_to/create-a-publication.markdown %}) and [How To Create a Citation]({% link _how_to/create-citations.markdown %}) for instructions.
 
 ## Part
 

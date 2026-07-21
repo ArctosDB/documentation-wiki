@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How-to-Create-and-Edit-Containers/
 ---
 
-**Documentation: [Object Tracking](https://handbook.arctosdb.org/documentation/container.html)**
+**Documentation: [Object Tracking]({% link _documentation/container.markdown %})**
 
-{% include tip.html content="To create containers with barcodes, barcodes must be reserved FIRST.  See [Develop your Barcode Series](https://handbook.arctosdb.org/how_to/How-to-Start-Object-Tracking.html#develop-your-barcode-series)." %}
+{% include tip.html content="To create containers with barcodes, barcodes must be reserved FIRST.  See [Develop your Barcode Series]({% link _how_to/start-object-tracking.markdown %}#develop-your-barcode-series)." %}
 
 Once claimed, barcodes must be created and associated with a container. You can associate barcodes with a temporary container type. This is accomplished as described in “Creating Containers” below. Once the barcodes have been uploaded into Arctos, the containers that they represent can be edited as described in "Editing an Individual Container" and "Bulk Editing Containers".
 
@@ -30,7 +30,7 @@ Before using this tool, create a CSV (comma delimited) file with appropriate col
 
 ### Optional Column Headers
 
-   * **Barcode** - If you are using barcodes, they must be part of a claimed series.  See [Develop your Barcode Series](https://handbook.arctosdb.org/how_to/How-to-Start-Object-Tracking.html#develop-your-barcode-series).
+   * **Barcode** - If you are using barcodes, they must be part of a claimed series.  See [Develop your Barcode Series]({% link _how_to/start-object-tracking.markdown %}#develop-your-barcode-series).
 
    * **Description** - This provides an optional space to expand on "Label" if that is helpful in your application.
 

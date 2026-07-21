@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Use-Bulkloader-SQL/
 ---
 
-[Bulkloader Documentation](https://handbook.arctosdb.org/documentation/)
+[Bulkloader Documentation]({% link _documentation/bulkloader.markdown %})
 
 Go to Browse and Edit
 

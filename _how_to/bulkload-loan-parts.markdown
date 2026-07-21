@@ -6,11 +6,11 @@ redirect_from:
   - /how_to/How_To_Bulkload_Loan_Parts/
 ---
 
-## [Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
+## [Loan Documentation]({% link _documentation/loans.markdown %})
 
-Bulkloading loan information is a two step process. The first step involves creating loan metadata in Arctos with a bulkload tool.  The second step populates the loan(s) with catalog record data and anything else that is missing from the metadata. Before beginning this process, it may help to read [How To Add Items to an Object Loan](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html) as the process for bulkloading is comleting the same steps in bulk.
+Bulkloading loan information is a two step process. The first step involves creating loan metadata in Arctos with a bulkload tool.  The second step populates the loan(s) with catalog record data and anything else that is missing from the metadata. Before beginning this process, it may help to read [How To Add Items to an Object Loan]({% link _how_to/add-loan-items.markdown %}) as the process for bulkloading is comleting the same steps in bulk.
 
-## Bulkload Parts to Loans ([How To Add Items to an Object Loan](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html))
+## Bulkload Parts to Loans ([How To Add Items to an Object Loan]({% link _how_to/add-loan-items.markdown %}))
 
 ### Navigation: [Arctos Tools -> Accessions, Loans, Permits -> Loan: Item Bulkload -> Load csv](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=ld)  
 
@@ -20,7 +20,7 @@ Use the the "[Get a template](https://arctos.database.museum/tools/BulkloadLoanI
 
 * Formatting is very important, so make sure you are typing things into the spreadsheet exactly as they appear when you pull up a loan in Arctos. 
 
-{% include tip.html content="For details about what should be included in each field of the Loan Item Bulkload, see the Definitions and Documentation section of the [Bulkload Loan Item Tool](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=ld) and follow the links for each column header for more information or reiew [How To Add Items to an Object Loan](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html)" %}
+{% include tip.html content="For details about what should be included in each field of the Loan Item Bulkload, see the Definitions and Documentation section of the [Bulkload Loan Item Tool](https://arctos.database.museum/tools/BulkloadLoanItem.cfm?action=ld) and follow the links for each column header for more information or reiew [How To Add Items to an Object Loan]({% link _how_to/add-loan-items.markdown %})" %}
  
 * When the template is complete, save the file as a csv
  
@@ -34,7 +34,7 @@ Use the the "[Get a template](https://arctos.database.museum/tools/BulkloadLoanI
 
 * Loan items will be immediately added to loans, however the loan information may not appear in your catalog records for up to 24 hours.
 
-* If edits are required after the loan items are uploaded, see [How To Find and Edit Loans](https://handbook.arctosdb.org/how_to/How-to-Find-and-Edit-Loans.html) 
+* If edits are required after the loan items are uploaded, see [How To Find and Edit Loans]({% link _how_to/find-and-edit-loans.markdown %}) 
 
 ## Tutorial Videos ↗️
 

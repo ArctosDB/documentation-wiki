@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Publish-to-GBIF/
 ---
 
-## [Beyond Arctos Documentation](https://handbook.arctosdb.org/documentation/github.html)
+## [Beyond Arctos Documentation]({% link _documentation/github.markdown %})
 
 Publishing Arctos data to data aggregators begins with a Darwin Core archive of your collection's data. Arctos uses the VertNet IPT to accomplish and share these files. Typically these archives are then published to the Global Biodiversity Information Facility (GBIF). This process can be fairly technical especially the first time, but if done properly, the data will be updated at the IPT monthly and the only requirement going forward is an annual review of the collection's metadata.
 

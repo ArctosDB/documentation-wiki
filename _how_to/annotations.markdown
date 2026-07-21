@@ -4,7 +4,7 @@ authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2022-12-01
 ---
 
-## [Notifications and Reports Documentation: ](https://handbook.arctosdb.org/documentation/notifications.html)
+## [Notifications and Reports Documentation: ]({% link _documentation/notifications.markdown %})
 
 Annotations are remarks which may be left by any user. Annotations may be associated with various data object, including catalog records, taxon name, projects, and publications.
 

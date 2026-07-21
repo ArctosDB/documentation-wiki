@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-To-Manage-Taxonomy-in-the-WoRMS-(via Arctos)-Source/
 ---
 
-[Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
+[Taxonomy Documentation]({% link _documentation/taxonomy.markdown %})
 
 WoRMS (via Arctos) is an externally managed taxonomic resource.  Whereas Arctos and Arctos Plants are managed by Arctos users, WoRMS (via Arctos) is 
 managed by the [World Register of Marine Species](http://www.marinespecies.org).  It is highly recommended that collections of marine invertebrates select WoRMS 
@@ -87,7 +87,7 @@ When WoRMS (via Arctos) is the primary source and there is no WoRMS (via Arctos)
 source.  If no second source is selected or there is no classification in the second source, the identification in catalog record will have no higher
 classification and may not be searchable.
 
-To add a taxon name and classification to your second source, see [How to Create Linnean Taxa](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html) in 
+To add a taxon name and classification to your second source, see [How to Create Linnean Taxa]({% link _how_to/create-taxa.markdown %}) in 
 the Handbook.  If WoRMS adds that name later, the classification will automatically appear with the next refresh.  There may be a lag between the time that
 names are added to WoRMS and their first upload to WoRMS (via Arctos).  If the classification is not yet in WoRMS (via Arctos), it can be added by entering the 
 AphiaID as metadata and refreshing the classification.  

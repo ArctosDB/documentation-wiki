@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How-to-Change-Locality-Single-Specimen/
 ---
 
-[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Locality Documentation]({% link _documentation/locality.markdown %})
 
-[Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
+[Collecting Event Documentation]({% link _documentation/collecting-event.markdown %})
 
 To edit a single catalog record with simple locality information.
 
@@ -40,7 +40,7 @@ Click Edit Locality, edit as appropriate, save.
 
 <img width="443" alt="Screen Shot 2019-05-29 at 11 49 21 AM" src="https://user-images.githubusercontent.com/5720791/58583012-dca9ac80-8207-11e9-89b8-85c96259c233.png">
 
-We now have an existing event and locality. These can be re-used for any number of catalog records. Note the new IDs; both are in the red box at the top. Note that IDs will be merged; these newly-created IDs should be stable for 30 days. (More information: http://handbook.arctosdb.org/documentation/locality.html#maintenance; http://handbook.arctosdb.org/documentation/collecting-event.html#maintenance).
+We now have an existing event and locality. These can be re-used for any number of catalog records. Note the new IDs; both are in the red box at the top. Note that IDs will be merged; these newly-created IDs should be stable for 30 days. More information: [Locality maintenance]({% link _documentation/locality.markdown %}#maintenance); [Collecting event maintenance]({% link _documentation/collecting-event.markdown %}#maintenance).
 
 Go back to the catalog record. Click Locality if necessary. Locate the specimen-event you wish to change. (Most catalog records have one event, but any number are possible.)
 

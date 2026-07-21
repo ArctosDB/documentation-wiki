@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Reassign-Specimens-to-Another-Locality/
 ---
 
-[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Locality Documentation]({% link _documentation/locality.markdown %})
 
 In some cases, editing a locality for a cataloged item may not be the best course of action. This may be because the locality itself is correct and the cataloged item has been improperly attributed to it. Alternatively, you may wish to clean up duplicate entries by consolidating them. In these situations, it is more efficient to reassign these cataloged items to a preexisting or a new locality. The first half of this tutorial will teach you how to reassign cataloged items to a new locality, if your cataloged item(s) is/are assigned to one collecting event only. If you only want to reassign one cataloged item that is part of a collecting events with other cataloged items into a new locality, please refer to the second half of this tutorial.
 

@@ -4,7 +4,7 @@ authors: Dusty L. McDonald
 date_updated: 2025-08-12
 ---
 
-Loans are [transcations](/documentation/transactions.html) that document any use, touching, or removal of objects from a collection, temporary or permanent, including objects that are loaned with the intention of being destroyed or permanently transferred to another institution or collection, as well as the use of object information (data loan).
+Loans are [transcations]({% link _documentation/transactions.markdown %}) that document any use, touching, or removal of objects from a collection, temporary or permanent, including objects that are loaned with the intention of being destroyed or permanently transferred to another institution or collection, as well as the use of object information (data loan).
 
 ## Loan Fields
 
@@ -32,14 +32,14 @@ Foreign key --> [ctloan_status](http://arctos.database.museum/info/ctDocumentati
 
 ### return_due_date
 
-Due Date is the [date](/documentation/dates) that a loan of the Type Returnable is expected
+Due Date is the [date]({% link _documentation/dates.markdown %}) that a loan of the Type Returnable is expected
 to be returned to the lending collection. This date may be used to
 search for overdue loans, and/or to generate automated reminders to the
 appropriate agents.
 
 ### closed_date
 
-Returned, or Closed, Date is the [date](/documentation/dates) that a loan was completeld. (Recommendation: Set this after all material has been returned, publications with citations have been provided, or the terms of the loan have otherwise been met.)
+Returned, or Closed, Date is the [date]({% link _documentation/dates.markdown %}) that a loan was completeld. (Recommendation: Set this after all material has been returned, publications with citations have been provided, or the terms of the loan have otherwise been met.)
 
 ### loan_instructions
 
@@ -59,7 +59,7 @@ In general, an item which has gone out on loan should never be removed
 from the loan. Delete functionality exists only to correct mistakes –
 when an item was added to a loan but not shipped, for example. Loan
 items (parts) may not be deleted from the database. Item Disposition
-and/or [Container](/documentation/container) information is used to signify that an item has been
+and/or [Container]({% link _documentation/container.markdown %}) information is used to signify that an item has been
 returned (or sent out on another loan). Maintaining this history is
 vital to recording collection activity, and for building Projects, which
 are transaction-based.

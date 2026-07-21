@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How_To_Customize_Search/
 ---
 
-**Documentation:** [Searching Arctos](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Search-for-Specimens.markdown)
+**Documentation:** [Searching Arctos]({% link _how_to/search-for-specimens.markdown %})
 
 The main search page can be customized to reflect the preferred suite of fields displayed for queries, especially those most frequently when searching. When logged in, customization options are saved to the user profile and will automatically display on subsequent logins.
 
@@ -41,4 +41,4 @@ Note that while a user can turn on every Search table option, doing so in the Re
 
 ![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/882cc1c9-785a-4fbc-848e-a62c50441f66)
 
-Results Options relate to the field headings displayed at the top of the results table. Users will be able to access all informaiton contained in a catalog record by clicking on the catalog number. Users will also be able to download the search results as displayed (limited to the Result Options fields selected), and/or may asynchronously "request data" for large datasets. See [How to Customize Results](https://handbook.arctosdb.org/how_to/How_To_Customize_Results.html#how-to-customize-search-results) for more detailed information.
+Results Options relate to the field headings displayed at the top of the results table. Users will be able to access all informaiton contained in a catalog record by clicking on the catalog number. Users will also be able to download the search results as displayed (limited to the Result Options fields selected), and/or may asynchronously "request data" for large datasets. See [How to Customize Results]({% link _how_to/customize-results.markdown %}) for more detailed information.

@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-load-Data-Entry-linked-Attributes/
 ---
 
-[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
+[Catalog Record/Data Entry Documentation]({% link _documentation/catalog.markdown %})
 
 Users may bulkload additional Attributes to existing catalog records. The user muse have sufficient privileges or have their edits approved by someone with manage_collection access. Similar bulkloading tools and pathways exist for Parts, Events, etc.
 

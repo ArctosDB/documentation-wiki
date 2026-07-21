@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Create-a-Publication/
 ---
 
-[Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
+[Publication Documentation]({% link _documentation/publications.markdown %})
 
 Create a profile for a Journal Article or other Publication type. Once a publication exists in Arctos, a citation can then be created to link the publication directly to a specimen record(s). Publications can also be linked to Projects.
 

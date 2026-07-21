@@ -8,7 +8,7 @@ redirect_from:
 
 _Stable link to this page: https://doi.org/10.7299/X75B02M5_
 
-[Github Documentation](https://handbook.arctosdb.org/documentation/github.html)
+[Github Documentation]({% link _documentation/github.markdown %})
 
 ## How To Create a Github Account
 
@@ -44,7 +44,7 @@ Any active Arctos user may request permission to become a member of the [Arctos 
 
 * Arctos Users may request AWG Task Force Meetings to finalize Issues, or groups of related Issues. Start a Doodle poll and paste the link into the Issue(s) you wish to address.
 
-* Users have access to the documentation code where they can create and edit pages for the Arctos Handbook [Documentation and How-to Guides](https://handbook.arctosdb.org). See [instructions](https://Github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Contribute-Content-to-Arctos-Handbook.markdown) on how to create and/or edit content in the documentation-wiki repository.
+* Users have access to the documentation code where they can create and edit pages for the Arctos Handbook [Documentation and How-to Guides](https://handbook.arctosdb.org). See [instructions]({% link _how_to/contribute-content-to-arctos-handbook.markdown %}) on how to create and/or edit content in the documentation-wiki repository.
 
 * Users cannot invite other members.
 
@@ -103,10 +103,10 @@ You will see a list of all of the Github repositories to which you have subscrib
 >You will be rewarded with a list of unread notifications. You can peruse the list, read the issues that interest you and mark those that don't as "read". Depending upon the level you wish to participate, you might check once or twice a day or once a week, but less than that might mean missing out on contributing to an important conversation.
 
 ## How To Use Arctos Issues
-See [How To Github: Create and Manage Issues](/how_to/How-to-Use-Issues-in-Arctos.html)
+See [How To Github: Create and Manage Issues]({% link _how_to/use-issues-in-arctos.markdown %})
 
 ## Developing Arctos with Github
 Developers who are interested in Arctos code can view it in the [ArctosDB/arctos](https://Github.com/ArctosDB/arctos) and [ArctosDB/DDL](https://Github.com/ArctosDB/DDL) repositories.
 
 ## Editing the Arctos Handbook
-See [How To Github: Use Github to Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
+See [How To Github: Use Github to Contribute to the Arctos Handbook]({% link _how_to/contribute-content-to-arctos-handbook.markdown %})

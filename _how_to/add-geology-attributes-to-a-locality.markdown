@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Add-Geology-Attributes-to-a-Locality/
 ---
 
-**Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
+**Documentation: [Attributes]({% link _documentation/attributes.markdown %})**
 
 [Locality Attributes](http://handbook.arctosdb.org/documentation/geology.html) are used to attach geology information to a locality. Each locality may contain any number of attributes, each with a determiner and method. This How-To documents the process for adding Attributes to a Locality.
 
@@ -14,7 +14,7 @@ redirect_from:
 
 To bulkload locality attributes use the <a href="https://arctos.database.museum/tools/bulkloadLocalityAttributes.cfm">Locality Attribute Bulkload Tool</a>. 
 
-{% include caution.html content="Be sure that the attribute(s) you plan to add to the locality apply to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the locality attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html) to reflect the new locality." %}
+{% include caution.html content="Be sure that the attribute(s) you plan to add to the locality apply to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the locality attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality]({% link _how_to/create-a-new-collecting-event-for-a-locality.markdown %}) to reflect the new locality." %}
 
 Locality attributes can also be added as part of a normal catalog record bulkload which creates new localities. To use this method, just add Locality Attributes to your bulkload builder:  
 
@@ -24,11 +24,11 @@ Then complete the required fields (locality_attribute_type and locality_attribut
 
 ## Create or Edit the Locality 
 
-If the locality already exists, you can edit the locality following the instructions in [How to Edit a Specific Locality](http://handbook.arctosdb.org/how_to/How-to-Edit-a-Specific-Locality.html).  
+If the locality already exists, you can edit the locality following the instructions in [How to Edit a Specific Locality]({% link _how_to/edit-a-specific-locality.markdown %}).  
  
-{% include caution.html content="Be sure that the attribute(s) you plan to add to the locality apply to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the locality attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html) to reflect the new locality." %}
+{% include caution.html content="Be sure that the attribute(s) you plan to add to the locality apply to ALL cataloged items using the locality. If this is not the case, clone the locality using the Clone Locality button at the bottom of the edit locality page and add the locality attributes to the new cloned locality, then change the locality for the appropriate collecting events following the instructions in [How To Create a New Collecting Event for a Locality]({% link _how_to/create-a-new-collecting-event-for-a-locality.markdown %}) to reflect the new locality." %}
 
-Otherwise, create the locality from scratch following the instructions in [How To Create a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-Locality.html).
+Otherwise, create the locality from scratch following the instructions in [How To Create a Locality]({% link _how_to/create-a-locality.markdown %}).
 
 Once you have the locality ready to edit, you can add the locality attributes.
 

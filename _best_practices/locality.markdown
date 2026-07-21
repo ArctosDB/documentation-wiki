@@ -239,7 +239,7 @@ Depths are a distance below the local surface (such as a body of water or soil s
 
 ## TRS
 
-"Verbatim" Township, Range, and Section (TRS) information should, like all verbatim locality data, be entered in verbatim locality. Non-verbatim legacy TRS data may be entered in locality remarks. A thorough description of TRS data, along with a tool to translate them to latitude and longitude can be found in [How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate](http://handbook.arctosdb.org/how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.html).
+"Verbatim" Township, Range, and Section (TRS) information should, like all verbatim locality data, be entered in verbatim locality. Non-verbatim legacy TRS data may be entered in locality remarks. A thorough description of TRS data, along with a tool to translate them to latitude and longitude can be found in [How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate]({% link _how_to/convert-trs-to-lat-long-using-geolocate.markdown %}).
 
 ## UTM
 
@@ -458,7 +458,7 @@ Place Terms is a search-optimized cache of locality-adjacent data, primarily sup
 
 ### More about GeoLocate
 
-[GeoLocate](https://www.geo-locate.org/) coordinates are derived from asserted geography, locality, and event data, arranged and filtered using a relatively complicated algorithm in an attempt to provide data in a way that GeoLocate can best interpret. Wildly incorrect results are almost always related to not following the guidance for specific locality (above), or rarely through incorrect (often outdated) geography choices. Any errors which cannot be atributd to these sources should be reported to the GeoLocate developers. Despite these few generally-obvious errors (which provide a mechanism to locate improvable data), GeoLocate provides the single most consistent method of locating records by place names. GeoLocate data are also used when a collection activates the georeference [bot](https://handbook.arctosdb.org/documentation/bot.html). Note that this is not related to [using GeoLocate to assist in curatorial assertions](https://handbook.arctosdb.org/documentation/geolocate.html).
+[GeoLocate](https://www.geo-locate.org/) coordinates are derived from asserted geography, locality, and event data, arranged and filtered using a relatively complicated algorithm in an attempt to provide data in a way that GeoLocate can best interpret. Wildly incorrect results are almost always related to not following the guidance for specific locality (above), or rarely through incorrect (often outdated) geography choices. Any errors which cannot be atributd to these sources should be reported to the GeoLocate developers. Despite these few generally-obvious errors (which provide a mechanism to locate improvable data), GeoLocate provides the single most consistent method of locating records by place names. GeoLocate data are also used when a collection activates the georeference [bot]({% link _documentation/bot.markdown %}). Note that this is not related to [using GeoLocate to assist in curatorial assertions]({% link _documentation/geolocate.markdown %}).
 
 
 # Edit Locality Form

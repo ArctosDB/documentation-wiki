@@ -4,7 +4,7 @@ authors: Dusty L. McDonald
 date_updated: 2018-09-20
 ---
 
-[Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
+[Publication Documentation]({% link _documentation/publications.markdown %})
  
  Arctos exploits the CrossRef ecosystem to enhance publication data. Click "CrossRef Data" from publication details to get started. An overlay will pop up. Very few publications will have all of the data described below.
  

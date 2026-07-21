@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Edit-Coordinates-and-Max-Error-of-a-Locality/
 ---
 
-[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Locality Documentation]({% link _documentation/locality.markdown %})
 
 ## Manually
 

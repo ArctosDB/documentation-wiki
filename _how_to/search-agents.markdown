@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Search-Agents/
 ---
 
-**Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a>
+**Documentation:** [Agents]({% link _documentation/agent.markdown %})
 
 ## Public Search
 

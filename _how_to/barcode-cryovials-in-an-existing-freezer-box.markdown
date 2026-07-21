@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-To-Barcode-Cryovials-in-an-Existing-Freezer-Box/
 ---
 
-[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+[Object Tracking Documentation]({% link _documentation/container.markdown %})
 
 You have claimed your barcodes in Arctos and ordered or printed them, now you are ready to open a freezer and start using Arctos to track your specimens. This document includes a workflow which you may need to modify slightly depending upon how the information for what is in your freezer boxes is currently stored and whether or not you purchased or printed duplicate barcodes.
 
@@ -77,4 +77,4 @@ You are now ready to barcode the cryovials. At MSB, we have the information for 
   
   Return the box to the freezer and save the Excel Workbook.  You are now ready to:
   
-  Create Cryovial Labels and [Associate Barcodes with Specimen Parts](http://handbook.arctosdb.org/how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html)
+  Create Cryovial Labels and [Associate Barcodes with Specimen Parts]({% link _how_to/bulkload-barcodes-to-specimen-parts.markdown %})

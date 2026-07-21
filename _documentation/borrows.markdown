@@ -85,7 +85,7 @@ Loan Status is essentially the degree to which the transaction has been complete
 
 `Trans_Agent . Trans_Agent_ID NUMBER(22) not null`
 
-See [Transaction Documentation](/documentation/transactions.html#transaction-agents) for agent information.
+See [Transaction Documentation]({% link _documentation/transactions.markdown %}#transaction-agents) for agent information.
 
 ### Nature of Material
 
@@ -121,7 +121,7 @@ invoice.
 
 `Trans . Trans_Date DATE(7) null`
 
-Initiated Date is the [date](/documentation/dates) on which preparation of the loan began. A
+Initiated Date is the [date]({% link _documentation/dates.markdown %}) on which preparation of the loan began. A
 default value would be the date on which the loan was first recorded in
 the database.
 
@@ -129,7 +129,7 @@ the database.
 
 `Loan . Return_Due_Date DATE(7) null`
 
-Due Date is the [date](/documentation/dates) that a loan of the Type Returnable is expected
+Due Date is the [date]({% link _documentation/dates.markdown %}) that a loan of the Type Returnable is expected
 to be returned to the lending collection. This date may be used to
 search for overdue loans, and/or to generate automated reminders to the
 appropriate agents.
@@ -138,7 +138,7 @@ appropriate agents.
 
 `Shipment . Shipped_Date DATE(7) null`
 
-Shipping Date is the [date](/documentation/dates) that the loaned material was shipped from
+Shipping Date is the [date]({% link _documentation/dates.markdown %}) that the loaned material was shipped from
 the collection issuing the loan. The Shipping Date should be consistent
 with any documentation provided by the carrier, *e.g.,* a waybill, bill
 of lading, etc.
@@ -147,20 +147,20 @@ of lading, etc.
 
 `Borrow . Received_Date DATE(7) null`
 
-Receipt Acknowledged is the [date](/documentation/dates) the agent receiving the loan
+Receipt Acknowledged is the [date]({% link _documentation/dates.markdown %}) the agent receiving the loan
 submitted acknowledgment of its arrival to lending collection.
 
 ### Returned Date
 
 `Loan . Closed_Date DATE(7) null`
 
-Returned, or Closed, Date is the [date](/documentation/dates) that a loan of the type Returnable was received back at the
+Returned, or Closed, Date is the [date]({% link _documentation/dates.markdown %}) that a loan of the type Returnable was received back at the
 collection from which the loan was issued.
 
 ## Permits
 
 A loan may be authorized under one or more
-[permits](/documentation/permits), and these may include both the senders and to
+[permits]({% link _documentation/permits.markdown %}), and these may include both the senders and to
 the recipients. Such authorizations should be recorded by associating
 the loan with a permit that must be already be in the database.
 Recording this information may be critical to reporting to the
@@ -170,7 +170,7 @@ loan.
 ## Projects
 
 A loan is almost always made in support of one or more
-[projects](/documentation/projects), and it is in project descriptions that the
+[projects]({% link _documentation/projects.markdown %}), and it is in project descriptions that the
 scientific justification for the loan should be described.
 
 ## Deleting Items
@@ -179,7 +179,7 @@ In general, an item which has gone out on loan should never be removed
 from the loan. Delete functionality exists only to correct mistakes –
 when an item was added to a loan but not shipped, for example. Loan
 items (parts) may not be deleted from the database. Item Disposition
-and/or [Container](/documentation/container) information is used to signify that an item has been
+and/or [Container]({% link _documentation/container.markdown %}) information is used to signify that an item has been
 returned (or sent out on another loan). Maintaining this history is
 vital to recording collection activity, and for building Projects, which
 are transaction-based.

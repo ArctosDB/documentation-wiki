@@ -109,7 +109,7 @@ online resource).
 
 A special type ("[Arctos record GUID](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_other_id_type)") is available for linking records within Arctos. This type ensures that identifiers and issued by agent are properly formed.
 
-Various tools are available for detecting and creating reciprocal relationships, or a [bot](https://handbook.arctosdb.org/documentation/bot.html) may be enabled to fully automate this process.
+Various tools are available for detecting and creating reciprocal relationships, or a [bot]({% link _documentation/bot.markdown %}) may be enabled to fully automate this process.
 
 ## remarks
 
@@ -179,6 +179,6 @@ All other identifiers are properly entered as type [identifier](https://arctos.d
 
 Instructions for doing specifc tasks related to identifiers in Arctos
 
- - [How to Record Prior Inclusion in Another Collection](https://handbook.arctosdb.org/how_to/How_To_Add_Object_Provenance.html)
- - [Searching Arctos](/how_to/How-to-Search-for-Specimens)
+ - [How to Record Prior Inclusion in Another Collection]({% link _how_to/add-object-provenance.markdown %})
+ - [Searching Arctos]({% link _how_to/search-for-specimens.markdown %})
  - [How to Identify National Park Specimens](https://handbook.arctosdb.org/how_to/National-Park-Specimens.html)

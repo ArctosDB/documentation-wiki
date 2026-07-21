@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Edit-Media/
 ---
 
-[Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
+[Media Documentation]({% link _documentation/media.markdown %})
 
 Once media has been uploaded to TACC (see [How to Upload Media to TACC](../how_to/How-to-Upload-Media-to-TACC)) **and** created in Arctos (see [How to Create Media/Images](../how_to/How-to-Create-Media-Images)), you may find that you need to edit it.  The first step is to locate the media you wish to edit.
 

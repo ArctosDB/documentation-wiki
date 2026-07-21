@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-manage-taxonomic-classifications/
 ---
 
-[Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
+[Taxonomy Documentation]({% link _documentation/taxonomy.markdown %})
 
 All taxon names live in a unique index including homonyms and hemihomonyms. "The specimen's taxonomy" comes from the collection's preferred [taxonomy source](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXONOMY_SOURCE) selected under Manage Data/Metadata/Manage Collection. 
 
@@ -14,7 +14,7 @@ It is generally advisable to only alter classifications used by your collection.
 
 Taxonomy only works properly when there is one named term for each "rank" pulled into Flat. Avoid having two (or more) terms ranked "family" in the same classifiction and avoid unranked family-level terms.
 
-To better understand how to make your specimens appear in a researcher query, see [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html) which shows the different results that can be achieved by using the different search fields.  It also shows the importance of having the most complete classification possible for each taxon name.  Try to include common ranked terms for searchability - kingdom, phylum, order, family, etc.
+To better understand how to make your specimens appear in a researcher query, see [How to Search for Specimens with Identification and Taxonomy]({% link _how_to/search-for-specimens-with-identification-and-taxonomy.markdown %}) which shows the different results that can be achieved by using the different search fields.  It also shows the importance of having the most complete classification possible for each taxon name.  Try to include common ranked terms for searchability - kingdom, phylum, order, family, etc.
 
 The quality of the taxonomy you use is very important to the accessibility of your specimens.  Arctos provides a number of tools to manage your taxonomic tables.  Because these tables are a shared resource, you can benefit from the knowledge of other curators but also need to be mindful that your actions may impact their data as well.  
 
@@ -28,7 +28,7 @@ Arctos classifications are not designed to support lossless download; do not exp
 
 ### The Taxon Name I want to use exists, but there's no classification in my preferred source
 
-[How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html) shows step-by-step how to edit a taxon. Briefly, 
+[How to Edit Taxa]({% link _how_to/edit-taxa.markdown %}) shows step-by-step how to edit a taxon. Briefly, 
 * open the taxon name
 * find a similar classification (usually from GlobalNames)
 * click clone classification
@@ -41,7 +41,7 @@ If there are no classifications or no suitable classifications to clone, you may
 
 ### The Taxon Name I want to use does not exist
 
-Steo-by-step instructions for adding taxa are given in [How to create taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html).  Briefly,
+Steo-by-step instructions for adding taxa are given in [How to create taxa]({% link _how_to/create-taxa.markdown %}).  Briefly,
 * find a similar name with a suitable classification.  For example, the same genus as the species you need to add.
 * click "clone classification as new name"
 * enter the taxon name

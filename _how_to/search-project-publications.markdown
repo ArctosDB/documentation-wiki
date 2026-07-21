@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How-to-Search-Project-Publications/
 ---
 
-[Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)
+[Project Documentation]({% link _documentation/projects.markdown %})
 
-[Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
+[Publication Documentation]({% link _documentation/publications.markdown %})
 
 Search Publications and Project to explore how specimens are used, how projects support other projects, how Publications are produced, and much more.
 

@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-understand-Project-Funding/
 ---
 
-[Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)
+[Project Documentation]({% link _documentation/projects.markdown %})
 
 Arctos now provides a "funded_USD" field in Projects. (We leave it up to individuals to define what constitutes project funding.) These data may be used to illustrate the broader impacts of a project which contributes specimen that are subsequently used in other research projects. An example follows.
 

@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Create-a-Freezer-Box-Container/
 ---
 
-[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+[Object Tracking Documentation]({% link _documentation/container.markdown %})
 
 
 removed as outdated

@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Batch-Update-Identifications/
 ---
 
-[Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
+[Identifications Documentation]({% link _documentation/identification.markdown %})
 
 Batch update specimen identifications using the Manage Menu. The Manage Menu is an efficient alternative to using the "Taxa Tab" found in individual specimen records when needing to update multiple records at once. Query the specimen records in need of updating and use the **Manage... Identifications** tool to alter all specimen records returned in the search results. This action will add the new identification to each record as the current (accepted) determination and will display all previous identifications as a determination history list.
 

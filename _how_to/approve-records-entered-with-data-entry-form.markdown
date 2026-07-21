@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Approve-Records-entered-with-Data-Entry-Form/
 ---
 
-[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
+[Catalog Record/Data Entry Documentation]({% link _documentation/catalog.markdown %})
 
 #### Navigation: <a href="https://arctos.database.museum/Bulkloader/browseBulk.cfm" class="external">Enter Data > Bulkloader > Browse and Edit</a>
 

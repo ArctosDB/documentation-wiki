@@ -9,14 +9,14 @@ redirect_from:
 
 #### Navigation: <a href="https://arctos.database.museum/Loan.cfm?Action=newLoan" target="_blank">Manage Data -> Transactions -> Create Loan</a>
 
-[Documenation](https://handbook.arctosdb.org/documentation/loans.html)
+[Documenation]({% link _documentation/loans.markdown %})
 
 ### Collection
 Indicate the collection from which specimens will be loaned by selecting the appropriate collection from the drop-down menu.
 
 ### Loan Number
 Assign a unique identifier to the loan. On the right side of the screen there should be a box that provides the last number used by the selected collection, this can help insure there are no gaps in loan numbers. 
-* [Documentation](https://handbook.arctosdb.org/documentation/loans.html#loan-number)
+* [Documentation]({% link _documentation/loans.markdown %}#loan-number)
 
 ## Loan Agents
 People associated with loans are selected from Arctos Agents. If a person associated with a loan is not in the Arctos Agent table, they can be added at the time the loan is created.
@@ -35,13 +35,13 @@ If no outside contact is entered, this field will automatically populate with th
 
 ### Loan Type
 Indicates the nature of the loan.
-* [Documentation](https://handbook.arctosdb.org/documentation/loans.html#type)
+* [Documentation]({% link _documentation/loans.markdown %}#type)
 * [Code Table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctloan_type)
 * [Best Practice - Selecting a Loan Type](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_best_practices/Loan_Type.markdown).
 
 ### Loan Status
 Indicates the current status of the loan.  
-* [Documentation](https://handbook.arctosdb.org/documentation/loans.html#status)
+* [Documentation]({% link _documentation/loans.markdown %}#status)
 * [Code Table](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctloan_status)
 
 ### Transaction Date
@@ -75,7 +75,7 @@ After the loan has been created, you will be directed to the loan edit page, whe
 
 ## Adding Objects to the Loan
 
-[How To Add Loan Items](https://handbook.arctosdb.org/how_to/How-to-Add-Loan-Items.html)
+[How To Add Loan Items]({% link _how_to/add-loan-items.markdown %})
 
 ## Adding Shipments
 

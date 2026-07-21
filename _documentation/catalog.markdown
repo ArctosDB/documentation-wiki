@@ -288,9 +288,9 @@ It is sometimes necessary to move cataloged items from one collection or
 catalog number to another. When doing so, it is important to maintain a
 way of finding the specimen by its original identifiers. In this, be as
 specific as possible. Use specific identifier types and GUIDs if
-possible. (See more at [Other IDs](/documentation/identifiers).)
+possible. (See more at [Other IDs]({% link _documentation/identifiers.markdown %}).)
 
-Arctos provides HTTP redirect capability (see [Redirect](https://handbook.arctosdb.org/documentation/redirect.html)), under which one URL
+Arctos provides HTTP redirect capability (see [Redirect]({% link _documentation/redirect.markdown %})), under which one URL
 (<http://arctos.database.museum/guid/KNWR:Ento:7193>, for example) can
 be automatically redirected to another
 (<http://arctos.database.museum/guid/UAM:Ento:228334>). This helps in

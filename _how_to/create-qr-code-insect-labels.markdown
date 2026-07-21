@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Create-QR-code-insect-labels/
 ---
 
-[Printed Reports and Labels Documentation](https://handbook.arctosdb.org/documentation/reports.html)
+[Printed Reports and Labels Documentation]({% link _documentation/reports.markdown %})
 
 ## Overview
 

@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-To-Contribute-a-Video-Tutorial/
 ---
 
-[Github Documentation](https://handbook.arctosdb.org/documentation/github.html)
+[Github Documentation]({% link _documentation/github.markdown %})
 
 Short video tutorials help Arctos users learn how to do tasks in Arctos. If you would like to contribute a short video tutorial to the Arctos Community Handbook, read on!
 

@@ -34,7 +34,7 @@ Before you can invite an Arctos user to become an Arctos Operator, they must hav
 
  * Go to https://arctos.database.museum/
  * From the Arctos main menu select [Search > Agents](https://arctos.database.museum/agents.cfm)
- * Search for the name of the user.  If not found, you must create the Agent (see [How to create an Agent](https://handbook.arctosdb.org/how_to/How-to-Create-Agents.html)) and return to this process
+ * Search for the name of the user.  If not found, you must create the Agent (see [How to create an Agent]({% link _how_to/create-agents.markdown %})) and return to this process
  
 ---
 
@@ -60,7 +60,7 @@ Please [Read this before assigning roles to users](https://arctos.database.museu
 
 ### Add Team Members to Github 
 
-For anyone doing more than simple data entry, it probably makes sense to have them set up a Github User account. To help them do this see [How To Create A Github Account](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html#how-to-create-a-github-account). After they have created their Github account, add their Github link to their Arctos Agent (in addresses). This helps others connect Github users with Arctos Operators.
+For anyone doing more than simple data entry, it probably makes sense to have them set up a Github User account. To help them do this see [How To Create A Github Account]({% link _how_to/use-github-for-arctos.markdown %}#how-to-create-a-github-account). After they have created their Github account, add their Github link to their Arctos Agent (in addresses). This helps others connect Github users with Arctos Operators.
 
 ## TACC Troubleshooting and Tips
 

@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Create-a-Permit/
 ---
 
-[Permit Documentation](https://handbook.arctosdb.org/documentation/permits.html)
+[Permit Documentation]({% link _documentation/permits.markdown %})
 
 Permits are documentation authorizing activities associated with **Accession** and **Loan** transactions. In general, permits are issued by governmental agencies, but letters authorizing collecting activities on private land can also be considered permits. Permits can authorize any number of transactions, and any number of permits may be required for a given transaction.
 

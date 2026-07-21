@@ -52,4 +52,4 @@ Submit
 ## Previous
 
 
-[How To Search for Specimens](https://handbook.arctosdb.org/how_to/How-to-Search-for-Specimens.html) is outdated.
+[How To Search for Specimens]({% link _how_to/search-for-specimens.markdown %}) is outdated.

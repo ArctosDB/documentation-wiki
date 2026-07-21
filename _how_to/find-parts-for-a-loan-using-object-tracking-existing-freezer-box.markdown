@@ -7,7 +7,7 @@ redirect_from:
   - /how_to/How-To-Find-Parts for-a-Loan-Using Object Tracking-Existing-Freezer-Box/
 ---
 
-[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+[Object Tracking Documentation]({% link _documentation/container.markdown %})
 
 This document will use a portion of a Museum of Southwestern Biology loan request as an example. Items were requested as follows:
 

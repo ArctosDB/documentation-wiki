@@ -121,5 +121,5 @@ The "copy2all" links copy the data from the associated field to all fields using
 # Scientific Name
 
 Enter a valid scientific name 
-(not necessarily taxon name - see [/documentation/bulkloader.html#taxonomy](/documentation/bulkloader.html#taxonomy)),
+(not necessarily taxon name - see [/documentation/bulkloader.html#taxonomy]({% link _documentation/bulkloader.markdown %}#taxonomy)),
 or click "build" for a helpful tool.

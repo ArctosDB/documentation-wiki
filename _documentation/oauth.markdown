@@ -43,7 +43,7 @@ We should be able to link your accounts together using that information.
 
 ## Problems?
 
-Please see <https://handbook.arctosdb.org/how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html> for more information, or ask for help via GitHub Issue.
+Please see [Create and Manage Your Arctos Team]({% link _how_to/create-your-arctos-team-users-and-operators.markdown %}) for more information, or ask for help via GitHub Issue.
 
 
 # Log in with TACC
@@ -52,7 +52,7 @@ To log into an Operator account created with TACC OAuth, or after an Operator ac
 
 # Create Arctos Operator
 
-All users must have a TACC account before being added an Arctos Operator. See [Users](/documentation/users.html) for detailed instructions.
+All users must have a TACC account before being added an Arctos Operator. See [Users]({% link _documentation/users.markdown %}) for detailed instructions.
 
 
 

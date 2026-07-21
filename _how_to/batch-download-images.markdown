@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Batch-Download-Images/
 ---
 
-[Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
+[Media Documentation]({% link _documentation/media.markdown %})
 
 _This is a guide to automatically downloading multiple image files
 from TACC based on a query to the standard search interface, and using

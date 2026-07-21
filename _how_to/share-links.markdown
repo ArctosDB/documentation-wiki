@@ -19,7 +19,7 @@ To share a customized search interface, you can append the base URL (https://arc
 
 **Example:** https://arctos.database.museum/search.cfm?sp=Tissue_plus
 
-The search profile must be saved in your profile first. (See [Customize Search & Results](https://handbook.arctosdb.org/how_to/record-search.html))
+The search profile must be saved in your profile first. (See [Customize Search & Results]({% link _how_to/record-search.markdown %}))
 
 ## Customized and Collection-specific search interface 
 Parameterized URLs may be appended. To share a customized search interface for a specific collection, use this form for your link:

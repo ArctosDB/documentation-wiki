@@ -7,7 +7,7 @@ status: draft
 
 [Arctos Ichnology](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source#arctos_ichnology) is currently the preferred taxonomic source for ichnofossils. While ichnotaxa classifications can be added to other sources, it is preferable that all ichnotaxa classification remain in Arctos Ichnology for ease of maintenance. Collections with any trace fossil identifications should add Arctos Ichnology to their list of preferred taxonomy sources.
 
-Before adding any taxa to Arctos Ichnology read through [How to Create Taxa](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html).  The procedure below is not significantly different but there are a few special steps required for ichnotaxa.  To maintain the integrity of the locally managed source, users are asked, if at all possible, to not deviate from these recommended procedures for creating the name, classification and metadata.
+Before adding any taxa to Arctos Ichnology read through [How to Create Taxa]({% link _how_to/create-taxa.markdown %}).  The procedure below is not significantly different but there are a few special steps required for ichnotaxa.  To maintain the integrity of the locally managed source, users are asked, if at all possible, to not deviate from these recommended procedures for creating the name, classification and metadata.
 
 ## Create Taxon Names
 

@@ -7,9 +7,9 @@ date_updated:
 Transactions are actions that effect the coming and going of Cataloged
 Items, and parts thereof. There are three primary types of transactions.
 
-1. [Accessions](/documentation/accession.html) document aquisition. An accession is a necessary prerequisite to cataloging.
-2. [Loans](/documentation/loans.html) record movement and usage of parts ("normal" loans) and records ("data" loans). 
-3. [Borrows](/documentation/borrow.html) record items from other collections lent, and in your collection’s temporary custody. Note that borrows have no link to catalog records.
+1. [Accessions]({% link _documentation/accession.markdown %}) document aquisition. An accession is a necessary prerequisite to cataloging.
+2. [Loans]({% link _documentation/loans.markdown %}) record movement and usage of parts ("normal" loans) and records ("data" loans). 
+3. [Borrows]({% link _documentation/borrow.markdown %}) record items from other collections lent, and in your collection’s temporary custody. Note that borrows have no link to catalog records.
 
 
 Data in table trans and related tables may be used by all three types of transactions.
@@ -32,11 +32,11 @@ Indicates the type of transaction; foreign key ---> [cttransaction_type](https:/
 
 ## nature_of_material
 
-Nature of Material is a textual description of the material involved. [Markdown](/documentation/markdown.html) is allowed.
+Nature of Material is a textual description of the material involved. [Markdown]({% link _documentation/markdown.markdown %}) is allowed.
 
 ## trans_remarks
 
-Transaction Remarks is any remarkable information about the transaction. Note that transaction remarks is always private, regardless of is_public_fg. [Markdown](/documentation/markdown.html) is allowed.
+Transaction Remarks is any remarkable information about the transaction. Note that transaction remarks is always private, regardless of is_public_fg. [Markdown]({% link _documentation/markdown.markdown %}) is allowed.
 
 
 ## corresp_fg
@@ -166,13 +166,13 @@ Foreign key ---> [ctshipment_type](https://arctos.database.museum/info/ctDocumen
 
 # table permit_trans
 
-Table Permit-Trans links [permits](/documentation/permits.html) and transactions.
+Table Permit-Trans links [permits]({% link _documentation/permits.markdown %}) and transactions.
 
 # table project_trans
 
 
-Table Project-Trans links [projects](/documentation/projects.html) and transactions.
+Table Project-Trans links [projects]({% link _documentation/projects.markdown %}) and transactions.
 
 # table trans_container
 
-Table Trans-Container provides a mechanism to link transations and [containers](/documentation/container.html)  .
+Table Trans-Container provides a mechanism to link transations and [containers]({% link _documentation/container.markdown %})  .

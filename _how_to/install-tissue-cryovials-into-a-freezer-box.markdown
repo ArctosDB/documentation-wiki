@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box/
 ---
 
-[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+[Object Tracking Documentation]({% link _documentation/container.markdown %})
 
 This guide provides the steps needed to install (i.e., scan) barcoded vials into a freezer box.
 

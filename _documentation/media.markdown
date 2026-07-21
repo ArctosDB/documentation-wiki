@@ -100,7 +100,7 @@ containing at least one space and ending with a table name. Values are controlle
 ### Created By
 
 The agent who created the relationship between a media object and a data
-item. This is a foreign key to the [Agent](/documentation/agent) table.
+item. This is a foreign key to the [Agent]({% link _documentation/agent.markdown %}) table.
 
 
 
@@ -117,13 +117,13 @@ controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.
 
 ### Label_Value
 
-The content of a label. Generally the value is uncontrolled text, with the exception of Media Label = **"Made_Date"**, which requires its values to be in [ISO date format](/documentation/dates) (*e.g.* "2014-05-01" for "1 May 2014"), and will give an error upon saving if not rendered in that format. Try updating the date to the correct format to avoid error messages.
+The content of a label. Generally the value is uncontrolled text, with the exception of Media Label = **"Made_Date"**, which requires its values to be in [ISO date format]({% link _documentation/dates.markdown %}) (*e.g.* "2014-05-01" for "1 May 2014"), and will give an error upon saving if not rendered in that format. Try updating the date to the correct format to avoid error messages.
 
 ### Assigned By
 
 `Media_Labels . Assigned_By_Agent_ID NUMBER(22) not null`
 
-The agent who assigned the label. This is a foreign key to the [Agent](/documentation/agent)
+The agent who assigned the label. This is a foreign key to the [Agent]({% link _documentation/agent.markdown %})
 table.
 
 
@@ -286,7 +286,7 @@ Note that with good organization and clever use of your favorite spreadsheet, mo
 
 ## Discovery
 
-Media Relationships link Media to [specimens](/documentation/catalog), [agents](/documentation/agent), [places](/documentation/locality), other
+Media Relationships link Media to [specimens]({% link _documentation/catalog.markdown %}), [agents]({% link _documentation/agent.markdown %}), [places]({% link _documentation/locality.markdown %}), other
 Media, and more (and in turn link those resources together). Data
 objects thereby exchange information through database-key linkages as
 necessary; no information is replicated or otherwise made redundant (the

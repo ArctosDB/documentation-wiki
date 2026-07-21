@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Assign-a-Barcode-to-an-Individual-Specimen/
 ---
 
-[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+[Object Tracking Documentation]({% link _documentation/container.markdown %})
 
 ## From Search Results
 

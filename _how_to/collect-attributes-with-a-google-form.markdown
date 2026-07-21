@@ -7,6 +7,6 @@ redirect_from:
   - /how_to/How-To-Collect-Attributes-With-A-Google-Form/
 ---
 
-**Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
+**Documentation: [Attributes]({% link _documentation/attributes.markdown %})**
 
 <a href="https://forms.gle/fEUajRmB79NHdmCK9">Mammal Attributes Data Form</a>

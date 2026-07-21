@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Use-Issues-in-Arctos/
 ---
 
-[Github Documentation](https://handbook.arctosdb.org/documentation/github.html)
+[Github Documentation]({% link _documentation/github.markdown %})
 
 ## The Issue Process: How to Make Arctos Work for You
 

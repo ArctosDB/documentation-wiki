@@ -4,7 +4,7 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-Borrows are [transactions](/documentation/transactions.html) which record temporary custody of material, and provide a place to hang shipments.
+Borrows are [transactions]({% link _documentation/transactions.markdown %}) which record temporary custody of material, and provide a place to hang shipments.
 
 ### transaction_id
 

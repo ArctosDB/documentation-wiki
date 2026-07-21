@@ -124,4 +124,4 @@ Many notifications are sent to users who share roles, often manage_collection. Y
 
 Instructions for doing specifc tasks related to Notifications and Reports in Arctos
 
- - [How To Manage Annotations](https://handbook.arctosdb.org/how_to/annotations.html)
+ - [How To Manage Annotations]({% link _how_to/annotations.markdown %})

@@ -7,11 +7,11 @@ redirect_from:
   - /how_to/How-to-Get-the-Most-from-Arctos-Github-Editing/
 ---
 
-[Github Documentation](https://handbook.arctosdb.org/documentation/Github.html)
+[Github Documentation]({% link _documentation/github.markdown %})
 
 ## Why Use Github for the Arctos Handbook?
 
-We've covered that [before](/documentation/Github.html). Here, we've assumed you have a Github account, have already edited and written documentation in markdown, understand how the Handbook is configured (at least how to contribute without breaking the website!) and now want a little more control and tools at your disposal. We're also assuming you are not a programmer, so nothing complicated, but rather tools so you can edit quickly! _Ready for the next level?_
+We've covered that [before]({% link _documentation/github.markdown %}). Here, we've assumed you have a Github account, have already edited and written documentation in markdown, understand how the Handbook is configured (at least how to contribute without breaking the website!) and now want a little more control and tools at your disposal. We're also assuming you are not a programmer, so nothing complicated, but rather tools so you can edit quickly! _Ready for the next level?_
 
 There are four kinds of content on the Arctos Handbook:
 
@@ -20,7 +20,7 @@ There are four kinds of content on the Arctos Handbook:
 * **How-to Guides**, step-by-step instructions on how to do specific tasks in Arctos
 * **Resources**, for tutorials by the Arctos community and teaching guides that use Arctos
 
-Arctos Handbook content can be created or edited by anyone who is a member of the ArctosDB "Users" team on Github (see "[How to Github: Getting Started with GitHub for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html)"). That team has "write" access to the ArctosDB/documentation-wiki repository in GitHub. Anyone can view the content, but you need to be added to the "Users" team by an Arctos administrator in order to make changes. Arctos users who want the ability to create or edit the Handbook or create or Edit Documentation and "How-to Guides" should email arctos-working-group-officers@googlegroups.com with your Arctos login name and Github login to request to be added to the Github Users group.
+Arctos Handbook content can be created or edited by anyone who is a member of the ArctosDB "Users" team on Github (see "[How to Github: Getting Started with GitHub for Arctos]({% link _how_to/use-github-for-arctos.markdown %})"). That team has "write" access to the ArctosDB/documentation-wiki repository in GitHub. Anyone can view the content, but you need to be added to the "Users" team by an Arctos administrator in order to make changes. Arctos users who want the ability to create or edit the Handbook or create or Edit Documentation and "How-to Guides" should email arctos-working-group-officers@googlegroups.com with your Arctos login name and Github login to request to be added to the Github Users group.
 
 We encourage Curators/Collection Managers to engage students in writing "How-to Guides." However, students will not be able to post them to the wiki site; instead, they will need to submit the content to a member of the ArctosDB "Users" team (e.g., their supervisor) who can then post the content.
 
@@ -49,7 +49,7 @@ to learn. [Here's a cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mar
 
 Majority of users will be adding to the _How-to_ pages since Documentation is usually reserved for the Arctos Programmers to define the data tables. Below will cover editing and creating content online within your browser (we're using _Chrome_).
 
-To edit offline and more advanced editing, consult [_How to Get the Most Out of Arctos-Github Editing_](https://handbook.arctosdb.org/how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.html#how-to-get-the-most-out-of-arctos-github)
+To edit offline and more advanced editing, consult [_How to Get the Most Out of Arctos-Github Editing_]({% link _how_to/get-the-most-from-arctos-github-editing.markdown %}#how-to-get-the-most-out-of-arctos-github)
 
 * Enter the directory `_how_to` in the repository
   * if you get lost in the repo, be sure to click on "< > Code " tab to navigate back to the main section
@@ -123,9 +123,9 @@ As an important note, **if you do not include front matter on your page, the pag
 Relevant Markdown links:
 * Github is the place to go for the [Arctos Handbook repository](https://Github.com/ArctosDB/documentation-wiki) that will help you function as an Arctos user or operator. 
 
-* Basic guide on [how to contribute markdown content to the Handbook](//how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
+* Basic guide on [how to contribute markdown content to the Handbook]({% link _how_to/contribute-content-to-arctos-handbook.markdown %})
 
-* If you have an Arctos Issue, post it on the [Issues](https://Github.com/ArctosDB/arctos/issues) site. There you can also view and comment on current issues, search on past issues (closed issues), too. Follow our guide on [How to Use Issues in Arctos](/how_to/How-to-Use-Issues-in-Arctos.html).
+* If you have an Arctos Issue, post it on the [Issues](https://Github.com/ArctosDB/arctos/issues) site. There you can also view and comment on current issues, search on past issues (closed issues), too. Follow our guide on [How to Use Issues in Arctos]({% link _how_to/use-issues-in-arctos.markdown %}).
 
 * [Mastering Markdown on Github](https://guides.Github.com/features/mastering-markdown/) - specific to Github-flavored markdown
 

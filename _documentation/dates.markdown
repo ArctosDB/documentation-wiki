@@ -100,7 +100,7 @@ record this information, one could simply enter:
 
 ## Excel Issues
 
-See [How To Manage Excel for Arctos - Dates](https://handbook.arctosdb.org/how_to/How-to-Excel-for-Arctos.html#dates)
+See [How To Manage Excel for Arctos - Dates]({% link _how_to/excel-for-arctos.markdown %}#dates)
 
 ### Caution on using "special" dates
 

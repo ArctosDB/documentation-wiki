@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-To-Delete-Media/
 ---
 
-[Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
+[Media Documentation]({% link _documentation/media.markdown %})
 
 Media attached to catalog records, agents, events, or transactions can be deleted through Edit Media and removing files from TACC.
 
@@ -22,7 +22,7 @@ Media attached to catalog records, agents, events, or transactions can be delete
 ## Deleting Media from TACC
 
 In order to fully delete a media file from TACC:
-1.	Navigate to the TACC directory in which the media is stored (see https://handbook.arctosdb.org/how_to/How-to-Upload-Media-to-TACC.html). You must have user access to the relevant folder in order to delete media (in general, users have sole edit access to the subfolders they create within an institution’s directory).
+1.	Navigate to the TACC directory in which the media is stored (see [How to Upload Media to TACC]({% link _how_to/upload-media-to-tacc.markdown %})). You must have user access to the relevant folder in order to delete media (in general, users have sole edit access to the subfolders they create within an institution’s directory).
 
     **Note:** If you do not have access to a TACC folder that stores media marked for deletion (perhaps the files wer created by a former employee), a request can be submitted by an authorized representative of your institution to the Arctos Working Group to permit the DBA to permanently remove the file(s).
 

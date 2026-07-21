@@ -20,16 +20,16 @@ Before any data is entered, it is important that the collection metadata is comp
 
 At least one person at any institution will have an operator account created as part of creation of the collection(s). Anyone else who will assist with data migration or data entry will need to follow the same steps to become an Arctos operator.
 
-* Documentation: [Agents](http://handbook.arctosdb.org/documentation/agent.html) 
-* Handbook instructions: [How To Create and Manage Your Arctos Team (Users and Operators)](https://handbook.arctosdb.org/how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html)
+* Documentation: [Agents]({% link _documentation/agent.markdown %}) 
+* Handbook instructions: [How To Create and Manage Your Arctos Team (Users and Operators)]({% link _how_to/create-your-arctos-team-users-and-operators.markdown %})
 * Github Issue Template: [4. Create an Arctos Team](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&projects=&template=4--create-an-arctos-team.md&title=Acronym+Collection+-+4.+Create+an+Arctos+Team)
 
 ## Agents
 
 People and organizations are associated with almost all types of data available in Arctos so it is important to map the names in use in your current data to names available in Arctos. Ensure that all People (collectors, preparators, makers, identifiers, event assignors, donors) in your data file are included as Agents in Arctos and that there are no duplications (same person with name spelled different ways). If you are entering records one at a time, you will probably return to this step every time you enter something.
 
-* Documentation: [Agents](http://handbook.arctosdb.org/documentation/agent.html) 
-* Handbook instructions: [How To Create Agents](https://handbook.arctosdb.org/how_to/How-to-Create-Agents.html)
+* Documentation: [Agents]({% link _documentation/agent.markdown %}) 
+* Handbook instructions: [How To Create Agents]({% link _how_to/create-agents.markdown %})
 * Github Issue Template: [5. Agents](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&projects=&template=5--agents.md&title=Acronym+Collection+-+5.+Agents) 
 
 ### Permissions
@@ -39,8 +39,8 @@ Agents are a shared resource in Arctos and care should always be given to editin
 
 ALL Arctos records require an associated accession. If your institution does not currently use accessions, at least one "legacy accession" will need to be created to facilitate entry of catalog records into Arctos.
 
-* Documentation: [Accessions](https://handbook.arctosdb.org/documentation/accession.html) 
-* Handbook instructions: [How To Create an Accession](http://handbook.arctosdb.org/how_to/How-to-Create-an-Accession.html)
+* Documentation: [Accessions]({% link _documentation/accession.markdown %}) 
+* Handbook instructions: [How To Create an Accession]({% link _how_to/create-an-accession.markdown %})
 * Github Issue Template: [6. Accessions](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&projects=&template=6--accessions.md&title=Acronym+Collection+-+6.+Accessions) 
 
 ### Permissions
@@ -51,8 +51,8 @@ At least one person at every institution should have manage transactions access,
 
 Identifications must match at least one Arctos Taxon Name exactly for every object record. Please note that taxon names are managed separately from classifications associated with those names. At this stage, the only concern is the name used in the identification of a catalog record.
 
-* Documentation: [Identifications](http://handbook.arctosdb.org/documentation/identification.html) 
-* Handbook instructions: [How to Create Taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html) and [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html).
+* Documentation: [Identifications]({% link _documentation/identification.markdown %}) 
+* Handbook instructions: [How to Create Taxa]({% link _how_to/create-taxa.markdown %}) and [How to Edit Taxa]({% link _how_to/edit-taxa.markdown %}).
 * Github Issue Template: [7. Identifications (Taxon Names)](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&projects=&template=7--identifications--taxon-names-.md&title=Acronym+Collection+-+7.+Identifications+%28Taxon+Names%29) 
 
 ### Permissions
@@ -63,15 +63,15 @@ At least one person at every institution should have manage taxonomy access, thi
 
 Higher Geography values (Country, State, County) in your data file must exist in Arctos before data can be bulkloaded.
 
-* Documentation: [Higher Geography](https://handbook.arctosdb.org/documentation/higher-geography.html)
+* Documentation: [Higher Geography]({% link _documentation/higher-geography.markdown %})
 * Github Issue Template: [8. Higher Geography](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&projects=&template=8--higher-geography.md&title=Acronym+Collection+-+8.+Higher+Geography) 
 
 ## Locality
 
 Every object record may be assigned a locality (e.g. place of collection). Localities include coordinates used for mapping.
 
-* Documentation: [Localities](http://handbook.arctosdb.org/documentation/locality.html) 
-* Handbook instructions: [How To Create a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-New-Specific-Locality.html)
+* Documentation: [Localities]({% link _documentation/locality.markdown %}) 
+* Handbook instructions: [How To Create a Locality]({% link _how_to/create-a-locality.markdown %})
 * Github Issue Template: [9. Locality](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&projects=&template=9--locality.md&title=Acronym+Collection+-+9.+Locality) 
 
 Localities may be treated in several different ways.
@@ -93,8 +93,8 @@ At least one person at every institution should have manage locality access, thi
 
 People who participate in the [Collection Object: Agent Roles](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollector_role) related to a catalog record must be Agents. If a person in a catalog record agent role is not well-known enough to create an agent, their role can be recorded using the [verbatim agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent) atttribute with the role listed in the attribute method.
 
-* Documentation: [Attributes](https://handbook.arctosdb.org/documentation/identifiers.html)
-* Handbook instructions: [How to Create and Edit Catalog Record Attributes](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Attributes.html)
+* Documentation: [Attributes]({% link _documentation/identifiers.markdown %})
+* Handbook instructions: [How to Create and Edit Catalog Record Attributes]({% link _how_to/add-and-edit-attributes.markdown %})
 
 If not loaded with the rest of the catalog record, agent roles may be loaded with the [Agent Role: Bulkload](https://arctos.database.museum/loaders/BulkloadCollector.cfm) tool.
 
@@ -102,8 +102,8 @@ If not loaded with the rest of the catalog record, agent roles may be loaded wit
 
 Part names (object descriptions) must match to the available [Part: Names](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctspecimen_part_name) in Arctos. Part names must be selected for use by each individual collection. For instructions on how to select the parts you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add a part name that is not included in the code table, you will need to request it and provide a definition for the part.
 
-* Documentation: [Parts](https://handbook.arctosdb.org/documentation/parts.html)
-* Handbook instructions: [How To Create and Edit Parts](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html)
+* Documentation: [Parts]({% link _documentation/parts.markdown %})
+* Handbook instructions: [How To Create and Edit Parts]({% link _how_to/create-and-edit-parts.markdown %})
 * Github Issue Template: [10. Parts](https://github.com/ArctosDB/data-migration/issues/new?assignees=&labels=&projects=&template=10--parts.md&title=Acronym+Collection+-+10.+Parts) 
 
 ### Part Attributes
@@ -116,8 +116,8 @@ If not loaded with the rest of the catalog record, parts may be loaded with the 
 
 Attributes must match to the available [Collection Object Attribute: Types](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type) in Arctos. Attributes must be selected for use by each individual collection. For instructions on how to select the attributes you want to use - see [How To Video](https://drive.google.com/file/d/1nmCFYhNaX5z3VM8_8UZXZ_MszdsQskJy/view?usp=drive_link). If you need to add an attribute, you will need to request it and possibly provide a controlled vocabulary for the attribute value (for example, sex is the attribute, with possible values of male, female, etc.).
 
-* Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)
-* Handbook instructions: [How to Create and Edit Catalog Record Attributes](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Attributes.html)
+* Documentation: [Attributes]({% link _documentation/attributes.markdown %})
+* Handbook instructions: [How to Create and Edit Catalog Record Attributes]({% link _how_to/add-and-edit-attributes.markdown %})
 
 If not loaded with the rest of the catalog record, attributes may be loaded with the [Attribute: Bulkload](https://arctos.database.museum/loaders/BulkloadAttributes.cfm) tool.
 
@@ -125,7 +125,6 @@ If not loaded with the rest of the catalog record, attributes may be loaded with
 
 Every catalog record in Arctos has a catalog number, but often objects have been shared, transferred, or given identifiers by individuals other than the institution that holds them now. Every catalog record in Arctos can have multiple identifiers other than the Arctos catalog number. In addition to identifiers assigned to the cataloged item(s), identifiers may be used to document relationships to other catalog records or data.
 
-* Documentation: [Other Identifying Numbers (Other IDs) and Relationships](https://handbook.arctosdb.org/documentation/identifiers.html)
-* Handbook instructions: [How To Record Prior Inclusion in Another Collection](https://handbook.arctosdb.org/how_to/How_To_Add_Object_Provenance.html)
-
+* Documentation: [Other Identifying Numbers (Other IDs) and Relationships]({% link _documentation/identifiers.markdown %})
+* Handbook instructions: [How To Record Prior Inclusion in Another Collection]({% link _how_to/add-object-provenance.markdown %})
 If not loaded with the rest of the catalog record, identifiers may be loaded with the [Identifier: Bulkload](https://arctos.database.museum/loaders/BulkloadOtherId.cfm) tool.

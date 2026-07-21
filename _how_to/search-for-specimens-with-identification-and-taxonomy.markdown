@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy/
 ---
 
-[Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
+[Taxonomy Documentation]({% link _documentation/taxonomy.markdown %})
 
-[Identifications Documentation](https://handbook.arctosdb.org/documentation/identification.html)
+[Identifications Documentation]({% link _documentation/identification.markdown %})
 
 There are various search fields on SpecimenSearch under **Identification and Taxonomy**, and
 they query and return very different data.

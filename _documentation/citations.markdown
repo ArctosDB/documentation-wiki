@@ -140,11 +140,11 @@ the Arctos search form (SpecimenSearch.cfm).
 
 Instructions for doing specifc tasks related to Citations in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
- - [How To Create Citations](https://handbook.arctosdb.org/how_to/How-to-Create-Citations.html)
- - [How To Bulkload Citations](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Citations.html)
+ - [How To Create Citations]({% link _how_to/create-citations.markdown %})
+ - [How To Bulkload Citations]({% link _how_to/bulkload-citations.markdown %})
 
 See also, Publications
 
- - [How To Create a Publication](https://handbook.arctosdb.org/how_to/How-to-Create-a-Publication.html)
- - [How To Search Projects and Publications](https://handbook.arctosdb.org/how_to/How-to-Search-Project-Publications.html)
- - [How To Understand Deep Publication Data in Arctos](https://handbook.arctosdb.org/how_to/deep-publications.html)
+ - [How To Create a Publication]({% link _how_to/create-a-publication.markdown %})
+ - [How To Search Projects and Publications]({% link _how_to/search-project-publications.markdown %})
+ - [How To Understand Deep Publication Data in Arctos]({% link _how_to/deep-publications.markdown %})

@@ -39,7 +39,7 @@ Collection is set at collection creation, this can be changed and consistency wi
 **REQUIRED, change with DBA assistance**
 Changing to a value that conflicts with existing data may cause significant, widespread problems. Consult with the DBA team before changing.
 
-Select from the dropdown of choices. This specifies the format of catalog numbers for the collection. NOTE: Catalog numbers in integer format are preferred for ease of data discovery; see also <a href="http://handbook.arctosdb.org/documentation/catalog.html" target=_blank>Catalog documentation</a>. There are three options:
+Select from the dropdown of choices. This specifies the format of catalog numbers for the collection. NOTE: Catalog numbers in integer format are preferred for ease of data discovery; see also [Catalog documentation]({% link _documentation/catalog.markdown %}). There are three options:
 
  * integer
  * prefix-integer-suffix
@@ -148,7 +148,7 @@ Collection Terms accompanies the licenses, and provides a method by which collec
 **REQUIRED**
 A direct link to the loan policy for that collection or institution.
 
-{% include tip.html content="Before selecting your terms and licenses, read [How to Apply Licensing and Terms](https://handbook.arctosdb.org/how_to/How-To-Apply-Licensing-and-Terms.html)" %}
+{% include tip.html content="Before selecting your terms and licenses, read [How to Apply Licensing and Terms]({% link _how_to/apply-licensing-and-terms.markdown %})" %}
 
 ## Collection Defaults
 
@@ -170,7 +170,7 @@ Selected identifiers will display in the summary section of catalog record pages
 
 ### Collection Code Table Terms
 
-Code tables can include extensive lists of terms that may or may not be applicable for a given collection. For this reason, collections must select code table terms that will be available to those entering data. The links provided in this section are to the various code tables that require selection of terms. In order to make your selections, go to each code table and follow the instructions in [How To Add Code Table Terms to a Collection](https://handbook.arctosdb.org/how_to/How-To-Add-Attributes-to-Collection)
+Code tables can include extensive lists of terms that may or may not be applicable for a given collection. For this reason, collections must select code table terms that will be available to those entering data. The links provided in this section are to the various code tables that require selection of terms. In order to make your selections, go to each code table and follow the instructions in [How To Add Code Table Terms to a Collection]({% link _how_to/add-attributes-to-collection.markdown %})
 
 <img height="500" alt="Image" src="https://github.com/user-attachments/assets/384ff7c7-17a5-4bce-8d69-077e5dc29ce8" />
 

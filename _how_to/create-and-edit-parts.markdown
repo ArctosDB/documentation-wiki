@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Create-and-Edit-Parts/
 ---
 
-[Parts Documentation](https://handbook.arctosdb.org/documentation/parts.html)
+[Parts Documentation]({% link _documentation/parts.markdown %})
 
 ### NAVIGATION: 
 **From the catalog record, click on the Parts Tab OR the "Edit" hypertext in the corner of the Parts detail**

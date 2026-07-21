@@ -26,12 +26,12 @@ This is the sum of individuals based on the record attribute ```Individual Count
 ### -UsedTaxa 
 This is the total number of taxon names (at any rank) associated with the total number of records in a collection.
  - [Search Taxonomy here](https://arctos.database.museum/taxonomy.cfm)
- - [Learn about Taxonomy here](https://handbook.arctosdb.org/documentation/taxonomy.html) 
+ - [Learn about Taxonomy here]({% link _documentation/taxonomy.markdown %}) 
 
 ### -Localities
 This is the total number of localities associated with the total number of records in a collection.
  - [Search Localities here](https://arctos.database.museum/place.cfm?sch=locality)
- - [Learn about Localities here](https://handbook.arctosdb.org/documentation/locality.html)
+ - [Learn about Localities here]({% link _documentation/locality.markdown %})
 
 ### -GeoreferencedLocalities
 This is the number of localities with geographic coordinates that is associated with a collection.
@@ -41,7 +41,7 @@ This is the number of localities with geographic coordinates that is associated 
 ### -CollectingEvents
 This is the number of collecting events associated with records in a collection.
  - [Search collecting events here](https://arctos.database.museum/place.cfm)
- - [Learn about collecting events here](https://handbook.arctosdb.org/documentation/collecting-event.html)
+ - [Learn about collecting events here]({% link _documentation/collecting-event.markdown %})
  
  
 ### -SpecimenMedia
@@ -52,23 +52,23 @@ This is the total number of media objects in a collection.
 This is the number of publications that cite catalog records in a collection. Many records may be cited in a single publication but that will only count as one (1) used publication.
  - [Search all Arctos publications here](https://arctos.database.museum/SpecimenUsage.cfm)
  - [Search for publications associated with a specific collection here](https://arctos.database.museum/info/publicationbycollection.cfm)
- - [Learn about publications here](https://handbook.arctosdb.org/documentation/publications.html)
+ - [Learn about publications here]({% link _documentation/publications.markdown %})
 
 ### -Citations
 This is the number of times a catalog record in a collection is cited in publications uploaded to Arctos. If the same single catalog record is cited in multiple publications (e.g., in 17 publications), that counts as multiple citations (e.g., 17 citations).
  - [Search for publications and their citation counts associated with a specific collection here](https://arctos.database.museum/info/publicationbycollection.cfm)
- - [Learn about citations here](https://handbook.arctosdb.org/documentation/specimen-citations.html)
+ - [Learn about citations here]({% link _documentation/citations.markdown %})
  
 ### -LoanedItems
 This is the sum of all parts from a collection that are associated with any loan. This does not indicate anything about the number of catalog records those parts come from.
  - [Search for loans here](https://arctos.database.museum/transactionSearch.cfm)
- - [Learn about loans here](https://handbook.arctosdb.org/documentation/loans.html) 
+ - [Learn about loans here]({% link _documentation/loans.markdown %}) 
 
 ### -GenBankLinks
 This is the number of catalog records with links to any GenBank records.
  - Search for “GenBank” in Identifier IssuedBy in main search page
  - [Find records which are do not have a GenBank link but are expected to](https://arctos.database.museum/info/mia_in_genbank.cfm)
- - [Learn about GenBank registration](https://handbook.arctosdb.org/documentation/genbank.html)
+ - [Learn about GenBank registration]({% link _documentation/genbank.markdown %})
  
 ### -SpecimenRelationships
 This the number of specimens with an external relationship to another record (e.g., “host of” but not “self”) 

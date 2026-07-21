@@ -9,7 +9,7 @@ redirect_from:
 ## Note on Encumbrances
 Encumbrances in Arctos restrict certain aspects of or the entire catalog record from the public view, usually to protect personal identity, proprietary data, or the provenance of a vulnerable population/habitat. Strictly defined database encumbrances are temporary and may be reversed when specified conditions change (publication of research, expiration or retraction of encumbering legislation, eradication of critical habitat where cataloged items were collected, etc.). However, curators can make an entire locality dataset be restricted from public view with a locality attribute. 
 
-[Encumbrance Documentation](/documentation/encumbrance)
+[Encumbrance Documentation]({% link _documentation/encumbrance.markdown %})
 
 Because of the following reasons, we no longer mask coordinates nor mask year collected:
  - Encumbrances expire, so if no one renews an encumbrance, the data will become publicly available upon the specified expiration date.

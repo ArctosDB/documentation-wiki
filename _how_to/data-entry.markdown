@@ -7,7 +7,7 @@ redirect_from:
   - /how_to/data_entry/
 ---
 
-For practical usage documentation, see [/documentation/bulkloader.html](/documentation/bulkloader.html)
+For practical usage documentation, see [/documentation/bulkloader.html]({% link _documentation/bulkloader.markdown %})
 
 All record entry goes through a table named ``bulkloader``. There are several ways to write to this table, and any number of others are possible. The loader scripts may be set to load the record, or to load the record and trigger any UUID-linked records in 'component loaders' to also load.
 

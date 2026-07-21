@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How_to_Edit_Taxa/
 ---
 
-[Taxonomy Documentation](https://handbook.arctosdb.org/documentation/taxonomy.html)
+[Taxonomy Documentation]({% link _documentation/taxonomy.markdown %})
 
-Users with taxonomic authority can edit individual taxonomic records or use the Hierarchical tool to manage multiple records.  These instructions cover the editing of individual records.  See [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html) to manage multiple taxa.  
+Users with taxonomic authority can edit individual taxonomic records or use the Hierarchical tool to manage multiple records.  These instructions cover the editing of individual records.  See [How to Manage Taxonomy Hierarchically]({% link _how_to/manage-taxonomic-classifications.markdown %}) to manage multiple taxa.  
 
 These instructions apply to [Taxonomic Classification Sources](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source) that are managed by Arctos users.  You should only modify taxa in the source that you use for your collection.
 
@@ -20,7 +20,7 @@ Taxon Names cannot be edited.  They can be added and deleted (see below).  Do no
 
 ### Validation Service
 
-Arctos checks taxon names against various services when they are created or edited. This check is a tool, not an authority; all services have significant problems as of this writing. Valid names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy. “Valid for Arctos” taxonomy is described in [Taxonomy](http://handbook.arctosdb.org/documentation/taxonomy.html) in Documentation. 
+Arctos checks taxon names against various services when they are created or edited. This check is a tool, not an authority; all services have significant problems as of this writing. Valid names will occasionally be flagged as invalid, and erroneous names will occasionally pass.  One of the services contains data from Arctos, so the check is a bit circular. Users remain fully responsible for the content of Arctos taxonomy. “Valid for Arctos” taxonomy is described in [Taxonomy]({% link _documentation/taxonomy.markdown %}) in Documentation. 
 
 ## To edit an existing record
 

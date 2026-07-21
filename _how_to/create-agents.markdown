@@ -10,7 +10,7 @@ redirect_from:
 
 ## Before Creating a New Agent
 
-**Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a> 
+**Documentation:** [Agents]({% link _documentation/agent.markdown %})
 
 **Best Practice:** [Creating Meaningful Agents](https://handbook.arctosdb.org/best_practices/Agents.html)
 
@@ -58,7 +58,7 @@ The additional fields described below can assist Arctos users in determining tha
 
 ## Agent Names
 
-- <a href="https://handbook.arctosdb.org/documentation/agent.html#names" target="_blank">Documentation</a>
+- [Documentation]({% link _documentation/agent.markdown %}#names)
 
 It is a good idea to add variations of the Agent name for which Arctos users might search. Someone may type in Kurt Galbreath, Kurt G., or K. Galbreath but the preferred name is Kurt E. Galbreath. It is especially helpful to add the full middle name if known and any suffixes (e.g., Jr., Sr.) or maiden names.
 
@@ -92,7 +92,7 @@ Keep in mind that birth and death dates can lead to better data quality in catal
 
 ## Relationships
 
-- <a href="https://handbook.arctosdb.org/documentation/agent.html#agent-relationships" target="_blank">Documentation</a>
+- [Documentation]({% link _documentation/agent.markdown %}#agent-relationships)
 - <a href="https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_name_type" target="_blank">Code Table</a>
 
 Relationships are useful to connect students to instructors, spouses to each other, children to parents, people to organizations they worked for or were associated with, etc.
@@ -111,6 +111,3 @@ Once you have entered all the information about the Agent click â€œSave Changesâ
 
 [![YouTube: How To Create Agents](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png)](https://www.youtube.com/watch?v=s3Rxk2LhY9E)
 
-## Edit this How To
-
-If you see something that needs to be edited in this How To, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/blob/gh-pages/_how_to/How-to-Create-Agents.markdown).

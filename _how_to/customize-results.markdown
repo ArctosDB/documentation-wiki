@@ -71,7 +71,7 @@ Use the tool menu to select a download option. Users must be logged in to downlo
 ![image](https://github.com/ArctosDB/documentation-wiki/assets/11336485/8a1f3271-d15b-479f-be02-5534ae681475)
 
 
-* **Archive Search** creates a static list of catalog numbers, and unlike Save Search, is not dynamic. Archived searches can be unlocked or locked (i.e. may not be deleted or altered) and can be assigned a DOI. See addtional information [here](https://handbook.arctosdb.org/documentation/archive.html)
+* **Archive Search** creates a static list of catalog numbers, and unlike Save Search, is not dynamic. Archived searches can be unlocked or locked (i.e. may not be deleted or altered) and can be assigned a DOI. See addtional information [here]({% link _documentation/archive.markdown %})
 
 * **Reload with Sharable URL** alters the URL so that the search parameters are included. As an example, a search within the UCM:Egg collection for specimens collected by [Dennis] Gale that have media is converted to the URL: https://arctos.database.museum/search.cfm?guid_prefix=UCM%3AEgg&collector=Gale&media_type=image
   

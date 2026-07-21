@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How-To-Manage-Self-Service-API/
 ---
 
-**Documentation:** [Arctos API](https://handbook.arctosdb.org/documentation/api.html)
+**Documentation:** [Arctos API]({% link _documentation/api.markdown %})
 
-After you have [requested and have been granted an API Key](https://handbook.arctosdb.org/documentation/api.html), you
+After you have [requested and have been granted an API Key]({% link _documentation/api.markdown %}), you
 may option or be required to use a self-service API key; these API keys are linked to your IP at time of issue and
 expire in 24 hours. There are no limits to requesting new keys.
 

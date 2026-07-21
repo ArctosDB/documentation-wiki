@@ -7,7 +7,7 @@ redirect_from:
   - /how_to/How-to-Add-Data-Loan-Items/
 ---
 
-[Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
+[Loan Documentation]({% link _documentation/loans.markdown %})
 
 [Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/293)
 

@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Edit-a-Verbatim-Locality/
 ---
 
-[Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
+[Collecting Event Documentation]({% link _documentation/collecting-event.markdown %})
 
 Verbatim locality is the letter-for-letter, word-for-word locality description of a cataloged item as written by a collector in their field notes. This may include higher geography, elevation, geographic coordinates, and other specific information such as trap or mistnet information.
 

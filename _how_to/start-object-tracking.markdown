@@ -7,7 +7,7 @@ redirect_from:
 author(s): Kyndall Hildebrandt, Mariel Campbell, Teresa Mayfield-Meyer
 ---
 
-[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+[Object Tracking Documentation]({% link _documentation/container.markdown %})
 
 
 ### If this guide doesn't answer your questions, you can read [this document](https://docs.google.com/document/d/1TBN-1r6jz2-ODJRZdgvNC4peiE1TrGKfpLse2bOoyMs/edit?usp=sharing)
@@ -91,9 +91,9 @@ Barcodes are primarily meant to be machine-readable labels for containers, but f
 
 Creating a count of containers to which you will need to add each barcode type, then designing your barcode series accordingly while leaving room for potential future growth will make your experience with object tracking in Arctos much more pleasant. Before proceeding any further:
 
-[Read the Documentation on Guidelines for barcode-containing labels](http://handbook.arctosdb.org/documentation/container.html#guidelines-for-barcode-containing-labels)
+[Read the Documentation on Guidelines for barcode-containing labels]({% link _documentation/container.markdown %}#guidelines-for-barcode-containing-labels)
 
-[Read the Documentation on Barcode Series](http://handbook.arctosdb.org/documentation/container.html#barcode-series)
+[Read the Documentation on Barcode Series]({% link _documentation/container.markdown %}#barcode-series)
 
 ### **Claiming Barcode Series**
 
@@ -174,7 +174,7 @@ If you are printing barcodes in-house, you should also test them with your scann
    
 ## **Create Containers**
 
-See [How To Create and Edit Containers](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Containers.html)
+See [How To Create and Edit Containers]({% link _how_to/create-and-edit-containers.markdown %})
 
 ## **Move Containers**
 
@@ -302,18 +302,18 @@ BarTender is a software package that comes with barcode label printers. UAM runs
 
 ## More Related Arctos Documentation
 
-[Arctos Documentation: Containers](http://handbook.arctosdb.org/documentation/container.html)
+[Arctos Documentation: Containers]({% link _documentation/container.markdown %})
 
 [Barcode Supplies](http://handbook.arctosdb.org/how_to/Barcode-Supplies.html)
 
-[How to Assign a Barcode to an Individual-Specimen Part](http://handbook.arctosdb.org/how_to/How-to-Assign-a-Barcode-to-an-Individual-Specimen.html)
+[How to Assign a Barcode to an Individual-Specimen Part]({% link _how_to/assign-a-barcode-to-an-individual-specimen.markdown %})
 
-[How to Bulkload Barcodes to Specimen Parts](http://handbook.arctosdb.org/how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html)
+[How to Bulkload Barcodes to Specimen Parts]({% link _how_to/bulkload-barcodes-to-specimen-parts.markdown %})
 
-[How to Create a Freezer Box Container](http://handbook.arctosdb.org/how_to/How-to-Create-a-Freezer-Box-Container.html)
+[How to Create a Freezer Box Container]({% link _how_to/create-a-freezer-box-container.markdown %})
 
-[How to Create and Edit Parts](http://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html)
+[How to Create and Edit Parts]({% link _how_to/create-and-edit-parts.markdown %})
 
-[How to Install Tissue Cryovials Into a Freezer Box](http://handbook.arctosdb.org/how_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box.html)
+[How to Install Tissue Cryovials Into a Freezer Box]({% link _how_to/install-tissue-cryovials-into-a-freezer-box.markdown %})
 
 [Examples of Barcodes and Containers in Arctos](https://docs.google.com/presentation/d/1bCjTw_u6y4WVI6A2QT3UKp83FE4cH1rE8Vr2H_QsrNU/edit#slide=id.g380af9deff_0_87)

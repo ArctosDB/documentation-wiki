@@ -6,11 +6,11 @@ redirect_from:
   - /how_to/How-to-Create-Media-Images/
 ---
 
-[Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
+[Media Documentation]({% link _documentation/media.markdown %})
 
 Digital images and associated metadata can be related to records in Arctos through the Media function. When processing large volumes of images, it may be more efficient to use the Media Bulkloader rather than manually enter each media record through the Create Media screen.
 
-Media should be uploaded first to TACC where they are accessible on a web server (see [How to Upload Media to TACC](http://handbook.arctosdb.org/how_to/How-to-Upload-Media-to-TACC.html))
+Media should be uploaded first to TACC where they are accessible on a web server (see [How to Upload Media to TACC]({% link _how_to/upload-media-to-tacc.markdown %}))
 
 **NAVIGATION: Search Menu → Media/Documents → "Attach/Upload Media" hypertext**
 

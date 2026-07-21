@@ -28,7 +28,7 @@ There are three categories of “users” described here:
 
 
 1. Ensure an appropriate Agent record exists. Locate them if they are an existing agent or, after carefully checking, create them as a new agent. Operators must be agents of type "person." Group accounts or shared logins are not permitted.
-1. Ensure that the user has a TACC account. [Create one here](https://accounts.tacc.utexas.edu/register) if needed. (See also [Authentication](/documentation/oauth.html))
+1. Ensure that the user has a TACC account. [Create one here](https://accounts.tacc.utexas.edu/register) if needed. (See also [Authentication]({% link _documentation/oauth.markdown %}))
 1. Instruct the user to log in to Arctos using their TACC account. This should create a user account; contact a DBA (file an Issue) if there are problems.
     * SPECIAL NOTE: During the OAuth transition, a user may have been instructed to create an Arctos account which has the same username as their TACC account. Deleting that account before beginning the process of becoming an Operator will avoid the need for DBA assistance.
 1. Instruct the user to navigate to their Arctos Profile and add an email address.
@@ -45,7 +45,7 @@ There are three categories of “users” described here:
 
 There are two types of “roles” in Arctos: Collection roles and access roles. Collection roles provide access to VPD partitions, and access roles provide specific access to specific tables.  Actual access is at the intersection of roles. A user with UAM_MAMM collection role and DATA_ENTRY access role can only enter data for the UAM Mamm collection.
 
-Some objects (taxonomy, media, agents, places) are shared amongst collections. People who have access to these data must fully understand that <a href="https://handbook.arctosdb.org/documentation/sharing-data-and-resources.html" target="_blank"<Arctos is a shared system</a>, and must always consider the implications of working in a shared system.
+Some objects (taxonomy, media, agents, places) are shared amongst collections. People who have access to these data must fully understand that [Arctos is a shared system]({% link _documentation/sharing-data-and-resources.markdown %}), and must always consider the implications of working in a shared system.
 
 {% include tip.html content="Environment is set at login. Users whose account has changed will need to log out and back in to receive changes." %}
 
@@ -89,5 +89,5 @@ Collection Contacts are users who receive administrative emails when certain act
 
 Instructions for doing specifc tasks related to Users in Arctos
 
-* [How To Create and Manage Your Arctos Team (Users and Operators)](https://handbook.arctosdb.org/how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html)
-* [How To Unlock an Arctos User Account](https://handbook.arctosdb.org/how_to/How-To-Unlock-A-User-Account.html)
+* [How To Create and Manage Your Arctos Team (Users and Operators)]({% link _how_to/create-your-arctos-team-users-and-operators.markdown %})
+* [How To Unlock an Arctos User Account]({% link _how_to/unlock-a-user-account.markdown %})

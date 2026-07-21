@@ -334,21 +334,21 @@ valid taxon.
 
 Instructions for doing specifc tasks related to Taxonomy in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
--  [How to Create Taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html)
--  [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html)
--  [How to Manage Taxonomic Classifications](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html)
--  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
--  [How to Search for Specimens with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
--  [How To Manage Taxon Concepts in Arctos](https://handbook.arctosdb.org/how_to/How-To-Manage-Taxon-Concepts.html)
--  [How To Manage Taxonomy in the WoRMS (via Arctos) Source](https://handbook.arctosdb.org/how_to/How-To-Manage-Taxonomy-in-the-WoRMS-(via%20Arctos)-Source.html)
--  [How To Create Taxa in Arctos Ichnology](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Arctos-Ichnology.html)
+-  [How to Create Taxa]({% link _how_to/create-taxa.markdown %})
+-  [How to Edit Taxa]({% link _how_to/edit-taxa.markdown %})
+-  [How to Manage Taxonomic Classifications]({% link _how_to/manage-taxonomic-classifications.markdown %})
+-  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/Manage-Taxonomy-Hierarchically.html)
+-  [How to Search for Catalog Records with Identification and Taxonomy]({% link _how_to/search-for-specimens-with-identification-and-taxonomy.markdown %})
+-  [How To Manage Taxon Concepts in Arctos]({% link _how_to/manage-taxon-concepts.markdown %})
+-  [How To Create Taxa in Arctos Ichnology]({% link _how_to/create-taxa-in-arctos-ichnology.markdown %})
+-  [How To Manage Taxonomy in the WoRMS (via Arctos) Source]({% link _how_to/manage-taxonomy-in-the-worms-via-arctos-source.markdown %})
 
 See also, Identifications
 
--  [How To Create and Edit Determinations](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Determinations.html)
--  [How To Batch Update Identifications](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Identifications.html)
--  [How To Use Complex Identifications](https://handbook.arctosdb.org/how_to/How-to-Use-Complex-Identifications.html)
--  [How To Use Complex Identifications as Low-quality Data Flags](https://handbook.arctosdb.org/how_to/How-To-Use-Complex-Identifications-As-Low-Quality-Data-Flags.html)
+-  [How To Create and Edit Determinations]({% link _how_to/create-and-edit-determinations.markdown %})
+-  [How To Batch Update Identifications]({% link _how_to/batch-update-identifications.markdown %})
+-  [How To Use Complex Identifications]({% link _how_to/use-complex-identifications.markdown %})
+-  [How To Use Complex Identifications as Low-quality Data Flags]({% link _how_to/use-complex-identifications-as-low-quality-data-flags.markdown %})
 
 
 # Tutorial Video ↗️

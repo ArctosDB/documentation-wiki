@@ -12,7 +12,7 @@ Before creating agents, any new agent name should be checked against existing ag
 
 Navigation: [Arctos Tools Directory > Agents & Users > Agent: Pre-Bulkload](https://arctos.database.museum/loaders/pre_bulkload_agents.cfm)
 
-<a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agent Documentation</a>
+[Agent Documentation]({% link _documentation/agent.markdown %})
 
 ## How to Interpret the Results
 

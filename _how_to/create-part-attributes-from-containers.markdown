@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How-To-Create-Part-Attributes-from-Containers/
 ---
 
-[Parts Documentation](https://handbook.arctosdb.org/documentation/parts.html)
+[Parts Documentation]({% link _documentation/parts.markdown %})
 
-[Object Tracking](https://handbook.arctosdb.org/documentation/container.html)
+[Object Tracking]({% link _documentation/container.markdown %})
 
 <img width="469" alt="Screen Shot 2022-10-11 at 7 50 09 AM" src="https://user-images.githubusercontent.com/5720791/195124699-dfb88958-60fe-4429-8f0c-706ae9e9130a.png">
 

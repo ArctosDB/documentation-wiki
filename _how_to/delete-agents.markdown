@@ -12,7 +12,7 @@ This document is outdated. Agents cannot be deleted.
 
 Navigation: [Arctos Tools Directory > Agents & Users > Agent: Manage](https://arctos.database.museum/agents.cfm)
 
-**Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a>
+**Documentation:** [Agents]({% link _documentation/agent.markdown %})
 
 ## Permission
 
@@ -42,7 +42,7 @@ Tutorial Needed
 
 ## Notifications
 
-All collections will receive a [warning email](/documentation/notifications) when an Agent is marked [bad duplicate of](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_relationship#bad_duplicate_of) another Agent, and if no action is taken the Agent's activity will be automatically merged into the related Agent and the Agent profile will be deleted in 14 days.
+All collections will receive a [warning email]({% link _documentation/notifications.markdown %}) when an Agent is marked [bad duplicate of](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctagent_relationship#bad_duplicate_of) another Agent, and if no action is taken the Agent's activity will be automatically merged into the related Agent and the Agent profile will be deleted in 14 days.
 
 Check collection contacts and their email addresses if you are not receiving notifications.
 

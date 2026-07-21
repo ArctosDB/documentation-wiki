@@ -6,11 +6,11 @@ redirect_from:
   - /how_to/How-to-understand-locality-media/
 ---
 
-[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Locality Documentation]({% link _documentation/locality.markdown %})
 
-[Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
+[Collecting Event Documentation]({% link _documentation/collecting-event.markdown %})
 
-[Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
+[Media Documentation]({% link _documentation/media.markdown %})
 
 Arctos allows linking Media directly to Localities, but this is almost always undesirable - minimally, you know the Media was not created tomorrow, for example, and so linking to Localities is a form of discarding potentially valuable information. Linking Media to Collecting Events is preferred but, from the specimen, it is often useful to access the media taken at the place the specimen was collected regardless of time. This page demonstrates how Arctos follows relationships among the relevant data objects to present "derived locality media" - media linked to a collecting event which shares the locality of the current specimen - on specimen records.
 

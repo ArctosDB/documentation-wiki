@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Bulkload-Media-Metadata/
 ---
 
-[Media Documentation](https://handbook.arctosdb.org/documentation/media.html)
+[Media Documentation]({% link _documentation/media.markdown %})
 
 ## Bulkload Media Metadata From Scratch ##
 
@@ -91,7 +91,7 @@ Arctos will automatically attempt to create thumbnails for image Media without t
 
 ## Bulkload Media Metadata with Small Batch Media Upload Tool File ##
 
-For use with small batch media uploader tool - see full documentation at [How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
+For use with small batch media uploader tool - see full documentation at [How to Upload Media to TACC]({% link _how_to/upload-media-to-tacc.markdown %})
 
 ------------------
 ## IMPORTANT: The tool to extract information from the directory listing is no longer functional against TACC. We will update this if TACC can provide XML directory listings in the future.
@@ -179,6 +179,6 @@ This file will be deleted 3 days after the message is sent, but may be regenerat
 
 ## Related Links
 
-[How to Upload Media to TACC](/how_to/How-to-Upload-Media-to-TACC)
+[How to Upload Media to TACC]({% link _how_to/upload-media-to-tacc.markdown %})
 
-[How to Create Media/Images](/how_to/How-to-Create-Media-Images)
+[How to Create Media/Images]({% link _how_to/create-media-images.markdown %})

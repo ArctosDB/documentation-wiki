@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/customize_data_entry/
 ---
 
-**Documentation: [Catalog Record](https://handbook.arctosdb.org/documentation/catalog.html)**
+**Documentation: [Catalog Record]({% link _documentation/catalog.markdown %})**
 
 The data entry form can be customized to reflect the preferred suite of fields displayed, pre-populated with field values, and to provide suggestions for term values. Customization options are saved to the user profile for the last record entered and will automatically display on subsequent logins. Cutomizations can also be saved as profiles and shared with others.
 

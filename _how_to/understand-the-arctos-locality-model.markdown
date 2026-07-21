@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How-to-understand-the-Arctos-Locality-Model/
 ---
 
-[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Locality Documentation]({% link _documentation/locality.markdown %})
 
-[Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
+[Collecting Event Documentation]({% link _documentation/collecting-event.markdown %})
 
 The core Arctos locality model consists of 4 primary tables plus an edit archive. This guide and the following illustration describe their primary function and interaction.
 
@@ -143,7 +143,7 @@ The former geography model was generally an attempt to "fill in the blanks," whi
 ### New geography 
 
 
-Several months of intense discussion lead to [The Plan](https://github.com/ArctosDB/arctos/issues/5138), which is summarized in [Geography Documentation](https://handbook.arctosdb.org/documentation/higher-geography.html). Some common questions will be addressed below.
+Several months of intense discussion lead to [The Plan](https://github.com/ArctosDB/arctos/issues/5138), which is summarized in [Geography Documentation]({% link _documentation/higher-geography.markdown %}). Some common questions will be addressed below.
 
 #### What's going on with higher geography? Seems all my data have lost their continent.
 
@@ -177,7 +177,7 @@ turn at least one row on, choose Feature, and begin typing to get values.
 #### Now specific locality is redundant!
 
 
-See [Locality Documentation](https://handbook.arctosdb.org/documentation/locality) and [https://github.com/ArctosDB/arctos/issues/5132](https://github.com/ArctosDB/arctos/issues/5132) - some geography was moved to specific locaity per The Plan, and not following the "Do not include higher geography ... in the Specific Locality" directive results in redundancy. File an Issue; we can help clean up.
+See [Locality Documentation]({% link _documentation/locality.markdown %}) and [https://github.com/ArctosDB/arctos/issues/5132](https://github.com/ArctosDB/arctos/issues/5132) - some geography was moved to specific locaity per The Plan, and not following the "Do not include higher geography ... in the Specific Locality" directive results in redundancy. File an Issue; we can help clean up.
 
 #### Associated Names is still crazy!
 

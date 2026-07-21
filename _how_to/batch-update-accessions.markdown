@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Batch-Update-Accessions/
 ---
 
-[Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)
+[Accession Documentation]({% link _documentation/accession.markdown %})
 
 Batch update Accessions using the Manage Menu to transfer specimen records from one accession into another. The Manage Menu is an efficient alternative to using the "Accn Tab" found in individual specimen records when needing to update multiple records at once. **Note:** Specimen records can only be added _into_ an existing accession. Moving  records _into_ an accession and others _out_ of the same accession is therefore a two-step process (e.g., first transfer any "unwanted" records out of the accession into a different accession before transferring any additional records in).
 

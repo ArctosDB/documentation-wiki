@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Add-and-Edit-Attributes/
 ---
 
-**Documentation: [Attributes](https://handbook.arctosdb.org/documentation/attributes.html)**
+**Documentation: [Attributes]({% link _documentation/attributes.markdown %})**
 
 **NAVIGATION: from the catalog record, click on the Attributes Tab OR the "Edit" link in the corner of the Attributes detail**
 

@@ -26,7 +26,7 @@ If is difficult for us to communicate with users without GitHub accounts; we may
 ## How To
 Instructions for doing specifc tasks in Github related to Arctos
 
-* [How To Github: Get Started with Github for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html)
-* [How To Github: Create and Manage Github Issues for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Issues-in-Arctos.html)
-* [How To Github: Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
-* [How to Github: Contribute a Video Tutorial to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-To-Contribute-a-Video-Tutorial.html)
+* [How To Github: Get Started with Github for Arctos]({% link _how_to/use-github-for-arctos.markdown %})
+* [How To Github: Create and Manage Github Issues for Arctos]({% link _how_to/use-issues-in-arctos.markdown %})
+* [How To Github: Contribute to the Arctos Handbook]({% link _how_to/contribute-content-to-arctos-handbook.markdown %})
+* [How to Github: Contribute a Video Tutorial to the Arctos Handbook]({% link _how_to/contribute-a-video-tutorial.markdown %})

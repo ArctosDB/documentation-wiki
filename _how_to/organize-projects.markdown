@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-organize-projects/
 ---
 
-[Project Documentation](https://handbook.arctosdb.org/documentation/projects.html)
+[Project Documentation]({% link _documentation/projects.markdown %})
 
 Projects may effectively be organized in various ways. The "best" approach depends upon the nature of the data,
 institutional practices and traditions, the source(s) of support, and various other factors.

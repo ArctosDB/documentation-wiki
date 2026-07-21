@@ -6,11 +6,11 @@ redirect_from:
   - /how_to/How-to-Create-Citations/
 ---
 
-[Citation Documentation](https://handbook.arctosdb.org/documentation/specimen-citations.html)
+[Citation Documentation]({% link _documentation/citations.markdown %})
 
-[Publication Documentation](https://handbook.arctosdb.org/documentation/publications.html)
+[Publication Documentation]({% link _documentation/publications.markdown %})
 
-Attach a catalog record to a publication via citation. **NOTE:** Before a cataloged item is cited, the Publication profile **must** already exist in Arctos. See [How to Create a Publication](https://handbook.arctosdb.org/how_to/How-to-Create-a-Publication.html) for a tutorial.
+Attach a catalog record to a publication via citation. **NOTE:** Before a cataloged item is cited, the Publication profile **must** already exist in Arctos. See [How to Create a Publication]({% link _how_to/create-a-publication.markdown %}) for a tutorial.
 
 ![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/master/tutorial_images/manage_citations.jpg)
 

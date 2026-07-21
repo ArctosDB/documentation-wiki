@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/Understanding-data-entry/
 ---
 
-## [Documentation: Catalog Record/Data Entry](https://handbook.arctosdb.org/documentation/catalog.html)
+## [Documentation: Catalog Record/Data Entry]({% link _documentation/catalog.markdown %})
 
 
 This document provides a high-level overview of the catalog record data entry mechanism provided by Arctos.

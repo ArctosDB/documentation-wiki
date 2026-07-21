@@ -7,7 +7,7 @@ date_updated:
 Determinations, or "identifications" (IDs), apply taxonomic terms to
 cataloged objects. In other words, determinations are not necessarily just
 taxonomic terms. Information about taxonomic names (which are used to
-compose determinations) is in [Taxonomy](/documentation/taxonomy).
+compose determinations) is in [Taxonomy]({% link _documentation/taxonomy.markdown %}).
 
 A taxonomic determination is comprised of:
 
@@ -27,13 +27,13 @@ alternative methods enhance the value of the cataloged object.
 
 There is a distinction between Scientific Name here
 in determinations, as opposed to [Scientific Name as it is used in the
-taxonomy table](/documentation/taxonomy#taxon-name). The latter is a term from a
+taxonomy table]({% link _documentation/taxonomy.markdown %}#taxon-name). The latter is a term from a
 table serving as a taxonomic look-up (or authority). Here, it is a
 character string applied to a cataloged object by a [determiner](#determiner), though
 it uses terms from the look-up table to create such strings.
 Nevertheless, in the simplest and commonest case ([Determination
 Formula](#determination-formula)= "A"), they are identical. (Some forms display a
-third related term called [Display Name](/documentation/taxonomy#editing), which
+third related term called [Display Name]({% link _documentation/taxonomy.markdown %}#editing), which
 is merely a specific formatting of the data in Taxonomy.) The
 explanation of Determination Formula (immediately below) is
 illustrative.
@@ -57,7 +57,7 @@ according to a formula. For example:
 
 More formulae are documented in the [vocabulary-control
 table](http://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula).
-Bulkloader taxa guidelines are [here](/documentation/bulkloader#taxonomy).
+Bulkloader taxa guidelines are [here]({% link _documentation/bulkloader.markdown %}#taxonomy).
 
 You can pick a formula from the editing screen for determinations. You
 do not need to designate a formula for data entry if you intend a simple
@@ -103,7 +103,7 @@ You can also have more than one order = 1 to indicate that there are more than o
 
 `Identification . Made_Date VARCHAR2(22) null`
 
-[ISO8601](/documentation/dates) date-type. Date on which the identification was made. The
+[ISO8601]({% link _documentation/dates.markdown %}) date-type. Date on which the identification was made. The
 chronological order of determinations may be the most critical issue.
 
 
@@ -112,7 +112,7 @@ chronological order of determinations may be the most critical issue.
 `Identification . Publication_ID NUMBER(22) null`
 
 Signifies that a determination is made in the sense of (*sensu*) a
-particular [publication](/documentation/publications).
+particular [publication]({% link _documentation/publications.markdown %}).
 This may be used both in the taxonomic sense ("this cataloged object fits in
 with Some Author’s concept of *Aus bus*") and as supporting
 documentation ("We’ve determined this to be *Aus bus* using the methods
@@ -125,7 +125,7 @@ As well as specifying a name during an identification, an (optional)
 link can be made to a particular _taxonomic concept_: a ‘name plus its
 accordingTo’. This is very valuable when a name has changed its
 circumscription during subsequent revisions. See the
-[Taxonomic Concepts](https://handbook.arctosdb.org/documentation/taxonomy.html#taxonomic-concepts)
+[Taxonomic Concepts]({% link _documentation/taxonomy.markdown %}#taxonomic-concepts)
 section of the Taxonomy page for more background.
 
 To enter a taxon concept in the Identification pane, type part of the
@@ -149,7 +149,7 @@ a [Determined Date](#determined-date) if it was not recorded as an exact day.
 
 `Identification_Agent . Agent_ID NUMBER(22) not null`
 
-Determiners are the [agent](/documentation/agent) (or agents, usually
+Determiners are the [agent]({% link _documentation/agent.markdown %}) (or agents, usually
 a person) who identified the cataloged object. More than one agent can be
 entered. The order in which such co-determiners are displayed is set in
 the form by the order in which they were added to the determination. To
@@ -212,18 +212,18 @@ searches are case-insensitive. Examples are fictitious and incomplete.
 
 Instructions for doing specifc tasks related to Identifications in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
--  [How To Create, Edit, and Delete Identifications](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Determinations.html)
--  [How To Batch Update Identifications](https://handbook.arctosdb.org/how_to/How-to-Batch-Update-Identifications.html)
--  [How To Use Complex Identifications](https://handbook.arctosdb.org/how_to/How-to-Use-Complex-Identifications.html)
--  [How To Use Complex Identifications as Low-quality Data Flags](https://handbook.arctosdb.org/how_to/How-To-Use-Complex-Identifications-As-Low-Quality-Data-Flags.html)
+-  [How To Create, Edit, and Delete Identifications]({% link _how_to/create-and-edit-determinations.markdown %})
+-  [How To Batch Update Identifications]({% link _how_to/batch-update-identifications.markdown %})
+-  [How To Use Complex Identifications]({% link _how_to/use-complex-identifications.markdown %})
+-  [How To Use Complex Identifications as Low-quality Data Flags]({% link _how_to/use-complex-identifications-as-low-quality-data-flags.markdown %})
 
 
 See also, Taxonomy
 
--  [How to Create Taxa](http://handbook.arctosdb.org/how_to/How-to-Create-Taxa.html)
--  [How to Edit Taxa](http://handbook.arctosdb.org/how_to/How_to_Edit_Taxa.html)
--  [How to Manage Taxonomic Classifications](http://handbook.arctosdb.org/how_to/How-to-manage-taxonomic-classifications.html)
--  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/How-to-Manage-Taxonomy-Hierarchically.html)
--  [How to Search for Catalog Records with Identification and Taxonomy](http://handbook.arctosdb.org/how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html)
--  [How To Manage Taxon Concepts in Arctos](https://handbook.arctosdb.org/how_to/How-To-Manage-Taxon-Concepts.html)
--  [How To Create Taxa in Arctos Ichnology](https://handbook.arctosdb.org/how_to/How-to-Create-Taxa-in-Arctos-Ichnology.html)
+-  [How to Create Taxa]({% link _how_to/create-taxa.markdown %})
+-  [How to Edit Taxa]({% link _how_to/edit-taxa.markdown %})
+-  [How to Manage Taxonomic Classifications]({% link _how_to/manage-taxonomic-classifications.markdown %})
+-  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/Manage-Taxonomy-Hierarchically.html)
+-  [How to Search for Catalog Records with Identification and Taxonomy]({% link _how_to/search-for-specimens-with-identification-and-taxonomy.markdown %})
+-  [How To Manage Taxon Concepts in Arctos]({% link _how_to/manage-taxon-concepts.markdown %})
+-  [How To Create Taxa in Arctos Ichnology]({% link _how_to/create-taxa-in-arctos-ichnology.markdown %})

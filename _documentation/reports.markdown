@@ -4,7 +4,7 @@ authors: Dusty L. McDonald
 date_updated: 2022-09-30
 ---
 
-[Printed Reports and Labels Documentation](https://handbook.arctosdb.org/documentation/reports.html)
+[Printed Reports and Labels Documentation]({% link _documentation/reports.markdown %})
 
 # Reports and Labels
 

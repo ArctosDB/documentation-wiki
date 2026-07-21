@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Find-and-Edit-Loans/
 ---
 
-[Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
+[Loan Documentation]({% link _documentation/loans.markdown %})
 
 ## Finding Loans
 

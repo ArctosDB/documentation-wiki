@@ -10,7 +10,7 @@ To Batch update Agents (collectors and preparators, determiners) use the Manage 
 
 **Note:** Agents involved in activities other than catalog record activities (donors, loan contacts, publication authors, project participants, etc.) cannot be globally edited, and must be individually updated in each transaction, publication or project.
 
-**Documentation:** <a href="https://handbook.arctosdb.org/documentation/agent.html" target="_blank">Agents</a>
+**Documentation:** [Agents]({% link _documentation/agent.markdown %})
 
 ### Navigation
 First, query for the records to be edited. ALL records that appear in the search results list will be batch-updated. Be sure to double-check the results and isolate only the records you wish to update, narrowing your search parameters if need be. In the Tools menu bar above the search results select Collectors or Agents under the Manage section.

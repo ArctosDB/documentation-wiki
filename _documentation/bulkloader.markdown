@@ -52,11 +52,11 @@ Leading and trailing spaces and other non-printing characters matter.
 
 ### Encoding
 
-Arctos is UTF-8 encoded. See [encoding](/documentation/encoding.html) for information regarding character encoding.
+Arctos is UTF-8 encoded. See [encoding]({% link _documentation/encoding.markdown %}) for information regarding character encoding.
 
 ### Dates
 
-Documentation regarding dates, including preventing Excel from mangling them, is [available](https://handbook.arctosdb.org/documentation/dates.html).
+Documentation regarding dates, including preventing Excel from mangling them, is [available]({% link _documentation/dates.markdown %}).
 
 ## Status
 
@@ -90,7 +90,7 @@ The web-based applications may not work well for very large loads.
 There is no standard method for moving data into table Bulkloader. You
 may import data from any file format, type the data into the table,
 write your own data entry screen, or use any other method you choose. We
-appreciate documentation, even for specialized datasets – see [How To Github - Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html) if you wish to contribute.
+appreciate documentation, even for specialized datasets – see [How To Github - Contribute to the Arctos Handbook]({% link _how_to/contribute-content-to-arctos-handbook.markdown %}) if you wish to contribute.
 
 You may mix accessions, collections, or anything else in a single load.
 
@@ -111,5 +111,5 @@ the action that caused the error message.
 
 Instructions for doing specifc tasks related to Bulkloading in Arctos
 
- - [How To Bulkload Catalog Records](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Specimen-Data.html)
- - [How To Use SQL option in the Bulkloader](https://handbook.arctosdb.org/how_to/How-to-Use-Bulkloader-SQL.html)
+ - [How To Bulkload Catalog Records]({% link _how_to/bulkload-catalog-records.markdown %})
+ - [How To Use SQL option in the Bulkloader]({% link _how_to/use-bulkloader-sql.markdown %})

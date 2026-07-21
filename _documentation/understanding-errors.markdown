@@ -266,4 +266,4 @@ Shipping "addresses" may not be altered once used, in order to preserve the inte
 
 Instructions for doing specifc tasks related to errors in Arctos
 
- - [How to Understand Attribute Errors](https://handbook.arctosdb.org/how_to/Understanding-Attribute-Errors.html)
+ - [How to Understand Attribute Errors]({% link _how_to/understand-attribute-errors.markdown %})

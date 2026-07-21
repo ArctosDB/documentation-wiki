@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Move-a-Single-Barcoded-Container/
 ---
 
-[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+[Object Tracking Documentation]({% link _documentation/container.markdown %})
 
 Every barcoded container has a hierarchical position in Arctos, and each level in the hierarchy has a parent-child relationship. Take a tissue vial as an example. A tissue vial is inserted into a position in a box (see tutorial on [How to Install Tissue Cryovials into a Freezer Box](https://github.com/ArctosDB/documentation-wiki/wiki/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box)), which goes into a slot in a rack, which has a position in a freezer, which is located in a room. The parent-child relationship looks like this:
 

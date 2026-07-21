@@ -9,7 +9,7 @@ redirect_from:
  
 ### [Update Request Github Issue](https://github.com/ArctosDB/documentation-wiki/issues/300)
 
-## [Code Table Documentation: ](https://handbook.arctosdb.org/documentation/authorities.html)
+## [Code Table Documentation: ]({% link _documentation/authorities.markdown %})
 
 This guide provides step-by-step instructions for creating and managing geology terms and relationships in the Geology Attributes Code Tables.
 
@@ -59,7 +59,7 @@ Following the definition, always include the link to the Github Issue that docum
 
 When you are satisfied with your entries in all fields, select "Insert" to create the new code table term.
 
-{% include caution.html content="Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship. (See [Create Term Relationships](https://handbook.arctosdb.org/how_to/How-to-Create-and-Manage-Geology-Terms.html#create-term-relationships))" %}
+{% include caution.html content="Your new term will not be included in any of the hierarchies that exist in the code table. If you want a term to be searchable using a hierarchy, you must create the appropriate relationship. (See [Create Term Relationships]({% link _how_to/create-and-manage-geology-terms.markdown %}#create-term-relationships))" %}
 
 ## Manage Terms
 

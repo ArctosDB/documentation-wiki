@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Enter-Specimens-in-the-Field/
 ---
 
-[Catalog Record/Data Entry Documentation](https://handbook.arctosdb.org/documentation/catalog.html)
+[Catalog Record/Data Entry Documentation]({% link _documentation/catalog.markdown %})
 
 **This guide will walk you through the procedure of setting up a spreadsheet to enter specimens while in the field.**
 **Be sure you are familiar with Arctos and how to enter specimens BEFORE attempting to do this in the field.**

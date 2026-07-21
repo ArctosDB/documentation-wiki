@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Bulkload-Parts/
 ---
 
-[Parts Documentation](https://handbook.arctosdb.org/documentation/parts.html)
+[Parts Documentation]({% link _documentation/parts.markdown %})
 
 This document will walk through the steps for bulkloading parts and up to six of their associated attributes using the Part Bulkload Tool.
 
@@ -25,7 +25,7 @@ Use the the "[Get a template](https://arctos.database.museum/tools/BulkloadParts
  
 * When the template is complete, save the file as a csv
 
-{% include tip.html content="For better formatting when using Excel see [How To Manage Excel for Arctos](https://handbook.arctosdb.org/how_to/How-to-Excel-for-Arctos.html)" %}
+{% include tip.html content="For better formatting when using Excel see [How To Manage Excel for Arctos]({% link _how_to/excel-for-arctos.markdown %})" %}
 
 ## Upload CSV to the Part Bulkload Tool 
 
@@ -45,7 +45,7 @@ Use the the "[Get a template](https://arctos.database.museum/tools/BulkloadParts
 
 * Parts will be immediately added to catalog records, however they may not appear in your catalog records for up to 24 hours.
 
-* If edits are required after the parts are uploaded, see [How To Create and Edit Parts](https://handbook.arctosdb.org/how_to/How-to-Create-and-Edit-Parts.html)  
+* If edits are required after the parts are uploaded, see [How To Create and Edit Parts]({% link _how_to/create-and-edit-parts.markdown %})  
 
 ## How to Bulkload Parts Tutorial Video 
 

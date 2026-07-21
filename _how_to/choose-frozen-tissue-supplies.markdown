@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How_to_choose_frozen_tissue_supplies/
 ---
 
-[Object Tracking Documentation](https://handbook.arctosdb.org/documentation/container.html)
+[Object Tracking Documentation]({% link _documentation/container.markdown %})
 
 ## Cryovials
 

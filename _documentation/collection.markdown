@@ -8,7 +8,7 @@ An Arctos collection is a group of co-managed records. Most collections are "tra
 
 ## Creating
 
-To create a collection, see [https://handbook.arctosdb.org/how_to/new-collection.html](https://handbook.arctosdb.org/how_to/new-collection.html).
+To create a collection, see [documentation]({% link _how_to/new-collection.markdown %}).
 
 "Core tables" are as follows.
 
@@ -39,7 +39,7 @@ Foreign key to [https://arctos.database.museum/info/ctDocumentation.cfm?table=ct
 
 Collection identifier as registered with NCBI. Used to automatcally find records in GenBank. 
 
-* [Management Information](https://handbook.arctosdb.org/documentation/genbank.html)
+* [Management Information]({% link _documentation/genbank.markdown %})
 
 ### web_link and web_link_text
 

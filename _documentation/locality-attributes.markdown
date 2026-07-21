@@ -6,7 +6,7 @@ redirect_from:
   - /documentation/localityattributes/
 ---
 
-Locality Attributes in Arctos are used to add descriptive terms and information to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). Most terms are controlled by the vocabulary contained in the [ctlocality_attribute_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) code table. 
+Locality Attributes in Arctos are used to add descriptive terms and information to a [Locality]({% link _documentation/locality.markdown %}). Most terms are controlled by the vocabulary contained in the [ctlocality_attribute_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) code table. 
 
 Locality Attributes can generally be summarized in the following groups: 1) Geologic or Stratigraphic Information, 2) Geographic: [Public Land Survey System](#public-land-survey-system), [landholder](#site-land-status), and 3) Curatorial: [locality access](#locality-encumbrance) to denote localities that need to be excluded from public view. For a summary of geologic stratigraphy, see the <a href="https://www.idigbio.org/wiki/images/7/7f/255-271_Murphy_.pdf">International Stratigraphic Guide —An abridged version</a>
 
@@ -104,7 +104,7 @@ Current terms in Arctos:
  
 ### Locality Access
 
-When it is necessary to hide a locality from public view, use of the access attribute will limit access to only the collection and users that can manage its data. For more on this attribute, see [Encumbering Locality](http://handbook.arctosdb.org/how_to/How-to-Encumber-Locality.html).
+When it is necessary to hide a locality from public view, use of the access attribute will limit access to only the collection and users that can manage its data. For more on this attribute, see [Encumbering Locality]({% link _how_to/encumber-locality.markdown %}).
 
 ### Site Identifier
 
@@ -116,7 +116,7 @@ Identifiers may be local or come from external resources. When possible, supply 
 
 ## Structure
 
-[Locality Attributes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) attach information to a [Locality](http://handbook.arctosdb.org/documentation/locality.html). Each locality may contain any number of locality attributes. Each Locality Attribute may be accompanied by a determiner (an [Arctos Agent](http://handbook.arctosdb.org/documentation/agent.html)), determination date, determination method, units if required, and a remark. 
+[Locality Attributes](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlocality_attribute_type) attach information to a [Locality]({% link _documentation/locality.markdown %}). Each locality may contain any number of locality attributes. Each Locality Attribute may be accompanied by a determiner (an [Arctos Agent]({% link _documentation/agent.markdown %})), determination date, determination method, units if required, and a remark. 
 
 |Name                                  |`Null`?    |Type| 
 |--------------------------------------|-----------|----| 

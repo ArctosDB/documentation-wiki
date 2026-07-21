@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Publish-to-OBIS/
 ---
 
-## [Beyond Arctos Documentation](https://handbook.arctosdb.org/documentation/github.html)
+## [Beyond Arctos Documentation]({% link _documentation/github.markdown %})
 
 The following are the steps that Phyllis Sharp took to prepare DMNS:Inv data for inclusion in [OBIS](https://obis.org/).  
 

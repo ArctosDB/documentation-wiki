@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Add-Loan-Items/
 ---
 
-[Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
+[Loan Documentation]({% link _documentation/loans.markdown %})
 
 [Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/186)
 
@@ -40,11 +40,11 @@ Other ways to add loan items:
 
 ### Bulkloader
 
-A tool to [bulkload loan items](https://handbook.arctosdb.org/how_to/How_To_Bulkload_Loan_Parts.html) is available. 
+A tool to [bulkload loan items]({% link _how_to/bulkload-loan-parts.markdown %}) is available. 
 
 ### Container Leaf Nodes
 
-[How To Find Parts for a Loan Using Object Tracking (Barcodes)](https://handbook.arctosdb.org/how_to/How-To-Find-Parts%20for-a-Loan-Using%20Object%20Tracking-Existing-Freezer-Box.html)
+[How To Find Parts for a Loan Using Object Tracking (Barcodes)]({% link _how_to/find-parts-for-a-loan-using-object-tracking-existing-freezer-box.markdown %})
 
 Find any container, view leaf nodes
 

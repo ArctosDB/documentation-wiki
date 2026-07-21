@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality/
 ---
 
-[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Locality Documentation]({% link _documentation/locality.markdown %})
 
-[Collecting Event Documentation](https://handbook.arctosdb.org/documentation/collecting-event.html)
+[Collecting Event Documentation]({% link _documentation/collecting-event.markdown %})
 
 If you need to create a new collecting event associated with an already existing locality, or if you want to edit a locality for only some of the specimens currently sharing it, follow these steps.
 
@@ -30,7 +30,7 @@ If you need to create a new collecting event associated with an already existing
 
 **What to Enter for Each Collecting Event**
 
-* Verbatim Locality - see guide on [How to Edit Verbatim Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Specific-Locality.html)
+* Verbatim Locality - see guide on [How to Edit Verbatim Locality]({% link _how_to/edit-a-specific-locality.markdown %})
 
 * Verbatim Date - this is a text field that contains the date as recorded by the collector or observer
 

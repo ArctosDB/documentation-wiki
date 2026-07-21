@@ -25,4 +25,4 @@ Projects and Archives provide short identifiers for groups of records, and may b
 
 ## After Publication
 
-[Citations](/documentation/citation.html) should be added to each involved Arctos record, serving as a reciprocal and redundant to the ``publication --> record`` relationship established by good citations.
+[Citations]({% link _documentation/citations.markdown %}) should be added to each involved Arctos record, serving as a reciprocal and redundant to the ``publication --> record`` relationship established by good citations.

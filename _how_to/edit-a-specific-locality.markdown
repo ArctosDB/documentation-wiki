@@ -6,7 +6,7 @@ redirect_from:
   - /how_to/How-to-Edit-a-Specific-Locality/
 ---
 
-[Locality Documentation](https://handbook.arctosdb.org/documentation/locality.html)
+[Locality Documentation]({% link _documentation/locality.markdown %})
 
 ### Find the Locality to Edit
 
@@ -30,7 +30,7 @@ redirect_from:
 
 At the top of the edit locality page, you should see a red box with a summary of what's using the locality (cataloged items and media). 
 Any edits will affect ALL of those things. If that is not intended, STOP and find a different pathway.
-[/how_to/How-to-Reassign-Specimens-to-Another-Locality.html](/how_to/How-to-Reassign-Specimens-to-Another-Locality.html) may be useful.
+[/how_to/How-to-Reassign-Specimens-to-Another-Locality.html]({% link _how_to/reassign-specimens-to-another-locality.markdown %}) may be useful.
 
 
 ### Change the Higher Geography

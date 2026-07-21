@@ -6,11 +6,11 @@ redirect_from:
   - /how_to/how-to-search-transactions/
 ---
 
-[Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)
+[Accession Documentation]({% link _documentation/accession.markdown %})
 
-[Loan Documentation](https://handbook.arctosdb.org/documentation/loans.html)
+[Loan Documentation]({% link _documentation/loans.markdown %})
 
-[Permits Documentation](https://handbook.arctosdb.org/documentation/permits.html)
+[Permits Documentation]({% link _documentation/permits.markdown %})
 
 Transactions are Loans, Accessions, Permits, and Borrows. All may be accessed via one Arctos form.
 

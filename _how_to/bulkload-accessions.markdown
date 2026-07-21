@@ -6,9 +6,9 @@ redirect_from:
   - /how_to/How_To_Bulkload_Accessions/
 ---
 
-[Accession Documentation](https://handbook.arctosdb.org/documentation/accession.html)
+[Accession Documentation]({% link _documentation/accession.markdown %})
 
-Bulkloading accession information is an important step in migration into Arctos. It may help to read [How to Create an Accession](https://handbook.arctosdb.org/how_to/How-to-Create-an-Accession.html) as the process for bulkloading is completing the same steps in bulk.
+Bulkloading accession information is an important step in migration into Arctos. It may help to read [How to Create an Accession]({% link _how_to/create-an-accession.markdown %}) as the process for bulkloading is completing the same steps in bulk.
 
 ## Create the Accession Bulkload file
 
@@ -18,14 +18,14 @@ Bulkloading accession information is an important step in migration into Arctos.
  
 ### Pro Tips
  
- **Tip** When entering agent names, the easiest way to make sure that 1) the agent exists in Arctos and 2) you have the name spelled and formatted correctly, is to search in Arctos for the agent and if existing, copy/paste that name from Arctos into the spreadsheet. If you need to create an agent, see [How to Create Agents](http://handbook.arctosdb.org/how_to/How-to-Create-Agents.html) 
+ **Tip** When entering agent names, the easiest way to make sure that 1) the agent exists in Arctos and 2) you have the name spelled and formatted correctly, is to search in Arctos for the agent and if existing, copy/paste that name from Arctos into the spreadsheet. If you need to create an agent, see [How to Create Agents]({% link _how_to/create-agents.markdown %}) 
  
  **Tip** Excel tends to auto-correct dates into a default format. Change the date columns from date or number format to text format, or select the date format used in Arctos (yyyy-mm-dd) 
  
  **Tip** The written sections of the accession (Nature of Material, Remarks) must be “HTML-friendly.” If there are any symbols in these fields that don’t work in HTML, Arctos will not let you create the accession. The ususal culprit is the enter/return key, instead of using “enter” to create a line break, you will need to use the ```<br>``` tag 
  
  * If the accession contains items from multiple collections in the institution, the accession may be assigned to the collection with the greatest number of records in the accession, no matter how this determination is made it is best to be consistent, so document the method of choice for your institution  
- * For details about what should be included in each field of the Accession Bulkload, see the [Accession Bulkload Tool](https://arctos.database.museum/tools/BulkloadAccn.cfm?action=ld) and follow the links for each column header for more information or reiew [How to Create an Accession](https://handbook.arctosdb.org/how_to/How-to-Create-an-Accession.html) 
+ * For details about what should be included in each field of the Accession Bulkload, see the [Accession Bulkload Tool](https://arctos.database.museum/tools/BulkloadAccn.cfm?action=ld) and follow the links for each column header for more information or reiew [How to Create an Accession]({% link _how_to/create-an-accession.markdown %}) 
  * When the template is complete, save the file as a CSV-UTF8
  
 ### Upload the Accessions to Arctos 
