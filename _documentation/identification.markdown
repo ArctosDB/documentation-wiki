@@ -226,4 +226,4 @@ See also, Taxonomy
 -  [How to Manage Taxonomy Hierarchically](http://handbook.arctosdb.org/how_to/Manage-Taxonomy-Hierarchically.html)
 -  [How to Search for Catalog Records with Identification and Taxonomy]({% link _how_to/search-for-specimens-with-identification-and-taxonomy.markdown %})
 -  [How To Manage Taxon Concepts in Arctos]({% link _how_to/manage-taxon-concepts.markdown %})
--  [How To Create Taxa in Arctos Ichnology]({% link _how_to/create-taxa-in-arctos-ichnology.markdown %})
+-  [How To Create Taxa in Arctos Ichnology]({% link _how_to/create-taxa-in-arctos-ichnology.Markdown %})
