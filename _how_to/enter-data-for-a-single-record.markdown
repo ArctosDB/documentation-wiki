@@ -304,7 +304,7 @@ Every **Locality** can include up to 6 attributes in data entry, additional **Lo
 
 This block includes standardized coordinate data. You can add 1 **Spatial** block to any catalog record in data entry. Spatial information can be added in one of 4 ways and only one of these may be used during data entry.
 
-{% include tip.html content='Data entered as **Degrees Minutes Seconds**, **Degrees Decimal Minutes**, or **UTM** will be converted to **Decimal Degrees** and stored as "as entered coordinates" in Arctos.' %}
+{% include tip.html content="Data entered as **Degrees Minutes Seconds**, **Degrees Decimal Minutes**, or **UTM** will be converted to **Decimal Degrees** and stored as 'as entered coordinates' in Arctos." %}
 
 **CONDITIONALLY REQUIRED** (if any other spatial data is entered)
 

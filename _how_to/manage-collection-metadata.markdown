@@ -137,8 +137,7 @@ Select from the dropdown of choices. This contains options for licensing _data_ 
 **REQUIRED**
 Select from the dropdown of choices. This contains options for licensing _data_ (not media) from the collection to external sources, such as GBIF and iDigBio. See <a href="https://ipt.gbif.org/manual/en/ipt/latest/gbif-metadata-profile#methods" target=_blank>GBIF Metadata Profile – How-to Guide</a>.
 
-{% include tip.html content="The External License is used by the Arctos EML Generator and included in Darwin Core collection metadata made available to aggregators. Note that GBIF will not accept data which isn't licensed according to their standards - [link](https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg). **It is advised that the external license be set to CC0**
-The Internal License (which may be the same as the External License) accompanies the richer data in Arctos. Both are accompanied by Collection Terms; the [VertNet Guide to Copyright and Licenses for Data Publication](http://vertnet.org/resources/datalicensingguide.html) is a good place to learn more about how the data aggregators view licensing." %}
+{% include tip.html content="The External License is used by the Arctos EML Generator and included in Darwin Core collection metadata made available to aggregators. Note that GBIF will not accept data which isn't licensed according to their standards - [link](https://www.gbif.org/news/82812/licensing-milestone-for-data-access-in-gbiforg). **It is advised that the external license be set to CC0** The Internal License (which may be the same as the External License) accompanies the richer data in Arctos. Both are accompanied by Collection Terms; the [VertNet Guide to Copyright and Licenses for Data Publication](http://vertnet.org/resources/datalicensingguide.html) is a good place to learn more about how the data aggregators view licensing." %}
 
 ### Collection Terms
 **REQUIRED**
