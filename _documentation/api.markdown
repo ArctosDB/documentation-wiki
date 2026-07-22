@@ -1,11 +1,14 @@
 ---
 title: Arctos API
-authors: Dusty L. McDonald, Michelle Koo
-date_updated: 2025-02-20
+authors: Dusty L. McDonald, Michelle Koo, Valerie Warhol
+date_updated: 2025-08-18
 ---
 
 By "API" we generally mean the catalog record API (which powers /search), but there are many APIs in Arctos, and some may be made available by specific request.
 
+The Arctos API can be used to retrieve data from the Arctos database. Note that the API is read-only and cannot be used to create, update, or delete records. The Arctos API requires a key. You may request one by filing an issue at https://github.com/ArctosDB/arctos/issues.
+
+Further API documentation can be found at https://arctos.database.museum/info/api.cfm and https://arctos.database.museum/component/api/v2/about.cfc?method=api_map.
 
 ## Access
 
