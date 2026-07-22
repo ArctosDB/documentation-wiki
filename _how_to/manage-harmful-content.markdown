@@ -4,6 +4,7 @@ authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-09-19
 status: draft
 redirect_from:
+  - /how_to/manage_harmful_content.html
   - /how_to/manage_harmful_content/
 ---
 

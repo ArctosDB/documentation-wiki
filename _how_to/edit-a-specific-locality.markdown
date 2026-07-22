@@ -3,7 +3,10 @@ title: Edit a Specific Locality
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Edit-a-Specific-Locality.html
   - /how_to/How-to-Edit-a-Specific-Locality/
+  - /how_to/how-to-edit-a-specific-locality.html
+  - /how_to/how-to-edit-a-specific-locality/
 ---
 
 [Locality Documentation]({% link _documentation/locality.markdown %})

@@ -3,9 +3,11 @@ title: Start Object Tracking
 authors: 
 date_updated: 2018-04-10, 2018-10-17
 redirect_from:
+  - /how_to/How-to-Start-Object-Tracking.html
   - /how_to/How-to-Start-Object-Tracking/
-author(s): Kyndall Hildebrandt, Mariel Campbell, Teresa Mayfield-Meyer
----
+  - /how_to/how-to-start-object-tracking.html
+  - /how_to/how-to-start-object-tracking/
+author(s): Kyndall Hildebrandt, Mariel Campbell, Teresa Mayfield-Meyer---
 
 [Object Tracking Documentation]({% link _documentation/container.markdown %})
 

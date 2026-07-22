@@ -3,7 +3,10 @@ title: Edit Coordinates and Max Error of a Locality
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Edit-Coordinates-and-Max-Error-of-a-Locality.html
   - /how_to/How-to-Edit-Coordinates-and-Max-Error-of-a-Locality/
+  - /how_to/how-to-edit-coordinates-and-max-error-of-a-locality.html
+  - /how_to/how-to-edit-coordinates-and-max-error-of-a-locality/
 ---
 
 [Locality Documentation]({% link _documentation/locality.markdown %})

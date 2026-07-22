@@ -3,7 +3,10 @@ title: Create and Edit Containers
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-08-07
 redirect_from:
+  - /how_to/How-to-Create-and-Edit-Containers.html
   - /how_to/How-to-Create-and-Edit-Containers/
+  - /how_to/how-to-create-and-edit-containers.html
+  - /how_to/how-to-create-and-edit-containers/
 ---
 
 **Documentation: [Object Tracking]({% link _documentation/container.markdown %})**

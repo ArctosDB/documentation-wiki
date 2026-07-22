@@ -3,7 +3,10 @@ title: Bulkload Parts
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-03-14
 redirect_from:
+  - /how_to/How-to-Bulkload-Parts.html
   - /how_to/How-to-Bulkload-Parts/
+  - /how_to/how-to-bulkload-parts.html
+  - /how_to/how-to-bulkload-parts/
 ---
 
 [Parts Documentation]({% link _documentation/parts.markdown %})

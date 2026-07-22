@@ -3,7 +3,10 @@ title: Create a Publication
 authors: Emily Braker
 date_updated: 2016-02-27
 redirect_from:
+  - /how_to/How-to-Create-a-Publication.html
   - /how_to/How-to-Create-a-Publication/
+  - /how_to/how-to-create-a-publication.html
+  - /how_to/how-to-create-a-publication/
 ---
 
 [Publication Documentation]({% link _documentation/publications.markdown %})

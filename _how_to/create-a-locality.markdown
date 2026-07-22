@@ -3,7 +3,10 @@ title: Create a Locality
 authors: Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2024-09-07
 redirect_from:
+  - /how_to/How-to-Create-a-Locality.html
   - /how_to/How-to-Create-a-Locality/
+  - /how_to/how-to-create-a-locality.html
+  - /how_to/how-to-create-a-locality/
 ---
 
 [Locality Documentation]({% link _documentation/locality.markdown %})

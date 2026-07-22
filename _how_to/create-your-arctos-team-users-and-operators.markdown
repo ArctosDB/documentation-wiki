@@ -3,7 +3,10 @@ title: Create and Manage Your Arctos Team (Users and Operators)
 authors: Teresa J. Mayfield-Meyer, Shannen Robson, Michelle Koo
 date_updated: 2025-09-12
 redirect_from:
+  - /how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html
   - /how_to/How-to-Create-your-Arctos-Team-Users-and-Operators/
+  - /how_to/how-to-create-your-arctos-team-users-and-operators.html
+  - /how_to/how-to-create-your-arctos-team-users-and-operators/
 ---
 
 This guide provides a workflow for how to organize users and operators to assist with data entry and collection data management. Anyone can have an Arctos user account, which is needed for downloading data. Operators are special users who are granted permissions to access or edit data. There are two levels of permissions: (1) Permission to work with data for specific collections. (2) Permission to work with specific types of data for the granted collection(s) - e.g., data entry, specimens, transactions, localities, etc. For example, a user with the roles UAM:Mamm and DATA_ENTRY can only enter data for the UAM:Mamm collection.

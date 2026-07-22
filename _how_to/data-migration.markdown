@@ -4,6 +4,7 @@ authors: Teresa J. Mayfield-Meyer
 date_updated: 2024-07-01
 status: draft
 redirect_from:
+  - /how_to/data_migration.html
   - /how_to/data_migration/
 ---
 

@@ -3,7 +3,10 @@ title: Edit Taxon Records
 authors: Phyllis Sharp
 date_updated: 2019-04-15
 redirect_from:
+  - /how_to/How_to_Edit_Taxa.html
   - /how_to/How_to_Edit_Taxa/
+  - /how_to/how_to_edit_taxa.html
+  - /how_to/how_to_edit_taxa/
 ---
 
 [Taxonomy Documentation]({% link _documentation/taxonomy.markdown %})

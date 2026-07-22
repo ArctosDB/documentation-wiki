@@ -4,7 +4,10 @@ authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-07-23
 status: draft
 redirect_from:
+  - /how_to/How-to-Create-a-New-Loan.html
   - /how_to/How-to-Create-a-New-Loan/
+  - /how_to/how-to-create-a-new-loan.html
+  - /how_to/how-to-create-a-new-loan/
 ---
 
 #### Navigation: <a href="https://arctos.database.museum/Loan.cfm?Action=newLoan" target="_blank">Manage Data -> Transactions -> Create Loan</a>

@@ -3,7 +3,10 @@ title: Add and Edit Attributes
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Add-and-Edit-Attributes.html
   - /how_to/How-to-Add-and-Edit-Attributes/
+  - /how_to/how-to-add-and-edit-attributes.html
+  - /how_to/how-to-add-and-edit-attributes/
 ---
 
 **Documentation: [Attributes]({% link _documentation/attributes.markdown %})**

@@ -3,7 +3,10 @@ title: Use SQL to update multiple records simultaneously in the bulkloader
 authors: Dusty L. McDonald
 date_updated: 2019-05-19
 redirect_from:
+  - /how_to/How-to-Use-Bulkloader-SQL.html
   - /how_to/How-to-Use-Bulkloader-SQL/
+  - /how_to/how-to-use-bulkloader-sql.html
+  - /how_to/how-to-use-bulkloader-sql/
 ---
 
 [Bulkloader Documentation]({% link _documentation/bulkloader.markdown %})

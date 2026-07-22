@@ -3,7 +3,10 @@ title: Enter Catalog Record Data in the Field
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Enter-Specimens-in-the-Field.html
   - /how_to/How-to-Enter-Specimens-in-the-Field/
+  - /how_to/how-to-enter-specimens-in-the-field.html
+  - /how_to/how-to-enter-specimens-in-the-field/
 ---
 
 [Catalog Record/Data Entry Documentation]({% link _documentation/catalog.markdown %})

@@ -4,7 +4,10 @@ authors: Teresa Mayfield-Meyer
 date_updated: 2019-02-27
 status: draft
 redirect_from:
+  - /how_to/How-To-Find-Parts for-a-Loan-Using Object Tracking-Existing-Freezer-Box.html
   - /how_to/How-To-Find-Parts for-a-Loan-Using Object Tracking-Existing-Freezer-Box/
+  - /how_to/how-to-find-parts for-a-loan-using object tracking-existing-freezer-box.html
+  - /how_to/how-to-find-parts for-a-loan-using object tracking-existing-freezer-box/
 ---
 
 [Object Tracking Documentation]({% link _documentation/container.markdown %})

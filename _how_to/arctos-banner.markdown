@@ -3,7 +3,10 @@ title: Add or Edit the Arctos Banner
 authors: Michelle Koo
 date_updated: 2025-11-10
 redirect_from:
+  - /how_to/Arctos_Banner.html
   - /how_to/Arctos_Banner/
+  - /how_to/arctos_banner.html
+  - /how_to/arctos_banner/
 ---
 
 ## Navigation

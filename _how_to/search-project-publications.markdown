@@ -3,7 +3,10 @@ title: Search Projects and Publications
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Search-Project-Publications.html
   - /how_to/How-to-Search-Project-Publications/
+  - /how_to/how-to-search-project-publications.html
+  - /how_to/how-to-search-project-publications/
 ---
 
 [Project Documentation]({% link _documentation/projects.markdown %})

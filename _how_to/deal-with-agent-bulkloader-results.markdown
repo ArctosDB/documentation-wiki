@@ -3,7 +3,10 @@ title: Use the Agent Pre-Bulkloader
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-deal-with-Agent-Bulkloader-results.html
   - /how_to/How-to-deal-with-Agent-Bulkloader-results/
+  - /how_to/how-to-deal-with-agent-bulkloader-results.html
+  - /how_to/how-to-deal-with-agent-bulkloader-results/
 ---
 
 Before creating agents, any new agent name should be checked against existing agents in Arctos. For single agents, this can be done through an Agent Search. If you need to check a list of names, then the Agent Pre-Bulkload Tool will hlep you do this in bulk. This tool will only review agents; it will not add or modify existing agents.

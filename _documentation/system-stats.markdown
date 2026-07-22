@@ -3,6 +3,7 @@ title: System Stats
 authors: Michelle Koo
 date_updated: 2025-07-03
 redirect_from:
+  - /documentation/system_stats.html
   - /documentation/system_stats/
 ---
 

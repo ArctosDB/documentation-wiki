@@ -3,7 +3,10 @@ title: Change Locality and Collecting Event information for a Single Catalog Rec
 authors: Dusty L. McDonald
 date_updated: 2019-05-29
 redirect_from:
+  - /how_to/How-to-Change-Locality-Single-Specimen.html
   - /how_to/How-to-Change-Locality-Single-Specimen/
+  - /how_to/how-to-change-locality-single-specimen.html
+  - /how_to/how-to-change-locality-single-specimen/
 ---
 
 [Locality Documentation]({% link _documentation/locality.markdown %})

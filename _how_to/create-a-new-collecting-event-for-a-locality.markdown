@@ -3,7 +3,10 @@ title: Create a New Collecting Event for a Locality
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html
   - /how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality/
+  - /how_to/how-to-create-a-new-collecting-event-for-a-locality.html
+  - /how_to/how-to-create-a-new-collecting-event-for-a-locality/
 ---
 
 [Locality Documentation]({% link _documentation/locality.markdown %})

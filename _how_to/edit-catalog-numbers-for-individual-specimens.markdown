@@ -3,7 +3,10 @@ title: Edit Catalog Numbers for Individual Catalog Records
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Edit-Catalog-Numbers-for-Individual-Specimens.html
   - /how_to/How-to-Edit-Catalog-Numbers-for-Individual-Specimens/
+  - /how_to/how-to-edit-catalog-numbers-for-individual-specimens.html
+  - /how_to/how-to-edit-catalog-numbers-for-individual-specimens/
 ---
 
 {% include caution.html content="Changing the catalog number is dangerous as the objects cataloged may have been cited using the existing number. If a change is made, the old number should not be reused and it should be redirected to the new number. See [Redirects](/documentation/redirect)" %}

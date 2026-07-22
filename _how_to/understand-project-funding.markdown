@@ -3,7 +3,10 @@ title: Understand Project Funding
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-understand-Project-Funding.html
   - /how_to/How-to-understand-Project-Funding/
+  - /how_to/how-to-understand-project-funding.html
+  - /how_to/how-to-understand-project-funding/
 ---
 
 [Project Documentation]({% link _documentation/projects.markdown %})

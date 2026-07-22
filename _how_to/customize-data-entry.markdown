@@ -3,6 +3,7 @@ title: Customize Data Entry
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-08-11
 redirect_from:
+  - /how_to/customize_data_entry.html
   - /how_to/customize_data_entry/
 ---
 

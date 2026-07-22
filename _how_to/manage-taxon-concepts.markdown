@@ -3,7 +3,10 @@ title: Manage Taxon Concepts
 authors: Cam Webb, Teresa J. Mayfield-Meyer
 date_updated: 2021-05-19
 redirect_from:
+  - /how_to/How-To-Manage-Taxon-Concepts.html
   - /how_to/How-To-Manage-Taxon-Concepts/
+  - /how_to/how-to-manage-taxon-concepts.html
+  - /how_to/how-to-manage-taxon-concepts/
 ---
 
 [Identifications Documentation]({% link _documentation/identification.markdown %})

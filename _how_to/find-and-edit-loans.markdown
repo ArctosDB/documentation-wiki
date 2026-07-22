@@ -3,7 +3,10 @@ title: Find and Edit Loans
 authors: Michelle Koo
 date_updated: 2024-11-12
 redirect_from:
+  - /how_to/How-to-Find-and-Edit-Loans.html
   - /how_to/How-to-Find-and-Edit-Loans/
+  - /how_to/how-to-find-and-edit-loans.html
+  - /how_to/how-to-find-and-edit-loans/
 ---
 
 [Loan Documentation]({% link _documentation/loans.markdown %})

@@ -3,7 +3,10 @@ title: Bulkload Accessions
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-04-13
 redirect_from:
+  - /how_to/How_To_Bulkload_Accessions.html
   - /how_to/How_To_Bulkload_Accessions/
+  - /how_to/how_to_bulkload_accessions.html
+  - /how_to/how_to_bulkload_accessions/
 ---
 
 [Accession Documentation]({% link _documentation/accession.markdown %})

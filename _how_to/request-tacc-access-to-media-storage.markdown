@@ -3,7 +3,10 @@ title: Request TACC Access to Media Storage
 authors: Michelle Koo
 date_updated: 2021-11-04
 redirect_from:
+  - /how_to/How-to-Request-TACC-Access-to-Media-Storage.html
   - /how_to/How-to-Request-TACC-Access-to-Media-Storage/
+  - /how_to/how-to-request-tacc-access-to-media-storage.html
+  - /how_to/how-to-request-tacc-access-to-media-storage/
 ---
 
 [Media Documentation]({% link _documentation/media.markdown %})

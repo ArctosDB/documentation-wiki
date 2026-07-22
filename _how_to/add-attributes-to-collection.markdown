@@ -3,7 +3,10 @@ title: Add Code Table Terms to a Collection
 authors: Michelle Koo, Teresa J. Mayfield-Meyer
 date_updated: 2026-06-02
 redirect_from:
+  - /how_to/How-To-Add-Attributes-to-Collection.html
   - /how_to/How-To-Add-Attributes-to-Collection/
+  - /how_to/how-to-add-attributes-to-collection.html
+  - /how_to/how-to-add-attributes-to-collection/
 ---
 
 **Documentation: https://github.com/ArctosDB/arctos/issues/3452**

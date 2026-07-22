@@ -4,6 +4,7 @@ authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-07-29
 status: draft
 redirect_from:
+  - /documentation/internal_documentation.html
   - /documentation/internal_documentation/
 ---
 

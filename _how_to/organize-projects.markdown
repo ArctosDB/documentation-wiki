@@ -3,7 +3,10 @@ title: Organize Projects
 authors: 
 date_updated: updated 2021-08-20
 redirect_from:
+  - /how_to/How-to-organize-projects.html
   - /how_to/How-to-organize-projects/
+  - /how_to/how-to-organize-projects.html
+  - /how_to/how-to-organize-projects/
 ---
 
 [Project Documentation]({% link _documentation/projects.markdown %})

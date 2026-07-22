@@ -3,7 +3,10 @@ title: Upload Media to TACC
 authors: Carla Cicero, Teresa Mayfield-Meyer
 date_updated: 2018-05-04
 redirect_from:
+  - /how_to/How-to-Upload-Media-to-TACC.html
   - /how_to/How-to-Upload-Media-to-TACC/
+  - /how_to/how-to-upload-media-to-tacc.html
+  - /how_to/how-to-upload-media-to-tacc/
 ---
 
 [Media Documentation]({% link _documentation/media.markdown %})

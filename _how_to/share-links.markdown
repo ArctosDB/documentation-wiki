@@ -3,7 +3,10 @@ title: Create Arctos Links
 authors: Michelle Koo
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Share-Links.html
   - /how_to/How-to-Share-Links/
+  - /how_to/how-to-share-links.html
+  - /how_to/how-to-share-links/
 ---
 
 Arctos has a number of ways to share customized searches, results, and other aspects of the platform with colleagues and non-curatorial users with a web link (URL).

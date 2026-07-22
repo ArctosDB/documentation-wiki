@@ -3,7 +3,10 @@ title: Enter Data for a Single Record
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2023-03-14
 redirect_from:
+  - /how_to/How-to-Enter-Data-for-a-Single-Record.html
   - /how_to/How-to-Enter-Data-for-a-Single-Record/
+  - /how_to/how-to-enter-data-for-a-single-record.html
+  - /how_to/how-to-enter-data-for-a-single-record/
 ---
 
 ----------------------------

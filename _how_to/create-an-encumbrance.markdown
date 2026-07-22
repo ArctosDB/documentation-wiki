@@ -3,7 +3,10 @@ title: Create an Encumbrance
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Create-an-Encumbrance.html
   - /how_to/How-to-Create-an-Encumbrance/
+  - /how_to/how-to-create-an-encumbrance.html
+  - /how_to/how-to-create-an-encumbrance/
 ---
 
 [Encumbrances Documentation]({% link _documentation/encumbrance.markdown %})

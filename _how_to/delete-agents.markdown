@@ -3,7 +3,10 @@ title: Delete an Agent
 authors: Teresa J. Mayfield-Meyer, Dusty L. McDonald
 date_updated: 2023-06-28
 redirect_from:
+  - /how_to/How_to_Delete_Agents.html
   - /how_to/How_to_Delete_Agents/
+  - /how_to/how_to_delete_agents.html
+  - /how_to/how_to_delete_agents/
 ---
 
 This document is outdated. Agents cannot be deleted.

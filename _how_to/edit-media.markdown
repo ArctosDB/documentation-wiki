@@ -3,7 +3,10 @@ title: Edit Media Records
 authors: 
 date_updated: 2018-09-13
 redirect_from:
+  - /how_to/How-to-Edit-Media.html
   - /how_to/How-to-Edit-Media/
+  - /how_to/how-to-edit-media.html
+  - /how_to/how-to-edit-media/
 ---
 
 [Media Documentation]({% link _documentation/media.markdown %})

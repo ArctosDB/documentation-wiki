@@ -3,7 +3,10 @@ title: Manage Self-Service API Keys
 authors: Michelle Koo
 date_updated: 2026-03-12
 redirect_from:
+  - /how_to/How-To-Manage-Self-Service-API.html
   - /how_to/How-To-Manage-Self-Service-API/
+  - /how_to/how-to-manage-self-service-api.html
+  - /how_to/how-to-manage-self-service-api/
 ---
 
 **Documentation:** [Arctos API]({% link _documentation/api.markdown %})

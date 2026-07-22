@@ -3,7 +3,10 @@ title: Search for Agents
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-02-24
 redirect_from:
+  - /how_to/How-to-Search-Agents.html
   - /how_to/How-to-Search-Agents/
+  - /how_to/how-to-search-agents.html
+  - /how_to/how-to-search-agents/
 ---
 
 **Documentation:** [Agents]({% link _documentation/agent.markdown %})

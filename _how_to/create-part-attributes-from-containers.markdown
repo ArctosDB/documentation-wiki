@@ -3,7 +3,10 @@ title: Create Part Attributes from Containers
 authors: Dusty L. McDonald
 date_updated: 2022-10-11
 redirect_from:
+  - /how_to/How-To-Create-Part-Attributes-from-Containers.html
   - /how_to/How-To-Create-Part-Attributes-from-Containers/
+  - /how_to/how-to-create-part-attributes-from-containers.html
+  - /how_to/how-to-create-part-attributes-from-containers/
 ---
 
 [Parts Documentation]({% link _documentation/parts.markdown %})

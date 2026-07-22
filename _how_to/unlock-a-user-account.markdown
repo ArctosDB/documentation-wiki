@@ -3,7 +3,10 @@ title: Unlock an Arctos User Account
 authors: Dusty McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2020-04-14
 redirect_from:
+  - /how_to/How-To-Unlock-A-User-Account.html
   - /how_to/How-To-Unlock-A-User-Account/
+  - /how_to/how-to-unlock-a-user-account.html
+  - /how_to/how-to-unlock-a-user-account/
 ---
 
 ## [Users Documentation]({% link _documentation/users.markdown %}#unlocking)

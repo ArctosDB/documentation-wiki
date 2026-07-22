@@ -3,7 +3,10 @@ title: Batch Download Images
 authors: Cam Webb
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Batch-Download-Images.html
   - /how_to/How-to-Batch-Download-Images/
+  - /how_to/how-to-batch-download-images.html
+  - /how_to/how-to-batch-download-images/
 ---
 
 [Media Documentation]({% link _documentation/media.markdown %})

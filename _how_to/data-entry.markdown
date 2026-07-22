@@ -4,6 +4,7 @@ authors: Dusty L. McDonald
 date_updated: 2024-10-28
 status: draft
 redirect_from:
+  - /how_to/data_entry.html
   - /how_to/data_entry/
 ---
 

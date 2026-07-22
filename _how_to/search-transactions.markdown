@@ -3,6 +3,7 @@ title: Search Transactions
 authors: Dusty L. McDonald
 date_updated: 
 redirect_from:
+  - /how_to/how-to-search-transactions.html
   - /how_to/how-to-search-transactions/
 ---
 

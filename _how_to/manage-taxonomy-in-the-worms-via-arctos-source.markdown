@@ -3,7 +3,10 @@ title: Manage Taxonomy in the WoRMS (via Arctos) Source
 authors: Phyllis Sharp
 date_updated: 2021-06-15
 redirect_from:
+  - /how_to/How-To-Manage-Taxonomy-in-the-WoRMS-(via Arctos)-Source.html
   - /how_to/How-To-Manage-Taxonomy-in-the-WoRMS-(via Arctos)-Source/
+  - /how_to/how-to-manage-taxonomy-in-the-worms-(via arctos)-source.html
+  - /how_to/how-to-manage-taxonomy-in-the-worms-(via arctos)-source/
 ---
 
 [Taxonomy Documentation]({% link _documentation/taxonomy.markdown %})

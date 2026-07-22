@@ -3,7 +3,10 @@ title: Create Labels
 authors: Michelle Koo
 date_updated: 2024-08-01 Pending
 redirect_from:
+  - /how_to/How-to-Create-Labels.html
   - /how_to/How-to-Create-Labels/
+  - /how_to/how-to-create-labels.html
+  - /how_to/how-to-create-labels/
 ---
 
 [Printed Reports and Labels Documentation]({% link _documentation/reports.markdown %})

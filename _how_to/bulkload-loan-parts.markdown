@@ -3,7 +3,10 @@ title: Bulkload Loan Items
 authors: Teresa J. Mayfield-Meyer, Toni Androski
 date_updated: 2023-03-08
 redirect_from:
+  - /how_to/How_To_Bulkload_Loan_Parts.html
   - /how_to/How_To_Bulkload_Loan_Parts/
+  - /how_to/how_to_bulkload_loan_parts.html
+  - /how_to/how_to_bulkload_loan_parts/
 ---
 
 ## [Loan Documentation]({% link _documentation/loans.markdown %})

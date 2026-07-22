@@ -3,7 +3,10 @@ title: Frequently Asked Questions
 authors: Dusty L. McDonald
 date_updated: 2024-07-15
 redirect_from:
+  - /how_to/QnA.html
   - /how_to/QnA/
+  - /how_to/qna.html
+  - /how_to/qna/
 ---
 
 ## Organize collector numbers for efficient and predictable retrieval

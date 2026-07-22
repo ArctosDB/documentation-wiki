@@ -4,7 +4,10 @@ authors: Michelle Koo, Teresa J. Mayfield-Meyer
 date_updated: 2023-07-26
 status: draft
 redirect_from:
+  - /how_to/How-to-Contribute-Content-to-Arctos-Handbook.html
   - /how_to/How-to-Contribute-Content-to-Arctos-Handbook/
+  - /how_to/how-to-contribute-content-to-arctos-handbook.html
+  - /how_to/how-to-contribute-content-to-arctos-handbook/
 ---
 
 **Documentation: [Github]({% link _documentation/github.markdown %})**

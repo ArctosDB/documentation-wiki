@@ -3,7 +3,10 @@ title: Use Complex Identifications as Low-quality Data Flags
 authors: Anna Chinn
 date_updated: 2019-10-15
 redirect_from:
+  - /how_to/How-To-Use-Complex-Identifications-As-Low-Quality-Data-Flags.html
   - /how_to/How-To-Use-Complex-Identifications-As-Low-Quality-Data-Flags/
+  - /how_to/how-to-use-complex-identifications-as-low-quality-data-flags.html
+  - /how_to/how-to-use-complex-identifications-as-low-quality-data-flags/
 ---
 
 [Identifications Documentation]({% link _documentation/identification.markdown %})

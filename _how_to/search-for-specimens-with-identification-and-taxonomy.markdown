@@ -3,7 +3,10 @@ title: Search for Specimens with Identification and Taxonomy
 authors: Phyllis Sharp
 date_updated: 2019-04-14
 redirect_from:
+  - /how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy.html
   - /how_to/How_to_Search_for_Specimens_with_Identification_and_Taxonomy/
+  - /how_to/how_to_search_for_specimens_with_identification_and_taxonomy.html
+  - /how_to/how_to_search_for_specimens_with_identification_and_taxonomy/
 ---
 
 [Taxonomy Documentation]({% link _documentation/taxonomy.markdown %})

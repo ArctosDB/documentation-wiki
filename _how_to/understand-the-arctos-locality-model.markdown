@@ -3,7 +3,10 @@ title: Understand the Arctos Locality Model
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-understand-the-Arctos-Locality-Model.html
   - /how_to/How-to-understand-the-Arctos-Locality-Model/
+  - /how_to/how-to-understand-the-arctos-locality-model.html
+  - /how_to/how-to-understand-the-arctos-locality-model/
 ---
 
 [Locality Documentation]({% link _documentation/locality.markdown %})

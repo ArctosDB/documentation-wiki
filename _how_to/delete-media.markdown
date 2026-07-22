@@ -3,7 +3,10 @@ title: Delete Media
 authors: Emily Braker
 date_updated: 2024-04-24
 redirect_from:
+  - /how_to/How-To-Delete-Media.html
   - /how_to/How-To-Delete-Media/
+  - /how_to/how-to-delete-media.html
+  - /how_to/how-to-delete-media/
 ---
 
 [Media Documentation]({% link _documentation/media.markdown %})

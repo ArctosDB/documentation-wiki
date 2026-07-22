@@ -3,7 +3,10 @@ title: Choose and Use Frozen Tissue Equipment and Supplies
 authors: Teresa J. Mayfield-Meyer, Hannah Appiah-Madson
 date_updated: 2024-01-10
 redirect_from:
+  - /how_to/How_to_choose_frozen_tissue_supplies.html
   - /how_to/How_to_choose_frozen_tissue_supplies/
+  - /how_to/how_to_choose_frozen_tissue_supplies.html
+  - /how_to/how_to_choose_frozen_tissue_supplies/
 ---
 
 [Object Tracking Documentation]({% link _documentation/container.markdown %})

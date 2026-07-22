@@ -3,7 +3,10 @@ title: Understand Data Entry
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2021-09-24
 redirect_from:
+  - /how_to/Understanding-data-entry.html
   - /how_to/Understanding-data-entry/
+  - /how_to/understanding-data-entry.html
+  - /how_to/understanding-data-entry/
 ---
 
 ## [Documentation: Catalog Record/Data Entry]({% link _documentation/catalog.markdown %})

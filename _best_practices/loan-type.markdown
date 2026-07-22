@@ -3,7 +3,10 @@ title: Selecting a Loan Type
 authors: Teresa Mayfield-Meyer, Carla Cicero
 date_updated: 2021-07-19
 redirect_from:
+  - /best_practices/Loan_Type.html
   - /best_practices/Loan_Type/
+  - /best_practices/loan_type.html
+  - /best_practices/loan_type/
 ---
 
 What is a Loan Type? Before you make any decisions about one, you should know what it is. Start by reading the [Loan Type Documentation]({% link _documentation/loans.markdown %}#type).

@@ -3,7 +3,10 @@ title: Install Cryovials into a Freezer Box
 authors: April Payne, Michelle Koo, Teresa Mayfield-Meyer
 date_updated: 2019-03-15
 redirect_from:
+  - /how_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box.html
   - /how_to/How-to-Install-Tissue-Cryovials-Into-a-Freezer-Box/
+  - /how_to/how-to-install-tissue-cryovials-into-a-freezer-box.html
+  - /how_to/how-to-install-tissue-cryovials-into-a-freezer-box/
 ---
 
 [Object Tracking Documentation]({% link _documentation/container.markdown %})

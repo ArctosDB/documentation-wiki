@@ -3,7 +3,10 @@ title: Get Started in Github for Arctos
 authors: Dusty McDonald, Teresa J. Mayfield-Meyer
 date_updated: revised 2019-06-14; 2016-05-09
 redirect_from:
+  - /how_to/How-to-Use-Github-for-Arctos.html
   - /how_to/How-to-Use-Github-for-Arctos/
+  - /how_to/how-to-use-github-for-arctos.html
+  - /how_to/how-to-use-github-for-arctos/
 ---
 
 _Stable link to this page: https://doi.org/10.7299/X75B02M5_

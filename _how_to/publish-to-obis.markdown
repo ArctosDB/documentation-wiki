@@ -3,7 +3,10 @@ title: Publish Data to OBIS
 authors: Teresa J. Mayfield-Meyer, Phyllis Sharp, David Bloom
 date_updated: 2022-08-29
 redirect_from:
+  - /how_to/How-to-Publish-to-OBIS.html
   - /how_to/How-to-Publish-to-OBIS/
+  - /how_to/how-to-publish-to-obis.html
+  - /how_to/how-to-publish-to-obis/
 ---
 
 ## [Beyond Arctos Documentation]({% link _documentation/github.markdown %})

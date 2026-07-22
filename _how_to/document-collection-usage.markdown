@@ -3,7 +3,10 @@ title: Document Collection Usage Using Projects
 authors: Arthur H. Harris, Teresa J. Mayfield-Meyer
 date_updated: 2017-07-11
 redirect_from:
+  - /how_to/How-to-Document-Collection-Usage.html
   - /how_to/How-to-Document-Collection-Usage/
+  - /how_to/how-to-document-collection-usage.html
+  - /how_to/how-to-document-collection-usage/
 ---
 
 [Project Documentation]({% link _documentation/projects.markdown %})

@@ -3,7 +3,10 @@ title: Managing Directory Structures in the Arctos Project Allocation at TACC
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-10-06
 redirect_from:
+  - /best_practices/TACC_allocation.html
   - /best_practices/TACC_allocation/
+  - /best_practices/tacc_allocation.html
+  - /best_practices/tacc_allocation/
 ---
 
 //[Add to Current update request](https://github.com/ArctosDB/documentation-wiki/issues/244)

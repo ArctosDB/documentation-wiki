@@ -3,8 +3,12 @@ title: Bulkload Locality Attributes
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-bulkload-addl-locality-attributes.html
   - /how_to/How-to-bulkload-addl-locality-attributes/
+  - /how_to/bulkload-addl-locality-attributes.html
   - /how_to/bulkload-addl-locality-attributes/
+  - /how_to/how-to-bulkload-addl-locality-attributes.html
+  - /how_to/how-to-bulkload-addl-locality-attributes/
 ---
 
 The limit of 6 locality attributes in the Record Bulkloader can be overcome using the following method.

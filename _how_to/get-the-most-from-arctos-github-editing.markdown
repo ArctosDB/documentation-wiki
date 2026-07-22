@@ -4,7 +4,10 @@ authors: Michelle Koo, Teresa J. Mayfield-Meyer
 date_updated: 2023-07-26
 status: draft
 redirect_from:
+  - /how_to/How-to-Get-the-Most-from-Arctos-Github-Editing.html
   - /how_to/How-to-Get-the-Most-from-Arctos-Github-Editing/
+  - /how_to/how-to-get-the-most-from-arctos-github-editing.html
+  - /how_to/how-to-get-the-most-from-arctos-github-editing/
 ---
 
 [Github Documentation]({% link _documentation/github.markdown %})

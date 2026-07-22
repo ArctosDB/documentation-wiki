@@ -3,7 +3,10 @@ title: Create and Edit Identifications
 authors: Genna Anderegg, Teresa J. Mayfield-Meyer
 date_updated: 2023-11-03
 redirect_from:
+  - /how_to/How-to-Create-and-Edit-Determinations.html
   - /how_to/How-to-Create-and-Edit-Determinations/
+  - /how_to/how-to-create-and-edit-determinations.html
+  - /how_to/how-to-create-and-edit-determinations/
 ---
 
 ### Documentation: [Identifications Documentation]({% link _documentation/identification.markdown %})
