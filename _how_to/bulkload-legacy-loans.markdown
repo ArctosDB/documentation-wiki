@@ -1,0 +1,51 @@
+---
+title: Bulkload Loans
+authors: Teresa J. Mayfield-Meyer, Toni Androski
+date_updated: 2023-03-08
+redirect_from:
+  - /how_to/How_To_Bulkload_Legacy_Loans/
+---
+
+## [Loan Documentation]({% link _documentation/loans.markdown %})
+
+Bulkloading loan information is a two step process. The first step involves creating loan metadata in Arctos with a bulkload tool.  The second step populates the loan(s) with catalog record data and anything else that is missing from the metadata. Before beginning this process, it may help to read [How to Create a New Loan]({% link _how_to/create-a-new-loan.markdown %}) as the process for bulkloading is comleting the same steps in bulk.
+
+## Create Loan Metadata Initiating a Loan
+
+### Navigation: [Tools Directory -> Accessions, Loans, Permits -> Loan: Bulkload Metadata -> Load csv](https://arctos.database.museum/loaders/BulkloadLoan.cfm?action=ld)  
+
+ Use the the "[Get a template](https://arctos.database.museum/loaders/BulkloadLoan.cfm?action=makeTemplate)" hyperlink to download the loan bulkloader spreadsheet (.csv)
+* Populate the spreadsheet fields following the conventions outlined by the Loan Loader screen. The summary indicates what fields are required. 
+* Formatting is very important, so make sure you are typing things into the spreadsheet exactly as they appear when you pull up a loan in Arctos. 
+
+{% include tip.html content="When entering agent names, the easiest way to make sure that 1. the agent exists in Arctos and 2. you have the name spelled and formatted correctly, is to search in Arctos for the agent and if existing, copy/paste that name from Arctos into the spreadsheet. If you need to create an agent, see [How to Create Agents](/how_to/create-agents)" %}
+
+{% include tip.html content="Excel tends to auto-correct dates into a default format.  Change the date columns from date or number format to text format, or select the date format used in Arctos (yyyy-mm-dd) **Tip** The written sections of the loan (Nature of Material, Description, Instructions) must be HTML-friendly. If there are any symbols in these fields that don’t work in HTML, Arctos will not let you create the loan. The ususal culprit is the enter/return key, instead of using _enter_ to create a line break, you will need to use the HTML `<br>` tag" %}
+
+{% include tip.html content="If the loan contains items from multiple collections in the institution, the loan may be assigned to the collection with the greatest number of specimens in the loan, no matter how this determination is made it is best to be consistent, so document the method of choice for your institution" %}
+
+{% include tip.html content="For details about what should be included in each field of the Loan Metadata Bulkload, see the Definitions and Documentation section of the [Loan Loader](https://arctos.database.museum/loaders/BulkloadLoan.cfm?action=ld) and follow the links for each column header for more information or reiew [Initiating a Loan](/how_to/create-a-new-loan)" %}
+ 
+* When the template is complete, save the file as a csv
+ 
+* Upload the file using the upload button found on the component loader screen.
+
+* Once your spreadsheet formatting has completed validation, click on the 'Review and Load' link to see your records in the component loader (if your data does not validate and you receive an error message, check that your spreadsheet column headings are correct).
+
+* If you entered "autoload" in the status column of your csv, the records should begin to load automatically, otherwise you will need to select "Review all records for user" next to your Arctos username, then select "check all and change status to 'autoload'" and finally, Change status for checked records". This series of steps will set your loans to begin loading.
+
+* Return to "Review and Load" to monitor the progress, any errors with your loan data will be returned in the 'Status' column. Common errors include missing data (e.g., required fields) or catalog record numbers that are not found. To rectify these erros, select "Get csv for this user/status", then delete the offending records using "Delete for this user/status". Use the downloaded csv to make corrections then repeat the process above for the corrected data.
+
+* Loans will be immediately added.
+
+* If edits are required after the loan metadata is uploaded, see [How To Find and Edit Loans]({% link _how_to/find-and-edit-loans.markdown %})
+ 
+## Bulkload Loan Items
+
+Now that the loans have been created in Arctos, parts that were included in each loan need to be added. To accomplish this, see [How To Bulkload Loan Items]({% link _how_to/bulkload-loan-parts.markdown %})
+
+## Tutorial Videos ↗️
+
+How to Bulkload Loans (Step 1):
+
+[![How to Bulkload Loans](https://i9.ytimg.com/vi/pN40CkKAbgw/mq2.jpg?sqp=CJCU8I8G&rs=AOn4CLCgvG7IypQyOLtWLJ3jqMzZHZ6e7A)](https://youtu.be/pN40CkKAbgw)

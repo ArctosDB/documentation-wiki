@@ -1,11 +1,9 @@
 ---
 title: Authentication
-author: DLM, MSK
-layout: default_toc
-date: 2025-08-28
+authors: Dusty L. McDonald, Michelle Koo
+date_updated: 2025-08-28
 ---
 
-# Authentication
 Arctos relies on an open standard for authenticating users registered to use Arctos. Any one who wants to interact with Arctos, from downloading data to managing data, must have a user account to authenticate their access.
 
 # Create a public account
@@ -45,7 +43,7 @@ We should be able to link your accounts together using that information.
 
 ## Problems?
 
-Please see <https://handbook.arctosdb.org/how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html> for more information, or ask for help via GitHub Issue.
+Please see [Create and Manage Your Arctos Team]({% link _how_to/create-your-arctos-team-users-and-operators.markdown %}) for more information, or ask for help via GitHub Issue.
 
 
 # Log in with TACC
@@ -54,17 +52,8 @@ To log into an Operator account created with TACC OAuth, or after an Operator ac
 
 # Create Arctos Operator
 
-All users must have a TACC account before being added an Arctos Operator. See [Users](/documentation/users.html) for detailed instructions.
+All users must have a TACC account before being added an Arctos Operator. See [Users]({% link _documentation/users.markdown %}) for detailed instructions.
 
 
 
 ---------------
-   
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/oauth.markdown).
-
-
-
-
-

@@ -1,10 +1,8 @@
 ---
 title: index How To Understand Portals (Deprecated)
-author: DLM
-layout: default_toc
+authors: DLM
+date_updated:
 ---
-
-# Portals (Deprecated)
 
 See https://github.com/ArctosDB/documentation-wiki/issues/302
 

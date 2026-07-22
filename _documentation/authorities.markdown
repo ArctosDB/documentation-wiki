@@ -1,27 +1,22 @@
 ---
 title: Authorities
-layout: default_toc
-author: DLM
+authors: Dusty L. McDonald
+date_updated: 
 ---
 
-# Authorities
-
-Arctos maintains authorities in order to standardize content that is [shared amongst all collections using Arctos](/documentation/sharing-data-and-resources).
+Arctos maintains authorities in order to standardize content that is [shared amongst all collections using Arctos]({% link _documentation/sharing-data-and-resources.markdown %}).
 
 ## Code Tables
 
 [Code Tables](http://arctos.database.museum/info/ctDocumentation.cfm) enforce data consistency, which results in more-usable pick lists to better provide users with what they need, and allow more flexibility in communicating with other data. Authorities exist to maximize discoverability, and any value or proposal which is contrary to this core principle should be rejected. 
 
-
 ## Principles
 
 All code table values should adhere to our principles [developing document](https://docs.google.com/presentation/d/106K73W3og-iFLI9TZlfK00GtvVOJjIx5rU_43TsP49E/edit#slide=id.g24c167402f2_0_0)) in support of standardized, normalized, properly-categorized, connected, sharable "Research Grade" data.
 
-
 ## Concepts
 
 All code tables provide a definition; values are **concepts** which mean what they're definied to mean, and meanings cannot be drawn from the values alone.
-
 
 ## Procedures
 
@@ -46,12 +41,9 @@ Arctos provides a free-text way to say most everything. If data cannot be standa
 
 ## Collection-Specific Values
 
-
 Many code tables are collection-specific. Operators with ``manage_collection`'' roles may select individual values for use in their collections under manage collection, or at the top of the relevant code table page. For example, parts:
 
 ![Firefox_Screenshot_2024-08-28T17-58-28 978Z](https://github.com/user-attachments/assets/62681465-ede6-41ba-8db1-a74f5161beb3)
-
-
 
 ## Rules of the Road for Code Table Terms
 
@@ -64,8 +56,6 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 * References should be 'scholarly' and specific to Arctos data.
    * Dictionary-type definitions are not useful nor allowed
    * Google Books URLs are strongly discouraged 
-
-
 
 ### Specific Rules for Specific Code Tables
 
@@ -246,21 +236,14 @@ Acceptable suffixes (and the scales they represent) are as follows.
 | 7.5 minute | 7.5 minute | aka 1:24,000 | Deadman Lake 7.5 minute |
 | 15 minute | 15 minute | aka 1:63600 | Kaylor Mountain 15 minute |
 
-
-
 ### Taxonomy
 
-Taxonomy is included here only for completeness. See [Taxonomy Documentation](/documentation/taxonomy) for more information.
+Taxonomy is included here only for completeness. See [Taxonomy Documentation]({% link _documentation/taxonomy.markdown %}) for more information.
 
 ### Geography
 
-Geography is included here only for completeness. See [Geography Documentation](/documentation/higher-geography) for more information.
+Geography is included here only for completeness. See [Geography Documentation]({% link _documentation/higher-geography.markdown %}) for more information.
 
 ### Agents
 
-Agents are included here only for completeness. See [Agent Documentation](/documentation/agent) for more information.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/authorities.markdown" target="_blank">here</a>.
-
+Agents are included here only for completeness. See [Agent Documentation]({% link _documentation/agent.markdown %}) for more information.

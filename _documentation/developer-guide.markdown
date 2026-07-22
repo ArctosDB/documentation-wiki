@@ -1,11 +1,9 @@
 ---
 title: Arctos Developers Guide
-layout: default_toc
-author: DLM
-date: 2019-10-15
+authors: Dusty L. McDonald
+date_updated: 2019-10-15
 ---
 
-# Arctos Developers Guide
 Tips, tricks, and conventions for developing Arctos code
 
 ### Attributes
@@ -30,6 +28,7 @@ Attributes as JSON should also use these keys. All are ``text`` except attribute
 *  agentID
 
 NOTE: Some csv tools will not maintain suggested order, and Arctos JSON (PG datatype ``JSONB``) has no "column order." We can do no more that attempt to suggest order in many cases.
+
 
 ### CFML
 
@@ -176,9 +175,3 @@ Some tables have a lastuser and lastdate field, which generally exist to be pick
 
 * ``last_usr=<cfqueryparam value="#session.username#" cfsqltype="cf_sql_varchar">``
 * ``last_chg=<cfqueryparam value="#DateConvert('local2Utc',now())#" cfsqltype="cf_sql_timestamp">``
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/developer-guide.markdown).

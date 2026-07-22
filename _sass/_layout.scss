@@ -1,22 +1,20 @@
-/**
- * Site header
- */
-
- // Via http://brand.berkeley.edu/colors/
+// ── Brand colors ─────────────────────────────────────────────────────────────
+// Berkeley brand palette: https://brand.berkeley.edu/colors/
 $founders-rock: #2D637F;
 $berkeley-blue: #003262;
 $cal-gold: #fdb515;
 
+// Arctos banner green (from bnhmwp.berkeley.edu/arctos)
+$arctos-banner-green: #76BF3F;
 
-// See http://bnhmwp.berkeley.edu/arctos/
-$arctos-banner-green: #76BF3F; //#98d36d;
-
-
+// Arctos UI palette
 $arctos-main-blue: $berkeley-blue;
 $arctos-primary-accent: $founders-rock;
-$arctos-accent: #FF6600;
+$arctos-accent: #FF6600; // orange active-tab indicator
 $arctos-highlight: #e09319;
-$arctos-light-highlight: rgba(224,158,25,.2);
+$arctos-light-highlight: rgba(224, 158, 25, .2);
+
+// Material Design colors (used in .icon-row buttons)
 $material-blue: #5677fc;
 $material-green: #4CAF50;
 $material-indigo: #3f51b5;
@@ -25,680 +23,556 @@ $material-teal: #009688;
 $material-blue-grey: #607d8b;
 $material-red: #F44336;
 
+// Bootstrap semantic colors (referenced for consistency)
 $bs-info: #5bc0de;
 $bs-danger: #d9534f;
 $bs-warning: #f0ad4e;
 
+// Miscellaneous
 $seafoam: #7cb490;
 $seafoam-light: rgba(124, 180, 144, 0.05);
-
 $muted: #777;
 $extra-muted: #666;
 
 
-.berkeley, .arctos-colors {
-    background: $berkeley-blue;
-    color: white;
+// ── Berkeley / Arctos color utility classes ───────────────────────────────────
+.berkeley,
+.arctos-colors {
+  background: $berkeley-blue;
+  color: white;
 }
 
+
+// ── Image utilities ───────────────────────────────────────────────────────────
 img.fit {
-    max-width: 66%;
-    max-height: 66%;
+  max-width: 66%;
+  max-height: 66%;
 }
 
-img.glyphicon-size {
-    height: 40px;
-    width: 40px;
+// Size an image to match Font Awesome dimensions
+img.fa-size {
+  margin-top: 0em;
+  font-size: 2em;
+  display: block;
 }
 
-.block {
-    display: block;
-}
-
+// ── Site header ───────────────────────────────────────────────────────────────
+// The green banner area containing the site logo SVG.
 .site-header {
-    //border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
-    background: $arctos-banner-green;
-    text-shadow: 1px 1px 1px #000;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
+  position: relative; // positioning context for mobile nav icon
+  background: $arctos-banner-green;
+  text-shadow: 1px 1px 1px #000;
 }
 
-body, main {
-    position: relative;
-}
-
-paper-tabs {
-    // Fix for Firefox
-    z-index: 500;
+body,
+main {
+  position: relative;
 }
 
 
-
-
+// ── Main navigation ───────────────────────────────────────────────────────────
+// Full-width sticky nav bar below the header. Items share equal width via flex.
+// Active item gets an orange bottom border ($arctos-accent).
 nav {
-    position: sticky;
-    top: 0;
-    paper-tabs {
-        //position: sticky;
-        top: 0; // calc(800px - (30px * 2))
-        width: 100%;
-        color:#fff;
-        box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
-        z-index:1000;
-        background: $arctos-main-blue;
-        paper-tab {
-            cursor:pointer;
-            a {
-                color: #fff !important;
-            }
-            a.link {
-                display: block;
-                text-align:center;
-                height: auto !important;
-            }
-            .collection {
-                text-transform: capitalize;
-            }
-        }
-    }
-    paper-tabs[noink][nobar] paper-tab.core-selected{
-        color: $arctos-accent;
-    }
-    paper-tabs #selectionBar {
-        background-color: $arctos-accent !important;
-    }
-}
-  
-  
-nav.collection-toc {
+  position: sticky;
+  top: 0;
+
+  ul.main-nav {
+    width: 100%;
+    color: #fff;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    background: $arctos-main-blue;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 48px;
+
     li {
-        a::before,
-        a:before {
-            content: "\00bb";
-        }
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      flex: 1; // each tab takes equal share of full width
+      justify-content: center;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      &.active {
+        border-bottom: 3px solid $arctos-accent;
+      }
+
+      a {
+        color: #fff !important;
+        padding: 0 16px;
+        line-height: 48px;
+        display: block;
+        text-align: center;
+        width: 100%; // link fills full tab so click area matches tab
+      }
+
+      .collection {
+        text-transform: capitalize;
+      }
     }
+  }
 }
+
+
+// ── Collection ToC sidebar nav ────────────────────────────────────────────────
+// Sidebar nav items get a » prefix and stack as full-width blocks.
+nav.collection-toc {
+  li {
+    display: block;
+    width: 100%;
+
+    a::before,
+    a:before {
+      content: "\00bb";
+    }
+  }
+}
+
+// Bootstrap override: prevent .navbar-nav items from floating inline.
+.nav.navbar-nav {
+  >li {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
+
+// ToC sidebar has white background to sit cleanly over page content.
 nav#toc {
   background: #fff;
-}
+  overflow: hidden;
 
-@media(max-width: 991px) {
-    nav.toc.affix {
-        position: static;
+  ul.nav {
+    display: block;
+    width: 100%;
+
+    li {
+      width: 100%;
+
+      >a {
+        white-space: normal;
+        word-wrap: break-word;
+      }
+
+      &.active>a {
+        font-weight: bold;
+        color: $brand-color;
+        background: transparent;
+      }
+
+      >ul.nav {
+        padding-left: 1rem;
+      }
     }
+  }
+
+  ul.navbar-nav {
+    float: none;
+    margin: 0;
+
+    >li {
+      float: none;
+    }
+  }
+}
+
+// On tablet and smaller, unfix the ToC so it doesn't overlap content.
+@media(max-width: 991px) {
+  nav.toc.affix {
+    position: static;
+  }
 }
 
 
-aside > #search-container.form {
+// ── Search sidebar ────────────────────────────────────────────────────────────
+aside>#search-container.form {
   .input-group-addon {
     padding: 0 12px;
   }
 }
-  
-  
+
+
+// ── Site title ────────────────────────────────────────────────────────────────
+// The clickable logo/title link spanning the full header width.
 .site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    //float: left;
-    margin-left: auto;
-    margin-right: auto;
-    text-align:center;
-    display: inline-block;
-    width: 100%;
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
 
-    img {
-
-    }
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
 }
 
+
+// ── Site nav ──────────────────────────────────────────────────────────────────
 .site-nav {
-    //float: right;
-    line-height: 56px;
-    z-index: 5000;
-    .menu-icon {
-        display: none;
+  line-height: 56px;
+  z-index: 5000;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    &:not(:last-child) {
+      margin-right: 20px;
     }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-
+  }
 }
 
-/***
-* Generic
-***/
 
+// ── Home page wrapper ─────────────────────────────────────────────────────────
 .home-wrapper {
-  //max-width: 800px;
-  //width: 100%;
-  //float: left;
   padding: 1rem;
+
   &+aside {
     padding: 1rem;
   }
-    @media(min-width: 1024px) {
-      & + aside {
-        //float: left;
-      }
+}
+
+
+// ── Page meta footer ──────────────────────────────────────────────────────────
+// Appears at the bottom of every content page via {% include page-meta.html %}.
+// Two-column flex layout: icon column (fixed width) + text column.
+.page-meta {
+  border-top: 1px solid $grey-color-light;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: $small-font-size;
+  color: $grey-color;
+
+  .meta-row {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0.4rem;
+
+    .meta-icon {
+      width: 3rem;
+      flex-shrink: 0;
+      text-align: center;
+    }
   }
-  @media(max-width: 1023px) {
-    & + aside {
-      //display: none;
+
+  // Print link styled as muted underlined text to match surrounding meta color.
+  a.print-link {
+    color: $grey-color;
+    text-decoration: underline;
+
+    &:visited {
+      color: $grey-color;
+    }
+
+    &:hover {
+      color: $grey-color;
     }
   }
 }
 
 
-/**
- * Site footer
- */
+// ── Draft banner ─────────────────────────────────────────────────────────────
+// Shown when page front matter includes `status: draft`.
+// See _includes/draft-banner.html.
+.draft-banner {
+  display: flex;
+  align-items: stretch;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+
+  .draft-stripes {
+    flex-shrink: 0;
+    width: 48px;
+    background-image: repeating-linear-gradient(-45deg,
+        #000 0px, #000 8px,
+        #FFC107 8px, #FFC107 16px);
+  }
+
+  .draft-content {
+    flex: 1;
+    background: #FFC107;
+    padding: 0.6rem 1rem;
+  }
+
+  .draft-label {
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .draft-note {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 0.1rem;
+  }
+}
+
+
+// ── Highlight boxes ───────────────────────────────────────────────────────────
+// Usage: {% include tip.html content="..." %}
+//        {% include caution.html content="..." %}
+//        {% include faq.html content="..." %}
+// Bear icons live in images/icon-tip.png, icon-caution.png, icon-faq.png.
+.highlight-box {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  margin: 1.25rem 0;
+
+  .highlight-icon {
+    flex-shrink: 0;
+    width: 50px;
+    text-align: center;
+
+    img {
+      height: 50px;
+      width: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .highlight-label {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+    margin: 0 0 0.25rem;
+  }
+
+  .highlight-content {
+    flex: 1;
+    font-size: 1.5rem;
+    color: #222;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &.tip {
+    background: #f0faf0;
+  }
+
+  &.caution {
+    background: #fff8e1;
+  }
+
+  &.faq {
+    background: #e8f4fd;
+  }
+}
+
+
+// ── Site footer ───────────────────────────────────────────────────────────────
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-    clear: both;
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
+  clear: both;
 }
 
 .footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+  font-size: 18px;
+  margin-bottom: $spacing-unit / 2;
 }
 
 .contact-list,
 .social-media-list {
-    list-style: none;
-    margin-left: 0;
+  list-style: none;
+  margin-left: 0;
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
+  font-size: 15px;
+  color: $grey-color;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
 }
 
 .footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+  width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+  width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+  width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
 
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-3 {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
+  }
 }
 
 @include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
+  }
 }
 
 
-
-/**
- * Page content
- */
+// ── Page content ─────────────────────────────────────────────────────────────
 .page-content {
-    padding: $spacing-unit 15px;
+  padding: $spacing-unit 15px;
 }
 
 .page-heading {
-    font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
+  font-size: 20px;
 }
 
 
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-}
-
-
-// Header anchors
-
+// ── Header anchor offset ──────────────────────────────────────────────────────
+// Compensates for the sticky nav bar so anchor links don't hide under it.
+// $paper-tabs-height matches the nav bar height (48px).
 $paper-tabs-height: 48px;
 
 article {
-    h1, h2, h3, h4, h5, h6 {
-        padding-top: $paper-tabs-height !important;
-        margin-top: -$paper-tabs-height !important;
-    }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: $paper-tabs-height;
+  }
 }
 
-@media(max-width: 991px) {
-    // BS @screen-sm-max
-    #twitter-widget-0 {
-        display: none !important;
-    }
-}
 
+// ── Nav text casing ───────────────────────────────────────────────────────────
 .nav li {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 
+// ── Tables ───────────────────────────────────────────────────────────────────
+// Bootstrap's full table CSS is loaded from CDN and not duplicated here.
+// These three @extend calls apply Bootstrap's table variants to all bare
+// <table> elements without needing a class on every table in content.
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-td,
-th {
-  padding: 0;
-}
-table {
-  background-color: transparent;
-}
-caption {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  color: #777777;
-  text-align: left;
-}
-th {
-  text-align: left;
-}
-.table {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 22px;
-}
-.table > thead > tr > th,
-.table > tbody > tr > th,
-.table > tfoot > tr > th,
-.table > thead > tr > td,
-.table > tbody > tr > td,
-.table > tfoot > tr > td {
-  padding: 8px;
-  line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 1px solid #ddd;
-}
-.table > thead > tr > th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
-}
-.table > caption + thead > tr:first-child > th,
-.table > colgroup + thead > tr:first-child > th,
-.table > thead:first-child > tr:first-child > th,
-.table > caption + thead > tr:first-child > td,
-.table > colgroup + thead > tr:first-child > td,
-.table > thead:first-child > tr:first-child > td {
-  border-top: 0;
-}
-.table > tbody + tbody {
-  border-top: 2px solid #ddd;
-}
-.table .table {
-  background-color: #fff;
-}
-.table-condensed > thead > tr > th,
-.table-condensed > tbody > tr > th,
-.table-condensed > tfoot > tr > th,
-.table-condensed > thead > tr > td,
-.table-condensed > tbody > tr > td,
-.table-condensed > tfoot > tr > td {
-  padding: 5px;
-}
-.table-bordered {
-  border: 1px solid #ddd;
-}
-.table-bordered > thead > tr > th,
-.table-bordered > tbody > tr > th,
-.table-bordered > tfoot > tr > th,
-.table-bordered > thead > tr > td,
-.table-bordered > tbody > tr > td,
-.table-bordered > tfoot > tr > td {
-  border: 1px solid #ddd;
-}
-.table-bordered > thead > tr > th,
-.table-bordered > thead > tr > td {
-  border-bottom-width: 2px;
-}
-.table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #f9f9f9;
-}
-.table-hover > tbody > tr:hover {
-  background-color: #f5f5f5;
-}
-table col[class*="col-"] {
-  position: static;
-  float: none;
-  display: table-column;
-}
-table td[class*="col-"],
-table th[class*="col-"] {
-  position: static;
-  float: none;
-  display: table-cell;
-}
-.table > thead > tr > td.active,
-.table > tbody > tr > td.active,
-.table > tfoot > tr > td.active,
-.table > thead > tr > th.active,
-.table > tbody > tr > th.active,
-.table > tfoot > tr > th.active,
-.table > thead > tr.active > td,
-.table > tbody > tr.active > td,
-.table > tfoot > tr.active > td,
-.table > thead > tr.active > th,
-.table > tbody > tr.active > th,
-.table > tfoot > tr.active > th {
-  background-color: #f5f5f5;
-}
-.table-hover > tbody > tr > td.active:hover,
-.table-hover > tbody > tr > th.active:hover,
-.table-hover > tbody > tr.active:hover > td,
-.table-hover > tbody > tr:hover > .active,
-.table-hover > tbody > tr.active:hover > th {
-  background-color: #e8e8e8;
-}
-.table > thead > tr > td.success,
-.table > tbody > tr > td.success,
-.table > tfoot > tr > td.success,
-.table > thead > tr > th.success,
-.table > tbody > tr > th.success,
-.table > tfoot > tr > th.success,
-.table > thead > tr.success > td,
-.table > tbody > tr.success > td,
-.table > tfoot > tr.success > td,
-.table > thead > tr.success > th,
-.table > tbody > tr.success > th,
-.table > tfoot > tr.success > th {
-  background-color: #dff0d8;
-}
-.table-hover > tbody > tr > td.success:hover,
-.table-hover > tbody > tr > th.success:hover,
-.table-hover > tbody > tr.success:hover > td,
-.table-hover > tbody > tr:hover > .success,
-.table-hover > tbody > tr.success:hover > th {
-  background-color: #d0e9c6;
-}
-.table > thead > tr > td.info,
-.table > tbody > tr > td.info,
-.table > tfoot > tr > td.info,
-.table > thead > tr > th.info,
-.table > tbody > tr > th.info,
-.table > tfoot > tr > th.info,
-.table > thead > tr.info > td,
-.table > tbody > tr.info > td,
-.table > tfoot > tr.info > td,
-.table > thead > tr.info > th,
-.table > tbody > tr.info > th,
-.table > tfoot > tr.info > th {
-  background-color: #d9edf7;
-}
-.table-hover > tbody > tr > td.info:hover,
-.table-hover > tbody > tr > th.info:hover,
-.table-hover > tbody > tr.info:hover > td,
-.table-hover > tbody > tr:hover > .info,
-.table-hover > tbody > tr.info:hover > th {
-  background-color: #c4e3f3;
-}
-.table > thead > tr > td.warning,
-.table > tbody > tr > td.warning,
-.table > tfoot > tr > td.warning,
-.table > thead > tr > th.warning,
-.table > tbody > tr > th.warning,
-.table > tfoot > tr > th.warning,
-.table > thead > tr.warning > td,
-.table > tbody > tr.warning > td,
-.table > tfoot > tr.warning > td,
-.table > thead > tr.warning > th,
-.table > tbody > tr.warning > th,
-.table > tfoot > tr.warning > th {
-  background-color: #fcf8e3;
-}
-.table-hover > tbody > tr > td.warning:hover,
-.table-hover > tbody > tr > th.warning:hover,
-.table-hover > tbody > tr.warning:hover > td,
-.table-hover > tbody > tr:hover > .warning,
-.table-hover > tbody > tr.warning:hover > th {
-  background-color: #faf2cc;
-}
-.table > thead > tr > td.danger,
-.table > tbody > tr > td.danger,
-.table > tfoot > tr > td.danger,
-.table > thead > tr > th.danger,
-.table > tbody > tr > th.danger,
-.table > tfoot > tr > th.danger,
-.table > thead > tr.danger > td,
-.table > tbody > tr.danger > td,
-.table > tfoot > tr.danger > td,
-.table > thead > tr.danger > th,
-.table > tbody > tr.danger > th,
-.table > tfoot > tr.danger > th {
-  background-color: #f2dede;
-}
-.table-hover > tbody > tr > td.danger:hover,
-.table-hover > tbody > tr > th.danger:hover,
-.table-hover > tbody > tr.danger:hover > td,
-.table-hover > tbody > tr:hover > .danger,
-.table-hover > tbody > tr.danger:hover > th {
-  background-color: #ebcccc;
-}
-.table-responsive {
-  overflow-x: auto;
-  min-height: 0.01%;
-}
-@media screen and (max-width: 767px) {
-  .table-responsive {
-    width: 100%;
-    margin-bottom: 16.5px;
-    overflow-y: hidden;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #ddd;
-  }
-  .table-responsive > .table {
-    margin-bottom: 0;
-  }
-  .table-responsive > .table > thead > tr > th,
-  .table-responsive > .table > tbody > tr > th,
-  .table-responsive > .table > tfoot > tr > th,
-  .table-responsive > .table > thead > tr > td,
-  .table-responsive > .table > tbody > tr > td,
-  .table-responsive > .table > tfoot > tr > td {
-    white-space: nowrap;
-  }
-  .table-responsive > .table-bordered {
-    border: 0;
-  }
-  .table-responsive > .table-bordered > thead > tr > th:first-child,
-  .table-responsive > .table-bordered > tbody > tr > th:first-child,
-  .table-responsive > .table-bordered > tfoot > tr > th:first-child,
-  .table-responsive > .table-bordered > thead > tr > td:first-child,
-  .table-responsive > .table-bordered > tbody > tr > td:first-child,
-  .table-responsive > .table-bordered > tfoot > tr > td:first-child {
-    border-left: 0;
-  }
-  .table-responsive > .table-bordered > thead > tr > th:last-child,
-  .table-responsive > .table-bordered > tbody > tr > th:last-child,
-  .table-responsive > .table-bordered > tfoot > tr > th:last-child,
-  .table-responsive > .table-bordered > thead > tr > td:last-child,
-  .table-responsive > .table-bordered > tbody > tr > td:last-child,
-  .table-responsive > .table-bordered > tfoot > tr > td:last-child {
-    border-right: 0;
-  }
-  .table-responsive > .table-bordered > tbody > tr:last-child > th,
-  .table-responsive > .table-bordered > tfoot > tr:last-child > th,
-  .table-responsive > .table-bordered > tbody > tr:last-child > td,
-  .table-responsive > .table-bordered > tfoot > tr:last-child > td {
-    border-bottom: 0;
-  }
-}
-
-table {
-  @extend .table-hover;
-  @extend .table;
-  @extend .table-condensed;
+  @extend .table-hover !optional;
+  @extend .table !optional;
+  @extend .table-condensed !optional;
 }
 
 
+// ── Icon row ─────────────────────────────────────────────────────────────────
+// Flex row of circular icon buttons (used on home page and resource pages).
 $button-height: 12em;
 
-
 .icon-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
+  a.force-black,
+  a.force-black:hover,
+  a.force-black:link,
+  a.force-black:visited {
+    color: #000 !important;
+  }
 
-    a.force-black, a.force-black:hover, a.force-black:link, a.force-black:visited {
-        color: #000 !important;
+  a.force-white,
+  a.force-white:hover,
+  a.force-white:link,
+  a.force-white:visited {
+    color: #fff !important;
+  }
+
+  .img-circle {
+    height: $button-height;
+    width: $button-height;
+    float: left;
+    margin: 1em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: $button-height;
+
+      i {
+        margin-top: .25em;
+        font-size: 2em;
+        display: block;
+      }
     }
-    a.force-white, a.force-white:hover, a.force-white:link, a.force-white:visited {
-        color: #fff !important;
+
+    &:hover {
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+      transition: all .2s ease-out;
     }
-
-    .img-circle {
-        height: $button-height;
-        width: $button-height;
-        float: left;
-        margin: 1em;
-        box-shadow: 2px 2px 2px rgba(0,0,0,.5);
-
-        div {
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            height: $button-height;
-
-            .glyphicons {
-                margin-top: -.25em;
-                font-size: 2em;
-                display: block;
-            }
-        }
-    }
-
-    .img-circle:hover {
-        // Rules
-        box-shadow: 1px 1px 1px rgba(0,0,0,.8);
-        transition: all .2s ease-out;
-    }
+  }
 }
 
 
+// ── Mobile ────────────────────────────────────────────────────────────────────
 @media(max-width: 767px) {
   body {
     max-width: 100%;
-    overflow-x: hidden; // Prevent scroll weirdness
+    overflow-x: hidden; // prevent horizontal scroll on narrow viewports
   }
 }
 
-  
-  
-/////////////////////////// Print
 
+// ── Print ─────────────────────────────────────────────────────────────────────
+// Hide navigation, icon rows, and non-essential footer content when printing.
 @media print {
-  header, 
-    .icon-row,
-    .nav-container,
-    footer .wrapper *:not(.footer-heading){
+
+  header,
+  .icon-row,
+  .nav-container,
+  footer .wrapper *:not(.footer-heading) {
     display: none !important;
   }
+
   .wrapper {
     max-width: 100% !important;
   }

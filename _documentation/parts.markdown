@@ -1,14 +1,11 @@
 ---
 title: Parts
-author: DLM
-date: 2025-08-11
-layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2025-08-11
 ---
 
-# Parts 
-
-Parts are physical entities, in contrast to [Cataloged Items](/documentation/catalog) (an abstract entity) or binary objects
-(such as Images). One or many parts may comprise a Cataloged Item, and parts may be defined as the minimal units for which [storage location](/documentation/container), usage, and condition are tracked. (*"Parts are things to which you can stick barcodes."*) Parts are generally the equivalent of [dwc:MaterialSample](https://dwc.tdwg.org/terms/#materialsample)
+Parts are physical entities, in contrast to [Cataloged Items]({% link _documentation/catalog.markdown %}) (an abstract entity) or binary objects
+(such as Images). One or many parts may comprise a Cataloged Item, and parts may be defined as the minimal units for which [storage location]({% link _documentation/container.markdown %}), usage, and condition are tracked. (*"Parts are things to which you can stick barcodes."*) Parts are generally the equivalent of [dwc:MaterialSample](https://dwc.tdwg.org/terms/#materialsample)
 
 ## specimen_part
 
@@ -148,7 +145,3 @@ Summary: "Fossil" is an attribute of cataloged items and should not be included 
 * https://github.com/ArctosDB/arctos/issues/2546
 
 * Summay: "trace" and "fossil" are not parts and should not be included in any way, just name the object being cataloged. ``trackway`` is sufficient.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/parts.markdown).

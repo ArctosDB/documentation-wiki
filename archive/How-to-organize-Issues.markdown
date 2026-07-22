@@ -1,9 +1,8 @@
 ---
 title: How To Github - Organizing Issues
-layout: default_toc
+authors:
+date_updated:
 ---
-
-# How To Organize GitHub Issues
 
 ## Community
 

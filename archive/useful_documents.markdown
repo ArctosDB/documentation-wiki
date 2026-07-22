@@ -1,11 +1,8 @@
 ---
 title: Useful Documents
-author: dustymc
-date: 2017-03-24
-layout: default_toc
+authors: dustymc
+date_updated: 2017-03-24
 ---
-
-# Useful Documents
 
 This is an index of random useful Arctos documents, with search-friendly descriptions.
 

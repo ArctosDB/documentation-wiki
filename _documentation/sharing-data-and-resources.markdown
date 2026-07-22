@@ -1,11 +1,8 @@
 ---
 title: Sharing Data and Resources
-author: Dusty McDonald, Teresa J Mayfield-Meyer
-date: 2022-12-29
-layout: default_toc
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
+date_updated: 2022-12-29
 ---
-
-# Sharing Data and Resources
 
 Arctos is a shared system, which means we share dictionary and authority files, as well as ideas and development, while individual collections exclusively own core catalog record data. This page will attempt to summarize how this works. Any user with access to shared nodes should have a thorough understanding of this information, and how it affects their collection and others.
 
@@ -67,7 +64,3 @@ Some data (taxonomic names, for example) are structurally locked and cannot be e
 
 ## Community Discussion
  - <a href="https://github.com/ArctosDB/documentation-wiki/issues/123">Github Issue #123</a>
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/sharing-data-and-resources.markdown" target="_blank">here</a>.

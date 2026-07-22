@@ -1,10 +1,8 @@
 ---
 title: Catalog
-layout: default_toc
-date: 2025-02-24
+authors: Dusty L. McDonald
+date_updated: 2025-02-24
 ---
-
-# Catalog
 
 Catalogs or Collections are administrative lists with inconsistent relationships to
 physical items. Therefore, a Cataloged Item or Record is an abstraction, *i.e.*,
@@ -290,9 +288,9 @@ It is sometimes necessary to move cataloged items from one collection or
 catalog number to another. When doing so, it is important to maintain a
 way of finding the specimen by its original identifiers. In this, be as
 specific as possible. Use specific identifier types and GUIDs if
-possible. (See more at [Other IDs](/documentation/identifiers).)
+possible. (See more at [Other IDs]({% link _documentation/identifiers.markdown %}).)
 
-Arctos provides HTTP redirect capability (see [Redirect](https://handbook.arctosdb.org/documentation/redirect.html)), under which one URL
+Arctos provides HTTP redirect capability (see [Redirect]({% link _documentation/redirect.markdown %})), under which one URL
 (<http://arctos.database.museum/guid/KNWR:Ento:7193>, for example) can
 be automatically redirected to another
 (<http://arctos.database.museum/guid/UAM:Ento:228334>). This helps in
@@ -300,7 +298,3 @@ maintaining a record of the specimen rather than the specimen’s
 identifying numbers, and allows users to continue using bookmarks and
 links.
                                                              |
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/catalog.markdown" target="_blank">here</a>.
-

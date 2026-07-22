@@ -1,8 +1,7 @@
 ---
 title: Entities
-author: DLM
-date: 2024-06-11
-layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 2024-06-11
 ---
 
 <!--- [Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/262) --->
@@ -49,8 +48,3 @@ Catalog records bearing an Arctos Entity record GUID as Organism ID will link to
 Instructions for doing specifc tasks related to Agents in Arctos
 
 * [How To Handle Organisms in Arctos](https://handbook.arctosdb.org/how_to/Organisms.html)
-  
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/entity.markdown" target="_blank">here</a>.

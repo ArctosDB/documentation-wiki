@@ -1,18 +1,17 @@
 ---
 title: Publications
-layout: default_toc
+authors: Dusty L. McDonald
+date_updated: 
 ---
-
-# Publications
 
 Publications are included in Arctos to document the significance of
 specimens. These associations also enhance publications by making the
 work documented by publications more reproducible. Where specimens have
-been [cited](/documentation/specimen-citations)
+been [cited]({% link _documentation/citations.markdown %})
 in a publication, this fact can be recorded as an explicit relationship
 between a particular specimen and a particular page within a
 publication. Where no such explicit relationship exists, publications
-can be related to a [Project](/documentation/projects).
+can be related to a [Project]({% link _documentation/projects.markdown %}).
 
 ## Full Citation
 
@@ -290,16 +289,11 @@ a DOI for a publication.
 
 Instructions for doing specifc tasks related to Publications in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
 
- - [How To Create a Publication](https://handbook.arctosdb.org/how_to/How-to-Create-a-Publication.html)
- - [How To Search Projects and Publications](https://handbook.arctosdb.org/how_to/How-to-Search-Project-Publications.html)
- - [How To Understand Deep Publication Data in Arctos](https://handbook.arctosdb.org/how_to/deep-publications.html)
+ - [How To Create a Publication]({% link _how_to/create-a-publication.markdown %})
+ - [How To Search Projects and Publications]({% link _how_to/search-project-publications.markdown %})
+ - [How To Understand Deep Publication Data in Arctos]({% link _how_to/deep-publications.markdown %})
 
  See also, Citations
 
- - [How To Create Citations](https://handbook.arctosdb.org/how_to/How-to-Create-Citations.html)
- - [How To Bulkload Citations](https://handbook.arctosdb.org/how_to/How-to-Bulkload-Citations.html)
-   
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/publications.markdown" target="_blank">here</a>.
+ - [How To Create Citations]({% link _how_to/create-citations.markdown %})
+ - [How To Bulkload Citations]({% link _how_to/bulkload-citations.markdown %})

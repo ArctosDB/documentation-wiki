@@ -1,11 +1,8 @@
 ---
 title: Beyond Arctos
-layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: revised 2023-08-22
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2023-08-22
 ---
-
-# Beyond Arctos
 
 Data in Arctos is publicly searchable and can be downloaded, but the data can also be re-published to data aggregators such as the Global Biodiversity Information Facility (GBIF), iDigBio, and VertNet. The benefit of re-publishing is that the data can reach a broader audience. In general, publishing to any of the aggregators is accomplished via addition of a dataset to the GBIF Integrated Publishing Toolkit (IPT). For some aggregators such as Ocean Biodiversity Information System (OBIS) and various Symbiota Portals, extra steps are involved.
 
