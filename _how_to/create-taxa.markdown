@@ -80,7 +80,7 @@ The following terms are created by the user and are selected from the drop-down 
 -	**nomenclatural_code** controls how display_name is suggested, and helps format display. Most common values are “ICZN” and “ICNB.”  This is a mandatory field.
 -	**author_text** is the author of ICZN names, or the species author of ICBN names.  Always include the author (with or without parentheses as appropriate) unless no author is given.  It will be added to the display_name.  
 -	**infraspecific_author** is the author of the infraspecific epithet in ICBN names
--	**taxon-status** is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS).  While this is not mandatory, it is extremely helpful to users to know if the taxon is valid or invalid, extant or extinct, etc.
+-	**taxon_status** is controlled by a [code table](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTTAXON_STATUS).  While this is not mandatory, it is extremely helpful to users to know if the taxon is valid or invalid, extant or extinct, etc.
 -	**source_authority** should list the publication, website or other authority for the taxon.  
 -	**remark** is an open field for any comment that will be helpful to Arctos users.
 -	**preferred name** is completed for "invalid" taxa to identify the synonym that is the valid taxon name.  This is especially helpful when there are multiple synonyms listed.
