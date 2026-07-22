@@ -1,9 +1,8 @@
 ---
 title: Documentation
-layout: default_toc
+authors:
+date_updated:
 ---
-
-# Documentation
 
 Documentation of how to use and operate Arctos is constantly evolving.  This form has been deprecated. For info on how to create and edit documentation, please search on the following file: How-to-Contribute-Content-to-Arctos-Handbook.markdown (https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Contribute-Content-to-Arctos-Handbook.markdown)
 

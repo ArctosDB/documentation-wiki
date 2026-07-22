@@ -1,17 +1,9 @@
 ---
-title: Best Practice - Organizing a Committee
-authors: DLM
-date created: 2024-11-19
-layout: default_toc
+title: Organizing a Committee
+authors: Dusty L. McDonald
+date_updated: 2024-11-19
+status: draft
 ---
-
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-
-
-# Committees
-
 
 Arctos Committees are groups of people working towards specific goals.
 
@@ -35,6 +27,13 @@ The following items have been helpful.
 * The agenda should be updates as early as possible to facilitate planning
 * An indication of who will participate in any upcoming meetings would be very helpful (possibly google calendar function?)
 
+## Recommendations
+
+* Work to fully express goals as functional needs.
+    * Do not get lost in the technical details, which will be worked out with the help of Arctos Staff after functional needs are understood.
+* Come up with a presentation to The Community; changes originating in Committees still go through the regular development pathway, which starts with Issues.
+* Support the tools necessary to enact your goals; this may involve writing or organizing proposals.
+
 
 ## Google Calendar
 
@@ -42,9 +41,3 @@ The following items have been helpful.
 * Meeting agendas should be added to the calendar invite (in whatever way magicks the nifty google docs thing)
 * Zoom link should be inclided, but ***not*** in the 'location' slot (which does weird things with maps)
 * The zoom link should be added in whatever way results in a link, not whatever results in the long list of numbers
-
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/committee.markdown" target="_blank">here</a>.

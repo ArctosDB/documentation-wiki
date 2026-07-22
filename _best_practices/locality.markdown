@@ -1,14 +1,9 @@
 ---
-title: Best Practice - Locality
-authors: various
-date created: 2025-08-11
-layout: default_toc
+title: Managing Localities
+authors: 
+date_updated: 2025-08-11
+status: draft
 ---
-
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
-# Locality
 
 Localities are the spatial and descriptive place-component of the when-and-where data.
 
@@ -61,9 +56,9 @@ locality. Named Localities:
  - Will always be unique, so will not be auto-merged
  - Can be bulkloaded (see [Bulkload Locality tool](https://arctos.database.museum/tools/bulkloadLocality.cfm) and then used in a catalog record bulkload file instead of repeating all the locality information.)
 
-![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) **Pro Tip**
+It is recommended to use simple ASCII characters, avoiding anything which might be confused for a list delimiter (commas, for example), or which might complicate copying/pasting (spaces, for example) in naming localities. Several Arctos UIs will generate UUIDs for locality names by request.
 
-If you have absolutely no locality data, use the Locality Name **NULL Locality Data** and skip entering anything else related to locality.
+{% include tip.html content="If you have absolutely no locality data, use the Locality Name **NULL Locality Data** and skip entering anything else related to locality." %}
 
 ## Specific Locality
 
@@ -75,7 +70,6 @@ Specific Locality is a standardization of verbatim_locality.
 
 When writing Specific Localities, the highest priority should be to maximize clarity and minimize confusion for a global audience, and for machine understanding (such as automated georeferencing). Geolocate is sometimes really picky on spelling. For example: a locality of "Lodge Pole Creek" was coming back with basically a random point - near a lodge or something a state away. "Lodgepole Creek" (which is also the label on Google Maps) returned accurate data.
     
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Pro.jpg) 
 ### Pro Tips
 
 #### Tip 1: Leave Out Higher Geography 
@@ -245,7 +239,7 @@ Depths are a distance below the local surface (such as a body of water or soil s
 
 ## TRS
 
-"Verbatim" Township, Range, and Section (TRS) information should, like all verbatim locality data, be entered in verbatim locality. Non-verbatim legacy TRS data may be entered in locality remarks. A thorough description of TRS data, along with a tool to translate them to latitude and longitude can be found in [How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate](http://handbook.arctosdb.org/how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.html).
+"Verbatim" Township, Range, and Section (TRS) information should, like all verbatim locality data, be entered in verbatim locality. Non-verbatim legacy TRS data may be entered in locality remarks. A thorough description of TRS data, along with a tool to translate them to latitude and longitude can be found in [How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate]({% link _how_to/convert-trs-to-lat-long-using-geolocate.markdown %}).
 
 ## UTM
 
@@ -464,7 +458,7 @@ Place Terms is a search-optimized cache of locality-adjacent data, primarily sup
 
 ### More about GeoLocate
 
-[GeoLocate](https://www.geo-locate.org/) coordinates are derived from asserted geography, locality, and event data, arranged and filtered using a relatively complicated algorithm in an attempt to provide data in a way that GeoLocate can best interpret. Wildly incorrect results are almost always related to not following the guidance for specific locality (above), or rarely through incorrect (often outdated) geography choices. Any errors which cannot be atributd to these sources should be reported to the GeoLocate developers. Despite these few generally-obvious errors (which provide a mechanism to locate improvable data), GeoLocate provides the single most consistent method of locating records by place names. GeoLocate data are also used when a collection activates the georeference [bot](https://handbook.arctosdb.org/documentation/bot.html). Note that this is not related to [using GeoLocate to assist in curatorial assertions](https://handbook.arctosdb.org/documentation/geolocate.html).
+[GeoLocate](https://www.geo-locate.org/) coordinates are derived from asserted geography, locality, and event data, arranged and filtered using a relatively complicated algorithm in an attempt to provide data in a way that GeoLocate can best interpret. Wildly incorrect results are almost always related to not following the guidance for specific locality (above), or rarely through incorrect (often outdated) geography choices. Any errors which cannot be atributd to these sources should be reported to the GeoLocate developers. Despite these few generally-obvious errors (which provide a mechanism to locate improvable data), GeoLocate provides the single most consistent method of locating records by place names. GeoLocate data are also used when a collection activates the georeference [bot]({% link _documentation/bot.markdown %}). Note that this is not related to [using GeoLocate to assist in curatorial assertions]({% link _documentation/geolocate.markdown %}).
 
 
 # Edit Locality Form
@@ -487,21 +481,3 @@ The webservice data pane has documentation inline. Read it.
 # Maintenance
 
 Duplicate localities are automatically merged, and unused localities are automatically deleted. A Locality Name will prevent both of these actions and should be used in pre-created localities. Please remove Name from any localities which you no longer intend to use.
-
-## How To
-
-Instructions for doing specifc tasks related to Localities in Arctos (please note that "under construction" icons on pages indicate that the documentation may be incomplete or out-of-date):
-
-- [How To Assign a New Locality to a Catalog Record](https://handbook.arctosdb.org/how_to/How-to-Reassign-Specimens-to-Another-Locality.html)
-- [How To Change Locality and Collecting Event](https://handbook.arctosdb.org/how_to/How-to-Change-Locality-Single-Specimen.html)
-- [How To Convert Township/Range/Section data to Latitude/Longitude Coordinates Using GeoLocate](https://handbook.arctosdb.org/how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.html)
-- [How To Create a Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-Locality.html)
-- [How To Create a New Collecting Event for a Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Collecting-Event-for-a-Locality.html)
-- [How To Create a New Specific Locality](https://handbook.arctosdb.org/how_to/How-to-Create-a-New-Specific-Locality.html)
-- [How To Edit a Specific Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-a-Specific-Locality.html)
-- [How To Edit Coordinates and Max Error of a Locality](https://handbook.arctosdb.org/how_to/How-to-Edit-Coordinates-and-Max-Error-of-a-Locality.html)
-- [How To Edit Coordinates for One Cataloged Item](https://handbook.arctosdb.org/how_to/How-to-Edit-Coordinates-for-One-Specimen.html)
-- [How To Merge Duplicate Localities](https://handbook.arctosdb.org/how_to/How-to-Merge-Duplicate-Localities.html)
-- [How To Understand Locality Media](https://handbook.arctosdb.org/how_to/How-to-understand-locality-media.html)
-- [How To Understand the Arctos Locality Model](https://handbook.arctosdb.org/how_to/How-to-understand-the-Arctos-Locality-Model.html)
-

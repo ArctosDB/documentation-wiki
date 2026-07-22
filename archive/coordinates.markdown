@@ -1,9 +1,8 @@
 ---
 title: Coordinates
-layout: default_toc
+authors:
+date_updated:
 ---
-
-# Coordinates
 
 The application of latitudes and longitudes to verbal
 [locality](/documentation/locality) data is called georeferencing. Latitude describes a

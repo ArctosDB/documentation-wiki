@@ -1,11 +1,16 @@
 ---
 title: Authentication
-author: DLM, MSK
-layout: default_toc
+authors: Dusty L. McDonald, Michelle Koo
+date_updated: 2025-08-28
 ---
 
-# Authentication
 Arctos relies on an open standard for authenticating users registered to use Arctos. Any one who wants to interact with Arctos, from downloading data to managing data, must have a user account to authenticate their access.
+
+# Create a public account
+
+1. Click either Google or GitHub from the login page.
+2. Provide your credentials and/or approve the request.
+3. Done! Please fill in your profile to download data.
 
 ## OAuth
 
@@ -13,7 +18,7 @@ OAuth (Open Authorization) is an open standard for authorization that allows thi
 
 ## TACC Account
 
-If an operator does not have a TACC account, [create your TACC account here.](https://accounts.tacc.utexas.edu/register). If you have a _.edu_ email address, it is strongly recommended to use it in your TACC profile, as these addresses are authorized without additional review. If you have another work email domain (e.g., _.org_, etc) please use that. All other email address types are subject to additional validation by TACC.
+If an operator does not have a TACC account, [create your TACC account here.](https://accounts.tacc.utexas.edu/register). If you have a _.edu_ email address, it is strongly recommended to use it in your TACC profile, as these addresses are authorized without additional review. If you have another work email domain (e.g., _.org_, etc) please use that. All other email address types are subject to additional validation by TACC. Users with a TACC account can go directly to the user management section of the TACC portal:  <https://accounts.tacc.utexas.edu/login?redirect_url=profile>.
 
 ### MFA
 
@@ -29,14 +34,16 @@ TACC and Arctos generally require [MFA](https://en.wikipedia.org/wiki/Multi-fact
 
 ## Migrating Existing Arctos Accounts
 
-1. Log in to your existing and open Operator account in the usual way on Arctos.
-2. Follow the TACC authentication option on the 'success' page.
-3. Authenticate at TACC (You may need to accept TACC Terms of Use)
-4. Success! In the future, simply use the TACC option to log in.
+If you have an older, inactive, Local-Authentication Arctos Operator account, please perform the following steps:
+
+1. Attempt to authenticate in Arctos using the "Log in with TACC" button.
+2. Let us know your Arctos and TACC usernames.
+
+We should be able to link your accounts together using that information.
 
 ## Problems?
 
-Please see <https://github.com/ArctosDB/arctos/issues/8867> for more information, or to ask for help.
+Please see [Create and Manage Your Arctos Team]({% link _how_to/create-your-arctos-team-users-and-operators.markdown %}) for more information, or ask for help via GitHub Issue.
 
 
 # Log in with TACC
@@ -45,17 +52,8 @@ To log into an Operator account created with TACC OAuth, or after an Operator ac
 
 # Create Arctos Operator
 
-All users must have a TACC account before being added an Arctos Operator. See [Users](/documentation/users.html) for detailed instructions.
+All users must have a TACC account before being added an Arctos Operator. See [Users]({% link _documentation/users.markdown %}) for detailed instructions.
 
-# Create a public account
-
-1. Click either Google or GitHub from the log in page.
-2. Provide your credentials and/or approve the request.
-3. Done! Please fill in your profile to download data.
 
 
 ---------------
-   
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/oauth.markdown).

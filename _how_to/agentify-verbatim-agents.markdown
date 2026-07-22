@@ -1,0 +1,57 @@
+---
+title: Agentify Verbatim Agents
+authors: Teresa J. Mayfield-Meyer, Angela Linn
+date_updated: 2023-01-31
+redirect_from:
+  - /how_to/How-to-Agentify-Verbatim-Agents/
+---
+
+If you have new information about a person that is currently only recorded in a [verbatim agent attribute](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent), you can follow these steps to add their agent as a collector, creator, preperator or subject in the records in which they performed those roles.
+
+**Documentation:** [Agents]({% link _documentation/agent.markdown %})
+
+## Create the Agent
+
+If the agent your verbatim agent represents does not already exist in Arctos, follow the instructions in [How To Create an Agent]({% link _how_to/create-agents.markdown %}) to add the agent in Arctos. 
+
+
+## Find Records with the Verbatim Agent
+
+From the main search page, search the verbatim agent attribute for the verbatim agent name you want to convert to an agent.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agents/image7.png)
+
+OR
+
+From any catalog record with the verbatim agent select the search option next to the verbatim agent attribute.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agents/image3.png)
+
+## Manage
+
+In your search results find the Tools Menu
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agents/image6.png)
+
+Select “Manage Collectors”
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agents/image8.png)
+
+Enter the agent’s name in “Name” field; select the agent role and list order, then click the “Insert Agent” button.
+
+![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Agents/image9.png)
+
+
+## Confirm
+
+After the additions have been made, you can confirm the agents by performing the same search used to mange them.
+
+## Verbatim Agent Attribute
+
+You may want to discard the verbatim agent attributes because they seem redundant, but in most cases they provide good information about verbatim documentation and should be left in place. If they are truly redundant (the new agent name is exactly the same), these attributes can be removed using the [Attribute Unload Tool](https://arctos.database.museum/tools/BulkUnLoadAttribute.cfm). 
+
+{% include caution.html content="The Attribute Unload Tool will unload ALL verbatim agent attributes from the records indicated in the tool. If any records contain verbatim agents other than the one you want to remove, you may want to check with a DBA to have them removed for you." %} 
+
+## Video Tutorial
+
+[Video Tutorial](https://www.youtube.com/watch?v=np1jQzi0f9Q)

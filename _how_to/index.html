@@ -4,21 +4,22 @@ layout: collection_index
 ---
 <h1 class="page-heading">How To's</h1>
 Learn the steps to using Arctos better here! Written by Arctos users.<br>
-View Arctos <a target=_blank href=https://arctosdb.org/learn/tutorial-blitz>Tutorial Quick Bites</a> for short how-to videos.
+View Arctos <a target=_blank href=https://arctosdb.org/learn/tutorial-blitz>Tutorial Quick Bites</a> for short how-to
+videos.
 <ul class="collection-list" data-path="{{page.path}}">
   {% for collection in site.collections %}
   <!-- {{ collection.label }} -->
-    {% if page.path contains collection.label %}
-    <!-- {{ page.path }} does contain {{ collection.label }} -->
-    {% assign sorted_docs = (collection.docs | sort: 'title') %}
-      {% for doc in sorted_docs %}
-        <!-- Iterating on {{doc.title}} @ {{doc.url}} -->
-        {% unless doc.url contains "index" %}
-          <li>
-            <a class="collection-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title}}</a>
-          </li>
-        {% endunless %}
-      {% endfor %}
-    {% endif %}
+  {% if page.path contains collection.label %}
+  <!-- {{ page.path }} does contain {{ collection.label }} -->
+  {% assign sorted_docs = collection.docs | sort: 'title' %}
+  {% for doc in sorted_docs %}
+  <!-- Iterating on {{doc.title}} @ {{doc.url}} -->
+  {% unless doc.url contains "index" %}
+  <li>
+    <a class="collection-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title}}</a>
+  </li>
+  {% endunless %}
+  {% endfor %}
+  {% endif %}
   {% endfor %}
 </ul>

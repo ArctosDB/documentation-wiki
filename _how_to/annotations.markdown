@@ -1,14 +1,10 @@
 ---
-title: How To Manage Annotations
-layout: default_toc
-author: DLM, Teresa J Mayfield-Meyer
-date: 2022-12-01
+title: Manage Annotations
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
+date_updated: 2022-12-01
 ---
 
-
-# How To Manage Annotations
-
-## [Notifications and Reports Documentation: ](https://handbook.arctosdb.org/documentation/notifications.html)
+## [Notifications and Reports Documentation: ]({% link _documentation/notifications.markdown %})
 
 Annotations are remarks which may be left by any user. Annotations may be associated with various data object, including catalog records, taxon name, projects, and publications.
 
@@ -91,8 +87,3 @@ After save:
 ## Video Tutorials
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png) **[How To Create an Annotation](https://youtu.be/hEDB2uSI-BQ?si=6J4sDuqG0CZpUGDx)**
 ![](https://raw.Githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20play.png) **[How To Review Annotations](https://youtu.be/jkdJMVsTouA?si=mejpNwDcSGomtzvG)**
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/annotations.markdown" target="_blank">here</a>.
-

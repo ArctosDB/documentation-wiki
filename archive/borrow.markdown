@@ -1,9 +1,8 @@
 ---
 title: Borrow
-layout: default_toc
+authors:
+date_updated:
 ---
-
-# Borrows
 
 Borrows are temporary incoming [Transactions](/documentation/transactions.html).
 

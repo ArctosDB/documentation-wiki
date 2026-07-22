@@ -1,13 +1,8 @@
 ---
 title: Higher Geography
-layout: default_toc
-author: Dusty McDonald, Michelle Koo
-date: 2025-02-14
+authors: Dusty McDonald, Michelle Koo
+date_updated: 2025-02-14
 ---
-
-
-
-# Geography
 
 Higher Geography is defined in Arctos to reflect the administrative intersections of asserted geographic boundaries that describe the locality of a record. For example, the location of a record occurs in a country, state or provice, county, municipality etc. Many marine-focused collections wish to assert both marine (where the event took place) and terrestrial (e.g. perhaps the administrative land from which permits are issued) geography for various reasons, while there is little or no overlap in spatial definitions of these places. [issue ref](https://github.com/ArctosDB/internal/issues/366) 
 
@@ -122,11 +117,11 @@ Pending review
 
 ### source_authority
 
-GADM for administrative terrestrial terms, IHO for marine/aquatic terms. Wikipedia for terms where GADM and IHO authorities are lacking. 
+GADM for administrative terrestrial terms, IHO for marine/aquatic terms. Wikipedia for terms where GADM and IHO authorities are lacking. Space-pipe-space-delimeted list of URLs, including any relevant GitHub Issues, is the preferred format.
 
 ### geog_remark
 
-Remarks field is intended to provide guidance and clarification in future geography creation or merge events, and is not searchable nor intended for public display.
+Remarks field is intended to provide guidance and clarification in future geography creation or merge events, and is not searchable nor intended for public display. No HTML or links.
 
 Use geographic remarks to describe remarkable things about the geography itself, such as when the named place existed or how it differs from potentially-confusing other places. Do not use remarks for procedural information or information concerning other data (such as specimens or localities).
 
@@ -158,7 +153,10 @@ Please refer to [Marine Geographies: the levels](https://docs.google.com/spreads
 
 ### Creation Request Template
 
-Please use this [template](https://docs.google.com/spreadsheets/d/1dGqSl2O28APN89uK6wI__SKzHF6KLGM3x2AMm-sUg-Y) to request geography creation.
+Please use this [template](https://docs.google.com/spreadsheets/d/1dGqSl2O28APN89uK6wI__SKzHF6KLGM3x2AMm-sUg-Y) to request geography creation. There are two possibliities:
+
+1. Use the "new" tab to request new geography
+2. Use the "merge" tab to request new "land + water" geography from two existing Arctos geography records
 
 ## Editing Guidelines
 
@@ -170,8 +168,25 @@ Do not change the fundamental nature of geography without the full consent and u
 
 Spatial data are maintained separately from geography, and may be used to facilitate search or suggest spatial affiliation.
 
+# Special
 
+Directions and decisions for specific areas; do not deviate from these without discussion and documentation
 
-## Edit this Documentation
+## Nepal
 
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/higher-geography.markdown" target="_blank">here</a>.
+The first level divisions are the [seven provinces of Nepal.](https://en.wikipedia.org/wiki/Provinces_of_Nepal#List_of_provinces_of_Nepal)
+
+* https://github.com/ArctosDB/arctos/issues/8824
+
+## Finland
+
+The first level divisions are  the [19 regions of Finland](https://en.wikipedia.org/wiki/Regions_of_Finland).
+
+* https://github.com/ArctosDB/arctos/issues/8824
+
+## Madagascar
+
+The Geography Committee reviewed Madagascar in May andrecommends the use of the current [six provinces of Madagascar](https://en.wikipedia.org/wiki/Provinces_of_Madagascar).
+
+* https://github.com/ArctosDB/arctos/issues/8824
+* https://github.com/ArctosDB/arctos/issues/8665#issuecomment-2852292381

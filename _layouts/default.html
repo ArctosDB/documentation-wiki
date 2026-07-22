@@ -1,20 +1,106 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{%- comment -%}
+Layout: default
+Used by: _documentation/, _best_practices/, _how_to/ (see _config.yml defaults)
+Purpose: Standard content page with auto-generated ToC sidebar, draft banner,
+collection-aware title prefix, and page-meta footer.
+{%- endcomment -%}
 
-  <body>
+{% include head.html %}
 
-    {% include header.html %}
+<!-- data-spy="scroll" + data-target="#toc": Bootstrap scrollspy highlights the active
+     ToC section as the user scrolls through the page.
+     data-offset="60": scrollspy considers a heading "active" once it's within 60px of
+     the viewport top, matching the manual scroll offset used by the click handler below. -->
 
-    <main class="page-content">
-      <article class="wrapper">
-        {{ content }}
-      </article>
-    </main>
+<body data-spy="scroll" data-target="#toc" data-offset="60">
 
-    {% include footer.html %}
+  {% include header.html %}
 
-  </body>
+  <main class="page-content container-fluid clearfix">
+
+    <!-- bootstrap-toc: generates ToC from page headings and highlights active section on scroll -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js"></script>
+    <script>
+      $(function () {
+        // bootstrap-toc generates the ToC HTML but adds no click handlers of its own.
+        // We intercept clicks to:
+        //   1. Scroll to the target heading with a 55px offset (just below the 48px sticky nav).
+        //   2. Update the URL hash silently via pushState (no scroll triggered).
+        //   3. Fire a synthetic scroll event after the animation so Bootstrap scrollspy
+        //      updates the active state — which controls H3 sub-item visibility.
+        //      (scrollspy offset is set to 60 on <body>; scrolling to doc_pos−55 ensures
+        //      scrollTop ≥ doc_pos−60, so the heading registers as active.)
+        $('#toc').on('click', 'a', function (e) {
+          e.preventDefault();
+          var href = $(this).attr('href');
+          var target = document.getElementById(href.slice(1));
+          if (target) {
+            var rect = target.getBoundingClientRect();
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            window.scrollTo({ top: rect.top + scrollTop - 55, behavior: 'smooth' });
+            history.pushState(null, '', href);
+            // After smooth scroll finishes (~300ms), nudge scrollspy to re-evaluate.
+            setTimeout(function () { $(window).trigger('scroll'); }, 350);
+          }
+        });
+      });
+    </script>
+
+    <div class="nav-container row clearfix" style="overflow-x:hidden">
+
+      <!-- ── Sidebar: search + ToC ─────────────────────────────────────── -->
+      <!-- data-toggle="toc": tells bootstrap-toc to populate this nav with page headings -->
+      <!-- data-spy="affix": pins the sidebar after scrolling past it -->
+      <nav class="toc clearfix col-xs-12 col-md-2" id="toc" data-toggle="toc" data-spy="affix"
+        style="top:200px; overflow-x:hidden;">
+        <div id="search-container" class="form">
+          <div class="form-group">
+            <label class="sr-only">
+              Search ArctodDB.org
+            </label>
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
+              <input type="text" id="search-input" placeholder="Search all" class="form-control" />
+              <!-- Dummy input prevents browser autofill from targeting the real search field -->
+              <input type="text" id="search-input-dummy" hidden />
+            </div>
+          </div>
+
+          <!-- Search results injected here by SimpleJekyllSearch -->
+          <ul id="results-container"></ul>
+        </div>
+        <!-- bootstrap-toc injects generated ToC links here -->
+      </nav>
+    </div>
+
+    <!-- ── Page content ─────────────────────────────────────────────────── -->
+    <article class="wrapper">
+
+      <!-- Show draft banner if page front matter includes status: draft -->
+      {% if page.status == 'draft' %}{% include draft-banner.html %}{% endif %}
+
+      <!-- Title prefix by collection: how_to → "How To:", best_practices → "Best Practice:" -->
+      {% if page.collection == 'how_to' %}
+      <h1><strong>How To:</strong> {{ page.title }}</h1>
+      {% elsif page.collection == 'best_practices' %}
+      <h1><strong>Best Practice:</strong> {{ page.title }}</h1>
+      {% else %}
+      <h1>{{ page.title }}</h1>
+      {% endif %}
+
+      {{ content }}
+
+      <!-- Page footer: last updated date, contributors, GitHub and print links -->
+      {% include page-meta.html %}
+    </article>
+  </main>
+
+  {% include footer.html %}
+
+</body>
 
 </html>

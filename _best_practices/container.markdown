@@ -1,12 +1,9 @@
 ---
-title: Best Practice - Containers
+title: Using Containers
 authors: Dusty McDonald
-layout: default_toc
+date_updated: 
+status: draft
 ---
-# Best Practice - Containers
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-
 
 ## State of this document
 
@@ -526,7 +523,7 @@ description of the general qualities of the finished product.
     procedures](#object-tracking-in-the-field).)
 -   All other container-related tasks involve only scanning barcodes.
 
-## [Creating position-holding freezer boxes](https://handbook.arctosdb.org/how_to/How-To-Barcode-Cryovials-in-an-Existing-Freezer-Box.html#create-the-freezer-box-in-arctos)
+## [Creating position-holding freezer boxes]({% link _how_to/barcode-cryovials-in-an-existing-freezer-box.markdown %}#create-the-freezer-box-in-arctos)
     
 ## Barcode Series
 
@@ -608,8 +605,3 @@ and check that the number we've extracted is *between* a range (identical to ```
 
 
 --------------
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/container.markdown).

@@ -1,14 +1,9 @@
 ---
-title: Best Practice - Citation of Catalog Records
-author: DLM
-date: 2025-07-25
-layout: default_toc
+title: Citing Catalog Records
+authors: Dusty L. McDonald
+date_updated: 2025-07-25
+status: draft
 ---
-
-![](https://raw.githubusercontent.com/ArctosDB/documentation-wiki/gh-pages/tutorial_images/Bear%20Work%20in%20Progress.JPG)
-*This is a draft document; recommendations have not been finalized.*
-
-# Best Practice - Citation of Catalog Records
 
 Citations are intended to link literature with the material on which it is based. Specifics will vary for each situation, and the following is generalized.
 
@@ -30,9 +25,4 @@ Projects and Archives provide short identifiers for groups of records, and may b
 
 ## After Publication
 
-[Citations](/documentation/citation.html) should be added to each involved Arctos record, serving as a reciprocal and redundant to the ``publication --> record`` relationship established by good citations.
-
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_best_practices/citations.markdown).
+[Citations]({% link _documentation/citations.markdown %}) should be added to each involved Arctos record, serving as a reciprocal and redundant to the ``publication --> record`` relationship established by good citations.

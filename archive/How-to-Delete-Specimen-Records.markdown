@@ -1,13 +1,10 @@
 ---
 title: How To Delete a Catalog Record
-author: Teresa J. Mayfield-Meyer
-date: 2024-01-31
-layout: default_toc
+authors: Teresa J. Mayfield-Meyer
+date_updated: 2024-01-31
 ---
 
 [Encumbrance Documentation](https://handbook.arctosdb.org/documentation/encumbrance)
-
-# How To Delete a Catalog Record
 
 In order to delete a catalog record(s) in Arctos, you must first create an **Encumbrance** (see [How to Create an Encumbrance](https://handbook.arctosdb.org/how_to/How-to-Create-an-Encumbrance.html))
 

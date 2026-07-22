@@ -1,11 +1,8 @@
 ---
 title: Github for Arctos
-layout: default_toc
-author: Teresa J. Mayfield-Meyer
-date: revised 2023-07-26
+authors: Teresa J. Mayfield-Meyer, Dusty L. McDonald
+date_updated: revised 2023-07-26
 ---
-
-# Github for Arctos
 
 ## Why Use Github for Arctos?
 
@@ -18,14 +15,18 @@ The tool we use to accomplish what Dusty describes above is Github.
 * If you have an Arctos question or problem, post it on the [Arctos Issues](https://Github.com/ArctosDB/arctos/issues) site. There you can also view and comment on issues.
 * [Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution](https://doi.org/10.1111/2041-210X.14108)
 
+## Requirements
+
+Only a GitHub account is necessary; there's no need to be a member of any particular organization (and Arctos GitHub membership is generally reserved for Officers and developers).
+
+## Uses
+
+If is difficult for us to communicate with users without GitHub accounts; we may be forced to restrict access without a path of communication. Users who have manage_records roles **must** have a GitHub account in their Agent profile.
+
 ## How To
 Instructions for doing specifc tasks in Github related to Arctos
 
-* [How To Github: Get Started with Github for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Github-for-Arctos.html)
-* [How To Github: Create and Manage Github Issues for Arctos](https://handbook.arctosdb.org/how_to/How-to-Use-Issues-in-Arctos.html)
-* [How To Github: Contribute to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-to-Contribute-Content-to-Arctos-Handbook.html)
-* [How to Github: Contribute a Video Tutorial to the Arctos Handbook](https://handbook.arctosdb.org/how_to/How-To-Contribute-a-Video-Tutorial.html)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly [here](https://Github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/github.markdown).
+* [How To Github: Get Started with Github for Arctos]({% link _how_to/use-github-for-arctos.markdown %})
+* [How To Github: Create and Manage Github Issues for Arctos]({% link _how_to/use-issues-in-arctos.markdown %})
+* [How To Github: Contribute to the Arctos Handbook]({% link _how_to/contribute-content-to-arctos-handbook.markdown %})
+* [How to Github: Contribute a Video Tutorial to the Arctos Handbook]({% link _how_to/contribute-a-video-tutorial.markdown %})

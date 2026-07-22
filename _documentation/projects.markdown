@@ -1,11 +1,8 @@
 ---
 title: Projects
-layout: default_toc
-author: ArctosDB, Michelle Koo, DLM
-date: updated 2025-07-02
+authors: Michelle Koo, Dusty L. McDonald
+date_updated: updated 2025-07-02
 ---
-
-# Projects
 
 Projects are primarily endeavors that contribute specimens, use
 specimens, or both, but also serve as a convenient place to arbitrarily
@@ -26,8 +23,8 @@ usage or origin of specimens, or projects can be created in the process
 of requesting a loan or describing an incoming accession. A project has
 a title, a description, a start date, an end date, and participating
 agents who have roles. Projects may also produce
-[publications](/documentation/publications) to which they can be related even in
-the absence of specimen [citations](/documentation/publications#full-citation). (Capturing some information - e.g., that derived from loans or personal knowledge - about poor-quality Citations is a core function of Projects.)
+[publications]({% link _documentation/publications.markdown %}) to which they can be related even in
+the absence of specimen [citations]({% link _documentation/publications.markdown %}#full-citation). (Capturing some information - e.g., that derived from loans or personal knowledge - about poor-quality Citations is a core function of Projects.)
 
 ##  Project
 
@@ -41,7 +38,7 @@ should avoid jargon and be understandable to non-specialists, such as
 educated taxpayers. Titles should be self-explanatory, stand alone, and
 contain enough information for a user to decide whether to investigate
 further or not. In format, project titles are like journal article and
-book chapter [titles](/documentation/publications). Recommended format is to capitalize only the
+book chapter [titles]({% link _documentation/publications.markdown %}). Recommended format is to capitalize only the
 first letter of the title and proper names, and punctuate the end of the
 title with a period unless it is otherwise punctuated. Markdown in ``project_name`` is supported, but not recommended as it will inhibit searching. HTML is not allowed.
 
@@ -56,7 +53,7 @@ descriptions as part of their requests. Markdown is acceptable in ``.project_de
 ### Dates
 
 ``start_date`` and ``end_date`` will often be approximate, and End Date
-can be ignored for projects that are active. Often, the [date](/documentation/dates) that a
+can be ignored for projects that are active. Often, the [date]({% link _documentation/dates.markdown %}) that a
 request for specimens is received is used as the start date, and the
 date that results are last published is used as the end date.
 
@@ -72,7 +69,7 @@ date that results are last published is used as the end date.
 ## Agents
 
 Project Agents (table ``project_agent``) are the people or agencies doing the project. Their
-names are drawn from the [agent table](/documentation/agent) and must be entered there if
+names are drawn from the [agent table]({% link _documentation/agent.markdown %}) and must be entered there if
 they are not already in the database.
 
 
@@ -131,8 +128,3 @@ To delete a project, first delete all dependencies then a delete button will app
 ## Identifier
 
 Each project generates a unique identifier and URI comprised of its internal project ID. Example: {base URL}/project/{projectID} such as: https://arctos.database.museum/project/10000298
-
-   
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/projects.markdown" target="_blank">here</a>.

@@ -1,11 +1,8 @@
 ---
 title: How To Bulkload Identifiers and Relationships
-layout: default_toc
-author: Andy Doll, Teresa J. Mayfield-Meyer
-date: 2021-02-10
+authors: Andy Doll, Teresa J. Mayfield-Meyer
+date_updated: 2021-02-10
 ---
-
-# How To Bulkload Identifiers and Relationships
 
 This document describes how to bulkload other identifiers with or without relationships to exisiting catalog records. You may also find [How To Choose the Proper Identifier Type](/how_to/How-to-choose-the-proper-other-identifier-type.html) useful in preparing a file for upload to this tool.
 

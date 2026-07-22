@@ -1,10 +1,8 @@
 ---
 title: Catalog
-layout: default_toc
-date: 2025-02-24
+authors: Dusty L. McDonald
+date_updated: 2025-02-24
 ---
-
-# Catalog
 
 Catalogs or Collections are administrative lists with inconsistent relationships to
 physical items. Therefore, a Cataloged Item or Record is an abstraction, *i.e.*,
@@ -139,6 +137,20 @@ Expanded Institution Acronym
 
 Collections may choose and order any number of [Taxonomy Source, code table](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxonomy_source). Classifications are applied to records from the first source which includes data for all taxa used in an identification.
 
+# Understanding Identifiers
+
+The identifiers associated with a record are useful at various scales and origins; understanding the scope at which an identifier can function before choosing an identifier is critical to successful citations, references, and attribution.
+
+
+| Identifier Type | Example  | Useful For   | Description  |
+| --------------- | ----------------- | ---------------------- | ------------------------ |
+| catalog number  | 246033   | Unique identifier within the collection. | All records in Arctos have a catalog number, and catalog number is unique within a collection. |
+| GUID_Prefix     | MVZ:Herp   | An internal value, may be useful for specifying collections within Arctos. Should never be used outside of Arctos. | GUID_Prefix is unique and synonymous with "collection" within Arctos. |
+| triplet         | MVZ:Herp:246033 | Unique identifier within Arctos. | GUID_Prefix combined with catalog number makes a unique-within-Arctos idenfier which has traditionally been used as a sort of "local GUID." (Yes, we do know what the "g"- and "u" - in GUID stands for....) This identifer should ***never\*** be used when there's any possibility that it could be interpreted as something outside of Arctos, and should not be referred to as a "GUID." |
+| collectionID    | [https://arctos.database.museum/collection/MVZ:Herp](https://arctos.database.museum/collection/MVZ:Herp)   | Identifying Arctos collections in any context. | GUID_Prefix plus an Arctos-supplied URI fragment forms a true GUID for the collection. |
+| GUID            | [https://arctos.database.museum/guid/MVZ:Herp:246033](https://arctos.database.museum/guid/MVZ:Herp:246033) | Unambiguously referring to the record at any scale in any context. When in doubt, use this. (Use the 'copy' button on the record "GUID page" to get it.)  | collectionID plus catalog number forms a true GUID for the record. This is occasionally (and regretably) referred to as "Record Identifier." |
+
+
 
 ## Searching
 
@@ -267,7 +279,7 @@ by legacy usage, or anything else.
 
 Legacy collections often exist for various reasons, and these may have duplicate catalog numbers, unpredictable formats which may
 confuse users, or contain arbitrary divisions which no longer are relevant. Combining these into a unified collection in Arctos is generally
-trivial, and Arctos provides various mechanisms (such as [actionable identifiers](other-identifying-numbers.html) and 
+trivial, and Arctos provides various mechanisms (such as [actionable identifiers](identifiers.html) and 
 [redirects](/redirect.html)) to ensure that no functionality is lost. Collections with "less citable" catalog number schemes are unlikely to support actionable citations, and so little is lost if the "traditional catalog numbers" are subsumed under a "citable catalog number." This approach has been used to unify and disambiguate several Arctos collections.
 
 # Recataloging Records
@@ -276,17 +288,13 @@ It is sometimes necessary to move cataloged items from one collection or
 catalog number to another. When doing so, it is important to maintain a
 way of finding the specimen by its original identifiers. In this, be as
 specific as possible. Use specific identifier types and GUIDs if
-possible. (See more at [Other IDs](/documentation/other-identifying-numbers).)
+possible. (See more at [Other IDs]({% link _documentation/identifiers.markdown %}).)
 
-Arctos provides HTTP redirect capability (see [Redirect](https://handbook.arctosdb.org/documentation/redirect.html)), under which one URL
+Arctos provides HTTP redirect capability (see [Redirect]({% link _documentation/redirect.markdown %})), under which one URL
 (<http://arctos.database.museum/guid/KNWR:Ento:7193>, for example) can
 be automatically redirected to another
 (<http://arctos.database.museum/guid/UAM:Ento:228334>). This helps in
 maintaining a record of the specimen rather than the specimen’s
 identifying numbers, and allows users to continue using bookmarks and
 links.
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/catalog.markdown" target="_blank">here</a>.
-
+                                                             |

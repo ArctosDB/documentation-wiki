@@ -1,11 +1,8 @@
 ---
 title: Notifications
-author: DLM, Teresa J. Mayfield-Meyer
-date: 2023-08-21
-layout: default_toc
+authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
+date_updated: 2023-08-21
 ---
-
-# Notifications and Reports
 
 ## Notifications
 
@@ -33,7 +30,7 @@ The following notifications and reminders are generated. This list is not all-in
 
 #### Loan Reminders
 
-Loans where status is not “closed” generate notifications 30 and 7 days before the loan is due, the every 30 days up to 300 days overdue, then daily.
+Loans where status is not “closed” generate notifications 30 and 7 days before the loan is due, the every 30 days up to 300 days overdue, then monthly.
 
 #### Permit reminders
 
@@ -127,8 +124,4 @@ Many notifications are sent to users who share roles, often manage_collection. Y
 
 Instructions for doing specifc tasks related to Notifications and Reports in Arctos
 
- - [How To Manage Annotations](https://handbook.arctosdb.org/how_to/annotations.html)
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_documentation/notifications.markdown" target="_blank">here</a>.
+ - [How To Manage Annotations]({% link _how_to/annotations.markdown %})

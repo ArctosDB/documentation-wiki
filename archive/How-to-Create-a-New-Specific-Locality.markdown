@@ -1,8 +1,7 @@
 ---
 title: How To Create a New Specific Locality
-layout: default_toc
-author: Michelle Koo
-date: 2016-11-30
+authors: Michelle Koo
+date_updated: 2016-11-30
 ---
 
 # DEPRECATED - See [How To Create a Locality](http://handbook.arctosdb.org/how_to/How-to-Create-a-Locality.html)

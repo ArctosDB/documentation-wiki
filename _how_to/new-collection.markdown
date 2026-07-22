@@ -1,10 +1,8 @@
 ---
-title: How To Join Arctos and Request New Collection GUID
-layout: default_toc
-author: DLM, Michelle Koo
-date: 2024-12-08
+title: Join Arctos and Request New Collection GUID
+authors: Dusty L. McDonald, Michelle Koo
+date_updated: 2024-12-08
 ---
-# How To Join Arctos
 
 ## For prospective partners
 
@@ -22,11 +20,11 @@ Once the administrative steps are complete and a new member has joined Arctos, t
 
 * Facilitate communication between the new member institution, the Arctos Working Group, and Arctos staff.
 
-* Define collections. Incoming collections are often merged or split, for example - this should be understood and agreed upon by all involved parties very early in the process. Documentation is available at [Catalog](https://handbook.arctosdb.org/documentation/catalog.html). Create a GUID_PREFIX for each collection in the institution. This is a permanent value which is used in links to specimens and should never be changed. Please take great care to ensure that the collections understand the importance of stability in this value before proceeding. Documentation is available at [Catalog](https://handbook.arctosdb.org/documentation/catalog.html). [GRSciColl](https://scientific-collections.gbif.org/) may be a useful resource when considering a new GUID Prefix. When GUID_Prefix is established, [pre-create collections](https://arctos.database.museum/Admin/pre_collection.cfm). 
+* Define collections. Incoming collections are often merged or split, for example - this should be understood and agreed upon by all involved parties very early in the process. Documentation is available at [Catalog]({% link _documentation/catalog.markdown %}). Create a GUID_PREFIX for each collection in the institution. This is a permanent value which is used in links to specimens and should never be changed. Please take great care to ensure that the collections understand the importance of stability in this value before proceeding. Documentation is available at [Catalog]({% link _documentation/catalog.markdown %}). [GRSciColl](https://scientific-collections.gbif.org/) may be a useful resource when considering a new GUID Prefix. When GUID_Prefix is established, [pre-create collections](https://arctos.database.museum/Admin/pre_collection.cfm). 
 
 * Work with the incoming Institution to provide metadata for each collection.
 
-* Create an Operator for each collection. Documentation is [Users](https://handbook.arctosdb.org/documentation/users.html) and a How-To is available at [How To Create and Manage Your Arctos Team: Users and Operators](https://handbook.arctosdb.org/how_to/How-to-Create-your-Arctos-Team-Users-and-Operators.html). These new Operators do not need any roles or collections; this will be assigned when the collections are created.
+* Create an Operator for each collection. Documentation is [Users]({% link _documentation/users.markdown %}) and a How-To is available at [How To Create and Manage Your Arctos Team: Users and Operators]({% link _how_to/create-your-arctos-team-users-and-operators.markdown %}). These new Operators do not need any roles or collections; this will be assigned when the collections are created.
 
 
 Once collection metadata are provided and reviewed _for all collections in the institution_, Exhibit 3 of the MOU will need to be approved by the member institution and filed with their MOU.
@@ -43,7 +41,8 @@ Existing institutions in good standing do not need to complete a Prospective Col
 4. Have your Loan Policy URL copied from menu item "Manage Data," "Metadata," "Manage Collection."
 5. After you've checked all the boxes, proceed.
 6. Voila!  A new collection REQUEST has been created.
-7. <a href="https://github.com/ArctosDB/new-collections/issues/new?assignees=&labels=&projects=&template=exisiting-institution-requesting-a-new-collection.md&title=Arctos+Institution+Name+request+to+add+a+new+collection" target="_blank" class="external">Create a new issue in the new collections Github repository</a> and add the guid_prefix(s) you've submitted.
+7. <a href="https://github.com/ArctosDB/new-collections/issues/new?assignees=&labels=&projects=&template=existing-institution-requesting-a-new-collection.md&title=Arctos+Institution+Name+request+to+add+a+new+collection" target="_blank" class="external">Create a new issue in the new collections Github repository</a> or one will be created for you to formalize the request.
+8. **PLEASE NOTE**: your institution's Arctos MOU Exhibit 3 must be validated and updated by the Arctos director or designate to be kept on file. (Individual member's local policies may differ as to how these administraative documents are updated.)
 
 
 ## For DBAs
@@ -55,7 +54,3 @@ You will be contacted via GitHub by the new collection or their mentor. Data wil
 3. Grant collection access, manage_collection, and global_admin to admin_user (it may be a list).
 4. If a request is denied or revoked, change guid_prefix to "INVALID:{former guid_prefix}"
 5. Find pending requests: ``select guid_prefix from pre_collection where guid_prefix not in (select guid_prefix from collection);``
-
-## Edit this Documentation
-
-If you see something that needs to be edited in this document, you can create an issue using the link under the search widget at the top left side of this page, or you can edit directly <a href="https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/new-collection.markdown" target="_blank">here</a>.
