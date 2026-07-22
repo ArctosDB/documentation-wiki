@@ -4,6 +4,7 @@ authors: Teresa J. Mayfield-Meyer, Emily Braker, April Payne
 date_updated: 2021-07-27
 redirect_from:
   - /how_to/How-to-Create-Agents/
+  - /how_to/How-to-Create-Agents.html
 ---
 
 #### Navigation: <a href="https://arctos.database.museum/agents.cfm" target="_blank">Arctos Tools Directory > Agents & Users > Agent: Manage</a>
