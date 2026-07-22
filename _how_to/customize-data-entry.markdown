@@ -92,4 +92,4 @@ When you have completed your customization, select the **Save and Use** button a
 
 ## Tutorial Videos ↗️
 
-[![How to Customize Search]()
+[Arctos Training: Data Entry (2026-06-18)](https://www.youtube.com/watch?v=yJ6_6xwQ3Ho)
