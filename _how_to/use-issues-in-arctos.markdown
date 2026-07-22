@@ -3,7 +3,10 @@ title: Create and Manage Github Issues for Arctos
 authors: Dusty L. McDonald, Michelle Koo
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Use-Issues-in-Arctos.html
   - /how_to/How-to-Use-Issues-in-Arctos/
+  - /how_to/how-to-use-issues-in-arctos.html
+  - /how_to/how-to-use-issues-in-arctos/
 ---
 
 [Github Documentation]({% link _documentation/github.markdown %})

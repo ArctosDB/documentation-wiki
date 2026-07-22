@@ -3,7 +3,10 @@ title: Create GenBank Links
 authors: Dusty L. McDonald
 date_updated: 2016-12-16
 redirect_from:
+  - /how_to/How-to-Link-Genetic-Data-To-And-From-Arctos.html
   - /how_to/How-to-Link-Genetic-Data-To-And-From-Arctos/
+  - /how_to/how-to-link-genetic-data-to-and-from-arctos.html
+  - /how_to/how-to-link-genetic-data-to-and-from-arctos/
 ---
 
 ## Method 1: Single-specimen

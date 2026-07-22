@@ -3,7 +3,10 @@ title: Bulkload Media Metadata
 authors: Dusty McDonald, Teresa Mayfield-Meyer
 date_updated: 2020-04-30
 redirect_from:
+  - /how_to/How-to-Bulkload-Media-Metadata.html
   - /how_to/How-to-Bulkload-Media-Metadata/
+  - /how_to/how-to-bulkload-media-metadata.html
+  - /how_to/how-to-bulkload-media-metadata/
 ---
 
 [Media Documentation]({% link _documentation/media.markdown %})

@@ -3,7 +3,10 @@ title: Bulkload Catalog Records
 authors: Michelle Koo
 date_updated: 2024-11-25
 redirect_from:
+  - /how_to/How-to-Bulkload-Catalog-Records.html
   - /how_to/How-to-Bulkload-Catalog-Records/
+  - /how_to/how-to-bulkload-catalog-records.html
+  - /how_to/how-to-bulkload-catalog-records/
 ---
 
 Relevant Documentation:

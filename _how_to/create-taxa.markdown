@@ -3,7 +3,10 @@ title: Create Linnean Taxa
 authors: Phyllis Sharp, Teresa J. Mayfield-Meyer
 date_updated: 2019-04-15, 2021-05-19
 redirect_from:
+  - /how_to/How-to-Create-Taxa.html
   - /how_to/How-to-Create-Taxa/
+  - /how_to/how-to-create-taxa.html
+  - /how_to/how-to-create-taxa/
 ---
 
 [Taxonomy Documentation]({% link _documentation/taxonomy.markdown %})

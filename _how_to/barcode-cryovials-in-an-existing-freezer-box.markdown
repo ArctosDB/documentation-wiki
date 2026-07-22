@@ -3,7 +3,10 @@ title: Barcode Cryovials in an Existing Freezer Box
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2019-02-22
 redirect_from:
+  - /how_to/How-To-Barcode-Cryovials-in-an-Existing-Freezer-Box.html
   - /how_to/How-To-Barcode-Cryovials-in-an-Existing-Freezer-Box/
+  - /how_to/how-to-barcode-cryovials-in-an-existing-freezer-box.html
+  - /how_to/how-to-barcode-cryovials-in-an-existing-freezer-box/
 ---
 
 [Object Tracking Documentation]({% link _documentation/container.markdown %})

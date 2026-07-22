@@ -3,6 +3,7 @@ title: Cataloging Fossil Material
 authors: Teresa Mayfield-Meyer, Dustin Perriguey, Nicole Ridgwell, Katherine Anderson
 date_updated: 2019-03-20
 redirect_from:
+  - /best_practices/catalog_fossils.html
   - /best_practices/catalog_fossils/
 ---
 

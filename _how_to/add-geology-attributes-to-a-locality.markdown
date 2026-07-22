@@ -3,7 +3,10 @@ title: Add Geology Attributes to a Locality
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2022-01-31
 redirect_from:
+  - /how_to/How-to-Add-Geology-Attributes-to-a-Locality.html
   - /how_to/How-to-Add-Geology-Attributes-to-a-Locality/
+  - /how_to/how-to-add-geology-attributes-to-a-locality.html
+  - /how_to/how-to-add-geology-attributes-to-a-locality/
 ---
 
 **Documentation: [Attributes]({% link _documentation/attributes.markdown %})**

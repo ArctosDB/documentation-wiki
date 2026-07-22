@@ -3,7 +3,10 @@ title: Convert Township/Range/Section data to Latitude/Longitude Coordinates Usi
 authors: Nicole Ridgwell, Teresa J. Mayfield-Meyer
 date_updated: 2019-06-01
 redirect_from:
+  - /how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate.html
   - /how_to/Convert_TRS_to_Lat-Long_Using_GeoLocate/
+  - /how_to/convert_trs_to_lat-long_using_geolocate.html
+  - /how_to/convert_trs_to_lat-long_using_geolocate/
 ---
 
 [Locality Documentation]({% link _documentation/locality.markdown %})

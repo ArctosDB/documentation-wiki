@@ -4,7 +4,10 @@ authors: Teresa Mayfield-Meyer
 date_updated: 2022-04-21
 status: draft
 redirect_from:
+  - /how_to/How_To_Add_Object_Provenance.html
   - /how_to/How_To_Add_Object_Provenance/
+  - /how_to/how_to_add_object_provenance.html
+  - /how_to/how_to_add_object_provenance/
 ---
 
 [Add to current update request](https://github.com/ArctosDB/documentation-wiki/issues/265)

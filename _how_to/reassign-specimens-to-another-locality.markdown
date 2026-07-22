@@ -3,7 +3,10 @@ title: Assign a New Locality to a Catalog Record
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Reassign-Specimens-to-Another-Locality.html
   - /how_to/How-to-Reassign-Specimens-to-Another-Locality/
+  - /how_to/how-to-reassign-specimens-to-another-locality.html
+  - /how_to/how-to-reassign-specimens-to-another-locality/
 ---
 
 [Locality Documentation]({% link _documentation/locality.markdown %})

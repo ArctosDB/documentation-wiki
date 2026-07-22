@@ -3,7 +3,10 @@ title: Bulkload Loans
 authors: Teresa J. Mayfield-Meyer, Toni Androski
 date_updated: 2023-03-08
 redirect_from:
+  - /how_to/How_To_Bulkload_Legacy_Loans.html
   - /how_to/How_To_Bulkload_Legacy_Loans/
+  - /how_to/how_to_bulkload_legacy_loans.html
+  - /how_to/how_to_bulkload_legacy_loans/
 ---
 
 ## [Loan Documentation]({% link _documentation/loans.markdown %})

@@ -3,7 +3,10 @@ title: Add Object Loan Items
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2023-03-06, 2021-01-15, 2021-07-24
 redirect_from:
+  - /how_to/How-to-Add-Loan-Items.html
   - /how_to/How-to-Add-Loan-Items/
+  - /how_to/how-to-add-loan-items.html
+  - /how_to/how-to-add-loan-items/
 ---
 
 [Loan Documentation]({% link _documentation/loans.markdown %})

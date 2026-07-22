@@ -3,7 +3,10 @@ title: Create and Print QR Code Insect Labels
 authors: Matt Bowser
 date_updated: 2013-03-08
 redirect_from:
+  - /how_to/How-to-Create-QR-code-insect-labels.html
   - /how_to/How-to-Create-QR-code-insect-labels/
+  - /how_to/how-to-create-qr-code-insect-labels.html
+  - /how_to/how-to-create-qr-code-insect-labels/
 ---
 
 [Printed Reports and Labels Documentation]({% link _documentation/reports.markdown %})

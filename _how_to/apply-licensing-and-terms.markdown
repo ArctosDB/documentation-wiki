@@ -3,7 +3,10 @@ title: Apply Licensing and Terms
 authors: Carla Cicero
 date_updated: 2020-07-06
 redirect_from:
+  - /how_to/How-To-Apply-Licensing-and-Terms.html
   - /how_to/How-To-Apply-Licensing-and-Terms/
+  - /how_to/how-to-apply-licensing-and-terms.html
+  - /how_to/how-to-apply-licensing-and-terms/
 ---
 
 ### Data

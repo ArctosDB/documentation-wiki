@@ -3,7 +3,10 @@ title: Create Media
 authors: Carla Cicero
 date_updated: 2016-04-24
 redirect_from:
+  - /how_to/How-to-Create-Media-Images.html
   - /how_to/How-to-Create-Media-Images/
+  - /how_to/how-to-create-media-images.html
+  - /how_to/how-to-create-media-images/
 ---
 
 [Media Documentation]({% link _documentation/media.markdown %})

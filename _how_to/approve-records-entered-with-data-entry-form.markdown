@@ -3,7 +3,10 @@ title: Approve Records Entered With Data Entry Form
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2021-07-21
 redirect_from:
+  - /how_to/How-to-Approve-Records-entered-with-Data-Entry-Form.html
   - /how_to/How-to-Approve-Records-entered-with-Data-Entry-Form/
+  - /how_to/how-to-approve-records-entered-with-data-entry-form.html
+  - /how_to/how-to-approve-records-entered-with-data-entry-form/
 ---
 
 [Catalog Record/Data Entry Documentation]({% link _documentation/catalog.markdown %})

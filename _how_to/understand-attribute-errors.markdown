@@ -3,7 +3,10 @@ title: Understand Attribute Errors
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/Understanding-Attribute-Errors.html
   - /how_to/Understanding-Attribute-Errors/
+  - /how_to/understanding-attribute-errors.html
+  - /how_to/understanding-attribute-errors/
 ---
 
 The various bulkloader-checking tools throw somewhat cryptic error messages when an Attribute does not satisfy database-level requirements. This document serves as a troubleshooting guide.

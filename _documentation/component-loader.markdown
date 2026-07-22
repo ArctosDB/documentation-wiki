@@ -3,6 +3,7 @@ title: Component Loaders
 authors: Dusty L. McDonald
 date_updated: 2025-08-21
 redirect_from:
+  - /documentation/componentloader.html
   - /documentation/componentloader/
 ---
 

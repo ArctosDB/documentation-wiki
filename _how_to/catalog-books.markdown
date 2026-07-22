@@ -4,6 +4,7 @@ authors: Teresa J. Mayfield-Meyer, Cam Webb
 date_updated: 2024-07-12
 status: draft
 redirect_from:
+  - /how_to/catalog_books.html
   - /how_to/catalog_books/
 ---
 

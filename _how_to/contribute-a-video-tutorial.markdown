@@ -3,7 +3,10 @@ title: Contribute a Video Tutorial to the Arctos Handbook
 authors: Emily Braker, Teresa J. Mayfield-Meyer
 date_updated: 2023-02-01
 redirect_from:
+  - /how_to/How-To-Contribute-a-Video-Tutorial.html
   - /how_to/How-To-Contribute-a-Video-Tutorial/
+  - /how_to/how-to-contribute-a-video-tutorial.html
+  - /how_to/how-to-contribute-a-video-tutorial/
 ---
 
 [Github Documentation]({% link _documentation/github.markdown %})

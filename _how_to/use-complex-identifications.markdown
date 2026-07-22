@@ -3,7 +3,10 @@ title: Use Complex Identifications
 authors: Carla Cicero, Michelle Koo
 date_updated: 2025-01-08
 redirect_from:
+  - /how_to/How-to-Use-Complex-Identifications.html
   - /how_to/How-to-Use-Complex-Identifications/
+  - /how_to/how-to-use-complex-identifications.html
+  - /how_to/how-to-use-complex-identifications/
 ---
 
 [Identifications Documentation]({% link _documentation/identification.markdown %})

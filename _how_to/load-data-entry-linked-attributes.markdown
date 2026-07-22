@@ -3,7 +3,10 @@ title: Approve Attribute Records Entered via Data Entry Form
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-load-Data-Entry-linked-Attributes.html
   - /how_to/How-to-load-Data-Entry-linked-Attributes/
+  - /how_to/how-to-load-data-entry-linked-attributes.html
+  - /how_to/how-to-load-data-entry-linked-attributes/
 ---
 
 [Catalog Record/Data Entry Documentation]({% link _documentation/catalog.markdown %})

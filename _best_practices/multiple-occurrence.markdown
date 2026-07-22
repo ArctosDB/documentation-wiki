@@ -4,6 +4,7 @@ authors: Dusty L. McDonald
 date_updated: 2024-08-26
 status: draft
 redirect_from:
+  - /best_practices/multiple_occurrence.html
   - /best_practices/multiple_occurrence/
 ---
 

@@ -3,7 +3,10 @@ title: Manage Taxonomic Classifications
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-manage-taxonomic-classifications.html
   - /how_to/How-to-manage-taxonomic-classifications/
+  - /how_to/how-to-manage-taxonomic-classifications.html
+  - /how_to/how-to-manage-taxonomic-classifications/
 ---
 
 [Taxonomy Documentation]({% link _documentation/taxonomy.markdown %})

@@ -3,7 +3,10 @@ title: Search for Specimens
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Search-for-Specimens.html
   - /how_to/How-to-Search-for-Specimens/
+  - /how_to/how-to-search-for-specimens.html
+  - /how_to/how-to-search-for-specimens/
 ---
 
 The key to getting the most out of Arctos is learning to search effectively. More often than not, a task will specify a specimen by MVZ number, or a group of specimens by their Accession. In these cases, your search will consist of only one step. Occasionally, however, you will be asked to find a list of specimens without using these numbers. Fortunately, Arctos’ powerful search feature will help you get there.

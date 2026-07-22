@@ -3,7 +3,10 @@ title: Create and Edit Permits
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Create-a-Permit.html
   - /how_to/How-to-Create-a-Permit/
+  - /how_to/how-to-create-a-permit.html
+  - /how_to/how-to-create-a-permit/
 ---
 
 [Permit Documentation]({% link _documentation/permits.markdown %})

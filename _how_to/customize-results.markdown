@@ -3,7 +3,10 @@ title: Customize Search Results
 authors: Emily Braker
 date_updated: 2024-02-26
 redirect_from:
+  - /how_to/How_To_Customize_Results.html
   - /how_to/How_To_Customize_Results/
+  - /how_to/how_to_customize_results.html
+  - /how_to/how_to_customize_results/
 ---
 
 **Documentation:** [Searching Arctos](https://github.com/ArctosDB/documentation-wiki/edit/gh-pages/_how_to/How-to-Search-for-Specimens.markdown)

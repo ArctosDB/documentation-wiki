@@ -3,7 +3,10 @@ title: Manage Excel for Arctos
 authors: Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2023-09-28
 redirect_from:
+  - /how_to/How-to-Excel-for-Arctos.html
   - /how_to/How-to-Excel-for-Arctos/
+  - /how_to/how-to-excel-for-arctos.html
+  - /how_to/how-to-excel-for-arctos/
 ---
 
 ## Why Use Excel for Arctos?

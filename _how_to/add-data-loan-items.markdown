@@ -4,7 +4,10 @@ authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2023-03-06
 status: draft
 redirect_from:
+  - /how_to/How-to-Add-Data-Loan-Items.html
   - /how_to/How-to-Add-Data-Loan-Items/
+  - /how_to/how-to-add-data-loan-items.html
+  - /how_to/how-to-add-data-loan-items/
 ---
 
 [Loan Documentation]({% link _documentation/loans.markdown %})

@@ -3,7 +3,10 @@ title: Create and Manage Geology Attributes
 authors: Teresa Mayfield-Meyer
 date_updated: 2019-10-09
 redirect_from:
+  - /how_to/How-to-Create-and-Manage-Geology-Terms.html
   - /how_to/How-to-Create-and-Manage-Geology-Terms/
+  - /how_to/how-to-create-and-manage-geology-terms.html
+  - /how_to/how-to-create-and-manage-geology-terms/
 ---
 
  

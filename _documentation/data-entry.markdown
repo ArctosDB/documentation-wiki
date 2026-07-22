@@ -3,6 +3,7 @@ title: Date Entry
 authors: Dusty L. McDonald
 date_updated: 2017-09-11
 redirect_from:
+  - /documentation/dataentry.html
   - /documentation/dataentry/
 ---
 

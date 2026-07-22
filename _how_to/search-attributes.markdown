@@ -4,6 +4,7 @@ authors:
 date_updated: 
 status: draft
 redirect_from:
+  - /how_to/search_attributes.html
   - /how_to/search_attributes/
 ---
 

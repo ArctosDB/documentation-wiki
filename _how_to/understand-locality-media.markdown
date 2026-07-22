@@ -3,7 +3,10 @@ title: Understand Locality Media
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-understand-locality-media.html
   - /how_to/How-to-understand-locality-media/
+  - /how_to/how-to-understand-locality-media.html
+  - /how_to/how-to-understand-locality-media/
 ---
 
 [Locality Documentation]({% link _documentation/locality.markdown %})

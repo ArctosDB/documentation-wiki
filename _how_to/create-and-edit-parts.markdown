@@ -3,7 +3,10 @@ title: Create and Edit Parts
 authors: Emily Braker
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Create-and-Edit-Parts.html
   - /how_to/How-to-Create-and-Edit-Parts/
+  - /how_to/how-to-create-and-edit-parts.html
+  - /how_to/how-to-create-and-edit-parts/
 ---
 
 [Parts Documentation]({% link _documentation/parts.markdown %})

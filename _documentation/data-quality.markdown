@@ -3,6 +3,7 @@ title: Data Quality
 authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2024-03-22
 redirect_from:
+  - /documentation/data_quality.html
   - /documentation/data_quality/
 ---
 

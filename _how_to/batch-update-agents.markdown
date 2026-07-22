@@ -3,7 +3,10 @@ title: Batch Update Agents
 authors: Teresa J. Mayfield-Meyer, Carla Cicero
 date_updated: 2024-04-24
 redirect_from:
+  - /how_to/How-to-Batch-Update-Agents.html
   - /how_to/How-to-Batch-Update-Agents/
+  - /how_to/how-to-batch-update-agents.html
+  - /how_to/how-to-batch-update-agents/
 ---
 
 To Batch update Agents (collectors and preparators, determiners) use the Manage options in the Search Results Tools menu. This is an efficient alternative to using the "Agents Tab" found in individual catalog records when needing to update multiple records at once. Agents can be added, deleted, or re-ordered using these features.

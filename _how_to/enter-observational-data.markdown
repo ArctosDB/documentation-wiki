@@ -4,7 +4,10 @@ authors: Ally Coconis
 date_updated: 2022-11-28
 status: draft
 redirect_from:
+  - /how_to/How to Enter Observational Data.html
   - /how_to/How to Enter Observational Data/
+  - /how_to/how to enter observational data.html
+  - /how_to/how to enter observational data/
 ---
 
 The Observation Interest Group is currently working on improving this document. Please [file an issue](https://github.com/ArctosDB/arctos/issues/new) if you have questions about cataloging observations in Arctos.

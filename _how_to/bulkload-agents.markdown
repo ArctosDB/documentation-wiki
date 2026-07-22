@@ -4,7 +4,10 @@ authors: Dusty L. McDonald, Teresa Mayfield-Meyer
 date_updated: 2018-04-26
 status: draft
 redirect_from:
+  - /how_to/How-to-Bulkload-Agents.html
   - /how_to/How-to-Bulkload-Agents/
+  - /how_to/how-to-bulkload-agents.html
+  - /how_to/how-to-bulkload-agents/
 ---
 
 Please keep in mind that Agents are shared across all Arctos collections. Read **all** of the documentation before proceeding.

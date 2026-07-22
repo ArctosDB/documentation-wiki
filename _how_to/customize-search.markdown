@@ -3,7 +3,10 @@ title: Customize the Search Page
 authors: Emily Braker, Dusty L. McDonald
 date_updated: 2023-03-14
 redirect_from:
+  - /how_to/How_To_Customize_Search.html
   - /how_to/How_To_Customize_Search/
+  - /how_to/how_to_customize_search.html
+  - /how_to/how_to_customize_search/
 ---
 
 **Documentation:** [Searching Arctos]({% link _how_to/search-for-specimens.markdown %})

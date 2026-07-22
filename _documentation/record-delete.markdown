@@ -3,6 +3,7 @@ title: Deleting Catalog Records
 authors: Dusty L. McDonald, Michelle Koo
 date_updated: 
 redirect_from:
+  - /documentation/record_delete.html
   - /documentation/record_delete/
 ---
 

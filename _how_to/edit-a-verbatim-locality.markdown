@@ -3,7 +3,10 @@ title: Edit a Verbatim Locality
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Edit-a-Verbatim-Locality.html
   - /how_to/How-to-Edit-a-Verbatim-Locality/
+  - /how_to/how-to-edit-a-verbatim-locality.html
+  - /how_to/how-to-edit-a-verbatim-locality/
 ---
 
 [Collecting Event Documentation]({% link _documentation/collecting-event.markdown %})

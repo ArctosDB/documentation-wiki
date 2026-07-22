@@ -3,7 +3,10 @@ title: Edit Coordinates for One Cataloged Item
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Edit-Coordinates-for-One-Specimen.html
   - /how_to/How-to-Edit-Coordinates-for-One-Specimen/
+  - /how_to/how-to-edit-coordinates-for-one-specimen.html
+  - /how_to/how-to-edit-coordinates-for-one-specimen/
 ---
 
 [Locality Documentation]({% link _documentation/locality.markdown %})

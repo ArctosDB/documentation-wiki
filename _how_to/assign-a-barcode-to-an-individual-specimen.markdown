@@ -3,7 +3,10 @@ title: Assign a Barcode to an Individual Part
 authors: Carla Cicero
 date_updated: 2016-03-08
 redirect_from:
+  - /how_to/How-to-Assign-a-Barcode-to-an-Individual-Specimen.html
   - /how_to/How-to-Assign-a-Barcode-to-an-Individual-Specimen/
+  - /how_to/how-to-assign-a-barcode-to-an-individual-specimen.html
+  - /how_to/how-to-assign-a-barcode-to-an-individual-specimen/
 ---
 
 [Object Tracking Documentation]({% link _documentation/container.markdown %})

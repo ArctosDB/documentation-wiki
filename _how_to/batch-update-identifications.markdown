@@ -3,7 +3,10 @@ title: Batch Update Identifications
 authors: Carla Cicero
 date_updated: 2016-03-08
 redirect_from:
+  - /how_to/How-to-Batch-Update-Identifications.html
   - /how_to/How-to-Batch-Update-Identifications/
+  - /how_to/how-to-batch-update-identifications.html
+  - /how_to/how-to-batch-update-identifications/
 ---
 
 [Identifications Documentation]({% link _documentation/identification.markdown %})

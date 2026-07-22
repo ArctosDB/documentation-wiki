@@ -3,7 +3,10 @@ title: Create a Citation
 authors: Teresa J. Mayfield-Meyer, Carla Cicero
 date_updated: 2023-03-08
 redirect_from:
+  - /how_to/How-to-Create-Citations.html
   - /how_to/How-to-Create-Citations/
+  - /how_to/how-to-create-citations.html
+  - /how_to/how-to-create-citations/
 ---
 
 [Citation Documentation]({% link _documentation/citations.markdown %})

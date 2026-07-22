@@ -3,7 +3,10 @@ title: Encumber Locality Data
 authors: Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2025-02-24
 redirect_from:
+  - /how_to/How-to-Encumber-Locality.html
   - /how_to/How-to-Encumber-Locality/
+  - /how_to/how-to-encumber-locality.html
+  - /how_to/how-to-encumber-locality/
 ---
 
 ## Note on Encumbrances

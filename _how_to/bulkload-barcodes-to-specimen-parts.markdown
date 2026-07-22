@@ -3,7 +3,10 @@ title: Bulkload Barcodes to Parts
 authors: Emily Braker
 date_updated: 2016-02-27
 redirect_from:
+  - /how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts.html
   - /how_to/How-to-Bulkload-Barcodes-to-Specimen-Parts/
+  - /how_to/how-to-bulkload-barcodes-to-specimen-parts.html
+  - /how_to/how-to-bulkload-barcodes-to-specimen-parts/
 ---
 
 [Object Tracking Documentation]({% link _documentation/container.markdown %})

@@ -3,7 +3,10 @@ title: Build Other Identifiers
 authors: Teresa J. Mayfield-Meyer
 date_updated: 2024-06-05
 redirect_from:
+  - /how_to/How-to-choose-the-proper-other-identifier-type.html
   - /how_to/How-to-choose-the-proper-other-identifier-type/
+  - /how_to/how-to-choose-the-proper-other-identifier-type.html
+  - /how_to/how-to-choose-the-proper-other-identifier-type/
 ---
 
 Other Identifiers in Arctos are composed of:

@@ -3,7 +3,10 @@ title: Batch Update Accessions
 authors: Carla Cicero
 date_updated: 2016-03-08
 redirect_from:
+  - /how_to/How-to-Batch-Update-Accessions.html
   - /how_to/How-to-Batch-Update-Accessions/
+  - /how_to/how-to-batch-update-accessions.html
+  - /how_to/how-to-batch-update-accessions/
 ---
 
 [Accession Documentation]({% link _documentation/accession.markdown %})

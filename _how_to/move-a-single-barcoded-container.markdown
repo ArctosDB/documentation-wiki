@@ -3,7 +3,10 @@ title: Move to a Single Barcoded Container
 authors: 
 date_updated: 
 redirect_from:
+  - /how_to/How-to-Move-a-Single-Barcoded-Container.html
   - /how_to/How-to-Move-a-Single-Barcoded-Container/
+  - /how_to/how-to-move-a-single-barcoded-container.html
+  - /how_to/how-to-move-a-single-barcoded-container/
 ---
 
 [Object Tracking Documentation]({% link _documentation/container.markdown %})

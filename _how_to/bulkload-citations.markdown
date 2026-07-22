@@ -3,7 +3,10 @@ title: Bulkload Citations
 authors: Teresa J. Mayfield-Meyer, Carla Cicero
 date_updated: 2023-03-08
 redirect_from:
+  - /how_to/How-to-Bulkload-Citations.html
   - /how_to/How-to-Bulkload-Citations/
+  - /how_to/how-to-bulkload-citations.html
+  - /how_to/how-to-bulkload-citations/
 ---
 
 [Citations Documentation]({% link _documentation/citations.markdown %})

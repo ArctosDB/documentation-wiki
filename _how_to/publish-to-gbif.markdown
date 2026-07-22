@@ -3,7 +3,10 @@ title: Publish Data to GBIF
 authors: Teresa J. Mayfield-Meyer, Michelle Koo
 date_updated: 2025-10-06
 redirect_from:
+  - /how_to/How-to-Publish-to-GBIF.html
   - /how_to/How-to-Publish-to-GBIF/
+  - /how_to/how-to-publish-to-gbif.html
+  - /how_to/how-to-publish-to-gbif/
 ---
 
 ## [Beyond Arctos Documentation]({% link _documentation/github.markdown %})
