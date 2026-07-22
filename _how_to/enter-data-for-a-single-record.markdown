@@ -12,8 +12,6 @@ redirect_from:
 
 ------------------------------
 
-[GitHub Issue](https://github.com/ArctosDB/documentation-wiki/issues/238)
-
 # How To Enter Data for a Single Record 
 
 ### Documentation: [Catalog Record]({% link _documentation/catalog.markdown %})
