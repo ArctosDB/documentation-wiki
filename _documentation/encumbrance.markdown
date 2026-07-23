@@ -4,7 +4,7 @@ authors: Dusty L. McDonald
 date_updated: 
 ---
 
-In the strictest sense, an Encumbrance restricts the visibility of catalog record to only the collection managers. Encumbrances should not be confused with [permits]({% link _documentation/permits.markdown %}), which involve acceptable use of materials or information.
+An Encumbrance restricts the visibility of catalog record to only the collection managers. Encumbrances should not be confused with [permits]({% link _documentation/permits.markdown %}), which involve acceptable use of materials or information.
 
 
 ## encumbrance_id

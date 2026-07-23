@@ -6,7 +6,7 @@ date_updated:
 
 Curators of Arctos collections should ~~encourage~~ require researchers using their
 specimens for DNA sequences to submit GenBank accessions that cite the
-specimens by ~~catalog number~~ GUID. GenBank will register Arctos institutions' GUID ("DWC Triplet" format).
+specimens by ~~catalog number~~ GUID. GenBank will register Arctos institutions' "GUID" (often DWC Triplet, sometimes assigned to force unique).
 
 If the correct and registered term is entered by the owner of the GenBank accession
 under "source/specimen_voucher," then the catalog number will appear on
