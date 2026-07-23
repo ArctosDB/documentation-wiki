@@ -298,3 +298,10 @@ maintaining a record of the specimen rather than the specimen’s
 identifying numbers, and allows users to continue using bookmarks and
 links.
                                                              |
+
+# Edit History
+
+Many updates trigger cache refresh requests. These updates are also logged in table ``flat_edit_history``, which is available to operators in the UI (something like 'Enter/Edit History'). The cache and the accompanying update log may be incomplete or misleading in any number of ways. Errors and omissions should be reported, but many scenarios will result in cryptic (at best) information, and may result in a stale cache. Operators may manually request refresh from the UI.
+
+
+
