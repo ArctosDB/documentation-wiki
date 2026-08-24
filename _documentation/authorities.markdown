@@ -21,7 +21,7 @@ All code tables provide a definition; values are **concepts** which mean what th
 ## Procedures
 
 Additions or changes generally require open discussion, beginning with Issues and passing through a roadmap, and the Issue/discussion must be recorded with the new value. 
-* Most tables have a dedicated column for documentation, append bare URLs separated by spaced pipes to teh term definition if this is not available.
+* Most tables have a dedicated column for documentation, append bare URLs separated by spaced pipes to the term definition if this is not available.
 
 ## Table Definitions
 
@@ -49,13 +49,15 @@ Many code tables are collection-specific. Operators with ``manage_collection`'' 
 
 ### General Rules for Adding Code Table Terms
 
-* Whenever possible terms should have a published reference or citation.
-* Terms and their definitions should be as general and unambiguous as possible.
-* Authority values may contain non-ASCII UTF characters, but the scope of this is unclear.
-    * Discussion: https://github.com/ArctosDB/arctos/issues/9141 
-* References should be 'scholarly' and specific to Arctos data.
+* Whenever possible, terms should have a published reference or citation. References should be 'scholarly' and specific to Arctos data.
    * Dictionary-type definitions are not useful nor allowed
    * Google Books URLs are strongly discouraged 
+* Terms and their definitions should be as general and unambiguous as possible.
+    * If a future user (researcher, collection manager, etc.) can be anticipated to want to search for a very specific meaning of ``thing``, then ``thing`` should be very narrowly scoped in anticipation of this. "Research-grade" concepts (such as [ctlife_stage](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctlife_stage))often fall on this end of the spectrum.
+    * If future usage will probably be limited to "items that someone's called ``thing`` then ``thing`` should be defined very generally. "Curatorial" concepts (such as [ctcontainer_type](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcontainer_type) often fall on this end of the spectrum.
+* Authority values may contain non-ASCII UTF characters, but the scope of this is unclear.
+    * Discussion: https://github.com/ArctosDB/arctos/issues/9141 
+  
 
 ### Specific Rules for Specific Code Tables
 
