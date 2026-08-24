@@ -4,39 +4,53 @@ authors: Dusty L. McDonald, Teresa J. Mayfield-Meyer
 date_updated: 2024-06-06
 ---
 
-Record Events link [Events]({{site.baseurl}}/documentation/collecting-event.html) to [Records]({{site.baseurl}}/documentation/catalog.html).
+Record Events link [Events]({{site.baseurl}}/documentation/collecting-event.html) to [Records]({{site.baseurl}}/documentation/catalog.html). These are also known as specimen-events.
 
-## Event Determiner
+## Table specimen_event
+
+### specimen_event_id 
+
+Primary key. When exposed publicly as specimenEventID it is formatted as ``https://arctos.database.museum/guid/UAM:Herp:12?seid=673238``.
+
+### collection_object_id
+
+Non-NULL foreign key to catalog_record.
+
+### collecting_event_id
+
+Non-NULL foreign key to collecting_event
+
+### assigned_by_agent_id
 
 [Agent]({{site.baseurl}}/documentation/agent.html) asserting that the [Record]({{site.baseurl}}/documentation/catalog.html) has [Event Type](#type) relationship to an event (including locality, geography, geology, etc.).
 
 {% include caution.html content="This person has determined coordinates and error, dates, higher geography, and everything else in the place and time stack" %}
 
-## Event Date
+### assigned_date
 
-The date on which the [Event]({{site.baseurl}}/documentation/collecting-event.html) was assigned to the [Record]({{site.baseurl}}/documentation/catalog.html).
+The date (datatype ``timestamp``) on which the [Event]({{site.baseurl}}/documentation/collecting-event.html) was assigned to the [Record]({{site.baseurl}}/documentation/catalog.html).
 
-## Event Type
+### specimen_event_type
 
 The action during the [Event]({{site.baseurl}}/documentation/collecting-event.html) that affected the [Record]({{site.baseurl}}/documentation/catalog.html).
 
 Select from values in [Object Event: Types](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTSPECIMEN_EVENT_TYPE).
 
-## Verification Status
+### verificationstatus
 
 The opinion of the verifier of the veracity and completeness of the coordinates included in the [Event]({{site.baseurl}}/documentation/collecting-event.html).
 
 Select from values in [Object Event: Verification Status Values](http://arctos.database.museum/info/ctDocumentation.cfm?table=CTVERIFICATIONSTATUS)
 
-## Verified By
+### verified_by_agent_id
 
-[Agent]({{site.baseurl}}/documentation/agent.html) who selected the Verification Status.
+[Agent]({{site.baseurl}}/documentation/agent.html) asserting the Verification Status.
 
-## Verified Date
+### verified_date
 
-Date on which Verification Status was set.
+Date (datatype ``ISO8601``) on which Verification Status was asserted.
 
-## Collecting Method
+### collecting_method
 
 Describe methods employed at the event as they relate specifically to the record. Examples:
 
@@ -47,13 +61,13 @@ Describe methods employed at the event as they relate specifically to the record
 
 {% include tip.html content="Method may be better placed in the [event method](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcoll_event_attr_type#event_method) event attribute if the method corresponds to all records that may have participated in the event." %}
 
-## Collecting Source
+### collecting_source
 
 A broad categorization of how the record came to be at the event.
 
 Select from [Event: Source Values](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctcollecting_source).
 
-## Habitat
+### habitat
 
 Describe the habitat at the place and time of the event as it relates specifically to the record. Examples:
 
@@ -62,7 +76,13 @@ Describe the habitat at the place and time of the event as it relates specifical
 -   under spruce bark
 -   steep west-facing slopes
 
-## Remarks
+### specimen_event_remark
+
+
+
+----------------------------------
+
+
 
 Use only for data which pertains to the relationship between the record and the event and which is not appropriate for any more-specific fields.
 
