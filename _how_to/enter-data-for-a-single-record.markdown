@@ -9,12 +9,6 @@ redirect_from:
   - /how_to/how-to-enter-data-for-a-single-record/
 ---
 
-----------------------------
-
-20250103: this is outdated
-
-------------------------------
-
 ### Documentation: [Catalog Record]({% link _documentation/catalog.markdown %})
 
 ### Navigation: [Tools Directory > Data Entry -> Enter Records]([https://arctos.database.museum/enter_data.cfm](https://arctos.database.museum/Bulkloader/enter.cfm))
