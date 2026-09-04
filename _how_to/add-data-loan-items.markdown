@@ -16,8 +16,6 @@ redirect_from:
 
 [//]: #[Request an Update to this How To](https://github.com/ArctosDB/documentation-wiki/issues/new?assignees=&labels=How+To+Update&template=how-to-update.md&title=How+To+%5Badd+title%5D+update)
 
-# How To Add Items to a Data Loan
-
 Data loans "loan" cataloged items, not specific parts and are meant to record data use.
 
 ## From the Edit Loan Page
