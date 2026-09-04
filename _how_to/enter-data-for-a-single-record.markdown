@@ -15,8 +15,6 @@ redirect_from:
 
 ------------------------------
 
-# How To Enter Data for a Single Record 
-
 ### Documentation: [Catalog Record]({% link _documentation/catalog.markdown %})
 
 ### Navigation: [Tools Directory > Data Entry -> Enter Records]([https://arctos.database.museum/enter_data.cfm](https://arctos.database.museum/Bulkloader/enter.cfm))
