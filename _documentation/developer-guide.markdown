@@ -48,35 +48,27 @@ NOTE: Some csv tools will not maintain suggested order, and Arctos JSON (PG data
 ### CFML
 
 Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language) and HTML. 
-* within ``<cfoutput></cfoutput>`` tags, ``#`` is a special character; ``#variable#`` means render variable ``variable`` as HTML. ``#`` used as text (eg, as an anchor in a URL) must be escaped. ``someURL.com#anchor`` must be written as  ``someURL.com##anchor``
-* outside of ``<cfoutput></cfoutput>`` 	``#`` is just a character.
 
 ### URLS
 
-* make internal URLs relative - ``/somePage`` never ``http://....somePage``
-* use DataServices/Linkerizer to build URLs. There are currently three classes of URL supported:
-    * no class-->default browser behavior
+* make internal URLs relative
+* URL classes:
+   * no class-->default browser behavior  
     * external-->"pop out" image appended, open in new window
     * newWinLocal-->"info" image appended, open in new window (use for links to arctos.museum information pages such as code tables)
+       * do not use, needs deprecated
 
 ### CSS
-* when possible, use /includes/style.css for styling. (Directions for minimizing are inline.)
-* for one-off use, in-page CSS (``<style></style>`` tags) is acceptable but less preferred
-* avoid inline styling (``<div style="...."></div>``); this makes it very difficult to change things and keep a consistent look and feel
 
-### Recommended Code Editors
- 
-#### Sublime Text
+* Use /includes/style.css for styling
 
-DLM's weapon of choice
-
-#### Atom
 
 ## Component Loaders
 
 (ref: https://github.com/ArctosDB/dev/issues/110)
 
 * all user-supplied fields should be text, which is more portable. Handlers must check and cast as appropriate.
+* all changes must be noted in the loader (modern templates provide a space)
 
 
 ## Identifier Convention
@@ -90,13 +82,8 @@ DLM's weapon of choice
 Arctos uses various datasources for various reasons. Most queries should be one of two entries:
 
 * Datasource ``user_login`` logs in to the database as the Arctos user. This connection must be supplied with valid credentials.
-* Datasource ``cf_codetables`` is a special pre-authenticated user who has SELECT on ct* tables. This user should be used for all possible connections which SELECT from codetables, for performance reasons, and these queries should always be set to cache. The query name should always be the name of the code table to further support caching. For example:
-
-``` 
-<cfquery name="ctdatum" datasource="cf_codetables" cachedwithin="#createtimespan(0,0,60,0)#">
-   select datum from ctdatum order by datum
-</cfquery> 
-```
+* Datasource ``cf_codetables`` is a special pre-authenticated user who has SELECT on ct* tables. This user should be used for all possible connections which SELECT from codetables, for performance reasons, and these queries should always be set to cache. The query name should always be the name of the code table to further support caching.
+* Queries should be cached as aggressively as possible (which is often not at all; users seeing "fresh" data is priority).
 
 ## Expand Select
 
@@ -115,6 +102,8 @@ Button + HREF
 ```
 
 ## Code Table Definer
+
+* don't do this, see CSP above
 
 ```
 <span class="infoLink" onclick="getCtDocVal('cttaxon_name_type','taxon_name_type');">Define</span>
