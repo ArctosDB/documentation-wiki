@@ -21,6 +21,10 @@ Write code as if Arctos had a very restrictive Content Security Policy.
 * Design new features for default-src 'self'. Treat access to anything beyond the Arctos origin as an explicit dependency that needs justification.
 * Expect CSP to become stricter. Code that works only because the current policy is permissive should be considered technical debt.
 
+### Database Connection
+
+Do not write (or make significant updates to) application UI which connects directly to the database; all UI interaction should go through an API.
+
 ### Attributes
 
 When possible, attribute components should be displayed in the order:
@@ -44,10 +48,6 @@ Attributes as JSON should also use these keys. All are ``text`` except attribute
 
 NOTE: Some csv tools will not maintain suggested order, and Arctos JSON (PG datatype ``JSONB``) has no "column order." We can do no more that attempt to suggest order in many cases.
 
-
-### CFML
-
-Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_Markup_Language) and HTML. 
 
 ### URLS
 
@@ -77,13 +77,6 @@ Arctos is written primarily in [CFML](https://en.wikipedia.org/wiki/ColdFusion_M
 * GUIDs are generally primary keys made GUID-ish, begin with ``https://arctos.database.museum/``, and should be referred to as ``somethingID`` (Note that DDL is not case sensitive and case will often be lost.)
 * "DWC Triplets" ("local" record identifiers still widely referred to as GUID) should be referred to as "triplet" when reluctantly used. (See also https://github.com/orgs/ArctosDB/discussions/5310)
 
-## Datasource
-
-Arctos uses various datasources for various reasons. Most queries should be one of two entries:
-
-* Datasource ``user_login`` logs in to the database as the Arctos user. This connection must be supplied with valid credentials.
-* Datasource ``cf_codetables`` is a special pre-authenticated user who has SELECT on ct* tables. This user should be used for all possible connections which SELECT from codetables, for performance reasons, and these queries should always be set to cache. The query name should always be the name of the code table to further support caching.
-* Queries should be cached as aggressively as possible (which is often not at all; users seeing "fresh" data is priority).
 
 ## Expand Select
 
@@ -128,50 +121,13 @@ Or as a label
 
 ## Color Codes
 
-(see css file for current defintion)
+Colors are defined in style.css. Use variables in code - ``background-color: var(--arctoslightblue);`` not ``background-color: #F6F8FC;;``
 
-"Arctos blue": --arctosdarkblue
-
-ARCTOS BODY
-* --arctoslightblue
-
-TEXT
-* Fonts (all, including Section Label title): --arctosdarkblue
-* helpLinks and Hypertext --arctoslinkcolor
-* Hover text --arctoslinkhovercolor
-* Visited Hypertext --arctosvisitedlinkcolor
-
-
-QUERY BLOCK STRIPEY GRID
-* Color 1/odds (darker): --arctosdarkstripecolor
-* Color 2/evens (lighter): --arctoslightstripecolor
-
-HIGHLIGHTS
-* target: --arctoshighlightcolor
-
-BUTTONS
-* Search/Submit Query: input.schBtn #82B8EA 
-* Customize: input.cstmBtn #C9D2DC
-* Quit/Clear: input.qutBtn #FFFFFF
-* Choose/Pick: input.picBtn #A7E8FF
-* All/Link: input.lnkBtn #89B2C1
-* Save: input.savBtn #F5C03D
-* None/Delete: input.delBtn #f99f67
-
-FOOTER
-* SuperFooterDiv background #113d64 
-* MainFooterDiv background #BBD3DB
-
-BANNER/LOGIN Terms box
-* yellow: #5FC03D
 
 ## Logos
 
 Logos are in the images folder of the /ArctosDB/arctos-assets/ repository.
 
-## IPT Mapping
-
-* Adding New Terms - any time a new field is added to the Darwin Core Archive, that field MUST go at the end of the list, otherwise, all of the mappings that come after wherever it is added will be offset by one term and the data will fail to publish.
 
 ## last_usr and last_chg
 
