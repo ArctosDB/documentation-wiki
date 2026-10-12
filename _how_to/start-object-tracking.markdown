@@ -7,7 +7,8 @@ redirect_from:
   - /how_to/How-to-Start-Object-Tracking/
   - /how_to/how-to-start-object-tracking.html
   - /how_to/how-to-start-object-tracking/
-author(s): Kyndall Hildebrandt, Mariel Campbell, Teresa Mayfield-Meyer---
+author(s): Kyndall Hildebrandt, Mariel Campbell, Teresa Mayfield-Meyer
+---
 
 [Object Tracking Documentation]({% link _documentation/container.markdown %})
 
