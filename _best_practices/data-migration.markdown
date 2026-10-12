@@ -10,6 +10,8 @@ redirect_from:
 
 How data are migrated to Arctos depends on the state of the existing collection data as well as the size and scope of the collection. Arctos staff can provide a basic assessment for prospective collections on how simple or complex their data migration may be. That said, all data migrations require dedicated time from both Arctos and the staff at incoming collections. For more complex migrations, institutions should consider how to account for work related to data migration regardless of whether that work is performed by Arctos staff or by staff within the institution.
 
+{% include tip.html content="Throughout this page, we use highlight boxes such as this one–but colored purple–to call out data migration tasks for incoming Arctos members." %}
+
 ## Overview
 
 Data migration is centered on Catalog Records, since these are the primary form of record-keeping for collection objects in Arctos. There are two main ways to create Catalog Records in Arctos: via the Data Entry interface or via Bulkloading.
@@ -42,7 +44,7 @@ Arctos uses Google Drive and GitHub as project management tools. It is important
 For each incoming data migration project, the following resources will be set up:
 1. A folder for the member institution in the Data Migration directory of the Arctos Working Group Google Drive. This folder should be named with the institution code (e.g. “UCM”) and shared with the relevant collection contact(s).
 1. A Data Migration Plan as a Google Document in the Arctos Working Group Google Drive folder created above. The plan will be completed by the Data Migration Specialist in collaboration with staff from the incoming collection(s). A [template](https://docs.google.com/document/d/1mbHQj6jBrfvh72UC_QJgV091hG3MXnRmU0REezE63EA/edit?usp=drive_link) exists to use as a starting place.
-1. A GitHub project in the [Arctos Github Organization](https://github.com/orgs/ArctosDB/projects) for the member institution, using the [Onboarding and Data Migration project template](https://github.com/orgs/ArctosDB/projects/225).
+1. A GitHub project in the [Arctos Github Organization](https://github.com/orgs/ArctosDB) for the member institution, using the [Onboarding and Data Migration project template](https://github.com/orgs/ArctosDB/projects/225).
 
 Arctos has a [private GitHub repository designated for data migration issues](https://github.com/ArctosDB/data-migration). Access to this repo is restricted to Arctos members. This means files or information exchanged here are not publicly available, so collections can be less concerned about accidentally sharing sensitive or in-progress data. GitHub issues in this repository help with task management during data migration, and issue templates are available to streamline the process. GitHub issues and projects are optionally available as project management tools to any Arctos member, and essential for incoming collection(s) using Arctos staff (e.g. Data Migration Specialist) or community mentors to support their data migration.
 
@@ -68,13 +70,15 @@ _See also [How to Manage Collection Metadata](/how_to/manage-collection-metadata
 
 ### User management
 
-Arctos users who need access to edit data in your collection are called “operators.” Operators can be assigned permission for working (1) in specific collections, and (2) with specific types of data.
+Arctos users who need access to edit data in your collection are called “operators.” Operators can be assigned permission to work (1) in specific collections, and (2) with specific types of data.
 
 _See also [How To Create and Manage Your Arctos Team: Users and Operators](/how_to/create-your-arctos-team-users-and-operators)._
 
 {% include task.html content="At least one person at every Arctos institution should understand how to invite new users to become operators, grant permissions to operators, and manage operator access to their collections. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about user management in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/prepare-user-management.md)." %}
 
 ### Data crosswalk
+
+When an incoming collection has existing data in a digital format, doing a data crosswalk helps everyone involved understand how that data will map to concepts and fields in Arctos. Unless someone from the institution already has experience using Arctos, the crosswalk should be done by a Data Migration Specialist or other Arctos mentor. This is a good time to identify any conceptual issues that might complicate data migration, and for personnel from the incoming collection to begin to familiarize themselves with how Arctos works. Collections may have done a data crosswalk as part of decision-making process that resulted in joining Arctos; if so, that crosswalk will be a useful starting point to confirm mappings and go a level deeper on.
 
 ## Migrate Transactions
 
@@ -96,54 +100,92 @@ Agents in Arctos are people, organizations, groups, code, or any human entity th
 
 {% include task.html content="At least one person at every Arctos institution should have permission to manage Agents. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Agents in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/agents-learn-permission.md)." %}
 
-#### Find and tidy Agents in legacy data
+#### Find and tidy Agents in incoming data
 
-Data migration generally will require the addition of many Agents, which is better accomplished in bulk. Create a list of all people and organizations included in the data to be migrated–pull from fields for collectors, preparators, determiners, donors, publication authors, etc. Aggregating all Agent names into a single list will allow you to disambiguate, merge, and tidy your Agent names once versus duplicating these steps for multiple fields.
+Create a list of all people and organizations included in the data to be migrated–pull from fields for collectors, preparators, determiners, donors, publication authors, etc. You may want to consider data from all incoming collections at the same time, since Agents are frequently shared within an institution. Aggregating all Agent names into a single list will allow you to disambiguate, merge, and tidy your Agent names once versus duplicating these steps for multiple fields. Make sure to retain original spellings in your list, as you will need to modify your incoming data so that any name matches exactly on an existing Agent in Arctos. Whoever is reconciling and tidying Agent data for your collections is either expected to have the tools and knowledge to accomplish this, or to work closely with someone who does.
 
-Once you have a single list of names, review it for duplicates (e.g. alternate spellings of the same name, or versions of "unknown"). Try to make each name as complete as possible. Don't lose the original spellings/abbreviations as you will need to ensure they are either part of an Agent or are modified in your data to match an Agent name before you load your data.
+{% include faq.html content="_What does it mean that any name must match exactly on an existing Agent in Arctos?_ <br /> Arctos bulkload tools use exact strings to connect data in an uploaded file to Agent records, e.g. if Arctos sees 'Spencer Fullerton Baird' it will connect that to the record for [Spencer Fullerton Baird](https://arctos.database.museum/agent/21296110). Using the Agent's **preferred name** for matching is best, but any **aka** name can also be matched to, e.g. 'Spencer F. Baird' will also match to the appropriate Agent record. Keep in mind that Agent names do not need to be unique, and if you know that there are multiple Agents with the same name in Arctos you can also provide the Agent's stable identifier in lieu of a name string. See more in the [documentation here](https://arctos.database.museum/documentation/agent.html#pick)." %}
 
-Include any disambiguating information available, such as birth and death dates, addresses (including Wikidata, ORCiD, and Library of Congress), and relationships to other agents.
+Once you have a single list of names, create a new column for the cleaned up version of each name. Review your list for misspellings, duplicates (e.g. alternate spellings of the same name, or versions of "unknown"), etc. Try to make each name as complete as possible, ideally providing full first and last names. Include any disambiguating information available, such as birth and death dates, addresses (including Wikidata, ORCiD, and Library of Congress), and relationships to other Agents.
 
 Arctos has the following tools to help you prepare your data:
 - [Agent: Deconcatenator](https://arctos.database.museum/DataServices/agent_splitter.cfm) will attempt to separate multi-agent strings (e.g. "Jim Smith and John Doe") into individual Agents; it is almost always necessary to spend time manually reviewing and correcting the results before proceeding.
 - [Agent: Format Namestring](https://arctos.database.museum/DataServices/split_agent_namestring.cfm) will attempt to transform the format of individual Agent names into Arctos' preferred (and sometimes required) format.
 - [Agent: Name Splitter](https://arctos.database.museum/loaders/agentNameSplitter.cfm) will help build the file required for bulkloading.
 
-Use the Agent PreBulkload tool to help make decisions about which names in your list need to be added to Arctos Agents, which may require addition of information to an existing agent, and which might be better represented as a verbatim agent.
+#### Cross-reference incoming data with Agents in Arctos
 
-"Repatriation" - pushing cleaned versions of Agents back to the original (usually catalog record) data - will be necessary at multiple points in this process. The Pre-Bulkloader has tools to facilitate some of these, but others will be manual. Those using this process are expected to have the tools and knowledge to accomplish this, or to work closely with someone who does. A great deal of problems are caused by losing the ability to repatriate - the file being actively updated should always contain data which can be used to link the changed data back to the original.
+When your list is relatively tidy, use the [Agent Prebulkload]() tool to help make decisions about which names in your data (1) need to be added to Arctos as new Agents, (2) require information from your data to be added to an existing Arctos Agent, or (3) would be best represented as a [verbatim agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent). You may also want to search directly in Arctos for Agents you think may already exist.
 
-To modify a few existing agent agents, simply use the Arctos forms. For example, if you have "Some Random Agent" and "Some R. Agent" has been suggested, you could simply locate the "Some R. Agent" record in Arctos and modify it as necessary. Arctos loads records against all available data, so a new catalog record containing "Some Random Agent" will load to "Some R. Agent" as long as "Some R. Agent" contains alternate name (aka) "Some Random Agent" AND there are no other uses of "Some Random Agent" in any other agent profile.
+If you have only a few Agents to create or modify, use the [Arctos user interface](https://arctos.database.museum/agent.cfm). If you are dealing with many Agents, see the section on bulkloading directly below. Examples of information you might have in your own data that you want to add to existing Arctos Agents include:
+- relationships to other Agents, e.g. students of a certain professor, staff of an organization, etc.
+- years of birth or death
+- identifiers such as those from Wikidata, ORCiD, and Library of Congress
+- address information, even when broad (e.g. the state a person lived in)
+- public biographical notes
+- private curatorial notes, e.g. about behavior with loans
+
+_See also: [How to Search for Agents](/how_to/search-agents) and [How to Create Agents](/how_to/create-agents)._
+
+#### Bulkload Agent data
+
+Names in your data that should be added to Arctos as new Agents can be bulkloaded by someone with appropriate permissions (usually an Arctos staff member). The [Agent Prebulkload tool]() is essentially the same as the Agent Bulkload tool, so anyone can prepare data for bulkloading by running it through the Prebulkloader. If you only need to update information about existing Arctos Agents, you can so do using the [Agent Attribute Bulkloader]().
+
+_See also: [How to Prepare Agents for Bulkloading](/how_to/bulkload-agents)._
 
 ### Identifications
 
-Taxonomic names in Arctos are a shared resource controlled by a [code table](https://arctos.database.museum/taxonomy.cfm). Data migration generally will require the addition of many taxon names which is better accomplished in bulk. Create a list of all scientific names used to identify your specimens. This list should be in a single column of an Excel spreadsheet with the column header **scientific_name** and saved as a CSV. Review the list for alternate spellings and versions of "unidentifiable". Try to make each name as complete as possible and to ensure that there are no duplicates. Don't lose the original spellings/abbreviations as you will need to ensure they are modified in your data to match a Taxon name before data migration.
-
-Isolate the names that FAIL in the results from the [Taxon Name Checker](https://arctos.database.museum/loaders/taxon_name_check.cfm) and use the [GlobalNames Verifier](https://verifier.globalnames.org/) to help determine if they are names you should add to Arctos or if they are names that need to be corrected in your data. For names that need to be added, use the [Taxon Name: Bulkload Tool](https://arctos.database.museum/loaders/BulkloadTaxonomy.cfm) to add them. This allows you to use the names, but does not provide related classifications to continue with that see the Classifications step.
-
-{% include tip.html content="See also [How to Edit Taxon Records](/how_to/edit-taxa), [How to Create Linnaean Taxa](/how_to/create-taxa), and the documentation for [Taxonomy](/documentation/taxonomy)" %}
+Identifications are the link between Catalog records and Taxonomy in Arctos. Preparing identification data for migration involves checking whether or not the taxa referenced in your identifications already exist in Arctos or not. Where they do not, you can either create new Taxonomy records, correct your incoming data, or use a special formatting formula to mix Taxonomy with identification metadata.
 
 {% include task.html content="At least one person at every Arctos institution should have permission to manage Taxonomy. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Taxonomy in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/taxonomy-learn-permission.md)." %}
 
-#### Classifications
+#### Consolidate and tidy incoming identification data 
 
-For any names that were added in the previous data migration step, there will not be a related classification in any of the local Arctos taxonomy sources. You can also check after records have been loaded using [Tools Directory > Data Quality > Taxonomy: Find Gaps](https://arctos.database.museum/Reports/flat_taxonomy_gap.cfm) to see if you have any identifications without a related classification.
+Create a list of all identifications (i.e. scientific names for biological collections) used with your specimens. For biological collections data, the identification is sometimes spread across multiple columns/fields for different levels of taxonomy; if this is the case, consolidate data into a single column that contains the most specific level of identification regardless of Linnaean rank. Make sure to retain original spellings in your list, as you will need to modify your incoming data if you make any updates or corrections to the identifications. Whoever is reconciling and tidying identification data for your collections is either expected to have the tools and knowledge to accomplish this, or to work closely with someone who does. Once you have a single list of identifications, create a new column for the cleaned up version of each. Review your list for misspellings, duplicates (e.g. alternate spellings of the same name, or versions of "unidentifiable"), etc.
 
-For a small number of new names, these can be created manually. To create a large number of classifications, use the [Classification: Bulkload Tool](http://arctos.database.museum/tools/BulkloadClassification.cfm).
+#### Cross-reference incoming data with Taxonomy in Arctos
 
-{% include tip.html content="See also [How to Manage Taxonomic Classifications](/how_to/manage-taxonomic-classifications)" %}
+Taxonomic names in Arctos are a shared resource controlled by [Taxonomy](https://arctos.database.museum/taxonomy.cfm), which is essentially a robust code table. Wherever possible, your identifications should reference terms in Arctos Taxonomy to ensure data accuracy and make your Catalog records discoverable. Referencing Taxonomy is obvious for the majority of biological collections migrating into Arctos, where your identification might say "Didelphis marsupialis" and it should link to [Didelphis marsupialis](https://arctos.database.museum/name/Didelphis%20marsupialis). But Arctos Taxonomy also covers non-biological classification schemes such as the Nomenclature for Museum Cataloging for cultural objects, and mineral names for geology specimens.
+
+When your list of identifications is relatively tidy, use the [Taxon Name Checker](https://arctos.database.museum/loaders/taxon_name_check.cfm) tool to confirm whether or not a Taxonomy record exists for each identification. Where the tool finds an exact match, your incoming data are ready to migrate! Where the tool does not find an exact match, each identification will need either (1) a new Taxonomy record added to Arctos, (2) to be corrected in your data (e.g. for misspellings), or (3) to be formatted using one of Arctos' [formulas for complex identifications](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula). If you are dealing with scientific names, use the [GlobalNames Verifier](https://verifier.globalnames.org) to help determine the next step for each of your unmatched identifications. GlobalNames searches against multiple taxonomic sources to try and find the scientific names you provide, and the results it provides will highlight valid names vs. misspellings vs. formatting issues. For any identifications that GlobalNames also cannot find, you may need to search other taxonomic resources and/or more manually.
+
+{% include tip.html content="The GlobalNames Verifier is an even more powerful tool when used as a reconciliation service in OpenRefine–[learn more about how to do that here](https://github.com/gnames/gnverifier/wiki/OpenRefine-readme)!" %}
+
+After updating any identifications in your data that were misspelled or otherwise needed to be corrected, address identifications that need to use one of Arctos' [formulas for complex identifications](https://arctos.database.museum/info/ctDocumentation.cfm?table=cttaxa_formula). These commonly include hybrids and less-certain identifications. Next, figure out which of the identifications left are appropriate to add as new Taxonomy records in Arctos (see next section). Whatever  identifications remain can be migrated using the "A {string}" format, which is one of the options for complex identifications. For any identification using an Arctos formula, make sure to adjust your data to follow the formula format.
+
+_See also: [How to Use Complex Identifications](/how_to/use-complex-identifications), [How to Use Complex Identifications as Low-quality Data Flags](/how_to/use-complex-identifications-as-low-quality-data-flags) and the documentation for [Identification](/documentation/identification)._
+
+#### Create new Taxonomy records
+
+Arctos Taxonomy is built based on demand, so it isn't comprehensive and most data migrations will result in the creation of new Taxonomy records. If you have only a few new taxa to add, use the [Arctos user interface](https://arctos.database.museum/taxonomy.cfm). From the user interface you can create a new taxon record and its associated taxonomic classification very easily by [cloning an existing classification from a related name](/how_to/create-taxa), e.g. adding a new species to an existing genus.
+
+If you have many taxa that need to be added to accommodate your identifications, use the [Taxon Name: Bulkload](https://arctos.database.museum/loaders/BulkloadTaxonomy.cfm) tool to add them. Any Taxonomy records created with this tool also need classifications created, which you can do using the [Classification: Bulkload](http://arctos.database.museum/tools/BulkloadClassification.cfm) tool. Remember that Taxonomy is a shared resource in Arctos and any new records you add should be verified and accurate! If in doubt, use the "A {string}" format over creating a new Taxonomy record.
+
+{% include tip.html content="Once your data are migrated, you can use the [Taxonomy: Find Gaps](https://arctos.database.museum/Reports/flat_taxonomy_gap.cfm) tool to see if you have any identifications without a related classification." %}
+
+_See also: [How to Edit Taxon Records](/how_to/edit-taxa), [How to Create Linnaean Taxa](/how_to/create-taxa), [How to Manage Taxonomic Classifications](/how_to/manage-taxonomic-classifications), and the documentation for [Taxonomy](/documentation/taxonomy)._
 
 ### Places and events
 
+_[PENDING CONTENT]_
+
+_See also [How to Understand the Arctos Locality Model](/how_to/understand-the-arctos-locality-model), [How to Create a Locality](/how_to/create-a-locality), and the documentation for [Locality](/documentation/locality)._
+
+{% include task.html content="At least one person at every Arctos institution should have permission to manage Localities. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Localities in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/locality-learn-permission.md)." %}
+
 #### Higher Geography
+
+_[CONTENT IS DRAFT]_
 
 Higher geography is a combination of terms delineating geopolitical and physical units on the surface of the Earth and is controlled by a [code table](https://arctos.database.museum/place.cfm?sch=geog). To ensure that your data will load properly, it is important to make sure that higher geography is extracted from locality as HIGHER_GEOG in your migration data and that it matches values in the code table. If you need new terms added, contact your mentor or post issues to GitHub.
 
 https://arctos.database.museum/DataServices/geog_lookup.cfm
 
-{% include tip.html content="See also the documentation for [Higher Geography](/documentation/higher-geography)" %}
+_See also the documentation for [Higher Geography](/documentation/higher-geography)._
 
 #### Localities
+
+_[CONTENT IS DRAFT]_
 
 Localities are a shared resource in Arctos. Always be cautious if a locality applies to specimens outside of your collection and make sure that any edits to a shared locality are discussed with sharing collections.
 
@@ -152,7 +194,7 @@ Localities may be treated in several different ways.
 1. If you have many specimens from a single specific locality, you may want to manually create that locality and use the locality id in your bulkload file.
 1. You can also bulkload your data with the localities you have entered, but beware, localities that are exactly alike should load as a single locality shared by many specimens, but just one little difference (a capital letter or period, for example) will create two localities when you think there is only one.  These can be merged later, if you find them.
 
-In some cases, it may be beneficial to migrate locality data before catalog records. For example, if a collection uses standard or named localities or wishes to encumber locality information. If this seems like a better path for the data, you may wish to explore the [Bulkload Locality Tool](https://arctos.database.museum/tools/bulkloadLocality.cfm).
+In some cases, it may be beneficial to migrate locality data before catalog records. For example, if a collection uses standard or named localities or wishes to encumber locality information. If this seems like a better path for the data, you may wish to explore the [Bulkload Locality](https://arctos.database.museum/tools/bulkloadLocality.cfm) tool.
 
 Even if localities are not created in advance, it may pay to review the localities that are associated with incoming data in order to standardize them. This could mean re-ordering information so that two currently different localities are now the same:
 
@@ -180,49 +222,67 @@ Finally, cleaning up specific locality is encouraged:
 - add context (e.g. N/S/E/W of ___ vs N)
 - Remove non-printing or extraneous characters (e.g. �)
 
-{% include tip.html content="See also [How to Understand the Arctos Locality Model](/how_to/understand-the-arctos-locality-model), [How to Create a Locality](/how_to/create-a-locality), and the documentation for [Locality](/documentation/locality)" %}
-
-{% include task.html content="At least one person at every Arctos institution should have permission to manage Localities. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Localities in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/locality-learn-permission.md)." %}
-
 ### Parts
-
-Part names, record attributes, part attributes and locality attributes along with other data recorded in Arctos are controlled by code tables. Any of these types of data that are represented in the data to be migrated need to be mapped to terms in the appropriate Arctos code table. If you need new terms added, contact your mentor or post issues to GitHub.
 
 Part (object descriptions) names must match to the available parts vocabulary in Arctos. Each collection type has a unique set of available part names. If you need to add a part name, you will need to request it and provide a definition for the part.
 
 Attributes must match to the available attributes in Arctos. Each collection type has a unique set of available attributes. If you need to add an attribute, you will need to request it and possibly provide a controlled vocabulary for the attribute value (for example, sex is the attribute, with possible values of male, female, etc.).
 
+_[PENDING CONTENT]_
+
 ### Catalog record attributes
 
-### Object tracking
-Object tracking is a powerful tool that allows Arctos collections to track the physical location of parts. Planning for object tracking before migration  is encouraged, however, object tracking can be established at any time. 
+_[PENDING CONTENT]_
 
-{% include tip.html content="See also [How to Start Object Tracking](/how_to/start-object-tracking), [How to Create and Edit Containers](/how_to/create-and-edit-containers), and the documentation for [Container](/documentation/container)" %}
+### Object tracking
+Object tracking is a powerful tool that allows Arctos collections to track the physical location of parts. Planning for object tracking before migration is encouraged, however, object tracking can be established at any time. 
+
+_[PENDING CONTENT]_
+
+_See also [How to Start Object Tracking](/how_to/start-object-tracking), [How to Create and Edit Containers](/how_to/create-and-edit-containers), and the documentation for [Container](/documentation/container)._
 
 {% include task.html content="At least one person at every Arctos institution should have permission to manage Containers. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Localities in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/locality-learn-permission.md)." %}
 
 ## Migrate catalog records
-Once your data has been tidied and matched to Arctos Code Tables and other resources, you can build a bulkload file.
+
+_[PENDING CONTENT]_
 
 ### Bulkload as a single dataset
 
+_[PENDING CONTENT]_
+
 ### Bulkload different record types separately
+
+_[PENDING CONTENT]_
 
 https://arctos.database.museum/Bulkloader/bulkloaderBuilder.cfm
 
-{% include tip.html content="See also [How to Bulkload Catalog Records](/how_to/bulkload-catalog-records)" %}
+_See also [How to Bulkload Catalog Records](/how_to/bulkload-catalog-records)._
 
 ## Migrate Media
 
 ### File storage and access
 
+_[PENDING CONTENT]_
+
 ### Bulkload media records
 
-{% include tip.html content="See also [How to Create Media](/how_to/create-media-images), and the documentation for [Media](/documentation/media)" %}
+_[PENDING CONTENT]_
+
+_[PENDING CONTENT]_
+
+_See also [How to Create Media](/how_to/create-media-images), and the documentation for [Media](/documentation/media)._
 
 {% include task.html content="At least one person at every Arctos institution should have permission to manage Media. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Media in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/locality-learn-permission.md)." %}
 
+## Migrate Citations
+
+_[PENDING CONTENT]_
+
+## Create Reports
+
+_[PENDING CONTENT]_
 
 ## Publish to data aggregators
-Once your records are in Arctos, you may wish to publish them to the Global Biodiversity Information Facility (GBIF) or the Global Genome Biodiversity Network (GGBN).
 
+_[PENDING CONTENT]_
