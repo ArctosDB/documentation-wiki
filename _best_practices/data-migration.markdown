@@ -111,11 +111,10 @@ Once you have a single list of names, create a new column for the cleaned up ver
 Arctos has the following tools to help you prepare your data:
 - [Agent: Deconcatenator](https://arctos.database.museum/DataServices/agent_splitter.cfm) will attempt to separate multi-agent strings (e.g. "Jim Smith and John Doe") into individual Agents; it is almost always necessary to spend time manually reviewing and correcting the results before proceeding.
 - [Agent: Format Namestring](https://arctos.database.museum/DataServices/split_agent_namestring.cfm) will attempt to transform the format of individual Agent names into Arctos' preferred (and sometimes required) format.
-- [Agent: Name Splitter](https://arctos.database.museum/loaders/agentNameSplitter.cfm) will help build the file required for bulkloading.
 
 #### Cross-reference incoming data with Agents in Arctos
 
-When your list is relatively tidy, use the [Agent Prebulkload]() tool to help make decisions about which names in your data (1) need to be added to Arctos as new Agents, (2) require information from your data to be added to an existing Arctos Agent, or (3) would be best represented as a [verbatim agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent). You may also want to search directly in Arctos for Agents you think may already exist.
+When your list is relatively tidy, use the [Agent: Pre-Bulkload](https://arctos.database.museum/loaders/pre_bulkload_agents.cfm) tool to help make decisions about which names in your data (1) need to be added to Arctos as new Agents, (2) require information from your data to be added to an existing Arctos Agent, or (3) would be best represented as a [verbatim agent](https://arctos.database.museum/info/ctDocumentation.cfm?table=ctattribute_type#verbatim_agent). You may also want to search directly in Arctos for Agents you think may already exist.
 
 If you have only a few Agents to create or modify, use the [Arctos user interface](https://arctos.database.museum/agent.cfm). If you are dealing with many Agents, see the section on bulkloading directly below. Examples of information you might have in your own data that you want to add to existing Arctos Agents include:
 - relationships to other Agents, e.g. students of a certain professor, staff of an organization, etc.
@@ -129,7 +128,7 @@ _See also: [How to Search for Agents](/how_to/search-agents) and [How to Create 
 
 #### Bulkload Agent data
 
-Names in your data that should be added to Arctos as new Agents can be bulkloaded by someone with appropriate permissions (usually an Arctos staff member). The [Agent Prebulkload tool]() is essentially the same as the Agent Bulkload tool, so anyone can prepare data for bulkloading by running it through the Prebulkloader. If you only need to update information about existing Arctos Agents, you can so do using the [Agent Attribute Bulkloader]().
+Names in your data that should be added to Arctos as new Agents can be bulkloaded by someone with appropriate permissions (usually an Arctos staff member). The [Agent: Pre-Bulkload](https://arctos.database.museum/loaders/pre_bulkload_agents.cfm) tool is essentially the same as the Agent Bulkload tool, so anyone can prepare data for bulkloading by running it through the Pre-bulkloader. If you only need to update information about existing Arctos Agents, you can so do using the [Agent: Bulk-add data](https://arctos.database.museum/loaders/BulkloadAgentAttributes.cfm) tool.
 
 _See also: [How to Prepare Agents for Bulkloading](/how_to/bulkload-agents)._
 
@@ -194,7 +193,7 @@ Localities may be treated in several different ways.
 1. If you have many specimens from a single specific locality, you may want to manually create that locality and use the locality id in your bulkload file.
 1. You can also bulkload your data with the localities you have entered, but beware, localities that are exactly alike should load as a single locality shared by many specimens, but just one little difference (a capital letter or period, for example) will create two localities when you think there is only one.  These can be merged later, if you find them.
 
-In some cases, it may be beneficial to migrate locality data before catalog records. For example, if a collection uses standard or named localities or wishes to encumber locality information. If this seems like a better path for the data, you may wish to explore the [Bulkload Locality](https://arctos.database.museum/tools/bulkloadLocality.cfm) tool.
+In some cases, it may be beneficial to migrate locality data before catalog records. For example, if a collection uses standard or named localities or wishes to encumber locality information. If this seems like a better path for the data, you may wish to explore the [Locality: Bulkload](https://arctos.database.museum/tools/bulkloadLocality.cfm) tool.
 
 Even if localities are not created in advance, it may pay to review the localities that are associated with incoming data in order to standardize them. This could mean re-ordering information so that two currently different localities are now the same:
 
