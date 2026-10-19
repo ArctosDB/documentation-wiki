@@ -1,11 +1,13 @@
 ---
 title: Migrating Data into Arctos
 authors: Teresa J. Mayfield-Meyer, Erica R. Krimmel
-date_updated: 2026-07-31
+date_updated: 2026-10-19
 status: draft
 redirect_from:
   - /how_to/data_migration.html
   - /how_to/data_migration/
+  - /how_to/data-migration.html
+  - /how_to/data-migration/
 ---
 
 How data are migrated to Arctos depends on the state of the existing collection data as well as the size and scope of the collection. Arctos staff can provide a basic assessment for prospective collections on how simple or complex their data migration may be. That said, all data migrations require dedicated time from both Arctos and the staff at incoming collections. For more complex migrations, institutions should consider how to account for work related to data migration regardless of whether that work is performed by Arctos staff or by staff within the institution.
