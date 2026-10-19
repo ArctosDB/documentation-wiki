@@ -52,7 +52,7 @@ Arctos has a [private GitHub repository designated for data migration issues](ht
 
 _See also [How to Get Started in Github for Arctos](/how_to/use-github-for-Arctos) and [How to Create and Manage Github Issues for Arctos](/how_to/use-issues-in-Arctos)._
 
-{% include task.html content="If you are a new Arctos user, you will typically be assigned a GitHub issue to [Set up your GitHub for Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/admin-set-up-github.md)" %}
+{% include task.html content="If you are a new Arctos user, you will typically be assigned a GitHub issue to [Set up your GitHub for Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/04-admin-set-up-github.md)" %}
 
 ## Prepare for migration
 
@@ -60,7 +60,7 @@ The [Arctos Handbook](https://handbook.arctosdb.org/) and the [Learn Arctos](htt
 
 _See also documentation on [Sharing Data and Resources](/documentation/sharing-data-and-resources) and [Understanding Cataloged Items](/documentation/catalog#understanding-cataloged-items)._
 
-{% include task.html content="If you are a new Arctos user, you will typically be assigned a GitHub issue to [Learn about shared data in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/prepare-shared-data.md)" %}
+{% include task.html content="If you are a new Arctos user, you will typically be assigned a GitHub issue to [Learn about shared data in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/06-prepare-shared-data.md)" %}
 
 ### Collection-level metadata
 
@@ -68,7 +68,7 @@ Administrative metadata about collections is presented on the [Arctos Collection
 
 _See also [How to Manage Collection Metadata](/how_to/manage-collection-metadata) and [How to Apply Licensing and Terms](/how_to/apply-licensing-and-terms)._
 
-{% include task.html content="You will be assigned one or more GitHub issues to [Review and complete collection metadata record(s)](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/prepare-collection-metadata.md), depending on how many collections you are setting up" %}
+{% include task.html content="You will be assigned one or more GitHub issues to [Review and complete collection metadata record(s)](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/08-prepare-collection-metadata.md), depending on how many collections you are setting up" %}
 
 ### User management
 
@@ -76,7 +76,7 @@ Arctos users who need access to edit data in your collection are called “opera
 
 _See also [How To Create and Manage Your Arctos Team: Users and Operators](/how_to/create-your-arctos-team-users-and-operators)._
 
-{% include task.html content="At least one person at every Arctos institution should understand how to invite new users to become operators, grant permissions to operators, and manage operator access to their collections. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about user management in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/prepare-user-management.md)." %}
+{% include task.html content="At least one person at every Arctos institution should understand how to invite new users to become operators, grant permissions to operators, and manage operator access to their collections. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about user management in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/07-prepare-operator-permission.md)." %}
 
 ### Data crosswalk
 
@@ -92,7 +92,7 @@ Permits and loans can also be migrated into Arctos, depending on the preference 
 
 _See also: documentation for [Permits](/documentation/permits) and [Loans](/documentation/loans), [How to Create and Edit Permits](/how_to/create-a-permit), [How to Create a New Loan](/how_to/create-a-new-loan), and [How to Bulkload Loans](/how_to/bulkload-legacy-loans)._
 
-{% include task.html content="At least one person at every Arctos institution should have permission to manage Transactions. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Transactions in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/transactions-learn-permission.md)." %}
+{% include task.html content="At least one person at every Arctos institution should have permission to manage Transactions. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Transactions in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/11-transactions-permission.md)." %}
 
 ## Reconcile and tidy data
 
@@ -100,7 +100,7 @@ _See also: documentation for [Permits](/documentation/permits) and [Loans](/docu
 
 Agents in Arctos are people, organizations, groups, code, or any entity that performs actions.  They are recorded in every area of collections management, thus need to be the first data entered into Arctos. Migrating agents can be very time intensive, but the payoff is having detailed concepts for people and organizations that provide appropriate credit for their actions and a basis for trust. Agents may be added individually or in bulk, but either way a diligent effort should be made to ensure that duplicate agents are minimized and any new Agents include enough information to disambiguate them from anyone with a similar name. Agents are a shared resource in Arctos; familiarize yourself and follow our [best practices for Creating Meaningful Agents]({% link _best_practices/agents.markdown %}).
 
-{% include task.html content="At least one person at every Arctos institution should have permission to manage Agents. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Agents in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/agents-learn-permission.md)." %}
+{% include task.html content="At least one person at every Arctos institution should have permission to manage Agents. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Agents in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/14-agents-permission.md)." %}
 
 #### Find and tidy Agents in incoming data
 
@@ -138,7 +138,7 @@ _See also: [How to Prepare Agents for Bulkloading](/how_to/bulkload-agents)._
 
 Identifications are the link between Catalog records and Taxonomy in Arctos. Preparing identification data for migration involves checking whether or not the taxa referenced in your identifications already exist in Arctos. Where they do not, you can either create new Taxonomy records, correct your incoming data, or use a special formatting formula to mix Taxonomy with identification metadata.
 
-{% include task.html content="At least one person at every Arctos institution should have permission to manage Taxonomy. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Taxonomy in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/taxonomy-learn-permission.md)." %}
+{% include task.html content="At least one person at every Arctos institution should have permission to manage Taxonomy. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Taxonomy in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/16-identifications-taxonomy-permission.md)." %}
 
 #### Consolidate and tidy incoming identification data 
 
@@ -172,7 +172,7 @@ _[PENDING CONTENT]_
 
 _See also [How to Understand the Arctos Locality Model](/how_to/understand-the-arctos-locality-model), [How to Create a Locality](/how_to/create-a-locality), and the documentation for [Locality](/documentation/locality)._
 
-{% include task.html content="At least one person at every Arctos institution should have permission to manage Localities. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Localities in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/locality-learn-permission.md)." %}
+{% include task.html content="At least one person at every Arctos institution should have permission to manage Localities. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Localities in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/18-places-locality-permission.md)." %}
 
 #### Higher Geography
 
@@ -242,7 +242,7 @@ _[PENDING CONTENT]_
 
 _See also [How to Start Object Tracking](/how_to/start-object-tracking), [How to Create and Edit Containers](/how_to/create-and-edit-containers), and the documentation for [Container](/documentation/container)._
 
-{% include task.html content="At least one person at every Arctos institution should have permission to manage Containers. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Localities in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/locality-learn-permission.md)." %}
+{% include task.html content="At least one person at every Arctos institution should have permission to manage Containers. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Object Tracking in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/22-object-tracking-permissions.md)." %}
 
 ## Migrate catalog records
 
@@ -274,7 +274,7 @@ _[PENDING CONTENT]_
 
 _See also [How to Create Media](/how_to/create-media-images), and the documentation for [Media](/documentation/media)._
 
-{% include task.html content="At least one person at every Arctos institution should have permission to manage Media. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Media in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/locality-learn-permission.md)." %}
+{% include task.html content="At least one person at every Arctos institution should have permission to manage Media. Anyone who should be given this permission will be assigned a GitHub issue to [Learn about Media in Arctos](https://github.com/ArctosDB/data-migration/blob/master/.github/ISSUE_TEMPLATE/25-media-permission.md)." %}
 
 ## Migrate Citations
 
