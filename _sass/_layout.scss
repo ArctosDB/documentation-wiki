@@ -378,12 +378,17 @@ aside>#search-container.form {
   }
 
   &.caution {
-    background: #fff8e1;
+    background: #fde8e8;
   }
 
   &.faq {
     background: #e8f4fd;
   }
+
+  &.task {
+    background: #f3e8fd;
+  }
+
 }
 
 

@@ -79,16 +79,23 @@ To reference another page within this site, following this example code snippet,
 [link text]({% link _how_to/page-name.markdown %})
 ```
 
+You can also link to navigation sections within a page. Format by converting the title of the navigation section into lowercase and replace spaces with hyphens, e.g.:
+
+```liquid
+[link text]({% link _how_to/page-name.markdown %}#section-title)
+```
+
 Linking pages this way is more resilient than hard-coding links by including the full URL.
 
 #### Highlight boxes
 
-Use highlight boxes to call out tips, cautions, and frequently asked questions inline in your content.
+Use highlight boxes to call out tips, cautions, and frequently asked questions inline in your content. We also have a special highlight box to point out when there is a relevant GitHub issue template, e.g. for a task related to this content.
 
 ```liquid
 {% include tip.html content="Your tip text here." %}
 {% include caution.html content="Watch out for this." %}
 {% include faq.html content="Commonly asked question and answer." %}
+{% include task.html content="Check out this related GitHub issue template." %}
 ```
 
 Content supports Markdown, including links:

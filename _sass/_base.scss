@@ -22,7 +22,7 @@ figure {
 
 
 // ── Body ─────────────────────────────────────────────────────────────────────
-// Base font, color, and kerning. Variables defined in _variables.scss (or main.scss).
+// Base font, color, and kerning. Variables defined in main.scss
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -79,11 +79,15 @@ ol {
 }
 
 li {
-
+    margin-bottom: 0.5em;
     >ul,
     >ol {
         margin-bottom: 0;
     }
+}
+
+.nav-container li {
+  margin-bottom: 0; // or whatever spacing looks right for the nav
 }
 
 
