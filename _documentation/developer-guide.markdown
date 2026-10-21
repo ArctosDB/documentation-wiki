@@ -58,6 +58,11 @@ NOTE: Some csv tools will not maintain suggested order, and Arctos JSON (PG data
     * newWinLocal-->"info" image appended, open in new window (use for links to arctos.museum information pages such as code tables)
        * do not use, needs deprecated
 
+
+### Includes
+
+Files in /images and /includes are cached on the proxy. To force refresh, use a new URL eg ``src="/includes/file.js?v1``
+
 ### CSS
 
 * Use /includes/style.css for styling
