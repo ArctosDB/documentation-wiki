@@ -9,8 +9,13 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: pages-preview
+  cancel-in-progress: true
+
 jobs:
   build:
+    if: github.repository == 'ekrimmel/arctos-handbook'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,7 +28,7 @@ jobs:
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
