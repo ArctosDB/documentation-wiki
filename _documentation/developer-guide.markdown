@@ -25,6 +25,10 @@ Write code as if Arctos had a very restrictive Content Security Policy.
 
 Do not write (or make significant updates to) application UI which connects directly to the database; all UI interaction should go through an API.
 
+### Time
+
+NOTE: The DB is not under our control, and the time is never correct. Keep time-based operations confined to one side or the other, never compare application and DB times, it'll just break something.
+
 ### Displaying Attributes
 
 When possible, attribute UI components should be displayed in the order:
